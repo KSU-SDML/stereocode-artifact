@@ -1,328 +1,328 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"Activation","empty","Activation::Activation","constructor",
-"std::hash<Key>","boundary degenerate small-class","operator()","wrapper stateless",
-"AppleTerminal","boundary degenerate small-class","name","collaborator incidental",
-"AppleTerminal","boundary degenerate small-class","run","wrapper stateless",
-"iTerm","boundary degenerate small-class","name","collaborator incidental",
-"iTerm","boundary degenerate small-class","run","wrapper stateless",
-"ExecutableTerminal","data-provider boundary small-class","ExecutableTerminal","constructor",
-"ExecutableTerminal","data-provider boundary small-class","name","get collaborator",
-"ExecutableTerminal","data-provider boundary small-class","run","void-accessor collaborator",
-"GlobalQueryHandlerPrivate","empty","GlobalQueryHandlerPrivate","constructor",
-"AppQueryHandler","empty","AppQueryHandler::AppQueryHandler","constructor",
-"IconProvider","entity boundary","IconProvider::IconProvider","constructor",
-"IconProvider","entity boundary","IconProvider::getPixmap","property collaborator",
-"IconProvider","entity boundary","IconProvider::getPixmap","property collaborator",
-"IconProvider","entity boundary","IconProvider::clearCache","command collaborator",
-"ExtensionPlugin","unclassified","ExtensionPlugin::id","property collaborator",
-"ExtensionPlugin","unclassified","ExtensionPlugin::name","property collaborator",
-"ExtensionPlugin","unclassified","ExtensionPlugin::description","property collaborator",
-"ExtensionPlugin","unclassified","ExtensionPlugin::initialize","controller",
-"ExtensionPlugin","unclassified","ExtensionPlugin::finalize","controller",
-"Plugin","data-provider boundary","Plugin::Plugin","copy-constructor",
-"Plugin","data-provider boundary","Plugin::path","property collaborator",
-"Plugin","data-provider boundary","Plugin::isUser","predicate",
-"Plugin","data-provider boundary","Plugin::isEnabled","get",
-"Plugin","data-provider boundary","Plugin::setEnabled","command",
-"Plugin","data-provider boundary","Plugin::state","get collaborator",
-"Plugin","data-provider boundary","Plugin::stateInfo","get collaborator",
-"Plugin","data-provider boundary","Plugin::setState","command collaborator",
-"Plugin","data-provider boundary","Plugin::localStateString","property wrapper",
-"Plugin","data-provider boundary","Plugin::instance","get collaborator",
-"Plugin","data-provider boundary","Plugin::load","property non-void-command collaborator",
-"Plugin","data-provider boundary","Plugin::unload","property non-void-command collaborator",
-"Plugin","data-provider boundary","Plugin::id","property collaborator",
-"Plugin","data-provider boundary","Plugin::metaData","property collaborator",
-"Plugin","data-provider boundary","Plugin::transitiveDependencies","property controller",
-"Plugin","data-provider boundary","Plugin::transitiveDependees","property controller",
-"QueryEngine","boundary","QueryEngine::QueryEngine","constructor",
-"QueryEngine","boundary","QueryEngine::query","property controller",
-"QueryEngine","boundary","QueryEngine::runEmptyQuery","get",
-"QueryEngine","boundary","QueryEngine::setRunEmptyQuery","set",
-"QueryEngine","boundary","QueryEngine::triggerHandlers","property non-void-command collaborator",
-"QueryEngine","boundary","QueryEngine::activeTriggerHandlers","get collaborator",
-"QueryEngine","boundary","QueryEngine::updateActiveTriggers","command",
-"QueryEngine","boundary","QueryEngine::saveFallbackOrder","unclassified",
-"QueryEngine","boundary","QueryEngine::loadFallbackOrder","command collaborator",
-"QueryEngine","boundary","QueryEngine::onAdd","void-accessor command collaborator",
-"QueryEngine","boundary","QueryEngine::onRem","command collaborator",
-"QueryEngine","boundary","QueryEngine::isEnabled","predicate collaborator",
-"QueryEngine","boundary","QueryEngine::setEnabled","void-accessor command",
-"QueryEngine","boundary","QueryEngine::setTrigger","void-accessor command collaborator",
-"QueryEngine","boundary","QueryEngine::fuzzy","controller stateless",
-"QueryEngine","boundary","QueryEngine::setFuzzy","controller stateless",
-"QueryEngine","boundary","QueryEngine::globalHandlers","property non-void-command collaborator",
-"QueryEngine","boundary","QueryEngine::isEnabled","predicate collaborator",
-"QueryEngine","boundary","QueryEngine::setEnabled","void-accessor command",
-"QueryEngine","boundary","QueryEngine::onAdd","void-accessor command collaborator",
-"QueryEngine","boundary","QueryEngine::onRem","command collaborator",
-"QueryEngine","boundary","QueryEngine::fallbackHandlers","property non-void-command collaborator",
-"QueryEngine","boundary","QueryEngine::fallbackOrder","get collaborator",
-"QueryEngine","boundary","QueryEngine::setFallbackOrder","set collaborator",
-"QueryEngine","boundary","QueryEngine::isEnabled","predicate collaborator",
-"QueryEngine","boundary","QueryEngine::setEnabled","void-accessor command",
-"QueryEngine","boundary","QueryEngine::onAdd","void-accessor command collaborator",
-"QueryEngine","boundary","QueryEngine::onRem","command collaborator",
-"BackgroundExecutor","unclassified","onFinish","command",
-"BackgroundExecutor","unclassified","run_","property set collaborator",
-"BackgroundExecutor","unclassified","BackgroundExecutor","constructor",
-"BackgroundExecutor","unclassified","~BackgroundExecutor","destructor",
-"BackgroundExecutor","unclassified","run","command",
-"BackgroundExecutor","unclassified","isRunning","predicate",
-"RankItem","empty","albert::RankItem::RankItem","constructor",
-"StringMatch","empty","StringMatch","constructor",
-"QueryBase","entity boundary","QueryBase::QueryBase","constructor",
-"QueryBase","entity boundary","QueryBase::run","command",
-"QueryBase","entity boundary","QueryBase::cancel","set",
-"QueryBase","entity boundary","QueryBase::isFinished","predicate",
-"QueryBase","entity boundary","QueryBase::isTriggered","wrapper stateless",
-"QueryBase","entity boundary","QueryBase::matches","property collaborator",
-"QueryBase","entity boundary","QueryBase::fallbacks","property collaborator",
-"QueryBase","entity boundary","QueryBase::activateMatch","command collaborator",
-"QueryBase","entity boundary","QueryBase::activateFallback","command collaborator",
-"QueryBase","entity boundary","QueryBase::runFallbackHandlers","command collaborator",
-"PluginsWidget","commander boundary small-class","PluginsWidget::PluginsWidget","constructor",
-"PluginsWidget","commander boundary small-class","PluginsWidget::tryShowPluginSettings","command collaborator",
-"PluginsWidget","commander boundary small-class","PluginsWidget::onUpdatePluginWidget","command collaborator",
-"TrayIcon","commander small-class","TrayIcon::TrayIcon","constructor",
-"TrayIcon","commander small-class","TrayIcon::setVisible","command",
-"StandardItem","boundary","StandardItem::StandardItem","constructor",
-"StandardItem","boundary","StandardItem::setId","set collaborator",
-"StandardItem","boundary","StandardItem::setText","set collaborator",
-"StandardItem","boundary","StandardItem::setSubtext","set collaborator",
-"StandardItem","boundary","StandardItem::setInputActionText","set collaborator",
-"StandardItem","boundary","StandardItem::setIconUrls","set collaborator",
-"StandardItem","boundary","StandardItem::setActions","set collaborator",
-"StandardItem","boundary","StandardItem::id","get collaborator",
-"StandardItem","boundary","StandardItem::text","get collaborator",
-"StandardItem","boundary","StandardItem::subtext","get collaborator",
-"StandardItem","boundary","StandardItem::inputActionText","get collaborator",
-"StandardItem","boundary","StandardItem::iconUrls","get collaborator",
-"StandardItem","boundary","StandardItem::actions","get collaborator",
-"StandardItem","boundary","StandardItem::make","wrapper stateless",
-"StandardItem","boundary","StandardItem::make","wrapper stateless",
-"PluginInstance","data-provider boundary","PluginInstance::PluginInstance","constructor",
-"PluginInstance","data-provider boundary","PluginInstance::~PluginInstance","destructor",
-"PluginInstance","data-provider boundary","PluginInstance::id","property collaborator",
-"PluginInstance","data-provider boundary","PluginInstance::name","property collaborator",
-"PluginInstance","data-provider boundary","PluginInstance::description","property collaborator",
-"PluginInstance","data-provider boundary","albert::PluginInstance::cacheDir","property collaborator",
-"PluginInstance","data-provider boundary","albert::PluginInstance::configDir","property collaborator",
-"PluginInstance","data-provider boundary","albert::PluginInstance::dataDir","property collaborator",
-"PluginInstance","data-provider boundary","albert::PluginInstance::settings","property collaborator",
-"PluginInstance","data-provider boundary","albert::PluginInstance::state","property collaborator",
-"PluginInstance","data-provider boundary","PluginInstance::initialize","empty",
-"PluginInstance","data-provider boundary","PluginInstance::finalize","empty",
-"PluginInstance","data-provider boundary","PluginInstance::buildConfigWidget","collaborator incidental",
-"FallbacksModel","entity boundary","FallbacksModel::FallbacksModel","constructor",
-"FallbacksModel","entity boundary","FallbacksModel::updateFallbackList","command collaborator",
-"FallbacksModel","entity boundary","FallbacksModel::rowCount","property",
-"FallbacksModel","entity boundary","FallbacksModel::columnCount","incidental",
-"FallbacksModel","entity boundary","FallbacksModel::data","property collaborator",
-"FallbacksModel","entity boundary","FallbacksModel::headerData","property collaborator",
-"FallbacksModel","entity boundary","FallbacksModel::flags","property collaborator",
-"FallbacksModel","entity boundary","FallbacksModel::supportedDropActions","collaborator incidental",
-"FallbacksModel","entity boundary","FallbacksModel::dropMimeData","predicate non-void-command",
-"FallbacksModel","entity boundary","FallbacksModel::moveRows","predicate non-void-command collaborator",
-"App","commander","App::App","constructor",
-"App","commander","App::initialize","command",
-"App","commander","App::finalize","command",
-"App","commander","App::instance","incidental",
-"App","commander","App::loadAnyFrontend","command collaborator",
-"Hotkey","entity boundary","Hotkey::Hotkey","constructor",
-"Hotkey","entity boundary","Hotkey::hotkey","property collaborator",
-"Hotkey","entity boundary","Hotkey::setHotkey","predicate non-void-command collaborator",
-"Hotkey","entity boundary","Hotkey::isPlatformSupported","predicate non-void-command",
-"IndexQueryHandler","unclassified","IndexQueryHandler::IndexQueryHandler","constructor",
-"IndexQueryHandler","unclassified","IndexQueryHandler::setIndexItems","void-accessor command collaborator",
-"IndexQueryHandler","unclassified","IndexQueryHandler::handleGlobalQuery","property collaborator",
-"IndexQueryHandler","unclassified","IndexQueryHandler::synopsis","wrapper stateless",
-"IndexQueryHandler","unclassified","IndexQueryHandler::supportsFuzzyMatching","incidental",
-"IndexQueryHandler","unclassified","IndexQueryHandler::fuzzyMatching","get",
-"IndexQueryHandler","unclassified","IndexQueryHandler::setFuzzyMatching","command",
-"Item","boundary degenerate small-class","Item::inputActionText","collaborator incidental",
-"Item","boundary degenerate small-class","Item::actions","collaborator incidental",
-"TerminalProvider","boundary data-class","TerminalProvider::TerminalProvider","constructor",
-"TerminalProvider","boundary data-class","TerminalProvider::terminal","get collaborator",
-"TerminalProvider","boundary data-class","TerminalProvider::terminals","get collaborator",
-"TerminalProvider","boundary data-class","TerminalProvider::setTerminal","set collaborator",
-"QHotKeyEdit","entity boundary small-class","QHotKeyEdit","constructor",
-"QHotKeyEdit","entity boundary small-class","event","predicate non-void-command collaborator",
-"PluginRegistry","entity boundary","PluginRegistry::PluginRegistry","constructor",
-"PluginRegistry","entity boundary","PluginRegistry::~PluginRegistry","destructor",
-"PluginRegistry","entity boundary","PluginRegistry::plugins","get collaborator",
-"PluginRegistry","entity boundary","PluginRegistry::enable","void-accessor command collaborator",
-"PluginRegistry","entity boundary","PluginRegistry::disable","void-accessor command collaborator",
-"PluginRegistry","entity boundary","PluginRegistry::load","void-accessor command collaborator",
-"Notification","empty","albert::Notification::Notification","constructor",
-"Notification","empty","albert::Notification::~Notification","destructor",
-"SettingsWindow","entity boundary","SettingsWindow::SettingsWindow","constructor",
-"SettingsWindow","entity boundary","SettingsWindow::init_tab_general_hotkey","void-accessor command collaborator",
-"SettingsWindow","entity boundary","SettingsWindow::init_tab_general_trayIcon","void-accessor command collaborator",
-"SettingsWindow","entity boundary","SettingsWindow::init_tab_general_frontends","command collaborator",
-"SettingsWindow","entity boundary","SettingsWindow::init_tab_general_terminals","command collaborator",
-"SettingsWindow","entity boundary","SettingsWindow::insert_tab_about","command collaborator",
-"SettingsWindow","entity boundary","SettingsWindow::bringToFront","void-accessor command collaborator",
-"SettingsWindow","entity boundary","SettingsWindow::keyPressEvent","void-accessor command collaborator",
-"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::PluginQueryHandler","constructor",
-"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::id","wrapper stateless",
-"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::name","wrapper stateless",
-"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::description","wrapper stateless",
-"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::defaultTrigger","wrapper stateless",
-"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::updateIndexItems","command collaborator",
-"InputHistory","entity boundary","InputHistory::InputHistory","constructor",
-"InputHistory","entity boundary","InputHistory::~InputHistory","destructor",
-"InputHistory","entity boundary","InputHistory::add","void-accessor command collaborator",
-"InputHistory","entity boundary","InputHistory::next","get property set collaborator",
-"InputHistory","entity boundary","InputHistory::prev","get property set collaborator",
-"InputHistory","entity boundary","InputHistory::resetIterator","set",
-"PluginsModel","data-provider","PluginsModel::PluginsModel","constructor",
-"PluginsModel","data-provider","PluginsModel::getCachedIcon","property collaborator",
-"PluginsModel","data-provider","PluginsModel::rowCount","property",
-"PluginsModel","data-provider","PluginsModel::columnCount","incidental",
-"PluginsModel","data-provider","PluginsModel::data","property controller",
-"PluginsModel","data-provider","PluginsModel::setData","predicate non-void-command",
-"PluginsModel","data-provider","PluginsModel::flags","property controller",
-"Action","empty","albert::Action::Action","constructor",
-"IconLookup","boundary","XDG::IconLookup::iconPath","property non-void-command collaborator",
-"IconLookup","boundary","XDG::IconLookup::IconLookup","constructor",
-"IconLookup","boundary","XDG::IconLookup::instance","factory stateless",
-"IconLookup","boundary","XDG::IconLookup::themeIconPath","property non-void-command collaborator",
-"IconLookup","boundary","XDG::IconLookup::doRecursiveIconLookup","property non-void-command collaborator",
-"IconLookup","boundary","XDG::IconLookup::doIconLookup","property controller",
-"IconLookup","boundary","XDG::IconLookup::lookupThemeFile","property wrapper",
-"IndexItem","empty","albert::IndexItem::IndexItem","constructor",
-"GlobalQueryHandler","degenerate small-class","GlobalQueryHandler::GlobalQueryHandler","constructor",
-"GlobalQueryHandler","degenerate small-class","GlobalQueryHandler::applyUsageScore","wrapper stateless",
-"GlobalQueryHandler","degenerate small-class","GlobalQueryHandler::handleTriggerQuery","controller stateless",
-"Telemetry","boundary","Telemetry::Telemetry","constructor",
-"Telemetry","boundary","Telemetry::enable","command",
-"Telemetry","boundary","Telemetry::isEnabled","wrapper stateless",
-"Telemetry","boundary","Telemetry::trySendReport","command collaborator",
-"Telemetry","boundary","Telemetry::buildReport","controller stateless",
-"ExtensionWatcher","degenerate","ExtensionWatcher","constructor",
-"ExtensionWatcher","degenerate","setExtensionRegistry","void-accessor command collaborator",
-"ExtensionWatcher","degenerate","onAdd","empty",
-"ExtensionWatcher","degenerate","onRem","empty",
-"ExtensionWatcher","degenerate","~ExtensionWatcher","destructor",
-"TriggerQueryHandler","data-provider lazy-class degenerate","TriggerQueryHandler::TriggerQueryHandler","constructor",
-"TriggerQueryHandler","data-provider lazy-class degenerate","TriggerQueryHandler::trigger","get collaborator",
-"TriggerQueryHandler","data-provider lazy-class degenerate","TriggerQueryHandler::synopsis","collaborator incidental",
-"TriggerQueryHandler","data-provider lazy-class degenerate","TriggerQueryHandler::defaultTrigger","wrapper stateless",
-"TriggerQueryHandler","data-provider lazy-class degenerate","TriggerQueryHandler::allowTriggerRemap","incidental",
-"TriggerQueryHandler","data-provider lazy-class degenerate","TriggerQueryHandler::supportsFuzzyMatching","incidental",
-"TriggerQueryHandler","data-provider lazy-class degenerate","TriggerQueryHandler::fuzzyMatching","incidental",
-"TriggerQueryHandler","data-provider lazy-class degenerate","TriggerQueryHandler::setFuzzyMatching","empty",
-"ExtensionRegistry","boundary","extensions","property controller",
-"ExtensionRegistry","boundary","extension","property non-void-command collaborator",
-"ExtensionRegistry","boundary","ExtensionRegistry::registerExtension","void-accessor command collaborator",
-"ExtensionRegistry","boundary","ExtensionRegistry::deregisterExtension","void-accessor command collaborator",
-"ExtensionRegistry","boundary","ExtensionRegistry::extensions","get collaborator",
-"Levenshtein","data-provider boundary","Levenshtein::computePrefixEditDistanceWithLimit","property non-void-command collaborator",
-"Levenshtein","data-provider boundary","Levenshtein::cell","get collaborator",
-"Levenshtein","data-provider boundary","Levenshtein::cell","get collaborator",
-"Levenshtein","data-provider boundary","Levenshtein::expand_matrix_if_necessary","command collaborator",
-"Levenshtein","data-provider boundary","Levenshtein::print_matrix_view","void-accessor collaborator",
-"Levenshtein","data-provider boundary","Levenshtein::print_matrix","void-accessor collaborator",
-"Levenshtein","data-provider boundary","Levenshtein::checkPrefixEditDistance_Legacy","controller stateless",
-"NullIndex","degenerate small-class","search","collaborator incidental",
-"NullIndex","degenerate small-class","setItems","empty",
-"ItemsModel","boundary","ItemsModel::ItemsModel","constructor",
-"ItemsModel","boundary","ItemsModel::rowCount","property",
-"ItemsModel","boundary","ItemsModel::data","property collaborator",
-"ItemsModel","boundary","ItemsModel::roleNames","collaborator incidental",
-"ItemsModel","boundary","ItemsModel::add","void-accessor command collaborator",
-"ItemsModel","boundary","ItemsModel::add","void-accessor command collaborator",
-"ItemsModel","boundary","ItemsModel::buildActionsModel","property factory controller",
-"ItemsModel","boundary","ItemsModel::activate","command collaborator",
-"NotificationPrivate","empty","NotificationPrivate","constructor",
-"TriggerQuery","entity boundary","TriggerQuery::TriggerQuery","copy-constructor",
-"TriggerQuery","entity boundary","TriggerQuery::~TriggerQuery","destructor",
-"TriggerQuery","entity boundary","TriggerQuery::trigger","get collaborator",
-"TriggerQuery","entity boundary","TriggerQuery::string","get collaborator",
-"TriggerQuery","entity boundary","TriggerQuery::synopsis","get collaborator",
-"TriggerQuery","entity boundary","TriggerQuery::isValid","get",
-"TriggerQuery","entity boundary","TriggerQuery::run_","command collaborator",
-"TriggerQuery","entity boundary","TriggerQuery::add","void-accessor command collaborator",
-"TriggerQuery","entity boundary","TriggerQuery::add","void-accessor command collaborator",
-"TriggerQuery","entity boundary","TriggerQuery::add","command collaborator",
-"TriggerQuery","entity boundary","TriggerQuery::add","command collaborator",
-"TriggerQuery","entity boundary","TriggerQuery::collectResults","command collaborator",
-"QueryHandlerModel","boundary","QueryHandlerModel::QueryHandlerModel","constructor",
-"QueryHandlerModel","boundary","QueryHandlerModel::updateHandlers","command",
-"QueryHandlerModel","boundary","QueryHandlerModel::columnCount","incidental",
-"QueryHandlerModel","boundary","QueryHandlerModel::data","property collaborator",
-"QueryHandlerModel","boundary","QueryHandlerModel::setData","predicate non-void-command collaborator",
-"QueryHandlerModel","boundary","QueryHandlerModel::flags","property controller",
-"QueryWidget","commander small-class","QueryWidget::QueryWidget","constructor",
-"QueryWidget","commander small-class","QueryWidget::showEvent","command",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::ThemeFileParser","constructor",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::path","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::name","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::comment","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::inherits","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::directories","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::hidden","predicate non-void-command",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::size","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::context","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::type","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::maxSize","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::minSize","property non-void-command collaborator",
-"ThemeFileParser","entity boundary","XDG::ThemeFileParser::threshold","property non-void-command collaborator",
-"IconProvider::Private","data-provider boundary small-class","getRawPixmap","property collaborator",
-"ItemIndex","data-provider boundary","ItemIndex::ItemIndex","constructor",
-"ItemIndex","data-provider boundary","ItemIndex::setItems","void-accessor set collaborator",
-"ItemIndex","data-provider boundary","ItemIndex::getWordMatches","property collaborator",
-"ItemIndex","data-provider boundary","ItemIndex::search","property collaborator",
-"UnixSignalHandler","empty","UnixSignalHandler::UnixSignalHandler","constructor",
-"UnixSignalHandler","empty","UnixSignalHandler::~UnixSignalHandler","destructor",
-"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::PluginConfigQueryHandler","constructor",
-"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::id","wrapper stateless",
-"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::name","wrapper stateless",
-"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::description","wrapper stateless",
-"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::defaultTrigger","wrapper stateless",
-"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::handleGlobalQuery","collaborator",
-"UsageHistory","boundary","UsageHistory::initialize","command collaborator",
-"UsageHistory","boundary","UsageHistory::applyScore","void-accessor command collaborator",
-"UsageHistory","boundary","UsageHistory::applyScores","void-accessor command collaborator",
-"UsageHistory","boundary","UsageHistory::applyScores","command collaborator",
-"UsageHistory","boundary","UsageHistory::memoryDecay","get collaborator",
-"UsageHistory","boundary","UsageHistory::setMemoryDecay","command",
-"UsageHistory","boundary","UsageHistory::prioritizePerfectMatch","get collaborator",
-"UsageHistory","boundary","UsageHistory::setPrioritizePerfectMatch","set collaborator",
-"UsageHistory","boundary","UsageHistory::addActivation","void-accessor command collaborator",
-"UsageHistory","boundary","UsageHistory::updateScores","set collaborator",
-"UsageHistory","boundary","UsageHistory::db_connect","controller",
-"UsageHistory","boundary","UsageHistory::db_initialize","controller",
-"UsageHistory","boundary","UsageHistory::db_clearActivations","command collaborator",
-"UsageHistory","boundary","UsageHistory::db_addActivation","void-accessor controller",
-"PluginItem","data-provider boundary","PluginItem","constructor",
-"PluginItem","data-provider boundary","id","property collaborator",
-"PluginItem","data-provider boundary","text","property collaborator",
-"PluginItem","data-provider boundary","subtext","property collaborator",
-"PluginItem","data-provider boundary","inputActionText","property collaborator",
-"PluginItem","data-provider boundary","iconUrls","property collaborator",
-"PluginItem","data-provider boundary","actions","property collaborator",
-"GlobalQuery","boundary lazy-class","trigger","collaborator incidental",
-"GlobalQuery","boundary lazy-class","synopsis","collaborator incidental",
-"GlobalQuery","boundary lazy-class","GlobalQuery::GlobalQuery","copy-constructor",
-"GlobalQuery","boundary lazy-class","GlobalQuery::~GlobalQuery","destructor",
-"GlobalQuery","boundary lazy-class","GlobalQuery::string","get collaborator",
-"GlobalQuery","boundary lazy-class","GlobalQuery::isValid","get",
-"GlobalQuery","boundary lazy-class","GlobalQuery::run_","command collaborator",
-"QtPluginLoader","entity boundary","QtPluginLoader::QtPluginLoader","constructor",
-"QtPluginLoader","entity boundary","QtPluginLoader::~QtPluginLoader","destructor",
-"QtPluginLoader","entity boundary","QtPluginLoader::path","property collaborator",
-"QtPluginLoader","entity boundary","QtPluginLoader::metaData","get collaborator",
-"QtPluginLoader","entity boundary","QtPluginLoader::load","command collaborator",
-"QtPluginLoader","entity boundary","QtPluginLoader::unload","command",
-"QtPluginLoader","entity boundary","QtPluginLoader::createInstance","get property non-void-command collaborator",
-"QtPluginProvider","degenerate","QtPluginProvider::QtPluginProvider","constructor",
-"QtPluginProvider","degenerate","QtPluginProvider::id","wrapper stateless",
-"QtPluginProvider","degenerate","QtPluginProvider::name","wrapper stateless",
-"QtPluginProvider","degenerate","QtPluginProvider::description","wrapper stateless",
-"QtPluginProvider","degenerate","QtPluginProvider::plugins","property controller",
-"QtPluginProvider","degenerate","QtPluginProvider::frontendPlugins","property controller",
-"Session","entity boundary small-class","Session::Session","constructor",
-"Session","entity boundary small-class","Session::~Session","destructor",
-"Session","entity boundary small-class","Session::runQuery","void-accessor command collaborator",
+"Activation","empty","Activation::Activation","constructor"
+"std::hash<Key>","boundary degenerate small-class","operator()","wrapper stateless"
+"AppleTerminal","boundary degenerate small-class","name","collaborator incidental"
+"AppleTerminal","boundary degenerate small-class","run","wrapper stateless"
+"iTerm","boundary degenerate small-class","name","collaborator incidental"
+"iTerm","boundary degenerate small-class","run","wrapper stateless"
+"ExecutableTerminal","data-provider boundary small-class","ExecutableTerminal","constructor"
+"ExecutableTerminal","data-provider boundary small-class","name","get collaborator"
+"ExecutableTerminal","data-provider boundary small-class","run","collaborator"
+"GlobalQueryHandlerPrivate","empty","GlobalQueryHandlerPrivate","constructor"
+"AppQueryHandler","empty","AppQueryHandler::AppQueryHandler","constructor"
+"IconProvider","entity boundary","IconProvider::IconProvider","constructor"
+"IconProvider","entity boundary","IconProvider::getPixmap","property collaborator"
+"IconProvider","entity boundary","IconProvider::getPixmap","property collaborator"
+"IconProvider","entity boundary","IconProvider::clearCache","command collaborator"
+"ExtensionPlugin","unclassified","ExtensionPlugin::id","property collaborator"
+"ExtensionPlugin","unclassified","ExtensionPlugin::name","property collaborator"
+"ExtensionPlugin","unclassified","ExtensionPlugin::description","property collaborator"
+"ExtensionPlugin","unclassified","ExtensionPlugin::initialize","controller"
+"ExtensionPlugin","unclassified","ExtensionPlugin::finalize","controller"
+"Plugin","data-provider boundary","Plugin::Plugin","copy-constructor"
+"Plugin","data-provider boundary","Plugin::path","property collaborator"
+"Plugin","data-provider boundary","Plugin::isUser","predicate"
+"Plugin","data-provider boundary","Plugin::isEnabled","get"
+"Plugin","data-provider boundary","Plugin::setEnabled","command"
+"Plugin","data-provider boundary","Plugin::state","get collaborator"
+"Plugin","data-provider boundary","Plugin::stateInfo","get collaborator"
+"Plugin","data-provider boundary","Plugin::setState","command collaborator"
+"Plugin","data-provider boundary","Plugin::localStateString","property wrapper"
+"Plugin","data-provider boundary","Plugin::instance","get collaborator"
+"Plugin","data-provider boundary","Plugin::load","property non-void-command collaborator"
+"Plugin","data-provider boundary","Plugin::unload","property non-void-command collaborator"
+"Plugin","data-provider boundary","Plugin::id","property collaborator"
+"Plugin","data-provider boundary","Plugin::metaData","property collaborator"
+"Plugin","data-provider boundary","Plugin::transitiveDependencies","property controller"
+"Plugin","data-provider boundary","Plugin::transitiveDependees","property controller"
+"QueryEngine","boundary","QueryEngine::QueryEngine","constructor"
+"QueryEngine","boundary","QueryEngine::query","property controller"
+"QueryEngine","boundary","QueryEngine::runEmptyQuery","get"
+"QueryEngine","boundary","QueryEngine::setRunEmptyQuery","set"
+"QueryEngine","boundary","QueryEngine::triggerHandlers","property non-void-command collaborator"
+"QueryEngine","boundary","QueryEngine::activeTriggerHandlers","get collaborator"
+"QueryEngine","boundary","QueryEngine::updateActiveTriggers","command"
+"QueryEngine","boundary","QueryEngine::saveFallbackOrder","unclassified"
+"QueryEngine","boundary","QueryEngine::loadFallbackOrder","command collaborator"
+"QueryEngine","boundary","QueryEngine::onAdd","void-accessor command collaborator"
+"QueryEngine","boundary","QueryEngine::onRem","command collaborator"
+"QueryEngine","boundary","QueryEngine::isEnabled","predicate collaborator"
+"QueryEngine","boundary","QueryEngine::setEnabled","command"
+"QueryEngine","boundary","QueryEngine::setTrigger","void-accessor command collaborator"
+"QueryEngine","boundary","QueryEngine::fuzzy","controller stateless"
+"QueryEngine","boundary","QueryEngine::setFuzzy","controller stateless"
+"QueryEngine","boundary","QueryEngine::globalHandlers","property non-void-command collaborator"
+"QueryEngine","boundary","QueryEngine::isEnabled","predicate collaborator"
+"QueryEngine","boundary","QueryEngine::setEnabled","command"
+"QueryEngine","boundary","QueryEngine::onAdd","command collaborator"
+"QueryEngine","boundary","QueryEngine::onRem","command collaborator"
+"QueryEngine","boundary","QueryEngine::fallbackHandlers","property non-void-command collaborator"
+"QueryEngine","boundary","QueryEngine::fallbackOrder","get collaborator"
+"QueryEngine","boundary","QueryEngine::setFallbackOrder","set collaborator"
+"QueryEngine","boundary","QueryEngine::isEnabled","predicate collaborator"
+"QueryEngine","boundary","QueryEngine::setEnabled","command"
+"QueryEngine","boundary","QueryEngine::onAdd","command collaborator"
+"QueryEngine","boundary","QueryEngine::onRem","command collaborator"
+"BackgroundExecutor","unclassified","onFinish","command"
+"BackgroundExecutor","unclassified","run_","property set collaborator"
+"BackgroundExecutor","unclassified","BackgroundExecutor","constructor"
+"BackgroundExecutor","unclassified","~BackgroundExecutor","destructor"
+"BackgroundExecutor","unclassified","run","command"
+"BackgroundExecutor","unclassified","isRunning","predicate"
+"RankItem","empty","albert::RankItem::RankItem","constructor"
+"StringMatch","empty","StringMatch","constructor"
+"QueryBase","entity boundary","QueryBase::QueryBase","constructor"
+"QueryBase","entity boundary","QueryBase::run","command"
+"QueryBase","entity boundary","QueryBase::cancel","set"
+"QueryBase","entity boundary","QueryBase::isFinished","predicate"
+"QueryBase","entity boundary","QueryBase::isTriggered","wrapper stateless"
+"QueryBase","entity boundary","QueryBase::matches","property collaborator"
+"QueryBase","entity boundary","QueryBase::fallbacks","property collaborator"
+"QueryBase","entity boundary","QueryBase::activateMatch","command collaborator"
+"QueryBase","entity boundary","QueryBase::activateFallback","command collaborator"
+"QueryBase","entity boundary","QueryBase::runFallbackHandlers","command collaborator"
+"PluginsWidget","commander boundary small-class","PluginsWidget::PluginsWidget","constructor"
+"PluginsWidget","commander boundary small-class","PluginsWidget::tryShowPluginSettings","command collaborator"
+"PluginsWidget","commander boundary small-class","PluginsWidget::onUpdatePluginWidget","command collaborator"
+"TrayIcon","commander small-class","TrayIcon::TrayIcon","constructor"
+"TrayIcon","commander small-class","TrayIcon::setVisible","command"
+"StandardItem","boundary","StandardItem::StandardItem","constructor"
+"StandardItem","boundary","StandardItem::setId","set collaborator"
+"StandardItem","boundary","StandardItem::setText","set collaborator"
+"StandardItem","boundary","StandardItem::setSubtext","set collaborator"
+"StandardItem","boundary","StandardItem::setInputActionText","set collaborator"
+"StandardItem","boundary","StandardItem::setIconUrls","set collaborator"
+"StandardItem","boundary","StandardItem::setActions","set collaborator"
+"StandardItem","boundary","StandardItem::id","get collaborator"
+"StandardItem","boundary","StandardItem::text","get collaborator"
+"StandardItem","boundary","StandardItem::subtext","get collaborator"
+"StandardItem","boundary","StandardItem::inputActionText","get collaborator"
+"StandardItem","boundary","StandardItem::iconUrls","get collaborator"
+"StandardItem","boundary","StandardItem::actions","get collaborator"
+"StandardItem","boundary","StandardItem::make","wrapper stateless"
+"StandardItem","boundary","StandardItem::make","wrapper stateless"
+"PluginInstance","data-provider boundary","PluginInstance::PluginInstance","constructor"
+"PluginInstance","data-provider boundary","PluginInstance::~PluginInstance","destructor"
+"PluginInstance","data-provider boundary","PluginInstance::id","property collaborator"
+"PluginInstance","data-provider boundary","PluginInstance::name","property collaborator"
+"PluginInstance","data-provider boundary","PluginInstance::description","property collaborator"
+"PluginInstance","data-provider boundary","albert::PluginInstance::cacheDir","property collaborator"
+"PluginInstance","data-provider boundary","albert::PluginInstance::configDir","property collaborator"
+"PluginInstance","data-provider boundary","albert::PluginInstance::dataDir","property collaborator"
+"PluginInstance","data-provider boundary","albert::PluginInstance::settings","property collaborator"
+"PluginInstance","data-provider boundary","albert::PluginInstance::state","property collaborator"
+"PluginInstance","data-provider boundary","PluginInstance::initialize","empty"
+"PluginInstance","data-provider boundary","PluginInstance::finalize","empty"
+"PluginInstance","data-provider boundary","PluginInstance::buildConfigWidget","collaborator incidental"
+"FallbacksModel","entity boundary","FallbacksModel::FallbacksModel","constructor"
+"FallbacksModel","entity boundary","FallbacksModel::updateFallbackList","command collaborator"
+"FallbacksModel","entity boundary","FallbacksModel::rowCount","property"
+"FallbacksModel","entity boundary","FallbacksModel::columnCount","incidental"
+"FallbacksModel","entity boundary","FallbacksModel::data","property collaborator"
+"FallbacksModel","entity boundary","FallbacksModel::headerData","property collaborator"
+"FallbacksModel","entity boundary","FallbacksModel::flags","property collaborator"
+"FallbacksModel","entity boundary","FallbacksModel::supportedDropActions","collaborator incidental"
+"FallbacksModel","entity boundary","FallbacksModel::dropMimeData","predicate non-void-command"
+"FallbacksModel","entity boundary","FallbacksModel::moveRows","predicate non-void-command collaborator"
+"App","commander","App::App","constructor"
+"App","commander","App::initialize","command"
+"App","commander","App::finalize","command"
+"App","commander","App::instance","incidental"
+"App","commander","App::loadAnyFrontend","command collaborator"
+"Hotkey","entity boundary","Hotkey::Hotkey","constructor"
+"Hotkey","entity boundary","Hotkey::hotkey","property collaborator"
+"Hotkey","entity boundary","Hotkey::setHotkey","predicate non-void-command collaborator"
+"Hotkey","entity boundary","Hotkey::isPlatformSupported","predicate non-void-command"
+"IndexQueryHandler","unclassified","IndexQueryHandler::IndexQueryHandler","constructor"
+"IndexQueryHandler","unclassified","IndexQueryHandler::setIndexItems","command collaborator"
+"IndexQueryHandler","unclassified","IndexQueryHandler::handleGlobalQuery","property collaborator"
+"IndexQueryHandler","unclassified","IndexQueryHandler::synopsis","wrapper stateless"
+"IndexQueryHandler","unclassified","IndexQueryHandler::supportsFuzzyMatching","incidental"
+"IndexQueryHandler","unclassified","IndexQueryHandler::fuzzyMatching","predicate"
+"IndexQueryHandler","unclassified","IndexQueryHandler::setFuzzyMatching","command"
+"Item","boundary degenerate small-class","Item::inputActionText","collaborator incidental"
+"Item","boundary degenerate small-class","Item::actions","collaborator incidental"
+"TerminalProvider","boundary data-class","TerminalProvider::TerminalProvider","constructor"
+"TerminalProvider","boundary data-class","TerminalProvider::terminal","get collaborator"
+"TerminalProvider","boundary data-class","TerminalProvider::terminals","get collaborator"
+"TerminalProvider","boundary data-class","TerminalProvider::setTerminal","set collaborator"
+"QHotKeyEdit","entity boundary small-class","QHotKeyEdit","constructor"
+"QHotKeyEdit","entity boundary small-class","event","predicate non-void-command collaborator"
+"PluginRegistry","commander boundary","PluginRegistry::PluginRegistry","constructor"
+"PluginRegistry","commander boundary","PluginRegistry::~PluginRegistry","destructor"
+"PluginRegistry","commander boundary","PluginRegistry::plugins","get collaborator"
+"PluginRegistry","commander boundary","PluginRegistry::enable","command collaborator"
+"PluginRegistry","commander boundary","PluginRegistry::disable","command collaborator"
+"PluginRegistry","commander boundary","PluginRegistry::load","command collaborator"
+"Notification","empty","albert::Notification::Notification","constructor"
+"Notification","empty","albert::Notification::~Notification","destructor"
+"SettingsWindow","commander boundary","SettingsWindow::SettingsWindow","constructor"
+"SettingsWindow","commander boundary","SettingsWindow::init_tab_general_hotkey","command collaborator"
+"SettingsWindow","commander boundary","SettingsWindow::init_tab_general_trayIcon","command collaborator"
+"SettingsWindow","commander boundary","SettingsWindow::init_tab_general_frontends","command collaborator"
+"SettingsWindow","commander boundary","SettingsWindow::init_tab_general_terminals","command collaborator"
+"SettingsWindow","commander boundary","SettingsWindow::insert_tab_about","command collaborator"
+"SettingsWindow","commander boundary","SettingsWindow::bringToFront","command collaborator"
+"SettingsWindow","commander boundary","SettingsWindow::keyPressEvent","command collaborator"
+"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::PluginQueryHandler","constructor"
+"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::id","wrapper stateless"
+"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::name","wrapper stateless"
+"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::description","wrapper stateless"
+"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::defaultTrigger","wrapper stateless"
+"PluginQueryHandler","commander boundary degenerate","PluginQueryHandler::updateIndexItems","command collaborator"
+"InputHistory","entity boundary","InputHistory::InputHistory","constructor"
+"InputHistory","entity boundary","InputHistory::~InputHistory","destructor"
+"InputHistory","entity boundary","InputHistory::add","command collaborator"
+"InputHistory","entity boundary","InputHistory::next","get property set collaborator"
+"InputHistory","entity boundary","InputHistory::prev","get property set collaborator"
+"InputHistory","entity boundary","InputHistory::resetIterator","set"
+"PluginsModel","data-provider","PluginsModel::PluginsModel","constructor"
+"PluginsModel","data-provider","PluginsModel::getCachedIcon","property collaborator"
+"PluginsModel","data-provider","PluginsModel::rowCount","property"
+"PluginsModel","data-provider","PluginsModel::columnCount","incidental"
+"PluginsModel","data-provider","PluginsModel::data","property controller"
+"PluginsModel","data-provider","PluginsModel::setData","predicate non-void-command"
+"PluginsModel","data-provider","PluginsModel::flags","property controller"
+"Action","empty","albert::Action::Action","constructor"
+"IconLookup","boundary","XDG::IconLookup::iconPath","property non-void-command collaborator"
+"IconLookup","boundary","XDG::IconLookup::IconLookup","constructor"
+"IconLookup","boundary","XDG::IconLookup::instance","factory stateless"
+"IconLookup","boundary","XDG::IconLookup::themeIconPath","property non-void-command collaborator"
+"IconLookup","boundary","XDG::IconLookup::doRecursiveIconLookup","property non-void-command collaborator"
+"IconLookup","boundary","XDG::IconLookup::doIconLookup","property controller"
+"IconLookup","boundary","XDG::IconLookup::lookupThemeFile","property wrapper"
+"IndexItem","empty","albert::IndexItem::IndexItem","constructor"
+"GlobalQueryHandler","degenerate small-class","GlobalQueryHandler::GlobalQueryHandler","constructor"
+"GlobalQueryHandler","degenerate small-class","GlobalQueryHandler::applyUsageScore","wrapper stateless"
+"GlobalQueryHandler","degenerate small-class","GlobalQueryHandler::handleTriggerQuery","controller stateless"
+"Telemetry","boundary","Telemetry::Telemetry","constructor"
+"Telemetry","boundary","Telemetry::enable","command"
+"Telemetry","boundary","Telemetry::isEnabled","wrapper stateless"
+"Telemetry","boundary","Telemetry::trySendReport","command collaborator"
+"Telemetry","boundary","Telemetry::buildReport","controller stateless"
+"ExtensionWatcher","commander degenerate","ExtensionWatcher","constructor"
+"ExtensionWatcher","commander degenerate","setExtensionRegistry","command collaborator"
+"ExtensionWatcher","commander degenerate","onAdd","empty"
+"ExtensionWatcher","commander degenerate","onRem","empty"
+"ExtensionWatcher","commander degenerate","~ExtensionWatcher","destructor"
+"TriggerQueryHandler","data-provider degenerate","TriggerQueryHandler::TriggerQueryHandler","constructor"
+"TriggerQueryHandler","data-provider degenerate","TriggerQueryHandler::trigger","property collaborator"
+"TriggerQueryHandler","data-provider degenerate","TriggerQueryHandler::synopsis","collaborator incidental"
+"TriggerQueryHandler","data-provider degenerate","TriggerQueryHandler::defaultTrigger","wrapper stateless"
+"TriggerQueryHandler","data-provider degenerate","TriggerQueryHandler::allowTriggerRemap","incidental"
+"TriggerQueryHandler","data-provider degenerate","TriggerQueryHandler::supportsFuzzyMatching","incidental"
+"TriggerQueryHandler","data-provider degenerate","TriggerQueryHandler::fuzzyMatching","incidental"
+"TriggerQueryHandler","data-provider degenerate","TriggerQueryHandler::setFuzzyMatching","empty"
+"ExtensionRegistry","boundary","extensions","property controller"
+"ExtensionRegistry","boundary","extension","property non-void-command collaborator"
+"ExtensionRegistry","boundary","ExtensionRegistry::registerExtension","command collaborator"
+"ExtensionRegistry","boundary","ExtensionRegistry::deregisterExtension","command collaborator"
+"ExtensionRegistry","boundary","ExtensionRegistry::extensions","get collaborator"
+"Levenshtein","boundary","Levenshtein::computePrefixEditDistanceWithLimit","property non-void-command collaborator"
+"Levenshtein","boundary","Levenshtein::cell","get collaborator"
+"Levenshtein","boundary","Levenshtein::cell","get collaborator"
+"Levenshtein","boundary","Levenshtein::expand_matrix_if_necessary","command collaborator"
+"Levenshtein","boundary","Levenshtein::print_matrix_view","collaborator"
+"Levenshtein","boundary","Levenshtein::print_matrix","collaborator"
+"Levenshtein","boundary","Levenshtein::checkPrefixEditDistance_Legacy","controller stateless"
+"NullIndex","degenerate small-class","search","collaborator incidental"
+"NullIndex","degenerate small-class","setItems","empty"
+"ItemsModel","boundary","ItemsModel::ItemsModel","constructor"
+"ItemsModel","boundary","ItemsModel::rowCount","property"
+"ItemsModel","boundary","ItemsModel::data","property collaborator"
+"ItemsModel","boundary","ItemsModel::roleNames","collaborator incidental"
+"ItemsModel","boundary","ItemsModel::add","command collaborator"
+"ItemsModel","boundary","ItemsModel::add","command collaborator"
+"ItemsModel","boundary","ItemsModel::buildActionsModel","property factory controller"
+"ItemsModel","boundary","ItemsModel::activate","command collaborator"
+"NotificationPrivate","empty","NotificationPrivate","constructor"
+"TriggerQuery","boundary","TriggerQuery::TriggerQuery","copy-constructor"
+"TriggerQuery","boundary","TriggerQuery::~TriggerQuery","destructor"
+"TriggerQuery","boundary","TriggerQuery::trigger","get collaborator"
+"TriggerQuery","boundary","TriggerQuery::string","get collaborator"
+"TriggerQuery","boundary","TriggerQuery::synopsis","get collaborator"
+"TriggerQuery","boundary","TriggerQuery::isValid","get"
+"TriggerQuery","boundary","TriggerQuery::run_","command collaborator"
+"TriggerQuery","boundary","TriggerQuery::add","command collaborator"
+"TriggerQuery","boundary","TriggerQuery::add","command collaborator"
+"TriggerQuery","boundary","TriggerQuery::add","command collaborator"
+"TriggerQuery","boundary","TriggerQuery::add","command collaborator"
+"TriggerQuery","boundary","TriggerQuery::collectResults","command collaborator"
+"QueryHandlerModel","boundary","QueryHandlerModel::QueryHandlerModel","constructor"
+"QueryHandlerModel","boundary","QueryHandlerModel::updateHandlers","command"
+"QueryHandlerModel","boundary","QueryHandlerModel::columnCount","incidental"
+"QueryHandlerModel","boundary","QueryHandlerModel::data","property collaborator"
+"QueryHandlerModel","boundary","QueryHandlerModel::setData","predicate non-void-command collaborator"
+"QueryHandlerModel","boundary","QueryHandlerModel::flags","property controller"
+"QueryWidget","commander small-class","QueryWidget::QueryWidget","constructor"
+"QueryWidget","commander small-class","QueryWidget::showEvent","command"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::ThemeFileParser","constructor"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::path","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::name","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::comment","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::inherits","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::directories","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::hidden","predicate non-void-command"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::size","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::context","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::type","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::maxSize","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::minSize","property non-void-command collaborator"
+"ThemeFileParser","entity boundary","XDG::ThemeFileParser::threshold","property non-void-command collaborator"
+"IconProvider::Private","data-provider boundary small-class","getRawPixmap","property collaborator"
+"ItemIndex","boundary","ItemIndex::ItemIndex","constructor"
+"ItemIndex","boundary","ItemIndex::setItems","set collaborator"
+"ItemIndex","boundary","ItemIndex::getWordMatches","property collaborator"
+"ItemIndex","boundary","ItemIndex::search","property collaborator"
+"UnixSignalHandler","empty","UnixSignalHandler::UnixSignalHandler","constructor"
+"UnixSignalHandler","empty","UnixSignalHandler::~UnixSignalHandler","destructor"
+"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::PluginConfigQueryHandler","constructor"
+"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::id","wrapper stateless"
+"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::name","wrapper stateless"
+"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::description","wrapper stateless"
+"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::defaultTrigger","wrapper stateless"
+"PluginConfigQueryHandler","boundary degenerate","PluginConfigQueryHandler::handleGlobalQuery","collaborator"
+"UsageHistory","commander boundary","UsageHistory::initialize","command collaborator"
+"UsageHistory","commander boundary","UsageHistory::applyScore","void-accessor command collaborator"
+"UsageHistory","commander boundary","UsageHistory::applyScores","command collaborator"
+"UsageHistory","commander boundary","UsageHistory::applyScores","command collaborator"
+"UsageHistory","commander boundary","UsageHistory::memoryDecay","get collaborator"
+"UsageHistory","commander boundary","UsageHistory::setMemoryDecay","command"
+"UsageHistory","commander boundary","UsageHistory::prioritizePerfectMatch","get collaborator"
+"UsageHistory","commander boundary","UsageHistory::setPrioritizePerfectMatch","set collaborator"
+"UsageHistory","commander boundary","UsageHistory::addActivation","command collaborator"
+"UsageHistory","commander boundary","UsageHistory::updateScores","set collaborator"
+"UsageHistory","commander boundary","UsageHistory::db_connect","controller"
+"UsageHistory","commander boundary","UsageHistory::db_initialize","controller"
+"UsageHistory","commander boundary","UsageHistory::db_clearActivations","command collaborator"
+"UsageHistory","commander boundary","UsageHistory::db_addActivation","controller"
+"PluginItem","data-provider boundary","PluginItem","constructor"
+"PluginItem","data-provider boundary","id","property collaborator"
+"PluginItem","data-provider boundary","text","property collaborator"
+"PluginItem","data-provider boundary","subtext","property collaborator"
+"PluginItem","data-provider boundary","inputActionText","property collaborator"
+"PluginItem","data-provider boundary","iconUrls","property collaborator"
+"PluginItem","data-provider boundary","actions","property collaborator"
+"GlobalQuery","boundary lazy-class","trigger","collaborator incidental"
+"GlobalQuery","boundary lazy-class","synopsis","collaborator incidental"
+"GlobalQuery","boundary lazy-class","GlobalQuery::GlobalQuery","copy-constructor"
+"GlobalQuery","boundary lazy-class","GlobalQuery::~GlobalQuery","destructor"
+"GlobalQuery","boundary lazy-class","GlobalQuery::string","get collaborator"
+"GlobalQuery","boundary lazy-class","GlobalQuery::isValid","get"
+"GlobalQuery","boundary lazy-class","GlobalQuery::run_","command collaborator"
+"QtPluginLoader","entity boundary","QtPluginLoader::QtPluginLoader","constructor"
+"QtPluginLoader","entity boundary","QtPluginLoader::~QtPluginLoader","destructor"
+"QtPluginLoader","entity boundary","QtPluginLoader::path","property collaborator"
+"QtPluginLoader","entity boundary","QtPluginLoader::metaData","get collaborator"
+"QtPluginLoader","entity boundary","QtPluginLoader::load","command collaborator"
+"QtPluginLoader","entity boundary","QtPluginLoader::unload","command"
+"QtPluginLoader","entity boundary","QtPluginLoader::createInstance","get property non-void-command collaborator"
+"QtPluginProvider","degenerate","QtPluginProvider::QtPluginProvider","constructor"
+"QtPluginProvider","degenerate","QtPluginProvider::id","wrapper stateless"
+"QtPluginProvider","degenerate","QtPluginProvider::name","wrapper stateless"
+"QtPluginProvider","degenerate","QtPluginProvider::description","wrapper stateless"
+"QtPluginProvider","degenerate","QtPluginProvider::plugins","property controller"
+"QtPluginProvider","degenerate","QtPluginProvider::frontendPlugins","property controller"
+"Session","commander boundary small-class","Session::Session","constructor"
+"Session","commander boundary small-class","Session::~Session","destructor"
+"Session","commander boundary small-class","Session::runQuery","command collaborator"

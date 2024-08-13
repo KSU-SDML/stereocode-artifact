@@ -1,356 +1,356 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"yaml_visitor","entity boundary small-class","yaml_visitor","constructor",
-"yaml_visitor","entity boundary small-class","operator()","void-accessor command collaborator",
-"yaml_visitor","entity boundary small-class","descend","void-accessor command collaborator",
-"falco_webserver","small-class","falco_webserver::~falco_webserver","destructor",
-"falco_webserver","small-class","falco_webserver::start","void-accessor command collaborator",
-"falco_webserver","small-class","falco_webserver::stop","command",
-"yaml_helper","lazy-class","load_from_string","void-accessor set",
-"yaml_helper","lazy-class","load_from_file","void-accessor set",
-"yaml_helper","lazy-class","include_config_file","void-accessor set collaborator",
-"yaml_helper","lazy-class","clear","set",
-"yaml_helper","lazy-class","get_scalar","controller stateless",
-"yaml_helper","lazy-class","set_scalar","wrapper stateless",
-"yaml_helper","lazy-class","get_sequence","wrapper stateless",
-"yaml_helper","lazy-class","is_defined","controller stateless",
-"yaml_helper","lazy-class","dump","property controller",
-"yaml_helper","lazy-class","load_from_file_int","property non-void-command collaborator",
-"yaml_helper","lazy-class","pre_process_env_vars","controller stateless",
-"watchdog","commander","watchdog","constructor",
-"watchdog","commander","~watchdog","destructor",
-"watchdog","commander","start","command collaborator",
-"watchdog","commander","stop","command",
-"watchdog","commander","set_timeout","command collaborator",
-"watchdog","commander","cancel_timeout","command",
-"output_syslog","pure-controller degenerate small-class","falco::outputs::output_syslog::output","controller stateless",
-"output_stdout","small-class","falco::outputs::output_stdout::output","collaborator",
-"output_stdout","small-class","falco::outputs::output_stdout::cleanup","controller stateless",
-"output_program","commander","falco::outputs::output_program::open_pfile","set",
-"output_program","commander","falco::outputs::output_program::output","command collaborator",
-"output_program","commander","falco::outputs::output_program::cleanup","set",
-"output_program","commander","falco::outputs::output_program::reopen","command",
-"abstract_output","unclassified","init","predicate non-void-command",
-"abstract_output","unclassified","get_name","get",
-"abstract_output","unclassified","reopen","empty",
-"abstract_output","unclassified","cleanup","empty",
-"server","commander boundary","falco::grpc::server::thread_process","command collaborator",
-"server","commander boundary","falco::grpc::server::init","void-accessor command collaborator",
-"server","commander boundary","falco::grpc::server::init_mtls_server_builder","command collaborator",
-"server","commander boundary","falco::grpc::server::init_unix_server_builder","command",
-"server","commander boundary","falco::grpc::server::run","command collaborator",
-"server","commander boundary","falco::grpc::server::stop","command",
-"server","commander boundary","falco::grpc::server::is_running","predicate",
-"server","commander boundary","falco::grpc::server::get","void-accessor command collaborator",
-"server","commander boundary","falco::grpc::server::sub","void-accessor command collaborator",
-"server","commander boundary","falco::grpc::server::version","controller stateless",
-"server","commander boundary","falco::grpc::server::shutdown","set",
-"queue","entity boundary small-class","try_pop","predicate non-void-command collaborator",
-"queue","entity boundary small-class","push","void-accessor command collaborator",
-"queue","entity boundary small-class","queue","constructor",
-"falco_outputs","unclassified","falco_outputs::falco_outputs","constructor",
-"falco_outputs","unclassified","falco_outputs::~falco_outputs","destructor",
-"falco_outputs","unclassified","falco_outputs::add_output","void-accessor command collaborator",
-"falco_outputs","unclassified","falco_outputs::handle_event","void-accessor command",
-"falco_outputs","unclassified","falco_outputs::handle_msg","controller",
-"falco_outputs","unclassified","falco_outputs::cleanup_outputs","controller stateless",
-"falco_outputs","unclassified","falco_outputs::reopen_outputs","controller stateless",
-"falco_outputs","unclassified","falco_outputs::stop_worker","command collaborator",
-"falco_outputs","unclassified","falco_outputs::push_ctrl","controller stateless",
-"falco_outputs","unclassified","falco_outputs::push","void-accessor command collaborator",
-"falco_outputs","unclassified","falco_outputs::worker","command collaborator",
-"falco_outputs","unclassified","falco_outputs::process_msg","controller stateless",
-"falco_outputs","unclassified","falco_outputs::get_outputs_queue_num_drops","property non-void-command",
-"stream_context","empty","stream_context","constructor",
-"falco_formats","data-provider small-class","falco_formats::falco_formats","constructor",
-"falco_formats","data-provider small-class","falco_formats::~falco_formats","destructor",
-"falco_formats","data-provider small-class","falco_formats::format_event","property collaborator",
-"falco_formats","data-provider small-class","falco_formats::get_field_values","property",
-"filter_warning_resolver","pure-controller degenerate small-class","filter_warning_resolver::run","controller stateless",
-"configuration","empty","configuration","constructor",
-"falco_rule","empty","falco_rule","constructor",
-"list_info","empty","rule_loader::list_info::list_info","constructor",
-"stats_writer","boundary degenerate","has_output","get",
-"stats_writer","boundary degenerate","stats_writer::init_ticker","incidental",
-"stats_writer","boundary degenerate","stats_writer::init_ticker","wrapper stateless",
-"stats_writer","boundary degenerate","stats_writer::init_ticker","wrapper stateless",
-"stats_writer","boundary degenerate","stats_writer::init_ticker","wrapper stateless",
-"stats_writer","boundary degenerate","stats_writer::get_ticker","controller stateless",
-"stats_writer","boundary degenerate","stats_writer::stats_writer","constructor",
-"stats_writer","boundary degenerate","stats_writer::~stats_writer","destructor",
-"stats_writer","boundary degenerate","stats_writer::stop_worker","command collaborator",
-"stats_writer","boundary degenerate","stats_writer::push","void-accessor command collaborator",
-"stats_writer","boundary degenerate","stats_writer::worker","command collaborator",
-"load_result","boundary degenerate","falco::load_result::error_code_str","collaborator incidental",
-"load_result","boundary degenerate","falco::load_result::error_str","collaborator incidental",
-"load_result","boundary degenerate","falco::load_result::error_desc","collaborator incidental",
-"load_result","boundary degenerate","falco::load_result::warning_code_str","collaborator incidental",
-"load_result","boundary degenerate","falco::load_result::warning_str","collaborator incidental",
-"load_result","boundary degenerate","falco::load_result::warning_desc","collaborator incidental",
-"test_ruleset_factory","data-provider boundary small-class","test_ruleset_factory","constructor",
-"test_ruleset_factory","data-provider boundary small-class","new_ruleset","get collaborator",
-"test_ruleset_factory","data-provider boundary small-class","test_ruleset_factory","constructor",
-"test_ruleset_factory","data-provider boundary small-class","new_ruleset","property wrapper",
-"options","unclassified","options::parse","predicate non-void-command collaborator",
-"options","unclassified","options::usage","get",
-"options","unclassified","options::define","controller",
-"compiler","degenerate","rule_loader::compiler::compile_list_infos","controller stateless",
-"compiler","degenerate","rule_loader::compiler::compile_macros_infos","controller stateless",
-"compiler","degenerate","rule_loader::compiler::compile_condition","controller stateless",
-"compiler","degenerate","rule_loader::compiler::compile_rule_infos","void-accessor collaborator",
-"compiler","degenerate","rule_loader::compiler::new_compile_output","wrapper stateless",
-"compiler","degenerate","rule_loader::compiler::compile","void-accessor collaborator",
-"test_compiler","data-provider boundary small-class","new_compile_output","wrapper stateless",
-"test_compiler","data-provider boundary small-class","test_compiler::compile","void-accessor collaborator",
-"warning","empty","warning","constructor",
-"warning","empty","warning","copy-constructor",
-"falco_logger","unclassified","falco_logger::set_time_format_iso_8601","incidental",
-"falco_logger","unclassified","falco_logger::set_level","void-accessor set",
-"falco_logger","unclassified","falco_logger::set_sinsp_logging","void-accessor command",
-"falco_logger","unclassified","falco_logger::log","controller",
-"falco_list","empty","falco_list","constructor",
-"falco_engine","boundary","get_rules","get collaborator",
-"falco_engine","boundary","find_source","property non-void-command collaborator",
-"falco_engine","boundary","find_source","property collaborator",
-"falco_engine","boundary","falco_engine::falco_engine","constructor",
-"falco_engine","boundary","falco_engine::~falco_engine","destructor",
-"falco_engine","boundary","falco_engine::engine_version","wrapper stateless",
-"falco_engine","boundary","falco_engine::set_rule_reader","set collaborator",
-"falco_engine","boundary","falco_engine::get_rule_reader","get collaborator",
-"falco_engine","boundary","falco_engine::set_rule_collector","set collaborator",
-"falco_engine","boundary","falco_engine::get_rule_collector","get collaborator",
-"falco_engine","boundary","falco_engine::set_rule_compiler","set collaborator",
-"falco_engine","boundary","falco_engine::get_rule_compiler","get collaborator",
-"falco_engine","boundary","falco_engine::list_fields","controller",
-"falco_engine","boundary","falco_engine::load_rules","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::enable_rule","void-accessor command",
-"falco_engine","boundary","falco_engine::enable_rule","void-accessor controller",
-"falco_engine","boundary","falco_engine::enable_rule_exact","void-accessor command",
-"falco_engine","boundary","falco_engine::enable_rule_exact","void-accessor controller",
-"falco_engine","boundary","falco_engine::enable_rule_wildcard","void-accessor command",
-"falco_engine","boundary","falco_engine::enable_rule_wildcard","void-accessor controller",
-"falco_engine","boundary","falco_engine::enable_rule_by_tag","void-accessor command",
-"falco_engine","boundary","falco_engine::enable_rule_by_tag","void-accessor controller",
-"falco_engine","boundary","falco_engine::set_min_priority","set collaborator",
-"falco_engine","boundary","falco_engine::find_ruleset_id","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::num_rules_for_ruleset","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::evttypes_for_ruleset","void-accessor command",
-"falco_engine","boundary","falco_engine::sc_codes_for_ruleset","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::event_codes_for_ruleset","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::create_formatter","property collaborator",
-"falco_engine","boundary","falco_engine::process_event","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::process_event","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::add_source","property set collaborator",
-"falco_engine","boundary","falco_engine::add_source","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::describe_rule","property collaborator",
-"falco_engine","boundary","falco_engine::get_json_details","void-accessor collaborator",
-"falco_engine","boundary","falco_engine::get_json_details","void-accessor collaborator",
-"falco_engine","boundary","falco_engine::get_json_details","controller stateless",
-"falco_engine","boundary","falco_engine::get_json_evt_types","controller stateless",
-"falco_engine","boundary","falco_engine::get_json_used_plugins","controller stateless",
-"falco_engine","boundary","falco_engine::print_stats","unclassified",
-"falco_engine","boundary","falco_engine::get_rule_stats_manager","get collaborator",
-"falco_engine","boundary","falco_engine::is_source_valid","predicate",
-"falco_engine","boundary","falco_engine::filter_factory_for_source","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::filter_factory_for_source","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::formatter_factory_for_source","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::formatter_factory_for_source","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::ruleset_factory_for_source","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::ruleset_factory_for_source","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::ruleset_for_source","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::ruleset_for_source","property non-void-command collaborator",
-"falco_engine","boundary","falco_engine::read_file","controller stateless",
-"falco_engine","boundary","falco_engine::check_plugin_requirements","predicate collaborator",
-"falco_engine","boundary","falco_engine::create_ruleset","property controller",
-"falco_engine","boundary","falco_engine::fill_engine_state_funcs","void-accessor command collaborator",
-"falco_engine","boundary","falco_engine::complete_rule_loading","controller",
-"falco_engine","boundary","falco_engine::set_sampling_ratio","set",
-"falco_engine","boundary","falco_engine::set_sampling_multiplier","set",
-"falco_engine","boundary","falco_engine::set_extra","command",
-"falco_engine","boundary","falco_engine::should_drop_evt","predicate wrapper",
-"filter_ruleset","boundary lazy-class","add_compile_output","wrapper stateless",
-"filter_ruleset","boundary lazy-class","filter_ruleset::set_engine_state","set collaborator",
-"filter_ruleset","boundary lazy-class","filter_ruleset::get_engine_state","get collaborator",
-"context","entity boundary","rule_loader::context::item_type_as_string","collaborator incidental",
-"context","entity boundary","rule_loader::context::context","constructor",
-"context","entity boundary","rule_loader::context::context","copy-constructor",
-"context","entity boundary","rule_loader::context::context","copy-constructor",
-"context","entity boundary","rule_loader::context::context","copy-constructor",
-"context","entity boundary","rule_loader::context::name","property",
-"context","entity boundary","rule_loader::context::init","set collaborator",
-"context","entity boundary","rule_loader::context::as_string","property non-void-command collaborator",
-"context","entity boundary","rule_loader::context::as_json","property non-void-command collaborator",
-"context","entity boundary","rule_loader::context::snippet","property",
-"context","entity boundary","falco::grpc::context::context","constructor",
-"context","entity boundary","falco::grpc::context::context::get_metadata","command collaborator",
-"filter_details_resolver","pure-controller degenerate small-class","filter_details_resolver::run","controller stateless",
-"filter_details","commander small-class","filter_details::reset","command",
-"error","empty","error","constructor",
-"error","empty","error","copy-constructor",
-"source_sync_context","unclassified","source_sync_context","constructor",
-"source_sync_context","unclassified","finish","command",
-"source_sync_context","unclassified","join","command",
-"source_sync_context","unclassified","joined","predicate non-void-command",
-"source_sync_context","unclassified","finished","predicate non-void-command",
-"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::syscall_evt_drop_mgr","constructor",
-"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::~syscall_evt_drop_mgr","destructor",
-"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::init","command",
-"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::process_event","predicate non-void-command collaborator",
-"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::print_stats","wrapper",
-"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::perform_actions","predicate non-void-command collaborator",
-"test_ruleset","entity boundary small-class","test_ruleset","constructor",
-"test_ruleset","entity boundary small-class","add_compile_output","void-accessor command collaborator",
-"test_falco_engine","data-provider","test_falco_engine::test_falco_engine","constructor",
-"test_falco_engine","data-provider","test_falco_engine::load_rules","predicate non-void-command collaborator",
-"test_falco_engine","data-provider","test_falco_engine::num_rules_for_ruleset","property non-void-command",
-"test_falco_engine","data-provider","test_falco_engine::has_warnings","predicate",
-"test_falco_engine","data-provider","test_falco_engine::check_warning_message","predicate",
-"test_falco_engine","data-provider","test_falco_engine::check_error_message","predicate",
-"test_falco_engine","data-provider","test_falco_engine::get_compiled_rule_condition","property collaborator",
-"request_bidi_context","empty","request_bidi_context","constructor",
-"restart_handler","commander","falco::app::restart_handler::~restart_handler","destructor",
-"restart_handler","commander","falco::app::restart_handler::trigger","command",
-"restart_handler","commander","falco::app::restart_handler::start","predicate non-void-command collaborator",
-"restart_handler","commander","falco::app::restart_handler::stop","command",
-"restart_handler","commander","falco::app::restart_handler::watcher_loop","command collaborator",
-"falco_macro","empty","falco_macro","constructor",
-"reader","entity boundary","rule_loader::reader::decode_val","wrapper stateless",
-"reader","entity boundary","rule_loader::reader::decode_optional_val","wrapper stateless",
-"reader","entity boundary","rule_loader::reader::read_item","void-accessor command collaborator",
-"reader","entity boundary","rule_loader::reader::read","predicate non-void-command collaborator",
-"output_file","commander","falco::outputs::output_file::open_file","command",
-"output_file","commander","falco::outputs::output_file::output","command collaborator",
-"output_file","commander","falco::outputs::output_file::cleanup","command",
-"output_file","commander","falco::outputs::output_file::reopen","command",
-"evttype_index_ruleset_factory","data-provider boundary small-class","evttype_index_ruleset_factory","constructor",
-"evttype_index_ruleset_factory","data-provider boundary small-class","new_ruleset","property wrapper",
-"filter_macro_resolver","entity minimal-entity boundary","clear","command",
-"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::run","predicate non-void-command collaborator",
-"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::set_macro","set collaborator",
-"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::get_unknown_macros","get collaborator",
-"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::get_errors","get collaborator",
-"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::get_resolved_macros","get collaborator",
-"run_result","empty","run_result","constructor",
-"request_stream_context","empty","request_stream_context","constructor",
-"rule_update_info","small-class","has_any_value","predicate non-void-command",
-"rule_update_info","small-class","rule_loader::rule_update_info::rule_update_info","constructor",
-"rule_load_exception","data-provider small-class","rule_loader::rule_load_exception::rule_load_exception","constructor",
-"rule_load_exception","data-provider small-class","rule_loader::rule_load_exception::~rule_load_exception","destructor",
-"rule_load_exception","data-provider small-class","rule_loader::rule_load_exception::what","property",
-"indexed_vector","entity data-provider boundary","size","property",
-"indexed_vector","entity data-provider boundary","empty","predicate",
-"indexed_vector","entity data-provider boundary","clear","command",
-"indexed_vector","entity data-provider boundary","insert","property non-void-command collaborator",
-"indexed_vector","entity data-provider boundary","at","property collaborator",
-"indexed_vector","entity data-provider boundary","at","property collaborator",
-"indexed_vector","entity data-provider boundary","begin","property non-void-command collaborator",
-"indexed_vector","entity data-provider boundary","end","property non-void-command collaborator",
-"indexed_vector","entity data-provider boundary","begin","property collaborator",
-"indexed_vector","entity data-provider boundary","end","property collaborator",
-"result","boundary","rule_loader::result::result","constructor",
-"result","boundary","rule_loader::result::successful","get",
-"result","boundary","rule_loader::result::has_warnings","predicate non-void-command",
-"result","boundary","rule_loader::result::add_error","set collaborator",
-"result","boundary","rule_loader::result::add_warning","command collaborator",
-"result","boundary","rule_loader::result::as_string","property non-void-command collaborator",
-"result","boundary","rule_loader::result::as_summary_string","get non-void-command",
-"result","boundary","rule_loader::result::as_verbose_string","get non-void-command collaborator",
-"result","boundary","rule_loader::result::as_json","get non-void-command collaborator",
-"request_context","empty","request_context","constructor",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::evttype_index_ruleset","constructor",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::~evttype_index_ruleset","destructor",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::add","command collaborator",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::on_loading_complete","command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::print_enabled_rules_falco_logger","controller",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::clear","command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::enable","void-accessor command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::disable","void-accessor command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::enable_disable","void-accessor command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::enable_tags","void-accessor command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::disable_tags","void-accessor command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::enable_disable_tags","command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::enabled_count","get non-void-command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::run","get predicate non-void-command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::run","get predicate non-void-command",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::enabled_evttypes","command collaborator",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::enabled_sc_codes","get property non-void-command collaborator",
-"evttype_index_ruleset","unclassified","evttype_index_ruleset::enabled_event_codes","get property non-void-command collaborator",
-"rule_exception_info","empty","rule_loader::rule_exception_info::rule_exception_info","constructor",
-"stats_manager","entity boundary","get_total","get collaborator",
-"stats_manager","entity boundary","get_by_priority","get collaborator",
-"stats_manager","entity boundary","get_by_rule_id","get collaborator",
-"stats_manager","entity boundary","stats_manager::stats_manager","constructor",
-"stats_manager","entity boundary","stats_manager::~stats_manager","destructor",
-"stats_manager","entity boundary","stats_manager::clear","command",
-"stats_manager","entity boundary","stats_manager::format","void-accessor collaborator",
-"stats_manager","entity boundary","stats_manager::on_rule_loaded","command collaborator",
-"stats_manager","entity boundary","stats_manager::on_event","command collaborator",
-"state","data-provider","is_capture_mode","predicate",
-"state","data-provider","is_gvisor","predicate",
-"state","data-provider","is_kmod","predicate",
-"state","data-provider","is_ebpf","predicate",
-"state","data-provider","is_modern_ebpf","predicate",
-"state","data-provider","is_nodriver","predicate",
-"state","data-provider","is_source_enabled","predicate",
-"state","data-provider","is_driver_drop_failed_exit_enabled","predicate",
-"state","data-provider","driver_buf_size_preset","property",
-"versions_info","data-provider boundary small-class","falco::versions_info::versions_info","constructor",
-"versions_info","data-provider boundary small-class","falco::versions_info::as_json","property wrapper",
-"output_http","unclassified","falco::outputs::output_http::init","predicate non-void-command",
-"output_http","unclassified","falco::outputs::output_http::output","controller",
-"output_http","unclassified","falco::outputs::output_http::cleanup","command",
-"engine_version_info","empty","engine_version_info","constructor",
-"engine_version_info","empty","rule_loader::engine_version_info::engine_version_info","constructor",
-"plugin_version_info","empty","rule_loader::plugin_version_info::plugin_version_info","constructor",
-"plugin_version_info","empty","rule_loader::plugin_version_info::plugin_version_info","constructor",
-"falco_metrics","pure-controller degenerate small-class","falco_metrics::to_text","controller stateless",
-"macro_info","empty","rule_loader::macro_info::macro_info","constructor",
-"falco_source","small-class","falco_source","copy-constructor",
-"falco_source","small-class","operator=","get non-void-command",
-"falco_source","small-class","is_valid_lhs_field","predicate collaborator",
-"rule_info","empty","rule_loader::rule_info::rule_info","constructor",
-"collector","boundary","collector","constructor",
-"collector","boundary","rule_loader::collector::clear","command",
-"collector","boundary","rule_loader::collector::required_plugin_versions","get collaborator",
-"collector","boundary","rule_loader::collector::required_engine_version","get collaborator",
-"collector","boundary","rule_loader::collector::lists","get collaborator",
-"collector","boundary","rule_loader::collector::macros","get collaborator",
-"collector","boundary","rule_loader::collector::rules","get collaborator",
-"collector","boundary","rule_loader::collector::define","void-accessor set collaborator",
-"collector","boundary","rule_loader::collector::define","void-accessor command collaborator",
-"collector","boundary","rule_loader::collector::define","void-accessor set collaborator",
-"collector","boundary","rule_loader::collector::append","void-accessor set collaborator",
-"collector","boundary","rule_loader::collector::define","void-accessor set collaborator",
-"collector","boundary","rule_loader::collector::append","void-accessor set collaborator",
-"collector","boundary","rule_loader::collector::define","void-accessor set collaborator",
-"collector","boundary","rule_loader::collector::append","void-accessor set collaborator",
-"collector","boundary","rule_loader::collector::selective_replace","void-accessor set collaborator",
-"collector","boundary","rule_loader::collector::enable","void-accessor command collaborator",
-"collector","boundary","stats_writer::collector::collector","constructor",
-"collector","boundary","stats_writer::collector::get_metrics_output_fields_wrapper","controller stateless",
-"collector","boundary","stats_writer::collector::get_metrics_output_fields_additional","controller stateless",
-"collector","boundary","stats_writer::collector::collect","void-accessor command collaborator",
-"bidi_context","empty","bidi_context","constructor",
-"events_by_category","commander boundary small-class","add_event","command collaborator",
-"atomic_signal_handler","unclassified","is_lock_free","predicate",
-"atomic_signal_handler","unclassified","reset","command",
-"atomic_signal_handler","unclassified","triggered","predicate",
-"atomic_signal_handler","unclassified","handled","predicate",
-"atomic_signal_handler","unclassified","trigger","command",
-"atomic_signal_handler","unclassified","handle","predicate non-void-command collaborator",
-"output_grpc","controller small-class","falco::outputs::output_grpc::output","void-accessor controller",
-"semaphore","commander boundary data-class small-class","semaphore","constructor",
-"semaphore","commander boundary data-class small-class","release","set collaborator",
-"semaphore","commander boundary data-class small-class","acquire","set collaborator",
-"falco_configuration","unclassified","falco_configuration::falco_configuration","constructor",
-"falco_configuration","unclassified","falco_configuration::init_from_content","void-accessor command",
-"falco_configuration","unclassified","falco_configuration::init_from_file","void-accessor command",
-"falco_configuration","unclassified","falco_configuration::dump","property non-void-command",
-"falco_configuration","unclassified","falco_configuration::merge_config_files","void-accessor command collaborator",
-"falco_configuration","unclassified","falco_configuration::init_logger","command",
-"falco_configuration","unclassified","falco_configuration::load_engine_config","void-accessor command",
-"falco_configuration","unclassified","falco_configuration::load_yaml","void-accessor command collaborator",
-"falco_configuration","unclassified","falco_configuration::read_rules_file_directory","controller stateless",
-"falco_configuration","unclassified","falco_configuration::init_cmdline_options","command",
-"falco_configuration","unclassified","falco_configuration::set_cmdline_option","void-accessor command",
-"test_reader","entity boundary small-class","create_context","wrapper stateless",
-"test_reader","entity boundary small-class","read_item","void-accessor command collaborator",
+"yaml_visitor","commander boundary small-class","yaml_visitor","constructor"
+"yaml_visitor","commander boundary small-class","operator()","command collaborator"
+"yaml_visitor","commander boundary small-class","descend","command collaborator"
+"falco_webserver","commander small-class","falco_webserver::~falco_webserver","destructor"
+"falco_webserver","commander small-class","falco_webserver::start","command collaborator"
+"falco_webserver","commander small-class","falco_webserver::stop","command"
+"yaml_helper","lazy-class","load_from_string","set"
+"yaml_helper","lazy-class","load_from_file","set"
+"yaml_helper","lazy-class","include_config_file","set collaborator"
+"yaml_helper","lazy-class","clear","set"
+"yaml_helper","lazy-class","get_scalar","controller stateless"
+"yaml_helper","lazy-class","set_scalar","wrapper stateless"
+"yaml_helper","lazy-class","get_sequence","wrapper stateless"
+"yaml_helper","lazy-class","is_defined","controller stateless"
+"yaml_helper","lazy-class","dump","property controller"
+"yaml_helper","lazy-class","load_from_file_int","property non-void-command collaborator"
+"yaml_helper","lazy-class","pre_process_env_vars","controller stateless"
+"watchdog","commander","watchdog","constructor"
+"watchdog","commander","~watchdog","destructor"
+"watchdog","commander","start","command collaborator"
+"watchdog","commander","stop","command"
+"watchdog","commander","set_timeout","command collaborator"
+"watchdog","commander","cancel_timeout","command"
+"output_syslog","pure-controller degenerate small-class","falco::outputs::output_syslog::output","controller stateless"
+"output_stdout","small-class","falco::outputs::output_stdout::output","collaborator"
+"output_stdout","small-class","falco::outputs::output_stdout::cleanup","controller stateless"
+"output_program","commander","falco::outputs::output_program::open_pfile","set"
+"output_program","commander","falco::outputs::output_program::output","command collaborator"
+"output_program","commander","falco::outputs::output_program::cleanup","set"
+"output_program","commander","falco::outputs::output_program::reopen","command"
+"abstract_output","unclassified","init","predicate non-void-command"
+"abstract_output","unclassified","get_name","property"
+"abstract_output","unclassified","reopen","empty"
+"abstract_output","unclassified","cleanup","empty"
+"server","commander boundary","falco::grpc::server::thread_process","command collaborator"
+"server","commander boundary","falco::grpc::server::init","command collaborator"
+"server","commander boundary","falco::grpc::server::init_mtls_server_builder","command collaborator"
+"server","commander boundary","falco::grpc::server::init_unix_server_builder","command"
+"server","commander boundary","falco::grpc::server::run","command collaborator"
+"server","commander boundary","falco::grpc::server::stop","command"
+"server","commander boundary","falco::grpc::server::is_running","predicate"
+"server","commander boundary","falco::grpc::server::get","void-accessor command collaborator"
+"server","commander boundary","falco::grpc::server::sub","void-accessor command collaborator"
+"server","commander boundary","falco::grpc::server::version","controller stateless"
+"server","commander boundary","falco::grpc::server::shutdown","set"
+"queue","entity boundary small-class","try_pop","predicate non-void-command collaborator"
+"queue","entity boundary small-class","push","command collaborator"
+"queue","entity boundary small-class","queue","constructor"
+"falco_outputs","unclassified","falco_outputs::falco_outputs","constructor"
+"falco_outputs","unclassified","falco_outputs::~falco_outputs","destructor"
+"falco_outputs","unclassified","falco_outputs::add_output","command collaborator"
+"falco_outputs","unclassified","falco_outputs::handle_event","command"
+"falco_outputs","unclassified","falco_outputs::handle_msg","controller"
+"falco_outputs","unclassified","falco_outputs::cleanup_outputs","controller stateless"
+"falco_outputs","unclassified","falco_outputs::reopen_outputs","controller stateless"
+"falco_outputs","unclassified","falco_outputs::stop_worker","command collaborator"
+"falco_outputs","unclassified","falco_outputs::push_ctrl","controller stateless"
+"falco_outputs","unclassified","falco_outputs::push","command collaborator"
+"falco_outputs","unclassified","falco_outputs::worker","command collaborator"
+"falco_outputs","unclassified","falco_outputs::process_msg","controller stateless"
+"falco_outputs","unclassified","falco_outputs::get_outputs_queue_num_drops","property non-void-command"
+"stream_context","empty","stream_context","constructor"
+"falco_formats","data-provider small-class","falco_formats::falco_formats","constructor"
+"falco_formats","data-provider small-class","falco_formats::~falco_formats","destructor"
+"falco_formats","data-provider small-class","falco_formats::format_event","property collaborator"
+"falco_formats","data-provider small-class","falco_formats::get_field_values","property"
+"filter_warning_resolver","pure-controller degenerate small-class","filter_warning_resolver::run","controller stateless"
+"configuration","empty","configuration","constructor"
+"falco_rule","empty","falco_rule","constructor"
+"list_info","empty","rule_loader::list_info::list_info","constructor"
+"stats_writer","commander boundary degenerate","has_output","get"
+"stats_writer","commander boundary degenerate","stats_writer::init_ticker","incidental"
+"stats_writer","commander boundary degenerate","stats_writer::init_ticker","wrapper stateless"
+"stats_writer","commander boundary degenerate","stats_writer::init_ticker","wrapper stateless"
+"stats_writer","commander boundary degenerate","stats_writer::init_ticker","wrapper stateless"
+"stats_writer","commander boundary degenerate","stats_writer::get_ticker","controller stateless"
+"stats_writer","commander boundary degenerate","stats_writer::stats_writer","constructor"
+"stats_writer","commander boundary degenerate","stats_writer::~stats_writer","destructor"
+"stats_writer","commander boundary degenerate","stats_writer::stop_worker","command collaborator"
+"stats_writer","commander boundary degenerate","stats_writer::push","command collaborator"
+"stats_writer","commander boundary degenerate","stats_writer::worker","command collaborator"
+"load_result","boundary degenerate","falco::load_result::error_code_str","collaborator incidental"
+"load_result","boundary degenerate","falco::load_result::error_str","collaborator incidental"
+"load_result","boundary degenerate","falco::load_result::error_desc","collaborator incidental"
+"load_result","boundary degenerate","falco::load_result::warning_code_str","collaborator incidental"
+"load_result","boundary degenerate","falco::load_result::warning_str","collaborator incidental"
+"load_result","boundary degenerate","falco::load_result::warning_desc","collaborator incidental"
+"test_ruleset_factory","data-provider boundary small-class","test_ruleset_factory","constructor"
+"test_ruleset_factory","data-provider boundary small-class","new_ruleset","get collaborator"
+"test_ruleset_factory","data-provider boundary small-class","test_ruleset_factory","constructor"
+"test_ruleset_factory","data-provider boundary small-class","new_ruleset","property wrapper"
+"options","unclassified","options::parse","predicate non-void-command collaborator"
+"options","unclassified","options::usage","get"
+"options","unclassified","options::define","controller"
+"compiler","degenerate","rule_loader::compiler::compile_list_infos","controller stateless"
+"compiler","degenerate","rule_loader::compiler::compile_macros_infos","controller stateless"
+"compiler","degenerate","rule_loader::compiler::compile_condition","controller stateless"
+"compiler","degenerate","rule_loader::compiler::compile_rule_infos","collaborator"
+"compiler","degenerate","rule_loader::compiler::new_compile_output","wrapper stateless"
+"compiler","degenerate","rule_loader::compiler::compile","collaborator"
+"test_compiler","boundary small-class","new_compile_output","wrapper stateless"
+"test_compiler","boundary small-class","test_compiler::compile","collaborator"
+"warning","empty","warning","constructor"
+"warning","empty","warning","copy-constructor"
+"falco_logger","unclassified","falco_logger::set_time_format_iso_8601","incidental"
+"falco_logger","unclassified","falco_logger::set_level","set"
+"falco_logger","unclassified","falco_logger::set_sinsp_logging","command"
+"falco_logger","unclassified","falco_logger::log","controller"
+"falco_list","empty","falco_list","constructor"
+"falco_engine","boundary","get_rules","get collaborator"
+"falco_engine","boundary","find_source","property non-void-command collaborator"
+"falco_engine","boundary","find_source","property collaborator"
+"falco_engine","boundary","falco_engine::falco_engine","constructor"
+"falco_engine","boundary","falco_engine::~falco_engine","destructor"
+"falco_engine","boundary","falco_engine::engine_version","wrapper stateless"
+"falco_engine","boundary","falco_engine::set_rule_reader","set collaborator"
+"falco_engine","boundary","falco_engine::get_rule_reader","get collaborator"
+"falco_engine","boundary","falco_engine::set_rule_collector","set collaborator"
+"falco_engine","boundary","falco_engine::get_rule_collector","get collaborator"
+"falco_engine","boundary","falco_engine::set_rule_compiler","set collaborator"
+"falco_engine","boundary","falco_engine::get_rule_compiler","get collaborator"
+"falco_engine","boundary","falco_engine::list_fields","controller"
+"falco_engine","boundary","falco_engine::load_rules","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::enable_rule","command"
+"falco_engine","boundary","falco_engine::enable_rule","controller"
+"falco_engine","boundary","falco_engine::enable_rule_exact","command"
+"falco_engine","boundary","falco_engine::enable_rule_exact","controller"
+"falco_engine","boundary","falco_engine::enable_rule_wildcard","command"
+"falco_engine","boundary","falco_engine::enable_rule_wildcard","controller"
+"falco_engine","boundary","falco_engine::enable_rule_by_tag","command"
+"falco_engine","boundary","falco_engine::enable_rule_by_tag","controller"
+"falco_engine","boundary","falco_engine::set_min_priority","set collaborator"
+"falco_engine","boundary","falco_engine::find_ruleset_id","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::num_rules_for_ruleset","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::evttypes_for_ruleset","command"
+"falco_engine","boundary","falco_engine::sc_codes_for_ruleset","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::event_codes_for_ruleset","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::create_formatter","property collaborator"
+"falco_engine","boundary","falco_engine::process_event","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::process_event","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::add_source","property set collaborator"
+"falco_engine","boundary","falco_engine::add_source","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::describe_rule","property collaborator"
+"falco_engine","boundary","falco_engine::get_json_details","void-accessor collaborator"
+"falco_engine","boundary","falco_engine::get_json_details","void-accessor collaborator"
+"falco_engine","boundary","falco_engine::get_json_details","controller stateless"
+"falco_engine","boundary","falco_engine::get_json_evt_types","controller stateless"
+"falco_engine","boundary","falco_engine::get_json_used_plugins","controller stateless"
+"falco_engine","boundary","falco_engine::print_stats","unclassified"
+"falco_engine","boundary","falco_engine::get_rule_stats_manager","get collaborator"
+"falco_engine","boundary","falco_engine::is_source_valid","predicate"
+"falco_engine","boundary","falco_engine::filter_factory_for_source","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::filter_factory_for_source","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::formatter_factory_for_source","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::formatter_factory_for_source","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::ruleset_factory_for_source","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::ruleset_factory_for_source","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::ruleset_for_source","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::ruleset_for_source","property non-void-command collaborator"
+"falco_engine","boundary","falco_engine::read_file","controller stateless"
+"falco_engine","boundary","falco_engine::check_plugin_requirements","predicate collaborator"
+"falco_engine","boundary","falco_engine::create_ruleset","property controller"
+"falco_engine","boundary","falco_engine::fill_engine_state_funcs","void-accessor command collaborator"
+"falco_engine","boundary","falco_engine::complete_rule_loading","controller"
+"falco_engine","boundary","falco_engine::set_sampling_ratio","set"
+"falco_engine","boundary","falco_engine::set_sampling_multiplier","set"
+"falco_engine","boundary","falco_engine::set_extra","command"
+"falco_engine","boundary","falco_engine::should_drop_evt","predicate wrapper"
+"filter_ruleset","boundary lazy-class","add_compile_output","wrapper stateless"
+"filter_ruleset","boundary lazy-class","filter_ruleset::set_engine_state","set collaborator"
+"filter_ruleset","boundary lazy-class","filter_ruleset::get_engine_state","get collaborator"
+"context","entity boundary","rule_loader::context::item_type_as_string","collaborator incidental"
+"context","entity boundary","rule_loader::context::context","constructor"
+"context","entity boundary","rule_loader::context::context","copy-constructor"
+"context","entity boundary","rule_loader::context::context","copy-constructor"
+"context","entity boundary","rule_loader::context::context","copy-constructor"
+"context","entity boundary","rule_loader::context::name","property"
+"context","entity boundary","rule_loader::context::init","set collaborator"
+"context","entity boundary","rule_loader::context::as_string","property non-void-command collaborator"
+"context","entity boundary","rule_loader::context::as_json","property non-void-command collaborator"
+"context","entity boundary","rule_loader::context::snippet","property"
+"context","entity boundary","falco::grpc::context::context","constructor"
+"context","entity boundary","falco::grpc::context::context::get_metadata","command collaborator"
+"filter_details_resolver","pure-controller degenerate small-class","filter_details_resolver::run","controller stateless"
+"filter_details","commander small-class","filter_details::reset","command"
+"error","empty","error","constructor"
+"error","empty","error","copy-constructor"
+"source_sync_context","unclassified","source_sync_context","constructor"
+"source_sync_context","unclassified","finish","command"
+"source_sync_context","unclassified","join","command"
+"source_sync_context","unclassified","joined","predicate non-void-command"
+"source_sync_context","unclassified","finished","predicate non-void-command"
+"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::syscall_evt_drop_mgr","constructor"
+"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::~syscall_evt_drop_mgr","destructor"
+"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::init","command"
+"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::process_event","predicate non-void-command collaborator"
+"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::print_stats","wrapper"
+"syscall_evt_drop_mgr","entity boundary","syscall_evt_drop_mgr::perform_actions","predicate non-void-command collaborator"
+"test_ruleset","commander boundary small-class","test_ruleset","constructor"
+"test_ruleset","commander boundary small-class","add_compile_output","command collaborator"
+"test_falco_engine","data-provider","test_falco_engine::test_falco_engine","constructor"
+"test_falco_engine","data-provider","test_falco_engine::load_rules","predicate non-void-command collaborator"
+"test_falco_engine","data-provider","test_falco_engine::num_rules_for_ruleset","property non-void-command"
+"test_falco_engine","data-provider","test_falco_engine::has_warnings","predicate"
+"test_falco_engine","data-provider","test_falco_engine::check_warning_message","predicate"
+"test_falco_engine","data-provider","test_falco_engine::check_error_message","predicate"
+"test_falco_engine","data-provider","test_falco_engine::get_compiled_rule_condition","property collaborator"
+"request_bidi_context","empty","request_bidi_context","constructor"
+"restart_handler","commander","falco::app::restart_handler::~restart_handler","destructor"
+"restart_handler","commander","falco::app::restart_handler::trigger","command"
+"restart_handler","commander","falco::app::restart_handler::start","predicate non-void-command collaborator"
+"restart_handler","commander","falco::app::restart_handler::stop","command"
+"restart_handler","commander","falco::app::restart_handler::watcher_loop","command collaborator"
+"falco_macro","empty","falco_macro","constructor"
+"reader","entity boundary","rule_loader::reader::decode_val","wrapper stateless"
+"reader","entity boundary","rule_loader::reader::decode_optional_val","wrapper stateless"
+"reader","entity boundary","rule_loader::reader::read_item","command collaborator"
+"reader","entity boundary","rule_loader::reader::read","predicate non-void-command collaborator"
+"output_file","commander","falco::outputs::output_file::open_file","command"
+"output_file","commander","falco::outputs::output_file::output","command collaborator"
+"output_file","commander","falco::outputs::output_file::cleanup","command"
+"output_file","commander","falco::outputs::output_file::reopen","command"
+"evttype_index_ruleset_factory","data-provider boundary small-class","evttype_index_ruleset_factory","constructor"
+"evttype_index_ruleset_factory","data-provider boundary small-class","new_ruleset","property wrapper"
+"filter_macro_resolver","entity minimal-entity boundary","clear","command"
+"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::run","predicate non-void-command collaborator"
+"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::set_macro","set collaborator"
+"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::get_unknown_macros","get collaborator"
+"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::get_errors","get collaborator"
+"filter_macro_resolver","entity minimal-entity boundary","filter_macro_resolver::get_resolved_macros","get collaborator"
+"run_result","empty","run_result","constructor"
+"request_stream_context","empty","request_stream_context","constructor"
+"rule_update_info","small-class","has_any_value","predicate non-void-command"
+"rule_update_info","small-class","rule_loader::rule_update_info::rule_update_info","constructor"
+"rule_load_exception","data-provider small-class","rule_loader::rule_load_exception::rule_load_exception","constructor"
+"rule_load_exception","data-provider small-class","rule_loader::rule_load_exception::~rule_load_exception","destructor"
+"rule_load_exception","data-provider small-class","rule_loader::rule_load_exception::what","property"
+"indexed_vector","entity data-provider boundary","size","property"
+"indexed_vector","entity data-provider boundary","empty","predicate"
+"indexed_vector","entity data-provider boundary","clear","command"
+"indexed_vector","entity data-provider boundary","insert","property non-void-command collaborator"
+"indexed_vector","entity data-provider boundary","at","property collaborator"
+"indexed_vector","entity data-provider boundary","at","property collaborator"
+"indexed_vector","entity data-provider boundary","begin","property non-void-command collaborator"
+"indexed_vector","entity data-provider boundary","end","property non-void-command collaborator"
+"indexed_vector","entity data-provider boundary","begin","property collaborator"
+"indexed_vector","entity data-provider boundary","end","property collaborator"
+"result","boundary","rule_loader::result::result","constructor"
+"result","boundary","rule_loader::result::successful","get"
+"result","boundary","rule_loader::result::has_warnings","predicate non-void-command"
+"result","boundary","rule_loader::result::add_error","set collaborator"
+"result","boundary","rule_loader::result::add_warning","command collaborator"
+"result","boundary","rule_loader::result::as_string","property non-void-command collaborator"
+"result","boundary","rule_loader::result::as_summary_string","get non-void-command"
+"result","boundary","rule_loader::result::as_verbose_string","get non-void-command collaborator"
+"result","boundary","rule_loader::result::as_json","get non-void-command collaborator"
+"request_context","empty","request_context","constructor"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::evttype_index_ruleset","constructor"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::~evttype_index_ruleset","destructor"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::add","command collaborator"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::on_loading_complete","command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::print_enabled_rules_falco_logger","controller"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::clear","command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::enable","command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::disable","command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::enable_disable","command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::enable_tags","command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::disable_tags","command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::enable_disable_tags","command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::enabled_count","get non-void-command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::run","get predicate non-void-command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::run","get predicate non-void-command"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::enabled_evttypes","command collaborator"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::enabled_sc_codes","get property non-void-command collaborator"
+"evttype_index_ruleset","unclassified","evttype_index_ruleset::enabled_event_codes","get property non-void-command collaborator"
+"rule_exception_info","empty","rule_loader::rule_exception_info::rule_exception_info","constructor"
+"stats_manager","entity boundary","get_total","get collaborator"
+"stats_manager","entity boundary","get_by_priority","get collaborator"
+"stats_manager","entity boundary","get_by_rule_id","get collaborator"
+"stats_manager","entity boundary","stats_manager::stats_manager","constructor"
+"stats_manager","entity boundary","stats_manager::~stats_manager","destructor"
+"stats_manager","entity boundary","stats_manager::clear","command"
+"stats_manager","entity boundary","stats_manager::format","void-accessor collaborator"
+"stats_manager","entity boundary","stats_manager::on_rule_loaded","command collaborator"
+"stats_manager","entity boundary","stats_manager::on_event","command collaborator"
+"state","data-provider","is_capture_mode","predicate"
+"state","data-provider","is_gvisor","predicate"
+"state","data-provider","is_kmod","predicate"
+"state","data-provider","is_ebpf","predicate"
+"state","data-provider","is_modern_ebpf","predicate"
+"state","data-provider","is_nodriver","predicate"
+"state","data-provider","is_source_enabled","predicate"
+"state","data-provider","is_driver_drop_failed_exit_enabled","predicate"
+"state","data-provider","driver_buf_size_preset","property"
+"versions_info","data-provider boundary small-class","falco::versions_info::versions_info","constructor"
+"versions_info","data-provider boundary small-class","falco::versions_info::as_json","property wrapper"
+"output_http","unclassified","falco::outputs::output_http::init","predicate non-void-command"
+"output_http","unclassified","falco::outputs::output_http::output","controller"
+"output_http","unclassified","falco::outputs::output_http::cleanup","command"
+"engine_version_info","empty","engine_version_info","constructor"
+"engine_version_info","empty","rule_loader::engine_version_info::engine_version_info","constructor"
+"plugin_version_info","empty","rule_loader::plugin_version_info::plugin_version_info","constructor"
+"plugin_version_info","empty","rule_loader::plugin_version_info::plugin_version_info","constructor"
+"falco_metrics","pure-controller degenerate small-class","falco_metrics::to_text","controller stateless"
+"macro_info","empty","rule_loader::macro_info::macro_info","constructor"
+"falco_source","small-class","falco_source","copy-constructor"
+"falco_source","small-class","operator=","get non-void-command"
+"falco_source","small-class","is_valid_lhs_field","predicate collaborator"
+"rule_info","empty","rule_loader::rule_info::rule_info","constructor"
+"collector","boundary","collector","constructor"
+"collector","boundary","rule_loader::collector::clear","command"
+"collector","boundary","rule_loader::collector::required_plugin_versions","get collaborator"
+"collector","boundary","rule_loader::collector::required_engine_version","get collaborator"
+"collector","boundary","rule_loader::collector::lists","get collaborator"
+"collector","boundary","rule_loader::collector::macros","get collaborator"
+"collector","boundary","rule_loader::collector::rules","get collaborator"
+"collector","boundary","rule_loader::collector::define","set collaborator"
+"collector","boundary","rule_loader::collector::define","command collaborator"
+"collector","boundary","rule_loader::collector::define","set collaborator"
+"collector","boundary","rule_loader::collector::append","set collaborator"
+"collector","boundary","rule_loader::collector::define","set collaborator"
+"collector","boundary","rule_loader::collector::append","set collaborator"
+"collector","boundary","rule_loader::collector::define","void-accessor set collaborator"
+"collector","boundary","rule_loader::collector::append","set collaborator"
+"collector","boundary","rule_loader::collector::selective_replace","set collaborator"
+"collector","boundary","rule_loader::collector::enable","command collaborator"
+"collector","boundary","stats_writer::collector::collector","constructor"
+"collector","boundary","stats_writer::collector::get_metrics_output_fields_wrapper","controller stateless"
+"collector","boundary","stats_writer::collector::get_metrics_output_fields_additional","controller stateless"
+"collector","boundary","stats_writer::collector::collect","command collaborator"
+"bidi_context","empty","bidi_context","constructor"
+"events_by_category","commander boundary small-class","add_event","command collaborator"
+"atomic_signal_handler","unclassified","is_lock_free","predicate"
+"atomic_signal_handler","unclassified","reset","command"
+"atomic_signal_handler","unclassified","triggered","predicate"
+"atomic_signal_handler","unclassified","handled","predicate"
+"atomic_signal_handler","unclassified","trigger","command"
+"atomic_signal_handler","unclassified","handle","predicate non-void-command collaborator"
+"output_grpc","pure-controller small-class","falco::outputs::output_grpc::output","controller"
+"semaphore","commander boundary data-class small-class","semaphore","constructor"
+"semaphore","commander boundary data-class small-class","release","set collaborator"
+"semaphore","commander boundary data-class small-class","acquire","set collaborator"
+"falco_configuration","commander","falco_configuration::falco_configuration","constructor"
+"falco_configuration","commander","falco_configuration::init_from_content","command"
+"falco_configuration","commander","falco_configuration::init_from_file","command"
+"falco_configuration","commander","falco_configuration::dump","property non-void-command"
+"falco_configuration","commander","falco_configuration::merge_config_files","command collaborator"
+"falco_configuration","commander","falco_configuration::init_logger","command"
+"falco_configuration","commander","falco_configuration::load_engine_config","command"
+"falco_configuration","commander","falco_configuration::load_yaml","command collaborator"
+"falco_configuration","commander","falco_configuration::read_rules_file_directory","controller stateless"
+"falco_configuration","commander","falco_configuration::init_cmdline_options","command"
+"falco_configuration","commander","falco_configuration::set_cmdline_option","command"
+"test_reader","commander boundary small-class","create_context","wrapper stateless"
+"test_reader","commander boundary small-class","read_item","command collaborator"

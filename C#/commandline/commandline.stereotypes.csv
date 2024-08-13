@@ -1,561 +1,497 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"UnParserExtensionsTests","factory degenerate","get","factory collaborator stateless",
-"UnParserExtensionsTests","factory degenerate","get","factory collaborator stateless",
-"UnParserExtensionsTests","factory degenerate","get","factory collaborator stateless",
-"UnParserExtensionsTests","factory degenerate","get","factory wrapper stateless",
-"UnParserExtensionsTests","factory degenerate","get","factory collaborator incidental",
-"UnParserExtensionsTests","factory degenerate","get","factory wrapper stateless",
-"HelpTextTests","controller degenerate","Dispose","wrapper stateless",
-"HelpTextTests","controller degenerate","Create_empty_instance","wrapper stateless",
-"HelpTextTests","controller degenerate","Create_instance_without_options","controller stateless",
-"HelpTextTests","controller degenerate","Create_instance_with_options","controller stateless",
-"HelpTextTests","controller degenerate","Create_instance_with_enum_options_enabled","controller stateless",
-"HelpTextTests","controller degenerate","Create_instance_with_enum_options_disabled","controller stateless",
-"HelpTextTests","controller degenerate","When_defined_MetaValue_should_be_rendered","controller stateless",
-"HelpTextTests","controller degenerate","When_help_text_is_longer_than_width_it_will_wrap_around_as_if_in_a_column_given_width_of_40","controller",
-"HelpTextTests","controller degenerate","When_help_text_is_longer_than_width_it_will_wrap_around_as_if_in_a_column_given_width_of_100","controller stateless",
-"HelpTextTests","controller degenerate","When_help_text_has_hidden_option_it_should_not_be_added_to_help_text_output","controller",
-"HelpTextTests","controller degenerate","Long_help_text_without_spaces","controller",
-"HelpTextTests","controller degenerate","Long_pre_and_post_lines_without_spaces","controller stateless",
-"HelpTextTests","controller degenerate","Invoking_RenderParsingErrorsText_returns_appropriate_formatted_text","controller stateless",
-"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Options_returns_appropriate_formatted_text","controller stateless",
-"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Verbs_with_specific_verb_returns_appropriate_formatted_text","controller stateless",
-"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Verbs_with_specific_verb_returns_appropriate_formatted_text_given_display_width_100","controller stateless",
-"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Verbs_with_unknown_verb_returns_appropriate_formatted_text","controller stateless",
-"HelpTextTests","controller degenerate","Create_instance_with_options_and_values","controller stateless",
-"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Options_with_Usage_returns_appropriate_formatted_text","controller stateless",
-"HelpTextTests","controller degenerate","AutoBuild_with_errors_and_preoptions_renders_correctly","controller stateless",
-"HelpTextTests","controller degenerate","Default_set_to_sequence_should_be_properly_printed","controller stateless",
-"HelpTextTests","controller degenerate","AutoBuild_when_no_assembly_attributes","controller stateless",
-"HelpTextTests","controller degenerate","AutoBuild_with_assembly_title_and_version_attributes_only","controller stateless",
-"HelpTextTests","controller degenerate","AutoBuild_with_assembly_company_attribute_only","controller stateless",
-"HelpTextTests","controller degenerate","Add_line_with_two_empty_spaces_at_the_end","controller stateless",
-"HelpTextTests","controller degenerate","HelpTextHonoursLineBreaks","controller stateless",
-"HelpTextTests","controller degenerate","HelpTextHonoursIndentationAfterLineBreaks","controller stateless",
-"HelpTextTests","controller degenerate","HelpTextPreservesIndentationAcrossWordWrap","controller stateless",
-"HelpTextTests","controller degenerate","HelpTextIsConsitentRegardlessOfCompileTimeLineStyle","controller stateless",
-"HelpTextTests","controller degenerate","HelpTextPreservesIndentationAcrossWordWrapWithSmallMaximumDisplayWidth","controller stateless",
-"HelpTextTests","controller degenerate","Options_should_be_separated_by_spaces","controller stateless",
-"HelpTextTests","controller degenerate","Options_Should_Render_OptionGroup_In_Parenthesis_When_Available","command collaborator",
-"HelpTextTests","controller degenerate","Options_Should_Render_OptionGroup_When_Available_And_Should_Not_Render_Required","command collaborator",
-"HelpTextTests","controller degenerate","Options_Should_Render_Multiple_OptionGroups_When_Available","command collaborator",
-"HelpTextTests","controller degenerate","AutoBuild_with_custom_copyright_using_onError_action","controller stateless",
-"HelpTextTests","controller degenerate","AutoBuild_with_custom_help_and_version_request","controller stateless",
-"HelpTextTests","controller degenerate","Invoke_Custom_AutoBuild_for_Verbs_with_specific_verb_and_no_AdditionalNewLineAfterOption_returns_appropriate_formatted_text","controller stateless",
-"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Options_with_custom_help_returns_appropriate_formatted_text","controller stateless",
-"ParserTests","controller degenerate","When_HelpWriter_is_set_help_screen_is_generated","controller stateless",
-"ParserTests","controller degenerate","When_HelpWriter_is_set_help_screen_is_generated_in_verbs_scenario","controller stateless",
-"ParserTests","controller degenerate","When_HelpWriter_is_set_help_screen_is_generated_in_verbs_scenario_using_generic_overload","controller stateless",
-"ParserTests","controller degenerate","Parse_options","controller stateless",
-"ParserTests","controller degenerate","Parse_repeated_options_with_default_parser","controller stateless",
-"ParserTests","controller degenerate","Parse_options_with_double_dash","controller stateless",
-"ParserTests","controller degenerate","Parse_options_with_repeated_value_in_values_sequence_and_option","controller stateless",
-"ParserTests","controller degenerate","Parse_options_with_double_dash_and_option_sequence","controller stateless",
-"ParserTests","controller degenerate","Parse_options_with_double_dash_in_verbs_scenario","controller stateless",
-"ParserTests","controller degenerate","Parse_options_with_single_dash","controller stateless",
-"ParserTests","controller degenerate","Parse_verbs","controller stateless",
-"ParserTests","controller degenerate","Parse_repeated_options_with_default_parser_in_verbs_scenario","controller stateless",
-"ParserTests","controller degenerate","Parse_verbs_using_generic_overload","controller stateless",
-"ParserTests","controller degenerate","Parse_to_immutable_instance","controller stateless",
-"ParserTests","controller degenerate","Explicit_help_request_with_immutable_instance_generates_help_requested_error","controller stateless",
-"ParserTests","controller degenerate","Explicit_help_request_with_immutable_instance_generates_help_screen","controller stateless",
-"ParserTests","controller degenerate","Explicit_version_request_generates_version_requested_error","controller stateless",
-"ParserTests","controller degenerate","Explicit_version_request_generates_version_info_screen","controller stateless",
-"ParserTests","controller degenerate","Implicit_help_screen_in_verb_scenario","controller stateless",
-"ParserTests","controller degenerate","Help_screen_in_default_verb_scenario","controller stateless",
-"ParserTests","controller degenerate","Double_dash_help_dispalys_verbs_index_in_verbs_scenario","controller stateless",
-"ParserTests","controller degenerate","Explicit_version_request_generates_version_info_screen_in_verbs_scenario","controller stateless",
-"ParserTests","controller degenerate","Errors_of_type_MutuallyExclusiveSetError_are_properly_formatted","controller stateless",
-"ParserTests","controller degenerate","Explicit_help_request_with_specific_verb_generates_help_screen","controller stateless",
-"ParserTests","controller degenerate","Properly_formatted_help_screen_is_displayed_when_usage_is_defined_in_verb_scenario","controller stateless",
-"ParserTests","controller degenerate","Properly_formatted_help_screen_is_displayed_when_there_is_a_hidden_verb","controller stateless",
-"ParserTests","controller degenerate","Properly_formatted_help_screen_is_displayed_when_there_is_a_hidden_verb_selected_usage_displays_with_hidden_option","controller stateless",
-"ParserTests","controller degenerate","Parse_options_when_given_hidden_verb","controller stateless",
-"ParserTests","controller degenerate","Parse_options_when_given_hidden_verb_with_hidden_option","controller stateless",
-"ParserTests","controller degenerate","Specific_verb_help_screen_should_be_displayed_regardless_other_argument","controller stateless",
-"ParserTests","controller degenerate","When_IgnoreUnknownArguments_is_set_valid_unknown_arguments_avoid_a_failure_parsing","controller stateless",
-"ParserTests","controller degenerate","When_IgnoreUnknownArguments_is_set_valid_unknown_arguments_avoid_a_failure_parsing_for_verbs","controller stateless",
-"ParserTests","controller degenerate","Properly_formatted_help_screen_excludes_help_as_unknown_option","controller stateless",
-"ParserTests","controller degenerate","Parse_options_with_same_option_and_value_args","controller stateless",
-"ParserTests","controller degenerate","Parse_verb_with_same_option_and_value_args","controller stateless",
-"ParserTests","controller degenerate","Parse_options_with_shuffled_index_values","controller stateless",
-"ParserTests","controller degenerate","Blank_lines_are_inserted_between_verbs","controller stateless",
-"ParserTests","controller degenerate","Parse_default_verb_implicit","controller stateless",
-"ParserTests","controller degenerate","Parse_default_verb_explicit","controller stateless",
-"ParserTests","controller degenerate","Parse_multiple_default_verbs","controller stateless",
-"ParserTests","controller degenerate","Parse_repeated_options_in_verbs_scenario_with_multi_instance","command",
-"ParserTests","controller degenerate","Parse_repeated_options_in_verbs_scenario_without_multi_instance","command",
-"ParserTests","controller degenerate","get","factory wrapper stateless",
-"ParserTests","controller degenerate","get","factory collaborator incidental",
-"ParserSettingsTests","boundary degenerate small-class","Disposal_does_not_dispose_HelpWriter","wrapper stateless",
-"Issue70Tests","pure-controller degenerate small-class","Create_instance_with_factory_method_should_not_fail","controller stateless",
-"Issue6Tests","pure-controller degenerate small-class","Parse_option_with_aliased_verbs","controller stateless",
-"Issue6Tests","pure-controller degenerate small-class","Parse_option_with_aliased_verb","controller stateless",
-"CustomClass","empty","CustomClass","constructor",
-"CustomStruct","empty","CustomStruct","constructor",
-"NamedError","entity boundary","NamedError","constructor",
-"NamedError","entity boundary","Equals","predicate non-void-command collaborator",
-"NamedError","entity boundary","GetHashCode","property non-void-command",
-"NamedError","entity boundary","Equals","wrapper stateless",
-"NamedError","entity boundary","get","get collaborator",
-"VerbAttribute","empty","VerbAttribute","constructor",
-"ValueAttribute","data-class","ValueAttribute","constructor",
-"ValueAttribute","data-class","get","get",
-"ValueAttribute","data-class","get","get",
-"ValueAttribute","data-class","set","set",
-"UnParserSettings","data-provider","get","get",
-"UnParserSettings","data-provider","set","wrapper",
-"UnParserSettings","data-provider","get","get",
-"UnParserSettings","data-provider","set","wrapper",
-"UnParserSettings","data-provider","get","get",
-"UnParserSettings","data-provider","set","wrapper",
-"UnParserSettings","data-provider","get","get",
-"UnParserSettings","data-provider","set","wrapper",
-"UnParserSettings","data-provider","get","get",
-"UnParserSettings","data-provider","set","wrapper",
-"Parsed<T>","entity boundary","Parsed","constructor",
-"Parsed<T>","entity boundary","Parsed","constructor",
-"Parsed<T>","entity boundary","Equals","predicate non-void-command collaborator",
-"Parsed<T>","entity boundary","GetHashCode","property non-void-command",
-"Parsed<T>","entity boundary","Equals","predicate non-void-command collaborator",
-"Parser","data-provider boundary","Parser","constructor",
-"Parser","data-provider boundary","Parser","copy-constructor",
-"Parser","data-provider boundary","Parser","copy-constructor",
-"Parser","data-provider boundary","~Parser","destructor",
-"Parser","data-provider boundary","ParseArguments<T>","property wrapper",
-"Parser","data-provider boundary","ParseArguments<T>","property wrapper",
-"Parser","data-provider boundary","ParseArguments","property wrapper",
-"Parser","data-provider boundary","Dispose","command",
-"Parser","data-provider boundary","Dispose","set",
-"Parser","data-provider boundary","get","get",
-"Parser","data-provider boundary","get","get collaborator",
-"Issue418Tests","pure-controller degenerate small-class","Explicit_version_request_generates_version_info_screen_with_eol","controller stateless",
-"NameInfo","unclassified","NameInfo","constructor",
-"NameInfo","unclassified","Equals","predicate non-void-command collaborator",
-"NameInfo","unclassified","GetHashCode","property non-void-command",
-"NameInfo","unclassified","Equals","wrapper stateless",
-"NameInfo","unclassified","get","get",
-"NameInfo","unclassified","get","get",
-"NameInfo","unclassified","get","incidental",
-"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor",
-"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor",
-"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor",
-"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor",
-"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor",
-"NonStaticResource","degenerate","get","incidental",
-"NonStaticResource","degenerate","set","wrapper stateless",
-"NonStaticResource","degenerate","get","incidental",
-"CopyrightInfo","lazy-class","CopyrightInfo","constructor",
-"CopyrightInfo","lazy-class","CopyrightInfo","constructor",
-"CopyrightInfo","lazy-class","CopyrightInfo","constructor",
-"CopyrightInfo","lazy-class","CopyrightInfo","constructor",
-"CopyrightInfo","lazy-class","CopyrightInfo","constructor",
-"CopyrightInfo","lazy-class","ToString","get property non-void-command",
-"CopyrightInfo","lazy-class","FormatYears","property non-void-command collaborator",
-"CopyrightInfo","lazy-class","get","factory stateless",
-"CopyrightInfo","lazy-class","get","factory controller stateless",
-"CopyrightInfo","lazy-class","get","get",
-"SequenceOutOfRangeError","empty","SequenceOutOfRangeError","constructor",
-"SetValueExceptionError","data-provider boundary data-class small-class","SetValueExceptionError","constructor",
-"SetValueExceptionError","data-provider boundary data-class small-class","get","get collaborator",
-"SetValueExceptionError","data-provider boundary data-class small-class","get","get collaborator",
-"Just<T>","data-provider boundary data-class small-class","Just","constructor",
-"Just<T>","data-provider boundary data-class small-class","get","get collaborator",
-"ParserResult<T>","data-provider boundary data-class small-class","ParserResult","constructor",
-"ParserResult<T>","data-provider boundary data-class small-class","ParserResult","constructor",
-"ParserResult<T>","data-provider boundary data-class small-class","get","get collaborator",
-"ParserResult<T>","data-provider boundary data-class small-class","get","get collaborator",
-"OptionAttribute","data-class","OptionAttribute","constructor",
-"OptionAttribute","data-class","OptionAttribute","constructor",
-"OptionAttribute","data-class","OptionAttribute","constructor",
-"OptionAttribute","data-class","OptionAttribute","constructor",
-"OptionAttribute","data-class","OptionAttribute","constructor",
-"OptionAttribute","data-class","get","get",
-"OptionAttribute","data-class","get","get",
-"OptionAttribute","data-class","get","get",
-"OptionAttribute","data-class","set","set",
-"OptionAttribute","data-class","get","get",
-"OptionAttribute","data-class","set","set",
-"OptionAttribute","data-class","get","get",
-"OptionAttribute","data-class","set","set",
-"OptionAttribute","data-class","get","get",
-"OptionAttribute","data-class","set","set",
-"LocalizableAttributeProperty","unclassified","LocalizableAttributeProperty","constructor",
-"LocalizableAttributeProperty","unclassified","GetLocalizedValue","get property non-void-command collaborator",
-"LocalizableAttributeProperty","unclassified","get","property non-void-command",
-"LocalizableAttributeProperty","unclassified","set","non-void-command",
-"LocalizableAttributeProperty","unclassified","set","non-void-command collaborator",
-"ParserSettings","data-provider boundary","ParserSettings","constructor",
-"ParserSettings","data-provider boundary","GetWindowWidth","get property collaborator",
-"ParserSettings","data-provider boundary","~ParserSettings","destructor",
-"ParserSettings","data-provider boundary","get","get",
-"ParserSettings","data-provider boundary","set","wrapper",
-"ParserSettings","data-provider boundary","get","get",
-"ParserSettings","data-provider boundary","set","wrapper",
-"ParserSettings","data-provider boundary","get","get collaborator",
-"ParserSettings","data-provider boundary","set","wrapper",
-"ParserSettings","data-provider boundary","get","get collaborator",
-"ParserSettings","data-provider boundary","set","wrapper",
-"ParserSettings","data-provider boundary","get","get",
-"ParserSettings","data-provider boundary","set","wrapper",
-"ParserSettings","data-provider boundary","get","get",
-"ParserSettings","data-provider boundary","set","wrapper",
-"ParserSettings","data-provider boundary","get","get",
-"ParserSettings","data-provider boundary","set","wrapper",
-"ParserSettings","data-provider boundary","get","get",
-"ParserSettings","data-provider boundary","set","set",
-"Issue424Tests","commander small-class","Issue424Tests","constructor",
-"Issue424Tests","commander small-class","SendSmsOnWarning","command",
-"Right<TLeft,TRight>","data-provider boundary data-class small-class","Right","copy-constructor",
-"Right<TLeft,TRight>","data-provider boundary data-class small-class","get","get collaborator",
-"Maybe<T>","data-provider boundary","Maybe","copy-constructor",
-"Maybe<T>","data-provider boundary","MatchJust","predicate collaborator",
-"Maybe<T>","data-provider boundary","MatchNothing","incidental",
-"Maybe<T>","data-provider boundary","get","get collaborator",
-"HelpText","unclassified","ToComparableOption","factory collaborator incidental",
-"HelpText","unclassified","HelpText","constructor",
-"HelpText","unclassified","HelpText","constructor",
-"HelpText","unclassified","HelpText","constructor",
-"HelpText","unclassified","HelpText","constructor",
-"HelpText","unclassified","HelpText","constructor",
-"HelpText","unclassified","HelpText","constructor",
-"HelpText","unclassified","get","get",
-"HelpText","unclassified","set","set",
-"HelpText","unclassified","get","get",
-"HelpText","unclassified","set","set",
-"HelpText","unclassified","get","get",
-"HelpText","unclassified","set","set",
-"HelpText","unclassified","get","get",
-"HelpText","unclassified","set","set",
-"HelpText","unclassified","get","get",
-"HelpText","unclassified","set","set",
-"HelpText","unclassified","get","get",
-"HelpText","unclassified","set","set",
-"HelpText","unclassified","get","get",
-"HelpText","unclassified","set","set",
-"HelpText","unclassified","get","get",
-"HelpText","unclassified","set","set",
-"HelpText","unclassified","get","get",
-"HelpText","unclassified","set","set",
-"HelpText","unclassified","get","get collaborator",
-"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor",
-"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor",
-"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor",
-"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor",
-"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor",
-"MultilineTextAttribute","data-provider","AddToHelpText","property non-void-command collaborator",
-"MultilineTextAttribute","data-provider","AddToHelpText","property non-void-command collaborator",
-"MultilineTextAttribute","data-provider","GetLastLineWithText","wrapper stateless",
-"MultilineTextAttribute","data-provider","get","property non-void-command collaborator",
-"MultilineTextAttribute","data-provider","get","get",
-"MultilineTextAttribute","data-provider","get","get",
-"MultilineTextAttribute","data-provider","get","get",
-"MultilineTextAttribute","data-provider","get","get",
-"MultilineTextAttribute","data-provider","get","get",
-"MultipleDefaultVerbsError","empty","MultipleDefaultVerbsError","constructor",
-"Name","entity boundary","Name","constructor",
-"Name","entity boundary","Equals","predicate non-void-command collaborator",
-"Name","entity boundary","GetHashCode","property non-void-command",
-"Name","entity boundary","Equals","wrapper stateless",
-"Bad<TSuccess,TMessage>","data-provider boundary data-class small-class","Bad","constructor",
-"Bad<TSuccess,TMessage>","data-provider boundary data-class small-class","get","get collaborator",
-"Ok<TSuccess,TMessage>","data-provider boundary small-class","Ok","constructor",
-"Ok<TSuccess,TMessage>","data-provider boundary small-class","get","property collaborator",
-"Ok<TSuccess,TMessage>","data-provider boundary small-class","get","property collaborator",
-"GroupOptionAmbiguityError","empty","GroupOptionAmbiguityError","constructor",
-"SpecificationProperty","data-provider boundary data-class","SpecificationProperty","constructor",
-"SpecificationProperty","data-provider boundary data-class","get","get collaborator",
-"SpecificationProperty","data-provider boundary data-class","get","get collaborator",
-"SpecificationProperty","data-provider boundary data-class","get","get collaborator",
-"BadFormatTokenError","empty","BadFormatTokenError","constructor",
-"Left<TLeft,TRight>","data-provider boundary data-class small-class","Left","copy-constructor",
-"Left<TLeft,TRight>","data-provider boundary data-class small-class","get","get collaborator",
-"Token","data-provider data-class small-class","Token","copy-constructor",
-"Token","data-provider data-class small-class","get","get collaborator",
-"Token","data-provider data-class small-class","get","get",
-"TokenTests","boundary degenerate small-class","Equality","wrapper stateless",
-"NotParsed<T>","entity boundary","NotParsed","constructor",
-"NotParsed<T>","entity boundary","Equals","predicate non-void-command collaborator",
-"NotParsed<T>","entity boundary","GetHashCode","property non-void-command",
-"NotParsed<T>","entity boundary","Equals","predicate non-void-command collaborator",
-"HeadOptions","factory degenerate small-class","get","factory collaborator incidental",
-"HeadOptions","factory degenerate small-class","get","factory collaborator incidental",
-"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor",
-"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor",
-"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor",
-"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor",
-"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor",
-"InternalResource","degenerate small-class","get","incidental",
-"MissingGroupOptionError","entity data-provider boundary","MissingGroupOptionError","constructor",
-"MissingGroupOptionError","entity data-provider boundary","Equals","property non-void-command collaborator",
-"MissingGroupOptionError","entity data-provider boundary","Equals","wrapper stateless",
-"MissingGroupOptionError","entity data-provider boundary","get","get",
-"MissingGroupOptionError","entity data-provider boundary","get","get collaborator",
-"OptionSpecification","data-provider data-class","OptionSpecification","constructor",
-"OptionSpecification","data-provider data-class","get","get",
-"OptionSpecification","data-provider data-class","get","get",
-"OptionSpecification","data-provider data-class","get","get",
-"OptionSpecification","data-provider data-class","get","get",
-"OptionSpecification","data-provider data-class","get","get",
-"OptionSpecification","data-provider data-class","get","get",
-"Example","entity data-provider boundary","Example","constructor",
-"Example","entity data-provider boundary","Example","constructor",
-"Example","entity data-provider boundary","Example","constructor",
-"Example","entity data-provider boundary","Equals","predicate non-void-command collaborator",
-"Example","entity data-provider boundary","GetHashCode","property non-void-command",
-"Example","entity data-provider boundary","Equals","wrapper stateless",
-"Example","entity data-provider boundary","get","get",
-"Example","entity data-provider boundary","get","get collaborator",
-"Example","entity data-provider boundary","get","get collaborator",
-"ReferenceEqualityComparer","boundary degenerate small-class","Equals","wrapper stateless",
-"ReferenceEqualityComparer","boundary degenerate small-class","GetHashCode","wrapper stateless",
-"TypeWithExplicitCast","empty","TypeWithExplicitCast","constructor",
-"TokenError","unclassified","TokenError","constructor",
-"TokenError","unclassified","Equals","predicate non-void-command collaborator",
-"TokenError","unclassified","GetHashCode","property non-void-command",
-"TokenError","unclassified","Equals","wrapper stateless",
-"TokenError","unclassified","get","get",
-"TextWrapperTests","commander boundary","NormalizeLineBreaks","controller stateless",
-"TextWrapperTests","commander boundary","EnsureEquivalent","command",
-"TextWrapperTests","commander boundary","ExtraSpacesAreTreatedAsNonBreaking","command collaborator",
-"TextWrapperTests","commander boundary","IndentWorksCorrectly","command collaborator",
-"TextWrapperTests","commander boundary","LongWordsAreBroken","command collaborator",
-"TextWrapperTests","commander boundary","NegativeColumnWidthStillProducesOutput","command collaborator",
-"TextWrapperTests","commander boundary","SimpleWrappingIsAsExpected","command collaborator",
-"TextWrapperTests","commander boundary","SingleColumnStillProducesOutputForSubIndentation","command collaborator",
-"TextWrapperTests","commander boundary","SpacesWithinStringAreRespected","command collaborator",
-"TextWrapperTests","commander boundary","SubIndentationCorrectlyWrapsWhenColumnWidthRequiresIt","command collaborator",
-"TextWrapperTests","commander boundary","SubIndentationIsPreservedWhenBreakingWords","command collaborator",
-"TextWrapperTests","commander boundary","WrappingAvoidsBreakingWords","command collaborator",
-"TextWrapperTests","commander boundary","WrappingExtraSpacesObeySubIndent","command collaborator",
-"TextWrapperTests","commander boundary","WrappingObeysLineBreaksOfAllStyles","command collaborator",
-"TextWrapperTests","commander boundary","WrappingPreservesSubIndentation","command collaborator",
-"UnknownOptionError","empty","UnknownOptionError","constructor",
-"HelpTextAutoBuildFix","pure-controller degenerate","HelpText_with_AdditionalNewLineAfterOption_true_should_have_newline","controller stateless",
-"HelpTextAutoBuildFix","pure-controller degenerate","HelpText_with_AdditionalNewLineAfterOption_false_should_not_have_newline","controller stateless",
-"HelpTextAutoBuildFix","pure-controller degenerate","HelpText_with_by_default_should_include_help_version_option","controller stateless",
-"HelpTextAutoBuildFix","pure-controller degenerate","HelpText_with_AutoHelp_false_should_hide_help_option","controller stateless",
-"MissingValueOptionError","empty","MissingValueOptionError","constructor",
-"TextWrapper","unclassified","TextWrapper","constructor",
-"TextWrapper","unclassified","WordWrap","get non-void-command",
-"TextWrapper","unclassified","Indent","get set",
-"TextWrapper","unclassified","ToText","property wrapper",
-"TextWrapper","unclassified","WordWrapLine","controller stateless",
-"Value","data-provider","Value","constructor",
-"Value","data-provider","Value","constructor",
-"Value","data-provider","Value","constructor",
-"Value","data-provider","Equals","predicate non-void-command collaborator",
-"Value","data-provider","GetHashCode","property non-void-command",
-"Value","data-provider","Equals","wrapper stateless",
-"Value","data-provider","get","get",
-"Value","data-provider","get","get",
-"Value","data-provider","get","get",
-"Result<TSuccess,TMessage>","small-class","Result","copy-constructor",
-"Result<TSuccess,TMessage>","small-class","ToString","property controller",
-"Result<TSuccess,TMessage>","small-class","get","get collaborator",
-"ScalarTests","boundary degenerate small-class","Partition_scalar_values_from_empty_token_sequence","wrapper stateless",
-"BadFormatConversionError","empty","BadFormatConversionError","constructor",
-"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental",
-"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental",
-"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental",
-"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental",
-"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental",
-"LocalizableSentenceBuilder","boundary degenerate","get","controller stateless",
-"LocalizableSentenceBuilder","boundary degenerate","get","controller stateless",
-"VerbAttributeTests","boundary degenerate small-class","ThrowsHelpText","wrapper stateless",
-"Issue389Tests","boundary small-class","CallMain_GiveHelpArgument_ExpectSuccess","wrapper",
-"InvalidAttributeConfigurationError","empty","InvalidAttributeConfigurationError","constructor",
-"Nothing<T>","empty","Nothing","constructor",
-"Immutable_Commit_Verb","data-provider data-class small-class","Immutable_Commit_Verb","constructor",
-"Immutable_Commit_Verb","data-provider data-class small-class","get","get",
-"Immutable_Commit_Verb","data-provider data-class small-class","get","get",
-"Specification","data-provider boundary data-class","Specification","copy-constructor",
-"Specification","data-provider boundary data-class","get","get collaborator",
-"Specification","data-provider boundary data-class","get","get",
-"Specification","data-provider boundary data-class","get","get collaborator",
-"Specification","data-provider boundary data-class","get","get collaborator",
-"Specification","data-provider boundary data-class","get","get collaborator",
-"Specification","data-provider boundary data-class","get","get",
-"Specification","data-provider boundary data-class","get","get",
-"Specification","data-provider boundary data-class","get","get collaborator",
-"Specification","data-provider boundary data-class","get","get collaborator",
-"Specification","data-provider boundary data-class","get","get collaborator",
-"Specification","data-provider boundary data-class","get","get",
-"TypeDescriptor","data-provider boundary data-class","TypeDescriptor","copy-constructor",
-"TypeDescriptor","data-provider boundary data-class","get","get collaborator",
-"TypeDescriptor","data-provider boundary data-class","get","get collaborator",
-"TypeDescriptor","data-provider boundary data-class","get","get collaborator",
-"Issue482Tests","pure-controller degenerate","AutoBuild_without_ordering","controller stateless",
-"Issue482Tests","pure-controller degenerate","AutoBuild_with_ordering","controller stateless",
-"Issue482Tests","pure-controller degenerate","AutoBuild_with_ordering_on_shortName","controller stateless",
-"ValueSpecification","data-provider data-class small-class","ValueSpecification","constructor",
-"ValueSpecification","data-provider data-class small-class","get","get",
-"ValueSpecification","data-provider data-class small-class","get","get",
-"Error","boundary","Error","copy-constructor",
-"Error","boundary","Error","copy-constructor",
-"Error","boundary","Equals","predicate non-void-command collaborator",
-"Error","boundary","GetHashCode","property non-void-command",
-"Error","boundary","Equals","wrapper stateless",
-"Error","boundary","get","get collaborator",
-"Error","boundary","get","get",
-"MutuallyExclusiveSetError","data-provider data-class small-class","MutuallyExclusiveSetError","constructor",
-"MutuallyExclusiveSetError","data-provider data-class small-class","get","get",
-"RepeatedOptionError","empty","RepeatedOptionError","constructor",
-"HelpRequestedError","empty","HelpRequestedError","constructor",
-"TypeInfo","data-provider boundary data-class small-class","TypeInfo","constructor",
-"TypeInfo","data-provider boundary data-class small-class","get","get collaborator",
-"TypeInfo","data-provider boundary data-class small-class","get","get collaborator",
-"Issue776Tests","pure-controller degenerate small-class","IgnoreUnknownArguments_should_work_for_all_values","controller stateless",
-"HelpVerbRequestedError","data-provider data-class","HelpVerbRequestedError","constructor",
-"HelpVerbRequestedError","data-provider data-class","get","get",
-"HelpVerbRequestedError","data-provider data-class","get","get collaborator",
-"HelpVerbRequestedError","data-provider data-class","get","get",
-"NoVerbSelectedError","empty","NoVerbSelectedError","constructor",
-"VersionRequestedError","empty","VersionRequestedError","constructor",
-"Options_With_Property_Throwing_Exception","data-class small-class","get","get",
-"Options_With_Property_Throwing_Exception","data-class small-class","set","set",
-"Add_Verb_With_Usage_Attribute","factory degenerate small-class","get","factory collaborator incidental",
-"Options_With_Usage_Attribute","factory degenerate small-class","get","factory collaborator incidental",
-"Commit_Verb_With_Usage_Attribute","factory degenerate small-class","get","factory collaborator incidental",
-"Clone_Verb_With_Usage_Attribute","factory degenerate small-class","get","factory collaborator incidental",
-"BaseAttribute","unclassified","BaseAttribute","constructor",
-"BaseAttribute","unclassified","get","get",
-"BaseAttribute","unclassified","set","set",
-"BaseAttribute","unclassified","get","get",
-"BaseAttribute","unclassified","set","set",
-"BaseAttribute","unclassified","get","get collaborator",
-"BaseAttribute","unclassified","set","set collaborator",
-"BaseAttribute","unclassified","get","get",
-"BaseAttribute","unclassified","set","set",
-"BaseAttribute","unclassified","get","get collaborator",
-"BaseAttribute","unclassified","set","non-void-command collaborator",
-"Verb","empty","Verb","constructor",
-"Immutable_Simple_Options","data-provider data-class","Immutable_Simple_Options","constructor",
-"Immutable_Simple_Options","data-provider data-class","get","get",
-"Immutable_Simple_Options","data-provider data-class","get","get collaborator",
-"Immutable_Simple_Options","data-provider data-class","get","get",
-"Immutable_Simple_Options","data-provider data-class","get","get",
-"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","Immutable_Simple_Options_Invalid_Ctor_Args","constructor",
-"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","get","get",
-"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","get","get collaborator",
-"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","get","get",
-"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","get","get",
-"Immutable_Add_Verb","data-provider data-class","Immutable_Add_Verb","constructor",
-"Immutable_Add_Verb","data-provider data-class","get","get",
-"Immutable_Add_Verb","data-provider data-class","get","get",
-"Immutable_Add_Verb","data-provider data-class","get","get",
-"Immutable_Clone_Verb","data-provider data-class","Immutable_Clone_Verb","constructor",
-"Immutable_Clone_Verb","data-provider data-class","get","get",
-"Immutable_Clone_Verb","data-provider data-class","get","get",
-"Immutable_Clone_Verb","data-provider data-class","get","get collaborator",
-"OptionMapperTests","pure-controller degenerate","Map_boolean_switch_creates_boolean_value","controller stateless",
-"OptionMapperTests","pure-controller degenerate","Map_with_multi_instance_scalar","controller stateless",
-"OptionMapperTests","pure-controller degenerate","Map_with_multi_instance_sequence","controller stateless",
-"TypeWithImplicitCast","empty","TypeWithImplicitCast","constructor",
-"Mutable_Without_Empty_Constructor","empty","Mutable_Without_Empty_Constructor","constructor",
-"NullInstance","empty","NullInstance","constructor",
-"NameLookupTests","pure-controller degenerate small-class","Lookup_name_of_sequence_option_with_separator","controller stateless",
-"NameLookupTests","pure-controller degenerate small-class","Get_name_from_option_specification","controller stateless",
-"MailAndSmsWarningSender","boundary degenerate","ParseArgumentsAndRun","wrapper stateless",
-"MailAndSmsWarningSender","boundary degenerate","HandleParseError","collaborator stateless",
-"MailAndSmsWarningSender","boundary degenerate","ExecuteTaskWithOptions","collaborator incidental",
-"TokenizerTests","degenerate","Explode_scalar_with_separator_in_odd_args_input_returns_sequence","wrapper stateless",
-"TokenizerTests","degenerate","Explode_scalar_with_separator_in_even_args_input_returns_sequence","wrapper stateless",
-"TokenizerTests","degenerate","Normalize_should_remove_all_names_and_values_with_explicit_assignment_of_non_existing_names","controller stateless",
-"TokenizerTests","degenerate","Normalize_should_remove_all_names_of_non_existing_names","controller stateless",
-"TokenizerTests","degenerate","Should_properly_parse_option_with_equals_in_value","controller stateless",
-"TokenizerTests","degenerate","Should_return_error_if_option_format_with_equals_is_not_correct","controller stateless",
-"BadVerbSelectedError","empty","BadVerbSelectedError","constructor",
-"Either<TLeft,TRight>","data-provider boundary","Either","copy-constructor",
-"Either<TLeft,TRight>","data-provider boundary","MatchLeft","predicate collaborator",
-"Either<TLeft,TRight>","data-provider boundary","MatchRight","predicate collaborator",
-"Either<TLeft,TRight>","data-provider boundary","get","get collaborator",
-"Resources","data-provider boundary","Resources","constructor",
-"Resources","data-provider boundary","get","get set collaborator",
-"Resources","data-provider boundary","get","get collaborator",
-"Resources","data-provider boundary","set","set collaborator",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"MySimpleType","data-provider data-class small-class","MySimpleType","constructor",
-"MySimpleType","data-provider data-class small-class","get","get",
-"StaticResource","degenerate small-class","get","incidental",
-"NonStaticResource_WithNonStaticProperty","degenerate small-class","get","incidental",
-"Issue591Tests","pure-controller degenerate small-class","Parse_option_with_only_explicit_interface_implementation","controller stateless",
-"HeadingInfo","unclassified","HeadingInfo","constructor",
-"HeadingInfo","unclassified","ToString","property non-void-command collaborator",
-"HeadingInfo","unclassified","WriteMessage","command collaborator",
-"HeadingInfo","unclassified","WriteMessage","command",
-"HeadingInfo","unclassified","WriteError","command",
-"HeadingInfo","unclassified","get","factory stateless",
-"HeadingInfo","unclassified","get","factory wrapper stateless",
-"BaseAttributeTests","pure-controller degenerate small-class","ThrowsHelpText","controller stateless",
-"GetoptTokenizerTests","degenerate","Explode_scalar_with_separator_in_odd_args_input_returns_sequence","wrapper stateless",
-"GetoptTokenizerTests","degenerate","Explode_scalar_with_separator_in_even_args_input_returns_sequence","wrapper stateless",
-"GetoptTokenizerTests","degenerate","Should_properly_parse_option_with_equals_in_value","controller stateless",
-"GetoptTokenizerTests","degenerate","Should_return_error_if_option_format_with_equals_is_not_correct","controller stateless",
-"MissingRequiredOptionError","empty","MissingRequiredOptionError","constructor",
-"KeyValuePairHelperTests","boundary degenerate","Empty_token_sequence_creates_an_empty_KeyValuePair_sequence","wrapper stateless",
-"KeyValuePairHelperTests","boundary degenerate","Token_sequence_creates_a_KeyValuePair_sequence","wrapper stateless",
-"KeyValuePairHelperTests","boundary degenerate","Token_sequence_creates_a_KeyValuePair_sequence_for_multiple_sequences","wrapper stateless",
-"SequenceTests","degenerate","Partition_sequence_values_from_empty_token_sequence","controller stateless",
-"SequenceTests","degenerate","Partition_sequence_values","controller stateless",
-"SequenceTests","degenerate","Partition_sequence_values_from_two_sequneces","wrapper stateless",
-"SpecificationPropertyRulesTests","pure-controller degenerate small-class","Lookup_allows_multi_instance","controller stateless",
-"SpecificationPropertyRulesTests","pure-controller degenerate small-class","Lookup_fails_with_repeated_options_false_multi_instance","controller stateless",
-"SwitchTests","boundary degenerate small-class","Partition_switch_values_from_empty_token_sequence","wrapper stateless",
-"TokenPartitionerTests","pure-controller degenerate small-class","Partition_sequence_returns_sequence","controller stateless",
-"TokenPartitionerTests","pure-controller degenerate small-class","Partition_sequence_returns_sequence_with_duplicates","controller stateless",
-"TypeConverterTests","degenerate","ChangeType_scalars","controller stateless",
-"TypeConverterTests","degenerate","ChangeType_flagCounters","controller stateless",
-"TypeConverterTests","degenerate","ChangeType_Scalar_LastOneWins","wrapper stateless",
-"TypeConverterTests","degenerate","get","factory wrapper stateless",
-"TypeConverterTests","degenerate","get","factory collaborator incidental",
-"GetoptParserTests","pure-controller degenerate","GetoptParserTests","constructor",
-"GetoptParserTests","pure-controller degenerate","Getopt_parser_without_posixly_correct_allows_mixed_options_and_nonoptions","controller stateless",
-"GetoptParserTests","pure-controller degenerate","Getopt_parser_with_posixly_correct_stops_parsing_at_first_nonoption","controller stateless",
-"GetoptParserTests","pure-controller degenerate","Getopt_mode_defaults_to_EnableDashDash_being_true","controller stateless",
-"GetoptParserTests","pure-controller degenerate","Getopt_mode_can_have_EnableDashDash_expicitly_disabled","controller stateless",
-"FSharpOptionHelperTests","boundary degenerate","Match_type_returns_true_if_FSharpOption","wrapper stateless",
-"FSharpOptionHelperTests","boundary degenerate","Get_underlying_type","wrapper stateless",
-"FSharpOptionHelperTests","boundary degenerate","Create_some","controller stateless",
-"FSharpOptionHelperTests","boundary degenerate","Create_none","wrapper stateless",
-"FSharpOptionHelperTests","boundary degenerate","get","wrapper stateless",
-"Issue104Tests","pure-controller degenerate small-class","Create_instance_with_enum_options_enabled_and_nullable_enum","controller stateless",
-"Issue104Tests","pure-controller degenerate small-class","Help_with_enum_options_enabled_and_nullable_enum","controller stateless",
-"Issue543Tests","boundary degenerate","Parser_GiveHelpArgument_ExpectSuccess","wrapper stateless",
-"Issue543Tests","boundary degenerate","Parser_GiveConnectionStringAndJobId_ExpectSuccess","wrapper stateless",
-"Issue543Tests","boundary degenerate","Parser_GiveVerb1_ExpectSuccess","wrapper stateless",
-"Issue543Tests","boundary degenerate","Parser_GiveVerb2_ExpectSuccess","wrapper stateless",
+"HelpTextAutoBuildFix","pure-controller degenerate","HelpText_with_AdditionalNewLineAfterOption_true_should_have_newline","controller stateless"
+"HelpTextAutoBuildFix","pure-controller degenerate","HelpText_with_AdditionalNewLineAfterOption_false_should_not_have_newline","controller stateless"
+"HelpTextAutoBuildFix","pure-controller degenerate","HelpText_with_by_default_should_include_help_version_option","controller stateless"
+"HelpTextAutoBuildFix","pure-controller degenerate","HelpText_with_AutoHelp_false_should_hide_help_option","controller stateless"
+"ParserSettingsTests","boundary degenerate small-class","Disposal_does_not_dispose_HelpWriter","wrapper stateless"
+"Issue776Tests","pure-controller degenerate small-class","IgnoreUnknownArguments_should_work_for_all_values","controller stateless"
+"Issue6Tests","pure-controller degenerate small-class","Parse_option_with_aliased_verbs","controller stateless"
+"Issue6Tests","pure-controller degenerate small-class","Parse_option_with_aliased_verb","controller stateless"
+"Issue543Tests","boundary degenerate","Parser_GiveHelpArgument_ExpectSuccess","wrapper stateless"
+"Issue543Tests","boundary degenerate","Parser_GiveConnectionStringAndJobId_ExpectSuccess","wrapper stateless"
+"Issue543Tests","boundary degenerate","Parser_GiveVerb1_ExpectSuccess","wrapper stateless"
+"Issue543Tests","boundary degenerate","Parser_GiveVerb2_ExpectSuccess","wrapper stateless"
+"Issue424Tests","commander small-class","Issue424Tests","constructor"
+"Issue424Tests","commander small-class","SendSmsOnWarning","command"
+"Issue389Tests","boundary small-class","CallMain_GiveHelpArgument_ExpectSuccess","wrapper"
+"Issue104Tests","pure-controller degenerate small-class","Create_instance_with_enum_options_enabled_and_nullable_enum","controller stateless"
+"Issue104Tests","pure-controller degenerate small-class","Help_with_enum_options_enabled_and_nullable_enum","controller stateless"
+"FSharpOptionHelperTests","boundary degenerate","Match_type_returns_true_if_FSharpOption","wrapper stateless"
+"FSharpOptionHelperTests","boundary degenerate","Get_underlying_type","wrapper stateless"
+"FSharpOptionHelperTests","boundary degenerate","Create_some","controller stateless"
+"FSharpOptionHelperTests","boundary degenerate","Create_none","wrapper stateless"
+"FSharpOptionHelperTests","boundary degenerate","get","wrapper stateless"
+"GetoptParserTests","pure-controller degenerate","GetoptParserTests","constructor"
+"GetoptParserTests","pure-controller degenerate","Getopt_parser_without_posixly_correct_allows_mixed_options_and_nonoptions","controller stateless"
+"GetoptParserTests","pure-controller degenerate","Getopt_parser_with_posixly_correct_stops_parsing_at_first_nonoption","controller stateless"
+"GetoptParserTests","pure-controller degenerate","Getopt_mode_defaults_to_EnableDashDash_being_true","controller stateless"
+"GetoptParserTests","pure-controller degenerate","Getopt_mode_can_have_EnableDashDash_expicitly_disabled","controller stateless"
+"TypeConverterTests","degenerate","ChangeType_scalars","controller stateless"
+"TypeConverterTests","degenerate","ChangeType_flagCounters","controller stateless"
+"TypeConverterTests","degenerate","ChangeType_Scalar_LastOneWins","wrapper stateless"
+"TokenPartitionerTests","pure-controller degenerate small-class","Partition_sequence_returns_sequence","controller stateless"
+"TokenPartitionerTests","pure-controller degenerate small-class","Partition_sequence_returns_sequence_with_duplicates","controller stateless"
+"SwitchTests","boundary degenerate small-class","Partition_switch_values_from_empty_token_sequence","wrapper stateless"
+"SpecificationPropertyRulesTests","pure-controller degenerate small-class","Lookup_allows_multi_instance","controller stateless"
+"SpecificationPropertyRulesTests","pure-controller degenerate small-class","Lookup_fails_with_repeated_options_false_multi_instance","controller stateless"
+"SequenceTests","degenerate","Partition_sequence_values_from_empty_token_sequence","controller stateless"
+"SequenceTests","degenerate","Partition_sequence_values","controller stateless"
+"SequenceTests","degenerate","Partition_sequence_values_from_two_sequneces","wrapper stateless"
+"KeyValuePairHelperTests","boundary degenerate","Empty_token_sequence_creates_an_empty_KeyValuePair_sequence","wrapper stateless"
+"KeyValuePairHelperTests","boundary degenerate","Token_sequence_creates_a_KeyValuePair_sequence","wrapper stateless"
+"KeyValuePairHelperTests","boundary degenerate","Token_sequence_creates_a_KeyValuePair_sequence_for_multiple_sequences","wrapper stateless"
+"GetoptTokenizerTests","degenerate","Explode_scalar_with_separator_in_odd_args_input_returns_sequence","wrapper stateless"
+"GetoptTokenizerTests","degenerate","Explode_scalar_with_separator_in_even_args_input_returns_sequence","wrapper stateless"
+"GetoptTokenizerTests","degenerate","Should_properly_parse_option_with_equals_in_value","controller stateless"
+"GetoptTokenizerTests","degenerate","Should_return_error_if_option_format_with_equals_is_not_correct","controller stateless"
+"BaseAttributeTests","pure-controller degenerate small-class","ThrowsHelpText","controller stateless"
+"TypeWithExplicitCast","empty","TypeWithExplicitCast","constructor"
+"NonStaticResource_WithNonStaticProperty","degenerate small-class","get","incidental"
+"MySimpleType","data-provider data-class small-class","MySimpleType","constructor"
+"MySimpleType","data-provider data-class small-class","get","get"
+"ParserResult<T>","data-provider boundary data-class small-class","ParserResult","constructor"
+"ParserResult<T>","data-provider boundary data-class small-class","ParserResult","constructor"
+"ParserResult<T>","data-provider boundary data-class small-class","get","get collaborator"
+"ParserResult<T>","data-provider boundary data-class small-class","get","get collaborator"
+"Nothing<T>","empty","Nothing","constructor"
+"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor"
+"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor"
+"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor"
+"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor"
+"AssemblyUsageAttribute","empty","AssemblyUsageAttribute","constructor"
+"NameInfo","unclassified","NameInfo","constructor"
+"NameInfo","unclassified","Equals","predicate non-void-command collaborator"
+"NameInfo","unclassified","GetHashCode","property non-void-command"
+"NameInfo","unclassified","Equals","wrapper stateless"
+"NameInfo","unclassified","get","get"
+"NameInfo","unclassified","get","get"
+"NameInfo","unclassified","get","incidental"
+"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","Immutable_Simple_Options_Invalid_Ctor_Args","constructor"
+"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","get","get"
+"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","get","get collaborator"
+"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","get","get"
+"Immutable_Simple_Options_Invalid_Ctor_Args","data-provider data-class","get","get"
+"Bad<TSuccess,TMessage>","data-provider boundary data-class small-class","Bad","constructor"
+"Bad<TSuccess,TMessage>","data-provider boundary data-class small-class","get","get collaborator"
+"Parser","entity boundary","Parser","constructor"
+"Parser","entity boundary","Parser","copy-constructor"
+"Parser","entity boundary","Parser","copy-constructor"
+"Parser","entity boundary","~Parser","destructor"
+"Parser","entity boundary","ParseArguments<T>","property wrapper"
+"Parser","entity boundary","ParseArguments<T>","property wrapper"
+"Parser","entity boundary","ParseArguments","property wrapper"
+"Parser","entity boundary","Dispose","command"
+"Parser","entity boundary","Dispose","set"
+"Parser","entity boundary","get","get collaborator"
+"Result<TSuccess,TMessage>","small-class","Result","copy-constructor"
+"Result<TSuccess,TMessage>","small-class","ToString","property controller"
+"Result<TSuccess,TMessage>","small-class","get","get collaborator"
+"HelpText","unclassified","ToComparableOption","factory collaborator incidental"
+"HelpText","unclassified","HelpText","constructor"
+"HelpText","unclassified","HelpText","constructor"
+"HelpText","unclassified","HelpText","constructor"
+"HelpText","unclassified","HelpText","constructor"
+"HelpText","unclassified","HelpText","constructor"
+"HelpText","unclassified","HelpText","constructor"
+"HelpText","unclassified","get","get"
+"HelpText","unclassified","set","set"
+"HelpText","unclassified","get","get"
+"HelpText","unclassified","set","set"
+"HelpText","unclassified","get","get"
+"HelpText","unclassified","set","set"
+"HelpText","unclassified","get","get"
+"HelpText","unclassified","set","set"
+"HelpText","unclassified","get","get"
+"HelpText","unclassified","set","set"
+"HelpText","unclassified","get","get"
+"HelpText","unclassified","set","set"
+"HelpText","unclassified","get","get"
+"HelpText","unclassified","set","set"
+"HelpText","unclassified","get","get"
+"HelpText","unclassified","set","set"
+"HelpText","unclassified","get","get"
+"HelpText","unclassified","set","set"
+"HelpText","unclassified","get","get collaborator"
+"Issue482Tests","pure-controller degenerate","AutoBuild_without_ordering","controller stateless"
+"Issue482Tests","pure-controller degenerate","AutoBuild_with_ordering","controller stateless"
+"Issue482Tests","pure-controller degenerate","AutoBuild_with_ordering_on_shortName","controller stateless"
+"Left<TLeft,TRight>","data-provider boundary data-class small-class","Left","copy-constructor"
+"Left<TLeft,TRight>","data-provider boundary data-class small-class","get","get collaborator"
+"HelpVerbRequestedError","data-provider data-class","HelpVerbRequestedError","constructor"
+"HelpVerbRequestedError","data-provider data-class","get","get"
+"HelpVerbRequestedError","data-provider data-class","get","get collaborator"
+"HelpVerbRequestedError","data-provider data-class","get","get"
+"ReferenceEqualityComparer","boundary degenerate small-class","Equals","wrapper stateless"
+"ReferenceEqualityComparer","boundary degenerate small-class","GetHashCode","wrapper stateless"
+"Either<TLeft,TRight>","data-provider boundary","Either","copy-constructor"
+"Either<TLeft,TRight>","data-provider boundary","MatchLeft","predicate collaborator"
+"Either<TLeft,TRight>","data-provider boundary","MatchRight","predicate collaborator"
+"Either<TLeft,TRight>","data-provider boundary","get","get collaborator"
+"MultipleDefaultVerbsError","empty","MultipleDefaultVerbsError","constructor"
+"VerbAttributeTests","boundary degenerate small-class","ThrowsHelpText","wrapper stateless"
+"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor"
+"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor"
+"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor"
+"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor"
+"MultilineTextAttribute","data-provider","MultilineTextAttribute","constructor"
+"MultilineTextAttribute","data-provider","AddToHelpText","property non-void-command collaborator"
+"MultilineTextAttribute","data-provider","AddToHelpText","property non-void-command collaborator"
+"MultilineTextAttribute","data-provider","GetLastLineWithText","wrapper stateless"
+"MultilineTextAttribute","data-provider","get","property non-void-command collaborator"
+"MultilineTextAttribute","data-provider","get","get"
+"MultilineTextAttribute","data-provider","get","get"
+"MultilineTextAttribute","data-provider","get","get"
+"MultilineTextAttribute","data-provider","get","get"
+"MultilineTextAttribute","data-provider","get","get"
+"MissingGroupOptionError","entity data-provider boundary","MissingGroupOptionError","constructor"
+"MissingGroupOptionError","entity data-provider boundary","Equals","property non-void-command collaborator"
+"MissingGroupOptionError","entity data-provider boundary","Equals","wrapper stateless"
+"MissingGroupOptionError","entity data-provider boundary","get","get"
+"MissingGroupOptionError","entity data-provider boundary","get","get collaborator"
+"TypeWithImplicitCast","empty","TypeWithImplicitCast","constructor"
+"Immutable_Clone_Verb","data-provider data-class","Immutable_Clone_Verb","constructor"
+"Immutable_Clone_Verb","data-provider data-class","get","get"
+"Immutable_Clone_Verb","data-provider data-class","get","get"
+"Immutable_Clone_Verb","data-provider data-class","get","get collaborator"
+"VersionRequestedError","empty","VersionRequestedError","constructor"
+"Immutable_Add_Verb","data-provider data-class","Immutable_Add_Verb","constructor"
+"Immutable_Add_Verb","data-provider data-class","get","get"
+"Immutable_Add_Verb","data-provider data-class","get","get"
+"Immutable_Add_Verb","data-provider data-class","get","get"
+"NoVerbSelectedError","empty","NoVerbSelectedError","constructor"
+"Verb","empty","Verb","constructor"
+"GroupOptionAmbiguityError","empty","GroupOptionAmbiguityError","constructor"
+"OptionAttribute","data-class","OptionAttribute","constructor"
+"OptionAttribute","data-class","OptionAttribute","constructor"
+"OptionAttribute","data-class","OptionAttribute","constructor"
+"OptionAttribute","data-class","OptionAttribute","constructor"
+"OptionAttribute","data-class","OptionAttribute","constructor"
+"OptionAttribute","data-class","get","get"
+"OptionAttribute","data-class","get","get"
+"OptionAttribute","data-class","get","get"
+"OptionAttribute","data-class","set","set"
+"OptionAttribute","data-class","get","get"
+"OptionAttribute","data-class","set","set"
+"OptionAttribute","data-class","get","get"
+"OptionAttribute","data-class","set","set"
+"OptionAttribute","data-class","get","get"
+"OptionAttribute","data-class","set","set"
+"ParserSettings","data-provider boundary","ParserSettings","constructor"
+"ParserSettings","data-provider boundary","GetWindowWidth","get property collaborator"
+"ParserSettings","data-provider boundary","~ParserSettings","destructor"
+"ParserSettings","data-provider boundary","get","get"
+"ParserSettings","data-provider boundary","set","wrapper"
+"ParserSettings","data-provider boundary","get","get"
+"ParserSettings","data-provider boundary","set","wrapper"
+"ParserSettings","data-provider boundary","get","get collaborator"
+"ParserSettings","data-provider boundary","set","wrapper"
+"ParserSettings","data-provider boundary","get","get collaborator"
+"ParserSettings","data-provider boundary","set","wrapper"
+"ParserSettings","data-provider boundary","get","get"
+"ParserSettings","data-provider boundary","set","wrapper"
+"ParserSettings","data-provider boundary","get","get"
+"ParserSettings","data-provider boundary","set","wrapper"
+"ParserSettings","data-provider boundary","get","get"
+"ParserSettings","data-provider boundary","set","wrapper"
+"ParserSettings","data-provider boundary","get","get"
+"ParserSettings","data-provider boundary","set","set"
+"Name","entity boundary","Name","constructor"
+"Name","entity boundary","Equals","predicate non-void-command collaborator"
+"Name","entity boundary","GetHashCode","property non-void-command"
+"Name","entity boundary","Equals","wrapper stateless"
+"SpecificationProperty","data-provider boundary data-class","SpecificationProperty","constructor"
+"SpecificationProperty","data-provider boundary data-class","get","get collaborator"
+"SpecificationProperty","data-provider boundary data-class","get","get collaborator"
+"SpecificationProperty","data-provider boundary data-class","get","get collaborator"
+"TokenTests","boundary degenerate small-class","Equality","wrapper stateless"
+"OptionMapperTests","pure-controller degenerate","Map_boolean_switch_creates_boolean_value","controller stateless"
+"OptionMapperTests","pure-controller degenerate","Map_with_multi_instance_scalar","controller stateless"
+"OptionMapperTests","pure-controller degenerate","Map_with_multi_instance_sequence","controller stateless"
+"Token","data-provider data-class small-class","Token","copy-constructor"
+"Token","data-provider data-class small-class","get","get collaborator"
+"Token","data-provider data-class small-class","get","get"
+"RepeatedOptionError","empty","RepeatedOptionError","constructor"
+"OptionSpecification","data-provider data-class","OptionSpecification","constructor"
+"OptionSpecification","data-provider data-class","get","get"
+"OptionSpecification","data-provider data-class","get","get"
+"OptionSpecification","data-provider data-class","get","get"
+"OptionSpecification","data-provider data-class","get","get"
+"OptionSpecification","data-provider data-class","get","get"
+"OptionSpecification","data-provider data-class","get","get"
+"Resources","empty","Resources","constructor"
+"UnknownOptionError","empty","UnknownOptionError","constructor"
+"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental"
+"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental"
+"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental"
+"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental"
+"LocalizableSentenceBuilder","boundary degenerate","get","collaborator incidental"
+"LocalizableSentenceBuilder","boundary degenerate","get","controller stateless"
+"LocalizableSentenceBuilder","boundary degenerate","get","controller stateless"
+"MissingValueOptionError","empty","MissingValueOptionError","constructor"
+"LocalizableAttributeProperty","unclassified","LocalizableAttributeProperty","constructor"
+"LocalizableAttributeProperty","unclassified","GetLocalizedValue","get property non-void-command collaborator"
+"LocalizableAttributeProperty","unclassified","get","property non-void-command"
+"LocalizableAttributeProperty","unclassified","set","non-void-command"
+"LocalizableAttributeProperty","unclassified","set","non-void-command collaborator"
+"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor"
+"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor"
+"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor"
+"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor"
+"AssemblyLicenseAttribute","empty","AssemblyLicenseAttribute","constructor"
+"Value","data-provider","Value","constructor"
+"Value","data-provider","Value","constructor"
+"Value","data-provider","Value","constructor"
+"Value","data-provider","Equals","predicate non-void-command collaborator"
+"Value","data-provider","GetHashCode","property non-void-command"
+"Value","data-provider","Equals","wrapper stateless"
+"Value","data-provider","get","get"
+"Value","data-provider","get","get"
+"Value","data-provider","get","get"
+"Issue70Tests","pure-controller degenerate small-class","Create_instance_with_factory_method_should_not_fail","controller stateless"
+"NotParsed<T>","entity boundary","NotParsed","constructor"
+"NotParsed<T>","entity boundary","Equals","predicate non-void-command collaborator"
+"NotParsed<T>","entity boundary","GetHashCode","property non-void-command"
+"NotParsed<T>","entity boundary","Equals","predicate non-void-command collaborator"
+"MailAndSmsWarningSender","boundary degenerate","ParseArgumentsAndRun","wrapper stateless"
+"MailAndSmsWarningSender","boundary degenerate","HandleParseError","collaborator stateless"
+"MailAndSmsWarningSender","boundary degenerate","ExecuteTaskWithOptions","collaborator incidental"
+"Immutable_Simple_Options","data-provider data-class","Immutable_Simple_Options","constructor"
+"Immutable_Simple_Options","data-provider data-class","get","get"
+"Immutable_Simple_Options","data-provider data-class","get","get collaborator"
+"Immutable_Simple_Options","data-provider data-class","get","get"
+"Immutable_Simple_Options","data-provider data-class","get","get"
+"BadFormatTokenError","empty","BadFormatTokenError","constructor"
+"HeadingInfo","commander","HeadingInfo","constructor"
+"HeadingInfo","commander","ToString","property non-void-command collaborator"
+"HeadingInfo","commander","WriteMessage","command collaborator"
+"HeadingInfo","commander","WriteMessage","command"
+"HeadingInfo","commander","WriteError","command"
+"Immutable_Commit_Verb","data-provider data-class small-class","Immutable_Commit_Verb","constructor"
+"Immutable_Commit_Verb","data-provider data-class small-class","get","get"
+"Immutable_Commit_Verb","data-provider data-class small-class","get","get"
+"TypeDescriptor","data-provider boundary data-class","TypeDescriptor","copy-constructor"
+"TypeDescriptor","data-provider boundary data-class","get","get collaborator"
+"TypeDescriptor","data-provider boundary data-class","get","get collaborator"
+"TypeDescriptor","data-provider boundary data-class","get","get collaborator"
+"Specification","data-provider boundary data-class","Specification","copy-constructor"
+"Specification","data-provider boundary data-class","get","get collaborator"
+"Specification","data-provider boundary data-class","get","get"
+"Specification","data-provider boundary data-class","get","get collaborator"
+"Specification","data-provider boundary data-class","get","get collaborator"
+"Specification","data-provider boundary data-class","get","get collaborator"
+"Specification","data-provider boundary data-class","get","get"
+"Specification","data-provider boundary data-class","get","get"
+"Specification","data-provider boundary data-class","get","get collaborator"
+"Specification","data-provider boundary data-class","get","get collaborator"
+"Specification","data-provider boundary data-class","get","get collaborator"
+"Specification","data-provider boundary data-class","get","get"
+"ValueSpecification","data-provider data-class small-class","ValueSpecification","constructor"
+"ValueSpecification","data-provider data-class small-class","get","get"
+"ValueSpecification","data-provider data-class small-class","get","get"
+"Issue591Tests","pure-controller degenerate small-class","Parse_option_with_only_explicit_interface_implementation","controller stateless"
+"Right<TLeft,TRight>","data-provider boundary data-class small-class","Right","copy-constructor"
+"Right<TLeft,TRight>","data-provider boundary data-class small-class","get","get collaborator"
+"MissingRequiredOptionError","empty","MissingRequiredOptionError","constructor"
+"Maybe<T>","data-provider boundary","Maybe","copy-constructor"
+"Maybe<T>","data-provider boundary","MatchJust","predicate collaborator"
+"Maybe<T>","data-provider boundary","MatchNothing","incidental"
+"Maybe<T>","data-provider boundary","get","get collaborator"
+"Error","boundary","Error","copy-constructor"
+"Error","boundary","Error","copy-constructor"
+"Error","boundary","Equals","predicate non-void-command collaborator"
+"Error","boundary","GetHashCode","property non-void-command"
+"Error","boundary","Equals","wrapper stateless"
+"Error","boundary","get","get collaborator"
+"Error","boundary","get","get"
+"TextWrapperTests","commander boundary","NormalizeLineBreaks","controller stateless"
+"TextWrapperTests","commander boundary","EnsureEquivalent","command"
+"TextWrapperTests","commander boundary","ExtraSpacesAreTreatedAsNonBreaking","command collaborator"
+"TextWrapperTests","commander boundary","IndentWorksCorrectly","command collaborator"
+"TextWrapperTests","commander boundary","LongWordsAreBroken","command collaborator"
+"TextWrapperTests","commander boundary","NegativeColumnWidthStillProducesOutput","command collaborator"
+"TextWrapperTests","commander boundary","SimpleWrappingIsAsExpected","command collaborator"
+"TextWrapperTests","commander boundary","SingleColumnStillProducesOutputForSubIndentation","command collaborator"
+"TextWrapperTests","commander boundary","SpacesWithinStringAreRespected","command collaborator"
+"TextWrapperTests","commander boundary","SubIndentationCorrectlyWrapsWhenColumnWidthRequiresIt","command collaborator"
+"TextWrapperTests","commander boundary","SubIndentationIsPreservedWhenBreakingWords","command collaborator"
+"TextWrapperTests","commander boundary","WrappingAvoidsBreakingWords","command collaborator"
+"TextWrapperTests","commander boundary","WrappingExtraSpacesObeySubIndent","command collaborator"
+"TextWrapperTests","commander boundary","WrappingObeysLineBreaksOfAllStyles","command collaborator"
+"TextWrapperTests","commander boundary","WrappingPreservesSubIndentation","command collaborator"
+"TokenError","unclassified","TokenError","constructor"
+"TokenError","unclassified","Equals","predicate non-void-command collaborator"
+"TokenError","unclassified","GetHashCode","property non-void-command"
+"TokenError","unclassified","Equals","wrapper stateless"
+"TokenError","unclassified","get","get"
+"TypeInfo","data-provider boundary data-class small-class","TypeInfo","constructor"
+"TypeInfo","data-provider boundary data-class small-class","get","get collaborator"
+"TypeInfo","data-provider boundary data-class small-class","get","get collaborator"
+"SetValueExceptionError","data-provider boundary data-class small-class","SetValueExceptionError","constructor"
+"SetValueExceptionError","data-provider boundary data-class small-class","get","get collaborator"
+"SetValueExceptionError","data-provider boundary data-class small-class","get","get collaborator"
+"BaseAttribute","unclassified","BaseAttribute","constructor"
+"BaseAttribute","unclassified","get","get"
+"BaseAttribute","unclassified","set","set"
+"BaseAttribute","unclassified","get","get"
+"BaseAttribute","unclassified","set","set"
+"BaseAttribute","unclassified","get","get collaborator"
+"BaseAttribute","unclassified","set","set collaborator"
+"BaseAttribute","unclassified","get","get"
+"BaseAttribute","unclassified","set","set"
+"BaseAttribute","unclassified","get","get collaborator"
+"BaseAttribute","unclassified","set","non-void-command collaborator"
+"HelpRequestedError","empty","HelpRequestedError","constructor"
+"MutuallyExclusiveSetError","data-provider data-class small-class","MutuallyExclusiveSetError","constructor"
+"MutuallyExclusiveSetError","data-provider data-class small-class","get","get"
+"BadFormatConversionError","empty","BadFormatConversionError","constructor"
+"Issue418Tests","pure-controller degenerate small-class","Explicit_version_request_generates_version_info_screen_with_eol","controller stateless"
+"NullInstance","empty","NullInstance","constructor"
+"BadVerbSelectedError","empty","BadVerbSelectedError","constructor"
+"TokenizerTests","degenerate","Explode_scalar_with_separator_in_odd_args_input_returns_sequence","wrapper stateless"
+"TokenizerTests","degenerate","Explode_scalar_with_separator_in_even_args_input_returns_sequence","wrapper stateless"
+"TokenizerTests","degenerate","Normalize_should_remove_all_names_and_values_with_explicit_assignment_of_non_existing_names","controller stateless"
+"TokenizerTests","degenerate","Normalize_should_remove_all_names_of_non_existing_names","controller stateless"
+"TokenizerTests","degenerate","Should_properly_parse_option_with_equals_in_value","controller stateless"
+"TokenizerTests","degenerate","Should_return_error_if_option_format_with_equals_is_not_correct","controller stateless"
+"Example","entity data-provider boundary","Example","constructor"
+"Example","entity data-provider boundary","Example","constructor"
+"Example","entity data-provider boundary","Example","constructor"
+"Example","entity data-provider boundary","Equals","predicate non-void-command collaborator"
+"Example","entity data-provider boundary","GetHashCode","property non-void-command"
+"Example","entity data-provider boundary","Equals","wrapper stateless"
+"Example","entity data-provider boundary","get","get"
+"Example","entity data-provider boundary","get","get collaborator"
+"Example","entity data-provider boundary","get","get collaborator"
+"Options_With_Property_Throwing_Exception","data-class small-class","get","get"
+"Options_With_Property_Throwing_Exception","data-class small-class","set","set"
+"HelpTextTests","controller degenerate","Dispose","wrapper stateless"
+"HelpTextTests","controller degenerate","Create_empty_instance","wrapper stateless"
+"HelpTextTests","controller degenerate","Create_instance_without_options","controller stateless"
+"HelpTextTests","controller degenerate","Create_instance_with_options","controller stateless"
+"HelpTextTests","controller degenerate","Create_instance_with_enum_options_enabled","controller stateless"
+"HelpTextTests","controller degenerate","Create_instance_with_enum_options_disabled","controller stateless"
+"HelpTextTests","controller degenerate","When_defined_MetaValue_should_be_rendered","controller stateless"
+"HelpTextTests","controller degenerate","When_help_text_is_longer_than_width_it_will_wrap_around_as_if_in_a_column_given_width_of_40","controller"
+"HelpTextTests","controller degenerate","When_help_text_is_longer_than_width_it_will_wrap_around_as_if_in_a_column_given_width_of_100","controller stateless"
+"HelpTextTests","controller degenerate","When_help_text_has_hidden_option_it_should_not_be_added_to_help_text_output","controller"
+"HelpTextTests","controller degenerate","Long_help_text_without_spaces","controller"
+"HelpTextTests","controller degenerate","Long_pre_and_post_lines_without_spaces","controller stateless"
+"HelpTextTests","controller degenerate","Invoking_RenderParsingErrorsText_returns_appropriate_formatted_text","controller stateless"
+"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Options_returns_appropriate_formatted_text","controller stateless"
+"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Verbs_with_specific_verb_returns_appropriate_formatted_text","controller stateless"
+"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Verbs_with_specific_verb_returns_appropriate_formatted_text_given_display_width_100","controller stateless"
+"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Verbs_with_unknown_verb_returns_appropriate_formatted_text","controller stateless"
+"HelpTextTests","controller degenerate","Create_instance_with_options_and_values","controller stateless"
+"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Options_with_Usage_returns_appropriate_formatted_text","controller stateless"
+"HelpTextTests","controller degenerate","AutoBuild_with_errors_and_preoptions_renders_correctly","controller stateless"
+"HelpTextTests","controller degenerate","Default_set_to_sequence_should_be_properly_printed","controller stateless"
+"HelpTextTests","controller degenerate","AutoBuild_when_no_assembly_attributes","controller stateless"
+"HelpTextTests","controller degenerate","AutoBuild_with_assembly_title_and_version_attributes_only","controller stateless"
+"HelpTextTests","controller degenerate","AutoBuild_with_assembly_company_attribute_only","controller stateless"
+"HelpTextTests","controller degenerate","Add_line_with_two_empty_spaces_at_the_end","controller stateless"
+"HelpTextTests","controller degenerate","HelpTextHonoursLineBreaks","controller stateless"
+"HelpTextTests","controller degenerate","HelpTextHonoursIndentationAfterLineBreaks","controller stateless"
+"HelpTextTests","controller degenerate","HelpTextPreservesIndentationAcrossWordWrap","controller stateless"
+"HelpTextTests","controller degenerate","HelpTextIsConsitentRegardlessOfCompileTimeLineStyle","controller stateless"
+"HelpTextTests","controller degenerate","HelpTextPreservesIndentationAcrossWordWrapWithSmallMaximumDisplayWidth","controller stateless"
+"HelpTextTests","controller degenerate","Options_should_be_separated_by_spaces","controller stateless"
+"HelpTextTests","controller degenerate","Options_Should_Render_OptionGroup_In_Parenthesis_When_Available","command collaborator"
+"HelpTextTests","controller degenerate","Options_Should_Render_OptionGroup_When_Available_And_Should_Not_Render_Required","command collaborator"
+"HelpTextTests","controller degenerate","Options_Should_Render_Multiple_OptionGroups_When_Available","command collaborator"
+"HelpTextTests","controller degenerate","AutoBuild_with_custom_copyright_using_onError_action","controller stateless"
+"HelpTextTests","controller degenerate","AutoBuild_with_custom_help_and_version_request","controller stateless"
+"HelpTextTests","controller degenerate","Invoke_Custom_AutoBuild_for_Verbs_with_specific_verb_and_no_AdditionalNewLineAfterOption_returns_appropriate_formatted_text","controller stateless"
+"HelpTextTests","controller degenerate","Invoke_AutoBuild_for_Options_with_custom_help_returns_appropriate_formatted_text","controller stateless"
+"TextWrapper","unclassified","TextWrapper","constructor"
+"TextWrapper","unclassified","WordWrap","get non-void-command"
+"TextWrapper","unclassified","Indent","get set"
+"TextWrapper","unclassified","ToText","property wrapper"
+"TextWrapper","unclassified","WordWrapLine","controller stateless"
+"ScalarTests","boundary degenerate small-class","Partition_scalar_values_from_empty_token_sequence","wrapper stateless"
+"UnParserSettings","data-provider","get","get"
+"UnParserSettings","data-provider","set","wrapper"
+"UnParserSettings","data-provider","get","get"
+"UnParserSettings","data-provider","set","wrapper"
+"UnParserSettings","data-provider","get","get"
+"UnParserSettings","data-provider","set","wrapper"
+"UnParserSettings","data-provider","get","get"
+"UnParserSettings","data-provider","set","wrapper"
+"UnParserSettings","data-provider","get","get"
+"UnParserSettings","data-provider","set","wrapper"
+"ParserTests","controller degenerate","When_HelpWriter_is_set_help_screen_is_generated","controller stateless"
+"ParserTests","controller degenerate","When_HelpWriter_is_set_help_screen_is_generated_in_verbs_scenario","controller stateless"
+"ParserTests","controller degenerate","When_HelpWriter_is_set_help_screen_is_generated_in_verbs_scenario_using_generic_overload","controller stateless"
+"ParserTests","controller degenerate","Parse_options","controller stateless"
+"ParserTests","controller degenerate","Parse_repeated_options_with_default_parser","controller stateless"
+"ParserTests","controller degenerate","Parse_options_with_double_dash","controller stateless"
+"ParserTests","controller degenerate","Parse_options_with_repeated_value_in_values_sequence_and_option","controller stateless"
+"ParserTests","controller degenerate","Parse_options_with_double_dash_and_option_sequence","controller stateless"
+"ParserTests","controller degenerate","Parse_options_with_double_dash_in_verbs_scenario","controller stateless"
+"ParserTests","controller degenerate","Parse_options_with_single_dash","controller stateless"
+"ParserTests","controller degenerate","Parse_verbs","controller stateless"
+"ParserTests","controller degenerate","Parse_repeated_options_with_default_parser_in_verbs_scenario","controller stateless"
+"ParserTests","controller degenerate","Parse_verbs_using_generic_overload","controller stateless"
+"ParserTests","controller degenerate","Parse_to_immutable_instance","controller stateless"
+"ParserTests","controller degenerate","Explicit_help_request_with_immutable_instance_generates_help_requested_error","controller stateless"
+"ParserTests","controller degenerate","Explicit_help_request_with_immutable_instance_generates_help_screen","controller stateless"
+"ParserTests","controller degenerate","Explicit_version_request_generates_version_requested_error","controller stateless"
+"ParserTests","controller degenerate","Explicit_version_request_generates_version_info_screen","controller stateless"
+"ParserTests","controller degenerate","Implicit_help_screen_in_verb_scenario","controller stateless"
+"ParserTests","controller degenerate","Help_screen_in_default_verb_scenario","controller stateless"
+"ParserTests","controller degenerate","Double_dash_help_dispalys_verbs_index_in_verbs_scenario","controller stateless"
+"ParserTests","controller degenerate","Explicit_version_request_generates_version_info_screen_in_verbs_scenario","controller stateless"
+"ParserTests","controller degenerate","Errors_of_type_MutuallyExclusiveSetError_are_properly_formatted","controller stateless"
+"ParserTests","controller degenerate","Explicit_help_request_with_specific_verb_generates_help_screen","controller stateless"
+"ParserTests","controller degenerate","Properly_formatted_help_screen_is_displayed_when_usage_is_defined_in_verb_scenario","controller stateless"
+"ParserTests","controller degenerate","Properly_formatted_help_screen_is_displayed_when_there_is_a_hidden_verb","controller stateless"
+"ParserTests","controller degenerate","Properly_formatted_help_screen_is_displayed_when_there_is_a_hidden_verb_selected_usage_displays_with_hidden_option","controller stateless"
+"ParserTests","controller degenerate","Parse_options_when_given_hidden_verb","controller stateless"
+"ParserTests","controller degenerate","Parse_options_when_given_hidden_verb_with_hidden_option","controller stateless"
+"ParserTests","controller degenerate","Specific_verb_help_screen_should_be_displayed_regardless_other_argument","controller stateless"
+"ParserTests","controller degenerate","When_IgnoreUnknownArguments_is_set_valid_unknown_arguments_avoid_a_failure_parsing","controller stateless"
+"ParserTests","controller degenerate","When_IgnoreUnknownArguments_is_set_valid_unknown_arguments_avoid_a_failure_parsing_for_verbs","controller stateless"
+"ParserTests","controller degenerate","Properly_formatted_help_screen_excludes_help_as_unknown_option","controller stateless"
+"ParserTests","controller degenerate","Parse_options_with_same_option_and_value_args","controller stateless"
+"ParserTests","controller degenerate","Parse_verb_with_same_option_and_value_args","controller stateless"
+"ParserTests","controller degenerate","Parse_options_with_shuffled_index_values","controller stateless"
+"ParserTests","controller degenerate","Blank_lines_are_inserted_between_verbs","controller stateless"
+"ParserTests","controller degenerate","Parse_default_verb_implicit","controller stateless"
+"ParserTests","controller degenerate","Parse_default_verb_explicit","controller stateless"
+"ParserTests","controller degenerate","Parse_multiple_default_verbs","controller stateless"
+"ParserTests","controller degenerate","Parse_repeated_options_in_verbs_scenario_with_multi_instance","command"
+"ParserTests","controller degenerate","Parse_repeated_options_in_verbs_scenario_without_multi_instance","command"
+"Mutable_Without_Empty_Constructor","empty","Mutable_Without_Empty_Constructor","constructor"
+"ValueAttribute","data-class","ValueAttribute","constructor"
+"ValueAttribute","data-class","get","get"
+"ValueAttribute","data-class","get","get"
+"ValueAttribute","data-class","set","set"
+"VerbAttribute","empty","VerbAttribute","constructor"
+"NamedError","entity boundary","NamedError","constructor"
+"NamedError","entity boundary","Equals","predicate non-void-command collaborator"
+"NamedError","entity boundary","GetHashCode","property non-void-command"
+"NamedError","entity boundary","Equals","wrapper stateless"
+"NamedError","entity boundary","get","get collaborator"
+"CustomStruct","empty","CustomStruct","constructor"
+"CustomClass","empty","CustomClass","constructor"
+"SequenceOutOfRangeError","empty","SequenceOutOfRangeError","constructor"
+"CopyrightInfo","unclassified","CopyrightInfo","constructor"
+"CopyrightInfo","unclassified","CopyrightInfo","constructor"
+"CopyrightInfo","unclassified","CopyrightInfo","constructor"
+"CopyrightInfo","unclassified","CopyrightInfo","constructor"
+"CopyrightInfo","unclassified","CopyrightInfo","constructor"
+"CopyrightInfo","unclassified","ToString","property non-void-command"
+"CopyrightInfo","unclassified","FormatYears","property non-void-command collaborator"
+"CopyrightInfo","unclassified","get","get"
+"Parsed<T>","entity boundary","Parsed","constructor"
+"Parsed<T>","entity boundary","Parsed","constructor"
+"Parsed<T>","entity boundary","Equals","predicate non-void-command collaborator"
+"Parsed<T>","entity boundary","GetHashCode","property non-void-command"
+"Parsed<T>","entity boundary","Equals","predicate non-void-command collaborator"
+"Ok<TSuccess,TMessage>","data-provider boundary small-class","Ok","constructor"
+"Ok<TSuccess,TMessage>","data-provider boundary small-class","get","property collaborator"
+"Ok<TSuccess,TMessage>","data-provider boundary small-class","get","property collaborator"
+"NameLookupTests","pure-controller degenerate small-class","Lookup_name_of_sequence_option_with_separator","controller stateless"
+"NameLookupTests","pure-controller degenerate small-class","Get_name_from_option_specification","controller stateless"
+"InvalidAttributeConfigurationError","empty","InvalidAttributeConfigurationError","constructor"
+"Just<T>","data-provider boundary data-class small-class","Just","constructor"
+"Just<T>","data-provider boundary data-class small-class","get","get collaborator"

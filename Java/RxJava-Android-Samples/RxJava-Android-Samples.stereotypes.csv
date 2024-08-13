@@ -1,214 +1,214 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"LogAdapter","empty","LogAdapter","constructor",
-"MyVolley","empty","MyVolley","constructor",
-"RxBusDemo_Bottom3Fragment","unclassified","onCreateView","property controller",
-"RxBusDemo_Bottom3Fragment","unclassified","onActivityCreated","set collaborator",
-"RxBusDemo_Bottom3Fragment","unclassified","onStart","command collaborator",
-"RxBusDemo_Bottom2Fragment","commander","onCreateView","property controller",
-"RxBusDemo_Bottom2Fragment","commander","onActivityCreated","set collaborator",
-"RxBusDemo_Bottom2Fragment","commander","onStart","command collaborator",
-"RxBusDemo_Bottom2Fragment","commander","onStop","command",
-"RxBusDemo_Bottom2Fragment","commander","_showTapText","command",
-"RxBusDemo_Bottom2Fragment","commander","_showTapCount","command",
-"RxBusDemoFragment","small-class","onCreateView","property controller",
-"RxBusDemoFragment","small-class","onActivityCreated","command collaborator",
-"RxBus","entity boundary","send","command collaborator",
-"RxBus","entity boundary","asFlowable","property non-void-command collaborator",
-"RxBus","entity boundary","hasObservers","predicate non-void-command",
-"GithubService","empty","GithubService","constructor",
-"PollingFragment","commander boundary","onCreate","set collaborator",
-"PollingFragment","commander boundary","onCreateView","property set collaborator",
-"PollingFragment","commander boundary","onActivityCreated","command collaborator",
-"PollingFragment","commander boundary","onDestroy","command",
-"PollingFragment","commander boundary","onStartSimplePollingClicked","command collaborator",
-"PollingFragment","commander boundary","onStartIncreasinglyDelayedPolling","command",
-"PollingFragment","commander boundary","_doNetworkCallAndGetStringResult","property set",
-"PollingFragment","commander boundary","_getSecondHand","wrapper stateless",
-"PollingFragment","commander boundary","_log","command",
-"PollingFragment","commander boundary","_setupLogger","command",
-"PollingFragment","commander boundary","_isCurrentlyOnMainThread","wrapper stateless",
-"PseudoCacheMergeFragment","boundary","onCreateView","property set collaborator",
-"PseudoCacheMergeFragment","boundary","onDestroyView","command",
-"PseudoCacheMergeFragment","boundary","onDemoPseudoCacheClicked","command collaborator",
-"PseudoCacheMergeFragment","boundary","getListStringFromMap","property non-void-command",
-"PseudoCacheMergeFragment","boundary","_getCachedData","property non-void-command collaborator",
-"PseudoCacheMergeFragment","boundary","_getFreshData","controller stateless",
-"PseudoCacheMergeFragment","boundary","_initializeCache","command",
-"NetworkDetectorFragment","commander","onDestroy","command",
-"NetworkDetectorFragment","commander","onCreateView","property set collaborator",
-"NetworkDetectorFragment","commander","onActivityCreated","command collaborator",
-"NetworkDetectorFragment","commander","onStart","command",
-"NetworkDetectorFragment","commander","onStop","command",
-"NetworkDetectorFragment","commander","listenToNetworkConnectivity","command collaborator",
-"NetworkDetectorFragment","commander","getConnectivityStatus","controller stateless",
-"NetworkDetectorFragment","commander","log","command",
-"NetworkDetectorFragment","commander","setupLogger","command",
-"NetworkDetectorFragment","commander","isCurrentlyOnMainThread","wrapper stateless",
-"MainFragment","commander","onCreateView","property set collaborator",
-"MainFragment","commander","onDestroyView","command",
-"MainFragment","commander","demoConcurrencyWithSchedulers","command",
-"MainFragment","commander","demoBuffer","command",
-"MainFragment","commander","demoThrottling","command",
-"MainFragment","commander","demoRetrofitCalls","command",
-"MainFragment","commander","demoPolling","command",
-"MainFragment","commander","demoDoubleBindingWithPublishSubject","command",
-"MainFragment","commander","demoRxBus","command",
-"MainFragment","commander","formValidation","command",
-"MainFragment","commander","pseudoCacheDemo","command",
-"MainFragment","commander","demoTimerIntervalDelays","command",
-"MainFragment","commander","demoTimeout","command",
-"MainFragment","commander","demoExponentialBackoff","command",
-"MainFragment","commander","demoRotationPersist","command",
-"MainFragment","commander","demoPaging","command",
-"MainFragment","commander","demoVolleyRequest","command",
-"MainFragment","commander","demoNetworkDetector","command",
-"MainFragment","commander","demoUsing","command",
-"MainFragment","commander","demoMulticastPlayground","command",
-"MainFragment","commander","clickedOn","controller stateless",
-"BaseFragment","commander boundary small-class","onDestroy","command collaborator",
-"ApplicationTest","empty","ApplicationTest","constructor",
-"TimingDemoFragment","commander boundary","onCreateView","property set collaborator",
-"TimingDemoFragment","commander boundary","onActivityCreated","command collaborator",
-"TimingDemoFragment","commander boundary","onDestroyView","command",
-"TimingDemoFragment","commander boundary","btn1_RunSingleTaskAfter2s","wrapper stateless",
-"TimingDemoFragment","commander boundary","btn2_RunTask_IntervalOf1s","command",
-"TimingDemoFragment","commander boundary","btn3_RunTask_IntervalOf1s_StartImmediately","command",
-"TimingDemoFragment","commander boundary","btn4_RunTask5Times_IntervalOf3s","wrapper stateless",
-"TimingDemoFragment","commander boundary","btn5_RunTask5Times_IntervalOf3s","wrapper stateless",
-"FormValidationCombineLatestFragment","commander","onCreateView","property non-void-command collaborator",
-"FormValidationCombineLatestFragment","commander","onDestroyView","command",
-"FormValidationCombineLatestFragment","commander","_combineLatestEvents","command",
-"RxBusDemo_TopFragment","unclassified","onCreateView","property controller",
-"RxBusDemo_TopFragment","unclassified","onActivityCreated","set collaborator",
-"RxBusDemo_TopFragment","unclassified","onTapButtonClicked","command",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","onDestroy","command",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","onActivityCreated","command collaborator",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","onCreateView","property set collaborator",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","startLongOperation","command collaborator",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","_getObservable","property non-void-command collaborator",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","_getDisposableObserver","property non-void-command factory collaborator",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","_doSomeLongOperation_thatBlocksCurrentThread","command",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","_log","command",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","_setupLogger","command",
-"ConcurrencyWithSchedulersDemoFragment","commander boundary","_isCurrentlyOnMainThread","wrapper stateless",
-"ExponentialBackoffFragment","commander boundary","onCreateView","property set collaborator",
-"ExponentialBackoffFragment","commander boundary","onActivityCreated","command collaborator",
-"ExponentialBackoffFragment","commander boundary","onPause","command",
-"ExponentialBackoffFragment","commander boundary","onDestroyView","command",
-"ExponentialBackoffFragment","commander boundary","startRetryingWithExponentialBackoffStrategy","command collaborator",
-"ExponentialBackoffFragment","commander boundary","startExecutingWithExponentialBackoffDelay","command collaborator",
-"ExponentialBackoffFragment","commander boundary","_getSecondHand","wrapper stateless",
-"ExponentialBackoffFragment","commander boundary","_setupLogger","command",
-"ExponentialBackoffFragment","commander boundary","_log","command",
-"VolleyDemoFragment","commander","onCreateView","property set collaborator",
-"VolleyDemoFragment","commander","onActivityCreated","command collaborator",
-"VolleyDemoFragment","commander","onPause","command",
-"VolleyDemoFragment","commander","onDestroyView","command",
-"VolleyDemoFragment","commander","newGetRouteData","property non-void-command collaborator",
-"VolleyDemoFragment","commander","startRequest","command",
-"VolleyDemoFragment","commander","startVolleyRequest","command",
-"VolleyDemoFragment","commander","getRouteData","controller stateless",
-"VolleyDemoFragment","commander","_setupLogger","command",
-"VolleyDemoFragment","commander","_log","command",
-"VolleyDemoFragment","commander","_isCurrentlyOnMainThread","wrapper stateless",
-"PaginationAutoAdapter","unclassified","PaginationAutoAdapter","constructor",
-"PaginationAutoAdapter","unclassified","onCreateViewHolder","wrapper stateless",
-"PaginationAutoAdapter","unclassified","onBindViewHolder","command",
-"PaginationAutoAdapter","unclassified","getItemViewType","get",
-"PaginationAutoAdapter","unclassified","getItemCount","property non-void-command",
-"PaginationAutoAdapter","unclassified","addItems","command",
-"DebounceSearchEmitterFragment","commander","onDestroy","command",
-"DebounceSearchEmitterFragment","commander","onCreateView","property set collaborator",
-"DebounceSearchEmitterFragment","commander","onClearLog","set",
-"DebounceSearchEmitterFragment","commander","onActivityCreated","command collaborator",
-"DebounceSearchEmitterFragment","commander","_getSearchObserver","property non-void-command factory collaborator",
-"DebounceSearchEmitterFragment","commander","_setupLogger","command",
-"DebounceSearchEmitterFragment","commander","_log","command",
-"DebounceSearchEmitterFragment","commander","_isCurrentlyOnMainThread","wrapper stateless",
-"RetrofitAsyncTaskDeathFragment","commander","onCreate","set collaborator",
-"RetrofitAsyncTaskDeathFragment","commander","onCreateView","property non-void-command collaborator",
-"RetrofitAsyncTaskDeathFragment","commander","onDestroyView","command",
-"RetrofitAsyncTaskDeathFragment","commander","onGetGithubUserClicked","command",
-"BufferDemoFragment","commander","onResume","command",
-"BufferDemoFragment","commander","onPause","command",
-"BufferDemoFragment","commander","onActivityCreated","command collaborator",
-"BufferDemoFragment","commander","onCreateView","property set collaborator",
-"BufferDemoFragment","commander","onDestroyView","command",
-"BufferDemoFragment","commander","_getBufferedDisposable","property non-void-command collaborator",
-"BufferDemoFragment","commander","_setupLogger","command",
-"BufferDemoFragment","commander","_log","command",
-"BufferDemoFragment","commander","_isCurrentlyOnMainThread","wrapper stateless",
-"MainActivity","minimal-entity commander boundary","onBackPressed","command",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","getRxBusSingleton","get set factory collaborator",
-"MainActivity","minimal-entity commander boundary","_removeWorkerFragments","wrapper stateless",
-"RxBusDemo_Bottom1Fragment","commander","onCreateView","property controller",
-"RxBusDemo_Bottom1Fragment","commander","onActivityCreated","set collaborator",
-"RxBusDemo_Bottom1Fragment","commander","onStart","command",
-"RxBusDemo_Bottom1Fragment","commander","onStop","command",
-"RxBusDemo_Bottom1Fragment","commander","_showTapText","command",
-"PseudoCacheFragment","commander","onCreateView","property set collaborator",
-"PseudoCacheFragment","commander","onDestroyView","command",
-"PseudoCacheFragment","commander","onConcatBtnClicked","command",
-"PseudoCacheFragment","commander","onConcatEagerBtnClicked","command collaborator",
-"PseudoCacheFragment","commander","onMergeBtnClicked","command",
-"PseudoCacheFragment","commander","onMergeSlowBtnClicked","command",
-"PseudoCacheFragment","commander","onMergeOptimizedBtnClicked","command",
-"RetrofitFragment","entity commander boundary","onCreate","command collaborator",
-"RetrofitFragment","entity commander boundary","onCreateView","property non-void-command collaborator",
-"RetrofitFragment","entity commander boundary","onDestroyView","command",
-"RetrofitFragment","entity commander boundary","onDestroy","command",
-"RetrofitFragment","entity commander boundary","onListContributorsClicked","command collaborator",
-"RetrofitFragment","entity commander boundary","onListContributorsWithFullUserInfoClicked","command collaborator",
-"RotationPersist1WorkerFragment","commander","onAttach","set collaborator",
-"RotationPersist1WorkerFragment","commander","onCreate","command collaborator",
-"RotationPersist1WorkerFragment","commander","onResume","command",
-"RotationPersist1WorkerFragment","commander","onDestroy","command",
-"RotationPersist1WorkerFragment","commander","onDetach","set",
-"RotationPersist2Fragment","commander boundary","startOperationFromWorkerFrag","set collaborator",
-"RotationPersist2Fragment","commander boundary","setStream","command collaborator",
-"RotationPersist2Fragment","commander boundary","onActivityCreated","command collaborator",
-"RotationPersist2Fragment","commander boundary","onCreateView","property controller",
-"RotationPersist2Fragment","commander boundary","onPause","command",
-"RotationPersist2Fragment","commander boundary","_setupLogger","command",
-"RotationPersist2Fragment","commander boundary","_log","command",
-"MyApp","commander small-class","onCreate","command",
-"RotationPersist2WorkerFragment","commander","onAttach","set collaborator",
-"RotationPersist2WorkerFragment","commander","onCreate","command collaborator",
-"RotationPersist2WorkerFragment","commander","onResume","command",
-"RotationPersist2WorkerFragment","commander","onDestroy","command",
-"RotationPersist2WorkerFragment","commander","onDetach","set",
-"TimeoutDemoFragment","boundary","onDestroy","command",
-"TimeoutDemoFragment","boundary","onCreateView","property controller",
-"TimeoutDemoFragment","boundary","onActivityCreated","command collaborator",
-"TimeoutDemoFragment","boundary","onStart2sTask","command",
-"TimeoutDemoFragment","boundary","onStart5sTask","command",
-"TimeoutDemoFragment","boundary","_getObservableTask_5sToComplete","property non-void-command collaborator",
-"TimeoutDemoFragment","boundary","_getObservableTask_2sToComplete","property non-void-command collaborator",
-"TimeoutDemoFragment","boundary","_onTimeoutObservable","property non-void-command collaborator",
-"TimeoutDemoFragment","boundary","_getEventCompletionObserver","property non-void-command factory collaborator",
-"TimeoutDemoFragment","boundary","_setupLogger","command",
-"TimeoutDemoFragment","boundary","_log","command",
-"TimeoutDemoFragment","boundary","_isCurrentlyOnMainThread","wrapper stateless",
-"DoubleBindingTextViewFragment","commander","onCreateView","property non-void-command collaborator",
-"DoubleBindingTextViewFragment","commander","onNumberChanged","command",
-"DoubleBindingTextViewFragment","commander","onDestroyView","command",
-"PaginationAdapter","unclassified","PaginationAdapter","constructor",
-"PaginationAdapter","unclassified","addItems","command",
-"PaginationAdapter","unclassified","getItemViewType","get non-void-command",
-"PaginationAdapter","unclassified","onCreateViewHolder","property wrapper",
-"PaginationAdapter","unclassified","onBindViewHolder","command",
-"PaginationAdapter","unclassified","getItemCount","property non-void-command",
-"PaginationAutoFragment","unclassified","onCreateView","property controller",
-"PaginationAutoFragment","unclassified","onActivityCreated","command collaborator",
-"PaginationAutoFragment","unclassified","onStart","command collaborator",
-"RotationPersist1Fragment","commander","startOperationFromWorkerFrag","set collaborator",
-"RotationPersist1Fragment","commander","observeResults","command collaborator",
-"RotationPersist1Fragment","commander","onActivityCreated","command collaborator",
-"RotationPersist1Fragment","commander","onCreateView","property set collaborator",
-"RotationPersist1Fragment","commander","onPause","command",
-"RotationPersist1Fragment","commander","onDestroyView","command",
-"RotationPersist1Fragment","commander","_setupLogger","command",
-"RotationPersist1Fragment","commander","_log","command",
-"PaginationFragment","commander boundary small-class","onActivityCreated","command collaborator",
-"PaginationFragment","commander boundary small-class","onStart","command collaborator",
+"LogAdapter","empty","LogAdapter","constructor"
+"MyVolley","empty","MyVolley","constructor"
+"RxBusDemo_Bottom3Fragment","unclassified","onCreateView","property controller"
+"RxBusDemo_Bottom3Fragment","unclassified","onActivityCreated","set collaborator"
+"RxBusDemo_Bottom3Fragment","unclassified","onStart","command collaborator"
+"RxBusDemo_Bottom2Fragment","commander","onCreateView","property controller"
+"RxBusDemo_Bottom2Fragment","commander","onActivityCreated","set collaborator"
+"RxBusDemo_Bottom2Fragment","commander","onStart","command collaborator"
+"RxBusDemo_Bottom2Fragment","commander","onStop","command"
+"RxBusDemo_Bottom2Fragment","commander","_showTapText","command"
+"RxBusDemo_Bottom2Fragment","commander","_showTapCount","command"
+"RxBusDemoFragment","small-class","onCreateView","property controller"
+"RxBusDemoFragment","small-class","onActivityCreated","command collaborator"
+"RxBus","entity boundary","send","command collaborator"
+"RxBus","entity boundary","asFlowable","property non-void-command collaborator"
+"RxBus","entity boundary","hasObservers","predicate non-void-command"
+"GithubService","empty","GithubService","constructor"
+"PollingFragment","commander boundary","onCreate","set collaborator"
+"PollingFragment","commander boundary","onCreateView","property set collaborator"
+"PollingFragment","commander boundary","onActivityCreated","command collaborator"
+"PollingFragment","commander boundary","onDestroy","command"
+"PollingFragment","commander boundary","onStartSimplePollingClicked","command collaborator"
+"PollingFragment","commander boundary","onStartIncreasinglyDelayedPolling","command"
+"PollingFragment","commander boundary","_doNetworkCallAndGetStringResult","property set"
+"PollingFragment","commander boundary","_getSecondHand","wrapper stateless"
+"PollingFragment","commander boundary","_log","command"
+"PollingFragment","commander boundary","_setupLogger","command"
+"PollingFragment","commander boundary","_isCurrentlyOnMainThread","wrapper stateless"
+"PseudoCacheMergeFragment","boundary","onCreateView","property set collaborator"
+"PseudoCacheMergeFragment","boundary","onDestroyView","command"
+"PseudoCacheMergeFragment","boundary","onDemoPseudoCacheClicked","command collaborator"
+"PseudoCacheMergeFragment","boundary","getListStringFromMap","property non-void-command"
+"PseudoCacheMergeFragment","boundary","_getCachedData","property non-void-command collaborator"
+"PseudoCacheMergeFragment","boundary","_getFreshData","controller stateless"
+"PseudoCacheMergeFragment","boundary","_initializeCache","command"
+"NetworkDetectorFragment","commander","onDestroy","command"
+"NetworkDetectorFragment","commander","onCreateView","property set collaborator"
+"NetworkDetectorFragment","commander","onActivityCreated","command collaborator"
+"NetworkDetectorFragment","commander","onStart","command"
+"NetworkDetectorFragment","commander","onStop","command"
+"NetworkDetectorFragment","commander","listenToNetworkConnectivity","command collaborator"
+"NetworkDetectorFragment","commander","getConnectivityStatus","controller stateless"
+"NetworkDetectorFragment","commander","log","command"
+"NetworkDetectorFragment","commander","setupLogger","command"
+"NetworkDetectorFragment","commander","isCurrentlyOnMainThread","wrapper stateless"
+"MainFragment","commander","onCreateView","property set collaborator"
+"MainFragment","commander","onDestroyView","command"
+"MainFragment","commander","demoConcurrencyWithSchedulers","command"
+"MainFragment","commander","demoBuffer","command"
+"MainFragment","commander","demoThrottling","command"
+"MainFragment","commander","demoRetrofitCalls","command"
+"MainFragment","commander","demoPolling","command"
+"MainFragment","commander","demoDoubleBindingWithPublishSubject","command"
+"MainFragment","commander","demoRxBus","command"
+"MainFragment","commander","formValidation","command"
+"MainFragment","commander","pseudoCacheDemo","command"
+"MainFragment","commander","demoTimerIntervalDelays","command"
+"MainFragment","commander","demoTimeout","command"
+"MainFragment","commander","demoExponentialBackoff","command"
+"MainFragment","commander","demoRotationPersist","command"
+"MainFragment","commander","demoPaging","command"
+"MainFragment","commander","demoVolleyRequest","command"
+"MainFragment","commander","demoNetworkDetector","command"
+"MainFragment","commander","demoUsing","command"
+"MainFragment","commander","demoMulticastPlayground","command"
+"MainFragment","commander","clickedOn","controller stateless"
+"BaseFragment","commander boundary small-class","onDestroy","command collaborator"
+"ApplicationTest","empty","ApplicationTest","constructor"
+"TimingDemoFragment","commander boundary","onCreateView","property set collaborator"
+"TimingDemoFragment","commander boundary","onActivityCreated","command collaborator"
+"TimingDemoFragment","commander boundary","onDestroyView","command"
+"TimingDemoFragment","commander boundary","btn1_RunSingleTaskAfter2s","wrapper stateless"
+"TimingDemoFragment","commander boundary","btn2_RunTask_IntervalOf1s","command"
+"TimingDemoFragment","commander boundary","btn3_RunTask_IntervalOf1s_StartImmediately","command"
+"TimingDemoFragment","commander boundary","btn4_RunTask5Times_IntervalOf3s","wrapper stateless"
+"TimingDemoFragment","commander boundary","btn5_RunTask5Times_IntervalOf3s","wrapper stateless"
+"FormValidationCombineLatestFragment","commander","onCreateView","property non-void-command collaborator"
+"FormValidationCombineLatestFragment","commander","onDestroyView","command"
+"FormValidationCombineLatestFragment","commander","_combineLatestEvents","command"
+"RxBusDemo_TopFragment","unclassified","onCreateView","property controller"
+"RxBusDemo_TopFragment","unclassified","onActivityCreated","set collaborator"
+"RxBusDemo_TopFragment","unclassified","onTapButtonClicked","command"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","onDestroy","command"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","onActivityCreated","command collaborator"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","onCreateView","property set collaborator"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","startLongOperation","command collaborator"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","_getObservable","property non-void-command collaborator"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","_getDisposableObserver","property non-void-command factory collaborator"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","_doSomeLongOperation_thatBlocksCurrentThread","command"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","_log","command"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","_setupLogger","command"
+"ConcurrencyWithSchedulersDemoFragment","commander boundary","_isCurrentlyOnMainThread","wrapper stateless"
+"ExponentialBackoffFragment","commander boundary","onCreateView","property set collaborator"
+"ExponentialBackoffFragment","commander boundary","onActivityCreated","command collaborator"
+"ExponentialBackoffFragment","commander boundary","onPause","command"
+"ExponentialBackoffFragment","commander boundary","onDestroyView","command"
+"ExponentialBackoffFragment","commander boundary","startRetryingWithExponentialBackoffStrategy","command collaborator"
+"ExponentialBackoffFragment","commander boundary","startExecutingWithExponentialBackoffDelay","command collaborator"
+"ExponentialBackoffFragment","commander boundary","_getSecondHand","wrapper stateless"
+"ExponentialBackoffFragment","commander boundary","_setupLogger","command"
+"ExponentialBackoffFragment","commander boundary","_log","command"
+"VolleyDemoFragment","commander","onCreateView","property set collaborator"
+"VolleyDemoFragment","commander","onActivityCreated","command collaborator"
+"VolleyDemoFragment","commander","onPause","command"
+"VolleyDemoFragment","commander","onDestroyView","command"
+"VolleyDemoFragment","commander","newGetRouteData","property non-void-command collaborator"
+"VolleyDemoFragment","commander","startRequest","command"
+"VolleyDemoFragment","commander","startVolleyRequest","command"
+"VolleyDemoFragment","commander","getRouteData","controller stateless"
+"VolleyDemoFragment","commander","_setupLogger","command"
+"VolleyDemoFragment","commander","_log","command"
+"VolleyDemoFragment","commander","_isCurrentlyOnMainThread","wrapper stateless"
+"PaginationAutoAdapter","unclassified","PaginationAutoAdapter","constructor"
+"PaginationAutoAdapter","unclassified","onCreateViewHolder","wrapper stateless"
+"PaginationAutoAdapter","unclassified","onBindViewHolder","command"
+"PaginationAutoAdapter","unclassified","getItemViewType","get"
+"PaginationAutoAdapter","unclassified","getItemCount","property non-void-command"
+"PaginationAutoAdapter","unclassified","addItems","command"
+"DebounceSearchEmitterFragment","commander","onDestroy","command"
+"DebounceSearchEmitterFragment","commander","onCreateView","property set collaborator"
+"DebounceSearchEmitterFragment","commander","onClearLog","set"
+"DebounceSearchEmitterFragment","commander","onActivityCreated","command collaborator"
+"DebounceSearchEmitterFragment","commander","_getSearchObserver","property non-void-command factory collaborator"
+"DebounceSearchEmitterFragment","commander","_setupLogger","command"
+"DebounceSearchEmitterFragment","commander","_log","command"
+"DebounceSearchEmitterFragment","commander","_isCurrentlyOnMainThread","wrapper stateless"
+"RetrofitAsyncTaskDeathFragment","commander","onCreate","set collaborator"
+"RetrofitAsyncTaskDeathFragment","commander","onCreateView","property non-void-command collaborator"
+"RetrofitAsyncTaskDeathFragment","commander","onDestroyView","command"
+"RetrofitAsyncTaskDeathFragment","commander","onGetGithubUserClicked","command"
+"BufferDemoFragment","commander","onResume","command"
+"BufferDemoFragment","commander","onPause","command"
+"BufferDemoFragment","commander","onActivityCreated","command collaborator"
+"BufferDemoFragment","commander","onCreateView","property set collaborator"
+"BufferDemoFragment","commander","onDestroyView","command"
+"BufferDemoFragment","commander","_getBufferedDisposable","property non-void-command collaborator"
+"BufferDemoFragment","commander","_setupLogger","command"
+"BufferDemoFragment","commander","_log","command"
+"BufferDemoFragment","commander","_isCurrentlyOnMainThread","wrapper stateless"
+"MainActivity","minimal-entity commander boundary","onBackPressed","command"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","getRxBusSingleton","get set factory collaborator"
+"MainActivity","minimal-entity commander boundary","_removeWorkerFragments","wrapper stateless"
+"RxBusDemo_Bottom1Fragment","commander","onCreateView","property controller"
+"RxBusDemo_Bottom1Fragment","commander","onActivityCreated","set collaborator"
+"RxBusDemo_Bottom1Fragment","commander","onStart","command"
+"RxBusDemo_Bottom1Fragment","commander","onStop","command"
+"RxBusDemo_Bottom1Fragment","commander","_showTapText","command"
+"PseudoCacheFragment","commander","onCreateView","property set collaborator"
+"PseudoCacheFragment","commander","onDestroyView","command"
+"PseudoCacheFragment","commander","onConcatBtnClicked","command"
+"PseudoCacheFragment","commander","onConcatEagerBtnClicked","command collaborator"
+"PseudoCacheFragment","commander","onMergeBtnClicked","command"
+"PseudoCacheFragment","commander","onMergeSlowBtnClicked","command"
+"PseudoCacheFragment","commander","onMergeOptimizedBtnClicked","command"
+"RetrofitFragment","entity commander boundary","onCreate","command collaborator"
+"RetrofitFragment","entity commander boundary","onCreateView","property non-void-command collaborator"
+"RetrofitFragment","entity commander boundary","onDestroyView","command"
+"RetrofitFragment","entity commander boundary","onDestroy","command"
+"RetrofitFragment","entity commander boundary","onListContributorsClicked","command collaborator"
+"RetrofitFragment","entity commander boundary","onListContributorsWithFullUserInfoClicked","command collaborator"
+"RotationPersist1WorkerFragment","commander","onAttach","set collaborator"
+"RotationPersist1WorkerFragment","commander","onCreate","command collaborator"
+"RotationPersist1WorkerFragment","commander","onResume","command"
+"RotationPersist1WorkerFragment","commander","onDestroy","command"
+"RotationPersist1WorkerFragment","commander","onDetach","set"
+"RotationPersist2Fragment","commander boundary","startOperationFromWorkerFrag","set collaborator"
+"RotationPersist2Fragment","commander boundary","setStream","command collaborator"
+"RotationPersist2Fragment","commander boundary","onActivityCreated","command collaborator"
+"RotationPersist2Fragment","commander boundary","onCreateView","property controller"
+"RotationPersist2Fragment","commander boundary","onPause","command"
+"RotationPersist2Fragment","commander boundary","_setupLogger","command"
+"RotationPersist2Fragment","commander boundary","_log","command"
+"MyApp","commander small-class","onCreate","command"
+"RotationPersist2WorkerFragment","commander","onAttach","set collaborator"
+"RotationPersist2WorkerFragment","commander","onCreate","command collaborator"
+"RotationPersist2WorkerFragment","commander","onResume","command"
+"RotationPersist2WorkerFragment","commander","onDestroy","command"
+"RotationPersist2WorkerFragment","commander","onDetach","set"
+"TimeoutDemoFragment","boundary","onDestroy","command"
+"TimeoutDemoFragment","boundary","onCreateView","property controller"
+"TimeoutDemoFragment","boundary","onActivityCreated","command collaborator"
+"TimeoutDemoFragment","boundary","onStart2sTask","command"
+"TimeoutDemoFragment","boundary","onStart5sTask","command"
+"TimeoutDemoFragment","boundary","_getObservableTask_5sToComplete","property non-void-command collaborator"
+"TimeoutDemoFragment","boundary","_getObservableTask_2sToComplete","property non-void-command collaborator"
+"TimeoutDemoFragment","boundary","_onTimeoutObservable","property non-void-command collaborator"
+"TimeoutDemoFragment","boundary","_getEventCompletionObserver","property non-void-command factory collaborator"
+"TimeoutDemoFragment","boundary","_setupLogger","command"
+"TimeoutDemoFragment","boundary","_log","command"
+"TimeoutDemoFragment","boundary","_isCurrentlyOnMainThread","wrapper stateless"
+"DoubleBindingTextViewFragment","commander","onCreateView","property non-void-command collaborator"
+"DoubleBindingTextViewFragment","commander","onNumberChanged","command"
+"DoubleBindingTextViewFragment","commander","onDestroyView","command"
+"PaginationAdapter","unclassified","PaginationAdapter","constructor"
+"PaginationAdapter","unclassified","addItems","command"
+"PaginationAdapter","unclassified","getItemViewType","get non-void-command"
+"PaginationAdapter","unclassified","onCreateViewHolder","property wrapper"
+"PaginationAdapter","unclassified","onBindViewHolder","command"
+"PaginationAdapter","unclassified","getItemCount","property non-void-command"
+"PaginationAutoFragment","unclassified","onCreateView","property controller"
+"PaginationAutoFragment","unclassified","onActivityCreated","command collaborator"
+"PaginationAutoFragment","unclassified","onStart","command collaborator"
+"RotationPersist1Fragment","commander","startOperationFromWorkerFrag","set collaborator"
+"RotationPersist1Fragment","commander","observeResults","command collaborator"
+"RotationPersist1Fragment","commander","onActivityCreated","command collaborator"
+"RotationPersist1Fragment","commander","onCreateView","property set collaborator"
+"RotationPersist1Fragment","commander","onPause","command"
+"RotationPersist1Fragment","commander","onDestroyView","command"
+"RotationPersist1Fragment","commander","_setupLogger","command"
+"RotationPersist1Fragment","commander","_log","command"
+"PaginationFragment","commander boundary small-class","onActivityCreated","command collaborator"
+"PaginationFragment","commander boundary small-class","onStart","command collaborator"

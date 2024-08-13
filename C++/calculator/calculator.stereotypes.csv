@@ -1,689 +1,689 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"IMathSolver","boundary degenerate small-class","IMathSolver::CreateMathSolver","wrapper stateless",
-"Color","small-class","Color","constructor",
-"Color","small-class","Color","constructor",
-"Color","small-class","Color","constructor",
-"Color","small-class","Color","constructor",
-"Color","small-class","operatoruint32_t","unclassified",
-"IUnitConverter","empty","~IUnitConverter","destructor",
-"CCalcEngine","boundary","FInErrorState","get",
-"CCalcEngine","boundary","IsInputEmpty","predicate non-void-command",
-"CCalcEngine","boundary","FInRecordingState","get",
-"CCalcEngine","boundary","ChangePrecision","set",
-"CCalcEngine","boundary","CCalcEngine::LoadEngineStrings","set collaborator",
-"CCalcEngine","boundary","CCalcEngine::InitialOneTimeOnlySetup","void-accessor command collaborator",
-"CCalcEngine","boundary","CCalcEngine::CCalcEngine","constructor",
-"CCalcEngine","boundary","CCalcEngine::InitChopNumbers","command collaborator",
-"CCalcEngine","boundary","CCalcEngine::GetChopNumber","get collaborator",
-"CCalcEngine","boundary","CCalcEngine::GetMaxDecimalValueString","get collaborator",
-"CCalcEngine","boundary","CCalcEngine::PersistedMemObject","property wrapper",
-"CCalcEngine","boundary","CCalcEngine::PersistedMemObject","void-accessor set collaborator",
-"CCalcEngine","boundary","CCalcEngine::SettingsChanged","command",
-"CCalcEngine","boundary","CCalcEngine::DecimalSeparator","get",
-"CCalcEngine","boundary","CCalcEngine::GetHistoryCollectorCommandsSnapshot","property collaborator",
-"CCalcEngine","boundary","CCalcEngine::HandleErrorCommand","set collaborator",
-"CCalcEngine","boundary","CCalcEngine::HandleMaxDigitsReached","command",
-"CCalcEngine","boundary","CCalcEngine::ClearTemporaryValues","command",
-"CCalcEngine","boundary","CCalcEngine::ClearDisplay","command",
-"CCalcEngine","boundary","CCalcEngine::ProcessCommand","set collaborator",
-"CCalcEngine","boundary","CCalcEngine::ProcessCommandWorker","command collaborator",
-"CCalcEngine","boundary","CCalcEngine::ResolveHighestPrecedenceOperation","command",
-"CCalcEngine","boundary","CCalcEngine::CheckAndAddLastBinOpToHistory","command",
-"CCalcEngine","boundary","CCalcEngine::SetPrimaryDisplay","void-accessor command",
-"CCalcEngine","boundary","CCalcEngine::DisplayAnnounceBinaryOperator","command",
-"CCalcEngine","boundary","CCalcEngine::OpCodeToUnaryString","controller stateless",
-"CCalcEngine","boundary","CCalcEngine::OpCodeToBinaryString","controller stateless",
-"CCalcEngine","boundary","CCalcEngine::IsCurrentTooBigForTrig","predicate",
-"CCalcEngine","boundary","CCalcEngine::GetCurrentRadix","get",
-"CCalcEngine","boundary","CCalcEngine::GetCurrentResultForRadix","property non-void-command collaborator",
-"CCalcEngine","boundary","CCalcEngine::GetStringForDisplay","property non-void-command collaborator",
-"CCalcEngine","boundary","CCalcEngine::GenerateRandomNumber","property non-void-command collaborator",
-"CCalcEngine","boundary","CCalcEngine::TruncateNumForIntMath","property non-void-command collaborator",
-"CCalcEngine","boundary","CCalcEngine::DisplayNum","command",
-"CCalcEngine","boundary","CCalcEngine::IsNumberInvalid","property controller",
-"CCalcEngine","boundary","CCalcEngine::DigitGroupingStringToGroupingVector","controller stateless",
-"CCalcEngine","boundary","CCalcEngine::GroupDigitsPerRadix","property non-void-command collaborator",
-"CCalcEngine","boundary","CCalcEngine::GroupDigits","property controller",
-"CCalcEngine","boundary","CCalcEngine::SciCalcFunctions","property non-void-command collaborator",
-"CCalcEngine","boundary","CCalcEngine::DisplayError","command collaborator",
-"CCalcEngine","boundary","CCalcEngine::DoOperation","property non-void-command collaborator",
-"CCalcEngine","boundary","CCalcEngine::SetRadixTypeAndNumWidth","command collaborator",
-"CCalcEngine","boundary","CCalcEngine::DwWordBitWidthFromNumWidth","collaborator incidental",
-"CCalcEngine","boundary","CCalcEngine::NRadixFromRadixType","collaborator incidental",
-"CCalcEngine","boundary","CCalcEngine::TryToggleBit","predicate non-void-command collaborator",
-"CCalcEngine","boundary","CCalcEngine::QuickLog2","incidental",
-"CCalcEngine","boundary","CCalcEngine::UpdateMaxIntDigits","command",
-"CCalcEngine","boundary","CCalcEngine::ChangeBaseConstants","wrapper stateless",
-"CCalcEngine","boundary","CCalcEngine::BaseOrPrecisionChanged","command",
-"CommandDeserializer","entity boundary","CommandDeserializer::CommandDeserializer","constructor",
-"CommandDeserializer","entity boundary","CommandDeserializer::Deserialize","property non-void-command collaborator",
-"CommandDeserializer","entity boundary","CommandDeserializer::DeserializeOperand","property non-void-command collaborator",
-"CommandDeserializer","entity boundary","CommandDeserializer::DeserializeParentheses","property non-void-command collaborator",
-"CommandDeserializer","entity boundary","CommandDeserializer::DeserializeUnary","property non-void-command collaborator",
-"CommandDeserializer","entity boundary","CommandDeserializer::DeserializeBinary","property non-void-command collaborator",
-"EngineResourceProvider","entity boundary small-class","EngineResourceProvider::EngineResourceProvider","constructor",
-"EngineResourceProvider","entity boundary small-class","EngineResourceProvider::GetCEngineString","property non-void-command collaborator",
-"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory","constructor",
-"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory::Initialize","property non-void-command",
-"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory::RegisterHosts","set",
-"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory::GetHostProducer","property controller",
-"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory::MakeHost","property controller",
-"TestUnitConverterVMCallback","boundary","Reset","set",
-"TestUnitConverterVMCallback","boundary","DisplayCallback","command collaborator",
-"TestUnitConverterVMCallback","boundary","SuggestedValueCallback","set collaborator",
-"TestUnitConverterVMCallback","boundary","MaxDigitsReached","set",
-"TestUnitConverterVMCallback","boundary","GetMaxDigitsReachedCallCount","get",
-"TestUnitConverterVMCallback","boundary","CheckDisplayValues","predicate collaborator",
-"TestUnitConverterVMCallback","boundary","CheckSuggestedValues","predicate non-void-command collaborator",
-"CalculatorVector","entity boundary","GetAt","property non-void-command collaborator",
-"CalculatorVector","entity boundary","GetSize","property non-void-command collaborator",
-"CalculatorVector","entity boundary","SetAt","property set collaborator",
-"CalculatorVector","entity boundary","RemoveAt","property non-void-command collaborator",
-"CalculatorVector","entity boundary","InsertAt","property non-void-command collaborator",
-"CalculatorVector","entity boundary","Truncate","property non-void-command collaborator",
-"CalculatorVector","entity boundary","Append","property non-void-command collaborator",
-"CalculatorVector","entity boundary","RemoveAtEnd","property non-void-command collaborator",
-"CalculatorVector","entity boundary","Clear","property non-void-command collaborator",
-"CalculatorVector","entity boundary","GetString","property non-void-command collaborator",
-"CalculatorVector","entity boundary","GetExpressionSuffix","collaborator incidental",
-"ParsingOptions","degenerate small-class","SetFormatType","empty",
-"ParsingOptions","degenerate small-class","SetLocalizationType","empty",
-"UnitHash","boundary degenerate small-class","operator()","collaborator incidental",
-"TestUnitConverterConfigLoader","data-provider boundary","TestUnitConverterConfigLoader","constructor",
-"TestUnitConverterConfigLoader","data-provider boundary","LoadData","set",
-"TestUnitConverterConfigLoader","data-provider boundary","GetOrderedCategories","get collaborator",
-"TestUnitConverterConfigLoader","data-provider boundary","GetOrderedUnits","get collaborator",
-"TestUnitConverterConfigLoader","data-provider boundary","LoadOrderedRatios","get collaborator",
-"TestUnitConverterConfigLoader","data-provider boundary","SupportsCategory","incidental",
-"Category","data-provider small-class","Category","constructor",
-"Category","data-provider small-class","Category","constructor",
-"Category","data-provider small-class","operator!=","predicate",
-"Category","data-provider small-class","operator==","predicate",
-"IUnitConverterVMCallback","empty","~IUnitConverterVMCallback","destructor",
-"IConverterDataLoader","empty","~IConverterDataLoader","destructor",
-"UnitConverter","boundary","UnitConverter::UnitConverter","constructor",
-"UnitConverter","boundary","UnitConverter::UnitConverter","constructor",
-"UnitConverter","boundary","UnitConverter::Initialize","command",
-"UnitConverter","boundary","UnitConverter::CheckLoad","predicate non-void-command",
-"UnitConverter","boundary","UnitConverter::GetCategories","get non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::SetCurrentCategory","property non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::GetCurrentCategory","get collaborator",
-"UnitConverter","boundary","UnitConverter::SetCurrentUnitTypes","command collaborator",
-"UnitConverter","boundary","UnitConverter::SwitchActive","command collaborator",
-"UnitConverter","boundary","UnitConversionManager::UnitConverter::IsSwitchedActive","get",
-"UnitConverter","boundary","UnitConverter::CategoryToString","property non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::StringToVector","controller stateless",
-"UnitConverter","boundary","UnitConverter::UnitToString","property non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::StringToUnit","property non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::StringToCategory","property non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::RestoreUserPreferences","command collaborator",
-"UnitConverter","boundary","UnitConverter::SaveUserPreferences","property non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::Quote","controller stateless",
-"UnitConverter","boundary","UnitConverter::Unquote","controller stateless",
-"UnitConverter","boundary","UnitConverter::SendCommand","command collaborator",
-"UnitConverter","boundary","UnitConverter::SetViewModelCallback","command collaborator",
-"UnitConverter","boundary","UnitConverter::SetViewModelCurrencyCallback","void-accessor set collaborator",
-"UnitConverter","boundary","UnitConverter::RefreshCurrencyRatios","property non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::GetCurrencyConverterDataLoader","property wrapper",
-"UnitConverter","boundary","UnitConverter::Convert","collaborator incidental",
-"UnitConverter","boundary","UnitConverter::CalculateSuggested","property non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::ResetCategoriesAndRatios","command collaborator",
-"UnitConverter","boundary","UnitConverter::GetDataLoaderForCategory","get non-void-command collaborator",
-"UnitConverter","boundary","UnitConverter::InitializeSelectedUnits","command collaborator",
-"UnitConverter","boundary","UnitConverter::ClearValues","command",
-"UnitConverter","boundary","UnitConverter::AnyUnitIsEmpty","predicate",
-"UnitConverter","boundary","UnitConverter::Calculate","command collaborator",
-"UnitConverter","boundary","UnitConverter::UpdateCurrencySymbols","command collaborator",
-"UnitConverter","boundary","UnitConverter::UpdateViewModel","command",
-"Unit","data-provider small-class","Unit","constructor",
-"Unit","data-provider small-class","Unit","constructor",
-"Unit","data-provider small-class","Unit","constructor",
-"Unit","data-provider small-class","operator!=","predicate",
-"Unit","data-provider small-class","operator==","predicate",
-"CBinaryCommand","unclassified","CBinaryCommand::CBinaryCommand","constructor",
-"CBinaryCommand","unclassified","CBinaryCommand::SetCommand","set",
-"CBinaryCommand","unclassified","CBinaryCommand::GetCommand","get",
-"CBinaryCommand","unclassified","CBinaryCommand::GetCommandType","collaborator incidental",
-"CBinaryCommand","unclassified","CBinaryCommand::Accept","controller",
-"Graph","data-provider boundary lazy-class degenerate","Graph","constructor",
-"Graph","data-provider boundary lazy-class degenerate","TryInitialize","property non-void-command collaborator",
-"Graph","data-provider boundary lazy-class degenerate","GetInitializationError","collaborator incidental",
-"Graph","data-provider boundary lazy-class degenerate","GetOptions","get collaborator",
-"Graph","data-provider boundary lazy-class degenerate","GetVariables","get collaborator",
-"Graph","data-provider boundary lazy-class degenerate","SetArgValue","empty",
-"Graph","data-provider boundary lazy-class degenerate","GetRenderer","get collaborator",
-"Graph","data-provider boundary lazy-class degenerate","TryResetSelection","incidental",
-"Graph","data-provider boundary lazy-class degenerate","GetAnalyzer","collaborator incidental",
-"Graph","data-provider boundary lazy-class degenerate","RenderMain::Graph::set","controller stateless",
-"COpndCommand","boundary","COpndCommand::COpndCommand","constructor",
-"COpndCommand","boundary","COpndCommand::Initialize","command collaborator",
-"COpndCommand","boundary","COpndCommand::GetCommands","get collaborator",
-"COpndCommand","boundary","COpndCommand::SetCommands","set collaborator",
-"COpndCommand","boundary","COpndCommand::AppendCommand","command",
-"COpndCommand","boundary","COpndCommand::ToggleSign","set",
-"COpndCommand","boundary","COpndCommand::RemoveFromEnd","command",
-"COpndCommand","boundary","COpndCommand::IsNegative","get",
-"COpndCommand","boundary","COpndCommand::IsSciFmt","get",
-"COpndCommand","boundary","COpndCommand::IsDecimalPresent","get",
-"COpndCommand","boundary","COpndCommand::GetCommandType","collaborator incidental",
-"COpndCommand","boundary","COpndCommand::ClearAllAndAppendCommand","command collaborator",
-"COpndCommand","boundary","COpndCommand::GetToken","get non-void-command collaborator",
-"COpndCommand","boundary","COpndCommand::GetString","property non-void-command collaborator",
-"COpndCommand","boundary","COpndCommand::Accept","controller",
-"UnitConverterResults","unclassified","GetCalculationResult1Text","property non-void-command",
-"UnitConverterResults","unclassified","IsResultsDisplayPresent","controller",
-"UnitConverterResults","unclassified","GetCalculationResult2Text","property non-void-command",
-"CalculatorHistory","boundary","MaxHistorySize","get",
-"CalculatorHistory","boundary","CalculatorHistory::CalculatorHistory","constructor",
-"CalculatorHistory","boundary","CalculatorHistory::AddToHistory","property non-void-command collaborator",
-"CalculatorHistory","boundary","CalculatorHistory::AddItem","property non-void-command collaborator",
-"CalculatorHistory","boundary","CalculatorHistory::RemoveItem","predicate non-void-command",
-"CalculatorHistory","boundary","CalculatorHistory::GetHistory","get collaborator",
-"CalculatorHistory","boundary","CalculatorHistory::GetHistoryItem","property non-void-command collaborator",
-"CalculatorHistory","boundary","CalculatorHistory::ClearHistory","command",
-"ViewModelCurrencyCallback","commander boundary","ViewModelCurrencyCallback","constructor",
-"ViewModelCurrencyCallback","commander boundary","CurrencyDataLoadFinished","command",
-"ViewModelCurrencyCallback","commander boundary","CurrencySymbolsCallback","command collaborator",
-"ViewModelCurrencyCallback","commander boundary","CurrencyRatiosCallback","command collaborator",
-"ViewModelCurrencyCallback","commander boundary","CurrencyTimestampCallback","void-accessor command",
-"ViewModelCurrencyCallback","commander boundary","NetworkBehaviorChanged","command collaborator",
-"ProgrammerOperatorsPanel","commander","SetArithmeticShift","command",
-"ProgrammerOperatorsPanel","commander","SetLogicalShift","command",
-"ProgrammerOperatorsPanel","commander","SetRotateCircularShift","command",
-"ProgrammerOperatorsPanel","commander","SetRotateThroughCarryCircularShift","command",
-"ProgrammerOperatorsPanel","commander","ResetWordSize","command",
-"ProgrammerOperatorsPanel","commander","ResetNumberSystem","command",
-"sealed","boundary degenerate small-class","get","collaborator incidental",
-"CalcInput","unclassified","CalcInput","constructor",
-"CalcInput","unclassified","CalcInput","constructor",
-"CalcInput","unclassified","CalcInput::Clear","command",
-"CalcInput","unclassified","CalcInput::TryToggleSign","predicate non-void-command collaborator",
-"CalcInput","unclassified","CalcInput::TryAddDigit","predicate non-void-command collaborator",
-"CalcInput","unclassified","CalcInput::TryAddDecimalPt","predicate non-void-command",
-"CalcInput","unclassified","CalcInput::HasDecimalPt","get",
-"CalcInput","unclassified","CalcInput::TryBeginExponent","predicate set",
-"CalcInput","unclassified","CalcInput::Backspace","command",
-"CalcInput","unclassified","CalcInput::SetDecimalSymbol","command",
-"CalcInput","unclassified","CalcInput::IsEmpty","predicate non-void-command",
-"CalcInput","unclassified","CalcInput::ToString","property non-void-command collaborator",
-"CalcInput","unclassified","CalcInput::ToRational","property non-void-command collaborator",
-"GraphRenderer","entity boundary degenerate","GraphRenderer","constructor",
-"GraphRenderer","entity boundary degenerate","SetGraphSize","collaborator incidental",
-"GraphRenderer","entity boundary degenerate","SetDpi","collaborator incidental",
-"GraphRenderer","entity boundary degenerate","DrawD2D1","collaborator incidental",
-"GraphRenderer","entity boundary degenerate","GetClosePointData","collaborator incidental",
-"GraphRenderer","entity boundary degenerate","ScaleRange","property non-void-command collaborator",
-"GraphRenderer","entity boundary degenerate","ChangeRange","collaborator incidental",
-"GraphRenderer","entity boundary degenerate","MoveRangeByRatio","collaborator incidental",
-"GraphRenderer","entity boundary degenerate","ResetRange","collaborator incidental",
-"GraphRenderer","entity boundary degenerate","GetDisplayRanges","property collaborator",
-"GraphRenderer","entity boundary degenerate","SetDisplayRanges","property non-void-command collaborator",
-"GraphRenderer","entity boundary degenerate","PrepareGraph","collaborator incidental",
-"GraphRenderer","entity boundary degenerate","GetBitmap","wrapper stateless",
-"CUnaryCommand","boundary","CUnaryCommand::CUnaryCommand","constructor",
-"CUnaryCommand","boundary","CUnaryCommand::CUnaryCommand","constructor",
-"CUnaryCommand","boundary","CUnaryCommand::GetCommands","get collaborator",
-"CUnaryCommand","boundary","CUnaryCommand::GetCommandType","collaborator incidental",
-"CUnaryCommand","boundary","CUnaryCommand::SetCommand","command",
-"CUnaryCommand","boundary","CUnaryCommand::SetCommands","command",
-"CUnaryCommand","boundary","CUnaryCommand::Accept","controller",
-"ButtonLog","empty","ButtonLog","constructor",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::CalculatorDisplay","constructor",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::SetCallback","set collaborator",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::SetHistoryCallback","set collaborator",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::SetPrimaryDisplay","command collaborator",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::SetParenthesisNumber","command collaborator",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::OnNoRightParenAdded","command",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::SetIsInError","command",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::SetExpressionDisplay","void-accessor command collaborator",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::SetMemorizedNumbers","void-accessor command collaborator",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::OnHistoryItemAdded","command collaborator",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::MaxDigitsReached","command",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::BinaryOperatorReceived","command",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::MemoryItemChanged","command",
-"CalculatorDisplay","commander boundary","CalculatorDisplay::InputChanged","command",
-"StandardAoTCalculatorPage","unclassified","NavigateToStandardMode","command",
-"StandardAoTCalculatorPage","unclassified","NavigateToStandardAoTMode","command",
-"StandardAoTCalculatorPage","unclassified","GetAoTToolTipText","get controller",
-"StandardAoTCalculatorPage","unclassified","IsKeepOnTopButtonPresent","predicate controller",
-"StandardAoTCalculatorPage","unclassified","IsInAlwaysOnTopMode","predicate controller",
-"StandardAoTCalculatorPage","unclassified","ResizeAoTWindowToDisplayInvertButton","command",
-"StandardAoTCalculatorPage","unclassified","GrowWindowToShowInvertButton","command collaborator",
-"IResourceProvider","empty","~IResourceProvider","destructor",
-"CParentheses","unclassified","CParentheses::CParentheses","constructor",
-"CParentheses","unclassified","CParentheses::GetCommand","get",
-"CParentheses","unclassified","CParentheses::GetCommandType","collaborator incidental",
-"CParentheses","unclassified","CParentheses::Accept","controller",
-"KeyboardShortcutManager","empty","KeyboardShortcutManager","constructor",
-"ConversionData","empty","ConversionData","constructor",
-"ConversionData","empty","ConversionData","constructor",
-"NearestPointRenderer","commander","NearestPointRenderer::NearestPointRenderer","constructor",
-"NearestPointRenderer","commander","NearestPointRenderer::CreateDeviceDependentResources","command",
-"NearestPointRenderer","commander","NearestPointRenderer::ReleaseDeviceDependentResources","command",
-"NearestPointRenderer","commander","NearestPointRenderer::Render","command collaborator",
-"NearestPointRenderer","commander","NearestPointRenderer::SetRadius","command",
-"NearestPointRenderer","commander","NearestPointRenderer::SetColor","set collaborator",
-"NearestPointRenderer","commander","NearestPointRenderer::CreateBrush","command",
-"GraphingOptions","unclassified","GraphingOptions","constructor",
-"GraphingOptions","unclassified","ResetMarkKeyGraphFeaturesData","empty",
-"GraphingOptions","unclassified","GetMarkZeros","get",
-"GraphingOptions","unclassified","SetMarkZeros","set",
-"GraphingOptions","unclassified","GetMarkYIntercept","get",
-"GraphingOptions","unclassified","SetMarkYIntercept","set",
-"GraphingOptions","unclassified","GetMarkMinima","get",
-"GraphingOptions","unclassified","SetMarkMinima","set",
-"GraphingOptions","unclassified","GetMarkMaxima","get",
-"GraphingOptions","unclassified","SetMarkMaxima","set",
-"GraphingOptions","unclassified","GetMarkInflectionPoints","get",
-"GraphingOptions","unclassified","SetMarkInflectionPoints","set",
-"GraphingOptions","unclassified","GetMarkVerticalAsymptotes","get",
-"GraphingOptions","unclassified","SetMarkVerticalAsymptotes","set",
-"GraphingOptions","unclassified","GetMarkHorizontalAsymptotes","get",
-"GraphingOptions","unclassified","SetMarkHorizontalAsymptotes","set",
-"GraphingOptions","unclassified","GetMarkObliqueAsymptotes","get",
-"GraphingOptions","unclassified","SetMarkObliqueAsymptotes","set",
-"GraphingOptions","unclassified","GetMaxExecutionTime","get",
-"GraphingOptions","unclassified","SetMaxExecutionTime","set",
-"GraphingOptions","unclassified","ResetMaxExecutionTime","set",
-"GraphingOptions","unclassified","GetGraphColors","get collaborator",
-"GraphingOptions","unclassified","SetGraphColors","predicate set collaborator",
-"GraphingOptions","unclassified","ResetGraphColors","command",
-"GraphingOptions","unclassified","GetBackColor","get collaborator",
-"GraphingOptions","unclassified","SetBackColor","set collaborator",
-"GraphingOptions","unclassified","ResetBackColor","set",
-"GraphingOptions","unclassified","SetAllowKeyGraphFeaturesForFunctionsWithParameters","set",
-"GraphingOptions","unclassified","GetAllowKeyGraphFeaturesForFunctionsWithParameters","get",
-"GraphingOptions","unclassified","ResetAllowKeyGraphFeaturesForFunctionsWithParameters","set",
-"GraphingOptions","unclassified","GetZerosColor","get collaborator",
-"GraphingOptions","unclassified","SetZerosColor","set collaborator",
-"GraphingOptions","unclassified","ResetZerosColor","set",
-"GraphingOptions","unclassified","GetExtremaColor","get collaborator",
-"GraphingOptions","unclassified","SetExtremaColor","set collaborator",
-"GraphingOptions","unclassified","ResetExtremaColor","set",
-"GraphingOptions","unclassified","GetInflectionPointsColor","get collaborator",
-"GraphingOptions","unclassified","SetInflectionPointsColor","set collaborator",
-"GraphingOptions","unclassified","ResetInflectionPointsColor","set",
-"GraphingOptions","unclassified","GetAsymptotesColor","get collaborator",
-"GraphingOptions","unclassified","SetAsymptotesColor","set collaborator",
-"GraphingOptions","unclassified","ResetAsymptotesColor","set",
-"GraphingOptions","unclassified","GetAxisColor","get collaborator",
-"GraphingOptions","unclassified","SetAxisColor","set collaborator",
-"GraphingOptions","unclassified","ResetAxisColor","set",
-"GraphingOptions","unclassified","GetBoxColor","get collaborator",
-"GraphingOptions","unclassified","SetBoxColor","set collaborator",
-"GraphingOptions","unclassified","ResetBoxColor","set",
-"GraphingOptions","unclassified","GetGridColor","get collaborator",
-"GraphingOptions","unclassified","SetGridColor","set collaborator",
-"GraphingOptions","unclassified","ResetGridColor","set",
-"GraphingOptions","unclassified","GetFontColor","get collaborator",
-"GraphingOptions","unclassified","SetFontColor","set collaborator",
-"GraphingOptions","unclassified","ResetFontColor","set",
-"GraphingOptions","unclassified","GetShowAxis","get",
-"GraphingOptions","unclassified","SetShowAxis","set",
-"GraphingOptions","unclassified","ResetShowAxis","set",
-"GraphingOptions","unclassified","GetShowGrid","get",
-"GraphingOptions","unclassified","SetShowGrid","set",
-"GraphingOptions","unclassified","ResetShowGrid","set",
-"GraphingOptions","unclassified","GetShowBox","get",
-"GraphingOptions","unclassified","SetShowBox","set",
-"GraphingOptions","unclassified","ResetShowBox","set",
-"GraphingOptions","unclassified","GetForceProportional","get",
-"GraphingOptions","unclassified","SetForceProportional","set",
-"GraphingOptions","unclassified","ResetForceProportional","set",
-"GraphingOptions","unclassified","GetAliasX","get collaborator",
-"GraphingOptions","unclassified","SetAliasX","set collaborator",
-"GraphingOptions","unclassified","ResetAliasX","set",
-"GraphingOptions","unclassified","GetAliasY","get collaborator",
-"GraphingOptions","unclassified","SetAliasY","set collaborator",
-"GraphingOptions","unclassified","ResetAliasY","set",
-"GraphingOptions","unclassified","GetLineStyle","get collaborator",
-"GraphingOptions","unclassified","SetLineStyle","set collaborator",
-"GraphingOptions","unclassified","ResetLineStyle","set",
-"GraphingOptions","unclassified","GetDefaultXRange","get",
-"GraphingOptions","unclassified","SetDefaultXRange","predicate set",
-"GraphingOptions","unclassified","ResetDefaultXRange","set",
-"GraphingOptions","unclassified","GetDefaultYRange","get",
-"GraphingOptions","unclassified","SetDefaultYRange","predicate set",
-"GraphingOptions","unclassified","ResetDefaultYRange","set",
-"Rational","boundary","Rational::Rational","constructor",
-"Rational","boundary","Rational::Rational","constructor",
-"Rational","boundary","Rational::Rational","constructor",
-"Rational","boundary","Rational::Rational","constructor",
-"Rational","boundary","Rational::Rational","constructor",
-"Rational","boundary","Rational::Rational","constructor",
-"Rational","boundary","Rational::Rational","constructor",
-"Rational","boundary","Rational::ToPRAT","controller stateless",
-"Rational","boundary","Rational::P","get collaborator",
-"Rational","boundary","Rational::Q","get collaborator",
-"Rational","boundary","Rational::operator-","property",
-"Rational","boundary","Rational::operator+=","get set collaborator",
-"Rational","boundary","Rational::operator-=","get set collaborator",
-"Rational","boundary","Rational::operator*=","get set collaborator",
-"Rational","boundary","Rational::operator/=","get set collaborator",
-"Rational","boundary","Rational::operator%=","get set collaborator",
-"Rational","boundary","Rational::operator<<=","get set collaborator",
-"Rational","boundary","Rational::operator>>=","get set collaborator",
-"Rational","boundary","Rational::operator&=","get set collaborator",
-"Rational","boundary","Rational::operator|=","get set collaborator",
-"Rational","boundary","Rational::operator^=","get set collaborator",
-"Rational","boundary","Rational::ToString","controller stateless",
-"Rational","boundary","Rational::ToUInt64_t","controller stateless",
-"CHistoryCollector","commander","CHistoryCollector::ReinitHistory","command",
-"CHistoryCollector","commander","CHistoryCollector::CHistoryCollector","constructor",
-"CHistoryCollector","commander","CHistoryCollector::~CHistoryCollector","destructor",
-"CHistoryCollector","commander","CHistoryCollector::AddOpndToHistory","void-accessor command",
-"CHistoryCollector","commander","CHistoryCollector::RemoveLastOpndFromHistory","command",
-"CHistoryCollector","commander","CHistoryCollector::AddBinOpToHistory","command",
-"CHistoryCollector","commander","CHistoryCollector::ChangeLastBinOp","command",
-"CHistoryCollector","commander","CHistoryCollector::PushLastOpndStart","command",
-"CHistoryCollector","commander","CHistoryCollector::PopLastOpndStart","command",
-"CHistoryCollector","commander","CHistoryCollector::AddOpenBraceToHistory","command",
-"CHistoryCollector","commander","CHistoryCollector::AddCloseBraceToHistory","command",
-"CHistoryCollector","commander","CHistoryCollector::EnclosePrecInversionBrackets","command",
-"CHistoryCollector","commander","CHistoryCollector::FOpndAddedToHistory","predicate",
-"CHistoryCollector","commander","CHistoryCollector::AddUnaryOpToHistory","command collaborator",
-"CHistoryCollector","commander","CHistoryCollector::CompleteHistoryLine","command collaborator",
-"CHistoryCollector","commander","CHistoryCollector::CompleteEquation","command collaborator",
-"CHistoryCollector","commander","CHistoryCollector::ClearHistoryLine","command collaborator",
-"CHistoryCollector","commander","CHistoryCollector::IchAddSzToEquationSz","property non-void-command",
-"CHistoryCollector","commander","CHistoryCollector::InsertSzInEquationSz","command",
-"CHistoryCollector","commander","CHistoryCollector::TruncateEquationSzFromIch","command",
-"CHistoryCollector","commander","CHistoryCollector::SetExpressionDisplay","command",
-"CHistoryCollector","commander","CHistoryCollector::AddCommand","property non-void-command collaborator",
-"CHistoryCollector","commander","CHistoryCollector::UpdateHistoryExpression","command collaborator",
-"CHistoryCollector","commander","CHistoryCollector::SetDecimalSymbol","set",
-"CHistoryCollector","commander","CHistoryCollector::GetOperandCommandsFromString","property controller",
-"CHistoryCollector","commander","CHistoryCollector::GetOperandCommandsFromString","property controller",
-"CHistoryCollector","commander","CHistoryCollector::GetCommands","property collaborator",
-"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::SerializeCommandVisitor","constructor",
-"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::Visit","command collaborator",
-"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::Visit","command collaborator",
-"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::Visit","command collaborator",
-"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::Visit","command collaborator",
-"Number","data-provider","Number::Number","constructor",
-"Number","data-provider","Number::Number","constructor",
-"Number","data-provider","Number::Sign","get",
-"Number","data-provider","Number::Exp","get",
-"Number","data-provider","Number::Mantissa","get",
-"Number","data-provider","Number::IsZero","predicate",
-"std::equal_to<Windows::UI::Color>","boundary degenerate small-class","operator()","wrapper stateless",
-"SupplementaryContentPresenterAP","boundary degenerate small-class","GetAutomationControlTypeCore","collaborator incidental",
-"SupplementaryContentPresenterAP","boundary degenerate small-class","GetChildrenCore","collaborator incidental",
-"SupplementaryContentPresenterAP","boundary degenerate small-class","SupplementaryContentPresenterAP","constructor",
-"StandardCalculatorPage","commander","NavigateToStandardCalculator","command",
-"StandardCalculatorPage","commander","ClearAll","command",
-"StandardCalculatorPage","commander","EnsureCalculatorResultTextIsZero","command",
-"StandardCalculatorPage","commander","EnsureCalculatorIsInStandardMode","command",
-"NavCategoryGroupInitializer","empty","NavCategoryGroupInitializer","constructor",
-"NumberPad","commander boundary small-class","Input","command collaborator",
-"CalcNumSec","unclassified","CalcNumSec","constructor",
-"CalcNumSec","unclassified","IsEmpty","predicate non-void-command",
-"CalcNumSec","unclassified","IsNegative","get",
-"CalcNumSec","unclassified","IsNegative","set",
-"CalcNumSec","unclassified","CalcNumSec::Clear","set",
-"DataLoadedCallback","commander degenerate","DataLoadedCallback","constructor",
-"DataLoadedCallback","commander degenerate","CurrencyDataLoadFinished","command",
-"DataLoadedCallback","commander degenerate","CurrencySymbolsCallback","empty",
-"DataLoadedCallback","commander degenerate","CurrencyRatiosCallback","empty",
-"DataLoadedCallback","commander degenerate","CurrencyTimestampCallback","empty",
-"DataLoadedCallback","commander degenerate","NetworkBehaviorChanged","empty",
-"CalculatorManager","commander boundary","MaxHistorySize","property",
-"CalculatorManager","commander boundary","CalculatorManager::CalculatorManager","constructor",
-"CalculatorManager","commander boundary","CalculatorManager::SetPrimaryDisplay","void-accessor command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::SetIsInError","command",
-"CalculatorManager","commander boundary","CalculatorManager::DisplayPasteError","command",
-"CalculatorManager","commander boundary","CalculatorManager::MaxDigitsReached","command",
-"CalculatorManager","commander boundary","CalculatorManager::BinaryOperatorReceived","command",
-"CalculatorManager","commander boundary","CalculatorManager::MemoryItemChanged","command",
-"CalculatorManager","commander boundary","CalculatorManager::InputChanged","command",
-"CalculatorManager","commander boundary","CalculatorManager::SetExpressionDisplay","void-accessor command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::SetMemorizedNumbers","void-accessor command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::SetParenthesisNumber","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::OnNoRightParenAdded","command",
-"CalculatorManager","commander boundary","CalculatorManager::Reset","command",
-"CalculatorManager","commander boundary","CalculatorManager::SetStandardMode","command",
-"CalculatorManager","commander boundary","CalculatorManager::SetScientificMode","command",
-"CalculatorManager","commander boundary","CalculatorManager::SetProgrammerMode","command",
-"CalculatorManager","commander boundary","CalculatorManager::SendCommand","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::LoadPersistedPrimaryValue","command",
-"CalculatorManager","commander boundary","CalculatorManager::MemorizeNumber","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberLoad","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberAdd","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberClear","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberSubtract","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberClearAll","command",
-"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberSelect","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberChanged","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::GetHistoryItems","property collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::GetHistoryItems","property collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::SetHistoryItems","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::GetHistoryItem","property non-void-command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::OnHistoryItemAdded","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::RemoveHistoryItem","predicate non-void-command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::ClearHistory","command",
-"CalculatorManager","commander boundary","CalculatorManager::SetRadix","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::SetMemorizedNumbersString","command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::GetCurrentDegreeMode","get set collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::GetResultForRadix","property non-void-command collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::SetPrecision","command",
-"CalculatorManager","commander boundary","CalculatorManager::UpdateMaxIntDigits","command",
-"CalculatorManager","commander boundary","CalculatorManager::DecimalSeparator","property non-void-command",
-"CalculatorManager","commander boundary","CalculatorManager::IsEngineRecording","predicate non-void-command",
-"CalculatorManager","commander boundary","CalculatorManager::IsInputEmpty","predicate non-void-command",
-"CalculatorManager","commander boundary","CalculatorManager::SetInHistoryItemLoadMode","set collaborator",
-"CalculatorManager","commander boundary","CalculatorManager::GetDisplayCommandsSnapshot","property collaborator",
-"IHistoryDisplay","empty","~IHistoryDisplay","destructor",
-"ICurrencyHttpClient","empty","~ICurrencyHttpClient","destructor",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::CurrencyDataLoader","constructor",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::~CurrencyDataLoader","destructor",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::UnregisterForNetworkBehaviorChanges","set",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::RegisterForNetworkBehaviorChanges","command",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::OnNetworkBehaviorChanged","set collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadFinished","predicate",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadedFromCache","predicate",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadedFromWeb","predicate",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::ResetLoadStatus","set",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadData","command",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetOrderedCategories","wrapper stateless",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetOrderedUnits","get collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadOrderedRatios","property non-void-command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::SupportsCategory","wrapper stateless",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::SetViewModelCallback","set collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetCurrencySymbols","property non-void-command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::RoundCurrencyRatio","wrapper stateless",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetCurrencyRatioEquality","property non-void-command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryLoadDataFromCacheAsync","non-void-command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryFinishLoadFromCacheAsync","set collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryLoadDataFromWebAsync","non-void-command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryLoadDataFromWebOverrideAsync","non-void-command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryParseWebResponses","predicate non-void-command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryParseStaticData","controller stateless",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryParseAllRatiosData","controller stateless",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::FinalizeUnits","non-void-command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GuaranteeSelectedUnits","command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::NotifyDataLoadFinished","set",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::SaveLangCodeAndTimestamp","controller",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::UpdateDisplayedTimestamp","command",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetCurrencyTimestamp","property controller",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetDefaultFromToCurrency","non-void-command collaborator",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryGetLastUsedCurrenciesFromLocalSettings","controller stateless",
-"CurrencyDataLoader","commander boundary","CurrencyDataLoader::SaveSelectedUnitsToLocalSettings","controller stateless",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","SetSourceCurrencyCode","empty",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","SetResponseLanguage","empty",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::CurrencyHttpClient","constructor",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::SetSourceCurrencyCode","set collaborator",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::SetResponseLanguage","set collaborator",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetCurrencyMetadata","property non-void-command collaborator",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetCurrencyRatios","property non-void-command collaborator",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::CurrencyHttpClient","constructor",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetRawStaticDataResponse","wrapper stateless",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetRawAllRatiosDataResponse","wrapper stateless",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetCurrencyMetadata","wrapper stateless",
-"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetCurrencyRatios","wrapper stateless",
-"MockCurrencyHttpClientThrowsException","boundary degenerate small-class","MockCurrencyHttpClientThrowsException","constructor",
-"MockCurrencyHttpClientThrowsException","boundary degenerate small-class","GetCurrencyMetadata","collaborator stateless",
-"MockCurrencyHttpClientThrowsException","boundary degenerate small-class","GetCurrencyRatios","collaborator stateless",
-"OrderedUnit","empty","OrderedUnit","constructor",
-"OrderedUnit","empty","OrderedUnit","constructor",
-"HorizontalNoOverflowStackPanel","degenerate","HorizontalNoOverflowStackPanel","empty",
-"HorizontalNoOverflowStackPanel","degenerate","MeasureOverride","factory controller stateless",
-"HorizontalNoOverflowStackPanel","degenerate","ArrangeOverride","property non-void-command collaborator",
-"HorizontalNoOverflowStackPanel","degenerate","ShouldPrioritizeLastItem","incidental",
-"ExplicitUnitConversionData","empty","ExplicitUnitConversionData","constructor",
-"ExplicitUnitConversionData","empty","ExplicitUnitConversionData","constructor",
-"ProgrammerCalculatorPage","commander small-class","NavigateToProgrammerCalculator","command",
-"ProgrammerCalculatorPage","commander small-class","ClearAll","command",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::UnitConverterDataLoader","constructor",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetOrderedCategories","get collaborator",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetOrderedUnits","controller stateless",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::LoadOrderedRatios","property non-void-command collaborator",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::SupportsCategory","predicate non-void-command collaborator",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::LoadData","command collaborator",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetCategories","controller stateless",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetUnits","command collaborator",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetConversionData","controller stateless",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetLocalizedStringName","wrapper stateless",
-"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetExplicitConversionData","controller stateless",
-"CurrencyUnitMetadata","empty","CurrencyUnitMetadata","constructor",
-"UnitConverterVMCallback","entity boundary","UnitConverterVMCallback","constructor",
-"UnitConverterVMCallback","entity boundary","DisplayCallback","void-accessor command collaborator",
-"UnitConverterVMCallback","entity boundary","SuggestedValueCallback","void-accessor command collaborator",
-"UnitConverterVMCallback","entity boundary","MaxDigitsReached","command",
-"Activatable","empty","Activatable","constructor",
-"FormatOptions","degenerate","SetFormatType","empty",
-"FormatOptions","degenerate","SetMathMLPrefix","empty",
-"FormatOptions","degenerate","SetLocalizationType","empty",
-"CalculatorResults","unclassified","GetAoTCalculatorResultText","property non-void-command",
-"CalculatorResults","unclassified","GetCalculatorResultText","property non-void-command",
-"CalculatorResults","unclassified","GetCalculatorExpressionText","property non-void-command",
-"CalculatorResults","unclassified","IsResultsDisplayPresent","controller",
-"CalculatorResults","unclassified","IsResultsExpressionClear","controller stateless",
-"Bitmap","boundary degenerate small-class","GetData","wrapper stateless",
-"HistoryPanel","commander boundary","OpenHistoryPanel","command",
-"HistoryPanel","commander boundary","GetAllHistoryListViewItems","property non-void-command collaborator",
-"HistoryPanel","commander boundary","ClearHistory","command",
-"HistoryPanel","commander boundary","ResizeWindowToDisplayHistoryLabel","command",
-"HistoryPanel","commander boundary","ResizeWindowToDisplayHistoryButton","command",
-"HistoryPanel","commander boundary","OpenHistoryFlyout","command collaborator",
-"HistoryPanel","commander boundary","GetAllHistoryFlyoutListViewItems","property non-void-command collaborator",
-"HistoryPanel","commander boundary","GrowWindowToShowHistoryLabel","command collaborator",
-"HistoryPanel","commander boundary","ShrinkWindowToShowHistoryButton","command collaborator",
-"MemoryPanel","commander boundary","OpenMemoryPanel","command",
-"MemoryPanel","commander boundary","GetAllMemoryListViewItems","property non-void-command collaborator",
-"MemoryPanel","commander boundary","ClearMemoryPanel","command",
-"MemoryPanel","commander boundary","ResizeWindowToDisplayMemoryLabel","command",
-"MemoryPanel","commander boundary","ResizeWindowToDisplayMemoryButton","command",
-"MemoryPanel","commander boundary","OpenMemoryFlyout","command collaborator",
-"MemoryPanel","commander boundary","GetAllMemoryFlyoutListViewItems","property non-void-command collaborator",
-"MemoryPanel","commander boundary","GrowWindowToShowMemoryLabel","command collaborator",
-"MemoryPanel","commander boundary","ShrinkWindowToShowMemoryButton","command collaborator",
-"ScientificCalculatorPage","commander small-class","NavigateToScientificCalculator","command",
-"ScientificCalculatorPage","commander small-class","ClearAll","command",
-"UnitConverterPage","commander","ClearAll","command",
-"UnitConverterPage","commander","EnsureCalculatorResultTextIsZero","command",
-"UnitConverterPage","commander","NavigateToUnitConverter","command",
-"UnitConverterPage","commander","EnsureCalculatorIsCurrencyMode","command",
-"UnitConverterPage","commander","EnsureSameUnitsAreSelected","command",
-"UnitConverterPage","commander","SelectUnits1","command",
-"UnitConverterPage","commander","SelectUnits2","command",
-"WinAppDriverLocalServer","commander boundary","WinAppDriverLocalServer","constructor",
-"WinAppDriverLocalServer","commander boundary","OnProcessOutputDataReceived","command collaborator",
-"WinAppDriverLocalServer","commander boundary","OnProcessErrorDataReceived","command collaborator",
-"WinAppDriverLocalServer","commander boundary","PrependWinAppDriverToEachLine","controller stateless",
-"WinAppDriverLocalServer","commander boundary","~WinAppDriverLocalServer","destructor",
-"WinAppDriverLocalServer","commander boundary","Dispose","command",
-"CalculatorManagerDisplayTester","unclassified","CalculatorManagerDisplayTester","constructor",
-"CalculatorManagerDisplayTester","unclassified","Reset","command",
-"CalculatorManagerDisplayTester","unclassified","SetPrimaryDisplay","command",
-"CalculatorManagerDisplayTester","unclassified","SetIsInError","set",
-"CalculatorManagerDisplayTester","unclassified","SetExpressionDisplay","set collaborator",
-"CalculatorManagerDisplayTester","unclassified","SetMemorizedNumbers","set collaborator",
-"CalculatorManagerDisplayTester","unclassified","SetParenthesisNumber","set",
-"CalculatorManagerDisplayTester","unclassified","OnNoRightParenAdded","empty",
-"CalculatorManagerDisplayTester","unclassified","GetPrimaryDisplay","get collaborator",
-"CalculatorManagerDisplayTester","unclassified","GetExpression","get collaborator",
-"CalculatorManagerDisplayTester","unclassified","GetMemorizedNumbers","get collaborator",
-"CalculatorManagerDisplayTester","unclassified","GetIsError","get",
-"CalculatorManagerDisplayTester","unclassified","OnHistoryItemAdded","empty",
-"CalculatorManagerDisplayTester","unclassified","MaxDigitsReached","set",
-"CalculatorManagerDisplayTester","unclassified","InputChanged","empty",
-"CalculatorManagerDisplayTester","unclassified","GetMaxDigitsCalledCount","get",
-"CalculatorManagerDisplayTester","unclassified","BinaryOperatorReceived","set",
-"CalculatorManagerDisplayTester","unclassified","MemoryItemChanged","empty",
-"CalculatorManagerDisplayTester","unclassified","GetBinaryOperatorReceivedCallCount","get",
-"MockCurrencyHttpClientWithResult","data-provider boundary small-class","MockCurrencyHttpClientWithResult","constructor",
-"MockCurrencyHttpClientWithResult","data-provider boundary small-class","GetCurrencyMetadata","property collaborator",
-"MockCurrencyHttpClientWithResult","data-provider boundary small-class","GetCurrencyRatios","property collaborator",
-"AsyncHelper","degenerate","AsyncHelper::RunOnUIThreadAsync","controller stateless",
-"AsyncHelper","degenerate","AsyncHelper::RunOnUIThread","command collaborator",
-"AsyncHelper","degenerate","AsyncHelper::Delay","controller stateless",
-"AsyncHelper","degenerate","AsyncHelper::Sleep","wrapper stateless",
-"MockExpression","degenerate small-class","MockExpression","constructor",
-"MockExpression","degenerate small-class","GetExpressionID","incidental",
-"MockExpression","degenerate small-class","IsEmptySet","incidental",
-"UnitConverterMock","commander boundary","SetViewModelCurrencyCallback","empty",
-"UnitConverterMock","commander boundary","Calculate","empty",
-"UnitConverterMock","commander boundary","ResetCategoriesAndRatios","empty",
-"UnitConverterMock","commander boundary","RefreshCurrencyRatios","collaborator incidental",
-"UnitConverterMock","commander boundary","UnitConverterMock::UnitConverterMock","constructor",
-"UnitConverterMock","commander boundary","UnitConverterMock::Initialize","set",
-"UnitConverterMock","commander boundary","UnitConverterMock::GetCategories","property non-void-command collaborator",
-"UnitConverterMock","commander boundary","UnitConverterMock::SetCurrentCategory","property non-void-command collaborator",
-"UnitConverterMock","commander boundary","UnitConverterMock::GetCurrentCategory","get collaborator",
-"UnitConverterMock","commander boundary","UnitConverterMock::SetCurrentUnitTypes","command collaborator",
-"UnitConverterMock","commander boundary","UnitConverterMock::SwitchActive","command collaborator",
-"UnitConverterMock","commander boundary","UnitConverterMock::IsSwitchedActive","incidental",
-"UnitConverterMock","commander boundary","UnitConverterMock::SaveUserPreferences","collaborator incidental",
-"UnitConverterMock","commander boundary","UnitConverterMock::RestoreUserPreferences","empty",
-"UnitConverterMock","commander boundary","UnitConverterMock::SendCommand","command collaborator",
-"UnitConverterMock","commander boundary","UnitConverterMock::SetViewModelCallback","command collaborator",
-"IViewModelCurrencyCallback","empty","~IViewModelCurrencyCallback","destructor",
-"DeviceResources","boundary","GetOutputSize","get collaborator",
-"DeviceResources","boundary","GetLogicalSize","get collaborator",
-"DeviceResources","boundary","GetDpi","get",
-"DeviceResources","boundary","GetD3DDevice","controller stateless",
-"DeviceResources","boundary","GetD3DDeviceContext","controller stateless",
-"DeviceResources","boundary","GetSwapChain","property collaborator",
-"DeviceResources","boundary","GetDeviceFeatureLevel","get collaborator",
-"DeviceResources","boundary","GetBackBufferRenderTargetView","controller stateless",
-"DeviceResources","boundary","GetDepthStencilView","controller stateless",
-"DeviceResources","boundary","GetScreenViewport","get collaborator",
-"DeviceResources","boundary","GetOrientationTransform3D","get collaborator",
-"DeviceResources","boundary","GetD2DFactory","controller stateless",
-"DeviceResources","boundary","GetD2DDevice","controller stateless",
-"DeviceResources","boundary","GetD2DDeviceContext","controller stateless",
-"DeviceResources","boundary","GetD2DTargetBitmap","controller stateless",
-"DeviceResources","boundary","GetDWriteFactory","property collaborator",
-"DeviceResources","boundary","GetWicImagingFactory","property collaborator",
-"DeviceResources","boundary","GetOrientationTransform2D","get collaborator",
-"DeviceResources","boundary","DeviceResources::DeviceResources","constructor",
-"DeviceResources","boundary","DeviceResources::CreateDeviceIndependentResources","wrapper",
-"DeviceResources","boundary","DeviceResources::CreateDeviceResources","controller",
-"DeviceResources","boundary","DeviceResources::CreateWindowSizeDependentResources","command collaborator",
-"DeviceResources","boundary","DeviceResources::UpdateRenderTargetSize","command",
-"DeviceResources","boundary","DeviceResources::SetSwapChainPanel","command collaborator",
-"DeviceResources","boundary","DeviceResources::SetLogicalSize","set collaborator",
-"DeviceResources","boundary","DeviceResources::SetDpi","set",
-"DeviceResources","boundary","DeviceResources::SetCurrentOrientation","set collaborator",
-"DeviceResources","boundary","DeviceResources::SetCompositionScale","command",
-"DeviceResources","boundary","DeviceResources::ValidateDevice","command collaborator",
-"DeviceResources","boundary","DeviceResources::HandleDeviceLost","command",
-"DeviceResources","boundary","DeviceResources::RegisterDeviceNotify","set collaborator",
-"DeviceResources","boundary","DeviceResources::Trim","controller stateless",
-"DeviceResources","boundary","DeviceResources::Present","command collaborator",
-"EvalOptions","boundary data-class small-class","EvalOptions","constructor",
-"EvalOptions","boundary data-class small-class","GetTrigUnitMode","get collaborator",
-"EvalOptions","boundary data-class small-class","SetTrigUnitMode","set collaborator",
-"MockVariable","data-provider lazy-class small-class","MockVariable","constructor",
-"MockVariable","data-provider lazy-class small-class","GetVariableID","incidental",
-"MockVariable","data-provider lazy-class small-class","GetVariableName","get collaborator",
-"MathSolver","data-provider boundary lazy-class degenerate","MathSolver","constructor",
-"MathSolver","data-provider boundary lazy-class degenerate","ParsingOptions","get collaborator",
-"MathSolver","data-provider boundary lazy-class degenerate","EvalOptions","get collaborator",
-"MathSolver","data-provider boundary lazy-class degenerate","FormatOptions","get collaborator",
-"MathSolver","data-provider boundary lazy-class degenerate","ParseInput","controller stateless",
-"MathSolver","data-provider boundary lazy-class degenerate","HRErrorToErrorInfo","empty",
-"MathSolver","data-provider boundary lazy-class degenerate","Serialize","collaborator incidental",
-"MathSolver","data-provider boundary lazy-class degenerate","IMathSolver::Analyze","wrapper stateless",
-"MathSolver","data-provider boundary lazy-class degenerate","MockGraphingImpl::MathSolver::CreateGrapher","wrapper stateless",
-"MathSolver","data-provider boundary lazy-class degenerate","MockGraphingImpl::MathSolver::CreateGrapher","wrapper stateless",
+"IMathSolver","boundary degenerate small-class","IMathSolver::CreateMathSolver","wrapper stateless"
+"Color","small-class","Color","constructor"
+"Color","small-class","Color","constructor"
+"Color","small-class","Color","constructor"
+"Color","small-class","Color","constructor"
+"Color","small-class","operatoruint32_t","unclassified"
+"IUnitConverter","empty","~IUnitConverter","destructor"
+"CCalcEngine","boundary","FInErrorState","get"
+"CCalcEngine","boundary","IsInputEmpty","predicate non-void-command"
+"CCalcEngine","boundary","FInRecordingState","get"
+"CCalcEngine","boundary","ChangePrecision","set"
+"CCalcEngine","boundary","CCalcEngine::LoadEngineStrings","set collaborator"
+"CCalcEngine","boundary","CCalcEngine::InitialOneTimeOnlySetup","command collaborator"
+"CCalcEngine","boundary","CCalcEngine::CCalcEngine","constructor"
+"CCalcEngine","boundary","CCalcEngine::InitChopNumbers","command collaborator"
+"CCalcEngine","boundary","CCalcEngine::GetChopNumber","get collaborator"
+"CCalcEngine","boundary","CCalcEngine::GetMaxDecimalValueString","get collaborator"
+"CCalcEngine","boundary","CCalcEngine::PersistedMemObject","property wrapper"
+"CCalcEngine","boundary","CCalcEngine::PersistedMemObject","set collaborator"
+"CCalcEngine","boundary","CCalcEngine::SettingsChanged","command"
+"CCalcEngine","boundary","CCalcEngine::DecimalSeparator","get"
+"CCalcEngine","boundary","CCalcEngine::GetHistoryCollectorCommandsSnapshot","property collaborator"
+"CCalcEngine","boundary","CCalcEngine::HandleErrorCommand","set collaborator"
+"CCalcEngine","boundary","CCalcEngine::HandleMaxDigitsReached","command"
+"CCalcEngine","boundary","CCalcEngine::ClearTemporaryValues","command"
+"CCalcEngine","boundary","CCalcEngine::ClearDisplay","command"
+"CCalcEngine","boundary","CCalcEngine::ProcessCommand","set collaborator"
+"CCalcEngine","boundary","CCalcEngine::ProcessCommandWorker","command collaborator"
+"CCalcEngine","boundary","CCalcEngine::ResolveHighestPrecedenceOperation","command"
+"CCalcEngine","boundary","CCalcEngine::CheckAndAddLastBinOpToHistory","command"
+"CCalcEngine","boundary","CCalcEngine::SetPrimaryDisplay","command"
+"CCalcEngine","boundary","CCalcEngine::DisplayAnnounceBinaryOperator","command"
+"CCalcEngine","boundary","CCalcEngine::OpCodeToUnaryString","controller stateless"
+"CCalcEngine","boundary","CCalcEngine::OpCodeToBinaryString","controller stateless"
+"CCalcEngine","boundary","CCalcEngine::IsCurrentTooBigForTrig","predicate"
+"CCalcEngine","boundary","CCalcEngine::GetCurrentRadix","get"
+"CCalcEngine","boundary","CCalcEngine::GetCurrentResultForRadix","property non-void-command collaborator"
+"CCalcEngine","boundary","CCalcEngine::GetStringForDisplay","property non-void-command collaborator"
+"CCalcEngine","boundary","CCalcEngine::GenerateRandomNumber","property non-void-command collaborator"
+"CCalcEngine","boundary","CCalcEngine::TruncateNumForIntMath","property non-void-command collaborator"
+"CCalcEngine","boundary","CCalcEngine::DisplayNum","command"
+"CCalcEngine","boundary","CCalcEngine::IsNumberInvalid","property controller"
+"CCalcEngine","boundary","CCalcEngine::DigitGroupingStringToGroupingVector","controller stateless"
+"CCalcEngine","boundary","CCalcEngine::GroupDigitsPerRadix","property non-void-command collaborator"
+"CCalcEngine","boundary","CCalcEngine::GroupDigits","property controller"
+"CCalcEngine","boundary","CCalcEngine::SciCalcFunctions","property non-void-command collaborator"
+"CCalcEngine","boundary","CCalcEngine::DisplayError","command collaborator"
+"CCalcEngine","boundary","CCalcEngine::DoOperation","property non-void-command collaborator"
+"CCalcEngine","boundary","CCalcEngine::SetRadixTypeAndNumWidth","command collaborator"
+"CCalcEngine","boundary","CCalcEngine::DwWordBitWidthFromNumWidth","collaborator incidental"
+"CCalcEngine","boundary","CCalcEngine::NRadixFromRadixType","collaborator incidental"
+"CCalcEngine","boundary","CCalcEngine::TryToggleBit","predicate non-void-command collaborator"
+"CCalcEngine","boundary","CCalcEngine::QuickLog2","incidental"
+"CCalcEngine","boundary","CCalcEngine::UpdateMaxIntDigits","command"
+"CCalcEngine","boundary","CCalcEngine::ChangeBaseConstants","wrapper stateless"
+"CCalcEngine","boundary","CCalcEngine::BaseOrPrecisionChanged","command"
+"CommandDeserializer","entity boundary","CommandDeserializer::CommandDeserializer","constructor"
+"CommandDeserializer","entity boundary","CommandDeserializer::Deserialize","property non-void-command collaborator"
+"CommandDeserializer","entity boundary","CommandDeserializer::DeserializeOperand","property non-void-command collaborator"
+"CommandDeserializer","entity boundary","CommandDeserializer::DeserializeParentheses","property non-void-command collaborator"
+"CommandDeserializer","entity boundary","CommandDeserializer::DeserializeUnary","property non-void-command collaborator"
+"CommandDeserializer","entity boundary","CommandDeserializer::DeserializeBinary","property non-void-command collaborator"
+"EngineResourceProvider","entity boundary small-class","EngineResourceProvider::EngineResourceProvider","constructor"
+"EngineResourceProvider","entity boundary small-class","EngineResourceProvider::GetCEngineString","property non-void-command collaborator"
+"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory","constructor"
+"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory::Initialize","property non-void-command"
+"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory::RegisterHosts","set"
+"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory::GetHostProducer","property controller"
+"NarratorAnnouncementHostFactory","unclassified","NarratorAnnouncementHostFactory::MakeHost","property controller"
+"TestUnitConverterVMCallback","boundary","Reset","set"
+"TestUnitConverterVMCallback","boundary","DisplayCallback","command collaborator"
+"TestUnitConverterVMCallback","boundary","SuggestedValueCallback","set collaborator"
+"TestUnitConverterVMCallback","boundary","MaxDigitsReached","set"
+"TestUnitConverterVMCallback","boundary","GetMaxDigitsReachedCallCount","get"
+"TestUnitConverterVMCallback","boundary","CheckDisplayValues","predicate collaborator"
+"TestUnitConverterVMCallback","boundary","CheckSuggestedValues","predicate non-void-command collaborator"
+"CalculatorVector","entity boundary","GetAt","property non-void-command collaborator"
+"CalculatorVector","entity boundary","GetSize","property non-void-command collaborator"
+"CalculatorVector","entity boundary","SetAt","property set collaborator"
+"CalculatorVector","entity boundary","RemoveAt","property non-void-command collaborator"
+"CalculatorVector","entity boundary","InsertAt","property non-void-command collaborator"
+"CalculatorVector","entity boundary","Truncate","property non-void-command collaborator"
+"CalculatorVector","entity boundary","Append","property non-void-command collaborator"
+"CalculatorVector","entity boundary","RemoveAtEnd","property non-void-command collaborator"
+"CalculatorVector","entity boundary","Clear","property non-void-command collaborator"
+"CalculatorVector","entity boundary","GetString","property non-void-command collaborator"
+"CalculatorVector","entity boundary","GetExpressionSuffix","collaborator incidental"
+"ParsingOptions","degenerate small-class","SetFormatType","empty"
+"ParsingOptions","degenerate small-class","SetLocalizationType","empty"
+"UnitHash","boundary degenerate small-class","operator()","collaborator incidental"
+"TestUnitConverterConfigLoader","data-provider boundary","TestUnitConverterConfigLoader","constructor"
+"TestUnitConverterConfigLoader","data-provider boundary","LoadData","set"
+"TestUnitConverterConfigLoader","data-provider boundary","GetOrderedCategories","get collaborator"
+"TestUnitConverterConfigLoader","data-provider boundary","GetOrderedUnits","get collaborator"
+"TestUnitConverterConfigLoader","data-provider boundary","LoadOrderedRatios","get collaborator"
+"TestUnitConverterConfigLoader","data-provider boundary","SupportsCategory","incidental"
+"Category","data-provider small-class","Category","constructor"
+"Category","data-provider small-class","Category","constructor"
+"Category","data-provider small-class","operator!=","predicate"
+"Category","data-provider small-class","operator==","predicate"
+"IUnitConverterVMCallback","empty","~IUnitConverterVMCallback","destructor"
+"IConverterDataLoader","empty","~IConverterDataLoader","destructor"
+"UnitConverter","boundary","UnitConverter::UnitConverter","constructor"
+"UnitConverter","boundary","UnitConverter::UnitConverter","constructor"
+"UnitConverter","boundary","UnitConverter::Initialize","command"
+"UnitConverter","boundary","UnitConverter::CheckLoad","predicate non-void-command"
+"UnitConverter","boundary","UnitConverter::GetCategories","get non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::SetCurrentCategory","property non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::GetCurrentCategory","get collaborator"
+"UnitConverter","boundary","UnitConverter::SetCurrentUnitTypes","command collaborator"
+"UnitConverter","boundary","UnitConverter::SwitchActive","command collaborator"
+"UnitConverter","boundary","UnitConversionManager::UnitConverter::IsSwitchedActive","get"
+"UnitConverter","boundary","UnitConverter::CategoryToString","property non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::StringToVector","controller stateless"
+"UnitConverter","boundary","UnitConverter::UnitToString","property non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::StringToUnit","property non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::StringToCategory","property non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::RestoreUserPreferences","command collaborator"
+"UnitConverter","boundary","UnitConverter::SaveUserPreferences","property non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::Quote","controller stateless"
+"UnitConverter","boundary","UnitConverter::Unquote","controller stateless"
+"UnitConverter","boundary","UnitConverter::SendCommand","command collaborator"
+"UnitConverter","boundary","UnitConverter::SetViewModelCallback","command collaborator"
+"UnitConverter","boundary","UnitConverter::SetViewModelCurrencyCallback","set collaborator"
+"UnitConverter","boundary","UnitConverter::RefreshCurrencyRatios","property non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::GetCurrencyConverterDataLoader","property wrapper"
+"UnitConverter","boundary","UnitConverter::Convert","collaborator incidental"
+"UnitConverter","boundary","UnitConverter::CalculateSuggested","property non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::ResetCategoriesAndRatios","command collaborator"
+"UnitConverter","boundary","UnitConverter::GetDataLoaderForCategory","get non-void-command collaborator"
+"UnitConverter","boundary","UnitConverter::InitializeSelectedUnits","command collaborator"
+"UnitConverter","boundary","UnitConverter::ClearValues","command"
+"UnitConverter","boundary","UnitConverter::AnyUnitIsEmpty","predicate"
+"UnitConverter","boundary","UnitConverter::Calculate","command collaborator"
+"UnitConverter","boundary","UnitConverter::UpdateCurrencySymbols","command collaborator"
+"UnitConverter","boundary","UnitConverter::UpdateViewModel","command"
+"Unit","data-provider small-class","Unit","constructor"
+"Unit","data-provider small-class","Unit","constructor"
+"Unit","data-provider small-class","Unit","constructor"
+"Unit","data-provider small-class","operator!=","predicate"
+"Unit","data-provider small-class","operator==","predicate"
+"CBinaryCommand","unclassified","CBinaryCommand::CBinaryCommand","constructor"
+"CBinaryCommand","unclassified","CBinaryCommand::SetCommand","set"
+"CBinaryCommand","unclassified","CBinaryCommand::GetCommand","get"
+"CBinaryCommand","unclassified","CBinaryCommand::GetCommandType","collaborator incidental"
+"CBinaryCommand","unclassified","CBinaryCommand::Accept","controller"
+"Graph","data-provider boundary lazy-class degenerate","Graph","constructor"
+"Graph","data-provider boundary lazy-class degenerate","TryInitialize","property non-void-command collaborator"
+"Graph","data-provider boundary lazy-class degenerate","GetInitializationError","collaborator incidental"
+"Graph","data-provider boundary lazy-class degenerate","GetOptions","get collaborator"
+"Graph","data-provider boundary lazy-class degenerate","GetVariables","get collaborator"
+"Graph","data-provider boundary lazy-class degenerate","SetArgValue","empty"
+"Graph","data-provider boundary lazy-class degenerate","GetRenderer","get collaborator"
+"Graph","data-provider boundary lazy-class degenerate","TryResetSelection","incidental"
+"Graph","data-provider boundary lazy-class degenerate","GetAnalyzer","collaborator incidental"
+"Graph","data-provider boundary lazy-class degenerate","RenderMain::Graph::set","controller stateless"
+"COpndCommand","boundary","COpndCommand::COpndCommand","constructor"
+"COpndCommand","boundary","COpndCommand::Initialize","command collaborator"
+"COpndCommand","boundary","COpndCommand::GetCommands","get collaborator"
+"COpndCommand","boundary","COpndCommand::SetCommands","set collaborator"
+"COpndCommand","boundary","COpndCommand::AppendCommand","command"
+"COpndCommand","boundary","COpndCommand::ToggleSign","set"
+"COpndCommand","boundary","COpndCommand::RemoveFromEnd","command"
+"COpndCommand","boundary","COpndCommand::IsNegative","get"
+"COpndCommand","boundary","COpndCommand::IsSciFmt","get"
+"COpndCommand","boundary","COpndCommand::IsDecimalPresent","get"
+"COpndCommand","boundary","COpndCommand::GetCommandType","collaborator incidental"
+"COpndCommand","boundary","COpndCommand::ClearAllAndAppendCommand","command collaborator"
+"COpndCommand","boundary","COpndCommand::GetToken","get non-void-command collaborator"
+"COpndCommand","boundary","COpndCommand::GetString","property non-void-command collaborator"
+"COpndCommand","boundary","COpndCommand::Accept","controller"
+"UnitConverterResults","unclassified","GetCalculationResult1Text","property non-void-command"
+"UnitConverterResults","unclassified","IsResultsDisplayPresent","controller"
+"UnitConverterResults","unclassified","GetCalculationResult2Text","property non-void-command"
+"CalculatorHistory","boundary","MaxHistorySize","get"
+"CalculatorHistory","boundary","CalculatorHistory::CalculatorHistory","constructor"
+"CalculatorHistory","boundary","CalculatorHistory::AddToHistory","property non-void-command collaborator"
+"CalculatorHistory","boundary","CalculatorHistory::AddItem","property non-void-command collaborator"
+"CalculatorHistory","boundary","CalculatorHistory::RemoveItem","predicate non-void-command"
+"CalculatorHistory","boundary","CalculatorHistory::GetHistory","get collaborator"
+"CalculatorHistory","boundary","CalculatorHistory::GetHistoryItem","property non-void-command collaborator"
+"CalculatorHistory","boundary","CalculatorHistory::ClearHistory","command"
+"ViewModelCurrencyCallback","commander boundary","ViewModelCurrencyCallback","constructor"
+"ViewModelCurrencyCallback","commander boundary","CurrencyDataLoadFinished","command"
+"ViewModelCurrencyCallback","commander boundary","CurrencySymbolsCallback","command collaborator"
+"ViewModelCurrencyCallback","commander boundary","CurrencyRatiosCallback","command collaborator"
+"ViewModelCurrencyCallback","commander boundary","CurrencyTimestampCallback","command"
+"ViewModelCurrencyCallback","commander boundary","NetworkBehaviorChanged","command collaborator"
+"ProgrammerOperatorsPanel","commander","SetArithmeticShift","command"
+"ProgrammerOperatorsPanel","commander","SetLogicalShift","command"
+"ProgrammerOperatorsPanel","commander","SetRotateCircularShift","command"
+"ProgrammerOperatorsPanel","commander","SetRotateThroughCarryCircularShift","command"
+"ProgrammerOperatorsPanel","commander","ResetWordSize","command"
+"ProgrammerOperatorsPanel","commander","ResetNumberSystem","command"
+"sealed","boundary degenerate small-class","get","collaborator incidental"
+"CalcInput","unclassified","CalcInput","constructor"
+"CalcInput","unclassified","CalcInput","constructor"
+"CalcInput","unclassified","CalcInput::Clear","command"
+"CalcInput","unclassified","CalcInput::TryToggleSign","predicate non-void-command collaborator"
+"CalcInput","unclassified","CalcInput::TryAddDigit","predicate non-void-command collaborator"
+"CalcInput","unclassified","CalcInput::TryAddDecimalPt","predicate non-void-command"
+"CalcInput","unclassified","CalcInput::HasDecimalPt","get"
+"CalcInput","unclassified","CalcInput::TryBeginExponent","predicate set"
+"CalcInput","unclassified","CalcInput::Backspace","command"
+"CalcInput","unclassified","CalcInput::SetDecimalSymbol","command"
+"CalcInput","unclassified","CalcInput::IsEmpty","predicate non-void-command"
+"CalcInput","unclassified","CalcInput::ToString","property non-void-command collaborator"
+"CalcInput","unclassified","CalcInput::ToRational","property non-void-command collaborator"
+"GraphRenderer","entity boundary degenerate","GraphRenderer","constructor"
+"GraphRenderer","entity boundary degenerate","SetGraphSize","collaborator incidental"
+"GraphRenderer","entity boundary degenerate","SetDpi","collaborator incidental"
+"GraphRenderer","entity boundary degenerate","DrawD2D1","collaborator incidental"
+"GraphRenderer","entity boundary degenerate","GetClosePointData","collaborator incidental"
+"GraphRenderer","entity boundary degenerate","ScaleRange","property non-void-command collaborator"
+"GraphRenderer","entity boundary degenerate","ChangeRange","collaborator incidental"
+"GraphRenderer","entity boundary degenerate","MoveRangeByRatio","collaborator incidental"
+"GraphRenderer","entity boundary degenerate","ResetRange","collaborator incidental"
+"GraphRenderer","entity boundary degenerate","GetDisplayRanges","property collaborator"
+"GraphRenderer","entity boundary degenerate","SetDisplayRanges","property non-void-command collaborator"
+"GraphRenderer","entity boundary degenerate","PrepareGraph","collaborator incidental"
+"GraphRenderer","entity boundary degenerate","GetBitmap","wrapper stateless"
+"CUnaryCommand","boundary","CUnaryCommand::CUnaryCommand","constructor"
+"CUnaryCommand","boundary","CUnaryCommand::CUnaryCommand","constructor"
+"CUnaryCommand","boundary","CUnaryCommand::GetCommands","get collaborator"
+"CUnaryCommand","boundary","CUnaryCommand::GetCommandType","collaborator incidental"
+"CUnaryCommand","boundary","CUnaryCommand::SetCommand","command"
+"CUnaryCommand","boundary","CUnaryCommand::SetCommands","command"
+"CUnaryCommand","boundary","CUnaryCommand::Accept","controller"
+"ButtonLog","empty","ButtonLog","constructor"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::CalculatorDisplay","constructor"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::SetCallback","set collaborator"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::SetHistoryCallback","set collaborator"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::SetPrimaryDisplay","command collaborator"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::SetParenthesisNumber","command collaborator"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::OnNoRightParenAdded","command"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::SetIsInError","command"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::SetExpressionDisplay","command collaborator"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::SetMemorizedNumbers","command collaborator"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::OnHistoryItemAdded","command collaborator"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::MaxDigitsReached","command"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::BinaryOperatorReceived","command"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::MemoryItemChanged","command"
+"CalculatorDisplay","commander boundary","CalculatorDisplay::InputChanged","command"
+"StandardAoTCalculatorPage","unclassified","NavigateToStandardMode","command"
+"StandardAoTCalculatorPage","unclassified","NavigateToStandardAoTMode","command"
+"StandardAoTCalculatorPage","unclassified","GetAoTToolTipText","property controller"
+"StandardAoTCalculatorPage","unclassified","IsKeepOnTopButtonPresent","predicate controller"
+"StandardAoTCalculatorPage","unclassified","IsInAlwaysOnTopMode","predicate controller"
+"StandardAoTCalculatorPage","unclassified","ResizeAoTWindowToDisplayInvertButton","command"
+"StandardAoTCalculatorPage","unclassified","GrowWindowToShowInvertButton","command collaborator"
+"IResourceProvider","empty","~IResourceProvider","destructor"
+"CParentheses","unclassified","CParentheses::CParentheses","constructor"
+"CParentheses","unclassified","CParentheses::GetCommand","get"
+"CParentheses","unclassified","CParentheses::GetCommandType","collaborator incidental"
+"CParentheses","unclassified","CParentheses::Accept","controller"
+"KeyboardShortcutManager","empty","KeyboardShortcutManager","constructor"
+"ConversionData","empty","ConversionData","constructor"
+"ConversionData","empty","ConversionData","constructor"
+"NearestPointRenderer","commander","NearestPointRenderer::NearestPointRenderer","constructor"
+"NearestPointRenderer","commander","NearestPointRenderer::CreateDeviceDependentResources","command"
+"NearestPointRenderer","commander","NearestPointRenderer::ReleaseDeviceDependentResources","command"
+"NearestPointRenderer","commander","NearestPointRenderer::Render","command collaborator"
+"NearestPointRenderer","commander","NearestPointRenderer::SetRadius","command"
+"NearestPointRenderer","commander","NearestPointRenderer::SetColor","set collaborator"
+"NearestPointRenderer","commander","NearestPointRenderer::CreateBrush","command"
+"GraphingOptions","unclassified","GraphingOptions","constructor"
+"GraphingOptions","unclassified","ResetMarkKeyGraphFeaturesData","empty"
+"GraphingOptions","unclassified","GetMarkZeros","get"
+"GraphingOptions","unclassified","SetMarkZeros","set"
+"GraphingOptions","unclassified","GetMarkYIntercept","get"
+"GraphingOptions","unclassified","SetMarkYIntercept","set"
+"GraphingOptions","unclassified","GetMarkMinima","get"
+"GraphingOptions","unclassified","SetMarkMinima","set"
+"GraphingOptions","unclassified","GetMarkMaxima","get"
+"GraphingOptions","unclassified","SetMarkMaxima","set"
+"GraphingOptions","unclassified","GetMarkInflectionPoints","get"
+"GraphingOptions","unclassified","SetMarkInflectionPoints","set"
+"GraphingOptions","unclassified","GetMarkVerticalAsymptotes","get"
+"GraphingOptions","unclassified","SetMarkVerticalAsymptotes","set"
+"GraphingOptions","unclassified","GetMarkHorizontalAsymptotes","get"
+"GraphingOptions","unclassified","SetMarkHorizontalAsymptotes","set"
+"GraphingOptions","unclassified","GetMarkObliqueAsymptotes","get"
+"GraphingOptions","unclassified","SetMarkObliqueAsymptotes","set"
+"GraphingOptions","unclassified","GetMaxExecutionTime","get"
+"GraphingOptions","unclassified","SetMaxExecutionTime","set"
+"GraphingOptions","unclassified","ResetMaxExecutionTime","set"
+"GraphingOptions","unclassified","GetGraphColors","get collaborator"
+"GraphingOptions","unclassified","SetGraphColors","predicate set collaborator"
+"GraphingOptions","unclassified","ResetGraphColors","command"
+"GraphingOptions","unclassified","GetBackColor","get collaborator"
+"GraphingOptions","unclassified","SetBackColor","set collaborator"
+"GraphingOptions","unclassified","ResetBackColor","set"
+"GraphingOptions","unclassified","SetAllowKeyGraphFeaturesForFunctionsWithParameters","set"
+"GraphingOptions","unclassified","GetAllowKeyGraphFeaturesForFunctionsWithParameters","get"
+"GraphingOptions","unclassified","ResetAllowKeyGraphFeaturesForFunctionsWithParameters","set"
+"GraphingOptions","unclassified","GetZerosColor","get collaborator"
+"GraphingOptions","unclassified","SetZerosColor","set collaborator"
+"GraphingOptions","unclassified","ResetZerosColor","set"
+"GraphingOptions","unclassified","GetExtremaColor","get collaborator"
+"GraphingOptions","unclassified","SetExtremaColor","set collaborator"
+"GraphingOptions","unclassified","ResetExtremaColor","set"
+"GraphingOptions","unclassified","GetInflectionPointsColor","get collaborator"
+"GraphingOptions","unclassified","SetInflectionPointsColor","set collaborator"
+"GraphingOptions","unclassified","ResetInflectionPointsColor","set"
+"GraphingOptions","unclassified","GetAsymptotesColor","get collaborator"
+"GraphingOptions","unclassified","SetAsymptotesColor","set collaborator"
+"GraphingOptions","unclassified","ResetAsymptotesColor","set"
+"GraphingOptions","unclassified","GetAxisColor","get collaborator"
+"GraphingOptions","unclassified","SetAxisColor","set collaborator"
+"GraphingOptions","unclassified","ResetAxisColor","set"
+"GraphingOptions","unclassified","GetBoxColor","get collaborator"
+"GraphingOptions","unclassified","SetBoxColor","set collaborator"
+"GraphingOptions","unclassified","ResetBoxColor","set"
+"GraphingOptions","unclassified","GetGridColor","get collaborator"
+"GraphingOptions","unclassified","SetGridColor","set collaborator"
+"GraphingOptions","unclassified","ResetGridColor","set"
+"GraphingOptions","unclassified","GetFontColor","get collaborator"
+"GraphingOptions","unclassified","SetFontColor","set collaborator"
+"GraphingOptions","unclassified","ResetFontColor","set"
+"GraphingOptions","unclassified","GetShowAxis","get"
+"GraphingOptions","unclassified","SetShowAxis","set"
+"GraphingOptions","unclassified","ResetShowAxis","set"
+"GraphingOptions","unclassified","GetShowGrid","get"
+"GraphingOptions","unclassified","SetShowGrid","set"
+"GraphingOptions","unclassified","ResetShowGrid","set"
+"GraphingOptions","unclassified","GetShowBox","get"
+"GraphingOptions","unclassified","SetShowBox","set"
+"GraphingOptions","unclassified","ResetShowBox","set"
+"GraphingOptions","unclassified","GetForceProportional","get"
+"GraphingOptions","unclassified","SetForceProportional","set"
+"GraphingOptions","unclassified","ResetForceProportional","set"
+"GraphingOptions","unclassified","GetAliasX","get collaborator"
+"GraphingOptions","unclassified","SetAliasX","set collaborator"
+"GraphingOptions","unclassified","ResetAliasX","set"
+"GraphingOptions","unclassified","GetAliasY","get collaborator"
+"GraphingOptions","unclassified","SetAliasY","set collaborator"
+"GraphingOptions","unclassified","ResetAliasY","set"
+"GraphingOptions","unclassified","GetLineStyle","get collaborator"
+"GraphingOptions","unclassified","SetLineStyle","set collaborator"
+"GraphingOptions","unclassified","ResetLineStyle","set"
+"GraphingOptions","unclassified","GetDefaultXRange","get"
+"GraphingOptions","unclassified","SetDefaultXRange","predicate set"
+"GraphingOptions","unclassified","ResetDefaultXRange","set"
+"GraphingOptions","unclassified","GetDefaultYRange","get"
+"GraphingOptions","unclassified","SetDefaultYRange","predicate set"
+"GraphingOptions","unclassified","ResetDefaultYRange","set"
+"Rational","boundary","Rational::Rational","constructor"
+"Rational","boundary","Rational::Rational","constructor"
+"Rational","boundary","Rational::Rational","constructor"
+"Rational","boundary","Rational::Rational","constructor"
+"Rational","boundary","Rational::Rational","constructor"
+"Rational","boundary","Rational::Rational","constructor"
+"Rational","boundary","Rational::Rational","constructor"
+"Rational","boundary","Rational::ToPRAT","controller stateless"
+"Rational","boundary","Rational::P","get collaborator"
+"Rational","boundary","Rational::Q","get collaborator"
+"Rational","boundary","Rational::operator-","property"
+"Rational","boundary","Rational::operator+=","get set collaborator"
+"Rational","boundary","Rational::operator-=","get set collaborator"
+"Rational","boundary","Rational::operator*=","get set collaborator"
+"Rational","boundary","Rational::operator/=","get set collaborator"
+"Rational","boundary","Rational::operator%=","get set collaborator"
+"Rational","boundary","Rational::operator<<=","get set collaborator"
+"Rational","boundary","Rational::operator>>=","get set collaborator"
+"Rational","boundary","Rational::operator&=","get set collaborator"
+"Rational","boundary","Rational::operator|=","get set collaborator"
+"Rational","boundary","Rational::operator^=","get set collaborator"
+"Rational","boundary","Rational::ToString","controller stateless"
+"Rational","boundary","Rational::ToUInt64_t","controller stateless"
+"CHistoryCollector","commander","CHistoryCollector::ReinitHistory","command"
+"CHistoryCollector","commander","CHistoryCollector::CHistoryCollector","constructor"
+"CHistoryCollector","commander","CHistoryCollector::~CHistoryCollector","destructor"
+"CHistoryCollector","commander","CHistoryCollector::AddOpndToHistory","command"
+"CHistoryCollector","commander","CHistoryCollector::RemoveLastOpndFromHistory","command"
+"CHistoryCollector","commander","CHistoryCollector::AddBinOpToHistory","command"
+"CHistoryCollector","commander","CHistoryCollector::ChangeLastBinOp","command"
+"CHistoryCollector","commander","CHistoryCollector::PushLastOpndStart","command"
+"CHistoryCollector","commander","CHistoryCollector::PopLastOpndStart","command"
+"CHistoryCollector","commander","CHistoryCollector::AddOpenBraceToHistory","command"
+"CHistoryCollector","commander","CHistoryCollector::AddCloseBraceToHistory","command"
+"CHistoryCollector","commander","CHistoryCollector::EnclosePrecInversionBrackets","command"
+"CHistoryCollector","commander","CHistoryCollector::FOpndAddedToHistory","predicate"
+"CHistoryCollector","commander","CHistoryCollector::AddUnaryOpToHistory","command collaborator"
+"CHistoryCollector","commander","CHistoryCollector::CompleteHistoryLine","command collaborator"
+"CHistoryCollector","commander","CHistoryCollector::CompleteEquation","command collaborator"
+"CHistoryCollector","commander","CHistoryCollector::ClearHistoryLine","command collaborator"
+"CHistoryCollector","commander","CHistoryCollector::IchAddSzToEquationSz","property non-void-command"
+"CHistoryCollector","commander","CHistoryCollector::InsertSzInEquationSz","command"
+"CHistoryCollector","commander","CHistoryCollector::TruncateEquationSzFromIch","command"
+"CHistoryCollector","commander","CHistoryCollector::SetExpressionDisplay","command"
+"CHistoryCollector","commander","CHistoryCollector::AddCommand","property non-void-command collaborator"
+"CHistoryCollector","commander","CHistoryCollector::UpdateHistoryExpression","command collaborator"
+"CHistoryCollector","commander","CHistoryCollector::SetDecimalSymbol","set"
+"CHistoryCollector","commander","CHistoryCollector::GetOperandCommandsFromString","property controller"
+"CHistoryCollector","commander","CHistoryCollector::GetOperandCommandsFromString","property controller"
+"CHistoryCollector","commander","CHistoryCollector::GetCommands","property collaborator"
+"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::SerializeCommandVisitor","constructor"
+"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::Visit","command collaborator"
+"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::Visit","command collaborator"
+"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::Visit","command collaborator"
+"SerializeCommandVisitor","commander boundary","SerializeCommandVisitor::Visit","command collaborator"
+"Number","data-provider","Number::Number","constructor"
+"Number","data-provider","Number::Number","constructor"
+"Number","data-provider","Number::Sign","get"
+"Number","data-provider","Number::Exp","get"
+"Number","data-provider","Number::Mantissa","get"
+"Number","data-provider","Number::IsZero","predicate"
+"std::equal_to<Windows::UI::Color>","boundary degenerate small-class","operator()","wrapper stateless"
+"SupplementaryContentPresenterAP","boundary degenerate small-class","GetAutomationControlTypeCore","collaborator incidental"
+"SupplementaryContentPresenterAP","boundary degenerate small-class","GetChildrenCore","collaborator incidental"
+"SupplementaryContentPresenterAP","boundary degenerate small-class","SupplementaryContentPresenterAP","constructor"
+"StandardCalculatorPage","commander","NavigateToStandardCalculator","command"
+"StandardCalculatorPage","commander","ClearAll","command"
+"StandardCalculatorPage","commander","EnsureCalculatorResultTextIsZero","command"
+"StandardCalculatorPage","commander","EnsureCalculatorIsInStandardMode","command"
+"NavCategoryGroupInitializer","empty","NavCategoryGroupInitializer","constructor"
+"NumberPad","commander boundary small-class","Input","command collaborator"
+"CalcNumSec","unclassified","CalcNumSec","constructor"
+"CalcNumSec","unclassified","IsEmpty","predicate non-void-command"
+"CalcNumSec","unclassified","IsNegative","get"
+"CalcNumSec","unclassified","IsNegative","set"
+"CalcNumSec","unclassified","CalcNumSec::Clear","set"
+"DataLoadedCallback","commander degenerate","DataLoadedCallback","constructor"
+"DataLoadedCallback","commander degenerate","CurrencyDataLoadFinished","command"
+"DataLoadedCallback","commander degenerate","CurrencySymbolsCallback","empty"
+"DataLoadedCallback","commander degenerate","CurrencyRatiosCallback","empty"
+"DataLoadedCallback","commander degenerate","CurrencyTimestampCallback","empty"
+"DataLoadedCallback","commander degenerate","NetworkBehaviorChanged","empty"
+"CalculatorManager","commander boundary","MaxHistorySize","property"
+"CalculatorManager","commander boundary","CalculatorManager::CalculatorManager","constructor"
+"CalculatorManager","commander boundary","CalculatorManager::SetPrimaryDisplay","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::SetIsInError","command"
+"CalculatorManager","commander boundary","CalculatorManager::DisplayPasteError","command"
+"CalculatorManager","commander boundary","CalculatorManager::MaxDigitsReached","command"
+"CalculatorManager","commander boundary","CalculatorManager::BinaryOperatorReceived","command"
+"CalculatorManager","commander boundary","CalculatorManager::MemoryItemChanged","command"
+"CalculatorManager","commander boundary","CalculatorManager::InputChanged","command"
+"CalculatorManager","commander boundary","CalculatorManager::SetExpressionDisplay","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::SetMemorizedNumbers","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::SetParenthesisNumber","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::OnNoRightParenAdded","command"
+"CalculatorManager","commander boundary","CalculatorManager::Reset","command"
+"CalculatorManager","commander boundary","CalculatorManager::SetStandardMode","command"
+"CalculatorManager","commander boundary","CalculatorManager::SetScientificMode","command"
+"CalculatorManager","commander boundary","CalculatorManager::SetProgrammerMode","command"
+"CalculatorManager","commander boundary","CalculatorManager::SendCommand","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::LoadPersistedPrimaryValue","command"
+"CalculatorManager","commander boundary","CalculatorManager::MemorizeNumber","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberLoad","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberAdd","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberClear","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberSubtract","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberClearAll","command"
+"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberSelect","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::MemorizedNumberChanged","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::GetHistoryItems","property collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::GetHistoryItems","property collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::SetHistoryItems","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::GetHistoryItem","property non-void-command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::OnHistoryItemAdded","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::RemoveHistoryItem","predicate non-void-command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::ClearHistory","command"
+"CalculatorManager","commander boundary","CalculatorManager::SetRadix","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::SetMemorizedNumbersString","command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::GetCurrentDegreeMode","get set collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::GetResultForRadix","property non-void-command collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::SetPrecision","command"
+"CalculatorManager","commander boundary","CalculatorManager::UpdateMaxIntDigits","command"
+"CalculatorManager","commander boundary","CalculatorManager::DecimalSeparator","property non-void-command"
+"CalculatorManager","commander boundary","CalculatorManager::IsEngineRecording","predicate non-void-command"
+"CalculatorManager","commander boundary","CalculatorManager::IsInputEmpty","predicate non-void-command"
+"CalculatorManager","commander boundary","CalculatorManager::SetInHistoryItemLoadMode","set collaborator"
+"CalculatorManager","commander boundary","CalculatorManager::GetDisplayCommandsSnapshot","property collaborator"
+"IHistoryDisplay","empty","~IHistoryDisplay","destructor"
+"ICurrencyHttpClient","empty","~ICurrencyHttpClient","destructor"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::CurrencyDataLoader","constructor"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::~CurrencyDataLoader","destructor"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::UnregisterForNetworkBehaviorChanges","set"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::RegisterForNetworkBehaviorChanges","command"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::OnNetworkBehaviorChanged","set collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadFinished","predicate"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadedFromCache","predicate"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadedFromWeb","predicate"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::ResetLoadStatus","set"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadData","command"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetOrderedCategories","wrapper stateless"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetOrderedUnits","get collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::LoadOrderedRatios","property non-void-command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::SupportsCategory","wrapper stateless"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::SetViewModelCallback","set collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetCurrencySymbols","property non-void-command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::RoundCurrencyRatio","wrapper stateless"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetCurrencyRatioEquality","property non-void-command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryLoadDataFromCacheAsync","non-void-command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryFinishLoadFromCacheAsync","set collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryLoadDataFromWebAsync","non-void-command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryLoadDataFromWebOverrideAsync","non-void-command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryParseWebResponses","predicate non-void-command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryParseStaticData","controller stateless"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryParseAllRatiosData","controller stateless"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::FinalizeUnits","non-void-command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GuaranteeSelectedUnits","command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::NotifyDataLoadFinished","set"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::SaveLangCodeAndTimestamp","controller"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::UpdateDisplayedTimestamp","command"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetCurrencyTimestamp","property controller"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::GetDefaultFromToCurrency","non-void-command collaborator"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::TryGetLastUsedCurrenciesFromLocalSettings","controller stateless"
+"CurrencyDataLoader","commander boundary","CurrencyDataLoader::SaveSelectedUnitsToLocalSettings","controller stateless"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","SetSourceCurrencyCode","empty"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","SetResponseLanguage","empty"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::CurrencyHttpClient","constructor"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::SetSourceCurrencyCode","set collaborator"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::SetResponseLanguage","set collaborator"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetCurrencyMetadata","property non-void-command collaborator"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetCurrencyRatios","property non-void-command collaborator"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::CurrencyHttpClient","constructor"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetRawStaticDataResponse","wrapper stateless"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetRawAllRatiosDataResponse","wrapper stateless"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetCurrencyMetadata","wrapper stateless"
+"CurrencyHttpClient","entity boundary lazy-class degenerate","CurrencyHttpClient::GetCurrencyRatios","wrapper stateless"
+"MockCurrencyHttpClientThrowsException","boundary degenerate small-class","MockCurrencyHttpClientThrowsException","constructor"
+"MockCurrencyHttpClientThrowsException","boundary degenerate small-class","GetCurrencyMetadata","collaborator stateless"
+"MockCurrencyHttpClientThrowsException","boundary degenerate small-class","GetCurrencyRatios","collaborator stateless"
+"OrderedUnit","empty","OrderedUnit","constructor"
+"OrderedUnit","empty","OrderedUnit","constructor"
+"HorizontalNoOverflowStackPanel","degenerate","HorizontalNoOverflowStackPanel","empty"
+"HorizontalNoOverflowStackPanel","degenerate","MeasureOverride","factory controller stateless"
+"HorizontalNoOverflowStackPanel","degenerate","ArrangeOverride","property non-void-command collaborator"
+"HorizontalNoOverflowStackPanel","degenerate","ShouldPrioritizeLastItem","incidental"
+"ExplicitUnitConversionData","empty","ExplicitUnitConversionData","constructor"
+"ExplicitUnitConversionData","empty","ExplicitUnitConversionData","constructor"
+"ProgrammerCalculatorPage","commander small-class","NavigateToProgrammerCalculator","command"
+"ProgrammerCalculatorPage","commander small-class","ClearAll","command"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::UnitConverterDataLoader","constructor"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetOrderedCategories","get collaborator"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetOrderedUnits","controller stateless"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::LoadOrderedRatios","property non-void-command collaborator"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::SupportsCategory","predicate non-void-command collaborator"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::LoadData","command collaborator"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetCategories","controller stateless"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetUnits","command collaborator"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetConversionData","controller stateless"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetLocalizedStringName","wrapper stateless"
+"UnitConverterDataLoader","unclassified","UnitConverterDataLoader::GetExplicitConversionData","controller stateless"
+"CurrencyUnitMetadata","empty","CurrencyUnitMetadata","constructor"
+"UnitConverterVMCallback","commander boundary","UnitConverterVMCallback","constructor"
+"UnitConverterVMCallback","commander boundary","DisplayCallback","command collaborator"
+"UnitConverterVMCallback","commander boundary","SuggestedValueCallback","command collaborator"
+"UnitConverterVMCallback","commander boundary","MaxDigitsReached","command"
+"Activatable","empty","Activatable","constructor"
+"FormatOptions","degenerate","SetFormatType","empty"
+"FormatOptions","degenerate","SetMathMLPrefix","empty"
+"FormatOptions","degenerate","SetLocalizationType","empty"
+"CalculatorResults","unclassified","GetAoTCalculatorResultText","property non-void-command"
+"CalculatorResults","unclassified","GetCalculatorResultText","property non-void-command"
+"CalculatorResults","unclassified","GetCalculatorExpressionText","property non-void-command"
+"CalculatorResults","unclassified","IsResultsDisplayPresent","controller"
+"CalculatorResults","unclassified","IsResultsExpressionClear","controller stateless"
+"Bitmap","boundary degenerate small-class","GetData","wrapper stateless"
+"HistoryPanel","commander boundary","OpenHistoryPanel","command"
+"HistoryPanel","commander boundary","GetAllHistoryListViewItems","property non-void-command collaborator"
+"HistoryPanel","commander boundary","ClearHistory","command"
+"HistoryPanel","commander boundary","ResizeWindowToDisplayHistoryLabel","command"
+"HistoryPanel","commander boundary","ResizeWindowToDisplayHistoryButton","command"
+"HistoryPanel","commander boundary","OpenHistoryFlyout","command collaborator"
+"HistoryPanel","commander boundary","GetAllHistoryFlyoutListViewItems","property non-void-command collaborator"
+"HistoryPanel","commander boundary","GrowWindowToShowHistoryLabel","command collaborator"
+"HistoryPanel","commander boundary","ShrinkWindowToShowHistoryButton","command collaborator"
+"MemoryPanel","commander boundary","OpenMemoryPanel","command"
+"MemoryPanel","commander boundary","GetAllMemoryListViewItems","property non-void-command collaborator"
+"MemoryPanel","commander boundary","ClearMemoryPanel","command"
+"MemoryPanel","commander boundary","ResizeWindowToDisplayMemoryLabel","command"
+"MemoryPanel","commander boundary","ResizeWindowToDisplayMemoryButton","command"
+"MemoryPanel","commander boundary","OpenMemoryFlyout","command collaborator"
+"MemoryPanel","commander boundary","GetAllMemoryFlyoutListViewItems","property non-void-command collaborator"
+"MemoryPanel","commander boundary","GrowWindowToShowMemoryLabel","command collaborator"
+"MemoryPanel","commander boundary","ShrinkWindowToShowMemoryButton","command collaborator"
+"ScientificCalculatorPage","commander small-class","NavigateToScientificCalculator","command"
+"ScientificCalculatorPage","commander small-class","ClearAll","command"
+"UnitConverterPage","commander","ClearAll","command"
+"UnitConverterPage","commander","EnsureCalculatorResultTextIsZero","command"
+"UnitConverterPage","commander","NavigateToUnitConverter","command"
+"UnitConverterPage","commander","EnsureCalculatorIsCurrencyMode","command"
+"UnitConverterPage","commander","EnsureSameUnitsAreSelected","command"
+"UnitConverterPage","commander","SelectUnits1","command"
+"UnitConverterPage","commander","SelectUnits2","command"
+"WinAppDriverLocalServer","commander boundary","WinAppDriverLocalServer","constructor"
+"WinAppDriverLocalServer","commander boundary","OnProcessOutputDataReceived","command collaborator"
+"WinAppDriverLocalServer","commander boundary","OnProcessErrorDataReceived","command collaborator"
+"WinAppDriverLocalServer","commander boundary","PrependWinAppDriverToEachLine","controller stateless"
+"WinAppDriverLocalServer","commander boundary","~WinAppDriverLocalServer","destructor"
+"WinAppDriverLocalServer","commander boundary","Dispose","command"
+"CalculatorManagerDisplayTester","unclassified","CalculatorManagerDisplayTester","constructor"
+"CalculatorManagerDisplayTester","unclassified","Reset","command"
+"CalculatorManagerDisplayTester","unclassified","SetPrimaryDisplay","command"
+"CalculatorManagerDisplayTester","unclassified","SetIsInError","set"
+"CalculatorManagerDisplayTester","unclassified","SetExpressionDisplay","set collaborator"
+"CalculatorManagerDisplayTester","unclassified","SetMemorizedNumbers","set collaborator"
+"CalculatorManagerDisplayTester","unclassified","SetParenthesisNumber","set"
+"CalculatorManagerDisplayTester","unclassified","OnNoRightParenAdded","empty"
+"CalculatorManagerDisplayTester","unclassified","GetPrimaryDisplay","get collaborator"
+"CalculatorManagerDisplayTester","unclassified","GetExpression","get collaborator"
+"CalculatorManagerDisplayTester","unclassified","GetMemorizedNumbers","get collaborator"
+"CalculatorManagerDisplayTester","unclassified","GetIsError","get"
+"CalculatorManagerDisplayTester","unclassified","OnHistoryItemAdded","empty"
+"CalculatorManagerDisplayTester","unclassified","MaxDigitsReached","set"
+"CalculatorManagerDisplayTester","unclassified","InputChanged","empty"
+"CalculatorManagerDisplayTester","unclassified","GetMaxDigitsCalledCount","get"
+"CalculatorManagerDisplayTester","unclassified","BinaryOperatorReceived","set"
+"CalculatorManagerDisplayTester","unclassified","MemoryItemChanged","empty"
+"CalculatorManagerDisplayTester","unclassified","GetBinaryOperatorReceivedCallCount","get"
+"MockCurrencyHttpClientWithResult","data-provider boundary small-class","MockCurrencyHttpClientWithResult","constructor"
+"MockCurrencyHttpClientWithResult","data-provider boundary small-class","GetCurrencyMetadata","property collaborator"
+"MockCurrencyHttpClientWithResult","data-provider boundary small-class","GetCurrencyRatios","property collaborator"
+"AsyncHelper","degenerate","AsyncHelper::RunOnUIThreadAsync","controller stateless"
+"AsyncHelper","degenerate","AsyncHelper::RunOnUIThread","command collaborator"
+"AsyncHelper","degenerate","AsyncHelper::Delay","controller stateless"
+"AsyncHelper","degenerate","AsyncHelper::Sleep","wrapper stateless"
+"MockExpression","degenerate small-class","MockExpression","constructor"
+"MockExpression","degenerate small-class","GetExpressionID","incidental"
+"MockExpression","degenerate small-class","IsEmptySet","incidental"
+"UnitConverterMock","commander boundary","SetViewModelCurrencyCallback","empty"
+"UnitConverterMock","commander boundary","Calculate","empty"
+"UnitConverterMock","commander boundary","ResetCategoriesAndRatios","empty"
+"UnitConverterMock","commander boundary","RefreshCurrencyRatios","collaborator incidental"
+"UnitConverterMock","commander boundary","UnitConverterMock::UnitConverterMock","constructor"
+"UnitConverterMock","commander boundary","UnitConverterMock::Initialize","set"
+"UnitConverterMock","commander boundary","UnitConverterMock::GetCategories","property non-void-command collaborator"
+"UnitConverterMock","commander boundary","UnitConverterMock::SetCurrentCategory","property non-void-command collaborator"
+"UnitConverterMock","commander boundary","UnitConverterMock::GetCurrentCategory","get collaborator"
+"UnitConverterMock","commander boundary","UnitConverterMock::SetCurrentUnitTypes","command collaborator"
+"UnitConverterMock","commander boundary","UnitConverterMock::SwitchActive","command collaborator"
+"UnitConverterMock","commander boundary","UnitConverterMock::IsSwitchedActive","incidental"
+"UnitConverterMock","commander boundary","UnitConverterMock::SaveUserPreferences","collaborator incidental"
+"UnitConverterMock","commander boundary","UnitConverterMock::RestoreUserPreferences","empty"
+"UnitConverterMock","commander boundary","UnitConverterMock::SendCommand","command collaborator"
+"UnitConverterMock","commander boundary","UnitConverterMock::SetViewModelCallback","command collaborator"
+"IViewModelCurrencyCallback","empty","~IViewModelCurrencyCallback","destructor"
+"DeviceResources","boundary","GetOutputSize","get collaborator"
+"DeviceResources","boundary","GetLogicalSize","get collaborator"
+"DeviceResources","boundary","GetDpi","get"
+"DeviceResources","boundary","GetD3DDevice","controller stateless"
+"DeviceResources","boundary","GetD3DDeviceContext","controller stateless"
+"DeviceResources","boundary","GetSwapChain","property collaborator"
+"DeviceResources","boundary","GetDeviceFeatureLevel","get collaborator"
+"DeviceResources","boundary","GetBackBufferRenderTargetView","controller stateless"
+"DeviceResources","boundary","GetDepthStencilView","controller stateless"
+"DeviceResources","boundary","GetScreenViewport","get collaborator"
+"DeviceResources","boundary","GetOrientationTransform3D","get collaborator"
+"DeviceResources","boundary","GetD2DFactory","controller stateless"
+"DeviceResources","boundary","GetD2DDevice","controller stateless"
+"DeviceResources","boundary","GetD2DDeviceContext","controller stateless"
+"DeviceResources","boundary","GetD2DTargetBitmap","controller stateless"
+"DeviceResources","boundary","GetDWriteFactory","property collaborator"
+"DeviceResources","boundary","GetWicImagingFactory","property collaborator"
+"DeviceResources","boundary","GetOrientationTransform2D","get collaborator"
+"DeviceResources","boundary","DeviceResources::DeviceResources","constructor"
+"DeviceResources","boundary","DeviceResources::CreateDeviceIndependentResources","wrapper"
+"DeviceResources","boundary","DeviceResources::CreateDeviceResources","controller"
+"DeviceResources","boundary","DeviceResources::CreateWindowSizeDependentResources","command collaborator"
+"DeviceResources","boundary","DeviceResources::UpdateRenderTargetSize","command"
+"DeviceResources","boundary","DeviceResources::SetSwapChainPanel","command collaborator"
+"DeviceResources","boundary","DeviceResources::SetLogicalSize","set collaborator"
+"DeviceResources","boundary","DeviceResources::SetDpi","set"
+"DeviceResources","boundary","DeviceResources::SetCurrentOrientation","set collaborator"
+"DeviceResources","boundary","DeviceResources::SetCompositionScale","command"
+"DeviceResources","boundary","DeviceResources::ValidateDevice","command collaborator"
+"DeviceResources","boundary","DeviceResources::HandleDeviceLost","command"
+"DeviceResources","boundary","DeviceResources::RegisterDeviceNotify","set collaborator"
+"DeviceResources","boundary","DeviceResources::Trim","controller stateless"
+"DeviceResources","boundary","DeviceResources::Present","command collaborator"
+"EvalOptions","boundary data-class small-class","EvalOptions","constructor"
+"EvalOptions","boundary data-class small-class","GetTrigUnitMode","get collaborator"
+"EvalOptions","boundary data-class small-class","SetTrigUnitMode","set collaborator"
+"MockVariable","data-provider lazy-class small-class","MockVariable","constructor"
+"MockVariable","data-provider lazy-class small-class","GetVariableID","incidental"
+"MockVariable","data-provider lazy-class small-class","GetVariableName","get collaborator"
+"MathSolver","data-provider boundary lazy-class degenerate","MathSolver","constructor"
+"MathSolver","data-provider boundary lazy-class degenerate","ParsingOptions","get collaborator"
+"MathSolver","data-provider boundary lazy-class degenerate","EvalOptions","get collaborator"
+"MathSolver","data-provider boundary lazy-class degenerate","FormatOptions","get collaborator"
+"MathSolver","data-provider boundary lazy-class degenerate","ParseInput","controller stateless"
+"MathSolver","data-provider boundary lazy-class degenerate","HRErrorToErrorInfo","empty"
+"MathSolver","data-provider boundary lazy-class degenerate","Serialize","collaborator incidental"
+"MathSolver","data-provider boundary lazy-class degenerate","IMathSolver::Analyze","wrapper stateless"
+"MathSolver","data-provider boundary lazy-class degenerate","MockGraphingImpl::MathSolver::CreateGrapher","wrapper stateless"
+"MathSolver","data-provider boundary lazy-class degenerate","MockGraphingImpl::MathSolver::CreateGrapher","wrapper stateless"

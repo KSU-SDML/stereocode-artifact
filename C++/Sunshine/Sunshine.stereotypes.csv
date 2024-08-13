@@ -1,693 +1,697 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"EncoderTest","commander small-class","SetUp","command",
-"EncoderTest","commander small-class","TearDown","command",
-"LoggerInitTest","commander small-class","SetUp","command",
-"LoggerInitTest","commander small-class","TearDown","command",
-"server_t","boundary","init","property non-void-command",
-"server_t","boundary","load_null","property non-void-command collaborator",
-"server_t","boundary","unload_null","property non-void-command collaborator",
-"server_t","boundary","sink_info","property non-void-command collaborator",
-"server_t","boundary","get_default_sink_name","property controller",
-"server_t","boundary","get_monitor_name","property controller",
-"server_t","boundary","microphone","property non-void-command collaborator",
-"server_t","boundary","set_sink","property non-void-command collaborator",
-"server_t","boundary","~server_t","destructor",
-"av_pixel_buf_t","data-provider boundary small-class","av_pixel_buf_t","constructor",
-"av_pixel_buf_t","data-provider boundary small-class","data","property wrapper",
-"av_pixel_buf_t","data-provider boundary small-class","~av_pixel_buf_t","destructor",
-"av_sample_buf_t","empty","av_sample_buf_t","constructor",
-"av_sample_buf_t","empty","~av_sample_buf_t","destructor",
-"shm_img_t","empty","~shm_img_t","destructor",
-"display_wgc_vram_t","entity boundary","display_wgc_vram_t::snapshot","property non-void-command collaborator",
-"display_wgc_vram_t","entity boundary","display_wgc_vram_t::release_snapshot","property non-void-command collaborator",
-"display_wgc_vram_t","entity boundary","display_wgc_vram_t::init","property non-void-command",
-"shm_data_t","empty","shm_data_t","constructor",
-"shm_data_t","empty","shm_data_t","constructor",
-"shm_data_t","empty","shm_data_t","copy-constructor",
-"shm_data_t","empty","~shm_data_t","destructor",
-"mdns_registration_t","empty","mdns_registration_t","constructor",
-"mdns_registration_t","empty","~mdns_registration_t","destructor",
-"rtsp_server_t","entity boundary","~rtsp_server_t","destructor",
-"rtsp_server_t","entity boundary","bind","property non-void-command collaborator",
-"rtsp_server_t","entity boundary","iterate","command collaborator",
-"rtsp_server_t","entity boundary","handle_msg","void-accessor command collaborator",
-"rtsp_server_t","entity boundary","handle_accept","command collaborator",
-"rtsp_server_t","entity boundary","map","void-accessor command collaborator",
-"rtsp_server_t","entity boundary","session_raise","command collaborator",
-"rtsp_server_t","entity boundary","session_clear","command collaborator",
-"rtsp_server_t","entity boundary","session_count","property",
-"rtsp_server_t","entity boundary","clear","command collaborator",
-"rtsp_server_t","entity boundary","clear","set collaborator",
-"rtsp_server_t","entity boundary","accept","property non-void-command collaborator",
-"frame_t","commander boundary data-class small-class","frame_t::destroy","set collaborator",
-"frame_t","commander boundary data-class small-class","frame_t::frame_t","constructor",
-"round_robin_t","unclassified","round_robin_t","constructor",
-"round_robin_t","unclassified","inc","set",
-"round_robin_t","unclassified","dec","set",
-"round_robin_t","unclassified","eq","predicate",
-"round_robin_t","unclassified","get","property collaborator",
-"interface_t","entity data-provider boundary","operator[]","get collaborator",
-"interface_t","entity data-provider boundary","interface_t::interface_t","constructor",
-"interface_t","entity data-provider boundary","interface_t::listen","void-accessor wrapper",
-"interface_t","entity data-provider boundary","interface_t::add_interface","void-accessor command",
-"interface_t","entity data-provider boundary","interface_t::del_interface","wrapper stateless",
-"gcm_t","entity boundary small-class","gcm_t::decrypt","property non-void-command collaborator",
-"gcm_t","entity boundary small-class","gcm_t::encrypt","property non-void-command collaborator",
-"gcm_t","entity boundary small-class","gcm_t::gcm_t","constructor",
-"MouseHIDTest","commander small-class","SetUp","command",
-"MouseHIDTest","commander small-class","TearDown","command",
-"va_vram_t","small-class","convert","property non-void-command collaborator",
-"va_vram_t","small-class","init","property non-void-command",
-"cap_sys_admin","empty","cap_sys_admin","constructor",
-"cap_sys_admin","empty","~cap_sys_admin","destructor",
-"cuda_vram_t","controller small-class","convert","property controller",
-"effect_t","entity commander boundary","effect_t","constructor",
-"effect_t","entity commander boundary","rumble","get set collaborator",
-"effect_t","entity commander boundary","upload","void-accessor command collaborator",
-"effect_t","entity commander boundary","activate","command collaborator",
-"effect_t","entity commander boundary","deactivate","command collaborator",
-"effect_t","entity commander boundary","erase","command",
-"service_controller","data-provider boundary small-class","service_controller","constructor",
-"service_controller","data-provider boundary small-class","~service_controller","destructor",
-"service_controller","data-provider boundary small-class","start_service","predicate wrapper",
-"service_controller","data-provider boundary small-class","query_service_status","predicate wrapper",
-"client_input_raw_t","empty","client_input_raw_t","constructor",
-"client_input_raw_t","empty","client_input_raw_t","constructor",
-"client_input_raw_t","empty","client_input_raw_t","constructor",
-"client_input_raw_t","empty","~client_input_raw_t","destructor",
-"cursor_t","unclassified","cursor_t::make","controller stateless",
-"cursor_t","unclassified","cursor_t::capture","void-accessor command collaborator",
-"cursor_t","unclassified","cursor_t::blend","void-accessor command",
-"display_ram_t","entity boundary","display_ram_t","constructor",
-"display_ram_t","entity boundary","init","property non-void-command collaborator",
-"display_ram_t","entity boundary","capture","property non-void-command collaborator",
-"display_ram_t","entity boundary","make_avcodec_encode_device","property wrapper",
-"display_ram_t","entity boundary","blend_cursor","command collaborator",
-"display_ram_t","entity boundary","display_ram_t::alloc_img","property wrapper",
-"display_ram_t","entity boundary","display_ram_t::complete_img","property non-void-command",
-"display_ram_t","entity boundary","display_ram_t::dummy_img","property non-void-command collaborator",
-"display_ram_t","entity boundary","display_ram_t::get_supported_capture_formats","collaborator incidental",
-"display_ram_t","entity boundary","display_ram_t::make_avcodec_encode_device","wrapper stateless",
-"shader_t","unclassified","shader_t::err_str","property non-void-command",
-"shader_t","unclassified","shader_t::compile","controller stateless",
-"shader_t","unclassified","shader_t::handle","get collaborator",
-"hdr_info_raw_t","empty","hdr_info_raw_t","constructor",
-"hdr_info_raw_t","empty","hdr_info_raw_t","constructor",
-"sws_t","boundary","sws_t::apply_colorspace","void-accessor command collaborator",
-"sws_t","boundary","sws_t::make","controller stateless",
-"sws_t","boundary","sws_t::blank","property non-void-command collaborator",
-"sws_t","boundary","sws_t::make","property non-void-command collaborator",
-"sws_t","boundary","sws_t::load_ram","void-accessor set collaborator",
-"sws_t","boundary","sws_t::load_vram","void-accessor command collaborator",
-"sws_t","boundary","sws_t::convert","property controller",
-"control_header_v2","data-provider small-class","payload","property",
-"wlr_t","entity boundary","init","property non-void-command collaborator",
-"wlr_t","entity boundary","dummy_img","collaborator incidental",
-"wlr_t","entity boundary","snapshot","property non-void-command collaborator",
-"input_raw_t","commander boundary","input_raw_t","constructor",
-"input_raw_t","commander boundary","clear_mouse_rel","command collaborator",
-"input_raw_t","commander boundary","clear_keyboard","command collaborator",
-"input_raw_t","commander boundary","clear_mouse_abs","command collaborator",
-"input_raw_t","commander boundary","clear_gamepad","set collaborator",
-"input_raw_t","commander boundary","create_mouse_abs","property non-void-command",
-"input_raw_t","commander boundary","create_mouse_rel","property non-void-command",
-"input_raw_t","commander boundary","create_keyboard","property non-void-command",
-"input_raw_t","commander boundary","alloc_gamepad","property non-void-command collaborator",
-"input_raw_t","commander boundary","clear","command",
-"input_raw_t","commander boundary","~input_raw_t","destructor",
-"input_raw_t","commander boundary","~input_raw_t","destructor",
-"fec_t","data-provider","data","property",
-"fec_t","data-provider","prefix","property",
-"fec_t","data-provider","size","get",
-"ctx_t","empty","ctx_t","constructor",
-"ctx_t","empty","~ctx_t","destructor",
-"FailGuard","commander data-class small-class","FailGuard","constructor",
-"FailGuard","commander data-class small-class","FailGuard","copy-constructor",
-"FailGuard","commander data-class small-class","~FailGuard","destructor",
-"FailGuard","commander data-class small-class","disable","set",
-"Hex","data-provider","Hex","constructor",
-"Hex","data-provider","begin","get",
-"Hex","data-provider","end","property",
-"Hex","data-provider","begin","get",
-"Hex","data-provider","end","property",
-"Hex","data-provider","cbegin","get",
-"Hex","data-provider","cend","property",
-"Hex","data-provider","to_string","property",
-"Hex","data-provider","to_string_view","property collaborator",
-"gl_cuda_vram_t","entity boundary","init","property non-void-command collaborator",
-"gl_cuda_vram_t","entity boundary","set_frame","property non-void-command collaborator",
-"gl_cuda_vram_t","entity boundary","convert","property non-void-command collaborator",
-"gl_cuda_vram_t","entity boundary","apply_colorspace","command",
-"cuda_ram_t","small-class","convert","property controller",
-"cuda_ram_t","small-class","set_frame","property set collaborator",
-"nvenc_base","entity boundary","wait_for_async_event","incidental",
-"nvenc_base","entity boundary","nvenc_base::nvenc_base","constructor",
-"nvenc_base","entity boundary","nvenc_base::~nvenc_base","destructor",
-"nvenc_base","entity boundary","nvenc_base::create_encoder","predicate non-void-command collaborator",
-"nvenc_base","entity boundary","nvenc_base::destroy_encoder","command collaborator",
-"nvenc_base","entity boundary","nvenc_base::encode_frame","property non-void-command collaborator",
-"nvenc_base","entity boundary","nvenc_base::invalidate_ref_frames","predicate non-void-command collaborator",
-"nvenc_base","entity boundary","nvenc_base::nvenc_failed","predicate non-void-command collaborator",
-"nvenc_base","entity boundary","nvenc_base::min_struct_version","property",
-"wrapper_fb","empty","wrapper_fb","constructor",
-"wrapper_fb","empty","wrapper_fb","constructor",
-"wrapper_fb","empty","~wrapper_fb","destructor",
-"DocsPythonVenvBase","commander small-class","SetUp","command",
-"DocsPythonVenvBase","commander small-class","TearDown","command",
-"ecb_t","small-class","ecb_t::decrypt","property non-void-command",
-"ecb_t","small-class","ecb_t::encrypt","property non-void-command",
-"ecb_t","small-class","ecb_t::ecb_t","constructor",
-"kms_img_t","empty","~kms_img_t","destructor",
-"dmabuf_t","entity boundary","get_next_frame","property collaborator",
-"dmabuf_t","entity boundary","dmabuf_t::dmabuf_t","constructor",
-"dmabuf_t","entity boundary","dmabuf_t::listen","void-accessor set collaborator",
-"dmabuf_t","entity boundary","dmabuf_t::~dmabuf_t","destructor",
-"dmabuf_t","entity boundary","dmabuf_t::frame","command collaborator",
-"dmabuf_t","entity boundary","dmabuf_t::object","command collaborator",
-"dmabuf_t","entity boundary","dmabuf_t::ready","void-accessor command",
-"dmabuf_t","entity boundary","dmabuf_t::cancel","void-accessor set collaborator",
-"gamepad_t","empty","gamepad_t","constructor",
-"gamepad_t","empty","~gamepad_t","destructor",
-"audio_control_t","boundary","sink_info","property non-void-command collaborator",
-"audio_control_t","boundary","get_sink_info","controller stateless",
-"audio_control_t","boundary","microphone","property non-void-command collaborator",
-"audio_control_t","boundary","set_format","property non-void-command collaborator",
-"audio_control_t","boundary","set_sink","property non-void-command collaborator",
-"audio_control_t","boundary","find_device_id_by_name","property non-void-command collaborator",
-"audio_control_t","boundary","reset_default_device","command",
-"audio_control_t","boundary","install_steam_audio_drivers","predicate non-void-command collaborator",
-"audio_control_t","boundary","init","property wrapper",
-"audio_control_t","boundary","~audio_control_t","destructor",
-"cuda_t","unclassified","init","property set",
-"cuda_t","unclassified","set_frame","property set collaborator",
-"cuda_t","unclassified","apply_colorspace","controller",
-"touch_port_t","small-class","operatorbool","unclassified",
-"Either","data-provider boundary","has_left","predicate wrapper",
-"Either","data-provider boundary","has_right","predicate wrapper",
-"Either","data-provider boundary","left","property wrapper",
-"Either","data-provider boundary","right","property wrapper",
-"Either","data-provider boundary","left","property wrapper",
-"Either","data-provider boundary","right","property wrapper",
-"qos_t","empty","qos_t","constructor",
-"qos_t","empty","~qos_t","destructor",
-"qos_t","empty","qos_t","constructor",
-"qos_t","empty","~qos_t","destructor",
-"temp_retain_av_img_t","empty","temp_retain_av_img_t","constructor",
-"cert_chain_t","entity boundary","cert_chain_t::cert_chain_t","constructor",
-"cert_chain_t","entity boundary","cert_chain_t::add","void-accessor command collaborator",
-"cert_chain_t","entity boundary","cert_chain_t::clear","command",
-"cert_chain_t","entity boundary","cert_chain_t::verify","property non-void-command collaborator",
-"mic_attr_t","entity boundary small-class","sample","property non-void-command collaborator",
-"proc_t","boundary","proc_t","constructor",
-"proc_t","boundary","proc_t::execute","property non-void-command collaborator",
-"proc_t","boundary","proc_t::running","get property non-void-command",
-"proc_t","boundary","proc_t::terminate","command",
-"proc_t","boundary","proc_t::get_apps","get collaborator",
-"proc_t","boundary","proc_t::get_apps","get collaborator",
-"proc_t","boundary","proc_t::get_app_image","property non-void-command collaborator",
-"proc_t","boundary","proc_t::get_last_run_app_name","get",
-"proc_t","boundary","proc_t::~proc_t","destructor",
-"sync_t","boundary","lock","property wrapper",
-"sync_t","boundary","sync_t","constructor",
-"sync_t","boundary","operator=","get set",
-"sync_t","boundary","operator=","get set",
-"sync_t","boundary","operator=","get set collaborator",
-"sync_t","boundary","operator=","get set collaborator",
-"sync_t","boundary","operator=","get set collaborator",
-"sync_t","boundary","operator->","property collaborator",
-"sync_t","boundary","operator*","get collaborator",
-"sync_t","boundary","operator*","get collaborator",
-"mic_wasapi_t","entity boundary","sample","property set collaborator",
-"mic_wasapi_t","entity boundary","init","property non-void-command collaborator",
-"mic_wasapi_t","entity boundary","~mic_wasapi_t","destructor",
-"mic_wasapi_t","entity boundary","_fill_buffer","property non-void-command collaborator",
-"cbc_t","entity boundary small-class","cbc_t::encrypt","property non-void-command collaborator",
-"cbc_t","entity boundary small-class","cbc_t::cbc_t","constructor",
-"input_t","empty","input_t","constructor",
-"d3d_avcodec_encode_device_t","entity boundary","init","property non-void-command collaborator",
-"d3d_avcodec_encode_device_t","entity boundary","convert","property non-void-command collaborator",
-"d3d_avcodec_encode_device_t","entity boundary","apply_colorspace","command",
-"d3d_avcodec_encode_device_t","entity boundary","init_hwframes","collaborator incidental",
-"d3d_avcodec_encode_device_t","entity boundary","prepare_to_derive_context","property non-void-command collaborator",
-"d3d_avcodec_encode_device_t","entity boundary","set_frame","property non-void-command collaborator",
-"audio_notification_t","entity boundary degenerate","audio_notification_t","constructor",
-"audio_notification_t","entity boundary degenerate","AddRef","collaborator incidental",
-"audio_notification_t","entity boundary degenerate","Release","collaborator incidental",
-"audio_notification_t","entity boundary degenerate","QueryInterface","property non-void-command collaborator",
-"audio_notification_t","entity boundary degenerate","OnDefaultDeviceChanged","property non-void-command collaborator",
-"audio_notification_t","entity boundary degenerate","OnDeviceAdded","collaborator incidental",
-"audio_notification_t","entity boundary degenerate","OnDeviceRemoved","collaborator incidental",
-"audio_notification_t","entity boundary degenerate","OnDeviceStateChanged","collaborator incidental",
-"audio_notification_t","entity boundary degenerate","OnPropertyValueChanged","collaborator incidental",
-"audio_notification_t","entity boundary degenerate","check_default_render_device_changed","predicate non-void-command",
-"hash","boundary degenerate small-class","operator()","wrapper stateless",
-"min_max_avg_tracker","degenerate small-class","collect_and_callback_on_interval","wrapper stateless",
-"min_max_avg_tracker","degenerate small-class","reset","incidental",
-"nvenc_d3d11","unclassified","nvenc_d3d11::nvenc_d3d11","constructor",
-"nvenc_d3d11","unclassified","nvenc_d3d11::~nvenc_d3d11","destructor",
-"nvenc_d3d11","unclassified","nvenc_d3d11::get_input_texture","controller stateless",
-"nvenc_d3d11","unclassified","nvenc_d3d11::init_library","predicate non-void-command collaborator",
-"nvenc_d3d11","unclassified","nvenc_d3d11::create_and_register_input_buffer","predicate set collaborator",
-"encoder_platform_formats_avcodec","empty","encoder_platform_formats_avcodec","constructor",
-"program_t","boundary","program_t::err_str","property non-void-command",
-"program_t","boundary","program_t::link","controller stateless",
-"program_t","boundary","program_t::bind","command collaborator",
-"program_t","boundary","program_t::uniform","property non-void-command collaborator",
-"program_t","boundary","program_t::handle","get collaborator",
-"tex_t","pure-controller degenerate small-class","tex_t::~tex_t","destructor",
-"tex_t","pure-controller degenerate small-class","tex_t::make","controller stateless",
-"nv12_zero_device","entity boundary","nv12_zero_device::convert","property non-void-command collaborator",
-"nv12_zero_device","entity boundary","nv12_zero_device::set_frame","property set collaborator",
-"nv12_zero_device","entity boundary","nv12_zero_device::init","property non-void-command collaborator",
-"plane_it_t","unclassified","plane_it_t","constructor",
-"plane_it_t","unclassified","plane_it_t","constructor",
-"plane_it_t","unclassified","load_next_valid_plane","command collaborator",
-"plane_it_t","unclassified","inc","set",
-"plane_it_t","unclassified","eq","predicate",
-"plane_it_t","unclassified","get","property non-void-command collaborator",
-"SunshineHttpsServer","small-class","SunshineHttpsServer","constructor",
-"SunshineHttpsServer","small-class","after_bind","command",
-"SunshineHttpsServer","small-class","accept","controller",
-"deinit_t","controller","~deinit_t","destructor",
-"deinit_t","controller","deinit_t","constructor",
-"deinit_t","controller","~deinit_t","destructor",
-"deinit_t","controller","deinit_t","constructor",
-"deinit_t","controller","~deinit_t","destructor",
-"deinit_t","controller","~deinit_t","destructor",
-"deinit_t","controller","deinit_t","constructor",
-"deinit_t","controller","~deinit_t","destructor",
-"deinit_t","controller","create_ipv6_pinholes","predicate controller",
-"deinit_t","controller","map_upnp_port","controller stateless",
-"deinit_t","controller","unmap_all_upnp_ports","void-accessor controller",
-"deinit_t","controller","upnp_thread_proc","command collaborator",
-"deinit_t","controller","deinit_t::~deinit_t","destructor",
-"va_t","entity boundary","init","property non-void-command collaborator",
-"va_t","entity boundary","set_frame","property non-void-command collaborator",
-"va_t","entity boundary","apply_colorspace","command",
-"wlr_vram_t","entity boundary","capture","property non-void-command collaborator",
-"wlr_vram_t","entity boundary","snapshot","property set collaborator",
-"wlr_vram_t","entity boundary","alloc_img","property wrapper",
-"wlr_vram_t","entity boundary","make_avcodec_encode_device","property wrapper",
-"wlr_vram_t","entity boundary","dummy_img","collaborator incidental",
-"display_vram_t","entity boundary","display_vram_t","constructor",
-"display_vram_t","entity boundary","make_avcodec_encode_device","property wrapper",
-"display_vram_t","entity boundary","alloc_img","property wrapper",
-"display_vram_t","entity boundary","dummy_img","collaborator incidental",
-"display_vram_t","entity boundary","capture","property non-void-command collaborator",
-"display_vram_t","entity boundary","snapshot","property set collaborator",
-"display_vram_t","entity boundary","init","property non-void-command collaborator",
-"display_vram_t","entity boundary","display_vram_t::alloc_img","property set collaborator",
-"display_vram_t","entity boundary","display_vram_t::complete_img","property non-void-command collaborator",
-"display_vram_t","entity boundary","display_vram_t::dummy_img","property non-void-command collaborator",
-"display_vram_t","entity boundary","display_vram_t::get_supported_capture_formats","collaborator incidental",
-"display_vram_t","entity boundary","display_vram_t::is_codec_supported","predicate non-void-command collaborator",
-"display_vram_t","entity boundary","display_vram_t::make_avcodec_encode_device","property non-void-command collaborator",
-"display_vram_t","entity boundary","display_vram_t::make_nvenc_encode_device","property non-void-command collaborator",
-"audio_fec_packet_raw_t","data-provider small-class","payload","property",
-"img_t","empty","~img_t","destructor",
-"img_t","empty","~img_t","destructor",
-"monitor_t","commander","xdg_done","empty",
-"monitor_t","commander","wl_geometry","empty",
-"monitor_t","commander","wl_done","empty",
-"monitor_t","commander","wl_scale","empty",
-"monitor_t","commander","monitor_t::monitor_t","constructor",
-"monitor_t","commander","monitor_t::xdg_name","set",
-"monitor_t","commander","monitor_t::xdg_description","set",
-"monitor_t","commander","monitor_t::xdg_position","command",
-"monitor_t","commander","monitor_t::xdg_size","wrapper stateless",
-"monitor_t","commander","monitor_t::wl_mode","command",
-"monitor_t","commander","monitor_t::listen","void-accessor wrapper",
-"queue_t","entity minimal-entity boundary","queue_t","constructor",
-"queue_t","entity minimal-entity boundary","raise","void-accessor command collaborator",
-"queue_t","entity minimal-entity boundary","peek","predicate non-void-command",
-"queue_t","entity minimal-entity boundary","pop","property non-void-command collaborator",
-"queue_t","entity minimal-entity boundary","pop","property non-void-command collaborator",
-"queue_t","entity minimal-entity boundary","unsafe","get collaborator",
-"queue_t","entity minimal-entity boundary","stop","set collaborator",
-"queue_t","entity minimal-entity boundary","running","get",
-"handle_t","boundary","handle_t","copy-constructor",
-"handle_t","boundary","operator=","get wrapper",
-"handle_t","boundary","last_error","property controller",
-"handle_t","boundary","status","property non-void-command collaborator",
-"handle_t","boundary","capture","property non-void-command collaborator",
-"handle_t","boundary","stop","property set collaborator",
-"handle_t","boundary","reset","property set collaborator",
-"handle_t","boundary","~handle_t","destructor",
-"display_t","entity boundary","display_t","constructor",
-"display_t","entity boundary","make_avcodec_encode_device","collaborator incidental",
-"display_t","entity boundary","make_nvenc_encode_device","collaborator incidental",
-"display_t","entity boundary","is_hdr","incidental",
-"display_t","entity boundary","get_hdr_metadata","wrapper stateless",
-"display_t","entity boundary","is_codec_supported","collaborator incidental",
-"display_t","entity boundary","log_sleep_overshoot","command collaborator",
-"display_t","entity boundary","init","property non-void-command collaborator",
-"display_t","entity boundary","capture","property non-void-command collaborator",
-"display_t","entity boundary","reinit","property non-void-command collaborator",
-"display_t","entity boundary","snapshot","property non-void-command collaborator",
-"display_t","entity boundary","make_avcodec_encode_device","property wrapper",
-"display_t","entity boundary","alloc_img","property wrapper",
-"display_t","entity boundary","dummy_img","incidental",
-"display_t","entity boundary","display_t","constructor",
-"display_t","entity boundary","init","property non-void-command collaborator",
-"display_t","entity boundary","is_hdr","predicate wrapper",
-"display_t","entity boundary","get_hdr_metadata","predicate non-void-command collaborator",
-"display_t","entity boundary","update_cursor","command",
-"display_t","entity boundary","refresh","property non-void-command collaborator",
-"display_t","entity boundary","get","property non-void-command collaborator",
-"display_t","entity boundary","display_t::init","property non-void-command",
-"display_t","entity boundary","display_t::roundtrip","command",
-"display_t","entity boundary","display_t::dispatch","predicate non-void-command collaborator",
-"display_t","entity boundary","display_t::registry","property non-void-command collaborator",
-"prop_var_t","empty","prop_var_t","constructor",
-"prop_var_t","empty","~prop_var_t","destructor",
-"prop_var_t","empty","prop_var_t","constructor",
-"prop_var_t","empty","~prop_var_t","destructor",
-"gpu_cursor_t","commander","gpu_cursor_t","constructor",
-"gpu_cursor_t","commander","set_pos","command",
-"gpu_cursor_t","commander","set_texture","void-accessor command collaborator",
-"gpu_cursor_t","commander","update_viewport","command",
-"display_base_t","entity boundary","get_pixel_pitch","property",
-"display_base_t","entity boundary","display_base_t::high_precision_sleep","command collaborator",
-"display_base_t","entity boundary","display_base_t::capture","property non-void-command collaborator",
-"display_base_t","entity boundary","display_base_t::init","wrapper stateless",
-"display_base_t","entity boundary","display_base_t::dxgi_format_to_string","collaborator incidental",
-"display_base_t","entity boundary","display_base_t::colorspace_to_string","wrapper stateless",
-"display_ddup_ram_t","entity boundary","display_ddup_ram_t::snapshot","property non-void-command collaborator",
-"display_ddup_ram_t","entity boundary","display_ddup_ram_t::release_snapshot","property non-void-command collaborator",
-"display_ddup_ram_t","entity boundary","display_ddup_ram_t::init","property non-void-command",
-"display_ddup_vram_t","entity boundary","display_ddup_vram_t::snapshot","property non-void-command collaborator",
-"display_ddup_vram_t","entity boundary","display_ddup_vram_t::release_snapshot","property non-void-command collaborator",
-"display_ddup_vram_t","entity boundary","display_ddup_vram_t::init","property non-void-command collaborator",
-"wgc_capture_t","entity boundary","wgc_capture_t::wgc_capture_t","constructor",
-"wgc_capture_t","entity boundary","wgc_capture_t::~wgc_capture_t","destructor",
-"wgc_capture_t","entity boundary","wgc_capture_t::init","property non-void-command collaborator",
-"wgc_capture_t","entity boundary","wgc_capture_t::on_frame_arrived","set collaborator",
-"wgc_capture_t","entity boundary","wgc_capture_t::next_frame","property non-void-command collaborator",
-"wgc_capture_t","entity boundary","wgc_capture_t::release_frame","property set collaborator",
-"wgc_capture_t","entity boundary","wgc_capture_t::set_cursor_visible","property non-void-command",
-"display_wgc_ram_t","entity boundary","display_wgc_ram_t::init","property non-void-command",
-"display_wgc_ram_t","entity boundary","display_wgc_ram_t::snapshot","property non-void-command collaborator",
-"display_wgc_ram_t","entity boundary","display_wgc_ram_t::release_snapshot","property non-void-command collaborator",
-"img_d3d_t","empty","~img_d3d_t","destructor",
-"texture_lock_helper","small-class","texture_lock_helper","copy-constructor",
-"texture_lock_helper","small-class","operator=","get non-void-command",
-"texture_lock_helper","small-class","texture_lock_helper","constructor",
-"texture_lock_helper","small-class","~texture_lock_helper","destructor",
-"texture_lock_helper","small-class","lock","get predicate set collaborator",
-"nvprefs_interface","unclassified","nvprefs_interface::nvprefs_interface","constructor",
-"nvprefs_interface","unclassified","nvprefs_interface::~nvprefs_interface","destructor",
-"nvprefs_interface","unclassified","nvprefs_interface::load","get predicate non-void-command collaborator",
-"nvprefs_interface","unclassified","nvprefs_interface::unload","set",
-"nvprefs_interface","unclassified","nvprefs_interface::restore_from_and_delete_undo_file_if_exists","predicate non-void-command",
-"nvprefs_interface","unclassified","nvprefs_interface::modify_application_profile","predicate non-void-command",
-"nvprefs_interface","unclassified","nvprefs_interface::modify_global_profile","predicate non-void-command collaborator",
-"nvprefs_interface","unclassified","nvprefs_interface::owning_undo_file","predicate non-void-command",
-"nvprefs_interface","unclassified","nvprefs_interface::restore_global_profile","predicate non-void-command",
-"control_encrypted_t","data-provider small-class","payload","property",
-"shm_attr_t","entity boundary","delayed_refresh","set",
-"shm_attr_t","entity boundary","shm_attr_t","constructor",
-"shm_attr_t","entity boundary","~shm_attr_t","destructor",
-"shm_attr_t","entity boundary","capture","property non-void-command collaborator",
-"shm_attr_t","entity boundary","snapshot","property non-void-command collaborator",
-"shm_attr_t","entity boundary","alloc_img","wrapper stateless",
-"shm_attr_t","entity boundary","dummy_img","collaborator incidental",
-"shm_attr_t","entity boundary","init","property non-void-command collaborator",
-"shm_attr_t","entity boundary","frame_size","incidental",
-"PlatformInitBase","commander small-class","SetUp","set",
-"PlatformInitBase","commander small-class","TearDown","command",
-"d3d_nvenc_encode_device_t","entity boundary","init_device","predicate non-void-command collaborator",
-"d3d_nvenc_encode_device_t","entity boundary","init_encoder","predicate non-void-command collaborator",
-"d3d_nvenc_encode_device_t","entity boundary","convert","property non-void-command collaborator",
-"frame_buf_t","controller","bind","controller",
-"frame_buf_t","controller","bind","command collaborator",
-"frame_buf_t","controller","frame_buf_t::~frame_buf_t","destructor",
-"frame_buf_t","controller","frame_buf_t::make","controller stateless",
-"frame_buf_t","controller","frame_buf_t::copy","controller",
-"vigem_t","entity commander boundary","init","property non-void-command collaborator",
-"vigem_t","entity commander boundary","alloc_gamepad_internal","property non-void-command collaborator",
-"vigem_t","entity commander boundary","free_target","command",
-"vigem_t","entity commander boundary","rumble","command collaborator",
-"vigem_t","entity commander boundary","set_rgb_led","command collaborator",
-"vigem_t","entity commander boundary","~vigem_t","destructor",
-"safe_handle","boundary degenerate small-class","operatorbool","wrapper stateless",
-"img_descriptor_t","commander boundary data-class small-class","~img_descriptor_t","destructor",
-"img_descriptor_t","commander boundary data-class small-class","reset","set collaborator",
-"prep_cmd_t","empty","prep_cmd_t","constructor",
-"prep_cmd_t","empty","prep_cmd_t","constructor",
-"safe_hlocal_deleter","boundary degenerate small-class","operator()","wrapper stateless",
-"BaseTest","entity commander boundary","BaseTest","constructor",
-"BaseTest","entity commander boundary","SetUp","command collaborator",
-"BaseTest","entity commander boundary","TearDown","command collaborator",
-"BaseTest","entity commander boundary","exec","property non-void-command",
-"packet_raw_avcodec","data-provider data-class","packet_raw_avcodec","constructor",
-"packet_raw_avcodec","data-provider data-class","~packet_raw_avcodec","destructor",
-"packet_raw_avcodec","data-provider data-class","is_idr","get",
-"packet_raw_avcodec","data-provider data-class","frame_index","get",
-"packet_raw_avcodec","data-provider data-class","data","get",
-"packet_raw_avcodec","data-provider data-class","data_size","get",
-"adl_serializer<opengl_swapchain_t>","degenerate small-class","undo_data_t::set_opengl_swapchain","empty",
-"control_server_t","boundary","bind","property set",
-"control_server_t","boundary","map","void-accessor command collaborator",
-"control_server_t","boundary","send","controller stateless",
-"control_server_t","boundary","flush","command",
-"control_server_t","boundary","control_server_t::get_session","property non-void-command collaborator",
-"control_server_t","boundary","control_server_t::call","void-accessor command collaborator",
-"control_server_t","boundary","control_server_t::iterate","command collaborator",
-"wlr_ram_t","entity boundary","capture","property non-void-command collaborator",
-"wlr_ram_t","entity boundary","snapshot","property non-void-command collaborator",
-"wlr_ram_t","entity boundary","init","property non-void-command collaborator",
-"wlr_ram_t","entity boundary","make_avcodec_encode_device","property wrapper",
-"wlr_ram_t","entity boundary","alloc_img","property wrapper",
-"_Impl","boundary degenerate small-class","_Impl","constructor",
-"_Impl","boundary degenerate small-class","run","wrapper stateless",
-"it_wrap_t","entity boundary","operator+=","property non-void-command collaborator",
-"it_wrap_t","entity boundary","operator-=","property non-void-command collaborator",
-"it_wrap_t","entity boundary","operator+","property non-void-command factory collaborator",
-"it_wrap_t","entity boundary","operator-","property non-void-command factory collaborator",
-"it_wrap_t","entity boundary","operator-","property non-void-command collaborator",
-"it_wrap_t","entity boundary","operator++","property non-void-command collaborator",
-"it_wrap_t","entity boundary","operator--","property non-void-command collaborator",
-"it_wrap_t","entity boundary","operator++","property non-void-command factory collaborator",
-"it_wrap_t","entity boundary","operator--","property non-void-command factory collaborator",
-"it_wrap_t","entity boundary","operator*","property non-void-command collaborator",
-"it_wrap_t","entity boundary","operator*","property collaborator",
-"it_wrap_t","entity boundary","operator->","property non-void-command collaborator",
-"it_wrap_t","entity boundary","operator->","property collaborator",
-"it_wrap_t","entity boundary","operator!=","predicate collaborator",
-"it_wrap_t","entity boundary","operator<","predicate collaborator",
-"it_wrap_t","entity boundary","operator>=","predicate collaborator",
-"it_wrap_t","entity boundary","operator<=","predicate collaborator",
-"it_wrap_t","entity boundary","operator==","predicate collaborator",
-"it_wrap_t","entity boundary","operator>","predicate collaborator",
-"it_wrap_t","entity boundary","_this","property collaborator",
-"it_wrap_t","entity boundary","_this","property collaborator",
-"buffer_t","boundary","buffer_t","constructor",
-"buffer_t","boundary","buffer_t","copy-constructor",
-"buffer_t","boundary","buffer_t","copy-constructor",
-"buffer_t","boundary","operator=","get wrapper",
-"buffer_t","boundary","buffer_t","constructor",
-"buffer_t","boundary","buffer_t","constructor",
-"buffer_t","boundary","operator[]","get collaborator",
-"buffer_t","boundary","operator[]","get collaborator",
-"buffer_t","boundary","size","get",
-"buffer_t","boundary","fake_resize","set",
-"buffer_t","boundary","begin","property non-void-command collaborator",
-"buffer_t","boundary","begin","property collaborator",
-"buffer_t","boundary","end","property non-void-command collaborator",
-"buffer_t","boundary","end","property collaborator",
-"buffer_t","boundary","buffer_t::make","controller stateless",
-"buffer_t","boundary","buffer_t::handle","get collaborator",
-"buffer_t","boundary","buffer_t::block","get",
-"buffer_t","boundary","buffer_t::update","command",
-"buffer_t","boundary","buffer_t::update","command collaborator",
-"d3d_base_encode_device","entity boundary","convert","property non-void-command collaborator",
-"d3d_base_encode_device","entity boundary","apply_colorspace","void-accessor command collaborator",
-"d3d_base_encode_device","entity boundary","init_output","property non-void-command",
-"d3d_base_encode_device","entity boundary","init","property non-void-command collaborator",
-"d3d_base_encode_device","entity boundary","initialize_image_context","property non-void-command collaborator",
-"encrypted_rtsp_header_t","data-provider boundary","payload","property",
-"encrypted_rtsp_header_t","data-provider boundary","payload_length","property wrapper",
-"encrypted_rtsp_header_t","data-provider boundary","is_encrypted","predicate wrapper",
-"socket_t","pure-controller degenerate small-class","socket_t","constructor",
-"socket_t","pure-controller degenerate small-class","read","controller stateless",
-"video_short_frame_header_t","data-provider small-class","payload","property",
-"video_packet_raw_t","data-provider small-class","payload","property",
-"undo_file_t","unclassified","undo_file_t::open_existing_file","controller stateless",
-"undo_file_t","unclassified","undo_file_t::create_new_file","controller stateless",
-"undo_file_t","unclassified","undo_file_t::delete_file","predicate non-void-command collaborator",
-"undo_file_t","unclassified","undo_file_t::write_undo_data","predicate non-void-command collaborator",
-"undo_file_t","unclassified","undo_file_t::read_undo_data","property non-void-command collaborator",
-"video_packet_enc_prefix_t","data-provider boundary small-class","payload","property collaborator",
-"audio_packet_raw_t","data-provider small-class","payload","property",
-"mail_raw_t","entity boundary","event","property non-void-command collaborator",
-"mail_raw_t","entity boundary","queue","property non-void-command collaborator",
-"mail_raw_t","entity boundary","cleanup","command collaborator",
-"shm_id_t","empty","shm_id_t","constructor",
-"shm_id_t","empty","shm_id_t","constructor",
-"shm_id_t","empty","shm_id_t","copy-constructor",
-"shm_id_t","empty","~shm_id_t","destructor",
-"TaskPool","boundary","push","property non-void-command collaborator",
-"TaskPool","boundary","pushDelayed","void-accessor command collaborator",
-"TaskPool","boundary","pushDelayed","property non-void-command collaborator",
-"TaskPool","boundary","delay","command collaborator",
-"TaskPool","boundary","cancel","predicate non-void-command collaborator",
-"TaskPool","boundary","pop","property controller",
-"TaskPool","boundary","pop","property non-void-command collaborator",
-"TaskPool","boundary","ready","predicate non-void-command collaborator",
-"TaskPool","boundary","next","property non-void-command collaborator",
-"TaskPool","boundary","toRunnable","wrapper stateless",
-"wrap_ptr","data-provider boundary data-class","wrap_ptr","constructor",
-"wrap_ptr","data-provider boundary data-class","wrap_ptr","constructor",
-"wrap_ptr","data-provider boundary data-class","wrap_ptr","constructor",
-"wrap_ptr","data-provider boundary data-class","wrap_ptr","copy-constructor",
-"wrap_ptr","data-provider boundary data-class","operator=","get non-void-command",
-"wrap_ptr","data-provider boundary data-class","operator=","get non-void-command collaborator",
-"wrap_ptr","data-provider boundary data-class","operator=","get non-void-command collaborator",
-"wrap_ptr","data-provider boundary data-class","~wrap_ptr","destructor",
-"wrap_ptr","data-provider boundary data-class","operator*","get collaborator",
-"wrap_ptr","data-provider boundary data-class","operator*","get collaborator",
-"wrap_ptr","data-provider boundary data-class","operator->","get collaborator",
-"wrap_ptr","data-provider boundary data-class","operator->","get collaborator",
-"card_t","data-provider boundary","init","property non-void-command",
-"card_t","data-provider boundary","fb","property wrapper",
-"card_t","data-provider boundary","crtc","property wrapper",
-"card_t","data-provider boundary","encoder","property wrapper",
-"card_t","data-provider boundary","res","property wrapper",
-"card_t","data-provider boundary","is_nvidia","wrapper stateless",
-"card_t","data-provider boundary","is_cursor","predicate non-void-command collaborator",
-"card_t","data-provider boundary","prop_value_by_name","collaborator incidental",
-"card_t","data-provider boundary","get_panel_orientation","property non-void-command collaborator",
-"card_t","data-provider boundary","get_crtc_index_by_id","property non-void-command",
-"card_t","data-provider boundary","connector","property wrapper",
-"card_t","data-provider boundary","monitors","property non-void-command collaborator",
-"card_t","data-provider boundary","handleFD","property wrapper",
-"card_t","data-provider boundary","props","property controller",
-"card_t","data-provider boundary","plane_props","property non-void-command collaborator",
-"card_t","data-provider boundary","crtc_props","property non-void-command collaborator",
-"card_t","data-provider boundary","connector_props","property non-void-command collaborator",
-"card_t","data-provider boundary","operator[]","property wrapper",
-"card_t","data-provider boundary","count","get",
-"card_t","data-provider boundary","begin","property wrapper",
-"card_t","data-provider boundary","end","property wrapper",
-"ThreadPool","boundary","ThreadPool","constructor",
-"ThreadPool","boundary","ThreadPool","constructor",
-"ThreadPool","boundary","~ThreadPool","destructor",
-"ThreadPool","boundary","push","property non-void-command collaborator",
-"ThreadPool","boundary","pushDelayed","void-accessor command collaborator",
-"ThreadPool","boundary","pushDelayed","property non-void-command collaborator",
-"ThreadPool","boundary","start","set",
-"ThreadPool","boundary","stop","set collaborator",
-"ThreadPool","boundary","join","controller",
-"ThreadPool","boundary","_main","command collaborator",
-"event_t","entity boundary","raise","void-accessor set collaborator",
-"event_t","entity boundary","pop","property set collaborator",
-"event_t","entity boundary","pop","property set collaborator",
-"event_t","entity boundary","view","get property non-void-command collaborator",
-"event_t","entity boundary","view","get property non-void-command collaborator",
-"event_t","entity boundary","peek","predicate",
-"event_t","entity boundary","stop","set collaborator",
-"event_t","entity boundary","reset","command collaborator",
-"event_t","entity boundary","running","get",
-"alarm_raw_t","entity boundary","ring","command collaborator",
-"alarm_raw_t","entity boundary","ring","void-accessor command collaborator",
-"alarm_raw_t","entity boundary","wait_for","get property non-void-command collaborator",
-"alarm_raw_t","entity boundary","wait_for","property non-void-command collaborator",
-"alarm_raw_t","entity boundary","wait_until","get property non-void-command collaborator",
-"alarm_raw_t","entity boundary","wait_until","property non-void-command collaborator",
-"alarm_raw_t","entity boundary","wait","get non-void-command collaborator",
-"alarm_raw_t","entity boundary","wait","property non-void-command collaborator",
-"alarm_raw_t","entity boundary","status","get collaborator",
-"alarm_raw_t","entity boundary","status","get collaborator",
-"alarm_raw_t","entity boundary","reset","command",
-"driver_settings_t","boundary","driver_settings_t::~driver_settings_t","destructor",
-"driver_settings_t","boundary","driver_settings_t::init","predicate non-void-command collaborator",
-"driver_settings_t","boundary","driver_settings_t::destroy","set",
-"driver_settings_t","boundary","driver_settings_t::load_settings","predicate non-void-command collaborator",
-"driver_settings_t","boundary","driver_settings_t::save_settings","predicate wrapper",
-"driver_settings_t","boundary","driver_settings_t::restore_global_profile_to_undo","predicate controller",
-"driver_settings_t","boundary","driver_settings_t::check_and_modify_global_profile","predicate controller",
-"driver_settings_t","boundary","driver_settings_t::check_and_modify_application_profile","predicate wrapper",
-"frag_t","data-provider boundary data-class small-class","frag_t","copy-constructor",
-"frag_t","data-provider boundary data-class small-class","frag_t","constructor",
-"frag_t","data-provider boundary data-class small-class","operator=","get wrapper",
-"frag_t","data-provider boundary data-class small-class","~frag_t","destructor",
-"point_t","boundary degenerate small-class","operator<<","collaborator incidental",
-"shared_t","boundary data-class small-class","shared_t","constructor",
-"shared_t","boundary data-class small-class","ref","property set collaborator",
-"post_t","empty","post_t","constructor",
-"post_t","empty","~post_t","destructor",
-"avcodec_encode_device_t","degenerate","convert","collaborator incidental",
-"avcodec_encode_device_t","degenerate","apply_colorspace","empty",
-"avcodec_encode_device_t","degenerate","set_frame","wrapper stateless",
-"avcodec_encode_device_t","degenerate","init_hwframes","empty",
-"avcodec_encode_device_t","degenerate","prepare_to_derive_context","incidental",
-"uniq_ptr","entity data-provider boundary","uniq_ptr","constructor",
-"uniq_ptr","entity data-provider boundary","uniq_ptr","constructor",
-"uniq_ptr","entity data-provider boundary","uniq_ptr","constructor",
-"uniq_ptr","entity data-provider boundary","uniq_ptr","constructor",
-"uniq_ptr","entity data-provider boundary","uniq_ptr","copy-constructor",
-"uniq_ptr","entity data-provider boundary","operator=","get non-void-command collaborator",
-"uniq_ptr","entity data-provider boundary","operator=","get non-void-command collaborator",
-"uniq_ptr","entity data-provider boundary","~uniq_ptr","destructor",
-"uniq_ptr","entity data-provider boundary","reset","set collaborator",
-"uniq_ptr","entity data-provider boundary","release","property set collaborator",
-"uniq_ptr","entity data-provider boundary","get","get collaborator",
-"uniq_ptr","entity data-provider boundary","get","get collaborator",
-"uniq_ptr","entity data-provider boundary","operator*","get collaborator",
-"uniq_ptr","entity data-provider boundary","operator*","get collaborator",
-"uniq_ptr","entity data-provider boundary","operator->","get collaborator",
-"uniq_ptr","entity data-provider boundary","operator->","get collaborator",
-"uniq_ptr","entity data-provider boundary","operator&","property collaborator",
-"uniq_ptr","entity data-provider boundary","operator&","property collaborator",
-"uniq_ptr","entity data-provider boundary","get_deleter","get collaborator",
-"uniq_ptr","entity data-provider boundary","get_deleter","get collaborator",
-"uniq_ptr","entity data-provider boundary","operatorbool","unclassified",
-"Destroy","boundary degenerate small-class","operator()","wrapper stateless",
-"DocsTestFixture","commander small-class","SetUp","command",
-"DocsTestFixture","commander small-class","TearDown","command",
-"avcodec_software_encode_device_t","boundary","convert","property non-void-command collaborator",
-"avcodec_software_encode_device_t","boundary","set_frame","property non-void-command collaborator",
-"avcodec_software_encode_device_t","boundary","apply_colorspace","command collaborator",
-"avcodec_software_encode_device_t","boundary","prefill","command",
-"avcodec_software_encode_device_t","boundary","init","property non-void-command",
-"DocsWorkingDirectoryBase","commander small-class","SetUp","command",
-"DocsWorkingDirectoryBase","commander small-class","TearDown","wrapper",
-"avcodec_encode_session_t","unclassified","avcodec_encode_session_t","constructor",
-"avcodec_encode_session_t","unclassified","~avcodec_encode_session_t","destructor",
-"avcodec_encode_session_t","unclassified","operator=","get non-void-command",
-"avcodec_encode_session_t","unclassified","convert","property non-void-command collaborator",
-"avcodec_encode_session_t","unclassified","request_idr_frame","unclassified",
-"avcodec_encode_session_t","unclassified","request_normal_frame","unclassified",
-"avcodec_encode_session_t","unclassified","invalidate_ref_frames","command",
-"nvenc_encode_session_t","commander","nvenc_encode_session_t","constructor",
-"nvenc_encode_session_t","commander","convert","property non-void-command collaborator",
-"nvenc_encode_session_t","commander","request_idr_frame","set",
-"nvenc_encode_session_t","commander","request_normal_frame","set",
-"nvenc_encode_session_t","commander","invalidate_ref_frames","set",
-"nvenc_encode_session_t","commander","encode_frame","property set collaborator",
-"co_init_t","empty","co_init_t","constructor",
-"co_init_t","empty","~co_init_t","destructor",
-"duplication_t","entity boundary","duplication_t::init","property non-void-command collaborator",
-"duplication_t","entity boundary","duplication_t::next_frame","property non-void-command collaborator",
-"duplication_t","entity boundary","duplication_t::reset","property non-void-command collaborator",
-"duplication_t","entity boundary","duplication_t::release_frame","property set collaborator",
-"duplication_t","entity boundary","duplication_t::~duplication_t","destructor",
-"encoder_platform_formats_nvenc","empty","encoder_platform_formats_nvenc","constructor",
-"packet_raw_generic","unclassified","packet_raw_generic","constructor",
-"packet_raw_generic","unclassified","is_idr","get",
-"packet_raw_generic","unclassified","frame_index","get",
-"packet_raw_generic","unclassified","data","property non-void-command",
-"packet_raw_generic","unclassified","data_size","property non-void-command",
-"MoveByCopy","data-class small-class","MoveByCopy","constructor",
-"MoveByCopy","data-class small-class","MoveByCopy","copy-constructor",
-"MoveByCopy","data-class small-class","operator=","get set",
-"MoveByCopy","data-class small-class","operatormove_type","wrapper",
-"DocsPythonVenvTest","commander small-class","SetUp","command",
-"DocsPythonVenvTest","commander small-class","TearDown","command",
-"DocsWorkingDirectoryTest","commander small-class","SetUp","command",
-"DocsWorkingDirectoryTest","commander small-class","TearDown","command",
-"va_ram_t","entity boundary small-class","convert","property non-void-command collaborator",
-"AudioTest","commander small-class","SetUp","command collaborator",
-"AudioTest","commander small-class","TearDown","command",
-"FileHandlerTests","commander small-class","SetUp","command",
-"FileHandlerTests","commander small-class","TearDown","command",
+"EncoderTest","commander small-class","SetUp","command"
+"EncoderTest","commander small-class","TearDown","command"
+"LoggerInitTest","commander small-class","SetUp","command"
+"LoggerInitTest","commander small-class","TearDown","command"
+"server_t","boundary","init","property non-void-command"
+"server_t","boundary","load_null","property non-void-command collaborator"
+"server_t","boundary","unload_null","property non-void-command collaborator"
+"server_t","boundary","sink_info","property non-void-command collaborator"
+"server_t","boundary","get_default_sink_name","property controller"
+"server_t","boundary","get_monitor_name","property controller"
+"server_t","boundary","microphone","property non-void-command collaborator"
+"server_t","boundary","set_sink","property non-void-command collaborator"
+"server_t","boundary","~server_t","destructor"
+"av_pixel_buf_t","data-provider boundary small-class","av_pixel_buf_t","constructor"
+"av_pixel_buf_t","data-provider boundary small-class","data","property wrapper"
+"av_pixel_buf_t","data-provider boundary small-class","~av_pixel_buf_t","destructor"
+"av_sample_buf_t","empty","av_sample_buf_t","constructor"
+"av_sample_buf_t","empty","~av_sample_buf_t","destructor"
+"shm_img_t","empty","~shm_img_t","destructor"
+"display_wgc_vram_t","entity boundary","display_wgc_vram_t::snapshot","property non-void-command collaborator"
+"display_wgc_vram_t","entity boundary","display_wgc_vram_t::release_snapshot","property non-void-command collaborator"
+"display_wgc_vram_t","entity boundary","display_wgc_vram_t::init","property non-void-command"
+"shm_data_t","empty","shm_data_t","constructor"
+"shm_data_t","empty","shm_data_t","constructor"
+"shm_data_t","empty","shm_data_t","copy-constructor"
+"shm_data_t","empty","~shm_data_t","destructor"
+"mdns_registration_t","empty","mdns_registration_t","constructor"
+"mdns_registration_t","empty","~mdns_registration_t","destructor"
+"rtsp_server_t","entity commander boundary","~rtsp_server_t","destructor"
+"rtsp_server_t","entity commander boundary","bind","property non-void-command collaborator"
+"rtsp_server_t","entity commander boundary","iterate","command collaborator"
+"rtsp_server_t","entity commander boundary","handle_msg","command collaborator"
+"rtsp_server_t","entity commander boundary","handle_accept","command collaborator"
+"rtsp_server_t","entity commander boundary","map","command collaborator"
+"rtsp_server_t","entity commander boundary","session_raise","command collaborator"
+"rtsp_server_t","entity commander boundary","session_clear","command collaborator"
+"rtsp_server_t","entity commander boundary","session_count","property"
+"rtsp_server_t","entity commander boundary","clear","command collaborator"
+"rtsp_server_t","entity commander boundary","clear","set collaborator"
+"rtsp_server_t","entity commander boundary","accept","property non-void-command collaborator"
+"frame_t","commander boundary data-class small-class","frame_t::destroy","set collaborator"
+"frame_t","commander boundary data-class small-class","frame_t::frame_t","constructor"
+"round_robin_t","unclassified","round_robin_t","constructor"
+"round_robin_t","unclassified","inc","set"
+"round_robin_t","unclassified","dec","set"
+"round_robin_t","unclassified","eq","predicate"
+"round_robin_t","unclassified","get","property collaborator"
+"interface_t","boundary","operator[]","get collaborator"
+"interface_t","boundary","interface_t::interface_t","constructor"
+"interface_t","boundary","interface_t::listen","wrapper"
+"interface_t","boundary","interface_t::add_interface","command"
+"interface_t","boundary","interface_t::del_interface","wrapper stateless"
+"gcm_t","entity boundary small-class","gcm_t::decrypt","property non-void-command collaborator"
+"gcm_t","entity boundary small-class","gcm_t::encrypt","property non-void-command collaborator"
+"gcm_t","entity boundary small-class","gcm_t::gcm_t","constructor"
+"MouseHIDTest","commander small-class","SetUp","command"
+"MouseHIDTest","commander small-class","TearDown","command"
+"va_vram_t","small-class","convert","property non-void-command collaborator"
+"va_vram_t","small-class","init","property non-void-command"
+"cap_sys_admin","empty","cap_sys_admin","constructor"
+"cap_sys_admin","empty","~cap_sys_admin","destructor"
+"cuda_vram_t","controller small-class","convert","property controller"
+"effect_t","commander boundary","effect_t","constructor"
+"effect_t","commander boundary","rumble","get set collaborator"
+"effect_t","commander boundary","upload","command collaborator"
+"effect_t","commander boundary","activate","command collaborator"
+"effect_t","commander boundary","deactivate","command collaborator"
+"effect_t","commander boundary","erase","command"
+"service_controller","data-provider boundary small-class","service_controller","constructor"
+"service_controller","data-provider boundary small-class","~service_controller","destructor"
+"service_controller","data-provider boundary small-class","start_service","predicate wrapper"
+"service_controller","data-provider boundary small-class","query_service_status","predicate wrapper"
+"client_input_raw_t","empty","client_input_raw_t","constructor"
+"client_input_raw_t","empty","client_input_raw_t","constructor"
+"client_input_raw_t","empty","client_input_raw_t","constructor"
+"client_input_raw_t","empty","~client_input_raw_t","destructor"
+"cursor_t","unclassified","cursor_t::make","controller stateless"
+"cursor_t","unclassified","cursor_t::capture","void-accessor command collaborator"
+"cursor_t","unclassified","cursor_t::blend","command"
+"display_ram_t","entity boundary","display_ram_t","constructor"
+"display_ram_t","entity boundary","init","property non-void-command collaborator"
+"display_ram_t","entity boundary","capture","property non-void-command collaborator"
+"display_ram_t","entity boundary","make_avcodec_encode_device","property wrapper"
+"display_ram_t","entity boundary","blend_cursor","command collaborator"
+"display_ram_t","entity boundary","display_ram_t::alloc_img","property wrapper"
+"display_ram_t","entity boundary","display_ram_t::complete_img","property non-void-command"
+"display_ram_t","entity boundary","display_ram_t::dummy_img","property non-void-command collaborator"
+"display_ram_t","entity boundary","display_ram_t::get_supported_capture_formats","collaborator incidental"
+"display_ram_t","entity boundary","display_ram_t::make_avcodec_encode_device","wrapper stateless"
+"shader_t","unclassified","shader_t::err_str","property non-void-command"
+"shader_t","unclassified","shader_t::compile","controller stateless"
+"shader_t","unclassified","shader_t::handle","property collaborator"
+"hdr_info_raw_t","empty","hdr_info_raw_t","constructor"
+"hdr_info_raw_t","empty","hdr_info_raw_t","constructor"
+"sws_t","boundary","sws_t::apply_colorspace","command collaborator"
+"sws_t","boundary","sws_t::make","controller stateless"
+"sws_t","boundary","sws_t::blank","property non-void-command collaborator"
+"sws_t","boundary","sws_t::make","property non-void-command collaborator"
+"sws_t","boundary","sws_t::load_ram","set collaborator"
+"sws_t","boundary","sws_t::load_vram","command collaborator"
+"sws_t","boundary","sws_t::convert","property controller"
+"control_header_v2","data-provider small-class","payload","property"
+"wlr_t","entity boundary","init","property non-void-command collaborator"
+"wlr_t","entity boundary","dummy_img","collaborator incidental"
+"wlr_t","entity boundary","snapshot","property non-void-command collaborator"
+"input_raw_t","commander boundary","input_raw_t","constructor"
+"input_raw_t","commander boundary","clear_mouse_rel","command collaborator"
+"input_raw_t","commander boundary","clear_keyboard","command collaborator"
+"input_raw_t","commander boundary","clear_mouse_abs","command collaborator"
+"input_raw_t","commander boundary","clear_gamepad","set collaborator"
+"input_raw_t","commander boundary","create_mouse_abs","property non-void-command"
+"input_raw_t","commander boundary","create_mouse_rel","property non-void-command"
+"input_raw_t","commander boundary","create_keyboard","property non-void-command"
+"input_raw_t","commander boundary","alloc_gamepad","property non-void-command collaborator"
+"input_raw_t","commander boundary","clear","command"
+"input_raw_t","commander boundary","~input_raw_t","destructor"
+"input_raw_t","commander boundary","~input_raw_t","destructor"
+"fec_t","data-provider","data","property"
+"fec_t","data-provider","prefix","property"
+"fec_t","data-provider","size","get"
+"ctx_t","empty","ctx_t","constructor"
+"ctx_t","empty","~ctx_t","destructor"
+"FailGuard","commander data-class small-class","FailGuard","constructor"
+"FailGuard","commander data-class small-class","FailGuard","copy-constructor"
+"FailGuard","commander data-class small-class","~FailGuard","destructor"
+"FailGuard","commander data-class small-class","disable","set"
+"Hex","data-provider","Hex","constructor"
+"Hex","data-provider","begin","get"
+"Hex","data-provider","end","property"
+"Hex","data-provider","begin","get"
+"Hex","data-provider","end","property"
+"Hex","data-provider","cbegin","get"
+"Hex","data-provider","cend","property"
+"Hex","data-provider","to_string","property"
+"Hex","data-provider","to_string_view","property collaborator"
+"gl_cuda_vram_t","entity boundary","init","property non-void-command collaborator"
+"gl_cuda_vram_t","entity boundary","set_frame","property non-void-command collaborator"
+"gl_cuda_vram_t","entity boundary","convert","property non-void-command collaborator"
+"gl_cuda_vram_t","entity boundary","apply_colorspace","command"
+"cuda_ram_t","small-class","convert","property controller"
+"cuda_ram_t","small-class","set_frame","property set collaborator"
+"nvenc_base","entity boundary","wait_for_async_event","incidental"
+"nvenc_base","entity boundary","nvenc_base::nvenc_base","constructor"
+"nvenc_base","entity boundary","nvenc_base::~nvenc_base","destructor"
+"nvenc_base","entity boundary","nvenc_base::create_encoder","predicate non-void-command collaborator"
+"nvenc_base","entity boundary","nvenc_base::destroy_encoder","command collaborator"
+"nvenc_base","entity boundary","nvenc_base::encode_frame","property non-void-command collaborator"
+"nvenc_base","entity boundary","nvenc_base::invalidate_ref_frames","predicate non-void-command collaborator"
+"nvenc_base","entity boundary","nvenc_base::nvenc_failed","predicate non-void-command collaborator"
+"nvenc_base","entity boundary","nvenc_base::min_struct_version","property"
+"wrapper_fb","empty","wrapper_fb","constructor"
+"wrapper_fb","empty","wrapper_fb","constructor"
+"wrapper_fb","empty","~wrapper_fb","destructor"
+"DocsPythonVenvBase","commander small-class","SetUp","command"
+"DocsPythonVenvBase","commander small-class","TearDown","command"
+"ecb_t","small-class","ecb_t::decrypt","property non-void-command"
+"ecb_t","small-class","ecb_t::encrypt","property non-void-command"
+"ecb_t","small-class","ecb_t::ecb_t","constructor"
+"kms_img_t","empty","~kms_img_t","destructor"
+"dmabuf_t","entity commander boundary","get_next_frame","property collaborator"
+"dmabuf_t","entity commander boundary","dmabuf_t::dmabuf_t","constructor"
+"dmabuf_t","entity commander boundary","dmabuf_t::listen","set collaborator"
+"dmabuf_t","entity commander boundary","dmabuf_t::~dmabuf_t","destructor"
+"dmabuf_t","entity commander boundary","dmabuf_t::frame","command collaborator"
+"dmabuf_t","entity commander boundary","dmabuf_t::object","command collaborator"
+"dmabuf_t","entity commander boundary","dmabuf_t::ready","command"
+"dmabuf_t","entity commander boundary","dmabuf_t::cancel","set collaborator"
+"gamepad_t","empty","gamepad_t","constructor"
+"gamepad_t","empty","~gamepad_t","destructor"
+"audio_control_t","boundary","sink_info","property non-void-command collaborator"
+"audio_control_t","boundary","get_sink_info","controller stateless"
+"audio_control_t","boundary","microphone","property non-void-command collaborator"
+"audio_control_t","boundary","set_format","property non-void-command collaborator"
+"audio_control_t","boundary","set_sink","property non-void-command collaborator"
+"audio_control_t","boundary","find_device_id_by_name","property non-void-command collaborator"
+"audio_control_t","boundary","reset_default_device","command"
+"audio_control_t","boundary","install_steam_audio_drivers","predicate non-void-command collaborator"
+"audio_control_t","boundary","init","property wrapper"
+"audio_control_t","boundary","~audio_control_t","destructor"
+"cuda_t","unclassified","init","property set"
+"cuda_t","unclassified","set_frame","property set collaborator"
+"cuda_t","unclassified","apply_colorspace","controller"
+"touch_port_t","small-class","operatorbool","unclassified"
+"Either","data-provider boundary","has_left","predicate wrapper"
+"Either","data-provider boundary","has_right","predicate wrapper"
+"Either","data-provider boundary","left","property wrapper"
+"Either","data-provider boundary","right","property wrapper"
+"Either","data-provider boundary","left","property wrapper"
+"Either","data-provider boundary","right","property wrapper"
+"qos_t","empty","qos_t","constructor"
+"qos_t","empty","~qos_t","destructor"
+"qos_t","empty","qos_t","constructor"
+"qos_t","empty","~qos_t","destructor"
+"temp_retain_av_img_t","empty","temp_retain_av_img_t","constructor"
+"cert_chain_t","entity commander boundary","cert_chain_t::cert_chain_t","constructor"
+"cert_chain_t","entity commander boundary","cert_chain_t::add","command collaborator"
+"cert_chain_t","entity commander boundary","cert_chain_t::clear","command"
+"cert_chain_t","entity commander boundary","cert_chain_t::verify","property non-void-command collaborator"
+"mic_attr_t","entity boundary small-class","sample","property non-void-command collaborator"
+"proc_t","boundary","proc_t","constructor"
+"proc_t","boundary","proc_t::execute","property non-void-command collaborator"
+"proc_t","boundary","proc_t::running","get property non-void-command"
+"proc_t","boundary","proc_t::terminate","command"
+"proc_t","boundary","proc_t::get_apps","get collaborator"
+"proc_t","boundary","proc_t::get_apps","get collaborator"
+"proc_t","boundary","proc_t::get_app_image","property non-void-command collaborator"
+"proc_t","boundary","proc_t::get_last_run_app_name","property"
+"proc_t","boundary","proc_t::~proc_t","destructor"
+"sync_t","boundary","lock","property wrapper"
+"sync_t","boundary","sync_t","constructor"
+"sync_t","boundary","operator=","get set"
+"sync_t","boundary","operator=","get set"
+"sync_t","boundary","operator=","get set collaborator"
+"sync_t","boundary","operator=","get set collaborator"
+"sync_t","boundary","operator=","get set collaborator"
+"sync_t","boundary","operator->","property collaborator"
+"sync_t","boundary","operator*","get collaborator"
+"sync_t","boundary","operator*","get collaborator"
+"mic_wasapi_t","entity boundary","sample","property set collaborator"
+"mic_wasapi_t","entity boundary","init","property non-void-command collaborator"
+"mic_wasapi_t","entity boundary","~mic_wasapi_t","destructor"
+"mic_wasapi_t","entity boundary","_fill_buffer","property non-void-command collaborator"
+"cbc_t","entity boundary small-class","cbc_t::encrypt","property non-void-command collaborator"
+"cbc_t","entity boundary small-class","cbc_t::cbc_t","constructor"
+"input_t","empty","input_t","constructor"
+"d3d_avcodec_encode_device_t","entity boundary","init","property non-void-command collaborator"
+"d3d_avcodec_encode_device_t","entity boundary","convert","property non-void-command collaborator"
+"d3d_avcodec_encode_device_t","entity boundary","apply_colorspace","command"
+"d3d_avcodec_encode_device_t","entity boundary","init_hwframes","collaborator incidental"
+"d3d_avcodec_encode_device_t","entity boundary","prepare_to_derive_context","property non-void-command collaborator"
+"d3d_avcodec_encode_device_t","entity boundary","set_frame","property non-void-command collaborator"
+"audio_notification_t","entity boundary degenerate","audio_notification_t","constructor"
+"audio_notification_t","entity boundary degenerate","AddRef","collaborator incidental"
+"audio_notification_t","entity boundary degenerate","Release","collaborator incidental"
+"audio_notification_t","entity boundary degenerate","QueryInterface","property non-void-command collaborator"
+"audio_notification_t","entity boundary degenerate","OnDefaultDeviceChanged","property non-void-command collaborator"
+"audio_notification_t","entity boundary degenerate","OnDeviceAdded","collaborator incidental"
+"audio_notification_t","entity boundary degenerate","OnDeviceRemoved","collaborator incidental"
+"audio_notification_t","entity boundary degenerate","OnDeviceStateChanged","collaborator incidental"
+"audio_notification_t","entity boundary degenerate","OnPropertyValueChanged","collaborator incidental"
+"audio_notification_t","entity boundary degenerate","check_default_render_device_changed","predicate non-void-command"
+"hash","boundary degenerate small-class","operator()","wrapper stateless"
+"min_max_avg_tracker","degenerate small-class","collect_and_callback_on_interval","wrapper stateless"
+"min_max_avg_tracker","degenerate small-class","reset","incidental"
+"nvenc_d3d11","unclassified","nvenc_d3d11::nvenc_d3d11","constructor"
+"nvenc_d3d11","unclassified","nvenc_d3d11::~nvenc_d3d11","destructor"
+"nvenc_d3d11","unclassified","nvenc_d3d11::get_input_texture","controller stateless"
+"nvenc_d3d11","unclassified","nvenc_d3d11::init_library","predicate non-void-command collaborator"
+"nvenc_d3d11","unclassified","nvenc_d3d11::create_and_register_input_buffer","predicate set collaborator"
+"encoder_platform_formats_avcodec","empty","encoder_platform_formats_avcodec","constructor"
+"program_t","boundary","program_t::err_str","property non-void-command"
+"program_t","boundary","program_t::link","controller stateless"
+"program_t","boundary","program_t::bind","command collaborator"
+"program_t","boundary","program_t::uniform","property non-void-command collaborator"
+"program_t","boundary","program_t::handle","property collaborator"
+"tex_t","pure-controller degenerate small-class","tex_t::~tex_t","destructor"
+"tex_t","pure-controller degenerate small-class","tex_t::make","controller stateless"
+"nv12_zero_device","entity boundary","nv12_zero_device::convert","property non-void-command collaborator"
+"nv12_zero_device","entity boundary","nv12_zero_device::set_frame","property set collaborator"
+"nv12_zero_device","entity boundary","nv12_zero_device::init","property non-void-command collaborator"
+"plane_it_t","unclassified","plane_it_t","constructor"
+"plane_it_t","unclassified","plane_it_t","constructor"
+"plane_it_t","unclassified","load_next_valid_plane","command collaborator"
+"plane_it_t","unclassified","inc","set"
+"plane_it_t","unclassified","eq","predicate"
+"plane_it_t","unclassified","get","property non-void-command collaborator"
+"SunshineHttpsServer","small-class","SunshineHttpsServer","constructor"
+"SunshineHttpsServer","small-class","after_bind","command"
+"SunshineHttpsServer","small-class","accept","controller"
+"deinit_t","controller","~deinit_t","destructor"
+"deinit_t","controller","deinit_t","constructor"
+"deinit_t","controller","~deinit_t","destructor"
+"deinit_t","controller","deinit_t","constructor"
+"deinit_t","controller","~deinit_t","destructor"
+"deinit_t","controller","~deinit_t","destructor"
+"deinit_t","controller","deinit_t","constructor"
+"deinit_t","controller","~deinit_t","destructor"
+"deinit_t","controller","create_ipv6_pinholes","predicate controller"
+"deinit_t","controller","map_upnp_port","controller stateless"
+"deinit_t","controller","unmap_all_upnp_ports","controller"
+"deinit_t","controller","upnp_thread_proc","command collaborator"
+"deinit_t","controller","deinit_t::~deinit_t","destructor"
+"va_t","entity boundary","init","property non-void-command collaborator"
+"va_t","entity boundary","set_frame","property non-void-command collaborator"
+"va_t","entity boundary","apply_colorspace","command"
+"wlr_vram_t","entity boundary","capture","property non-void-command collaborator"
+"wlr_vram_t","entity boundary","snapshot","property set collaborator"
+"wlr_vram_t","entity boundary","alloc_img","property wrapper"
+"wlr_vram_t","entity boundary","make_avcodec_encode_device","property wrapper"
+"wlr_vram_t","entity boundary","dummy_img","collaborator incidental"
+"display_vram_t","entity boundary","display_vram_t","constructor"
+"display_vram_t","entity boundary","make_avcodec_encode_device","property wrapper"
+"display_vram_t","entity boundary","alloc_img","property wrapper"
+"display_vram_t","entity boundary","dummy_img","collaborator incidental"
+"display_vram_t","entity boundary","capture","property non-void-command collaborator"
+"display_vram_t","entity boundary","snapshot","property set collaborator"
+"display_vram_t","entity boundary","init","property non-void-command collaborator"
+"display_vram_t","entity boundary","display_vram_t::alloc_img","property set collaborator"
+"display_vram_t","entity boundary","display_vram_t::complete_img","property non-void-command collaborator"
+"display_vram_t","entity boundary","display_vram_t::dummy_img","property non-void-command collaborator"
+"display_vram_t","entity boundary","display_vram_t::get_supported_capture_formats","collaborator incidental"
+"display_vram_t","entity boundary","display_vram_t::is_codec_supported","predicate non-void-command collaborator"
+"display_vram_t","entity boundary","display_vram_t::make_avcodec_encode_device","property non-void-command collaborator"
+"display_vram_t","entity boundary","display_vram_t::make_nvenc_encode_device","property non-void-command collaborator"
+"audio_fec_packet_raw_t","data-provider small-class","payload","property"
+"img_t","empty","~img_t","destructor"
+"img_t","empty","~img_t","destructor"
+"monitor_t","commander","xdg_done","empty"
+"monitor_t","commander","wl_geometry","empty"
+"monitor_t","commander","wl_done","empty"
+"monitor_t","commander","wl_scale","empty"
+"monitor_t","commander","monitor_t::monitor_t","constructor"
+"monitor_t","commander","monitor_t::xdg_name","set"
+"monitor_t","commander","monitor_t::xdg_description","set"
+"monitor_t","commander","monitor_t::xdg_position","command"
+"monitor_t","commander","monitor_t::xdg_size","wrapper stateless"
+"monitor_t","commander","monitor_t::wl_mode","command"
+"monitor_t","commander","monitor_t::listen","wrapper"
+"queue_t","entity minimal-entity boundary","queue_t","constructor"
+"queue_t","entity minimal-entity boundary","raise","command collaborator"
+"queue_t","entity minimal-entity boundary","peek","predicate non-void-command"
+"queue_t","entity minimal-entity boundary","pop","property non-void-command collaborator"
+"queue_t","entity minimal-entity boundary","pop","property non-void-command collaborator"
+"queue_t","entity minimal-entity boundary","unsafe","get collaborator"
+"queue_t","entity minimal-entity boundary","stop","set collaborator"
+"queue_t","entity minimal-entity boundary","running","get"
+"handle_t","boundary","handle_t","copy-constructor"
+"handle_t","boundary","operator=","get wrapper"
+"handle_t","boundary","last_error","property controller"
+"handle_t","boundary","status","property non-void-command collaborator"
+"handle_t","boundary","capture","property non-void-command collaborator"
+"handle_t","boundary","stop","property set collaborator"
+"handle_t","boundary","reset","property set collaborator"
+"handle_t","boundary","~handle_t","destructor"
+"display_t","entity boundary","display_t","constructor"
+"display_t","entity boundary","make_avcodec_encode_device","collaborator incidental"
+"display_t","entity boundary","make_nvenc_encode_device","collaborator incidental"
+"display_t","entity boundary","is_hdr","incidental"
+"display_t","entity boundary","get_hdr_metadata","wrapper stateless"
+"display_t","entity boundary","is_codec_supported","collaborator incidental"
+"display_t","entity boundary","log_sleep_overshoot","command collaborator"
+"display_t","entity boundary","init","property non-void-command collaborator"
+"display_t","entity boundary","capture","property non-void-command collaborator"
+"display_t","entity boundary","reinit","property non-void-command collaborator"
+"display_t","entity boundary","snapshot","property non-void-command collaborator"
+"display_t","entity boundary","make_avcodec_encode_device","property wrapper"
+"display_t","entity boundary","alloc_img","property wrapper"
+"display_t","entity boundary","dummy_img","incidental"
+"display_t","entity boundary","display_t","constructor"
+"display_t","entity boundary","init","property non-void-command collaborator"
+"display_t","entity boundary","is_hdr","predicate wrapper"
+"display_t","entity boundary","get_hdr_metadata","predicate non-void-command collaborator"
+"display_t","entity boundary","update_cursor","command"
+"display_t","entity boundary","refresh","property non-void-command collaborator"
+"display_t","entity boundary","get","property non-void-command collaborator"
+"display_t","entity boundary","display_t::init","property non-void-command"
+"display_t","entity boundary","display_t::roundtrip","command"
+"display_t","entity boundary","display_t::dispatch","predicate non-void-command collaborator"
+"display_t","entity boundary","display_t::registry","property non-void-command collaborator"
+"prop_var_t","empty","prop_var_t","constructor"
+"prop_var_t","empty","~prop_var_t","destructor"
+"prop_var_t","empty","prop_var_t","constructor"
+"prop_var_t","empty","~prop_var_t","destructor"
+"gpu_cursor_t","commander","gpu_cursor_t","constructor"
+"gpu_cursor_t","commander","set_pos","command"
+"gpu_cursor_t","commander","set_texture","command collaborator"
+"gpu_cursor_t","commander","update_viewport","command"
+"display_base_t","entity boundary","get_pixel_pitch","property"
+"display_base_t","entity boundary","display_base_t::high_precision_sleep","command collaborator"
+"display_base_t","entity boundary","display_base_t::capture","property non-void-command collaborator"
+"display_base_t","entity boundary","display_base_t::init","wrapper stateless"
+"display_base_t","entity boundary","display_base_t::dxgi_format_to_string","collaborator incidental"
+"display_base_t","entity boundary","display_base_t::colorspace_to_string","wrapper stateless"
+"display_ddup_ram_t","entity boundary","display_ddup_ram_t::snapshot","property non-void-command collaborator"
+"display_ddup_ram_t","entity boundary","display_ddup_ram_t::release_snapshot","property non-void-command collaborator"
+"display_ddup_ram_t","entity boundary","display_ddup_ram_t::init","property non-void-command"
+"display_ddup_vram_t","entity boundary","display_ddup_vram_t::snapshot","property non-void-command collaborator"
+"display_ddup_vram_t","entity boundary","display_ddup_vram_t::release_snapshot","property non-void-command collaborator"
+"display_ddup_vram_t","entity boundary","display_ddup_vram_t::init","property non-void-command collaborator"
+"wgc_capture_t","entity boundary","wgc_capture_t::wgc_capture_t","constructor"
+"wgc_capture_t","entity boundary","wgc_capture_t::~wgc_capture_t","destructor"
+"wgc_capture_t","entity boundary","wgc_capture_t::init","property non-void-command collaborator"
+"wgc_capture_t","entity boundary","wgc_capture_t::on_frame_arrived","set collaborator"
+"wgc_capture_t","entity boundary","wgc_capture_t::next_frame","property non-void-command collaborator"
+"wgc_capture_t","entity boundary","wgc_capture_t::release_frame","property set collaborator"
+"wgc_capture_t","entity boundary","wgc_capture_t::set_cursor_visible","property non-void-command"
+"display_wgc_ram_t","entity boundary","display_wgc_ram_t::init","property non-void-command"
+"display_wgc_ram_t","entity boundary","display_wgc_ram_t::snapshot","property non-void-command collaborator"
+"display_wgc_ram_t","entity boundary","display_wgc_ram_t::release_snapshot","property non-void-command collaborator"
+"img_d3d_t","empty","~img_d3d_t","destructor"
+"texture_lock_helper","small-class","texture_lock_helper","copy-constructor"
+"texture_lock_helper","small-class","operator=","get non-void-command"
+"texture_lock_helper","small-class","texture_lock_helper","constructor"
+"texture_lock_helper","small-class","~texture_lock_helper","destructor"
+"texture_lock_helper","small-class","lock","get predicate set collaborator"
+"nvprefs_interface","unclassified","nvprefs_interface::nvprefs_interface","constructor"
+"nvprefs_interface","unclassified","nvprefs_interface::~nvprefs_interface","destructor"
+"nvprefs_interface","unclassified","nvprefs_interface::load","predicate non-void-command collaborator"
+"nvprefs_interface","unclassified","nvprefs_interface::unload","set"
+"nvprefs_interface","unclassified","nvprefs_interface::restore_from_and_delete_undo_file_if_exists","predicate non-void-command"
+"nvprefs_interface","unclassified","nvprefs_interface::modify_application_profile","predicate non-void-command"
+"nvprefs_interface","unclassified","nvprefs_interface::modify_global_profile","predicate non-void-command collaborator"
+"nvprefs_interface","unclassified","nvprefs_interface::owning_undo_file","predicate non-void-command"
+"nvprefs_interface","unclassified","nvprefs_interface::restore_global_profile","predicate non-void-command"
+"control_encrypted_t","data-provider small-class","payload","property"
+"shm_attr_t","entity boundary","delayed_refresh","set"
+"shm_attr_t","entity boundary","shm_attr_t","constructor"
+"shm_attr_t","entity boundary","~shm_attr_t","destructor"
+"shm_attr_t","entity boundary","capture","property non-void-command collaborator"
+"shm_attr_t","entity boundary","snapshot","property non-void-command collaborator"
+"shm_attr_t","entity boundary","alloc_img","wrapper stateless"
+"shm_attr_t","entity boundary","dummy_img","collaborator incidental"
+"shm_attr_t","entity boundary","init","property non-void-command collaborator"
+"shm_attr_t","entity boundary","frame_size","incidental"
+"PlatformInitBase","commander small-class","SetUp","set"
+"PlatformInitBase","commander small-class","TearDown","command"
+"d3d_nvenc_encode_device_t","entity boundary","init_device","predicate non-void-command collaborator"
+"d3d_nvenc_encode_device_t","entity boundary","init_encoder","predicate non-void-command collaborator"
+"d3d_nvenc_encode_device_t","entity boundary","convert","property non-void-command collaborator"
+"frame_buf_t","controller","bind","controller"
+"frame_buf_t","controller","bind","command collaborator"
+"frame_buf_t","controller","frame_buf_t::~frame_buf_t","destructor"
+"frame_buf_t","controller","frame_buf_t::make","controller stateless"
+"frame_buf_t","controller","frame_buf_t::copy","controller"
+"vigem_t","entity commander boundary","init","property non-void-command collaborator"
+"vigem_t","entity commander boundary","alloc_gamepad_internal","property non-void-command collaborator"
+"vigem_t","entity commander boundary","free_target","command"
+"vigem_t","entity commander boundary","rumble","command collaborator"
+"vigem_t","entity commander boundary","set_rgb_led","command collaborator"
+"vigem_t","entity commander boundary","~vigem_t","destructor"
+"safe_handle","boundary degenerate small-class","operatorbool","wrapper stateless"
+"img_descriptor_t","commander boundary data-class small-class","~img_descriptor_t","destructor"
+"img_descriptor_t","commander boundary data-class small-class","reset","set collaborator"
+"prep_cmd_t","empty","prep_cmd_t","constructor"
+"prep_cmd_t","empty","prep_cmd_t","constructor"
+"safe_hlocal_deleter","boundary degenerate small-class","operator()","wrapper stateless"
+"BaseTest","entity commander boundary","BaseTest","constructor"
+"BaseTest","entity commander boundary","SetUp","command collaborator"
+"BaseTest","entity commander boundary","TearDown","command collaborator"
+"BaseTest","entity commander boundary","exec","property non-void-command"
+"packet_raw_avcodec","data-provider","packet_raw_avcodec","constructor"
+"packet_raw_avcodec","data-provider","~packet_raw_avcodec","destructor"
+"packet_raw_avcodec","data-provider","is_idr","predicate"
+"packet_raw_avcodec","data-provider","frame_index","property"
+"packet_raw_avcodec","data-provider","data","property"
+"packet_raw_avcodec","data-provider","data_size","property"
+"adl_serializer<opengl_swapchain_t>","degenerate small-class","undo_data_t::set_opengl_swapchain","empty"
+"control_server_t","commander boundary","bind","property set"
+"control_server_t","commander boundary","map","command collaborator"
+"control_server_t","commander boundary","send","controller stateless"
+"control_server_t","commander boundary","flush","command"
+"control_server_t","commander boundary","control_server_t::get_session","property non-void-command collaborator"
+"control_server_t","commander boundary","control_server_t::call","command collaborator"
+"control_server_t","commander boundary","control_server_t::iterate","command collaborator"
+"wlr_ram_t","entity boundary","capture","property non-void-command collaborator"
+"wlr_ram_t","entity boundary","snapshot","property non-void-command collaborator"
+"wlr_ram_t","entity boundary","init","property non-void-command collaborator"
+"wlr_ram_t","entity boundary","make_avcodec_encode_device","property wrapper"
+"wlr_ram_t","entity boundary","alloc_img","property wrapper"
+"_Impl","boundary degenerate small-class","_Impl","constructor"
+"_Impl","boundary degenerate small-class","run","wrapper stateless"
+"it_wrap_t","entity boundary","operator+=","property non-void-command collaborator"
+"it_wrap_t","entity boundary","operator-=","property non-void-command collaborator"
+"it_wrap_t","entity boundary","operator+","property non-void-command factory collaborator"
+"it_wrap_t","entity boundary","operator-","property non-void-command factory collaborator"
+"it_wrap_t","entity boundary","operator-","property non-void-command collaborator"
+"it_wrap_t","entity boundary","operator++","property non-void-command collaborator"
+"it_wrap_t","entity boundary","operator--","property non-void-command collaborator"
+"it_wrap_t","entity boundary","operator++","property non-void-command factory collaborator"
+"it_wrap_t","entity boundary","operator--","property non-void-command factory collaborator"
+"it_wrap_t","entity boundary","operator*","property non-void-command collaborator"
+"it_wrap_t","entity boundary","operator*","property collaborator"
+"it_wrap_t","entity boundary","operator->","property non-void-command collaborator"
+"it_wrap_t","entity boundary","operator->","property collaborator"
+"it_wrap_t","entity boundary","operator!=","predicate collaborator"
+"it_wrap_t","entity boundary","operator<","predicate collaborator"
+"it_wrap_t","entity boundary","operator>=","predicate collaborator"
+"it_wrap_t","entity boundary","operator<=","predicate collaborator"
+"it_wrap_t","entity boundary","operator==","predicate collaborator"
+"it_wrap_t","entity boundary","operator>","predicate collaborator"
+"it_wrap_t","entity boundary","_this","property collaborator"
+"it_wrap_t","entity boundary","_this","property collaborator"
+"buffer_t","boundary","buffer_t","constructor"
+"buffer_t","boundary","buffer_t","copy-constructor"
+"buffer_t","boundary","buffer_t","copy-constructor"
+"buffer_t","boundary","operator=","get wrapper"
+"buffer_t","boundary","buffer_t","constructor"
+"buffer_t","boundary","buffer_t","constructor"
+"buffer_t","boundary","operator[]","get collaborator"
+"buffer_t","boundary","operator[]","get collaborator"
+"buffer_t","boundary","size","get"
+"buffer_t","boundary","fake_resize","set"
+"buffer_t","boundary","begin","property non-void-command collaborator"
+"buffer_t","boundary","begin","property collaborator"
+"buffer_t","boundary","end","property non-void-command collaborator"
+"buffer_t","boundary","end","property collaborator"
+"buffer_t","boundary","buffer_t::make","controller stateless"
+"buffer_t","boundary","buffer_t::handle","property collaborator"
+"buffer_t","boundary","buffer_t::block","get"
+"buffer_t","boundary","buffer_t::update","command"
+"buffer_t","boundary","buffer_t::update","command collaborator"
+"d3d_base_encode_device","entity boundary","convert","property non-void-command collaborator"
+"d3d_base_encode_device","entity boundary","apply_colorspace","command collaborator"
+"d3d_base_encode_device","entity boundary","init_output","property non-void-command"
+"d3d_base_encode_device","entity boundary","init","property non-void-command collaborator"
+"d3d_base_encode_device","entity boundary","initialize_image_context","property non-void-command collaborator"
+"encrypted_rtsp_header_t","data-provider boundary","payload","property"
+"encrypted_rtsp_header_t","data-provider boundary","payload_length","property wrapper"
+"encrypted_rtsp_header_t","data-provider boundary","is_encrypted","predicate wrapper"
+"socket_t","pure-controller degenerate small-class","socket_t","constructor"
+"socket_t","pure-controller degenerate small-class","read","controller stateless"
+"video_short_frame_header_t","data-provider small-class","payload","property"
+"video_packet_raw_t","data-provider small-class","payload","property"
+"undo_file_t","unclassified","undo_file_t::open_existing_file","controller stateless"
+"undo_file_t","unclassified","undo_file_t::create_new_file","controller stateless"
+"undo_file_t","unclassified","undo_file_t::delete_file","predicate non-void-command collaborator"
+"undo_file_t","unclassified","undo_file_t::write_undo_data","predicate non-void-command collaborator"
+"undo_file_t","unclassified","undo_file_t::read_undo_data","property non-void-command collaborator"
+"video_packet_enc_prefix_t","data-provider boundary small-class","payload","property collaborator"
+"audio_packet_raw_t","data-provider small-class","payload","property"
+"uuid_t","data-provider","string","property controller"
+"uuid_t","data-provider","operator==","get"
+"uuid_t","data-provider","operator<","get"
+"uuid_t","data-provider","operator>","get"
+"mail_raw_t","entity boundary","event","property non-void-command collaborator"
+"mail_raw_t","entity boundary","queue","property non-void-command collaborator"
+"mail_raw_t","entity boundary","cleanup","command collaborator"
+"shm_id_t","empty","shm_id_t","constructor"
+"shm_id_t","empty","shm_id_t","constructor"
+"shm_id_t","empty","shm_id_t","copy-constructor"
+"shm_id_t","empty","~shm_id_t","destructor"
+"TaskPool","boundary","push","property non-void-command collaborator"
+"TaskPool","boundary","pushDelayed","command collaborator"
+"TaskPool","boundary","pushDelayed","property non-void-command collaborator"
+"TaskPool","boundary","delay","command collaborator"
+"TaskPool","boundary","cancel","predicate non-void-command collaborator"
+"TaskPool","boundary","pop","property controller"
+"TaskPool","boundary","pop","property non-void-command collaborator"
+"TaskPool","boundary","ready","predicate non-void-command collaborator"
+"TaskPool","boundary","next","property non-void-command collaborator"
+"TaskPool","boundary","toRunnable","wrapper stateless"
+"wrap_ptr","data-provider boundary data-class","wrap_ptr","constructor"
+"wrap_ptr","data-provider boundary data-class","wrap_ptr","constructor"
+"wrap_ptr","data-provider boundary data-class","wrap_ptr","constructor"
+"wrap_ptr","data-provider boundary data-class","wrap_ptr","copy-constructor"
+"wrap_ptr","data-provider boundary data-class","operator=","get non-void-command"
+"wrap_ptr","data-provider boundary data-class","operator=","get non-void-command collaborator"
+"wrap_ptr","data-provider boundary data-class","operator=","get non-void-command collaborator"
+"wrap_ptr","data-provider boundary data-class","~wrap_ptr","destructor"
+"wrap_ptr","data-provider boundary data-class","operator*","get collaborator"
+"wrap_ptr","data-provider boundary data-class","operator*","get collaborator"
+"wrap_ptr","data-provider boundary data-class","operator->","get collaborator"
+"wrap_ptr","data-provider boundary data-class","operator->","get collaborator"
+"card_t","data-provider boundary","init","property non-void-command"
+"card_t","data-provider boundary","fb","property wrapper"
+"card_t","data-provider boundary","crtc","property wrapper"
+"card_t","data-provider boundary","encoder","property wrapper"
+"card_t","data-provider boundary","res","property wrapper"
+"card_t","data-provider boundary","is_nvidia","wrapper stateless"
+"card_t","data-provider boundary","is_cursor","predicate non-void-command collaborator"
+"card_t","data-provider boundary","prop_value_by_name","collaborator incidental"
+"card_t","data-provider boundary","get_panel_orientation","property non-void-command collaborator"
+"card_t","data-provider boundary","get_crtc_index_by_id","property non-void-command"
+"card_t","data-provider boundary","connector","property wrapper"
+"card_t","data-provider boundary","monitors","property non-void-command collaborator"
+"card_t","data-provider boundary","handleFD","property wrapper"
+"card_t","data-provider boundary","props","property controller"
+"card_t","data-provider boundary","plane_props","property non-void-command collaborator"
+"card_t","data-provider boundary","crtc_props","property non-void-command collaborator"
+"card_t","data-provider boundary","connector_props","property non-void-command collaborator"
+"card_t","data-provider boundary","operator[]","property wrapper"
+"card_t","data-provider boundary","count","property"
+"card_t","data-provider boundary","begin","property wrapper"
+"card_t","data-provider boundary","end","property wrapper"
+"ThreadPool","commander boundary","ThreadPool","constructor"
+"ThreadPool","commander boundary","ThreadPool","constructor"
+"ThreadPool","commander boundary","~ThreadPool","destructor"
+"ThreadPool","commander boundary","push","property non-void-command collaborator"
+"ThreadPool","commander boundary","pushDelayed","command collaborator"
+"ThreadPool","commander boundary","pushDelayed","property non-void-command collaborator"
+"ThreadPool","commander boundary","start","set"
+"ThreadPool","commander boundary","stop","set collaborator"
+"ThreadPool","commander boundary","join","controller"
+"ThreadPool","commander boundary","_main","command collaborator"
+"event_t","entity boundary","raise","set collaborator"
+"event_t","entity boundary","pop","property set collaborator"
+"event_t","entity boundary","pop","property set collaborator"
+"event_t","entity boundary","view","get property non-void-command collaborator"
+"event_t","entity boundary","view","get property non-void-command collaborator"
+"event_t","entity boundary","peek","predicate"
+"event_t","entity boundary","stop","set collaborator"
+"event_t","entity boundary","reset","command collaborator"
+"event_t","entity boundary","running","get"
+"alarm_raw_t","entity boundary","ring","command collaborator"
+"alarm_raw_t","entity boundary","ring","command collaborator"
+"alarm_raw_t","entity boundary","wait_for","get property non-void-command collaborator"
+"alarm_raw_t","entity boundary","wait_for","property non-void-command collaborator"
+"alarm_raw_t","entity boundary","wait_until","get property non-void-command collaborator"
+"alarm_raw_t","entity boundary","wait_until","property non-void-command collaborator"
+"alarm_raw_t","entity boundary","wait","get non-void-command collaborator"
+"alarm_raw_t","entity boundary","wait","property non-void-command collaborator"
+"alarm_raw_t","entity boundary","status","get collaborator"
+"alarm_raw_t","entity boundary","status","get collaborator"
+"alarm_raw_t","entity boundary","reset","command"
+"driver_settings_t","boundary","driver_settings_t::~driver_settings_t","destructor"
+"driver_settings_t","boundary","driver_settings_t::init","predicate non-void-command collaborator"
+"driver_settings_t","boundary","driver_settings_t::destroy","set"
+"driver_settings_t","boundary","driver_settings_t::load_settings","predicate non-void-command collaborator"
+"driver_settings_t","boundary","driver_settings_t::save_settings","predicate wrapper"
+"driver_settings_t","boundary","driver_settings_t::restore_global_profile_to_undo","predicate controller"
+"driver_settings_t","boundary","driver_settings_t::check_and_modify_global_profile","predicate controller"
+"driver_settings_t","boundary","driver_settings_t::check_and_modify_application_profile","predicate wrapper"
+"frag_t","data-provider boundary data-class small-class","frag_t","copy-constructor"
+"frag_t","data-provider boundary data-class small-class","frag_t","constructor"
+"frag_t","data-provider boundary data-class small-class","operator=","get wrapper"
+"frag_t","data-provider boundary data-class small-class","~frag_t","destructor"
+"point_t","boundary degenerate small-class","operator<<","collaborator incidental"
+"shared_t","boundary data-class small-class","shared_t","constructor"
+"shared_t","boundary data-class small-class","ref","property set collaborator"
+"post_t","empty","post_t","constructor"
+"post_t","empty","~post_t","destructor"
+"avcodec_encode_device_t","degenerate","convert","collaborator incidental"
+"avcodec_encode_device_t","degenerate","apply_colorspace","empty"
+"avcodec_encode_device_t","degenerate","set_frame","wrapper stateless"
+"avcodec_encode_device_t","degenerate","init_hwframes","empty"
+"avcodec_encode_device_t","degenerate","prepare_to_derive_context","incidental"
+"uniq_ptr","entity data-provider boundary","uniq_ptr","constructor"
+"uniq_ptr","entity data-provider boundary","uniq_ptr","constructor"
+"uniq_ptr","entity data-provider boundary","uniq_ptr","constructor"
+"uniq_ptr","entity data-provider boundary","uniq_ptr","constructor"
+"uniq_ptr","entity data-provider boundary","uniq_ptr","copy-constructor"
+"uniq_ptr","entity data-provider boundary","operator=","get non-void-command collaborator"
+"uniq_ptr","entity data-provider boundary","operator=","get non-void-command collaborator"
+"uniq_ptr","entity data-provider boundary","~uniq_ptr","destructor"
+"uniq_ptr","entity data-provider boundary","reset","set collaborator"
+"uniq_ptr","entity data-provider boundary","release","property set collaborator"
+"uniq_ptr","entity data-provider boundary","get","get collaborator"
+"uniq_ptr","entity data-provider boundary","get","get collaborator"
+"uniq_ptr","entity data-provider boundary","operator*","get collaborator"
+"uniq_ptr","entity data-provider boundary","operator*","get collaborator"
+"uniq_ptr","entity data-provider boundary","operator->","get collaborator"
+"uniq_ptr","entity data-provider boundary","operator->","get collaborator"
+"uniq_ptr","entity data-provider boundary","operator&","property collaborator"
+"uniq_ptr","entity data-provider boundary","operator&","property collaborator"
+"uniq_ptr","entity data-provider boundary","get_deleter","get collaborator"
+"uniq_ptr","entity data-provider boundary","get_deleter","get collaborator"
+"uniq_ptr","entity data-provider boundary","operatorbool","unclassified"
+"Destroy","boundary degenerate small-class","operator()","wrapper stateless"
+"DocsTestFixture","commander small-class","SetUp","command"
+"DocsTestFixture","commander small-class","TearDown","command"
+"avcodec_software_encode_device_t","boundary","convert","property non-void-command collaborator"
+"avcodec_software_encode_device_t","boundary","set_frame","property non-void-command collaborator"
+"avcodec_software_encode_device_t","boundary","apply_colorspace","command collaborator"
+"avcodec_software_encode_device_t","boundary","prefill","command"
+"avcodec_software_encode_device_t","boundary","init","property non-void-command"
+"DocsWorkingDirectoryBase","commander small-class","SetUp","command"
+"DocsWorkingDirectoryBase","commander small-class","TearDown","wrapper"
+"avcodec_encode_session_t","unclassified","avcodec_encode_session_t","constructor"
+"avcodec_encode_session_t","unclassified","~avcodec_encode_session_t","destructor"
+"avcodec_encode_session_t","unclassified","operator=","get non-void-command"
+"avcodec_encode_session_t","unclassified","convert","property non-void-command collaborator"
+"avcodec_encode_session_t","unclassified","request_idr_frame","unclassified"
+"avcodec_encode_session_t","unclassified","request_normal_frame","unclassified"
+"avcodec_encode_session_t","unclassified","invalidate_ref_frames","command"
+"nvenc_encode_session_t","commander","nvenc_encode_session_t","constructor"
+"nvenc_encode_session_t","commander","convert","property non-void-command collaborator"
+"nvenc_encode_session_t","commander","request_idr_frame","set"
+"nvenc_encode_session_t","commander","request_normal_frame","set"
+"nvenc_encode_session_t","commander","invalidate_ref_frames","set"
+"nvenc_encode_session_t","commander","encode_frame","property set collaborator"
+"co_init_t","empty","co_init_t","constructor"
+"co_init_t","empty","~co_init_t","destructor"
+"duplication_t","entity boundary","duplication_t::init","property non-void-command collaborator"
+"duplication_t","entity boundary","duplication_t::next_frame","property non-void-command collaborator"
+"duplication_t","entity boundary","duplication_t::reset","property non-void-command collaborator"
+"duplication_t","entity boundary","duplication_t::release_frame","property set collaborator"
+"duplication_t","entity boundary","duplication_t::~duplication_t","destructor"
+"encoder_platform_formats_nvenc","empty","encoder_platform_formats_nvenc","constructor"
+"packet_raw_generic","unclassified","packet_raw_generic","constructor"
+"packet_raw_generic","unclassified","is_idr","get"
+"packet_raw_generic","unclassified","frame_index","get"
+"packet_raw_generic","unclassified","data","property non-void-command"
+"packet_raw_generic","unclassified","data_size","property non-void-command"
+"MoveByCopy","data-class small-class","MoveByCopy","constructor"
+"MoveByCopy","data-class small-class","MoveByCopy","copy-constructor"
+"MoveByCopy","data-class small-class","operator=","get set"
+"MoveByCopy","data-class small-class","operatormove_type","wrapper"
+"DocsPythonVenvTest","commander small-class","SetUp","command"
+"DocsPythonVenvTest","commander small-class","TearDown","command"
+"DocsWorkingDirectoryTest","commander small-class","SetUp","command"
+"DocsWorkingDirectoryTest","commander small-class","TearDown","command"
+"va_ram_t","entity boundary small-class","convert","property non-void-command collaborator"
+"AudioTest","commander small-class","SetUp","command collaborator"
+"AudioTest","commander small-class","TearDown","command"
+"FileHandlerTests","commander small-class","SetUp","command"
+"FileHandlerTests","commander small-class","TearDown","command"

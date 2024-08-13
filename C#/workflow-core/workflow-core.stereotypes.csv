@@ -1,1074 +1,1065 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"SingleNodeLockProviderTests","factory degenerate small-class","CreateProvider","factory collaborator stateless",
-"WorkflowRegistryFixture","commander","WorkflowRegistryFixture","constructor",
-"WorkflowRegistryFixture","commander","getdefinition_should_return_existing_workflow","command",
-"WorkflowRegistryFixture","commander","getdefinition_should_return_null_on_unknown","command",
-"WorkflowRegistryFixture","commander","getdefinition_should_return_highest_version_workflow","command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","WorkflowMiddlewareRunnerTests","constructor",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPreMiddleware_should_run_nothing_when_no_middleware","command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPreMiddleware_should_run_middleware_when_one_middleware","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPreMiddleware_should_run_all_middleware_when_multiple_middleware","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPreMiddleware_should_only_run_middleware_in_PreWorkflow_phase","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_run_nothing_when_no_middleware","command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_run_middleware_when_one_middleware","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_run_all_middleware_when_multiple_middleware","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_only_run_middleware_in_PostWorkflow_phase","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_call_top_level_error_handler_when_middleware_throws","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_call_error_handler_on_workflow_def_when_middleware_throws_and_def_has_handler","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_run_nothing_when_no_middleware","command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_run_middleware_when_one_middleware","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_run_all_middleware_when_multiple_middleware","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_only_run_middleware_in_ExecuteWorkflow_phase","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_call_top_level_error_handler_when_middleware_throws","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_call_error_handler_on_workflow_def_when_middleware_throws_and_def_has_handler","non-void-command collaborator",
-"WorkflowMiddlewareRunnerTests","commander boundary","BuildWorkflowMiddleware","wrapper stateless",
-"ScopeProviderTests","commander boundary small-class","ScopeProviderTests","constructor",
-"ScopeProviderTests","commander boundary small-class","ReturnsServiceScope_CreateScopeCalled","command collaborator",
-"SqlitePersistenceProviderFixture","factory pure-controller small-class","SqlitePersistenceProviderFixture","constructor",
-"SqlitePersistenceProviderFixture","factory pure-controller small-class","get","factory controller",
-"SqlServerPersistenceProviderFixture","factory pure-controller small-class","SqlServerPersistenceProviderFixture","constructor",
-"SqlServerPersistenceProviderFixture","factory pure-controller small-class","get","factory controller",
-"SqlServerWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerForEachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerDelayScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerCompenstationScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"RedisForeachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"RedisBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"RedisDockerSetup","entity boundary small-class","RedisDockerSetup","constructor",
-"RedisDockerSetup","entity boundary small-class","InitializeAsync","set collaborator",
-"RedisDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator",
-"PostgresWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"PostgresRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"PostgresIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"PostgresEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"PostgresActivityScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"PostgresPersistenceProviderFixture","empty","PostgresPersistenceProviderFixture","constructor",
-"BasePersistenceFixture","commander boundary","CreateNewWorkflow_should_generate_id","command collaborator",
-"BasePersistenceFixture","commander boundary","GetWorkflowInstance_should_retrieve_workflow","command collaborator",
-"BasePersistenceFixture","commander boundary","GetWorkflowInstances_should_retrieve_workflows","command collaborator",
-"BasePersistenceFixture","commander boundary","PersistWorkflow","command collaborator",
-"BasePersistenceFixture","commander boundary","PersistWorkflow_with_subscriptions","command collaborator",
-"BasePersistenceFixture","commander boundary","ConcurrentPersistWorkflow","controller",
-"MysqlWhenScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MysqlUserScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MysqlRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MysqlEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerDynamicDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MysqlBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MysqlPersistenceProviderFixture","empty","MysqlPersistenceProviderFixture","constructor",
-"MysqlDockerSetup","entity boundary small-class","MysqlDockerSetup","constructor",
-"MysqlDockerSetup","entity boundary small-class","InitializeAsync","non-void-command collaborator",
-"MysqlDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator",
-"MemberMapParameterTests","pure-controller degenerate","should_assign_input","controller stateless",
-"MemberMapParameterTests","pure-controller degenerate","should_assign_output","controller stateless",
-"MemberMapParameterTests","pure-controller degenerate","should_convert_input","controller stateless",
-"MemberMapParameterTests","pure-controller degenerate","should_convert_output","controller stateless",
-"MongoWhenScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MongoSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MongoIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MongoDataScenario","pure-controller degenerate small-class","MongoDataScenario","constructor",
-"MongoDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MongoCompensationScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MongoPersistenceProviderFixture","factory pure-controller degenerate small-class","MongoPersistenceProviderFixture","constructor",
-"MongoPersistenceProviderFixture","factory pure-controller degenerate small-class","get","factory controller stateless",
-"ElasticsearchIndexerTests","factory degenerate small-class","ElasticsearchIndexerTests","constructor",
-"ElasticsearchIndexerTests","factory degenerate small-class","CreateService","factory collaborator stateless",
-"ElasticsearchDockerSetup","entity boundary small-class","ElasticsearchDockerSetup","constructor",
-"ElasticsearchDockerSetup","entity boundary small-class","InitializeAsync","set collaborator",
-"ElasticsearchDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator",
-"DynamoWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamoIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamoEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MysqlSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamoDynamicDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamoDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamoCompensationScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamoBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerWhenScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamoPersistenceProviderFixture","boundary small-class","DynamoPersistenceProviderFixture","constructor",
-"DynamoPersistenceProviderFixture","boundary small-class","get","get set collaborator",
-"DynamoDbDockerSetup","lazy-class small-class","PublishConnectionInfo","set",
-"DynamoDbDockerSetup","lazy-class small-class","TestReady","controller stateless",
-"MysqlWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"UserScenario","commander boundary small-class","UserScenario","constructor",
-"UserScenario","commander boundary small-class","Scenario","command collaborator",
-"StoredJsonScenario","commander boundary","StoredJsonScenario","constructor",
-"StoredJsonScenario","commander boundary","should_execute_branch1","command collaborator",
-"StoredJsonScenario","commander boundary","should_execute_branch2","command collaborator",
-"StoredJsonScenario","commander boundary","should_execute_json_workflow_with_dynamic_data","command collaborator",
-"MultistepCompensationScenario2","commander boundary small-class","MultistepCompensationScenario2","constructor",
-"MultistepCompensationScenario2","commander boundary small-class","MultiCompensationStepOrder","command collaborator",
-"MiddlewareScenario","commander boundary small-class","MiddlewareScenario","constructor",
-"MiddlewareScenario","commander boundary small-class","ConfigureServices","command collaborator",
-"MiddlewareScenario","commander boundary small-class","Should_run_all_workflow_and_step_middleware","non-void-command collaborator",
-"SearchIndexTests","commander boundary","SearchIndexTests","constructor",
-"SearchIndexTests","commander boundary","BuildTestData","factory collaborator stateless",
-"SearchIndexTests","commander boundary","should_search_on_reference","command collaborator",
-"SearchIndexTests","commander boundary","should_search_on_custom_data","command collaborator",
-"SearchIndexTests","commander boundary","should_filter_on_custom_data","command collaborator",
-"SearchIndexTests","commander boundary","should_filter_on_alt_custom_data_with_conflicting_names","command collaborator",
-"SearchIndexTests","commander boundary","should_filter_on_reference","command collaborator",
-"SearchIndexTests","commander boundary","should_filter_on_status","command collaborator",
-"SearchIndexTests","commander boundary","should_filter_on_date_range","command collaborator",
-"ForkScenario","commander small-class","Scenario","command",
-"EventScenario","commander boundary small-class","EventScenario","constructor",
-"EventScenario","commander boundary small-class","Scenario","command collaborator",
-"EventOrderScenario","commander boundary small-class","EventOrderScenario","constructor",
-"EventOrderScenario","commander boundary small-class","Scenario","command collaborator",
-"DiAutoFacTransientScenario","commander boundary small-class","DiAutoFacTransientScenario","constructor",
-"DiAutoFacTransientScenario","commander boundary small-class","Scenario","command collaborator",
-"DiMsScopedScenario","commander boundary small-class","DiMsScopedScenario","constructor",
-"DiMsScopedScenario","commander boundary small-class","Scenario","command collaborator",
-"Dependency2","empty","Dependency2","constructor",
-"DelayWorkflow","commander boundary small-class","Build","command collaborator",
-"DecisionScenario","commander boundary small-class","DecisionScenario","constructor",
-"DecisionScenario","commander boundary small-class","Scenario1","command collaborator",
-"DecisionScenario","commander boundary small-class","Scenario2","command collaborator",
-"BasicScenario","commander boundary small-class","BasicScenario","constructor",
-"BasicScenario","commander boundary small-class","Scenario","command collaborator",
-"BaseScenario<TWorkflow,TData>","unclassified","BaseScenario","constructor",
-"BaseScenario<TWorkflow,TData>","unclassified","Setup","command collaborator",
-"BaseScenario<TWorkflow,TData>","unclassified","Configure","controller stateless",
-"BaseScenario<TWorkflow,TData>","unclassified","Dispose","command",
-"DockerSetup","entity commander boundary","DockerSetup","constructor",
-"DockerSetup","entity commander boundary","StartContainer","non-void-command collaborator",
-"DockerSetup","entity commander boundary","PullImage","non-void-command collaborator",
-"DockerSetup","entity commander boundary","Dispose","command",
-"DockerSetup","entity commander boundary","GetFreePort","property non-void-command collaborator",
-"NUnitTest","commander small-class","Setup","command",
-"NUnitTest","commander small-class","NUnit_workflow_test_sample","command collaborator",
-"LogMessage","entity boundary small-class","LogMessage","copy-constructor",
-"LogMessage","entity boundary small-class","RunAsync","property non-void-command collaborator",
-"PrintWorkflowSummaryMiddleware","entity boundary small-class","PrintWorkflowSummaryMiddleware","copy-constructor",
-"PrintWorkflowSummaryMiddleware","entity boundary small-class","HandleAsync","property non-void-command collaborator",
-"AddMetadataToLogsMiddleware","entity boundary small-class","AddMetadataToLogsMiddleware","copy-constructor",
-"AddMetadataToLogsMiddleware","entity boundary small-class","HandleAsync","property non-void-command collaborator",
-"FlakyConnectionWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"ActivityWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"UndoTask3","boundary degenerate small-class","Run","wrapper stateless",
-"MongoRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"UndoTask1","boundary degenerate small-class","Run","wrapper stateless",
-"Task3","boundary degenerate small-class","Run","wrapper stateless",
-"Task1","boundary degenerate small-class","Run","wrapper stateless",
-"PostgresDynamicDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"OutcomeWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"MongoDockerSetup","entity boundary small-class","MongoDockerSetup","constructor",
-"MongoDockerSetup","entity boundary small-class","InitializeAsync","set collaborator",
-"MongoDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator",
-"PrintMessage","boundary degenerate","Run","wrapper stateless",
-"PrintMessage","boundary degenerate","Run","wrapper stateless",
-"PrintMessage","boundary degenerate","Run","wrapper stateless",
-"WhileWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"IncrementStep","boundary data-class small-class","Run","property set collaborator",
-"ForEachSyncWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"MysqlDelayScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SayHello","boundary degenerate","Run","wrapper stateless",
-"SayHello","boundary degenerate","Run","wrapper stateless",
-"SayHello","boundary degenerate","Run","wrapper stateless",
-"SayHello","boundary degenerate","Run","wrapper stateless",
-"SayHello","boundary degenerate","Run","wrapper stateless",
-"SayHello","boundary degenerate","Run","wrapper stateless",
-"DoSomething","entity boundary degenerate","Run","wrapper stateless",
-"DoSomething","entity boundary degenerate","Run","wrapper stateless",
-"DoSomething","entity boundary degenerate","Run","wrapper stateless",
-"DoSomething","entity boundary degenerate","DoSomething","constructor",
-"DoSomething","entity boundary degenerate","Run","property non-void-command collaborator",
-"MysqlForeachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DisplayContext","boundary degenerate small-class","Run","wrapper stateless",
-"DisplayContext","boundary degenerate small-class","Run","wrapper stateless",
-"TaskD","boundary degenerate small-class","Run","wrapper stateless",
-"TaskC","boundary degenerate small-class","Run","wrapper stateless",
-"TaskB","boundary degenerate small-class","Run","wrapper stateless",
-"TaskA","boundary degenerate small-class","Run","wrapper stateless",
-"MultipleOutcomeWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"SleepStep","data-provider boundary small-class","Run","property wrapper",
-"EventSampleWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"AddNumbers","boundary data-class small-class","RunAsync","property set collaborator",
-"AddNumbers","boundary data-class small-class","Run","property set collaborator",
-"PassingDataWorkflow2","pure-controller degenerate small-class","Build","controller stateless",
-"PollyRetryMiddleware","entity boundary small-class","PollyRetryMiddleware","copy-constructor",
-"PollyRetryMiddleware","entity boundary small-class","HandleAsync","wrapper stateless",
-"PollyRetryMiddleware","entity boundary small-class","UpdateRetryCount","property non-void-command collaborator",
-"PassingDataWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"RandomOutput","pure-controller degenerate small-class","Run","controller stateless",
-"RandomOutput","pure-controller degenerate small-class","Run","controller stateless",
-"SimpleDecisionWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"HelloWorld","boundary degenerate","Run","wrapper stateless",
-"HelloWorld","boundary degenerate","Run","wrapper stateless",
-"HelloWorld","boundary degenerate","Run","wrapper stateless",
-"HelloWorld","boundary degenerate","Run","wrapper stateless",
-"HelloWorld","boundary degenerate","Run","wrapper stateless",
-"HelloWorld","boundary degenerate","Run","wrapper stateless",
-"HelloWorldWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"HelloWorldWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"TestWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"Startup","pure-controller degenerate","Startup","constructor",
-"Startup","pure-controller degenerate","ConfigureServices","controller stateless",
-"Startup","pure-controller degenerate","Configure","controller stateless",
-"Startup","pure-controller degenerate","ConfigureServices","controller stateless",
-"Startup","pure-controller degenerate","Configure","controller stateless",
-"SqlServerQueueProviderMigrator","commander boundary","SqlServerQueueProviderMigrator","constructor",
-"SqlServerQueueProviderMigrator","commander boundary","MigrateDbAsync","non-void-command collaborator",
-"SqlServerQueueProviderMigrator","commander boundary","CreateService","non-void-command collaborator",
-"SqlServerQueueProviderMigrator","commander boundary","CreateQueue","non-void-command collaborator",
-"SqlServerQueueProviderMigrator","commander boundary","CreateContract","non-void-command collaborator",
-"SqlServerQueueProviderMigrator","commander boundary","CreateMessageType","non-void-command collaborator",
-"SqlServerQueueProviderMigrator","commander boundary","CreateDbAsync","non-void-command collaborator",
-"SqlServerQueueProviderMigrator","commander boundary","EnableBroker","non-void-command collaborator",
-"SqlServerQueueProvider","commander boundary","SqlServerQueueProvider","copy-constructor",
-"SqlServerQueueProvider","commander boundary","Start","non-void-command collaborator",
-"SqlServerQueueProvider","commander boundary","Stop","empty",
-"SqlServerQueueProvider","commander boundary","Dispose","command",
-"SqlServerQueueProvider","commander boundary","QueueWork","non-void-command collaborator",
-"SqlServerQueueProvider","commander boundary","DequeueWork","property non-void-command collaborator",
-"SqlCommandExecutor","pure-controller degenerate small-class","ExecuteScalarAsync<TResult>","controller stateless",
-"SqlCommandExecutor","pure-controller degenerate small-class","ExecuteCommandAsync","controller stateless",
-"ActivityScenario","commander boundary small-class","ActivityScenario","constructor",
-"ActivityScenario","commander boundary small-class","Scenario","command collaborator",
-"ScheduleWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"LifeCycleEventPublisherTests","pure-controller degenerate","PublishNotification_WhenStarted_PublishesNotification","controller stateless",
-"LifeCycleEventPublisherTests","pure-controller degenerate","PublishNotification_WhenRestarted_PublishesNotification","controller stateless",
-"LifeCycleEventPublisherTests","pure-controller degenerate","PublishNotification_Disabled","controller stateless",
-"xUnitTest","commander boundary small-class","xUnitTest","constructor",
-"xUnitTest","commander boundary small-class","MyWorkflow","command collaborator",
-"RedisQueueProvider","entity commander boundary","RedisQueueProvider","constructor",
-"RedisQueueProvider","entity commander boundary","QueueWork","non-void-command collaborator",
-"RedisQueueProvider","entity commander boundary","DequeueWork","property non-void-command collaborator",
-"RedisQueueProvider","entity commander boundary","Start","non-void-command collaborator",
-"RedisQueueProvider","entity commander boundary","Stop","non-void-command collaborator",
-"RedisQueueProvider","entity commander boundary","Dispose","empty",
-"When","small-class","Run","property non-void-command collaborator",
-"When","small-class","GetSwitchOutcome","controller stateless",
-"MongoWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SagaContainer<TStepBody>","entity boundary small-class","PrimeForRetry","void-accessor command collaborator",
-"ExpressionOutcome<TData>","boundary degenerate small-class","ExpressionOutcome","constructor",
-"ExpressionOutcome<TData>","boundary degenerate small-class","Matches","wrapper stateless",
-"ExpressionOutcome<TData>","boundary degenerate small-class","Matches","wrapper stateless",
-"SqlDockerSetup","entity boundary small-class","SqlDockerSetup","constructor",
-"SqlDockerSetup","entity boundary small-class","InitializeAsync","non-void-command collaborator",
-"SqlDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator",
-"Task2","boundary degenerate small-class","Run","collaborator stateless",
-"Schedule","pure-controller degenerate small-class","Run","controller stateless",
-"StoredYamlScenario","commander boundary small-class","StoredYamlScenario","constructor",
-"StoredYamlScenario","commander boundary small-class","should_execute_yaml_workflow","command collaborator",
-"If","controller small-class","Run","property controller",
-"EndStep","boundary degenerate small-class","InitForExecution","collaborator incidental",
-"StepExecutor","entity boundary small-class","StepExecutor","constructor",
-"StepExecutor","entity boundary small-class","ExecuteStep","property non-void-command collaborator",
-"ControlStructures","pure-controller degenerate","BuildTargetModel","controller stateless",
-"ControlStructures","pure-controller degenerate","Up","controller stateless",
-"ControlStructures","pure-controller degenerate","Down","controller stateless",
-"ControlStructures","pure-controller degenerate","BuildTargetModel","controller stateless",
-"ControlStructures","pure-controller degenerate","Up","controller stateless",
-"ControlStructures","pure-controller degenerate","Down","controller stateless",
-"ControlStructures","pure-controller degenerate","BuildTargetModel","controller stateless",
-"ControlStructures","pure-controller degenerate","Up","controller stateless",
-"ControlStructures","pure-controller degenerate","Down","controller stateless",
-"Decide","data-provider boundary small-class","Run","property wrapper",
-"IfWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"Activity","boundary data-class small-class","Run","property set collaborator",
-"ParallelWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"DefaultRabbitMqQueueNameProvider","boundary degenerate small-class","GetQueueName","collaborator incidental",
-"StepOutcomeBuilder<TData>","factory controller data-class","StepOutcomeBuilder","constructor",
-"StepOutcomeBuilder<TData>","factory controller data-class","Then<TStep>","set factory collaborator",
-"StepOutcomeBuilder<TData>","factory controller data-class","Then<TStep>","set factory collaborator",
-"StepOutcomeBuilder<TData>","factory controller data-class","Then","set factory collaborator",
-"StepOutcomeBuilder<TData>","factory controller data-class","EndWorkflow","set collaborator",
-"ValueOutcome","entity boundary","Matches","predicate non-void-command collaborator",
-"ValueOutcome","entity boundary","Matches","predicate non-void-command collaborator",
-"ValueOutcome","entity boundary","GetValue","property non-void-command collaborator",
-"ValueOutcome","entity boundary","set","set collaborator",
-"StepBody","factory degenerate","RunAsync","wrapper stateless",
-"StepBody","factory degenerate","OutcomeResult","factory collaborator incidental",
-"StepBody","factory degenerate","PersistResult","factory collaborator incidental",
-"StepBody","factory degenerate","SleepResult","factory collaborator incidental",
-"DelayScenario","commander boundary small-class","DelayScenario","constructor",
-"DelayScenario","commander boundary small-class","Scenario","command collaborator",
-"ParallelStepBuilder<TData,TStepBody>","boundary data-class small-class","ParallelStepBuilder","constructor",
-"ParallelStepBuilder<TData,TStepBody>","boundary data-class small-class","Do","get non-void-command collaborator",
-"ParallelStepBuilder<TData,TStepBody>","boundary data-class small-class","Join","get collaborator",
-"DiStep1","boundary degenerate small-class","DiStep1","constructor",
-"DiStep1","boundary degenerate small-class","Run","wrapper stateless",
-"WorkflowDbContext","commander boundary small-class","OnModelCreating","command collaborator",
-"WorkflowDbContext","commander boundary small-class","OnConfiguring","command collaborator",
-"Events","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Events","pure-controller degenerate","Up","controller stateless",
-"Events","pure-controller degenerate","Down","controller stateless",
-"Events","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Events","pure-controller degenerate","Up","controller stateless",
-"Events","pure-controller degenerate","Down","controller stateless",
-"Events","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Events","pure-controller degenerate","Up","controller stateless",
-"Events","pure-controller degenerate","Down","controller stateless",
-"WorkflowTest<TWorkflow,TData>","boundary","Setup","command collaborator",
-"WorkflowTest<TWorkflow,TData>","boundary","Host_OnStepError","collaborator incidental",
-"WorkflowTest<TWorkflow,TData>","boundary","ConfigureServices","controller stateless",
-"WorkflowTest<TWorkflow,TData>","boundary","StartWorkflow","property non-void-command collaborator",
-"WorkflowTest<TWorkflow,TData>","boundary","StartWorkflowAsync","property non-void-command collaborator",
-"WorkflowTest<TWorkflow,TData>","boundary","WaitForWorkflowToComplete","command collaborator",
-"WorkflowTest<TWorkflow,TData>","boundary","WaitForWorkflowToCompleteAsync","property non-void-command collaborator",
-"WorkflowTest<TWorkflow,TData>","boundary","GetActiveSubscriptons","property non-void-command collaborator",
-"WorkflowTest<TWorkflow,TData>","boundary","WaitForEventSubscription","command collaborator",
-"WorkflowTest<TWorkflow,TData>","boundary","GetStatus","property non-void-command collaborator",
-"WorkflowTest<TWorkflow,TData>","boundary","GetData","property non-void-command collaborator",
-"WorkflowTest<TWorkflow,TData>","boundary","Dispose","command",
-"DynamoSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"RedisPersistenceProvider","boundary degenerate","RedisPersistenceProvider","constructor",
-"RedisPersistenceProvider","boundary degenerate","GetWorkflowInstances","collaborator stateless",
-"RedisPersistenceProvider","boundary degenerate","EnsureStoreExists","empty",
-"RedisPersistenceProvider","boundary degenerate","ScheduleCommand","collaborator stateless",
-"ServiceBusLifeCycleEventHub","entity commander boundary","ServiceBusLifeCycleEventHub","constructor",
-"ServiceBusLifeCycleEventHub","entity commander boundary","PublishNotification","non-void-command collaborator",
-"ServiceBusLifeCycleEventHub","entity commander boundary","Subscribe","command collaborator",
-"ServiceBusLifeCycleEventHub","entity commander boundary","Start","property non-void-command collaborator",
-"ServiceBusLifeCycleEventHub","entity commander boundary","Stop","non-void-command collaborator",
-"ServiceBusLifeCycleEventHub","entity commander boundary","MessageHandler","non-void-command collaborator",
-"ServiceBusLifeCycleEventHub","entity commander boundary","ExceptionHandler","property non-void-command collaborator",
-"ServiceBusLifeCycleEventHub","entity commander boundary","NotifySubscribers","command collaborator",
-"CompensatingWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"OutcomeSwitch","small-class","Run","property non-void-command collaborator",
-"OutcomeSwitch","small-class","GetPreviousOutcome","controller stateless",
-"PostgresForeachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MemberMapParameter","unclassified","MemberMapParameter","constructor",
-"MemberMapParameter","unclassified","Assign","controller stateless",
-"MemberMapParameter","unclassified","AssignInput","command collaborator",
-"MemberMapParameter","unclassified","AssignOutput","command collaborator",
-"PostgresWhenScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"WorkflowStep","degenerate","InitForExecution","collaborator incidental",
-"WorkflowStep","degenerate","BeforeExecute","collaborator incidental",
-"WorkflowStep","degenerate","AfterExecute","empty",
-"WorkflowStep","degenerate","PrimeForRetry","empty",
-"WorkflowStep","degenerate","AfterWorkflowIteration","empty",
-"WorkflowStep","degenerate","ConstructBody","property non-void-command collaborator",
-"BasicWorkflow","commander boundary data-class small-class","Build","set collaborator",
-"MysqlForkScenario","pure-controller degenerate small-class","Configure","controller stateless",
-"WorkflowExecutor","controller degenerate","WorkflowExecutor","constructor",
-"WorkflowExecutor","controller degenerate","InitializeStep","predicate controller",
-"WorkflowExecutor","controller degenerate","ProcessAfterExecutionIteration","controller stateless",
-"WorkflowExecutor","controller degenerate","DetermineNextExecutionTime","controller stateless",
-"MongoForEachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"Recur","factory controller small-class","Run","property factory wrapper",
-"WfReference","pure-controller degenerate","BuildTargetModel","controller stateless",
-"WfReference","pure-controller degenerate","Up","controller stateless",
-"WfReference","pure-controller degenerate","Down","controller stateless",
-"WfReference","pure-controller degenerate","BuildTargetModel","controller stateless",
-"WfReference","pure-controller degenerate","Up","controller stateless",
-"WfReference","pure-controller degenerate","Down","controller stateless",
-"WfReference","pure-controller degenerate","BuildTargetModel","controller stateless",
-"WfReference","pure-controller degenerate","Up","controller stateless",
-"WfReference","pure-controller degenerate","Down","controller stateless",
-"InlineStepBody","entity boundary small-class","InlineStepBody","constructor",
-"InlineStepBody","entity boundary small-class","Run","property non-void-command collaborator",
-"ExecutionResult","empty","ExecutionResult","constructor",
-"ExecutionResult","empty","ExecutionResult","constructor",
-"ForEachWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"DeferSampleWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"SingleNodeQueueProvider","data-provider boundary degenerate","QueueWork","property wrapper",
-"SingleNodeQueueProvider","data-provider boundary degenerate","DequeueWork","property wrapper",
-"SingleNodeQueueProvider","data-provider boundary degenerate","Start","collaborator incidental",
-"SingleNodeQueueProvider","data-provider boundary degenerate","Stop","collaborator incidental",
-"SingleNodeQueueProvider","data-provider boundary degenerate","Dispose","empty",
-"WorkflowStepCollection","entity boundary","WorkflowStepCollection","constructor",
-"WorkflowStepCollection","entity boundary","WorkflowStepCollection","constructor",
-"WorkflowStepCollection","entity boundary","WorkflowStepCollection","constructor",
-"WorkflowStepCollection","entity boundary","GetEnumerator","property non-void-command collaborator",
-"WorkflowStepCollection","entity boundary","IEnumerable.GetEnumerator","property non-void-command collaborator",
-"WorkflowStepCollection","entity boundary","FindById","get property non-void-command collaborator",
-"WorkflowStepCollection","entity boundary","Add","void-accessor command collaborator",
-"WorkflowStepCollection","entity boundary","Clear","command",
-"WorkflowStepCollection","entity boundary","Contains","predicate non-void-command collaborator",
-"WorkflowStepCollection","entity boundary","CopyTo","void-accessor command",
-"WorkflowStepCollection","entity boundary","Remove","predicate non-void-command collaborator",
-"WorkflowStepCollection","entity boundary","Find","property non-void-command collaborator",
-"UserStep","data-provider boundary small-class","UserStep","constructor",
-"UserStep","data-provider boundary small-class","Run","property wrapper",
-"Escalate","controller small-class","Run","property controller",
-"MigrationContextFactory","factory degenerate","CreateDbContext","factory collaborator stateless",
-"MigrationContextFactory","factory degenerate","CreateDbContext","factory collaborator stateless",
-"MigrationContextFactory","factory degenerate","CreateDbContext","factory collaborator stateless",
-"RedisEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"AddDescriptionWorkflowMiddleware","boundary degenerate small-class","HandleAsync","wrapper stateless",
-"ExecutionPointerCollection","entity boundary","ExecutionPointerCollection","constructor",
-"ExecutionPointerCollection","entity boundary","ExecutionPointerCollection","constructor",
-"ExecutionPointerCollection","entity boundary","ExecutionPointerCollection","constructor",
-"ExecutionPointerCollection","entity boundary","GetEnumerator","property non-void-command collaborator",
-"ExecutionPointerCollection","entity boundary","IEnumerable.GetEnumerator","property non-void-command collaborator",
-"ExecutionPointerCollection","entity boundary","FindById","get property non-void-command collaborator",
-"ExecutionPointerCollection","entity boundary","FindByScope","get property non-void-command factory collaborator",
-"ExecutionPointerCollection","entity boundary","Add","void-accessor command collaborator",
-"ExecutionPointerCollection","entity boundary","Clear","command",
-"ExecutionPointerCollection","entity boundary","Contains","predicate non-void-command collaborator",
-"ExecutionPointerCollection","entity boundary","CopyTo","void-accessor command",
-"ExecutionPointerCollection","entity boundary","Remove","predicate non-void-command collaborator",
-"ExecutionPointerCollection","entity boundary","Find","property non-void-command collaborator",
-"ExecutionPointerCollection","entity boundary","FindByStatus","property non-void-command collaborator",
-"UndoTask2","boundary degenerate small-class","Run","wrapper stateless",
-"SubWorkflowStepBody","boundary degenerate small-class","Run","collaborator stateless",
-"PostgresDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"MongoForkScenario","pure-controller degenerate small-class","Configure","controller stateless",
-"MongoDelayScenario","pure-controller degenerate small-class","MongoDelayScenario","constructor",
-"MongoDelayScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"WorkflowSearchModel","factory controller small-class","ToSearchResult","non-void-command factory collaborator",
-"ActionParameter<TStepBody,TData>","commander boundary","ActionParameter","constructor",
-"ActionParameter<TStepBody,TData>","commander boundary","ActionParameter","constructor",
-"ActionParameter<TStepBody,TData>","commander boundary","Assign","command collaborator",
-"ActionParameter<TStepBody,TData>","commander boundary","AssignInput","command collaborator",
-"ActionParameter<TStepBody,TData>","commander boundary","AssignOutput","command collaborator",
-"MongoBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DefaultRabbitMqQueueNameProviderTests","commander boundary small-class","DefaultRabbitMqQueueNameProviderTests","constructor",
-"DefaultRabbitMqQueueNameProviderTests","commander boundary small-class","GetQueueName_ValidInput_ReturnsValidQueueName","command collaborator",
-"MongoEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamicDataIOScenario","commander boundary small-class","DynamicDataIOScenario","constructor",
-"DynamicDataIOScenario","commander boundary small-class","Scenario","command collaborator",
-"Foreach","entity boundary small-class","Run","property non-void-command collaborator",
-"DiMsTransientScenario","commander boundary small-class","DiMsTransientScenario","constructor",
-"DiMsTransientScenario","commander boundary small-class","Scenario","command collaborator",
-"WorkflowInstance","small-class","IsBranchComplete","predicate non-void-command",
-"WorkflowConsumer","entity commander boundary","WorkflowConsumer","constructor",
-"WorkflowConsumer","entity commander boundary","ProcessItem","non-void-command collaborator",
-"WorkflowConsumer","entity commander boundary","TryProcessSubscription","non-void-command collaborator",
-"WorkflowConsumer","entity commander boundary","FutureQueue","void-accessor command collaborator",
-"WaitFor","boundary data-class small-class","Run","property set collaborator",
-"SayGoodbye","boundary degenerate","Run","wrapper stateless",
-"SayGoodbye","boundary degenerate","Run","wrapper stateless",
-"SayGoodbye","boundary degenerate","Run","wrapper stateless",
-"SayGoodbye","boundary degenerate","Run","wrapper stateless",
-"SayGoodbye","boundary degenerate","Run","wrapper stateless",
-"SayGoodbye","boundary degenerate","Run","wrapper stateless",
-"WorkflowController","entity boundary","WorkflowController","constructor",
-"WorkflowController","entity boundary","StartWorkflow","property non-void-command collaborator",
-"WorkflowController","entity boundary","StartWorkflow","wrapper stateless",
-"WorkflowController","entity boundary","StartWorkflow<TData>","property non-void-command collaborator",
-"WorkflowController","entity boundary","StartWorkflow<TData>","property non-void-command collaborator",
-"WorkflowController","entity boundary","PublishEvent","non-void-command collaborator",
-"WorkflowController","entity boundary","SuspendWorkflow","property non-void-command collaborator",
-"WorkflowController","entity boundary","ResumeWorkflow","property non-void-command collaborator",
-"WorkflowController","entity boundary","TerminateWorkflow","property non-void-command collaborator",
-"WorkflowController","entity boundary","RegisterWorkflow<TWorkflow>","command collaborator",
-"WorkflowController","entity boundary","RegisterWorkflow<TWorkflow,TData>","command collaborator",
-"While","controller small-class","Run","property controller",
-"HumanWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"WorkflowDefinitionLoadException","empty","WorkflowDefinitionLoadException","constructor",
-"MongoUserScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"WorkflowLockedException","empty","WorkflowLockedException","constructor",
-"ActivityFailedException","empty","ActivityFailedException","constructor",
-"MultistepCompensationScenario","commander boundary small-class","MultistepCompensationScenario","constructor",
-"MultistepCompensationScenario","commander boundary small-class","MultiCompensationStepOrder","command collaborator",
-"JsonWorkflowTest","boundary","Setup","command collaborator",
-"JsonWorkflowTest","boundary","Host_OnStepError","collaborator incidental",
-"JsonWorkflowTest","boundary","ConfigureServices","controller stateless",
-"JsonWorkflowTest","boundary","StartWorkflow","property non-void-command collaborator",
-"JsonWorkflowTest","boundary","WaitForWorkflowToComplete","command collaborator",
-"JsonWorkflowTest","boundary","GetActiveSubscriptons","property non-void-command collaborator",
-"JsonWorkflowTest","boundary","WaitForEventSubscription","command collaborator",
-"JsonWorkflowTest","boundary","GetStatus","property non-void-command collaborator",
-"JsonWorkflowTest","boundary","GetData<TData>","property non-void-command collaborator",
-"JsonWorkflowTest","boundary","Dispose","command",
-"MysqlDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"ActionStepBody","boundary degenerate small-class","Run","wrapper stateless",
-"WorkflowBuilder<TData>","entity boundary","Build","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","WorkflowBuilder","constructor",
-"WorkflowBuilder<TData>","entity boundary","StartWith<TStep>","non-void-command factory collaborator",
-"WorkflowBuilder<TData>","entity boundary","StartWith","non-void-command factory collaborator",
-"WorkflowBuilder<TData>","entity boundary","StartWith","non-void-command factory collaborator",
-"WorkflowBuilder<TData>","entity boundary","GetUpstreamSteps","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","UseDefaultErrorBehavior","get non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","CreateBranch","factory collaborator stateless",
-"WorkflowBuilder<TData>","entity boundary","Then<TStep>","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Then<TStep>","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Then","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Then","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","WaitFor","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","WaitFor","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Delay","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Decide","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","ForEach","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","ForEach","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","ForEach","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","While","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","While","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","If","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","If","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","When","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Parallel","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Saga","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Schedule","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Recur","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Activity","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Activity","property non-void-command collaborator",
-"WorkflowBuilder<TData>","entity boundary","Start","property non-void-command collaborator",
-"ExecutionResultProcessor","unclassified","ExecutionResultProcessor","constructor",
-"ExecutionResultProcessor","unclassified","ProcessExecutionResult","void-accessor command collaborator",
-"ExecutionResultProcessor","unclassified","HandleStepException","void-accessor command collaborator",
-"ExecutionResultProcessor","unclassified","ShouldCompensate","controller stateless",
-"WorkflowNotRegisteredException","empty","WorkflowNotRegisteredException","constructor",
-"YamlWorkflowTest","boundary","Setup","command collaborator",
-"YamlWorkflowTest","boundary","Host_OnStepError","collaborator incidental",
-"YamlWorkflowTest","boundary","ConfigureServices","controller stateless",
-"YamlWorkflowTest","boundary","StartWorkflow","property non-void-command collaborator",
-"YamlWorkflowTest","boundary","WaitForWorkflowToComplete","command collaborator",
-"YamlWorkflowTest","boundary","GetActiveSubscriptons","property non-void-command collaborator",
-"YamlWorkflowTest","boundary","WaitForEventSubscription","command collaborator",
-"YamlWorkflowTest","boundary","GetStatus","property non-void-command collaborator",
-"YamlWorkflowTest","boundary","GetData<TData>","property non-void-command collaborator",
-"YamlWorkflowTest","boundary","Dispose","command",
-"SuspendHandler","pure-controller degenerate small-class","SuspendHandler","constructor",
-"SuspendHandler","pure-controller degenerate small-class","Handle","controller stateless",
-"DynamoDbProvisioner","entity commander boundary","DynamoDbProvisioner","constructor",
-"DynamoDbProvisioner","entity commander boundary","ProvisionTables","property non-void-command collaborator",
-"DynamoDbProvisioner","entity commander boundary","CreateWorkflowTable","non-void-command collaborator",
-"DynamoDbProvisioner","entity commander boundary","CreateSubscriptionTable","non-void-command collaborator",
-"DynamoDbProvisioner","entity commander boundary","CreateEventTable","non-void-command collaborator",
-"DynamoDbProvisioner","entity commander boundary","EnsureTable","non-void-command collaborator",
-"DynamoDbProvisioner","entity commander boundary","CreateTable","non-void-command collaborator",
-"EventConsumer","entity boundary small-class","EventConsumer","constructor",
-"EventConsumer","entity boundary small-class","ProcessItem","non-void-command collaborator",
-"EventConsumer","entity boundary small-class","SeedSubscription","property non-void-command collaborator",
-"RedisDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"PostgresForkScenario","pure-controller degenerate small-class","Configure","controller stateless",
-"PostgresDockerSetup","entity boundary small-class","PostgresDockerSetup","constructor",
-"PostgresDockerSetup","entity boundary small-class","InitializeAsync","non-void-command collaborator",
-"PostgresDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator",
-"CustomMessage","boundary degenerate","Run","wrapper stateless",
-"CustomMessage","boundary degenerate","Run","wrapper stateless",
-"CustomMessage","boundary degenerate","Run","wrapper stateless",
-"CustomMessage","boundary degenerate","Run","wrapper stateless",
-"CustomMessage","boundary degenerate","Run","wrapper stateless",
-"CustomMessage","boundary degenerate","Run","wrapper stateless",
-"UserStepContainer","entity boundary small-class","InitForExecution","property non-void-command collaborator",
-"UserStepContainer","entity boundary small-class","BeforeExecute","collaborator incidental",
-"SqlServerContext","controller degenerate","SqlServerContext","constructor",
-"SqlServerContext","controller degenerate","OnConfiguring","command collaborator",
-"SqlServerContext","controller degenerate","ConfigureSubscriptionStorage","controller stateless",
-"SqlServerContext","controller degenerate","ConfigureWorkflowStorage","controller stateless",
-"SqlServerContext","controller degenerate","ConfigureExecutionPointerStorage","controller stateless",
-"SqlServerContext","controller degenerate","ConfigureExecutionErrorStorage","controller stateless",
-"SqlServerContext","controller degenerate","ConfigureExetensionAttributeStorage","controller stateless",
-"SqlServerContext","controller degenerate","ConfigureEventStorage","controller stateless",
-"SqlServerContext","controller degenerate","ConfigureScheduledCommandStorage","controller stateless",
-"RedisWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"RedisLockProvider","entity boundary","RedisLockProvider","constructor",
-"RedisLockProvider","entity boundary","AcquireLock","property non-void-command collaborator",
-"RedisLockProvider","entity boundary","ReleaseLock","property non-void-command collaborator",
-"RedisLockProvider","entity boundary","Start","non-void-command collaborator",
-"RedisLockProvider","entity boundary","Stop","set collaborator",
-"RedisLockProvider","entity boundary","GetResource","property wrapper",
-"Sequence","pure-controller degenerate small-class","Run","controller stateless",
-"MongoDecisionScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"AssemblyQualifiedDiscriminatorConvention","degenerate","GetActualType","controller stateless",
-"AssemblyQualifiedDiscriminatorConvention","degenerate","GetDiscriminator","collaborator incidental",
-"AssemblyQualifiedDiscriminatorConvention","degenerate","get","incidental",
-"MyWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"MyService","degenerate small-class","DoTheThings","incidental",
-"SqliteContextFactory","factory controller small-class","SqliteContextFactory","constructor",
-"SqliteContextFactory","factory controller small-class","Build","property factory collaborator",
-"SubscriptionData","pure-controller degenerate","BuildTargetModel","controller stateless",
-"SubscriptionData","pure-controller degenerate","Up","controller stateless",
-"SubscriptionData","pure-controller degenerate","Down","controller stateless",
-"SubscriptionData","pure-controller degenerate","BuildTargetModel","controller stateless",
-"SubscriptionData","pure-controller degenerate","Up","controller stateless",
-"SubscriptionData","pure-controller degenerate","Down","controller stateless",
-"SqliteSetup","degenerate small-class","SqliteSetup","constructor",
-"SqliteSetup","degenerate small-class","Dispose","empty",
-"WorkflowStepInline","factory controller small-class","ConstructBody","property factory collaborator",
-"StatusFilter","empty","StatusFilter","constructor",
-"QueueConfig","empty","QueueConfig","constructor",
-"RabbitMQProvider","entity commander boundary","RabbitMQProvider","constructor",
-"RabbitMQProvider","entity commander boundary","QueueWork","non-void-command collaborator",
-"RabbitMQProvider","entity commander boundary","DequeueWork","property non-void-command collaborator",
-"RabbitMQProvider","entity commander boundary","Dispose","command",
-"RabbitMQProvider","entity commander boundary","Start","set collaborator",
-"RabbitMQProvider","entity commander boundary","Stop","set collaborator",
-"StepScope","pure-controller degenerate","BuildTargetModel","controller stateless",
-"StepScope","pure-controller degenerate","Up","controller stateless",
-"StepScope","pure-controller degenerate","Down","controller stateless",
-"StepScope","pure-controller degenerate","BuildTargetModel","controller stateless",
-"StepScope","pure-controller degenerate","Up","controller stateless",
-"StepScope","pure-controller degenerate","Down","controller stateless",
-"StepScope","pure-controller degenerate","BuildTargetModel","controller stateless",
-"StepScope","pure-controller degenerate","Up","controller stateless",
-"StepScope","pure-controller degenerate","Down","controller stateless",
-"DiAutoFacScopedScenario","commander boundary small-class","DiAutoFacScopedScenario","constructor",
-"DiAutoFacScopedScenario","commander boundary small-class","Scenario","command collaborator",
-"Resources","boundary","Resources","constructor",
-"Resources","boundary","get","get set collaborator",
-"Resources","boundary","get","get collaborator",
-"Resources","boundary","set","set collaborator",
-"Resources","boundary","get","property wrapper",
-"Resources","boundary","Resources","constructor",
-"Resources","boundary","get","get set collaborator",
-"Resources","boundary","get","get collaborator",
-"Resources","boundary","set","set collaborator",
-"Resources","boundary","get","property wrapper",
-"Resources","boundary","get","property wrapper",
-"NotFoundException","empty","NotFoundException","constructor",
-"NotFoundException","empty","NotFoundException","constructor",
-"SqlLockProvider","entity boundary small-class","SqlLockProvider","constructor",
-"SqlLockProvider","entity boundary small-class","AcquireLock","property non-void-command collaborator",
-"SqlLockProvider","entity boundary small-class","ReleaseLock","non-void-command collaborator",
-"DynamoForeachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"RunnablePoller","commander boundary","RunnablePoller","constructor",
-"RunnablePoller","commander boundary","Start","set",
-"RunnablePoller","commander boundary","Stop","set",
-"RunnablePoller","commander boundary","PollRunnables","command collaborator",
-"RunnablePoller","commander boundary","PollWorkflows","non-void-command collaborator",
-"RunnablePoller","commander boundary","PollEvents","non-void-command collaborator",
-"RunnablePoller","commander boundary","PollCommands","non-void-command collaborator",
-"PostgresDelayScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"ReturnStepBuilder<TData,TStepBody,TParentStep>","boundary data-class small-class","ReturnStepBuilder","constructor",
-"ReturnStepBuilder<TData,TStepBody,TParentStep>","boundary data-class small-class","Do","get non-void-command collaborator",
-"KinesisProvider","entity commander boundary","KinesisProvider","constructor",
-"KinesisProvider","entity commander boundary","PublishNotification","non-void-command collaborator",
-"KinesisProvider","entity commander boundary","Subscribe","command collaborator",
-"KinesisProvider","entity commander boundary","Start","non-void-command collaborator",
-"KinesisProvider","entity commander boundary","Stop","property set collaborator",
-"KinesisProvider","entity commander boundary","EnsureStream","non-void-command collaborator",
-"KinesisProvider","entity commander boundary","CreateStream","wrapper stateless",
-"KinesisProvider","entity commander boundary","Consume","void-accessor command collaborator",
-"ActivityController","entity commander boundary","ActivityController","constructor",
-"ActivityController","entity commander boundary","GetPendingActivity","property non-void-command factory collaborator",
-"ActivityController","entity commander boundary","ReleaseActivityToken","non-void-command collaborator",
-"ActivityController","entity commander boundary","SubmitActivitySuccess","collaborator incidental",
-"ActivityController","entity commander boundary","SubmitActivityFailure","collaborator incidental",
-"ActivityController","entity commander boundary","SubmitActivityResult","non-void-command collaborator",
-"PostgresSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"PostgresContext","controller","PostgresContext","constructor",
-"PostgresContext","controller","OnConfiguring","command collaborator",
-"PostgresContext","controller","ConfigureSubscriptionStorage","controller",
-"PostgresContext","controller","ConfigureWorkflowStorage","controller",
-"PostgresContext","controller","ConfigureExecutionPointerStorage","controller",
-"PostgresContext","controller","ConfigureExecutionErrorStorage","controller",
-"PostgresContext","controller","ConfigureExetensionAttributeStorage","controller",
-"PostgresContext","controller","ConfigureEventStorage","controller",
-"PostgresContext","controller","ConfigureScheduledCommandStorage","controller",
-"IndexConsumer","entity boundary small-class","IndexConsumer","constructor",
-"IndexConsumer","entity boundary small-class","ProcessItem","non-void-command collaborator",
-"IndexConsumer","entity boundary small-class","FetchWorkflow","property non-void-command collaborator",
-"EntityFrameworkPersistenceProvider","entity commander boundary","EntityFrameworkPersistenceProvider","constructor",
-"EntityFrameworkPersistenceProvider","entity commander boundary","GetWorkflowInstances","non-void-command factory collaborator",
-"EntityFrameworkPersistenceProvider","entity commander boundary","EnsureStoreExists","command",
-"EntityFrameworkPersistenceProvider","entity commander boundary","GetEvents","non-void-command factory collaborator",
-"EntityFrameworkPersistenceProvider","entity commander boundary","ConstructDbContext","property non-void-command collaborator",
-"EntityFrameworkPersistenceProvider","entity commander boundary","ScheduleCommand","non-void-command collaborator",
-"AzureStorageQueueProvider","unclassified","AzureStorageQueueProvider","constructor",
-"AzureStorageQueueProvider","unclassified","QueueWork","wrapper",
-"AzureStorageQueueProvider","unclassified","DequeueWork","property controller",
-"AzureStorageQueueProvider","unclassified","Start","controller",
-"AzureStorageQueueProvider","unclassified","Dispose","empty",
-"QueueConsumer","commander","QueueConsumer","constructor",
-"QueueConsumer","commander","Start","command",
-"QueueConsumer","commander","Stop","command",
-"QueueConsumer","commander","Execute","non-void-command collaborator",
-"QueueConsumer","commander","ExecuteItem","non-void-command collaborator",
-"PersistedExecutionPointerCollection","entity boundary","PersistedExecutionPointerCollection","constructor",
-"PersistedExecutionPointerCollection","entity boundary","PersistedExecutionPointerCollection","constructor",
-"PersistedExecutionPointerCollection","entity boundary","GetEnumerator","property non-void-command collaborator",
-"PersistedExecutionPointerCollection","entity boundary","IEnumerable.GetEnumerator","property non-void-command collaborator",
-"PersistedExecutionPointerCollection","entity boundary","FindById","get property non-void-command collaborator",
-"PersistedExecutionPointerCollection","entity boundary","Add","void-accessor command collaborator",
-"PersistedExecutionPointerCollection","entity boundary","Clear","command",
-"PersistedExecutionPointerCollection","entity boundary","Contains","predicate non-void-command collaborator",
-"PersistedExecutionPointerCollection","entity boundary","CopyTo","void-accessor command",
-"PersistedExecutionPointerCollection","entity boundary","Remove","predicate non-void-command collaborator",
-"CancellationProcessor","entity boundary small-class","CancellationProcessor","constructor",
-"CancellationProcessor","entity boundary small-class","ProcessCancellations","void-accessor command collaborator",
-"Step1","boundary degenerate small-class","Run","wrapper stateless",
-"MemoryPersistenceProvider","entity boundary degenerate","GetWorkflowInstances","property non-void-command collaborator",
-"MemoryPersistenceProvider","entity boundary degenerate","EnsureStoreExists","empty",
-"MemoryPersistenceProvider","entity boundary degenerate","ScheduleCommand","collaborator stateless",
-"SqlServerEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"NullSearchIndex","boundary degenerate","IndexWorkflow","collaborator incidental",
-"NullSearchIndex","boundary degenerate","Search","collaborator stateless",
-"NullSearchIndex","boundary degenerate","Start","collaborator incidental",
-"NullSearchIndex","boundary degenerate","Stop","collaborator incidental",
-"Counter","boundary data-class small-class","Run","property set collaborator",
-"SingleNodeEventHub","entity boundary","SingleNodeEventHub","constructor",
-"SingleNodeEventHub","entity boundary","PublishNotification","property non-void-command collaborator",
-"SingleNodeEventHub","entity boundary","Subscribe","command collaborator",
-"SingleNodeEventHub","entity boundary","Start","collaborator incidental",
-"SingleNodeEventHub","entity boundary","Stop","property non-void-command collaborator",
-"SingleNodeLockProvider","unclassified","AcquireLock","property non-void-command collaborator",
-"SingleNodeLockProvider","unclassified","ReleaseLock","non-void-command collaborator",
-"SingleNodeLockProvider","unclassified","Start","empty",
-"SingleNodeLockProvider","unclassified","Stop","empty",
-"InjectedObjectPoolPolicy<T>","entity boundary small-class","InjectedObjectPoolPolicy","constructor",
-"InjectedObjectPoolPolicy<T>","entity boundary small-class","Create","property non-void-command collaborator",
-"InjectedObjectPoolPolicy<T>","entity boundary small-class","Return","collaborator incidental",
-"TransientMemoryPersistenceProvider","boundary degenerate small-class","TransientMemoryPersistenceProvider","constructor",
-"TransientMemoryPersistenceProvider","boundary degenerate small-class","ScheduleCommand","collaborator stateless",
-"RedisPersistenceProviderFixture","boundary small-class","RedisPersistenceProviderFixture","constructor",
-"RedisPersistenceProviderFixture","boundary small-class","get","get set collaborator",
-"Activities","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Activities","pure-controller degenerate","Up","controller stateless",
-"Activities","pure-controller degenerate","Down","controller stateless",
-"Activities","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Activities","pure-controller degenerate","Up","controller stateless",
-"Activities","pure-controller degenerate","Down","controller stateless",
-"Activities","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Activities","pure-controller degenerate","Up","controller stateless",
-"Activities","pure-controller degenerate","Down","controller stateless",
-"Delay","data-provider boundary small-class","Run","property wrapper",
-"DefaultWorkflowMiddlewareErrorHandler","entity boundary small-class","DefaultWorkflowMiddlewareErrorHandler","copy-constructor",
-"DefaultWorkflowMiddlewareErrorHandler","entity boundary small-class","HandleAsync","property non-void-command collaborator",
-"ExecutionPointerFactory","entity factory controller","BuildGenesisPointer","property non-void-command factory collaborator",
-"ExecutionPointerFactory","entity factory controller","BuildNextPointer","property non-void-command factory collaborator",
-"ExecutionPointerFactory","entity factory controller","BuildChildPointer","property non-void-command factory collaborator",
-"ExecutionPointerFactory","entity factory controller","BuildCompensationPointer","property non-void-command factory collaborator",
-"ExecutionPointerFactory","entity factory controller","GenerateId","wrapper stateless",
-"DiScenario","commander boundary small-class","ConfigureHost","command collaborator",
-"CompensateHandler","entity boundary small-class","CompensateHandler","constructor",
-"CompensateHandler","entity boundary small-class","Handle","void-accessor command collaborator",
-"FlakyConnection","boundary data-class small-class","RunAsync","property set collaborator",
-"RecurSampleWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"RetryHandler","entity boundary small-class","RetryHandler","constructor",
-"RetryHandler","entity boundary small-class","Handle","void-accessor command collaborator",
-"AzureLockManager","entity commander boundary","AzureLockManager","constructor",
-"AzureLockManager","entity commander boundary","AcquireLock","property non-void-command collaborator",
-"AzureLockManager","entity commander boundary","ReleaseLock","non-void-command collaborator",
-"AzureLockManager","entity commander boundary","Start","non-void-command collaborator",
-"AzureLockManager","entity commander boundary","Stop","property set collaborator",
-"AzureLockManager","entity commander boundary","RenewLeases","command collaborator",
-"AzureLockManager","entity commander boundary","RenewLock","non-void-command collaborator",
-"TerminateHandler","data-provider boundary small-class","TerminateHandler","constructor",
-"TerminateHandler","data-provider boundary small-class","Handle","void-accessor collaborator",
-"SQSQueueProvider","entity commander boundary","SQSQueueProvider","constructor",
-"SQSQueueProvider","entity commander boundary","QueueWork","non-void-command collaborator",
-"SQSQueueProvider","entity commander boundary","DequeueWork","property non-void-command collaborator",
-"SQSQueueProvider","entity commander boundary","Start","non-void-command collaborator",
-"SQSQueueProvider","entity commander boundary","Dispose","empty",
-"WorkflowHost","entity boundary","WorkflowHost","constructor",
-"WorkflowHost","entity boundary","StartWorkflow","property non-void-command collaborator",
-"WorkflowHost","entity boundary","StartWorkflow","property non-void-command collaborator",
-"WorkflowHost","entity boundary","StartWorkflow<TData>","property non-void-command collaborator",
-"WorkflowHost","entity boundary","StartWorkflow<TData>","property non-void-command collaborator",
-"WorkflowHost","entity boundary","PublishEvent","property non-void-command collaborator",
-"WorkflowHost","entity boundary","Start","command",
-"WorkflowHost","entity boundary","StartAsync","non-void-command collaborator",
-"WorkflowHost","entity boundary","Stop","command",
-"WorkflowHost","entity boundary","StopAsync","non-void-command collaborator",
-"WorkflowHost","entity boundary","RegisterWorkflow<TWorkflow>","command",
-"WorkflowHost","entity boundary","RegisterWorkflow<TWorkflow,TData>","command",
-"WorkflowHost","entity boundary","SuspendWorkflow","property non-void-command collaborator",
-"WorkflowHost","entity boundary","ResumeWorkflow","property non-void-command collaborator",
-"WorkflowHost","entity boundary","TerminateWorkflow","property non-void-command collaborator",
-"WorkflowHost","entity boundary","HandleLifeCycleEvent","wrapper stateless",
-"WorkflowHost","entity boundary","ReportStepError","wrapper stateless",
-"WorkflowHost","entity boundary","Dispose","command",
-"WorkflowHost","entity boundary","GetPendingActivity","property non-void-command collaborator",
-"WorkflowHost","entity boundary","ReleaseActivityToken","property non-void-command collaborator",
-"WorkflowHost","entity boundary","SubmitActivitySuccess","property non-void-command collaborator",
-"WorkflowHost","entity boundary","SubmitActivityFailure","property non-void-command collaborator",
-"WorkflowHost","entity boundary","AddEventSubscriptions","command",
-"StepBuilder<TData,TStepBody>","entity","StepBuilder","constructor",
-"StepBuilder<TData,TStepBody>","entity","Name","get set collaborator",
-"StepBuilder<TData,TStepBody>","entity","Id","get set collaborator",
-"StepBuilder<TData,TStepBody>","entity","Then<TStep>","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Then<TStep>","factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Then","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Then","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Attach","get collaborator",
-"StepBuilder<TData,TStepBody>","entity","When","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Branch<TStep>","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","Branch<TStep>","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","Input<TInput>","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","Input<TInput>","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","Input","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","Input","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","Output<TOutput>","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","Output","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","WaitFor","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","WaitFor","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","End<TStep>","property non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","OnError","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","IterateParents","property non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","EndWorkflow","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","Delay","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Decide","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","ForEach","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","ForEach","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","ForEach","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","While","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","While","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","If","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","If","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","When","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Saga","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Parallel","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Schedule","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Recur","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Do","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","CompensateWith<TStep>","get set collaborator",
-"StepBuilder<TData,TStepBody>","entity","CompensateWith","get set collaborator",
-"StepBuilder<TData,TStepBody>","entity","CompensateWith","get set collaborator",
-"StepBuilder<TData,TStepBody>","entity","CompensateWithSequence","get set collaborator",
-"StepBuilder<TData,TStepBody>","entity","CancelCondition","get non-void-command collaborator",
-"StepBuilder<TData,TStepBody>","entity","Activity","non-void-command factory collaborator",
-"StepBuilder<TData,TStepBody>","entity","Activity","non-void-command factory collaborator",
-"SqlServerActivityScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"WorkflowBuilder","entity","UseData<T>","factory collaborator",
-"WorkflowBuilder","entity","Build","property non-void-command factory collaborator",
-"WorkflowBuilder","entity","AddStep","void-accessor command collaborator",
-"WorkflowBuilder","entity","AttachExternalIds","command collaborator",
-"UserTaskReturnBuilder<TData>","boundary data-class small-class","UserTaskReturnBuilder","constructor",
-"UserTaskReturnBuilder<TData>","boundary data-class small-class","Do","get non-void-command collaborator",
-"GreyList","commander","GreyList","constructor",
-"GreyList","commander","Add","command",
-"GreyList","commander","Contains","predicate non-void-command collaborator",
-"GreyList","commander","Cycle","command collaborator",
-"GreyList","commander","Dispose","command",
-"GreyList","commander","Remove","incidental",
-"PersistOutcome","pure-controller degenerate","BuildTargetModel","controller stateless",
-"PersistOutcome","pure-controller degenerate","Up","controller stateless",
-"PersistOutcome","pure-controller degenerate","Down","controller stateless",
-"PersistOutcome","pure-controller degenerate","BuildTargetModel","controller stateless",
-"PersistOutcome","pure-controller degenerate","Up","controller stateless",
-"PersistOutcome","pure-controller degenerate","Down","controller stateless",
-"PersistOutcome","pure-controller degenerate","BuildTargetModel","controller stateless",
-"PersistOutcome","pure-controller degenerate","Up","controller stateless",
-"PersistOutcome","pure-controller degenerate","Down","controller stateless",
-"GoodbyeWorld","entity boundary degenerate","GoodbyeWorld","constructor",
-"GoodbyeWorld","entity boundary degenerate","Run","property non-void-command collaborator",
-"GoodbyeWorld","entity boundary degenerate","Run","wrapper stateless",
-"GoodbyeWorld","entity boundary degenerate","Run","wrapper stateless",
-"GoodbyeWorld","entity boundary degenerate","Run","wrapper stateless",
-"LifeCycleEventPublisher","commander","LifeCycleEventPublisher","constructor",
-"LifeCycleEventPublisher","commander","PublishNotification","command collaborator",
-"LifeCycleEventPublisher","commander","Start","command",
-"LifeCycleEventPublisher","commander","Stop","command",
-"LifeCycleEventPublisher","commander","Dispose","command",
-"LifeCycleEventPublisher","commander","Execute","command collaborator",
-"ScopeProvider","entity boundary small-class","ScopeProvider","constructor",
-"ScopeProvider","entity boundary small-class","CreateScope","property non-void-command collaborator",
-"WorkflowMiddlewareRunner","entity boundary","WorkflowMiddlewareRunner","constructor",
-"WorkflowMiddlewareRunner","entity boundary","RunPreMiddleware","non-void-command collaborator",
-"WorkflowMiddlewareRunner","entity boundary","RunPostMiddleware","property non-void-command collaborator",
-"WorkflowMiddlewareRunner","entity boundary","RunExecuteMiddleware","property non-void-command collaborator",
-"WorkflowMiddlewareRunner","entity boundary","RunWorkflowMiddlewareWithErrorHandling","non-void-command collaborator",
-"MysqlDynamicDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"RedisLifeCycleEventHub","commander boundary","RedisLifeCycleEventHub","constructor",
-"RedisLifeCycleEventHub","commander boundary","PublishNotification","non-void-command collaborator",
-"RedisLifeCycleEventHub","commander boundary","Subscribe","command collaborator",
-"RedisLifeCycleEventHub","commander boundary","Start","non-void-command collaborator",
-"RedisLifeCycleEventHub","commander boundary","Stop","non-void-command collaborator",
-"RedisLifeCycleEventHub","commander boundary","NotifySubscribers","command collaborator",
-"WorkflowRegistry","entity boundary","WorkflowRegistry","constructor",
-"WorkflowRegistry","entity boundary","GetDefinition","get property non-void-command collaborator",
-"WorkflowRegistry","entity boundary","DeregisterWorkflow","command collaborator",
-"WorkflowRegistry","entity boundary","RegisterWorkflow","void-accessor command collaborator",
-"WorkflowRegistry","entity boundary","RegisterWorkflow","void-accessor command collaborator",
-"WorkflowRegistry","entity boundary","RegisterWorkflow<TData>","void-accessor command collaborator",
-"WorkflowRegistry","entity boundary","IsRegistered","predicate non-void-command",
-"WorkflowRegistry","entity boundary","GetAllDefinitions","get collaborator",
-"DataIOScenario","commander boundary small-class","DataIOScenario","constructor",
-"DataIOScenario","commander boundary small-class","Scenario","command collaborator",
-"EscalateStep","entity boundary small-class","AfterWorkflowIteration","void-accessor command collaborator",
-"ExecutionResultProcessorFixture","commander boundary","ExecutionResultProcessorFixture","constructor",
-"ExecutionResultProcessorFixture","commander boundary","should_advance_workflow","command collaborator",
-"ExecutionResultProcessorFixture","commander boundary","should_set_persistence_data","command collaborator",
-"ExecutionResultProcessorFixture","commander boundary","should_subscribe_to_event","command collaborator",
-"ExecutionResultProcessorFixture","commander boundary","should_select_correct_outcomes","command collaborator",
-"ExecutionResultProcessorFixture","commander boundary","should_sleep_pointer","command collaborator",
-"ExecutionResultProcessorFixture","commander boundary","should_branch_children","command collaborator",
-"UserTask","entity boundary small-class","UserTask","constructor",
-"UserTask","entity boundary small-class","Run","property non-void-command collaborator",
-"UserTask","entity boundary small-class","SetupEscalations","collaborator",
-"PostgresBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamoRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"UserTaskStep","factory controller small-class","ConstructBody","property factory collaborator",
-"Test01Workflow","pure-controller degenerate small-class","Build","controller stateless",
-"ControlledLock","empty","ControlledLock","constructor",
-"EventsController","entity boundary small-class","EventsController","constructor",
-"EventsController","entity boundary small-class","Post","property non-void-command collaborator",
-"EventsController","entity boundary small-class","EventsController","constructor",
-"EventsController","entity boundary small-class","Post","property non-void-command collaborator",
-"DiWorkflow","pure-controller degenerate small-class","Build","controller stateless",
-"SyncWorkflowRunner","small-class","SyncWorkflowRunner","constructor",
-"SyncWorkflowRunner","small-class","RunWorkflowSync<TData>","wrapper stateless",
-"SyncWorkflowRunner","small-class","RunWorkflowSync<TData>","non-void-command factory collaborator",
-"WorkflowsController","entity boundary","WorkflowsController","constructor",
-"WorkflowsController","entity boundary","Get","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Get","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Post","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Suspend","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Resume","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Terminate","property non-void-command collaborator",
-"WorkflowsController","entity boundary","WorkflowsController","constructor",
-"WorkflowsController","entity boundary","Get","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Get","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Post","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Suspend","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Resume","property non-void-command collaborator",
-"WorkflowsController","entity boundary","Terminate","property non-void-command collaborator",
-"DefinitionLoaderTests","commander","DefinitionLoaderTests","constructor",
-"DefinitionLoaderTests","commander","RegisterDefinition","command",
-"DefinitionLoaderTests","commander","ParseDefinition","command",
-"DefinitionLoaderTests","commander","ParseDefinitionPropertyDynamic","command",
-"DefinitionLoaderTests","commander","ParseDefinitionDynamic","command",
-"DefinitionLoaderTests","commander","ParseDefinitionInputException","command",
-"DefinitionLoaderTests","commander","MatchTestDefinition","controller stateless",
-"MongoActivityScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"SqlServerIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"WorkflowPurger","entity boundary small-class","WorkflowPurger","constructor",
-"WorkflowPurger","entity boundary small-class","ConstructDbContext","property non-void-command collaborator",
-"WorkflowPurger","entity boundary small-class","WorkflowPurger","constructor",
-"WorkflowPurger","entity boundary small-class","WorkflowPurger","constructor",
-"WorkflowPurger","entity boundary small-class","WorkflowPurger","constructor",
-"DistributedLockProviderTests","commander boundary","Setup","set",
-"DistributedLockProviderTests","commander boundary","AcquiresLock","non-void-command collaborator",
-"DistributedLockProviderTests","commander boundary","DoesNotAcquireWhenLocked","non-void-command collaborator",
-"DistributedLockProviderTests","commander boundary","ReleasesLock","non-void-command collaborator",
-"DistributedLockProviderTests","commander boundary","TearDown","command",
-"UserTaskBuilder<TData>","small-class","UserTaskBuilder","constructor",
-"UserTaskBuilder<TData>","small-class","WithOption","non-void-command factory collaborator",
-"UserTaskBuilder<TData>","small-class","WithEscalation","get non-void-command collaborator",
-"MysqlContext","controller degenerate","MysqlContext","constructor",
-"MysqlContext","controller degenerate","OnConfiguring","command collaborator",
-"MysqlContext","controller degenerate","ConfigureSubscriptionStorage","controller stateless",
-"MysqlContext","controller degenerate","ConfigureWorkflowStorage","controller stateless",
-"MysqlContext","controller degenerate","ConfigureExecutionPointerStorage","controller stateless",
-"MysqlContext","controller degenerate","ConfigureExecutionErrorStorage","controller stateless",
-"MysqlContext","controller degenerate","ConfigureExetensionAttributeStorage","controller stateless",
-"MysqlContext","controller degenerate","ConfigureEventStorage","controller stateless",
-"MysqlContext","controller degenerate","ConfigureScheduledCommandStorage","controller stateless",
-"DataObjectSerializer","boundary","Deserialize","property wrapper",
-"DataObjectSerializer","boundary","Serialize","void-accessor command collaborator",
-"DataObjectSerializer","boundary","AddTypeInformation","command collaborator",
-"DataObjectSerializer","boundary","GetTypeNameFromXPath","controller stateless",
-"DataObjectSerializer","boundary","AddTypeInformation","command collaborator",
-"DetermineSomething","boundary degenerate small-class","Run","wrapper stateless",
-"DefinitionLoader","unclassified","DefinitionLoader","constructor",
-"DefinitionLoader","unclassified","LoadDefinition","property non-void-command collaborator",
-"DefinitionLoader","unclassified","Convert","non-void-command factory collaborator",
-"DefinitionLoader","unclassified","ConvertSteps","non-void-command factory collaborator",
-"DefinitionLoader","unclassified","AttachInputs","controller stateless",
-"DefinitionLoader","unclassified","AttachOutputs","command collaborator",
-"DefinitionLoader","unclassified","AttachDirectlyOutput","controller stateless",
-"MongoPersistenceProvider","degenerate","MongoPersistenceProvider","constructor",
-"MongoPersistenceProvider","degenerate","MongoPersistenceProvider","constructor",
-"MongoPersistenceProvider","degenerate","GetWorkflowInstances","controller stateless",
-"MongoPersistenceProvider","degenerate","EnsureStoreExists","empty",
-"MongoPersistenceProvider","degenerate","GetEvents","controller stateless",
-"MongoPersistenceProvider","degenerate","ScheduleCommand","wrapper stateless",
-"InitialDatabase","pure-controller degenerate","BuildTargetModel","controller stateless",
-"InitialDatabase","pure-controller degenerate","Up","controller stateless",
-"InitialDatabase","pure-controller degenerate","Down","controller stateless",
-"InitialDatabase","pure-controller degenerate","BuildTargetModel","controller stateless",
-"InitialDatabase","pure-controller degenerate","Up","controller stateless",
-"InitialDatabase","pure-controller degenerate","Down","controller stateless",
-"InitialDatabase","pure-controller degenerate","BuildTargetModel","controller stateless",
-"InitialDatabase","pure-controller degenerate","Up","controller stateless",
-"InitialDatabase","pure-controller degenerate","Down","controller stateless",
-"RedisIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"scheduledcommands","pure-controller degenerate","BuildTargetModel","controller stateless",
-"scheduledcommands","pure-controller degenerate","Up","controller stateless",
-"scheduledcommands","pure-controller degenerate","Down","controller stateless",
-"scheduledcommands","pure-controller degenerate","BuildTargetModel","controller stateless",
-"scheduledcommands","pure-controller degenerate","Up","controller stateless",
-"scheduledcommands","pure-controller degenerate","Down","controller stateless",
-"scheduledcommands","pure-controller degenerate","BuildTargetModel","controller stateless",
-"scheduledcommands","pure-controller degenerate","Up","controller stateless",
-"scheduledcommands","pure-controller degenerate","Down","controller stateless",
-"PortsInUseException","empty","PortsInUseException","constructor",
-"MysqlPersistenceProviderModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"WorkflowOptions","commander boundary data-class","WorkflowOptions","constructor",
-"WorkflowOptions","commander boundary data-class","UsePersistence","set collaborator",
-"WorkflowOptions","commander boundary data-class","UseDistributedLockManager","set collaborator",
-"WorkflowOptions","commander boundary data-class","UseQueueProvider","set collaborator",
-"WorkflowOptions","commander boundary data-class","UseEventHub","set collaborator",
-"WorkflowOptions","commander boundary data-class","UseSearchIndex","set collaborator",
-"WorkflowOptions","commander boundary data-class","UsePollInterval","set collaborator",
-"WorkflowOptions","commander boundary data-class","UseErrorRetryInterval","set collaborator",
-"WorkflowOptions","commander boundary data-class","UseIdleTime","set collaborator",
-"WorkflowOptions","commander boundary data-class","UseMaxConcurrentWorkflows","set",
-"MysqlContextFactory","factory controller small-class","MysqlContextFactory","constructor",
-"MysqlContextFactory","factory controller small-class","Build","property factory collaborator",
-"PostgresPersistenceProviderModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"PostgresContextFactory","factory controller small-class","PostgresContextFactory","constructor",
-"PostgresContextFactory","factory controller small-class","Build","property factory collaborator",
-"RavendbPersistenceProvider","boundary degenerate","RavendbPersistenceProvider","constructor",
-"RavendbPersistenceProvider","boundary degenerate","PatchSession","controller stateless",
-"RavendbPersistenceProvider","boundary degenerate","GetWorkflowInstances","property non-void-command collaborator",
-"RavendbPersistenceProvider","boundary degenerate","EnsureStoreExists","empty",
-"RavendbPersistenceProvider","boundary degenerate","GetEvents","property non-void-command collaborator",
-"RavendbPersistenceProvider","boundary degenerate","ScheduleCommand","collaborator stateless",
-"EFCore5","pure-controller degenerate","BuildTargetModel","controller stateless",
-"EFCore5","pure-controller degenerate","Up","empty",
-"EFCore5","pure-controller degenerate","Down","empty",
-"SqlServerPersistenceProviderModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"DynamoLockProvider","entity commander boundary","DynamoLockProvider","constructor",
-"DynamoLockProvider","entity commander boundary","AcquireLock","property non-void-command collaborator",
-"DynamoLockProvider","entity commander boundary","ReleaseLock","non-void-command collaborator",
-"DynamoLockProvider","entity commander boundary","Start","non-void-command collaborator",
-"DynamoLockProvider","entity commander boundary","Stop","property non-void-command collaborator",
-"DynamoLockProvider","entity commander boundary","SendHeartbeat","command collaborator",
-"DynamoLockProvider","entity commander boundary","EnsureTable","non-void-command collaborator",
-"DynamoLockProvider","entity commander boundary","CreateTable","non-void-command collaborator",
-"SqlContextFactory","factory pure-controller small-class","SqlContextFactory","constructor",
-"SqlContextFactory","factory pure-controller small-class","Build","factory controller",
-"SqliteContext","controller degenerate","SqliteContext","constructor",
-"SqliteContext","controller degenerate","OnConfiguring","command collaborator",
-"SqliteContext","controller degenerate","ConfigureSubscriptionStorage","controller stateless",
-"SqliteContext","controller degenerate","ConfigureWorkflowStorage","controller stateless",
-"SqliteContext","controller degenerate","ConfigureExecutionPointerStorage","controller stateless",
-"SqliteContext","controller degenerate","ConfigureExecutionErrorStorage","controller stateless",
-"SqliteContext","controller degenerate","ConfigureExetensionAttributeStorage","controller stateless",
-"SqliteContext","controller degenerate","ConfigureEventStorage","controller stateless",
-"SqliteContext","controller degenerate","ConfigureScheduledCommandStorage","controller stateless",
-"MysqlIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"DynamoPersistenceProvider","boundary","DynamoPersistenceProvider","constructor",
-"DynamoPersistenceProvider","boundary","GetWorkflowInstances","collaborator stateless",
-"DynamoPersistenceProvider","boundary","GetEvents","non-void-command factory collaborator",
-"DynamoPersistenceProvider","boundary","EnsureStoreExists","command",
-"DynamoPersistenceProvider","boundary","ScheduleCommand","collaborator stateless",
-"StepExecutorTests","commander boundary","StepExecutorTests","constructor",
-"StepExecutorTests","commander boundary","ExecuteStep_should_run_step_when_no_middleware","non-void-command collaborator",
-"StepExecutorTests","commander boundary","ExecuteStep_should_run_middleware_and_step_when_one_middleware","non-void-command collaborator",
-"StepExecutorTests","commander boundary","ExecuteStep_should_run_middleware_chain_completing_in_reverse_order_and_step_when_multiple_middleware","non-void-command collaborator",
-"StepExecutorTests","commander boundary","ExecuteStep_should_bubble_up_exceptions_in_middleware","command collaborator",
-"StepExecutorTests","commander boundary","BuildStepMiddleware","wrapper stateless",
-"PostgresUserScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless",
-"KinesisStreamConsumer","entity commander boundary","KinesisStreamConsumer","constructor",
-"KinesisStreamConsumer","entity commander boundary","Subscribe","collaborator incidental",
-"KinesisStreamConsumer","entity commander boundary","Process","command collaborator",
-"KinesisStreamConsumer","entity commander boundary","GetBatch","property non-void-command collaborator",
-"KinesisStreamConsumer","entity commander boundary","Dispose","command",
-"CosmosClientFactory","unclassified","CosmosClientFactory","constructor",
-"CosmosClientFactory","unclassified","GetCosmosClient","get collaborator",
-"CosmosClientFactory","unclassified","Dispose","command",
-"CosmosClientFactory","unclassified","Dispose","set",
-"KinesisTracker","entity commander boundary","KinesisTracker","constructor",
-"KinesisTracker","entity commander boundary","GetNextShardIterator","property non-void-command collaborator",
-"KinesisTracker","entity commander boundary","GetNextLastSequenceNumber","property non-void-command collaborator",
-"KinesisTracker","entity commander boundary","IncrementShardIterator","non-void-command collaborator",
-"KinesisTracker","entity commander boundary","IncrementShardIteratorAndSequence","non-void-command collaborator",
-"KinesisTracker","entity commander boundary","EnsureTable","non-void-command collaborator",
-"KinesisTracker","entity commander boundary","CreateTable","non-void-command collaborator",
-"WorkflowExecutorFixture","commander boundary","WorkflowExecutorFixture","constructor",
-"WorkflowExecutorFixture","commander boundary","should_execute_active_step","command collaborator",
-"WorkflowExecutorFixture","commander boundary","should_call_execute_middleware_when_not_completed","command collaborator",
-"WorkflowExecutorFixture","commander boundary","should_not_call_post_middleware_when_not_completed","command collaborator",
-"WorkflowExecutorFixture","commander boundary","should_trigger_step_hooks","command collaborator",
-"WorkflowExecutorFixture","commander boundary","should_not_execute_inactive_step","command collaborator",
-"WorkflowExecutorFixture","commander boundary","should_map_inputs","command collaborator",
-"WorkflowExecutorFixture","commander boundary","should_map_outputs","command collaborator",
-"WorkflowExecutorFixture","commander boundary","should_handle_step_exception","command collaborator",
-"WorkflowExecutorFixture","commander boundary","should_process_after_execution_iteration","command collaborator",
-"WorkflowExecutorFixture","commander boundary","should_process_cancellations","command collaborator",
-"WorkflowExecutorFixture","commander boundary","Given1StepWorkflow","command",
-"WorkflowExecutorFixture","commander boundary","BuildFakeStep","property non-void-command collaborator",
-"WorkflowExecutorFixture","commander boundary","BuildFakeStep","property controller",
-"CosmosDbProvisioner","empty","CosmosDbProvisioner","constructor",
-"CosmosDbPersistenceProvider","entity boundary","CosmosDbPersistenceProvider","constructor",
-"CosmosDbPersistenceProvider","entity boundary","CreateEvent","property non-void-command collaborator",
-"CosmosDbPersistenceProvider","entity boundary","CreateEventSubscription","property non-void-command collaborator",
-"CosmosDbPersistenceProvider","entity boundary","CreateNewWorkflow","property non-void-command collaborator",
-"CosmosDbPersistenceProvider","entity boundary","EnsureStoreExists","command",
-"CosmosDbPersistenceProvider","entity boundary","GetEvent","property non-void-command collaborator",
-"CosmosDbPersistenceProvider","entity boundary","GetEvents","non-void-command collaborator",
-"ElasticsearchIndexer","commander boundary small-class","ElasticsearchIndexer","constructor",
-"ElasticsearchIndexer","commander boundary small-class","IndexWorkflow","non-void-command collaborator",
-"ElasticsearchIndexer","commander boundary small-class","Search","non-void-command collaborator",
+"SingleNodeLockProviderTests","factory degenerate small-class","CreateProvider","factory collaborator stateless"
+"WorkflowRegistryFixture","commander","WorkflowRegistryFixture","constructor"
+"WorkflowRegistryFixture","commander","getdefinition_should_return_existing_workflow","command"
+"WorkflowRegistryFixture","commander","getdefinition_should_return_null_on_unknown","command"
+"WorkflowRegistryFixture","commander","getdefinition_should_return_highest_version_workflow","command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","WorkflowMiddlewareRunnerTests","constructor"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPreMiddleware_should_run_nothing_when_no_middleware","command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPreMiddleware_should_run_middleware_when_one_middleware","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPreMiddleware_should_run_all_middleware_when_multiple_middleware","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPreMiddleware_should_only_run_middleware_in_PreWorkflow_phase","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_run_nothing_when_no_middleware","command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_run_middleware_when_one_middleware","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_run_all_middleware_when_multiple_middleware","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_only_run_middleware_in_PostWorkflow_phase","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_call_top_level_error_handler_when_middleware_throws","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunPostMiddleware_should_call_error_handler_on_workflow_def_when_middleware_throws_and_def_has_handler","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_run_nothing_when_no_middleware","command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_run_middleware_when_one_middleware","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_run_all_middleware_when_multiple_middleware","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_only_run_middleware_in_ExecuteWorkflow_phase","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_call_top_level_error_handler_when_middleware_throws","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","RunExecuteMiddleware_should_call_error_handler_on_workflow_def_when_middleware_throws_and_def_has_handler","non-void-command collaborator"
+"WorkflowMiddlewareRunnerTests","commander boundary","BuildWorkflowMiddleware","wrapper stateless"
+"ScopeProviderTests","commander boundary small-class","ScopeProviderTests","constructor"
+"ScopeProviderTests","commander boundary small-class","ReturnsServiceScope_CreateScopeCalled","command collaborator"
+"SqlitePersistenceProviderFixture","factory pure-controller small-class","SqlitePersistenceProviderFixture","constructor"
+"SqlitePersistenceProviderFixture","factory pure-controller small-class","get","factory controller"
+"SqlServerPersistenceProviderFixture","factory pure-controller small-class","SqlServerPersistenceProviderFixture","constructor"
+"SqlServerPersistenceProviderFixture","factory pure-controller small-class","get","factory controller"
+"SqlServerWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerForEachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerDelayScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerCompenstationScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"RedisForeachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"RedisBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"RedisDockerSetup","entity boundary small-class","RedisDockerSetup","constructor"
+"RedisDockerSetup","entity boundary small-class","InitializeAsync","set collaborator"
+"RedisDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator"
+"PostgresWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"PostgresRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"PostgresIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"PostgresEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"PostgresActivityScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"PostgresPersistenceProviderFixture","empty","PostgresPersistenceProviderFixture","constructor"
+"MysqlWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"BasePersistenceFixture","commander boundary","CreateNewWorkflow_should_generate_id","command collaborator"
+"BasePersistenceFixture","commander boundary","GetWorkflowInstance_should_retrieve_workflow","command collaborator"
+"BasePersistenceFixture","commander boundary","GetWorkflowInstances_should_retrieve_workflows","command collaborator"
+"BasePersistenceFixture","commander boundary","PersistWorkflow","command collaborator"
+"BasePersistenceFixture","commander boundary","PersistWorkflow_with_subscriptions","command collaborator"
+"BasePersistenceFixture","commander boundary","ConcurrentPersistWorkflow","controller"
+"MysqlWhenScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MysqlUserScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MysqlRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MysqlEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerDynamicDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MysqlBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MysqlPersistenceProviderFixture","empty","MysqlPersistenceProviderFixture","constructor"
+"MysqlDockerSetup","entity boundary small-class","MysqlDockerSetup","constructor"
+"MysqlDockerSetup","entity boundary small-class","InitializeAsync","non-void-command collaborator"
+"MysqlDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator"
+"MemberMapParameterTests","pure-controller degenerate","should_assign_input","controller stateless"
+"MemberMapParameterTests","pure-controller degenerate","should_assign_output","controller stateless"
+"MemberMapParameterTests","pure-controller degenerate","should_convert_input","controller stateless"
+"MemberMapParameterTests","pure-controller degenerate","should_convert_output","controller stateless"
+"MongoWhenScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MongoSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MongoIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MongoDataScenario","pure-controller degenerate small-class","MongoDataScenario","constructor"
+"MongoDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MongoCompensationScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MongoPersistenceProviderFixture","factory pure-controller degenerate small-class","MongoPersistenceProviderFixture","constructor"
+"MongoPersistenceProviderFixture","factory pure-controller degenerate small-class","get","factory controller stateless"
+"ElasticsearchIndexerTests","factory degenerate small-class","ElasticsearchIndexerTests","constructor"
+"ElasticsearchIndexerTests","factory degenerate small-class","CreateService","factory collaborator stateless"
+"ElasticsearchDockerSetup","entity boundary small-class","ElasticsearchDockerSetup","constructor"
+"ElasticsearchDockerSetup","entity boundary small-class","InitializeAsync","set collaborator"
+"ElasticsearchDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator"
+"DynamoWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamoIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamoEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MysqlSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamoDynamicDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamoDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamoCompensationScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamoBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerWhenScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamoPersistenceProviderFixture","boundary small-class","DynamoPersistenceProviderFixture","constructor"
+"DynamoPersistenceProviderFixture","boundary small-class","get","get set collaborator"
+"DynamoDbDockerSetup","lazy-class small-class","PublishConnectionInfo","set"
+"DynamoDbDockerSetup","lazy-class small-class","TestReady","controller stateless"
+"UserScenario","commander boundary small-class","UserScenario","constructor"
+"UserScenario","commander boundary small-class","Scenario","command collaborator"
+"StoredJsonScenario","commander boundary","StoredJsonScenario","constructor"
+"StoredJsonScenario","commander boundary","should_execute_branch1","command collaborator"
+"StoredJsonScenario","commander boundary","should_execute_branch2","command collaborator"
+"StoredJsonScenario","commander boundary","should_execute_json_workflow_with_dynamic_data","command collaborator"
+"MultistepCompensationScenario2","commander boundary small-class","MultistepCompensationScenario2","constructor"
+"MultistepCompensationScenario2","commander boundary small-class","MultiCompensationStepOrder","command collaborator"
+"MiddlewareScenario","commander boundary small-class","MiddlewareScenario","constructor"
+"MiddlewareScenario","commander boundary small-class","ConfigureServices","command collaborator"
+"MiddlewareScenario","commander boundary small-class","Should_run_all_workflow_and_step_middleware","non-void-command collaborator"
+"SearchIndexTests","commander boundary","SearchIndexTests","constructor"
+"SearchIndexTests","commander boundary","BuildTestData","factory collaborator stateless"
+"SearchIndexTests","commander boundary","should_search_on_reference","command collaborator"
+"SearchIndexTests","commander boundary","should_search_on_custom_data","command collaborator"
+"SearchIndexTests","commander boundary","should_filter_on_custom_data","command collaborator"
+"SearchIndexTests","commander boundary","should_filter_on_alt_custom_data_with_conflicting_names","command collaborator"
+"SearchIndexTests","commander boundary","should_filter_on_reference","command collaborator"
+"SearchIndexTests","commander boundary","should_filter_on_status","command collaborator"
+"SearchIndexTests","commander boundary","should_filter_on_date_range","command collaborator"
+"ForkScenario","commander small-class","Scenario","command"
+"EventScenario","commander boundary small-class","EventScenario","constructor"
+"EventScenario","commander boundary small-class","Scenario","command collaborator"
+"EventOrderScenario","commander boundary small-class","EventOrderScenario","constructor"
+"EventOrderScenario","commander boundary small-class","Scenario","command collaborator"
+"DiAutoFacTransientScenario","commander boundary small-class","DiAutoFacTransientScenario","constructor"
+"DiAutoFacTransientScenario","commander boundary small-class","Scenario","command collaborator"
+"DiMsScopedScenario","commander boundary small-class","DiMsScopedScenario","constructor"
+"DiMsScopedScenario","commander boundary small-class","Scenario","command collaborator"
+"Dependency2","empty","Dependency2","constructor"
+"DelayWorkflow","commander boundary small-class","Build","command collaborator"
+"DecisionScenario","commander boundary small-class","DecisionScenario","constructor"
+"DecisionScenario","commander boundary small-class","Scenario1","command collaborator"
+"DecisionScenario","commander boundary small-class","Scenario2","command collaborator"
+"BasicScenario","commander boundary small-class","BasicScenario","constructor"
+"BasicScenario","commander boundary small-class","Scenario","command collaborator"
+"BaseScenario<TWorkflow,TData>","unclassified","BaseScenario","constructor"
+"BaseScenario<TWorkflow,TData>","unclassified","Setup","command collaborator"
+"BaseScenario<TWorkflow,TData>","unclassified","Configure","controller stateless"
+"BaseScenario<TWorkflow,TData>","unclassified","Dispose","command"
+"DockerSetup","entity commander boundary","DockerSetup","constructor"
+"DockerSetup","entity commander boundary","StartContainer","non-void-command collaborator"
+"DockerSetup","entity commander boundary","PullImage","non-void-command collaborator"
+"DockerSetup","entity commander boundary","Dispose","command"
+"DockerSetup","entity commander boundary","GetFreePort","property non-void-command collaborator"
+"NUnitTest","commander small-class","Setup","command"
+"NUnitTest","commander small-class","NUnit_workflow_test_sample","command collaborator"
+"LogMessage","entity boundary small-class","LogMessage","copy-constructor"
+"LogMessage","entity boundary small-class","RunAsync","property non-void-command collaborator"
+"PrintWorkflowSummaryMiddleware","entity boundary small-class","PrintWorkflowSummaryMiddleware","copy-constructor"
+"PrintWorkflowSummaryMiddleware","entity boundary small-class","HandleAsync","property non-void-command collaborator"
+"AddMetadataToLogsMiddleware","entity boundary small-class","AddMetadataToLogsMiddleware","copy-constructor"
+"AddMetadataToLogsMiddleware","entity boundary small-class","HandleAsync","property non-void-command collaborator"
+"FlakyConnectionWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"ActivityWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"UndoTask3","boundary degenerate small-class","Run","wrapper stateless"
+"MongoRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"UndoTask1","boundary degenerate small-class","Run","wrapper stateless"
+"Task3","boundary degenerate small-class","Run","wrapper stateless"
+"Task1","boundary degenerate small-class","Run","wrapper stateless"
+"PostgresDynamicDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"FlakyConnection","boundary data-class small-class","RunAsync","property set collaborator"
+"RecurSampleWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"OutcomeWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"MongoDockerSetup","entity boundary small-class","MongoDockerSetup","constructor"
+"MongoDockerSetup","entity boundary small-class","InitializeAsync","set collaborator"
+"MongoDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator"
+"PrintMessage","data-provider boundary","Run","property wrapper"
+"PrintMessage","data-provider boundary","Run","property wrapper"
+"PrintMessage","data-provider boundary","Run","property wrapper"
+"WhileWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"IncrementStep","boundary data-class small-class","Run","property set collaborator"
+"ForEachSyncWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"MysqlDelayScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SayHello","boundary degenerate","Run","wrapper stateless"
+"SayHello","boundary degenerate","Run","wrapper stateless"
+"SayHello","boundary degenerate","Run","wrapper stateless"
+"SayHello","boundary degenerate","Run","wrapper stateless"
+"SayHello","boundary degenerate","Run","wrapper stateless"
+"SayHello","boundary degenerate","Run","wrapper stateless"
+"DoSomething","entity boundary degenerate","Run","wrapper stateless"
+"DoSomething","entity boundary degenerate","Run","wrapper stateless"
+"DoSomething","entity boundary degenerate","Run","wrapper stateless"
+"DoSomething","entity boundary degenerate","DoSomething","constructor"
+"DoSomething","entity boundary degenerate","Run","property non-void-command collaborator"
+"MysqlForeachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DisplayContext","boundary degenerate small-class","Run","wrapper stateless"
+"DisplayContext","boundary degenerate small-class","Run","wrapper stateless"
+"TaskD","boundary degenerate small-class","Run","wrapper stateless"
+"TaskC","boundary degenerate small-class","Run","wrapper stateless"
+"TaskB","boundary degenerate small-class","Run","wrapper stateless"
+"TaskA","boundary degenerate small-class","Run","wrapper stateless"
+"MultipleOutcomeWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"SleepStep","data-provider boundary small-class","Run","property wrapper"
+"EventSampleWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"AddNumbers","boundary data-class small-class","RunAsync","property set collaborator"
+"AddNumbers","boundary data-class small-class","Run","property set collaborator"
+"PassingDataWorkflow2","pure-controller degenerate small-class","Build","controller stateless"
+"PollyRetryMiddleware","entity boundary small-class","PollyRetryMiddleware","copy-constructor"
+"PollyRetryMiddleware","entity boundary small-class","HandleAsync","wrapper stateless"
+"PollyRetryMiddleware","entity boundary small-class","UpdateRetryCount","property non-void-command collaborator"
+"PassingDataWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"RandomOutput","pure-controller degenerate small-class","Run","controller stateless"
+"RandomOutput","pure-controller degenerate small-class","Run","controller stateless"
+"SimpleDecisionWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"HelloWorld","boundary degenerate","Run","wrapper stateless"
+"HelloWorld","boundary degenerate","Run","wrapper stateless"
+"HelloWorld","boundary degenerate","Run","wrapper stateless"
+"HelloWorld","boundary degenerate","Run","wrapper stateless"
+"HelloWorld","boundary degenerate","Run","wrapper stateless"
+"HelloWorld","boundary degenerate","Run","wrapper stateless"
+"HelloWorldWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"HelloWorldWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"TestWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"Startup","pure-controller degenerate","Startup","constructor"
+"Startup","pure-controller degenerate","ConfigureServices","controller stateless"
+"Startup","pure-controller degenerate","Configure","controller stateless"
+"Startup","pure-controller degenerate","ConfigureServices","controller stateless"
+"Startup","pure-controller degenerate","Configure","controller stateless"
+"SqlServerQueueProviderMigrator","commander boundary","SqlServerQueueProviderMigrator","constructor"
+"SqlServerQueueProviderMigrator","commander boundary","MigrateDbAsync","non-void-command collaborator"
+"SqlServerQueueProviderMigrator","commander boundary","CreateService","non-void-command collaborator"
+"SqlServerQueueProviderMigrator","commander boundary","CreateQueue","non-void-command collaborator"
+"SqlServerQueueProviderMigrator","commander boundary","CreateContract","non-void-command collaborator"
+"SqlServerQueueProviderMigrator","commander boundary","CreateMessageType","non-void-command collaborator"
+"SqlServerQueueProviderMigrator","commander boundary","CreateDbAsync","non-void-command collaborator"
+"SqlServerQueueProviderMigrator","commander boundary","EnableBroker","non-void-command collaborator"
+"SqlServerQueueProvider","commander boundary","SqlServerQueueProvider","copy-constructor"
+"SqlServerQueueProvider","commander boundary","Start","non-void-command collaborator"
+"SqlServerQueueProvider","commander boundary","Stop","empty"
+"SqlServerQueueProvider","commander boundary","Dispose","command"
+"SqlServerQueueProvider","commander boundary","QueueWork","non-void-command collaborator"
+"SqlServerQueueProvider","commander boundary","DequeueWork","property non-void-command collaborator"
+"SqlCommandExecutor","pure-controller degenerate small-class","ExecuteScalarAsync<TResult>","controller stateless"
+"SqlCommandExecutor","pure-controller degenerate small-class","ExecuteCommandAsync","controller stateless"
+"ActivityScenario","commander boundary small-class","ActivityScenario","constructor"
+"ActivityScenario","commander boundary small-class","Scenario","command collaborator"
+"When","small-class","Run","property non-void-command collaborator"
+"When","small-class","GetSwitchOutcome","controller stateless"
+"MongoWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SagaContainer<TStepBody>","entity boundary small-class","PrimeForRetry","void-accessor command collaborator"
+"ExpressionOutcome<TData>","boundary degenerate small-class","ExpressionOutcome","constructor"
+"ExpressionOutcome<TData>","boundary degenerate small-class","Matches","wrapper stateless"
+"ExpressionOutcome<TData>","boundary degenerate small-class","Matches","wrapper stateless"
+"SqlDockerSetup","entity boundary small-class","SqlDockerSetup","constructor"
+"SqlDockerSetup","entity boundary small-class","InitializeAsync","non-void-command collaborator"
+"SqlDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator"
+"Task2","boundary degenerate small-class","Run","collaborator stateless"
+"Schedule","pure-controller degenerate small-class","Run","controller stateless"
+"StoredYamlScenario","commander boundary small-class","StoredYamlScenario","constructor"
+"StoredYamlScenario","commander boundary small-class","should_execute_yaml_workflow","command collaborator"
+"If","controller small-class","Run","property controller"
+"EndStep","boundary degenerate small-class","InitForExecution","collaborator incidental"
+"StepExecutor","entity boundary small-class","StepExecutor","constructor"
+"StepExecutor","entity boundary small-class","ExecuteStep","property non-void-command collaborator"
+"ControlStructures","pure-controller degenerate","BuildTargetModel","controller stateless"
+"ControlStructures","pure-controller degenerate","Up","controller stateless"
+"ControlStructures","pure-controller degenerate","Down","controller stateless"
+"ControlStructures","pure-controller degenerate","BuildTargetModel","controller stateless"
+"ControlStructures","pure-controller degenerate","Up","controller stateless"
+"ControlStructures","pure-controller degenerate","Down","controller stateless"
+"ControlStructures","pure-controller degenerate","BuildTargetModel","controller stateless"
+"ControlStructures","pure-controller degenerate","Up","controller stateless"
+"ControlStructures","pure-controller degenerate","Down","controller stateless"
+"Decide","data-provider boundary small-class","Run","property wrapper"
+"IfWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"Activity","boundary data-class small-class","Run","property set collaborator"
+"MysqlDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"ActionStepBody","boundary degenerate small-class","Run","wrapper stateless"
+"WorkflowBuilder<TData>","entity boundary","Build","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","WorkflowBuilder","constructor"
+"WorkflowBuilder<TData>","entity boundary","StartWith<TStep>","non-void-command factory collaborator"
+"WorkflowBuilder<TData>","entity boundary","StartWith","non-void-command factory collaborator"
+"WorkflowBuilder<TData>","entity boundary","StartWith","non-void-command factory collaborator"
+"WorkflowBuilder<TData>","entity boundary","GetUpstreamSteps","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","UseDefaultErrorBehavior","get non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","CreateBranch","factory collaborator stateless"
+"WorkflowBuilder<TData>","entity boundary","Then<TStep>","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Then<TStep>","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Then","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Then","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","WaitFor","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","WaitFor","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Delay","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Decide","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","ForEach","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","ForEach","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","ForEach","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","While","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","While","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","If","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","If","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","When","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Parallel","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Saga","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Schedule","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Recur","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Activity","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Activity","property non-void-command collaborator"
+"WorkflowBuilder<TData>","entity boundary","Start","property non-void-command collaborator"
+"StepOutcomeBuilder<TData>","factory controller data-class","StepOutcomeBuilder","constructor"
+"StepOutcomeBuilder<TData>","factory controller data-class","Then<TStep>","set factory collaborator"
+"StepOutcomeBuilder<TData>","factory controller data-class","Then<TStep>","set factory collaborator"
+"StepOutcomeBuilder<TData>","factory controller data-class","Then","set factory collaborator"
+"StepOutcomeBuilder<TData>","factory controller data-class","EndWorkflow","set collaborator"
+"ParallelWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"DefaultRabbitMqQueueNameProvider","boundary degenerate small-class","GetQueueName","collaborator incidental"
+"ValueOutcome","entity boundary","Matches","predicate non-void-command collaborator"
+"ValueOutcome","entity boundary","Matches","predicate non-void-command collaborator"
+"ValueOutcome","entity boundary","GetValue","property non-void-command collaborator"
+"ValueOutcome","entity boundary","set","set collaborator"
+"StepBody","factory degenerate","RunAsync","wrapper stateless"
+"StepBody","factory degenerate","OutcomeResult","factory collaborator incidental"
+"StepBody","factory degenerate","PersistResult","factory collaborator incidental"
+"StepBody","factory degenerate","SleepResult","factory collaborator incidental"
+"DelayScenario","commander boundary small-class","DelayScenario","constructor"
+"DelayScenario","commander boundary small-class","Scenario","command collaborator"
+"ParallelStepBuilder<TData,TStepBody>","boundary data-class small-class","ParallelStepBuilder","constructor"
+"ParallelStepBuilder<TData,TStepBody>","boundary data-class small-class","Do","get non-void-command collaborator"
+"ParallelStepBuilder<TData,TStepBody>","boundary data-class small-class","Join","get collaborator"
+"DiStep1","boundary degenerate small-class","DiStep1","constructor"
+"DiStep1","boundary degenerate small-class","Run","wrapper stateless"
+"WorkflowDbContext","commander boundary small-class","OnModelCreating","command collaborator"
+"WorkflowDbContext","commander boundary small-class","OnConfiguring","command collaborator"
+"Events","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Events","pure-controller degenerate","Up","controller stateless"
+"Events","pure-controller degenerate","Down","controller stateless"
+"Events","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Events","pure-controller degenerate","Up","controller stateless"
+"Events","pure-controller degenerate","Down","controller stateless"
+"Events","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Events","pure-controller degenerate","Up","controller stateless"
+"Events","pure-controller degenerate","Down","controller stateless"
+"WorkflowTest<TWorkflow,TData>","boundary","Setup","command collaborator"
+"WorkflowTest<TWorkflow,TData>","boundary","Host_OnStepError","collaborator incidental"
+"WorkflowTest<TWorkflow,TData>","boundary","ConfigureServices","controller stateless"
+"WorkflowTest<TWorkflow,TData>","boundary","StartWorkflow","property non-void-command collaborator"
+"WorkflowTest<TWorkflow,TData>","boundary","StartWorkflowAsync","property non-void-command collaborator"
+"WorkflowTest<TWorkflow,TData>","boundary","WaitForWorkflowToComplete","command collaborator"
+"WorkflowTest<TWorkflow,TData>","boundary","WaitForWorkflowToCompleteAsync","property non-void-command collaborator"
+"WorkflowTest<TWorkflow,TData>","boundary","GetActiveSubscriptons","property non-void-command collaborator"
+"WorkflowTest<TWorkflow,TData>","boundary","WaitForEventSubscription","command collaborator"
+"WorkflowTest<TWorkflow,TData>","boundary","GetStatus","property non-void-command collaborator"
+"WorkflowTest<TWorkflow,TData>","boundary","GetData","property non-void-command collaborator"
+"WorkflowTest<TWorkflow,TData>","boundary","Dispose","command"
+"DynamoSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"CompensatingWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"OutcomeSwitch","small-class","Run","property non-void-command collaborator"
+"OutcomeSwitch","small-class","GetPreviousOutcome","controller stateless"
+"PostgresForeachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MemberMapParameter","unclassified","MemberMapParameter","constructor"
+"MemberMapParameter","unclassified","Assign","controller stateless"
+"MemberMapParameter","unclassified","AssignInput","command collaborator"
+"MemberMapParameter","unclassified","AssignOutput","command collaborator"
+"PostgresWhenScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"WorkflowStep","degenerate","InitForExecution","collaborator incidental"
+"WorkflowStep","degenerate","BeforeExecute","collaborator incidental"
+"WorkflowStep","degenerate","AfterExecute","empty"
+"WorkflowStep","degenerate","PrimeForRetry","empty"
+"WorkflowStep","degenerate","AfterWorkflowIteration","empty"
+"WorkflowStep","degenerate","ConstructBody","property non-void-command collaborator"
+"BasicWorkflow","commander boundary data-class small-class","Build","set collaborator"
+"MysqlForkScenario","pure-controller degenerate small-class","Configure","controller stateless"
+"WorkflowExecutor","controller degenerate","WorkflowExecutor","constructor"
+"WorkflowExecutor","controller degenerate","InitializeStep","predicate controller"
+"WorkflowExecutor","controller degenerate","ProcessAfterExecutionIteration","controller stateless"
+"WorkflowExecutor","controller degenerate","DetermineNextExecutionTime","controller stateless"
+"MongoForEachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"Recur","factory controller small-class","Run","property factory wrapper"
+"WfReference","pure-controller degenerate","BuildTargetModel","controller stateless"
+"WfReference","pure-controller degenerate","Up","controller stateless"
+"WfReference","pure-controller degenerate","Down","controller stateless"
+"WfReference","pure-controller degenerate","BuildTargetModel","controller stateless"
+"WfReference","pure-controller degenerate","Up","controller stateless"
+"WfReference","pure-controller degenerate","Down","controller stateless"
+"WfReference","pure-controller degenerate","BuildTargetModel","controller stateless"
+"WfReference","pure-controller degenerate","Up","controller stateless"
+"WfReference","pure-controller degenerate","Down","controller stateless"
+"InlineStepBody","entity boundary small-class","InlineStepBody","constructor"
+"InlineStepBody","entity boundary small-class","Run","property non-void-command collaborator"
+"ExecutionResult","empty","ExecutionResult","constructor"
+"ExecutionResult","empty","ExecutionResult","constructor"
+"ForEachWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"DeferSampleWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"SingleNodeQueueProvider","data-provider boundary degenerate","QueueWork","property wrapper"
+"SingleNodeQueueProvider","data-provider boundary degenerate","DequeueWork","property wrapper"
+"SingleNodeQueueProvider","data-provider boundary degenerate","Start","collaborator incidental"
+"SingleNodeQueueProvider","data-provider boundary degenerate","Stop","collaborator incidental"
+"SingleNodeQueueProvider","data-provider boundary degenerate","Dispose","empty"
+"WorkflowStepCollection","entity boundary","WorkflowStepCollection","constructor"
+"WorkflowStepCollection","entity boundary","WorkflowStepCollection","constructor"
+"WorkflowStepCollection","entity boundary","WorkflowStepCollection","constructor"
+"WorkflowStepCollection","entity boundary","GetEnumerator","property non-void-command collaborator"
+"WorkflowStepCollection","entity boundary","IEnumerable.GetEnumerator","property non-void-command collaborator"
+"WorkflowStepCollection","entity boundary","FindById","get property non-void-command collaborator"
+"WorkflowStepCollection","entity boundary","Add","command collaborator"
+"WorkflowStepCollection","entity boundary","Clear","command"
+"WorkflowStepCollection","entity boundary","Contains","predicate non-void-command collaborator"
+"WorkflowStepCollection","entity boundary","CopyTo","command"
+"WorkflowStepCollection","entity boundary","Remove","predicate non-void-command collaborator"
+"WorkflowStepCollection","entity boundary","Find","property non-void-command collaborator"
+"UserStep","data-provider boundary small-class","UserStep","constructor"
+"UserStep","data-provider boundary small-class","Run","property wrapper"
+"Escalate","controller small-class","Run","property controller"
+"MigrationContextFactory","factory degenerate","CreateDbContext","factory collaborator stateless"
+"MigrationContextFactory","factory degenerate","CreateDbContext","factory collaborator stateless"
+"MigrationContextFactory","factory degenerate","CreateDbContext","factory collaborator stateless"
+"RedisEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"AddDescriptionWorkflowMiddleware","boundary degenerate small-class","HandleAsync","wrapper stateless"
+"ExecutionPointerCollection","entity boundary","ExecutionPointerCollection","constructor"
+"ExecutionPointerCollection","entity boundary","ExecutionPointerCollection","constructor"
+"ExecutionPointerCollection","entity boundary","ExecutionPointerCollection","constructor"
+"ExecutionPointerCollection","entity boundary","GetEnumerator","property non-void-command collaborator"
+"ExecutionPointerCollection","entity boundary","IEnumerable.GetEnumerator","property non-void-command collaborator"
+"ExecutionPointerCollection","entity boundary","FindById","get property non-void-command collaborator"
+"ExecutionPointerCollection","entity boundary","FindByScope","get property non-void-command factory collaborator"
+"ExecutionPointerCollection","entity boundary","Add","command collaborator"
+"ExecutionPointerCollection","entity boundary","Clear","command"
+"ExecutionPointerCollection","entity boundary","Contains","predicate non-void-command collaborator"
+"ExecutionPointerCollection","entity boundary","CopyTo","command"
+"ExecutionPointerCollection","entity boundary","Remove","predicate non-void-command collaborator"
+"ExecutionPointerCollection","entity boundary","Find","property non-void-command collaborator"
+"ExecutionPointerCollection","entity boundary","FindByStatus","property non-void-command collaborator"
+"UndoTask2","boundary degenerate small-class","Run","wrapper stateless"
+"SubWorkflowStepBody","boundary degenerate small-class","Run","collaborator stateless"
+"PostgresDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"MongoForkScenario","pure-controller degenerate small-class","Configure","controller stateless"
+"MongoDelayScenario","pure-controller degenerate small-class","MongoDelayScenario","constructor"
+"MongoDelayScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"WorkflowSearchModel","factory controller small-class","ToSearchResult","non-void-command factory collaborator"
+"SqliteSetup","degenerate small-class","SqliteSetup","constructor"
+"SqliteSetup","degenerate small-class","Dispose","empty"
+"WorkflowStepInline","factory controller small-class","ConstructBody","property factory collaborator"
+"While","controller small-class","Run","property controller"
+"DefaultRabbitMqQueueNameProviderTests","commander boundary small-class","DefaultRabbitMqQueueNameProviderTests","constructor"
+"DefaultRabbitMqQueueNameProviderTests","commander boundary small-class","GetQueueName_ValidInput_ReturnsValidQueueName","command collaborator"
+"MongoEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamicDataIOScenario","commander boundary small-class","DynamicDataIOScenario","constructor"
+"DynamicDataIOScenario","commander boundary small-class","Scenario","command collaborator"
+"Foreach","entity boundary small-class","Run","property non-void-command collaborator"
+"DiMsTransientScenario","commander boundary small-class","DiMsTransientScenario","constructor"
+"DiMsTransientScenario","commander boundary small-class","Scenario","command collaborator"
+"WorkflowInstance","small-class","IsBranchComplete","predicate non-void-command"
+"WorkflowConsumer","commander boundary","WorkflowConsumer","constructor"
+"WorkflowConsumer","commander boundary","ProcessItem","non-void-command collaborator"
+"WorkflowConsumer","commander boundary","TryProcessSubscription","non-void-command collaborator"
+"WorkflowConsumer","commander boundary","FutureQueue","command collaborator"
+"WaitFor","boundary data-class small-class","Run","property set collaborator"
+"SayGoodbye","boundary degenerate","Run","wrapper stateless"
+"SayGoodbye","boundary degenerate","Run","wrapper stateless"
+"SayGoodbye","boundary degenerate","Run","wrapper stateless"
+"SayGoodbye","boundary degenerate","Run","wrapper stateless"
+"SayGoodbye","boundary degenerate","Run","wrapper stateless"
+"SayGoodbye","boundary degenerate","Run","wrapper stateless"
+"WorkflowController","entity boundary","WorkflowController","constructor"
+"WorkflowController","entity boundary","StartWorkflow","property non-void-command collaborator"
+"WorkflowController","entity boundary","StartWorkflow","wrapper stateless"
+"WorkflowController","entity boundary","StartWorkflow<TData>","property non-void-command collaborator"
+"WorkflowController","entity boundary","StartWorkflow<TData>","property non-void-command collaborator"
+"WorkflowController","entity boundary","PublishEvent","non-void-command collaborator"
+"WorkflowController","entity boundary","SuspendWorkflow","property non-void-command collaborator"
+"WorkflowController","entity boundary","ResumeWorkflow","property non-void-command collaborator"
+"WorkflowController","entity boundary","TerminateWorkflow","property non-void-command collaborator"
+"WorkflowController","entity boundary","RegisterWorkflow<TWorkflow>","command collaborator"
+"WorkflowController","entity boundary","RegisterWorkflow<TWorkflow,TData>","command collaborator"
+"HumanWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"WorkflowDefinitionLoadException","empty","WorkflowDefinitionLoadException","constructor"
+"MongoUserScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"WorkflowLockedException","empty","WorkflowLockedException","constructor"
+"ActivityFailedException","empty","ActivityFailedException","constructor"
+"MultistepCompensationScenario","commander boundary small-class","MultistepCompensationScenario","constructor"
+"MultistepCompensationScenario","commander boundary small-class","MultiCompensationStepOrder","command collaborator"
+"JsonWorkflowTest","boundary","Setup","command collaborator"
+"JsonWorkflowTest","boundary","Host_OnStepError","collaborator incidental"
+"JsonWorkflowTest","boundary","ConfigureServices","controller stateless"
+"JsonWorkflowTest","boundary","StartWorkflow","property non-void-command collaborator"
+"JsonWorkflowTest","boundary","WaitForWorkflowToComplete","command collaborator"
+"JsonWorkflowTest","boundary","GetActiveSubscriptons","property non-void-command collaborator"
+"JsonWorkflowTest","boundary","WaitForEventSubscription","command collaborator"
+"JsonWorkflowTest","boundary","GetStatus","property non-void-command collaborator"
+"JsonWorkflowTest","boundary","GetData<TData>","property non-void-command collaborator"
+"JsonWorkflowTest","boundary","Dispose","command"
+"ServiceBusLifeCycleEventHub","entity commander boundary","ServiceBusLifeCycleEventHub","constructor"
+"ServiceBusLifeCycleEventHub","entity commander boundary","PublishNotification","non-void-command collaborator"
+"ServiceBusLifeCycleEventHub","entity commander boundary","Subscribe","command collaborator"
+"ServiceBusLifeCycleEventHub","entity commander boundary","Start","property non-void-command collaborator"
+"ServiceBusLifeCycleEventHub","entity commander boundary","Stop","non-void-command collaborator"
+"ServiceBusLifeCycleEventHub","entity commander boundary","MessageHandler","non-void-command collaborator"
+"ServiceBusLifeCycleEventHub","entity commander boundary","ExceptionHandler","property non-void-command collaborator"
+"ServiceBusLifeCycleEventHub","entity commander boundary","NotifySubscribers","command collaborator"
+"RedisPersistenceProvider","boundary degenerate","RedisPersistenceProvider","constructor"
+"RedisPersistenceProvider","boundary degenerate","GetWorkflowInstances","collaborator stateless"
+"RedisPersistenceProvider","boundary degenerate","EnsureStoreExists","empty"
+"RedisPersistenceProvider","boundary degenerate","ScheduleCommand","collaborator stateless"
+"DynamoDbProvisioner","entity commander boundary","DynamoDbProvisioner","constructor"
+"DynamoDbProvisioner","entity commander boundary","ProvisionTables","property non-void-command collaborator"
+"DynamoDbProvisioner","entity commander boundary","CreateWorkflowTable","non-void-command collaborator"
+"DynamoDbProvisioner","entity commander boundary","CreateSubscriptionTable","non-void-command collaborator"
+"DynamoDbProvisioner","entity commander boundary","CreateEventTable","non-void-command collaborator"
+"DynamoDbProvisioner","entity commander boundary","EnsureTable","non-void-command collaborator"
+"DynamoDbProvisioner","entity commander boundary","CreateTable","non-void-command collaborator"
+"EventConsumer","entity boundary small-class","EventConsumer","constructor"
+"EventConsumer","entity boundary small-class","ProcessItem","non-void-command collaborator"
+"EventConsumer","entity boundary small-class","SeedSubscription","property non-void-command collaborator"
+"RedisDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"PostgresForkScenario","pure-controller degenerate small-class","Configure","controller stateless"
+"PostgresDockerSetup","entity boundary small-class","PostgresDockerSetup","constructor"
+"PostgresDockerSetup","entity boundary small-class","InitializeAsync","non-void-command collaborator"
+"PostgresDockerSetup","entity boundary small-class","DisposeAsync","property non-void-command collaborator"
+"CustomMessage","data-provider boundary","Run","property wrapper"
+"CustomMessage","data-provider boundary","Run","property wrapper"
+"CustomMessage","data-provider boundary","Run","property wrapper"
+"CustomMessage","data-provider boundary","Run","property wrapper"
+"CustomMessage","data-provider boundary","Run","property wrapper"
+"CustomMessage","data-provider boundary","Run","property wrapper"
+"UserStepContainer","entity boundary small-class","InitForExecution","property non-void-command collaborator"
+"UserStepContainer","entity boundary small-class","BeforeExecute","collaborator incidental"
+"SqlServerContext","controller degenerate","SqlServerContext","constructor"
+"SqlServerContext","controller degenerate","OnConfiguring","command collaborator"
+"SqlServerContext","controller degenerate","ConfigureSubscriptionStorage","controller stateless"
+"SqlServerContext","controller degenerate","ConfigureWorkflowStorage","controller stateless"
+"SqlServerContext","controller degenerate","ConfigureExecutionPointerStorage","controller stateless"
+"SqlServerContext","controller degenerate","ConfigureExecutionErrorStorage","controller stateless"
+"SqlServerContext","controller degenerate","ConfigureExetensionAttributeStorage","controller stateless"
+"SqlServerContext","controller degenerate","ConfigureEventStorage","controller stateless"
+"SqlServerContext","controller degenerate","ConfigureScheduledCommandStorage","controller stateless"
+"WorkflowNotRegisteredException","empty","WorkflowNotRegisteredException","constructor"
+"YamlWorkflowTest","boundary","Setup","command collaborator"
+"YamlWorkflowTest","boundary","Host_OnStepError","collaborator incidental"
+"YamlWorkflowTest","boundary","ConfigureServices","controller stateless"
+"YamlWorkflowTest","boundary","StartWorkflow","property non-void-command collaborator"
+"YamlWorkflowTest","boundary","WaitForWorkflowToComplete","command collaborator"
+"YamlWorkflowTest","boundary","GetActiveSubscriptons","property non-void-command collaborator"
+"YamlWorkflowTest","boundary","WaitForEventSubscription","command collaborator"
+"YamlWorkflowTest","boundary","GetStatus","property non-void-command collaborator"
+"YamlWorkflowTest","boundary","GetData<TData>","property non-void-command collaborator"
+"YamlWorkflowTest","boundary","Dispose","command"
+"SuspendHandler","pure-controller degenerate small-class","SuspendHandler","constructor"
+"SuspendHandler","pure-controller degenerate small-class","Handle","controller stateless"
+"RedisWhileScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"RedisLockProvider","entity boundary","RedisLockProvider","constructor"
+"RedisLockProvider","entity boundary","AcquireLock","property non-void-command collaborator"
+"RedisLockProvider","entity boundary","ReleaseLock","property non-void-command collaborator"
+"RedisLockProvider","entity boundary","Start","non-void-command collaborator"
+"RedisLockProvider","entity boundary","Stop","set collaborator"
+"RedisLockProvider","entity boundary","GetResource","property wrapper"
+"Sequence","pure-controller degenerate small-class","Run","controller stateless"
+"MongoDecisionScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"AssemblyQualifiedDiscriminatorConvention","degenerate","GetActualType","controller stateless"
+"AssemblyQualifiedDiscriminatorConvention","degenerate","GetDiscriminator","collaborator incidental"
+"AssemblyQualifiedDiscriminatorConvention","degenerate","get","incidental"
+"MyWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"MyService","degenerate small-class","DoTheThings","incidental"
+"SqliteContextFactory","factory controller small-class","SqliteContextFactory","constructor"
+"SqliteContextFactory","factory controller small-class","Build","property factory collaborator"
+"SubscriptionData","pure-controller degenerate","BuildTargetModel","controller stateless"
+"SubscriptionData","pure-controller degenerate","Up","controller stateless"
+"SubscriptionData","pure-controller degenerate","Down","controller stateless"
+"SubscriptionData","pure-controller degenerate","BuildTargetModel","controller stateless"
+"SubscriptionData","pure-controller degenerate","Up","controller stateless"
+"SubscriptionData","pure-controller degenerate","Down","controller stateless"
+"StatusFilter","empty","StatusFilter","constructor"
+"QueueConfig","empty","QueueConfig","constructor"
+"DiAutoFacScopedScenario","commander boundary small-class","DiAutoFacScopedScenario","constructor"
+"DiAutoFacScopedScenario","commander boundary small-class","Scenario","command collaborator"
+"Resources","empty","Resources","constructor"
+"Resources","empty","Resources","constructor"
+"NotFoundException","empty","NotFoundException","constructor"
+"NotFoundException","empty","NotFoundException","constructor"
+"SqlLockProvider","entity boundary small-class","SqlLockProvider","constructor"
+"SqlLockProvider","entity boundary small-class","AcquireLock","property non-void-command collaborator"
+"SqlLockProvider","entity boundary small-class","ReleaseLock","non-void-command collaborator"
+"DynamoForeachScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"RunnablePoller","commander boundary","RunnablePoller","constructor"
+"RunnablePoller","commander boundary","Start","set"
+"RunnablePoller","commander boundary","Stop","set"
+"RunnablePoller","commander boundary","PollRunnables","command collaborator"
+"RunnablePoller","commander boundary","PollWorkflows","non-void-command collaborator"
+"RunnablePoller","commander boundary","PollEvents","non-void-command collaborator"
+"RunnablePoller","commander boundary","PollCommands","non-void-command collaborator"
+"PostgresDelayScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"ReturnStepBuilder<TData,TStepBody,TParentStep>","boundary data-class small-class","ReturnStepBuilder","constructor"
+"ReturnStepBuilder<TData,TStepBody,TParentStep>","boundary data-class small-class","Do","get non-void-command collaborator"
+"KinesisProvider","entity commander boundary","KinesisProvider","constructor"
+"KinesisProvider","entity commander boundary","PublishNotification","non-void-command collaborator"
+"KinesisProvider","entity commander boundary","Subscribe","command collaborator"
+"KinesisProvider","entity commander boundary","Start","non-void-command collaborator"
+"KinesisProvider","entity commander boundary","Stop","property set collaborator"
+"KinesisProvider","entity commander boundary","EnsureStream","non-void-command collaborator"
+"KinesisProvider","entity commander boundary","CreateStream","wrapper stateless"
+"KinesisProvider","entity commander boundary","Consume","command collaborator"
+"ActionParameter<TStepBody,TData>","commander boundary","ActionParameter","constructor"
+"ActionParameter<TStepBody,TData>","commander boundary","ActionParameter","constructor"
+"ActionParameter<TStepBody,TData>","commander boundary","Assign","command collaborator"
+"ActionParameter<TStepBody,TData>","commander boundary","AssignInput","command collaborator"
+"ActionParameter<TStepBody,TData>","commander boundary","AssignOutput","command collaborator"
+"MongoBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"ActivityController","entity commander boundary","ActivityController","constructor"
+"ActivityController","entity commander boundary","GetPendingActivity","property non-void-command factory collaborator"
+"ActivityController","entity commander boundary","ReleaseActivityToken","non-void-command collaborator"
+"ActivityController","entity commander boundary","SubmitActivitySuccess","collaborator incidental"
+"ActivityController","entity commander boundary","SubmitActivityFailure","collaborator incidental"
+"ActivityController","entity commander boundary","SubmitActivityResult","non-void-command collaborator"
+"PostgresSagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"PostgresContext","controller","PostgresContext","constructor"
+"PostgresContext","controller","OnConfiguring","command collaborator"
+"PostgresContext","controller","ConfigureSubscriptionStorage","controller"
+"PostgresContext","controller","ConfigureWorkflowStorage","controller"
+"PostgresContext","controller","ConfigureExecutionPointerStorage","controller"
+"PostgresContext","controller","ConfigureExecutionErrorStorage","controller"
+"PostgresContext","controller","ConfigureExetensionAttributeStorage","controller"
+"PostgresContext","controller","ConfigureEventStorage","controller"
+"PostgresContext","controller","ConfigureScheduledCommandStorage","controller"
+"IndexConsumer","entity boundary small-class","IndexConsumer","constructor"
+"IndexConsumer","entity boundary small-class","ProcessItem","non-void-command collaborator"
+"IndexConsumer","entity boundary small-class","FetchWorkflow","property non-void-command collaborator"
+"EntityFrameworkPersistenceProvider","entity commander boundary","EntityFrameworkPersistenceProvider","constructor"
+"EntityFrameworkPersistenceProvider","entity commander boundary","GetWorkflowInstances","non-void-command factory collaborator"
+"EntityFrameworkPersistenceProvider","entity commander boundary","EnsureStoreExists","command"
+"EntityFrameworkPersistenceProvider","entity commander boundary","GetEvents","non-void-command factory collaborator"
+"EntityFrameworkPersistenceProvider","entity commander boundary","ConstructDbContext","property non-void-command collaborator"
+"EntityFrameworkPersistenceProvider","entity commander boundary","ScheduleCommand","non-void-command collaborator"
+"AzureStorageQueueProvider","unclassified","AzureStorageQueueProvider","constructor"
+"AzureStorageQueueProvider","unclassified","QueueWork","wrapper"
+"AzureStorageQueueProvider","unclassified","DequeueWork","property controller"
+"AzureStorageQueueProvider","unclassified","Start","controller"
+"AzureStorageQueueProvider","unclassified","Dispose","empty"
+"QueueConsumer","commander","QueueConsumer","constructor"
+"QueueConsumer","commander","Start","command"
+"QueueConsumer","commander","Stop","command"
+"QueueConsumer","commander","Execute","non-void-command collaborator"
+"QueueConsumer","commander","ExecuteItem","non-void-command collaborator"
+"PersistedExecutionPointerCollection","entity boundary","PersistedExecutionPointerCollection","constructor"
+"PersistedExecutionPointerCollection","entity boundary","PersistedExecutionPointerCollection","constructor"
+"PersistedExecutionPointerCollection","entity boundary","GetEnumerator","property non-void-command collaborator"
+"PersistedExecutionPointerCollection","entity boundary","IEnumerable.GetEnumerator","property non-void-command collaborator"
+"PersistedExecutionPointerCollection","entity boundary","FindById","get property non-void-command collaborator"
+"PersistedExecutionPointerCollection","entity boundary","Add","command collaborator"
+"PersistedExecutionPointerCollection","entity boundary","Clear","command"
+"PersistedExecutionPointerCollection","entity boundary","Contains","predicate non-void-command collaborator"
+"PersistedExecutionPointerCollection","entity boundary","CopyTo","command"
+"PersistedExecutionPointerCollection","entity boundary","Remove","predicate non-void-command collaborator"
+"CancellationProcessor","commander boundary small-class","CancellationProcessor","constructor"
+"CancellationProcessor","commander boundary small-class","ProcessCancellations","command collaborator"
+"Step1","boundary degenerate small-class","Run","wrapper stateless"
+"MemoryPersistenceProvider","entity boundary degenerate","GetWorkflowInstances","property non-void-command collaborator"
+"MemoryPersistenceProvider","entity boundary degenerate","EnsureStoreExists","empty"
+"MemoryPersistenceProvider","entity boundary degenerate","ScheduleCommand","collaborator stateless"
+"SqlServerEventScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"NullSearchIndex","boundary degenerate","IndexWorkflow","collaborator incidental"
+"NullSearchIndex","boundary degenerate","Search","collaborator stateless"
+"NullSearchIndex","boundary degenerate","Start","collaborator incidental"
+"NullSearchIndex","boundary degenerate","Stop","collaborator incidental"
+"Counter","boundary data-class small-class","Run","property set collaborator"
+"SingleNodeEventHub","entity boundary","SingleNodeEventHub","constructor"
+"SingleNodeEventHub","entity boundary","PublishNotification","property non-void-command collaborator"
+"SingleNodeEventHub","entity boundary","Subscribe","command collaborator"
+"SingleNodeEventHub","entity boundary","Start","collaborator incidental"
+"SingleNodeEventHub","entity boundary","Stop","property non-void-command collaborator"
+"SingleNodeLockProvider","unclassified","AcquireLock","property non-void-command collaborator"
+"SingleNodeLockProvider","unclassified","ReleaseLock","non-void-command collaborator"
+"SingleNodeLockProvider","unclassified","Start","empty"
+"SingleNodeLockProvider","unclassified","Stop","empty"
+"InjectedObjectPoolPolicy<T>","entity boundary small-class","InjectedObjectPoolPolicy","constructor"
+"InjectedObjectPoolPolicy<T>","entity boundary small-class","Create","property non-void-command collaborator"
+"InjectedObjectPoolPolicy<T>","entity boundary small-class","Return","collaborator incidental"
+"TransientMemoryPersistenceProvider","boundary degenerate small-class","TransientMemoryPersistenceProvider","constructor"
+"TransientMemoryPersistenceProvider","boundary degenerate small-class","ScheduleCommand","collaborator stateless"
+"RedisPersistenceProviderFixture","boundary small-class","RedisPersistenceProviderFixture","constructor"
+"RedisPersistenceProviderFixture","boundary small-class","get","get set collaborator"
+"Activities","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Activities","pure-controller degenerate","Up","controller stateless"
+"Activities","pure-controller degenerate","Down","controller stateless"
+"Activities","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Activities","pure-controller degenerate","Up","controller stateless"
+"Activities","pure-controller degenerate","Down","controller stateless"
+"Activities","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Activities","pure-controller degenerate","Up","controller stateless"
+"Activities","pure-controller degenerate","Down","controller stateless"
+"Delay","data-provider boundary small-class","Run","property wrapper"
+"DefaultWorkflowMiddlewareErrorHandler","entity boundary small-class","DefaultWorkflowMiddlewareErrorHandler","copy-constructor"
+"DefaultWorkflowMiddlewareErrorHandler","entity boundary small-class","HandleAsync","property non-void-command collaborator"
+"ExecutionPointerFactory","entity factory controller","BuildGenesisPointer","property non-void-command factory collaborator"
+"ExecutionPointerFactory","entity factory controller","BuildNextPointer","property non-void-command factory collaborator"
+"ExecutionPointerFactory","entity factory controller","BuildChildPointer","property non-void-command factory collaborator"
+"ExecutionPointerFactory","entity factory controller","BuildCompensationPointer","property non-void-command factory collaborator"
+"ExecutionPointerFactory","entity factory controller","GenerateId","wrapper stateless"
+"DiScenario","commander boundary small-class","ConfigureHost","command collaborator"
+"CompensateHandler","commander boundary small-class","CompensateHandler","constructor"
+"CompensateHandler","commander boundary small-class","Handle","command collaborator"
+"RetryHandler","entity boundary small-class","RetryHandler","constructor"
+"RetryHandler","entity boundary small-class","Handle","void-accessor command collaborator"
+"AzureLockManager","entity commander boundary","AzureLockManager","constructor"
+"AzureLockManager","entity commander boundary","AcquireLock","property non-void-command collaborator"
+"AzureLockManager","entity commander boundary","ReleaseLock","non-void-command collaborator"
+"AzureLockManager","entity commander boundary","Start","non-void-command collaborator"
+"AzureLockManager","entity commander boundary","Stop","property set collaborator"
+"AzureLockManager","entity commander boundary","RenewLeases","command collaborator"
+"AzureLockManager","entity commander boundary","RenewLock","non-void-command collaborator"
+"TerminateHandler","data-provider boundary small-class","TerminateHandler","constructor"
+"TerminateHandler","data-provider boundary small-class","Handle","void-accessor collaborator"
+"SQSQueueProvider","entity commander boundary","SQSQueueProvider","constructor"
+"SQSQueueProvider","entity commander boundary","QueueWork","non-void-command collaborator"
+"SQSQueueProvider","entity commander boundary","DequeueWork","property non-void-command collaborator"
+"SQSQueueProvider","entity commander boundary","Start","non-void-command collaborator"
+"SQSQueueProvider","entity commander boundary","Dispose","empty"
+"WorkflowHost","entity boundary","WorkflowHost","constructor"
+"WorkflowHost","entity boundary","StartWorkflow","property non-void-command collaborator"
+"WorkflowHost","entity boundary","StartWorkflow","property non-void-command collaborator"
+"WorkflowHost","entity boundary","StartWorkflow<TData>","property non-void-command collaborator"
+"WorkflowHost","entity boundary","StartWorkflow<TData>","property non-void-command collaborator"
+"WorkflowHost","entity boundary","PublishEvent","property non-void-command collaborator"
+"WorkflowHost","entity boundary","Start","command"
+"WorkflowHost","entity boundary","StartAsync","non-void-command collaborator"
+"WorkflowHost","entity boundary","Stop","command"
+"WorkflowHost","entity boundary","StopAsync","non-void-command collaborator"
+"WorkflowHost","entity boundary","RegisterWorkflow<TWorkflow>","command"
+"WorkflowHost","entity boundary","RegisterWorkflow<TWorkflow,TData>","command"
+"WorkflowHost","entity boundary","SuspendWorkflow","property non-void-command collaborator"
+"WorkflowHost","entity boundary","ResumeWorkflow","property non-void-command collaborator"
+"WorkflowHost","entity boundary","TerminateWorkflow","property non-void-command collaborator"
+"WorkflowHost","entity boundary","HandleLifeCycleEvent","wrapper stateless"
+"WorkflowHost","entity boundary","ReportStepError","wrapper stateless"
+"WorkflowHost","entity boundary","Dispose","command"
+"WorkflowHost","entity boundary","GetPendingActivity","property non-void-command collaborator"
+"WorkflowHost","entity boundary","ReleaseActivityToken","property non-void-command collaborator"
+"WorkflowHost","entity boundary","SubmitActivitySuccess","property non-void-command collaborator"
+"WorkflowHost","entity boundary","SubmitActivityFailure","property non-void-command collaborator"
+"WorkflowHost","entity boundary","AddEventSubscriptions","command"
+"ExecutionResultProcessor","unclassified","ExecutionResultProcessor","constructor"
+"ExecutionResultProcessor","unclassified","ProcessExecutionResult","void-accessor command collaborator"
+"ExecutionResultProcessor","unclassified","HandleStepException","void-accessor command collaborator"
+"ExecutionResultProcessor","unclassified","ShouldCompensate","controller stateless"
+"StepBuilder<TData,TStepBody>","entity","StepBuilder","constructor"
+"StepBuilder<TData,TStepBody>","entity","Name","get set collaborator"
+"StepBuilder<TData,TStepBody>","entity","Id","get set collaborator"
+"StepBuilder<TData,TStepBody>","entity","Then<TStep>","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Then<TStep>","factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Then","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Then","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Attach","get collaborator"
+"StepBuilder<TData,TStepBody>","entity","When","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Branch<TStep>","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","Branch<TStep>","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","Input<TInput>","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","Input<TInput>","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","Input","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","Input","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","Output<TOutput>","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","Output","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","WaitFor","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","WaitFor","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","End<TStep>","property non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","OnError","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","IterateParents","property non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","EndWorkflow","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","Delay","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Decide","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","ForEach","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","ForEach","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","ForEach","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","While","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","While","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","If","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","If","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","When","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Saga","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Parallel","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Schedule","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Recur","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Do","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","CompensateWith<TStep>","get set collaborator"
+"StepBuilder<TData,TStepBody>","entity","CompensateWith","get set collaborator"
+"StepBuilder<TData,TStepBody>","entity","CompensateWith","get set collaborator"
+"StepBuilder<TData,TStepBody>","entity","CompensateWithSequence","get set collaborator"
+"StepBuilder<TData,TStepBody>","entity","CancelCondition","get non-void-command collaborator"
+"StepBuilder<TData,TStepBody>","entity","Activity","non-void-command factory collaborator"
+"StepBuilder<TData,TStepBody>","entity","Activity","non-void-command factory collaborator"
+"SqlServerActivityScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"WorkflowBuilder","entity","UseData<T>","factory collaborator"
+"WorkflowBuilder","entity","Build","property non-void-command factory collaborator"
+"WorkflowBuilder","entity","AddStep","void-accessor command collaborator"
+"WorkflowBuilder","entity","AttachExternalIds","command collaborator"
+"UserTaskReturnBuilder<TData>","boundary data-class small-class","UserTaskReturnBuilder","constructor"
+"UserTaskReturnBuilder<TData>","boundary data-class small-class","Do","get non-void-command collaborator"
+"GreyList","commander","GreyList","constructor"
+"GreyList","commander","Add","command"
+"GreyList","commander","Contains","predicate non-void-command collaborator"
+"GreyList","commander","Cycle","command collaborator"
+"GreyList","commander","Dispose","command"
+"GreyList","commander","Remove","incidental"
+"PersistOutcome","pure-controller degenerate","BuildTargetModel","controller stateless"
+"PersistOutcome","pure-controller degenerate","Up","controller stateless"
+"PersistOutcome","pure-controller degenerate","Down","controller stateless"
+"PersistOutcome","pure-controller degenerate","BuildTargetModel","controller stateless"
+"PersistOutcome","pure-controller degenerate","Up","controller stateless"
+"PersistOutcome","pure-controller degenerate","Down","controller stateless"
+"PersistOutcome","pure-controller degenerate","BuildTargetModel","controller stateless"
+"PersistOutcome","pure-controller degenerate","Up","controller stateless"
+"PersistOutcome","pure-controller degenerate","Down","controller stateless"
+"GoodbyeWorld","entity boundary degenerate","GoodbyeWorld","constructor"
+"GoodbyeWorld","entity boundary degenerate","Run","property non-void-command collaborator"
+"GoodbyeWorld","entity boundary degenerate","Run","wrapper stateless"
+"GoodbyeWorld","entity boundary degenerate","Run","wrapper stateless"
+"GoodbyeWorld","entity boundary degenerate","Run","wrapper stateless"
+"LifeCycleEventPublisher","commander","LifeCycleEventPublisher","constructor"
+"LifeCycleEventPublisher","commander","PublishNotification","command collaborator"
+"LifeCycleEventPublisher","commander","Start","command"
+"LifeCycleEventPublisher","commander","Stop","command"
+"LifeCycleEventPublisher","commander","Dispose","command"
+"LifeCycleEventPublisher","commander","Execute","command collaborator"
+"ScopeProvider","entity boundary small-class","ScopeProvider","constructor"
+"ScopeProvider","entity boundary small-class","CreateScope","property non-void-command collaborator"
+"WorkflowMiddlewareRunner","entity boundary","WorkflowMiddlewareRunner","constructor"
+"WorkflowMiddlewareRunner","entity boundary","RunPreMiddleware","non-void-command collaborator"
+"WorkflowMiddlewareRunner","entity boundary","RunPostMiddleware","property non-void-command collaborator"
+"WorkflowMiddlewareRunner","entity boundary","RunExecuteMiddleware","property non-void-command collaborator"
+"WorkflowMiddlewareRunner","entity boundary","RunWorkflowMiddlewareWithErrorHandling","non-void-command collaborator"
+"MysqlDynamicDataScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"RedisLifeCycleEventHub","commander boundary","RedisLifeCycleEventHub","constructor"
+"RedisLifeCycleEventHub","commander boundary","PublishNotification","non-void-command collaborator"
+"RedisLifeCycleEventHub","commander boundary","Subscribe","command collaborator"
+"RedisLifeCycleEventHub","commander boundary","Start","non-void-command collaborator"
+"RedisLifeCycleEventHub","commander boundary","Stop","non-void-command collaborator"
+"RedisLifeCycleEventHub","commander boundary","NotifySubscribers","command collaborator"
+"WorkflowRegistry","entity boundary","WorkflowRegistry","constructor"
+"WorkflowRegistry","entity boundary","GetDefinition","get property non-void-command collaborator"
+"WorkflowRegistry","entity boundary","DeregisterWorkflow","command collaborator"
+"WorkflowRegistry","entity boundary","RegisterWorkflow","command collaborator"
+"WorkflowRegistry","entity boundary","RegisterWorkflow","command collaborator"
+"WorkflowRegistry","entity boundary","RegisterWorkflow<TData>","command collaborator"
+"WorkflowRegistry","entity boundary","IsRegistered","predicate non-void-command"
+"WorkflowRegistry","entity boundary","GetAllDefinitions","property collaborator"
+"DataIOScenario","commander boundary small-class","DataIOScenario","constructor"
+"DataIOScenario","commander boundary small-class","Scenario","command collaborator"
+"EscalateStep","entity boundary small-class","AfterWorkflowIteration","void-accessor command collaborator"
+"ExecutionResultProcessorFixture","commander boundary","ExecutionResultProcessorFixture","constructor"
+"ExecutionResultProcessorFixture","commander boundary","should_advance_workflow","command collaborator"
+"ExecutionResultProcessorFixture","commander boundary","should_set_persistence_data","command collaborator"
+"ExecutionResultProcessorFixture","commander boundary","should_subscribe_to_event","command collaborator"
+"ExecutionResultProcessorFixture","commander boundary","should_select_correct_outcomes","command collaborator"
+"ExecutionResultProcessorFixture","commander boundary","should_sleep_pointer","command collaborator"
+"ExecutionResultProcessorFixture","commander boundary","should_branch_children","command collaborator"
+"UserTask","entity boundary small-class","UserTask","constructor"
+"UserTask","entity boundary small-class","Run","property non-void-command collaborator"
+"UserTask","entity boundary small-class","SetupEscalations","collaborator"
+"PostgresBasicScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamoRetrySagaScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"UserTaskStep","factory controller small-class","ConstructBody","property factory collaborator"
+"Test01Workflow","pure-controller degenerate small-class","Build","controller stateless"
+"ControlledLock","empty","ControlledLock","constructor"
+"EventsController","entity boundary small-class","EventsController","constructor"
+"EventsController","entity boundary small-class","Post","property non-void-command collaborator"
+"EventsController","entity boundary small-class","EventsController","constructor"
+"EventsController","entity boundary small-class","Post","property non-void-command collaborator"
+"DiWorkflow","pure-controller degenerate small-class","Build","controller stateless"
+"SyncWorkflowRunner","small-class","SyncWorkflowRunner","constructor"
+"SyncWorkflowRunner","small-class","RunWorkflowSync<TData>","wrapper stateless"
+"SyncWorkflowRunner","small-class","RunWorkflowSync<TData>","non-void-command factory collaborator"
+"WorkflowsController","entity boundary","WorkflowsController","constructor"
+"WorkflowsController","entity boundary","Get","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Get","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Post","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Suspend","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Resume","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Terminate","property non-void-command collaborator"
+"WorkflowsController","entity boundary","WorkflowsController","constructor"
+"WorkflowsController","entity boundary","Get","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Get","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Post","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Suspend","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Resume","property non-void-command collaborator"
+"WorkflowsController","entity boundary","Terminate","property non-void-command collaborator"
+"DefinitionLoaderTests","commander","DefinitionLoaderTests","constructor"
+"DefinitionLoaderTests","commander","RegisterDefinition","command"
+"DefinitionLoaderTests","commander","ParseDefinition","command"
+"DefinitionLoaderTests","commander","ParseDefinitionPropertyDynamic","command"
+"DefinitionLoaderTests","commander","ParseDefinitionDynamic","command"
+"DefinitionLoaderTests","commander","ParseDefinitionInputException","command"
+"DefinitionLoaderTests","commander","MatchTestDefinition","controller stateless"
+"MongoActivityScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"SqlServerIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"WorkflowPurger","entity boundary small-class","WorkflowPurger","constructor"
+"WorkflowPurger","entity boundary small-class","ConstructDbContext","property non-void-command collaborator"
+"WorkflowPurger","entity boundary small-class","WorkflowPurger","constructor"
+"WorkflowPurger","entity boundary small-class","WorkflowPurger","constructor"
+"WorkflowPurger","entity boundary small-class","WorkflowPurger","constructor"
+"DistributedLockProviderTests","commander boundary","Setup","set"
+"DistributedLockProviderTests","commander boundary","AcquiresLock","non-void-command collaborator"
+"DistributedLockProviderTests","commander boundary","DoesNotAcquireWhenLocked","non-void-command collaborator"
+"DistributedLockProviderTests","commander boundary","ReleasesLock","non-void-command collaborator"
+"DistributedLockProviderTests","commander boundary","TearDown","command"
+"UserTaskBuilder<TData>","small-class","UserTaskBuilder","constructor"
+"UserTaskBuilder<TData>","small-class","WithOption","non-void-command factory collaborator"
+"UserTaskBuilder<TData>","small-class","WithEscalation","get non-void-command collaborator"
+"MysqlContext","controller degenerate","MysqlContext","constructor"
+"MysqlContext","controller degenerate","OnConfiguring","command collaborator"
+"MysqlContext","controller degenerate","ConfigureSubscriptionStorage","controller stateless"
+"MysqlContext","controller degenerate","ConfigureWorkflowStorage","controller stateless"
+"MysqlContext","controller degenerate","ConfigureExecutionPointerStorage","controller stateless"
+"MysqlContext","controller degenerate","ConfigureExecutionErrorStorage","controller stateless"
+"MysqlContext","controller degenerate","ConfigureExetensionAttributeStorage","controller stateless"
+"MysqlContext","controller degenerate","ConfigureEventStorage","controller stateless"
+"MysqlContext","controller degenerate","ConfigureScheduledCommandStorage","controller stateless"
+"DataObjectSerializer","commander boundary","Deserialize","property wrapper"
+"DataObjectSerializer","commander boundary","Serialize","command collaborator"
+"DataObjectSerializer","commander boundary","AddTypeInformation","command collaborator"
+"DataObjectSerializer","commander boundary","GetTypeNameFromXPath","controller stateless"
+"DataObjectSerializer","commander boundary","AddTypeInformation","command collaborator"
+"DetermineSomething","boundary degenerate small-class","Run","wrapper stateless"
+"DefinitionLoader","unclassified","DefinitionLoader","constructor"
+"DefinitionLoader","unclassified","LoadDefinition","property non-void-command collaborator"
+"DefinitionLoader","unclassified","Convert","non-void-command factory collaborator"
+"DefinitionLoader","unclassified","ConvertSteps","non-void-command factory collaborator"
+"DefinitionLoader","unclassified","AttachInputs","controller stateless"
+"DefinitionLoader","unclassified","AttachOutputs","command collaborator"
+"DefinitionLoader","unclassified","AttachDirectlyOutput","controller stateless"
+"MongoPersistenceProvider","degenerate","MongoPersistenceProvider","constructor"
+"MongoPersistenceProvider","degenerate","MongoPersistenceProvider","constructor"
+"MongoPersistenceProvider","degenerate","GetWorkflowInstances","controller stateless"
+"MongoPersistenceProvider","degenerate","EnsureStoreExists","empty"
+"MongoPersistenceProvider","degenerate","GetEvents","controller stateless"
+"MongoPersistenceProvider","degenerate","ScheduleCommand","wrapper stateless"
+"InitialDatabase","pure-controller degenerate","BuildTargetModel","controller stateless"
+"InitialDatabase","pure-controller degenerate","Up","controller stateless"
+"InitialDatabase","pure-controller degenerate","Down","controller stateless"
+"InitialDatabase","pure-controller degenerate","BuildTargetModel","controller stateless"
+"InitialDatabase","pure-controller degenerate","Up","controller stateless"
+"InitialDatabase","pure-controller degenerate","Down","controller stateless"
+"InitialDatabase","pure-controller degenerate","BuildTargetModel","controller stateless"
+"InitialDatabase","pure-controller degenerate","Up","controller stateless"
+"InitialDatabase","pure-controller degenerate","Down","controller stateless"
+"RedisIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"scheduledcommands","pure-controller degenerate","BuildTargetModel","controller stateless"
+"scheduledcommands","pure-controller degenerate","Up","controller stateless"
+"scheduledcommands","pure-controller degenerate","Down","controller stateless"
+"scheduledcommands","pure-controller degenerate","BuildTargetModel","controller stateless"
+"scheduledcommands","pure-controller degenerate","Up","controller stateless"
+"scheduledcommands","pure-controller degenerate","Down","controller stateless"
+"scheduledcommands","pure-controller degenerate","BuildTargetModel","controller stateless"
+"scheduledcommands","pure-controller degenerate","Up","controller stateless"
+"scheduledcommands","pure-controller degenerate","Down","controller stateless"
+"PortsInUseException","empty","PortsInUseException","constructor"
+"MysqlPersistenceProviderModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"WorkflowOptions","commander boundary data-class","WorkflowOptions","constructor"
+"WorkflowOptions","commander boundary data-class","UsePersistence","set collaborator"
+"WorkflowOptions","commander boundary data-class","UseDistributedLockManager","set collaborator"
+"WorkflowOptions","commander boundary data-class","UseQueueProvider","set collaborator"
+"WorkflowOptions","commander boundary data-class","UseEventHub","set collaborator"
+"WorkflowOptions","commander boundary data-class","UseSearchIndex","set collaborator"
+"WorkflowOptions","commander boundary data-class","UsePollInterval","set collaborator"
+"WorkflowOptions","commander boundary data-class","UseErrorRetryInterval","set collaborator"
+"WorkflowOptions","commander boundary data-class","UseIdleTime","set collaborator"
+"WorkflowOptions","commander boundary data-class","UseMaxConcurrentWorkflows","set"
+"MysqlContextFactory","factory controller small-class","MysqlContextFactory","constructor"
+"MysqlContextFactory","factory controller small-class","Build","property factory collaborator"
+"PostgresPersistenceProviderModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"PostgresContextFactory","factory controller small-class","PostgresContextFactory","constructor"
+"PostgresContextFactory","factory controller small-class","Build","property factory collaborator"
+"RavendbPersistenceProvider","boundary degenerate","RavendbPersistenceProvider","constructor"
+"RavendbPersistenceProvider","boundary degenerate","PatchSession","controller stateless"
+"RavendbPersistenceProvider","boundary degenerate","GetWorkflowInstances","property non-void-command collaborator"
+"RavendbPersistenceProvider","boundary degenerate","EnsureStoreExists","empty"
+"RavendbPersistenceProvider","boundary degenerate","GetEvents","property non-void-command collaborator"
+"RavendbPersistenceProvider","boundary degenerate","ScheduleCommand","collaborator stateless"
+"EFCore5","pure-controller degenerate","BuildTargetModel","controller stateless"
+"EFCore5","pure-controller degenerate","Up","empty"
+"EFCore5","pure-controller degenerate","Down","empty"
+"SqlServerPersistenceProviderModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"DynamoLockProvider","entity commander boundary","DynamoLockProvider","constructor"
+"DynamoLockProvider","entity commander boundary","AcquireLock","property non-void-command collaborator"
+"DynamoLockProvider","entity commander boundary","ReleaseLock","non-void-command collaborator"
+"DynamoLockProvider","entity commander boundary","Start","non-void-command collaborator"
+"DynamoLockProvider","entity commander boundary","Stop","property non-void-command collaborator"
+"DynamoLockProvider","entity commander boundary","SendHeartbeat","command collaborator"
+"DynamoLockProvider","entity commander boundary","EnsureTable","non-void-command collaborator"
+"DynamoLockProvider","entity commander boundary","CreateTable","non-void-command collaborator"
+"SqlContextFactory","factory pure-controller small-class","SqlContextFactory","constructor"
+"SqlContextFactory","factory pure-controller small-class","Build","factory controller"
+"SqliteContext","controller degenerate","SqliteContext","constructor"
+"SqliteContext","controller degenerate","OnConfiguring","command collaborator"
+"SqliteContext","controller degenerate","ConfigureSubscriptionStorage","controller stateless"
+"SqliteContext","controller degenerate","ConfigureWorkflowStorage","controller stateless"
+"SqliteContext","controller degenerate","ConfigureExecutionPointerStorage","controller stateless"
+"SqliteContext","controller degenerate","ConfigureExecutionErrorStorage","controller stateless"
+"SqliteContext","controller degenerate","ConfigureExetensionAttributeStorage","controller stateless"
+"SqliteContext","controller degenerate","ConfigureEventStorage","controller stateless"
+"SqliteContext","controller degenerate","ConfigureScheduledCommandStorage","controller stateless"
+"MysqlIfScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"DynamoPersistenceProvider","boundary","DynamoPersistenceProvider","constructor"
+"DynamoPersistenceProvider","boundary","GetWorkflowInstances","collaborator stateless"
+"DynamoPersistenceProvider","boundary","GetEvents","non-void-command factory collaborator"
+"DynamoPersistenceProvider","boundary","EnsureStoreExists","command"
+"DynamoPersistenceProvider","boundary","ScheduleCommand","collaborator stateless"
+"StepExecutorTests","commander boundary","StepExecutorTests","constructor"
+"StepExecutorTests","commander boundary","ExecuteStep_should_run_step_when_no_middleware","non-void-command collaborator"
+"StepExecutorTests","commander boundary","ExecuteStep_should_run_middleware_and_step_when_one_middleware","non-void-command collaborator"
+"StepExecutorTests","commander boundary","ExecuteStep_should_run_middleware_chain_completing_in_reverse_order_and_step_when_multiple_middleware","non-void-command collaborator"
+"StepExecutorTests","commander boundary","ExecuteStep_should_bubble_up_exceptions_in_middleware","command collaborator"
+"StepExecutorTests","commander boundary","BuildStepMiddleware","wrapper stateless"
+"PostgresUserScenario","pure-controller degenerate small-class","ConfigureServices","controller stateless"
+"KinesisStreamConsumer","entity commander boundary","KinesisStreamConsumer","constructor"
+"KinesisStreamConsumer","entity commander boundary","Subscribe","collaborator incidental"
+"KinesisStreamConsumer","entity commander boundary","Process","command collaborator"
+"KinesisStreamConsumer","entity commander boundary","GetBatch","property non-void-command collaborator"
+"KinesisStreamConsumer","entity commander boundary","Dispose","command"
+"CosmosClientFactory","unclassified","CosmosClientFactory","constructor"
+"CosmosClientFactory","unclassified","GetCosmosClient","get collaborator"
+"CosmosClientFactory","unclassified","Dispose","command"
+"CosmosClientFactory","unclassified","Dispose","set"
+"KinesisTracker","entity commander boundary","KinesisTracker","constructor"
+"KinesisTracker","entity commander boundary","GetNextShardIterator","property non-void-command collaborator"
+"KinesisTracker","entity commander boundary","GetNextLastSequenceNumber","property non-void-command collaborator"
+"KinesisTracker","entity commander boundary","IncrementShardIterator","non-void-command collaborator"
+"KinesisTracker","entity commander boundary","IncrementShardIteratorAndSequence","non-void-command collaborator"
+"KinesisTracker","entity commander boundary","EnsureTable","non-void-command collaborator"
+"KinesisTracker","entity commander boundary","CreateTable","non-void-command collaborator"
+"WorkflowExecutorFixture","commander boundary","WorkflowExecutorFixture","constructor"
+"WorkflowExecutorFixture","commander boundary","should_execute_active_step","command collaborator"
+"WorkflowExecutorFixture","commander boundary","should_call_execute_middleware_when_not_completed","command collaborator"
+"WorkflowExecutorFixture","commander boundary","should_not_call_post_middleware_when_not_completed","command collaborator"
+"WorkflowExecutorFixture","commander boundary","should_trigger_step_hooks","command collaborator"
+"WorkflowExecutorFixture","commander boundary","should_not_execute_inactive_step","command collaborator"
+"WorkflowExecutorFixture","commander boundary","should_map_inputs","command collaborator"
+"WorkflowExecutorFixture","commander boundary","should_map_outputs","command collaborator"
+"WorkflowExecutorFixture","commander boundary","should_handle_step_exception","command collaborator"
+"WorkflowExecutorFixture","commander boundary","should_process_after_execution_iteration","command collaborator"
+"WorkflowExecutorFixture","commander boundary","should_process_cancellations","command collaborator"
+"WorkflowExecutorFixture","commander boundary","Given1StepWorkflow","command"
+"WorkflowExecutorFixture","commander boundary","BuildFakeStep","property non-void-command collaborator"
+"WorkflowExecutorFixture","commander boundary","BuildFakeStep","property controller"
+"CosmosDbProvisioner","empty","CosmosDbProvisioner","constructor"
+"CosmosDbPersistenceProvider","entity boundary","CosmosDbPersistenceProvider","constructor"
+"CosmosDbPersistenceProvider","entity boundary","CreateEvent","property non-void-command collaborator"
+"CosmosDbPersistenceProvider","entity boundary","CreateEventSubscription","property non-void-command collaborator"
+"CosmosDbPersistenceProvider","entity boundary","CreateNewWorkflow","property non-void-command collaborator"
+"CosmosDbPersistenceProvider","entity boundary","EnsureStoreExists","command"
+"CosmosDbPersistenceProvider","entity boundary","GetEvent","property non-void-command collaborator"
+"CosmosDbPersistenceProvider","entity boundary","GetEvents","non-void-command collaborator"
+"ElasticsearchIndexer","commander boundary small-class","ElasticsearchIndexer","constructor"
+"ElasticsearchIndexer","commander boundary small-class","IndexWorkflow","non-void-command collaborator"
+"ElasticsearchIndexer","commander boundary small-class","Search","non-void-command collaborator"
+"LifeCycleEventPublisherTests","pure-controller degenerate","PublishNotification_WhenStarted_PublishesNotification","controller stateless"
+"LifeCycleEventPublisherTests","pure-controller degenerate","PublishNotification_WhenRestarted_PublishesNotification","controller stateless"
+"LifeCycleEventPublisherTests","pure-controller degenerate","PublishNotification_Disabled","controller stateless"
+"xUnitTest","commander boundary small-class","xUnitTest","constructor"
+"xUnitTest","commander boundary small-class","MyWorkflow","command collaborator"
+"RedisQueueProvider","entity commander boundary","RedisQueueProvider","constructor"
+"RedisQueueProvider","entity commander boundary","QueueWork","non-void-command collaborator"
+"RedisQueueProvider","entity commander boundary","DequeueWork","property non-void-command collaborator"
+"RedisQueueProvider","entity commander boundary","Start","non-void-command collaborator"
+"RedisQueueProvider","entity commander boundary","Stop","non-void-command collaborator"
+"RedisQueueProvider","entity commander boundary","Dispose","empty"
+"StepScope","pure-controller degenerate","BuildTargetModel","controller stateless"
+"StepScope","pure-controller degenerate","Up","controller stateless"
+"StepScope","pure-controller degenerate","Down","controller stateless"
+"StepScope","pure-controller degenerate","BuildTargetModel","controller stateless"
+"StepScope","pure-controller degenerate","Up","controller stateless"
+"StepScope","pure-controller degenerate","Down","controller stateless"
+"StepScope","pure-controller degenerate","BuildTargetModel","controller stateless"
+"StepScope","pure-controller degenerate","Up","controller stateless"
+"StepScope","pure-controller degenerate","Down","controller stateless"
+"RabbitMQProvider","entity commander boundary","RabbitMQProvider","constructor"
+"RabbitMQProvider","entity commander boundary","QueueWork","non-void-command collaborator"
+"RabbitMQProvider","entity commander boundary","DequeueWork","property non-void-command collaborator"
+"RabbitMQProvider","entity commander boundary","Dispose","command"
+"RabbitMQProvider","entity commander boundary","Start","set collaborator"
+"RabbitMQProvider","entity commander boundary","Stop","set collaborator"
+"ScheduleWorkflow","pure-controller degenerate small-class","Build","controller stateless"

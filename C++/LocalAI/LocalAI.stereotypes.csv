@@ -1,199 +1,215 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"llama_server_response","entity commander boundary","add_waiting_task_id","command collaborator",
-"llama_server_response","entity commander boundary","remove_waiting_task_id","command collaborator",
-"llama_server_response","entity commander boundary","recv","property non-void-command collaborator",
-"llama_server_queue","entity commander boundary","post","property non-void-command collaborator",
-"llama_server_queue","entity commander boundary","defer","command collaborator",
-"llama_server_queue","entity commander boundary","get_new_id","property set collaborator",
-"llama_server_queue","entity commander boundary","on_new_task","set collaborator",
-"llama_server_queue","entity commander boundary","on_finish_multitask","set collaborator",
-"llama_server_queue","entity commander boundary","on_all_tasks_finished","set collaborator",
-"llama_server_queue","entity commander boundary","notify_slot_changed","command collaborator",
-"llama_server_queue","entity commander boundary","start_loop","command collaborator",
-"hash<nlohmann::NLOHMANN_BASIC_JSON_TPL>","boundary degenerate small-class","operator()","wrapper stateless",
-"diyfp","empty","diyfp","constructor",
-"output_stream_adapter","small-class","output_stream_adapter","constructor",
-"output_stream_adapter","small-class","write_character","command collaborator",
-"output_stream_adapter","small-class","write_characters","void-accessor command",
-"json_ref","empty","json_ref","constructor",
-"iter_impl","degenerate","iter_impl","constructor",
-"iter_impl","degenerate","operator==","empty",
-"iter_impl","degenerate","operator!=","empty",
-"iter_impl","degenerate","operator+","empty",
-"iter_impl","degenerate","operator/","empty",
-"iter_impl","degenerate","operator/","empty",
-"iter_impl","degenerate","operator/","empty",
-"primitive_iterator_t","degenerate small-class","get_value","empty",
-"lexer","boundary","lexer","constructor",
-"lexer","boundary","get_codepoint","property non-void-command collaborator",
-"lexer","boundary","next_byte_in_range","predicate non-void-command collaborator",
-"lexer","boundary","scan_string","property non-void-command collaborator",
-"lexer","boundary","scan_comment","predicate non-void-command",
-"lexer","boundary","scan_number","get property non-void-command collaborator",
-"lexer","boundary","scan_literal","property set collaborator",
-"lexer","boundary","reset","command",
-"lexer","boundary","get","get non-void-command collaborator",
-"lexer","boundary","unget","command",
-"lexer","boundary","add","command collaborator",
-"lexer","boundary","get_number_integer","get collaborator",
-"lexer","boundary","get_number_unsigned","get collaborator",
-"lexer","boundary","get_number_float","get collaborator",
-"lexer","boundary","get_string","get collaborator",
-"lexer","boundary","get_position","get collaborator",
-"lexer","boundary","get_token_string","property controller",
-"lexer","boundary","get_error_message","get collaborator",
-"lexer","boundary","skip_bom","predicate non-void-command",
-"lexer","boundary","skip_whitespace","command",
-"lexer","boundary","scan","property non-void-command collaborator",
-"less<::nlohmann::detail::value_t>","boundary degenerate small-class","operator()","wrapper stateless",
-"parser","entity boundary","parser","copy-constructor",
-"parser","entity boundary","parse","void-accessor command collaborator",
-"parser","entity boundary","accept","predicate non-void-command collaborator",
-"parser","entity boundary","sax_parse","predicate non-void-command",
-"parser","entity boundary","sax_parse_internal","predicate non-void-command collaborator",
-"parser","entity boundary","get_token","property set collaborator",
-"parser","entity boundary","exception_message","property non-void-command",
-"json_sax_dom_parser","boundary","json_sax_dom_parser","constructor",
-"json_sax_dom_parser","boundary","null","predicate non-void-command",
-"json_sax_dom_parser","boundary","boolean","predicate non-void-command",
-"json_sax_dom_parser","boundary","number_integer","predicate non-void-command collaborator",
-"json_sax_dom_parser","boundary","number_unsigned","predicate non-void-command collaborator",
-"json_sax_dom_parser","boundary","number_float","predicate non-void-command collaborator",
-"json_sax_dom_parser","boundary","string","predicate non-void-command collaborator",
-"json_sax_dom_parser","boundary","binary","predicate non-void-command collaborator",
-"json_sax_dom_parser","boundary","start_object","predicate non-void-command",
-"json_sax_dom_parser","boundary","key","predicate non-void-command collaborator",
-"json_sax_dom_parser","boundary","end_object","predicate non-void-command",
-"json_sax_dom_parser","boundary","start_array","predicate non-void-command",
-"json_sax_dom_parser","boundary","end_array","predicate non-void-command",
-"json_sax_dom_parser","boundary","parse_error","predicate set collaborator",
-"json_sax_dom_parser","boundary","is_errored","get",
-"json_sax_dom_parser","boundary","handle_value","get property non-void-command collaborator",
-"output_adapter","data-provider data-class small-class","output_adapter","constructor",
-"output_adapter","data-provider data-class small-class","output_adapter","constructor",
-"output_adapter","data-provider data-class small-class","output_adapter","constructor",
-"output_adapter","data-provider data-class small-class","operatoroutput_adapter_t<CharType>","get",
-"json_sax_dom_callback_parser","entity boundary","json_sax_dom_callback_parser","constructor",
-"json_sax_dom_callback_parser","entity boundary","null","wrapper stateless",
-"json_sax_dom_callback_parser","entity boundary","boolean","wrapper stateless",
-"json_sax_dom_callback_parser","entity boundary","number_integer","wrapper stateless",
-"json_sax_dom_callback_parser","entity boundary","number_unsigned","wrapper stateless",
-"json_sax_dom_callback_parser","entity boundary","number_float","wrapper stateless",
-"json_sax_dom_callback_parser","entity boundary","string","wrapper stateless",
-"json_sax_dom_callback_parser","entity boundary","binary","wrapper stateless",
-"json_sax_dom_callback_parser","entity boundary","start_object","predicate non-void-command collaborator",
-"json_sax_dom_callback_parser","entity boundary","key","predicate non-void-command collaborator",
-"json_sax_dom_callback_parser","entity boundary","end_object","predicate non-void-command collaborator",
-"json_sax_dom_callback_parser","entity boundary","start_array","predicate non-void-command collaborator",
-"json_sax_dom_callback_parser","entity boundary","end_array","predicate non-void-command",
-"json_sax_dom_callback_parser","entity boundary","parse_error","predicate set collaborator",
-"json_sax_dom_callback_parser","entity boundary","is_errored","get",
-"json_sax_dom_callback_parser","entity boundary","handle_value","property non-void-command collaborator",
-"output_string_adapter","small-class","output_string_adapter","constructor",
-"output_string_adapter","small-class","write_character","command collaborator",
-"output_string_adapter","small-class","write_characters","void-accessor command",
-"position_t","degenerate small-class","operatorsize_t","empty",
-"input_stream_adapter","entity boundary small-class","~input_stream_adapter","destructor",
-"input_stream_adapter","entity boundary small-class","input_stream_adapter","constructor",
-"input_stream_adapter","entity boundary small-class","input_stream_adapter","copy-constructor",
-"input_stream_adapter","entity boundary small-class","get_character","property non-void-command collaborator",
-"iteration_proxy","data-provider boundary small-class","iteration_proxy","constructor",
-"iteration_proxy","data-provider boundary small-class","begin","property collaborator",
-"iteration_proxy","data-provider boundary small-class","end","property collaborator",
-"token_translator","data-provider boundary small-class","operator()","property wrapper",
-"token_translator","data-provider boundary small-class","operator()","wrapper stateless",
-"llama_server_context","entity boundary small-class","~llama_server_context","destructor",
-"llama_server_context","entity boundary small-class","load_model","predicate non-void-command collaborator",
-"llama_client_slot","boundary","reset","command collaborator",
-"llama_client_slot","boundary","has_budget","predicate set collaborator",
-"llama_client_slot","boundary","available","predicate",
-"llama_client_slot","boundary","is_processing","predicate",
-"llama_client_slot","boundary","add_token_string","void-accessor command collaborator",
-"llama_client_slot","boundary","release","command",
-"llama_client_slot","boundary","get_formated_timings","property wrapper",
-"llama_client_slot","boundary","print_timings","wrapper",
-"ordered_map","controller degenerate","ordered_map","constructor",
-"ordered_map","controller degenerate","ordered_map","constructor",
-"ordered_map","controller degenerate","ordered_map","constructor",
-"ordered_map","controller degenerate","ordered_map","constructor",
-"ordered_map","controller degenerate","emplace","controller stateless",
-"ordered_map","controller degenerate","emplace","controller stateless",
-"ordered_map","controller degenerate","operator[]","property non-void-command collaborator",
-"ordered_map","controller degenerate","operator[]","property non-void-command collaborator",
-"ordered_map","controller degenerate","operator[]","property collaborator",
-"ordered_map","controller degenerate","operator[]","property collaborator",
-"ordered_map","controller degenerate","at","controller stateless",
-"ordered_map","controller degenerate","at","controller stateless",
-"ordered_map","controller degenerate","at","controller stateless",
-"ordered_map","controller degenerate","at","controller stateless",
-"ordered_map","controller degenerate","erase","controller stateless",
-"ordered_map","controller degenerate","erase","controller stateless",
-"ordered_map","controller degenerate","erase","property non-void-command collaborator",
-"ordered_map","controller degenerate","erase","controller stateless",
-"ordered_map","controller degenerate","count","controller stateless",
-"ordered_map","controller degenerate","count","controller stateless",
-"ordered_map","controller degenerate","find","controller stateless",
-"ordered_map","controller degenerate","find","controller stateless",
-"ordered_map","controller degenerate","find","controller stateless",
-"ordered_map","controller degenerate","insert","property non-void-command collaborator",
-"ordered_map","controller degenerate","insert","controller stateless",
-"ordered_map","controller degenerate","insert","command collaborator",
-"output_vector_adapter","small-class","output_vector_adapter","constructor",
-"output_vector_adapter","small-class","write_character","command collaborator",
-"output_vector_adapter","small-class","write_characters","void-accessor command",
-"BackendServiceImpl","pure-controller degenerate","Health","controller stateless",
-"BackendServiceImpl","pure-controller degenerate","LoadModel","controller stateless",
-"BackendServiceImpl","pure-controller degenerate","PredictStream","controller stateless",
-"from_json_fn","boundary degenerate small-class","operator()","wrapper stateless",
-"serializer","empty","serializer","constructor",
-"json_sax_acceptor","degenerate","null","incidental",
-"json_sax_acceptor","degenerate","boolean","incidental",
-"json_sax_acceptor","degenerate","number_integer","incidental",
-"json_sax_acceptor","degenerate","number_unsigned","incidental",
-"json_sax_acceptor","degenerate","number_float","incidental",
-"json_sax_acceptor","degenerate","string","incidental",
-"json_sax_acceptor","degenerate","binary","incidental",
-"json_sax_acceptor","degenerate","start_object","incidental",
-"json_sax_acceptor","degenerate","key","incidental",
-"json_sax_acceptor","degenerate","end_object","incidental",
-"json_sax_acceptor","degenerate","start_array","incidental",
-"json_sax_acceptor","degenerate","end_array","incidental",
-"json_sax_acceptor","degenerate","parse_error","incidental",
-"iterator_input_adapter","data-provider small-class","iterator_input_adapter","constructor",
-"iterator_input_adapter","data-provider small-class","get_character","property wrapper",
-"iterator_input_adapter","data-provider small-class","empty","predicate",
-"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor",
-"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor",
-"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor",
-"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor",
-"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor",
-"byte_container_with_subtype","unclassified","operator==","predicate wrapper",
-"byte_container_with_subtype","unclassified","operator!=","predicate",
-"byte_container_with_subtype","unclassified","set_subtype","command collaborator",
-"byte_container_with_subtype","unclassified","subtype","property collaborator",
-"byte_container_with_subtype","unclassified","has_subtype","get",
-"byte_container_with_subtype","unclassified","clear_subtype","command",
-"binary_writer","empty","binary_writer","constructor",
-"wide_string_input_adapter","boundary data-class small-class","wide_string_input_adapter","constructor",
-"wide_string_input_adapter","boundary data-class small-class","get_character","get set collaborator",
-"wide_string_input_adapter","boundary data-class small-class","fill_buffer","wrapper",
-"invalid_iterator","empty","invalid_iterator","constructor",
-"exception","degenerate small-class","what","empty",
-"parse_error","empty","parse_error","constructor",
-"to_json_fn","boundary degenerate small-class","operator()","wrapper stateless",
-"out_of_range","empty","out_of_range","constructor",
-"llama_metrics","commander boundary","on_prompt_eval","command collaborator",
-"llama_metrics","commander boundary","on_prediction","command collaborator",
-"llama_metrics","commander boundary","reset_bucket","command",
-"type_error","empty","type_error","constructor",
-"other_error","empty","other_error","constructor",
-"iteration_proxy_value","data-provider","iteration_proxy_value","constructor",
-"iteration_proxy_value","data-provider","operator*","get",
-"iteration_proxy_value","data-provider","operator++","get non-void-command",
-"iteration_proxy_value","data-provider","operator++","property non-void-command collaborator",
-"iteration_proxy_value","data-provider","operator==","predicate",
-"iteration_proxy_value","data-provider","operator!=","predicate",
-"iteration_proxy_value","data-provider","key","get property collaborator",
-"iteration_proxy_value","data-provider","value","property collaborator",
-"file_input_adapter","data-provider boundary small-class","file_input_adapter","constructor",
-"file_input_adapter","data-provider boundary small-class","get_character","property wrapper",
+"llama_server_response","entity commander boundary","add_waiting_task_id","command collaborator"
+"llama_server_response","entity commander boundary","remove_waiting_task_id","command collaborator"
+"llama_server_response","entity commander boundary","recv","property non-void-command collaborator"
+"llama_server_queue","entity commander boundary","post","get non-void-command collaborator"
+"llama_server_queue","entity commander boundary","defer","command collaborator"
+"llama_server_queue","entity commander boundary","get_new_id","property set collaborator"
+"llama_server_queue","entity commander boundary","on_new_task","set collaborator"
+"llama_server_queue","entity commander boundary","on_finish_multitask","set collaborator"
+"llama_server_queue","entity commander boundary","on_all_tasks_finished","set collaborator"
+"llama_server_queue","entity commander boundary","notify_slot_changed","command collaborator"
+"llama_server_queue","entity commander boundary","start_loop","command collaborator"
+"hash<nlohmann::NLOHMANN_BASIC_JSON_TPL>","boundary degenerate small-class","operator()","wrapper stateless"
+"diyfp","empty","diyfp","constructor"
+"output_stream_adapter","commander small-class","output_stream_adapter","constructor"
+"output_stream_adapter","commander small-class","write_character","command collaborator"
+"output_stream_adapter","commander small-class","write_characters","command"
+"json_ref","empty","json_ref","constructor"
+"iter_impl","degenerate","iter_impl","constructor"
+"iter_impl","degenerate","operator==","empty"
+"iter_impl","degenerate","operator!=","empty"
+"iter_impl","degenerate","operator+","empty"
+"iter_impl","degenerate","operator/","empty"
+"iter_impl","degenerate","operator/","empty"
+"iter_impl","degenerate","operator/","empty"
+"primitive_iterator_t","degenerate small-class","get_value","empty"
+"lexer","boundary","lexer","constructor"
+"lexer","boundary","get_codepoint","property non-void-command collaborator"
+"lexer","boundary","next_byte_in_range","predicate non-void-command collaborator"
+"lexer","boundary","scan_string","property non-void-command collaborator"
+"lexer","boundary","scan_comment","predicate non-void-command"
+"lexer","boundary","scan_number","get property non-void-command collaborator"
+"lexer","boundary","scan_literal","property set collaborator"
+"lexer","boundary","reset","command"
+"lexer","boundary","get","get non-void-command collaborator"
+"lexer","boundary","unget","command"
+"lexer","boundary","add","command collaborator"
+"lexer","boundary","get_number_integer","get collaborator"
+"lexer","boundary","get_number_unsigned","get collaborator"
+"lexer","boundary","get_number_float","get collaborator"
+"lexer","boundary","get_string","get collaborator"
+"lexer","boundary","get_position","get collaborator"
+"lexer","boundary","get_token_string","property controller"
+"lexer","boundary","get_error_message","get collaborator"
+"lexer","boundary","skip_bom","predicate non-void-command"
+"lexer","boundary","skip_whitespace","command"
+"lexer","boundary","scan","property non-void-command collaborator"
+"less<::nlohmann::detail::value_t>","boundary degenerate small-class","operator()","wrapper stateless"
+"parser","entity boundary","parser","copy-constructor"
+"parser","entity boundary","parse","void-accessor command collaborator"
+"parser","entity boundary","accept","predicate non-void-command collaborator"
+"parser","entity boundary","sax_parse","predicate non-void-command"
+"parser","entity boundary","sax_parse_internal","predicate non-void-command collaborator"
+"parser","entity boundary","get_token","property set collaborator"
+"parser","entity boundary","exception_message","property non-void-command"
+"json_sax_dom_parser","boundary","json_sax_dom_parser","constructor"
+"json_sax_dom_parser","boundary","null","predicate non-void-command"
+"json_sax_dom_parser","boundary","boolean","predicate non-void-command"
+"json_sax_dom_parser","boundary","number_integer","predicate non-void-command collaborator"
+"json_sax_dom_parser","boundary","number_unsigned","predicate non-void-command collaborator"
+"json_sax_dom_parser","boundary","number_float","predicate non-void-command collaborator"
+"json_sax_dom_parser","boundary","string","predicate non-void-command collaborator"
+"json_sax_dom_parser","boundary","binary","predicate non-void-command collaborator"
+"json_sax_dom_parser","boundary","start_object","predicate non-void-command"
+"json_sax_dom_parser","boundary","key","predicate non-void-command collaborator"
+"json_sax_dom_parser","boundary","end_object","predicate non-void-command"
+"json_sax_dom_parser","boundary","start_array","predicate non-void-command"
+"json_sax_dom_parser","boundary","end_array","predicate non-void-command"
+"json_sax_dom_parser","boundary","parse_error","predicate set collaborator"
+"json_sax_dom_parser","boundary","is_errored","get"
+"json_sax_dom_parser","boundary","handle_value","get property non-void-command collaborator"
+"output_adapter","data-provider data-class small-class","output_adapter","constructor"
+"output_adapter","data-provider data-class small-class","output_adapter","constructor"
+"output_adapter","data-provider data-class small-class","output_adapter","constructor"
+"output_adapter","data-provider data-class small-class","operatoroutput_adapter_t<CharType>","get"
+"json_sax_dom_callback_parser","entity boundary","json_sax_dom_callback_parser","constructor"
+"json_sax_dom_callback_parser","entity boundary","null","wrapper stateless"
+"json_sax_dom_callback_parser","entity boundary","boolean","wrapper stateless"
+"json_sax_dom_callback_parser","entity boundary","number_integer","wrapper stateless"
+"json_sax_dom_callback_parser","entity boundary","number_unsigned","wrapper stateless"
+"json_sax_dom_callback_parser","entity boundary","number_float","wrapper stateless"
+"json_sax_dom_callback_parser","entity boundary","string","wrapper stateless"
+"json_sax_dom_callback_parser","entity boundary","binary","wrapper stateless"
+"json_sax_dom_callback_parser","entity boundary","start_object","predicate non-void-command collaborator"
+"json_sax_dom_callback_parser","entity boundary","key","predicate non-void-command collaborator"
+"json_sax_dom_callback_parser","entity boundary","end_object","predicate non-void-command collaborator"
+"json_sax_dom_callback_parser","entity boundary","start_array","predicate non-void-command collaborator"
+"json_sax_dom_callback_parser","entity boundary","end_array","predicate non-void-command"
+"json_sax_dom_callback_parser","entity boundary","parse_error","predicate set collaborator"
+"json_sax_dom_callback_parser","entity boundary","is_errored","get"
+"json_sax_dom_callback_parser","entity boundary","handle_value","property non-void-command collaborator"
+"output_string_adapter","commander small-class","output_string_adapter","constructor"
+"output_string_adapter","commander small-class","write_character","command collaborator"
+"output_string_adapter","commander small-class","write_characters","command"
+"position_t","degenerate small-class","operatorsize_t","empty"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","json_value","constructor"
+"json_value","commander boundary small-class","destroy","command collaborator"
+"input_stream_adapter","entity boundary small-class","~input_stream_adapter","destructor"
+"input_stream_adapter","entity boundary small-class","input_stream_adapter","constructor"
+"input_stream_adapter","entity boundary small-class","input_stream_adapter","copy-constructor"
+"input_stream_adapter","entity boundary small-class","get_character","property non-void-command collaborator"
+"iteration_proxy","data-provider boundary small-class","iteration_proxy","constructor"
+"iteration_proxy","data-provider boundary small-class","begin","property collaborator"
+"iteration_proxy","data-provider boundary small-class","end","property collaborator"
+"token_translator","data-provider boundary small-class","operator()","property wrapper"
+"token_translator","data-provider boundary small-class","operator()","wrapper stateless"
+"llama_server_context","entity boundary small-class","~llama_server_context","destructor"
+"llama_server_context","entity boundary small-class","load_model","predicate non-void-command collaborator"
+"llama_client_slot","boundary","reset","command collaborator"
+"llama_client_slot","boundary","has_budget","predicate set collaborator"
+"llama_client_slot","boundary","available","predicate"
+"llama_client_slot","boundary","is_processing","predicate"
+"llama_client_slot","boundary","add_token_string","command collaborator"
+"llama_client_slot","boundary","release","command"
+"llama_client_slot","boundary","get_formated_timings","property wrapper"
+"llama_client_slot","boundary","print_timings","wrapper"
+"ordered_map","controller degenerate","ordered_map","constructor"
+"ordered_map","controller degenerate","ordered_map","constructor"
+"ordered_map","controller degenerate","ordered_map","constructor"
+"ordered_map","controller degenerate","ordered_map","constructor"
+"ordered_map","controller degenerate","emplace","controller stateless"
+"ordered_map","controller degenerate","emplace","controller stateless"
+"ordered_map","controller degenerate","operator[]","property non-void-command collaborator"
+"ordered_map","controller degenerate","operator[]","property non-void-command collaborator"
+"ordered_map","controller degenerate","operator[]","property collaborator"
+"ordered_map","controller degenerate","operator[]","property collaborator"
+"ordered_map","controller degenerate","at","controller stateless"
+"ordered_map","controller degenerate","at","controller stateless"
+"ordered_map","controller degenerate","at","controller stateless"
+"ordered_map","controller degenerate","at","controller stateless"
+"ordered_map","controller degenerate","erase","controller stateless"
+"ordered_map","controller degenerate","erase","controller stateless"
+"ordered_map","controller degenerate","erase","property non-void-command collaborator"
+"ordered_map","controller degenerate","erase","controller stateless"
+"ordered_map","controller degenerate","count","controller stateless"
+"ordered_map","controller degenerate","count","controller stateless"
+"ordered_map","controller degenerate","find","controller stateless"
+"ordered_map","controller degenerate","find","controller stateless"
+"ordered_map","controller degenerate","find","controller stateless"
+"ordered_map","controller degenerate","insert","property non-void-command collaborator"
+"ordered_map","controller degenerate","insert","controller stateless"
+"ordered_map","controller degenerate","insert","command collaborator"
+"output_vector_adapter","commander small-class","output_vector_adapter","constructor"
+"output_vector_adapter","commander small-class","write_character","command collaborator"
+"output_vector_adapter","commander small-class","write_characters","command"
+"BackendServiceImpl","pure-controller degenerate","Health","controller stateless"
+"BackendServiceImpl","pure-controller degenerate","LoadModel","controller stateless"
+"BackendServiceImpl","pure-controller degenerate","PredictStream","controller stateless"
+"from_json_fn","boundary degenerate small-class","operator()","wrapper stateless"
+"serializer","empty","serializer","constructor"
+"json_sax_acceptor","degenerate","null","incidental"
+"json_sax_acceptor","degenerate","boolean","incidental"
+"json_sax_acceptor","degenerate","number_integer","incidental"
+"json_sax_acceptor","degenerate","number_unsigned","incidental"
+"json_sax_acceptor","degenerate","number_float","incidental"
+"json_sax_acceptor","degenerate","string","incidental"
+"json_sax_acceptor","degenerate","binary","incidental"
+"json_sax_acceptor","degenerate","start_object","incidental"
+"json_sax_acceptor","degenerate","key","incidental"
+"json_sax_acceptor","degenerate","end_object","incidental"
+"json_sax_acceptor","degenerate","start_array","incidental"
+"json_sax_acceptor","degenerate","end_array","incidental"
+"json_sax_acceptor","degenerate","parse_error","incidental"
+"iterator_input_adapter","data-provider small-class","iterator_input_adapter","constructor"
+"iterator_input_adapter","data-provider small-class","get_character","property wrapper"
+"iterator_input_adapter","data-provider small-class","empty","predicate"
+"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor"
+"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor"
+"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor"
+"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor"
+"byte_container_with_subtype","unclassified","byte_container_with_subtype","constructor"
+"byte_container_with_subtype","unclassified","operator==","predicate wrapper"
+"byte_container_with_subtype","unclassified","operator!=","predicate"
+"byte_container_with_subtype","unclassified","set_subtype","command collaborator"
+"byte_container_with_subtype","unclassified","subtype","property collaborator"
+"byte_container_with_subtype","unclassified","has_subtype","get"
+"byte_container_with_subtype","unclassified","clear_subtype","command"
+"binary_writer","empty","binary_writer","constructor"
+"wide_string_input_adapter","boundary data-class small-class","wide_string_input_adapter","constructor"
+"wide_string_input_adapter","boundary data-class small-class","get_character","get set collaborator"
+"wide_string_input_adapter","boundary data-class small-class","fill_buffer","wrapper"
+"invalid_iterator","empty","invalid_iterator","constructor"
+"exception","degenerate small-class","what","empty"
+"parse_error","empty","parse_error","constructor"
+"to_json_fn","boundary degenerate small-class","operator()","wrapper stateless"
+"out_of_range","empty","out_of_range","constructor"
+"llama_metrics","commander boundary","on_prompt_eval","command collaborator"
+"llama_metrics","commander boundary","on_prediction","command collaborator"
+"llama_metrics","commander boundary","reset_bucket","command"
+"type_error","empty","type_error","constructor"
+"other_error","empty","other_error","constructor"
+"iteration_proxy_value","data-provider","iteration_proxy_value","constructor"
+"iteration_proxy_value","data-provider","operator*","get"
+"iteration_proxy_value","data-provider","operator++","get non-void-command"
+"iteration_proxy_value","data-provider","operator++","property non-void-command collaborator"
+"iteration_proxy_value","data-provider","operator==","predicate"
+"iteration_proxy_value","data-provider","operator!=","predicate"
+"iteration_proxy_value","data-provider","key","get property collaborator"
+"iteration_proxy_value","data-provider","value","property collaborator"
+"file_input_adapter","data-provider boundary small-class","file_input_adapter","constructor"
+"file_input_adapter","data-provider boundary small-class","get_character","property wrapper"

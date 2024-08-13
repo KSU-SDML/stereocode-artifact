@@ -1,227 +1,227 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"Guard","data-provider data-class small-class","Guard::Guard","constructor",
-"Guard","data-provider data-class small-class","Guard::~Guard","destructor",
-"Guard","data-provider data-class small-class","Guard::data","get",
-"SignalForwarder","empty","SignalForwarder::SignalForwarder","constructor",
-"SignalForwarder","empty","SignalForwarder::~SignalForwarder","destructor",
-"ExitStatus","data-provider","ExitStatus::ExitStatus","constructor",
-"ExitStatus","data-provider","ExitStatus::code","property wrapper",
-"ExitStatus","data-provider","ExitStatus::signal","property wrapper",
-"ExitStatus","data-provider","ExitStatus::is_signaled","predicate",
-"ExitStatus","data-provider","ExitStatus::is_exited","predicate",
-"Result","data-provider boundary","Result<T,E>::Result","constructor",
-"Result","data-provider boundary","Result<T,E>::is_ok","get",
-"Result","data-provider boundary","Result<T,E>::is_err","predicate",
-"Result","data-provider boundary","Result<T,E>::map","property collaborator",
-"Result","data-provider boundary","Result<T,E>::map_or","property wrapper",
-"Result","data-provider boundary","Result<T,E>::map_or_else","property wrapper",
-"Result","data-provider boundary","Result<T,E>::map_err","property collaborator",
-"Result","data-provider boundary","Result<T,E>::and_","property collaborator",
-"Result","data-provider boundary","Result<T,E>::and_then","property collaborator",
-"Result","data-provider boundary","Result<T,E>::or_","get property collaborator",
-"Result","data-provider boundary","Result<T,E>::or_else","get collaborator",
-"Result","data-provider boundary","Result<T,E>::unwrap","property collaborator",
-"Result","data-provider boundary","Result<T,E>::unwrap_err","property collaborator",
-"Result","data-provider boundary","Result<T,E>::unwrap_or","property collaborator",
-"Result","data-provider boundary","Result<T,E>::unwrap_or_else","property collaborator",
-"Result","data-provider boundary","Result<T,E>::on_success","get collaborator",
-"Result","data-provider boundary","Result<T,E>::on_error","get collaborator",
-"Storage","boundary","Storage","constructor",
-"Storage","boundary","construct","set collaborator",
-"Storage","boundary","construct","set collaborator",
-"Storage","boundary","raw_construct","void-accessor set collaborator",
-"Storage","boundary","get","property collaborator",
-"Storage","boundary","get","property collaborator",
-"Storage","boundary","destroy_ok","set",
-"Storage","boundary","destroy_err","set",
-"Ok","empty","Ok","constructor",
-"Ok","empty","Ok","constructor",
-"SubcommandFromArgs","small-class","SubcommandFromArgs::SubcommandFromArgs","constructor",
-"SubcommandFromArgs","small-class","SubcommandFromArgs::matches","predicate controller",
-"SubcommandFromArgs","small-class","SubcommandFromArgs::subcommand","property collaborator",
-"Parser","data-provider boundary small-class","Parser::Parser","constructor",
-"Parser","data-provider boundary small-class","Parser::Parser","constructor",
-"Parser","data-provider boundary small-class","Parser::Parser","copy-constructor",
-"Parser","data-provider boundary small-class","Parser::parse","property collaborator",
-"Parser","data-provider boundary small-class","Parser::parse_or_exit","property collaborator",
-"Process::Builder","data-provider boundary data-class small-class","add_arguments","get wrapper",
-"ApplicationFromArgs","data-provider boundary small-class","ApplicationFromArgs::ApplicationFromArgs","constructor",
-"ApplicationFromArgs","data-provider boundary small-class","ApplicationFromArgs::command","property collaborator",
-"SupervisorClient","entity boundary small-class","SupervisorClient::SupervisorClient","constructor",
-"SupervisorClient","entity boundary small-class","SupervisorClient::resolve","property non-void-command collaborator",
-"Process","unclassified","Process::Process","constructor",
-"Process","unclassified","Process::get_pid","get collaborator",
-"Process","unclassified","Process::wait","property controller",
-"Process","unclassified","Process::kill","property controller",
-"ApplicationLogConfig","data-provider boundary","ApplicationLogConfig","constructor",
-"ApplicationLogConfig","data-provider boundary","initForVerbose","wrapper stateless",
-"ApplicationLogConfig","data-provider boundary","ApplicationLogConfig::ApplicationLogConfig","constructor",
-"ApplicationLogConfig","data-provider boundary","ApplicationLogConfig::initForSilent","wrapper",
-"ApplicationLogConfig","data-provider boundary","ApplicationLogConfig::initForVerbose","wrapper",
-"ApplicationLogConfig","data-provider boundary","ApplicationLogConfig::record","void-accessor wrapper",
-"ApplicationLogConfig","data-provider boundary","ApplicationLogConfig::context","wrapper stateless",
-"Logger","unclassified","Logger::debug","controller stateless",
-"Logger","unclassified","Logger::debug","void-accessor wrapper",
-"Logger","unclassified","Logger::warning","void-accessor wrapper",
-"Logger","unclassified","Logger::Logger","constructor",
-"Application","degenerate","Application::Application","constructor",
-"Application","degenerate","Application::parse","controller stateless",
-"Application","degenerate","Application::command","property controller",
-"Application","degenerate","Application::from_envs","wrapper stateless",
-"Application","degenerate","Application::from_args","wrapper stateless",
-"Application","degenerate","Application::parse","controller stateless",
-"EventFactory","controller","EventFactory::EventFactory","constructor",
-"EventFactory","controller","EventFactory::start","property controller",
-"EventFactory","controller","EventFactory::signal","property controller",
-"EventFactory","controller","EventFactory::terminate","property controller",
-"ToolAny","data-provider boundary small-class","ToolAny::ToolAny","copy-constructor",
-"ToolAny","data-provider boundary small-class","ToolAny::recognize","property collaborator",
-"SourceMatcher","pure-controller degenerate small-class","SourceMatcher::parse","controller stateless",
-"Build","data-provider boundary small-class","Build::Build","constructor",
-"Build","data-provider boundary small-class","Build::recognize","property collaborator",
-"ConfigurationSerializer","unclassified","ConfigurationSerializer::to_json","property collaborator",
-"ConfigurationSerializer","unclassified","ConfigurationSerializer::to_json","controller stateless",
-"ConfigurationSerializer","unclassified","ConfigurationSerializer::from_json","property collaborator",
-"ConfigurationSerializer","unclassified","ConfigurationSerializer::from_json","controller stateless",
-"Resolver","unclassified","Resolver::Resolver","constructor",
-"Resolver","unclassified","Resolver::from_current_directory","property controller",
-"Resolver","unclassified","Resolver::from_path","property non-void-command collaborator",
-"Resolver","unclassified","Resolver::from_search_path","property non-void-command collaborator",
-"CompilationDatabase","data-provider boundary","CompilationDatabase::CompilationDatabase","constructor",
-"CompilationDatabase","data-provider boundary","CompilationDatabase::to_json","property collaborator",
-"CompilationDatabase","data-provider boundary","CompilationDatabase::to_json","property collaborator",
-"CompilationDatabase","data-provider boundary","CompilationDatabase::from_json","property collaborator",
-"CompilationDatabase","data-provider boundary","CompilationDatabase::from_json","property collaborator",
-"OneOf","controller small-class","OneOf","constructor",
-"OneOf","controller small-class","parse","property controller",
-"QueryCompiler","data-provider boundary degenerate","QueryCompiler::operator==","predicate collaborator",
-"QueryCompiler","data-provider boundary degenerate","QueryCompiler::operator<<","collaborator incidental",
-"QueryCompiler","data-provider boundary degenerate","QueryCompiler::into_entries","collaborator incidental",
-"Array","data-provider small-class","begin","get",
-"Array","data-provider small-class","end","property",
-"ContentFilter","unclassified","ContentFilter","constructor",
-"ContentFilter","unclassified","apply","predicate non-void-command collaborator",
-"ContentFilter","unclassified","exists","predicate wrapper",
-"ContentFilter","unclassified","to_include","predicate controller",
-"ContentFilter","unclassified","to_exclude","predicate controller",
-"InterceptorClient","entity boundary small-class","InterceptorClient::InterceptorClient","constructor",
-"InterceptorClient","entity boundary small-class","InterceptorClient::report","property non-void-command collaborator",
-"Arguments","data-provider boundary","Arguments::Arguments","copy-constructor",
-"Arguments","data-provider boundary","Arguments::as_bool","property collaborator",
-"Arguments","data-provider boundary","Arguments::as_string","property collaborator",
-"Arguments","data-provider boundary","Arguments::as_string_list","property collaborator",
-"FileOutputDuplicateFilter","boundary degenerate small-class","hash","wrapper stateless",
-"FileDuplicateFilter","boundary degenerate small-class","hash","wrapper stateless",
-"Err","empty","Err","constructor",
-"Err","empty","Err","constructor",
-"EventReporter","entity boundary small-class","EventReporter::EventReporter","constructor",
-"EventReporter","entity boundary small-class","EventReporter::report_start","void-accessor command collaborator",
-"EventReporter","entity boundary small-class","EventReporter::report_wait","command collaborator",
-"Linker","boundary degenerate small-class","Linker::execve","wrapper stateless",
-"Linker","boundary degenerate small-class","Linker::posix_spawn","wrapper stateless",
-"DuplicateFilter","entity boundary small-class","apply","predicate non-void-command collaborator",
-"DuplicateFilter","entity boundary small-class","DuplicateFilter::from_content","wrapper stateless",
-"Session","unclassified","Session::from","property non-void-command collaborator",
-"Session","unclassified","Session::keep_front_in_path","controller stateless",
-"Session","unclassified","Session::remove_from_path","controller stateless",
-"Session","unclassified","Session::run","property set collaborator",
-"EverythingElseFlagMatcher","pure-controller degenerate small-class","EverythingElseFlagMatcher::parse","controller stateless",
-"Paths","data-provider boundary","Paths::Paths","constructor",
-"Paths","data-provider boundary","Paths::begin","property wrapper",
-"Paths","data-provider boundary","Paths::end","property collaborator",
-"Paths","data-provider boundary","Paths::next","property collaborator",
-"StrictDuplicateFilter","boundary degenerate small-class","hash","wrapper stateless",
-"Repeat","data-provider boundary small-class","Repeat","constructor",
-"Repeat","data-provider boundary small-class","parse","property collaborator",
-"InterceptorImpl","entity boundary small-class","InterceptorImpl::InterceptorImpl","constructor",
-"InterceptorImpl","entity boundary small-class","InterceptorImpl::Register","property non-void-command collaborator",
-"Reporter","small-class","Reporter::from","controller stateless",
-"Reporter","small-class","Reporter::Reporter","constructor",
-"Reporter","small-class","Reporter::report","void-accessor command collaborator",
-"Preprocess","boundary degenerate","Preprocess::operator==","incidental",
-"Preprocess","boundary degenerate","Preprocess::operator<<","collaborator incidental",
-"Preprocess","boundary degenerate","Preprocess::into_entries","collaborator incidental",
-"Command","controller","Command","constructor",
-"Command","controller","Command::Command","constructor",
-"Command","controller","Command::execute","property wrapper",
-"Command","controller","Command::execute","property factory controller",
-"Command","controller","Command::execute","property collaborator",
-"Command","controller","Command::Command","constructor",
-"Command","controller","Command::execute","property controller",
-"EventsDatabaseWriter","boundary","EventsDatabaseWriter::create","controller stateless",
-"EventsDatabaseWriter","boundary","EventsDatabaseWriter::EventsDatabaseWriter","constructor",
-"EventsDatabaseWriter","boundary","EventsDatabaseWriter::~EventsDatabaseWriter","destructor",
-"EventsDatabaseWriter","boundary","EventsDatabaseWriter::insert_event","property non-void-command collaborator",
-"EventsDatabaseWriter","boundary","EventsDatabaseWriter::to_json","property non-void-command collaborator",
-"EventsDatabaseWriter","boundary","EventsDatabaseWriter::write_to_file","property non-void-command collaborator",
-"FlagParser","boundary","FlagParser","constructor",
-"FlagParser","boundary","FlagParser::parse","property collaborator",
-"FlagParser","boundary","FlagParser::lookup","property collaborator",
-"FlagParser","boundary","FlagParser::check_equal","wrapper stateless",
-"FlagParser","boundary","FlagParser::check_partial","controller stateless",
-"Compile","data-provider boundary","Compile::Compile","constructor",
-"Compile","data-provider boundary","Compile::operator==","predicate collaborator",
-"Compile","data-provider boundary","Compile::operator<<","property collaborator",
-"Compile","data-provider boundary","Compile::into_entries","property collaborator",
-"ToolClang","small-class","ToolClang::ToolClang","constructor",
-"ToolClang","small-class","ToolClang::recognize","property collaborator",
-"ToolClang","small-class","ToolClang::is_compiler_call","controller stateless",
-"ToolCuda","pure-controller degenerate small-class","ToolCuda::is_compiler_call","controller stateless",
-"ToolExtendingWrapper","data-provider boundary small-class","ToolExtendingWrapper::ToolExtendingWrapper","constructor",
-"ToolExtendingWrapper","data-provider boundary small-class","ToolExtendingWrapper::is_compiler_call","predicate collaborator",
-"ToolExtendingWrapper","data-provider boundary small-class","ToolExtendingWrapper::recognize","property collaborator",
-"ToolWrapper","controller degenerate","ToolWrapper::recognize","property collaborator",
-"ToolWrapper","controller degenerate","ToolWrapper::is_ccache_call","controller stateless",
-"ToolWrapper","controller degenerate","ToolWrapper::is_ccache_query","controller stateless",
-"ToolWrapper","controller degenerate","ToolWrapper::is_distcc_call","controller stateless",
-"ToolWrapper","controller degenerate","ToolWrapper::is_distcc_query","controller stateless",
-"ToolWrapper","controller degenerate","ToolWrapper::remove_wrapper","property non-void-command collaborator",
-"ToolWrapper","controller degenerate","ToolWrapper::remove_wrapper","controller stateless",
-"Tool","pure-controller degenerate","Tool::recognized_ok","controller stateless",
-"Tool","pure-controller degenerate","Tool::recognized_with_error","controller stateless",
-"Tool","pure-controller degenerate","Tool::not_recognized","controller stateless",
-"Intercept","boundary degenerate small-class","Intercept::Intercept","constructor",
-"Intercept","boundary degenerate small-class","Intercept::command","wrapper stateless",
-"ArgumentsView","data-provider boundary","ArgumentsView","constructor",
-"ArgumentsView","data-provider boundary","ArgumentsView","constructor",
-"ArgumentsView","data-provider boundary","empty","predicate",
-"ArgumentsView","data-provider boundary","begin","get collaborator",
-"ArgumentsView","data-provider boundary","end","get collaborator",
-"ArgumentsView","data-provider boundary","ArgumentsView::take","property collaborator",
-"ArgumentsView","data-provider boundary","ArgumentsView::front","get collaborator",
-"ArgumentsView","data-provider boundary","ArgumentsView::back","property wrapper",
-"Buffer","data-provider boundary small-class","Buffer::store","property wrapper",
-"Buffer","data-provider boundary small-class","Buffer::Buffer","constructor",
-"SupervisorImpl","entity boundary small-class","SupervisorImpl::SupervisorImpl","constructor",
-"SupervisorImpl","entity boundary small-class","SupervisorImpl::Resolve","property non-void-command collaborator",
-"LibraryPreloadSession","unclassified","LibraryPreloadSession::from","controller stateless",
-"LibraryPreloadSession","unclassified","LibraryPreloadSession::LibraryPreloadSession","constructor",
-"LibraryPreloadSession","unclassified","LibraryPreloadSession::resolve","controller stateless",
-"LibraryPreloadSession","unclassified","LibraryPreloadSession::supervise","property collaborator",
-"LibraryPreloadSession","unclassified","LibraryPreloadSession::update","property wrapper",
-"ToolGcc","unclassified","ToolGcc::recognize","property collaborator",
-"ToolGcc","unclassified","ToolGcc::is_compiler_call","controller stateless",
-"ToolGcc","unclassified","ToolGcc::compilation","property collaborator",
-"ToolGcc","unclassified","ToolGcc::compilation","controller stateless",
-"WrapperSession","data-provider boundary","WrapperSession::from","controller stateless",
-"WrapperSession","data-provider boundary","WrapperSession::supervise","property collaborator",
-"WrapperSession","data-provider boundary","WrapperSession::resolve","property collaborator",
-"WrapperSession","data-provider boundary","WrapperSession::update","property collaborator",
-"WrapperSession","data-provider boundary","WrapperSession::set_up","property collaborator",
-"Executor","data-provider boundary","Executor::Executor","constructor",
-"Executor","data-provider boundary","Executor::execve","property collaborator",
-"Executor","data-provider boundary","Executor::execvpe","property collaborator",
-"Executor","data-provider boundary","Executor::execvP","property collaborator",
-"Executor","data-provider boundary","Executor::posix_spawn","property collaborator",
-"Executor","data-provider boundary","Executor::posix_spawnp","property collaborator",
-"EventsDatabaseReader","entity boundary","EventsDatabaseReader::from","wrapper stateless",
-"EventsDatabaseReader","entity boundary","EventsDatabaseReader::EventsDatabaseReader","constructor",
-"EventsDatabaseReader","entity boundary","EventsDatabaseReader::begin","property wrapper",
-"EventsDatabaseReader","entity boundary","EventsDatabaseReader::end","property wrapper",
-"EventsDatabaseReader","entity boundary","EventsDatabaseReader::next","property non-void-command collaborator",
-"EventsDatabaseReader","entity boundary","EventsDatabaseReader::next_line","property non-void-command collaborator",
-"EventsDatabaseReader","entity boundary","EventsDatabaseReader::from_json","property non-void-command collaborator",
-"CommandBuilder","data-provider","CommandBuilder","constructor",
-"CommandBuilder","data-provider","length","property",
-"CommandBuilder","data-provider","assemble","void-accessor",
-"CommandBuilder","data-provider","file","get",
+"Guard","data-provider data-class small-class","Guard::Guard","constructor"
+"Guard","data-provider data-class small-class","Guard::~Guard","destructor"
+"Guard","data-provider data-class small-class","Guard::data","get"
+"SignalForwarder","empty","SignalForwarder::SignalForwarder","constructor"
+"SignalForwarder","empty","SignalForwarder::~SignalForwarder","destructor"
+"ExitStatus","data-provider","ExitStatus::ExitStatus","constructor"
+"ExitStatus","data-provider","ExitStatus::code","property wrapper"
+"ExitStatus","data-provider","ExitStatus::signal","property wrapper"
+"ExitStatus","data-provider","ExitStatus::is_signaled","predicate"
+"ExitStatus","data-provider","ExitStatus::is_exited","predicate"
+"Result","data-provider boundary","Result<T,E>::Result","constructor"
+"Result","data-provider boundary","Result<T,E>::is_ok","get"
+"Result","data-provider boundary","Result<T,E>::is_err","predicate"
+"Result","data-provider boundary","Result<T,E>::map","property collaborator"
+"Result","data-provider boundary","Result<T,E>::map_or","property wrapper"
+"Result","data-provider boundary","Result<T,E>::map_or_else","property wrapper"
+"Result","data-provider boundary","Result<T,E>::map_err","property collaborator"
+"Result","data-provider boundary","Result<T,E>::and_","property collaborator"
+"Result","data-provider boundary","Result<T,E>::and_then","property collaborator"
+"Result","data-provider boundary","Result<T,E>::or_","get property collaborator"
+"Result","data-provider boundary","Result<T,E>::or_else","get collaborator"
+"Result","data-provider boundary","Result<T,E>::unwrap","property collaborator"
+"Result","data-provider boundary","Result<T,E>::unwrap_err","property collaborator"
+"Result","data-provider boundary","Result<T,E>::unwrap_or","property collaborator"
+"Result","data-provider boundary","Result<T,E>::unwrap_or_else","property collaborator"
+"Result","data-provider boundary","Result<T,E>::on_success","get collaborator"
+"Result","data-provider boundary","Result<T,E>::on_error","get collaborator"
+"Storage","commander boundary","Storage","constructor"
+"Storage","commander boundary","construct","set collaborator"
+"Storage","commander boundary","construct","set collaborator"
+"Storage","commander boundary","raw_construct","set collaborator"
+"Storage","commander boundary","get","property collaborator"
+"Storage","commander boundary","get","property collaborator"
+"Storage","commander boundary","destroy_ok","set"
+"Storage","commander boundary","destroy_err","set"
+"Ok","empty","Ok","constructor"
+"Ok","empty","Ok","constructor"
+"SubcommandFromArgs","small-class","SubcommandFromArgs::SubcommandFromArgs","constructor"
+"SubcommandFromArgs","small-class","SubcommandFromArgs::matches","predicate controller"
+"SubcommandFromArgs","small-class","SubcommandFromArgs::subcommand","property collaborator"
+"Parser","data-provider boundary small-class","Parser::Parser","constructor"
+"Parser","data-provider boundary small-class","Parser::Parser","constructor"
+"Parser","data-provider boundary small-class","Parser::Parser","copy-constructor"
+"Parser","data-provider boundary small-class","Parser::parse","property collaborator"
+"Parser","data-provider boundary small-class","Parser::parse_or_exit","property collaborator"
+"Process::Builder","data-provider boundary data-class small-class","add_arguments","get wrapper"
+"ApplicationFromArgs","data-provider boundary small-class","ApplicationFromArgs::ApplicationFromArgs","constructor"
+"ApplicationFromArgs","data-provider boundary small-class","ApplicationFromArgs::command","property collaborator"
+"SupervisorClient","entity boundary small-class","SupervisorClient::SupervisorClient","constructor"
+"SupervisorClient","entity boundary small-class","SupervisorClient::resolve","property non-void-command collaborator"
+"Process","unclassified","Process::Process","constructor"
+"Process","unclassified","Process::get_pid","get collaborator"
+"Process","unclassified","Process::wait","property controller"
+"Process","unclassified","Process::kill","property controller"
+"ApplicationLogConfig","boundary","ApplicationLogConfig","constructor"
+"ApplicationLogConfig","boundary","initForVerbose","wrapper stateless"
+"ApplicationLogConfig","boundary","ApplicationLogConfig::ApplicationLogConfig","constructor"
+"ApplicationLogConfig","boundary","ApplicationLogConfig::initForSilent","wrapper"
+"ApplicationLogConfig","boundary","ApplicationLogConfig::initForVerbose","wrapper"
+"ApplicationLogConfig","boundary","ApplicationLogConfig::record","wrapper"
+"ApplicationLogConfig","boundary","ApplicationLogConfig::context","wrapper stateless"
+"Logger","unclassified","Logger::debug","controller stateless"
+"Logger","unclassified","Logger::debug","wrapper"
+"Logger","unclassified","Logger::warning","wrapper"
+"Logger","unclassified","Logger::Logger","constructor"
+"Application","degenerate","Application::Application","constructor"
+"Application","degenerate","Application::parse","controller stateless"
+"Application","degenerate","Application::command","property controller"
+"Application","degenerate","Application::from_envs","wrapper stateless"
+"Application","degenerate","Application::from_args","wrapper stateless"
+"Application","degenerate","Application::parse","controller stateless"
+"EventFactory","controller","EventFactory::EventFactory","constructor"
+"EventFactory","controller","EventFactory::start","property controller"
+"EventFactory","controller","EventFactory::signal","property controller"
+"EventFactory","controller","EventFactory::terminate","property controller"
+"ToolAny","data-provider boundary small-class","ToolAny::ToolAny","copy-constructor"
+"ToolAny","data-provider boundary small-class","ToolAny::recognize","property collaborator"
+"SourceMatcher","pure-controller degenerate small-class","SourceMatcher::parse","controller stateless"
+"Build","data-provider boundary small-class","Build::Build","constructor"
+"Build","data-provider boundary small-class","Build::recognize","property collaborator"
+"ConfigurationSerializer","unclassified","ConfigurationSerializer::to_json","property collaborator"
+"ConfigurationSerializer","unclassified","ConfigurationSerializer::to_json","controller stateless"
+"ConfigurationSerializer","unclassified","ConfigurationSerializer::from_json","property collaborator"
+"ConfigurationSerializer","unclassified","ConfigurationSerializer::from_json","controller stateless"
+"Resolver","unclassified","Resolver::Resolver","constructor"
+"Resolver","unclassified","Resolver::from_current_directory","property controller"
+"Resolver","unclassified","Resolver::from_path","property non-void-command collaborator"
+"Resolver","unclassified","Resolver::from_search_path","property non-void-command collaborator"
+"CompilationDatabase","data-provider boundary","CompilationDatabase::CompilationDatabase","constructor"
+"CompilationDatabase","data-provider boundary","CompilationDatabase::to_json","property collaborator"
+"CompilationDatabase","data-provider boundary","CompilationDatabase::to_json","property collaborator"
+"CompilationDatabase","data-provider boundary","CompilationDatabase::from_json","property collaborator"
+"CompilationDatabase","data-provider boundary","CompilationDatabase::from_json","property collaborator"
+"OneOf","controller small-class","OneOf","constructor"
+"OneOf","controller small-class","parse","property controller"
+"QueryCompiler","data-provider boundary degenerate","QueryCompiler::operator==","predicate collaborator"
+"QueryCompiler","data-provider boundary degenerate","QueryCompiler::operator<<","collaborator incidental"
+"QueryCompiler","data-provider boundary degenerate","QueryCompiler::into_entries","collaborator incidental"
+"Array","data-provider small-class","begin","get"
+"Array","data-provider small-class","end","property"
+"ContentFilter","unclassified","ContentFilter","constructor"
+"ContentFilter","unclassified","apply","predicate non-void-command collaborator"
+"ContentFilter","unclassified","exists","predicate wrapper"
+"ContentFilter","unclassified","to_include","predicate controller"
+"ContentFilter","unclassified","to_exclude","predicate controller"
+"InterceptorClient","entity boundary small-class","InterceptorClient::InterceptorClient","constructor"
+"InterceptorClient","entity boundary small-class","InterceptorClient::report","property non-void-command collaborator"
+"Arguments","data-provider boundary","Arguments::Arguments","copy-constructor"
+"Arguments","data-provider boundary","Arguments::as_bool","property collaborator"
+"Arguments","data-provider boundary","Arguments::as_string","property collaborator"
+"Arguments","data-provider boundary","Arguments::as_string_list","property collaborator"
+"FileOutputDuplicateFilter","boundary degenerate small-class","hash","wrapper stateless"
+"FileDuplicateFilter","boundary degenerate small-class","hash","wrapper stateless"
+"Err","empty","Err","constructor"
+"Err","empty","Err","constructor"
+"EventReporter","commander boundary small-class","EventReporter::EventReporter","constructor"
+"EventReporter","commander boundary small-class","EventReporter::report_start","command collaborator"
+"EventReporter","commander boundary small-class","EventReporter::report_wait","command collaborator"
+"Linker","boundary degenerate small-class","Linker::execve","wrapper stateless"
+"Linker","boundary degenerate small-class","Linker::posix_spawn","wrapper stateless"
+"DuplicateFilter","entity boundary small-class","apply","predicate non-void-command collaborator"
+"DuplicateFilter","entity boundary small-class","DuplicateFilter::from_content","wrapper stateless"
+"Session","unclassified","Session::from","property non-void-command collaborator"
+"Session","unclassified","Session::keep_front_in_path","controller stateless"
+"Session","unclassified","Session::remove_from_path","controller stateless"
+"Session","unclassified","Session::run","property set collaborator"
+"EverythingElseFlagMatcher","pure-controller degenerate small-class","EverythingElseFlagMatcher::parse","controller stateless"
+"Paths","data-provider boundary","Paths::Paths","constructor"
+"Paths","data-provider boundary","Paths::begin","property wrapper"
+"Paths","data-provider boundary","Paths::end","property collaborator"
+"Paths","data-provider boundary","Paths::next","property collaborator"
+"StrictDuplicateFilter","boundary degenerate small-class","hash","wrapper stateless"
+"Repeat","data-provider boundary small-class","Repeat","constructor"
+"Repeat","data-provider boundary small-class","parse","property collaborator"
+"InterceptorImpl","entity boundary small-class","InterceptorImpl::InterceptorImpl","constructor"
+"InterceptorImpl","entity boundary small-class","InterceptorImpl::Register","property non-void-command collaborator"
+"Reporter","small-class","Reporter::from","controller stateless"
+"Reporter","small-class","Reporter::Reporter","constructor"
+"Reporter","small-class","Reporter::report","command collaborator"
+"Preprocess","boundary degenerate","Preprocess::operator==","incidental"
+"Preprocess","boundary degenerate","Preprocess::operator<<","collaborator incidental"
+"Preprocess","boundary degenerate","Preprocess::into_entries","collaborator incidental"
+"Command","controller","Command","constructor"
+"Command","controller","Command::Command","constructor"
+"Command","controller","Command::execute","property wrapper"
+"Command","controller","Command::execute","property factory controller"
+"Command","controller","Command::execute","property collaborator"
+"Command","controller","Command::Command","constructor"
+"Command","controller","Command::execute","property controller"
+"EventsDatabaseWriter","boundary","EventsDatabaseWriter::create","controller stateless"
+"EventsDatabaseWriter","boundary","EventsDatabaseWriter::EventsDatabaseWriter","constructor"
+"EventsDatabaseWriter","boundary","EventsDatabaseWriter::~EventsDatabaseWriter","destructor"
+"EventsDatabaseWriter","boundary","EventsDatabaseWriter::insert_event","property non-void-command collaborator"
+"EventsDatabaseWriter","boundary","EventsDatabaseWriter::to_json","property non-void-command collaborator"
+"EventsDatabaseWriter","boundary","EventsDatabaseWriter::write_to_file","property non-void-command collaborator"
+"FlagParser","boundary","FlagParser","constructor"
+"FlagParser","boundary","FlagParser::parse","property collaborator"
+"FlagParser","boundary","FlagParser::lookup","property collaborator"
+"FlagParser","boundary","FlagParser::check_equal","wrapper stateless"
+"FlagParser","boundary","FlagParser::check_partial","controller stateless"
+"Compile","data-provider boundary","Compile::Compile","constructor"
+"Compile","data-provider boundary","Compile::operator==","predicate collaborator"
+"Compile","data-provider boundary","Compile::operator<<","property collaborator"
+"Compile","data-provider boundary","Compile::into_entries","property collaborator"
+"ToolClang","small-class","ToolClang::ToolClang","constructor"
+"ToolClang","small-class","ToolClang::recognize","property collaborator"
+"ToolClang","small-class","ToolClang::is_compiler_call","controller stateless"
+"ToolCuda","pure-controller degenerate small-class","ToolCuda::is_compiler_call","controller stateless"
+"ToolExtendingWrapper","data-provider boundary small-class","ToolExtendingWrapper::ToolExtendingWrapper","constructor"
+"ToolExtendingWrapper","data-provider boundary small-class","ToolExtendingWrapper::is_compiler_call","predicate collaborator"
+"ToolExtendingWrapper","data-provider boundary small-class","ToolExtendingWrapper::recognize","property collaborator"
+"ToolWrapper","controller degenerate","ToolWrapper::recognize","property collaborator"
+"ToolWrapper","controller degenerate","ToolWrapper::is_ccache_call","controller stateless"
+"ToolWrapper","controller degenerate","ToolWrapper::is_ccache_query","controller stateless"
+"ToolWrapper","controller degenerate","ToolWrapper::is_distcc_call","controller stateless"
+"ToolWrapper","controller degenerate","ToolWrapper::is_distcc_query","controller stateless"
+"ToolWrapper","controller degenerate","ToolWrapper::remove_wrapper","property non-void-command collaborator"
+"ToolWrapper","controller degenerate","ToolWrapper::remove_wrapper","controller stateless"
+"Tool","pure-controller degenerate","Tool::recognized_ok","controller stateless"
+"Tool","pure-controller degenerate","Tool::recognized_with_error","controller stateless"
+"Tool","pure-controller degenerate","Tool::not_recognized","controller stateless"
+"Intercept","boundary degenerate small-class","Intercept::Intercept","constructor"
+"Intercept","boundary degenerate small-class","Intercept::command","wrapper stateless"
+"ArgumentsView","data-provider boundary","ArgumentsView","constructor"
+"ArgumentsView","data-provider boundary","ArgumentsView","constructor"
+"ArgumentsView","data-provider boundary","empty","predicate"
+"ArgumentsView","data-provider boundary","begin","get collaborator"
+"ArgumentsView","data-provider boundary","end","get collaborator"
+"ArgumentsView","data-provider boundary","ArgumentsView::take","property collaborator"
+"ArgumentsView","data-provider boundary","ArgumentsView::front","get collaborator"
+"ArgumentsView","data-provider boundary","ArgumentsView::back","property wrapper"
+"Buffer","data-provider boundary small-class","Buffer::store","property wrapper"
+"Buffer","data-provider boundary small-class","Buffer::Buffer","constructor"
+"SupervisorImpl","entity boundary small-class","SupervisorImpl::SupervisorImpl","constructor"
+"SupervisorImpl","entity boundary small-class","SupervisorImpl::Resolve","property non-void-command collaborator"
+"LibraryPreloadSession","unclassified","LibraryPreloadSession::from","controller stateless"
+"LibraryPreloadSession","unclassified","LibraryPreloadSession::LibraryPreloadSession","constructor"
+"LibraryPreloadSession","unclassified","LibraryPreloadSession::resolve","controller stateless"
+"LibraryPreloadSession","unclassified","LibraryPreloadSession::supervise","property collaborator"
+"LibraryPreloadSession","unclassified","LibraryPreloadSession::update","property wrapper"
+"ToolGcc","unclassified","ToolGcc::recognize","property collaborator"
+"ToolGcc","unclassified","ToolGcc::is_compiler_call","controller stateless"
+"ToolGcc","unclassified","ToolGcc::compilation","property collaborator"
+"ToolGcc","unclassified","ToolGcc::compilation","controller stateless"
+"WrapperSession","data-provider boundary","WrapperSession::from","controller stateless"
+"WrapperSession","data-provider boundary","WrapperSession::supervise","property collaborator"
+"WrapperSession","data-provider boundary","WrapperSession::resolve","property collaborator"
+"WrapperSession","data-provider boundary","WrapperSession::update","property collaborator"
+"WrapperSession","data-provider boundary","WrapperSession::set_up","property collaborator"
+"Executor","data-provider boundary","Executor::Executor","constructor"
+"Executor","data-provider boundary","Executor::execve","property collaborator"
+"Executor","data-provider boundary","Executor::execvpe","property collaborator"
+"Executor","data-provider boundary","Executor::execvP","property collaborator"
+"Executor","data-provider boundary","Executor::posix_spawn","property collaborator"
+"Executor","data-provider boundary","Executor::posix_spawnp","property collaborator"
+"EventsDatabaseReader","entity boundary","EventsDatabaseReader::from","wrapper stateless"
+"EventsDatabaseReader","entity boundary","EventsDatabaseReader::EventsDatabaseReader","constructor"
+"EventsDatabaseReader","entity boundary","EventsDatabaseReader::begin","property wrapper"
+"EventsDatabaseReader","entity boundary","EventsDatabaseReader::end","property wrapper"
+"EventsDatabaseReader","entity boundary","EventsDatabaseReader::next","property non-void-command collaborator"
+"EventsDatabaseReader","entity boundary","EventsDatabaseReader::next_line","property non-void-command collaborator"
+"EventsDatabaseReader","entity boundary","EventsDatabaseReader::from_json","property non-void-command collaborator"
+"CommandBuilder","data-provider","CommandBuilder","constructor"
+"CommandBuilder","data-provider","length","property"
+"CommandBuilder","data-provider","assemble","void-accessor"
+"CommandBuilder","data-provider","file","property"

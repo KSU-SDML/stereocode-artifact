@@ -1,901 +1,887 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"StreamExtensionsTests","pure-controller degenerate small-class","CopyToAsyncTest","controller stateless",
-"HubContextFixture<THub,THubClient>","empty","HubContextFixture","constructor",
-"DataServiceTests","commander boundary","AddAlert","non-void-command collaborator",
-"DataServiceTests","commander boundary","AddOrUpdateDevice","non-void-command collaborator",
-"DataServiceTests","commander boundary","CreateDevice","non-void-command collaborator",
-"DataServiceTests","commander boundary","DeviceGroupPermissions","command collaborator",
-"DataServiceTests","commander boundary","GetPendingScriptRuns_GivenMultipleRunsQueued_ReturnsOnlyLatest","non-void-command collaborator",
-"DataServiceTests","commander boundary","TestCleanup","command",
-"DataServiceTests","commander boundary","TestInit","non-void-command collaborator",
-"DataServiceTests","commander boundary","UpdateOrganizationName","non-void-command collaborator",
-"DataServiceTests","commander boundary","UpdateServerAdmins","non-void-command collaborator",
-"DataServiceTests","commander boundary","VerifyInitialData","non-void-command collaborator",
-"Time","controller small-class","get","property controller",
-"EnvironmentHelper","degenerate","get","stateless",
-"EnvironmentHelper","degenerate","get","stateless",
-"EnvironmentHelper","degenerate","get","incidental",
-"EnvironmentHelper","degenerate","get","collaborator incidental",
-"AppendableStream","unclassified","AppendableStream","constructor",
-"AppendableStream","unclassified","Close","command",
-"AppendableStream","unclassified","DisposeAsync","property non-void-command collaborator",
-"AppendableStream","unclassified","Flush","command",
-"AppendableStream","unclassified","Read","get property non-void-command",
-"AppendableStream","unclassified","Seek","property non-void-command collaborator",
-"AppendableStream","unclassified","SetLength","command",
-"AppendableStream","unclassified","Write","incidental",
-"AppendableStream","unclassified","Dispose","command",
-"ProcessInvoker","entity boundary small-class","ProcessInvoker","copy-constructor",
-"ProcessInvoker","entity boundary small-class","InvokeProcessOutput","property non-void-command collaborator",
-"FileLoggerProvider","small-class","FileLoggerProvider","constructor",
-"FileLoggerProvider","small-class","CreateLogger","property factory collaborator",
-"FileLoggerProvider","small-class","Dispose","wrapper",
-"FileLoggerDefaults","boundary degenerate small-class","get","wrapper stateless",
-"EmbeddedServerDataProvider","degenerate small-class","GetEncodedFileName","wrapper stateless",
-"EmbeddedServerDataProvider","degenerate small-class","TryGetEmbeddedData","controller stateless",
-"ElevationDetectorMac","boundary degenerate small-class","IsElevated","wrapper stateless",
-"ElevationDetectorLinux","boundary degenerate small-class","IsElevated","wrapper stateless",
-"PwshCompletionResult","empty","PwshCompletionResult","constructor",
-"PwshCompletionResult","empty","PwshCompletionResult","copy-constructor",
-"ScriptSchedules","entity commander boundary","OnInitializedAsync","non-void-command collaborator",
-"ScriptSchedules","entity commander boundary","CreateNew","command",
-"ScriptSchedules","entity commander boundary","DeleteSelectedSchedule","non-void-command collaborator",
-"ScriptSchedules","entity commander boundary","DeviceGroupSelectedChanged","void-accessor command collaborator",
-"ScriptSchedules","entity commander boundary","DeviceSelectedChanged","void-accessor command collaborator",
-"ScriptSchedules","entity commander boundary","OnValidSubmit","non-void-command collaborator",
-"ScriptSchedules","entity commander boundary","RefreshSchedules","non-void-command collaborator",
-"ScriptSchedules","entity commander boundary","GetTableRowClass","property collaborator",
-"ScriptSchedules","entity commander boundary","SelectTableRow","non-void-command collaborator",
-"ScriptSchedules","entity commander boundary","ScriptSelected","non-void-command collaborator",
-"ScriptSchedules","entity commander boundary","get","predicate non-void-command",
-"ScriptSchedules","entity commander boundary","get","predicate non-void-command",
-"DevicesFrame","commander boundary","Refresh","set collaborator",
-"DevicesFrame","commander boundary","OnInitializedAsync","non-void-command collaborator",
-"DevicesFrame","commander boundary","AddScriptResult","non-void-command collaborator",
-"DevicesFrame","commander boundary","ClearSelectedCard","non-void-command collaborator",
-"DevicesFrame","commander boundary","FilterAndSortDevices","command collaborator",
-"DevicesFrame","commander boundary","GetDisplayedDevices","property non-void-command collaborator",
-"DevicesFrame","commander boundary","GetDisplayName","controller stateless",
-"DevicesFrame","commander boundary","GetSortIcon","incidental",
-"DevicesFrame","commander boundary","HandleDeviceStateChangedMessage","non-void-command collaborator",
-"DevicesFrame","commander boundary","HandleDisplayNotificationMessage","non-void-command collaborator",
-"DevicesFrame","commander boundary","HandleRefreshClicked","non-void-command collaborator",
-"DevicesFrame","commander boundary","HandleScriptResultMessage","non-void-command collaborator",
-"DevicesFrame","commander boundary","LoadDevices","non-void-command collaborator",
-"DevicesFrame","commander boundary","PageDown","set",
-"DevicesFrame","commander boundary","PageUp","set",
-"DevicesFrame","commander boundary","SelectAllCards","command collaborator",
-"DevicesFrame","commander boundary","ToggleSortDirection","set",
-"DevicesFrame","commander boundary","WakeDevices","non-void-command collaborator",
-"DevicesFrame","commander boundary","get","incidental",
-"ManageOrganization","commander boundary","OnInitializedAsync","non-void-command collaborator",
-"ManageOrganization","commander boundary","CreateNewDeviceGroup","non-void-command collaborator",
-"ManageOrganization","commander boundary","DefaultOrgCheckChanged","command collaborator",
-"ManageOrganization","commander boundary","DeleteInvite","non-void-command collaborator",
-"ManageOrganization","commander boundary","DeleteSelectedDeviceGroup","non-void-command collaborator",
-"ManageOrganization","commander boundary","DeleteUser","non-void-command collaborator",
-"ManageOrganization","commander boundary","EditDeviceGroups","non-void-command collaborator",
-"ManageOrganization","commander boundary","EvaluateInviteInputKeypress","non-void-command collaborator",
-"ManageOrganization","commander boundary","EvaluateNewDeviceGroupKeyPress","non-void-command collaborator",
-"ManageOrganization","commander boundary","OrganizationNameChanged","command collaborator",
-"ManageOrganization","commander boundary","RefreshData","non-void-command collaborator",
-"ManageOrganization","commander boundary","ResetPassword","non-void-command collaborator",
-"ManageOrganization","commander boundary","SendInvite","non-void-command collaborator",
-"ManageOrganization","commander boundary","SetUserIsAdmin","non-void-command collaborator",
-"ManageOrganization","commander boundary","ShowDefaultOrgHelp","command",
-"ManageOrganization","commander boundary","ShowDeviceGroupHelp","command",
-"ManageOrganization","commander boundary","ShowInvitesHelp","command",
-"ManageOrganization","commander boundary","ShowUsersHelp","command",
-"ChatFrame","commander boundary","OnInitializedAsync","non-void-command collaborator",
-"ChatFrame","commander boundary","HandleChatMessageReceived","non-void-command collaborator",
-"ChatFrame","commander boundary","HandleChatSessionsChanged","set collaborator",
-"AuthComponentBase","commander boundary small-class","EnsureUserSet","wrapper",
-"AuthComponentBase","commander boundary small-class","OnInitializedAsync","non-void-command collaborator",
-"Add_Agent_MacAddress","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Add_Agent_MacAddress","pure-controller degenerate","Up","controller stateless",
-"Add_Agent_MacAddress","pure-controller degenerate","Down","controller stateless",
-"Add_Agent_MacAddress","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Add_Agent_MacAddress","pure-controller degenerate","Up","controller stateless",
-"Add_Agent_MacAddress","pure-controller degenerate","Down","controller stateless",
-"Add_Agent_MacAddress","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Add_Agent_MacAddress","pure-controller degenerate","Up","controller stateless",
-"Add_Agent_MacAddress","pure-controller degenerate","Down","controller stateless",
-"OrganizationAdminRequirementHandler","commander boundary small-class","OrganizationAdminRequirementHandler","constructor",
-"OrganizationAdminRequirementHandler","commander boundary small-class","HandleRequirementAsync","non-void-command collaborator",
-"ScriptResultsController","entity boundary","ScriptResultsController","copy-constructor",
-"ScriptResultsController","entity boundary","DownloadAll","property non-void-command collaborator",
-"ScriptResultsController","entity boundary","DownloadResults","property non-void-command collaborator",
-"ScriptResultsController","entity boundary","Post","property non-void-command factory collaborator",
-"RemoveRelayCode","pure-controller degenerate","BuildTargetModel","controller stateless",
-"RemoveRelayCode","pure-controller degenerate","Up","controller stateless",
-"RemoveRelayCode","pure-controller degenerate","Down","controller stateless",
-"RemoveRelayCode","pure-controller degenerate","BuildTargetModel","controller stateless",
-"RemoveRelayCode","pure-controller degenerate","Up","controller stateless",
-"RemoveRelayCode","pure-controller degenerate","Down","controller stateless",
-"RemoveRelayCode","pure-controller degenerate","BuildTargetModel","controller stateless",
-"RemoveRelayCode","pure-controller degenerate","Up","controller stateless",
-"RemoveRelayCode","pure-controller degenerate","Down","controller stateless",
-"LoginController","entity boundary small-class","LoginController","copy-constructor",
-"LoginController","entity boundary small-class","Logout","property non-void-command collaborator",
-"LoginController","entity boundary small-class","Post","property non-void-command collaborator",
-"AlertsController","entity boundary","AlertsController","copy-constructor",
-"AlertsController","entity boundary","Create","property non-void-command collaborator",
-"AlertsController","entity boundary","Delete","property non-void-command collaborator",
-"AlertsController","entity boundary","DeleteAll","property non-void-command collaborator",
-"Viewer","entity commander boundary","Viewer","constructor",
-"Viewer","entity commander boundary","ApplyAutoQuality","set",
-"Viewer","entity commander boundary","CalculateFps","command",
-"Viewer","entity commander boundary","DequeuePendingFrame","command",
-"Viewer","entity commander boundary","Dispose","set",
-"Viewer","entity commander boundary","SendAudioSample","non-void-command collaborator",
-"Viewer","entity commander boundary","SendClipboardText","non-void-command collaborator",
-"Viewer","entity commander boundary","SendCtrlAltDel","non-void-command collaborator",
-"Viewer","entity commander boundary","SendCursorChange","non-void-command collaborator",
-"Viewer","entity commander boundary","SendFile","non-void-command collaborator",
-"Viewer","entity commander boundary","SendScreenCapture","non-void-command collaborator",
-"Viewer","entity commander boundary","SendScreenData","non-void-command collaborator",
-"Viewer","entity commander boundary","SendScreenSize","non-void-command collaborator",
-"Viewer","entity commander boundary","SendViewerConnected","non-void-command collaborator",
-"Viewer","entity commander boundary","SendWindowsSessions","non-void-command collaborator",
-"Viewer","entity commander boundary","AudioCapturer_AudioSampleReady","void-accessor command",
-"Viewer","entity commander boundary","ClipboardService_ClipboardTextChanged","command",
-"Viewer","entity commander boundary","TrySendToViewer","wrapper stateless",
-"Viewer","entity commander boundary","get","wrapper stateless",
-"DtoMessageHandler","boundary","DtoMessageHandler","constructor",
-"DtoMessageHandler","boundary","ParseMessage","non-void-command collaborator",
-"DtoMessageHandler","boundary","ClipboardTransfer","non-void-command collaborator",
-"DtoMessageHandler","boundary","DownloadFile","non-void-command collaborator",
-"DtoMessageHandler","boundary","GetWindowsSessions","controller stateless",
-"DtoMessageHandler","boundary","HandleFrameReceived","controller stateless",
-"DtoMessageHandler","boundary","KeyDown","void-accessor command collaborator",
-"DtoMessageHandler","boundary","KeyPress","non-void-command collaborator",
-"DtoMessageHandler","boundary","KeyUp","void-accessor command collaborator",
-"DtoMessageHandler","boundary","MouseDown","void-accessor command collaborator",
-"DtoMessageHandler","boundary","MouseMove","void-accessor command collaborator",
-"DtoMessageHandler","boundary","MouseUp","void-accessor command collaborator",
-"DtoMessageHandler","boundary","MouseWheel","void-accessor command collaborator",
-"DtoMessageHandler","boundary","OpenFileTransferWindow","command collaborator",
-"DtoMessageHandler","boundary","SelectScreen","controller stateless",
-"DtoMessageHandler","boundary","SetKeyStatesUp","command",
-"DtoMessageHandler","boundary","Tap","void-accessor command collaborator",
-"DtoMessageHandler","boundary","ToggleAudio","void-accessor command collaborator",
-"DtoMessageHandler","boundary","ToggleBlockInput","void-accessor command collaborator",
-"OrganizationManagementController","entity boundary","OrganizationManagementController","copy-constructor",
-"OrganizationManagementController","entity boundary","ChangeIsAdmin","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","DeleteInvite","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","DeleteUser","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","DeviceGroup","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","DeviceGroup","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","DeviceGroup","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","DeviceGroupRemoveUser","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","DeviceGroupAddUser","wrapper stateless",
-"OrganizationManagementController","entity boundary","GenerateResetUrl","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","Name","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","SetDefault","property non-void-command collaborator",
-"OrganizationManagementController","entity boundary","SendInvite","property non-void-command collaborator",
-"ChatHostService","commander boundary","ChatHostService","constructor",
-"ChatHostService","commander boundary","StartChat","non-void-command collaborator",
-"ChatHostService","commander boundary","OnChatWindowClosed","wrapper",
-"ChatHostService","commander boundary","ReadFromStream","non-void-command collaborator",
-"MainWindow","boundary degenerate","MainWindow","constructor",
-"MainWindow","boundary degenerate","Window_MouseLeftButtonDown","wrapper stateless",
-"MainWindow","boundary degenerate","Window_Loaded","wrapper stateless",
-"MainWindow","boundary degenerate","CloseButton_Click","wrapper stateless",
-"MainWindow","boundary degenerate","MinimizeButton_Click","collaborator incidental",
-"MainWindow","boundary degenerate","ShowServerUrlHelp","wrapper stateless",
-"MainWindow","boundary degenerate","ShowOrganizationIdHelp","wrapper stateless",
-"MainWindow","boundary degenerate","ShowSupportShortcutHelp","wrapper stateless",
-"ExpiringTokenFilter","commander boundary small-class","ExpiringTokenFilter","copy-constructor",
-"ExpiringTokenFilter","commander boundary small-class","OnAuthorizationAsync","non-void-command collaborator",
-"ExpiringTokenFilter","commander boundary small-class","Authorize","non-void-command collaborator",
-"CasterSocket","entity boundary","CasterSocket","constructor",
-"CasterSocket","entity boundary","Connect","property non-void-command collaborator",
-"CasterSocket","entity boundary","Disconnect","non-void-command collaborator",
-"CasterSocket","entity boundary","DisconnectAllViewers","non-void-command collaborator",
-"CasterSocket","entity boundary","DisconnectViewer","property non-void-command collaborator",
-"CasterSocket","entity boundary","GetSessionID","property non-void-command collaborator",
-"CasterSocket","entity boundary","NotifyRequesterUnattendedReady","property non-void-command collaborator",
-"CasterSocket","entity boundary","NotifyViewersRelaunchedScreenCasterReady","property non-void-command collaborator",
-"CasterSocket","entity boundary","SendConnectionFailedToViewers","property non-void-command collaborator",
-"CasterSocket","entity boundary","SendConnectionRequestDenied","property non-void-command collaborator",
-"CasterSocket","entity boundary","SendMessageToViewer","property non-void-command collaborator",
-"CasterSocket","entity boundary","SendCtrlAltDelToAgent","property non-void-command collaborator",
-"CasterSocket","entity boundary","SendDeviceInfo","property non-void-command collaborator",
-"CasterSocket","entity boundary","SendDtoToViewer<T>","property non-void-command collaborator",
-"CasterSocket","entity boundary","SendViewerConnected","property non-void-command collaborator",
-"CasterSocket","entity boundary","ApplyConnectionHandlers","command collaborator",
-"ScriptsPage","commander boundary","GetItemIconCss","collaborator incidental",
-"ScriptsPage","commander boundary","RefreshScripts","non-void-command collaborator",
-"ScriptsPage","commander boundary","OnInitializedAsync","non-void-command collaborator",
-"ScriptsPage","commander boundary","CreateTreeNode","void-accessor controller",
-"ScriptsPage","commander boundary","RefreshTreeNodes","command collaborator",
-"ScriptsPage","commander boundary","set","set",
-"ScriptsPage","commander boundary","get","get non-void-command collaborator",
-"AppLauncherWin","entity commander boundary","AppLauncherWin","copy-constructor",
-"AppLauncherWin","entity commander boundary","LaunchChatService","property non-void-command collaborator",
-"AppLauncherWin","entity commander boundary","LaunchRemoteControl","non-void-command collaborator",
-"AppLauncherWin","entity commander boundary","RestartScreenCaster","non-void-command collaborator",
-"OtpProvider","unclassified","Exists","predicate non-void-command",
-"OtpProvider","unclassified","GetOtp","property non-void-command collaborator",
-"OtpProvider","unclassified","OtpMatchesDevice","incidental",
-"Remove_TitleBranding","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Remove_TitleBranding","pure-controller degenerate","Up","controller stateless",
-"Remove_TitleBranding","pure-controller degenerate","Down","controller stateless",
-"Remove_TitleBranding","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Remove_TitleBranding","pure-controller degenerate","Up","controller stateless",
-"Remove_TitleBranding","pure-controller degenerate","Down","controller stateless",
-"Remove_TitleBranding","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Remove_TitleBranding","pure-controller degenerate","Up","controller stateless",
-"Remove_TitleBranding","pure-controller degenerate","Down","controller stateless",
-"SqlServerDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"BrandingInfo","pure-controller degenerate","BuildTargetModel","controller stateless",
-"BrandingInfo","pure-controller degenerate","Up","controller stateless",
-"BrandingInfo","pure-controller degenerate","Down","controller stateless",
-"BrandingInfo","pure-controller degenerate","BuildTargetModel","controller stateless",
-"BrandingInfo","pure-controller degenerate","Up","controller stateless",
-"BrandingInfo","pure-controller degenerate","Down","controller stateless",
-"BrandingInfo","pure-controller degenerate","BuildTargetModel","controller stateless",
-"BrandingInfo","pure-controller degenerate","Up","controller stateless",
-"BrandingInfo","pure-controller degenerate","Down","controller stateless",
-"DeviceCard","commander boundary","OnInitializedAsync","non-void-command collaborator",
-"DeviceCard","commander boundary","HandleDeviceCardStateChanged","set collaborator",
-"DeviceCard","commander boundary","HandleDeviceStateChanged","non-void-command collaborator",
-"DeviceCard","commander boundary","ContextMenuOpening","command collaborator",
-"DeviceCard","commander boundary","ExpandCard","non-void-command collaborator",
-"DeviceCard","commander boundary","GetCardStateClass","wrapper stateless",
-"DeviceCard","commander boundary","GetProgressMessage","incidental",
-"DeviceCard","commander boundary","HandleHeaderClick","set",
-"DeviceCard","commander boundary","HandleValidSubmit","non-void-command collaborator",
-"DeviceCard","commander boundary","OnFileInputChanged","non-void-command collaborator",
-"DeviceCard","commander boundary","OnFileInputProgress","command",
-"DeviceCard","commander boundary","OpenDeviceDetails","command",
-"DeviceCard","commander boundary","ShowAllDisks","command collaborator",
-"DeviceCard","commander boundary","StartChat","command collaborator",
-"DeviceCard","commander boundary","StartRemoteControl","non-void-command collaborator",
-"DeviceCard","commander boundary","ToggleIsSelected","command collaborator",
-"DeviceCard","commander boundary","UninstallAgent","non-void-command collaborator",
-"DeviceCard","commander boundary","WakeDevice","non-void-command collaborator",
-"DeviceDetails","entity commander boundary","OnInitializedAsync","non-void-command collaborator",
-"DeviceDetails","entity commander boundary","HandleReceiveLogsMessage","non-void-command collaborator",
-"DeviceDetails","entity commander boundary","DeleteLogs","non-void-command collaborator",
-"DeviceDetails","entity commander boundary","EditFormKeyDown","set",
-"DeviceDetails","entity commander boundary","EvaluateDeviceIdInputKeyDown","command collaborator",
-"DeviceDetails","entity commander boundary","GetRemoteLogs","command",
-"DeviceDetails","entity commander boundary","GetScriptHistory","command collaborator",
-"DeviceDetails","entity commander boundary","GetTrimmedText","wrapper stateless",
-"DeviceDetails","entity commander boundary","GetTrimmedText","wrapper stateless",
-"DeviceDetails","entity commander boundary","HandleValidSubmit","property non-void-command collaborator",
-"DeviceDetails","entity commander boundary","NavigateToDeviceId","command",
-"DeviceDetails","entity commander boundary","ShowAllDisks","command collaborator",
-"DeviceDetails","entity commander boundary","ShowFullScriptOutput","command collaborator",
-"ScriptingShellFactory","entity boundary","ScriptingShellFactory","constructor",
-"ScriptingShellFactory","entity boundary","GetOrCreatePsCoreShell","property non-void-command collaborator",
-"ScriptingShellFactory","entity boundary","GetOrCreateExternalShell","property non-void-command collaborator",
-"ScriptingShellFactory","entity boundary","GetEntryOptions","factory wrapper stateless",
-"ConfigService","entity boundary data-class","ConfigService","copy-constructor",
-"ConfigService","entity boundary data-class","GetConnectionInfo","get property non-void-command factory collaborator",
-"ConfigService","entity boundary data-class","SaveConnectionInfo","set collaborator",
-"ConfigService","entity boundary data-class","get","get non-void-command collaborator",
-"SponsorshipInfo","pure-controller degenerate","BuildTargetModel","controller stateless",
-"SponsorshipInfo","pure-controller degenerate","Up","controller stateless",
-"SponsorshipInfo","pure-controller degenerate","Down","controller stateless",
-"SponsorshipInfo","pure-controller degenerate","BuildTargetModel","controller stateless",
-"SponsorshipInfo","pure-controller degenerate","Up","controller stateless",
-"SponsorshipInfo","pure-controller degenerate","Down","controller stateless",
-"SponsorshipInfo","pure-controller degenerate","BuildTargetModel","controller stateless",
-"SponsorshipInfo","pure-controller degenerate","Up","controller stateless",
-"SponsorshipInfo","pure-controller degenerate","Down","controller stateless",
-"BrandingController","entity small-class","BrandingController","copy-constructor",
-"BrandingController","entity small-class","Get","property non-void-command collaborator",
-"BrandingController","entity small-class","GetDefault","property non-void-command factory collaborator",
-"AppLauncherLinux","entity boundary","AppLauncherLinux","copy-constructor",
-"AppLauncherLinux","entity boundary","LaunchChatService","property non-void-command collaborator",
-"AppLauncherLinux","entity boundary","LaunchRemoteControl","non-void-command collaborator",
-"AppLauncherLinux","entity boundary","RestartScreenCaster","non-void-command collaborator",
-"AppLauncherLinux","entity boundary","StartLinuxDesktopApp","property non-void-command collaborator",
-"AppLauncherLinux","entity boundary","TryGetXAuth","property non-void-command collaborator",
-"WakeOnLanService","boundary degenerate small-class","WakeDevice","wrapper stateless",
-"ScriptExecutor","entity commander boundary","ScriptExecutor","copy-constructor",
-"ScriptExecutor","entity commander boundary","RunCommandFromApi","non-void-command collaborator",
-"ScriptExecutor","entity commander boundary","RunCommandFromTerminal","non-void-command collaborator",
-"ScriptExecutor","entity commander boundary","RunScript","non-void-command collaborator",
-"ScriptExecutor","entity commander boundary","ExecuteScriptContent","property non-void-command collaborator",
-"ScriptExecutor","entity commander boundary","SendResultsToApi","property non-void-command collaborator",
-"RunScript","entity commander boundary","OnAfterRender","command",
-"RunScript","entity commander boundary","OnInitializedAsync","non-void-command collaborator",
-"RunScript","entity commander boundary","DeviceGroupSelectedChanged","void-accessor command collaborator",
-"RunScript","entity commander boundary","DeviceSelectedChanged","void-accessor command collaborator",
-"RunScript","entity commander boundary","ExecuteScript","non-void-command collaborator",
-"RunScript","entity commander boundary","ScriptSelected","non-void-command collaborator",
-"FileLogsManager","boundary degenerate","AnyLogsExist","wrapper stateless",
-"FileLogsManager","boundary degenerate","DeleteLogs","wrapper stateless",
-"FileLogsManager","boundary degenerate","ReadAllBytes","wrapper stateless",
-"ScreenCaster","commander boundary","ScreenCaster","constructor",
-"ScreenCaster","commander boundary","BeginScreenCasting","command collaborator",
-"ScreenCaster","commander boundary","BeginScreenCastingImpl","non-void-command collaborator",
-"ScreenCaster","commander boundary","CastScreen","non-void-command collaborator",
-"IsSponsorproperty","pure-controller degenerate","BuildTargetModel","controller stateless",
-"IsSponsorproperty","pure-controller degenerate","Up","controller stateless",
-"IsSponsorproperty","pure-controller degenerate","Down","controller stateless",
-"IsSponsorproperty","pure-controller degenerate","BuildTargetModel","controller stateless",
-"IsSponsorproperty","pure-controller degenerate","Up","controller stateless",
-"IsSponsorproperty","pure-controller degenerate","Down","controller stateless",
-"IsSponsorproperty","pure-controller degenerate","BuildTargetModel","controller stateless",
-"IsSponsorproperty","pure-controller degenerate","Up","controller stateless",
-"IsSponsorproperty","pure-controller degenerate","Down","controller stateless",
-"FileUpload","data-class","get","get",
-"FileUpload","data-class","set","set",
-"FileUpload","data-class","get","get",
-"FileUpload","data-class","set","set",
-"MainWindowViewModel","data-class","MainWindowViewModel","constructor",
-"MainWindowViewModel","data-class","get","get",
-"MainWindowViewModel","data-class","set","set",
-"MainWindowViewModel","data-class","get","get",
-"MainWindowViewModel","data-class","set","set",
-"ServerConfig","entity commander boundary","OnInitializedAsync","non-void-command collaborator",
-"ServerConfig","entity commander boundary","AddBannedDevice","set",
-"ServerConfig","entity commander boundary","AddKnownProxy","command",
-"ServerConfig","entity commander boundary","AddTrustedCorsOrigin","set",
-"ServerConfig","entity commander boundary","GetOutdatedDevices","property non-void-command collaborator",
-"ServerConfig","entity commander boundary","HandleBannedDeviceKeyDown","command collaborator",
-"ServerConfig","entity commander boundary","HandleKnownProxyKeyDown","command collaborator",
-"ServerConfig","entity commander boundary","HandleTrustedCorsKeyDown","command collaborator",
-"ServerConfig","entity commander boundary","HandleValidSubmit","non-void-command collaborator",
-"ServerConfig","entity commander boundary","RemoveBannedDevice","set",
-"ServerConfig","entity commander boundary","RemoveKnownProxy","set",
-"ServerConfig","entity commander boundary","RemoveTrustedCorsOrigin","set",
-"ServerConfig","entity commander boundary","Save","non-void-command collaborator",
-"ServerConfig","entity commander boundary","SaveAndTestSmtpSettings","non-void-command collaborator",
-"ServerConfig","entity commander boundary","SetIsServerAdmin","void-accessor command collaborator",
-"ServerConfig","entity commander boundary","ShowOutdatedDevices","command collaborator",
-"ServerConfig","entity commander boundary","UpdateAllDevices","non-void-command collaborator",
-"ServerConfig","entity commander boundary","get","property non-void-command collaborator",
-"ApiAuthorizationFilter","commander boundary small-class","ApiAuthorizationFilter","copy-constructor",
-"ApiAuthorizationFilter","commander boundary small-class","OnAuthorizationAsync","non-void-command collaborator",
-"ApiAuthorizationFilter","commander boundary small-class","Authorize","non-void-command collaborator",
-"ChatCard","commander boundary","OnAfterRender","command",
-"ChatCard","commander boundary","OnInitializedAsync","non-void-command collaborator",
-"ChatCard","commander boundary","HandleChatMessageReceived","non-void-command collaborator",
-"ChatCard","commander boundary","CloseChatCard","non-void-command collaborator",
-"ChatCard","commander boundary","EvaluateInputKeypress","non-void-command collaborator",
-"ChatCard","commander boundary","HeaderClicked","command",
-"DeviceInitService","boundary data-class small-class","DeviceInitService","constructor",
-"DeviceInitService","boundary data-class small-class","GetBrandingInfo","get non-void-command collaborator",
-"DeviceInitService","boundary data-class small-class","SetBrandingInfo","set collaborator",
-"Resources","boundary","Resources","constructor",
-"Resources","boundary","get","get set collaborator",
-"Resources","boundary","get","get collaborator",
-"Resources","boundary","set","set collaborator",
-"AgentHub","entity boundary","AgentHub","copy-constructor",
-"AgentHub","entity boundary","Chat","non-void-command collaborator",
-"AgentHub","entity boundary","CheckForPendingRemoteControlSessions","non-void-command collaborator",
-"AgentHub","entity boundary","CheckForPendingScriptRuns","non-void-command collaborator",
-"AgentHub","entity boundary","DeviceCameOnline","property non-void-command collaborator",
-"AgentHub","entity boundary","DeviceHeartbeat","non-void-command collaborator",
-"AgentHub","entity boundary","DisplayMessage","property non-void-command collaborator",
-"AgentHub","entity boundary","DownloadFile","property non-void-command collaborator",
-"AgentHub","entity boundary","DownloadFileProgress","property non-void-command collaborator",
-"AgentHub","entity boundary","GetServerUrl","property non-void-command collaborator",
-"AgentHub","entity boundary","GetServerVerificationToken","incidental",
-"AgentHub","entity boundary","OnDisconnectedAsync","non-void-command collaborator",
-"AgentHub","entity boundary","ReturnPowerShellCompletions","property non-void-command collaborator",
-"AgentHub","entity boundary","ScriptResult","non-void-command collaborator",
-"AgentHub","entity boundary","ScriptResultViaApi","command",
-"AgentHub","entity boundary","SendConnectionFailedToViewers","property non-void-command collaborator",
-"AgentHub","entity boundary","SendLogs","property non-void-command collaborator",
-"AgentHub","entity boundary","SetServerVerificationToken","command",
-"AgentHub","entity boundary","TransferCompleted","property non-void-command collaborator",
-"AgentHub","entity boundary","CheckForDeviceBan","property non-void-command collaborator",
-"AgentHub","entity boundary","get","property non-void-command collaborator",
-"AgentHub","entity boundary","set","collaborator incidental",
-"DevicesController","entity boundary","DevicesController","copy-constructor",
-"DevicesController","entity boundary","Get","property non-void-command collaborator",
-"DevicesController","entity boundary","Get","property non-void-command collaborator",
-"DevicesController","entity boundary","Update","property non-void-command collaborator",
-"DevicesController","entity boundary","Create","property non-void-command collaborator",
-"SessionRecordingSink","commander boundary small-class","SessionRecordingSink","copy-constructor",
-"SessionRecordingSink","commander boundary small-class","SinkWebmStream","non-void-command collaborator",
-"SessionRecordingSink","commander boundary small-class","get","wrapper stateless",
-"RelayCommand","empty","RelayCommand","constructor",
-"CircuitConnectionTests","commander boundary","Init","non-void-command collaborator",
-"CircuitConnectionTests","commander boundary","WakeDevice_GivenUserIsUnauthorized_Fails","non-void-command collaborator",
-"CircuitConnectionTests","commander boundary","WakeDevice_GivenMatchingPeerByIp_UsesCorrectPeer","non-void-command collaborator",
-"CircuitConnectionTests","commander boundary","WakeDevice_GivenMatchingPeerByGroupId_UsesCorrectPeer","non-void-command collaborator",
-"CircuitConnectionTests","commander boundary","WakeDevice_GivenNoMatchingGroupOrIp_DoesNotSend","non-void-command collaborator",
-"CircuitConnectionTests","commander boundary","WakeDevices_GivenPeerIpMatches_UsesCorrectPeer","non-void-command collaborator",
-"CircuitConnectionTests","commander boundary","WakeDevices_GivenMatchingPeerByGroupId_UsesCorrectPeer","non-void-command collaborator",
-"ViewerOptionsProvider","factory controller small-class","ViewerOptionsProvider","constructor",
-"ViewerOptionsProvider","factory controller small-class","GetViewerOptions","non-void-command factory collaborator",
-"ScriptScheduleDispatcherTests","commander boundary","Init","non-void-command collaborator",
-"ScriptScheduleDispatcherTests","commander boundary","DispatchPendingScriptRuns_GivenNoSchedulesDue_DoesNothing","non-void-command collaborator",
-"ScriptScheduleDispatcherTests","commander boundary","DispatchPendingScriptRuns_GivenSchedulesDue_CreatesScriptRuns","non-void-command collaborator",
-"IdleTimer","commander","IdleTimer","constructor",
-"IdleTimer","commander","Start","command",
-"IdleTimer","commander","Stop","command",
-"IdleTimer","commander","Timer_Elapsed","set collaborator",
-"ViewModelBase","entity boundary","FirePropertyChanged","wrapper",
-"ViewModelBase","entity boundary","FirePropertyChanged","wrapper",
-"ViewModelBase","entity boundary","InvokePropertyChanged","wrapper",
-"ViewModelBase","entity boundary","Get<T>","wrapper stateless",
-"ViewModelBase","entity boundary","Set<T>","predicate non-void-command",
-"ViewModelBase","entity boundary","OnPropertyChanged","wrapper",
-"ChangeBrandingInfoId","pure-controller degenerate","BuildTargetModel","controller stateless",
-"ChangeBrandingInfoId","pure-controller degenerate","Up","controller stateless",
-"ChangeBrandingInfoId","pure-controller degenerate","Down","controller stateless",
-"ChangeBrandingInfoId","pure-controller degenerate","BuildTargetModel","controller stateless",
-"ChangeBrandingInfoId","pure-controller degenerate","Up","controller stateless",
-"ChangeBrandingInfoId","pure-controller degenerate","Down","controller stateless",
-"ChangeBrandingInfoId","pure-controller degenerate","BuildTargetModel","controller stateless",
-"ChangeBrandingInfoId","pure-controller degenerate","Up","controller stateless",
-"ChangeBrandingInfoId","pure-controller degenerate","Down","controller stateless",
-"CpuUtilizationSampler","entity boundary small-class","CpuUtilizationSampler","copy-constructor",
-"CpuUtilizationSampler","entity boundary small-class","ExecuteAsync","non-void-command collaborator",
-"CpuUtilizationSampler","entity boundary small-class","GetCpuUtilization","property non-void-command collaborator",
-"CircuitManager","entity boundary","CircuitManager","copy-constructor",
-"CircuitManager","entity boundary","TryAddConnection","predicate non-void-command collaborator",
-"CircuitManager","entity boundary","TryGetConnection","predicate non-void-command collaborator",
-"CircuitManager","entity boundary","TryRemoveConnection","predicate non-void-command collaborator",
-"TestData","commander boundary small-class","ClearData","wrapper stateless",
-"TestData","commander boundary small-class","Init","non-void-command collaborator",
-"SavedScriptsController","entity boundary small-class","SavedScriptsController","constructor",
-"SavedScriptsController","entity boundary small-class","GetScript","property non-void-command collaborator",
-"JsInterop","commander boundary","JsInterop","constructor",
-"JsInterop","commander boundary","AddBeforeUnloadHandler","command",
-"JsInterop","commander boundary","AddClassName","command",
-"JsInterop","commander boundary","Alert","property non-void-command collaborator",
-"JsInterop","commander boundary","AutoHeight","command",
-"JsInterop","commander boundary","Confirm","property non-void-command collaborator",
-"JsInterop","commander boundary","GetCursorIndex","property non-void-command collaborator",
-"JsInterop","commander boundary","InvokeClick","command",
-"JsInterop","commander boundary","OpenWindow","command",
-"JsInterop","commander boundary","PreventTabOut","command collaborator",
-"JsInterop","commander boundary","Prompt","property non-void-command collaborator",
-"JsInterop","commander boundary","ScrollToElement","command collaborator",
-"JsInterop","commander boundary","ScrollToEnd","command collaborator",
-"JsInterop","commander boundary","SetClipboardText","property non-void-command collaborator",
-"JsInterop","commander boundary","SetStyleProperty","command",
-"JsInterop","commander boundary","StartDraggingY","command",
-"Terminal","commander data-class small-class","set","set",
-"FileSharingController","entity small-class","FileSharingController","constructor",
-"FileSharingController","entity small-class","Get","property non-void-command collaborator",
-"FileSharingController","entity small-class","Post","property non-void-command factory collaborator",
-"AppDb","commander boundary small-class","AppDb","constructor",
-"AppDb","commander boundary small-class","OnConfiguring","command collaborator",
-"AppDb","commander boundary small-class","OnModelCreating","command collaborator",
-"PostgreSqlDbContext","commander boundary small-class","PostgreSqlDbContext","constructor",
-"PostgreSqlDbContext","commander boundary small-class","OnConfiguring","command collaborator",
-"EmbeddedServerData","empty","EmbeddedServerData","constructor",
-"EmbeddedServerData","empty","EmbeddedServerData","constructor",
-"EmbeddedServerData","empty","EmbeddedServerData","constructor",
-"CommandLineParser","boundary small-class","get","get non-void-command collaborator",
-"CommandLineParser","boundary small-class","get","get set collaborator",
-"UpdaterWin","commander boundary","UpdaterWin","copy-constructor",
-"UpdaterWin","commander boundary","BeginChecking","non-void-command collaborator",
-"UpdaterWin","commander boundary","CheckForUpdates","non-void-command collaborator",
-"UpdaterWin","commander boundary","InstallLatestVersion","non-void-command collaborator",
-"UpdaterWin","commander boundary","UpdateTimer_Elapsed","command collaborator",
-"HealthCheckController","entity boundary small-class","HealthCheckController","constructor",
-"HealthCheckController","entity boundary small-class","Get","property non-void-command collaborator",
-"Settings","data-provider data-class small-class","get","get",
-"UpdaterLinux","commander boundary","UpdaterLinux","copy-constructor",
-"UpdaterLinux","commander boundary","BeginChecking","non-void-command collaborator",
-"UpdaterLinux","commander boundary","CheckForUpdates","non-void-command collaborator",
-"UpdaterLinux","commander boundary","InstallLatestVersion","non-void-command collaborator",
-"UpdaterLinux","commander boundary","UpdateTimer_Elapsed","command collaborator",
-"PostgreSqlDbContextDesignTime","factory degenerate small-class","CreateDbContext","factory wrapper stateless",
-"AppLauncherMac","pure-controller degenerate","LaunchChatService","controller stateless",
-"AppLauncherMac","pure-controller degenerate","LaunchRemoteControl","controller stateless",
-"AppLauncherMac","pure-controller degenerate","RestartScreenCaster","controller stateless",
-"FileLogger","boundary","FileLogger","constructor",
-"FileLogger","boundary","BeginScope<TState>","property non-void-command factory collaborator",
-"FileLogger","boundary","IsEnabled","collaborator incidental",
-"FileLogger","boundary","Log<TState>","command collaborator",
-"FileLogger","boundary","CheckLogFileExists","wrapper stateless",
-"FileLogger","boundary","CleanupLogs","set collaborator",
-"FileLogger","boundary","FormatLogEntry","controller stateless",
-"RenameBrandingProps","pure-controller degenerate","BuildTargetModel","controller stateless",
-"RenameBrandingProps","pure-controller degenerate","Up","controller stateless",
-"RenameBrandingProps","pure-controller degenerate","Down","controller stateless",
-"RenameBrandingProps","pure-controller degenerate","BuildTargetModel","controller stateless",
-"RenameBrandingProps","pure-controller degenerate","Up","controller stateless",
-"RenameBrandingProps","pure-controller degenerate","Down","controller stateless",
-"RenameBrandingProps","pure-controller degenerate","BuildTargetModel","controller stateless",
-"RenameBrandingProps","pure-controller degenerate","Up","controller stateless",
-"RenameBrandingProps","pure-controller degenerate","Down","controller stateless",
-"DeviceInfoGeneratorMac","entity boundary small-class","DeviceInfoGeneratorMac","copy-constructor",
-"DeviceInfoGeneratorMac","entity boundary small-class","CreateDevice","property non-void-command collaborator",
-"SponsorLevel","pure-controller degenerate","BuildTargetModel","controller stateless",
-"SponsorLevel","pure-controller degenerate","Up","controller stateless",
-"SponsorLevel","pure-controller degenerate","Down","controller stateless",
-"SponsorLevel","pure-controller degenerate","BuildTargetModel","controller stateless",
-"SponsorLevel","pure-controller degenerate","Up","controller stateless",
-"SponsorLevel","pure-controller degenerate","Down","controller stateless",
-"SponsorLevel","pure-controller degenerate","BuildTargetModel","controller stateless",
-"SponsorLevel","pure-controller degenerate","Up","controller stateless",
-"SponsorLevel","pure-controller degenerate","Down","controller stateless",
-"UpdaterMac","commander boundary","UpdaterMac","copy-constructor",
-"UpdaterMac","commander boundary","BeginChecking","non-void-command collaborator",
-"UpdaterMac","commander boundary","CheckForUpdates","non-void-command collaborator",
-"UpdaterMac","commander boundary","InstallLatestVersion","non-void-command collaborator",
-"UpdaterMac","commander boundary","UpdateTimer_Elapsed","command collaborator",
-"SqlServerDbContext","commander boundary small-class","SqlServerDbContext","constructor",
-"SqlServerDbContext","commander boundary small-class","OnConfiguring","command collaborator",
-"SavedScripts","commander","OnAfterRender","command",
-"SavedScripts","commander","OnValidSubmit","non-void-command collaborator",
-"SavedScripts","commander","CreateNew","set",
-"SavedScripts","commander","DeleteSelectedScript","non-void-command collaborator",
-"SavedScripts","commander","ScriptSelected","non-void-command collaborator",
-"SavedScripts","commander","ToggleEnvironmentVarsShown","set",
-"SavedScripts","commander","ToggleAlertOptionsShown","set",
-"SavedScripts","commander","ShowAlertErrorHelp","command",
-"SavedScripts","commander","get","predicate",
-"SavedScripts","commander","get","predicate wrapper",
-"ClientDownloadsController","entity boundary","ClientDownloadsController","copy-constructor",
-"ClientDownloadsController","entity boundary","GetDesktop","wrapper stateless",
-"ClientDownloadsController","entity boundary","GetDesktop","property non-void-command collaborator",
-"ClientDownloadsController","entity boundary","GetInstaller","property non-void-command collaborator",
-"ClientDownloadsController","entity boundary","GetInstaller","property non-void-command collaborator",
-"ClientDownloadsController","entity boundary","GetBashInstaller","property non-void-command collaborator",
-"ClientDownloadsController","entity boundary","GetDesktopFile","property non-void-command collaborator",
-"ClientDownloadsController","entity boundary","GetInstallFile","property non-void-command collaborator",
-"ClientDownloadsController","entity boundary","LogRequest","non-void-command collaborator",
-"ConnectionInfo","small-class","get","property wrapper",
-"ConnectionInfo","small-class","set","set",
-"TimeSpanJsonConverter","pure-controller degenerate small-class","Read","controller stateless",
-"TimeSpanJsonConverter","pure-controller degenerate small-class","Write","controller stateless",
-"UpdateDownloader","commander boundary small-class","UpdateDownloader","constructor",
-"UpdateDownloader","commander boundary small-class","DownloadFile","non-void-command collaborator",
-"Temppassword","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Temppassword","pure-controller degenerate","Up","controller stateless",
-"Temppassword","pure-controller degenerate","Down","controller stateless",
-"CircuitConnection","entity commander boundary","CircuitConnection","copy-constructor",
-"CircuitConnection","entity commander boundary","DeleteRemoteLogs","property non-void-command collaborator",
-"CircuitConnection","entity commander boundary","ExecuteCommandOnAgent","non-void-command collaborator",
-"CircuitConnection","entity commander boundary","GetPowerShellCompletions","property non-void-command collaborator",
-"CircuitConnection","entity commander boundary","GetRemoteLogs","property non-void-command collaborator",
-"CircuitConnection","entity commander boundary","OnCircuitClosedAsync","non-void-command collaborator",
-"CircuitConnection","entity commander boundary","OnCircuitOpenedAsync","non-void-command collaborator",
-"CircuitConnection","entity commander boundary","ReinstallAgents","non-void-command collaborator",
-"CircuitConnection","entity commander boundary","RemoteControl","property non-void-command collaborator",
-"CircuitConnection","entity commander boundary","RemoveDevices","property non-void-command collaborator",
-"CircuitConnection","entity commander boundary","RunScript","non-void-command collaborator",
-"CircuitConnection","entity commander boundary","SendChat","non-void-command collaborator",
-"CircuitConnection","entity commander boundary","TransferFileFromBrowserToAgent","property non-void-command collaborator",
-"CircuitConnection","entity commander boundary","TriggerHeartbeat","non-void-command collaborator",
-"CircuitConnection","entity commander boundary","UninstallAgents","non-void-command collaborator",
-"CircuitConnection","entity commander boundary","UpdateTags","non-void-command collaborator",
-"CircuitConnection","entity commander boundary","WakeDevice","property non-void-command collaborator",
-"CircuitConnection","entity commander boundary","WakeDevices","property non-void-command collaborator",
-"DeviceInfoGeneratorLinux","entity boundary small-class","DeviceInfoGeneratorLinux","copy-constructor",
-"DeviceInfoGeneratorLinux","entity boundary small-class","CreateDevice","property non-void-command collaborator",
-"DeviceInfoGeneratorLinux","entity boundary small-class","GetCurrentUser","property non-void-command collaborator",
-"EditDeviceGroup","entity boundary small-class","DoesGroupContainUser","predicate wrapper",
-"EditDeviceGroup","entity boundary small-class","GroupCheckChanged","non-void-command collaborator",
-"InstallerService","unclassified","Install","property non-void-command collaborator",
-"InstallerService","unclassified","Uninstall","property non-void-command collaborator",
-"InstallerService","unclassified","AddFirewallRule","wrapper",
-"InstallerService","unclassified","BackupDirectory","wrapper",
-"InstallerService","unclassified","CheckIsAdministrator","controller stateless",
-"InstallerService","unclassified","ClearInstallDirectory","wrapper",
-"InstallerService","unclassified","CreateDeviceOnServer","non-void-command collaborator",
-"InstallerService","unclassified","CreateSupportShortcut","controller",
-"InstallerService","unclassified","CreateUninstallKey","command collaborator",
-"InstallerService","unclassified","DownloadRemotelyAgent","controller",
-"InstallerService","unclassified","GetConnectionInfo","non-void-command factory collaborator",
-"InstallerService","unclassified","GetRegistryBaseKey","wrapper stateless",
-"InstallerService","unclassified","InstallService","controller",
-"InstallerService","unclassified","RestoreBackup","command collaborator",
-"InstallerService","unclassified","StopProcesses","controller",
-"InstallerService","unclassified","StopService","controller",
-"ScriptingController","entity boundary small-class","ScriptingController","constructor",
-"ScriptingController","entity boundary small-class","ExecuteCommand","property non-void-command collaborator",
-"DisplayName","pure-controller degenerate","BuildTargetModel","controller stateless",
-"DisplayName","pure-controller degenerate","Up","controller stateless",
-"DisplayName","pure-controller degenerate","Down","controller stateless",
-"ThemeProvider","entity boundary small-class","ThemeProvider","constructor",
-"ThemeProvider","entity boundary small-class","GetEffectiveTheme","property non-void-command collaborator",
-"DeviceInfoGeneratorWin","entity boundary small-class","DeviceInfoGeneratorWin","copy-constructor",
-"DeviceInfoGeneratorWin","entity boundary small-class","CreateDevice","property non-void-command collaborator",
-"Device","data-provider small-class","get","property",
-"Device","data-provider small-class","get","property",
-"ElevationDetectorWin","boundary degenerate small-class","IsElevated","wrapper stateless",
-"Conductor","entity commander boundary lazy-class","InvokeScreenCastRequested","wrapper stateless",
-"Conductor","entity commander boundary lazy-class","InvokeViewerAdded","wrapper stateless",
-"Conductor","entity commander boundary lazy-class","InvokeViewerRemoved","wrapper stateless",
-"Conductor","entity commander boundary lazy-class","ProcessArgs","void-accessor command collaborator",
-"Conductor","entity commander boundary lazy-class","UpdateHost","set",
-"Conductor","entity commander boundary lazy-class","UpdateOrganizationId","set",
-"AgentUpdateController","entity boundary","AgentUpdateController","copy-constructor",
-"AgentUpdateController","entity boundary","DownloadPackage","property non-void-command collaborator",
-"AgentUpdateController","entity boundary","DownloadPackage","property non-void-command collaborator",
-"AgentUpdateController","entity boundary","CheckForDeviceBan","property non-void-command collaborator",
-"AppDbFactory","data-provider boundary small-class","AppDbFactory","constructor",
-"AppDbFactory","data-provider boundary small-class","GetContext","property wrapper",
-"TreeViewItem<T>","unclassified","OnInitialized","command",
-"TreeViewItem<T>","unclassified","OnItemClick","command",
-"TreeViewItem<T>","unclassified","GetActiveClass","property",
-"PostgresDateTimeOffsetConverter","empty","PostgresDateTimeOffsetConverter","constructor",
-"PostgresDateTimeOffsetConverter","empty","PostgresDateTimeOffsetConverter","constructor",
-"ChatSessionStore","entity boundary","AddOrUpdate","command collaborator",
-"ChatSessionStore","entity boundary","ContainsKey","predicate non-void-command",
-"ChatSessionStore","entity boundary","GetOrAdd","property non-void-command collaborator",
-"ChatSessionStore","entity boundary","TryGetSession","predicate non-void-command collaborator",
-"ChatSessionStore","entity boundary","TryRemove","predicate non-void-command collaborator",
-"LocalOnlyFilter","boundary degenerate small-class","OnAuthorization","wrapper stateless",
-"SqliteDbContextDesignTime","factory degenerate small-class","CreateDbContext","factory wrapper stateless",
-"SqlServerDbContextDesignTime","factory degenerate small-class","CreateDbContext","factory wrapper stateless",
-"ModalService","commander boundary small-class","ShowModal","non-void-command collaborator",
-"ModalService","commander boundary small-class","ShowModal","non-void-command collaborator",
-"SqliteDbContext","commander boundary small-class","SqliteDbContext","constructor",
-"SqliteDbContext","commander boundary small-class","OnConfiguring","command collaborator",
-"Remove3rdPartyServices","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Remove3rdPartyServices","pure-controller degenerate","Up","controller stateless",
-"Remove3rdPartyServices","pure-controller degenerate","Down","controller stateless",
-"Remove3rdPartyServices","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Remove3rdPartyServices","pure-controller degenerate","Up","controller stateless",
-"Remove3rdPartyServices","pure-controller degenerate","Down","controller stateless",
-"Remove3rdPartyServices","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Remove3rdPartyServices","pure-controller degenerate","Up","controller stateless",
-"Remove3rdPartyServices","pure-controller degenerate","Down","controller stateless",
-"IsServerAdminproperty","pure-controller degenerate","BuildTargetModel","controller stateless",
-"IsServerAdminproperty","pure-controller degenerate","Up","controller stateless",
-"IsServerAdminproperty","pure-controller degenerate","Down","controller stateless",
-"TestingDbContext","commander boundary small-class","TestingDbContext","constructor",
-"TestingDbContext","commander boundary small-class","OnConfiguring","command collaborator",
-"Initial","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Initial","pure-controller degenerate","Up","controller stateless",
-"Initial","pure-controller degenerate","Down","controller stateless",
-"Initial","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Initial","pure-controller degenerate","Up","controller stateless",
-"Initial","pure-controller degenerate","Down","controller stateless",
-"DeviceNotes","pure-controller degenerate","BuildTargetModel","controller stateless",
-"DeviceNotes","pure-controller degenerate","Up","controller stateless",
-"DeviceNotes","pure-controller degenerate","Down","controller stateless",
-"Manytomany","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Manytomany","pure-controller degenerate","Up","controller stateless",
-"Manytomany","pure-controller degenerate","Down","controller stateless",
-"Manytomany","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Manytomany","pure-controller degenerate","Up","controller stateless",
-"Manytomany","pure-controller degenerate","Down","controller stateless",
-"Manytomany","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Manytomany","pure-controller degenerate","Up","controller stateless",
-"Manytomany","pure-controller degenerate","Down","controller stateless",
-"WebRtcSetting","pure-controller degenerate","BuildTargetModel","controller stateless",
-"WebRtcSetting","pure-controller degenerate","Up","controller stateless",
-"WebRtcSetting","pure-controller degenerate","Down","controller stateless",
-"WebRtcSetting","pure-controller degenerate","BuildTargetModel","controller stateless",
-"WebRtcSetting","pure-controller degenerate","Up","controller stateless",
-"WebRtcSetting","pure-controller degenerate","Down","controller stateless",
-"WebRtcSetting","pure-controller degenerate","BuildTargetModel","controller stateless",
-"WebRtcSetting","pure-controller degenerate","Up","controller stateless",
-"WebRtcSetting","pure-controller degenerate","Down","controller stateless",
-"AddScriptSchedules","pure-controller degenerate","BuildTargetModel","controller stateless",
-"AddScriptSchedules","pure-controller degenerate","Up","controller stateless",
-"AddScriptSchedules","pure-controller degenerate","Down","controller stateless",
-"AddScriptSchedules","pure-controller degenerate","BuildTargetModel","controller stateless",
-"AddScriptSchedules","pure-controller degenerate","Up","controller stateless",
-"AddScriptSchedules","pure-controller degenerate","Down","controller stateless",
-"AddScriptSchedules","pure-controller degenerate","BuildTargetModel","controller stateless",
-"AddScriptSchedules","pure-controller degenerate","Up","controller stateless",
-"AddScriptSchedules","pure-controller degenerate","Down","controller stateless",
-"SelectedCardsStore","unclassified","Add","predicate non-void-command",
-"SelectedCardsStore","unclassified","Clear","command",
-"SelectedCardsStore","unclassified","Contains","predicate non-void-command",
-"SelectedCardsStore","unclassified","InvokeSelectionsChanged","wrapper",
-"SelectedCardsStore","unclassified","Remove","predicate non-void-command",
-"SelectedCardsStore","unclassified","get","property non-void-command collaborator",
-"ToastService","entity commander boundary","ShowToast","command collaborator",
-"ToastService","entity commander boundary","ShowToast2","command collaborator",
-"ToastService","entity commander boundary","get","property non-void-command collaborator",
-"RemovedeprecatedWebRTC","pure-controller degenerate","BuildTargetModel","controller stateless",
-"RemovedeprecatedWebRTC","pure-controller degenerate","Up","controller stateless",
-"RemovedeprecatedWebRTC","pure-controller degenerate","Down","controller stateless",
-"RemovedeprecatedWebRTC","pure-controller degenerate","BuildTargetModel","controller stateless",
-"RemovedeprecatedWebRTC","pure-controller degenerate","Up","controller stateless",
-"RemovedeprecatedWebRTC","pure-controller degenerate","Down","controller stateless",
-"RemovedeprecatedWebRTC","pure-controller degenerate","BuildTargetModel","controller stateless",
-"RemovedeprecatedWebRTC","pure-controller degenerate","Up","controller stateless",
-"RemovedeprecatedWebRTC","pure-controller degenerate","Down","controller stateless",
-"Alerts","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Alerts","pure-controller degenerate","Up","controller stateless",
-"Alerts","pure-controller degenerate","Down","controller stateless",
-"BrandingProvider","entity commander boundary","BrandingProvider","copy-constructor",
-"BrandingProvider","entity commander boundary","Initialize","non-void-command collaborator",
-"BrandingProvider","entity commander boundary","SetBrandingInfo","set collaborator",
-"BrandingProvider","entity commander boundary","TryGetBrandingInfo","property non-void-command collaborator",
-"Brandingfix","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Brandingfix","pure-controller degenerate","Up","controller stateless",
-"Brandingfix","pure-controller degenerate","Down","controller stateless",
-"Brandingfix","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Brandingfix","pure-controller degenerate","Up","controller stateless",
-"Brandingfix","pure-controller degenerate","Down","controller stateless",
-"Brandingfix","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Brandingfix","pure-controller degenerate","Up","controller stateless",
-"Brandingfix","pure-controller degenerate","Down","controller stateless",
-"ExpiringTokenService","entity boundary small-class","GetToken","property non-void-command collaborator",
-"ExpiringTokenService","entity boundary small-class","TryGetExpiration","predicate non-void-command collaborator",
-"Enable_NullableReferences","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Enable_NullableReferences","pure-controller degenerate","Up","controller stateless",
-"Enable_NullableReferences","pure-controller degenerate","Down","controller stateless",
-"Enable_NullableReferences","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Enable_NullableReferences","pure-controller degenerate","Up","controller stateless",
-"Enable_NullableReferences","pure-controller degenerate","Down","controller stateless",
-"Enable_NullableReferences","pure-controller degenerate","BuildTargetModel","controller stateless",
-"Enable_NullableReferences","pure-controller degenerate","Up","controller stateless",
-"Enable_NullableReferences","pure-controller degenerate","Down","controller stateless",
-"InitialCreate","pure-controller degenerate","BuildTargetModel","controller stateless",
-"InitialCreate","pure-controller degenerate","Up","controller stateless",
-"InitialCreate","pure-controller degenerate","Down","controller stateless",
-"ManualTests","boundary","CaptureTest","non-void-command collaborator",
-"ManualTests","boundary","EncodingTests","command collaborator",
-"ManualTests","boundary","CaptureAndEncodeSpeedTest","command collaborator",
-"ManualTests","boundary","DiffSpeedTests","controller stateless",
-"ManualTests","boundary","EncodeSpeedTest","controller stateless",
-"ManualTests","boundary","GetDiffAreaTest","wrapper stateless",
-"ManualTests","boundary","GetImageDiffTest","wrapper stateless",
-"ManualTests","boundary","Init","command",
-"Add_KeyValueRecords","degenerate","BuildTargetModel","controller stateless",
-"Add_KeyValueRecords","degenerate","Up","controller stateless",
-"Add_KeyValueRecords","degenerate","Down","controller stateless",
-"Add_KeyValueRecords","degenerate","BuildTargetModel","controller stateless",
-"Add_KeyValueRecords","degenerate","Up","controller stateless",
-"Add_KeyValueRecords","degenerate","Down","controller stateless",
-"Add_KeyValueRecords","degenerate","BuildTargetModel","controller stateless",
-"Add_KeyValueRecords","degenerate","Up","collaborator incidental",
-"Add_KeyValueRecords","degenerate","Down","controller stateless",
-"PostgreSqlDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"PublicIP","pure-controller degenerate","BuildTargetModel","controller stateless",
-"PublicIP","pure-controller degenerate","Up","controller stateless",
-"PublicIP","pure-controller degenerate","Down","controller stateless",
-"SqliteDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"Toast","empty","Toast","constructor",
-"AgentHubSessionCache","entity boundary","AddOrUpdateByConnectionId","void-accessor command collaborator",
-"AgentHubSessionCache","entity boundary","FilterDevicesByOnlineStatus","property non-void-command collaborator",
-"AgentHubSessionCache","entity boundary","GetConnectionIdsByDeviceIds","collaborator incidental",
-"AgentHubSessionCache","entity boundary","TryGetByDeviceId","predicate non-void-command collaborator",
-"AgentHubSessionCache","entity boundary","TryGetConnectionId","predicate non-void-command",
-"AgentHubSessionCache","entity boundary","TryRemoveByConnectionId","predicate non-void-command collaborator",
-"AuthService","entity boundary small-class","AuthService","constructor",
-"AuthService","entity boundary small-class","IsAuthenticated","property non-void-command collaborator",
-"AuthService","entity boundary small-class","GetUser","property non-void-command collaborator",
-"EmbeddedServerDataReader","entity boundary small-class","TryGetEmbeddedData","property non-void-command collaborator",
-"AddAlertDetails","pure-controller degenerate","BuildTargetModel","controller stateless",
-"AddAlertDetails","pure-controller degenerate","Up","controller stateless",
-"AddAlertDetails","pure-controller degenerate","Down","controller stateless",
-"AddAlertDetails","pure-controller degenerate","BuildTargetModel","controller stateless",
-"AddAlertDetails","pure-controller degenerate","Up","controller stateless",
-"AddAlertDetails","pure-controller degenerate","Down","controller stateless",
-"AddAlertDetails","pure-controller degenerate","BuildTargetModel","controller stateless",
-"AddAlertDetails","pure-controller degenerate","Up","controller stateless",
-"AddAlertDetails","pure-controller degenerate","Down","controller stateless",
-"DataCleanupService","commander boundary","DataCleanupService","copy-constructor",
-"DataCleanupService","commander boundary","ExecuteAsync","non-void-command collaborator",
-"DataCleanupService","commander boundary","PerformCleanup","non-void-command collaborator",
-"DataCleanupService","commander boundary","RemoveExpiredDbRecords","non-void-command collaborator",
-"DataCleanupService","commander boundary","RemoveExpiredRecordings","non-void-command collaborator",
-"DataService","entity boundary","DataService","copy-constructor",
-"DataService","entity boundary","AddAlert","non-void-command collaborator",
-"DataService","entity boundary","AddDeviceGroup","property non-void-command collaborator",
-"DataService","entity boundary","AddDeviceToGroup","property non-void-command collaborator",
-"DataService","entity boundary","AddInvite","property non-void-command collaborator",
-"DataService","entity boundary","AddOrUpdateDevice","property non-void-command collaborator",
-"EmailSender","entity boundary small-class","EmailSender","copy-constructor",
-"EmailSender","entity boundary small-class","SendEmailAsync","property non-void-command collaborator",
-"Uninstaller","boundary degenerate small-class","UninstallAgent","wrapper stateless",
-"AgentHubConnection","entity commander boundary","AgentHubConnection","copy-constructor",
-"AgentHubConnection","entity commander boundary","ChangeWindowsSession","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","Connect","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","DeleteLogs","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","Dispose","command",
-"AgentHubConnection","entity commander boundary","ExecuteCommand","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","ExecuteCommandFromApi","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","GetLogs","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","GetPowerShellCompletions","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","InvokeCtrlAltDel","property non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","ReinstallAgent","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","RemoteControl","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","RestartScreenCaster","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","RunScript","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","SendChatMessage","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","SendHeartbeat","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","TransferFileFromBrowserToAgent","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","UninstallAgent","property non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","WakeDevice","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","CheckForServerMigration","property non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","EnsureHubConnection","wrapper",
-"AgentHubConnection","entity commander boundary","HeartbeatTimer_Elapsed","command collaborator",
-"AgentHubConnection","entity commander boundary","HubConnection_Reconnected","non-void-command collaborator",
-"AgentHubConnection","entity commander boundary","RegisterMessageHandlers","command",
-"AgentHubConnection","entity commander boundary","VerifyServer","property non-void-command collaborator",
-"PsCoreShell","unclassified","PsCoreShell","copy-constructor",
-"PsCoreShell","unclassified","Dispose","command",
-"PsCoreShell","unclassified","GetCompletions","get non-void-command collaborator",
-"PsCoreShell","unclassified","WriteInput","property non-void-command factory collaborator",
-"PsCoreShell","unclassified","Dispose","set",
-"EmailSenderEx","entity boundary","EmailSenderEx","copy-constructor",
-"EmailSenderEx","entity boundary","SendConfirmationLinkAsync","non-void-command collaborator",
-"EmailSenderEx","entity boundary","SendEmailAsync","property non-void-command collaborator",
-"EmailSenderEx","entity boundary","SendEmailAsync","property non-void-command collaborator",
-"EmailSenderEx","entity boundary","SendPasswordResetCodeAsync","non-void-command collaborator",
-"EmailSenderEx","entity boundary","SendPasswordResetLinkAsync","wrapper stateless",
-"LogsManager","boundary degenerate","DeleteLogs","non-void-command collaborator",
-"LogsManager","boundary degenerate","GetLogs","property non-void-command collaborator",
-"LogsManager","boundary degenerate","GetLogsDirectory","wrapper stateless",
-"LogsManager","boundary degenerate","ZipAllLogs","property non-void-command factory collaborator",
-"LogsManager","boundary degenerate","GetLines","controller stateless",
-"LogsManager","boundary degenerate","TryGetLogLevel","wrapper stateless",
-"LogsManager","boundary degenerate","get","wrapper stateless",
-"ReplaceDbLoggerwithSerilog","pure-controller degenerate","BuildTargetModel","controller stateless",
-"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Up","controller stateless",
-"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Down","controller stateless",
-"ReplaceDbLoggerwithSerilog","pure-controller degenerate","BuildTargetModel","controller stateless",
-"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Up","controller stateless",
-"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Down","controller stateless",
-"ReplaceDbLoggerwithSerilog","pure-controller degenerate","BuildTargetModel","controller stateless",
-"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Up","controller stateless",
-"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Down","controller stateless",
-"PascalCasePolicy","pure-controller degenerate small-class","ConvertName","controller stateless",
-"HubEventHandler","entity boundary degenerate","HubEventHandler","copy-constructor",
-"HubEventHandler","entity boundary degenerate","ChangeWindowsSession","property non-void-command collaborator",
-"HubEventHandler","entity boundary degenerate","InvokeCtrlAltDel","property non-void-command collaborator",
-"HubEventHandler","entity boundary degenerate","NotifyDesktopSessionAdded","collaborator incidental",
-"HubEventHandler","entity boundary degenerate","NotifyDesktopSessionDisposed","collaborator incidental",
-"HubEventHandler","entity boundary degenerate","NotifyDesktopSessionRemoved","collaborator incidental",
-"HubEventHandler","entity boundary degenerate","NotifyRemoteControlEnded","collaborator incidental",
-"HubEventHandler","entity boundary degenerate","NotifyRemoteControlStarted","collaborator incidental",
-"HubEventHandler","entity boundary degenerate","NotifySessionChanged","property non-void-command collaborator",
-"HubEventHandler","entity boundary degenerate","RestartScreenCaster","non-void-command collaborator",
-"ExternalScriptingShell","entity commander boundary","ExternalScriptingShell","copy-constructor",
-"ExternalScriptingShell","entity commander boundary","Dispose","command",
-"ExternalScriptingShell","entity commander boundary","Init","non-void-command collaborator",
-"ExternalScriptingShell","entity commander boundary","WriteInput","property non-void-command collaborator",
-"ExternalScriptingShell","entity commander boundary","Dispose","command",
-"ExternalScriptingShell","entity commander boundary","GenerateCompletedResult","property non-void-command factory collaborator",
-"ExternalScriptingShell","entity commander boundary","GeneratePartialResult","non-void-command factory collaborator",
-"ExternalScriptingShell","entity commander boundary","ProcessIdleTimeout_Elapsed","command collaborator",
-"ExternalScriptingShell","entity commander boundary","ShellProcess_ErrorDataReceived","set collaborator",
-"ExternalScriptingShell","entity commander boundary","ShellProcess_OutputDataReceived","set collaborator",
-"ViewerAuthorizer","entity boundary small-class","ViewerAuthorizer","constructor",
-"ViewerAuthorizer","entity boundary small-class","IsAuthorized","property non-void-command collaborator",
-"ViewerPageDataProvider","entity boundary degenerate","ViewerPageDataProvider","constructor",
-"ViewerPageDataProvider","entity boundary degenerate","GetFaviconUrl","wrapper stateless",
-"ViewerPageDataProvider","entity boundary degenerate","GetLogoUrl","property non-void-command collaborator",
-"ViewerPageDataProvider","entity boundary degenerate","GetPageDescription","wrapper stateless",
-"ViewerPageDataProvider","entity boundary degenerate","GetPageTitle","wrapper stateless",
-"ViewerPageDataProvider","entity boundary degenerate","GetTheme","wrapper stateless",
-"ViewerPageDataProvider","entity boundary degenerate","GetUserDisplayName","property non-void-command collaborator",
-"ScriptScheduleDispatcher","entity boundary","ScriptScheduleDispatcher","copy-constructor",
-"ScriptScheduleDispatcher","entity boundary","DispatchPendingScriptRuns","non-void-command collaborator",
-"ScriptScheduleDispatcher","entity boundary","AdvanceSchedule","predicate non-void-command collaborator",
-"ScriptScheduleDispatcher","entity boundary","CatchUpNextRun","collaborator incidental",
-"ScriptScheduler","entity commander boundary","ScriptScheduler","constructor",
-"ScriptScheduler","entity commander boundary","Dispose","command",
-"ScriptScheduler","entity commander boundary","StartAsync","property non-void-command collaborator",
-"ScriptScheduler","entity commander boundary","StopAsync","property non-void-command collaborator",
-"ScriptScheduler","entity commander boundary","SchedulerTimer_Elapsed","command collaborator",
-"ScriptScheduler","entity commander boundary","DispatchScriptRuns","non-void-command collaborator",
-"AgentHubTests","commander boundary","DeviceCameOnline_BannedByName","non-void-command collaborator",
-"AgentHubTests","commander boundary","DeviceCameOnline_BannedById","non-void-command collaborator",
-"AgentHubTests","commander boundary","TestCleanup","command",
-"AgentHubTests","commander boundary","TestInit","non-void-command collaborator",
-"TerminalStore","commander","AddTerminalHistory","command",
-"TerminalStore","commander","AddTerminalLine","command",
-"TerminalStore","commander","GetTerminalHistory","property non-void-command",
-"TerminalStore","commander","InvokeLinesChanged","wrapper",
-"RemoteControlController","entity boundary","RemoteControlController","copy-constructor",
-"RemoteControlController","entity boundary","Get","property non-void-command collaborator",
-"RemoteControlController","entity boundary","Post","property non-void-command collaborator",
-"RemoteControlController","entity boundary","InitiateRemoteControl","property non-void-command factory collaborator",
-"ServerAdminRequirementHandler","commander boundary small-class","ServerAdminRequirementHandler","constructor",
-"ServerAdminRequirementHandler","commander boundary small-class","HandleRequirementAsync","non-void-command collaborator",
-"DeviceInfoGeneratorBase","factory degenerate small-class","DeviceInfoGeneratorBase","copy-constructor",
-"DeviceInfoGeneratorBase","factory degenerate small-class","GetDeviceBase","factory wrapper stateless",
-"ChatHistoryItem","data-provider small-class","get","property",
-"ServerLogsController","entity boundary small-class","ServerLogsController","copy-constructor",
-"ServerLogsController","entity boundary small-class","Download","property non-void-command collaborator",
-"MessengerSubscriber","entity boundary","Dispose","wrapper",
-"MessengerSubscriber","entity boundary","Register<TMessage,TChannel>","property non-void-command collaborator",
-"MessengerSubscriber","entity boundary","Register<TMessage>","property non-void-command collaborator",
-"UpgradeService","entity data-class small-class","UpgradeService","copy-constructor",
-"UpgradeService","entity data-class small-class","GetCurrentVersion","get set factory collaborator",
-"UpgradeService","entity data-class small-class","IsNewVersionAvailable","property non-void-command collaborator",
+"StreamExtensionsTests","pure-controller degenerate small-class","CopyToAsyncTest","controller stateless"
+"HubContextFixture<THub,THubClient>","empty","HubContextFixture","constructor"
+"DataServiceTests","commander boundary","AddAlert","non-void-command collaborator"
+"DataServiceTests","commander boundary","AddOrUpdateDevice","non-void-command collaborator"
+"DataServiceTests","commander boundary","CreateDevice","non-void-command collaborator"
+"DataServiceTests","commander boundary","DeviceGroupPermissions","command collaborator"
+"DataServiceTests","commander boundary","GetPendingScriptRuns_GivenMultipleRunsQueued_ReturnsOnlyLatest","non-void-command collaborator"
+"DataServiceTests","commander boundary","TestCleanup","command"
+"DataServiceTests","commander boundary","TestInit","non-void-command collaborator"
+"DataServiceTests","commander boundary","UpdateOrganizationName","non-void-command collaborator"
+"DataServiceTests","commander boundary","UpdateServerAdmins","non-void-command collaborator"
+"DataServiceTests","commander boundary","VerifyInitialData","non-void-command collaborator"
+"AppendableStream","commander","AppendableStream","constructor"
+"AppendableStream","commander","Close","command"
+"AppendableStream","commander","DisposeAsync","property non-void-command collaborator"
+"AppendableStream","commander","Flush","command"
+"AppendableStream","commander","Read","property non-void-command"
+"AppendableStream","commander","Seek","property non-void-command collaborator"
+"AppendableStream","commander","SetLength","command"
+"AppendableStream","commander","Write","incidental"
+"AppendableStream","commander","Dispose","command"
+"TreeViewItem<T>","unclassified","OnInitialized","command"
+"TreeViewItem<T>","unclassified","OnItemClick","command"
+"TreeViewItem<T>","unclassified","GetActiveClass","property"
+"ScriptSchedules","entity commander boundary","OnInitializedAsync","non-void-command collaborator"
+"ScriptSchedules","entity commander boundary","CreateNew","command"
+"ScriptSchedules","entity commander boundary","DeleteSelectedSchedule","non-void-command collaborator"
+"ScriptSchedules","entity commander boundary","DeviceGroupSelectedChanged","command collaborator"
+"ScriptSchedules","entity commander boundary","DeviceSelectedChanged","command collaborator"
+"ScriptSchedules","entity commander boundary","OnValidSubmit","non-void-command collaborator"
+"ScriptSchedules","entity commander boundary","RefreshSchedules","non-void-command collaborator"
+"ScriptSchedules","entity commander boundary","GetTableRowClass","property collaborator"
+"ScriptSchedules","entity commander boundary","SelectTableRow","non-void-command collaborator"
+"ScriptSchedules","entity commander boundary","ScriptSelected","non-void-command collaborator"
+"ScriptSchedules","entity commander boundary","get","predicate non-void-command"
+"ScriptSchedules","entity commander boundary","get","predicate non-void-command"
+"DevicesFrame","commander boundary","Refresh","set collaborator"
+"DevicesFrame","commander boundary","OnInitializedAsync","non-void-command collaborator"
+"DevicesFrame","commander boundary","AddScriptResult","non-void-command collaborator"
+"DevicesFrame","commander boundary","ClearSelectedCard","non-void-command collaborator"
+"DevicesFrame","commander boundary","FilterAndSortDevices","command collaborator"
+"DevicesFrame","commander boundary","GetDisplayedDevices","property non-void-command collaborator"
+"DevicesFrame","commander boundary","GetDisplayName","controller stateless"
+"DevicesFrame","commander boundary","GetSortIcon","incidental"
+"DevicesFrame","commander boundary","HandleDeviceStateChangedMessage","non-void-command collaborator"
+"DevicesFrame","commander boundary","HandleDisplayNotificationMessage","non-void-command collaborator"
+"DevicesFrame","commander boundary","HandleRefreshClicked","non-void-command collaborator"
+"DevicesFrame","commander boundary","HandleScriptResultMessage","non-void-command collaborator"
+"DevicesFrame","commander boundary","LoadDevices","non-void-command collaborator"
+"DevicesFrame","commander boundary","PageDown","set"
+"DevicesFrame","commander boundary","PageUp","set"
+"DevicesFrame","commander boundary","SelectAllCards","command collaborator"
+"DevicesFrame","commander boundary","ToggleSortDirection","set"
+"DevicesFrame","commander boundary","WakeDevices","non-void-command collaborator"
+"DevicesFrame","commander boundary","get","incidental"
+"ManageOrganization","commander boundary","OnInitializedAsync","non-void-command collaborator"
+"ManageOrganization","commander boundary","CreateNewDeviceGroup","non-void-command collaborator"
+"ManageOrganization","commander boundary","DefaultOrgCheckChanged","command collaborator"
+"ManageOrganization","commander boundary","DeleteInvite","non-void-command collaborator"
+"ManageOrganization","commander boundary","DeleteSelectedDeviceGroup","non-void-command collaborator"
+"ManageOrganization","commander boundary","DeleteUser","non-void-command collaborator"
+"ManageOrganization","commander boundary","EditDeviceGroups","non-void-command collaborator"
+"ManageOrganization","commander boundary","EvaluateInviteInputKeypress","non-void-command collaborator"
+"ManageOrganization","commander boundary","EvaluateNewDeviceGroupKeyPress","non-void-command collaborator"
+"ManageOrganization","commander boundary","OrganizationNameChanged","command collaborator"
+"ManageOrganization","commander boundary","RefreshData","non-void-command collaborator"
+"ManageOrganization","commander boundary","ResetPassword","non-void-command collaborator"
+"ManageOrganization","commander boundary","SendInvite","non-void-command collaborator"
+"ManageOrganization","commander boundary","SetUserIsAdmin","non-void-command collaborator"
+"ManageOrganization","commander boundary","ShowDefaultOrgHelp","command"
+"ManageOrganization","commander boundary","ShowDeviceGroupHelp","command"
+"ManageOrganization","commander boundary","ShowInvitesHelp","command"
+"ManageOrganization","commander boundary","ShowUsersHelp","command"
+"ChatFrame","commander boundary","OnInitializedAsync","non-void-command collaborator"
+"ChatFrame","commander boundary","HandleChatMessageReceived","non-void-command collaborator"
+"ChatFrame","commander boundary","HandleChatSessionsChanged","set collaborator"
+"AuthComponentBase","commander boundary small-class","EnsureUserSet","wrapper"
+"AuthComponentBase","commander boundary small-class","OnInitializedAsync","non-void-command collaborator"
+"Add_Agent_MacAddress","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Add_Agent_MacAddress","pure-controller degenerate","Up","controller stateless"
+"Add_Agent_MacAddress","pure-controller degenerate","Down","controller stateless"
+"Add_Agent_MacAddress","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Add_Agent_MacAddress","pure-controller degenerate","Up","controller stateless"
+"Add_Agent_MacAddress","pure-controller degenerate","Down","controller stateless"
+"Add_Agent_MacAddress","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Add_Agent_MacAddress","pure-controller degenerate","Up","controller stateless"
+"Add_Agent_MacAddress","pure-controller degenerate","Down","controller stateless"
+"OrganizationAdminRequirementHandler","commander boundary small-class","OrganizationAdminRequirementHandler","constructor"
+"OrganizationAdminRequirementHandler","commander boundary small-class","HandleRequirementAsync","non-void-command collaborator"
+"AppDbFactory","data-provider boundary small-class","AppDbFactory","constructor"
+"AppDbFactory","data-provider boundary small-class","GetContext","property wrapper"
+"ScriptResultsController","entity boundary","ScriptResultsController","copy-constructor"
+"ScriptResultsController","entity boundary","DownloadAll","property non-void-command collaborator"
+"ScriptResultsController","entity boundary","DownloadResults","property non-void-command collaborator"
+"ScriptResultsController","entity boundary","Post","property non-void-command factory collaborator"
+"RemoveRelayCode","pure-controller degenerate","BuildTargetModel","controller stateless"
+"RemoveRelayCode","pure-controller degenerate","Up","controller stateless"
+"RemoveRelayCode","pure-controller degenerate","Down","controller stateless"
+"RemoveRelayCode","pure-controller degenerate","BuildTargetModel","controller stateless"
+"RemoveRelayCode","pure-controller degenerate","Up","controller stateless"
+"RemoveRelayCode","pure-controller degenerate","Down","controller stateless"
+"RemoveRelayCode","pure-controller degenerate","BuildTargetModel","controller stateless"
+"RemoveRelayCode","pure-controller degenerate","Up","controller stateless"
+"RemoveRelayCode","pure-controller degenerate","Down","controller stateless"
+"LoginController","entity boundary small-class","LoginController","copy-constructor"
+"LoginController","entity boundary small-class","Logout","property non-void-command collaborator"
+"LoginController","entity boundary small-class","Post","property non-void-command collaborator"
+"ClientDownloadsController","entity boundary","ClientDownloadsController","copy-constructor"
+"ClientDownloadsController","entity boundary","GetDesktop","wrapper stateless"
+"ClientDownloadsController","entity boundary","GetDesktop","property non-void-command collaborator"
+"ClientDownloadsController","entity boundary","GetInstaller","property non-void-command collaborator"
+"ClientDownloadsController","entity boundary","GetInstaller","property non-void-command collaborator"
+"ClientDownloadsController","entity boundary","GetBashInstaller","property non-void-command collaborator"
+"ClientDownloadsController","entity boundary","GetDesktopFile","property non-void-command collaborator"
+"ClientDownloadsController","entity boundary","GetInstallFile","property non-void-command collaborator"
+"ClientDownloadsController","entity boundary","LogRequest","non-void-command collaborator"
+"AlertsController","entity boundary","AlertsController","copy-constructor"
+"AlertsController","entity boundary","Create","property non-void-command collaborator"
+"AlertsController","entity boundary","Delete","property non-void-command collaborator"
+"AlertsController","entity boundary","DeleteAll","property non-void-command collaborator"
+"ElevationDetectorMac","boundary degenerate small-class","IsElevated","wrapper stateless"
+"Viewer","commander boundary","Viewer","constructor"
+"Viewer","commander boundary","ApplyAutoQuality","set"
+"Viewer","commander boundary","CalculateFps","command"
+"Viewer","commander boundary","DequeuePendingFrame","command"
+"Viewer","commander boundary","Dispose","set"
+"Viewer","commander boundary","SendAudioSample","non-void-command collaborator"
+"Viewer","commander boundary","SendClipboardText","non-void-command collaborator"
+"Viewer","commander boundary","SendCtrlAltDel","non-void-command collaborator"
+"Viewer","commander boundary","SendCursorChange","non-void-command collaborator"
+"Viewer","commander boundary","SendFile","non-void-command collaborator"
+"Viewer","commander boundary","SendScreenCapture","non-void-command collaborator"
+"Viewer","commander boundary","SendScreenData","non-void-command collaborator"
+"Viewer","commander boundary","SendScreenSize","non-void-command collaborator"
+"Viewer","commander boundary","SendViewerConnected","non-void-command collaborator"
+"Viewer","commander boundary","SendWindowsSessions","non-void-command collaborator"
+"Viewer","commander boundary","AudioCapturer_AudioSampleReady","command"
+"Viewer","commander boundary","ClipboardService_ClipboardTextChanged","command"
+"Viewer","commander boundary","TrySendToViewer","wrapper stateless"
+"Viewer","commander boundary","get","wrapper stateless"
+"DtoMessageHandler","commander boundary","DtoMessageHandler","constructor"
+"DtoMessageHandler","commander boundary","ParseMessage","non-void-command collaborator"
+"DtoMessageHandler","commander boundary","ClipboardTransfer","non-void-command collaborator"
+"DtoMessageHandler","commander boundary","DownloadFile","non-void-command collaborator"
+"DtoMessageHandler","commander boundary","GetWindowsSessions","controller stateless"
+"DtoMessageHandler","commander boundary","HandleFrameReceived","controller stateless"
+"DtoMessageHandler","commander boundary","KeyDown","command collaborator"
+"DtoMessageHandler","commander boundary","KeyPress","non-void-command collaborator"
+"DtoMessageHandler","commander boundary","KeyUp","command collaborator"
+"DtoMessageHandler","commander boundary","MouseDown","command collaborator"
+"DtoMessageHandler","commander boundary","MouseMove","command collaborator"
+"DtoMessageHandler","commander boundary","MouseUp","command collaborator"
+"DtoMessageHandler","commander boundary","MouseWheel","command collaborator"
+"DtoMessageHandler","commander boundary","OpenFileTransferWindow","command collaborator"
+"DtoMessageHandler","commander boundary","SelectScreen","controller stateless"
+"DtoMessageHandler","commander boundary","SetKeyStatesUp","command"
+"DtoMessageHandler","commander boundary","Tap","command collaborator"
+"DtoMessageHandler","commander boundary","ToggleAudio","command collaborator"
+"DtoMessageHandler","commander boundary","ToggleBlockInput","command collaborator"
+"OrganizationManagementController","entity boundary","OrganizationManagementController","copy-constructor"
+"OrganizationManagementController","entity boundary","ChangeIsAdmin","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","DeleteInvite","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","DeleteUser","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","DeviceGroup","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","DeviceGroup","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","DeviceGroup","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","DeviceGroupRemoveUser","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","DeviceGroupAddUser","wrapper stateless"
+"OrganizationManagementController","entity boundary","GenerateResetUrl","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","Name","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","SetDefault","property non-void-command collaborator"
+"OrganizationManagementController","entity boundary","SendInvite","property non-void-command collaborator"
+"DeviceInitService","boundary data-class small-class","DeviceInitService","constructor"
+"DeviceInitService","boundary data-class small-class","GetBrandingInfo","get non-void-command collaborator"
+"DeviceInitService","boundary data-class small-class","SetBrandingInfo","set collaborator"
+"ChatHostService","commander boundary","ChatHostService","constructor"
+"ChatHostService","commander boundary","StartChat","non-void-command collaborator"
+"ChatHostService","commander boundary","OnChatWindowClosed","wrapper"
+"ChatHostService","commander boundary","ReadFromStream","non-void-command collaborator"
+"MainWindow","boundary degenerate","MainWindow","constructor"
+"MainWindow","boundary degenerate","Window_MouseLeftButtonDown","wrapper stateless"
+"MainWindow","boundary degenerate","Window_Loaded","wrapper stateless"
+"MainWindow","boundary degenerate","CloseButton_Click","wrapper stateless"
+"MainWindow","boundary degenerate","MinimizeButton_Click","collaborator incidental"
+"MainWindow","boundary degenerate","ShowServerUrlHelp","wrapper stateless"
+"MainWindow","boundary degenerate","ShowOrganizationIdHelp","wrapper stateless"
+"MainWindow","boundary degenerate","ShowSupportShortcutHelp","wrapper stateless"
+"ExpiringTokenFilter","commander boundary small-class","ExpiringTokenFilter","copy-constructor"
+"ExpiringTokenFilter","commander boundary small-class","OnAuthorizationAsync","non-void-command collaborator"
+"ExpiringTokenFilter","commander boundary small-class","Authorize","non-void-command collaborator"
+"CasterSocket","entity boundary","CasterSocket","constructor"
+"CasterSocket","entity boundary","Connect","property non-void-command collaborator"
+"CasterSocket","entity boundary","Disconnect","non-void-command collaborator"
+"CasterSocket","entity boundary","DisconnectAllViewers","non-void-command collaborator"
+"CasterSocket","entity boundary","DisconnectViewer","property non-void-command collaborator"
+"CasterSocket","entity boundary","GetSessionID","property non-void-command collaborator"
+"CasterSocket","entity boundary","NotifyRequesterUnattendedReady","property non-void-command collaborator"
+"CasterSocket","entity boundary","NotifyViewersRelaunchedScreenCasterReady","property non-void-command collaborator"
+"CasterSocket","entity boundary","SendConnectionFailedToViewers","property non-void-command collaborator"
+"CasterSocket","entity boundary","SendConnectionRequestDenied","property non-void-command collaborator"
+"CasterSocket","entity boundary","SendMessageToViewer","property non-void-command collaborator"
+"CasterSocket","entity boundary","SendCtrlAltDelToAgent","property non-void-command collaborator"
+"CasterSocket","entity boundary","SendDeviceInfo","property non-void-command collaborator"
+"CasterSocket","entity boundary","SendDtoToViewer<T>","property non-void-command collaborator"
+"CasterSocket","entity boundary","SendViewerConnected","property non-void-command collaborator"
+"CasterSocket","entity boundary","ApplyConnectionHandlers","command collaborator"
+"ScriptsPage","commander boundary","GetItemIconCss","collaborator incidental"
+"ScriptsPage","commander boundary","RefreshScripts","non-void-command collaborator"
+"ScriptsPage","commander boundary","OnInitializedAsync","non-void-command collaborator"
+"ScriptsPage","commander boundary","CreateTreeNode","controller"
+"ScriptsPage","commander boundary","RefreshTreeNodes","command collaborator"
+"ScriptsPage","commander boundary","set","set"
+"ScriptsPage","commander boundary","get","get non-void-command collaborator"
+"AppLauncherWin","entity commander boundary","AppLauncherWin","copy-constructor"
+"AppLauncherWin","entity commander boundary","LaunchChatService","property non-void-command collaborator"
+"AppLauncherWin","entity commander boundary","LaunchRemoteControl","non-void-command collaborator"
+"AppLauncherWin","entity commander boundary","RestartScreenCaster","non-void-command collaborator"
+"OtpProvider","unclassified","Exists","predicate non-void-command"
+"OtpProvider","unclassified","GetOtp","property non-void-command collaborator"
+"OtpProvider","unclassified","OtpMatchesDevice","incidental"
+"Remove_TitleBranding","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Remove_TitleBranding","pure-controller degenerate","Up","controller stateless"
+"Remove_TitleBranding","pure-controller degenerate","Down","controller stateless"
+"Remove_TitleBranding","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Remove_TitleBranding","pure-controller degenerate","Up","controller stateless"
+"Remove_TitleBranding","pure-controller degenerate","Down","controller stateless"
+"Remove_TitleBranding","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Remove_TitleBranding","pure-controller degenerate","Up","controller stateless"
+"Remove_TitleBranding","pure-controller degenerate","Down","controller stateless"
+"SqlServerDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"DeviceCard","commander boundary","OnInitializedAsync","non-void-command collaborator"
+"DeviceCard","commander boundary","HandleDeviceCardStateChanged","set collaborator"
+"DeviceCard","commander boundary","HandleDeviceStateChanged","non-void-command collaborator"
+"DeviceCard","commander boundary","ContextMenuOpening","command collaborator"
+"DeviceCard","commander boundary","ExpandCard","non-void-command collaborator"
+"DeviceCard","commander boundary","GetCardStateClass","wrapper stateless"
+"DeviceCard","commander boundary","GetProgressMessage","incidental"
+"DeviceCard","commander boundary","HandleHeaderClick","set"
+"DeviceCard","commander boundary","HandleValidSubmit","non-void-command collaborator"
+"DeviceCard","commander boundary","OnFileInputChanged","non-void-command collaborator"
+"DeviceCard","commander boundary","OnFileInputProgress","command"
+"DeviceCard","commander boundary","OpenDeviceDetails","command"
+"DeviceCard","commander boundary","ShowAllDisks","command collaborator"
+"DeviceCard","commander boundary","StartChat","command collaborator"
+"DeviceCard","commander boundary","StartRemoteControl","non-void-command collaborator"
+"DeviceCard","commander boundary","ToggleIsSelected","command collaborator"
+"DeviceCard","commander boundary","UninstallAgent","non-void-command collaborator"
+"DeviceCard","commander boundary","WakeDevice","non-void-command collaborator"
+"ConfigService","entity boundary data-class","ConfigService","copy-constructor"
+"ConfigService","entity boundary data-class","GetConnectionInfo","get property non-void-command factory collaborator"
+"ConfigService","entity boundary data-class","SaveConnectionInfo","set collaborator"
+"ConfigService","entity boundary data-class","get","get non-void-command collaborator"
+"SponsorshipInfo","pure-controller degenerate","BuildTargetModel","controller stateless"
+"SponsorshipInfo","pure-controller degenerate","Up","controller stateless"
+"SponsorshipInfo","pure-controller degenerate","Down","controller stateless"
+"SponsorshipInfo","pure-controller degenerate","BuildTargetModel","controller stateless"
+"SponsorshipInfo","pure-controller degenerate","Up","controller stateless"
+"SponsorshipInfo","pure-controller degenerate","Down","controller stateless"
+"SponsorshipInfo","pure-controller degenerate","BuildTargetModel","controller stateless"
+"SponsorshipInfo","pure-controller degenerate","Up","controller stateless"
+"SponsorshipInfo","pure-controller degenerate","Down","controller stateless"
+"LocalOnlyFilter","boundary degenerate small-class","OnAuthorization","wrapper stateless"
+"AppDb","commander boundary small-class","AppDb","constructor"
+"AppDb","commander boundary small-class","OnConfiguring","command collaborator"
+"AppDb","commander boundary small-class","OnModelCreating","command collaborator"
+"FileSharingController","entity small-class","FileSharingController","constructor"
+"FileSharingController","entity small-class","Get","property non-void-command collaborator"
+"FileSharingController","entity small-class","Post","property non-void-command factory collaborator"
+"AgentUpdateController","entity boundary","AgentUpdateController","copy-constructor"
+"AgentUpdateController","entity boundary","DownloadPackage","property non-void-command collaborator"
+"AgentUpdateController","entity boundary","DownloadPackage","property non-void-command collaborator"
+"AgentUpdateController","entity boundary","CheckForDeviceBan","property non-void-command collaborator"
+"BrandingController","entity small-class","BrandingController","copy-constructor"
+"BrandingController","entity small-class","Get","property non-void-command collaborator"
+"BrandingController","entity small-class","GetDefault","property non-void-command factory collaborator"
+"AppLauncherLinux","entity boundary","AppLauncherLinux","copy-constructor"
+"AppLauncherLinux","entity boundary","LaunchChatService","property non-void-command collaborator"
+"AppLauncherLinux","entity boundary","LaunchRemoteControl","non-void-command collaborator"
+"AppLauncherLinux","entity boundary","RestartScreenCaster","non-void-command collaborator"
+"AppLauncherLinux","entity boundary","StartLinuxDesktopApp","property non-void-command collaborator"
+"AppLauncherLinux","entity boundary","TryGetXAuth","property non-void-command collaborator"
+"WakeOnLanService","boundary degenerate small-class","WakeDevice","wrapper stateless"
+"ScriptExecutor","entity commander boundary","ScriptExecutor","copy-constructor"
+"ScriptExecutor","entity commander boundary","RunCommandFromApi","non-void-command collaborator"
+"ScriptExecutor","entity commander boundary","RunCommandFromTerminal","non-void-command collaborator"
+"ScriptExecutor","entity commander boundary","RunScript","non-void-command collaborator"
+"ScriptExecutor","entity commander boundary","ExecuteScriptContent","property non-void-command collaborator"
+"ScriptExecutor","entity commander boundary","SendResultsToApi","property non-void-command collaborator"
+"RunScript","commander boundary","OnAfterRender","command"
+"RunScript","commander boundary","OnInitializedAsync","non-void-command collaborator"
+"RunScript","commander boundary","DeviceGroupSelectedChanged","command collaborator"
+"RunScript","commander boundary","DeviceSelectedChanged","command collaborator"
+"RunScript","commander boundary","ExecuteScript","non-void-command collaborator"
+"RunScript","commander boundary","ScriptSelected","non-void-command collaborator"
+"FileLogsManager","boundary degenerate","AnyLogsExist","wrapper stateless"
+"FileLogsManager","boundary degenerate","DeleteLogs","wrapper stateless"
+"FileLogsManager","boundary degenerate","ReadAllBytes","wrapper stateless"
+"FileUpload","data-class","get","get"
+"FileUpload","data-class","set","set"
+"FileUpload","data-class","get","get"
+"FileUpload","data-class","set","set"
+"MainWindowViewModel","data-class","MainWindowViewModel","constructor"
+"MainWindowViewModel","data-class","get","get"
+"MainWindowViewModel","data-class","set","set"
+"MainWindowViewModel","data-class","get","get"
+"MainWindowViewModel","data-class","set","set"
+"PostgresDateTimeOffsetConverter","empty","PostgresDateTimeOffsetConverter","constructor"
+"PostgresDateTimeOffsetConverter","empty","PostgresDateTimeOffsetConverter","constructor"
+"ChatSessionStore","entity boundary","AddOrUpdate","command collaborator"
+"ChatSessionStore","entity boundary","ContainsKey","predicate non-void-command"
+"ChatSessionStore","entity boundary","GetOrAdd","property non-void-command collaborator"
+"ChatSessionStore","entity boundary","TryGetSession","predicate non-void-command collaborator"
+"ChatSessionStore","entity boundary","TryRemove","predicate non-void-command collaborator"
+"ScreenCaster","commander boundary","ScreenCaster","constructor"
+"ScreenCaster","commander boundary","BeginScreenCasting","command collaborator"
+"ScreenCaster","commander boundary","BeginScreenCastingImpl","non-void-command collaborator"
+"ScreenCaster","commander boundary","CastScreen","non-void-command collaborator"
+"BrandingInfo","pure-controller degenerate","BuildTargetModel","controller stateless"
+"BrandingInfo","pure-controller degenerate","Up","controller stateless"
+"BrandingInfo","pure-controller degenerate","Down","controller stateless"
+"BrandingInfo","pure-controller degenerate","BuildTargetModel","controller stateless"
+"BrandingInfo","pure-controller degenerate","Up","controller stateless"
+"BrandingInfo","pure-controller degenerate","Down","controller stateless"
+"BrandingInfo","pure-controller degenerate","BuildTargetModel","controller stateless"
+"BrandingInfo","pure-controller degenerate","Up","controller stateless"
+"BrandingInfo","pure-controller degenerate","Down","controller stateless"
+"ServerConfig","entity commander boundary","OnInitializedAsync","non-void-command collaborator"
+"ServerConfig","entity commander boundary","AddBannedDevice","set"
+"ServerConfig","entity commander boundary","AddKnownProxy","command"
+"ServerConfig","entity commander boundary","AddTrustedCorsOrigin","set"
+"ServerConfig","entity commander boundary","GetOutdatedDevices","property non-void-command collaborator"
+"ServerConfig","entity commander boundary","HandleBannedDeviceKeyDown","command collaborator"
+"ServerConfig","entity commander boundary","HandleKnownProxyKeyDown","command collaborator"
+"ServerConfig","entity commander boundary","HandleTrustedCorsKeyDown","command collaborator"
+"ServerConfig","entity commander boundary","HandleValidSubmit","non-void-command collaborator"
+"ServerConfig","entity commander boundary","RemoveBannedDevice","set"
+"ServerConfig","entity commander boundary","RemoveKnownProxy","set"
+"ServerConfig","entity commander boundary","RemoveTrustedCorsOrigin","set"
+"ServerConfig","entity commander boundary","Save","non-void-command collaborator"
+"ServerConfig","entity commander boundary","SaveAndTestSmtpSettings","non-void-command collaborator"
+"ServerConfig","entity commander boundary","SetIsServerAdmin","command collaborator"
+"ServerConfig","entity commander boundary","ShowOutdatedDevices","command collaborator"
+"ServerConfig","entity commander boundary","UpdateAllDevices","non-void-command collaborator"
+"ServerConfig","entity commander boundary","get","property non-void-command collaborator"
+"ApiAuthorizationFilter","commander boundary small-class","ApiAuthorizationFilter","copy-constructor"
+"ApiAuthorizationFilter","commander boundary small-class","OnAuthorizationAsync","non-void-command collaborator"
+"ApiAuthorizationFilter","commander boundary small-class","Authorize","non-void-command collaborator"
+"ChatCard","commander boundary","OnAfterRender","command"
+"ChatCard","commander boundary","OnInitializedAsync","non-void-command collaborator"
+"ChatCard","commander boundary","HandleChatMessageReceived","non-void-command collaborator"
+"ChatCard","commander boundary","CloseChatCard","non-void-command collaborator"
+"ChatCard","commander boundary","EvaluateInputKeypress","non-void-command collaborator"
+"ChatCard","commander boundary","HeaderClicked","command"
+"Resources","empty","Resources","constructor"
+"AgentHub","entity boundary","AgentHub","copy-constructor"
+"AgentHub","entity boundary","Chat","non-void-command collaborator"
+"AgentHub","entity boundary","CheckForPendingRemoteControlSessions","non-void-command collaborator"
+"AgentHub","entity boundary","CheckForPendingScriptRuns","non-void-command collaborator"
+"AgentHub","entity boundary","DeviceCameOnline","property non-void-command collaborator"
+"AgentHub","entity boundary","DeviceHeartbeat","non-void-command collaborator"
+"AgentHub","entity boundary","DisplayMessage","property non-void-command collaborator"
+"AgentHub","entity boundary","DownloadFile","property non-void-command collaborator"
+"AgentHub","entity boundary","DownloadFileProgress","property non-void-command collaborator"
+"AgentHub","entity boundary","GetServerUrl","property non-void-command collaborator"
+"AgentHub","entity boundary","GetServerVerificationToken","incidental"
+"AgentHub","entity boundary","OnDisconnectedAsync","non-void-command collaborator"
+"AgentHub","entity boundary","ReturnPowerShellCompletions","property non-void-command collaborator"
+"AgentHub","entity boundary","ScriptResult","non-void-command collaborator"
+"AgentHub","entity boundary","ScriptResultViaApi","command"
+"AgentHub","entity boundary","SendConnectionFailedToViewers","property non-void-command collaborator"
+"AgentHub","entity boundary","SendLogs","property non-void-command collaborator"
+"AgentHub","entity boundary","SetServerVerificationToken","command"
+"AgentHub","entity boundary","TransferCompleted","property non-void-command collaborator"
+"AgentHub","entity boundary","CheckForDeviceBan","property non-void-command collaborator"
+"AgentHub","entity boundary","get","property non-void-command collaborator"
+"AgentHub","entity boundary","set","collaborator incidental"
+"DeviceDetails","entity commander boundary","OnInitializedAsync","non-void-command collaborator"
+"DeviceDetails","entity commander boundary","HandleReceiveLogsMessage","non-void-command collaborator"
+"DeviceDetails","entity commander boundary","DeleteLogs","non-void-command collaborator"
+"DeviceDetails","entity commander boundary","EditFormKeyDown","set"
+"DeviceDetails","entity commander boundary","EvaluateDeviceIdInputKeyDown","command collaborator"
+"DeviceDetails","entity commander boundary","GetRemoteLogs","command"
+"DeviceDetails","entity commander boundary","GetScriptHistory","command collaborator"
+"DeviceDetails","entity commander boundary","GetTrimmedText","wrapper stateless"
+"DeviceDetails","entity commander boundary","GetTrimmedText","wrapper stateless"
+"DeviceDetails","entity commander boundary","HandleValidSubmit","property non-void-command collaborator"
+"DeviceDetails","entity commander boundary","NavigateToDeviceId","command"
+"DeviceDetails","entity commander boundary","ShowAllDisks","command collaborator"
+"DeviceDetails","entity commander boundary","ShowFullScriptOutput","command collaborator"
+"TestData","commander boundary small-class","ClearData","wrapper stateless"
+"TestData","commander boundary small-class","Init","non-void-command collaborator"
+"SavedScriptsController","entity boundary small-class","SavedScriptsController","constructor"
+"SavedScriptsController","entity boundary small-class","GetScript","property non-void-command collaborator"
+"Terminal","commander data-class small-class","set","set"
+"PostgreSqlDbContext","commander boundary small-class","PostgreSqlDbContext","constructor"
+"PostgreSqlDbContext","commander boundary small-class","OnConfiguring","command collaborator"
+"CpuUtilizationSampler","entity boundary small-class","CpuUtilizationSampler","copy-constructor"
+"CpuUtilizationSampler","entity boundary small-class","ExecuteAsync","non-void-command collaborator"
+"CpuUtilizationSampler","entity boundary small-class","GetCpuUtilization","property non-void-command collaborator"
+"CircuitManager","entity boundary","CircuitManager","copy-constructor"
+"CircuitManager","entity boundary","TryAddConnection","predicate non-void-command collaborator"
+"CircuitManager","entity boundary","TryGetConnection","predicate non-void-command collaborator"
+"CircuitManager","entity boundary","TryRemoveConnection","predicate non-void-command collaborator"
+"JsInterop","commander boundary","JsInterop","constructor"
+"JsInterop","commander boundary","AddBeforeUnloadHandler","command"
+"JsInterop","commander boundary","AddClassName","command"
+"JsInterop","commander boundary","Alert","property non-void-command collaborator"
+"JsInterop","commander boundary","AutoHeight","command"
+"JsInterop","commander boundary","Confirm","property non-void-command collaborator"
+"JsInterop","commander boundary","GetCursorIndex","property non-void-command collaborator"
+"JsInterop","commander boundary","InvokeClick","command"
+"JsInterop","commander boundary","OpenWindow","command"
+"JsInterop","commander boundary","PreventTabOut","command collaborator"
+"JsInterop","commander boundary","Prompt","property non-void-command collaborator"
+"JsInterop","commander boundary","ScrollToElement","command collaborator"
+"JsInterop","commander boundary","ScrollToEnd","command collaborator"
+"JsInterop","commander boundary","SetClipboardText","property non-void-command collaborator"
+"JsInterop","commander boundary","SetStyleProperty","command"
+"JsInterop","commander boundary","StartDraggingY","command"
+"EmbeddedServerData","empty","EmbeddedServerData","constructor"
+"EmbeddedServerData","empty","EmbeddedServerData","constructor"
+"EmbeddedServerData","empty","EmbeddedServerData","constructor"
+"UpdaterWin","commander boundary","UpdaterWin","copy-constructor"
+"UpdaterWin","commander boundary","BeginChecking","non-void-command collaborator"
+"UpdaterWin","commander boundary","CheckForUpdates","non-void-command collaborator"
+"UpdaterWin","commander boundary","InstallLatestVersion","non-void-command collaborator"
+"UpdaterWin","commander boundary","UpdateTimer_Elapsed","command collaborator"
+"HealthCheckController","entity boundary small-class","HealthCheckController","constructor"
+"HealthCheckController","entity boundary small-class","Get","property non-void-command collaborator"
+"UpgradeService","entity data-class small-class","UpgradeService","copy-constructor"
+"UpgradeService","entity data-class small-class","GetCurrentVersion","get set factory collaborator"
+"UpgradeService","entity data-class small-class","IsNewVersionAvailable","property non-void-command collaborator"
+"DevicesController","entity boundary","DevicesController","copy-constructor"
+"DevicesController","entity boundary","Get","property non-void-command collaborator"
+"DevicesController","entity boundary","Get","property non-void-command collaborator"
+"DevicesController","entity boundary","Update","property non-void-command collaborator"
+"DevicesController","entity boundary","Create","property non-void-command collaborator"
+"SessionRecordingSink","commander boundary small-class","SessionRecordingSink","copy-constructor"
+"SessionRecordingSink","commander boundary small-class","SinkWebmStream","non-void-command collaborator"
+"RelayCommand","empty","RelayCommand","constructor"
+"CircuitConnectionTests","commander boundary","Init","non-void-command collaborator"
+"CircuitConnectionTests","commander boundary","WakeDevice_GivenUserIsUnauthorized_Fails","non-void-command collaborator"
+"CircuitConnectionTests","commander boundary","WakeDevice_GivenMatchingPeerByIp_UsesCorrectPeer","non-void-command collaborator"
+"CircuitConnectionTests","commander boundary","WakeDevice_GivenMatchingPeerByGroupId_UsesCorrectPeer","non-void-command collaborator"
+"CircuitConnectionTests","commander boundary","WakeDevice_GivenNoMatchingGroupOrIp_DoesNotSend","non-void-command collaborator"
+"CircuitConnectionTests","commander boundary","WakeDevices_GivenPeerIpMatches_UsesCorrectPeer","non-void-command collaborator"
+"CircuitConnectionTests","commander boundary","WakeDevices_GivenMatchingPeerByGroupId_UsesCorrectPeer","non-void-command collaborator"
+"ViewerOptionsProvider","factory controller small-class","ViewerOptionsProvider","constructor"
+"ViewerOptionsProvider","factory controller small-class","GetViewerOptions","non-void-command factory collaborator"
+"ScriptScheduleDispatcherTests","commander boundary","Init","non-void-command collaborator"
+"ScriptScheduleDispatcherTests","commander boundary","DispatchPendingScriptRuns_GivenNoSchedulesDue_DoesNothing","non-void-command collaborator"
+"ScriptScheduleDispatcherTests","commander boundary","DispatchPendingScriptRuns_GivenSchedulesDue_CreatesScriptRuns","non-void-command collaborator"
+"IdleTimer","commander","IdleTimer","constructor"
+"IdleTimer","commander","Start","command"
+"IdleTimer","commander","Stop","command"
+"IdleTimer","commander","Timer_Elapsed","set collaborator"
+"ViewModelBase","entity boundary","FirePropertyChanged","wrapper"
+"ViewModelBase","entity boundary","FirePropertyChanged","wrapper"
+"ViewModelBase","entity boundary","InvokePropertyChanged","wrapper"
+"ViewModelBase","entity boundary","Get<T>","wrapper stateless"
+"ViewModelBase","entity boundary","Set<T>","predicate non-void-command"
+"ViewModelBase","entity boundary","OnPropertyChanged","wrapper"
+"ChangeBrandingInfoId","pure-controller degenerate","BuildTargetModel","controller stateless"
+"ChangeBrandingInfoId","pure-controller degenerate","Up","controller stateless"
+"ChangeBrandingInfoId","pure-controller degenerate","Down","controller stateless"
+"ChangeBrandingInfoId","pure-controller degenerate","BuildTargetModel","controller stateless"
+"ChangeBrandingInfoId","pure-controller degenerate","Up","controller stateless"
+"ChangeBrandingInfoId","pure-controller degenerate","Down","controller stateless"
+"ChangeBrandingInfoId","pure-controller degenerate","BuildTargetModel","controller stateless"
+"ChangeBrandingInfoId","pure-controller degenerate","Up","controller stateless"
+"ChangeBrandingInfoId","pure-controller degenerate","Down","controller stateless"
+"UpdaterLinux","commander boundary","UpdaterLinux","copy-constructor"
+"UpdaterLinux","commander boundary","BeginChecking","non-void-command collaborator"
+"UpdaterLinux","commander boundary","CheckForUpdates","non-void-command collaborator"
+"UpdaterLinux","commander boundary","InstallLatestVersion","non-void-command collaborator"
+"UpdaterLinux","commander boundary","UpdateTimer_Elapsed","command collaborator"
+"ScriptingShellFactory","entity boundary","ScriptingShellFactory","constructor"
+"ScriptingShellFactory","entity boundary","GetOrCreatePsCoreShell","property non-void-command collaborator"
+"ScriptingShellFactory","entity boundary","GetOrCreateExternalShell","property non-void-command collaborator"
+"ScriptingShellFactory","entity boundary","GetEntryOptions","factory wrapper stateless"
+"PostgreSqlDbContextDesignTime","factory degenerate small-class","CreateDbContext","factory wrapper stateless"
+"AppLauncherMac","pure-controller degenerate","LaunchChatService","controller stateless"
+"AppLauncherMac","pure-controller degenerate","LaunchRemoteControl","controller stateless"
+"AppLauncherMac","pure-controller degenerate","RestartScreenCaster","controller stateless"
+"DeviceInfoGeneratorMac","entity boundary small-class","DeviceInfoGeneratorMac","copy-constructor"
+"DeviceInfoGeneratorMac","entity boundary small-class","CreateDevice","property non-void-command collaborator"
+"SponsorLevel","pure-controller degenerate","BuildTargetModel","controller stateless"
+"SponsorLevel","pure-controller degenerate","Up","controller stateless"
+"SponsorLevel","pure-controller degenerate","Down","controller stateless"
+"SponsorLevel","pure-controller degenerate","BuildTargetModel","controller stateless"
+"SponsorLevel","pure-controller degenerate","Up","controller stateless"
+"SponsorLevel","pure-controller degenerate","Down","controller stateless"
+"SponsorLevel","pure-controller degenerate","BuildTargetModel","controller stateless"
+"SponsorLevel","pure-controller degenerate","Up","controller stateless"
+"SponsorLevel","pure-controller degenerate","Down","controller stateless"
+"UpdaterMac","commander boundary","UpdaterMac","copy-constructor"
+"UpdaterMac","commander boundary","BeginChecking","non-void-command collaborator"
+"UpdaterMac","commander boundary","CheckForUpdates","non-void-command collaborator"
+"UpdaterMac","commander boundary","InstallLatestVersion","non-void-command collaborator"
+"UpdaterMac","commander boundary","UpdateTimer_Elapsed","command collaborator"
+"SqlServerDbContext","commander boundary small-class","SqlServerDbContext","constructor"
+"SqlServerDbContext","commander boundary small-class","OnConfiguring","command collaborator"
+"SavedScripts","commander","OnAfterRender","command"
+"SavedScripts","commander","OnValidSubmit","non-void-command collaborator"
+"SavedScripts","commander","CreateNew","set"
+"SavedScripts","commander","DeleteSelectedScript","non-void-command collaborator"
+"SavedScripts","commander","ScriptSelected","non-void-command collaborator"
+"SavedScripts","commander","ToggleEnvironmentVarsShown","set"
+"SavedScripts","commander","ToggleAlertOptionsShown","set"
+"SavedScripts","commander","ShowAlertErrorHelp","command"
+"SavedScripts","commander","get","predicate"
+"SavedScripts","commander","get","predicate wrapper"
+"ProcessInvoker","entity boundary small-class","ProcessInvoker","copy-constructor"
+"ProcessInvoker","entity boundary small-class","InvokeProcessOutput","property non-void-command collaborator"
+"ConnectionInfo","small-class","get","property wrapper"
+"ConnectionInfo","small-class","set","set"
+"TimeSpanJsonConverter","pure-controller degenerate small-class","Read","controller stateless"
+"TimeSpanJsonConverter","pure-controller degenerate small-class","Write","controller stateless"
+"UpdateDownloader","commander boundary small-class","UpdateDownloader","constructor"
+"UpdateDownloader","commander boundary small-class","DownloadFile","non-void-command collaborator"
+"Temppassword","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Temppassword","pure-controller degenerate","Up","controller stateless"
+"Temppassword","pure-controller degenerate","Down","controller stateless"
+"CircuitConnection","entity commander boundary","CircuitConnection","copy-constructor"
+"CircuitConnection","entity commander boundary","DeleteRemoteLogs","property non-void-command collaborator"
+"CircuitConnection","entity commander boundary","ExecuteCommandOnAgent","non-void-command collaborator"
+"CircuitConnection","entity commander boundary","GetPowerShellCompletions","property non-void-command collaborator"
+"CircuitConnection","entity commander boundary","GetRemoteLogs","property non-void-command collaborator"
+"CircuitConnection","entity commander boundary","OnCircuitClosedAsync","non-void-command collaborator"
+"CircuitConnection","entity commander boundary","OnCircuitOpenedAsync","non-void-command collaborator"
+"CircuitConnection","entity commander boundary","ReinstallAgents","non-void-command collaborator"
+"CircuitConnection","entity commander boundary","RemoteControl","property non-void-command collaborator"
+"CircuitConnection","entity commander boundary","RemoveDevices","property non-void-command collaborator"
+"CircuitConnection","entity commander boundary","RunScript","non-void-command collaborator"
+"CircuitConnection","entity commander boundary","SendChat","non-void-command collaborator"
+"CircuitConnection","entity commander boundary","TransferFileFromBrowserToAgent","property non-void-command collaborator"
+"CircuitConnection","entity commander boundary","TriggerHeartbeat","non-void-command collaborator"
+"CircuitConnection","entity commander boundary","UninstallAgents","non-void-command collaborator"
+"CircuitConnection","entity commander boundary","UpdateTags","non-void-command collaborator"
+"CircuitConnection","entity commander boundary","WakeDevice","property non-void-command collaborator"
+"CircuitConnection","entity commander boundary","WakeDevices","property non-void-command collaborator"
+"DeviceInfoGeneratorLinux","entity boundary small-class","DeviceInfoGeneratorLinux","copy-constructor"
+"DeviceInfoGeneratorLinux","entity boundary small-class","CreateDevice","property non-void-command collaborator"
+"DeviceInfoGeneratorLinux","entity boundary small-class","GetCurrentUser","property non-void-command collaborator"
+"EditDeviceGroup","entity boundary small-class","DoesGroupContainUser","predicate wrapper"
+"EditDeviceGroup","entity boundary small-class","GroupCheckChanged","non-void-command collaborator"
+"InstallerService","unclassified","Install","property non-void-command collaborator"
+"InstallerService","unclassified","Uninstall","property non-void-command collaborator"
+"InstallerService","unclassified","AddFirewallRule","wrapper"
+"InstallerService","unclassified","BackupDirectory","wrapper"
+"InstallerService","unclassified","CheckIsAdministrator","controller stateless"
+"InstallerService","unclassified","ClearInstallDirectory","wrapper"
+"InstallerService","unclassified","CreateDeviceOnServer","non-void-command collaborator"
+"InstallerService","unclassified","CreateSupportShortcut","controller"
+"InstallerService","unclassified","CreateUninstallKey","command collaborator"
+"InstallerService","unclassified","DownloadRemotelyAgent","controller"
+"InstallerService","unclassified","GetConnectionInfo","non-void-command factory collaborator"
+"InstallerService","unclassified","GetRegistryBaseKey","wrapper stateless"
+"InstallerService","unclassified","InstallService","controller"
+"InstallerService","unclassified","RestoreBackup","command collaborator"
+"InstallerService","unclassified","StopProcesses","controller"
+"InstallerService","unclassified","StopService","controller"
+"ScriptingController","entity boundary small-class","ScriptingController","constructor"
+"ScriptingController","entity boundary small-class","ExecuteCommand","property non-void-command collaborator"
+"DisplayName","pure-controller degenerate","BuildTargetModel","controller stateless"
+"DisplayName","pure-controller degenerate","Up","controller stateless"
+"DisplayName","pure-controller degenerate","Down","controller stateless"
+"ThemeProvider","entity boundary small-class","ThemeProvider","constructor"
+"ThemeProvider","entity boundary small-class","GetEffectiveTheme","property non-void-command collaborator"
+"DeviceInfoGeneratorWin","entity boundary small-class","DeviceInfoGeneratorWin","copy-constructor"
+"DeviceInfoGeneratorWin","entity boundary small-class","CreateDevice","property non-void-command collaborator"
+"Device","data-provider small-class","get","property"
+"Device","data-provider small-class","get","property"
+"SqliteDbContextDesignTime","factory degenerate small-class","CreateDbContext","factory wrapper stateless"
+"SqlServerDbContextDesignTime","factory degenerate small-class","CreateDbContext","factory wrapper stateless"
+"ModalService","commander boundary small-class","ShowModal","non-void-command collaborator"
+"ModalService","commander boundary small-class","ShowModal","non-void-command collaborator"
+"SqliteDbContext","commander boundary small-class","SqliteDbContext","constructor"
+"SqliteDbContext","commander boundary small-class","OnConfiguring","command collaborator"
+"Remove3rdPartyServices","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Remove3rdPartyServices","pure-controller degenerate","Up","controller stateless"
+"Remove3rdPartyServices","pure-controller degenerate","Down","controller stateless"
+"Remove3rdPartyServices","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Remove3rdPartyServices","pure-controller degenerate","Up","controller stateless"
+"Remove3rdPartyServices","pure-controller degenerate","Down","controller stateless"
+"Remove3rdPartyServices","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Remove3rdPartyServices","pure-controller degenerate","Up","controller stateless"
+"Remove3rdPartyServices","pure-controller degenerate","Down","controller stateless"
+"IsServerAdminproperty","pure-controller degenerate","BuildTargetModel","controller stateless"
+"IsServerAdminproperty","pure-controller degenerate","Up","controller stateless"
+"IsServerAdminproperty","pure-controller degenerate","Down","controller stateless"
+"TestingDbContext","commander boundary small-class","TestingDbContext","constructor"
+"TestingDbContext","commander boundary small-class","OnConfiguring","command collaborator"
+"Initial","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Initial","pure-controller degenerate","Up","controller stateless"
+"Initial","pure-controller degenerate","Down","controller stateless"
+"Initial","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Initial","pure-controller degenerate","Up","controller stateless"
+"Initial","pure-controller degenerate","Down","controller stateless"
+"DeviceNotes","pure-controller degenerate","BuildTargetModel","controller stateless"
+"DeviceNotes","pure-controller degenerate","Up","controller stateless"
+"DeviceNotes","pure-controller degenerate","Down","controller stateless"
+"Manytomany","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Manytomany","pure-controller degenerate","Up","controller stateless"
+"Manytomany","pure-controller degenerate","Down","controller stateless"
+"Manytomany","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Manytomany","pure-controller degenerate","Up","controller stateless"
+"Manytomany","pure-controller degenerate","Down","controller stateless"
+"Manytomany","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Manytomany","pure-controller degenerate","Up","controller stateless"
+"Manytomany","pure-controller degenerate","Down","controller stateless"
+"WebRtcSetting","pure-controller degenerate","BuildTargetModel","controller stateless"
+"WebRtcSetting","pure-controller degenerate","Up","controller stateless"
+"WebRtcSetting","pure-controller degenerate","Down","controller stateless"
+"WebRtcSetting","pure-controller degenerate","BuildTargetModel","controller stateless"
+"WebRtcSetting","pure-controller degenerate","Up","controller stateless"
+"WebRtcSetting","pure-controller degenerate","Down","controller stateless"
+"WebRtcSetting","pure-controller degenerate","BuildTargetModel","controller stateless"
+"WebRtcSetting","pure-controller degenerate","Up","controller stateless"
+"WebRtcSetting","pure-controller degenerate","Down","controller stateless"
+"IsSponsorproperty","pure-controller degenerate","BuildTargetModel","controller stateless"
+"IsSponsorproperty","pure-controller degenerate","Up","controller stateless"
+"IsSponsorproperty","pure-controller degenerate","Down","controller stateless"
+"IsSponsorproperty","pure-controller degenerate","BuildTargetModel","controller stateless"
+"IsSponsorproperty","pure-controller degenerate","Up","controller stateless"
+"IsSponsorproperty","pure-controller degenerate","Down","controller stateless"
+"IsSponsorproperty","pure-controller degenerate","BuildTargetModel","controller stateless"
+"IsSponsorproperty","pure-controller degenerate","Up","controller stateless"
+"IsSponsorproperty","pure-controller degenerate","Down","controller stateless"
+"AddScriptSchedules","pure-controller degenerate","BuildTargetModel","controller stateless"
+"AddScriptSchedules","pure-controller degenerate","Up","controller stateless"
+"AddScriptSchedules","pure-controller degenerate","Down","controller stateless"
+"AddScriptSchedules","pure-controller degenerate","BuildTargetModel","controller stateless"
+"AddScriptSchedules","pure-controller degenerate","Up","controller stateless"
+"AddScriptSchedules","pure-controller degenerate","Down","controller stateless"
+"AddScriptSchedules","pure-controller degenerate","BuildTargetModel","controller stateless"
+"AddScriptSchedules","pure-controller degenerate","Up","controller stateless"
+"AddScriptSchedules","pure-controller degenerate","Down","controller stateless"
+"SelectedCardsStore","unclassified","Add","predicate non-void-command"
+"SelectedCardsStore","unclassified","Clear","command"
+"SelectedCardsStore","unclassified","Contains","predicate non-void-command"
+"SelectedCardsStore","unclassified","InvokeSelectionsChanged","wrapper"
+"SelectedCardsStore","unclassified","Remove","predicate non-void-command"
+"SelectedCardsStore","unclassified","get","property non-void-command collaborator"
+"ToastService","entity commander boundary","ShowToast","command collaborator"
+"ToastService","entity commander boundary","ShowToast2","command collaborator"
+"ToastService","entity commander boundary","get","property non-void-command collaborator"
+"RemovedeprecatedWebRTC","pure-controller degenerate","BuildTargetModel","controller stateless"
+"RemovedeprecatedWebRTC","pure-controller degenerate","Up","controller stateless"
+"RemovedeprecatedWebRTC","pure-controller degenerate","Down","controller stateless"
+"RemovedeprecatedWebRTC","pure-controller degenerate","BuildTargetModel","controller stateless"
+"RemovedeprecatedWebRTC","pure-controller degenerate","Up","controller stateless"
+"RemovedeprecatedWebRTC","pure-controller degenerate","Down","controller stateless"
+"RemovedeprecatedWebRTC","pure-controller degenerate","BuildTargetModel","controller stateless"
+"RemovedeprecatedWebRTC","pure-controller degenerate","Up","controller stateless"
+"RemovedeprecatedWebRTC","pure-controller degenerate","Down","controller stateless"
+"Alerts","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Alerts","pure-controller degenerate","Up","controller stateless"
+"Alerts","pure-controller degenerate","Down","controller stateless"
+"BrandingProvider","entity commander boundary","BrandingProvider","copy-constructor"
+"BrandingProvider","entity commander boundary","Initialize","non-void-command collaborator"
+"BrandingProvider","entity commander boundary","SetBrandingInfo","set collaborator"
+"BrandingProvider","entity commander boundary","TryGetBrandingInfo","property non-void-command collaborator"
+"Brandingfix","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Brandingfix","pure-controller degenerate","Up","controller stateless"
+"Brandingfix","pure-controller degenerate","Down","controller stateless"
+"Brandingfix","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Brandingfix","pure-controller degenerate","Up","controller stateless"
+"Brandingfix","pure-controller degenerate","Down","controller stateless"
+"Brandingfix","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Brandingfix","pure-controller degenerate","Up","controller stateless"
+"Brandingfix","pure-controller degenerate","Down","controller stateless"
+"ExpiringTokenService","entity boundary small-class","GetToken","property non-void-command collaborator"
+"ExpiringTokenService","entity boundary small-class","TryGetExpiration","predicate non-void-command collaborator"
+"Enable_NullableReferences","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Enable_NullableReferences","pure-controller degenerate","Up","controller stateless"
+"Enable_NullableReferences","pure-controller degenerate","Down","controller stateless"
+"Enable_NullableReferences","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Enable_NullableReferences","pure-controller degenerate","Up","controller stateless"
+"Enable_NullableReferences","pure-controller degenerate","Down","controller stateless"
+"Enable_NullableReferences","pure-controller degenerate","BuildTargetModel","controller stateless"
+"Enable_NullableReferences","pure-controller degenerate","Up","controller stateless"
+"Enable_NullableReferences","pure-controller degenerate","Down","controller stateless"
+"InitialCreate","pure-controller degenerate","BuildTargetModel","controller stateless"
+"InitialCreate","pure-controller degenerate","Up","controller stateless"
+"InitialCreate","pure-controller degenerate","Down","controller stateless"
+"ManualTests","boundary","CaptureTest","non-void-command collaborator"
+"ManualTests","boundary","EncodingTests","command collaborator"
+"ManualTests","boundary","CaptureAndEncodeSpeedTest","command collaborator"
+"ManualTests","boundary","DiffSpeedTests","controller stateless"
+"ManualTests","boundary","EncodeSpeedTest","controller stateless"
+"ManualTests","boundary","GetDiffAreaTest","wrapper stateless"
+"ManualTests","boundary","GetImageDiffTest","wrapper stateless"
+"ManualTests","boundary","Init","command"
+"Add_KeyValueRecords","degenerate","BuildTargetModel","controller stateless"
+"Add_KeyValueRecords","degenerate","Up","controller stateless"
+"Add_KeyValueRecords","degenerate","Down","controller stateless"
+"Add_KeyValueRecords","degenerate","BuildTargetModel","controller stateless"
+"Add_KeyValueRecords","degenerate","Up","controller stateless"
+"Add_KeyValueRecords","degenerate","Down","controller stateless"
+"Add_KeyValueRecords","degenerate","BuildTargetModel","controller stateless"
+"Add_KeyValueRecords","degenerate","Up","collaborator incidental"
+"Add_KeyValueRecords","degenerate","Down","controller stateless"
+"PostgreSqlDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"PublicIP","pure-controller degenerate","BuildTargetModel","controller stateless"
+"PublicIP","pure-controller degenerate","Up","controller stateless"
+"PublicIP","pure-controller degenerate","Down","controller stateless"
+"SqliteDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"Toast","empty","Toast","constructor"
+"AgentHubSessionCache","entity boundary","AddOrUpdateByConnectionId","command collaborator"
+"AgentHubSessionCache","entity boundary","FilterDevicesByOnlineStatus","property non-void-command collaborator"
+"AgentHubSessionCache","entity boundary","GetConnectionIdsByDeviceIds","collaborator incidental"
+"AgentHubSessionCache","entity boundary","TryGetByDeviceId","predicate non-void-command collaborator"
+"AgentHubSessionCache","entity boundary","TryGetConnectionId","predicate non-void-command"
+"AgentHubSessionCache","entity boundary","TryRemoveByConnectionId","predicate non-void-command collaborator"
+"AuthService","entity boundary small-class","AuthService","constructor"
+"AuthService","entity boundary small-class","IsAuthenticated","property non-void-command collaborator"
+"AuthService","entity boundary small-class","GetUser","property non-void-command collaborator"
+"EmbeddedServerDataReader","entity boundary small-class","TryGetEmbeddedData","property non-void-command collaborator"
+"AddAlertDetails","pure-controller degenerate","BuildTargetModel","controller stateless"
+"AddAlertDetails","pure-controller degenerate","Up","controller stateless"
+"AddAlertDetails","pure-controller degenerate","Down","controller stateless"
+"AddAlertDetails","pure-controller degenerate","BuildTargetModel","controller stateless"
+"AddAlertDetails","pure-controller degenerate","Up","controller stateless"
+"AddAlertDetails","pure-controller degenerate","Down","controller stateless"
+"AddAlertDetails","pure-controller degenerate","BuildTargetModel","controller stateless"
+"AddAlertDetails","pure-controller degenerate","Up","controller stateless"
+"AddAlertDetails","pure-controller degenerate","Down","controller stateless"
+"DataCleanupService","commander boundary","DataCleanupService","copy-constructor"
+"DataCleanupService","commander boundary","ExecuteAsync","non-void-command collaborator"
+"DataCleanupService","commander boundary","PerformCleanup","non-void-command collaborator"
+"DataCleanupService","commander boundary","RemoveExpiredDbRecords","non-void-command collaborator"
+"DataCleanupService","commander boundary","RemoveExpiredRecordings","non-void-command collaborator"
+"DataService","entity boundary","DataService","copy-constructor"
+"DataService","entity boundary","AddAlert","non-void-command collaborator"
+"DataService","entity boundary","AddDeviceGroup","property non-void-command collaborator"
+"DataService","entity boundary","AddDeviceToGroup","property non-void-command collaborator"
+"DataService","entity boundary","AddInvite","property non-void-command collaborator"
+"DataService","entity boundary","AddOrUpdateDevice","property non-void-command collaborator"
+"EmailSender","entity boundary small-class","EmailSender","copy-constructor"
+"EmailSender","entity boundary small-class","SendEmailAsync","property non-void-command collaborator"
+"Uninstaller","boundary degenerate small-class","UninstallAgent","wrapper stateless"
+"AgentHubConnection","entity commander boundary","AgentHubConnection","copy-constructor"
+"AgentHubConnection","entity commander boundary","ChangeWindowsSession","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","Connect","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","DeleteLogs","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","Dispose","command"
+"AgentHubConnection","entity commander boundary","ExecuteCommand","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","ExecuteCommandFromApi","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","GetLogs","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","GetPowerShellCompletions","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","InvokeCtrlAltDel","property non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","ReinstallAgent","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","RemoteControl","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","RestartScreenCaster","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","RunScript","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","SendChatMessage","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","SendHeartbeat","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","TransferFileFromBrowserToAgent","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","UninstallAgent","property non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","WakeDevice","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","CheckForServerMigration","property non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","EnsureHubConnection","wrapper"
+"AgentHubConnection","entity commander boundary","HeartbeatTimer_Elapsed","command collaborator"
+"AgentHubConnection","entity commander boundary","HubConnection_Reconnected","non-void-command collaborator"
+"AgentHubConnection","entity commander boundary","RegisterMessageHandlers","command"
+"AgentHubConnection","entity commander boundary","VerifyServer","property non-void-command collaborator"
+"PsCoreShell","unclassified","PsCoreShell","copy-constructor"
+"PsCoreShell","unclassified","Dispose","command"
+"PsCoreShell","unclassified","GetCompletions","get non-void-command collaborator"
+"PsCoreShell","unclassified","WriteInput","property non-void-command factory collaborator"
+"PsCoreShell","unclassified","Dispose","set"
+"EmailSenderEx","entity boundary","EmailSenderEx","copy-constructor"
+"EmailSenderEx","entity boundary","SendConfirmationLinkAsync","non-void-command collaborator"
+"EmailSenderEx","entity boundary","SendEmailAsync","property non-void-command collaborator"
+"EmailSenderEx","entity boundary","SendEmailAsync","property non-void-command collaborator"
+"EmailSenderEx","entity boundary","SendPasswordResetCodeAsync","non-void-command collaborator"
+"EmailSenderEx","entity boundary","SendPasswordResetLinkAsync","wrapper stateless"
+"LogsManager","boundary","DeleteLogs","non-void-command collaborator"
+"LogsManager","boundary","GetLogs","property non-void-command collaborator"
+"LogsManager","boundary","GetLogsDirectory","wrapper stateless"
+"LogsManager","boundary","ZipAllLogs","property non-void-command factory collaborator"
+"LogsManager","boundary","GetLines","controller stateless"
+"LogsManager","boundary","TryGetLogLevel","wrapper stateless"
+"ReplaceDbLoggerwithSerilog","pure-controller degenerate","BuildTargetModel","controller stateless"
+"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Up","controller stateless"
+"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Down","controller stateless"
+"ReplaceDbLoggerwithSerilog","pure-controller degenerate","BuildTargetModel","controller stateless"
+"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Up","controller stateless"
+"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Down","controller stateless"
+"ReplaceDbLoggerwithSerilog","pure-controller degenerate","BuildTargetModel","controller stateless"
+"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Up","controller stateless"
+"ReplaceDbLoggerwithSerilog","pure-controller degenerate","Down","controller stateless"
+"PascalCasePolicy","pure-controller degenerate small-class","ConvertName","controller stateless"
+"HubEventHandler","entity boundary degenerate","HubEventHandler","copy-constructor"
+"HubEventHandler","entity boundary degenerate","ChangeWindowsSession","property non-void-command collaborator"
+"HubEventHandler","entity boundary degenerate","InvokeCtrlAltDel","property non-void-command collaborator"
+"HubEventHandler","entity boundary degenerate","NotifyDesktopSessionAdded","collaborator incidental"
+"HubEventHandler","entity boundary degenerate","NotifyDesktopSessionDisposed","collaborator incidental"
+"HubEventHandler","entity boundary degenerate","NotifyDesktopSessionRemoved","collaborator incidental"
+"HubEventHandler","entity boundary degenerate","NotifyRemoteControlEnded","collaborator incidental"
+"HubEventHandler","entity boundary degenerate","NotifyRemoteControlStarted","collaborator incidental"
+"HubEventHandler","entity boundary degenerate","NotifySessionChanged","property non-void-command collaborator"
+"HubEventHandler","entity boundary degenerate","RestartScreenCaster","non-void-command collaborator"
+"ExternalScriptingShell","entity commander boundary","ExternalScriptingShell","copy-constructor"
+"ExternalScriptingShell","entity commander boundary","Dispose","command"
+"ExternalScriptingShell","entity commander boundary","Init","non-void-command collaborator"
+"ExternalScriptingShell","entity commander boundary","WriteInput","property non-void-command collaborator"
+"ExternalScriptingShell","entity commander boundary","Dispose","command"
+"ExternalScriptingShell","entity commander boundary","GenerateCompletedResult","property non-void-command factory collaborator"
+"ExternalScriptingShell","entity commander boundary","GeneratePartialResult","non-void-command factory collaborator"
+"ExternalScriptingShell","entity commander boundary","ProcessIdleTimeout_Elapsed","command collaborator"
+"ExternalScriptingShell","entity commander boundary","ShellProcess_ErrorDataReceived","set collaborator"
+"ExternalScriptingShell","entity commander boundary","ShellProcess_OutputDataReceived","set collaborator"
+"ViewerAuthorizer","entity boundary small-class","ViewerAuthorizer","constructor"
+"ViewerAuthorizer","entity boundary small-class","IsAuthorized","property non-void-command collaborator"
+"ViewerPageDataProvider","entity boundary degenerate","ViewerPageDataProvider","constructor"
+"ViewerPageDataProvider","entity boundary degenerate","GetFaviconUrl","wrapper stateless"
+"ViewerPageDataProvider","entity boundary degenerate","GetLogoUrl","property non-void-command collaborator"
+"ViewerPageDataProvider","entity boundary degenerate","GetPageDescription","wrapper stateless"
+"ViewerPageDataProvider","entity boundary degenerate","GetPageTitle","wrapper stateless"
+"ViewerPageDataProvider","entity boundary degenerate","GetTheme","wrapper stateless"
+"ViewerPageDataProvider","entity boundary degenerate","GetUserDisplayName","property non-void-command collaborator"
+"ScriptScheduleDispatcher","entity boundary","ScriptScheduleDispatcher","copy-constructor"
+"ScriptScheduleDispatcher","entity boundary","DispatchPendingScriptRuns","non-void-command collaborator"
+"ScriptScheduleDispatcher","entity boundary","AdvanceSchedule","predicate non-void-command collaborator"
+"ScriptScheduleDispatcher","entity boundary","CatchUpNextRun","collaborator incidental"
+"ScriptScheduler","entity commander boundary","ScriptScheduler","constructor"
+"ScriptScheduler","entity commander boundary","Dispose","command"
+"ScriptScheduler","entity commander boundary","StartAsync","property non-void-command collaborator"
+"ScriptScheduler","entity commander boundary","StopAsync","property non-void-command collaborator"
+"ScriptScheduler","entity commander boundary","SchedulerTimer_Elapsed","command collaborator"
+"ScriptScheduler","entity commander boundary","DispatchScriptRuns","non-void-command collaborator"
+"AgentHubTests","commander boundary","DeviceCameOnline_BannedByName","non-void-command collaborator"
+"AgentHubTests","commander boundary","DeviceCameOnline_BannedById","non-void-command collaborator"
+"AgentHubTests","commander boundary","TestCleanup","command"
+"AgentHubTests","commander boundary","TestInit","non-void-command collaborator"
+"TerminalStore","commander","AddTerminalHistory","command"
+"TerminalStore","commander","AddTerminalLine","command"
+"TerminalStore","commander","GetTerminalHistory","property non-void-command"
+"TerminalStore","commander","InvokeLinesChanged","wrapper"
+"ElevationDetectorLinux","boundary degenerate small-class","IsElevated","wrapper stateless"
+"RemoteControlController","entity boundary","RemoteControlController","copy-constructor"
+"RemoteControlController","entity boundary","Get","property non-void-command collaborator"
+"RemoteControlController","entity boundary","Post","property non-void-command collaborator"
+"RemoteControlController","entity boundary","InitiateRemoteControl","property non-void-command factory collaborator"
+"ServerAdminRequirementHandler","commander boundary small-class","ServerAdminRequirementHandler","constructor"
+"ServerAdminRequirementHandler","commander boundary small-class","HandleRequirementAsync","non-void-command collaborator"
+"DeviceInfoGeneratorBase","factory degenerate small-class","DeviceInfoGeneratorBase","copy-constructor"
+"DeviceInfoGeneratorBase","factory degenerate small-class","GetDeviceBase","factory wrapper stateless"
+"ChatHistoryItem","data-provider small-class","get","property"
+"ServerLogsController","entity boundary small-class","ServerLogsController","copy-constructor"
+"ServerLogsController","entity boundary small-class","Download","property non-void-command collaborator"
+"MessengerSubscriber","entity boundary","Dispose","wrapper"
+"MessengerSubscriber","entity boundary","Register<TMessage,TChannel>","property non-void-command collaborator"
+"MessengerSubscriber","entity boundary","Register<TMessage>","property non-void-command collaborator"
+"PwshCompletionResult","empty","PwshCompletionResult","constructor"
+"PwshCompletionResult","empty","PwshCompletionResult","copy-constructor"
+"Conductor","commander boundary lazy-class","InvokeScreenCastRequested","wrapper stateless"
+"Conductor","commander boundary lazy-class","InvokeViewerAdded","wrapper stateless"
+"Conductor","commander boundary lazy-class","InvokeViewerRemoved","wrapper stateless"
+"Conductor","commander boundary lazy-class","ProcessArgs","command collaborator"
+"Conductor","commander boundary lazy-class","UpdateHost","set"
+"Conductor","commander boundary lazy-class","UpdateOrganizationId","set"
+"ElevationDetectorWin","boundary degenerate small-class","IsElevated","wrapper stateless"
+"EmbeddedServerDataProvider","degenerate small-class","GetEncodedFileName","wrapper stateless"
+"EmbeddedServerDataProvider","degenerate small-class","TryGetEmbeddedData","controller stateless"
+"RenameBrandingProps","pure-controller degenerate","BuildTargetModel","controller stateless"
+"RenameBrandingProps","pure-controller degenerate","Up","controller stateless"
+"RenameBrandingProps","pure-controller degenerate","Down","controller stateless"
+"RenameBrandingProps","pure-controller degenerate","BuildTargetModel","controller stateless"
+"RenameBrandingProps","pure-controller degenerate","Up","controller stateless"
+"RenameBrandingProps","pure-controller degenerate","Down","controller stateless"
+"RenameBrandingProps","pure-controller degenerate","BuildTargetModel","controller stateless"
+"RenameBrandingProps","pure-controller degenerate","Up","controller stateless"
+"RenameBrandingProps","pure-controller degenerate","Down","controller stateless"
+"FileLogger","boundary","FileLogger","constructor"
+"FileLogger","boundary","BeginScope<TState>","property non-void-command factory collaborator"
+"FileLogger","boundary","IsEnabled","collaborator incidental"
+"FileLogger","boundary","Log<TState>","command collaborator"
+"FileLogger","boundary","CheckLogFileExists","wrapper stateless"
+"FileLogger","boundary","CleanupLogs","set collaborator"
+"FileLogger","boundary","FormatLogEntry","controller stateless"
+"FileLoggerProvider","small-class","FileLoggerProvider","constructor"
+"FileLoggerProvider","small-class","CreateLogger","property factory collaborator"
+"FileLoggerProvider","small-class","Dispose","wrapper"

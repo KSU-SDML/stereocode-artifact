@@ -1,385 +1,375 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"RecalculateBoundsJob","commander boundary data-class small-class","Execute","set collaborator",
-"ElasticPointsUpdateJob","commander boundary small-class","Execute","command collaborator",
-"ElasticDeformable","commander","AllocateData","set",
-"ElasticDeformable","commander","DisposeData","command",
-"ElasticDeformable","commander","ApplyData","command",
-"ElasticDeformable","commander","Reset","set",
-"RepeaterDeformer","boundary data-class small-class","Process","property set collaborator",
-"GroupDeformer","unclassified","PreProcess","controller",
-"GroupDeformer","unclassified","AddDeformer","command",
-"GroupDeformer","unclassified","RemoveDeformer","command collaborator",
-"AutoGroupDeformer","unclassified","OnEnable","command",
-"AutoGroupDeformer","unclassified","Update","command",
-"AutoGroupDeformer","unclassified","Refresh","command",
-"AutoGroupDeformer","unclassified","GetGroupSize","get property",
-"AutoGroupDeformer","unclassified","PreProcess","controller",
-"TwirlDeformerEditor","commander","OnEnable","command",
-"TwirlDeformerEditor","commander","OnInspectorGUI","command",
-"TwirlDeformerEditor","commander","OnSceneGUI","command collaborator",
-"TwirlDeformerEditor","commander","DrawAngleHandle","void-accessor command collaborator",
-"TaperDeformerEditor","commander boundary","OnEnable","command",
-"TaperDeformerEditor","commander boundary","OnInspectorGUI","command",
-"TaperDeformerEditor","commander boundary","OnSceneGUI","command collaborator",
-"TaperDeformerEditor","commander boundary","DrawTopFactorHandles","wrapper stateless",
-"TaperDeformerEditor","commander boundary","DrawBottomFactorHandles","wrapper stateless",
-"SkewDeformerEditor","commander","OnEnable","command",
-"SkewDeformerEditor","commander","OnInspectorGUI","command",
-"SkewDeformerEditor","commander","OnSceneGUI","command collaborator",
-"SkewDeformerEditor","commander","DrawFactorHandle","wrapper stateless",
-"StarDeformerEditor","commander small-class","OnEnable","set",
-"StarDeformerEditor","commander small-class","OnInspectorGUI","command",
-"SquashAndStretchDeformerEditor","commander","OnEnable","command",
-"SquashAndStretchDeformerEditor","commander","OnInspectorGUI","command",
-"SquashAndStretchDeformerEditor","commander","OnSceneGUI","command collaborator",
-"WaveDeformerEditor","commander small-class","OnEnable","set",
-"WaveDeformerEditor","commander small-class","OnInspectorGUI","command",
-"SpherifyDeformerEditor","commander boundary","OnEnable","set",
-"SpherifyDeformerEditor","commander boundary","OnInspectorGUI","command",
-"SpherifyDeformerEditor","commander boundary","OnSceneGUI","command collaborator",
-"SpherifyDeformerEditor","commander boundary","DrawRadiusHandle","wrapper stateless",
-"SpherifyDeformerEditor","commander boundary","DrawFactorHandle","wrapper stateless",
-"RippleDeformerEditor","commander boundary","OnEnable","command",
-"RippleDeformerEditor","commander boundary","OnInspectorGUI","command",
-"RippleDeformerEditor","commander boundary","OnSceneGUI","command collaborator",
-"RippleDeformerEditor","commander boundary","DrawMagnitudeHandle","wrapper stateless",
-"RippleDeformerEditor","commander boundary","DrawCurve","void-accessor command collaborator",
-"RippleDeformerEditor","commander boundary","RipplePoint","controller stateless",
-"AddFloat3ToFloat3sJob","commander data-class small-class","Execute","set",
-"VerticalGradientMaskEditor","commander small-class","OnEnable","set",
-"VerticalGradientMaskEditor","commander small-class","OnInspectorGUI","command",
-"LatticeDeformerEditor","commander boundary","OnEnable","command collaborator",
-"LatticeDeformerEditor","commander boundary","UndoRedoPerformed","set collaborator",
-"LatticeDeformerEditor","commander boundary","OnInspectorGUI","command collaborator",
-"LatticeDeformerEditor","commander boundary","OnSceneGUI","command collaborator",
-"LatticeDeformerEditor","commander boundary","DeselectAll","command",
-"LatticeDeformerEditor","commander boundary","BeginSelectionChangeRegion","set",
-"LatticeDeformerEditor","commander boundary","EndSelectionChangeRegion","set",
-"LatticeDeformerEditor","commander boundary","CacheOriginalPositions","command",
-"LatticeDeformerEditor","commander boundary","CacheResizePositionsFromChange","command collaborator",
-"LatticeDeformerEditor","commander boundary","DrawLattice","controller stateless",
-"LatticeDeformerEditor","commander boundary","get","incidental",
-"SphereMaskEditor","commander boundary","OnEnable","set",
-"SphereMaskEditor","commander boundary","OnInspectorGUI","command",
-"SphereMaskEditor","commander boundary","OnSceneGUI","command collaborator",
-"SphereMaskEditor","commander boundary","DrawInnerRadiusHandle","wrapper stateless",
-"SphereMaskEditor","commander boundary","DrawOuterRadiusHandle","wrapper stateless",
-"VertexColorMaskEditor","commander small-class","OnEnable","set",
-"VertexColorMaskEditor","commander small-class","OnInspectorGUI","command",
-"MagnetDeformerEditor","commander small-class","OnEnable","set",
-"MagnetDeformerEditor","commander small-class","OnInspectorGUI","command",
-"TransformOffsetDeformer","boundary small-class","get","get set collaborator",
-"ScaleDeformerEditor","commander small-class","OnEnable","set",
-"ScaleDeformerEditor","commander small-class","OnInspectorGUI","command",
-"CollapsibleSection","empty","CollapsibleSection","constructor",
-"MeltDeformer","entity data-class small-class","Process","property non-void-command factory collaborator",
-"MeltDeformer","entity data-class small-class","get","get set collaborator",
-"DeformModelPostProcessor","degenerate small-class","OnPreprocessModel","incidental",
-"TextureDisplaceDeformerEditor","commander","OnEnable","set",
-"TextureDisplaceDeformerEditor","commander","OnInspectorGUI","command",
-"TextureDisplaceDeformerEditor","commander","MarkTargetsTextureDirty","wrapper stateless",
-"bounds","boundary","bounds","constructor",
-"bounds","boundary","setminmax","command collaborator",
-"bounds","boundary","encapsulate","wrapper",
-"bounds","boundary","encapsulate","void-accessor command",
-"bounds","boundary","expand","set",
-"bounds","boundary","expand","set collaborator",
-"bounds","boundary","intersects","predicate",
-"bounds","boundary","contains","predicate collaborator",
-"bounds","boundary","closestsurfacepoint","property non-void-command collaborator",
-"bounds","boundary","GetHashCode","property non-void-command",
-"bounds","boundary","Equals","predicate non-void-command collaborator",
-"bounds","boundary","Equals","predicate non-void-command collaborator",
-"BendDeformer","entity boundary data-class","Process","property non-void-command factory collaborator",
-"BendDeformer","entity boundary data-class","get","get set collaborator",
-"BendDeformer","entity boundary data-class","set","set collaborator",
-"RippleDeformer","data-class","Update","set",
-"RippleDeformer","data-class","GetTotalOffset","property",
-"RippleDeformer","data-class","get","get set collaborator",
-"DeformEditorSettingsAssetInspector","commander small-class","OnInspectorGUI","command",
-"VertexCacheEditor","commander boundary small-class","OnInspectorGUI","command collaborator",
-"DeformableManagerEditor","commander small-class","OnEnable","set",
-"DeformableManagerEditor","commander small-class","OnInspectorGUI","wrapper",
-"NoiseDeformerEditor","commander small-class","OnEnable","set",
-"NoiseDeformerEditor","commander small-class","OnInspectorGUI","command",
-"DeformerElement","small-class","DeformerElement","constructor",
-"DeformerElement","small-class","DeformerElement","constructor",
-"DeformerElement","small-class","CanProcess","predicate non-void-command",
-"CylindrifyDeformerEditor","commander boundary","OnEnable","set",
-"CylindrifyDeformerEditor","commander boundary","OnInspectorGUI","command",
-"CylindrifyDeformerEditor","commander boundary","OnSceneGUI","command collaborator",
-"CylindrifyDeformerEditor","commander boundary","DrawFactorHandle","wrapper stateless",
-"CylindrifyDeformerEditor","commander boundary","DrawRadiusHandle","wrapper stateless",
-"CurveDisplaceDeformer","commander","OnDisable","command",
-"CurveDisplaceDeformer","commander","PreProcess","command",
-"CurveDisplaceDeformer","commander","get","get set collaborator",
-"TransformOffsetDeformerEditor","commander small-class","OnEnable","set",
-"TransformOffsetDeformerEditor","commander small-class","OnInspectorGUI","command",
-"BoxMaskEditor","entity commander boundary","OnEnable","set",
-"BoxMaskEditor","entity commander boundary","OnInspectorGUI","command collaborator",
-"BoxMaskEditor","entity commander boundary","OnSceneGUI","command collaborator",
-"BoxMaskEditor","entity commander boundary","DrawInnerBoundsHandle","void-accessor command collaborator",
-"BoxMaskEditor","entity commander boundary","DrawOuterBoundsHandle","void-accessor command collaborator",
-"BoxMaskEditor","entity commander boundary","EnforcePositiveExtents","wrapper stateless",
-"TextureDisplaceDeformer","commander","OnEnable","set",
-"TextureDisplaceDeformer","commander","OnDisable","command",
-"TextureDisplaceDeformer","commander","MarkTextureDataDirty","set",
-"TextureDisplaceDeformer","commander","ForceUpdateNativeData","command",
-"TextureDisplaceDeformer","commander","Process","property non-void-command factory collaborator",
-"TextureDisplaceDeformer","commander","set","non-void-command collaborator",
-"TextureDisplaceDeformer","commander","get","get set collaborator",
-"TransformPointsJob","commander data-class small-class","Execute","set",
-"DeformerEditor","commander","OnEnable","set",
-"DeformerEditor","commander","OnInspectorGUI","wrapper",
-"DeformerEditor","commander","OnSceneGUI","empty",
-"NormalizeNormalsJob","commander data-class small-class","Execute","set",
-"LatheDisplaceDeformerEditor","commander","OnEnable","set",
-"LatheDisplaceDeformerEditor","commander","OnInspectorGUI","command",
-"LatheDisplaceDeformerEditor","commander","OnSceneGUI","command collaborator",
-"CreditsWindow","boundary small-class","OnGUI","wrapper",
-"ReorderableComponentElementList<T>","commander boundary","ReorderableComponentElementList","constructor",
-"ReorderableComponentElementList<T>","commander boundary","SceneGUI","command collaborator",
-"ReorderableComponentElementList<T>","commander boundary","DoLayoutList","command collaborator",
-"ReorderableComponentElementList<T>","commander boundary","Dispose","set",
-"ResetNormalsJob","commander data-class small-class","Execute","set",
-"EditorChangeScope","commander small-class","EditorChangeScope","constructor",
-"EditorChangeScope","commander small-class","Dispose","command",
-"BoundedBendDeformerEditor","commander","OnEnable","set",
-"BoundedBendDeformerEditor","commander","OnInspectorGUI","command",
-"BoundedBendDeformerEditor","commander","OnSceneGUI","command collaborator",
-"BoundedBendDeformerEditor","commander","DrawAngleHandle","void-accessor command collaborator",
-"DeformEditorSettings","data-provider boundary lazy-class degenerate","get","get wrapper",
-"DeformEditorSettings","data-provider boundary lazy-class degenerate","set","wrapper stateless",
-"DeformEditorSettings","data-provider boundary lazy-class degenerate","set","wrapper stateless",
-"DeformEditorSettings","data-provider boundary lazy-class degenerate","set","wrapper stateless",
-"DeformEditorSettings","data-provider boundary lazy-class degenerate","set","wrapper stateless",
-"DeformEditorSettings","data-provider boundary lazy-class degenerate","set","wrapper stateless",
-"DeformEditorSettings","data-provider boundary lazy-class degenerate","set","wrapper stateless",
-"DeformEditorSettings","data-provider boundary lazy-class degenerate","set","wrapper stateless",
-"DeformEditorSettings","data-provider boundary lazy-class degenerate","set","wrapper stateless",
-"AddTriangleNormalToNormalsJob","commander boundary small-class","Execute","command collaborator",
-"CreatorWindow","commander","OnEnable","set",
-"CreatorWindow","commander","OnDisable","incidental",
-"CreatorWindow","commander","OnGUI","command collaborator",
-"SpherifyDeformer","entity data-class small-class","Process","property non-void-command factory collaborator",
-"SpherifyDeformer","entity data-class small-class","get","get set collaborator",
-"CubifyDeformer","entity data-class small-class","Process","property non-void-command factory collaborator",
-"CubifyDeformer","entity data-class small-class","get","get set collaborator",
-"BendDeformerEditor","commander","OnEnable","command",
-"BendDeformerEditor","commander","OnInspectorGUI","command",
-"BendDeformerEditor","commander","OnSceneGUI","command collaborator",
-"BendDeformerEditor","commander","DrawAngleHandle","void-accessor command collaborator",
-"AutoGroupDeformerEditor","commander small-class","OnEnable","set",
-"AutoGroupDeformerEditor","commander small-class","OnInspectorGUI","command collaborator",
-"TwistDeformer","boundary small-class","get","get set collaborator",
-"RadialSkewDeformerEditor","commander boundary","OnEnable","set",
-"RadialSkewDeformerEditor","commander boundary","OnInspectorGUI","command",
-"RadialSkewDeformerEditor","commander boundary","OnSceneGUI","command collaborator",
-"RadialSkewDeformerEditor","commander boundary","DrawAxisGuide","wrapper stateless",
-"RadialSkewDeformerEditor","commander boundary","DrawBoundsHandles","wrapper stateless",
-"RadialSkewDeformerEditor","commander boundary","DrawFactorHandle","wrapper stateless",
-"RadialCurveDeformer","unclassified","OnDisable","command",
-"RadialCurveDeformer","unclassified","PreProcess","command",
-"RadialCurveDeformer","unclassified","Process","property non-void-command factory collaborator",
-"RadialCurveDeformer","unclassified","get","get set collaborator",
-"TransformDeformer","boundary small-class","get","get set collaborator",
-"BlendDeformerEditor","commander small-class","OnEnable","set",
-"BlendDeformerEditor","commander small-class","OnInspectorGUI","command collaborator",
-"WaveDeformer","data-class","Update","set",
-"WaveDeformer","data-class","GetTotalOffset","property",
-"WaveDeformer","data-class","get","get set collaborator",
-"CurveDisplaceDeformerEditor","commander","OnEnable","set",
-"CurveDisplaceDeformerEditor","commander","OnInspectorGUI","command",
-"CurveDisplaceDeformerEditor","commander","OnSceneGUI","command collaborator",
-"RepeaterDeformerEditor","commander","OnEnable","command",
-"RepeaterDeformerEditor","commander","OnDisable","command",
-"RepeaterDeformerEditor","commander","OnInspectorGUI","command collaborator",
-"RepeaterDeformerEditor","commander","SceneGUI","command collaborator",
-"RepeaterDeformerEditor","commander","Dispose","set",
-"LatticeDeformer","boundary","Reset","command",
-"LatticeDeformer","boundary","FitBoundsToParentDeformable","controller stateless",
-"LatticeDeformer","boundary","GenerateControlPoints","command collaborator",
-"LatticeDeformer","boundary","GenerateControlPoints","void-accessor command collaborator",
-"LatticeDeformer","boundary","GetIndex","property",
-"LatticeDeformer","boundary","GetIndex","incidental",
-"LatticeDeformer","boundary","GetControlPoint","get non-void-command collaborator",
-"LatticeDeformer","boundary","SetControlPoint","set collaborator",
-"LatticeDeformer","boundary","get","controller stateless",
-"TransformPointsFromJob","commander data-class small-class","Execute","set",
-"DeformableEditor","unclassified","OnEnable","command",
-"DeformableEditor","unclassified","OnDisable","command",
-"DeformableEditor","unclassified","OnInspectorGUI","command",
-"DeformableEditor","unclassified","DrawMainSettings","command collaborator",
-"DeformableEditor","unclassified","DrawDeformersList","command collaborator",
-"DeformableEditor","unclassified","DrawUtilityToolbar","controller stateless",
-"DeformableEditor","unclassified","DrawDebugInfo","set collaborator",
-"DeformableEditor","unclassified","DrawHelpBoxes","controller stateless",
-"DeformableEditor","unclassified","OnSceneGUI","controller",
-"TransformDeformerEditor","commander small-class","OnEnable","set",
-"TransformDeformerEditor","commander small-class","OnInspectorGUI","command",
-"RadialSkewDeformer","entity data-class small-class","Process","property non-void-command factory collaborator",
-"RadialSkewDeformer","entity data-class small-class","get","get set collaborator",
-"RadialCurveDeformerEditor","commander small-class","OnEnable","set",
-"RadialCurveDeformerEditor","commander small-class","OnInspectorGUI","command",
-"MeltDeformerEditor","commander","OnEnable","command",
-"MeltDeformerEditor","commander","OnInspectorGUI","command",
-"MeltDeformerEditor","commander","OnSceneGUI","command collaborator",
-"MeltDeformerEditor","commander","DrawRadiusHandle","wrapper stateless",
-"BulgeDeformer","entity boundary data-class","Process","property non-void-command factory collaborator",
-"BulgeDeformer","entity boundary data-class","get","get set collaborator",
-"BulgeDeformer","entity boundary data-class","set","set collaborator",
-"CubifyDeformerEditor","commander","OnEnable","set",
-"CubifyDeformerEditor","commander","OnInspectorGUI","command",
-"CubifyDeformerEditor","commander","OnSceneGUI","command collaborator",
-"CubifyDeformerEditor","commander","DrawBoundsHandle","void-accessor command collaborator",
-"CurveScaleDeformerEditor","commander","OnEnable","set",
-"CurveScaleDeformerEditor","commander","OnInspectorGUI","command",
-"CurveScaleDeformerEditor","commander","OnSceneGUI","command collaborator",
-"TwistDeformerEditor","commander","OnEnable","command",
-"TwistDeformerEditor","commander","OnInspectorGUI","command",
-"TwistDeformerEditor","commander","OnSceneGUI","command collaborator",
-"TwistDeformerEditor","commander","DrawAngleHandles","void-accessor command collaborator",
-"SineDeformerEditor","commander boundary degenerate","OnEnable","set",
-"SineDeformerEditor","commander boundary degenerate","OnInspectorGUI","command",
-"SineDeformerEditor","commander boundary degenerate","OnSceneGUI","command collaborator",
-"SineDeformerEditor","commander boundary degenerate","DrawFrequencyHandle","wrapper stateless",
-"SineDeformerEditor","commander boundary degenerate","DrawMagnitudeHandle","wrapper stateless",
-"SineDeformerEditor","commander boundary degenerate","DrawGuides","wrapper stateless",
-"SineDeformerEditor","commander boundary degenerate","DrawCurve","controller stateless",
-"VerticalBoundsHandle","entity boundary","DrawHandle","predicate non-void-command collaborator",
-"VerticalBoundsHandle","entity boundary","DrawHandle","predicate non-void-command collaborator",
-"VerticalBoundsHandle","entity boundary","DrawHandle","predicate non-void-command collaborator",
-"SkewDeformer","entity data-class small-class","Process","property non-void-command factory collaborator",
-"SkewDeformer","entity data-class small-class","get","get set collaborator",
-"StarDeformer","unclassified","Update","set",
-"StarDeformer","unclassified","GetTotalOffset","property",
-"StarDeformer","unclassified","Process","property non-void-command factory collaborator",
-"StarDeformer","unclassified","get","get set collaborator",
-"BulgeDeformerEditor","commander","OnEnable","command",
-"BulgeDeformerEditor","commander","OnInspectorGUI","command",
-"BulgeDeformerEditor","commander","OnSceneGUI","command collaborator",
-"BulgeDeformerEditor","commander","DrawFactorHandle","wrapper stateless",
-"InflateDeformerEditor","commander small-class","OnEnable","set",
-"InflateDeformerEditor","commander small-class","OnInspectorGUI","command",
-"ElasticDeformableEditor","commander","OnEnable","command",
-"ElasticDeformableEditor","commander","OnInspectorGUI","command",
-"ElasticDeformableEditor","commander","DrawMainSettings","command",
-"ElasticDeformableEditor","commander","DrawHelpBoxes","command",
-"NativeCurve","unclassified","InitializeValues","set",
-"NativeCurve","unclassified","Update","command",
-"NativeCurve","unclassified","Evaluate","get property wrapper",
-"NativeCurve","unclassified","Dispose","command",
-"TwirlDeformer","entity data-class small-class","Process","property non-void-command factory collaborator",
-"TwirlDeformer","entity data-class small-class","get","get set collaborator",
-"DeformerElementPropertyDrawer","pure-controller degenerate small-class","OnGUI","controller stateless",
-"SquashAndStretchDeformer","boundary small-class","get","get set collaborator",
-"UVScaleDeformerEditor","commander small-class","OnEnable","set",
-"UVScaleDeformerEditor","commander small-class","OnInspectorGUI","command",
-"DisplayNameDrawer","boundary degenerate small-class","OnGUI","wrapper stateless",
-"CopyFloat3sJob","commander data-class small-class","Execute","set",
-"DisplayNameAttribute","empty","DisplayNameAttribute","constructor",
-"SineDeformer","data-class","Update","set",
-"SineDeformer","data-class","GetTotalOffset","property",
-"SineDeformer","data-class","get","get set collaborator",
-"NativeTexture2D","boundary","InitializeNativeData","void-accessor set collaborator",
-"NativeTexture2D","boundary","Update","void-accessor command",
-"NativeTexture2D","boundary","GetPixel","get wrapper",
-"NativeTexture2D","boundary","GetPixelBilinear","property non-void-command collaborator",
-"NativeTexture2D","boundary","Dispose","command",
-"ManagedMeshData","data-provider small-class","ManagedMeshData","constructor",
-"ManagedMeshData","data-provider small-class","ManagedMeshData","constructor",
-"ManagedMeshData","data-provider small-class","HasValidData","predicate",
-"NoiseDeformer","small-class","Update","set",
-"NoiseDeformer","small-class","get","get set collaborator",
-"DeformableManager","commander boundary","Update","command collaborator",
-"DeformableManager","commander boundary","LateUpdate","command",
-"DeformableManager","commander boundary","OnDisable","command",
-"DeformableManager","commander boundary","ScheduleDeformables","controller stateless",
-"DeformableManager","commander boundary","CompleteDeformables","controller stateless",
-"DeformableManager","commander boundary","AddDeformable","command collaborator",
-"DeformableManager","commander boundary","RemoveDeformable","command collaborator",
-"MeshData","entity boundary","Initialize","predicate non-void-command collaborator",
-"MeshData","entity boundary","ChangeMesh","command collaborator",
-"MeshData","entity boundary","ChangeMesh","command collaborator",
-"MeshData","entity boundary","ApplyData","wrapper",
-"MeshData","entity boundary","ApplyOriginalData","wrapper",
-"MeshData","entity boundary","ResetData","wrapper",
-"MeshData","entity boundary","EnsureData","predicate non-void-command",
-"MeshData","entity boundary","TargetUsesDynamicMesh","predicate non-void-command",
-"MeshData","entity boundary","Dispose","command",
-"BoundedBendDeformer","entity boundary data-class","Process","property non-void-command factory collaborator",
-"BoundedBendDeformer","entity boundary data-class","get","get set collaborator",
-"BoundedBendDeformer","entity boundary data-class","set","set collaborator",
-"BoxMask","boundary small-class","get","get set collaborator",
-"MeshTarget","entity data-provider boundary","Initialize","predicate non-void-command collaborator",
-"MeshTarget","entity data-provider boundary","Exists","predicate",
-"MeshTarget","entity data-provider boundary","HasMesh","predicate non-void-command",
-"MeshTarget","entity data-provider boundary","GetMesh","get property collaborator",
-"MeshTarget","entity data-provider boundary","SetMesh","command collaborator",
-"MeshTarget","entity data-provider boundary","GetRenderer","get property non-void-command collaborator",
-"MeshTarget","entity data-provider boundary","GetGameObject","get property collaborator",
-"MeshTarget","entity data-provider boundary","GetTransform","get property collaborator",
-"NativeMeshData","commander small-class","NativeMeshData","constructor",
-"NativeMeshData","commander small-class","NativeMeshData","constructor",
-"NativeMeshData","commander small-class","Dispose","command",
-"VertexCache","commander boundary data-class small-class","Initialize","set collaborator",
-"MaskedElasticPointsUpdateJob","commander boundary small-class","Execute","command collaborator",
-"GroupDeformerEditor","commander","OnEnable","command",
-"GroupDeformerEditor","commander","OnDisable","command",
-"GroupDeformerEditor","commander","OnInspectorGUI","command collaborator",
-"Deformable","commander","OnEnable","command",
-"Deformable","commander","OnDisable","command",
-"Deformable","commander","OnSceneSaving","wrapper",
-"Deformable","commander","OnBecameVisible","command collaborator",
-"Deformable","commander","AllocateData","set",
-"Deformable","commander","InitializeData","command",
-"Deformable","commander","DisposeData","command",
-"Deformable","commander","Update","command",
-"Deformable","commander","IsVisible","predicate non-void-command",
-"Deformable","commander","ShouldCull","predicate non-void-command",
-"Deformable","commander","PreSchedule","command collaborator",
-"Deformable","commander","ApplyData","command",
-"Deformable","commander","ResetMesh","command",
-"Deformable","commander","Complete","command",
-"Deformable","commander","ForceImmediateUpdate","command",
-"Deformable","commander","ResetDynamicData","command",
-"Deformable","commander","RecalculateMeshCollider","set",
-"Deformable","commander","CanUpdate","predicate non-void-command",
-"Deformable","commander","AddDeformer","command",
-"Deformable","commander","RemoveDeformer","command collaborator",
-"Deformable","commander","ChangeMesh","command collaborator",
-"Deformable","commander","GetMesh","get collaborator",
-"Deformable","commander","GetOriginalMesh","get collaborator",
-"Deformable","commander","GetCurrentMesh","property non-void-command collaborator",
-"Deformable","commander","GetRenderer","property non-void-command collaborator",
-"Deformable","commander","HasTarget","predicate non-void-command",
-"Deformable","commander","set","non-void-command collaborator",
-"Deformable","commander","set","non-void-command collaborator",
-"CellularNoiseDeformerEditor","commander","OnEnable","command",
-"CellularNoiseDeformerEditor","commander","OnInspectorGUI","command",
-"CellularNoiseDeformerEditor","commander","DrawVector4PropertyAsVector3","wrapper stateless",
-"Deformer","data-provider small-class","PreProcess","empty",
-"Deformer","data-provider small-class","CanProcess","predicate",
-"BlendDeformer","commander","Initialize","predicate set",
-"BlendDeformer","commander","OnEnable","command",
-"BlendDeformer","commander","OnDisable","command",
-"BlendDeformer","commander","set","set collaborator",
-"LatheDisplaceDeformer","commander","OnDisable","command",
-"LatheDisplaceDeformer","commander","PreProcess","command",
-"LatheDisplaceDeformer","commander","get","get set collaborator",
-"CurveScaleDeformer","unclassified","OnDisable","command",
-"CurveScaleDeformer","unclassified","PreProcess","command",
-"CurveScaleDeformer","unclassified","Process","property non-void-command factory collaborator",
-"CurveScaleDeformer","unclassified","get","get set collaborator",
-"CylindrifyDeformer","boundary small-class","get","get set collaborator",
-"InflateDeformer","factory controller data-class small-class","Process","property set factory collaborator",
-"MagnetDeformer","entity data-class small-class","Process","property non-void-command factory collaborator",
-"MagnetDeformer","entity data-class small-class","get","get set collaborator",
-"UVOffsetDeformerEditor","commander small-class","OnEnable","set",
-"UVOffsetDeformerEditor","commander small-class","OnInspectorGUI","command",
-"SphereMask","boundary small-class","get","get set collaborator",
-"VerticalGradientMask","boundary small-class","get","get set collaborator",
-"ScaleDeformer","boundary small-class","get","get set collaborator",
-"ScaleDeformer","boundary small-class","set","set collaborator",
-"TaperDeformer","entity data-class small-class","Process","property non-void-command factory collaborator",
-"TaperDeformer","entity data-class small-class","get","get set collaborator",
+"RecalculateBoundsJob","commander boundary data-class small-class","Execute","set collaborator"
+"ElasticPointsUpdateJob","commander boundary small-class","Execute","command collaborator"
+"WaveDeformerEditor","commander small-class","OnEnable","set"
+"WaveDeformerEditor","commander small-class","OnInspectorGUI","command"
+"SquashAndStretchDeformerEditor","commander","OnEnable","command"
+"SquashAndStretchDeformerEditor","commander","OnInspectorGUI","command"
+"SquashAndStretchDeformerEditor","commander","OnSceneGUI","command collaborator"
+"RepeaterDeformerEditor","commander","OnEnable","command"
+"RepeaterDeformerEditor","commander","OnDisable","command"
+"RepeaterDeformerEditor","commander","OnInspectorGUI","command collaborator"
+"RepeaterDeformerEditor","commander","SceneGUI","command collaborator"
+"RepeaterDeformerEditor","commander","Dispose","set"
+"LatticeDeformer","commander boundary","Reset","command"
+"LatticeDeformer","commander boundary","FitBoundsToParentDeformable","controller stateless"
+"LatticeDeformer","commander boundary","GenerateControlPoints","command collaborator"
+"LatticeDeformer","commander boundary","GenerateControlPoints","command collaborator"
+"LatticeDeformer","commander boundary","GetIndex","property"
+"LatticeDeformer","commander boundary","GetIndex","incidental"
+"LatticeDeformer","commander boundary","GetControlPoint","get non-void-command collaborator"
+"LatticeDeformer","commander boundary","SetControlPoint","set collaborator"
+"LatticeDeformer","commander boundary","get","controller stateless"
+"DisplayNameDrawer","boundary degenerate small-class","OnGUI","wrapper stateless"
+"UVScaleDeformerEditor","commander small-class","OnEnable","set"
+"UVScaleDeformerEditor","commander small-class","OnInspectorGUI","command"
+"TwirlDeformerEditor","commander","OnEnable","command"
+"TwirlDeformerEditor","commander","OnInspectorGUI","command"
+"TwirlDeformerEditor","commander","OnSceneGUI","command collaborator"
+"TwirlDeformerEditor","commander","DrawAngleHandle","void-accessor command collaborator"
+"TaperDeformerEditor","commander boundary","OnEnable","command"
+"TaperDeformerEditor","commander boundary","OnInspectorGUI","command"
+"TaperDeformerEditor","commander boundary","OnSceneGUI","command collaborator"
+"TaperDeformerEditor","commander boundary","DrawTopFactorHandles","wrapper stateless"
+"TaperDeformerEditor","commander boundary","DrawBottomFactorHandles","wrapper stateless"
+"SkewDeformerEditor","commander","OnEnable","command"
+"SkewDeformerEditor","commander","OnInspectorGUI","command"
+"SkewDeformerEditor","commander","OnSceneGUI","command collaborator"
+"SkewDeformerEditor","commander","DrawFactorHandle","wrapper stateless"
+"StarDeformerEditor","commander small-class","OnEnable","set"
+"StarDeformerEditor","commander small-class","OnInspectorGUI","command"
+"TextureDisplaceDeformer","commander","OnEnable","set"
+"TextureDisplaceDeformer","commander","OnDisable","command"
+"TextureDisplaceDeformer","commander","MarkTextureDataDirty","set"
+"TextureDisplaceDeformer","commander","ForceUpdateNativeData","command"
+"TextureDisplaceDeformer","commander","Process","property non-void-command factory collaborator"
+"TextureDisplaceDeformer","commander","set","non-void-command collaborator"
+"TextureDisplaceDeformer","commander","get","get set collaborator"
+"ResetNormalsJob","commander data-class small-class","Execute","set"
+"EditorChangeScope","commander small-class","EditorChangeScope","constructor"
+"EditorChangeScope","commander small-class","Dispose","command"
+"SquashAndStretchDeformer","boundary small-class","get","get set collaborator"
+"SpherifyDeformerEditor","commander boundary","OnEnable","set"
+"SpherifyDeformerEditor","commander boundary","OnInspectorGUI","command"
+"SpherifyDeformerEditor","commander boundary","OnSceneGUI","command collaborator"
+"SpherifyDeformerEditor","commander boundary","DrawRadiusHandle","wrapper stateless"
+"SpherifyDeformerEditor","commander boundary","DrawFactorHandle","wrapper stateless"
+"RippleDeformerEditor","commander boundary","OnEnable","command"
+"RippleDeformerEditor","commander boundary","OnInspectorGUI","command"
+"RippleDeformerEditor","commander boundary","OnSceneGUI","command collaborator"
+"RippleDeformerEditor","commander boundary","DrawMagnitudeHandle","wrapper stateless"
+"RippleDeformerEditor","commander boundary","DrawCurve","command collaborator"
+"RippleDeformerEditor","commander boundary","RipplePoint","controller stateless"
+"AutoGroupDeformerEditor","commander small-class","OnEnable","set"
+"AutoGroupDeformerEditor","commander small-class","OnInspectorGUI","command collaborator"
+"TransformPointsFromJob","commander data-class small-class","Execute","set"
+"DeformableEditor","unclassified","OnEnable","command"
+"DeformableEditor","unclassified","OnDisable","command"
+"DeformableEditor","unclassified","OnInspectorGUI","command"
+"DeformableEditor","unclassified","DrawMainSettings","command collaborator"
+"DeformableEditor","unclassified","DrawDeformersList","command collaborator"
+"DeformableEditor","unclassified","DrawUtilityToolbar","controller stateless"
+"DeformableEditor","unclassified","DrawDebugInfo","set collaborator"
+"DeformableEditor","unclassified","DrawHelpBoxes","controller stateless"
+"DeformableEditor","unclassified","OnSceneGUI","controller"
+"VertexCacheEditor","commander boundary small-class","OnInspectorGUI","command collaborator"
+"DeformerElementPropertyDrawer","pure-controller degenerate small-class","OnGUI","controller stateless"
+"TwirlDeformer","entity data-class small-class","Process","property non-void-command factory collaborator"
+"TwirlDeformer","entity data-class small-class","get","get set collaborator"
+"ScaleDeformerEditor","commander small-class","OnEnable","set"
+"ScaleDeformerEditor","commander small-class","OnInspectorGUI","command"
+"CollapsibleSection","empty","CollapsibleSection","constructor"
+"MeltDeformer","entity data-class small-class","Process","property non-void-command factory collaborator"
+"MeltDeformer","entity data-class small-class","get","get set collaborator"
+"DeformModelPostProcessor","degenerate small-class","OnPreprocessModel","incidental"
+"TextureDisplaceDeformerEditor","commander","OnEnable","set"
+"TextureDisplaceDeformerEditor","commander","OnInspectorGUI","command"
+"TextureDisplaceDeformerEditor","commander","MarkTargetsTextureDirty","wrapper stateless"
+"bounds","boundary","bounds","constructor"
+"bounds","boundary","setminmax","command collaborator"
+"bounds","boundary","encapsulate","wrapper"
+"bounds","boundary","encapsulate","command"
+"bounds","boundary","expand","set"
+"bounds","boundary","expand","set collaborator"
+"bounds","boundary","intersects","predicate"
+"bounds","boundary","contains","predicate collaborator"
+"bounds","boundary","closestsurfacepoint","property non-void-command collaborator"
+"bounds","boundary","GetHashCode","property non-void-command"
+"bounds","boundary","Equals","predicate non-void-command collaborator"
+"bounds","boundary","Equals","predicate non-void-command collaborator"
+"BendDeformer","entity boundary data-class","Process","property non-void-command factory collaborator"
+"BendDeformer","entity boundary data-class","get","get set collaborator"
+"BendDeformer","entity boundary data-class","set","set collaborator"
+"RippleDeformer","data-class","Update","set"
+"RippleDeformer","data-class","GetTotalOffset","property"
+"RippleDeformer","data-class","get","get set collaborator"
+"DeformEditorSettingsAssetInspector","commander small-class","OnInspectorGUI","command"
+"BoundedBendDeformerEditor","commander","OnEnable","set"
+"BoundedBendDeformerEditor","commander","OnInspectorGUI","command"
+"BoundedBendDeformerEditor","commander","OnSceneGUI","command collaborator"
+"BoundedBendDeformerEditor","commander","DrawAngleHandle","void-accessor command collaborator"
+"TransformDeformer","boundary small-class","get","get set collaborator"
+"ElasticDeformableEditor","commander","OnEnable","command"
+"ElasticDeformableEditor","commander","OnInspectorGUI","command"
+"ElasticDeformableEditor","commander","DrawMainSettings","command"
+"ElasticDeformableEditor","commander","DrawHelpBoxes","command"
+"NativeCurve","unclassified","InitializeValues","set"
+"NativeCurve","unclassified","Update","command"
+"NativeCurve","unclassified","Evaluate","get property wrapper"
+"NativeCurve","unclassified","Dispose","command"
+"DeformableManagerEditor","commander small-class","OnEnable","set"
+"DeformableManagerEditor","commander small-class","OnInspectorGUI","wrapper"
+"NoiseDeformerEditor","commander small-class","OnEnable","set"
+"NoiseDeformerEditor","commander small-class","OnInspectorGUI","command"
+"DeformerElement","small-class","DeformerElement","constructor"
+"DeformerElement","small-class","DeformerElement","constructor"
+"DeformerElement","small-class","CanProcess","predicate non-void-command"
+"TransformDeformerEditor","commander small-class","OnEnable","set"
+"TransformDeformerEditor","commander small-class","OnInspectorGUI","command"
+"RadialSkewDeformer","entity data-class small-class","Process","property non-void-command factory collaborator"
+"RadialSkewDeformer","entity data-class small-class","get","get set collaborator"
+"RadialCurveDeformerEditor","commander small-class","OnEnable","set"
+"RadialCurveDeformerEditor","commander small-class","OnInspectorGUI","command"
+"MeltDeformerEditor","commander","OnEnable","command"
+"MeltDeformerEditor","commander","OnInspectorGUI","command"
+"MeltDeformerEditor","commander","OnSceneGUI","command collaborator"
+"MeltDeformerEditor","commander","DrawRadiusHandle","wrapper stateless"
+"BulgeDeformer","entity boundary data-class","Process","property non-void-command factory collaborator"
+"BulgeDeformer","entity boundary data-class","get","get set collaborator"
+"BulgeDeformer","entity boundary data-class","set","set collaborator"
+"CubifyDeformerEditor","commander","OnEnable","set"
+"CubifyDeformerEditor","commander","OnInspectorGUI","command"
+"CubifyDeformerEditor","commander","OnSceneGUI","command collaborator"
+"CubifyDeformerEditor","commander","DrawBoundsHandle","void-accessor command collaborator"
+"TwistDeformerEditor","commander","OnEnable","command"
+"TwistDeformerEditor","commander","OnInspectorGUI","command"
+"TwistDeformerEditor","commander","OnSceneGUI","command collaborator"
+"TwistDeformerEditor","commander","DrawAngleHandles","void-accessor command collaborator"
+"SineDeformerEditor","commander boundary degenerate","OnEnable","set"
+"SineDeformerEditor","commander boundary degenerate","OnInspectorGUI","command"
+"SineDeformerEditor","commander boundary degenerate","OnSceneGUI","command collaborator"
+"SineDeformerEditor","commander boundary degenerate","DrawFrequencyHandle","wrapper stateless"
+"SineDeformerEditor","commander boundary degenerate","DrawMagnitudeHandle","wrapper stateless"
+"SineDeformerEditor","commander boundary degenerate","DrawGuides","wrapper stateless"
+"SineDeformerEditor","commander boundary degenerate","DrawCurve","controller stateless"
+"VerticalBoundsHandle","entity boundary","DrawHandle","predicate non-void-command collaborator"
+"VerticalBoundsHandle","entity boundary","DrawHandle","predicate non-void-command collaborator"
+"VerticalBoundsHandle","entity boundary","DrawHandle","predicate non-void-command collaborator"
+"SkewDeformer","entity data-class small-class","Process","property non-void-command factory collaborator"
+"SkewDeformer","entity data-class small-class","get","get set collaborator"
+"NormalizeNormalsJob","commander data-class small-class","Execute","set"
+"LatheDisplaceDeformerEditor","commander","OnEnable","set"
+"LatheDisplaceDeformerEditor","commander","OnInspectorGUI","command"
+"LatheDisplaceDeformerEditor","commander","OnSceneGUI","command collaborator"
+"BoxMaskEditor","entity commander boundary","OnEnable","set"
+"BoxMaskEditor","entity commander boundary","OnInspectorGUI","command collaborator"
+"BoxMaskEditor","entity commander boundary","OnSceneGUI","command collaborator"
+"BoxMaskEditor","entity commander boundary","DrawInnerBoundsHandle","void-accessor command collaborator"
+"BoxMaskEditor","entity commander boundary","DrawOuterBoundsHandle","void-accessor command collaborator"
+"BoxMaskEditor","entity commander boundary","EnforcePositiveExtents","wrapper stateless"
+"TransformPointsJob","commander data-class small-class","Execute","set"
+"DeformerEditor","commander","OnEnable","set"
+"DeformerEditor","commander","OnInspectorGUI","wrapper"
+"DeformerEditor","commander","OnSceneGUI","empty"
+"CylindrifyDeformerEditor","commander boundary","OnEnable","set"
+"CylindrifyDeformerEditor","commander boundary","OnInspectorGUI","command"
+"CylindrifyDeformerEditor","commander boundary","OnSceneGUI","command collaborator"
+"CylindrifyDeformerEditor","commander boundary","DrawFactorHandle","wrapper stateless"
+"CylindrifyDeformerEditor","commander boundary","DrawRadiusHandle","wrapper stateless"
+"CurveDisplaceDeformer","commander","OnDisable","command"
+"CurveDisplaceDeformer","commander","PreProcess","command"
+"CurveDisplaceDeformer","commander","get","get set collaborator"
+"TransformOffsetDeformerEditor","commander small-class","OnEnable","set"
+"TransformOffsetDeformerEditor","commander small-class","OnInspectorGUI","command"
+"CreditsWindow","boundary small-class","OnGUI","wrapper"
+"BulgeDeformerEditor","commander","OnEnable","command"
+"BulgeDeformerEditor","commander","OnInspectorGUI","command"
+"BulgeDeformerEditor","commander","OnSceneGUI","command collaborator"
+"BulgeDeformerEditor","commander","DrawFactorHandle","wrapper stateless"
+"InflateDeformerEditor","commander small-class","OnEnable","set"
+"InflateDeformerEditor","commander small-class","OnInspectorGUI","command"
+"CurveScaleDeformerEditor","commander","OnEnable","set"
+"CurveScaleDeformerEditor","commander","OnInspectorGUI","command"
+"CurveScaleDeformerEditor","commander","OnSceneGUI","command collaborator"
+"LatticeDeformerEditor","commander boundary","OnEnable","command collaborator"
+"LatticeDeformerEditor","commander boundary","UndoRedoPerformed","set collaborator"
+"LatticeDeformerEditor","commander boundary","OnInspectorGUI","command collaborator"
+"LatticeDeformerEditor","commander boundary","OnSceneGUI","command collaborator"
+"LatticeDeformerEditor","commander boundary","DeselectAll","command"
+"LatticeDeformerEditor","commander boundary","BeginSelectionChangeRegion","set"
+"LatticeDeformerEditor","commander boundary","EndSelectionChangeRegion","set"
+"LatticeDeformerEditor","commander boundary","CacheOriginalPositions","command"
+"LatticeDeformerEditor","commander boundary","CacheResizePositionsFromChange","command collaborator"
+"LatticeDeformerEditor","commander boundary","DrawLattice","controller stateless"
+"SphereMaskEditor","commander boundary","OnEnable","set"
+"SphereMaskEditor","commander boundary","OnInspectorGUI","command"
+"SphereMaskEditor","commander boundary","OnSceneGUI","command collaborator"
+"SphereMaskEditor","commander boundary","DrawInnerRadiusHandle","wrapper stateless"
+"SphereMaskEditor","commander boundary","DrawOuterRadiusHandle","wrapper stateless"
+"MagnetDeformerEditor","commander small-class","OnEnable","set"
+"MagnetDeformerEditor","commander small-class","OnInspectorGUI","command"
+"VertexColorMaskEditor","commander small-class","OnEnable","set"
+"VertexColorMaskEditor","commander small-class","OnInspectorGUI","command"
+"BlendDeformerEditor","commander small-class","OnEnable","set"
+"BlendDeformerEditor","commander small-class","OnInspectorGUI","command collaborator"
+"CreatorWindow","commander","OnEnable","set"
+"CreatorWindow","commander","OnDisable","incidental"
+"CreatorWindow","commander","OnGUI","command collaborator"
+"AddTriangleNormalToNormalsJob","commander boundary small-class","Execute","command collaborator"
+"CurveDisplaceDeformerEditor","commander","OnEnable","set"
+"CurveDisplaceDeformerEditor","commander","OnInspectorGUI","command"
+"CurveDisplaceDeformerEditor","commander","OnSceneGUI","command collaborator"
+"WaveDeformer","data-class","Update","set"
+"WaveDeformer","data-class","GetTotalOffset","property"
+"WaveDeformer","data-class","get","get set collaborator"
+"SineDeformer","data-class","Update","set"
+"SineDeformer","data-class","GetTotalOffset","property"
+"SineDeformer","data-class","get","get set collaborator"
+"CopyFloat3sJob","commander data-class small-class","Execute","set"
+"DisplayNameAttribute","empty","DisplayNameAttribute","constructor"
+"NativeTexture2D","boundary","InitializeNativeData","set collaborator"
+"NativeTexture2D","boundary","Update","command"
+"NativeTexture2D","boundary","GetPixel","get wrapper"
+"NativeTexture2D","boundary","GetPixelBilinear","property non-void-command collaborator"
+"NativeTexture2D","boundary","Dispose","command"
+"ManagedMeshData","data-provider small-class","ManagedMeshData","constructor"
+"ManagedMeshData","data-provider small-class","ManagedMeshData","constructor"
+"ManagedMeshData","data-provider small-class","HasValidData","predicate"
+"NoiseDeformer","small-class","Update","set"
+"NoiseDeformer","small-class","get","get set collaborator"
+"DeformableManager","commander boundary","Update","command collaborator"
+"DeformableManager","commander boundary","LateUpdate","command"
+"DeformableManager","commander boundary","OnDisable","command"
+"DeformableManager","commander boundary","ScheduleDeformables","controller stateless"
+"DeformableManager","commander boundary","CompleteDeformables","controller stateless"
+"DeformableManager","commander boundary","AddDeformable","command collaborator"
+"DeformableManager","commander boundary","RemoveDeformable","command collaborator"
+"MeshData","entity boundary","Initialize","predicate non-void-command collaborator"
+"MeshData","entity boundary","ChangeMesh","command collaborator"
+"MeshData","entity boundary","ChangeMesh","command collaborator"
+"MeshData","entity boundary","ApplyData","wrapper"
+"MeshData","entity boundary","ApplyOriginalData","wrapper"
+"MeshData","entity boundary","ResetData","wrapper"
+"MeshData","entity boundary","EnsureData","predicate non-void-command"
+"MeshData","entity boundary","TargetUsesDynamicMesh","predicate non-void-command"
+"MeshData","entity boundary","Dispose","command"
+"BoundedBendDeformer","entity boundary data-class","Process","property non-void-command factory collaborator"
+"BoundedBendDeformer","entity boundary data-class","get","get set collaborator"
+"BoundedBendDeformer","entity boundary data-class","set","set collaborator"
+"BoxMask","boundary small-class","get","get set collaborator"
+"VerticalGradientMaskEditor","commander small-class","OnEnable","set"
+"VerticalGradientMaskEditor","commander small-class","OnInspectorGUI","command"
+"AddFloat3ToFloat3sJob","commander data-class small-class","Execute","set"
+"MeshTarget","entity boundary","Initialize","predicate non-void-command collaborator"
+"MeshTarget","entity boundary","Exists","predicate"
+"MeshTarget","entity boundary","HasMesh","predicate non-void-command"
+"MeshTarget","entity boundary","GetMesh","property collaborator"
+"MeshTarget","entity boundary","SetMesh","command collaborator"
+"MeshTarget","entity boundary","GetRenderer","get property non-void-command collaborator"
+"MeshTarget","entity boundary","GetGameObject","property collaborator"
+"MeshTarget","entity boundary","GetTransform","property collaborator"
+"NativeMeshData","commander small-class","NativeMeshData","constructor"
+"NativeMeshData","commander small-class","NativeMeshData","constructor"
+"NativeMeshData","commander small-class","Dispose","command"
+"VertexCache","commander boundary data-class small-class","Initialize","set collaborator"
+"AutoGroupDeformer","commander","OnEnable","command"
+"AutoGroupDeformer","commander","Update","command"
+"AutoGroupDeformer","commander","Refresh","command"
+"AutoGroupDeformer","commander","GetGroupSize","property"
+"AutoGroupDeformer","commander","PreProcess","controller"
+"MaskedElasticPointsUpdateJob","commander boundary small-class","Execute","command collaborator"
+"GroupDeformerEditor","commander","OnEnable","command"
+"GroupDeformerEditor","commander","OnDisable","command"
+"GroupDeformerEditor","commander","OnInspectorGUI","command collaborator"
+"Deformable","commander","OnEnable","command"
+"Deformable","commander","OnDisable","command"
+"Deformable","commander","OnSceneSaving","wrapper"
+"Deformable","commander","OnBecameVisible","command collaborator"
+"Deformable","commander","AllocateData","set"
+"Deformable","commander","InitializeData","command"
+"Deformable","commander","DisposeData","command"
+"Deformable","commander","Update","command"
+"Deformable","commander","IsVisible","predicate non-void-command"
+"Deformable","commander","ShouldCull","predicate non-void-command"
+"Deformable","commander","PreSchedule","command collaborator"
+"Deformable","commander","ApplyData","command"
+"Deformable","commander","ResetMesh","command"
+"Deformable","commander","Complete","command"
+"Deformable","commander","ForceImmediateUpdate","command"
+"Deformable","commander","ResetDynamicData","command"
+"Deformable","commander","RecalculateMeshCollider","set"
+"Deformable","commander","CanUpdate","predicate non-void-command"
+"Deformable","commander","AddDeformer","command"
+"Deformable","commander","RemoveDeformer","command collaborator"
+"Deformable","commander","ChangeMesh","command collaborator"
+"Deformable","commander","GetMesh","property collaborator"
+"Deformable","commander","GetOriginalMesh","property collaborator"
+"Deformable","commander","GetCurrentMesh","property non-void-command collaborator"
+"Deformable","commander","GetRenderer","property non-void-command collaborator"
+"Deformable","commander","HasTarget","predicate non-void-command"
+"Deformable","commander","set","non-void-command collaborator"
+"Deformable","commander","set","non-void-command collaborator"
+"CellularNoiseDeformerEditor","commander","OnEnable","command"
+"CellularNoiseDeformerEditor","commander","OnInspectorGUI","command"
+"CellularNoiseDeformerEditor","commander","DrawVector4PropertyAsVector3","wrapper stateless"
+"Deformer","data-provider small-class","PreProcess","empty"
+"Deformer","data-provider small-class","CanProcess","predicate"
+"BlendDeformer","commander","Initialize","predicate set"
+"BlendDeformer","commander","OnEnable","command"
+"BlendDeformer","commander","OnDisable","command"
+"BlendDeformer","commander","set","set collaborator"
+"LatheDisplaceDeformer","commander","OnDisable","command"
+"LatheDisplaceDeformer","commander","PreProcess","command"
+"LatheDisplaceDeformer","commander","get","get set collaborator"
+"BendDeformerEditor","commander","OnEnable","command"
+"BendDeformerEditor","commander","OnInspectorGUI","command"
+"BendDeformerEditor","commander","OnSceneGUI","command collaborator"
+"BendDeformerEditor","commander","DrawAngleHandle","void-accessor command collaborator"
+"CubifyDeformer","entity data-class small-class","Process","property non-void-command factory collaborator"
+"CubifyDeformer","entity data-class small-class","get","get set collaborator"
+"TransformOffsetDeformer","boundary small-class","get","get set collaborator"
+"CurveScaleDeformer","unclassified","OnDisable","command"
+"CurveScaleDeformer","unclassified","PreProcess","command"
+"CurveScaleDeformer","unclassified","Process","property non-void-command factory collaborator"
+"CurveScaleDeformer","unclassified","get","get set collaborator"
+"CylindrifyDeformer","boundary small-class","get","get set collaborator"
+"InflateDeformer","factory controller data-class small-class","Process","property set factory collaborator"
+"MagnetDeformer","entity data-class small-class","Process","property non-void-command factory collaborator"
+"MagnetDeformer","entity data-class small-class","get","get set collaborator"
+"VerticalGradientMask","boundary small-class","get","get set collaborator"
+"ScaleDeformer","boundary small-class","get","get set collaborator"
+"ScaleDeformer","boundary small-class","set","set collaborator"
+"SpherifyDeformer","entity data-class small-class","Process","property non-void-command factory collaborator"
+"SpherifyDeformer","entity data-class small-class","get","get set collaborator"
+"StarDeformer","unclassified","Update","set"
+"StarDeformer","unclassified","GetTotalOffset","property"
+"StarDeformer","unclassified","Process","property non-void-command factory collaborator"
+"StarDeformer","unclassified","get","get set collaborator"
+"TaperDeformer","entity data-class small-class","Process","property non-void-command factory collaborator"
+"TaperDeformer","entity data-class small-class","get","get set collaborator"
+"RadialSkewDeformerEditor","commander boundary","OnEnable","set"
+"RadialSkewDeformerEditor","commander boundary","OnInspectorGUI","command"
+"RadialSkewDeformerEditor","commander boundary","OnSceneGUI","command collaborator"
+"RadialSkewDeformerEditor","commander boundary","DrawAxisGuide","wrapper stateless"
+"RadialSkewDeformerEditor","commander boundary","DrawBoundsHandles","wrapper stateless"
+"RadialSkewDeformerEditor","commander boundary","DrawFactorHandle","wrapper stateless"
+"RadialCurveDeformer","unclassified","OnDisable","command"
+"RadialCurveDeformer","unclassified","PreProcess","command"
+"RadialCurveDeformer","unclassified","Process","property non-void-command factory collaborator"
+"RadialCurveDeformer","unclassified","get","get set collaborator"
+"TwistDeformer","boundary small-class","get","get set collaborator"
+"UVOffsetDeformerEditor","commander small-class","OnEnable","set"
+"UVOffsetDeformerEditor","commander small-class","OnInspectorGUI","command"
+"SphereMask","boundary small-class","get","get set collaborator"
+"GroupDeformer","unclassified","PreProcess","controller"
+"GroupDeformer","unclassified","AddDeformer","command"
+"GroupDeformer","unclassified","RemoveDeformer","command collaborator"
+"ReorderableComponentElementList<T>","commander boundary","ReorderableComponentElementList","constructor"
+"ReorderableComponentElementList<T>","commander boundary","SceneGUI","command collaborator"
+"ReorderableComponentElementList<T>","commander boundary","DoLayoutList","command collaborator"
+"ReorderableComponentElementList<T>","commander boundary","Dispose","set"
+"RepeaterDeformer","boundary data-class small-class","Process","property set collaborator"
+"ElasticDeformable","commander","AllocateData","set"
+"ElasticDeformable","commander","DisposeData","command"
+"ElasticDeformable","commander","ApplyData","command"
+"ElasticDeformable","commander","Reset","set"

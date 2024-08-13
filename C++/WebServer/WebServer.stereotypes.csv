@@ -1,157 +1,157 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"Logger","data-provider boundary data-class small-class","stream","get collaborator",
-"Logger","data-provider boundary data-class small-class","Logger::Logger","constructor",
-"Logger","data-provider boundary data-class small-class","Logger::~Logger","destructor",
-"LogStream","unclassified","operator<<","get non-void-command",
-"LogStream","unclassified","operator<<","get",
-"LogStream","unclassified","operator<<","get non-void-command",
-"LogStream","unclassified","operator<<","get non-void-command",
-"LogStream","unclassified","operator<<","property non-void-command",
-"LogStream","unclassified","operator<<","get non-void-command",
-"LogStream","unclassified","append","void-accessor command",
-"LogStream","unclassified","buffer","get collaborator",
-"LogStream","unclassified","resetBuffer","command",
-"LogStream","unclassified","LogStream::formatInteger","command collaborator",
-"LogStream","unclassified","LogStream::operator<<","get",
-"LogStream","unclassified","LogStream::operator<<","get",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogFile","entity boundary","LogFile::LogFile","constructor",
-"LogFile","entity boundary","LogFile::~LogFile","destructor",
-"LogFile","entity boundary","LogFile::append","void-accessor command collaborator",
-"LogFile","entity boundary","LogFile::flush","command collaborator",
-"LogFile","entity boundary","LogFile::append_unlocked","void-accessor command",
-"FixedBuffer","unclassified","FixedBuffer","constructor",
-"FixedBuffer","unclassified","~FixedBuffer","destructor",
-"FixedBuffer","unclassified","append","void-accessor set",
-"FixedBuffer","unclassified","data","get",
-"FixedBuffer","unclassified","length","property",
-"FixedBuffer","unclassified","current","get",
-"FixedBuffer","unclassified","avail","property",
-"FixedBuffer","unclassified","add","set",
-"FixedBuffer","unclassified","reset","set",
-"FixedBuffer","unclassified","bzero","wrapper",
-"FixedBuffer","unclassified","end","property",
-"Condition","entity boundary","Condition","constructor",
-"Condition","entity boundary","~Condition","destructor",
-"Condition","entity boundary","wait","command",
-"Condition","entity boundary","notify","wrapper",
-"Condition","entity boundary","notifyAll","wrapper",
-"Condition","entity boundary","waitForSeconds","predicate non-void-command collaborator",
-"Channel","entity commander boundary","setHolder","set collaborator",
-"Channel","entity commander boundary","getHolder","property non-void-command collaborator",
-"Channel","entity commander boundary","setReadHandler","set collaborator",
-"Channel","entity commander boundary","setWriteHandler","set collaborator",
-"Channel","entity commander boundary","setErrorHandler","set collaborator",
-"Channel","entity commander boundary","setConnHandler","set collaborator",
-"Channel","entity commander boundary","handleEvents","command",
-"Channel","entity commander boundary","setRevents","set collaborator",
-"Channel","entity commander boundary","setEvents","set collaborator",
-"Channel","entity commander boundary","getEvents","get collaborator",
-"Channel","entity commander boundary","EqualAndUpdateLastEvents","predicate set",
-"Channel","entity commander boundary","getLastEvents","get collaborator",
-"Channel","entity commander boundary","Channel::Channel","constructor",
-"Channel","entity commander boundary","Channel::Channel","constructor",
-"Channel","entity commander boundary","Channel::~Channel","destructor",
-"Channel","entity commander boundary","Channel::getFd","get",
-"Channel","entity commander boundary","Channel::setFd","set",
-"Channel","entity commander boundary","Channel::handleRead","wrapper",
-"Channel","entity commander boundary","Channel::handleWrite","wrapper",
-"Channel","entity commander boundary","Channel::handleConn","wrapper",
-"AppendFile","unclassified","AppendFile::AppendFile","constructor",
-"AppendFile","unclassified","AppendFile::~AppendFile","destructor",
-"AppendFile","unclassified","AppendFile::append","void-accessor controller",
-"AppendFile","unclassified","AppendFile::flush","wrapper",
-"AppendFile","unclassified","AppendFile::write","property wrapper",
-"AsyncLogging","commander","~AsyncLogging","destructor",
-"AsyncLogging","commander","start","command",
-"AsyncLogging","commander","stop","command",
-"AsyncLogging","commander","AsyncLogging::AsyncLogging","constructor",
-"AsyncLogging","commander","AsyncLogging::append","void-accessor command collaborator",
-"AsyncLogging","commander","AsyncLogging::threadFunc","command",
-"EventLoop","commander boundary","isInLoopThread","predicate wrapper",
-"EventLoop","commander boundary","assertInLoopThread","command",
-"EventLoop","commander boundary","shutdown","controller stateless",
-"EventLoop","commander boundary","removeFromPoller","command collaborator",
-"EventLoop","commander boundary","updatePoller","command",
-"EventLoop","commander boundary","addToPoller","command",
-"EventLoop","commander boundary","EventLoop::EventLoop","constructor",
-"EventLoop","commander boundary","EventLoop::handleConn","command",
-"EventLoop","commander boundary","EventLoop::~EventLoop","destructor",
-"EventLoop","commander boundary","EventLoop::wakeup","wrapper",
-"EventLoop","commander boundary","EventLoop::handleRead","command collaborator",
-"EventLoop","commander boundary","EventLoop::runInLoop","void-accessor command collaborator",
-"EventLoop","commander boundary","EventLoop::queueInLoop","void-accessor command collaborator",
-"EventLoop","commander boundary","EventLoop::loop","command collaborator",
-"EventLoop","commander boundary","EventLoop::doPendingFunctors","set",
-"EventLoop","commander boundary","EventLoop::quit","command",
-"TimerManager","commander boundary small-class","TimerManager::TimerManager","constructor",
-"TimerManager","commander boundary small-class","TimerManager::~TimerManager","destructor",
-"TimerManager","commander boundary small-class","TimerManager::addTimer","command collaborator",
-"TimerManager","commander boundary small-class","TimerManager::handleExpiredEvent","command collaborator",
-"CountDownLatch","commander boundary small-class","CountDownLatch::CountDownLatch","constructor",
-"CountDownLatch","commander boundary small-class","CountDownLatch::wait","command collaborator",
-"CountDownLatch","commander boundary small-class","CountDownLatch::countDown","set collaborator",
-"Epoll","boundary","getEpollFd","get",
-"Epoll","boundary","Epoll::Epoll","constructor",
-"Epoll","boundary","Epoll::~Epoll","destructor",
-"Epoll","boundary","Epoll::epoll_add","command collaborator",
-"Epoll","boundary","Epoll::epoll_mod","command collaborator",
-"Epoll","boundary","Epoll::epoll_del","controller",
-"Epoll","boundary","Epoll::poll","property non-void-command collaborator",
-"Epoll","boundary","Epoll::handleExpired","command",
-"Epoll","boundary","Epoll::getEventsRequest","property controller",
-"Epoll","boundary","Epoll::add_timer","command collaborator",
-"EventLoopThread","boundary data-class small-class","EventLoopThread::EventLoopThread","constructor",
-"EventLoopThread","boundary data-class small-class","EventLoopThread::~EventLoopThread","destructor",
-"EventLoopThread","boundary data-class small-class","EventLoopThread::startLoop","get non-void-command collaborator",
-"EventLoopThread","boundary data-class small-class","EventLoopThread::threadFunc","set collaborator",
-"MimeType","small-class","MimeType::init","command",
-"MimeType","small-class","MimeType::getMime","get non-void-command",
-"EventLoopThreadPool","entity boundary small-class","~EventLoopThreadPool","destructor",
-"EventLoopThreadPool","entity boundary small-class","EventLoopThreadPool::EventLoopThreadPool","constructor",
-"EventLoopThreadPool","entity boundary small-class","EventLoopThreadPool::start","command collaborator",
-"EventLoopThreadPool","entity boundary small-class","EventLoopThreadPool::getNextLoop","property non-void-command collaborator",
-"HttpData","commander boundary","~HttpData","destructor",
-"HttpData","commander boundary","linkTimer","set collaborator",
-"HttpData","commander boundary","getChannel","get collaborator",
-"HttpData","commander boundary","getLoop","get collaborator",
-"HttpData","commander boundary","HttpData::HttpData","constructor",
-"HttpData","commander boundary","HttpData::reset","command collaborator",
-"HttpData","commander boundary","HttpData::seperateTimer","command collaborator",
-"HttpData","commander boundary","HttpData::handleRead","command collaborator",
-"HttpData","commander boundary","HttpData::handleWrite","command collaborator",
-"HttpData","commander boundary","HttpData::handleConn","command",
-"HttpData","commander boundary","HttpData::parseURI","property non-void-command collaborator",
-"HttpData","commander boundary","HttpData::parseHeaders","property non-void-command collaborator",
-"HttpData","commander boundary","HttpData::analysisRequest","property non-void-command collaborator",
-"HttpData","commander boundary","HttpData::handleError","controller stateless",
-"HttpData","commander boundary","HttpData::handleClose","set collaborator",
-"HttpData","commander boundary","HttpData::newEvent","command",
-"Server","commander","~Server","destructor",
-"Server","commander","getLoop","get collaborator",
-"Server","commander","handThisConn","command",
-"Server","commander","Server::Server","constructor",
-"Server","commander","Server::start","command",
-"Server","commander","Server::handNewConn","command collaborator",
-"ThreadPool","entity boundary","ThreadPool::threadpool_create","property non-void-command",
-"ThreadPool","entity boundary","ThreadPool::threadpool_add","property non-void-command collaborator",
-"ThreadPool","entity boundary","ThreadPool::threadpool_destroy","property set collaborator",
-"ThreadPool","entity boundary","ThreadPool::threadpool_free","property wrapper",
-"ThreadPool","entity boundary","ThreadPool::threadpool_thread","property command collaborator",
-"TimerNode","unclassified","setDeleted","set",
-"TimerNode","unclassified","isDeleted","get",
-"TimerNode","unclassified","getExpTime","get",
-"TimerNode","unclassified","TimerNode::TimerNode","constructor",
-"TimerNode","unclassified","TimerNode::~TimerNode","destructor",
-"TimerNode","unclassified","TimerNode::TimerNode","copy-constructor",
-"TimerNode","unclassified","TimerNode::update","set collaborator",
-"TimerNode","unclassified","TimerNode::isValid","predicate controller",
-"TimerNode","unclassified","TimerNode::clearReq","command",
-"TimerCmp","pure-controller degenerate small-class","operator()","controller stateless",
+"Logger","data-provider boundary small-class","stream","property collaborator"
+"Logger","data-provider boundary small-class","Logger::Logger","constructor"
+"Logger","data-provider boundary small-class","Logger::~Logger","destructor"
+"LogStream","unclassified","operator<<","get non-void-command"
+"LogStream","unclassified","operator<<","get"
+"LogStream","unclassified","operator<<","get non-void-command"
+"LogStream","unclassified","operator<<","get non-void-command"
+"LogStream","unclassified","operator<<","property non-void-command"
+"LogStream","unclassified","operator<<","get non-void-command"
+"LogStream","unclassified","append","command"
+"LogStream","unclassified","buffer","get collaborator"
+"LogStream","unclassified","resetBuffer","command"
+"LogStream","unclassified","LogStream::formatInteger","command collaborator"
+"LogStream","unclassified","LogStream::operator<<","get"
+"LogStream","unclassified","LogStream::operator<<","get"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogFile","commander boundary","LogFile::LogFile","constructor"
+"LogFile","commander boundary","LogFile::~LogFile","destructor"
+"LogFile","commander boundary","LogFile::append","command collaborator"
+"LogFile","commander boundary","LogFile::flush","command collaborator"
+"LogFile","commander boundary","LogFile::append_unlocked","command"
+"FixedBuffer","unclassified","FixedBuffer","constructor"
+"FixedBuffer","unclassified","~FixedBuffer","destructor"
+"FixedBuffer","unclassified","append","set"
+"FixedBuffer","unclassified","data","get"
+"FixedBuffer","unclassified","length","property"
+"FixedBuffer","unclassified","current","get"
+"FixedBuffer","unclassified","avail","property"
+"FixedBuffer","unclassified","add","set"
+"FixedBuffer","unclassified","reset","set"
+"FixedBuffer","unclassified","bzero","wrapper"
+"FixedBuffer","unclassified","end","property"
+"Condition","entity boundary","Condition","constructor"
+"Condition","entity boundary","~Condition","destructor"
+"Condition","entity boundary","wait","command"
+"Condition","entity boundary","notify","wrapper"
+"Condition","entity boundary","notifyAll","wrapper"
+"Condition","entity boundary","waitForSeconds","predicate non-void-command collaborator"
+"Channel","entity commander boundary","setHolder","set collaborator"
+"Channel","entity commander boundary","getHolder","property non-void-command collaborator"
+"Channel","entity commander boundary","setReadHandler","set collaborator"
+"Channel","entity commander boundary","setWriteHandler","set collaborator"
+"Channel","entity commander boundary","setErrorHandler","set collaborator"
+"Channel","entity commander boundary","setConnHandler","set collaborator"
+"Channel","entity commander boundary","handleEvents","command"
+"Channel","entity commander boundary","setRevents","set collaborator"
+"Channel","entity commander boundary","setEvents","set collaborator"
+"Channel","entity commander boundary","getEvents","get collaborator"
+"Channel","entity commander boundary","EqualAndUpdateLastEvents","predicate set"
+"Channel","entity commander boundary","getLastEvents","get collaborator"
+"Channel","entity commander boundary","Channel::Channel","constructor"
+"Channel","entity commander boundary","Channel::Channel","constructor"
+"Channel","entity commander boundary","Channel::~Channel","destructor"
+"Channel","entity commander boundary","Channel::getFd","get"
+"Channel","entity commander boundary","Channel::setFd","set"
+"Channel","entity commander boundary","Channel::handleRead","wrapper"
+"Channel","entity commander boundary","Channel::handleWrite","wrapper"
+"Channel","entity commander boundary","Channel::handleConn","wrapper"
+"AppendFile","unclassified","AppendFile::AppendFile","constructor"
+"AppendFile","unclassified","AppendFile::~AppendFile","destructor"
+"AppendFile","unclassified","AppendFile::append","controller"
+"AppendFile","unclassified","AppendFile::flush","wrapper"
+"AppendFile","unclassified","AppendFile::write","property wrapper"
+"AsyncLogging","commander","~AsyncLogging","destructor"
+"AsyncLogging","commander","start","command"
+"AsyncLogging","commander","stop","command"
+"AsyncLogging","commander","AsyncLogging::AsyncLogging","constructor"
+"AsyncLogging","commander","AsyncLogging::append","command collaborator"
+"AsyncLogging","commander","AsyncLogging::threadFunc","command"
+"EventLoop","commander boundary","isInLoopThread","predicate wrapper"
+"EventLoop","commander boundary","assertInLoopThread","command"
+"EventLoop","commander boundary","shutdown","controller stateless"
+"EventLoop","commander boundary","removeFromPoller","command collaborator"
+"EventLoop","commander boundary","updatePoller","command"
+"EventLoop","commander boundary","addToPoller","command"
+"EventLoop","commander boundary","EventLoop::EventLoop","constructor"
+"EventLoop","commander boundary","EventLoop::handleConn","command"
+"EventLoop","commander boundary","EventLoop::~EventLoop","destructor"
+"EventLoop","commander boundary","EventLoop::wakeup","wrapper"
+"EventLoop","commander boundary","EventLoop::handleRead","command collaborator"
+"EventLoop","commander boundary","EventLoop::runInLoop","command collaborator"
+"EventLoop","commander boundary","EventLoop::queueInLoop","command collaborator"
+"EventLoop","commander boundary","EventLoop::loop","command collaborator"
+"EventLoop","commander boundary","EventLoop::doPendingFunctors","set"
+"EventLoop","commander boundary","EventLoop::quit","command"
+"TimerManager","commander boundary small-class","TimerManager::TimerManager","constructor"
+"TimerManager","commander boundary small-class","TimerManager::~TimerManager","destructor"
+"TimerManager","commander boundary small-class","TimerManager::addTimer","command collaborator"
+"TimerManager","commander boundary small-class","TimerManager::handleExpiredEvent","command collaborator"
+"CountDownLatch","commander boundary small-class","CountDownLatch::CountDownLatch","constructor"
+"CountDownLatch","commander boundary small-class","CountDownLatch::wait","command collaborator"
+"CountDownLatch","commander boundary small-class","CountDownLatch::countDown","set collaborator"
+"Epoll","boundary","getEpollFd","get"
+"Epoll","boundary","Epoll::Epoll","constructor"
+"Epoll","boundary","Epoll::~Epoll","destructor"
+"Epoll","boundary","Epoll::epoll_add","command collaborator"
+"Epoll","boundary","Epoll::epoll_mod","command collaborator"
+"Epoll","boundary","Epoll::epoll_del","controller"
+"Epoll","boundary","Epoll::poll","property non-void-command collaborator"
+"Epoll","boundary","Epoll::handleExpired","command"
+"Epoll","boundary","Epoll::getEventsRequest","property controller"
+"Epoll","boundary","Epoll::add_timer","command collaborator"
+"EventLoopThread","boundary data-class small-class","EventLoopThread::EventLoopThread","constructor"
+"EventLoopThread","boundary data-class small-class","EventLoopThread::~EventLoopThread","destructor"
+"EventLoopThread","boundary data-class small-class","EventLoopThread::startLoop","get non-void-command collaborator"
+"EventLoopThread","boundary data-class small-class","EventLoopThread::threadFunc","set collaborator"
+"MimeType","small-class","MimeType::init","command"
+"MimeType","small-class","MimeType::getMime","get non-void-command"
+"EventLoopThreadPool","entity boundary small-class","~EventLoopThreadPool","destructor"
+"EventLoopThreadPool","entity boundary small-class","EventLoopThreadPool::EventLoopThreadPool","constructor"
+"EventLoopThreadPool","entity boundary small-class","EventLoopThreadPool::start","command collaborator"
+"EventLoopThreadPool","entity boundary small-class","EventLoopThreadPool::getNextLoop","property non-void-command collaborator"
+"HttpData","commander boundary","~HttpData","destructor"
+"HttpData","commander boundary","linkTimer","set collaborator"
+"HttpData","commander boundary","getChannel","get collaborator"
+"HttpData","commander boundary","getLoop","get collaborator"
+"HttpData","commander boundary","HttpData::HttpData","constructor"
+"HttpData","commander boundary","HttpData::reset","command collaborator"
+"HttpData","commander boundary","HttpData::seperateTimer","command collaborator"
+"HttpData","commander boundary","HttpData::handleRead","command collaborator"
+"HttpData","commander boundary","HttpData::handleWrite","command collaborator"
+"HttpData","commander boundary","HttpData::handleConn","command"
+"HttpData","commander boundary","HttpData::parseURI","property non-void-command collaborator"
+"HttpData","commander boundary","HttpData::parseHeaders","property non-void-command collaborator"
+"HttpData","commander boundary","HttpData::analysisRequest","property non-void-command collaborator"
+"HttpData","commander boundary","HttpData::handleError","controller stateless"
+"HttpData","commander boundary","HttpData::handleClose","set collaborator"
+"HttpData","commander boundary","HttpData::newEvent","command"
+"Server","commander","~Server","destructor"
+"Server","commander","getLoop","get collaborator"
+"Server","commander","handThisConn","command"
+"Server","commander","Server::Server","constructor"
+"Server","commander","Server::start","command"
+"Server","commander","Server::handNewConn","command collaborator"
+"ThreadPool","entity boundary","ThreadPool::threadpool_create","property non-void-command"
+"ThreadPool","entity boundary","ThreadPool::threadpool_add","property non-void-command collaborator"
+"ThreadPool","entity boundary","ThreadPool::threadpool_destroy","property set collaborator"
+"ThreadPool","entity boundary","ThreadPool::threadpool_free","property wrapper"
+"ThreadPool","entity boundary","ThreadPool::threadpool_thread","property command collaborator"
+"TimerNode","unclassified","setDeleted","set"
+"TimerNode","unclassified","isDeleted","get"
+"TimerNode","unclassified","getExpTime","get"
+"TimerNode","unclassified","TimerNode::TimerNode","constructor"
+"TimerNode","unclassified","TimerNode::~TimerNode","destructor"
+"TimerNode","unclassified","TimerNode::TimerNode","copy-constructor"
+"TimerNode","unclassified","TimerNode::update","set collaborator"
+"TimerNode","unclassified","TimerNode::isValid","predicate controller"
+"TimerNode","unclassified","TimerNode::clearReq","command"
+"TimerCmp","pure-controller degenerate small-class","operator()","controller stateless"

@@ -1,1173 +1,1170 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"CommandLineTool","commander","ExitWithUsageInstructions","incidental",
-"CommandLineTool","commander","CommandLineTool","constructor",
-"CommandLineTool","commander","OnExit","wrapper stateless",
-"CommandLineTool","commander","OnError","command collaborator",
-"CommandLineTool","commander","PrintIssues","wrapper stateless",
-"CommandLineTool","commander","PrintAllMessages","command",
-"CommandLineTool","commander","ProcessArguments","predicate non-void-command",
-"CommandLinePlayer","entity commander boundary","CommandLinePlayer","constructor",
-"CommandLinePlayer","entity commander boundary","Begin","command collaborator",
-"CommandLinePlayer","entity commander boundary","EvaluateStory","command collaborator",
-"CommandLinePlayer","entity commander boundary","OnStoryError","command collaborator",
-"CommandLinePlayer","entity commander boundary","ReadCommandLineInput","property non-void-command factory collaborator",
-"VariablesState","boundary","StartVariableObservation","command",
-"VariablesState","boundary","CompleteVariableObservation","non-void-command factory collaborator",
-"VariablesState","boundary","NotifyObservers","wrapper stateless",
-"VariablesState","boundary","System.Collections.IEnumerable.GetEnumerator","property non-void-command collaborator",
-"VariablesState","boundary","GetEnumerator","property non-void-command collaborator",
-"VariablesState","boundary","VariablesState","constructor",
-"VariablesState","boundary","ApplyPatch","command collaborator",
-"VariablesState","boundary","SetJsonToken","set collaborator",
-"VariablesState","boundary","WriteJson","command collaborator",
-"VariablesState","boundary","RuntimeObjectsEqual","wrapper stateless",
-"VariablesState","boundary","GetVariableWithName","property non-void-command collaborator",
-"VariablesState","boundary","TryGetDefaultVariableValue","property non-void-command collaborator",
-"VariablesState","boundary","GlobalVariableExistsWithName","predicate non-void-command",
-"VariablesState","boundary","GetVariableWithName","property non-void-command collaborator",
-"VariablesState","boundary","GetRawVariableWithName","property non-void-command collaborator",
-"VariablesState","boundary","ValueAtVariablePointer","property non-void-command collaborator",
-"VariablesState","boundary","Assign","void-accessor command collaborator",
-"VariablesState","boundary","SnapshotDefaultGlobals","set",
-"VariablesState","boundary","RetainListOriginsForAssignment","controller stateless",
-"VariablesState","boundary","SetGlobal","command collaborator",
-"VariablesState","boundary","ResolveVariablePointer","property non-void-command factory collaborator",
-"VariablesState","boundary","GetContextIndexOfVariableNamed","get property non-void-command",
-"VariablesState","boundary","get","get collaborator",
-"VariablesState","boundary","set","set collaborator",
-"VariablesState","boundary","get","property non-void-command collaborator",
-"VariablesState","boundary","set","non-void-command collaborator",
-"ListValue","entity data-provider boundary","Cast","get property non-void-command factory collaborator",
-"ListValue","entity data-provider boundary","ListValue","constructor",
-"ListValue","entity data-provider boundary","ListValue","constructor",
-"ListValue","entity data-provider boundary","ListValue","constructor",
-"ListValue","entity data-provider boundary","get","collaborator incidental",
-"ListValue","entity data-provider boundary","get","predicate",
-"DivertTargetValue","boundary lazy-class","DivertTargetValue","constructor",
-"DivertTargetValue","boundary lazy-class","DivertTargetValue","constructor",
-"DivertTargetValue","boundary lazy-class","Cast","get non-void-command collaborator",
-"DivertTargetValue","boundary lazy-class","ToString","incidental",
-"DivertTargetValue","boundary lazy-class","get","get collaborator",
-"DivertTargetValue","boundary lazy-class","set","set collaborator",
-"DivertTargetValue","boundary lazy-class","get","collaborator incidental",
-"DivertTargetValue","boundary lazy-class","get","stateless",
-"FloatValue","entity data-provider boundary","FloatValue","constructor",
-"FloatValue","entity data-provider boundary","FloatValue","constructor",
-"FloatValue","entity data-provider boundary","Cast","get property non-void-command factory collaborator",
-"FloatValue","entity data-provider boundary","get","collaborator incidental",
-"FloatValue","entity data-provider boundary","get","predicate",
-"Value<T>","small-class","Value","constructor",
-"Value<T>","small-class","ToString","property non-void-command",
-"Value<T>","small-class","get","property collaborator",
-"StoryException","empty","StoryException","constructor",
-"StoryException","empty","StoryException","constructor",
-"StatePatch","unclassified","StatePatch","copy-constructor",
-"StatePatch","unclassified","TryGetGlobal","predicate non-void-command collaborator",
-"StatePatch","unclassified","SetGlobal","set collaborator",
-"StatePatch","unclassified","AddChangedVariable","command",
-"StatePatch","unclassified","TryGetVisitCount","predicate non-void-command",
-"StatePatch","unclassified","SetVisitCount","set",
-"StatePatch","unclassified","SetTurnIndex","set",
-"StatePatch","unclassified","TryGetTurnIndex","predicate non-void-command",
-"StatePatch","unclassified","get","get collaborator",
-"StatePatch","unclassified","get","get",
-"StatePatch","unclassified","get","get collaborator",
-"StatePatch","unclassified","get","get collaborator",
-"ProfileNode","unclassified","ProfileNode","constructor",
-"ProfileNode","unclassified","ProfileNode","constructor",
-"ProfileNode","unclassified","AddSample","void-accessor command",
-"ProfileNode","unclassified","AddSample","void-accessor command",
-"ProfileNode","unclassified","AddSampleToNode","void-accessor command",
-"ProfileNode","unclassified","PrintHierarchy","command collaborator",
-"ProfileNode","unclassified","Pad","controller stateless",
-"ProfileNode","unclassified","ToString","property non-void-command collaborator",
-"ProfileNode","unclassified","get","predicate",
-"ProfileNode","unclassified","get","property",
-"ProfileNode","unclassified","get","property non-void-command collaborator",
-"ProfileNode","unclassified","get","property controller",
-"SearchResult","data-provider boundary small-class","get","property collaborator",
-"SearchResult","data-provider boundary small-class","get","property collaborator",
-"Profiler","degenerate","Profiler","constructor",
-"Profiler","degenerate","Report","controller stateless",
-"Profiler","degenerate","PreContinue","wrapper stateless",
-"Profiler","degenerate","PostContinue","wrapper stateless",
-"Profiler","degenerate","PreStep","wrapper stateless",
-"Profiler","degenerate","Step","controller stateless",
-"Profiler","degenerate","PostStep","wrapper stateless",
-"Profiler","degenerate","StepLengthReport","controller stateless",
-"Profiler","degenerate","get","collaborator incidental",
-"Pointer","data-provider","Pointer","constructor",
-"Pointer","data-provider","Resolve","get property collaborator",
-"Pointer","data-provider","ToString","property non-void-command",
-"Pointer","data-provider","get","predicate",
-"Pointer","data-provider","get","get property non-void-command collaborator",
-"ListDefinitionsOrigin","unclassified","ListDefinitionsOrigin","constructor",
-"ListDefinitionsOrigin","unclassified","TryListGetDefinition","predicate non-void-command collaborator",
-"ListDefinitionsOrigin","unclassified","FindSingleItemListWithName","property non-void-command collaborator",
-"ListDefinitionsOrigin","unclassified","get","factory controller",
-"Json","empty","Json","constructor",
-"Value","small-class","Copy","property wrapper",
-"Value","small-class","BadCastException","property factory collaborator",
-"InkListItem","data-provider","InkListItem","constructor",
-"InkListItem","data-provider","InkListItem","constructor",
-"InkListItem","data-provider","ToString","incidental",
-"InkListItem","data-provider","Equals","predicate non-void-command collaborator",
-"InkListItem","data-provider","Equals","predicate",
-"InkListItem","data-provider","GetHashCode","property non-void-command",
-"InkListItem","data-provider","get","factory stateless",
-"InkListItem","data-provider","get","predicate",
-"InkListItem","data-provider","get","property",
-"DebugMetadata","small-class","DebugMetadata","constructor",
-"DebugMetadata","small-class","Merge","factory wrapper",
-"DebugMetadata","small-class","ToString","property wrapper",
-"BoolValue","data-provider","BoolValue","constructor",
-"BoolValue","data-provider","BoolValue","constructor",
-"BoolValue","data-provider","Cast","get property non-void-command factory collaborator",
-"BoolValue","data-provider","ToString","property",
-"BoolValue","data-provider","get","collaborator incidental",
-"BoolValue","data-provider","get","get",
-"ControlCommand","small-class","ControlCommand","constructor",
-"ControlCommand","small-class","ControlCommand","constructor",
-"ControlCommand","small-class","Copy","property factory collaborator",
-"ControlCommand","small-class","ToString","property non-void-command",
-"Flow","commander boundary small-class","Flow","constructor",
-"Flow","commander boundary small-class","Flow","constructor",
-"Flow","commander boundary small-class","WriteJson","command collaborator",
-"Flow","commander boundary small-class","LoadFlowChoiceThreads","command collaborator",
-"Container","boundary","Container","constructor",
-"Container","boundary","AddContent","void-accessor command collaborator",
-"Container","boundary","AddContent","command collaborator",
-"Container","boundary","InsertContent","void-accessor command",
-"Container","boundary","TryAddNamedContent","command collaborator",
-"Container","boundary","AddToNamedContentOnly","set collaborator",
-"Container","boundary","AddContentsOfContainer","void-accessor command collaborator",
-"Container","boundary","ContentWithPathComponent","get property non-void-command collaborator",
-"Container","boundary","ContentAtPath","factory controller",
-"Container","boundary","BuildStringOfHierarchy","command collaborator",
-"Container","boundary","BuildStringOfHierarchy","property non-void-command collaborator",
-"Container","boundary","get","get collaborator",
-"Container","boundary","set","non-void-command collaborator",
-"Container","boundary","get","factory controller",
-"Container","boundary","set","non-void-command collaborator",
-"Container","boundary","get","property collaborator",
-"Container","boundary","set","non-void-command collaborator",
-"Container","boundary","get","predicate",
-"Container","boundary","get","get set collaborator",
-"Container","boundary","get","property factory controller",
-"StoryState","boundary","ToJson","property non-void-command collaborator",
-"StoryState","boundary","ToJson","command collaborator",
-"StoryState","boundary","LoadJson","command collaborator",
-"StoryState","boundary","VisitCountAtPathString","property non-void-command collaborator",
-"StoryState","boundary","VisitCountForContainer","property non-void-command collaborator",
-"StoryState","boundary","IncrementVisitCountForContainer","command collaborator",
-"StoryState","boundary","RecordTurnIndexVisitToContainer","set collaborator",
-"StoryState","boundary","TurnsSinceForContainer","property non-void-command collaborator",
-"StoryState","boundary","CleanOutputWhitespace","controller stateless",
-"StoryState","boundary","StoryState","constructor",
-"StoryState","boundary","GoToStart","wrapper",
-"StoryState","boundary","SwitchFlow_Internal","command collaborator",
-"StoryState","boundary","SwitchToDefaultFlow_Internal","command",
-"StoryState","boundary","RemoveFlow_Internal","command",
-"StoryState","boundary","CopyAndStartPatching","factory controller",
-"StoryState","boundary","RestoreAfterPatch","command",
-"StoryState","boundary","ApplyAnyPatch","command collaborator",
-"StoryState","boundary","ApplyCountChanges","controller",
-"StoryState","boundary","WriteJson","controller",
-"StoryState","boundary","LoadJsonObj","command collaborator",
-"StoryState","boundary","ResetErrors","command",
-"StoryState","boundary","ResetOutput","command collaborator",
-"StoryState","boundary","PushToOutputStream","command collaborator",
-"StoryState","boundary","PopFromOutputStream","command",
-"StoryState","boundary","TrySplittingHeadTailWhitespace","factory controller stateless",
-"StoryState","boundary","PushToOutputStreamIndividual","command collaborator",
-"StoryState","boundary","TrimNewlinesFromOutputStream","command collaborator",
-"StoryState","boundary","RemoveExistingGlue","command collaborator",
-"StoryState","boundary","PushEvaluationStack","command collaborator",
-"StoryState","boundary","PopEvaluationStack","property non-void-command collaborator",
-"StoryState","boundary","PeekEvaluationStack","get collaborator",
-"StoryState","boundary","PopEvaluationStack","property non-void-command collaborator",
-"StoryState","boundary","ForceEnd","set",
-"StoryState","boundary","TrimWhitespaceFromFunctionEnd","command collaborator",
-"StoryState","boundary","PopCallstack","command collaborator",
-"StoryState","boundary","SetChosenPath","command collaborator",
-"StoryState","boundary","StartFunctionEvaluationFromGame","void-accessor command collaborator",
-"StoryState","boundary","PassArgumentsToEvaluationStack","void-accessor command collaborator",
-"StoryState","boundary","TryExitFunctionEvaluationFromGame","predicate set",
-"StoryState","boundary","CompleteFunctionEvaluationFromGame","property non-void-command collaborator",
-"StoryState","boundary","AddError","command",
-"StoryState","boundary","OutputStreamDirty","command",
-"StoryState","boundary","get","incidental",
-"StoryState","boundary","get","get collaborator",
-"StoryState","boundary","get","get property factory collaborator",
-"StoryState","boundary","get","get collaborator",
-"StoryState","boundary","get","get collaborator",
-"StoryState","boundary","get","controller stateless",
-"StoryState","boundary","get","controller stateless",
-"StoryState","boundary","get","collaborator incidental",
-"StoryState","boundary","set","collaborator incidental",
-"StoryState","boundary","get","collaborator incidental",
-"StoryState","boundary","set","collaborator incidental",
-"StoryState","boundary","get","incidental",
-"StoryState","boundary","get","predicate",
-"StoryState","boundary","get","predicate",
-"StoryState","boundary","get","get non-void-command collaborator",
-"StoryState","boundary","get","get non-void-command collaborator",
-"StoryState","boundary","get","get",
-"StoryState","boundary","get","predicate",
-"StoryState","boundary","get","get non-void-command",
-"StoryState","boundary","get","incidental",
-"StoryState","boundary","set","incidental",
-"StoryState","boundary","get","collaborator incidental",
-"StoryState","boundary","get","collaborator incidental",
-"StoryState","boundary","get","collaborator incidental",
-"Gather","boundary","Gather","constructor",
-"Gather","boundary","GenerateRuntimeObject","factory controller",
-"Gather","boundary","ResolveReferences","command collaborator",
-"Gather","boundary","get","get",
-"Gather","boundary","get","collaborator incidental",
-"Choice","entity minimal-entity boundary","Choice","constructor",
-"Choice","entity minimal-entity boundary","GenerateRuntimeObject","get non-void-command factory collaborator",
-"Choice","entity minimal-entity boundary","ResolveReferences","command collaborator",
-"Choice","entity minimal-entity boundary","ToString","property wrapper",
-"Choice","entity minimal-entity boundary","get","get",
-"Choice","entity minimal-entity boundary","get","get collaborator",
-"Choice","entity minimal-entity boundary","set","set collaborator",
-"Choice","entity minimal-entity boundary","get","get collaborator",
-"Choice","entity minimal-entity boundary","get","get collaborator",
-"Choice","entity minimal-entity boundary","get","get collaborator",
-"Choice","entity minimal-entity boundary","get","get collaborator",
-"Choice","entity minimal-entity boundary","Choice","constructor",
-"Choice","entity minimal-entity boundary","Clone","non-void-command factory collaborator",
-"Choice","entity minimal-entity boundary","get","property non-void-command",
-"Choice","entity minimal-entity boundary","set","set",
-"Number","unclassified","Number","constructor",
-"Number","unclassified","GenerateIntoContainer","controller",
-"Number","unclassified","ToString","property non-void-command",
-"Number","unclassified","Equals","predicate non-void-command collaborator",
-"Number","unclassified","GetHashCode","property non-void-command",
-"ContentList","boundary","ContentList","constructor",
-"ContentList","boundary","ContentList","constructor",
-"ContentList","boundary","ContentList","constructor",
-"ContentList","boundary","TrimTrailingWhitespace","command collaborator",
-"ContentList","boundary","GenerateRuntimeObject","factory controller",
-"ContentList","boundary","ToString","property non-void-command collaborator",
-"ContentList","boundary","get","collaborator incidental",
-"Glue","degenerate small-class","Glue","copy-constructor",
-"Glue","degenerate small-class","Glue","constructor",
-"Glue","degenerate small-class","ToString","incidental",
-"IncDecExpression","unclassified","IncDecExpression","constructor",
-"IncDecExpression","unclassified","IncDecExpression","constructor",
-"IncDecExpression","unclassified","GenerateIntoContainer","set collaborator",
-"IncDecExpression","unclassified","ResolveReferences","set collaborator",
-"IncDecExpression","unclassified","ToString","property non-void-command",
-"IncDecExpression","unclassified","get","property",
-"Path","data-provider boundary","Path","constructor",
-"Path","data-provider boundary","Path","constructor",
-"Path","data-provider boundary","Path","constructor",
-"Path","data-provider boundary","ToString","property",
-"Path","data-provider boundary","ResolveFromContext","property non-void-command collaborator",
-"Path","data-provider boundary","ResolveBaseTarget","property non-void-command collaborator",
-"Path","data-provider boundary","ResolveTailComponents","property wrapper",
-"Path","data-provider boundary","TryGetChildFromContext","controller stateless",
-"Path","data-provider boundary","get","property collaborator",
-"Path","data-provider boundary","get","predicate",
-"Path","data-provider boundary","get","get property",
-"Path","data-provider boundary","get","get",
-"Path","data-provider boundary","get","get set",
-"Path","data-provider boundary","GetComponent","get collaborator",
-"Path","data-provider boundary","Path","constructor",
-"Path","data-provider boundary","Path","copy-constructor",
-"Path","data-provider boundary","Path","constructor",
-"Path","data-provider boundary","Path","constructor",
-"Path","data-provider boundary","PathByAppendingPath","factory controller",
-"Path","data-provider boundary","PathByAppendingComponent","factory controller",
-"Path","data-provider boundary","ToString","incidental",
-"Path","data-provider boundary","Equals","predicate non-void-command collaborator",
-"Path","data-provider boundary","Equals","predicate controller",
-"Path","data-provider boundary","GetHashCode","property non-void-command",
-"Path","data-provider boundary","get","property non-void-command collaborator",
-"Path","data-provider boundary","get","property non-void-command factory collaborator",
-"Path","data-provider boundary","get","get",
-"Path","data-provider boundary","get","get property collaborator",
-"Path","data-provider boundary","get","predicate collaborator",
-"Path","data-provider boundary","get","factory collaborator stateless",
-"Path","data-provider boundary","get","get set",
-"Path","data-provider boundary","set","non-void-command",
-"StringValue","data-provider","StringValue","constructor",
-"StringValue","data-provider","StringValue","constructor",
-"StringValue","data-provider","Cast","get property non-void-command factory collaborator",
-"StringValue","data-provider","get","collaborator incidental",
-"StringValue","data-provider","get","predicate",
-"StringValue","data-provider","get","predicate",
-"Expression","controller small-class","GenerateRuntimeObject","factory controller",
-"Expression","controller small-class","GenerateConstantIntoContainer","set collaborator",
-"Tests","controller degenerate","Tests","constructor",
-"Tests","controller degenerate","TestArgumentNameCollisions","command",
-"Tests","controller degenerate","TestArgumentShouldntConflictWithGatherElsewhere","wrapper stateless",
-"Tests","controller degenerate","TestArithmetic","controller stateless",
-"Tests","controller degenerate","TestBasicStringLiterals","controller stateless",
-"Tests","controller degenerate","TestBasicTunnel","controller stateless",
-"Tests","controller degenerate","TestBlanksInInlineSequences","controller stateless",
-"Tests","controller degenerate","TestAllSequenceTypes","controller stateless",
-"Tests","controller degenerate","TestCallStackEvaluation","controller stateless",
-"Tests","controller degenerate","TestChoiceCount","controller stateless",
-"Tests","controller degenerate","TestChoiceDivertsToDone","controller stateless",
-"Tests","controller degenerate","TestChoiceWithBracketsOnly","controller stateless",
-"Tests","controller degenerate","TestCommentEliminator","controller stateless",
-"Tests","controller degenerate","TestCommentEliminatorMixedNewlines","controller stateless",
-"Tests","controller degenerate","TestCompareDivertTargets","controller stateless",
-"Tests","controller degenerate","TestComplexTunnels","controller stateless",
-"Tests","controller degenerate","TestConditionalChoiceInWeave","controller stateless",
-"Tests","controller degenerate","TestConditionalChoiceInWeave2","controller stateless",
-"Tests","controller degenerate","TestConditionalChoices","controller stateless",
-"Tests","controller degenerate","TestConditionals","controller stateless",
-"Tests","controller degenerate","TestConst","controller stateless",
-"Tests","controller degenerate","TestDefaultChoices","controller stateless",
-"Tests","controller degenerate","TestDefaultSimpleGather","controller stateless",
-"Tests","controller degenerate","TestDivertInConditional","controller stateless",
-"Tests","controller degenerate","TestDivertNotFoundError","command",
-"Tests","controller degenerate","TestDivertToWeavePoints","controller stateless",
-"Tests","controller degenerate","TestElseBranches","wrapper stateless",
-"Tests","controller degenerate","TestEmpty","wrapper stateless",
-"Tests","controller degenerate","TestEmptyChoice","controller stateless",
-"Tests","controller degenerate","TestEmptyMultilineConditionalBranch","controller stateless",
-"Tests","controller degenerate","TestAllSwitchBranchesFailIsClean","controller stateless",
-"Tests","controller degenerate","TestTrivialCondition","controller stateless",
-"Tests","controller degenerate","TestEmptySequenceContent","controller stateless",
-"Tests","controller degenerate","TestEnd","controller stateless",
-"Tests","controller degenerate","TestEnd2","controller stateless",
-"Tests","controller degenerate","TestEndOfContent","command collaborator",
-"Tests","controller degenerate","TestEscapeCharacter","controller stateless",
-"Tests","controller degenerate","TestExternalBinding","controller stateless",
-"Tests","controller degenerate","TestLookupSafeOrNot","controller stateless",
-"Tests","controller degenerate","TestFactorialByReference","controller stateless",
-"Tests","controller degenerate","TestFactorialRecursive","controller stateless",
-"Tests","controller degenerate","TestFunctionCallRestrictions","command",
-"Tests","controller degenerate","TestFunctionPurityChecks","command",
-"Tests","controller degenerate","TestDisallowEmptyDiverts","command",
-"Tests","controller degenerate","TestGatherChoiceSameLine","controller stateless",
-"Tests","controller degenerate","TestGatherReadCountWithInitialSequence","controller stateless",
-"Tests","controller degenerate","TestHasReadOnChoice","controller stateless",
-"Tests","controller degenerate","TestHelloWorld","controller stateless",
-"Tests","controller degenerate","TestIdentifersCanStartWithNumbers","controller stateless",
-"Tests","controller degenerate","TestImplicitInlineGlue","controller stateless",
-"Tests","controller degenerate","TestImplicitInlineGlueB","controller stateless",
-"Tests","controller degenerate","TestImplicitInlineGlueC","controller stateless",
-"Tests","controller degenerate","TestInclude","controller stateless",
-"Tests","controller degenerate","TestIncrement","controller stateless",
-"Tests","controller degenerate","TestKnotDotGather","controller stateless",
-"Tests","controller degenerate","TestKnotTerminationSkipsGlobalObjects","command",
-"Tests","controller degenerate","TestLooseEnds","command",
-"Tests","controller degenerate","TestKnotThreadInteraction","controller stateless",
-"Tests","controller degenerate","TestKnotThreadInteraction2","controller stateless",
-"Tests","controller degenerate","TestLeadingNewlineMultilineSequence","controller stateless",
-"Tests","controller degenerate","TestLiteralUnary","controller stateless",
-"Tests","controller degenerate","TestLogicInChoices","controller stateless",
-"Tests","controller degenerate","TestMultipleConstantReferences","controller stateless",
-"Tests","controller degenerate","TestMultiThread","controller stateless",
-"Tests","controller degenerate","TestNestedInclude","controller stateless",
-"Tests","controller degenerate","TestNestedPassByReference","controller stateless",
-"Tests","controller degenerate","TestNonTextInChoiceInnerContent","controller stateless",
-"Tests","controller degenerate","TestOnceOnlyChoicesCanLinkBackToSelf","controller stateless",
-"Tests","controller degenerate","TestOnceOnlyChoicesWithOwnContent","controller stateless",
-"Tests","controller degenerate","TestPaths","wrapper stateless",
-"Tests","controller degenerate","TestPathToSelf","controller stateless",
-"Tests","controller degenerate","TestPrintNum","controller stateless",
-"Tests","controller degenerate","TestQuoteCharacterSignificance","controller stateless",
-"Tests","controller degenerate","TestReadCountAcrossCallstack","controller stateless",
-"Tests","controller degenerate","TestReadCountAcrossThreads","controller stateless",
-"Tests","controller degenerate","TestReadCountDotSeparatedPath","controller stateless",
-"Tests","controller degenerate","TestRequireVariableTargetsTyped","command",
-"Tests","controller degenerate","TestReturnTextWarning","controller stateless",
-"Tests","controller degenerate","TestSameLineDivertIsInline","controller stateless",
-"Tests","controller degenerate","TestShouldntGatherDueToChoice","controller stateless",
-"Tests","controller degenerate","TestShuffleStackMuddying","controller stateless",
-"Tests","controller degenerate","TestSimpleGlue","controller stateless",
-"Tests","controller degenerate","TestStickyChoicesStaySticky","controller stateless",
-"Tests","controller degenerate","TestStringConstants","controller stateless",
-"Tests","controller degenerate","TestStringParserA","controller stateless",
-"Tests","controller degenerate","TestStringParserABAB","controller stateless",
-"Tests","controller degenerate","TestStringParserABAOptional","controller stateless",
-"Tests","controller degenerate","TestStringParserABAOptional2","controller stateless",
-"Tests","controller degenerate","TestStringParserB","controller stateless",
-"Tests","controller degenerate","TestStringsInChoices","controller stateless",
-"Tests","controller degenerate","TestStringTypeCoersion","controller stateless",
-"Tests","controller degenerate","TestTemporariesAtGlobalScope","controller stateless",
-"Tests","controller degenerate","TestThreadDone","controller stateless",
-"Tests","controller degenerate","TestTunnelOnwardsAfterTunnel","controller stateless",
-"Tests","controller degenerate","TestTunnelVsThreadBehaviour","controller stateless",
-"Tests","controller degenerate","TestTurnsSince","controller stateless",
-"Tests","controller degenerate","TestTurnsSinceNested","controller stateless",
-"Tests","controller degenerate","TestTurnsSinceWithVariableTarget","controller stateless",
-"Tests","controller degenerate","TestUnbalancedWeaveIndentation","controller stateless",
-"Tests","controller degenerate","TestVariableDeclarationInConditional","controller stateless",
-"Tests","controller degenerate","TestVariableDivertTarget","controller stateless",
-"Tests","controller degenerate","TestVariableGetSetAPI","controller stateless",
-"Tests","controller degenerate","TestVariableObserver","controller stateless",
-"Tests","controller degenerate","TestVariablePointerRefFromKnot","controller stateless",
-"Tests","controller degenerate","TestVariableSwapRecurse","controller stateless",
-"Tests","controller degenerate","TestVariableTunnel","controller stateless",
-"Tests","controller degenerate","TestWeaveGathers","controller stateless",
-"Tests","controller degenerate","TestWeaveOptions","controller stateless",
-"Tests","controller degenerate","TestWhitespace","controller stateless",
-"Tests","controller degenerate","TestVisitCountsWhenChoosing","controller stateless",
-"Tests","controller degenerate","TestVisitCountBugDueToNestedContainers","controller stateless",
-"Tests","controller degenerate","TestTempGlobalConflict","controller stateless",
-"Tests","controller degenerate","TestThreadInLogic","controller stateless",
-"Tests","controller degenerate","TestTempUsageInOptions","controller stateless",
-"Tests","controller degenerate","TestEvaluatingInkFunctionsFromGame","controller stateless",
-"Tests","controller degenerate","TestEvaluatingInkFunctionsFromGame2","controller stateless",
-"Tests","controller degenerate","TestEvaluatingFunctionVariableStateBug","controller stateless",
-"Tests","controller degenerate","TestDoneStopsThread","controller stateless",
-"Tests","controller degenerate","TestWrongVariableDivertTargetReference","command collaborator",
-"Tests","controller degenerate","TestLeftRightGlueMatching","controller stateless",
-"Tests","controller degenerate","TestSetNonExistantVariable","controller stateless",
-"Tests","controller degenerate","TestConstRedefinition","command collaborator",
-"Tests","controller degenerate","TestTags","controller stateless",
-"Tests","controller degenerate","TestTunnelOnwardsDivertOverride","controller stateless",
-"Tests","controller degenerate","TestListBasicOperations","controller stateless",
-"Tests","controller degenerate","TestListMixedItems","controller stateless",
-"Tests","controller degenerate","TestMoreListOperations","controller stateless",
-"Tests","controller degenerate","TestEmptyListOrigin","controller stateless",
-"Tests","controller degenerate","TestContainsEmptyListAlwaysFalse","controller stateless",
-"Tests","controller degenerate","TestEmptyListOriginAfterAssignment","controller stateless",
-"Tests","controller degenerate","TestListSaveLoad","controller stateless",
-"Tests","controller degenerate","TestEmptyThreadError","command",
-"Tests","controller degenerate","TestAuthorWarningsInsideContentListBug","command collaborator",
-"Tests","controller degenerate","TestWeaveWithinSequence","controller stateless",
-"Tests","controller degenerate","TestNestedChoiceError","command collaborator",
-"Tests","controller degenerate","TestStitchNamingCollision","command collaborator",
-"Tests","controller degenerate","TestWeavePointNamingCollision","command collaborator",
-"Tests","controller degenerate","TestVariableNamingCollisionWithFlow","command collaborator",
-"Tests","controller degenerate","TestVariableNamingCollisionWithArg","command collaborator",
-"Tests","controller degenerate","TestTunnelOnwardsDivertAfterWithArg","controller stateless",
-"Tests","controller degenerate","TestVariousDefaultChoices","controller stateless",
-"Tests","controller degenerate","TestVariousBlankChoiceWarning","command collaborator",
-"Tests","controller degenerate","TestTunnelOnwardsWithParamDefaultChoice","controller stateless",
-"Tests","controller degenerate","TestTunnelOnwardsToVariableDivertTarget","controller stateless",
-"Tests","controller degenerate","TestReadCountVariableTarget","controller stateless",
-"Tests","controller degenerate","TestDivertTargetsWithParameters","controller stateless",
-"Tests","controller degenerate","TestTagsInSeq","controller stateless",
-"Tests","controller degenerate","TestTagsInChoice","controller stateless",
-"Tests","controller degenerate","TestTagsDynamicContent","controller stateless",
-"Tests","controller degenerate","TestStringContains","controller stateless",
-"Tests","controller degenerate","TestEvaluationStackLeaks","controller stateless",
-"Tests","controller degenerate","TestGameInkBackAndForth","controller stateless",
-"Tests","controller degenerate","TestNewlinesWithStringEval","controller stateless",
-"Tests","controller degenerate","TestNewlinesTrimmingWithFuncExternalFallback","controller stateless",
-"Tests","controller degenerate","TestMultilineLogicWithGlue","controller stateless",
-"Tests","controller degenerate","TestNewlineAtStartOfMultilineConditional","controller stateless",
-"Tests","controller degenerate","TestTempNotFound","command collaborator",
-"Tests","controller degenerate","TestTempNotAllowedCrossStitch","command collaborator",
-"Tests","controller degenerate","TestTopFlowTerminatorShouldntKillThreadChoices","controller stateless",
-"Tests","controller degenerate","TestNewlineConsistency","controller stateless",
-"Tests","controller degenerate","TestListRandom","controller stateless",
-"Tests","controller degenerate","TestTurns","controller stateless",
-"Tests","controller degenerate","TestLogicLinesWithNewlines","controller stateless",
-"Tests","controller degenerate","TestFloorCeilingAndCasts","controller stateless",
-"Tests","controller degenerate","TestListRange","controller stateless",
-"Tests","controller degenerate","TestUsingFunctionAndIncrementTogether","wrapper stateless",
-"Tests","controller degenerate","TestKnotStitchGatherCounts","controller stateless",
-"Tests","controller degenerate","TestChoiceThreadForking","controller stateless",
-"Tests","controller degenerate","TestFallbackChoiceOnThread","controller stateless",
-"Tests","controller degenerate","TestCleanCallstackResetOnPathChoice","controller stateless",
-"Tests","controller degenerate","TestStateRollbackOverDefaultChoice","controller stateless",
-"Tests","controller degenerate","TestBools","wrapper stateless",
-"Tests","controller degenerate","TestMultiFlowBasics","controller stateless",
-"Tests","controller degenerate","TestMultiFlowSaveLoadThreads","controller stateless",
-"Tests","controller degenerate","CompileString","non-void-command factory collaborator",
-"Tests","controller degenerate","CompileStringWithoutRuntime","property non-void-command collaborator",
-"Tests","controller degenerate","HadError","predicate non-void-command",
-"Tests","controller degenerate","HadErrorOrWarning","controller stateless",
-"Tests","controller degenerate","HadWarning","predicate non-void-command",
-"Tests","controller degenerate","OnError","command collaborator",
-"Tests","controller degenerate","GenerateIdentifierFromCharacterRange","controller stateless",
-"Tests","controller degenerate","GenerateIdentifierFromCharacterRange","property non-void-command collaborator",
-"Tests","controller degenerate","TestCharacterRangeIdentifiersForConstNamesWithAsciiPrefix","command collaborator",
-"Tests","controller degenerate","TestCharacterRangeIdentifiersForConstNamesWithAsciiSuffix","command collaborator",
-"Tests","controller degenerate","TestCharacterRangeIdentifiersForSimpleVariableNamesWithAsciiPrefix","command collaborator",
-"Tests","controller degenerate","TestCharacterRangeIdentifiersForSimpleVariableNamesWithAsciiSuffix","command collaborator",
-"Tests","controller degenerate","TestCharacterRangeIdentifiersForDivertNamesWithAsciiPrefix","command collaborator",
-"Tests","controller degenerate","TestCharacterRangeIdentifiersForDivertNamesWithAsciiSuffix","command collaborator",
-"ListDefinition","boundary","ItemNamed","property non-void-command collaborator",
-"ListDefinition","boundary","ListDefinition","constructor",
-"ListDefinition","boundary","GenerateRuntimeObject","property factory controller",
-"ListDefinition","boundary","ResolveReferences","command collaborator",
-"ListDefinition","boundary","get","property factory controller",
-"ListDefinition","boundary","get","incidental",
-"ListDefinition","boundary","ValueForItem","property non-void-command collaborator",
-"ListDefinition","boundary","ContainsItem","predicate non-void-command collaborator",
-"ListDefinition","boundary","ContainsItemWithName","predicate non-void-command",
-"ListDefinition","boundary","TryGetItemWithValue","predicate collaborator",
-"ListDefinition","boundary","TryGetValueForItem","predicate non-void-command",
-"ListDefinition","boundary","ListDefinition","constructor",
-"ListDefinition","boundary","get","get",
-"ListDefinition","boundary","get","get non-void-command factory collaborator",
-"ConstantDeclaration","unclassified","ConstantDeclaration","constructor",
-"ConstantDeclaration","unclassified","GenerateRuntimeObject","collaborator incidental",
-"ConstantDeclaration","unclassified","ResolveReferences","command collaborator",
-"ConstantDeclaration","unclassified","get","get",
-"ConstantDeclaration","unclassified","get","incidental",
-"TunnelOnwards","commander boundary data-class","GenerateRuntimeObject","set factory collaborator",
-"TunnelOnwards","commander boundary data-class","ResolveReferences","set collaborator",
-"TunnelOnwards","commander boundary data-class","get","get collaborator",
-"TunnelOnwards","commander boundary data-class","set","set collaborator",
-"LegacyTag","empty","LegacyTag","constructor",
-"CharacterRange","data-provider data-class","ToCharacterSet","get non-void-command collaborator",
-"CharacterRange","data-provider data-class","CharacterRange","constructor",
-"CharacterRange","data-provider data-class","get","get",
-"CharacterRange","data-provider data-class","get","get",
-"ExternalDeclaration","data-provider small-class","ExternalDeclaration","constructor",
-"ExternalDeclaration","data-provider small-class","GenerateRuntimeObject","property wrapper",
-"ExternalDeclaration","data-provider small-class","get","get",
-"VariablePointerValue","lazy-class","VariablePointerValue","constructor",
-"VariablePointerValue","lazy-class","VariablePointerValue","constructor",
-"VariablePointerValue","lazy-class","Cast","get non-void-command collaborator",
-"VariablePointerValue","lazy-class","ToString","incidental",
-"VariablePointerValue","lazy-class","Copy","property factory collaborator",
-"VariablePointerValue","lazy-class","get","get",
-"VariablePointerValue","lazy-class","set","set",
-"VariablePointerValue","lazy-class","get","collaborator incidental",
-"VariablePointerValue","lazy-class","get","stateless",
-"Knot","commander boundary small-class","Knot","constructor",
-"Knot","commander boundary small-class","ResolveReferences","command collaborator",
-"Knot","commander boundary small-class","get","collaborator incidental",
-"Stitch","boundary degenerate small-class","Stitch","constructor",
-"Stitch","boundary degenerate small-class","get","collaborator incidental",
-"BinaryExpression","entity boundary","BinaryExpression","constructor",
-"BinaryExpression","entity boundary","GenerateIntoContainer","command collaborator",
-"BinaryExpression","entity boundary","ResolveReferences","command collaborator",
-"BinaryExpression","entity boundary","NativeNameForOp","incidental",
-"BinaryExpression","entity boundary","ToString","property wrapper",
-"UnaryExpression","data-provider","UnaryExpression","constructor",
-"UnaryExpression","data-provider","GenerateIntoContainer","command collaborator",
-"UnaryExpression","data-provider","ToString","property",
-"UnaryExpression","data-provider","get","get property",
-"ConditionalSingleBranch","entity minimal-entity boundary","ConditionalSingleBranch","constructor",
-"ConditionalSingleBranch","entity minimal-entity boundary","GenerateRuntimeObject","non-void-command factory collaborator",
-"ConditionalSingleBranch","entity minimal-entity boundary","GenerateRuntimeForContent","get property factory collaborator",
-"ConditionalSingleBranch","entity minimal-entity boundary","ResolveReferences","set collaborator",
-"ConditionalSingleBranch","entity minimal-entity boundary","get","get collaborator",
-"ConditionalSingleBranch","entity minimal-entity boundary","set","set collaborator",
-"DefaultFileHandler","boundary degenerate small-class","ResolveInkFilename","wrapper stateless",
-"DefaultFileHandler","boundary degenerate small-class","LoadInkFileContents","wrapper stateless",
-"ListElementDefinition","boundary","ListElementDefinition","constructor",
-"ListElementDefinition","boundary","GenerateRuntimeObject","collaborator stateless",
-"ListElementDefinition","boundary","ResolveReferences","command collaborator",
-"ListElementDefinition","boundary","get","get",
-"ListElementDefinition","boundary","get","property collaborator",
-"ListElementDefinition","boundary","get","incidental",
-"Compiler","entity boundary","Compiler","constructor",
-"Compiler","entity boundary","Parse","get non-void-command collaborator",
-"Compiler","entity boundary","Compile","get non-void-command collaborator",
-"Compiler","entity boundary","HandleInput","property non-void-command factory collaborator",
-"Compiler","entity boundary","ExecuteImmediateStatement","non-void-command factory collaborator",
-"Compiler","entity boundary","RetrieveDebugSourceForLatestContent","command collaborator",
-"Compiler","entity boundary","DebugMetadataForContentAtOffset","property collaborator",
-"Compiler","entity boundary","OnParseError","set collaborator",
-"Compiler","entity boundary","get","get collaborator",
-"Divert","unclassified","Divert","constructor",
-"Divert","unclassified","Divert","constructor",
-"Divert","unclassified","GenerateRuntimeObject","get property non-void-command factory collaborator",
-"Divert","unclassified","PathAsVariableName","get",
-"Divert","unclassified","ResolveTargetContent","command collaborator",
-"Divert","unclassified","ResolveReferences","command collaborator",
-"Divert","unclassified","CheckArgumentValidity","controller",
-"Divert","unclassified","CheckExternalArgumentValidity","controller",
-"Divert","unclassified","Error","command",
-"Divert","unclassified","ToString","property non-void-command",
-"Divert","unclassified","get","predicate",
-"Divert","unclassified","get","predicate",
-"Divert","unclassified","Divert","constructor",
-"Divert","unclassified","Divert","constructor",
-"Divert","unclassified","Equals","predicate non-void-command collaborator",
-"Divert","unclassified","GetHashCode","property non-void-command",
-"Divert","unclassified","ToString","property non-void-command",
-"Divert","unclassified","get","get set collaborator",
-"Divert","unclassified","set","non-void-command collaborator",
-"Divert","unclassified","get","get non-void-command collaborator",
-"Divert","unclassified","get","property non-void-command",
-"Divert","unclassified","set","stateless",
-"Divert","unclassified","get","predicate",
-"Wrap<T>","data-provider boundary data-class small-class","Wrap","copy-constructor",
-"Wrap<T>","data-provider boundary data-class small-class","GenerateRuntimeObject","get collaborator",
-"InkParser","boundary","InkParser","constructor",
-"InkParser","boundary","InkParser","copy-constructor",
-"InkParser","boundary","Parse","property non-void-command factory collaborator",
-"InkParser","boundary","SeparatedList<T>","property non-void-command factory collaborator",
-"InkParser","boundary","PreProcessInputString","wrapper stateless",
-"InkParser","boundary","CreateDebugMetadata","factory collaborator",
-"InkParser","boundary","RuleDidSucceed","command collaborator",
-"InkParser","boundary","OnStringParserError","wrapper",
-"InkParser","boundary","get","predicate non-void-command",
-"InkParser","boundary","set","non-void-command",
-"InkParser","boundary","get","predicate non-void-command",
-"InkParser","boundary","set","non-void-command",
-"InkParser","boundary","AuthorWarning","property non-void-command factory collaborator",
-"InkParser","boundary","ExtendIdentifierCharacterRanges","controller stateless",
-"InkParser","boundary","Choice","property non-void-command factory collaborator",
-"InkParser","boundary","ChoiceCondition","factory wrapper stateless",
-"InkParser","boundary","ChoiceConditionsSpace","get non-void-command collaborator",
-"InkParser","boundary","ChoiceSingleCondition","property non-void-command collaborator",
-"InkParser","boundary","Gather","property non-void-command factory collaborator",
-"InkParser","boundary","GatherDashes","property non-void-command collaborator",
-"InkParser","boundary","ParseDashNotArrow","property non-void-command collaborator",
-"InkParser","boundary","BracketedName","property non-void-command collaborator",
-"InkParser","boundary","CommandLineUserInput","property non-void-command factory collaborator",
-"InkParser","boundary","DebugSource","property non-void-command factory collaborator",
-"InkParser","boundary","DebugPathLookup","property non-void-command factory collaborator",
-"InkParser","boundary","RuntimePath","property non-void-command",
-"InkParser","boundary","UserChoiceNumber","property non-void-command factory collaborator",
-"InkParser","boundary","UserImmediateModeStatement","factory wrapper stateless",
-"InkParser","boundary","InnerConditionalContent","property non-void-command collaborator",
-"InkParser","boundary","InnerConditionalContent","property non-void-command factory collaborator",
-"InkParser","boundary","InlineConditionalBranches","property non-void-command factory collaborator",
-"InkParser","boundary","MultilineConditionalBranches","property non-void-command collaborator",
-"InkParser","boundary","SingleMultilineCondition","property non-void-command factory collaborator",
-"InkParser","boundary","ConditionExpression","property non-void-command collaborator",
-"InkParser","boundary","ElseExpression","get property non-void-command collaborator",
-"InkParser","boundary","TrimEndWhitespace","command collaborator",
-"InkParser","boundary","LineOfMixedTextAndLogic","property non-void-command collaborator",
-"InkParser","boundary","MixedTextAndLogic","property non-void-command factory collaborator",
-"InkParser","boundary","ContentText","property non-void-command collaborator",
-"InkParser","boundary","ContentTextAllowingEcapeChar","property non-void-command factory collaborator",
-"InkParser","boundary","ContentTextNoEscape","property non-void-command",
-"InkParser","boundary","MultiDivert","property non-void-command factory collaborator",
-"InkParser","boundary","StartThread","property non-void-command collaborator",
-"InkParser","boundary","DivertIdentifierWithArguments","property non-void-command factory collaborator",
-"InkParser","boundary","SingleDivert","property non-void-command collaborator",
-"InkParser","boundary","DotSeparatedDivertPathComponents","property non-void-command collaborator",
-"InkParser","boundary","ParseDivertArrowOrTunnelOnwards","property non-void-command",
-"InkParser","boundary","ParseDivertArrow","property non-void-command",
-"InkParser","boundary","ParseThreadArrow","property non-void-command",
-"InkParser","boundary","TempDeclarationOrAssignment","property non-void-command factory collaborator",
-"InkParser","boundary","DisallowIncrement","wrapper stateless",
-"InkParser","boundary","ParseTempKeyword","predicate non-void-command collaborator",
-"InkParser","boundary","ReturnStatement","property non-void-command factory collaborator",
-"InkParser","boundary","Expression","property non-void-command collaborator",
-"InkParser","boundary","Expression","property non-void-command collaborator",
-"InkParser","boundary","ExpressionUnary","property non-void-command factory collaborator",
-"InkParser","boundary","ExpressionNot","property non-void-command collaborator",
-"InkParser","boundary","ExpressionLiteral","wrapper stateless",
-"InkParser","boundary","ExpressionDivertTarget","property non-void-command factory collaborator",
-"InkParser","boundary","ExpressionInt","property non-void-command factory collaborator",
-"InkParser","boundary","ExpressionFloat","property non-void-command factory collaborator",
-"InkParser","boundary","ExpressionString","property non-void-command factory collaborator",
-"InkParser","boundary","ExpressionBool","property non-void-command factory collaborator",
-"InkParser","boundary","ExpressionFunctionCall","property non-void-command factory collaborator",
-"InkParser","boundary","ExpressionFunctionCallArguments","property non-void-command factory collaborator",
-"InkParser","boundary","ExpressionVariableName","property non-void-command factory collaborator",
-"InkParser","boundary","ExpressionParen","property non-void-command collaborator",
-"InkParser","boundary","ExpressionInfixRight","property non-void-command factory collaborator",
-"InkParser","boundary","ParseInfixOperator","property non-void-command collaborator",
-"InkParser","boundary","ExpressionList","property non-void-command collaborator",
-"InkParser","boundary","ListMember","property non-void-command collaborator",
-"InkParser","boundary","RegisterExpressionOperators","command",
-"InkParser","boundary","RegisterBinaryOperator","set",
-"InkParser","boundary","IncludeStatement","property non-void-command factory collaborator",
-"InkParser","boundary","FilenameIsAlreadyOpen","predicate non-void-command",
-"InkParser","boundary","AddOpenFilename","command",
-"InkParser","boundary","RemoveOpenFilename","command",
-"InkParser","boundary","KnotDefinition","property non-void-command factory collaborator",
-"InkParser","boundary","KnotDeclaration","property non-void-command factory collaborator",
-"InkParser","boundary","KnotTitleEquals","wrapper stateless",
-"InkParser","boundary","StitchDefinition","property non-void-command factory collaborator",
-"InkParser","boundary","StitchDeclaration","property non-void-command factory collaborator",
-"InkParser","boundary","KnotStitchNoContentRecoveryRule","non-void-command factory collaborator",
-"InkParser","boundary","BracketedKnotDeclArguments","property non-void-command factory collaborator",
-"InkParser","boundary","FlowDeclArgument","property non-void-command factory collaborator",
-"InkParser","boundary","ExternalDeclaration","property non-void-command factory collaborator",
-"InkParser","boundary","LogicLine","property non-void-command factory collaborator",
-"InkParser","boundary","VariableDeclaration","property non-void-command factory collaborator",
-"InkParser","boundary","ListDeclaration","property non-void-command factory collaborator",
-"InkParser","boundary","ListDefinition","property non-void-command factory collaborator",
-"InkParser","boundary","ListElementDefinitionSeparator","property non-void-command",
-"InkParser","boundary","ListElementDefinition","property non-void-command factory collaborator",
-"InkParser","boundary","ConstDeclaration","property non-void-command factory collaborator",
-"InkParser","boundary","InlineLogicOrGlueOrStartTag","wrapper stateless",
-"InkParser","boundary","Glue","property non-void-command factory collaborator",
-"InkParser","boundary","InlineLogic","property non-void-command factory collaborator",
-"InkParser","boundary","InnerLogic","property non-void-command factory collaborator",
-"InkParser","boundary","InnerExpression","property non-void-command collaborator",
-"InkParser","boundary","IdentifierWithMetadata","property non-void-command factory collaborator",
-"InkParser","boundary","Identifier","wrapper stateless",
-"InkParser","boundary","get","get set factory collaborator",
-"InkParser","boundary","InnerSequence","property non-void-command factory collaborator",
-"InkParser","boundary","SequenceTypeAnnotation","property non-void-command collaborator",
-"InkParser","boundary","SequenceTypeSymbolAnnotation","property set collaborator",
-"InkParser","boundary","SequenceTypeWordAnnotation","property non-void-command collaborator",
-"InkParser","boundary","SequenceTypeSingleWord","property non-void-command collaborator",
-"InkParser","boundary","InnerSequenceObjects","property non-void-command collaborator",
-"InkParser","boundary","InnerInlineSequenceObjects","property non-void-command factory collaborator",
-"InkParser","boundary","InnerMultilineSequenceObjects","property non-void-command collaborator",
-"InkParser","boundary","SingleMultilineSequenceElement","property non-void-command factory collaborator",
-"InkParser","boundary","StatementsAtLevel","property non-void-command collaborator",
-"InkParser","boundary","StatementAtLevel","property non-void-command collaborator",
-"InkParser","boundary","StatementsBreakForLevel","property non-void-command collaborator",
-"InkParser","boundary","GenerateStatementLevelRules","command collaborator",
-"InkParser","boundary","SkipToNextLine","get non-void-command collaborator",
-"InkParser","boundary","Line","property non-void-command collaborator",
-"InkParser","boundary","StartTag","property non-void-command factory collaborator",
-"InkParser","boundary","EndTagIfNecessary","collaborator incidental",
-"InkParser","boundary","EndTagIfNecessary","collaborator incidental",
-"InkParser","boundary","EndOfLine","wrapper stateless",
-"InkParser","boundary","Newline","get property non-void-command collaborator",
-"InkParser","boundary","EndOfFile","get property non-void-command collaborator",
-"InkParser","boundary","MultilineWhitespace","get property non-void-command collaborator",
-"InkParser","boundary","Whitespace","get property wrapper",
-"InkParser","boundary","Spaced","property non-void-command collaborator",
-"InkParser","boundary","AnyWhitespace","property wrapper",
-"InkParser","boundary","MultiSpaced","property non-void-command collaborator",
-"DivertTarget","unclassified","DivertTarget","constructor",
-"DivertTarget","unclassified","GenerateIntoContainer","command collaborator",
-"DivertTarget","unclassified","ResolveReferences","set collaborator",
-"DivertTarget","unclassified","Equals","predicate controller",
-"DivertTarget","unclassified","GetHashCode","property controller",
-"FlowBase","boundary","FlowBase","constructor",
-"FlowBase","boundary","SplitWeaveAndSubFlowContent","non-void-command factory collaborator",
-"FlowBase","boundary","PreProcessTopLevelObjects","empty",
-"FlowBase","boundary","ResolveVariableWithName","factory controller",
-"FlowBase","boundary","TryAddNewVariableDeclaration","command collaborator",
-"FlowBase","boundary","ResolveWeavePointNaming","command collaborator",
-"FlowBase","boundary","GenerateRuntimeObject","non-void-command factory collaborator",
-"FlowBase","boundary","GenerateArgumentVariableAssignments","controller",
-"FlowBase","boundary","ContentWithNameAtLevel","get property non-void-command collaborator",
-"FlowBase","boundary","DeepSearchForAnyLevelContent","property non-void-command collaborator",
-"FlowBase","boundary","ResolveReferences","set collaborator",
-"FlowBase","boundary","CheckForDisallowedFunctionFlowControl","command collaborator",
-"FlowBase","boundary","WarningInTermination","command collaborator",
-"FlowBase","boundary","ToString","property",
-"FlowBase","boundary","get","get",
-"FlowBase","boundary","get","predicate",
-"FlowBase","boundary","get","get",
-"FlowBase","boundary","get","property non-void-command",
-"Return","factory pure-controller small-class","Return","constructor",
-"Return","factory pure-controller small-class","GenerateRuntimeObject","factory controller",
-"AuthorWarning","data-provider boundary small-class","AuthorWarning","constructor",
-"AuthorWarning","data-provider boundary small-class","GenerateRuntimeObject","property wrapper",
-"FunctionCall","lazy-class degenerate","FunctionCall","constructor",
-"FunctionCall","lazy-class degenerate","GenerateIntoContainer","command collaborator",
-"FunctionCall","lazy-class degenerate","ResolveReferences","command collaborator",
-"FunctionCall","lazy-class degenerate","ToString","wrapper stateless",
-"FunctionCall","lazy-class degenerate","get","property",
-"FunctionCall","lazy-class degenerate","get","get collaborator",
-"FunctionCall","lazy-class degenerate","get","get collaborator",
-"FunctionCall","lazy-class degenerate","get","get collaborator",
-"FunctionCall","lazy-class degenerate","get","incidental",
-"FunctionCall","lazy-class degenerate","get","incidental",
-"FunctionCall","lazy-class degenerate","get","incidental",
-"FunctionCall","lazy-class degenerate","get","incidental",
-"FunctionCall","lazy-class degenerate","get","incidental",
-"FunctionCall","lazy-class degenerate","get","incidental",
-"FunctionCall","lazy-class degenerate","get","incidental",
-"FunctionCall","lazy-class degenerate","get","incidental",
-"CommentEliminator","entity boundary","CommentEliminator","constructor",
-"CommentEliminator","entity boundary","Process","property non-void-command collaborator",
-"CommentEliminator","entity boundary","MainInk","property non-void-command",
-"CommentEliminator","entity boundary","CommentsAndNewlines","property non-void-command collaborator",
-"CommentEliminator","entity boundary","ParseSingleComment","wrapper stateless",
-"CommentEliminator","entity boundary","EndOfLineComment","property non-void-command",
-"CommentEliminator","entity boundary","BlockComment","property non-void-command collaborator",
-"InkTestBed","boundary","Run","command",
-"InkTestBed","boundary","Play","command",
-"InkTestBed","boundary","Continue","command",
-"InkTestBed","boundary","ContinueMaximally","command collaborator",
-"InkTestBed","boundary","Choose","command",
-"InkTestBed","boundary","PlayerChoice","command",
-"InkTestBed","boundary","Compile","get non-void-command collaborator",
-"InkTestBed","boundary","CreateCompiler","factory wrapper stateless",
-"InkTestBed","boundary","CompileFile","get non-void-command collaborator",
-"InkTestBed","boundary","JsonRoundtrip","set collaborator",
-"InkTestBed","boundary","SplitFile","controller stateless",
-"InkTestBed","boundary","InkChangingTest","command collaborator",
-"InkTestBed","boundary","SimpleDiff","controller stateless",
-"InkTestBed","boundary","Millisecs","controller stateless",
-"InkTestBed","boundary","InkTestBed","constructor",
-"InkTestBed","boundary","PrintChoicesIfNecessary","controller",
-"InkTestBed","boundary","OnError","controller stateless",
-"InkList","boundary large-class","InkList","constructor",
-"InkList","boundary large-class","InkList","copy-constructor",
-"InkList","boundary large-class","InkList","constructor",
-"InkList","boundary large-class","InkList","copy-constructor",
-"InkList","boundary large-class","AddItem","void-accessor set collaborator",
-"InkList","boundary large-class","AddItem","command collaborator",
-"InkList","boundary large-class","ContainsItemNamed","predicate collaborator",
-"InkList","boundary large-class","SetInitialOriginName","set",
-"InkList","boundary large-class","SetInitialOriginNames","set",
-"InkList","boundary large-class","Union","factory collaborator",
-"InkList","boundary large-class","Intersect","factory controller",
-"InkList","boundary large-class","HasIntersection","predicate controller",
-"InkList","boundary large-class","Without","factory controller",
-"InkList","boundary large-class","Contains","predicate non-void-command collaborator",
-"InkList","boundary large-class","Contains","predicate collaborator",
-"InkList","boundary large-class","GreaterThan","incidental",
-"InkList","boundary large-class","GreaterThanOrEquals","incidental",
-"InkList","boundary large-class","LessThan","incidental",
-"InkList","boundary large-class","LessThanOrEquals","incidental",
-"InkList","boundary large-class","MaxAsList","factory stateless",
-"InkList","boundary large-class","MinAsList","factory stateless",
-"InkList","boundary large-class","ListWithSubRange","factory controller stateless",
-"InkList","boundary large-class","Equals","predicate controller",
-"InkList","boundary large-class","GetHashCode","property controller",
-"InkList","boundary large-class","ToString","controller stateless",
-"InkList","boundary large-class","get","property collaborator",
-"InkList","boundary large-class","get","get non-void-command collaborator",
-"InkList","boundary large-class","get","factory collaborator",
-"InkList","boundary large-class","get","factory collaborator",
-"InkList","boundary large-class","get","non-void-command factory collaborator",
-"InkList","boundary large-class","get","factory collaborator",
-"InkList","boundary large-class","get","property factory controller",
-"InkList","boundary large-class","get","property collaborator",
-"ChoicePoint","unclassified","ChoicePoint","constructor",
-"ChoicePoint","unclassified","ChoicePoint","constructor",
-"ChoicePoint","unclassified","ToString","property non-void-command",
-"ChoicePoint","unclassified","get","get set collaborator",
-"ChoicePoint","unclassified","set","set collaborator",
-"ChoicePoint","unclassified","get","property non-void-command collaborator",
-"ChoicePoint","unclassified","get","property non-void-command",
-"ChoicePoint","unclassified","set","stateless",
-"ChoicePoint","unclassified","get","property",
-"ChoicePoint","unclassified","set","non-void-command",
-"Conditional","small-class","Conditional","copy-constructor",
-"Conditional","small-class","GenerateRuntimeObject","set factory collaborator",
-"Conditional","small-class","ResolveReferences","command collaborator",
-"Identifier","data-provider data-class small-class","ToString","get",
-"Sequence","boundary","Sequence","copy-constructor",
-"Sequence","boundary","GenerateRuntimeObject","non-void-command factory collaborator",
-"Sequence","boundary","AddDivertToResolve","collaborator incidental",
-"Sequence","boundary","ResolveReferences","command collaborator",
-"IncludedFile","boundary degenerate small-class","IncludedFile","constructor",
-"IncludedFile","boundary degenerate small-class","GenerateRuntimeObject","collaborator incidental",
-"List","pure-controller small-class","List","copy-constructor",
-"List","pure-controller small-class","GenerateIntoContainer","controller",
-"MultipleConditionExpression","small-class","MultipleConditionExpression","constructor",
-"MultipleConditionExpression","small-class","GenerateIntoContainer","controller stateless",
-"MultipleConditionExpression","small-class","get","property non-void-command collaborator",
-"VariableAssignment","data-provider","VariableAssignment","constructor",
-"VariableAssignment","data-provider","VariableAssignment","constructor",
-"VariableAssignment","data-provider","GenerateRuntimeObject","property set factory collaborator",
-"VariableAssignment","data-provider","ResolveReferences","command collaborator",
-"VariableAssignment","data-provider","get","get",
-"VariableAssignment","data-provider","get","predicate",
-"VariableAssignment","data-provider","get","property",
-"VariableAssignment","data-provider","VariableAssignment","constructor",
-"VariableAssignment","data-provider","VariableAssignment","constructor",
-"VariableAssignment","data-provider","ToString","property",
-"NativeFunctionCall","boundary","Call","property non-void-command collaborator",
-"NativeFunctionCall","boundary","Call<T>","property non-void-command collaborator",
-"NativeFunctionCall","boundary","CallBinaryListOperation","property non-void-command factory collaborator",
-"NativeFunctionCall","boundary","CallListIncrementOperation","property factory controller",
-"NativeFunctionCall","boundary","CoerceValuesToSingleType","factory controller",
-"NativeFunctionCall","boundary","NativeFunctionCall","constructor",
-"NativeFunctionCall","boundary","NativeFunctionCall","constructor",
-"NativeFunctionCall","boundary","NativeFunctionCall","constructor",
-"NativeFunctionCall","boundary","AddOpFuncForType","command collaborator",
-"NativeFunctionCall","boundary","ToString","incidental",
-"NativeFunctionCall","boundary","get","get",
-"NativeFunctionCall","boundary","set","non-void-command",
-"NativeFunctionCall","boundary","get","get",
-"NativeFunctionCall","boundary","set","set",
-"Object","boundary","PathRelativeTo","property factory controller",
-"Object","boundary","AddContent<T>","property set collaborator",
-"Object","boundary","AddContent<T>","wrapper stateless",
-"Object","boundary","InsertContent<T>","property set collaborator",
-"Object","boundary","Find<T>","property controller",
-"Object","boundary","FindAll<T>","factory wrapper stateless",
-"Object","boundary","FindAll<T>","controller",
-"Object","boundary","ResolveReferences","controller",
-"Object","boundary","ClosestFlowBase","property collaborator",
-"Object","boundary","Error","void-accessor command",
-"Object","boundary","Warning","command",
-"Object","boundary","Equals","predicate wrapper",
-"Object","boundary","GetHashCode","property non-void-command",
-"Object","boundary","get","get collaborator",
-"Object","boundary","set","set collaborator",
-"Object","boundary","get","predicate",
-"Object","boundary","get","wrapper stateless",
-"Object","boundary","get","property collaborator",
-"Object","boundary","get","get non-void-command",
-"Object","boundary","set","set",
-"Object","boundary","get","collaborator incidental",
-"Object","boundary","get","collaborator incidental",
-"Object","boundary","get","factory controller",
-"Object","boundary","get","property controller",
-"Object","boundary","DebugLineNumberOfPath","controller stateless",
-"Object","boundary","ResolvePath","property non-void-command collaborator",
-"Object","boundary","ConvertPathToRelative","factory controller stateless",
-"Object","boundary","CompactPathString","property non-void-command collaborator",
-"Object","boundary","Object","constructor",
-"Object","boundary","Copy","wrapper stateless",
-"Object","boundary","SetChild<T>","void-accessor collaborator",
-"Object","boundary","Equals","predicate wrapper",
-"Object","boundary","GetHashCode","property non-void-command",
-"Object","boundary","get","get collaborator",
-"Object","boundary","set","set collaborator",
-"Object","boundary","get","get collaborator",
-"Object","boundary","get","get set factory collaborator",
-"Object","boundary","get","property collaborator",
-"Void","empty","Void","constructor",
-"StringParserState","lazy-class degenerate","StringParserState","constructor",
-"StringParserState","lazy-class degenerate","Push","property set collaborator",
-"StringParserState","lazy-class degenerate","Pop","set",
-"StringParserState","lazy-class degenerate","Peek","get collaborator",
-"StringParserState","lazy-class degenerate","PeekPenultimate","get property collaborator",
-"StringParserState","lazy-class degenerate","Squash","set collaborator",
-"StringParserState","lazy-class degenerate","NoteErrorReported","collaborator",
-"StringParserState","lazy-class degenerate","get","incidental",
-"StringParserState","lazy-class degenerate","set","incidental",
-"StringParserState","lazy-class degenerate","get","incidental",
-"StringParserState","lazy-class degenerate","set","incidental",
-"StringParserState","lazy-class degenerate","get","incidental",
-"StringParserState","lazy-class degenerate","set","incidental",
-"StringParserState","lazy-class degenerate","get","incidental",
-"StringParserState","lazy-class degenerate","set","incidental",
-"StringParserState","lazy-class degenerate","get","incidental",
-"StringParserState","lazy-class degenerate","get","get",
-"StringParserState","lazy-class degenerate","get","get collaborator",
-"CharacterSet","data-provider boundary data-class","CharacterSet","constructor",
-"CharacterSet","data-provider boundary data-class","CharacterSet","constructor",
-"CharacterSet","data-provider boundary data-class","CharacterSet","copy-constructor",
-"CharacterSet","data-provider boundary data-class","AddRange","get wrapper",
-"CharacterSet","data-provider boundary data-class","AddCharacters","get wrapper",
-"CharacterSet","data-provider boundary data-class","AddCharacters","get wrapper",
-"Story","boundary","Story","constructor",
-"Story","boundary","PreProcessTopLevelObjects","controller stateless",
-"Story","boundary","ExportRuntime","property non-void-command factory collaborator",
-"Story","boundary","ResolveList","property non-void-command collaborator",
-"Story","boundary","ResolveListItem","property non-void-command collaborator",
-"Story","boundary","FlattenContainersIn","command collaborator",
-"Story","boundary","TryFlattenContainer","command collaborator",
-"Story","boundary","Error","void-accessor command collaborator",
-"Story","boundary","ResetError","command",
-"Story","boundary","IsExternal","predicate non-void-command",
-"Story","boundary","AddExternal","void-accessor command collaborator",
-"Story","boundary","DontFlattenContainer","command collaborator",
-"Story","boundary","NameConflictError","controller stateless",
-"Story","boundary","CheckForNamingCollisions","command collaborator",
-"Story","boundary","get","collaborator incidental",
-"Story","boundary","get","get",
-"Story","boundary","get","get",
-"Story","boundary","StartProfiling","get set factory collaborator",
-"Story","boundary","EndProfiling","set",
-"Story","boundary","Story","constructor",
-"Story","boundary","Story","constructor",
-"Story","boundary","ToJson","property non-void-command collaborator",
-"Story","boundary","ToJson","command collaborator",
-"Story","boundary","ToJson","controller",
-"Story","boundary","ResetState","command",
-"Story","boundary","ResetErrors","command",
-"Story","boundary","ResetCallstack","command",
-"Story","boundary","ResetGlobals","command collaborator",
-"Story","boundary","SwitchFlow","command",
-"Story","boundary","RemoveFlow","wrapper stateless",
-"Story","boundary","SwitchToDefaultFlow","wrapper stateless",
-"Story","boundary","Continue","property non-void-command",
-"Story","boundary","ContinueAsync","command",
-"Story","boundary","ContinueInternal","command collaborator",
-"Story","boundary","ContinueSingleStep","predicate non-void-command collaborator",
-"Story","boundary","CalculateNewlineOutputStateChange","collaborator incidental",
-"Story","boundary","ContinueMaximally","property non-void-command collaborator",
-"Story","boundary","ContentAtPath","wrapper stateless",
-"Story","boundary","KnotContainerWithName","wrapper stateless",
-"Story","boundary","PointerAtPath","property non-void-command factory collaborator",
-"Story","boundary","StateSnapshot","command",
-"Story","boundary","RestoreStateSnapshot","command",
-"Story","boundary","DiscardSnapshot","set",
-"Story","boundary","CopyStateForBackgroundThreadSave","property non-void-command collaborator",
-"Story","boundary","BackgroundSaveComplete","set",
-"Story","boundary","Step","command collaborator",
-"Story","boundary","VisitContainer","wrapper stateless",
-"Story","boundary","VisitChangedContainersDueToDivert","command",
-"Story","boundary","PopChoiceStringAndTags","controller stateless",
-"Story","boundary","ProcessChoice","property non-void-command factory collaborator",
-"Story","boundary","IsTruthy","wrapper stateless",
-"Story","boundary","PerformLogicAndFlowControl","predicate non-void-command collaborator",
-"Story","boundary","ChoosePathString","void-accessor command collaborator",
-"Story","boundary","IfAsyncWeCant","unclassified",
-"Story","boundary","ChoosePath","command",
-"Story","boundary","ChooseChoiceIndex","wrapper stateless",
-"Story","boundary","HasFunction","predicate non-void-command",
-"Story","boundary","EvaluateFunction","property non-void-command collaborator",
-"Story","boundary","EvaluateFunction","property non-void-command collaborator",
-"Story","boundary","EvaluateExpression","property set collaborator",
-"Story","boundary","TryGetExternalFunction","predicate non-void-command collaborator",
-"Story","boundary","CallExternalFunction","command collaborator",
-"Story","boundary","BindExternalFunctionGeneral","command",
-"Story","boundary","TryCoerce<T>","controller stateless",
-"Story","boundary","BindExternalFunction","wrapper stateless",
-"Story","boundary","BindExternalFunction","wrapper stateless",
-"Story","boundary","BindExternalFunction<T>","command",
-"Story","boundary","BindExternalFunction<T>","command",
-"Story","boundary","BindExternalFunction<T1,T2>","wrapper stateless",
-"Story","boundary","BindExternalFunction<T1,T2>","wrapper stateless",
-"Story","boundary","BindExternalFunction<T1,T2,T3>","wrapper stateless",
-"Story","boundary","BindExternalFunction<T1,T2,T3>","wrapper stateless",
-"Story","boundary","BindExternalFunction<T1,T2,T3,T4>","wrapper stateless",
-"Story","boundary","BindExternalFunction<T1,T2,T3,T4>","wrapper stateless",
-"Story","boundary","UnbindExternalFunction","command",
-"Story","boundary","ValidateExternalBindings","set collaborator",
-"Story","boundary","ValidateExternalBindings","command collaborator",
-"Story","boundary","ValidateExternalBindings","command",
-"Story","boundary","ObserveVariable","command collaborator",
-"Story","boundary","ObserveVariables","command collaborator",
-"Story","boundary","RemoveVariableObserver","command collaborator",
-"Story","boundary","VariableStateDidChangeEvent","command collaborator",
-"Story","boundary","TagsForContentAtPath","property non-void-command",
-"Story","boundary","TagsAtStartOfFlowContainerWithPathString","property non-void-command collaborator",
-"Story","boundary","BuildStringOfHierarchy","controller stateless",
-"Story","boundary","BuildStringOfContainer","controller stateless",
-"Story","boundary","NextContent","command",
-"Story","boundary","IncrementContentPointer","controller stateless",
-"Story","boundary","TryFollowDefaultInvisibleChoice","predicate non-void-command collaborator",
-"Story","boundary","NextSequenceShuffleIndex","controller stateless",
-"Story","boundary","Error","collaborator stateless",
-"Story","boundary","Warning","wrapper stateless",
-"Story","boundary","AddError","wrapper stateless",
-"Story","boundary","Assert","controller stateless",
-"Story","boundary","get","factory controller",
-"Story","boundary","get","property non-void-command",
-"Story","boundary","get","property non-void-command",
-"Story","boundary","get","incidental",
-"Story","boundary","get","incidental",
-"Story","boundary","get","incidental",
-"Story","boundary","get","incidental",
-"Story","boundary","get","incidental",
-"Story","boundary","get","incidental",
-"Story","boundary","get","collaborator incidental",
-"Story","boundary","get","get collaborator",
-"Story","boundary","get","get collaborator",
-"Story","boundary","get","incidental",
-"Story","boundary","get","predicate",
-"Story","boundary","get","property non-void-command",
-"Story","boundary","get","controller stateless",
-"Story","boundary","get","collaborator incidental",
-"Story","boundary","get","get collaborator",
-"Tag","data-provider","GenerateRuntimeObject","property wrapper",
-"Tag","data-provider","ToString","property",
-"Tag","data-provider","Tag","constructor",
-"Tag","data-provider","ToString","property",
-"Text","small-class","Text","constructor",
-"Text","small-class","GenerateRuntimeObject","property factory collaborator",
-"Text","small-class","ToString","get",
-"StringExpression","unclassified","StringExpression","constructor",
-"StringExpression","unclassified","GenerateIntoContainer","controller",
-"StringExpression","unclassified","ToString","property controller",
-"StringExpression","unclassified","Equals","predicate non-void-command collaborator",
-"StringExpression","unclassified","GetHashCode","property non-void-command",
-"StringExpression","unclassified","get","predicate collaborator",
-"VariableReference","boundary","VariableReference","constructor",
-"VariableReference","boundary","GenerateIntoContainer","command collaborator",
-"VariableReference","boundary","ResolveReferences","command collaborator",
-"VariableReference","boundary","ToString","property non-void-command",
-"VariableReference","boundary","get","get property non-void-command factory collaborator",
-"VariableReference","boundary","get","get",
-"VariableReference","boundary","VariableReference","constructor",
-"VariableReference","boundary","VariableReference","constructor",
-"VariableReference","boundary","ToString","property wrapper",
-"VariableReference","boundary","get","property non-void-command collaborator",
-"VariableReference","boundary","get","property non-void-command",
-"VariableReference","boundary","set","set",
-"IntValue","entity data-provider boundary","IntValue","constructor",
-"IntValue","entity data-provider boundary","IntValue","constructor",
-"IntValue","entity data-provider boundary","Cast","get property non-void-command factory collaborator",
-"IntValue","entity data-provider boundary","get","collaborator incidental",
-"IntValue","entity data-provider boundary","get","predicate",
-"Weave","commander boundary","Weave","constructor",
-"Weave","commander boundary","ResolveWeavePointNaming","command collaborator",
-"Weave","commander boundary","ConstructWeaveHierarchyFromIndentation","command collaborator",
-"Weave","commander boundary","DetermineBaseIndentationFromContent","collaborator incidental",
-"Weave","commander boundary","GenerateRuntimeObject","get non-void-command factory collaborator",
-"Weave","commander boundary","AddRuntimeForGather","command collaborator",
-"Weave","commander boundary","AddRuntimeForWeavePoint","command collaborator",
-"Weave","commander boundary","AddRuntimeForNestedWeave","void-accessor command",
-"Weave","commander boundary","AddGeneralRuntimeContent","command collaborator",
-"Weave","commander boundary","PassLooseEndsToAncestors","command collaborator",
-"Weave","commander boundary","ReceiveLooseEnd","command collaborator",
-"Weave","commander boundary","ResolveReferences","command collaborator",
-"Weave","commander boundary","WeavePointNamed","property non-void-command collaborator",
-"Weave","commander boundary","IsGlobalDeclaration","collaborator incidental",
-"Weave","commander boundary","ContentThatFollowsWeavePoint","property non-void-command collaborator",
-"Weave","commander boundary","ValidateTermination","command collaborator",
-"Weave","commander boundary","BadNestedTerminationHandler","controller stateless",
-"Weave","commander boundary","ValidateFlowOfObjectsTerminates","controller",
-"Weave","commander boundary","WeavePointHasLooseEnd","collaborator incidental",
-"Weave","commander boundary","CheckForWeavePointNamingCollisions","controller",
-"Weave","commander boundary","get","get non-void-command collaborator",
-"Weave","commander boundary","get","property non-void-command collaborator",
-"StringParser","unclassified","StringParser","constructor",
-"StringParser","unclassified","PreProcessInputString","incidental",
-"StringParser","unclassified","BeginRule","property non-void-command",
-"StringParser","unclassified","FailRule","property non-void-command collaborator",
-"StringParser","unclassified","CancelRule","command",
-"StringParser","unclassified","SucceedRule","property non-void-command collaborator",
-"StringParser","unclassified","RuleDidSucceed","empty",
-"StringParser","unclassified","Expect","property non-void-command collaborator",
-"StringParser","unclassified","Error","command",
-"StringParser","unclassified","ErrorWithParsedObject","void-accessor command",
-"StringParser","unclassified","ErrorOnLine","set collaborator",
-"StringParser","unclassified","Warning","command",
-"StringParser","unclassified","LineRemainder","property non-void-command",
-"StringParser","unclassified","SetFlag","set",
-"StringParser","unclassified","GetFlag","predicate",
-"StringParser","unclassified","ParseObject","property non-void-command collaborator",
-"StringParser","unclassified","Parse<T>","property non-void-command collaborator",
-"StringParser","unclassified","OneOf","property non-void-command collaborator",
-"StringParser","unclassified","OneOrMore","property non-void-command factory collaborator",
-"StringParser","unclassified","Optional","property non-void-command collaborator",
-"StringParser","unclassified","Exclude","get property non-void-command collaborator",
-"StringParser","unclassified","OptionalExclude","get property non-void-command collaborator",
-"StringParser","unclassified","String","property non-void-command collaborator",
-"StringParser","unclassified","TryAddResultToList<T>","controller",
-"StringParser","unclassified","Interleave<T>","property non-void-command collaborator",
-"StringParser","unclassified","ParseString","property non-void-command",
-"StringParser","unclassified","ParseSingleCharacter","property",
-"StringParser","unclassified","ParseUntilCharactersFromString","property non-void-command",
-"StringParser","unclassified","ParseUntilCharactersFromCharSet","property non-void-command",
-"StringParser","unclassified","ParseCharactersFromString","property non-void-command",
-"StringParser","unclassified","ParseCharactersFromString","wrapper stateless",
-"StringParser","unclassified","ParseCharactersFromCharSet","property controller",
-"StringParser","unclassified","Peek","property non-void-command collaborator",
-"StringParser","unclassified","ParseUntil","property non-void-command collaborator",
-"StringParser","unclassified","ParseInt","property non-void-command",
-"StringParser","unclassified","ParseFloat","property non-void-command collaborator",
-"StringParser","unclassified","ParseNewline","property non-void-command",
-"StringParser","unclassified","get","get property",
-"StringParser","unclassified","get","predicate",
-"StringParser","unclassified","get","property",
-"StringParser","unclassified","get","get",
-"StringParser","unclassified","set","set",
-"StringParser","unclassified","get","get",
-"StringParser","unclassified","set","set",
-"StringParser","unclassified","get","get",
-"StringParser","unclassified","set","set",
-"StringParser","unclassified","get","get",
-"PluginManager","data-provider boundary","PluginManager","constructor",
-"PluginManager","data-provider boundary","PreParse","property wrapper",
-"PluginManager","data-provider boundary","PostParse","property wrapper",
-"PluginManager","data-provider boundary","PostExport","property wrapper",
-"CallStack","boundary","CallStack","constructor",
-"CallStack","boundary","CallStack","copy-constructor",
-"CallStack","boundary","Reset","set",
-"CallStack","boundary","SetJsonToken","void-accessor command collaborator",
-"CallStack","boundary","WriteJson","controller",
-"CallStack","boundary","PushThread","set collaborator",
-"CallStack","boundary","ForkThread","property set collaborator",
-"CallStack","boundary","PopThread","command",
-"CallStack","boundary","Push","wrapper stateless",
-"CallStack","boundary","CanPop","collaborator incidental",
-"CallStack","boundary","Pop","command collaborator",
-"CallStack","boundary","GetTemporaryVariableWithName","controller stateless",
-"CallStack","boundary","SetTemporaryVariable","controller stateless",
-"CallStack","boundary","ContextForVariableNamed","wrapper stateless",
-"CallStack","boundary","ThreadWithIndex","property non-void-command collaborator",
-"CallStack","boundary","get","collaborator incidental",
-"CallStack","boundary","get","incidental",
-"CallStack","boundary","get","property collaborator",
-"CallStack","boundary","get","incidental",
-"CallStack","boundary","get","get collaborator",
-"CallStack","boundary","set","non-void-command collaborator",
-"CallStack","boundary","get","incidental",
-"CallStack","boundary","get","predicate",
-"CallStack","boundary","get","incidental",
-"CallStack","boundary","get","collaborator incidental",
-"CallStack","boundary","get","property controller",
+"CommandLineTool","commander","ExitWithUsageInstructions","unclassified"
+"CommandLineTool","commander","CommandLineTool","constructor"
+"CommandLineTool","commander","OnExit","wrapper stateless"
+"CommandLineTool","commander","OnError","command collaborator"
+"CommandLineTool","commander","PrintIssues","wrapper stateless"
+"CommandLineTool","commander","PrintAllMessages","command"
+"CommandLineTool","commander","ProcessArguments","predicate non-void-command"
+"CommandLinePlayer","entity commander boundary","CommandLinePlayer","constructor"
+"CommandLinePlayer","entity commander boundary","Begin","command collaborator"
+"CommandLinePlayer","entity commander boundary","EvaluateStory","command collaborator"
+"CommandLinePlayer","entity commander boundary","OnStoryError","command collaborator"
+"CommandLinePlayer","entity commander boundary","ReadCommandLineInput","property non-void-command factory collaborator"
+"VariablesState","boundary","StartVariableObservation","command"
+"VariablesState","boundary","CompleteVariableObservation","non-void-command factory collaborator"
+"VariablesState","boundary","NotifyObservers","wrapper stateless"
+"VariablesState","boundary","System.Collections.IEnumerable.GetEnumerator","property non-void-command collaborator"
+"VariablesState","boundary","GetEnumerator","property non-void-command collaborator"
+"VariablesState","boundary","VariablesState","constructor"
+"VariablesState","boundary","ApplyPatch","command collaborator"
+"VariablesState","boundary","SetJsonToken","set collaborator"
+"VariablesState","boundary","WriteJson","command collaborator"
+"VariablesState","boundary","RuntimeObjectsEqual","wrapper stateless"
+"VariablesState","boundary","GetVariableWithName","property non-void-command collaborator"
+"VariablesState","boundary","TryGetDefaultVariableValue","property non-void-command collaborator"
+"VariablesState","boundary","GlobalVariableExistsWithName","predicate non-void-command"
+"VariablesState","boundary","GetVariableWithName","property non-void-command collaborator"
+"VariablesState","boundary","GetRawVariableWithName","property non-void-command collaborator"
+"VariablesState","boundary","ValueAtVariablePointer","property non-void-command collaborator"
+"VariablesState","boundary","Assign","command collaborator"
+"VariablesState","boundary","SnapshotDefaultGlobals","set"
+"VariablesState","boundary","RetainListOriginsForAssignment","controller stateless"
+"VariablesState","boundary","SetGlobal","command collaborator"
+"VariablesState","boundary","ResolveVariablePointer","property non-void-command factory collaborator"
+"VariablesState","boundary","GetContextIndexOfVariableNamed","property non-void-command"
+"VariablesState","boundary","get","get collaborator"
+"VariablesState","boundary","set","set collaborator"
+"VariablesState","boundary","get","property non-void-command collaborator"
+"VariablesState","boundary","set","non-void-command collaborator"
+"ListValue","entity data-provider boundary","Cast","get property non-void-command factory collaborator"
+"ListValue","entity data-provider boundary","ListValue","constructor"
+"ListValue","entity data-provider boundary","ListValue","constructor"
+"ListValue","entity data-provider boundary","ListValue","constructor"
+"ListValue","entity data-provider boundary","get","collaborator incidental"
+"ListValue","entity data-provider boundary","get","predicate"
+"DivertTargetValue","boundary lazy-class","DivertTargetValue","constructor"
+"DivertTargetValue","boundary lazy-class","DivertTargetValue","constructor"
+"DivertTargetValue","boundary lazy-class","Cast","get non-void-command collaborator"
+"DivertTargetValue","boundary lazy-class","ToString","incidental"
+"DivertTargetValue","boundary lazy-class","get","get collaborator"
+"DivertTargetValue","boundary lazy-class","set","set collaborator"
+"DivertTargetValue","boundary lazy-class","get","collaborator incidental"
+"DivertTargetValue","boundary lazy-class","get","stateless"
+"FloatValue","entity data-provider boundary","FloatValue","constructor"
+"FloatValue","entity data-provider boundary","FloatValue","constructor"
+"FloatValue","entity data-provider boundary","Cast","get property non-void-command factory collaborator"
+"FloatValue","entity data-provider boundary","get","collaborator incidental"
+"FloatValue","entity data-provider boundary","get","predicate"
+"Value<T>","small-class","Value","constructor"
+"Value<T>","small-class","ToString","property non-void-command"
+"Value<T>","small-class","get","property collaborator"
+"StoryException","empty","StoryException","constructor"
+"StoryException","empty","StoryException","constructor"
+"StatePatch","unclassified","StatePatch","copy-constructor"
+"StatePatch","unclassified","TryGetGlobal","predicate non-void-command collaborator"
+"StatePatch","unclassified","SetGlobal","set collaborator"
+"StatePatch","unclassified","AddChangedVariable","command"
+"StatePatch","unclassified","TryGetVisitCount","predicate non-void-command"
+"StatePatch","unclassified","SetVisitCount","set"
+"StatePatch","unclassified","SetTurnIndex","set"
+"StatePatch","unclassified","TryGetTurnIndex","predicate non-void-command"
+"StatePatch","unclassified","get","get collaborator"
+"StatePatch","unclassified","get","get"
+"StatePatch","unclassified","get","get collaborator"
+"StatePatch","unclassified","get","get collaborator"
+"ProfileNode","unclassified","ProfileNode","constructor"
+"ProfileNode","unclassified","ProfileNode","constructor"
+"ProfileNode","unclassified","AddSample","command"
+"ProfileNode","unclassified","AddSample","command"
+"ProfileNode","unclassified","AddSampleToNode","command"
+"ProfileNode","unclassified","PrintHierarchy","command collaborator"
+"ProfileNode","unclassified","Pad","controller stateless"
+"ProfileNode","unclassified","ToString","property non-void-command collaborator"
+"ProfileNode","unclassified","get","predicate"
+"ProfileNode","unclassified","get","property"
+"ProfileNode","unclassified","get","property non-void-command collaborator"
+"ProfileNode","unclassified","get","property controller"
+"SearchResult","data-provider boundary small-class","get","property collaborator"
+"SearchResult","data-provider boundary small-class","get","property collaborator"
+"Profiler","degenerate","Profiler","constructor"
+"Profiler","degenerate","Report","controller stateless"
+"Profiler","degenerate","PreContinue","wrapper stateless"
+"Profiler","degenerate","PostContinue","wrapper stateless"
+"Profiler","degenerate","PreStep","wrapper stateless"
+"Profiler","degenerate","Step","controller stateless"
+"Profiler","degenerate","PostStep","wrapper stateless"
+"Profiler","degenerate","StepLengthReport","controller stateless"
+"Profiler","degenerate","get","collaborator incidental"
+"Pointer","data-provider","Pointer","constructor"
+"Pointer","data-provider","Resolve","get property collaborator"
+"Pointer","data-provider","ToString","property non-void-command"
+"Pointer","data-provider","get","predicate"
+"Pointer","data-provider","get","property non-void-command collaborator"
+"ListDefinitionsOrigin","unclassified","ListDefinitionsOrigin","constructor"
+"ListDefinitionsOrigin","unclassified","TryListGetDefinition","predicate non-void-command collaborator"
+"ListDefinitionsOrigin","unclassified","FindSingleItemListWithName","property non-void-command collaborator"
+"ListDefinitionsOrigin","unclassified","get","factory controller"
+"Value","small-class","Copy","property wrapper"
+"Value","small-class","BadCastException","property factory collaborator"
+"InkListItem","data-provider","InkListItem","constructor"
+"InkListItem","data-provider","InkListItem","constructor"
+"InkListItem","data-provider","ToString","incidental"
+"InkListItem","data-provider","Equals","predicate non-void-command collaborator"
+"InkListItem","data-provider","Equals","predicate"
+"InkListItem","data-provider","GetHashCode","property non-void-command"
+"InkListItem","data-provider","get","predicate"
+"InkListItem","data-provider","get","property"
+"DebugMetadata","small-class","DebugMetadata","constructor"
+"DebugMetadata","small-class","Merge","factory wrapper"
+"DebugMetadata","small-class","ToString","property wrapper"
+"BoolValue","data-provider","BoolValue","constructor"
+"BoolValue","data-provider","BoolValue","constructor"
+"BoolValue","data-provider","Cast","get property non-void-command factory collaborator"
+"BoolValue","data-provider","ToString","property"
+"BoolValue","data-provider","get","collaborator incidental"
+"BoolValue","data-provider","get","get"
+"ControlCommand","small-class","ControlCommand","constructor"
+"ControlCommand","small-class","ControlCommand","constructor"
+"ControlCommand","small-class","Copy","property factory collaborator"
+"ControlCommand","small-class","ToString","property non-void-command"
+"StoryState","boundary","ToJson","property non-void-command collaborator"
+"StoryState","boundary","ToJson","command collaborator"
+"StoryState","boundary","LoadJson","command collaborator"
+"StoryState","boundary","VisitCountAtPathString","property non-void-command collaborator"
+"StoryState","boundary","VisitCountForContainer","property non-void-command collaborator"
+"StoryState","boundary","IncrementVisitCountForContainer","command collaborator"
+"StoryState","boundary","RecordTurnIndexVisitToContainer","set collaborator"
+"StoryState","boundary","TurnsSinceForContainer","property non-void-command collaborator"
+"StoryState","boundary","CleanOutputWhitespace","controller stateless"
+"StoryState","boundary","StoryState","constructor"
+"StoryState","boundary","GoToStart","wrapper"
+"StoryState","boundary","SwitchFlow_Internal","command collaborator"
+"StoryState","boundary","SwitchToDefaultFlow_Internal","command"
+"StoryState","boundary","RemoveFlow_Internal","command"
+"StoryState","boundary","CopyAndStartPatching","factory controller"
+"StoryState","boundary","RestoreAfterPatch","command"
+"StoryState","boundary","ApplyAnyPatch","command collaborator"
+"StoryState","boundary","ApplyCountChanges","controller"
+"StoryState","boundary","WriteJson","controller"
+"StoryState","boundary","LoadJsonObj","command collaborator"
+"StoryState","boundary","ResetErrors","command"
+"StoryState","boundary","ResetOutput","command collaborator"
+"StoryState","boundary","PushToOutputStream","command collaborator"
+"StoryState","boundary","PopFromOutputStream","command"
+"StoryState","boundary","TrySplittingHeadTailWhitespace","factory controller stateless"
+"StoryState","boundary","PushToOutputStreamIndividual","command collaborator"
+"StoryState","boundary","TrimNewlinesFromOutputStream","command collaborator"
+"StoryState","boundary","RemoveExistingGlue","command collaborator"
+"StoryState","boundary","PushEvaluationStack","command collaborator"
+"StoryState","boundary","PopEvaluationStack","property non-void-command collaborator"
+"StoryState","boundary","PeekEvaluationStack","get collaborator"
+"StoryState","boundary","PopEvaluationStack","property non-void-command collaborator"
+"StoryState","boundary","ForceEnd","set"
+"StoryState","boundary","TrimWhitespaceFromFunctionEnd","command collaborator"
+"StoryState","boundary","PopCallstack","command collaborator"
+"StoryState","boundary","SetChosenPath","command collaborator"
+"StoryState","boundary","StartFunctionEvaluationFromGame","command collaborator"
+"StoryState","boundary","PassArgumentsToEvaluationStack","command collaborator"
+"StoryState","boundary","TryExitFunctionEvaluationFromGame","predicate set"
+"StoryState","boundary","CompleteFunctionEvaluationFromGame","property non-void-command collaborator"
+"StoryState","boundary","AddError","command"
+"StoryState","boundary","OutputStreamDirty","command"
+"StoryState","boundary","get","incidental"
+"StoryState","boundary","get","property collaborator"
+"StoryState","boundary","get","property factory collaborator"
+"StoryState","boundary","get","property collaborator"
+"StoryState","boundary","get","property collaborator"
+"StoryState","boundary","get","controller stateless"
+"StoryState","boundary","get","controller stateless"
+"StoryState","boundary","get","collaborator incidental"
+"StoryState","boundary","set","collaborator incidental"
+"StoryState","boundary","get","collaborator incidental"
+"StoryState","boundary","set","collaborator incidental"
+"StoryState","boundary","get","incidental"
+"StoryState","boundary","get","predicate"
+"StoryState","boundary","get","predicate"
+"StoryState","boundary","get","get non-void-command collaborator"
+"StoryState","boundary","get","get non-void-command collaborator"
+"StoryState","boundary","get","property"
+"StoryState","boundary","get","predicate"
+"StoryState","boundary","get","get non-void-command"
+"StoryState","boundary","get","incidental"
+"StoryState","boundary","set","incidental"
+"StoryState","boundary","get","collaborator incidental"
+"StoryState","boundary","get","collaborator incidental"
+"StoryState","boundary","get","collaborator incidental"
+"Gather","boundary","Gather","constructor"
+"Gather","boundary","GenerateRuntimeObject","factory controller"
+"Gather","boundary","ResolveReferences","command collaborator"
+"Gather","boundary","get","get"
+"Gather","boundary","get","collaborator incidental"
+"Choice","entity boundary","Choice","constructor"
+"Choice","entity boundary","GenerateRuntimeObject","get non-void-command factory collaborator"
+"Choice","entity boundary","ResolveReferences","command collaborator"
+"Choice","entity boundary","ToString","property wrapper"
+"Choice","entity boundary","get","get"
+"Choice","entity boundary","get","get collaborator"
+"Choice","entity boundary","set","set collaborator"
+"Choice","entity boundary","get","get collaborator"
+"Choice","entity boundary","get","get collaborator"
+"Choice","entity boundary","get","get collaborator"
+"Choice","entity boundary","get","property collaborator"
+"Choice","entity boundary","Choice","constructor"
+"Choice","entity boundary","Clone","non-void-command factory collaborator"
+"Choice","entity boundary","get","property non-void-command"
+"Choice","entity boundary","set","set"
+"Number","unclassified","Number","constructor"
+"Number","unclassified","GenerateIntoContainer","controller"
+"Number","unclassified","ToString","property non-void-command"
+"Number","unclassified","Equals","predicate non-void-command collaborator"
+"Number","unclassified","GetHashCode","property non-void-command"
+"ContentList","boundary","ContentList","constructor"
+"ContentList","boundary","ContentList","constructor"
+"ContentList","boundary","ContentList","constructor"
+"ContentList","boundary","TrimTrailingWhitespace","command collaborator"
+"ContentList","boundary","GenerateRuntimeObject","factory controller"
+"ContentList","boundary","ToString","property non-void-command collaborator"
+"ContentList","boundary","get","collaborator incidental"
+"Glue","degenerate small-class","Glue","copy-constructor"
+"Glue","degenerate small-class","Glue","constructor"
+"Glue","degenerate small-class","ToString","incidental"
+"IncDecExpression","unclassified","IncDecExpression","constructor"
+"IncDecExpression","unclassified","IncDecExpression","constructor"
+"IncDecExpression","unclassified","GenerateIntoContainer","set collaborator"
+"IncDecExpression","unclassified","ResolveReferences","set collaborator"
+"IncDecExpression","unclassified","ToString","property non-void-command"
+"IncDecExpression","unclassified","get","property"
+"Path","data-provider boundary","Path","constructor"
+"Path","data-provider boundary","Path","constructor"
+"Path","data-provider boundary","Path","constructor"
+"Path","data-provider boundary","ToString","property"
+"Path","data-provider boundary","ResolveFromContext","property non-void-command collaborator"
+"Path","data-provider boundary","ResolveBaseTarget","property non-void-command collaborator"
+"Path","data-provider boundary","ResolveTailComponents","property wrapper"
+"Path","data-provider boundary","TryGetChildFromContext","controller stateless"
+"Path","data-provider boundary","get","property collaborator"
+"Path","data-provider boundary","get","predicate"
+"Path","data-provider boundary","get","get property"
+"Path","data-provider boundary","get","property"
+"Path","data-provider boundary","get","get set"
+"Path","data-provider boundary","GetComponent","get collaborator"
+"Path","data-provider boundary","Path","constructor"
+"Path","data-provider boundary","Path","copy-constructor"
+"Path","data-provider boundary","Path","constructor"
+"Path","data-provider boundary","Path","constructor"
+"Path","data-provider boundary","PathByAppendingPath","factory controller"
+"Path","data-provider boundary","PathByAppendingComponent","factory controller"
+"Path","data-provider boundary","ToString","incidental"
+"Path","data-provider boundary","Equals","predicate non-void-command collaborator"
+"Path","data-provider boundary","Equals","predicate controller"
+"Path","data-provider boundary","GetHashCode","property non-void-command"
+"Path","data-provider boundary","get","property non-void-command collaborator"
+"Path","data-provider boundary","get","property non-void-command factory collaborator"
+"Path","data-provider boundary","get","property"
+"Path","data-provider boundary","get","get property collaborator"
+"Path","data-provider boundary","get","predicate collaborator"
+"Path","data-provider boundary","get","get set"
+"Path","data-provider boundary","set","non-void-command"
+"StringValue","data-provider","StringValue","constructor"
+"StringValue","data-provider","StringValue","constructor"
+"StringValue","data-provider","Cast","get property non-void-command factory collaborator"
+"StringValue","data-provider","get","collaborator incidental"
+"StringValue","data-provider","get","predicate"
+"StringValue","data-provider","get","predicate"
+"Expression","controller small-class","GenerateRuntimeObject","factory controller"
+"Expression","controller small-class","GenerateConstantIntoContainer","set collaborator"
+"Tests","controller degenerate","Tests","constructor"
+"Tests","controller degenerate","TestArgumentNameCollisions","command"
+"Tests","controller degenerate","TestArgumentShouldntConflictWithGatherElsewhere","wrapper stateless"
+"Tests","controller degenerate","TestArithmetic","controller stateless"
+"Tests","controller degenerate","TestBasicStringLiterals","controller stateless"
+"Tests","controller degenerate","TestBasicTunnel","controller stateless"
+"Tests","controller degenerate","TestBlanksInInlineSequences","controller stateless"
+"Tests","controller degenerate","TestAllSequenceTypes","controller stateless"
+"Tests","controller degenerate","TestCallStackEvaluation","controller stateless"
+"Tests","controller degenerate","TestChoiceCount","controller stateless"
+"Tests","controller degenerate","TestChoiceDivertsToDone","controller stateless"
+"Tests","controller degenerate","TestChoiceWithBracketsOnly","controller stateless"
+"Tests","controller degenerate","TestCommentEliminator","controller stateless"
+"Tests","controller degenerate","TestCommentEliminatorMixedNewlines","controller stateless"
+"Tests","controller degenerate","TestCompareDivertTargets","controller stateless"
+"Tests","controller degenerate","TestComplexTunnels","controller stateless"
+"Tests","controller degenerate","TestConditionalChoiceInWeave","controller stateless"
+"Tests","controller degenerate","TestConditionalChoiceInWeave2","controller stateless"
+"Tests","controller degenerate","TestConditionalChoices","controller stateless"
+"Tests","controller degenerate","TestConditionals","controller stateless"
+"Tests","controller degenerate","TestConst","controller stateless"
+"Tests","controller degenerate","TestDefaultChoices","controller stateless"
+"Tests","controller degenerate","TestDefaultSimpleGather","controller stateless"
+"Tests","controller degenerate","TestDivertInConditional","controller stateless"
+"Tests","controller degenerate","TestDivertNotFoundError","command"
+"Tests","controller degenerate","TestDivertToWeavePoints","controller stateless"
+"Tests","controller degenerate","TestElseBranches","wrapper stateless"
+"Tests","controller degenerate","TestEmpty","wrapper stateless"
+"Tests","controller degenerate","TestEmptyChoice","controller stateless"
+"Tests","controller degenerate","TestEmptyMultilineConditionalBranch","controller stateless"
+"Tests","controller degenerate","TestAllSwitchBranchesFailIsClean","controller stateless"
+"Tests","controller degenerate","TestTrivialCondition","controller stateless"
+"Tests","controller degenerate","TestEmptySequenceContent","controller stateless"
+"Tests","controller degenerate","TestEnd","controller stateless"
+"Tests","controller degenerate","TestEnd2","controller stateless"
+"Tests","controller degenerate","TestEndOfContent","command collaborator"
+"Tests","controller degenerate","TestEscapeCharacter","controller stateless"
+"Tests","controller degenerate","TestExternalBinding","controller stateless"
+"Tests","controller degenerate","TestLookupSafeOrNot","controller stateless"
+"Tests","controller degenerate","TestFactorialByReference","controller stateless"
+"Tests","controller degenerate","TestFactorialRecursive","controller stateless"
+"Tests","controller degenerate","TestFunctionCallRestrictions","command"
+"Tests","controller degenerate","TestFunctionPurityChecks","command"
+"Tests","controller degenerate","TestDisallowEmptyDiverts","command"
+"Tests","controller degenerate","TestGatherChoiceSameLine","controller stateless"
+"Tests","controller degenerate","TestGatherReadCountWithInitialSequence","controller stateless"
+"Tests","controller degenerate","TestHasReadOnChoice","controller stateless"
+"Tests","controller degenerate","TestHelloWorld","controller stateless"
+"Tests","controller degenerate","TestIdentifersCanStartWithNumbers","controller stateless"
+"Tests","controller degenerate","TestImplicitInlineGlue","controller stateless"
+"Tests","controller degenerate","TestImplicitInlineGlueB","controller stateless"
+"Tests","controller degenerate","TestImplicitInlineGlueC","controller stateless"
+"Tests","controller degenerate","TestInclude","controller stateless"
+"Tests","controller degenerate","TestIncrement","controller stateless"
+"Tests","controller degenerate","TestKnotDotGather","controller stateless"
+"Tests","controller degenerate","TestKnotTerminationSkipsGlobalObjects","command"
+"Tests","controller degenerate","TestLooseEnds","command"
+"Tests","controller degenerate","TestKnotThreadInteraction","controller stateless"
+"Tests","controller degenerate","TestKnotThreadInteraction2","controller stateless"
+"Tests","controller degenerate","TestLeadingNewlineMultilineSequence","controller stateless"
+"Tests","controller degenerate","TestLiteralUnary","controller stateless"
+"Tests","controller degenerate","TestLogicInChoices","controller stateless"
+"Tests","controller degenerate","TestMultipleConstantReferences","controller stateless"
+"Tests","controller degenerate","TestMultiThread","controller stateless"
+"Tests","controller degenerate","TestNestedInclude","controller stateless"
+"Tests","controller degenerate","TestNestedPassByReference","controller stateless"
+"Tests","controller degenerate","TestNonTextInChoiceInnerContent","controller stateless"
+"Tests","controller degenerate","TestOnceOnlyChoicesCanLinkBackToSelf","controller stateless"
+"Tests","controller degenerate","TestOnceOnlyChoicesWithOwnContent","controller stateless"
+"Tests","controller degenerate","TestPaths","wrapper stateless"
+"Tests","controller degenerate","TestPathToSelf","controller stateless"
+"Tests","controller degenerate","TestPrintNum","controller stateless"
+"Tests","controller degenerate","TestQuoteCharacterSignificance","controller stateless"
+"Tests","controller degenerate","TestReadCountAcrossCallstack","controller stateless"
+"Tests","controller degenerate","TestReadCountAcrossThreads","controller stateless"
+"Tests","controller degenerate","TestReadCountDotSeparatedPath","controller stateless"
+"Tests","controller degenerate","TestRequireVariableTargetsTyped","command"
+"Tests","controller degenerate","TestReturnTextWarning","controller stateless"
+"Tests","controller degenerate","TestSameLineDivertIsInline","controller stateless"
+"Tests","controller degenerate","TestShouldntGatherDueToChoice","controller stateless"
+"Tests","controller degenerate","TestShuffleStackMuddying","controller stateless"
+"Tests","controller degenerate","TestSimpleGlue","controller stateless"
+"Tests","controller degenerate","TestStickyChoicesStaySticky","controller stateless"
+"Tests","controller degenerate","TestStringConstants","controller stateless"
+"Tests","controller degenerate","TestStringParserA","controller stateless"
+"Tests","controller degenerate","TestStringParserABAB","controller stateless"
+"Tests","controller degenerate","TestStringParserABAOptional","controller stateless"
+"Tests","controller degenerate","TestStringParserABAOptional2","controller stateless"
+"Tests","controller degenerate","TestStringParserB","controller stateless"
+"Tests","controller degenerate","TestStringsInChoices","controller stateless"
+"Tests","controller degenerate","TestStringTypeCoersion","controller stateless"
+"Tests","controller degenerate","TestTemporariesAtGlobalScope","controller stateless"
+"Tests","controller degenerate","TestThreadDone","controller stateless"
+"Tests","controller degenerate","TestTunnelOnwardsAfterTunnel","controller stateless"
+"Tests","controller degenerate","TestTunnelVsThreadBehaviour","controller stateless"
+"Tests","controller degenerate","TestTurnsSince","controller stateless"
+"Tests","controller degenerate","TestTurnsSinceNested","controller stateless"
+"Tests","controller degenerate","TestTurnsSinceWithVariableTarget","controller stateless"
+"Tests","controller degenerate","TestUnbalancedWeaveIndentation","controller stateless"
+"Tests","controller degenerate","TestVariableDeclarationInConditional","controller stateless"
+"Tests","controller degenerate","TestVariableDivertTarget","controller stateless"
+"Tests","controller degenerate","TestVariableGetSetAPI","controller stateless"
+"Tests","controller degenerate","TestVariableObserver","controller stateless"
+"Tests","controller degenerate","TestVariablePointerRefFromKnot","controller stateless"
+"Tests","controller degenerate","TestVariableSwapRecurse","controller stateless"
+"Tests","controller degenerate","TestVariableTunnel","controller stateless"
+"Tests","controller degenerate","TestWeaveGathers","controller stateless"
+"Tests","controller degenerate","TestWeaveOptions","controller stateless"
+"Tests","controller degenerate","TestWhitespace","controller stateless"
+"Tests","controller degenerate","TestVisitCountsWhenChoosing","controller stateless"
+"Tests","controller degenerate","TestVisitCountBugDueToNestedContainers","controller stateless"
+"Tests","controller degenerate","TestTempGlobalConflict","controller stateless"
+"Tests","controller degenerate","TestThreadInLogic","controller stateless"
+"Tests","controller degenerate","TestTempUsageInOptions","controller stateless"
+"Tests","controller degenerate","TestEvaluatingInkFunctionsFromGame","controller stateless"
+"Tests","controller degenerate","TestEvaluatingInkFunctionsFromGame2","controller stateless"
+"Tests","controller degenerate","TestEvaluatingFunctionVariableStateBug","controller stateless"
+"Tests","controller degenerate","TestDoneStopsThread","controller stateless"
+"Tests","controller degenerate","TestWrongVariableDivertTargetReference","command collaborator"
+"Tests","controller degenerate","TestLeftRightGlueMatching","controller stateless"
+"Tests","controller degenerate","TestSetNonExistantVariable","controller stateless"
+"Tests","controller degenerate","TestConstRedefinition","command collaborator"
+"Tests","controller degenerate","TestTags","controller stateless"
+"Tests","controller degenerate","TestTunnelOnwardsDivertOverride","controller stateless"
+"Tests","controller degenerate","TestListBasicOperations","controller stateless"
+"Tests","controller degenerate","TestListMixedItems","controller stateless"
+"Tests","controller degenerate","TestMoreListOperations","controller stateless"
+"Tests","controller degenerate","TestEmptyListOrigin","controller stateless"
+"Tests","controller degenerate","TestContainsEmptyListAlwaysFalse","controller stateless"
+"Tests","controller degenerate","TestEmptyListOriginAfterAssignment","controller stateless"
+"Tests","controller degenerate","TestListSaveLoad","controller stateless"
+"Tests","controller degenerate","TestEmptyThreadError","command"
+"Tests","controller degenerate","TestAuthorWarningsInsideContentListBug","command collaborator"
+"Tests","controller degenerate","TestWeaveWithinSequence","controller stateless"
+"Tests","controller degenerate","TestNestedChoiceError","command collaborator"
+"Tests","controller degenerate","TestStitchNamingCollision","command collaborator"
+"Tests","controller degenerate","TestWeavePointNamingCollision","command collaborator"
+"Tests","controller degenerate","TestVariableNamingCollisionWithFlow","command collaborator"
+"Tests","controller degenerate","TestVariableNamingCollisionWithArg","command collaborator"
+"Tests","controller degenerate","TestTunnelOnwardsDivertAfterWithArg","controller stateless"
+"Tests","controller degenerate","TestVariousDefaultChoices","controller stateless"
+"Tests","controller degenerate","TestVariousBlankChoiceWarning","command collaborator"
+"Tests","controller degenerate","TestTunnelOnwardsWithParamDefaultChoice","controller stateless"
+"Tests","controller degenerate","TestTunnelOnwardsToVariableDivertTarget","controller stateless"
+"Tests","controller degenerate","TestReadCountVariableTarget","controller stateless"
+"Tests","controller degenerate","TestDivertTargetsWithParameters","controller stateless"
+"Tests","controller degenerate","TestTagsInSeq","controller stateless"
+"Tests","controller degenerate","TestTagsInChoice","controller stateless"
+"Tests","controller degenerate","TestTagsDynamicContent","controller stateless"
+"Tests","controller degenerate","TestStringContains","controller stateless"
+"Tests","controller degenerate","TestEvaluationStackLeaks","controller stateless"
+"Tests","controller degenerate","TestGameInkBackAndForth","controller stateless"
+"Tests","controller degenerate","TestNewlinesWithStringEval","controller stateless"
+"Tests","controller degenerate","TestNewlinesTrimmingWithFuncExternalFallback","controller stateless"
+"Tests","controller degenerate","TestMultilineLogicWithGlue","controller stateless"
+"Tests","controller degenerate","TestNewlineAtStartOfMultilineConditional","controller stateless"
+"Tests","controller degenerate","TestTempNotFound","command collaborator"
+"Tests","controller degenerate","TestTempNotAllowedCrossStitch","command collaborator"
+"Tests","controller degenerate","TestTopFlowTerminatorShouldntKillThreadChoices","controller stateless"
+"Tests","controller degenerate","TestNewlineConsistency","controller stateless"
+"Tests","controller degenerate","TestListRandom","controller stateless"
+"Tests","controller degenerate","TestTurns","controller stateless"
+"Tests","controller degenerate","TestLogicLinesWithNewlines","controller stateless"
+"Tests","controller degenerate","TestFloorCeilingAndCasts","controller stateless"
+"Tests","controller degenerate","TestListRange","controller stateless"
+"Tests","controller degenerate","TestUsingFunctionAndIncrementTogether","wrapper stateless"
+"Tests","controller degenerate","TestKnotStitchGatherCounts","controller stateless"
+"Tests","controller degenerate","TestChoiceThreadForking","controller stateless"
+"Tests","controller degenerate","TestFallbackChoiceOnThread","controller stateless"
+"Tests","controller degenerate","TestCleanCallstackResetOnPathChoice","controller stateless"
+"Tests","controller degenerate","TestStateRollbackOverDefaultChoice","controller stateless"
+"Tests","controller degenerate","TestBools","wrapper stateless"
+"Tests","controller degenerate","TestMultiFlowBasics","controller stateless"
+"Tests","controller degenerate","TestMultiFlowSaveLoadThreads","controller stateless"
+"Tests","controller degenerate","CompileString","non-void-command factory collaborator"
+"Tests","controller degenerate","CompileStringWithoutRuntime","property non-void-command collaborator"
+"Tests","controller degenerate","HadError","predicate non-void-command"
+"Tests","controller degenerate","HadErrorOrWarning","controller stateless"
+"Tests","controller degenerate","HadWarning","predicate non-void-command"
+"Tests","controller degenerate","OnError","command collaborator"
+"Tests","controller degenerate","GenerateIdentifierFromCharacterRange","controller stateless"
+"Tests","controller degenerate","GenerateIdentifierFromCharacterRange","property non-void-command collaborator"
+"Tests","controller degenerate","TestCharacterRangeIdentifiersForConstNamesWithAsciiPrefix","command collaborator"
+"Tests","controller degenerate","TestCharacterRangeIdentifiersForConstNamesWithAsciiSuffix","command collaborator"
+"Tests","controller degenerate","TestCharacterRangeIdentifiersForSimpleVariableNamesWithAsciiPrefix","command collaborator"
+"Tests","controller degenerate","TestCharacterRangeIdentifiersForSimpleVariableNamesWithAsciiSuffix","command collaborator"
+"Tests","controller degenerate","TestCharacterRangeIdentifiersForDivertNamesWithAsciiPrefix","command collaborator"
+"Tests","controller degenerate","TestCharacterRangeIdentifiersForDivertNamesWithAsciiSuffix","command collaborator"
+"ListDefinition","boundary","ItemNamed","property non-void-command collaborator"
+"ListDefinition","boundary","ListDefinition","constructor"
+"ListDefinition","boundary","GenerateRuntimeObject","property factory controller"
+"ListDefinition","boundary","ResolveReferences","command collaborator"
+"ListDefinition","boundary","get","property factory controller"
+"ListDefinition","boundary","get","incidental"
+"ListDefinition","boundary","ValueForItem","property non-void-command collaborator"
+"ListDefinition","boundary","ContainsItem","predicate non-void-command collaborator"
+"ListDefinition","boundary","ContainsItemWithName","predicate non-void-command"
+"ListDefinition","boundary","TryGetItemWithValue","predicate collaborator"
+"ListDefinition","boundary","TryGetValueForItem","predicate non-void-command"
+"ListDefinition","boundary","ListDefinition","constructor"
+"ListDefinition","boundary","get","get"
+"ListDefinition","boundary","get","get non-void-command factory collaborator"
+"ConstantDeclaration","unclassified","ConstantDeclaration","constructor"
+"ConstantDeclaration","unclassified","GenerateRuntimeObject","collaborator incidental"
+"ConstantDeclaration","unclassified","ResolveReferences","command collaborator"
+"ConstantDeclaration","unclassified","get","property"
+"ConstantDeclaration","unclassified","get","incidental"
+"TunnelOnwards","commander boundary data-class","GenerateRuntimeObject","set factory collaborator"
+"TunnelOnwards","commander boundary data-class","ResolveReferences","set collaborator"
+"TunnelOnwards","commander boundary data-class","get","get collaborator"
+"TunnelOnwards","commander boundary data-class","set","set collaborator"
+"Flow","commander boundary small-class","Flow","constructor"
+"Flow","commander boundary small-class","Flow","constructor"
+"Flow","commander boundary small-class","WriteJson","command collaborator"
+"Flow","commander boundary small-class","LoadFlowChoiceThreads","command collaborator"
+"Container","boundary","Container","constructor"
+"Container","boundary","AddContent","void-accessor command collaborator"
+"Container","boundary","AddContent","command collaborator"
+"Container","boundary","InsertContent","void-accessor command"
+"Container","boundary","TryAddNamedContent","command collaborator"
+"Container","boundary","AddToNamedContentOnly","set collaborator"
+"Container","boundary","AddContentsOfContainer","command collaborator"
+"Container","boundary","ContentWithPathComponent","get property non-void-command collaborator"
+"Container","boundary","ContentAtPath","factory controller"
+"Container","boundary","BuildStringOfHierarchy","command collaborator"
+"Container","boundary","BuildStringOfHierarchy","property non-void-command collaborator"
+"Container","boundary","get","get collaborator"
+"Container","boundary","set","non-void-command collaborator"
+"Container","boundary","get","factory controller"
+"Container","boundary","set","non-void-command collaborator"
+"Container","boundary","get","property collaborator"
+"Container","boundary","set","non-void-command collaborator"
+"Container","boundary","get","predicate"
+"Container","boundary","get","get set collaborator"
+"Container","boundary","get","property factory controller"
+"Identifier","data-provider data-class small-class","ToString","get"
+"Sequence","boundary","Sequence","copy-constructor"
+"Sequence","boundary","GenerateRuntimeObject","non-void-command factory collaborator"
+"Sequence","boundary","AddDivertToResolve","collaborator incidental"
+"Sequence","boundary","ResolveReferences","command collaborator"
+"CharacterRange","data-provider data-class","ToCharacterSet","get non-void-command collaborator"
+"CharacterRange","data-provider data-class","CharacterRange","constructor"
+"CharacterRange","data-provider data-class","get","get"
+"CharacterRange","data-provider data-class","get","get"
+"ExternalDeclaration","data-provider small-class","ExternalDeclaration","constructor"
+"ExternalDeclaration","data-provider small-class","GenerateRuntimeObject","property wrapper"
+"ExternalDeclaration","data-provider small-class","get","get"
+"VariablePointerValue","lazy-class","VariablePointerValue","constructor"
+"VariablePointerValue","lazy-class","VariablePointerValue","constructor"
+"VariablePointerValue","lazy-class","Cast","get non-void-command collaborator"
+"VariablePointerValue","lazy-class","ToString","incidental"
+"VariablePointerValue","lazy-class","Copy","property factory collaborator"
+"VariablePointerValue","lazy-class","get","get"
+"VariablePointerValue","lazy-class","set","set"
+"VariablePointerValue","lazy-class","get","collaborator incidental"
+"VariablePointerValue","lazy-class","get","stateless"
+"Knot","commander boundary small-class","Knot","constructor"
+"Knot","commander boundary small-class","ResolveReferences","command collaborator"
+"Knot","commander boundary small-class","get","collaborator incidental"
+"Stitch","boundary degenerate small-class","Stitch","constructor"
+"Stitch","boundary degenerate small-class","get","collaborator incidental"
+"BinaryExpression","entity boundary","BinaryExpression","constructor"
+"BinaryExpression","entity boundary","GenerateIntoContainer","command collaborator"
+"BinaryExpression","entity boundary","ResolveReferences","command collaborator"
+"BinaryExpression","entity boundary","NativeNameForOp","incidental"
+"BinaryExpression","entity boundary","ToString","property wrapper"
+"ListElementDefinition","boundary","ListElementDefinition","constructor"
+"ListElementDefinition","boundary","GenerateRuntimeObject","collaborator stateless"
+"ListElementDefinition","boundary","ResolveReferences","command collaborator"
+"ListElementDefinition","boundary","get","property"
+"ListElementDefinition","boundary","get","property collaborator"
+"ListElementDefinition","boundary","get","incidental"
+"UnaryExpression","data-provider","UnaryExpression","constructor"
+"UnaryExpression","data-provider","GenerateIntoContainer","command collaborator"
+"UnaryExpression","data-provider","ToString","property"
+"UnaryExpression","data-provider","get","get property"
+"DefaultFileHandler","boundary degenerate small-class","ResolveInkFilename","wrapper stateless"
+"DefaultFileHandler","boundary degenerate small-class","LoadInkFileContents","wrapper stateless"
+"ConditionalSingleBranch","entity boundary","ConditionalSingleBranch","constructor"
+"ConditionalSingleBranch","entity boundary","GenerateRuntimeObject","non-void-command factory collaborator"
+"ConditionalSingleBranch","entity boundary","GenerateRuntimeForContent","property factory collaborator"
+"ConditionalSingleBranch","entity boundary","ResolveReferences","set collaborator"
+"ConditionalSingleBranch","entity boundary","get","get collaborator"
+"ConditionalSingleBranch","entity boundary","set","set collaborator"
+"LegacyTag","empty","LegacyTag","constructor"
+"Compiler","entity boundary","Compiler","constructor"
+"Compiler","entity boundary","Parse","get non-void-command collaborator"
+"Compiler","entity boundary","Compile","get non-void-command collaborator"
+"Compiler","entity boundary","HandleInput","property non-void-command factory collaborator"
+"Compiler","entity boundary","ExecuteImmediateStatement","non-void-command factory collaborator"
+"Compiler","entity boundary","RetrieveDebugSourceForLatestContent","command collaborator"
+"Compiler","entity boundary","DebugMetadataForContentAtOffset","property collaborator"
+"Compiler","entity boundary","OnParseError","set collaborator"
+"Compiler","entity boundary","get","get collaborator"
+"Divert","unclassified","Divert","constructor"
+"Divert","unclassified","Divert","constructor"
+"Divert","unclassified","GenerateRuntimeObject","get property non-void-command factory collaborator"
+"Divert","unclassified","PathAsVariableName","property"
+"Divert","unclassified","ResolveTargetContent","command collaborator"
+"Divert","unclassified","ResolveReferences","command collaborator"
+"Divert","unclassified","CheckArgumentValidity","controller"
+"Divert","unclassified","CheckExternalArgumentValidity","controller"
+"Divert","unclassified","Error","command"
+"Divert","unclassified","ToString","property non-void-command"
+"Divert","unclassified","get","predicate"
+"Divert","unclassified","get","predicate"
+"Divert","unclassified","Divert","constructor"
+"Divert","unclassified","Divert","constructor"
+"Divert","unclassified","Equals","predicate non-void-command collaborator"
+"Divert","unclassified","GetHashCode","property non-void-command"
+"Divert","unclassified","ToString","property non-void-command"
+"Divert","unclassified","get","get set collaborator"
+"Divert","unclassified","set","non-void-command collaborator"
+"Divert","unclassified","get","get non-void-command collaborator"
+"Divert","unclassified","get","property non-void-command"
+"Divert","unclassified","set","stateless"
+"Divert","unclassified","get","predicate"
+"Wrap<T>","data-provider boundary data-class small-class","Wrap","copy-constructor"
+"Wrap<T>","data-provider boundary data-class small-class","GenerateRuntimeObject","get collaborator"
+"InkParser","boundary","InkParser","constructor"
+"InkParser","boundary","InkParser","copy-constructor"
+"InkParser","boundary","Parse","property non-void-command factory collaborator"
+"InkParser","boundary","SeparatedList<T>","property non-void-command factory collaborator"
+"InkParser","boundary","PreProcessInputString","wrapper stateless"
+"InkParser","boundary","CreateDebugMetadata","factory collaborator"
+"InkParser","boundary","RuleDidSucceed","command collaborator"
+"InkParser","boundary","OnStringParserError","wrapper"
+"InkParser","boundary","get","predicate non-void-command"
+"InkParser","boundary","set","non-void-command"
+"InkParser","boundary","get","predicate non-void-command"
+"InkParser","boundary","set","non-void-command"
+"InkParser","boundary","AuthorWarning","property non-void-command factory collaborator"
+"InkParser","boundary","ExtendIdentifierCharacterRanges","controller stateless"
+"InkParser","boundary","Choice","property non-void-command factory collaborator"
+"InkParser","boundary","ChoiceCondition","factory wrapper stateless"
+"InkParser","boundary","ChoiceConditionsSpace","get non-void-command collaborator"
+"InkParser","boundary","ChoiceSingleCondition","property non-void-command collaborator"
+"InkParser","boundary","Gather","property non-void-command factory collaborator"
+"InkParser","boundary","GatherDashes","property non-void-command collaborator"
+"InkParser","boundary","ParseDashNotArrow","property non-void-command collaborator"
+"InkParser","boundary","BracketedName","property non-void-command collaborator"
+"InkParser","boundary","CommandLineUserInput","property non-void-command factory collaborator"
+"InkParser","boundary","DebugSource","property non-void-command factory collaborator"
+"InkParser","boundary","DebugPathLookup","property non-void-command factory collaborator"
+"InkParser","boundary","RuntimePath","property non-void-command"
+"InkParser","boundary","UserChoiceNumber","property non-void-command factory collaborator"
+"InkParser","boundary","UserImmediateModeStatement","factory wrapper stateless"
+"InkParser","boundary","InnerConditionalContent","property non-void-command collaborator"
+"InkParser","boundary","InnerConditionalContent","property non-void-command factory collaborator"
+"InkParser","boundary","InlineConditionalBranches","property non-void-command factory collaborator"
+"InkParser","boundary","MultilineConditionalBranches","property non-void-command collaborator"
+"InkParser","boundary","SingleMultilineCondition","property non-void-command factory collaborator"
+"InkParser","boundary","ConditionExpression","property non-void-command collaborator"
+"InkParser","boundary","ElseExpression","get property non-void-command collaborator"
+"InkParser","boundary","TrimEndWhitespace","command collaborator"
+"InkParser","boundary","LineOfMixedTextAndLogic","property non-void-command collaborator"
+"InkParser","boundary","MixedTextAndLogic","property non-void-command factory collaborator"
+"InkParser","boundary","ContentText","property non-void-command collaborator"
+"InkParser","boundary","ContentTextAllowingEcapeChar","property non-void-command factory collaborator"
+"InkParser","boundary","ContentTextNoEscape","property non-void-command"
+"InkParser","boundary","MultiDivert","property non-void-command factory collaborator"
+"InkParser","boundary","StartThread","property non-void-command collaborator"
+"InkParser","boundary","DivertIdentifierWithArguments","property non-void-command factory collaborator"
+"InkParser","boundary","SingleDivert","property non-void-command collaborator"
+"InkParser","boundary","DotSeparatedDivertPathComponents","property non-void-command collaborator"
+"InkParser","boundary","ParseDivertArrowOrTunnelOnwards","property non-void-command"
+"InkParser","boundary","ParseDivertArrow","property non-void-command"
+"InkParser","boundary","ParseThreadArrow","property non-void-command"
+"InkParser","boundary","TempDeclarationOrAssignment","property non-void-command factory collaborator"
+"InkParser","boundary","DisallowIncrement","wrapper stateless"
+"InkParser","boundary","ParseTempKeyword","predicate non-void-command collaborator"
+"InkParser","boundary","ReturnStatement","property non-void-command factory collaborator"
+"InkParser","boundary","Expression","property non-void-command collaborator"
+"InkParser","boundary","Expression","property non-void-command collaborator"
+"InkParser","boundary","ExpressionUnary","property non-void-command factory collaborator"
+"InkParser","boundary","ExpressionNot","property non-void-command collaborator"
+"InkParser","boundary","ExpressionLiteral","wrapper stateless"
+"InkParser","boundary","ExpressionDivertTarget","property non-void-command factory collaborator"
+"InkParser","boundary","ExpressionInt","property non-void-command factory collaborator"
+"InkParser","boundary","ExpressionFloat","property non-void-command factory collaborator"
+"InkParser","boundary","ExpressionString","property non-void-command factory collaborator"
+"InkParser","boundary","ExpressionBool","property non-void-command factory collaborator"
+"InkParser","boundary","ExpressionFunctionCall","property non-void-command factory collaborator"
+"InkParser","boundary","ExpressionFunctionCallArguments","property non-void-command factory collaborator"
+"InkParser","boundary","ExpressionVariableName","property non-void-command factory collaborator"
+"InkParser","boundary","ExpressionParen","property non-void-command collaborator"
+"InkParser","boundary","ExpressionInfixRight","property non-void-command factory collaborator"
+"InkParser","boundary","ParseInfixOperator","property non-void-command collaborator"
+"InkParser","boundary","ExpressionList","property non-void-command collaborator"
+"InkParser","boundary","ListMember","property non-void-command collaborator"
+"InkParser","boundary","RegisterExpressionOperators","command"
+"InkParser","boundary","RegisterBinaryOperator","set"
+"InkParser","boundary","IncludeStatement","property non-void-command factory collaborator"
+"InkParser","boundary","FilenameIsAlreadyOpen","predicate non-void-command"
+"InkParser","boundary","AddOpenFilename","command"
+"InkParser","boundary","RemoveOpenFilename","command"
+"InkParser","boundary","KnotDefinition","property non-void-command factory collaborator"
+"InkParser","boundary","KnotDeclaration","property non-void-command factory collaborator"
+"InkParser","boundary","KnotTitleEquals","wrapper stateless"
+"InkParser","boundary","StitchDefinition","property non-void-command factory collaborator"
+"InkParser","boundary","StitchDeclaration","property non-void-command factory collaborator"
+"InkParser","boundary","KnotStitchNoContentRecoveryRule","non-void-command factory collaborator"
+"InkParser","boundary","BracketedKnotDeclArguments","property non-void-command factory collaborator"
+"InkParser","boundary","FlowDeclArgument","property non-void-command factory collaborator"
+"InkParser","boundary","ExternalDeclaration","property non-void-command factory collaborator"
+"InkParser","boundary","LogicLine","property non-void-command factory collaborator"
+"InkParser","boundary","VariableDeclaration","property non-void-command factory collaborator"
+"InkParser","boundary","ListDeclaration","property non-void-command factory collaborator"
+"InkParser","boundary","ListDefinition","property non-void-command factory collaborator"
+"InkParser","boundary","ListElementDefinitionSeparator","property non-void-command"
+"InkParser","boundary","ListElementDefinition","property non-void-command factory collaborator"
+"InkParser","boundary","ConstDeclaration","property non-void-command factory collaborator"
+"InkParser","boundary","InlineLogicOrGlueOrStartTag","wrapper stateless"
+"InkParser","boundary","Glue","property non-void-command factory collaborator"
+"InkParser","boundary","InlineLogic","property non-void-command factory collaborator"
+"InkParser","boundary","InnerLogic","property non-void-command factory collaborator"
+"InkParser","boundary","InnerExpression","property non-void-command collaborator"
+"InkParser","boundary","IdentifierWithMetadata","property non-void-command factory collaborator"
+"InkParser","boundary","Identifier","wrapper stateless"
+"InkParser","boundary","get","get set factory collaborator"
+"InkParser","boundary","InnerSequence","property non-void-command factory collaborator"
+"InkParser","boundary","SequenceTypeAnnotation","property non-void-command collaborator"
+"InkParser","boundary","SequenceTypeSymbolAnnotation","property set collaborator"
+"InkParser","boundary","SequenceTypeWordAnnotation","property non-void-command collaborator"
+"InkParser","boundary","SequenceTypeSingleWord","property non-void-command collaborator"
+"InkParser","boundary","InnerSequenceObjects","property non-void-command collaborator"
+"InkParser","boundary","InnerInlineSequenceObjects","property non-void-command factory collaborator"
+"InkParser","boundary","InnerMultilineSequenceObjects","property non-void-command collaborator"
+"InkParser","boundary","SingleMultilineSequenceElement","property non-void-command factory collaborator"
+"InkParser","boundary","StatementsAtLevel","property non-void-command collaborator"
+"InkParser","boundary","StatementAtLevel","property non-void-command collaborator"
+"InkParser","boundary","StatementsBreakForLevel","property non-void-command collaborator"
+"InkParser","boundary","GenerateStatementLevelRules","command collaborator"
+"InkParser","boundary","SkipToNextLine","get non-void-command collaborator"
+"InkParser","boundary","Line","property non-void-command collaborator"
+"InkParser","boundary","StartTag","property non-void-command factory collaborator"
+"InkParser","boundary","EndTagIfNecessary","collaborator incidental"
+"InkParser","boundary","EndTagIfNecessary","collaborator incidental"
+"InkParser","boundary","EndOfLine","wrapper stateless"
+"InkParser","boundary","Newline","get property non-void-command collaborator"
+"InkParser","boundary","EndOfFile","get property non-void-command collaborator"
+"InkParser","boundary","MultilineWhitespace","get property non-void-command collaborator"
+"InkParser","boundary","Whitespace","get property wrapper"
+"InkParser","boundary","Spaced","property non-void-command collaborator"
+"InkParser","boundary","AnyWhitespace","property wrapper"
+"InkParser","boundary","MultiSpaced","property non-void-command collaborator"
+"DivertTarget","unclassified","DivertTarget","constructor"
+"DivertTarget","unclassified","GenerateIntoContainer","command collaborator"
+"DivertTarget","unclassified","ResolveReferences","set collaborator"
+"DivertTarget","unclassified","Equals","predicate controller"
+"DivertTarget","unclassified","GetHashCode","property controller"
+"FlowBase","boundary","FlowBase","constructor"
+"FlowBase","boundary","SplitWeaveAndSubFlowContent","non-void-command factory collaborator"
+"FlowBase","boundary","PreProcessTopLevelObjects","empty"
+"FlowBase","boundary","ResolveVariableWithName","factory controller"
+"FlowBase","boundary","TryAddNewVariableDeclaration","command collaborator"
+"FlowBase","boundary","ResolveWeavePointNaming","command collaborator"
+"FlowBase","boundary","GenerateRuntimeObject","non-void-command factory collaborator"
+"FlowBase","boundary","GenerateArgumentVariableAssignments","controller"
+"FlowBase","boundary","ContentWithNameAtLevel","get property non-void-command collaborator"
+"FlowBase","boundary","DeepSearchForAnyLevelContent","property non-void-command collaborator"
+"FlowBase","boundary","ResolveReferences","set collaborator"
+"FlowBase","boundary","CheckForDisallowedFunctionFlowControl","command collaborator"
+"FlowBase","boundary","WarningInTermination","command collaborator"
+"FlowBase","boundary","ToString","property"
+"FlowBase","boundary","get","get"
+"FlowBase","boundary","get","predicate"
+"FlowBase","boundary","get","get"
+"FlowBase","boundary","get","property non-void-command"
+"Return","factory pure-controller small-class","Return","constructor"
+"Return","factory pure-controller small-class","GenerateRuntimeObject","factory controller"
+"AuthorWarning","data-provider boundary small-class","AuthorWarning","constructor"
+"AuthorWarning","data-provider boundary small-class","GenerateRuntimeObject","property wrapper"
+"FunctionCall","degenerate","FunctionCall","constructor"
+"FunctionCall","degenerate","GenerateIntoContainer","command collaborator"
+"FunctionCall","degenerate","ResolveReferences","command collaborator"
+"FunctionCall","degenerate","ToString","wrapper stateless"
+"FunctionCall","degenerate","get","property"
+"FunctionCall","degenerate","get","get collaborator"
+"FunctionCall","degenerate","get","property collaborator"
+"FunctionCall","degenerate","get","property collaborator"
+"FunctionCall","degenerate","get","incidental"
+"FunctionCall","degenerate","get","incidental"
+"FunctionCall","degenerate","get","incidental"
+"FunctionCall","degenerate","get","incidental"
+"FunctionCall","degenerate","get","incidental"
+"FunctionCall","degenerate","get","incidental"
+"FunctionCall","degenerate","get","incidental"
+"FunctionCall","degenerate","get","incidental"
+"CommentEliminator","entity boundary","CommentEliminator","constructor"
+"CommentEliminator","entity boundary","Process","property non-void-command collaborator"
+"CommentEliminator","entity boundary","MainInk","property non-void-command"
+"CommentEliminator","entity boundary","CommentsAndNewlines","property non-void-command collaborator"
+"CommentEliminator","entity boundary","ParseSingleComment","wrapper stateless"
+"CommentEliminator","entity boundary","EndOfLineComment","property non-void-command"
+"CommentEliminator","entity boundary","BlockComment","property non-void-command collaborator"
+"InkTestBed","boundary","Run","command"
+"InkTestBed","boundary","Play","command"
+"InkTestBed","boundary","Continue","command"
+"InkTestBed","boundary","ContinueMaximally","command collaborator"
+"InkTestBed","boundary","Choose","command"
+"InkTestBed","boundary","PlayerChoice","command"
+"InkTestBed","boundary","Compile","get non-void-command collaborator"
+"InkTestBed","boundary","CreateCompiler","factory wrapper stateless"
+"InkTestBed","boundary","CompileFile","get non-void-command collaborator"
+"InkTestBed","boundary","JsonRoundtrip","set collaborator"
+"InkTestBed","boundary","SplitFile","controller stateless"
+"InkTestBed","boundary","InkChangingTest","command collaborator"
+"InkTestBed","boundary","SimpleDiff","controller stateless"
+"InkTestBed","boundary","Millisecs","controller stateless"
+"InkTestBed","boundary","InkTestBed","constructor"
+"InkTestBed","boundary","PrintChoicesIfNecessary","controller"
+"InkTestBed","boundary","OnError","controller stateless"
+"InkList","boundary large-class","InkList","constructor"
+"InkList","boundary large-class","InkList","copy-constructor"
+"InkList","boundary large-class","InkList","constructor"
+"InkList","boundary large-class","InkList","copy-constructor"
+"InkList","boundary large-class","AddItem","set collaborator"
+"InkList","boundary large-class","AddItem","command collaborator"
+"InkList","boundary large-class","ContainsItemNamed","predicate collaborator"
+"InkList","boundary large-class","SetInitialOriginName","set"
+"InkList","boundary large-class","SetInitialOriginNames","set"
+"InkList","boundary large-class","Union","factory collaborator"
+"InkList","boundary large-class","Intersect","factory controller"
+"InkList","boundary large-class","HasIntersection","predicate controller"
+"InkList","boundary large-class","Without","factory controller"
+"InkList","boundary large-class","Contains","predicate non-void-command collaborator"
+"InkList","boundary large-class","Contains","predicate collaborator"
+"InkList","boundary large-class","GreaterThan","incidental"
+"InkList","boundary large-class","GreaterThanOrEquals","incidental"
+"InkList","boundary large-class","LessThan","incidental"
+"InkList","boundary large-class","LessThanOrEquals","incidental"
+"InkList","boundary large-class","MaxAsList","factory stateless"
+"InkList","boundary large-class","MinAsList","factory stateless"
+"InkList","boundary large-class","ListWithSubRange","factory controller stateless"
+"InkList","boundary large-class","Equals","predicate controller"
+"InkList","boundary large-class","GetHashCode","property controller"
+"InkList","boundary large-class","ToString","controller stateless"
+"InkList","boundary large-class","get","property collaborator"
+"InkList","boundary large-class","get","get non-void-command collaborator"
+"InkList","boundary large-class","get","factory collaborator"
+"InkList","boundary large-class","get","factory collaborator"
+"InkList","boundary large-class","get","non-void-command factory collaborator"
+"InkList","boundary large-class","get","factory collaborator"
+"InkList","boundary large-class","get","property factory controller"
+"InkList","boundary large-class","get","property collaborator"
+"ChoicePoint","unclassified","ChoicePoint","constructor"
+"ChoicePoint","unclassified","ChoicePoint","constructor"
+"ChoicePoint","unclassified","ToString","property non-void-command"
+"ChoicePoint","unclassified","get","get set collaborator"
+"ChoicePoint","unclassified","set","set collaborator"
+"ChoicePoint","unclassified","get","property non-void-command collaborator"
+"ChoicePoint","unclassified","get","property non-void-command"
+"ChoicePoint","unclassified","set","stateless"
+"ChoicePoint","unclassified","get","property"
+"ChoicePoint","unclassified","set","non-void-command"
+"Conditional","small-class","Conditional","copy-constructor"
+"Conditional","small-class","GenerateRuntimeObject","set factory collaborator"
+"Conditional","small-class","ResolveReferences","command collaborator"
+"IncludedFile","boundary degenerate small-class","IncludedFile","constructor"
+"IncludedFile","boundary degenerate small-class","GenerateRuntimeObject","collaborator incidental"
+"List","pure-controller small-class","List","copy-constructor"
+"List","pure-controller small-class","GenerateIntoContainer","controller"
+"MultipleConditionExpression","small-class","MultipleConditionExpression","constructor"
+"MultipleConditionExpression","small-class","GenerateIntoContainer","controller stateless"
+"MultipleConditionExpression","small-class","get","property non-void-command collaborator"
+"VariableAssignment","data-provider","VariableAssignment","constructor"
+"VariableAssignment","data-provider","VariableAssignment","constructor"
+"VariableAssignment","data-provider","GenerateRuntimeObject","property set factory collaborator"
+"VariableAssignment","data-provider","ResolveReferences","command collaborator"
+"VariableAssignment","data-provider","get","property"
+"VariableAssignment","data-provider","get","predicate"
+"VariableAssignment","data-provider","get","property"
+"VariableAssignment","data-provider","VariableAssignment","constructor"
+"VariableAssignment","data-provider","VariableAssignment","constructor"
+"VariableAssignment","data-provider","ToString","property"
+"NativeFunctionCall","boundary","Call","property non-void-command collaborator"
+"NativeFunctionCall","boundary","Call<T>","property non-void-command collaborator"
+"NativeFunctionCall","boundary","CallBinaryListOperation","property non-void-command factory collaborator"
+"NativeFunctionCall","boundary","CallListIncrementOperation","property factory controller"
+"NativeFunctionCall","boundary","CoerceValuesToSingleType","factory controller"
+"NativeFunctionCall","boundary","NativeFunctionCall","constructor"
+"NativeFunctionCall","boundary","NativeFunctionCall","constructor"
+"NativeFunctionCall","boundary","NativeFunctionCall","constructor"
+"NativeFunctionCall","boundary","AddOpFuncForType","command collaborator"
+"NativeFunctionCall","boundary","ToString","incidental"
+"NativeFunctionCall","boundary","get","get"
+"NativeFunctionCall","boundary","set","non-void-command"
+"NativeFunctionCall","boundary","get","get property"
+"NativeFunctionCall","boundary","set","set"
+"Object","boundary","PathRelativeTo","property factory controller"
+"Object","boundary","AddContent<T>","property set collaborator"
+"Object","boundary","AddContent<T>","wrapper stateless"
+"Object","boundary","InsertContent<T>","property set collaborator"
+"Object","boundary","Find<T>","property controller"
+"Object","boundary","FindAll<T>","factory wrapper stateless"
+"Object","boundary","FindAll<T>","controller"
+"Object","boundary","ResolveReferences","controller"
+"Object","boundary","ClosestFlowBase","property collaborator"
+"Object","boundary","Error","void-accessor command"
+"Object","boundary","Warning","command"
+"Object","boundary","Equals","predicate wrapper"
+"Object","boundary","GetHashCode","property non-void-command"
+"Object","boundary","get","get property collaborator"
+"Object","boundary","set","set collaborator"
+"Object","boundary","get","predicate"
+"Object","boundary","get","wrapper stateless"
+"Object","boundary","get","property collaborator"
+"Object","boundary","get","get non-void-command"
+"Object","boundary","set","set"
+"Object","boundary","get","collaborator incidental"
+"Object","boundary","get","collaborator incidental"
+"Object","boundary","get","factory controller"
+"Object","boundary","get","property controller"
+"Object","boundary","DebugLineNumberOfPath","controller stateless"
+"Object","boundary","ResolvePath","property non-void-command collaborator"
+"Object","boundary","ConvertPathToRelative","factory controller stateless"
+"Object","boundary","CompactPathString","property non-void-command collaborator"
+"Object","boundary","Object","constructor"
+"Object","boundary","Copy","wrapper stateless"
+"Object","boundary","SetChild<T>","void-accessor collaborator"
+"Object","boundary","Equals","predicate wrapper"
+"Object","boundary","GetHashCode","property non-void-command"
+"Object","boundary","get","get property collaborator"
+"Object","boundary","set","set collaborator"
+"Object","boundary","get","get collaborator"
+"Object","boundary","get","get set factory collaborator"
+"Object","boundary","get","property collaborator"
+"Void","empty","Void","constructor"
+"CharacterSet","data-provider boundary data-class","CharacterSet","constructor"
+"CharacterSet","data-provider boundary data-class","CharacterSet","constructor"
+"CharacterSet","data-provider boundary data-class","CharacterSet","copy-constructor"
+"CharacterSet","data-provider boundary data-class","AddRange","get wrapper"
+"CharacterSet","data-provider boundary data-class","AddCharacters","get wrapper"
+"CharacterSet","data-provider boundary data-class","AddCharacters","get wrapper"
+"StringParserState","lazy-class degenerate","StringParserState","constructor"
+"StringParserState","lazy-class degenerate","Push","property set collaborator"
+"StringParserState","lazy-class degenerate","Pop","set"
+"StringParserState","lazy-class degenerate","Peek","get collaborator"
+"StringParserState","lazy-class degenerate","PeekPenultimate","get property collaborator"
+"StringParserState","lazy-class degenerate","Squash","set collaborator"
+"StringParserState","lazy-class degenerate","NoteErrorReported","collaborator"
+"StringParserState","lazy-class degenerate","get","incidental"
+"StringParserState","lazy-class degenerate","set","incidental"
+"StringParserState","lazy-class degenerate","get","incidental"
+"StringParserState","lazy-class degenerate","set","incidental"
+"StringParserState","lazy-class degenerate","get","incidental"
+"StringParserState","lazy-class degenerate","set","incidental"
+"StringParserState","lazy-class degenerate","get","incidental"
+"StringParserState","lazy-class degenerate","set","incidental"
+"StringParserState","lazy-class degenerate","get","incidental"
+"StringParserState","lazy-class degenerate","get","get"
+"StringParserState","lazy-class degenerate","get","get collaborator"
+"Story","commander boundary","Story","constructor"
+"Story","commander boundary","PreProcessTopLevelObjects","controller stateless"
+"Story","commander boundary","ExportRuntime","property non-void-command factory collaborator"
+"Story","commander boundary","ResolveList","property non-void-command collaborator"
+"Story","commander boundary","ResolveListItem","property non-void-command collaborator"
+"Story","commander boundary","FlattenContainersIn","command collaborator"
+"Story","commander boundary","TryFlattenContainer","command collaborator"
+"Story","commander boundary","Error","command collaborator"
+"Story","commander boundary","ResetError","command"
+"Story","commander boundary","IsExternal","predicate non-void-command"
+"Story","commander boundary","AddExternal","command collaborator"
+"Story","commander boundary","DontFlattenContainer","command collaborator"
+"Story","commander boundary","NameConflictError","controller stateless"
+"Story","commander boundary","CheckForNamingCollisions","command collaborator"
+"Story","commander boundary","get","collaborator incidental"
+"Story","commander boundary","get","get"
+"Story","commander boundary","get","get"
+"Story","commander boundary","StartProfiling","get set factory collaborator"
+"Story","commander boundary","EndProfiling","set"
+"Story","commander boundary","Story","constructor"
+"Story","commander boundary","Story","constructor"
+"Story","commander boundary","ToJson","property non-void-command collaborator"
+"Story","commander boundary","ToJson","command collaborator"
+"Story","commander boundary","ToJson","controller"
+"Story","commander boundary","ResetState","command"
+"Story","commander boundary","ResetErrors","command"
+"Story","commander boundary","ResetCallstack","command"
+"Story","commander boundary","ResetGlobals","command collaborator"
+"Story","commander boundary","SwitchFlow","command"
+"Story","commander boundary","RemoveFlow","wrapper stateless"
+"Story","commander boundary","SwitchToDefaultFlow","wrapper stateless"
+"Story","commander boundary","Continue","property non-void-command"
+"Story","commander boundary","ContinueAsync","command"
+"Story","commander boundary","ContinueInternal","command collaborator"
+"Story","commander boundary","ContinueSingleStep","predicate non-void-command collaborator"
+"Story","commander boundary","CalculateNewlineOutputStateChange","collaborator incidental"
+"Story","commander boundary","ContinueMaximally","property non-void-command collaborator"
+"Story","commander boundary","ContentAtPath","wrapper stateless"
+"Story","commander boundary","KnotContainerWithName","wrapper stateless"
+"Story","commander boundary","PointerAtPath","property non-void-command factory collaborator"
+"Story","commander boundary","StateSnapshot","command"
+"Story","commander boundary","RestoreStateSnapshot","command"
+"Story","commander boundary","DiscardSnapshot","set"
+"Story","commander boundary","CopyStateForBackgroundThreadSave","property non-void-command collaborator"
+"Story","commander boundary","BackgroundSaveComplete","set"
+"Story","commander boundary","Step","command collaborator"
+"Story","commander boundary","VisitContainer","wrapper stateless"
+"Story","commander boundary","VisitChangedContainersDueToDivert","command"
+"Story","commander boundary","PopChoiceStringAndTags","controller stateless"
+"Story","commander boundary","ProcessChoice","property non-void-command factory collaborator"
+"Story","commander boundary","IsTruthy","wrapper stateless"
+"Story","commander boundary","PerformLogicAndFlowControl","predicate non-void-command collaborator"
+"Story","commander boundary","ChoosePathString","command collaborator"
+"Story","commander boundary","IfAsyncWeCant","unclassified"
+"Story","commander boundary","ChoosePath","command"
+"Story","commander boundary","ChooseChoiceIndex","wrapper stateless"
+"Story","commander boundary","HasFunction","predicate non-void-command"
+"Story","commander boundary","EvaluateFunction","property non-void-command collaborator"
+"Story","commander boundary","EvaluateFunction","property non-void-command collaborator"
+"Story","commander boundary","EvaluateExpression","property set collaborator"
+"Story","commander boundary","TryGetExternalFunction","predicate non-void-command collaborator"
+"Story","commander boundary","CallExternalFunction","command collaborator"
+"Story","commander boundary","BindExternalFunctionGeneral","command"
+"Story","commander boundary","TryCoerce<T>","controller stateless"
+"Story","commander boundary","BindExternalFunction","wrapper stateless"
+"Story","commander boundary","BindExternalFunction","wrapper stateless"
+"Story","commander boundary","BindExternalFunction<T>","command"
+"Story","commander boundary","BindExternalFunction<T>","command"
+"Story","commander boundary","BindExternalFunction<T1,T2>","wrapper stateless"
+"Story","commander boundary","BindExternalFunction<T1,T2>","wrapper stateless"
+"Story","commander boundary","BindExternalFunction<T1,T2,T3>","wrapper stateless"
+"Story","commander boundary","BindExternalFunction<T1,T2,T3>","wrapper stateless"
+"Story","commander boundary","BindExternalFunction<T1,T2,T3,T4>","wrapper stateless"
+"Story","commander boundary","BindExternalFunction<T1,T2,T3,T4>","wrapper stateless"
+"Story","commander boundary","UnbindExternalFunction","command"
+"Story","commander boundary","ValidateExternalBindings","set collaborator"
+"Story","commander boundary","ValidateExternalBindings","command collaborator"
+"Story","commander boundary","ValidateExternalBindings","command"
+"Story","commander boundary","ObserveVariable","command collaborator"
+"Story","commander boundary","ObserveVariables","command collaborator"
+"Story","commander boundary","RemoveVariableObserver","command collaborator"
+"Story","commander boundary","VariableStateDidChangeEvent","command collaborator"
+"Story","commander boundary","TagsForContentAtPath","property non-void-command"
+"Story","commander boundary","TagsAtStartOfFlowContainerWithPathString","property non-void-command collaborator"
+"Story","commander boundary","BuildStringOfHierarchy","controller stateless"
+"Story","commander boundary","BuildStringOfContainer","controller stateless"
+"Story","commander boundary","NextContent","command"
+"Story","commander boundary","IncrementContentPointer","controller stateless"
+"Story","commander boundary","TryFollowDefaultInvisibleChoice","predicate non-void-command collaborator"
+"Story","commander boundary","NextSequenceShuffleIndex","controller stateless"
+"Story","commander boundary","Error","collaborator stateless"
+"Story","commander boundary","Warning","wrapper stateless"
+"Story","commander boundary","AddError","wrapper stateless"
+"Story","commander boundary","Assert","controller stateless"
+"Story","commander boundary","get","factory controller"
+"Story","commander boundary","get","property non-void-command"
+"Story","commander boundary","get","property non-void-command"
+"Story","commander boundary","get","incidental"
+"Story","commander boundary","get","incidental"
+"Story","commander boundary","get","incidental"
+"Story","commander boundary","get","incidental"
+"Story","commander boundary","get","incidental"
+"Story","commander boundary","get","incidental"
+"Story","commander boundary","get","collaborator incidental"
+"Story","commander boundary","get","get collaborator"
+"Story","commander boundary","get","get collaborator"
+"Story","commander boundary","get","incidental"
+"Story","commander boundary","get","predicate"
+"Story","commander boundary","get","property non-void-command"
+"Story","commander boundary","get","controller stateless"
+"Story","commander boundary","get","collaborator incidental"
+"Story","commander boundary","get","get collaborator"
+"Tag","data-provider","GenerateRuntimeObject","property wrapper"
+"Tag","data-provider","ToString","property"
+"Tag","data-provider","Tag","constructor"
+"Tag","data-provider","ToString","property"
+"Text","small-class","Text","constructor"
+"Text","small-class","GenerateRuntimeObject","property factory collaborator"
+"Text","small-class","ToString","get"
+"StringExpression","unclassified","StringExpression","constructor"
+"StringExpression","unclassified","GenerateIntoContainer","controller"
+"StringExpression","unclassified","ToString","property controller"
+"StringExpression","unclassified","Equals","predicate non-void-command collaborator"
+"StringExpression","unclassified","GetHashCode","property non-void-command"
+"StringExpression","unclassified","get","predicate collaborator"
+"VariableReference","boundary","VariableReference","constructor"
+"VariableReference","boundary","GenerateIntoContainer","command collaborator"
+"VariableReference","boundary","ResolveReferences","command collaborator"
+"VariableReference","boundary","ToString","property non-void-command"
+"VariableReference","boundary","get","get property non-void-command factory collaborator"
+"VariableReference","boundary","get","get"
+"VariableReference","boundary","VariableReference","constructor"
+"VariableReference","boundary","VariableReference","constructor"
+"VariableReference","boundary","ToString","property wrapper"
+"VariableReference","boundary","get","property non-void-command collaborator"
+"VariableReference","boundary","get","property non-void-command"
+"VariableReference","boundary","set","set"
+"IntValue","entity data-provider boundary","IntValue","constructor"
+"IntValue","entity data-provider boundary","IntValue","constructor"
+"IntValue","entity data-provider boundary","Cast","get property non-void-command factory collaborator"
+"IntValue","entity data-provider boundary","get","collaborator incidental"
+"IntValue","entity data-provider boundary","get","predicate"
+"Weave","commander boundary","Weave","constructor"
+"Weave","commander boundary","ResolveWeavePointNaming","command collaborator"
+"Weave","commander boundary","ConstructWeaveHierarchyFromIndentation","command collaborator"
+"Weave","commander boundary","DetermineBaseIndentationFromContent","collaborator incidental"
+"Weave","commander boundary","GenerateRuntimeObject","get non-void-command factory collaborator"
+"Weave","commander boundary","AddRuntimeForGather","command collaborator"
+"Weave","commander boundary","AddRuntimeForWeavePoint","command collaborator"
+"Weave","commander boundary","AddRuntimeForNestedWeave","command"
+"Weave","commander boundary","AddGeneralRuntimeContent","command collaborator"
+"Weave","commander boundary","PassLooseEndsToAncestors","command collaborator"
+"Weave","commander boundary","ReceiveLooseEnd","command collaborator"
+"Weave","commander boundary","ResolveReferences","command collaborator"
+"Weave","commander boundary","WeavePointNamed","property non-void-command collaborator"
+"Weave","commander boundary","IsGlobalDeclaration","collaborator incidental"
+"Weave","commander boundary","ContentThatFollowsWeavePoint","property non-void-command collaborator"
+"Weave","commander boundary","ValidateTermination","command collaborator"
+"Weave","commander boundary","BadNestedTerminationHandler","controller stateless"
+"Weave","commander boundary","ValidateFlowOfObjectsTerminates","controller"
+"Weave","commander boundary","WeavePointHasLooseEnd","collaborator incidental"
+"Weave","commander boundary","CheckForWeavePointNamingCollisions","controller"
+"Weave","commander boundary","get","get non-void-command collaborator"
+"Weave","commander boundary","get","property non-void-command collaborator"
+"StringParser","unclassified","StringParser","constructor"
+"StringParser","unclassified","PreProcessInputString","incidental"
+"StringParser","unclassified","BeginRule","property non-void-command"
+"StringParser","unclassified","FailRule","property non-void-command collaborator"
+"StringParser","unclassified","CancelRule","command"
+"StringParser","unclassified","SucceedRule","property non-void-command collaborator"
+"StringParser","unclassified","RuleDidSucceed","empty"
+"StringParser","unclassified","Expect","property non-void-command collaborator"
+"StringParser","unclassified","Error","command"
+"StringParser","unclassified","ErrorWithParsedObject","command"
+"StringParser","unclassified","ErrorOnLine","set collaborator"
+"StringParser","unclassified","Warning","command"
+"StringParser","unclassified","LineRemainder","property non-void-command"
+"StringParser","unclassified","SetFlag","set"
+"StringParser","unclassified","GetFlag","predicate"
+"StringParser","unclassified","ParseObject","property non-void-command collaborator"
+"StringParser","unclassified","Parse<T>","property non-void-command collaborator"
+"StringParser","unclassified","OneOf","property non-void-command collaborator"
+"StringParser","unclassified","OneOrMore","property non-void-command factory collaborator"
+"StringParser","unclassified","Optional","property non-void-command collaborator"
+"StringParser","unclassified","Exclude","get property non-void-command collaborator"
+"StringParser","unclassified","OptionalExclude","get property non-void-command collaborator"
+"StringParser","unclassified","String","property non-void-command collaborator"
+"StringParser","unclassified","TryAddResultToList<T>","controller"
+"StringParser","unclassified","Interleave<T>","property non-void-command collaborator"
+"StringParser","unclassified","ParseString","property non-void-command"
+"StringParser","unclassified","ParseSingleCharacter","property"
+"StringParser","unclassified","ParseUntilCharactersFromString","property non-void-command"
+"StringParser","unclassified","ParseUntilCharactersFromCharSet","property non-void-command"
+"StringParser","unclassified","ParseCharactersFromString","property non-void-command"
+"StringParser","unclassified","ParseCharactersFromString","wrapper stateless"
+"StringParser","unclassified","ParseCharactersFromCharSet","property controller"
+"StringParser","unclassified","Peek","property non-void-command collaborator"
+"StringParser","unclassified","ParseUntil","property non-void-command collaborator"
+"StringParser","unclassified","ParseInt","property non-void-command"
+"StringParser","unclassified","ParseFloat","property non-void-command collaborator"
+"StringParser","unclassified","ParseNewline","property non-void-command"
+"StringParser","unclassified","get","get property"
+"StringParser","unclassified","get","predicate"
+"StringParser","unclassified","get","property"
+"StringParser","unclassified","get","property"
+"StringParser","unclassified","set","set"
+"StringParser","unclassified","get","property"
+"StringParser","unclassified","set","set"
+"StringParser","unclassified","get","property"
+"StringParser","unclassified","set","set"
+"StringParser","unclassified","get","property"
+"PluginManager","data-provider boundary","PluginManager","constructor"
+"PluginManager","data-provider boundary","PreParse","property wrapper"
+"PluginManager","data-provider boundary","PostParse","property wrapper"
+"PluginManager","data-provider boundary","PostExport","property wrapper"
+"CallStack","boundary","CallStack","constructor"
+"CallStack","boundary","CallStack","copy-constructor"
+"CallStack","boundary","Reset","set"
+"CallStack","boundary","SetJsonToken","command collaborator"
+"CallStack","boundary","WriteJson","controller"
+"CallStack","boundary","PushThread","set collaborator"
+"CallStack","boundary","ForkThread","property set collaborator"
+"CallStack","boundary","PopThread","command"
+"CallStack","boundary","Push","wrapper stateless"
+"CallStack","boundary","CanPop","collaborator incidental"
+"CallStack","boundary","Pop","command collaborator"
+"CallStack","boundary","GetTemporaryVariableWithName","controller stateless"
+"CallStack","boundary","SetTemporaryVariable","controller stateless"
+"CallStack","boundary","ContextForVariableNamed","wrapper stateless"
+"CallStack","boundary","ThreadWithIndex","property non-void-command collaborator"
+"CallStack","boundary","get","collaborator incidental"
+"CallStack","boundary","get","incidental"
+"CallStack","boundary","get","property collaborator"
+"CallStack","boundary","get","incidental"
+"CallStack","boundary","get","get collaborator"
+"CallStack","boundary","set","non-void-command collaborator"
+"CallStack","boundary","get","incidental"
+"CallStack","boundary","get","predicate"
+"CallStack","boundary","get","incidental"
+"CallStack","boundary","get","collaborator incidental"
+"CallStack","boundary","get","property controller"

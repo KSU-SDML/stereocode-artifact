@@ -1,121 +1,121 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"SimplexStream","entity commander boundary","WriteAsync","non-void-command collaborator",
-"SimplexStream","entity commander boundary","ReadAsync","property non-void-command collaborator",
-"SimplexStream","entity commander boundary","Dispose","command",
-"CredentialsBuilder","unclassified","SetDomain","get set",
-"CredentialsBuilder","unclassified","SetUserName","get set",
-"CredentialsBuilder","unclassified","SetPassword","get set",
-"CredentialsBuilder","unclassified","LoadUserProfile","get set",
-"EchoCommand","pure-controller small-class","ExecuteAsync","controller",
-"EventStreamSpecs","pure-controller degenerate small-class","I_can_execute_a_command_as_a_pull_based_event_stream","controller stateless",
-"EventStreamSpecs","pure-controller degenerate small-class","I_can_execute_a_command_as_a_push_based_event_stream","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_an_async_anonymous_source","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_sync_anonymous_source","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_stream","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_file","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_memory","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_byte_array","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_string","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_another_command","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_chain_of_commands","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_an_async_anonymous_target","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_sync_anonymous_target","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_stream","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_file","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_string_builder","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_an_async_delegate","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_an_async_delegate_with_cancellation","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_sync_delegate","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_separate_streams","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_string_builders","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_separate_async_delegates","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_separate_async_delegates_with_cancellation","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_separate_sync_delegates","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_multiple_targets","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_multiple_targets_and_not_hang_on_large_stdout_if_one_of_the_targets_throws_an_exception","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_multiple_hierarchical_targets","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_multiple_streams_with_a_large_buffer","wrapper stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_with_buffering_and_also_pipe_the_stdout_into_a_stream","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_with_buffering_and_also_pipe_the_stdout_into_a_sync_delegate","controller stateless",
-"PipingSpecs","degenerate","I_can_try_to_execute_a_command_and_get_an_error_if_the_pipe_source_throws_an_exception","controller stateless",
-"PipingSpecs","degenerate","I_can_try_to_execute_a_command_and_get_an_error_if_the_pipe_target_throws_an_exception","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_expects_stdin_but_none_is_provided","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_expects_stdin_but_empty_data_is_provided","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_only_partially_consumes_stdin","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_does_not_consume_stdin","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_does_not_consume_stdin_even_if_the_source_cannot_be_canceled","controller stateless",
-"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_on_large_stdin_while_also_writing_stdout","controller stateless",
-"PipeToStreamBenchmarks","small-class","CliWrap","property controller",
-"PipeToStreamBenchmarks","small-class","MedallionShell","property non-void-command collaborator",
-"ExitCommand","data-provider boundary small-class","ExecuteAsync","property collaborator",
-"EnvironmentCommand","pure-controller small-class","ExecuteAsync","controller",
-"PushEventStreamBenchmarks","data-provider boundary small-class","CliWrap","property wrapper",
-"PullEventStreamBenchmarks","data-provider boundary small-class","CliWrap","property wrapper",
-"PullEventStreamBenchmarks","data-provider boundary small-class","ProcessX","property wrapper",
-"LengthStdInCommand","pure-controller degenerate small-class","ExecuteAsync","controller stateless",
-"BufferingSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_get_the_stdout","controller stateless",
-"BufferingSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_get_the_stderr","controller stateless",
-"BufferingSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_get_the_stdout_and_stderr","controller stateless",
-"BufferingSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_not_hang_on_large_stdout_and_stderr","controller stateless",
-"PipeToMultipleStreamsBenchmark","controller small-class","CliWrap","property controller",
-"EchoStdInCommand","pure-controller small-class","ExecuteAsync","controller",
-"PipeFromStreamBenchmarks","small-class","ExecuteWithCliWrap_PipeToStream","property controller",
-"PipeFromStreamBenchmarks","small-class","MedallionShell","property non-void-command collaborator",
-"Command","boundary degenerate small-class","GetOptimallyQualifiedTargetFilePath","wrapper stateless",
-"BufferingBenchmarks","entity data-provider boundary","CliWrap","property wrapper",
-"BufferingBenchmarks","entity data-provider boundary","RunProcessAsTask","property wrapper",
-"BufferingBenchmarks","entity data-provider boundary","MedallionShell","property non-void-command collaborator",
-"BufferingBenchmarks","entity data-provider boundary","ProcessX","property wrapper",
-"LineBreakSpecs","pure-controller degenerate","I_can_execute_a_command_and_split_the_stdout_by_newline","controller stateless",
-"LineBreakSpecs","pure-controller degenerate","I_can_execute_a_command_and_split_the_stdout_by_caret_return","controller stateless",
-"LineBreakSpecs","pure-controller degenerate","I_can_execute_a_command_and_split_the_stdout_by_caret_return_followed_by_newline","controller stateless",
-"LineBreakSpecs","pure-controller degenerate","I_can_execute_a_command_and_split_the_stdout_by_newline_while_including_empty_lines","controller stateless",
-"BasicBenchmarks","data-provider boundary","CliWrap","property wrapper",
-"BasicBenchmarks","data-provider boundary","RunProcessAsTask","property wrapper",
-"BasicBenchmarks","data-provider boundary","MedallionShell","property wrapper",
-"ArgumentsBuilder","boundary data-class","Add","get non-void-command",
-"ArgumentsBuilder","boundary data-class","Add","get non-void-command collaborator",
-"ArgumentsBuilder","boundary data-class","Add","get non-void-command collaborator",
-"GenerateBinaryCommand","commander boundary small-class","ExecuteAsync","non-void-command collaborator",
-"GenerateTextCommand","commander boundary small-class","ExecuteAsync","non-void-command collaborator",
-"ExecutionSpecs","pure-controller degenerate","I_can_execute_a_command_and_get_the_exit_code_and_execution_time","controller stateless",
-"ExecutionSpecs","pure-controller degenerate","I_can_execute_a_command_and_get_the_associated_process_ID","controller stateless",
-"ExecutionSpecs","pure-controller degenerate","I_can_execute_a_command_with_a_configured_awaiter","controller stateless",
-"ExecutionSpecs","pure-controller degenerate","I_can_execute_a_command_and_not_hang_on_large_stdout_and_stderr","controller stateless",
-"ExecutionSpecs","pure-controller degenerate","I_can_try_to_execute_a_command_and_get_an_error_if_the_target_file_does_not_exist","controller stateless",
-"SleepCommand","pure-controller small-class","ExecuteAsync","controller",
-"EnvironmentVariablesBuilder","small-class","Set","get set",
-"EnvironmentVariablesBuilder","small-class","Set","get non-void-command collaborator",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_and_cancel_it_immediately","controller stateless",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_and_cancel_it_after_a_delay","controller stateless",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_and_cancel_it_gracefully_after_a_delay","controller stateless",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_cancel_it_immediately","controller stateless",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_cancel_it_after_a_delay","controller stateless",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_cancel_it_gracefully_after_a_delay","controller stateless",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_pull_based_event_stream_and_cancel_it_immediately","controller stateless",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_pull_based_event_stream_and_cancel_it_after_a_delay","controller stateless",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_pull_based_event_stream_and_cancel_it_gracefully_after_a_delay","controller stateless",
-"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_push_based_event_stream_and_cancel_it_immediately","controller stateless",
-"CredentialsSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_different_user","controller stateless",
-"CredentialsSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_different_user_under_the_specified_domain","controller stateless",
-"CredentialsSpecs","pure-controller degenerate","I_can_try_to_execute_a_command_as_a_different_user_and_get_an_error_if_the_operating_system_does_not_support_it","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_create_a_command_with_the_default_configuration","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_target_file","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_command_line_arguments","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_command_line_arguments_by_passing_an_array","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_command_line_arguments_using_a_builder","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_working_directory","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_user_credentials","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_user_credentials_using_a_builder","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_environment_variables","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_environment_variables_using_a_builder","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_result_validation_strategy","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_stdin_pipe","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_stdout_pipe","controller stateless",
-"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_stderr_pipe","controller stateless",
-"Channel<T>","commander small-class","Dispose","command",
-"EnvironmentSpecs","pure-controller degenerate","I_can_execute_a_command_with_a_custom_working_directory","controller stateless",
-"EnvironmentSpecs","pure-controller degenerate","I_can_execute_a_command_with_additional_environment_variables","controller stateless",
-"EnvironmentSpecs","pure-controller degenerate","I_can_execute_a_command_with_some_environment_variables_overwritten","controller stateless",
-"PathResolutionSpecs","pure-controller degenerate small-class","I_can_execute_a_command_on_an_executable_using_its_short_name","controller stateless",
-"PathResolutionSpecs","pure-controller degenerate small-class","I_can_execute_a_command_on_a_script_using_its_short_name","controller stateless",
+"SimplexStream","entity commander boundary","WriteAsync","non-void-command collaborator"
+"SimplexStream","entity commander boundary","ReadAsync","property non-void-command collaborator"
+"SimplexStream","entity commander boundary","Dispose","command"
+"CredentialsBuilder","unclassified","SetDomain","get set"
+"CredentialsBuilder","unclassified","SetUserName","get set"
+"CredentialsBuilder","unclassified","SetPassword","get set"
+"CredentialsBuilder","unclassified","LoadUserProfile","get set"
+"EchoCommand","pure-controller small-class","ExecuteAsync","controller"
+"EventStreamSpecs","pure-controller degenerate small-class","I_can_execute_a_command_as_a_pull_based_event_stream","controller stateless"
+"EventStreamSpecs","pure-controller degenerate small-class","I_can_execute_a_command_as_a_push_based_event_stream","controller stateless"
+"PipeToStreamBenchmarks","small-class","CliWrap","property controller"
+"PipeToStreamBenchmarks","small-class","MedallionShell","property non-void-command collaborator"
+"ExitCommand","data-provider boundary small-class","ExecuteAsync","property collaborator"
+"EnvironmentCommand","pure-controller small-class","ExecuteAsync","controller"
+"PushEventStreamBenchmarks","data-provider boundary small-class","CliWrap","property wrapper"
+"PullEventStreamBenchmarks","data-provider boundary small-class","CliWrap","property wrapper"
+"PullEventStreamBenchmarks","data-provider boundary small-class","ProcessX","property wrapper"
+"LengthStdInCommand","pure-controller degenerate small-class","ExecuteAsync","controller stateless"
+"BufferingSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_get_the_stdout","controller stateless"
+"BufferingSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_get_the_stderr","controller stateless"
+"BufferingSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_get_the_stdout_and_stderr","controller stateless"
+"BufferingSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_not_hang_on_large_stdout_and_stderr","controller stateless"
+"PipeToMultipleStreamsBenchmark","controller small-class","CliWrap","property controller"
+"GenerateTextCommand","commander boundary small-class","ExecuteAsync","non-void-command collaborator"
+"EchoStdInCommand","pure-controller small-class","ExecuteAsync","controller"
+"PipeFromStreamBenchmarks","small-class","ExecuteWithCliWrap_PipeToStream","property controller"
+"PipeFromStreamBenchmarks","small-class","MedallionShell","property non-void-command collaborator"
+"Command","boundary degenerate small-class","GetOptimallyQualifiedTargetFilePath","wrapper stateless"
+"BufferingBenchmarks","entity data-provider boundary","CliWrap","property wrapper"
+"BufferingBenchmarks","entity data-provider boundary","RunProcessAsTask","property wrapper"
+"BufferingBenchmarks","entity data-provider boundary","MedallionShell","property non-void-command collaborator"
+"BufferingBenchmarks","entity data-provider boundary","ProcessX","property wrapper"
+"BasicBenchmarks","data-provider boundary","CliWrap","property wrapper"
+"BasicBenchmarks","data-provider boundary","RunProcessAsTask","property wrapper"
+"BasicBenchmarks","data-provider boundary","MedallionShell","property wrapper"
+"SleepCommand","pure-controller small-class","ExecuteAsync","controller"
+"EnvironmentVariablesBuilder","small-class","Set","get set"
+"EnvironmentVariablesBuilder","small-class","Set","get non-void-command collaborator"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_and_cancel_it_immediately","controller stateless"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_and_cancel_it_after_a_delay","controller stateless"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_and_cancel_it_gracefully_after_a_delay","controller stateless"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_cancel_it_immediately","controller stateless"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_cancel_it_after_a_delay","controller stateless"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_with_buffering_and_cancel_it_gracefully_after_a_delay","controller stateless"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_pull_based_event_stream_and_cancel_it_immediately","controller stateless"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_pull_based_event_stream_and_cancel_it_after_a_delay","controller stateless"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_pull_based_event_stream_and_cancel_it_gracefully_after_a_delay","controller stateless"
+"CancellationSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_push_based_event_stream_and_cancel_it_immediately","controller stateless"
+"CredentialsSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_different_user","controller stateless"
+"CredentialsSpecs","pure-controller degenerate","I_can_execute_a_command_as_a_different_user_under_the_specified_domain","controller stateless"
+"CredentialsSpecs","pure-controller degenerate","I_can_try_to_execute_a_command_as_a_different_user_and_get_an_error_if_the_operating_system_does_not_support_it","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_create_a_command_with_the_default_configuration","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_target_file","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_command_line_arguments","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_command_line_arguments_by_passing_an_array","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_command_line_arguments_using_a_builder","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_working_directory","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_user_credentials","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_user_credentials_using_a_builder","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_environment_variables","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_environment_variables_using_a_builder","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_result_validation_strategy","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_stdin_pipe","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_stdout_pipe","controller stateless"
+"ConfigurationSpecs","pure-controller degenerate","I_can_configure_the_stderr_pipe","controller stateless"
+"Channel<T>","commander small-class","Dispose","command"
+"EnvironmentSpecs","pure-controller degenerate","I_can_execute_a_command_with_a_custom_working_directory","controller stateless"
+"EnvironmentSpecs","pure-controller degenerate","I_can_execute_a_command_with_additional_environment_variables","controller stateless"
+"EnvironmentSpecs","pure-controller degenerate","I_can_execute_a_command_with_some_environment_variables_overwritten","controller stateless"
+"ExecutionSpecs","pure-controller degenerate","I_can_execute_a_command_and_get_the_exit_code_and_execution_time","controller stateless"
+"ExecutionSpecs","pure-controller degenerate","I_can_execute_a_command_and_get_the_associated_process_ID","controller stateless"
+"ExecutionSpecs","pure-controller degenerate","I_can_execute_a_command_with_a_configured_awaiter","controller stateless"
+"ExecutionSpecs","pure-controller degenerate","I_can_execute_a_command_and_not_hang_on_large_stdout_and_stderr","controller stateless"
+"ExecutionSpecs","pure-controller degenerate","I_can_try_to_execute_a_command_and_get_an_error_if_the_target_file_does_not_exist","controller stateless"
+"LineBreakSpecs","pure-controller degenerate","I_can_execute_a_command_and_split_the_stdout_by_newline","controller stateless"
+"LineBreakSpecs","pure-controller degenerate","I_can_execute_a_command_and_split_the_stdout_by_caret_return","controller stateless"
+"LineBreakSpecs","pure-controller degenerate","I_can_execute_a_command_and_split_the_stdout_by_caret_return_followed_by_newline","controller stateless"
+"LineBreakSpecs","pure-controller degenerate","I_can_execute_a_command_and_split_the_stdout_by_newline_while_including_empty_lines","controller stateless"
+"PathResolutionSpecs","pure-controller degenerate small-class","I_can_execute_a_command_on_an_executable_using_its_short_name","controller stateless"
+"PathResolutionSpecs","pure-controller degenerate small-class","I_can_execute_a_command_on_a_script_using_its_short_name","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_an_async_anonymous_source","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_sync_anonymous_source","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_stream","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_file","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_memory","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_byte_array","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_string","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_another_command","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdin_from_a_chain_of_commands","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_an_async_anonymous_target","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_sync_anonymous_target","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_stream","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_file","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_string_builder","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_an_async_delegate","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_an_async_delegate_with_cancellation","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_a_sync_delegate","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_separate_streams","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_string_builders","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_separate_async_delegates","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_separate_async_delegates_with_cancellation","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_and_stderr_into_separate_sync_delegates","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_multiple_targets","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_multiple_targets_and_not_hang_on_large_stdout_if_one_of_the_targets_throws_an_exception","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_multiple_hierarchical_targets","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_pipe_the_stdout_into_multiple_streams_with_a_large_buffer","wrapper stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_with_buffering_and_also_pipe_the_stdout_into_a_stream","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_with_buffering_and_also_pipe_the_stdout_into_a_sync_delegate","controller stateless"
+"PipingSpecs","degenerate","I_can_try_to_execute_a_command_and_get_an_error_if_the_pipe_source_throws_an_exception","controller stateless"
+"PipingSpecs","degenerate","I_can_try_to_execute_a_command_and_get_an_error_if_the_pipe_target_throws_an_exception","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_expects_stdin_but_none_is_provided","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_expects_stdin_but_empty_data_is_provided","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_only_partially_consumes_stdin","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_does_not_consume_stdin","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_if_the_process_does_not_consume_stdin_even_if_the_source_cannot_be_canceled","controller stateless"
+"PipingSpecs","degenerate","I_can_execute_a_command_and_not_hang_on_large_stdin_while_also_writing_stdout","controller stateless"
+"GenerateBinaryCommand","commander boundary small-class","ExecuteAsync","non-void-command collaborator"
+"ArgumentsBuilder","boundary data-class","Add","get non-void-command"
+"ArgumentsBuilder","boundary data-class","Add","get non-void-command collaborator"
+"ArgumentsBuilder","boundary data-class","Add","get non-void-command collaborator"

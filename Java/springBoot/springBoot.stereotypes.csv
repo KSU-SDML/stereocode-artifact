@@ -1,429 +1,436 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"SplitService","pure-controller degenerate small-class","saveAndSplitLog","controller stateless",
-"UserServiceTest","commander boundary small-class","getListTest","command collaborator",
-"KafkaConsumerService","commander boundary small-class","processMessage","command collaborator",
-"UserController","entity factory controller small-class","getUser","property non-void-command factory collaborator",
-"UserController","entity factory controller small-class","list","property non-void-command factory collaborator",
-"NewsService","entity factory controller","getByMap","property non-void-command factory collaborator",
-"NewsService","entity factory controller","getById","property non-void-command factory collaborator",
-"NewsService","entity factory controller","create","property non-void-command factory collaborator",
-"NewsService","entity factory controller","update","property non-void-command factory collaborator",
-"NewsService","entity factory controller","delete","property non-void-command",
-"HikariConfig","factory controller small-class","getHikariDataSource","property factory controller",
-"HikariConfig","factory controller small-class","getHikariDataSource","property factory controller",
-"News","data-class","getId","get",
-"News","data-class","setId","set",
-"News","data-class","getTitle","get",
-"News","data-class","setTitle","set",
-"News","data-class","getContent","get",
-"News","data-class","setContent","set",
-"News","data-class","getImagePath","get",
-"News","data-class","setImagePath","set",
-"News","data-class","getReadSum","get",
-"News","data-class","setReadSum","set",
-"PermissionServiceImplTest","commander boundary","getByMap","command",
-"PermissionServiceImplTest","commander boundary","getById","command collaborator",
-"PermissionServiceImplTest","commander boundary","create","command collaborator",
-"PermissionServiceImplTest","commander boundary","update","command collaborator",
-"PermissionServiceImplTest","commander boundary","delete","command",
-"UserServiceImpl","entity boundary","getByMap","property non-void-command collaborator",
-"UserServiceImpl","entity boundary","getById","property non-void-command collaborator",
-"UserServiceImpl","entity boundary","create","property non-void-command collaborator",
-"UserServiceImpl","entity boundary","update","property non-void-command collaborator",
-"UserServiceImpl","entity boundary","delete","property non-void-command",
-"UserServiceImpl","entity boundary","getByUserName","property non-void-command collaborator",
-"UserServiceImpl","entity boundary","getUserByName","property non-void-command collaborator",
-"UserServiceImpl","entity boundary","getList","property non-void-command collaborator",
-"UserServiceImpl","entity boundary","printName","stateless",
-"DBconfig","factory controller small-class","dataSource","non-void-command factory collaborator",
-"DBconfig","factory controller small-class","dataSource","non-void-command factory collaborator",
-"Person","unclassified","Person","constructor",
-"Person","unclassified","Person","constructor",
-"Person","unclassified","getId","get",
-"Person","unclassified","setId","set",
-"Person","unclassified","getName","get",
-"Person","unclassified","setName","set",
-"Person","unclassified","getAge","get",
-"Person","unclassified","setAge","set",
-"Person","unclassified","getAddress","get",
-"Person","unclassified","setAddress","set",
-"Person","unclassified","Person","constructor",
-"Person","unclassified","getId","get",
-"Person","unclassified","setId","set",
-"Person","unclassified","getName","get",
-"Person","unclassified","setName","set",
-"Person","unclassified","getAge","get",
-"Person","unclassified","setAge","set",
-"Person","unclassified","getAddress","get",
-"Person","unclassified","setAddress","set",
-"Person","unclassified","Person","constructor",
-"Person","unclassified","toString","property",
-"ServiceException","data-provider data-class small-class","ServiceException","constructor",
-"ServiceException","data-provider data-class small-class","ServiceException","constructor",
-"ServiceException","data-provider data-class small-class","ServiceException","constructor",
-"ServiceException","data-provider data-class small-class","getErrorCode","get",
-"ServiceException","data-provider data-class small-class","getErrorCodes","get",
-"ServiceException","data-provider data-class small-class","ServiceException","constructor",
-"ServiceException","data-provider data-class small-class","ServiceException","constructor",
-"ServiceException","data-provider data-class small-class","ServiceException","constructor",
-"ServiceException","data-provider data-class small-class","ServiceException","constructor",
-"ServiceException","data-provider data-class small-class","ServiceException","constructor",
-"ESRestClientConfig","controller small-class","getRestClient","property controller",
-"QuartzConfig","controller","quartzProperties","factory controller",
-"QuartzConfig","controller","createDataSource","factory controller",
-"QuartzConfig","controller","schedulerFactoryBean","non-void-command factory collaborator",
-"QuartzConfig","controller","executeJobTrigger","wrapper stateless",
-"QuartzConfig","controller","executeJobDetail","property wrapper",
-"CustomUserService","entity factory controller small-class","loadUserByUsername","property non-void-command factory collaborator",
-"CustomUserService","entity factory controller small-class","loadUserByUsername","property non-void-command factory collaborator",
-"Permission","unclassified","getId","get",
-"Permission","unclassified","setId","set",
-"Permission","unclassified","getName","get",
-"Permission","unclassified","setName","set",
-"Permission","unclassified","getDescritpion","get",
-"Permission","unclassified","setDescritpion","set",
-"Permission","unclassified","getUrl","get",
-"Permission","unclassified","setUrl","set",
-"Permission","unclassified","getPid","get",
-"Permission","unclassified","setPid","set",
-"Permission","unclassified","getId","get",
-"Permission","unclassified","setId","set",
-"Permission","unclassified","getName","get",
-"Permission","unclassified","setName","set",
-"Permission","unclassified","getPermissionUrl","get",
-"Permission","unclassified","setPermissionUrl","set",
-"Permission","unclassified","getMethod","get",
-"Permission","unclassified","setMethod","set",
-"Permission","unclassified","getDescription","get",
-"Permission","unclassified","setDescription","set",
-"Permission","unclassified","toString","property",
-"Role","unclassified","getId","get",
-"Role","unclassified","setId","set",
-"Role","unclassified","getName","get",
-"Role","unclassified","setName","set",
-"Role","unclassified","getRoleLevel","get",
-"Role","unclassified","setRoleLevel","set",
-"Role","unclassified","getDescription","get",
-"Role","unclassified","setDescription","set",
-"Role","unclassified","toString","property",
-"InvokingJobDetailFactory","commander","executeInternal","command collaborator",
-"InvokingJobDetailFactory","commander","setApplicationContext","set collaborator",
-"InvokingJobDetailFactory","commander","setTargetObject","set",
-"InvokingJobDetailFactory","commander","setTargetMethod","set",
-"Message","data-provider data-class small-class","getName","get",
-"DemoService","entity boundary small-class","findAll","property non-void-command collaborator",
-"CacheController","entity boundary","put","property non-void-command collaborator",
-"CacheController","entity boundary","cacheable","property non-void-command collaborator",
-"CacheController","entity boundary","evit","property non-void-command",
-"CacheController","entity boundary","put","property non-void-command collaborator",
-"CacheController","entity boundary","cacheable","property non-void-command collaborator",
-"RedisConfig","factory controller","redisConnectionFactory","non-void-command factory collaborator",
-"RedisConfig","factory controller","redisTemplate","factory controller stateless",
-"RedisConfig","factory controller","cacheManager","factory controller stateless",
-"RedisConfig","factory controller","errorHandler","property non-void-command factory collaborator",
-"ValidationExceptionMapper","pure-controller degenerate small-class","handleConstraintViolationException","controller stateless",
-"JpaConfig","controller","entityManagerFactory","property controller",
-"JpaConfig","controller","transactionManager","non-void-command factory collaborator",
-"JpaConfig","controller","entityManagerFactory","property controller",
-"JpaConfig","controller","transactionManager","non-void-command factory collaborator",
-"JpaConfig","controller","entityManagerFactory","property controller",
-"JpaConfig","controller","transactionManager","non-void-command factory collaborator",
-"DynamicDataSourceConfig","controller","getPrimaryDataSource","property non-void-command collaborator",
-"DynamicDataSourceConfig","controller","getUserDataSource","property non-void-command collaborator",
-"DynamicDataSourceConfig","controller","dynamicDataSource","factory controller stateless",
-"DynamicDataSourceConfig","controller","sqlSessionFactory","property controller",
-"RestFilter","commander boundary","filter","command collaborator",
-"RestFilter","commander boundary","filter","command collaborator",
-"RestFilter","commander boundary","filter","command collaborator",
-"RestFilter","commander boundary","filter","command collaborator",
-"RestFilter","commander boundary","logHttpHeaders","command collaborator",
-"RestExceptionMapper","entity boundary small-class","toResponse","property non-void-command collaborator",
-"KafkaConfig","factory controller","batchFactory","non-void-command factory collaborator",
-"KafkaConfig","factory controller","consumerFactory","property non-void-command factory collaborator",
-"KafkaConfig","factory controller","consumerConfigs","factory controller",
-"ServiceTest","commander boundary","dynamicDataSourceTest","command collaborator",
-"ServiceTest","commander boundary","dynamicDataSourceTest","command collaborator",
-"ServiceTest","commander boundary","dynamicDataSourceTest","command collaborator",
-"DBConfig","factory controller","dataSource","non-void-command factory collaborator",
-"DBConfig","factory controller","dataSource","non-void-command factory collaborator",
-"DBConfig","factory controller","dataSource","non-void-command factory collaborator",
-"DBConfig","factory controller","dataSource","non-void-command factory collaborator",
-"PersonService","unclassified","findOne","property non-void-command collaborator",
-"PersonService","unclassified","save","property non-void-command collaborator",
-"PersonService","unclassified","getCache","controller stateless",
-"SysUser","data-class","getId","get",
-"SysUser","data-class","setId","set",
-"SysUser","data-class","getUsername","get",
-"SysUser","data-class","setUsername","set",
-"SysUser","data-class","getPassword","get",
-"SysUser","data-class","setPassword","set",
-"SysUser","data-class","getRoles","get collaborator",
-"SysUser","data-class","setRoles","set collaborator",
-"SysUser","data-class","getId","get",
-"SysUser","data-class","setId","set",
-"SysUser","data-class","getUsername","get",
-"SysUser","data-class","setUsername","set",
-"SysUser","data-class","getPassword","get",
-"SysUser","data-class","setPassword","set",
-"SysUser","data-class","getRoles","get collaborator",
-"SysUser","data-class","setRoles","set collaborator",
-"WebSecurityConfig","controller degenerate","configure","controller stateless",
-"WebSecurityConfig","controller degenerate","configure","controller stateless",
-"WebSecurityConfig","controller degenerate","configure","controller stateless",
-"WebSecurityConfig","controller degenerate","customUserService","factory collaborator stateless",
-"WebSecurityConfig","controller degenerate","configure","command collaborator",
-"WebSecurityConfig","controller degenerate","configure","controller stateless",
-"WebSecurityConfig","controller degenerate","configure","controller",
-"WebSecurityConfig","controller degenerate","configure","controller",
-"ResponseEntity","unclassified","ResponseEntity","constructor",
-"ResponseEntity","unclassified","getStatus","get",
-"ResponseEntity","unclassified","setStatus","set",
-"ResponseEntity","unclassified","getMessage","get",
-"ResponseEntity","unclassified","setMessage","set",
-"ResponseEntity","unclassified","getData","property collaborator",
-"ResponseEntity","unclassified","setData","set collaborator",
-"MyBatisScannerConfig","factory pure-controller degenerate","MapperScannerConfigurer","factory controller stateless",
-"MyBatisScannerConfig","factory pure-controller degenerate","MapperScannerConfigurer","factory controller stateless",
-"MyBatisScannerConfig","factory pure-controller degenerate","MapperScannerConfigurer","factory controller stateless",
-"MyBatisConfig","factory pure-controller","sqlSessionFactory","factory controller",
-"MyBatisConfig","factory pure-controller","sqlSessionFactory","factory controller",
-"MyBatisConfig","factory pure-controller","sqlSessionFactory","factory controller",
-"WebSocketController","degenerate","login","incidental",
-"WebSocketController","degenerate","ws","incidental",
-"WebSocketController","degenerate","chat","incidental",
-"WebSocketController","degenerate","say","factory controller stateless",
-"WebSocketController","degenerate","say2","property non-void-command",
-"WebSocketController","degenerate","handleChat","command collaborator",
-"WebSocketService","commander small-class","sendMessage","command",
-"User","unclassified","getId","get",
-"User","unclassified","setId","set",
-"User","unclassified","getCnname","get",
-"User","unclassified","setCnname","set",
-"User","unclassified","getUsername","get",
-"User","unclassified","getPassword","get",
-"User","unclassified","setPassword","set",
-"User","unclassified","getEmail","get",
-"User","unclassified","setEmail","set",
-"User","unclassified","getMobilePhone","get",
-"User","unclassified","setMobilePhone","set",
-"User","unclassified","getRoles","get collaborator",
-"User","unclassified","setRoles","set collaborator",
-"User","unclassified","toString","property",
-"User","unclassified","getId","get",
-"User","unclassified","setId","set",
-"User","unclassified","getName","get",
-"User","unclassified","setName","set",
-"User","unclassified","getAddress","get",
-"User","unclassified","setAddress","set",
-"User","unclassified","getMobile","get",
-"User","unclassified","setMobile","set",
-"User","unclassified","getEmail","get",
-"User","unclassified","setEmail","set",
-"User","unclassified","getCreateTime","get collaborator",
-"User","unclassified","setCreateTime","set collaborator",
-"User","unclassified","getRole","get",
-"User","unclassified","setRole","set",
-"User","unclassified","getId","get",
-"User","unclassified","setId","set",
-"User","unclassified","getName","get",
-"User","unclassified","setName","set",
-"User","unclassified","getAddress","get",
-"User","unclassified","setAddress","set",
-"User","unclassified","getMobile","get",
-"User","unclassified","setMobile","set",
-"User","unclassified","getEmail","get",
-"User","unclassified","setEmail","set",
-"User","unclassified","getCreateTime","get collaborator",
-"User","unclassified","setCreateTime","set collaborator",
-"User","unclassified","getRole","get",
-"User","unclassified","setRole","set",
-"User","unclassified","getIdCard","get",
-"User","unclassified","setIdCard","set",
-"User","unclassified","getType","get",
-"User","unclassified","setType","set",
-"User","unclassified","getName","get",
-"User","unclassified","setName","set",
-"User","unclassified","getPassword","get",
-"User","unclassified","setPassword","set",
-"User","unclassified","getUsername","get",
-"User","unclassified","setUsername","set",
-"User","unclassified","getDivisionId","get",
-"User","unclassified","setDivisionId","set",
-"User","unclassified","getEmail","get",
-"User","unclassified","setEmail","set",
-"User","unclassified","getGender","get",
-"User","unclassified","setGender","set",
-"User","unclassified","getMobilephone","get",
-"User","unclassified","setMobilephone","set",
-"User","unclassified","getTelephone","get",
-"User","unclassified","setTelephone","set",
-"User","unclassified","getUserType","get",
-"User","unclassified","setUserType","set",
-"User","unclassified","getCreateBy","get",
-"User","unclassified","setCreateBy","set",
-"User","unclassified","getCreateTime","get collaborator",
-"User","unclassified","setCreateTime","set collaborator",
-"User","unclassified","getUpdateBy","get",
-"User","unclassified","setUpdateBy","set",
-"User","unclassified","getUpdateTime","get collaborator",
-"User","unclassified","setUpdateTime","set collaborator",
-"User","unclassified","getDisabled","get",
-"User","unclassified","setDisabled","set",
-"User","unclassified","getTheme","get",
-"User","unclassified","setTheme","set",
-"User","unclassified","getIsLdap","get",
-"User","unclassified","setIsLdap","set",
-"User","unclassified","getId","get",
-"User","unclassified","setId","set",
-"User","unclassified","getId","get",
-"User","unclassified","setId","set",
-"User","unclassified","getName","get",
-"User","unclassified","setName","set",
-"User","unclassified","getRePassword","get",
-"User","unclassified","setRePassword","set",
-"User","unclassified","getPassword","get",
-"User","unclassified","setPassword","set",
-"User","unclassified","getUsername","get",
-"User","unclassified","setUsername","set",
-"User","unclassified","getDivisionId","get",
-"User","unclassified","setDivisionId","set",
-"User","unclassified","getEmail","get",
-"User","unclassified","setEmail","set",
-"User","unclassified","getGender","get",
-"User","unclassified","setGender","set",
-"User","unclassified","getMobilephone","get",
-"User","unclassified","setMobilephone","set",
-"User","unclassified","getTelephone","get",
-"User","unclassified","setTelephone","set",
-"User","unclassified","getUserType","get",
-"User","unclassified","setUserType","set",
-"User","unclassified","getCreateBy","get",
-"User","unclassified","setCreateBy","set",
-"User","unclassified","getCreateTime","get collaborator",
-"User","unclassified","setCreateTime","set collaborator",
-"User","unclassified","getUpdateBy","get",
-"User","unclassified","setUpdateBy","set",
-"User","unclassified","getUpdateTime","get collaborator",
-"User","unclassified","setUpdateTime","set collaborator",
-"User","unclassified","getDisabled","get",
-"User","unclassified","setDisabled","set",
-"User","unclassified","getTheme","get",
-"User","unclassified","setTheme","set",
-"User","unclassified","getIsLdap","get",
-"User","unclassified","setIsLdap","set",
-"User","unclassified","getId","get",
-"User","unclassified","setId","set",
-"User","unclassified","getName","get",
-"User","unclassified","setName","set",
-"User","unclassified","getAddress","get",
-"User","unclassified","setAddress","set",
-"User","unclassified","getMobile","get",
-"User","unclassified","setMobile","set",
-"User","unclassified","getEmail","get",
-"User","unclassified","setEmail","set",
-"User","unclassified","getCreateTime","get collaborator",
-"User","unclassified","setCreateTime","set collaborator",
-"User","unclassified","getRole","get",
-"User","unclassified","setRole","set",
-"CacheConfig","factory controller small-class","getCacheManager","non-void-command factory collaborator",
-"TransactionConfig","factory controller","annotationDrivenTransactionManager","property factory collaborator",
-"TransactionConfig","factory controller","annotationDrivenTransactionManager","property factory collaborator",
-"TransactionConfig","factory controller","annotationDrivenTransactionManager","property factory collaborator",
-"BaseTest","degenerate","contextLoads","empty",
-"BaseTest","degenerate","contextLoads","empty",
-"BaseTest","degenerate","contextLoads","empty",
-"BaseTest","degenerate","assertNotNull","wrapper stateless",
-"BaseTest","degenerate","contextLoads","empty",
-"DemoServiceImpl","entity boundary","save","property non-void-command collaborator",
-"DemoServiceImpl","entity boundary","remove","incidental",
-"DemoServiceImpl","entity boundary","findOne","property non-void-command collaborator",
-"WebMvcConfig","pure-controller degenerate small-class","addViewControllers","controller stateless",
-"AppRuntimeException","data-provider boundary data-class small-class","AppRuntimeException","constructor",
-"AppRuntimeException","data-provider boundary data-class small-class","AppRuntimeException","constructor",
-"AppRuntimeException","data-provider boundary data-class small-class","AppRuntimeException","constructor",
-"AppRuntimeException","data-provider boundary data-class small-class","getInfoCode","get collaborator",
-"WebSocketConfig","pure-controller degenerate small-class","registerStompEndpoints","controller stateless",
-"WebSocketConfig","pure-controller degenerate small-class","configureMessageBroker","controller stateless",
-"HttpExeption","empty","HttpExeption","constructor",
-"HttpExeption","empty","HttpExeption","constructor",
-"HttpExeption","empty","HttpExeption","constructor",
-"HttpExeption","empty","HttpExeption","constructor",
-"Response","data-class small-class","setResponseMessage","set",
-"Response","data-class small-class","Response","constructor",
-"Response","data-class small-class","getResponseMessage","get",
-"HomeController","pure-controller degenerate","index","controller stateless",
-"HomeController","pure-controller degenerate","index","controller stateless",
-"HomeController","pure-controller degenerate","login","incidental",
-"HomeController","pure-controller degenerate","hello","incidental",
-"ExecuteJob","degenerate small-class","execute","incidental",
-"MyInvocationSecurityMetadataSourceService","entity boundary","loadResourceDefine","command collaborator",
-"MyInvocationSecurityMetadataSourceService","entity boundary","getAttributes","property non-void-command collaborator",
-"MyInvocationSecurityMetadataSourceService","entity boundary","getAllConfigAttributes","collaborator incidental",
-"MyInvocationSecurityMetadataSourceService","entity boundary","supports","collaborator incidental",
-"Msg","data-class","Msg","constructor",
-"Msg","data-class","getTitle","get",
-"Msg","data-class","setTitle","set",
-"Msg","data-class","getContent","get",
-"Msg","data-class","setContent","set",
-"Msg","data-class","getEtraInfo","get",
-"Msg","data-class","setEtraInfo","set",
-"Msg","data-class","Msg","constructor",
-"Msg","data-class","getTitle","get",
-"Msg","data-class","setTitle","set",
-"Msg","data-class","getContent","get",
-"Msg","data-class","setContent","set",
-"Msg","data-class","getEtraInfo","get",
-"Msg","data-class","setEtraInfo","set",
-"SysRole","data-class","getId","get",
-"SysRole","data-class","setId","set",
-"SysRole","data-class","getName","get",
-"SysRole","data-class","setName","set",
-"SysRole","data-class","getId","get",
-"SysRole","data-class","setId","set",
-"SysRole","data-class","getName","get",
-"SysRole","data-class","setName","set",
-"UserService","boundary","getByMap","property non-void-command collaborator",
-"UserService","boundary","getById","property non-void-command collaborator",
-"UserService","boundary","create","property non-void-command collaborator",
-"UserService","boundary","update","property non-void-command collaborator",
-"UserService","boundary","delete","property non-void-command",
-"UserService","boundary","getByMap","property non-void-command collaborator",
-"UserService","boundary","getById","property non-void-command collaborator",
-"UserService","boundary","getList","non-void-command factory collaborator",
-"UserService","boundary","create","property non-void-command collaborator",
-"UserService","boundary","update","property non-void-command collaborator",
-"UserService","boundary","delete","property non-void-command",
-"UserService","boundary","searchListQuery","controller stateless",
-"UserService","boundary","esSearch","property non-void-command collaborator",
-"UserService","boundary","getByMap","property non-void-command collaborator",
-"UserService","boundary","getById","property non-void-command collaborator",
-"UserService","boundary","create","property non-void-command collaborator",
-"UserService","boundary","update","property non-void-command collaborator",
-"UserService","boundary","delete","property non-void-command",
-"MyFilterSecurityInterceptor","commander boundary","setMyAccessDecisionManager","command collaborator",
-"MyFilterSecurityInterceptor","commander boundary","init","empty",
-"MyFilterSecurityInterceptor","commander boundary","doFilter","command collaborator",
-"MyFilterSecurityInterceptor","commander boundary","invoke","command collaborator",
-"MyFilterSecurityInterceptor","commander boundary","destroy","empty",
-"MyFilterSecurityInterceptor","commander boundary","getSecureObjectClass","collaborator incidental",
-"MyFilterSecurityInterceptor","commander boundary","obtainSecurityMetadataSource","get collaborator",
-"MyAccessDecisionManager","degenerate","decide","controller stateless",
-"MyAccessDecisionManager","degenerate","supports","collaborator incidental",
-"MyAccessDecisionManager","degenerate","supports","collaborator incidental",
-"ESRestClient2Config","controller small-class","getRestClient","property controller",
-"PermissionServiceImpl","entity boundary","getByMap","property non-void-command collaborator",
-"PermissionServiceImpl","entity boundary","getById","property non-void-command collaborator",
-"PermissionServiceImpl","entity boundary","create","property non-void-command collaborator",
-"PermissionServiceImpl","entity boundary","update","property non-void-command collaborator",
-"PermissionServiceImpl","entity boundary","delete","property non-void-command",
-"JsonExceptionMapper","entity boundary small-class","toResponse","property non-void-command collaborator",
-"ReaderExceptionMapper","entity boundary small-class","toResponse","property non-void-command collaborator",
-"ServiceExceptionMapper","entity boundary small-class","toResponse","property non-void-command collaborator",
-"RestInterceptor","entity boundary small-class","aroundReadFrom","property non-void-command collaborator",
-"RestInterceptor","entity boundary small-class","aroundWriteTo","command collaborator",
-"DynamicDataSource","boundary degenerate small-class","determineCurrentLookupKey","wrapper stateless",
-"RoleServiceImpl","entity boundary","getByMap","property non-void-command collaborator",
-"RoleServiceImpl","entity boundary","getById","property non-void-command collaborator",
-"RoleServiceImpl","entity boundary","create","property non-void-command collaborator",
-"RoleServiceImpl","entity boundary","update","property non-void-command collaborator",
-"RoleServiceImpl","entity boundary","delete","property non-void-command",
+"SplitService","pure-controller degenerate small-class","saveAndSplitLog","controller stateless"
+"UserServiceTest","commander boundary small-class","getListTest","command collaborator"
+"KafkaConsumerService","commander boundary small-class","processMessage","command collaborator"
+"UserController","entity factory controller small-class","getUser","property non-void-command factory collaborator"
+"UserController","entity factory controller small-class","list","property non-void-command factory collaborator"
+"NewsService","entity factory controller","getByMap","property non-void-command factory collaborator"
+"NewsService","entity factory controller","getById","property non-void-command factory collaborator"
+"NewsService","entity factory controller","create","property non-void-command factory collaborator"
+"NewsService","entity factory controller","update","property non-void-command factory collaborator"
+"NewsService","entity factory controller","delete","property non-void-command"
+"DatabaseTypeEnum","data-class small-class","DatabaseTypeEnum","constructor"
+"DatabaseTypeEnum","data-class small-class","getCode","get"
+"DatabaseTypeEnum","data-class small-class","setCode","set"
+"HikariConfig","factory controller small-class","getHikariDataSource","property factory controller"
+"HikariConfig","factory controller small-class","getHikariDataSource","property factory controller"
+"News","data-class","getId","get"
+"News","data-class","setId","set"
+"News","data-class","getTitle","get"
+"News","data-class","setTitle","set"
+"News","data-class","getContent","get"
+"News","data-class","setContent","set"
+"News","data-class","getImagePath","get"
+"News","data-class","setImagePath","set"
+"News","data-class","getReadSum","get"
+"News","data-class","setReadSum","set"
+"PermissionServiceImplTest","commander boundary","getByMap","command"
+"PermissionServiceImplTest","commander boundary","getById","command collaborator"
+"PermissionServiceImplTest","commander boundary","create","command collaborator"
+"PermissionServiceImplTest","commander boundary","update","command collaborator"
+"PermissionServiceImplTest","commander boundary","delete","command"
+"UserServiceImpl","entity boundary","getByMap","property non-void-command collaborator"
+"UserServiceImpl","entity boundary","getById","property non-void-command collaborator"
+"UserServiceImpl","entity boundary","create","property non-void-command collaborator"
+"UserServiceImpl","entity boundary","update","property non-void-command collaborator"
+"UserServiceImpl","entity boundary","delete","property non-void-command"
+"UserServiceImpl","entity boundary","getByUserName","property non-void-command collaborator"
+"UserServiceImpl","entity boundary","getUserByName","property non-void-command collaborator"
+"UserServiceImpl","entity boundary","getList","property non-void-command collaborator"
+"UserServiceImpl","entity boundary","printName","stateless"
+"DynamicDataSource","boundary degenerate small-class","determineCurrentLookupKey","wrapper stateless"
+"RoleServiceImpl","entity boundary","getByMap","property non-void-command collaborator"
+"RoleServiceImpl","entity boundary","getById","property non-void-command collaborator"
+"RoleServiceImpl","entity boundary","create","property non-void-command collaborator"
+"RoleServiceImpl","entity boundary","update","property non-void-command collaborator"
+"RoleServiceImpl","entity boundary","delete","property non-void-command"
+"DBconfig","factory controller small-class","dataSource","non-void-command factory collaborator"
+"DBconfig","factory controller small-class","dataSource","non-void-command factory collaborator"
+"Person","unclassified","Person","constructor"
+"Person","unclassified","Person","constructor"
+"Person","unclassified","getId","get"
+"Person","unclassified","setId","set"
+"Person","unclassified","getName","get"
+"Person","unclassified","setName","set"
+"Person","unclassified","getAge","get"
+"Person","unclassified","setAge","set"
+"Person","unclassified","getAddress","get"
+"Person","unclassified","setAddress","set"
+"Person","unclassified","Person","constructor"
+"Person","unclassified","getId","get"
+"Person","unclassified","setId","set"
+"Person","unclassified","getName","get"
+"Person","unclassified","setName","set"
+"Person","unclassified","getAge","get"
+"Person","unclassified","setAge","set"
+"Person","unclassified","getAddress","get"
+"Person","unclassified","setAddress","set"
+"Person","unclassified","Person","constructor"
+"Person","unclassified","toString","property"
+"ServiceException","data-provider data-class small-class","ServiceException","constructor"
+"ServiceException","data-provider data-class small-class","ServiceException","constructor"
+"ServiceException","data-provider data-class small-class","ServiceException","constructor"
+"ServiceException","data-provider data-class small-class","getErrorCode","get"
+"ServiceException","data-provider data-class small-class","getErrorCodes","get"
+"ServiceException","data-provider data-class small-class","ServiceException","constructor"
+"ServiceException","data-provider data-class small-class","ServiceException","constructor"
+"ServiceException","data-provider data-class small-class","ServiceException","constructor"
+"ServiceException","data-provider data-class small-class","ServiceException","constructor"
+"ServiceException","data-provider data-class small-class","ServiceException","constructor"
+"ESRestClientConfig","controller small-class","getRestClient","property controller"
+"QuartzConfig","controller","quartzProperties","factory controller"
+"QuartzConfig","controller","createDataSource","factory controller"
+"QuartzConfig","controller","schedulerFactoryBean","non-void-command factory collaborator"
+"QuartzConfig","controller","executeJobTrigger","wrapper stateless"
+"QuartzConfig","controller","executeJobDetail","property wrapper"
+"CustomUserService","entity factory controller small-class","loadUserByUsername","property non-void-command factory collaborator"
+"CustomUserService","entity factory controller small-class","loadUserByUsername","property non-void-command factory collaborator"
+"Permission","unclassified","getId","get"
+"Permission","unclassified","setId","set"
+"Permission","unclassified","getName","get"
+"Permission","unclassified","setName","set"
+"Permission","unclassified","getDescritpion","get"
+"Permission","unclassified","setDescritpion","set"
+"Permission","unclassified","getUrl","get"
+"Permission","unclassified","setUrl","set"
+"Permission","unclassified","getPid","get"
+"Permission","unclassified","setPid","set"
+"Permission","unclassified","getId","get"
+"Permission","unclassified","setId","set"
+"Permission","unclassified","getName","get"
+"Permission","unclassified","setName","set"
+"Permission","unclassified","getPermissionUrl","get"
+"Permission","unclassified","setPermissionUrl","set"
+"Permission","unclassified","getMethod","get"
+"Permission","unclassified","setMethod","set"
+"Permission","unclassified","getDescription","get"
+"Permission","unclassified","setDescription","set"
+"Permission","unclassified","toString","property"
+"Role","unclassified","getId","get"
+"Role","unclassified","setId","set"
+"Role","unclassified","getName","get"
+"Role","unclassified","setName","set"
+"Role","unclassified","getRoleLevel","get"
+"Role","unclassified","setRoleLevel","set"
+"Role","unclassified","getDescription","get"
+"Role","unclassified","setDescription","set"
+"Role","unclassified","toString","property"
+"InvokingJobDetailFactory","commander","executeInternal","command collaborator"
+"InvokingJobDetailFactory","commander","setApplicationContext","set collaborator"
+"InvokingJobDetailFactory","commander","setTargetObject","set"
+"InvokingJobDetailFactory","commander","setTargetMethod","set"
+"Message","data-provider data-class small-class","getName","get"
+"DemoService","entity boundary small-class","findAll","property non-void-command collaborator"
+"CacheController","entity boundary","put","property non-void-command collaborator"
+"CacheController","entity boundary","cacheable","property non-void-command collaborator"
+"CacheController","entity boundary","evit","property non-void-command"
+"CacheController","entity boundary","put","property non-void-command collaborator"
+"CacheController","entity boundary","cacheable","property non-void-command collaborator"
+"ValidationExceptionMapper","pure-controller degenerate small-class","handleConstraintViolationException","controller stateless"
+"DynamicDataSourceConfig","controller","getPrimaryDataSource","property non-void-command collaborator"
+"DynamicDataSourceConfig","controller","getUserDataSource","property non-void-command collaborator"
+"DynamicDataSourceConfig","controller","dynamicDataSource","factory controller stateless"
+"DynamicDataSourceConfig","controller","sqlSessionFactory","property controller"
+"RestFilter","commander boundary","filter","command collaborator"
+"RestFilter","commander boundary","filter","command collaborator"
+"RestFilter","commander boundary","filter","command collaborator"
+"RestFilter","commander boundary","filter","command collaborator"
+"RestFilter","commander boundary","logHttpHeaders","command collaborator"
+"RestExceptionMapper","entity boundary small-class","toResponse","property non-void-command collaborator"
+"KafkaConfig","factory controller","batchFactory","non-void-command factory collaborator"
+"KafkaConfig","factory controller","consumerFactory","property non-void-command factory collaborator"
+"KafkaConfig","factory controller","consumerConfigs","factory controller"
+"ServiceTest","commander boundary","dynamicDataSourceTest","command collaborator"
+"ServiceTest","commander boundary","dynamicDataSourceTest","command collaborator"
+"ServiceTest","commander boundary","dynamicDataSourceTest","command collaborator"
+"DBConfig","factory controller","dataSource","non-void-command factory collaborator"
+"DBConfig","factory controller","dataSource","non-void-command factory collaborator"
+"DBConfig","factory controller","dataSource","non-void-command factory collaborator"
+"DBConfig","factory controller","dataSource","non-void-command factory collaborator"
+"RedisConfig","factory controller","redisConnectionFactory","non-void-command factory collaborator"
+"RedisConfig","factory controller","redisTemplate","factory controller stateless"
+"RedisConfig","factory controller","cacheManager","factory controller stateless"
+"RedisConfig","factory controller","errorHandler","property non-void-command factory collaborator"
+"JpaConfig","controller","entityManagerFactory","property controller"
+"JpaConfig","controller","transactionManager","non-void-command factory collaborator"
+"JpaConfig","controller","entityManagerFactory","property controller"
+"JpaConfig","controller","transactionManager","non-void-command factory collaborator"
+"JpaConfig","controller","entityManagerFactory","property controller"
+"JpaConfig","controller","transactionManager","non-void-command factory collaborator"
+"InfoCode","data-provider","InfoCode","constructor"
+"InfoCode","data-provider","getStatus","get"
+"InfoCode","data-provider","getMsg","get"
+"InfoCode","data-provider","toString","property wrapper"
+"UserService","boundary","getByMap","property non-void-command collaborator"
+"UserService","boundary","getById","property non-void-command collaborator"
+"UserService","boundary","create","property non-void-command collaborator"
+"UserService","boundary","update","property non-void-command collaborator"
+"UserService","boundary","delete","property non-void-command"
+"UserService","boundary","getByMap","property non-void-command collaborator"
+"UserService","boundary","getById","property non-void-command collaborator"
+"UserService","boundary","getList","non-void-command factory collaborator"
+"UserService","boundary","create","property non-void-command collaborator"
+"UserService","boundary","update","property non-void-command collaborator"
+"UserService","boundary","delete","property non-void-command"
+"UserService","boundary","searchListQuery","controller stateless"
+"UserService","boundary","esSearch","property non-void-command collaborator"
+"UserService","boundary","getByMap","property non-void-command collaborator"
+"UserService","boundary","getById","property non-void-command collaborator"
+"UserService","boundary","create","property non-void-command collaborator"
+"UserService","boundary","update","property non-void-command collaborator"
+"UserService","boundary","delete","property non-void-command"
+"MyFilterSecurityInterceptor","commander boundary","setMyAccessDecisionManager","command collaborator"
+"MyFilterSecurityInterceptor","commander boundary","init","empty"
+"MyFilterSecurityInterceptor","commander boundary","doFilter","command collaborator"
+"MyFilterSecurityInterceptor","commander boundary","invoke","command collaborator"
+"MyFilterSecurityInterceptor","commander boundary","destroy","empty"
+"MyFilterSecurityInterceptor","commander boundary","getSecureObjectClass","collaborator incidental"
+"MyFilterSecurityInterceptor","commander boundary","obtainSecurityMetadataSource","get collaborator"
+"PersonService","unclassified","findOne","property non-void-command collaborator"
+"PersonService","unclassified","save","property non-void-command collaborator"
+"PersonService","unclassified","getCache","controller stateless"
+"SysUser","data-class","getId","get"
+"SysUser","data-class","setId","set"
+"SysUser","data-class","getUsername","get"
+"SysUser","data-class","setUsername","set"
+"SysUser","data-class","getPassword","get"
+"SysUser","data-class","setPassword","set"
+"SysUser","data-class","getRoles","get collaborator"
+"SysUser","data-class","setRoles","set collaborator"
+"SysUser","data-class","getId","get"
+"SysUser","data-class","setId","set"
+"SysUser","data-class","getUsername","get"
+"SysUser","data-class","setUsername","set"
+"SysUser","data-class","getPassword","get"
+"SysUser","data-class","setPassword","set"
+"SysUser","data-class","getRoles","get collaborator"
+"SysUser","data-class","setRoles","set collaborator"
+"WebSecurityConfig","controller degenerate","configure","controller stateless"
+"WebSecurityConfig","controller degenerate","configure","controller stateless"
+"WebSecurityConfig","controller degenerate","configure","controller stateless"
+"WebSecurityConfig","controller degenerate","customUserService","factory collaborator stateless"
+"WebSecurityConfig","controller degenerate","configure","command collaborator"
+"WebSecurityConfig","controller degenerate","configure","controller stateless"
+"WebSecurityConfig","controller degenerate","configure","controller"
+"WebSecurityConfig","controller degenerate","configure","controller"
+"ResponseEntity","unclassified","ResponseEntity","constructor"
+"ResponseEntity","unclassified","getStatus","get"
+"ResponseEntity","unclassified","setStatus","set"
+"ResponseEntity","unclassified","getMessage","get"
+"ResponseEntity","unclassified","setMessage","set"
+"ResponseEntity","unclassified","getData","property collaborator"
+"ResponseEntity","unclassified","setData","set collaborator"
+"MyBatisScannerConfig","factory pure-controller degenerate","MapperScannerConfigurer","factory controller stateless"
+"MyBatisScannerConfig","factory pure-controller degenerate","MapperScannerConfigurer","factory controller stateless"
+"MyBatisScannerConfig","factory pure-controller degenerate","MapperScannerConfigurer","factory controller stateless"
+"MyBatisConfig","factory pure-controller","sqlSessionFactory","factory controller"
+"MyBatisConfig","factory pure-controller","sqlSessionFactory","factory controller"
+"MyBatisConfig","factory pure-controller","sqlSessionFactory","factory controller"
+"WebSocketController","degenerate","login","incidental"
+"WebSocketController","degenerate","ws","incidental"
+"WebSocketController","degenerate","chat","incidental"
+"WebSocketController","degenerate","say","factory controller stateless"
+"WebSocketController","degenerate","say2","property non-void-command"
+"WebSocketController","degenerate","handleChat","command collaborator"
+"WebSocketService","commander small-class","sendMessage","command"
+"User","unclassified","getId","get"
+"User","unclassified","setId","set"
+"User","unclassified","getCnname","get"
+"User","unclassified","setCnname","set"
+"User","unclassified","getUsername","get"
+"User","unclassified","getPassword","get"
+"User","unclassified","setPassword","set"
+"User","unclassified","getEmail","get"
+"User","unclassified","setEmail","set"
+"User","unclassified","getMobilePhone","get"
+"User","unclassified","setMobilePhone","set"
+"User","unclassified","getRoles","get collaborator"
+"User","unclassified","setRoles","set collaborator"
+"User","unclassified","toString","property"
+"User","unclassified","getId","get"
+"User","unclassified","setId","set"
+"User","unclassified","getName","get"
+"User","unclassified","setName","set"
+"User","unclassified","getAddress","get"
+"User","unclassified","setAddress","set"
+"User","unclassified","getMobile","get"
+"User","unclassified","setMobile","set"
+"User","unclassified","getEmail","get"
+"User","unclassified","setEmail","set"
+"User","unclassified","getCreateTime","get collaborator"
+"User","unclassified","setCreateTime","set collaborator"
+"User","unclassified","getRole","get"
+"User","unclassified","setRole","set"
+"User","unclassified","getId","get"
+"User","unclassified","setId","set"
+"User","unclassified","getName","get"
+"User","unclassified","setName","set"
+"User","unclassified","getAddress","get"
+"User","unclassified","setAddress","set"
+"User","unclassified","getMobile","get"
+"User","unclassified","setMobile","set"
+"User","unclassified","getEmail","get"
+"User","unclassified","setEmail","set"
+"User","unclassified","getCreateTime","get collaborator"
+"User","unclassified","setCreateTime","set collaborator"
+"User","unclassified","getRole","get"
+"User","unclassified","setRole","set"
+"User","unclassified","getIdCard","get"
+"User","unclassified","setIdCard","set"
+"User","unclassified","getType","get"
+"User","unclassified","setType","set"
+"User","unclassified","getName","get"
+"User","unclassified","setName","set"
+"User","unclassified","getPassword","get"
+"User","unclassified","setPassword","set"
+"User","unclassified","getUsername","get"
+"User","unclassified","setUsername","set"
+"User","unclassified","getDivisionId","get"
+"User","unclassified","setDivisionId","set"
+"User","unclassified","getEmail","get"
+"User","unclassified","setEmail","set"
+"User","unclassified","getGender","get"
+"User","unclassified","setGender","set"
+"User","unclassified","getMobilephone","get"
+"User","unclassified","setMobilephone","set"
+"User","unclassified","getTelephone","get"
+"User","unclassified","setTelephone","set"
+"User","unclassified","getUserType","get"
+"User","unclassified","setUserType","set"
+"User","unclassified","getCreateBy","get"
+"User","unclassified","setCreateBy","set"
+"User","unclassified","getCreateTime","get collaborator"
+"User","unclassified","setCreateTime","set collaborator"
+"User","unclassified","getUpdateBy","get"
+"User","unclassified","setUpdateBy","set"
+"User","unclassified","getUpdateTime","get collaborator"
+"User","unclassified","setUpdateTime","set collaborator"
+"User","unclassified","getDisabled","get"
+"User","unclassified","setDisabled","set"
+"User","unclassified","getTheme","get"
+"User","unclassified","setTheme","set"
+"User","unclassified","getIsLdap","get"
+"User","unclassified","setIsLdap","set"
+"User","unclassified","getId","get"
+"User","unclassified","setId","set"
+"User","unclassified","getId","get"
+"User","unclassified","setId","set"
+"User","unclassified","getName","get"
+"User","unclassified","setName","set"
+"User","unclassified","getRePassword","get"
+"User","unclassified","setRePassword","set"
+"User","unclassified","getPassword","get"
+"User","unclassified","setPassword","set"
+"User","unclassified","getUsername","get"
+"User","unclassified","setUsername","set"
+"User","unclassified","getDivisionId","get"
+"User","unclassified","setDivisionId","set"
+"User","unclassified","getEmail","get"
+"User","unclassified","setEmail","set"
+"User","unclassified","getGender","get"
+"User","unclassified","setGender","set"
+"User","unclassified","getMobilephone","get"
+"User","unclassified","setMobilephone","set"
+"User","unclassified","getTelephone","get"
+"User","unclassified","setTelephone","set"
+"User","unclassified","getUserType","get"
+"User","unclassified","setUserType","set"
+"User","unclassified","getCreateBy","get"
+"User","unclassified","setCreateBy","set"
+"User","unclassified","getCreateTime","get collaborator"
+"User","unclassified","setCreateTime","set collaborator"
+"User","unclassified","getUpdateBy","get"
+"User","unclassified","setUpdateBy","set"
+"User","unclassified","getUpdateTime","get collaborator"
+"User","unclassified","setUpdateTime","set collaborator"
+"User","unclassified","getDisabled","get"
+"User","unclassified","setDisabled","set"
+"User","unclassified","getTheme","get"
+"User","unclassified","setTheme","set"
+"User","unclassified","getIsLdap","get"
+"User","unclassified","setIsLdap","set"
+"User","unclassified","getId","get"
+"User","unclassified","setId","set"
+"User","unclassified","getName","get"
+"User","unclassified","setName","set"
+"User","unclassified","getAddress","get"
+"User","unclassified","setAddress","set"
+"User","unclassified","getMobile","get"
+"User","unclassified","setMobile","set"
+"User","unclassified","getEmail","get"
+"User","unclassified","setEmail","set"
+"User","unclassified","getCreateTime","get collaborator"
+"User","unclassified","setCreateTime","set collaborator"
+"User","unclassified","getRole","get"
+"User","unclassified","setRole","set"
+"CacheConfig","factory controller small-class","getCacheManager","non-void-command factory collaborator"
+"BaseTest","degenerate","contextLoads","empty"
+"BaseTest","degenerate","contextLoads","empty"
+"BaseTest","degenerate","contextLoads","empty"
+"BaseTest","degenerate","assertNotNull","wrapper stateless"
+"BaseTest","degenerate","contextLoads","empty"
+"DemoServiceImpl","entity boundary","save","property non-void-command collaborator"
+"DemoServiceImpl","entity boundary","remove","incidental"
+"DemoServiceImpl","entity boundary","findOne","property non-void-command collaborator"
+"WebMvcConfig","pure-controller degenerate small-class","addViewControllers","controller stateless"
+"AppRuntimeException","data-provider boundary data-class small-class","AppRuntimeException","constructor"
+"AppRuntimeException","data-provider boundary data-class small-class","AppRuntimeException","constructor"
+"AppRuntimeException","data-provider boundary data-class small-class","AppRuntimeException","constructor"
+"AppRuntimeException","data-provider boundary data-class small-class","getInfoCode","get collaborator"
+"WebSocketConfig","pure-controller degenerate small-class","registerStompEndpoints","controller stateless"
+"WebSocketConfig","pure-controller degenerate small-class","configureMessageBroker","controller stateless"
+"HttpExeption","empty","HttpExeption","constructor"
+"HttpExeption","empty","HttpExeption","constructor"
+"HttpExeption","empty","HttpExeption","constructor"
+"HttpExeption","empty","HttpExeption","constructor"
+"Response","data-class small-class","setResponseMessage","set"
+"Response","data-class small-class","Response","constructor"
+"Response","data-class small-class","getResponseMessage","get"
+"TransactionConfig","factory controller","annotationDrivenTransactionManager","property factory collaborator"
+"TransactionConfig","factory controller","annotationDrivenTransactionManager","property factory collaborator"
+"TransactionConfig","factory controller","annotationDrivenTransactionManager","property factory collaborator"
+"HomeController","pure-controller degenerate","index","controller stateless"
+"HomeController","pure-controller degenerate","index","controller stateless"
+"HomeController","pure-controller degenerate","login","incidental"
+"HomeController","pure-controller degenerate","hello","incidental"
+"ExecuteJob","degenerate small-class","execute","incidental"
+"MyInvocationSecurityMetadataSourceService","entity boundary","loadResourceDefine","command collaborator"
+"MyInvocationSecurityMetadataSourceService","entity boundary","getAttributes","property non-void-command collaborator"
+"MyInvocationSecurityMetadataSourceService","entity boundary","getAllConfigAttributes","collaborator incidental"
+"MyInvocationSecurityMetadataSourceService","entity boundary","supports","collaborator incidental"
+"Msg","data-class","Msg","constructor"
+"Msg","data-class","getTitle","get"
+"Msg","data-class","setTitle","set"
+"Msg","data-class","getContent","get"
+"Msg","data-class","setContent","set"
+"Msg","data-class","getEtraInfo","get"
+"Msg","data-class","setEtraInfo","set"
+"Msg","data-class","Msg","constructor"
+"Msg","data-class","getTitle","get"
+"Msg","data-class","setTitle","set"
+"Msg","data-class","getContent","get"
+"Msg","data-class","setContent","set"
+"Msg","data-class","getEtraInfo","get"
+"Msg","data-class","setEtraInfo","set"
+"SysRole","data-class","getId","get"
+"SysRole","data-class","setId","set"
+"SysRole","data-class","getName","get"
+"SysRole","data-class","setName","set"
+"SysRole","data-class","getId","get"
+"SysRole","data-class","setId","set"
+"SysRole","data-class","getName","get"
+"SysRole","data-class","setName","set"
+"MyAccessDecisionManager","degenerate","decide","controller stateless"
+"MyAccessDecisionManager","degenerate","supports","collaborator incidental"
+"MyAccessDecisionManager","degenerate","supports","collaborator incidental"
+"ESRestClient2Config","controller small-class","getRestClient","property controller"
+"PermissionServiceImpl","entity boundary","getByMap","property non-void-command collaborator"
+"PermissionServiceImpl","entity boundary","getById","property non-void-command collaborator"
+"PermissionServiceImpl","entity boundary","create","property non-void-command collaborator"
+"PermissionServiceImpl","entity boundary","update","property non-void-command collaborator"
+"PermissionServiceImpl","entity boundary","delete","property non-void-command"
+"JsonExceptionMapper","entity boundary small-class","toResponse","property non-void-command collaborator"
+"ReaderExceptionMapper","entity boundary small-class","toResponse","property non-void-command collaborator"
+"ServiceExceptionMapper","entity boundary small-class","toResponse","property non-void-command collaborator"
+"RestInterceptor","entity boundary small-class","aroundReadFrom","property non-void-command collaborator"
+"RestInterceptor","entity boundary small-class","aroundWriteTo","command collaborator"

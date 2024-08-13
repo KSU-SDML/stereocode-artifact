@@ -1,561 +1,571 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"AlipayUtils","pure-controller degenerate small-class","getOrderCode","controller stateless",
-"AlipayUtils","pure-controller degenerate small-class","rsaCheck","controller stateless",
-"LimitAspect","degenerate","LimitAspect","constructor",
-"LimitAspect","degenerate","pointcut","empty",
-"LimitAspect","degenerate","around","property non-void-command collaborator",
-"LimitAspect","degenerate","buildLuaScript","incidental",
-"QuartzJobController","entity factory controller","queryQuartzJob","property non-void-command factory collaborator",
-"QuartzJobController","entity factory controller","exportQuartzJob","command collaborator",
-"QuartzJobController","entity factory controller","exportQuartzJobLog","command collaborator",
-"QuartzJobController","entity factory controller","queryQuartzJobLog","property non-void-command factory collaborator",
-"QuartzJobController","entity factory controller","createQuartzJob","property non-void-command factory collaborator",
-"QuartzJobController","entity factory controller","updateQuartzJob","property non-void-command factory collaborator",
-"QuartzJobController","entity factory controller","updateQuartzJobStatus","property non-void-command factory collaborator",
-"QuartzJobController","entity factory controller","executionQuartzJob","property non-void-command factory collaborator",
-"QuartzJobController","entity factory controller","deleteQuartzJob","property non-void-command factory collaborator",
-"QuartzJobController","entity factory controller","checkBean","wrapper stateless",
-"WebSocketServer","unclassified","onOpen","command collaborator",
-"WebSocketServer","unclassified","onClose","command",
-"WebSocketServer","unclassified","onMessage","controller",
-"WebSocketServer","unclassified","onError","controller stateless",
-"WebSocketServer","unclassified","sendMessage","command",
-"WebSocketServer","unclassified","equals","predicate controller",
-"WebSocketServer","unclassified","hashCode","property wrapper",
-"ServerDeployServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"ServerDeployServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"ServerDeployServiceImpl","boundary","findById","property non-void-command collaborator",
-"ServerDeployServiceImpl","boundary","findByIp","property non-void-command collaborator",
-"ServerDeployServiceImpl","boundary","testConnect","controller stateless",
-"ServerDeployServiceImpl","boundary","create","command collaborator",
-"ServerDeployServiceImpl","boundary","update","command collaborator",
-"ServerDeployServiceImpl","boundary","delete","command",
-"ServerDeployServiceImpl","boundary","download","controller stateless",
-"GeneratorController","entity factory controller","queryAllTables","property non-void-command factory collaborator",
-"GeneratorController","entity factory controller","queryTables","property non-void-command factory collaborator",
-"GeneratorController","entity factory controller","queryColumns","property non-void-command factory collaborator",
-"GeneratorController","entity factory controller","saveColumn","property non-void-command factory collaborator",
-"GeneratorController","entity factory controller","syncColumn","property non-void-command factory collaborator",
-"GeneratorController","entity factory controller","generatorCode","property non-void-command factory collaborator",
-"User","small-class","equals","predicate controller",
-"User","small-class","hashCode","property wrapper",
-"DeployServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"DeployServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"DeployServiceImpl","boundary","findById","property non-void-command collaborator",
-"DeployServiceImpl","boundary","create","command collaborator",
-"DeployServiceImpl","boundary","update","command collaborator",
-"DeployServiceImpl","boundary","delete","command",
-"DeployServiceImpl","boundary","deploy","command",
-"DeployServiceImpl","boundary","deployApp","command",
-"DeployServiceImpl","boundary","sleep","wrapper stateless",
-"DeployServiceImpl","boundary","backupApp","command collaborator",
-"DeployServiceImpl","boundary","stopApp","controller stateless",
-"DeployServiceImpl","boundary","checkIsRunningStatus","controller stateless",
-"DeployServiceImpl","boundary","sendMsg","wrapper stateless",
-"DeployServiceImpl","boundary","serverStatus","property non-void-command collaborator",
-"DeployServiceImpl","boundary","checkFile","controller stateless",
-"DeployServiceImpl","boundary","startServer","property non-void-command collaborator",
-"DeployServiceImpl","boundary","stopServer","property non-void-command collaborator",
-"DeployServiceImpl","boundary","serverReduction","property non-void-command collaborator",
-"DeployServiceImpl","boundary","getExecuteShellUtil","property non-void-command factory collaborator",
-"DeployServiceImpl","boundary","getScpClientUtil","property non-void-command collaborator",
-"DeployServiceImpl","boundary","sendResultMsg","command collaborator",
-"DeployServiceImpl","boundary","download","controller stateless",
-"DeployController","entity factory controller","exportDeployData","command collaborator",
-"DeployController","entity factory controller","queryDeployData","property non-void-command factory collaborator",
-"DeployController","entity factory controller","createDeploy","property non-void-command factory collaborator",
-"DeployController","entity factory controller","updateDeploy","property non-void-command factory collaborator",
-"DeployController","entity factory controller","deleteDeploy","property non-void-command factory collaborator",
-"DeployController","entity factory controller","uploadDeploy","property non-void-command factory collaborator",
-"DeployController","entity factory controller","serverReduction","property non-void-command factory collaborator",
-"DeployController","entity factory controller","serverStatus","property non-void-command factory collaborator",
-"DeployController","entity factory controller","startServer","property non-void-command factory collaborator",
-"DeployController","entity factory controller","stopServer","property non-void-command factory collaborator",
-"DeployHistoryServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"DeployHistoryServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"DeployHistoryServiceImpl","boundary","findById","property non-void-command collaborator",
-"DeployHistoryServiceImpl","boundary","create","command collaborator",
-"DeployHistoryServiceImpl","boundary","delete","command",
-"DeployHistoryServiceImpl","boundary","download","controller stateless",
-"DatabaseServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"DatabaseServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"DatabaseServiceImpl","boundary","findById","property non-void-command collaborator",
-"DatabaseServiceImpl","boundary","create","command collaborator",
-"DatabaseServiceImpl","boundary","update","command collaborator",
-"DatabaseServiceImpl","boundary","delete","command",
-"DatabaseServiceImpl","boundary","testConnection","controller stateless",
-"DatabaseServiceImpl","boundary","download","controller stateless",
-"TestTask","boundary degenerate","run","wrapper stateless",
-"TestTask","boundary degenerate","run1","wrapper stateless",
-"TestTask","boundary degenerate","run2","wrapper stateless",
-"App","boundary small-class","copy","wrapper",
-"LimitController","small-class","testLimit","property non-void-command",
-"ServerDeployDto","small-class","equals","predicate controller",
-"ServerDeployDto","small-class","hashCode","property wrapper",
-"DeployDto","data-provider","getServers","get property non-void-command",
-"DeployDto","data-provider","equals","predicate controller",
-"DeployDto","data-provider","hashCode","property wrapper",
-"RsaProperties","degenerate small-class","setPrivateKey","incidental",
-"ServerDeployController","entity factory controller","exportServerDeploy","command collaborator",
-"ServerDeployController","entity factory controller","queryServerDeploy","property non-void-command factory collaborator",
-"ServerDeployController","entity factory controller","createServerDeploy","property non-void-command factory collaborator",
-"ServerDeployController","entity factory controller","updateServerDeploy","property non-void-command factory collaborator",
-"ServerDeployController","entity factory controller","deleteServerDeploy","property non-void-command factory collaborator",
-"ServerDeployController","entity factory controller","testConnectServerDeploy","property non-void-command factory collaborator",
-"DeployHistoryController","entity","exportDeployHistory","command collaborator",
-"DeployHistoryController","entity","queryDeployHistory","property non-void-command factory collaborator",
-"DeployHistoryController","entity","deleteDeployHistory","property non-void-command factory collaborator",
-"UserServiceImpl","commander boundary","queryAll","property non-void-command collaborator",
-"UserServiceImpl","commander boundary","queryAll","property non-void-command collaborator",
-"UserServiceImpl","commander boundary","findById","property non-void-command collaborator",
-"UserServiceImpl","commander boundary","create","command collaborator",
-"UserServiceImpl","commander boundary","update","command collaborator",
-"UserServiceImpl","commander boundary","updateCenter","command collaborator",
-"UserServiceImpl","commander boundary","delete","command collaborator",
-"UserServiceImpl","commander boundary","findByName","property non-void-command collaborator",
-"UserServiceImpl","commander boundary","getLoginData","property non-void-command collaborator",
-"UserServiceImpl","commander boundary","updatePass","command",
-"UserServiceImpl","commander boundary","resetPwd","command",
-"UserServiceImpl","commander boundary","updateAvatar","property non-void-command collaborator",
-"UserServiceImpl","commander boundary","updateEmail","command",
-"UserServiceImpl","commander boundary","download","controller stateless",
-"UserServiceImpl","commander boundary","delCaches","command",
-"UserServiceImpl","commander boundary","flushCache","command",
-"Database","boundary small-class","copy","wrapper",
-"CustomExecutorConfig","factory pure-controller degenerate small-class","elAsync","factory controller stateless",
-"CustomExecutorConfig","factory pure-controller degenerate small-class","otherAsync","factory controller stateless",
-"AsyncTaskProperties","degenerate","setCorePoolSize","incidental",
-"AsyncTaskProperties","degenerate","setMaxPoolSize","incidental",
-"AsyncTaskProperties","degenerate","setKeepAliveSeconds","incidental",
-"AsyncTaskProperties","degenerate","setQueueCapacity","incidental",
-"WebSocketConfig","factory degenerate small-class","serverEndpointExporter","factory collaborator stateless",
-"Deploy","boundary small-class","copy","wrapper",
-"FileUtilTest","boundary degenerate","testToFile","wrapper stateless",
-"FileUtilTest","boundary degenerate","testGetExtensionName","wrapper stateless",
-"FileUtilTest","boundary degenerate","testGetFileNameNoEx","wrapper stateless",
-"FileUtilTest","boundary degenerate","testGetSize","wrapper stateless",
-"DictDetailServiceImpl","entity commander boundary","queryAll","property non-void-command collaborator",
-"DictDetailServiceImpl","entity commander boundary","create","command collaborator",
-"DictDetailServiceImpl","entity commander boundary","update","command collaborator",
-"DictDetailServiceImpl","entity commander boundary","getDictByName","property non-void-command collaborator",
-"DictDetailServiceImpl","entity commander boundary","delete","command collaborator",
-"DictDetailServiceImpl","entity commander boundary","delCaches","command collaborator",
-"ConfigurerAdapter","controller degenerate","ConfigurerAdapter","constructor",
-"ConfigurerAdapter","controller degenerate","corsFilter","factory controller stateless",
-"ConfigurerAdapter","controller degenerate","addResourceHandlers","command collaborator",
-"ConfigurerAdapter","controller degenerate","configureMessageConverters","controller stateless",
-"AppController","entity factory controller","exportApp","command collaborator",
-"AppController","entity factory controller","queryApp","property non-void-command factory collaborator",
-"AppController","entity factory controller","createApp","property non-void-command factory collaborator",
-"AppController","entity factory controller","updateApp","property non-void-command factory collaborator",
-"AppController","entity factory controller","deleteApp","property non-void-command factory collaborator",
-"DeployHistory","boundary small-class","copy","wrapper",
-"AuditorConfig","boundary degenerate small-class","getCurrentAuditor","wrapper stateless",
-"GlobalExceptionHandler","unclassified","handleException","property non-void-command collaborator",
-"GlobalExceptionHandler","unclassified","badCredentialsException","property non-void-command collaborator",
-"GlobalExceptionHandler","unclassified","badRequestException","controller stateless",
-"GlobalExceptionHandler","unclassified","entityExistException","property non-void-command collaborator",
-"GlobalExceptionHandler","unclassified","entityNotFoundException","controller stateless",
-"GlobalExceptionHandler","unclassified","handleMethodArgumentNotValidException","property non-void-command collaborator",
-"GlobalExceptionHandler","unclassified","buildResponseEntity","factory controller stateless",
-"AppRun","degenerate small-class","springContextHolder","factory collaborator stateless",
-"AppRun","degenerate small-class","index","incidental",
-"BaseDTO","entity boundary small-class","toString","property non-void-command collaborator",
-"ApiError","empty","ApiError","constructor",
-"ScpClientUtil","unclassified","ScpClientUtil","constructor",
-"ScpClientUtil","unclassified","getFile","controller",
-"ScpClientUtil","unclassified","putFile","command",
-"ScpClientUtil","unclassified","putFile","command",
-"ScpClientUtil","unclassified","putFile","controller",
-"DateUtil","entity boundary small-class","localDateTimeFormatyMd","property non-void-command collaborator",
-"EntityExistException","empty","EntityExistException","constructor",
-"BadConfigurationException","empty","BadConfigurationException","constructor",
-"BadConfigurationException","empty","BadConfigurationException","constructor",
-"BadConfigurationException","empty","BadConfigurationException","constructor",
-"BadConfigurationException","empty","BadConfigurationException","constructor",
-"BadConfigurationException","empty","BadConfigurationException","constructor",
-"OnlineController","entity","queryOnlineUser","property non-void-command factory collaborator",
-"OnlineController","entity","exportOnlineUser","command",
-"OnlineController","entity","deleteOnlineUser","property non-void-command factory collaborator",
-"RelaxedQueryCharsConnectorCustomizer","pure-controller degenerate small-class","customize","controller stateless",
-"SpringContextHolder","boundary lazy-class small-class","destroy","wrapper stateless",
-"SpringContextHolder","boundary lazy-class small-class","setApplicationContext","void-accessor set collaborator",
-"SwaggerConfig","factory controller","createRestApi","property non-void-command factory collaborator",
-"SwaggerConfig","factory controller","apiInfo","factory wrapper stateless",
-"SwaggerConfig","factory controller","securitySchemes","factory controller",
-"SwaggerConfig","factory controller","securityContexts","non-void-command factory collaborator",
-"SwaggerConfig","factory controller","getContextByPath","property non-void-command collaborator",
-"SwaggerConfig","factory controller","defaultAuth","factory controller",
-"SwaggerDataConfig","factory pure-controller degenerate small-class","pageableConvention","factory controller stateless",
-"UserDetailsServiceImpl","factory controller small-class","loadUserByUsername","non-void-command factory collaborator",
-"Menu","small-class","equals","predicate controller",
-"Menu","small-class","hashCode","property wrapper",
-"StringRedisSerializer","small-class","StringRedisSerializer","constructor",
-"StringRedisSerializer","small-class","StringRedisSerializer","constructor",
-"StringRedisSerializer","small-class","deserialize","property",
-"StringRedisSerializer","small-class","serialize","property controller",
-"GenConfigServiceImpl","entity small-class","find","property non-void-command factory collaborator",
-"GenConfigServiceImpl","entity small-class","update","property non-void-command collaborator",
-"ExecutionJob","controller small-class","executeInternal","command collaborator",
-"ExecutionJob","controller small-class","taskAlarm","factory controller stateless",
-"QuartzManage","commander boundary","addJob","command collaborator",
-"QuartzManage","commander boundary","updateJobCron","command collaborator",
-"QuartzManage","commander boundary","deleteJob","command collaborator",
-"QuartzManage","commander boundary","resumeJob","command collaborator",
-"QuartzManage","commander boundary","runJobNow","command collaborator",
-"QuartzManage","commander boundary","pauseJob","command collaborator",
-"SysLog","empty","SysLog","constructor",
-"SysLogController","entity factory controller","exportLog","command collaborator",
-"SysLogController","entity factory controller","exportErrorLog","command collaborator",
-"SysLogController","entity factory controller","queryLog","property non-void-command factory collaborator",
-"SysLogController","entity factory controller","queryUserLog","property non-void-command factory collaborator",
-"SysLogController","entity factory controller","queryErrorLog","property non-void-command factory collaborator",
-"SysLogController","entity factory controller","queryErrorLogDetail","property non-void-command factory collaborator",
-"SysLogController","entity factory controller","delAllErrorLog","property non-void-command factory collaborator",
-"SysLogController","entity factory controller","delAllInfoLog","property non-void-command factory collaborator",
-"LocalStorageController","entity factory controller","queryFile","property non-void-command factory collaborator",
-"LocalStorageController","entity factory controller","exportFile","command collaborator",
-"LocalStorageController","entity factory controller","createFile","property non-void-command factory collaborator",
-"LocalStorageController","entity factory controller","uploadPicture","property non-void-command factory collaborator",
-"LocalStorageController","entity factory controller","updateFile","property non-void-command factory collaborator",
-"LocalStorageController","entity factory controller","deleteFile","property non-void-command factory collaborator",
-"RedisUtils","unclassified","RedisUtils","constructor",
-"RedisUtils","unclassified","expire","predicate non-void-command",
-"RedisUtils","unclassified","expire","predicate non-void-command collaborator",
-"RedisUtils","unclassified","getExpire","property non-void-command collaborator",
-"RedisUtils","unclassified","scan","property non-void-command",
-"RedisUtils","unclassified","findKeysForPage","property non-void-command",
-"RedisUtils","unclassified","hasKey","predicate non-void-command",
-"RedisUtils","unclassified","del","command",
-"RedisUtils","unclassified","scanDel","command collaborator",
-"RedisConfig","degenerate","redisCacheConfiguration","controller stateless",
-"RedisConfig","degenerate","redisTemplate","factory controller stateless",
-"RedisConfig","degenerate","keyGenerator","controller stateless",
-"RedisConfig","degenerate","errorHandler","factory wrapper stateless",
-"EncryptUtilsTest","boundary degenerate small-class","testDesEncrypt","wrapper stateless",
-"EncryptUtilsTest","boundary degenerate small-class","testDesDecrypt","wrapper stateless",
-"EntityNotFoundException","empty","EntityNotFoundException","constructor",
-"AliPayServiceImpl","unclassified","find","property non-void-command collaborator",
-"AliPayServiceImpl","unclassified","config","property non-void-command collaborator",
-"AliPayServiceImpl","unclassified","toPayAsPc","controller stateless",
-"AliPayServiceImpl","unclassified","toPayAsWeb","controller stateless",
-"LogAspect","entity boundary","LogAspect","constructor",
-"LogAspect","entity boundary","logPointcut","empty",
-"LogAspect","entity boundary","logAround","property non-void-command collaborator",
-"LogAspect","entity boundary","logAfterThrowing","command collaborator",
-"LogAspect","entity boundary","getUsername","wrapper stateless",
-"StringUtilsTest","boundary degenerate","testToCamelCase","wrapper stateless",
-"StringUtilsTest","boundary degenerate","testToCapitalizeCamelCase","wrapper stateless",
-"StringUtilsTest","boundary degenerate","testToUnderScoreCase","wrapper stateless",
-"StringUtilsTest","boundary degenerate","testGetWeekDay","controller stateless",
-"StringUtilsTest","boundary degenerate","testGetIP","wrapper stateless",
-"RoleController","entity factory controller","findRoleById","property non-void-command factory collaborator",
-"RoleController","entity factory controller","exportRole","command collaborator",
-"RoleController","entity factory controller","queryAllRole","property non-void-command factory collaborator",
-"RoleController","entity factory controller","queryRole","property non-void-command factory collaborator",
-"RoleController","entity factory controller","getRoleLevel","property non-void-command factory collaborator",
-"RoleController","entity factory controller","createRole","property non-void-command factory collaborator",
-"RoleController","entity factory controller","updateRole","property non-void-command factory collaborator",
-"RoleController","entity factory controller","updateRoleMenu","property non-void-command factory collaborator",
-"RoleController","entity factory controller","deleteRole","property non-void-command factory collaborator",
-"RoleController","entity factory controller","getLevels","property non-void-command",
-"GenConfig","empty","GenConfig","constructor",
-"EmailServiceImpl","unclassified","config","property non-void-command collaborator",
-"EmailServiceImpl","unclassified","find","property non-void-command collaborator",
-"EmailServiceImpl","unclassified","send","controller stateless",
-"ColumnInfo","empty","ColumnInfo","constructor",
-"RoleServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"RoleServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"RoleServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"RoleServiceImpl","boundary","findById","property non-void-command collaborator",
-"RoleServiceImpl","boundary","create","command collaborator",
-"RoleServiceImpl","boundary","update","command collaborator",
-"RoleServiceImpl","boundary","updateMenu","command collaborator",
-"RoleServiceImpl","boundary","untiedMenu","command",
-"RoleServiceImpl","boundary","delete","command",
-"RoleServiceImpl","boundary","findByUsersId","property non-void-command collaborator",
-"RoleServiceImpl","boundary","findByRoles","property non-void-command collaborator",
-"RoleServiceImpl","boundary","mapToGrantedAuthorities","property non-void-command collaborator",
-"RoleServiceImpl","boundary","download","controller stateless",
-"RoleServiceImpl","boundary","verification","command",
-"RoleServiceImpl","boundary","findInMenuId","property non-void-command collaborator",
-"RoleServiceImpl","boundary","delCaches","command collaborator",
-"AppServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"AppServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"AppServiceImpl","boundary","findById","property non-void-command collaborator",
-"AppServiceImpl","boundary","create","command collaborator",
-"AppServiceImpl","boundary","update","command collaborator",
-"AppServiceImpl","boundary","verification","controller stateless",
-"AppServiceImpl","boundary","delete","command",
-"AppServiceImpl","boundary","download","controller stateless",
-"Role","small-class","equals","predicate controller",
-"Role","small-class","hashCode","property wrapper",
-"QiniuController","entity factory controller","queryQiNiuConfig","property non-void-command factory collaborator",
-"QiniuController","entity factory controller","updateQiNiuConfig","property non-void-command factory collaborator",
-"QiniuController","entity factory controller","exportQiNiu","command collaborator",
-"QiniuController","entity factory controller","queryQiNiu","property non-void-command factory collaborator",
-"QiniuController","entity factory controller","uploadQiNiu","property non-void-command factory collaborator",
-"QiniuController","entity factory controller","synchronizeQiNiu","property non-void-command factory collaborator",
-"QiniuController","entity factory controller","downloadQiNiu","property non-void-command factory collaborator",
-"QiniuController","entity factory controller","deleteQiNiu","property non-void-command factory collaborator",
-"QiniuController","entity factory controller","deleteAllQiNiu","property non-void-command factory collaborator",
-"RoleDto","small-class","equals","predicate controller",
-"RoleDto","small-class","hashCode","property wrapper",
-"GenConfigController","entity factory controller small-class","queryGenConfig","property non-void-command factory collaborator",
-"GenConfigController","entity factory controller small-class","updateGenConfig","property non-void-command factory collaborator",
-"Dept","small-class","equals","predicate controller",
-"Dept","small-class","hashCode","property wrapper",
-"AuthorityConfig","pure-controller degenerate small-class","check","controller stateless",
-"ConfigBeanConfiguration","factory degenerate small-class","loginProperties","factory collaborator stateless",
-"ConfigBeanConfiguration","factory degenerate small-class","securityProperties","factory collaborator stateless",
-"SpringSecurityConfig","controller degenerate","grantedAuthorityDefaults","factory collaborator stateless",
-"SpringSecurityConfig","controller degenerate","passwordEncoder","factory collaborator stateless",
-"SpringSecurityConfig","controller degenerate","configure","command collaborator",
-"SpringSecurityConfig","controller degenerate","securityConfigurerAdapter","property factory collaborator",
-"SpringSecurityConfig","controller degenerate","getAnonymousUrl","controller stateless",
-"BadRequestException","empty","BadRequestException","constructor",
-"BadRequestException","empty","BadRequestException","constructor",
-"LoginProperties","unclassified","isSingleLogin","get",
-"LoginProperties","unclassified","getCaptcha","property non-void-command collaborator",
-"LoginProperties","unclassified","switchCaptcha","factory controller stateless",
-"DateUtilsTest","degenerate small-class","test1","wrapper stateless",
-"DateUtilsTest","degenerate small-class","test2","controller stateless",
-"SecurityProperties","data-provider small-class","getTokenStartWith","property",
-"AuthorizationController","entity boundary","login","property non-void-command collaborator",
-"AuthorizationController","entity boundary","getUserInfo","wrapper stateless",
-"AuthorizationController","entity boundary","getCode","property non-void-command collaborator",
-"AuthorizationController","entity boundary","logout","property non-void-command factory collaborator",
-"JwtAccessDeniedHandler","pure-controller degenerate small-class","handle","controller stateless",
-"FastJsonRedisSerializer<T>","data-provider boundary small-class","FastJsonRedisSerializer","constructor",
-"FastJsonRedisSerializer<T>","data-provider boundary small-class","serialize","wrapper stateless",
-"FastJsonRedisSerializer<T>","data-provider boundary small-class","deserialize","property wrapper",
-"JwtAuthenticationEntryPoint","pure-controller degenerate small-class","commence","controller stateless",
-"TokenConfigurer","pure-controller small-class","configure","controller",
-"TokenFilter","entity boundary small-class","TokenFilter","constructor",
-"TokenFilter","entity boundary small-class","doFilter","command collaborator",
-"TokenFilter","entity boundary small-class","resolveToken","property non-void-command collaborator",
-"TokenProvider","boundary","TokenProvider","constructor",
-"TokenProvider","boundary","afterPropertiesSet","command collaborator",
-"TokenProvider","boundary","createToken","property controller",
-"TokenProvider","boundary","getAuthentication","property non-void-command factory collaborator",
-"TokenProvider","boundary","getClaims","property non-void-command collaborator",
-"TokenProvider","boundary","checkRenewal","command",
-"TokenProvider","boundary","getToken","property non-void-command collaborator",
-"TokenProvider","boundary","loginKey","property non-void-command",
-"OnlineUserService","commander boundary","save","command collaborator",
-"OnlineUserService","commander boundary","getAll","property non-void-command collaborator",
-"OnlineUserService","commander boundary","getAll","non-void-command factory collaborator",
-"OnlineUserService","commander boundary","logout","command",
-"OnlineUserService","commander boundary","download","controller stateless",
-"OnlineUserService","commander boundary","getOne","property non-void-command collaborator",
-"OnlineUserService","commander boundary","kickOutForUsername","command",
-"UserCacheManager","entity commander boundary","getUserCache","property non-void-command collaborator",
-"UserCacheManager","entity commander boundary","addUserCache","command collaborator",
-"UserCacheManager","entity commander boundary","cleanUserCache","command",
-"BaseEntity","entity boundary small-class","toString","property non-void-command collaborator",
-"EmailController","entity factory controller","queryEmailConfig","property non-void-command factory collaborator",
-"EmailController","entity factory controller","updateEmailConfig","property non-void-command factory collaborator",
-"EmailController","entity factory controller","sendEmail","property non-void-command factory collaborator",
-"JwtUserDto","unclassified","getRoles","property non-void-command",
-"JwtUserDto","unclassified","getPassword","property non-void-command",
-"JwtUserDto","unclassified","getUsername","property non-void-command",
-"JwtUserDto","unclassified","isAccountNonExpired","incidental",
-"JwtUserDto","unclassified","isAccountNonLocked","incidental",
-"JwtUserDto","unclassified","isCredentialsNonExpired","incidental",
-"JwtUserDto","unclassified","isEnabled","predicate non-void-command",
-"JobRunner","commander boundary small-class","run","command collaborator",
-"Job","small-class","equals","predicate controller",
-"Job","small-class","hashCode","property wrapper",
-"DatabaseController","entity factory controller","exportDatabase","command collaborator",
-"DatabaseController","entity factory controller","queryDatabase","property non-void-command factory collaborator",
-"DatabaseController","entity factory controller","createDatabase","property non-void-command factory collaborator",
-"DatabaseController","entity factory controller","updateDatabase","property non-void-command factory collaborator",
-"DatabaseController","entity factory controller","deleteDatabase","property non-void-command factory collaborator",
-"DatabaseController","entity factory controller","testConnect","property non-void-command factory collaborator",
-"DatabaseController","entity factory controller","uploadDatabase","property non-void-command factory collaborator",
-"SocketMsg","empty","SocketMsg","constructor",
-"DeptController","entity factory controller","exportDept","command collaborator",
-"DeptController","entity factory controller","queryDept","property non-void-command factory collaborator",
-"DeptController","entity factory controller","getDeptSuperior","property non-void-command factory collaborator",
-"DeptController","entity factory controller","createDept","property non-void-command factory collaborator",
-"DeptController","entity factory controller","updateDept","property non-void-command factory collaborator",
-"DeptController","entity factory controller","deleteDept","property non-void-command factory collaborator",
-"MonitorServiceImpl","factory controller","getServers","non-void-command factory collaborator",
-"MonitorServiceImpl","factory controller","getDiskInfo","non-void-command factory collaborator",
-"MonitorServiceImpl","factory controller","getSwapInfo","non-void-command factory collaborator",
-"MonitorServiceImpl","factory controller","getMemoryInfo","non-void-command factory collaborator",
-"MonitorServiceImpl","factory controller","getCpuInfo","non-void-command factory collaborator",
-"MonitorServiceImpl","factory controller","getSystemInfo","factory controller stateless",
-"QuartzJobServiceImpl","commander boundary","queryAll","property non-void-command collaborator",
-"QuartzJobServiceImpl","commander boundary","queryAllLog","property non-void-command collaborator",
-"QuartzJobServiceImpl","commander boundary","queryAll","property non-void-command collaborator",
-"QuartzJobServiceImpl","commander boundary","queryAllLog","property non-void-command collaborator",
-"QuartzJobServiceImpl","commander boundary","findById","property non-void-command collaborator",
-"QuartzJobServiceImpl","commander boundary","create","command collaborator",
-"QuartzJobServiceImpl","commander boundary","update","command collaborator",
-"QuartzJobServiceImpl","commander boundary","updateIsPause","command collaborator",
-"QuartzJobServiceImpl","commander boundary","execution","command collaborator",
-"QuartzJobServiceImpl","commander boundary","delete","command collaborator",
-"QuartzJobServiceImpl","commander boundary","executionSubJob","command collaborator",
-"QuartzJobServiceImpl","commander boundary","download","controller stateless",
-"QuartzJobServiceImpl","commander boundary","downloadLog","controller stateless",
-"DictController","entity factory controller","exportDict","command collaborator",
-"DictController","entity factory controller","queryAllDict","property non-void-command factory collaborator",
-"DictController","entity factory controller","queryDict","property non-void-command factory collaborator",
-"DictController","entity factory controller","createDict","property non-void-command factory collaborator",
-"DictController","entity factory controller","updateDict","property non-void-command factory collaborator",
-"DictController","entity factory controller","deleteDict","property non-void-command factory collaborator",
-"DictDetailController","entity factory controller","queryDictDetail","property non-void-command factory collaborator",
-"DictDetailController","entity factory controller","getDictDetailMaps","property non-void-command factory collaborator",
-"DictDetailController","entity factory controller","createDictDetail","property non-void-command factory collaborator",
-"DictDetailController","entity factory controller","updateDictDetail","property non-void-command factory collaborator",
-"DictDetailController","entity factory controller","deleteDictDetail","property non-void-command factory collaborator",
-"JobController","entity factory controller","exportJob","command collaborator",
-"JobController","entity factory controller","queryJob","property non-void-command factory collaborator",
-"JobController","entity factory controller","createJob","property non-void-command factory collaborator",
-"JobController","entity factory controller","updateJob","property non-void-command factory collaborator",
-"JobController","entity factory controller","deleteJob","property non-void-command factory collaborator",
-"MenuController","entity factory controller","exportMenu","command collaborator",
-"MenuController","entity factory controller","buildMenus","property non-void-command factory collaborator",
-"MenuController","entity factory controller","queryAllMenu","property non-void-command factory collaborator",
-"MenuController","entity factory controller","childMenu","property non-void-command factory collaborator",
-"MenuController","entity factory controller","queryMenu","property non-void-command factory collaborator",
-"MenuController","entity factory controller","getMenuSuperior","property non-void-command factory collaborator",
-"MenuController","entity factory controller","createMenu","property non-void-command factory collaborator",
-"MenuController","entity factory controller","updateMenu","property non-void-command factory collaborator",
-"MenuController","entity factory controller","deleteMenu","property non-void-command factory collaborator",
-"MonitorController","entity factory controller small-class","queryMonitor","property non-void-command factory collaborator",
-"DictServiceImpl","commander boundary","queryAll","property non-void-command collaborator",
-"DictServiceImpl","commander boundary","queryAll","property non-void-command collaborator",
-"DictServiceImpl","commander boundary","create","command collaborator",
-"DictServiceImpl","commander boundary","update","command collaborator",
-"DictServiceImpl","commander boundary","delete","command collaborator",
-"DictServiceImpl","commander boundary","download","controller stateless",
-"DictServiceImpl","commander boundary","delCaches","command collaborator",
-"UserController","entity factory controller","exportUser","command collaborator",
-"UserController","entity factory controller","queryUser","property non-void-command factory collaborator",
-"UserController","entity factory controller","createUser","property non-void-command factory collaborator",
-"UserController","entity factory controller","updateUser","property non-void-command factory collaborator",
-"UserController","entity factory controller","centerUser","property non-void-command factory collaborator",
-"UserController","entity factory controller","deleteUser","property non-void-command factory collaborator",
-"UserController","entity factory controller","updateUserPass","property non-void-command factory collaborator",
-"UserController","entity factory controller","resetPwd","property non-void-command factory collaborator",
-"UserController","entity factory controller","updateUserAvatar","property non-void-command factory collaborator",
-"UserController","entity factory controller","updateUserEmail","property non-void-command factory collaborator",
-"UserController","entity factory controller","checkLevel","command collaborator",
-"VerifyController","entity factory controller","resetEmail","property non-void-command factory collaborator",
-"VerifyController","entity factory controller","resetPass","property non-void-command factory collaborator",
-"VerifyController","entity factory controller","validated","property non-void-command factory collaborator",
-"ExecuteShellUtil","unclassified","ExecuteShellUtil","constructor",
-"ExecuteShellUtil","unclassified","execute","property non-void-command",
-"ExecuteShellUtil","unclassified","close","command",
-"ExecuteShellUtil","unclassified","executeForResult","property non-void-command",
-"DeptDto","data-provider boundary","getHasChildren","property collaborator",
-"DeptDto","data-provider boundary","getLeaf","property collaborator",
-"DeptDto","data-provider boundary","getLabel","get",
-"DeptDto","data-provider boundary","equals","predicate controller",
-"DeptDto","data-provider boundary","hashCode","property wrapper",
-"JobDto","empty","JobDto","constructor",
-"ServerDeploy","unclassified","copy","wrapper",
-"ServerDeploy","unclassified","equals","predicate controller",
-"ServerDeploy","unclassified","hashCode","property wrapper",
-"MenuDto","data-provider boundary","getHasChildren","property collaborator",
-"MenuDto","data-provider boundary","getLeaf","property collaborator",
-"MenuDto","data-provider boundary","getLabel","get",
-"MenuDto","data-provider boundary","equals","predicate controller",
-"MenuDto","data-provider boundary","hashCode","property wrapper",
-"MenuServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"MenuServiceImpl","boundary","findById","property non-void-command collaborator",
-"MenuServiceImpl","boundary","findByUser","property non-void-command collaborator",
-"MenuServiceImpl","boundary","create","command collaborator",
-"MenuServiceImpl","boundary","update","command collaborator",
-"MenuServiceImpl","boundary","getChildMenus","property non-void-command collaborator",
-"MenuServiceImpl","boundary","delete","command collaborator",
-"MenuServiceImpl","boundary","getMenus","property non-void-command collaborator",
-"MenuServiceImpl","boundary","getSuperior","property non-void-command collaborator",
-"MenuServiceImpl","boundary","buildTree","factory controller stateless",
-"MenuServiceImpl","boundary","buildMenus","non-void-command factory collaborator",
-"MenuServiceImpl","boundary","findOne","property non-void-command collaborator",
-"MenuServiceImpl","boundary","download","controller",
-"MenuServiceImpl","boundary","updateSubCnt","command",
-"MenuServiceImpl","boundary","delCaches","command collaborator",
-"FileProperties","controller data-class small-class","getPath","get controller",
-"SysLogServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"SysLogServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"SysLogServiceImpl","boundary","queryAllByUser","property non-void-command collaborator",
-"SysLogServiceImpl","boundary","save","command collaborator",
-"SysLogServiceImpl","boundary","getParameter","controller stateless",
-"SysLogServiceImpl","boundary","findByErrDetail","property non-void-command collaborator",
-"SysLogServiceImpl","boundary","download","controller stateless",
-"SysLogServiceImpl","boundary","delAllByError","command",
-"SysLogServiceImpl","boundary","delAllByInfo","command",
-"LoginCode","data-provider boundary data-class small-class","getCodeType","get collaborator",
-"DeptServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"DeptServiceImpl","boundary","findById","property non-void-command collaborator",
-"DeptServiceImpl","boundary","findByPid","property non-void-command collaborator",
-"DeptServiceImpl","boundary","findByRoleId","property non-void-command collaborator",
-"DeptServiceImpl","boundary","create","command collaborator",
-"DeptServiceImpl","boundary","update","command collaborator",
-"DeptServiceImpl","boundary","delete","command collaborator",
-"DeptServiceImpl","boundary","download","controller stateless",
-"DeptServiceImpl","boundary","getDeleteDepts","property non-void-command collaborator",
-"DeptServiceImpl","boundary","getDeptChildren","property non-void-command collaborator",
-"DeptServiceImpl","boundary","getSuperior","property non-void-command collaborator",
-"DeptServiceImpl","boundary","buildTree","non-void-command factory collaborator",
-"DeptServiceImpl","boundary","verification","command collaborator",
-"DeptServiceImpl","boundary","updateSubCnt","command",
-"DeptServiceImpl","boundary","deduplication","factory controller stateless",
-"DeptServiceImpl","boundary","delCaches","command collaborator",
-"JobServiceImpl","commander boundary","queryAll","property non-void-command collaborator",
-"JobServiceImpl","commander boundary","queryAll","property non-void-command collaborator",
-"JobServiceImpl","commander boundary","findById","property non-void-command collaborator",
-"JobServiceImpl","commander boundary","create","command collaborator",
-"JobServiceImpl","commander boundary","update","command collaborator",
-"JobServiceImpl","commander boundary","delete","command",
-"JobServiceImpl","commander boundary","download","controller stateless",
-"JobServiceImpl","commander boundary","verification","command",
-"VerifyServiceImpl","small-class","sendEmail","non-void-command factory collaborator",
-"VerifyServiceImpl","small-class","validated","command collaborator",
-"MultipartConfig","pure-controller degenerate small-class","multipartConfigElement","controller stateless",
-"EladminSystemApplicationTests","degenerate small-class","contextLoads","empty",
-"GeneratorServiceImpl","boundary","getTables","property non-void-command collaborator",
-"GeneratorServiceImpl","boundary","getTables","property non-void-command collaborator",
-"GeneratorServiceImpl","boundary","getColumns","property non-void-command collaborator",
-"GeneratorServiceImpl","boundary","query","non-void-command factory collaborator",
-"GeneratorServiceImpl","boundary","sync","command collaborator",
-"GeneratorServiceImpl","boundary","save","command collaborator",
-"GeneratorServiceImpl","boundary","generator","command collaborator",
-"GeneratorServiceImpl","boundary","preview","property factory controller",
-"GeneratorServiceImpl","boundary","download","controller",
-"LocalStorage","boundary small-class","LocalStorage","constructor",
-"LocalStorage","boundary small-class","copy","wrapper",
-"DataServiceImpl","entity boundary small-class","getDeptIds","property non-void-command collaborator",
-"DataServiceImpl","entity boundary small-class","getCustomize","property non-void-command collaborator",
-"QuartzRunnable","entity boundary small-class","QuartzRunnable","constructor",
-"QuartzRunnable","entity boundary small-class","call","property non-void-command collaborator",
-"AliPayController","entity","queryAliConfig","property non-void-command factory collaborator",
-"AliPayController","entity","updateAliPayConfig","property non-void-command factory collaborator",
-"AliPayController","entity","toPayAsPc","property non-void-command collaborator",
-"AliPayController","entity","toPayAsWeb","property non-void-command collaborator",
-"AliPayController","entity","returnPage","property non-void-command factory collaborator",
-"AliPayController","entity","notify","property non-void-command factory collaborator",
-"CallBack","small-class","getCallBackName","property non-void-command",
-"LocalStorageServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"LocalStorageServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"LocalStorageServiceImpl","boundary","findById","property non-void-command collaborator",
-"LocalStorageServiceImpl","boundary","create","property non-void-command collaborator",
-"LocalStorageServiceImpl","boundary","update","command collaborator",
-"LocalStorageServiceImpl","boundary","deleteAll","command collaborator",
-"LocalStorageServiceImpl","boundary","download","controller stateless",
-"QiNiuServiceImpl","boundary","find","property non-void-command collaborator",
-"QiNiuServiceImpl","boundary","config","property non-void-command collaborator",
-"QiNiuServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"QiNiuServiceImpl","boundary","queryAll","property non-void-command collaborator",
-"QiNiuServiceImpl","boundary","upload","property non-void-command collaborator",
-"QiNiuServiceImpl","boundary","findByContentId","property non-void-command collaborator",
-"QiNiuServiceImpl","boundary","download","controller stateless",
-"QiNiuServiceImpl","boundary","delete","command collaborator",
-"QiNiuServiceImpl","boundary","synchronize","command collaborator",
-"QiNiuServiceImpl","boundary","deleteAll","command collaborator",
-"QiNiuServiceImpl","boundary","update","command",
-"QiNiuServiceImpl","boundary","downloadList","controller stateless",
+"AlipayUtils","pure-controller degenerate small-class","getOrderCode","controller stateless"
+"AlipayUtils","pure-controller degenerate small-class","rsaCheck","controller stateless"
+"QiNiuServiceImpl","boundary","find","property non-void-command collaborator"
+"QiNiuServiceImpl","boundary","config","property non-void-command collaborator"
+"QiNiuServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"QiNiuServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"QiNiuServiceImpl","boundary","upload","property non-void-command collaborator"
+"QiNiuServiceImpl","boundary","findByContentId","property non-void-command collaborator"
+"QiNiuServiceImpl","boundary","download","controller stateless"
+"QiNiuServiceImpl","boundary","delete","command collaborator"
+"QiNiuServiceImpl","boundary","synchronize","command collaborator"
+"QiNiuServiceImpl","boundary","deleteAll","command collaborator"
+"QiNiuServiceImpl","boundary","update","command"
+"QiNiuServiceImpl","boundary","downloadList","controller stateless"
+"AliPayServiceImpl","unclassified","find","property non-void-command collaborator"
+"AliPayServiceImpl","unclassified","config","property non-void-command collaborator"
+"AliPayServiceImpl","unclassified","toPayAsPc","controller stateless"
+"AliPayServiceImpl","unclassified","toPayAsWeb","controller stateless"
+"WebSocketServer","unclassified","onOpen","command collaborator"
+"WebSocketServer","unclassified","onClose","command"
+"WebSocketServer","unclassified","onMessage","controller"
+"WebSocketServer","unclassified","onError","controller stateless"
+"WebSocketServer","unclassified","sendMessage","command"
+"WebSocketServer","unclassified","equals","predicate controller"
+"WebSocketServer","unclassified","hashCode","property wrapper"
+"ServerDeployServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"ServerDeployServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"ServerDeployServiceImpl","boundary","findById","property non-void-command collaborator"
+"ServerDeployServiceImpl","boundary","findByIp","property non-void-command collaborator"
+"ServerDeployServiceImpl","boundary","testConnect","controller stateless"
+"ServerDeployServiceImpl","boundary","create","command collaborator"
+"ServerDeployServiceImpl","boundary","update","command collaborator"
+"ServerDeployServiceImpl","boundary","delete","command"
+"ServerDeployServiceImpl","boundary","download","controller stateless"
+"GeneratorController","entity factory controller","queryAllTables","property non-void-command factory collaborator"
+"GeneratorController","entity factory controller","queryTables","property non-void-command factory collaborator"
+"GeneratorController","entity factory controller","queryColumns","property non-void-command factory collaborator"
+"GeneratorController","entity factory controller","saveColumn","property non-void-command factory collaborator"
+"GeneratorController","entity factory controller","syncColumn","property non-void-command factory collaborator"
+"GeneratorController","entity factory controller","generatorCode","property non-void-command factory collaborator"
+"User","small-class","equals","predicate controller"
+"User","small-class","hashCode","property wrapper"
+"DataTypeEnum","data-provider data-class","DataTypeEnum","constructor"
+"DataTypeEnum","data-provider data-class","getFeature","get"
+"DataTypeEnum","data-provider data-class","getDesc","get"
+"DataTypeEnum","data-provider data-class","getDriver","get"
+"DataTypeEnum","data-provider data-class","getKeywordPrefix","get"
+"DataTypeEnum","data-provider data-class","getKeywordSuffix","get"
+"DataTypeEnum","data-provider data-class","getAliasPrefix","get"
+"DataTypeEnum","data-provider data-class","getAliasSuffix","get"
+"DeployServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"DeployServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"DeployServiceImpl","boundary","findById","property non-void-command collaborator"
+"DeployServiceImpl","boundary","create","command collaborator"
+"DeployServiceImpl","boundary","update","command collaborator"
+"DeployServiceImpl","boundary","delete","command"
+"DeployServiceImpl","boundary","deploy","command"
+"DeployServiceImpl","boundary","deployApp","command"
+"DeployServiceImpl","boundary","sleep","wrapper stateless"
+"DeployServiceImpl","boundary","backupApp","command collaborator"
+"DeployServiceImpl","boundary","stopApp","controller stateless"
+"DeployServiceImpl","boundary","checkIsRunningStatus","controller stateless"
+"DeployServiceImpl","boundary","sendMsg","wrapper stateless"
+"DeployServiceImpl","boundary","serverStatus","property non-void-command collaborator"
+"DeployServiceImpl","boundary","checkFile","controller stateless"
+"DeployServiceImpl","boundary","startServer","property non-void-command collaborator"
+"DeployServiceImpl","boundary","stopServer","property non-void-command collaborator"
+"DeployServiceImpl","boundary","serverReduction","property non-void-command collaborator"
+"DeployServiceImpl","boundary","getExecuteShellUtil","property non-void-command factory collaborator"
+"DeployServiceImpl","boundary","getScpClientUtil","property non-void-command collaborator"
+"DeployServiceImpl","boundary","sendResultMsg","command collaborator"
+"DeployServiceImpl","boundary","download","controller stateless"
+"DeployController","entity factory controller","exportDeployData","command collaborator"
+"DeployController","entity factory controller","queryDeployData","property non-void-command factory collaborator"
+"DeployController","entity factory controller","createDeploy","property non-void-command factory collaborator"
+"DeployController","entity factory controller","updateDeploy","property non-void-command factory collaborator"
+"DeployController","entity factory controller","deleteDeploy","property non-void-command factory collaborator"
+"DeployController","entity factory controller","uploadDeploy","property non-void-command factory collaborator"
+"DeployController","entity factory controller","serverReduction","property non-void-command factory collaborator"
+"DeployController","entity factory controller","serverStatus","property non-void-command factory collaborator"
+"DeployController","entity factory controller","startServer","property non-void-command factory collaborator"
+"DeployController","entity factory controller","stopServer","property non-void-command factory collaborator"
+"DeployHistoryServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"DeployHistoryServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"DeployHistoryServiceImpl","boundary","findById","property non-void-command collaborator"
+"DeployHistoryServiceImpl","boundary","create","command collaborator"
+"DeployHistoryServiceImpl","boundary","delete","command"
+"DeployHistoryServiceImpl","boundary","download","controller stateless"
+"DatabaseServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"DatabaseServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"DatabaseServiceImpl","boundary","findById","property non-void-command collaborator"
+"DatabaseServiceImpl","boundary","create","command collaborator"
+"DatabaseServiceImpl","boundary","update","command collaborator"
+"DatabaseServiceImpl","boundary","delete","command"
+"DatabaseServiceImpl","boundary","testConnection","controller stateless"
+"DatabaseServiceImpl","boundary","download","controller stateless"
+"ServerDeployDto","small-class","equals","predicate controller"
+"ServerDeployDto","small-class","hashCode","property wrapper"
+"DeployDto","data-provider","getServers","get property non-void-command"
+"DeployDto","data-provider","equals","predicate controller"
+"DeployDto","data-provider","hashCode","property wrapper"
+"AliPayStatusEnum","data-provider data-class small-class","AliPayStatusEnum","constructor"
+"AliPayStatusEnum","data-provider data-class small-class","getValue","get"
+"DeployHistoryController","entity","exportDeployHistory","command collaborator"
+"DeployHistoryController","entity","queryDeployHistory","property non-void-command factory collaborator"
+"DeployHistoryController","entity","deleteDeployHistory","property non-void-command factory collaborator"
+"App","boundary small-class","copy","wrapper"
+"TestTask","boundary degenerate","run","wrapper stateless"
+"TestTask","boundary degenerate","run1","wrapper stateless"
+"TestTask","boundary degenerate","run2","wrapper stateless"
+"LimitController","small-class","testLimit","property non-void-command"
+"CustomExecutorConfig","factory pure-controller degenerate small-class","elAsync","factory controller stateless"
+"CustomExecutorConfig","factory pure-controller degenerate small-class","otherAsync","factory controller stateless"
+"AsyncTaskProperties","degenerate","setCorePoolSize","incidental"
+"AsyncTaskProperties","degenerate","setMaxPoolSize","incidental"
+"AsyncTaskProperties","degenerate","setKeepAliveSeconds","incidental"
+"AsyncTaskProperties","degenerate","setQueueCapacity","incidental"
+"WebSocketConfig","factory degenerate small-class","serverEndpointExporter","factory collaborator stateless"
+"Deploy","boundary small-class","copy","wrapper"
+"FileUtilTest","boundary degenerate","testToFile","wrapper stateless"
+"FileUtilTest","boundary degenerate","testGetExtensionName","wrapper stateless"
+"FileUtilTest","boundary degenerate","testGetFileNameNoEx","wrapper stateless"
+"FileUtilTest","boundary degenerate","testGetSize","wrapper stateless"
+"DictDetailServiceImpl","entity commander boundary","queryAll","property non-void-command collaborator"
+"DictDetailServiceImpl","entity commander boundary","create","command collaborator"
+"DictDetailServiceImpl","entity commander boundary","update","command collaborator"
+"DictDetailServiceImpl","entity commander boundary","getDictByName","property non-void-command collaborator"
+"DictDetailServiceImpl","entity commander boundary","delete","command collaborator"
+"DictDetailServiceImpl","entity commander boundary","delCaches","command collaborator"
+"ConfigurerAdapter","controller degenerate","ConfigurerAdapter","constructor"
+"ConfigurerAdapter","controller degenerate","corsFilter","factory controller stateless"
+"ConfigurerAdapter","controller degenerate","addResourceHandlers","command collaborator"
+"ConfigurerAdapter","controller degenerate","configureMessageConverters","controller stateless"
+"AppController","entity factory controller","exportApp","command collaborator"
+"AppController","entity factory controller","queryApp","property non-void-command factory collaborator"
+"AppController","entity factory controller","createApp","property non-void-command factory collaborator"
+"AppController","entity factory controller","updateApp","property non-void-command factory collaborator"
+"AppController","entity factory controller","deleteApp","property non-void-command factory collaborator"
+"SysLogController","entity factory controller","exportLog","command collaborator"
+"SysLogController","entity factory controller","exportErrorLog","command collaborator"
+"SysLogController","entity factory controller","queryLog","property non-void-command factory collaborator"
+"SysLogController","entity factory controller","queryUserLog","property non-void-command factory collaborator"
+"SysLogController","entity factory controller","queryErrorLog","property non-void-command factory collaborator"
+"SysLogController","entity factory controller","queryErrorLogDetail","property non-void-command factory collaborator"
+"SysLogController","entity factory controller","delAllErrorLog","property non-void-command factory collaborator"
+"SysLogController","entity factory controller","delAllInfoLog","property non-void-command factory collaborator"
+"LocalStorageController","entity factory controller","queryFile","property non-void-command factory collaborator"
+"LocalStorageController","entity factory controller","exportFile","command collaborator"
+"LocalStorageController","entity factory controller","createFile","property non-void-command factory collaborator"
+"LocalStorageController","entity factory controller","uploadPicture","property non-void-command factory collaborator"
+"LocalStorageController","entity factory controller","updateFile","property non-void-command factory collaborator"
+"LocalStorageController","entity factory controller","deleteFile","property non-void-command factory collaborator"
+"RelaxedQueryCharsConnectorCustomizer","pure-controller degenerate small-class","customize","controller stateless"
+"QuartzManage","commander boundary","addJob","command collaborator"
+"QuartzManage","commander boundary","updateJobCron","command collaborator"
+"QuartzManage","commander boundary","deleteJob","command collaborator"
+"QuartzManage","commander boundary","resumeJob","command collaborator"
+"QuartzManage","commander boundary","runJobNow","command collaborator"
+"QuartzManage","commander boundary","pauseJob","command collaborator"
+"DeployHistory","boundary small-class","copy","wrapper"
+"AuditorConfig","boundary degenerate small-class","getCurrentAuditor","wrapper stateless"
+"GlobalExceptionHandler","unclassified","handleException","property non-void-command collaborator"
+"GlobalExceptionHandler","unclassified","badCredentialsException","property non-void-command collaborator"
+"GlobalExceptionHandler","unclassified","badRequestException","controller stateless"
+"GlobalExceptionHandler","unclassified","entityExistException","property non-void-command collaborator"
+"GlobalExceptionHandler","unclassified","entityNotFoundException","controller stateless"
+"GlobalExceptionHandler","unclassified","handleMethodArgumentNotValidException","property non-void-command collaborator"
+"GlobalExceptionHandler","unclassified","buildResponseEntity","factory controller stateless"
+"AppRun","degenerate small-class","springContextHolder","factory collaborator stateless"
+"AppRun","degenerate small-class","index","incidental"
+"BaseDTO","entity boundary small-class","toString","property non-void-command collaborator"
+"ApiError","empty","ApiError","constructor"
+"DateUtil","entity boundary small-class","localDateTimeFormatyMd","property non-void-command collaborator"
+"EntityExistException","empty","EntityExistException","constructor"
+"BadConfigurationException","empty","BadConfigurationException","constructor"
+"BadConfigurationException","empty","BadConfigurationException","constructor"
+"BadConfigurationException","empty","BadConfigurationException","constructor"
+"BadConfigurationException","empty","BadConfigurationException","constructor"
+"BadConfigurationException","empty","BadConfigurationException","constructor"
+"SysLog","empty","SysLog","constructor"
+"SwaggerConfig","factory controller","createRestApi","property non-void-command factory collaborator"
+"SwaggerConfig","factory controller","apiInfo","factory wrapper stateless"
+"SwaggerConfig","factory controller","securitySchemes","factory controller"
+"SwaggerConfig","factory controller","securityContexts","non-void-command factory collaborator"
+"SwaggerConfig","factory controller","getContextByPath","property non-void-command collaborator"
+"SwaggerConfig","factory controller","defaultAuth","factory controller"
+"SpringContextHolder","boundary lazy-class small-class","destroy","wrapper stateless"
+"SpringContextHolder","boundary lazy-class small-class","setApplicationContext","void-accessor set collaborator"
+"ServerDeployController","entity factory controller","exportServerDeploy","command collaborator"
+"ServerDeployController","entity factory controller","queryServerDeploy","property non-void-command factory collaborator"
+"ServerDeployController","entity factory controller","createServerDeploy","property non-void-command factory collaborator"
+"ServerDeployController","entity factory controller","updateServerDeploy","property non-void-command factory collaborator"
+"ServerDeployController","entity factory controller","deleteServerDeploy","property non-void-command factory collaborator"
+"ServerDeployController","entity factory controller","testConnectServerDeploy","property non-void-command factory collaborator"
+"OnlineController","entity","queryOnlineUser","property non-void-command factory collaborator"
+"OnlineController","entity","exportOnlineUser","command"
+"OnlineController","entity","deleteOnlineUser","property non-void-command factory collaborator"
+"RsaProperties","degenerate small-class","setPrivateKey","incidental"
+"Job","small-class","equals","predicate controller"
+"Job","small-class","hashCode","property wrapper"
+"LimitAspect","degenerate","LimitAspect","constructor"
+"LimitAspect","degenerate","pointcut","empty"
+"LimitAspect","degenerate","around","property non-void-command collaborator"
+"LimitAspect","degenerate","buildLuaScript","incidental"
+"Menu","small-class","equals","predicate controller"
+"Menu","small-class","hashCode","property wrapper"
+"AuthorityConfig","pure-controller degenerate small-class","check","controller stateless"
+"ScpClientUtil","unclassified","ScpClientUtil","constructor"
+"ScpClientUtil","unclassified","getFile","controller"
+"ScpClientUtil","unclassified","putFile","command"
+"ScpClientUtil","unclassified","putFile","command"
+"ScpClientUtil","unclassified","putFile","controller"
+"UserController","entity factory controller","exportUser","command collaborator"
+"UserController","entity factory controller","queryUser","property non-void-command factory collaborator"
+"UserController","entity factory controller","createUser","property non-void-command factory collaborator"
+"UserController","entity factory controller","updateUser","property non-void-command factory collaborator"
+"UserController","entity factory controller","centerUser","property non-void-command factory collaborator"
+"UserController","entity factory controller","deleteUser","property non-void-command factory collaborator"
+"UserController","entity factory controller","updateUserPass","property non-void-command factory collaborator"
+"UserController","entity factory controller","resetPwd","property non-void-command factory collaborator"
+"UserController","entity factory controller","updateUserAvatar","property non-void-command factory collaborator"
+"UserController","entity factory controller","updateUserEmail","property non-void-command factory collaborator"
+"UserController","entity factory controller","checkLevel","command collaborator"
+"StringRedisSerializer","small-class","StringRedisSerializer","constructor"
+"StringRedisSerializer","small-class","StringRedisSerializer","constructor"
+"StringRedisSerializer","small-class","deserialize","property"
+"StringRedisSerializer","small-class","serialize","property controller"
+"GenConfigServiceImpl","entity small-class","find","property non-void-command factory collaborator"
+"GenConfigServiceImpl","entity small-class","update","property non-void-command collaborator"
+"QuartzJobController","entity factory controller","queryQuartzJob","property non-void-command factory collaborator"
+"QuartzJobController","entity factory controller","exportQuartzJob","command collaborator"
+"QuartzJobController","entity factory controller","exportQuartzJobLog","command collaborator"
+"QuartzJobController","entity factory controller","queryQuartzJobLog","property non-void-command factory collaborator"
+"QuartzJobController","entity factory controller","createQuartzJob","property non-void-command factory collaborator"
+"QuartzJobController","entity factory controller","updateQuartzJob","property non-void-command factory collaborator"
+"QuartzJobController","entity factory controller","updateQuartzJobStatus","property non-void-command factory collaborator"
+"QuartzJobController","entity factory controller","executionQuartzJob","property non-void-command factory collaborator"
+"QuartzJobController","entity factory controller","deleteQuartzJob","property non-void-command factory collaborator"
+"QuartzJobController","entity factory controller","checkBean","wrapper stateless"
+"Database","boundary small-class","copy","wrapper"
+"UserServiceImpl","commander boundary","queryAll","property non-void-command collaborator"
+"UserServiceImpl","commander boundary","queryAll","property non-void-command collaborator"
+"UserServiceImpl","commander boundary","findById","property non-void-command collaborator"
+"UserServiceImpl","commander boundary","create","command collaborator"
+"UserServiceImpl","commander boundary","update","command collaborator"
+"UserServiceImpl","commander boundary","updateCenter","command collaborator"
+"UserServiceImpl","commander boundary","delete","command collaborator"
+"UserServiceImpl","commander boundary","findByName","property non-void-command collaborator"
+"UserServiceImpl","commander boundary","getLoginData","property non-void-command collaborator"
+"UserServiceImpl","commander boundary","updatePass","command"
+"UserServiceImpl","commander boundary","resetPwd","command"
+"UserServiceImpl","commander boundary","updateAvatar","property non-void-command collaborator"
+"UserServiceImpl","commander boundary","updateEmail","command"
+"UserServiceImpl","commander boundary","download","controller stateless"
+"UserServiceImpl","commander boundary","delCaches","command"
+"UserServiceImpl","commander boundary","flushCache","command"
+"SwaggerDataConfig","factory pure-controller degenerate small-class","pageableConvention","factory controller stateless"
+"LocalStorageServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"LocalStorageServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"LocalStorageServiceImpl","boundary","findById","property non-void-command collaborator"
+"LocalStorageServiceImpl","boundary","create","property non-void-command collaborator"
+"LocalStorageServiceImpl","boundary","update","command collaborator"
+"LocalStorageServiceImpl","boundary","deleteAll","command collaborator"
+"LocalStorageServiceImpl","boundary","download","controller stateless"
+"CallBack","small-class","getCallBackName","property non-void-command"
+"UserDetailsServiceImpl","factory controller small-class","loadUserByUsername","non-void-command factory collaborator"
+"ExecutionJob","controller small-class","executeInternal","command collaborator"
+"ExecutionJob","controller small-class","taskAlarm","factory controller stateless"
+"RedisUtils","unclassified","RedisUtils","constructor"
+"RedisUtils","unclassified","expire","predicate non-void-command"
+"RedisUtils","unclassified","expire","predicate non-void-command collaborator"
+"RedisUtils","unclassified","getExpire","property non-void-command collaborator"
+"RedisUtils","unclassified","scan","property non-void-command"
+"RedisUtils","unclassified","findKeysForPage","property non-void-command"
+"RedisUtils","unclassified","hasKey","predicate non-void-command"
+"RedisUtils","unclassified","del","command"
+"RedisUtils","unclassified","scanDel","command collaborator"
+"RedisConfig","degenerate","redisCacheConfiguration","controller stateless"
+"RedisConfig","degenerate","redisTemplate","factory controller stateless"
+"RedisConfig","degenerate","keyGenerator","controller stateless"
+"RedisConfig","degenerate","errorHandler","factory wrapper stateless"
+"EncryptUtilsTest","boundary degenerate small-class","testDesEncrypt","wrapper stateless"
+"EncryptUtilsTest","boundary degenerate small-class","testDesDecrypt","wrapper stateless"
+"EntityNotFoundException","empty","EntityNotFoundException","constructor"
+"RoleDto","small-class","equals","predicate controller"
+"RoleDto","small-class","hashCode","property wrapper"
+"GenConfigController","entity factory controller small-class","queryGenConfig","property non-void-command factory collaborator"
+"GenConfigController","entity factory controller small-class","updateGenConfig","property non-void-command factory collaborator"
+"LogAspect","entity boundary","LogAspect","constructor"
+"LogAspect","entity boundary","logPointcut","empty"
+"LogAspect","entity boundary","logAround","property non-void-command collaborator"
+"LogAspect","entity boundary","logAfterThrowing","command collaborator"
+"LogAspect","entity boundary","getUsername","wrapper stateless"
+"StringUtilsTest","boundary degenerate","testToCamelCase","wrapper stateless"
+"StringUtilsTest","boundary degenerate","testToCapitalizeCamelCase","wrapper stateless"
+"StringUtilsTest","boundary degenerate","testToUnderScoreCase","wrapper stateless"
+"StringUtilsTest","boundary degenerate","testGetWeekDay","controller stateless"
+"StringUtilsTest","boundary degenerate","testGetIP","wrapper stateless"
+"RoleController","entity factory controller","findRoleById","property non-void-command factory collaborator"
+"RoleController","entity factory controller","exportRole","command collaborator"
+"RoleController","entity factory controller","queryAllRole","property non-void-command factory collaborator"
+"RoleController","entity factory controller","queryRole","property non-void-command factory collaborator"
+"RoleController","entity factory controller","getRoleLevel","property non-void-command factory collaborator"
+"RoleController","entity factory controller","createRole","property non-void-command factory collaborator"
+"RoleController","entity factory controller","updateRole","property non-void-command factory collaborator"
+"RoleController","entity factory controller","updateRoleMenu","property non-void-command factory collaborator"
+"RoleController","entity factory controller","deleteRole","property non-void-command factory collaborator"
+"RoleController","entity factory controller","getLevels","property non-void-command"
+"GenConfig","empty","GenConfig","constructor"
+"EmailServiceImpl","unclassified","config","property non-void-command collaborator"
+"EmailServiceImpl","unclassified","find","property non-void-command collaborator"
+"EmailServiceImpl","unclassified","send","controller stateless"
+"ColumnInfo","empty","ColumnInfo","constructor"
+"RoleServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"RoleServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"RoleServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"RoleServiceImpl","boundary","findById","property non-void-command collaborator"
+"RoleServiceImpl","boundary","create","command collaborator"
+"RoleServiceImpl","boundary","update","command collaborator"
+"RoleServiceImpl","boundary","updateMenu","command collaborator"
+"RoleServiceImpl","boundary","untiedMenu","command"
+"RoleServiceImpl","boundary","delete","command"
+"RoleServiceImpl","boundary","findByUsersId","property non-void-command collaborator"
+"RoleServiceImpl","boundary","findByRoles","property non-void-command collaborator"
+"RoleServiceImpl","boundary","mapToGrantedAuthorities","property non-void-command collaborator"
+"RoleServiceImpl","boundary","download","controller stateless"
+"RoleServiceImpl","boundary","verification","command"
+"RoleServiceImpl","boundary","findInMenuId","property non-void-command collaborator"
+"RoleServiceImpl","boundary","delCaches","command collaborator"
+"AppServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"AppServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"AppServiceImpl","boundary","findById","property non-void-command collaborator"
+"AppServiceImpl","boundary","create","command collaborator"
+"AppServiceImpl","boundary","update","command collaborator"
+"AppServiceImpl","boundary","verification","controller stateless"
+"AppServiceImpl","boundary","delete","command"
+"AppServiceImpl","boundary","download","controller stateless"
+"Role","small-class","equals","predicate controller"
+"Role","small-class","hashCode","property wrapper"
+"QiniuController","entity factory controller","queryQiNiuConfig","property non-void-command factory collaborator"
+"QiniuController","entity factory controller","updateQiNiuConfig","property non-void-command factory collaborator"
+"QiniuController","entity factory controller","exportQiNiu","command collaborator"
+"QiniuController","entity factory controller","queryQiNiu","property non-void-command factory collaborator"
+"QiniuController","entity factory controller","uploadQiNiu","property non-void-command factory collaborator"
+"QiniuController","entity factory controller","synchronizeQiNiu","property non-void-command factory collaborator"
+"QiniuController","entity factory controller","downloadQiNiu","property non-void-command factory collaborator"
+"QiniuController","entity factory controller","deleteQiNiu","property non-void-command factory collaborator"
+"QiniuController","entity factory controller","deleteAllQiNiu","property non-void-command factory collaborator"
+"Dept","small-class","equals","predicate controller"
+"Dept","small-class","hashCode","property wrapper"
+"ConfigBeanConfiguration","factory degenerate small-class","loginProperties","factory collaborator stateless"
+"ConfigBeanConfiguration","factory degenerate small-class","securityProperties","factory collaborator stateless"
+"SpringSecurityConfig","controller degenerate","grantedAuthorityDefaults","factory collaborator stateless"
+"SpringSecurityConfig","controller degenerate","passwordEncoder","factory collaborator stateless"
+"SpringSecurityConfig","controller degenerate","configure","command collaborator"
+"SpringSecurityConfig","controller degenerate","securityConfigurerAdapter","property factory collaborator"
+"SpringSecurityConfig","controller degenerate","getAnonymousUrl","controller stateless"
+"BadRequestException","empty","BadRequestException","constructor"
+"BadRequestException","empty","BadRequestException","constructor"
+"LoginProperties","unclassified","isSingleLogin","get"
+"LoginProperties","unclassified","getCaptcha","property non-void-command collaborator"
+"LoginProperties","unclassified","switchCaptcha","factory controller stateless"
+"DateUtilsTest","degenerate small-class","test1","wrapper stateless"
+"DateUtilsTest","degenerate small-class","test2","controller stateless"
+"SecurityProperties","data-provider small-class","getTokenStartWith","property"
+"AuthorizationController","entity boundary","login","property non-void-command collaborator"
+"AuthorizationController","entity boundary","getUserInfo","wrapper stateless"
+"AuthorizationController","entity boundary","getCode","property non-void-command collaborator"
+"AuthorizationController","entity boundary","logout","property non-void-command factory collaborator"
+"JwtAccessDeniedHandler","pure-controller degenerate small-class","handle","controller stateless"
+"FastJsonRedisSerializer<T>","data-provider boundary small-class","FastJsonRedisSerializer","constructor"
+"FastJsonRedisSerializer<T>","data-provider boundary small-class","serialize","wrapper stateless"
+"FastJsonRedisSerializer<T>","data-provider boundary small-class","deserialize","property wrapper"
+"JwtAuthenticationEntryPoint","pure-controller degenerate small-class","commence","controller stateless"
+"TokenConfigurer","pure-controller small-class","configure","controller"
+"TokenFilter","entity boundary small-class","TokenFilter","constructor"
+"TokenFilter","entity boundary small-class","doFilter","command collaborator"
+"TokenFilter","entity boundary small-class","resolveToken","property non-void-command collaborator"
+"TokenProvider","boundary","TokenProvider","constructor"
+"TokenProvider","boundary","afterPropertiesSet","command collaborator"
+"TokenProvider","boundary","createToken","property controller"
+"TokenProvider","boundary","getAuthentication","property non-void-command factory collaborator"
+"TokenProvider","boundary","getClaims","property non-void-command collaborator"
+"TokenProvider","boundary","checkRenewal","command"
+"TokenProvider","boundary","getToken","property non-void-command collaborator"
+"TokenProvider","boundary","loginKey","property non-void-command"
+"OnlineUserService","commander boundary","save","command collaborator"
+"OnlineUserService","commander boundary","getAll","property non-void-command collaborator"
+"OnlineUserService","commander boundary","getAll","non-void-command factory collaborator"
+"OnlineUserService","commander boundary","logout","command"
+"OnlineUserService","commander boundary","download","controller stateless"
+"OnlineUserService","commander boundary","getOne","property non-void-command collaborator"
+"OnlineUserService","commander boundary","kickOutForUsername","command"
+"UserCacheManager","entity commander boundary","getUserCache","property non-void-command collaborator"
+"UserCacheManager","entity commander boundary","addUserCache","command collaborator"
+"UserCacheManager","entity commander boundary","cleanUserCache","command"
+"BaseEntity","entity boundary small-class","toString","property non-void-command collaborator"
+"EmailController","entity factory controller","queryEmailConfig","property non-void-command factory collaborator"
+"EmailController","entity factory controller","updateEmailConfig","property non-void-command factory collaborator"
+"EmailController","entity factory controller","sendEmail","property non-void-command factory collaborator"
+"JwtUserDto","unclassified","getRoles","property non-void-command"
+"JwtUserDto","unclassified","getPassword","property non-void-command"
+"JwtUserDto","unclassified","getUsername","property non-void-command"
+"JwtUserDto","unclassified","isAccountNonExpired","incidental"
+"JwtUserDto","unclassified","isAccountNonLocked","incidental"
+"JwtUserDto","unclassified","isCredentialsNonExpired","incidental"
+"JwtUserDto","unclassified","isEnabled","predicate non-void-command"
+"JobRunner","commander boundary small-class","run","command collaborator"
+"DatabaseController","entity factory controller","exportDatabase","command collaborator"
+"DatabaseController","entity factory controller","queryDatabase","property non-void-command factory collaborator"
+"DatabaseController","entity factory controller","createDatabase","property non-void-command factory collaborator"
+"DatabaseController","entity factory controller","updateDatabase","property non-void-command factory collaborator"
+"DatabaseController","entity factory controller","deleteDatabase","property non-void-command factory collaborator"
+"DatabaseController","entity factory controller","testConnect","property non-void-command factory collaborator"
+"DatabaseController","entity factory controller","uploadDatabase","property non-void-command factory collaborator"
+"SocketMsg","empty","SocketMsg","constructor"
+"DeptController","entity factory controller","exportDept","command collaborator"
+"DeptController","entity factory controller","queryDept","property non-void-command factory collaborator"
+"DeptController","entity factory controller","getDeptSuperior","property non-void-command factory collaborator"
+"DeptController","entity factory controller","createDept","property non-void-command factory collaborator"
+"DeptController","entity factory controller","updateDept","property non-void-command factory collaborator"
+"DeptController","entity factory controller","deleteDept","property non-void-command factory collaborator"
+"MonitorServiceImpl","factory controller","getServers","non-void-command factory collaborator"
+"MonitorServiceImpl","factory controller","getDiskInfo","non-void-command factory collaborator"
+"MonitorServiceImpl","factory controller","getSwapInfo","non-void-command factory collaborator"
+"MonitorServiceImpl","factory controller","getMemoryInfo","non-void-command factory collaborator"
+"MonitorServiceImpl","factory controller","getCpuInfo","non-void-command factory collaborator"
+"MonitorServiceImpl","factory controller","getSystemInfo","factory controller stateless"
+"QuartzJobServiceImpl","commander boundary","queryAll","property non-void-command collaborator"
+"QuartzJobServiceImpl","commander boundary","queryAllLog","property non-void-command collaborator"
+"QuartzJobServiceImpl","commander boundary","queryAll","property non-void-command collaborator"
+"QuartzJobServiceImpl","commander boundary","queryAllLog","property non-void-command collaborator"
+"QuartzJobServiceImpl","commander boundary","findById","property non-void-command collaborator"
+"QuartzJobServiceImpl","commander boundary","create","command collaborator"
+"QuartzJobServiceImpl","commander boundary","update","command collaborator"
+"QuartzJobServiceImpl","commander boundary","updateIsPause","command collaborator"
+"QuartzJobServiceImpl","commander boundary","execution","command collaborator"
+"QuartzJobServiceImpl","commander boundary","delete","command collaborator"
+"QuartzJobServiceImpl","commander boundary","executionSubJob","command collaborator"
+"QuartzJobServiceImpl","commander boundary","download","controller stateless"
+"QuartzJobServiceImpl","commander boundary","downloadLog","controller stateless"
+"DictController","entity factory controller","exportDict","command collaborator"
+"DictController","entity factory controller","queryAllDict","property non-void-command factory collaborator"
+"DictController","entity factory controller","queryDict","property non-void-command factory collaborator"
+"DictController","entity factory controller","createDict","property non-void-command factory collaborator"
+"DictController","entity factory controller","updateDict","property non-void-command factory collaborator"
+"DictController","entity factory controller","deleteDict","property non-void-command factory collaborator"
+"DictDetailController","entity factory controller","queryDictDetail","property non-void-command factory collaborator"
+"DictDetailController","entity factory controller","getDictDetailMaps","property non-void-command factory collaborator"
+"DictDetailController","entity factory controller","createDictDetail","property non-void-command factory collaborator"
+"DictDetailController","entity factory controller","updateDictDetail","property non-void-command factory collaborator"
+"DictDetailController","entity factory controller","deleteDictDetail","property non-void-command factory collaborator"
+"JobController","entity factory controller","exportJob","command collaborator"
+"JobController","entity factory controller","queryJob","property non-void-command factory collaborator"
+"JobController","entity factory controller","createJob","property non-void-command factory collaborator"
+"JobController","entity factory controller","updateJob","property non-void-command factory collaborator"
+"JobController","entity factory controller","deleteJob","property non-void-command factory collaborator"
+"MenuController","entity factory controller","exportMenu","command collaborator"
+"MenuController","entity factory controller","buildMenus","property non-void-command factory collaborator"
+"MenuController","entity factory controller","queryAllMenu","property non-void-command factory collaborator"
+"MenuController","entity factory controller","childMenu","property non-void-command factory collaborator"
+"MenuController","entity factory controller","queryMenu","property non-void-command factory collaborator"
+"MenuController","entity factory controller","getMenuSuperior","property non-void-command factory collaborator"
+"MenuController","entity factory controller","createMenu","property non-void-command factory collaborator"
+"MenuController","entity factory controller","updateMenu","property non-void-command factory collaborator"
+"MenuController","entity factory controller","deleteMenu","property non-void-command factory collaborator"
+"MonitorController","entity factory controller small-class","queryMonitor","property non-void-command factory collaborator"
+"DictServiceImpl","commander boundary","queryAll","property non-void-command collaborator"
+"DictServiceImpl","commander boundary","queryAll","property non-void-command collaborator"
+"DictServiceImpl","commander boundary","create","command collaborator"
+"DictServiceImpl","commander boundary","update","command collaborator"
+"DictServiceImpl","commander boundary","delete","command collaborator"
+"DictServiceImpl","commander boundary","download","controller stateless"
+"DictServiceImpl","commander boundary","delCaches","command collaborator"
+"VerifyController","entity factory controller","resetEmail","property non-void-command factory collaborator"
+"VerifyController","entity factory controller","resetPass","property non-void-command factory collaborator"
+"VerifyController","entity factory controller","validated","property non-void-command factory collaborator"
+"ExecuteShellUtil","unclassified","ExecuteShellUtil","constructor"
+"ExecuteShellUtil","unclassified","execute","property non-void-command"
+"ExecuteShellUtil","unclassified","close","command"
+"ExecuteShellUtil","unclassified","executeForResult","property non-void-command"
+"DeptDto","data-provider boundary","getHasChildren","property collaborator"
+"DeptDto","data-provider boundary","getLeaf","property collaborator"
+"DeptDto","data-provider boundary","getLabel","get"
+"DeptDto","data-provider boundary","equals","predicate controller"
+"DeptDto","data-provider boundary","hashCode","property wrapper"
+"JobDto","empty","JobDto","constructor"
+"ServerDeploy","unclassified","copy","wrapper"
+"ServerDeploy","unclassified","equals","predicate controller"
+"ServerDeploy","unclassified","hashCode","property wrapper"
+"MenuDto","data-provider boundary","getHasChildren","property collaborator"
+"MenuDto","data-provider boundary","getLeaf","property collaborator"
+"MenuDto","data-provider boundary","getLabel","get"
+"MenuDto","data-provider boundary","equals","predicate controller"
+"MenuDto","data-provider boundary","hashCode","property wrapper"
+"MenuServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"MenuServiceImpl","boundary","findById","property non-void-command collaborator"
+"MenuServiceImpl","boundary","findByUser","property non-void-command collaborator"
+"MenuServiceImpl","boundary","create","command collaborator"
+"MenuServiceImpl","boundary","update","command collaborator"
+"MenuServiceImpl","boundary","getChildMenus","property non-void-command collaborator"
+"MenuServiceImpl","boundary","delete","command collaborator"
+"MenuServiceImpl","boundary","getMenus","property non-void-command collaborator"
+"MenuServiceImpl","boundary","getSuperior","property non-void-command collaborator"
+"MenuServiceImpl","boundary","buildTree","factory controller stateless"
+"MenuServiceImpl","boundary","buildMenus","non-void-command factory collaborator"
+"MenuServiceImpl","boundary","findOne","property non-void-command collaborator"
+"MenuServiceImpl","boundary","download","controller"
+"MenuServiceImpl","boundary","updateSubCnt","command"
+"MenuServiceImpl","boundary","delCaches","command collaborator"
+"FileProperties","controller data-class small-class","getPath","get controller"
+"SysLogServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"SysLogServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"SysLogServiceImpl","boundary","queryAllByUser","property non-void-command collaborator"
+"SysLogServiceImpl","boundary","save","command collaborator"
+"SysLogServiceImpl","boundary","getParameter","controller stateless"
+"SysLogServiceImpl","boundary","findByErrDetail","property non-void-command collaborator"
+"SysLogServiceImpl","boundary","download","controller stateless"
+"SysLogServiceImpl","boundary","delAllByError","command"
+"SysLogServiceImpl","boundary","delAllByInfo","command"
+"LoginCode","data-provider boundary data-class small-class","getCodeType","get collaborator"
+"DeptServiceImpl","boundary","queryAll","property non-void-command collaborator"
+"DeptServiceImpl","boundary","findById","property non-void-command collaborator"
+"DeptServiceImpl","boundary","findByPid","property non-void-command collaborator"
+"DeptServiceImpl","boundary","findByRoleId","property non-void-command collaborator"
+"DeptServiceImpl","boundary","create","command collaborator"
+"DeptServiceImpl","boundary","update","command collaborator"
+"DeptServiceImpl","boundary","delete","command collaborator"
+"DeptServiceImpl","boundary","download","controller stateless"
+"DeptServiceImpl","boundary","getDeleteDepts","property non-void-command collaborator"
+"DeptServiceImpl","boundary","getDeptChildren","property non-void-command collaborator"
+"DeptServiceImpl","boundary","getSuperior","property non-void-command collaborator"
+"DeptServiceImpl","boundary","buildTree","non-void-command factory collaborator"
+"DeptServiceImpl","boundary","verification","command collaborator"
+"DeptServiceImpl","boundary","updateSubCnt","command"
+"DeptServiceImpl","boundary","deduplication","factory controller stateless"
+"DeptServiceImpl","boundary","delCaches","command collaborator"
+"JobServiceImpl","commander boundary","queryAll","property non-void-command collaborator"
+"JobServiceImpl","commander boundary","queryAll","property non-void-command collaborator"
+"JobServiceImpl","commander boundary","findById","property non-void-command collaborator"
+"JobServiceImpl","commander boundary","create","command collaborator"
+"JobServiceImpl","commander boundary","update","command collaborator"
+"JobServiceImpl","commander boundary","delete","command"
+"JobServiceImpl","commander boundary","download","controller stateless"
+"JobServiceImpl","commander boundary","verification","command"
+"VerifyServiceImpl","small-class","sendEmail","non-void-command factory collaborator"
+"VerifyServiceImpl","small-class","validated","command collaborator"
+"MultipartConfig","pure-controller degenerate small-class","multipartConfigElement","controller stateless"
+"EladminSystemApplicationTests","degenerate small-class","contextLoads","empty"
+"GeneratorServiceImpl","boundary","getTables","property non-void-command collaborator"
+"GeneratorServiceImpl","boundary","getTables","property non-void-command collaborator"
+"GeneratorServiceImpl","boundary","getColumns","property non-void-command collaborator"
+"GeneratorServiceImpl","boundary","query","non-void-command factory collaborator"
+"GeneratorServiceImpl","boundary","sync","command collaborator"
+"GeneratorServiceImpl","boundary","save","command collaborator"
+"GeneratorServiceImpl","boundary","generator","command collaborator"
+"GeneratorServiceImpl","boundary","preview","property factory controller"
+"GeneratorServiceImpl","boundary","download","controller"
+"LocalStorage","boundary small-class","LocalStorage","constructor"
+"LocalStorage","boundary small-class","copy","wrapper"
+"DataServiceImpl","entity boundary small-class","getDeptIds","property non-void-command collaborator"
+"DataServiceImpl","entity boundary small-class","getCustomize","property non-void-command collaborator"
+"QuartzRunnable","entity boundary small-class","QuartzRunnable","constructor"
+"QuartzRunnable","entity boundary small-class","call","property non-void-command collaborator"
+"AliPayController","entity","queryAliConfig","property non-void-command factory collaborator"
+"AliPayController","entity","updateAliPayConfig","property non-void-command factory collaborator"
+"AliPayController","entity","toPayAsPc","property non-void-command collaborator"
+"AliPayController","entity","toPayAsWeb","property non-void-command collaborator"
+"AliPayController","entity","returnPage","property non-void-command factory collaborator"
+"AliPayController","entity","notify","property non-void-command factory collaborator"

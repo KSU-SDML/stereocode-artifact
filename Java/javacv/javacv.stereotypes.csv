@@ -1,1233 +1,1230 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"VideoInputFrameGrabber","unclassified","VideoInputFrameGrabber","constructor",
-"VideoInputFrameGrabber","unclassified","release","command",
-"VideoInputFrameGrabber","unclassified","finalize","command",
-"VideoInputFrameGrabber","unclassified","getGamma","get property",
-"VideoInputFrameGrabber","unclassified","getImageWidth","property non-void-command",
-"VideoInputFrameGrabber","unclassified","getImageHeight","property non-void-command",
-"VideoInputFrameGrabber","unclassified","start","command",
-"VideoInputFrameGrabber","unclassified","start","command",
-"VideoInputFrameGrabber","unclassified","stop","set",
-"VideoInputFrameGrabber","unclassified","trigger","command",
-"VideoInputFrameGrabber","unclassified","grab","property non-void-command collaborator",
-"ReflectanceInitializer","data-provider","ReflectanceInitializer","constructor",
-"ReflectanceInitializer","data-provider","ReflectanceInitializer","constructor",
-"ReflectanceInitializer","data-provider","getProjectorImages","get collaborator",
-"ReflectanceInitializer","data-provider","initializeReflectance","property non-void-command collaborator",
-"ReflectanceInitializer","data-provider","initializePlaneParameters","property controller",
-"RealSense2FrameGrabber","entity boundary","RealSense2FrameGrabber","constructor",
-"RealSense2FrameGrabber","entity boundary","RealSense2FrameGrabber","constructor",
-"RealSense2FrameGrabber","entity boundary","getDeviceInfos","non-void-command factory collaborator",
-"RealSense2FrameGrabber","entity boundary","disableAllStreams","command",
-"RealSense2FrameGrabber","entity boundary","getEnabledStreams","get collaborator",
-"RealSense2FrameGrabber","entity boundary","enableStream","command collaborator",
-"RealSense2FrameGrabber","entity boundary","enableColorStream","wrapper stateless",
-"RealSense2FrameGrabber","entity boundary","enableDepthStream","wrapper stateless",
-"RealSense2FrameGrabber","entity boundary","enableIRStream","wrapper stateless",
-"RealSense2FrameGrabber","entity boundary","enableIRStream","command",
-"RealSense2FrameGrabber","entity boundary","open","command collaborator",
-"RealSense2FrameGrabber","entity boundary","start","command collaborator",
-"RealSense2FrameGrabber","entity boundary","stop","set",
-"RealSense2FrameGrabber","entity boundary","readNextFrameSet","set",
-"RealSense2FrameGrabber","entity boundary","trigger","set",
-"RealSense2FrameGrabber","entity boundary","grab","property non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","grab","property non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","getDistance","property non-void-command",
-"RealSense2FrameGrabber","entity boundary","grabColor","property non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","grabDepth","property non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","grabIR","property non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","grabIR","property non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","getLargestStreamByArea","property non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","grabCVFrame","property non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","findFrameByStreamType","property non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","release","wrapper",
-"RealSense2FrameGrabber","entity boundary","setSensorOption","command",
-"RealSense2FrameGrabber","entity boundary","setSensorOption","command collaborator",
-"RealSense2FrameGrabber","entity boundary","createContext","property wrapper",
-"RealSense2FrameGrabber","entity boundary","createDeviceList","property wrapper",
-"RealSense2FrameGrabber","entity boundary","createDevice","property wrapper",
-"RealSense2FrameGrabber","entity boundary","createPipeline","property wrapper",
-"RealSense2FrameGrabber","entity boundary","createConfig","property wrapper",
-"RealSense2FrameGrabber","entity boundary","getFrameTimeStamp","property wrapper",
-"RealSense2FrameGrabber","entity boundary","getDeviceCount","property non-void-command",
-"RealSense2FrameGrabber","entity boundary","getDeviceInfo","wrapper stateless",
-"RealSense2FrameGrabber","entity boundary","getSensorInfo","wrapper stateless",
-"RealSense2FrameGrabber","entity boundary","getFrameData","property wrapper",
-"RealSense2FrameGrabber","entity boundary","getFrameSize","property factory wrapper",
-"RealSense2FrameGrabber","entity boundary","getStreamProfile","property wrapper",
-"RealSense2FrameGrabber","entity boundary","getStreamProfileData","non-void-command factory collaborator",
-"RealSense2FrameGrabber","entity boundary","isSensorExtendableTo","predicate wrapper",
-"RealSense2FrameGrabber","entity boundary","isStreamProfile","predicate wrapper",
-"RealSense2FrameGrabber","entity boundary","matchesVideoStreamProfile","predicate non-void-command collaborator",
-"RealSense2FrameGrabber","entity boundary","setRs2Option","wrapper",
-"RealSense2FrameGrabber","entity boundary","getSensors","factory wrapper",
-"RealSense2FrameGrabber","entity boundary","getStreamProfiles","factory wrapper",
-"RealSense2FrameGrabber","entity boundary","enableAllVideoStreams","command",
-"RealSense2FrameGrabber","entity boundary","Rs2SensorType","constructor",
-"RealSense2FrameGrabber","entity boundary","getName","get",
-"ProjectiveTransformerCL","entity boundary","ProjectiveTransformerCL","constructor",
-"ProjectiveTransformerCL","entity boundary","ProjectiveTransformerCL","constructor",
-"ProjectiveTransformerCL","entity boundary","ProjectiveTransformerCL","constructor",
-"ProjectiveTransformerCL","entity boundary","ProjectiveTransformerCL","constructor",
-"ProjectiveTransformerCL","entity boundary","getContext","get collaborator",
-"ProjectiveTransformerCL","entity boundary","prepareHomographies","void-accessor command",
-"ProjectiveTransformerCL","entity boundary","transform","void-accessor command collaborator",
-"ProjectiveColorTransformer","boundary","ProjectiveColorTransformer","constructor",
-"ProjectiveColorTransformer","boundary","getX","get collaborator",
-"ProjectiveColorTransformer","boundary","getNumGains","get",
-"ProjectiveColorTransformer","boundary","getNumBiases","get",
-"ProjectiveColorTransformer","boundary","transformColor","command collaborator",
-"ProjectiveColorTransformer","boundary","prepareColorTransform","controller",
-"ProjectiveColorTransformer","boundary","transform","void-accessor command",
-"ProjectiveColorTransformer","boundary","createParameters","factory collaborator stateless",
-"ProCamTransformer","boundary","ProCamTransformer","constructor",
-"ProCamTransformer","boundary","ProCamTransformer","constructor",
-"ProCamTransformer","boundary","getNumGains","property non-void-command",
-"ProCamTransformer","boundary","getNumBiases","property non-void-command",
-"ProCamTransformer","boundary","getFillColor","get collaborator",
-"ProCamTransformer","boundary","setFillColor","set collaborator",
-"ProCamTransformer","boundary","getSurfaceTransformer","get collaborator",
-"ProCamTransformer","boundary","getProjectorTransformer","get collaborator",
-"ProCamTransformer","boundary","getProjectorImage","get collaborator",
-"ProCamTransformer","boundary","setProjectorImage","command",
-"ProCamTransformer","boundary","setProjectorImage","command collaborator",
-"ProCamTransformer","boundary","getSurfaceImage","get collaborator",
-"ProCamTransformer","boundary","setSurfaceImage","command",
-"ProCamTransformer","boundary","prepareTransforms","command collaborator",
-"ProCamTransformer","boundary","transform","command collaborator",
-"ProCamTransformer","boundary","transform","command",
-"ProCamTransformer","boundary","transform","void-accessor command",
-"ProCamTransformer","boundary","createParameters","factory collaborator stateless",
-"ProCamColorCalibrator","entity boundary","ProCamColorCalibrator","constructor",
-"ProCamColorCalibrator","entity boundary","getColorCount","get",
-"ProCamColorCalibrator","entity boundary","getProjectorColors","get non-void-command factory collaborator",
-"ProCamColorCalibrator","entity boundary","getProjectorColor","property non-void-command collaborator",
-"ProCamColorCalibrator","entity boundary","getCameraColors","get collaborator",
-"ProCamColorCalibrator","entity boundary","getCameraColor","property non-void-command collaborator",
-"ProCamColorCalibrator","entity boundary","addCameraColor","set",
-"ProCamColorCalibrator","entity boundary","addCameraColor","command collaborator",
-"ProCamColorCalibrator","entity boundary","getMaskImage","get collaborator",
-"ProCamColorCalibrator","entity boundary","getUndistortedCameraImage","get collaborator",
-"ProCamColorCalibrator","entity boundary","processCameraImage","predicate non-void-command collaborator",
-"ProCamColorCalibrator","entity boundary","calibrate","get non-void-command collaborator",
-"PS3EyeFrameGrabber","unclassified","PS3EyeFrameGrabber","constructor",
-"PS3EyeFrameGrabber","unclassified","PS3EyeFrameGrabber","constructor",
-"PS3EyeFrameGrabber","unclassified","PS3EyeFrameGrabber","constructor",
-"PS3EyeFrameGrabber","unclassified","PS3EyeFrameGrabber","constructor",
-"PS3EyeFrameGrabber","unclassified","makeImage","get non-void-command collaborator",
-"PS3EyeFrameGrabber","unclassified","grab_raw","get property non-void-command",
-"PS3EyeFrameGrabber","unclassified","trigger","command",
-"PS3EyeFrameGrabber","unclassified","grab_RGB4","get property non-void-command collaborator",
-"PS3EyeFrameGrabber","unclassified","grab","property non-void-command collaborator",
-"PS3EyeFrameGrabber","unclassified","start","command",
-"PS3EyeFrameGrabber","unclassified","stop","set",
-"PS3EyeFrameGrabber","unclassified","release","command",
-"PS3EyeFrameGrabber","unclassified","dispose","command",
-"PS3EyeFrameGrabber","unclassified","finalize","command",
-"PS3EyeFrameGrabber","unclassified","getCamera","get collaborator",
-"PS3EyeFrameGrabber","unclassified","getUUID","get",
-"PS3EyeFrameGrabber","unclassified","toString","property non-void-command",
-"OpenKinectFrameGrabber","boundary","OpenKinectFrameGrabber","constructor",
-"OpenKinectFrameGrabber","boundary","release","command",
-"OpenKinectFrameGrabber","boundary","finalize","command",
-"OpenKinectFrameGrabber","boundary","getByteOrder","get collaborator",
-"OpenKinectFrameGrabber","boundary","setByteOrder","set collaborator",
-"OpenKinectFrameGrabber","boundary","getDepthFormat","get",
-"OpenKinectFrameGrabber","boundary","setDepthFormat","set",
-"OpenKinectFrameGrabber","boundary","getVideoFormat","get",
-"OpenKinectFrameGrabber","boundary","setVideoFormat","set",
-"OpenKinectFrameGrabber","boundary","getGamma","get property",
-"OpenKinectFrameGrabber","boundary","setImageMode","set collaborator",
-"OpenKinectFrameGrabber","boundary","start","set",
-"OpenKinectFrameGrabber","boundary","stop","wrapper stateless",
-"OpenKinectFrameGrabber","boundary","trigger","wrapper",
-"OpenKinectFrameGrabber","boundary","grabDepth","get non-void-command collaborator",
-"OpenKinectFrameGrabber","boundary","grabVideo","get non-void-command collaborator",
-"OpenKinectFrameGrabber","boundary","grabIR","get non-void-command collaborator",
-"OpenKinectFrameGrabber","boundary","grab","property non-void-command collaborator",
-"OpenCVFrameRecorder","unclassified","OpenCVFrameRecorder","constructor",
-"OpenCVFrameRecorder","unclassified","OpenCVFrameRecorder","constructor",
-"OpenCVFrameRecorder","unclassified","release","set",
-"OpenCVFrameRecorder","unclassified","finalize","command",
-"OpenCVFrameRecorder","unclassified","getOption","property non-void-command",
-"OpenCVFrameRecorder","unclassified","setOption","command",
-"OpenCVFrameRecorder","unclassified","start","command collaborator",
-"OpenCVFrameRecorder","unclassified","isColour","predicate",
-"OpenCVFrameRecorder","unclassified","fourCCCodec","get",
-"OpenCVFrameRecorder","unclassified","flush","empty",
-"OpenCVFrameRecorder","unclassified","stop","command",
-"OpenCVFrameRecorder","unclassified","record","void-accessor command collaborator",
-"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor",
-"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor",
-"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor",
-"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor",
-"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor",
-"OpenCVFrameGrabber","unclassified","release","command",
-"OpenCVFrameGrabber","unclassified","finalize","command",
-"OpenCVFrameGrabber","unclassified","getGamma","get property",
-"OpenCVFrameGrabber","unclassified","getFormat","property non-void-command",
-"OpenCVFrameGrabber","unclassified","getImageWidth","property non-void-command",
-"OpenCVFrameGrabber","unclassified","getImageHeight","property non-void-command",
-"OpenCVFrameGrabber","unclassified","getPixelFormat","property non-void-command",
-"OpenCVFrameGrabber","unclassified","getFrameRate","property non-void-command",
-"OpenCVFrameGrabber","unclassified","setImageMode","set collaborator",
-"OpenCVFrameGrabber","unclassified","getFrameNumber","property non-void-command",
-"OpenCVFrameGrabber","unclassified","setFrameNumber","command",
-"OpenCVFrameGrabber","unclassified","getTimestamp","property non-void-command",
-"OpenCVFrameGrabber","unclassified","setTimestamp","command",
-"OpenCVFrameGrabber","unclassified","getLengthInFrames","property non-void-command",
-"OpenCVFrameGrabber","unclassified","getLengthInTime","property non-void-command",
-"OpenCVFrameGrabber","unclassified","getOption","property non-void-command",
-"OpenCVFrameGrabber","unclassified","setOption","command",
-"OpenCVFrameGrabber","unclassified","start","command",
-"OpenCVFrameGrabber","unclassified","stop","set",
-"OpenCVFrameGrabber","unclassified","trigger","command",
-"OpenCVFrameGrabber","unclassified","grab","property non-void-command collaborator",
-"ProjectiveTransformer","data-provider boundary","ProjectiveTransformer","constructor",
-"ProjectiveTransformer","data-provider boundary","ProjectiveTransformer","constructor",
-"ProjectiveTransformer","data-provider boundary","ProjectiveTransformer","constructor",
-"ProjectiveTransformer","data-provider boundary","ProjectiveTransformer","constructor",
-"ProjectiveTransformer","data-provider boundary","getFillColor","get collaborator",
-"ProjectiveTransformer","data-provider boundary","setFillColor","set collaborator",
-"ProjectiveTransformer","data-provider boundary","getReferencePoints1","get",
-"ProjectiveTransformer","data-provider boundary","getReferencePoints2","get",
-"ProjectiveTransformer","data-provider boundary","getK1","get collaborator",
-"ProjectiveTransformer","data-provider boundary","getK2","get collaborator",
-"ProjectiveTransformer","data-provider boundary","getInvK1","get collaborator",
-"ProjectiveTransformer","data-provider boundary","getInvK2","get collaborator",
-"ProjectiveTransformer","data-provider boundary","getR","get collaborator",
-"ProjectiveTransformer","data-provider boundary","getT","get collaborator",
-"ProjectiveTransformer","data-provider boundary","getN","get collaborator",
-"ProjectiveTransformer","data-provider boundary","prepareHomography","controller",
-"ProjectiveTransformer","data-provider boundary","transform","command",
-"ProjectiveTransformer","data-provider boundary","transform","command collaborator",
-"ProjectiveTransformer","data-provider boundary","transform","void-accessor command",
-"ProjectiveTransformer","data-provider boundary","createParameters","factory collaborator stateless",
-"OpenKinect2FrameGrabber","unclassified","getByteOrder","get collaborator",
-"OpenKinect2FrameGrabber","unclassified","setByteOrder","set collaborator",
-"OpenKinect2FrameGrabber","unclassified","OpenKinect2FrameGrabber","constructor",
-"OpenKinect2FrameGrabber","unclassified","enableColorStream","command",
-"OpenKinect2FrameGrabber","unclassified","enableDepthStream","command",
-"OpenKinect2FrameGrabber","unclassified","enableIRStream","command",
-"OpenKinect2FrameGrabber","unclassified","release","empty",
-"OpenKinect2FrameGrabber","unclassified","finalize","command",
-"OpenKinect2FrameGrabber","unclassified","start","command",
-"OpenKinect2FrameGrabber","unclassified","startDevice","command collaborator",
-"OpenKinect2FrameGrabber","unclassified","stop","set",
-"OpenKinect2FrameGrabber","unclassified","grabVideo","command collaborator",
-"OpenKinect2FrameGrabber","unclassified","grabIR","set collaborator",
-"OpenKinect2FrameGrabber","unclassified","grabDepth","set collaborator",
-"OpenKinect2FrameGrabber","unclassified","grab","property non-void-command collaborator",
-"OpenKinect2FrameGrabber","unclassified","getVideoImage","get collaborator",
-"OpenKinect2FrameGrabber","unclassified","getIRImage","get collaborator",
-"OpenKinect2FrameGrabber","unclassified","getDepthImage","get collaborator",
-"OpenKinect2FrameGrabber","unclassified","trigger","empty",
-"OpenKinect2FrameGrabber","unclassified","getDepthImageWidth","get",
-"OpenKinect2FrameGrabber","unclassified","setDepthImageWidth","set",
-"OpenKinect2FrameGrabber","unclassified","getDepthImageHeight","get",
-"OpenKinect2FrameGrabber","unclassified","setDepthImageHeight","set",
-"OpenKinect2FrameGrabber","unclassified","getIRImageWidth","get",
-"OpenKinect2FrameGrabber","unclassified","setIRImageWidth","set",
-"OpenKinect2FrameGrabber","unclassified","getIRImageHeight","get",
-"OpenKinect2FrameGrabber","unclassified","setIRImageHeight","set",
-"OpenKinect2FrameGrabber","unclassified","getDepthFrameRate","get",
-"OpenKinect2FrameGrabber","unclassified","setDepthFrameRate","set",
-"ObjectFinder","boundary","ObjectFinder","constructor",
-"ObjectFinder","boundary","ObjectFinder","constructor",
-"ObjectFinder","boundary","getSettings","get collaborator",
-"ObjectFinder","boundary","setSettings","void-accessor command collaborator",
-"ObjectFinder","boundary","find","property non-void-command collaborator",
-"ObjectFinder","boundary","compareDescriptors","property controller",
-"ObjectFinder","boundary","naiveNearestNeighbor","property non-void-command collaborator",
-"ObjectFinder","boundary","findPairs","command collaborator",
-"ObjectFinder","boundary","flannFindPairs","command collaborator",
-"ObjectFinder","boundary","locatePlanarObject","property non-void-command",
-"Marker","boundary","Marker","constructor",
-"Marker","boundary","Marker","constructor",
-"Marker","boundary","clone","property non-void-command factory",
-"Marker","boundary","hashCode","property non-void-command",
-"Marker","boundary","equals","predicate wrapper",
-"Marker","boundary","getCenter","property",
-"Marker","boundary","getImage","property non-void-command collaborator",
-"Marker","boundary","draw","command collaborator",
-"Marker","boundary","draw","command collaborator",
-"Marker","boundary","draw","command collaborator",
-"Marker","boundary","toString","property",
-"JavaFXFrameConverter","degenerate small-class","convert","collaborator stateless",
-"JavaFXFrameConverter","degenerate small-class","convert","factory collaborator stateless",
-"JavaCvErrorCallback","boundary small-class","JavaCvErrorCallback","constructor",
-"JavaCvErrorCallback","boundary small-class","JavaCvErrorCallback","constructor",
-"JavaCvErrorCallback","boundary small-class","JavaCvErrorCallback","constructor",
-"JavaCvErrorCallback","boundary small-class","JavaCvErrorCallback","constructor",
-"JavaCvErrorCallback","boundary small-class","call","get set collaborator",
-"JavaCVCL","boundary","JavaCVCL","constructor",
-"JavaCVCL","boundary","JavaCVCL","constructor",
-"JavaCVCL","boundary","JavaCVCL","constructor",
-"JavaCVCL","boundary","JavaCVCL","constructor",
-"JavaCVCL","boundary","JavaCVCL","constructor",
-"JavaCVCL","boundary","JavaCVCL","constructor",
-"JavaCVCL","boundary","release","command",
-"JavaCVCL","boundary","finalize","command",
-"JavaCVCL","boundary","getCLContext","get collaborator",
-"JavaCVCL","boundary","getCLCommandQueue","get collaborator",
-"JavaCVCL","boundary","getCLGLContext","property collaborator",
-"JavaCVCL","boundary","getGLContext","property non-void-command collaborator",
-"JavaCVCL","boundary","getGL","property non-void-command collaborator",
-"JavaCVCL","boundary","getGL2","property non-void-command collaborator",
-"JavaCVCL","boundary","getGLU","get collaborator",
-"JavaCVCL","boundary","buildKernel","property non-void-command collaborator",
-"JavaCVCL","boundary","buildKernel","property non-void-command collaborator",
-"JavaCVCL","boundary","buildKernels","property non-void-command collaborator",
-"JavaCVCL","boundary","buildKernels","non-void-command factory collaborator",
-"JavaCVCL","boundary","createCLImageFrom","property non-void-command collaborator",
-"JavaCVCL","boundary","createCLGLImageFrom","property non-void-command collaborator",
-"JavaCVCL","boundary","releaseCLGLImage","command collaborator",
-"JavaCVCL","boundary","createPinnedBuffer","property non-void-command collaborator",
-"JavaCVCL","boundary","createPinnedIplImage","factory collaborator stateless",
-"JavaCVCL","boundary","createIplImageFrom","controller stateless",
-"JavaCVCL","boundary","readImage","property non-void-command collaborator",
-"JavaCVCL","boundary","writeImage","property non-void-command collaborator",
-"JavaCVCL","boundary","acquireGLObject","command collaborator",
-"JavaCVCL","boundary","releaseGLObject","command collaborator",
-"JavaCVCL","boundary","readBuffer","command",
-"JavaCVCL","boundary","writeBuffer","command",
-"JavaCVCL","boundary","executeKernel","command",
-"JavaCVCL","boundary","executeKernel","command collaborator",
-"JavaCVCL","boundary","executeKernel","command collaborator",
-"JavaCVCL","boundary","executeKernel","command",
-"JavaCVCL","boundary","executeKernel","command collaborator",
-"JavaCVCL","boundary","executeKernel","command collaborator",
-"JavaCVCL","boundary","executeKernel","command",
-"JavaCVCL","boundary","executeKernel","command collaborator",
-"JavaCVCL","boundary","executeKernel","command collaborator",
-"JavaCVCL","boundary","finish","command",
-"JavaCVCL","boundary","flush","command",
-"JavaCVCL","boundary","pyrDown","void-accessor command collaborator",
-"JavaCVCL","boundary","remap","command collaborator",
-"JavaCVCL","boundary","remap","void-accessor command collaborator",
-"IPCameraFrameGrabber","commander","IPCameraFrameGrabber","constructor",
-"IPCameraFrameGrabber","commander","IPCameraFrameGrabber","constructor",
-"IPCameraFrameGrabber","commander","IPCameraFrameGrabber","constructor",
-"IPCameraFrameGrabber","commander","start","set collaborator",
-"IPCameraFrameGrabber","commander","stop","command",
-"IPCameraFrameGrabber","commander","trigger","empty",
-"IPCameraFrameGrabber","commander","grab","property non-void-command collaborator",
-"IPCameraFrameGrabber","commander","grabBufferedImage","property non-void-command collaborator",
-"IPCameraFrameGrabber","commander","releaseDecoded","set",
-"IPCameraFrameGrabber","commander","readImage","get non-void-command",
-"IPCameraFrameGrabber","commander","release","empty",
-"IPCameraFrameGrabber","commander","ensureBufferCapacity","set",
-"HandMouse","unclassified","HandMouse","constructor",
-"HandMouse","unclassified","HandMouse","constructor",
-"HandMouse","unclassified","getSettings","get collaborator",
-"HandMouse","unclassified","setSettings","set collaborator",
-"HandMouse","unclassified","reset","command",
-"HandMouse","unclassified","update","command",
-"HandMouse","unclassified","getRelativeResidual","get collaborator",
-"HandMouse","unclassified","getResultImage","get non-void-command collaborator",
-"HandMouse","unclassified","getX","get",
-"HandMouse","unclassified","getY","get",
-"HandMouse","unclassified","isSteady","predicate non-void-command",
-"HandMouse","unclassified","isClick","predicate non-void-command",
-"GeometricCalibrator","boundary","GeometricCalibrator","constructor",
-"GeometricCalibrator","boundary","getMarkerDetector","get collaborator",
-"GeometricCalibrator","boundary","getMarkedPlane","get collaborator",
-"GeometricCalibrator","boundary","getProjectiveDevice","get collaborator",
-"GeometricCalibrator","boundary","getAllObjectMarkers","get collaborator",
-"GeometricCalibrator","boundary","setAllObjectMarkers","set collaborator",
-"GeometricCalibrator","boundary","getAllImageMarkers","get collaborator",
-"GeometricCalibrator","boundary","setAllImageMarkers","set collaborator",
-"GeometricCalibrator","boundary","processImage","get property non-void-command collaborator",
-"GeometricCalibrator","boundary","drawMarkers","command collaborator",
-"GeometricCalibrator","boundary","addMarkers","command",
-"GeometricCalibrator","boundary","addMarkers","void-accessor command collaborator",
-"GeometricCalibrator","boundary","addMarkers","void-accessor command collaborator",
-"GeometricCalibrator","boundary","getImageCount","property non-void-command",
-"GeometricCalibrator","boundary","getObjectPoints","factory controller stateless",
-"GeometricCalibrator","boundary","getImagePoints","factory controller stateless",
-"GeometricCalibrator","boundary","getPoints","property non-void-command factory collaborator",
-"GeometricCalibrator","boundary","calibrate","property non-void-command",
-"GeometricCalibrator","boundary","calibrateStereo","property non-void-command",
-"GNImageAlignerCL","entity boundary","GNImageAlignerCL","constructor",
-"GNImageAlignerCL","entity boundary","GNImageAlignerCL","constructor",
-"GNImageAlignerCL","entity boundary","release","command collaborator",
-"GNImageAlignerCL","entity boundary","finalize","command",
-"GNImageAlignerCL","entity boundary","getTemplateImage","property non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getTemplateImage","get non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","setTemplateImage","void-accessor command",
-"GNImageAlignerCL","entity boundary","getTargetImage","property non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getTargetImage","get non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","setTargetImage","command collaborator",
-"GNImageAlignerCL","entity boundary","getTransformedImage","property non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getTransformedImage","get non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getResidualImage","property non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getResidualImage","get non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getMaskImage","property non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getMaskImage","get non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getRMSE","get non-void-command",
-"GNImageAlignerCL","entity boundary","getPixelCount","get non-void-command",
-"GNImageAlignerCL","entity boundary","getOutlierCount","get",
-"GNImageAlignerCL","entity boundary","getRoi","property non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getImages","property non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getImages","get non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getTemplateImageCL","get collaborator",
-"GNImageAlignerCL","entity boundary","setTemplateImageCL","void-accessor command",
-"GNImageAlignerCL","entity boundary","getTargetImageCL","get collaborator",
-"GNImageAlignerCL","entity boundary","setTargetImageCL","command collaborator",
-"GNImageAlignerCL","entity boundary","getTransformedImageCL","get non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getResidualImageCL","get non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","getMaskImageCL","get collaborator",
-"GNImageAlignerCL","entity boundary","getImagesCL","get non-void-command collaborator",
-"GNImageAlignerCL","entity boundary","doHessianGradient","void-accessor command",
-"GNImageAlignerCL","entity boundary","doRoi","command collaborator",
-"GNImageAlignerCL","entity boundary","doResidual","command",
-"GNImageAligner","unclassified","GNImageAligner","constructor",
-"GNImageAligner","unclassified","GNImageAligner","constructor",
-"GNImageAligner","unclassified","GNImageAligner","constructor",
-"GNImageAligner","unclassified","getSettings","get collaborator",
-"GNImageAligner","unclassified","setSettings","set collaborator",
-"GNImageAligner","unclassified","getTemplateImage","get collaborator",
-"GNImageAligner","unclassified","setTemplateImage","void-accessor command",
-"GNImageAligner","unclassified","getTargetImage","get collaborator",
-"GNImageAligner","unclassified","setTargetImage","command collaborator",
-"GNImageAligner","unclassified","getPyramidLevel","get",
-"GNImageAligner","unclassified","setPyramidLevel","command",
-"GNImageAligner","unclassified","isConstrained","get",
-"GNImageAligner","unclassified","setConstrained","command",
-"GNImageAligner","unclassified","getParameters","get collaborator",
-"GNImageAligner","unclassified","setParameters","command collaborator",
-"GNImageAligner","unclassified","getPriorParameters","get collaborator",
-"GNImageAligner","unclassified","setPriorParameters","command collaborator",
-"GNImageAligner","unclassified","getTransformedRoiPts","property non-void-command",
-"GNImageAligner","unclassified","getTransformedImage","get non-void-command collaborator",
-"GNImageAligner","unclassified","getResidualImage","get non-void-command collaborator",
-"GNImageAligner","unclassified","getMaskImage","get collaborator",
-"GNImageAligner","unclassified","getRMSE","get non-void-command",
-"GNImageAligner","unclassified","getPixelCount","get non-void-command",
-"GNImageAligner","unclassified","getOutlierCount","get",
-"GNImageAligner","unclassified","getRoi","get non-void-command collaborator",
-"GNImageAligner","unclassified","getLastLinePosition","get",
-"GNImageAligner","unclassified","getImages","get non-void-command collaborator",
-"GNImageAligner","unclassified","iterate","predicate non-void-command",
-"GNImageAligner","unclassified","doHessianGradient","void-accessor command",
-"GNImageAligner","unclassified","doRegularization","void-accessor command",
-"GNImageAligner","unclassified","doRoi","command",
-"GNImageAligner","unclassified","doResidual","command",
-"OpenCVFrameConverter<F>","entity boundary","convertToIplImage","get property set collaborator",
-"OpenCVFrameConverter<F>","entity boundary","convert","get property non-void-command factory collaborator",
-"OpenCVFrameConverter<F>","entity boundary","convertToMat","get property set collaborator",
-"OpenCVFrameConverter<F>","entity boundary","convert","get property non-void-command factory collaborator",
-"OpenCVFrameConverter<F>","entity boundary","convertToOrgOpenCvCoreMat","get property set collaborator",
-"OpenCVFrameConverter<F>","entity boundary","convert","get property non-void-command factory collaborator",
-"OpenCVFrameConverter<F>","entity boundary","close","command",
-"Java2DFrameConverter","entity boundary","convert","property non-void-command collaborator",
-"Java2DFrameConverter","entity boundary","convert","property non-void-command collaborator",
-"Java2DFrameConverter","entity boundary","getBufferedImage","property non-void-command collaborator",
-"Java2DFrameConverter","entity boundary","getBufferedImage","property non-void-command collaborator",
-"Java2DFrameConverter","entity boundary","getBufferedImage","get property non-void-command factory collaborator",
-"Java2DFrameConverter","entity boundary","getFrame","property non-void-command collaborator",
-"Java2DFrameConverter","entity boundary","getFrame","property non-void-command collaborator",
-"Java2DFrameConverter","entity boundary","getFrame","get property set factory collaborator",
-"FrameGrabber","unclassified","getVideoStream","get",
-"FrameGrabber","unclassified","setVideoStream","set",
-"FrameGrabber","unclassified","getAudioStream","get",
-"FrameGrabber","unclassified","setAudioStream","set",
-"FrameGrabber","unclassified","setVideoDisposition","set",
-"FrameGrabber","unclassified","getVideoDisposition","get",
-"FrameGrabber","unclassified","setAudioDisposition","set",
-"FrameGrabber","unclassified","getAudioDisposition","get",
-"FrameGrabber","unclassified","getFormat","get",
-"FrameGrabber","unclassified","setFormat","set",
-"FrameGrabber","unclassified","getVideoCodecName","get",
-"FrameGrabber","unclassified","setVideoCodecName","set",
-"FrameGrabber","unclassified","getAudioCodecName","get",
-"FrameGrabber","unclassified","setAudioCodecName","set",
-"FrameGrabber","unclassified","getImageWidth","get",
-"FrameGrabber","unclassified","setImageWidth","set",
-"FrameGrabber","unclassified","getImageHeight","get",
-"FrameGrabber","unclassified","setImageHeight","set",
-"FrameGrabber","unclassified","getAudioChannels","get",
-"FrameGrabber","unclassified","setAudioChannels","set",
-"FrameGrabber","unclassified","getImageMode","get collaborator",
-"FrameGrabber","unclassified","setImageMode","set collaborator",
-"FrameGrabber","unclassified","getSensorPattern","get",
-"FrameGrabber","unclassified","setSensorPattern","set",
-"FrameGrabber","unclassified","getPixelFormat","get",
-"FrameGrabber","unclassified","setPixelFormat","set",
-"FrameGrabber","unclassified","getVideoCodec","get",
-"FrameGrabber","unclassified","setVideoCodec","set",
-"FrameGrabber","unclassified","getVideoBitrate","get",
-"FrameGrabber","unclassified","setVideoBitrate","set",
-"FrameGrabber","unclassified","getImageScalingFlags","get",
-"FrameGrabber","unclassified","setImageScalingFlags","set",
-"FrameGrabber","unclassified","getAspectRatio","get",
-"FrameGrabber","unclassified","setAspectRatio","set",
-"FrameGrabber","unclassified","getFrameRate","get",
-"FrameGrabber","unclassified","setFrameRate","set",
-"FrameGrabber","unclassified","getAudioCodec","get",
-"FrameGrabber","unclassified","setAudioCodec","set",
-"FrameGrabber","unclassified","getAudioBitrate","get",
-"FrameGrabber","unclassified","setAudioBitrate","set",
-"FrameGrabber","unclassified","getSampleMode","get collaborator",
-"FrameGrabber","unclassified","setSampleMode","set collaborator",
-"FrameGrabber","unclassified","getSampleFormat","get",
-"FrameGrabber","unclassified","setSampleFormat","set",
-"FrameGrabber","unclassified","getSampleRate","get",
-"FrameGrabber","unclassified","setSampleRate","set",
-"FrameGrabber","unclassified","isTriggerMode","get",
-"FrameGrabber","unclassified","setTriggerMode","set",
-"FrameGrabber","unclassified","getBitsPerPixel","get",
-"FrameGrabber","unclassified","setBitsPerPixel","set",
-"FrameGrabber","unclassified","getTimeout","get",
-"FrameGrabber","unclassified","setTimeout","set",
-"FrameGrabber","unclassified","getNumBuffers","get",
-"FrameGrabber","unclassified","setNumBuffers","set",
-"FrameGrabber","unclassified","getGamma","get",
-"FrameGrabber","unclassified","setGamma","set",
-"FrameGrabber","unclassified","isDeinterlace","get",
-"FrameGrabber","unclassified","setDeinterlace","set",
-"FrameGrabber","unclassified","getCharset","get collaborator",
-"FrameGrabber","unclassified","setCharset","set collaborator",
-"FrameGrabber","unclassified","getOptions","get",
-"FrameGrabber","unclassified","setOptions","set",
-"FrameGrabber","unclassified","getVideoOptions","get",
-"FrameGrabber","unclassified","setVideoOptions","set",
-"FrameGrabber","unclassified","getAudioOptions","get",
-"FrameGrabber","unclassified","setAudioOptions","set",
-"FrameGrabber","unclassified","getMetadata","get",
-"FrameGrabber","unclassified","setMetadata","set",
-"FrameGrabber","unclassified","getVideoMetadata","get",
-"FrameGrabber","unclassified","setVideoMetadata","set",
-"FrameGrabber","unclassified","getAudioMetadata","get",
-"FrameGrabber","unclassified","setAudioMetadata","set",
-"FrameGrabber","unclassified","getOption","property non-void-command",
-"FrameGrabber","unclassified","setOption","command",
-"FrameGrabber","unclassified","getVideoOption","property non-void-command",
-"FrameGrabber","unclassified","setVideoOption","command",
-"FrameGrabber","unclassified","getAudioOption","property non-void-command",
-"FrameGrabber","unclassified","setAudioOption","command",
-"FrameGrabber","unclassified","getMetadata","property non-void-command",
-"FrameGrabber","unclassified","setMetadata","command",
-"FrameGrabber","unclassified","getVideoMetadata","property non-void-command",
-"FrameGrabber","unclassified","setVideoMetadata","command",
-"FrameGrabber","unclassified","getAudioMetadata","property non-void-command",
-"FrameGrabber","unclassified","setAudioMetadata","command",
-"FrameGrabber","unclassified","getVideoSideData","get collaborator",
-"FrameGrabber","unclassified","setVideoSideData","set collaborator",
-"FrameGrabber","unclassified","getVideoSideData","property non-void-command collaborator",
-"FrameGrabber","unclassified","setVideoSideData","command collaborator",
-"FrameGrabber","unclassified","getAudioSideData","get collaborator",
-"FrameGrabber","unclassified","setAudioSideData","set collaborator",
-"FrameGrabber","unclassified","getAudioSideData","property non-void-command collaborator",
-"FrameGrabber","unclassified","setAudioSideData","command collaborator",
-"FrameGrabber","unclassified","getFrameNumber","get",
-"FrameGrabber","unclassified","setFrameNumber","set",
-"FrameGrabber","unclassified","getTimestamp","get",
-"FrameGrabber","unclassified","setTimestamp","set",
-"FrameGrabber","unclassified","getMaxDelay","get",
-"FrameGrabber","unclassified","setMaxDelay","set",
-"FrameGrabber","unclassified","getLengthInFrames","incidental",
-"FrameGrabber","unclassified","getLengthInTime","incidental",
-"FrameGrabber","unclassified","close","wrapper stateless",
-"FrameGrabber","unclassified","grabFrame","wrapper stateless",
-"FrameGrabber","unclassified","restart","wrapper stateless",
-"FrameGrabber","unclassified","flush","wrapper",
-"FrameGrabber","unclassified","delayedGrab","command",
-"FrameGrabber","unclassified","getDelayedTime","get property non-void-command",
-"FrameGrabber","unclassified","getDelayedFrame","get property non-void-command collaborator",
-"FrameGrabber","unclassified","createArray","factory collaborator stateless",
-"FrameGrabber","unclassified","grabAtFrameRate","property non-void-command collaborator",
-"FrameGrabber","unclassified","waitForTimestamp","predicate set collaborator",
-"FrameGrabber","unclassified","resetStartTime","set",
-"FrameFilter","unclassified","getFilters","get",
-"FrameFilter","unclassified","setFilters","set",
-"FrameFilter","unclassified","getImageWidth","get",
-"FrameFilter","unclassified","setImageWidth","set",
-"FrameFilter","unclassified","getImageHeight","get",
-"FrameFilter","unclassified","setImageHeight","set",
-"FrameFilter","unclassified","getPixelFormat","get",
-"FrameFilter","unclassified","setPixelFormat","set",
-"FrameFilter","unclassified","getFrameRate","get",
-"FrameFilter","unclassified","setFrameRate","set",
-"FrameFilter","unclassified","getAspectRatio","get",
-"FrameFilter","unclassified","setAspectRatio","set",
-"FrameFilter","unclassified","getVideoInputs","get",
-"FrameFilter","unclassified","setVideoInputs","set",
-"FrameFilter","unclassified","getAudioChannels","get",
-"FrameFilter","unclassified","setAudioChannels","set",
-"FrameFilter","unclassified","getSampleFormat","get",
-"FrameFilter","unclassified","setSampleFormat","set",
-"FrameFilter","unclassified","getSampleRate","get",
-"FrameFilter","unclassified","setSampleRate","set",
-"FrameFilter","unclassified","getAudioInputs","get",
-"FrameFilter","unclassified","setAudioInputs","set",
-"FrameFilter","unclassified","close","wrapper stateless",
-"FrameFilter","unclassified","restart","wrapper stateless",
-"FrameFilter","unclassified","flush","wrapper stateless",
-"MarkedPlane","entity minimal-entity boundary","MarkedPlane","constructor",
-"MarkedPlane","entity minimal-entity boundary","MarkedPlane","constructor",
-"MarkedPlane","entity minimal-entity boundary","getForegroundColor","get collaborator",
-"MarkedPlane","entity minimal-entity boundary","setForegroundColor","set collaborator",
-"MarkedPlane","entity minimal-entity boundary","getBackgroundColor","get collaborator",
-"MarkedPlane","entity minimal-entity boundary","setBackgroundColor","set collaborator",
-"MarkedPlane","entity minimal-entity boundary","getMarkers","get collaborator",
-"MarkedPlane","entity minimal-entity boundary","setColors","command collaborator",
-"MarkedPlane","entity minimal-entity boundary","getPrewarp","get collaborator",
-"MarkedPlane","entity minimal-entity boundary","setPrewarp","command collaborator",
-"MarkedPlane","entity minimal-entity boundary","getImage","get collaborator",
-"MarkedPlane","entity minimal-entity boundary","getWidth","property non-void-command",
-"MarkedPlane","entity minimal-entity boundary","getHeight","property non-void-command",
-"MarkedPlane","entity minimal-entity boundary","getTotalWarp","property non-void-command collaborator",
-"MarkedPlane","entity minimal-entity boundary","getTotalWarp","property non-void-command collaborator",
-"AndroidFrameConverter","entity boundary","convert","get set factory collaborator",
-"AndroidFrameConverter","entity boundary","convert","get property set factory collaborator",
-"AndroidFrameConverter","entity boundary","gray2rgba","get non-void-command collaborator",
-"AndroidFrameConverter","entity boundary","bgr2rgba","get non-void-command collaborator",
-"AndroidFrameConverter","entity boundary","convert","get property non-void-command collaborator",
-"ProjectiveColorTransformerCL","unclassified","ProjectiveColorTransformerCL","constructor",
-"ProjectiveColorTransformerCL","unclassified","getContext","get collaborator",
-"ProjectiveColorTransformerCL","unclassified","prepareHomographies","void-accessor command",
-"ProjectiveColorTransformerCL","unclassified","prepareColorTransforms","void-accessor command",
-"ProjectiveColorTransformerCL","unclassified","transform","void-accessor command collaborator",
-"JavaFxPlayVideoAndAudio","commander small-class","start","command collaborator",
-"JavaFxPlayVideoAndAudio","commander small-class","stop","command",
-"Frame","unclassified","Frame","constructor",
-"Frame","unclassified","Frame","constructor",
-"Frame","unclassified","Frame","constructor",
-"Frame","unclassified","createIndexer","property non-void-command collaborator",
-"Frame","unclassified","createIndexer","property non-void-command collaborator",
-"Frame","unclassified","createIndexer","property controller",
-"Frame","unclassified","clone","factory wrapper",
-"Frame","unclassified","getTypes","property controller",
-"Frame","unclassified","close","set collaborator",
-"ProjectorDevice","entity boundary","ProjectorDevice","constructor",
-"ProjectorDevice","entity boundary","ProjectorDevice","constructor",
-"ProjectorDevice","entity boundary","ProjectorDevice","constructor",
-"ProjectorDevice","entity boundary","ProjectorDevice","constructor",
-"ProjectorDevice","entity boundary","getSettings","property collaborator",
-"ProjectorDevice","entity boundary","setSettings","command collaborator",
-"ProjectorDevice","entity boundary","setSettings","command collaborator",
-"ProjectorDevice","entity boundary","createCanvasFrame","property non-void-command collaborator",
-"ProjectorDevice","entity boundary","getAttenuation","property non-void-command",
-"FacePreview","commander boundary small-class","onCreate","command collaborator",
-"CLCamera","entity data-provider boundary","dispose","command",
-"CLCamera","entity data-provider boundary","createCamera","predicate set",
-"CLCamera","entity data-provider boundary","destroyCamera","predicate wrapper",
-"CLCamera","entity data-provider boundary","startCamera","predicate wrapper",
-"CLCamera","entity data-provider boundary","stopCamera","predicate wrapper",
-"CLCamera","entity data-provider boundary","getCameraFrame","predicate wrapper",
-"CLCamera","entity data-provider boundary","setCameraParam","predicate wrapper",
-"CLCamera","entity data-provider boundary","getCameraParam","property wrapper",
-"FFmpegStreamingTimeout","boundary degenerate small-class","getKey","wrapper stateless",
-"FrameConverterTest","pure-controller degenerate","testAndroidFrameConverter","controller stateless",
-"FrameConverterTest","pure-controller degenerate","testJava2DFrameConverter","controller stateless",
-"FrameConverterTest","pure-controller degenerate","testOpenCVFrameConverter","controller stateless",
-"FrameConverterTest","pure-controller degenerate","testLeptonicaFrameConverter","controller stateless",
-"SeekableByteArrayOutputStream","commander","seek","set",
-"SeekableByteArrayOutputStream","commander","write","set",
-"SeekableByteArrayOutputStream","commander","write","void-accessor command",
-"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor",
-"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor",
-"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor",
-"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor",
-"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor",
-"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor",
-"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor",
-"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor",
-"GLCanvasFrame","entity commander boundary","init","command collaborator",
-"GLCanvasFrame","entity commander boundary","initCanvas","empty",
-"GLCanvasFrame","entity commander boundary","getGLCanvas","property collaborator",
-"GLCanvasFrame","entity commander boundary","showColor","command collaborator",
-"GLCanvasFrame","entity commander boundary","showImage","command collaborator",
-"GLCanvasFrame","entity commander boundary","showImage","command",
-"GLCanvasFrame","entity commander boundary","showImage","command collaborator",
-"GLCanvasFrame","entity commander boundary","showImage","command collaborator",
-"GLCanvasFrame","entity commander boundary","showImage","command",
-"FaceApplet","commander","init","command collaborator",
-"FaceApplet","commander","start","set",
-"FaceApplet","commander","run","command",
-"FaceApplet","commander","update","command collaborator",
-"FaceApplet","commander","paint","command collaborator",
-"FaceApplet","commander","stop","set",
-"FaceApplet","commander","destroy","empty",
-"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor",
-"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor",
-"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor",
-"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor",
-"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor",
-"FFmpegFrameGrabber","unclassified","release","command",
-"FFmpegFrameGrabber","unclassified","releaseUnsafe","command",
-"FFmpegFrameGrabber","unclassified","finalize","command",
-"FFmpegFrameGrabber","unclassified","isCloseInputStream","get",
-"FFmpegFrameGrabber","unclassified","setCloseInputStream","set",
-"FFmpegFrameGrabber","unclassified","hasVideo","predicate",
-"FFmpegFrameGrabber","unclassified","hasAudio","predicate",
-"FFmpegFrameGrabber","unclassified","getGamma","get property",
-"FFmpegFrameGrabber","unclassified","getFormat","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getImageWidth","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getImageHeight","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getAudioChannels","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getPixelFormat","get property non-void-command",
-"FFmpegFrameGrabber","unclassified","getVideoCodec","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getVideoCodecName","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getVideoBitrate","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getAspectRatio","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getFrameRate","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getAudioFrameRate","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getVideoFrameRate","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","getAudioCodec","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getAudioCodecName","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getAudioBitrate","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getSampleFormat","get property non-void-command",
-"FFmpegFrameGrabber","unclassified","getSampleRate","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getMetadata","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getVideoMetadata","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getAudioMetadata","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getMetadata","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","getVideoMetadata","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","getAudioMetadata","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","getVideoSideData","get property non-void-command factory collaborator",
-"FFmpegFrameGrabber","unclassified","getVideoSideData","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","getDisplayRotation","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","getAudioSideData","get property non-void-command factory collaborator",
-"FFmpegFrameGrabber","unclassified","getAudioSideData","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","setFrameNumber","command",
-"FFmpegFrameGrabber","unclassified","setVideoFrameNumber","command",
-"FFmpegFrameGrabber","unclassified","setAudioFrameNumber","command",
-"FFmpegFrameGrabber","unclassified","setTimestamp","command",
-"FFmpegFrameGrabber","unclassified","setTimestamp","wrapper stateless",
-"FFmpegFrameGrabber","unclassified","setVideoTimestamp","command",
-"FFmpegFrameGrabber","unclassified","setAudioTimestamp","command",
-"FFmpegFrameGrabber","unclassified","setTimestamp","command collaborator",
-"FFmpegFrameGrabber","unclassified","getLengthInFrames","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getLengthInTime","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getLengthInVideoFrames","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getLengthInAudioFrames","property non-void-command",
-"FFmpegFrameGrabber","unclassified","getFormatContext","get collaborator",
-"FFmpegFrameGrabber","unclassified","start","command",
-"FFmpegFrameGrabber","unclassified","start","command",
-"FFmpegFrameGrabber","unclassified","startUnsafe","command",
-"FFmpegFrameGrabber","unclassified","startUnsafe","command collaborator",
-"FFmpegFrameGrabber","unclassified","initPictureRGB","command",
-"FFmpegFrameGrabber","unclassified","stop","command",
-"FFmpegFrameGrabber","unclassified","trigger","command",
-"FFmpegFrameGrabber","unclassified","processImage","command collaborator",
-"FFmpegFrameGrabber","unclassified","processSamples","command",
-"FFmpegFrameGrabber","unclassified","grab","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","grabImage","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","grabSamples","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","grabKeyFrame","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","grabFrame","property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","grabFrame","get property non-void-command collaborator",
-"FFmpegFrameGrabber","unclassified","grabPacket","get property non-void-command collaborator",
-"ProjectorSettings","entity boundary","ProjectorSettings","constructor",
-"ProjectorSettings","entity boundary","ProjectorSettings","constructor",
-"ProjectorSettings","entity boundary","getQuantity","wrapper stateless",
-"ProjectorSettings","entity boundary","setQuantity","command collaborator",
-"ProjectorSettings","entity boundary","toArray","property non-void-command collaborator",
-"FrameConverter<F>","commander data-class small-class","close","set",
-"FrameGrabberTest","pure-controller degenerate","testFFmpegFrameGrabber","controller stateless",
-"FrameGrabberTest","pure-controller degenerate","testFFmpegFrameGrabberLockingTest","controller stateless",
-"FrameGrabberTest","pure-controller degenerate","testFFmpegFrameGrabberSeeking","controller stateless",
-"FaceView","entity boundary","FaceView","constructor",
-"FaceView","entity boundary","onPreviewFrame","void-accessor command collaborator",
-"FaceView","entity boundary","processImage","void-accessor command",
-"FaceView","entity boundary","onDraw","command collaborator",
-"ColoredObjectTrack","commander boundary","ColoredObjectTrack","constructor",
-"ColoredObjectTrack","commander boundary","run","command",
-"ColoredObjectTrack","commander boundary","paint","command collaborator",
-"ColoredObjectTrack","commander boundary","getThresholdImage","property set collaborator",
-"ColoredObjectTrack","commander boundary","Equalize","controller stateless",
-"FlyCapture2FrameGrabber","commander boundary","FlyCapture2FrameGrabber","constructor",
-"FlyCapture2FrameGrabber","commander boundary","release","command",
-"FlyCapture2FrameGrabber","commander boundary","finalize","command",
-"FlyCapture2FrameGrabber","commander boundary","getGamma","property wrapper",
-"FlyCapture2FrameGrabber","commander boundary","getImageWidth","property non-void-command",
-"FlyCapture2FrameGrabber","commander boundary","getImageHeight","property non-void-command",
-"FlyCapture2FrameGrabber","commander boundary","getFrameRate","property non-void-command collaborator",
-"FlyCapture2FrameGrabber","commander boundary","setImageMode","command collaborator",
-"FlyCapture2FrameGrabber","commander boundary","start","command collaborator",
-"FlyCapture2FrameGrabber","commander boundary","waitForTriggerReady","command collaborator",
-"FlyCapture2FrameGrabber","commander boundary","stop","command collaborator",
-"FlyCapture2FrameGrabber","commander boundary","trigger","command collaborator",
-"FlyCapture2FrameGrabber","commander boundary","getNumChannels","incidental",
-"FlyCapture2FrameGrabber","commander boundary","getDepth","incidental",
-"FlyCapture2FrameGrabber","commander boundary","setPixelFormat","controller stateless",
-"FlyCapture2FrameGrabber","commander boundary","setStride","controller stateless",
-"FlyCapture2FrameGrabber","commander boundary","grab","property non-void-command collaborator",
-"MarkerDetector","entity boundary","MarkerDetector","constructor",
-"MarkerDetector","entity boundary","MarkerDetector","constructor",
-"MarkerDetector","entity boundary","getSettings","get collaborator",
-"MarkerDetector","entity boundary","setSettings","void-accessor command collaborator",
-"MarkerDetector","entity boundary","getThresholdedImage","get collaborator",
-"MarkerDetector","entity boundary","init","command collaborator",
-"MarkerDetector","entity boundary","detect","property non-void-command collaborator",
-"MarkerDetector","entity boundary","draw","command collaborator",
-"Preview","commander boundary","Preview","copy-constructor",
-"Preview","commander boundary","surfaceCreated","command collaborator",
-"Preview","commander boundary","surfaceDestroyed","command collaborator",
-"Preview","commander boundary","getOptimalPreviewSize","wrapper stateless",
-"Preview","commander boundary","surfaceChanged","command",
-"DeinterlacedVideoPlayer","commander boundary","DeinterlacedVideoPlayer","constructor",
-"DeinterlacedVideoPlayer","commander boundary","start","command collaborator",
-"DeinterlacedVideoPlayer","commander boundary","startFrameGrabber","command",
-"DeinterlacedVideoPlayer","commander boundary","releaseGrabberAndFilter","command collaborator",
-"DeinterlacedVideoPlayer","commander boundary","releaseFilter","controller stateless",
-"PrincipalComponentAnalysis","unclassified","execute","void-accessor command collaborator",
-"PrincipalComponentAnalysis","unclassified","principalComponentAnalysis","command collaborator",
-"PrincipalComponentAnalysis","unclassified","drawAxis","controller stateless",
-"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","BufferRing","constructor",
-"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","capacity","get",
-"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","position","get",
-"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","position","get set",
-"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","get","property collaborator",
-"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","get","property collaborator",
-"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","release","set",
-"ProjectiveDevice","boundary","ProjectiveDevice","constructor",
-"ProjectiveDevice","boundary","ProjectiveDevice","constructor",
-"ProjectiveDevice","boundary","ProjectiveDevice","constructor",
-"ProjectiveDevice","boundary","ProjectiveDevice","constructor",
-"ProjectiveDevice","boundary","ProjectiveDevice","constructor",
-"ProjectiveDevice","boundary","getSettings","get collaborator",
-"ProjectiveDevice","boundary","setSettings","set collaborator",
-"ProjectiveDevice","boundary","rescale","command",
-"ProjectiveDevice","boundary","getRGBColorOrder","property non-void-command",
-"ProjectiveDevice","boundary","undistort","property non-void-command",
-"ProjectiveDevice","boundary","distort","property non-void-command",
-"ProjectiveDevice","boundary","isFixedPointMaps","get",
-"ProjectiveDevice","boundary","setFixedPointMaps","command",
-"ProjectiveDevice","boundary","getMapsPyramidLevel","get",
-"ProjectiveDevice","boundary","setMapsPyramidLevel","command",
-"ProjectiveDevice","boundary","initUndistortMaps","command",
-"ProjectiveDevice","boundary","getUndistortMap1","get non-void-command collaborator",
-"ProjectiveDevice","boundary","getUndistortMap2","get non-void-command collaborator",
-"ProjectiveDevice","boundary","undistort","command collaborator",
-"ProjectiveDevice","boundary","undistort","get property set collaborator",
-"ProjectiveDevice","boundary","initDistortMaps","command",
-"ProjectiveDevice","boundary","getDistortMap1","get non-void-command collaborator",
-"ProjectiveDevice","boundary","getDistortMap2","get non-void-command collaborator",
-"ProjectiveDevice","boundary","distort","command collaborator",
-"ProjectiveDevice","boundary","distort","get property set collaborator",
-"ProjectiveDevice","boundary","getBackProjectionMatrix","property non-void-command collaborator",
-"ProjectiveDevice","boundary","getFrontoParallelH","property non-void-command collaborator",
-"ProjectiveDevice","boundary","getRectifyingHomography","property non-void-command collaborator",
-"ProjectiveDevice","boundary","writeParameters","command collaborator",
-"ProjectiveDevice","boundary","writeParameters","command collaborator",
-"ProjectiveDevice","boundary","writeParameters","command collaborator",
-"ProjectiveDevice","boundary","readParameters","command collaborator",
-"ProjectiveDevice","boundary","readParameters","command collaborator",
-"ProjectiveDevice","boundary","readParameters","command collaborator",
-"ProjectiveDevice","boundary","toString","property non-void-command",
-"ProCamTransformerCL","entity boundary","ProCamTransformerCL","constructor",
-"ProCamTransformerCL","entity boundary","ProCamTransformerCL","constructor",
-"ProCamTransformerCL","entity boundary","getContext","get collaborator",
-"ProCamTransformerCL","entity boundary","getSurfaceTransformerCL","property collaborator",
-"ProCamTransformerCL","entity boundary","getProjectorTransformerCL","property collaborator",
-"ProCamTransformerCL","entity boundary","getProjectorImageCL","get collaborator",
-"ProCamTransformerCL","entity boundary","setProjectorImageCL","command collaborator",
-"ProCamTransformerCL","entity boundary","getSurfaceImageCL","get collaborator",
-"ProCamTransformerCL","entity boundary","setSurfaceImageCL","command collaborator",
-"ProCamTransformerCL","entity boundary","prepareTransforms","void-accessor command collaborator",
-"ProCamTransformerCL","entity boundary","transform","void-accessor command collaborator",
-"ProCamGeometricCalibrator","boundary","ProCamGeometricCalibrator","constructor",
-"ProCamGeometricCalibrator","boundary","ProCamGeometricCalibrator","constructor",
-"ProCamGeometricCalibrator","boundary","getBoardPlane","get collaborator",
-"ProCamGeometricCalibrator","boundary","getProjectorPlane","get collaborator",
-"ProCamGeometricCalibrator","boundary","getCameraCalibrators","get collaborator",
-"ProCamGeometricCalibrator","boundary","getProjectorCalibrator","get collaborator",
-"ProCamGeometricCalibrator","boundary","getImageCount","property non-void-command collaborator",
-"ProCamGeometricCalibrator","boundary","processCameraImage","property non-void-command collaborator",
-"ProCamGeometricCalibrator","boundary","processCameraImage","property non-void-command collaborator",
-"ProCamGeometricCalibrator","boundary","drawMarkers","command collaborator",
-"ProCamGeometricCalibrator","boundary","drawMarkers","command",
-"ProCamGeometricCalibrator","boundary","processMarkers","predicate non-void-command",
-"ProCamGeometricCalibrator","boundary","processMarkers","predicate non-void-command",
-"ProCamGeometricCalibrator","boundary","processMarkers","predicate non-void-command collaborator",
-"ProCamGeometricCalibrator","boundary","processMarkers","predicate non-void-command",
-"ProCamGeometricCalibrator","boundary","addMarkers","command",
-"ProCamGeometricCalibrator","boundary","addMarkers","command",
-"ProCamGeometricCalibrator","boundary","addMarkers","void-accessor command collaborator",
-"ProCamGeometricCalibrator","boundary","addMarkers","void-accessor command",
-"ProCamGeometricCalibrator","boundary","getProjectorImage","property non-void-command collaborator",
-"ProCamGeometricCalibrator","boundary","calibrate","property non-void-command",
-"ProCamGeometricCalibrator","boundary","calibrate","property non-void-command",
-"FrameRecorder","unclassified","getFormat","get",
-"FrameRecorder","unclassified","setFormat","set",
-"FrameRecorder","unclassified","getVideoCodecName","get",
-"FrameRecorder","unclassified","setVideoCodecName","set",
-"FrameRecorder","unclassified","getAudioCodecName","get",
-"FrameRecorder","unclassified","setAudioCodecName","set",
-"FrameRecorder","unclassified","getImageWidth","get",
-"FrameRecorder","unclassified","setImageWidth","set",
-"FrameRecorder","unclassified","getImageHeight","get",
-"FrameRecorder","unclassified","setImageHeight","set",
-"FrameRecorder","unclassified","getAudioChannels","get",
-"FrameRecorder","unclassified","setAudioChannels","set",
-"FrameRecorder","unclassified","getPixelFormat","get",
-"FrameRecorder","unclassified","setPixelFormat","set",
-"FrameRecorder","unclassified","getVideoCodec","get",
-"FrameRecorder","unclassified","setVideoCodec","set",
-"FrameRecorder","unclassified","getVideoBitrate","get",
-"FrameRecorder","unclassified","setVideoBitrate","set",
-"FrameRecorder","unclassified","getImageScalingFlags","get",
-"FrameRecorder","unclassified","setImageScalingFlags","set",
-"FrameRecorder","unclassified","getGopSize","get",
-"FrameRecorder","unclassified","setGopSize","set",
-"FrameRecorder","unclassified","getAspectRatio","get",
-"FrameRecorder","unclassified","setAspectRatio","set",
-"FrameRecorder","unclassified","getFrameRate","get",
-"FrameRecorder","unclassified","setFrameRate","set",
-"FrameRecorder","unclassified","getVideoQuality","get",
-"FrameRecorder","unclassified","setVideoQuality","set",
-"FrameRecorder","unclassified","getSampleFormat","get",
-"FrameRecorder","unclassified","setSampleFormat","set",
-"FrameRecorder","unclassified","getAudioCodec","get",
-"FrameRecorder","unclassified","setAudioCodec","set",
-"FrameRecorder","unclassified","getAudioBitrate","get",
-"FrameRecorder","unclassified","setAudioBitrate","set",
-"FrameRecorder","unclassified","getSampleRate","get",
-"FrameRecorder","unclassified","setSampleRate","set",
-"FrameRecorder","unclassified","getAudioQuality","get",
-"FrameRecorder","unclassified","setAudioQuality","set",
-"FrameRecorder","unclassified","isInterleaved","get",
-"FrameRecorder","unclassified","setInterleaved","set",
-"FrameRecorder","unclassified","getCharset","get collaborator",
-"FrameRecorder","unclassified","setCharset","set collaborator",
-"FrameRecorder","unclassified","getOptions","get",
-"FrameRecorder","unclassified","setOptions","set",
-"FrameRecorder","unclassified","getVideoOptions","get",
-"FrameRecorder","unclassified","setVideoOptions","set",
-"FrameRecorder","unclassified","getAudioOptions","get",
-"FrameRecorder","unclassified","setAudioOptions","set",
-"FrameRecorder","unclassified","getMetadata","get",
-"FrameRecorder","unclassified","setMetadata","set",
-"FrameRecorder","unclassified","getVideoMetadata","get",
-"FrameRecorder","unclassified","setVideoMetadata","set",
-"FrameRecorder","unclassified","getAudioMetadata","get",
-"FrameRecorder","unclassified","setAudioMetadata","set",
-"FrameRecorder","unclassified","getOption","property non-void-command",
-"FrameRecorder","unclassified","setOption","command",
-"FrameRecorder","unclassified","getVideoOption","property non-void-command",
-"FrameRecorder","unclassified","setVideoOption","command",
-"FrameRecorder","unclassified","getAudioOption","property non-void-command",
-"FrameRecorder","unclassified","setAudioOption","command",
-"FrameRecorder","unclassified","getMetadata","property non-void-command",
-"FrameRecorder","unclassified","setMetadata","command",
-"FrameRecorder","unclassified","getVideoMetadata","property non-void-command",
-"FrameRecorder","unclassified","setVideoMetadata","command",
-"FrameRecorder","unclassified","getAudioMetadata","property non-void-command",
-"FrameRecorder","unclassified","setAudioMetadata","command",
-"FrameRecorder","unclassified","getVideoSideData","get collaborator",
-"FrameRecorder","unclassified","setVideoSideData","set collaborator",
-"FrameRecorder","unclassified","getVideoSideData","property non-void-command collaborator",
-"FrameRecorder","unclassified","setVideoSideData","command collaborator",
-"FrameRecorder","unclassified","getAudioSideData","get collaborator",
-"FrameRecorder","unclassified","setAudioSideData","set collaborator",
-"FrameRecorder","unclassified","getAudioSideData","property non-void-command collaborator",
-"FrameRecorder","unclassified","setAudioSideData","command collaborator",
-"FrameRecorder","unclassified","getFrameNumber","get",
-"FrameRecorder","unclassified","setFrameNumber","set",
-"FrameRecorder","unclassified","getTimestamp","get",
-"FrameRecorder","unclassified","setTimestamp","set",
-"FrameRecorder","unclassified","getMaxBFrames","get",
-"FrameRecorder","unclassified","setMaxBFrames","set",
-"FrameRecorder","unclassified","getTrellis","get",
-"FrameRecorder","unclassified","setTrellis","set",
-"FrameRecorder","unclassified","getMaxDelay","get",
-"FrameRecorder","unclassified","setMaxDelay","set",
-"FrameRecorder","unclassified","close","wrapper stateless",
-"FrameGrabberChangingResolutionTest","controller","makeTestfile","controller",
-"FrameGrabberChangingResolutionTest","controller","setupUDPSender","controller",
-"FrameGrabberChangingResolutionTest","controller","setupUDPReceiver","controller",
-"FrameGrabberChangingResolutionTest","controller","testFFmpegFrameGrabber","command collaborator",
-"SeekableByteArrayOutputStreamTest","unclassified","writeByte","controller stateless",
-"SeekableByteArrayOutputStreamTest","unclassified","writePartialBytes","controller stateless",
-"SeekableByteArrayOutputStreamTest","unclassified","writeBytes","controller stateless",
-"SeekableByteArrayOutputStreamTest","unclassified","createVideo","controller",
-"SeekableByteArrayOutputStreamTest","unclassified","serialWriteByteTest","command",
-"SeekableByteArrayOutputStreamTest","unclassified","serialWriteBytesTest","command",
-"SeekableByteArrayOutputStreamTest","unclassified","serialWritePartialBytesTest","command",
-"SeekableByteArrayOutputStreamTest","unclassified","serialWriteTest","command",
-"SeekableByteArrayOutputStreamTest","unclassified","seekWriteTest","command",
-"SeekableByteArrayOutputStreamTest","unclassified","testVideoBytesEqual","controller",
-"LeptonicaFrameConverter","entity boundary","convert","get property non-void-command collaborator",
-"LeptonicaFrameConverter","entity boundary","convert","get property non-void-command factory collaborator",
-"LeptonicaFrameConverter","entity boundary","close","command",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor",
-"FFmpegFrameRecorder","commander","release","command",
-"FFmpegFrameRecorder","commander","releaseUnsafe","command collaborator",
-"FFmpegFrameRecorder","commander","finalize","command",
-"FFmpegFrameRecorder","commander","isCloseOutputStream","get",
-"FFmpegFrameRecorder","commander","setCloseOutputStream","set",
-"FFmpegFrameRecorder","commander","setDisplayRotation","command",
-"FFmpegFrameRecorder","commander","getFrameNumber","property non-void-command",
-"FFmpegFrameRecorder","commander","setFrameNumber","command",
-"FFmpegFrameRecorder","commander","getTimestamp","property non-void-command",
-"FFmpegFrameRecorder","commander","setTimestamp","command",
-"FFmpegFrameRecorder","commander","start","set collaborator",
-"FFmpegFrameRecorder","commander","start","command",
-"FFmpegFrameRecorder","commander","startUnsafe","command",
-"FFmpegFrameRecorder","commander","flush","command",
-"FFmpegFrameRecorder","commander","stop","command",
-"FFmpegFrameRecorder","commander","record","void-accessor command collaborator",
-"FFmpegFrameRecorder","commander","record","void-accessor command",
-"FFmpegFrameRecorder","commander","recordImage","predicate non-void-command collaborator",
-"FFmpegFrameRecorder","commander","recordSamples","predicate non-void-command collaborator",
-"FFmpegFrameRecorder","commander","recordSamples","predicate non-void-command collaborator",
-"FFmpegFrameRecorder","commander","writeSamples","command",
-"FFmpegFrameRecorder","commander","writeFrame","get non-void-command collaborator",
-"FFmpegFrameRecorder","commander","writePacket","wrapper",
-"FFmpegFrameRecorder","commander","recordPacket","predicate non-void-command collaborator",
-"FFmpegLogCallback","commander boundary small-class","call","command collaborator",
-"RecordActivity","commander","onCreate","command collaborator",
-"RecordActivity","commander","onDestroy","command",
-"RecordActivity","commander","initLayout","command",
-"RecordActivity","commander","initRecorder","command",
-"RecordActivity","commander","startRecording","command",
-"RecordActivity","commander","stopRecording","command",
-"RecordActivity","commander","onKeyDown","predicate non-void-command collaborator",
-"RecordActivity","commander","onClick","command collaborator",
-"FlyCaptureFrameGrabber","unclassified","FlyCaptureFrameGrabber","constructor",
-"FlyCaptureFrameGrabber","unclassified","release","set",
-"FlyCaptureFrameGrabber","unclassified","finalize","command",
-"FlyCaptureFrameGrabber","unclassified","getGamma","property wrapper",
-"FlyCaptureFrameGrabber","unclassified","getImageWidth","property non-void-command",
-"FlyCaptureFrameGrabber","unclassified","getImageHeight","property non-void-command",
-"FlyCaptureFrameGrabber","unclassified","getFrameRate","get property non-void-command",
-"FlyCaptureFrameGrabber","unclassified","setImageMode","command collaborator",
-"FlyCaptureFrameGrabber","unclassified","start","set",
-"FlyCaptureFrameGrabber","unclassified","waitForTriggerReady","wrapper",
-"FlyCaptureFrameGrabber","unclassified","stop","command",
-"FlyCaptureFrameGrabber","unclassified","trigger","command",
-"FlyCaptureFrameGrabber","unclassified","getNumChannels","incidental",
-"FlyCaptureFrameGrabber","unclassified","getDepth","incidental",
-"FlyCaptureFrameGrabber","unclassified","grab","property non-void-command collaborator",
-"Square","unclassified","angle","controller stateless",
-"Square","unclassified","findSquares4","property controller",
-"Square","unclassified","drawSquares","command collaborator",
-"Square","unclassified","main","command collaborator",
-"FrameFilterTest","pure-controller degenerate small-class","testFFmpegFrameFilter","controller stateless",
-"FrameFilterTest","pure-controller degenerate small-class","testFFmpegFrameFilterMultipleInputs","controller stateless",
-"RealSenseFrameGrabber","commander","getByteOrder","get collaborator",
-"RealSenseFrameGrabber","commander","setByteOrder","set collaborator",
-"RealSenseFrameGrabber","commander","RealSenseFrameGrabber","constructor",
-"RealSenseFrameGrabber","commander","enableColorStream","command",
-"RealSenseFrameGrabber","commander","disableColorStream","set",
-"RealSenseFrameGrabber","commander","enableDepthStream","set",
-"RealSenseFrameGrabber","commander","disableDepthStream","set",
-"RealSenseFrameGrabber","commander","enableIRStream","set",
-"RealSenseFrameGrabber","commander","disableIRStream","set",
-"RealSenseFrameGrabber","commander","release","empty",
-"RealSenseFrameGrabber","commander","finalize","command",
-"RealSenseFrameGrabber","commander","getRealSenseDevice","get collaborator",
-"RealSenseFrameGrabber","commander","getDepthScale","property non-void-command",
-"RealSenseFrameGrabber","commander","getFrameRate","property non-void-command",
-"RealSenseFrameGrabber","commander","loadDevice","get non-void-command collaborator",
-"RealSenseFrameGrabber","commander","start","command",
-"RealSenseFrameGrabber","commander","stop","set",
-"RealSenseFrameGrabber","commander","grabDepth","get property non-void-command collaborator",
-"RealSenseFrameGrabber","commander","grabVideo","get property non-void-command collaborator",
-"RealSenseFrameGrabber","commander","grabIR","get property non-void-command collaborator",
-"RealSenseFrameGrabber","commander","grab","property non-void-command collaborator",
-"RealSenseFrameGrabber","commander","trigger","command",
-"RealSenseFrameGrabber","commander","getDepthImageWidth","get",
-"RealSenseFrameGrabber","commander","setDepthImageWidth","set",
-"RealSenseFrameGrabber","commander","getDepthImageHeight","get",
-"RealSenseFrameGrabber","commander","setDepthImageHeight","set",
-"RealSenseFrameGrabber","commander","getIRImageWidth","get",
-"RealSenseFrameGrabber","commander","setIRImageWidth","set",
-"RealSenseFrameGrabber","commander","getIRImageHeight","get",
-"RealSenseFrameGrabber","commander","setIRImageHeight","set",
-"RealSenseFrameGrabber","commander","getDepthFrameRate","get",
-"RealSenseFrameGrabber","commander","setDepthFrameRate","set",
-"RealSenseFrameGrabber","commander","getIRFrameRate","get",
-"RealSenseFrameGrabber","commander","setIRFrameRate","set",
-"RealSenseFrameGrabber","commander","getGamma","get property",
-"RealSenseFrameGrabber","commander","setPreset","wrapper",
-"RealSenseFrameGrabber","commander","setShortRange","command",
-"RealSenseFrameGrabber","commander","setLongRange","command",
-"RealSenseFrameGrabber","commander","setMidRange","command",
-"RealSenseFrameGrabber","commander","setDefaultPreset","command",
-"RealSenseFrameGrabber","commander","setObjectScanningPreset","command",
-"RealSenseFrameGrabber","commander","setCursorPreset","command",
-"RealSenseFrameGrabber","commander","setGestureRecognitionPreset","command",
-"RealSenseFrameGrabber","commander","setBackgroundSegmentationPreset","command",
-"RealSenseFrameGrabber","commander","setIROnlyPreset","command",
-"RealSenseFrameGrabber","commander","setOption","command",
-"RealSenseFrameGrabber","commander","set","command",
-"RealSenseFrameGrabber","commander","setColorBrightness","command",
-"RealSenseFrameGrabber","commander","setColorContrast","command",
-"RealSenseFrameGrabber","commander","setColorExposure","command",
-"RealSenseFrameGrabber","commander","setColorGain","command",
-"RealSenseFrameGrabber","commander","setColorGamma","command",
-"RealSenseFrameGrabber","commander","setColorHue","command",
-"RealSenseFrameGrabber","commander","setColorSaturation","command",
-"RealSenseFrameGrabber","commander","setColorSharpness","command",
-"RealSenseFrameGrabber","commander","setColorWhiteBalance","command",
-"RealSenseFrameGrabber","commander","setColorEnableAutoExposure","command",
-"RealSenseFrameGrabber","commander","setColorEnableAutoWhiteBalance","command",
-"RealSenseFrameGrabber","commander","setLaserPower","command",
-"RealSenseFrameGrabber","commander","setAccuracy","command",
-"RealSenseFrameGrabber","commander","setMotionRange","command",
-"RealSenseFrameGrabber","commander","setFilterOption","command",
-"RealSenseFrameGrabber","commander","setConfidenceThreshold","command",
-"RealSenseFrameGrabber","commander","setDynamicFPS","command",
-"RealSenseFrameGrabber","commander","setLR_AutoExposureEnabled","command",
-"RealSenseFrameGrabber","commander","setLR_Gain","command",
-"RealSenseFrameGrabber","commander","setLR_Exposure","command",
-"RealSenseFrameGrabber","commander","setEmitterEnabled","command",
-"RealSenseFrameGrabber","commander","setDepthUnits","command",
-"RealSenseFrameGrabber","commander","setDepthClampMin","command",
-"RealSenseFrameGrabber","commander","setDepthClampMax","command",
-"RealSenseFrameGrabber","commander","setDisparityMultiplier","command",
-"RealSenseFrameGrabber","commander","setDisparityShift","command",
-"RealSenseFrameGrabber","commander","setAutoExposureMeanIntensitySetPoint","command",
-"RealSenseFrameGrabber","commander","setAutoExposureBrightRatioSetPoint","command",
-"RealSenseFrameGrabber","commander","setAutoExposureKpGain","command",
-"RealSenseFrameGrabber","commander","setAutoExposureKpExposure","command",
-"RealSenseFrameGrabber","commander","setAutoExposureKpDarkThreshold","command",
-"RealSenseFrameGrabber","commander","setAutoExposureTopEdge","command",
-"RealSenseFrameGrabber","commander","setAutoExposureBottomEdge","command",
-"RealSenseFrameGrabber","commander","setAutoExposureLeftEdge","command",
-"RealSenseFrameGrabber","commander","setAutoExposureRightEdge","command",
-"RealSenseFrameGrabber","commander","setDepthControlEstimateMedianDecrement","command",
-"RealSenseFrameGrabber","commander","setDepthControlEstimateMedianIncrement","command",
-"RealSenseFrameGrabber","commander","setDepthControlMedianThreshold","command",
-"RealSenseFrameGrabber","commander","setDepthControlMinimumThreshold","command",
-"RealSenseFrameGrabber","commander","setDepthControlScoreMaximumThreshold","command",
-"RealSenseFrameGrabber","commander","setDepthControlTextureCountThreshold","command",
-"RealSenseFrameGrabber","commander","setDepthControlTextureDifference","command",
-"RealSenseFrameGrabber","commander","setDepthControlSecondPeakThreshold","command",
-"RealSenseFrameGrabber","commander","setDepthControlNeighborThreshold","command",
-"RealSenseFrameGrabber","commander","setDepthControlLRThreshold","command",
-"RealSenseFrameGrabber","commander","setFisheyeExposure","command",
-"RealSenseFrameGrabber","commander","setFisheyeGain","command",
-"RealSenseFrameGrabber","commander","setFisheyeStobe","command",
-"RealSenseFrameGrabber","commander","setFisheyeExternalTrigger","command",
-"RealSenseFrameGrabber","commander","setFisheyeEnableAutoExposure","command",
-"RealSenseFrameGrabber","commander","setFisheyeAutoExposureMode","command",
-"RealSenseFrameGrabber","commander","setFisheyeAutoExposureAntiflickerRate","command",
-"RealSenseFrameGrabber","commander","setFisheyeAutoExposurePixelSampleRate","command",
-"RealSenseFrameGrabber","commander","setFisheyeAutoExposureSkipFrames","command",
-"RealSenseFrameGrabber","commander","setFramesQueueSize","command",
-"RealSenseFrameGrabber","commander","setHardwareLoggerEnabled","command",
-"YOLONet","entity boundary","YOLONet","constructor",
-"YOLONet","entity boundary","setup","predicate non-void-command",
-"YOLONet","entity boundary","predict","property non-void-command collaborator",
-"YOLONet","entity boundary","postprocess","non-void-command factory collaborator",
-"BaseChildSettings","degenerate","addPropertyChangeListener","wrapper stateless",
-"BaseChildSettings","degenerate","removePropertyChangeListener","wrapper stateless",
-"BaseChildSettings","degenerate","compareTo","property non-void-command",
-"BaseChildSettings","degenerate","getName","incidental",
-"BaseSettings","entity boundary","addPropertyChangeListener","command collaborator",
-"BaseSettings","entity boundary","removePropertyChangeListener","command collaborator",
-"BaseSettings","entity boundary","compareTo","property non-void-command",
-"BaseSettings","entity boundary","getName","incidental",
-"BaseSettings","entity boundary","toArray","property non-void-command collaborator",
-"BaseSettings","entity boundary","toArray","property non-void-command collaborator",
-"BioInspiredRetina","small-class","execute","void-accessor command collaborator",
-"BioInspiredRetina","small-class","showImage","controller stateless",
-"Blobs","commander","PrintRegionData","command",
-"Blobs","commander","PrintRegionData","unclassified",
-"Blobs","commander","ResetRegion","wrapper",
-"Blobs","commander","OldRegion","set",
-"Blobs","commander","NewRegion","command",
-"Blobs","commander","Subsume","set",
-"Blobs","commander","BlobAnalysis","get property non-void-command",
-"CameraDevice","entity boundary","CameraDevice","constructor",
-"CameraDevice","entity boundary","CameraDevice","constructor",
-"CameraDevice","entity boundary","CameraDevice","constructor",
-"CameraDevice","entity boundary","CameraDevice","constructor",
-"CameraDevice","entity boundary","getSettings","property collaborator",
-"CameraDevice","entity boundary","setSettings","command collaborator",
-"CameraDevice","entity boundary","setSettings","command collaborator",
-"CameraDevice","entity boundary","createFrameGrabber","property non-void-command collaborator",
-"CanvasFrame","commander boundary","CanvasFrame","constructor",
-"CanvasFrame","commander boundary","CanvasFrame","constructor",
-"CanvasFrame","commander boundary","CanvasFrame","constructor",
-"CanvasFrame","commander boundary","CanvasFrame","constructor",
-"CanvasFrame","commander boundary","CanvasFrame","constructor",
-"CanvasFrame","commander boundary","CanvasFrame","constructor",
-"CanvasFrame","commander boundary","init","set",
-"CanvasFrame","commander boundary","initCanvas","command collaborator",
-"CanvasFrame","commander boundary","getLatency","get",
-"CanvasFrame","commander boundary","setLatency","set",
-"CanvasFrame","commander boundary","waitLatency","command",
-"CanvasFrame","commander boundary","waitKey","property non-void-command collaborator",
-"CanvasFrame","commander boundary","waitKey","property set collaborator",
-"CanvasFrame","commander boundary","getCanvas","get collaborator",
-"CanvasFrame","commander boundary","getCanvasSize","property non-void-command collaborator",
-"CanvasFrame","commander boundary","setCanvasSize","command collaborator",
-"CanvasFrame","commander boundary","getCanvasScale","get",
-"CanvasFrame","commander boundary","setCanvasScale","command",
-"CanvasFrame","commander boundary","createGraphics","property non-void-command collaborator",
-"CanvasFrame","commander boundary","releaseGraphics","command collaborator",
-"CanvasFrame","commander boundary","showColor","command collaborator",
-"CanvasFrame","commander boundary","showImage","command collaborator",
-"CanvasFrame","commander boundary","showImage","command",
-"CanvasFrame","commander boundary","showImage","command collaborator",
-"FFmpegFrameFilter","unclassified","FFmpegFrameFilter","constructor",
-"FFmpegFrameFilter","unclassified","FFmpegFrameFilter","constructor",
-"FFmpegFrameFilter","unclassified","FFmpegFrameFilter","constructor",
-"FFmpegFrameFilter","unclassified","release","command",
-"FFmpegFrameFilter","unclassified","releaseUnsafe","command",
-"FFmpegFrameFilter","unclassified","finalize","command",
-"FFmpegFrameFilter","unclassified","getImageWidth","property non-void-command",
-"FFmpegFrameFilter","unclassified","getImageHeight","property non-void-command",
-"FFmpegFrameFilter","unclassified","getPixelFormat","property non-void-command",
-"FFmpegFrameFilter","unclassified","getFrameRate","property non-void-command collaborator",
-"FFmpegFrameFilter","unclassified","getAspectRatio","property non-void-command",
-"FFmpegFrameFilter","unclassified","getAudioChannels","property non-void-command",
-"FFmpegFrameFilter","unclassified","getSampleFormat","property non-void-command",
-"FFmpegFrameFilter","unclassified","getSampleRate","property non-void-command",
-"FFmpegFrameFilter","unclassified","start","command",
-"FFmpegFrameFilter","unclassified","startUnsafe","command",
-"FFmpegFrameFilter","unclassified","startVideoUnsafe","command",
-"FFmpegFrameFilter","unclassified","startAudioUnsafe","command",
-"FFmpegFrameFilter","unclassified","stop","command",
-"FFmpegFrameFilter","unclassified","push","void-accessor command collaborator",
-"FFmpegFrameFilter","unclassified","push","command",
-"FFmpegFrameFilter","unclassified","push","void-accessor command collaborator",
-"FFmpegFrameFilter","unclassified","push","void-accessor command",
-"FFmpegFrameFilter","unclassified","pushImage","command collaborator",
-"FFmpegFrameFilter","unclassified","pushSamples","command collaborator",
-"FFmpegFrameFilter","unclassified","pull","property non-void-command collaborator",
-"FFmpegFrameFilter","unclassified","pullImage","get property non-void-command collaborator",
-"FFmpegFrameFilter","unclassified","pullSamples","get property non-void-command collaborator",
-"CameraSettings","entity boundary","CameraSettings","constructor",
-"CameraSettings","entity boundary","CameraSettings","constructor",
-"CameraSettings","entity boundary","getQuantity","wrapper stateless",
-"CameraSettings","entity boundary","setQuantity","command collaborator",
-"CameraSettings","entity boundary","getMonitorWindowsScale","get",
-"CameraSettings","entity boundary","setMonitorWindowsScale","set",
-"CameraSettings","entity boundary","getFrameGrabber","get collaborator",
-"CameraSettings","entity boundary","setFrameGrabber","set collaborator",
-"CameraSettings","entity boundary","toArray","property non-void-command collaborator",
-"ColorCalibrator","boundary data-class small-class","ColorCalibrator","constructor",
-"ColorCalibrator","boundary data-class small-class","calibrate","get non-void-command collaborator",
-"DC1394FrameGrabber","unclassified","DC1394FrameGrabber","constructor",
-"DC1394FrameGrabber","unclassified","release","command",
-"DC1394FrameGrabber","unclassified","finalize","command",
-"DC1394FrameGrabber","unclassified","getGamma","property wrapper",
-"DC1394FrameGrabber","unclassified","getImageWidth","property non-void-command",
-"DC1394FrameGrabber","unclassified","getImageHeight","property non-void-command",
-"DC1394FrameGrabber","unclassified","getFrameRate","get property non-void-command",
-"DC1394FrameGrabber","unclassified","setImageMode","command collaborator",
-"DC1394FrameGrabber","unclassified","start","command",
-"DC1394FrameGrabber","unclassified","start","command",
-"DC1394FrameGrabber","unclassified","stop","command",
-"DC1394FrameGrabber","unclassified","enqueue","set",
-"DC1394FrameGrabber","unclassified","enqueue","wrapper",
-"DC1394FrameGrabber","unclassified","trigger","command",
-"DC1394FrameGrabber","unclassified","grab","property non-void-command collaborator",
+"VideoInputFrameGrabber","unclassified","VideoInputFrameGrabber","constructor"
+"VideoInputFrameGrabber","unclassified","release","command"
+"VideoInputFrameGrabber","unclassified","finalize","command"
+"VideoInputFrameGrabber","unclassified","getGamma","get property"
+"VideoInputFrameGrabber","unclassified","getImageWidth","property non-void-command"
+"VideoInputFrameGrabber","unclassified","getImageHeight","property non-void-command"
+"VideoInputFrameGrabber","unclassified","start","command"
+"VideoInputFrameGrabber","unclassified","start","command"
+"VideoInputFrameGrabber","unclassified","stop","set"
+"VideoInputFrameGrabber","unclassified","trigger","command"
+"VideoInputFrameGrabber","unclassified","grab","property non-void-command collaborator"
+"ReflectanceInitializer","data-provider","ReflectanceInitializer","constructor"
+"ReflectanceInitializer","data-provider","ReflectanceInitializer","constructor"
+"ReflectanceInitializer","data-provider","getProjectorImages","get collaborator"
+"ReflectanceInitializer","data-provider","initializeReflectance","property non-void-command collaborator"
+"ReflectanceInitializer","data-provider","initializePlaneParameters","property controller"
+"RealSense2FrameGrabber","entity boundary","RealSense2FrameGrabber","constructor"
+"RealSense2FrameGrabber","entity boundary","RealSense2FrameGrabber","constructor"
+"RealSense2FrameGrabber","entity boundary","getDeviceInfos","non-void-command factory collaborator"
+"RealSense2FrameGrabber","entity boundary","disableAllStreams","command"
+"RealSense2FrameGrabber","entity boundary","getEnabledStreams","get collaborator"
+"RealSense2FrameGrabber","entity boundary","enableStream","command collaborator"
+"RealSense2FrameGrabber","entity boundary","enableColorStream","wrapper stateless"
+"RealSense2FrameGrabber","entity boundary","enableDepthStream","wrapper stateless"
+"RealSense2FrameGrabber","entity boundary","enableIRStream","wrapper stateless"
+"RealSense2FrameGrabber","entity boundary","enableIRStream","command"
+"RealSense2FrameGrabber","entity boundary","open","command collaborator"
+"RealSense2FrameGrabber","entity boundary","start","command collaborator"
+"RealSense2FrameGrabber","entity boundary","stop","set"
+"RealSense2FrameGrabber","entity boundary","readNextFrameSet","set"
+"RealSense2FrameGrabber","entity boundary","trigger","set"
+"RealSense2FrameGrabber","entity boundary","grab","property non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","grab","property non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","getDistance","property non-void-command"
+"RealSense2FrameGrabber","entity boundary","grabColor","property non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","grabDepth","property non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","grabIR","property non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","grabIR","property non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","getLargestStreamByArea","property non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","grabCVFrame","property non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","findFrameByStreamType","property non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","release","wrapper"
+"RealSense2FrameGrabber","entity boundary","setSensorOption","command"
+"RealSense2FrameGrabber","entity boundary","setSensorOption","command collaborator"
+"RealSense2FrameGrabber","entity boundary","createContext","property wrapper"
+"RealSense2FrameGrabber","entity boundary","createDeviceList","property wrapper"
+"RealSense2FrameGrabber","entity boundary","createDevice","property wrapper"
+"RealSense2FrameGrabber","entity boundary","createPipeline","property wrapper"
+"RealSense2FrameGrabber","entity boundary","createConfig","property wrapper"
+"RealSense2FrameGrabber","entity boundary","getFrameTimeStamp","property wrapper"
+"RealSense2FrameGrabber","entity boundary","getDeviceCount","property non-void-command"
+"RealSense2FrameGrabber","entity boundary","getDeviceInfo","wrapper stateless"
+"RealSense2FrameGrabber","entity boundary","getSensorInfo","wrapper stateless"
+"RealSense2FrameGrabber","entity boundary","getFrameData","property wrapper"
+"RealSense2FrameGrabber","entity boundary","getFrameSize","property factory wrapper"
+"RealSense2FrameGrabber","entity boundary","getStreamProfile","property wrapper"
+"RealSense2FrameGrabber","entity boundary","getStreamProfileData","non-void-command factory collaborator"
+"RealSense2FrameGrabber","entity boundary","isSensorExtendableTo","predicate wrapper"
+"RealSense2FrameGrabber","entity boundary","isStreamProfile","predicate wrapper"
+"RealSense2FrameGrabber","entity boundary","matchesVideoStreamProfile","predicate non-void-command collaborator"
+"RealSense2FrameGrabber","entity boundary","setRs2Option","wrapper"
+"RealSense2FrameGrabber","entity boundary","getSensors","factory wrapper"
+"RealSense2FrameGrabber","entity boundary","getStreamProfiles","factory wrapper"
+"RealSense2FrameGrabber","entity boundary","enableAllVideoStreams","command"
+"ProjectiveTransformerCL","boundary","ProjectiveTransformerCL","constructor"
+"ProjectiveTransformerCL","boundary","ProjectiveTransformerCL","constructor"
+"ProjectiveTransformerCL","boundary","ProjectiveTransformerCL","constructor"
+"ProjectiveTransformerCL","boundary","ProjectiveTransformerCL","constructor"
+"ProjectiveTransformerCL","boundary","getContext","get collaborator"
+"ProjectiveTransformerCL","boundary","prepareHomographies","command"
+"ProjectiveTransformerCL","boundary","transform","command collaborator"
+"ProjectiveColorTransformer","boundary","ProjectiveColorTransformer","constructor"
+"ProjectiveColorTransformer","boundary","getX","get collaborator"
+"ProjectiveColorTransformer","boundary","getNumGains","get"
+"ProjectiveColorTransformer","boundary","getNumBiases","get"
+"ProjectiveColorTransformer","boundary","transformColor","command collaborator"
+"ProjectiveColorTransformer","boundary","prepareColorTransform","controller"
+"ProjectiveColorTransformer","boundary","transform","command"
+"ProjectiveColorTransformer","boundary","createParameters","factory collaborator stateless"
+"ProCamTransformer","boundary","ProCamTransformer","constructor"
+"ProCamTransformer","boundary","ProCamTransformer","constructor"
+"ProCamTransformer","boundary","getNumGains","property non-void-command"
+"ProCamTransformer","boundary","getNumBiases","property non-void-command"
+"ProCamTransformer","boundary","getFillColor","get collaborator"
+"ProCamTransformer","boundary","setFillColor","set collaborator"
+"ProCamTransformer","boundary","getSurfaceTransformer","get collaborator"
+"ProCamTransformer","boundary","getProjectorTransformer","get collaborator"
+"ProCamTransformer","boundary","getProjectorImage","get collaborator"
+"ProCamTransformer","boundary","setProjectorImage","command"
+"ProCamTransformer","boundary","setProjectorImage","command collaborator"
+"ProCamTransformer","boundary","getSurfaceImage","get collaborator"
+"ProCamTransformer","boundary","setSurfaceImage","command"
+"ProCamTransformer","boundary","prepareTransforms","command collaborator"
+"ProCamTransformer","boundary","transform","command collaborator"
+"ProCamTransformer","boundary","transform","command"
+"ProCamTransformer","boundary","transform","command"
+"ProCamTransformer","boundary","createParameters","factory collaborator stateless"
+"ProCamColorCalibrator","entity boundary","ProCamColorCalibrator","constructor"
+"ProCamColorCalibrator","entity boundary","getColorCount","get"
+"ProCamColorCalibrator","entity boundary","getProjectorColors","get non-void-command factory collaborator"
+"ProCamColorCalibrator","entity boundary","getProjectorColor","property non-void-command collaborator"
+"ProCamColorCalibrator","entity boundary","getCameraColors","get collaborator"
+"ProCamColorCalibrator","entity boundary","getCameraColor","property non-void-command collaborator"
+"ProCamColorCalibrator","entity boundary","addCameraColor","set"
+"ProCamColorCalibrator","entity boundary","addCameraColor","command collaborator"
+"ProCamColorCalibrator","entity boundary","getMaskImage","get collaborator"
+"ProCamColorCalibrator","entity boundary","getUndistortedCameraImage","get collaborator"
+"ProCamColorCalibrator","entity boundary","processCameraImage","predicate non-void-command collaborator"
+"ProCamColorCalibrator","entity boundary","calibrate","property non-void-command collaborator"
+"PS3EyeFrameGrabber","unclassified","PS3EyeFrameGrabber","constructor"
+"PS3EyeFrameGrabber","unclassified","PS3EyeFrameGrabber","constructor"
+"PS3EyeFrameGrabber","unclassified","PS3EyeFrameGrabber","constructor"
+"PS3EyeFrameGrabber","unclassified","PS3EyeFrameGrabber","constructor"
+"PS3EyeFrameGrabber","unclassified","makeImage","get non-void-command collaborator"
+"PS3EyeFrameGrabber","unclassified","grab_raw","get property non-void-command"
+"PS3EyeFrameGrabber","unclassified","trigger","command"
+"PS3EyeFrameGrabber","unclassified","grab_RGB4","get property non-void-command collaborator"
+"PS3EyeFrameGrabber","unclassified","grab","property non-void-command collaborator"
+"PS3EyeFrameGrabber","unclassified","start","command"
+"PS3EyeFrameGrabber","unclassified","stop","set"
+"PS3EyeFrameGrabber","unclassified","release","command"
+"PS3EyeFrameGrabber","unclassified","dispose","command"
+"PS3EyeFrameGrabber","unclassified","finalize","command"
+"PS3EyeFrameGrabber","unclassified","getCamera","get collaborator"
+"PS3EyeFrameGrabber","unclassified","getUUID","get"
+"PS3EyeFrameGrabber","unclassified","toString","property non-void-command"
+"OpenKinectFrameGrabber","boundary","OpenKinectFrameGrabber","constructor"
+"OpenKinectFrameGrabber","boundary","release","command"
+"OpenKinectFrameGrabber","boundary","finalize","command"
+"OpenKinectFrameGrabber","boundary","getByteOrder","get collaborator"
+"OpenKinectFrameGrabber","boundary","setByteOrder","set collaborator"
+"OpenKinectFrameGrabber","boundary","getDepthFormat","get"
+"OpenKinectFrameGrabber","boundary","setDepthFormat","set"
+"OpenKinectFrameGrabber","boundary","getVideoFormat","get"
+"OpenKinectFrameGrabber","boundary","setVideoFormat","set"
+"OpenKinectFrameGrabber","boundary","getGamma","get property"
+"OpenKinectFrameGrabber","boundary","setImageMode","set collaborator"
+"OpenKinectFrameGrabber","boundary","start","set"
+"OpenKinectFrameGrabber","boundary","stop","wrapper stateless"
+"OpenKinectFrameGrabber","boundary","trigger","wrapper"
+"OpenKinectFrameGrabber","boundary","grabDepth","get non-void-command collaborator"
+"OpenKinectFrameGrabber","boundary","grabVideo","get non-void-command collaborator"
+"OpenKinectFrameGrabber","boundary","grabIR","get non-void-command collaborator"
+"OpenKinectFrameGrabber","boundary","grab","property non-void-command collaborator"
+"OpenCVFrameRecorder","unclassified","OpenCVFrameRecorder","constructor"
+"OpenCVFrameRecorder","unclassified","OpenCVFrameRecorder","constructor"
+"OpenCVFrameRecorder","unclassified","release","set"
+"OpenCVFrameRecorder","unclassified","finalize","command"
+"OpenCVFrameRecorder","unclassified","getOption","property non-void-command"
+"OpenCVFrameRecorder","unclassified","setOption","command"
+"OpenCVFrameRecorder","unclassified","start","command collaborator"
+"OpenCVFrameRecorder","unclassified","isColour","predicate"
+"OpenCVFrameRecorder","unclassified","fourCCCodec","get"
+"OpenCVFrameRecorder","unclassified","flush","empty"
+"OpenCVFrameRecorder","unclassified","stop","command"
+"OpenCVFrameRecorder","unclassified","record","void-accessor command collaborator"
+"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor"
+"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor"
+"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor"
+"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor"
+"OpenCVFrameGrabber","unclassified","OpenCVFrameGrabber","constructor"
+"OpenCVFrameGrabber","unclassified","release","command"
+"OpenCVFrameGrabber","unclassified","finalize","command"
+"OpenCVFrameGrabber","unclassified","getGamma","get property"
+"OpenCVFrameGrabber","unclassified","getFormat","property non-void-command"
+"OpenCVFrameGrabber","unclassified","getImageWidth","property non-void-command"
+"OpenCVFrameGrabber","unclassified","getImageHeight","property non-void-command"
+"OpenCVFrameGrabber","unclassified","getPixelFormat","property non-void-command"
+"OpenCVFrameGrabber","unclassified","getFrameRate","property non-void-command"
+"OpenCVFrameGrabber","unclassified","setImageMode","set collaborator"
+"OpenCVFrameGrabber","unclassified","getFrameNumber","property non-void-command"
+"OpenCVFrameGrabber","unclassified","setFrameNumber","command"
+"OpenCVFrameGrabber","unclassified","getTimestamp","property non-void-command"
+"OpenCVFrameGrabber","unclassified","setTimestamp","command"
+"OpenCVFrameGrabber","unclassified","getLengthInFrames","property non-void-command"
+"OpenCVFrameGrabber","unclassified","getLengthInTime","property non-void-command"
+"OpenCVFrameGrabber","unclassified","getOption","property non-void-command"
+"OpenCVFrameGrabber","unclassified","setOption","command"
+"OpenCVFrameGrabber","unclassified","start","command"
+"OpenCVFrameGrabber","unclassified","stop","set"
+"OpenCVFrameGrabber","unclassified","trigger","command"
+"OpenCVFrameGrabber","unclassified","grab","property non-void-command collaborator"
+"ProjectiveTransformer","data-provider boundary","ProjectiveTransformer","constructor"
+"ProjectiveTransformer","data-provider boundary","ProjectiveTransformer","constructor"
+"ProjectiveTransformer","data-provider boundary","ProjectiveTransformer","constructor"
+"ProjectiveTransformer","data-provider boundary","ProjectiveTransformer","constructor"
+"ProjectiveTransformer","data-provider boundary","getFillColor","get collaborator"
+"ProjectiveTransformer","data-provider boundary","setFillColor","set collaborator"
+"ProjectiveTransformer","data-provider boundary","getReferencePoints1","get"
+"ProjectiveTransformer","data-provider boundary","getReferencePoints2","get"
+"ProjectiveTransformer","data-provider boundary","getK1","get collaborator"
+"ProjectiveTransformer","data-provider boundary","getK2","get collaborator"
+"ProjectiveTransformer","data-provider boundary","getInvK1","get collaborator"
+"ProjectiveTransformer","data-provider boundary","getInvK2","get collaborator"
+"ProjectiveTransformer","data-provider boundary","getR","get collaborator"
+"ProjectiveTransformer","data-provider boundary","getT","get collaborator"
+"ProjectiveTransformer","data-provider boundary","getN","get collaborator"
+"ProjectiveTransformer","data-provider boundary","prepareHomography","controller"
+"ProjectiveTransformer","data-provider boundary","transform","command"
+"ProjectiveTransformer","data-provider boundary","transform","command collaborator"
+"ProjectiveTransformer","data-provider boundary","transform","command"
+"ProjectiveTransformer","data-provider boundary","createParameters","factory collaborator stateless"
+"OpenKinect2FrameGrabber","unclassified","getByteOrder","get collaborator"
+"OpenKinect2FrameGrabber","unclassified","setByteOrder","set collaborator"
+"OpenKinect2FrameGrabber","unclassified","OpenKinect2FrameGrabber","constructor"
+"OpenKinect2FrameGrabber","unclassified","enableColorStream","command"
+"OpenKinect2FrameGrabber","unclassified","enableDepthStream","command"
+"OpenKinect2FrameGrabber","unclassified","enableIRStream","command"
+"OpenKinect2FrameGrabber","unclassified","release","empty"
+"OpenKinect2FrameGrabber","unclassified","finalize","command"
+"OpenKinect2FrameGrabber","unclassified","start","command"
+"OpenKinect2FrameGrabber","unclassified","startDevice","command collaborator"
+"OpenKinect2FrameGrabber","unclassified","stop","set"
+"OpenKinect2FrameGrabber","unclassified","grabVideo","command collaborator"
+"OpenKinect2FrameGrabber","unclassified","grabIR","set collaborator"
+"OpenKinect2FrameGrabber","unclassified","grabDepth","set collaborator"
+"OpenKinect2FrameGrabber","unclassified","grab","property non-void-command collaborator"
+"OpenKinect2FrameGrabber","unclassified","getVideoImage","get collaborator"
+"OpenKinect2FrameGrabber","unclassified","getIRImage","get collaborator"
+"OpenKinect2FrameGrabber","unclassified","getDepthImage","get collaborator"
+"OpenKinect2FrameGrabber","unclassified","trigger","empty"
+"OpenKinect2FrameGrabber","unclassified","getDepthImageWidth","get"
+"OpenKinect2FrameGrabber","unclassified","setDepthImageWidth","set"
+"OpenKinect2FrameGrabber","unclassified","getDepthImageHeight","get"
+"OpenKinect2FrameGrabber","unclassified","setDepthImageHeight","set"
+"OpenKinect2FrameGrabber","unclassified","getIRImageWidth","get"
+"OpenKinect2FrameGrabber","unclassified","setIRImageWidth","set"
+"OpenKinect2FrameGrabber","unclassified","getIRImageHeight","get"
+"OpenKinect2FrameGrabber","unclassified","setIRImageHeight","set"
+"OpenKinect2FrameGrabber","unclassified","getDepthFrameRate","get"
+"OpenKinect2FrameGrabber","unclassified","setDepthFrameRate","set"
+"ObjectFinder","boundary","ObjectFinder","constructor"
+"ObjectFinder","boundary","ObjectFinder","constructor"
+"ObjectFinder","boundary","getSettings","get collaborator"
+"ObjectFinder","boundary","setSettings","command collaborator"
+"ObjectFinder","boundary","find","property non-void-command collaborator"
+"ObjectFinder","boundary","compareDescriptors","property controller"
+"ObjectFinder","boundary","naiveNearestNeighbor","property non-void-command collaborator"
+"ObjectFinder","boundary","findPairs","command collaborator"
+"ObjectFinder","boundary","flannFindPairs","command collaborator"
+"ObjectFinder","boundary","locatePlanarObject","property non-void-command"
+"Marker","boundary","Marker","constructor"
+"Marker","boundary","Marker","constructor"
+"Marker","boundary","clone","property non-void-command factory"
+"Marker","boundary","hashCode","property non-void-command"
+"Marker","boundary","equals","predicate wrapper"
+"Marker","boundary","getCenter","property"
+"Marker","boundary","getImage","property non-void-command collaborator"
+"Marker","boundary","draw","command collaborator"
+"Marker","boundary","draw","command collaborator"
+"Marker","boundary","draw","command collaborator"
+"Marker","boundary","toString","property"
+"JavaFXFrameConverter","degenerate small-class","convert","collaborator stateless"
+"JavaFXFrameConverter","degenerate small-class","convert","factory collaborator stateless"
+"JavaCvErrorCallback","boundary small-class","JavaCvErrorCallback","constructor"
+"JavaCvErrorCallback","boundary small-class","JavaCvErrorCallback","constructor"
+"JavaCvErrorCallback","boundary small-class","JavaCvErrorCallback","constructor"
+"JavaCvErrorCallback","boundary small-class","JavaCvErrorCallback","constructor"
+"JavaCvErrorCallback","boundary small-class","call","get set collaborator"
+"JavaCVCL","commander boundary","JavaCVCL","constructor"
+"JavaCVCL","commander boundary","JavaCVCL","constructor"
+"JavaCVCL","commander boundary","JavaCVCL","constructor"
+"JavaCVCL","commander boundary","JavaCVCL","constructor"
+"JavaCVCL","commander boundary","JavaCVCL","constructor"
+"JavaCVCL","commander boundary","JavaCVCL","constructor"
+"JavaCVCL","commander boundary","release","command"
+"JavaCVCL","commander boundary","finalize","command"
+"JavaCVCL","commander boundary","getCLContext","get collaborator"
+"JavaCVCL","commander boundary","getCLCommandQueue","get collaborator"
+"JavaCVCL","commander boundary","getCLGLContext","property collaborator"
+"JavaCVCL","commander boundary","getGLContext","property non-void-command collaborator"
+"JavaCVCL","commander boundary","getGL","property non-void-command collaborator"
+"JavaCVCL","commander boundary","getGL2","property non-void-command collaborator"
+"JavaCVCL","commander boundary","getGLU","get collaborator"
+"JavaCVCL","commander boundary","buildKernel","property non-void-command collaborator"
+"JavaCVCL","commander boundary","buildKernel","property non-void-command collaborator"
+"JavaCVCL","commander boundary","buildKernels","property non-void-command collaborator"
+"JavaCVCL","commander boundary","buildKernels","non-void-command factory collaborator"
+"JavaCVCL","commander boundary","createCLImageFrom","property non-void-command collaborator"
+"JavaCVCL","commander boundary","createCLGLImageFrom","property non-void-command collaborator"
+"JavaCVCL","commander boundary","releaseCLGLImage","command collaborator"
+"JavaCVCL","commander boundary","createPinnedBuffer","property non-void-command collaborator"
+"JavaCVCL","commander boundary","createPinnedIplImage","factory collaborator stateless"
+"JavaCVCL","commander boundary","createIplImageFrom","controller stateless"
+"JavaCVCL","commander boundary","readImage","property non-void-command collaborator"
+"JavaCVCL","commander boundary","writeImage","property non-void-command collaborator"
+"JavaCVCL","commander boundary","acquireGLObject","command collaborator"
+"JavaCVCL","commander boundary","releaseGLObject","command collaborator"
+"JavaCVCL","commander boundary","readBuffer","command"
+"JavaCVCL","commander boundary","writeBuffer","command"
+"JavaCVCL","commander boundary","executeKernel","command"
+"JavaCVCL","commander boundary","executeKernel","command collaborator"
+"JavaCVCL","commander boundary","executeKernel","command collaborator"
+"JavaCVCL","commander boundary","executeKernel","command"
+"JavaCVCL","commander boundary","executeKernel","command collaborator"
+"JavaCVCL","commander boundary","executeKernel","command collaborator"
+"JavaCVCL","commander boundary","executeKernel","command"
+"JavaCVCL","commander boundary","executeKernel","command collaborator"
+"JavaCVCL","commander boundary","executeKernel","command collaborator"
+"JavaCVCL","commander boundary","finish","command"
+"JavaCVCL","commander boundary","flush","command"
+"JavaCVCL","commander boundary","pyrDown","command collaborator"
+"JavaCVCL","commander boundary","remap","command collaborator"
+"JavaCVCL","commander boundary","remap","command collaborator"
+"IPCameraFrameGrabber","commander","IPCameraFrameGrabber","constructor"
+"IPCameraFrameGrabber","commander","IPCameraFrameGrabber","constructor"
+"IPCameraFrameGrabber","commander","IPCameraFrameGrabber","constructor"
+"IPCameraFrameGrabber","commander","start","set collaborator"
+"IPCameraFrameGrabber","commander","stop","command"
+"IPCameraFrameGrabber","commander","trigger","empty"
+"IPCameraFrameGrabber","commander","grab","property non-void-command collaborator"
+"IPCameraFrameGrabber","commander","grabBufferedImage","property non-void-command collaborator"
+"IPCameraFrameGrabber","commander","releaseDecoded","set"
+"IPCameraFrameGrabber","commander","readImage","get non-void-command"
+"IPCameraFrameGrabber","commander","release","empty"
+"IPCameraFrameGrabber","commander","ensureBufferCapacity","set"
+"HandMouse","unclassified","HandMouse","constructor"
+"HandMouse","unclassified","HandMouse","constructor"
+"HandMouse","unclassified","getSettings","get collaborator"
+"HandMouse","unclassified","setSettings","set collaborator"
+"HandMouse","unclassified","reset","command"
+"HandMouse","unclassified","update","command"
+"HandMouse","unclassified","getRelativeResidual","get collaborator"
+"HandMouse","unclassified","getResultImage","get non-void-command collaborator"
+"HandMouse","unclassified","getX","get"
+"HandMouse","unclassified","getY","get"
+"HandMouse","unclassified","isSteady","predicate non-void-command"
+"HandMouse","unclassified","isClick","predicate non-void-command"
+"GeometricCalibrator","boundary","GeometricCalibrator","constructor"
+"GeometricCalibrator","boundary","getMarkerDetector","get collaborator"
+"GeometricCalibrator","boundary","getMarkedPlane","get collaborator"
+"GeometricCalibrator","boundary","getProjectiveDevice","get collaborator"
+"GeometricCalibrator","boundary","getAllObjectMarkers","get collaborator"
+"GeometricCalibrator","boundary","setAllObjectMarkers","set collaborator"
+"GeometricCalibrator","boundary","getAllImageMarkers","get collaborator"
+"GeometricCalibrator","boundary","setAllImageMarkers","set collaborator"
+"GeometricCalibrator","boundary","processImage","get property non-void-command collaborator"
+"GeometricCalibrator","boundary","drawMarkers","command collaborator"
+"GeometricCalibrator","boundary","addMarkers","command"
+"GeometricCalibrator","boundary","addMarkers","command collaborator"
+"GeometricCalibrator","boundary","addMarkers","command collaborator"
+"GeometricCalibrator","boundary","getImageCount","property non-void-command"
+"GeometricCalibrator","boundary","getObjectPoints","factory controller stateless"
+"GeometricCalibrator","boundary","getImagePoints","factory controller stateless"
+"GeometricCalibrator","boundary","getPoints","property non-void-command factory collaborator"
+"GeometricCalibrator","boundary","calibrate","property non-void-command"
+"GeometricCalibrator","boundary","calibrateStereo","property non-void-command"
+"GNImageAlignerCL","entity boundary","GNImageAlignerCL","constructor"
+"GNImageAlignerCL","entity boundary","GNImageAlignerCL","constructor"
+"GNImageAlignerCL","entity boundary","release","command collaborator"
+"GNImageAlignerCL","entity boundary","finalize","command"
+"GNImageAlignerCL","entity boundary","getTemplateImage","property non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getTemplateImage","get non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","setTemplateImage","command"
+"GNImageAlignerCL","entity boundary","getTargetImage","property non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getTargetImage","get non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","setTargetImage","command collaborator"
+"GNImageAlignerCL","entity boundary","getTransformedImage","property non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getTransformedImage","get non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getResidualImage","property non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getResidualImage","get non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getMaskImage","property non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getMaskImage","get non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getRMSE","get non-void-command"
+"GNImageAlignerCL","entity boundary","getPixelCount","property non-void-command"
+"GNImageAlignerCL","entity boundary","getOutlierCount","property"
+"GNImageAlignerCL","entity boundary","getRoi","property non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getImages","property non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getImages","get non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getTemplateImageCL","get collaborator"
+"GNImageAlignerCL","entity boundary","setTemplateImageCL","command"
+"GNImageAlignerCL","entity boundary","getTargetImageCL","get collaborator"
+"GNImageAlignerCL","entity boundary","setTargetImageCL","command collaborator"
+"GNImageAlignerCL","entity boundary","getTransformedImageCL","get non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getResidualImageCL","get non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","getMaskImageCL","get collaborator"
+"GNImageAlignerCL","entity boundary","getImagesCL","get non-void-command collaborator"
+"GNImageAlignerCL","entity boundary","doHessianGradient","void-accessor command"
+"GNImageAlignerCL","entity boundary","doRoi","command collaborator"
+"GNImageAlignerCL","entity boundary","doResidual","command"
+"GNImageAligner","unclassified","GNImageAligner","constructor"
+"GNImageAligner","unclassified","GNImageAligner","constructor"
+"GNImageAligner","unclassified","GNImageAligner","constructor"
+"GNImageAligner","unclassified","getSettings","get collaborator"
+"GNImageAligner","unclassified","setSettings","set collaborator"
+"GNImageAligner","unclassified","getTemplateImage","get collaborator"
+"GNImageAligner","unclassified","setTemplateImage","command"
+"GNImageAligner","unclassified","getTargetImage","get collaborator"
+"GNImageAligner","unclassified","setTargetImage","command collaborator"
+"GNImageAligner","unclassified","getPyramidLevel","get"
+"GNImageAligner","unclassified","setPyramidLevel","command"
+"GNImageAligner","unclassified","isConstrained","predicate"
+"GNImageAligner","unclassified","setConstrained","command"
+"GNImageAligner","unclassified","getParameters","get collaborator"
+"GNImageAligner","unclassified","setParameters","command collaborator"
+"GNImageAligner","unclassified","getPriorParameters","get collaborator"
+"GNImageAligner","unclassified","setPriorParameters","command collaborator"
+"GNImageAligner","unclassified","getTransformedRoiPts","property non-void-command"
+"GNImageAligner","unclassified","getTransformedImage","get non-void-command collaborator"
+"GNImageAligner","unclassified","getResidualImage","get non-void-command collaborator"
+"GNImageAligner","unclassified","getMaskImage","get collaborator"
+"GNImageAligner","unclassified","getRMSE","get non-void-command"
+"GNImageAligner","unclassified","getPixelCount","get non-void-command"
+"GNImageAligner","unclassified","getOutlierCount","get"
+"GNImageAligner","unclassified","getRoi","get non-void-command collaborator"
+"GNImageAligner","unclassified","getLastLinePosition","get"
+"GNImageAligner","unclassified","getImages","get non-void-command collaborator"
+"GNImageAligner","unclassified","iterate","predicate non-void-command"
+"GNImageAligner","unclassified","doHessianGradient","void-accessor command"
+"GNImageAligner","unclassified","doRegularization","void-accessor command"
+"GNImageAligner","unclassified","doRoi","command"
+"GNImageAligner","unclassified","doResidual","command"
+"OpenCVFrameConverter<F>","entity boundary","convertToIplImage","get property set collaborator"
+"OpenCVFrameConverter<F>","entity boundary","convert","get property non-void-command factory collaborator"
+"OpenCVFrameConverter<F>","entity boundary","convertToMat","get property set collaborator"
+"OpenCVFrameConverter<F>","entity boundary","convert","get property non-void-command factory collaborator"
+"OpenCVFrameConverter<F>","entity boundary","convertToOrgOpenCvCoreMat","get property set collaborator"
+"OpenCVFrameConverter<F>","entity boundary","convert","get property non-void-command factory collaborator"
+"OpenCVFrameConverter<F>","entity boundary","close","command"
+"Java2DFrameConverter","entity boundary","convert","property non-void-command collaborator"
+"Java2DFrameConverter","entity boundary","convert","property non-void-command collaborator"
+"Java2DFrameConverter","entity boundary","getBufferedImage","property non-void-command collaborator"
+"Java2DFrameConverter","entity boundary","getBufferedImage","property non-void-command collaborator"
+"Java2DFrameConverter","entity boundary","getBufferedImage","get property non-void-command factory collaborator"
+"Java2DFrameConverter","entity boundary","getFrame","property non-void-command collaborator"
+"Java2DFrameConverter","entity boundary","getFrame","property non-void-command collaborator"
+"Java2DFrameConverter","entity boundary","getFrame","get property set factory collaborator"
+"FrameGrabber","unclassified","getVideoStream","get"
+"FrameGrabber","unclassified","setVideoStream","set"
+"FrameGrabber","unclassified","getAudioStream","get"
+"FrameGrabber","unclassified","setAudioStream","set"
+"FrameGrabber","unclassified","setVideoDisposition","set"
+"FrameGrabber","unclassified","getVideoDisposition","get"
+"FrameGrabber","unclassified","setAudioDisposition","set"
+"FrameGrabber","unclassified","getAudioDisposition","get"
+"FrameGrabber","unclassified","getFormat","get"
+"FrameGrabber","unclassified","setFormat","set"
+"FrameGrabber","unclassified","getVideoCodecName","get"
+"FrameGrabber","unclassified","setVideoCodecName","set"
+"FrameGrabber","unclassified","getAudioCodecName","get"
+"FrameGrabber","unclassified","setAudioCodecName","set"
+"FrameGrabber","unclassified","getImageWidth","get"
+"FrameGrabber","unclassified","setImageWidth","set"
+"FrameGrabber","unclassified","getImageHeight","get"
+"FrameGrabber","unclassified","setImageHeight","set"
+"FrameGrabber","unclassified","getAudioChannels","get"
+"FrameGrabber","unclassified","setAudioChannels","set"
+"FrameGrabber","unclassified","getImageMode","get collaborator"
+"FrameGrabber","unclassified","setImageMode","set collaborator"
+"FrameGrabber","unclassified","getSensorPattern","get"
+"FrameGrabber","unclassified","setSensorPattern","set"
+"FrameGrabber","unclassified","getPixelFormat","get"
+"FrameGrabber","unclassified","setPixelFormat","set"
+"FrameGrabber","unclassified","getVideoCodec","get"
+"FrameGrabber","unclassified","setVideoCodec","set"
+"FrameGrabber","unclassified","getVideoBitrate","get"
+"FrameGrabber","unclassified","setVideoBitrate","set"
+"FrameGrabber","unclassified","getImageScalingFlags","get"
+"FrameGrabber","unclassified","setImageScalingFlags","set"
+"FrameGrabber","unclassified","getAspectRatio","get"
+"FrameGrabber","unclassified","setAspectRatio","set"
+"FrameGrabber","unclassified","getFrameRate","get"
+"FrameGrabber","unclassified","setFrameRate","set"
+"FrameGrabber","unclassified","getAudioCodec","get"
+"FrameGrabber","unclassified","setAudioCodec","set"
+"FrameGrabber","unclassified","getAudioBitrate","get"
+"FrameGrabber","unclassified","setAudioBitrate","set"
+"FrameGrabber","unclassified","getSampleMode","get collaborator"
+"FrameGrabber","unclassified","setSampleMode","set collaborator"
+"FrameGrabber","unclassified","getSampleFormat","get"
+"FrameGrabber","unclassified","setSampleFormat","set"
+"FrameGrabber","unclassified","getSampleRate","get"
+"FrameGrabber","unclassified","setSampleRate","set"
+"FrameGrabber","unclassified","isTriggerMode","get"
+"FrameGrabber","unclassified","setTriggerMode","set"
+"FrameGrabber","unclassified","getBitsPerPixel","get"
+"FrameGrabber","unclassified","setBitsPerPixel","set"
+"FrameGrabber","unclassified","getTimeout","get"
+"FrameGrabber","unclassified","setTimeout","set"
+"FrameGrabber","unclassified","getNumBuffers","get"
+"FrameGrabber","unclassified","setNumBuffers","set"
+"FrameGrabber","unclassified","getGamma","get"
+"FrameGrabber","unclassified","setGamma","set"
+"FrameGrabber","unclassified","isDeinterlace","get"
+"FrameGrabber","unclassified","setDeinterlace","set"
+"FrameGrabber","unclassified","getCharset","get collaborator"
+"FrameGrabber","unclassified","setCharset","set collaborator"
+"FrameGrabber","unclassified","getOptions","get"
+"FrameGrabber","unclassified","setOptions","set"
+"FrameGrabber","unclassified","getVideoOptions","get"
+"FrameGrabber","unclassified","setVideoOptions","set"
+"FrameGrabber","unclassified","getAudioOptions","get"
+"FrameGrabber","unclassified","setAudioOptions","set"
+"FrameGrabber","unclassified","getMetadata","get"
+"FrameGrabber","unclassified","setMetadata","set"
+"FrameGrabber","unclassified","getVideoMetadata","get"
+"FrameGrabber","unclassified","setVideoMetadata","set"
+"FrameGrabber","unclassified","getAudioMetadata","get"
+"FrameGrabber","unclassified","setAudioMetadata","set"
+"FrameGrabber","unclassified","getOption","property non-void-command"
+"FrameGrabber","unclassified","setOption","command"
+"FrameGrabber","unclassified","getVideoOption","property non-void-command"
+"FrameGrabber","unclassified","setVideoOption","command"
+"FrameGrabber","unclassified","getAudioOption","property non-void-command"
+"FrameGrabber","unclassified","setAudioOption","command"
+"FrameGrabber","unclassified","getMetadata","property non-void-command"
+"FrameGrabber","unclassified","setMetadata","command"
+"FrameGrabber","unclassified","getVideoMetadata","property non-void-command"
+"FrameGrabber","unclassified","setVideoMetadata","command"
+"FrameGrabber","unclassified","getAudioMetadata","property non-void-command"
+"FrameGrabber","unclassified","setAudioMetadata","command"
+"FrameGrabber","unclassified","getVideoSideData","get collaborator"
+"FrameGrabber","unclassified","setVideoSideData","set collaborator"
+"FrameGrabber","unclassified","getVideoSideData","property non-void-command collaborator"
+"FrameGrabber","unclassified","setVideoSideData","command collaborator"
+"FrameGrabber","unclassified","getAudioSideData","get collaborator"
+"FrameGrabber","unclassified","setAudioSideData","set collaborator"
+"FrameGrabber","unclassified","getAudioSideData","property non-void-command collaborator"
+"FrameGrabber","unclassified","setAudioSideData","command collaborator"
+"FrameGrabber","unclassified","getFrameNumber","get"
+"FrameGrabber","unclassified","setFrameNumber","set"
+"FrameGrabber","unclassified","getTimestamp","get"
+"FrameGrabber","unclassified","setTimestamp","set"
+"FrameGrabber","unclassified","getMaxDelay","get"
+"FrameGrabber","unclassified","setMaxDelay","set"
+"FrameGrabber","unclassified","getLengthInFrames","incidental"
+"FrameGrabber","unclassified","getLengthInTime","incidental"
+"FrameGrabber","unclassified","close","wrapper stateless"
+"FrameGrabber","unclassified","grabFrame","wrapper stateless"
+"FrameGrabber","unclassified","restart","wrapper stateless"
+"FrameGrabber","unclassified","flush","wrapper"
+"FrameGrabber","unclassified","delayedGrab","command"
+"FrameGrabber","unclassified","getDelayedTime","get property non-void-command"
+"FrameGrabber","unclassified","getDelayedFrame","get property non-void-command collaborator"
+"FrameGrabber","unclassified","createArray","factory collaborator stateless"
+"FrameGrabber","unclassified","grabAtFrameRate","property non-void-command collaborator"
+"FrameGrabber","unclassified","waitForTimestamp","predicate set collaborator"
+"FrameGrabber","unclassified","resetStartTime","set"
+"FrameFilter","unclassified","getFilters","get"
+"FrameFilter","unclassified","setFilters","set"
+"FrameFilter","unclassified","getImageWidth","get"
+"FrameFilter","unclassified","setImageWidth","set"
+"FrameFilter","unclassified","getImageHeight","get"
+"FrameFilter","unclassified","setImageHeight","set"
+"FrameFilter","unclassified","getPixelFormat","get"
+"FrameFilter","unclassified","setPixelFormat","set"
+"FrameFilter","unclassified","getFrameRate","get"
+"FrameFilter","unclassified","setFrameRate","set"
+"FrameFilter","unclassified","getAspectRatio","get"
+"FrameFilter","unclassified","setAspectRatio","set"
+"FrameFilter","unclassified","getVideoInputs","get"
+"FrameFilter","unclassified","setVideoInputs","set"
+"FrameFilter","unclassified","getAudioChannels","get"
+"FrameFilter","unclassified","setAudioChannels","set"
+"FrameFilter","unclassified","getSampleFormat","get"
+"FrameFilter","unclassified","setSampleFormat","set"
+"FrameFilter","unclassified","getSampleRate","get"
+"FrameFilter","unclassified","setSampleRate","set"
+"FrameFilter","unclassified","getAudioInputs","get"
+"FrameFilter","unclassified","setAudioInputs","set"
+"FrameFilter","unclassified","close","wrapper stateless"
+"FrameFilter","unclassified","restart","wrapper stateless"
+"FrameFilter","unclassified","flush","wrapper stateless"
+"MarkedPlane","entity minimal-entity boundary","MarkedPlane","constructor"
+"MarkedPlane","entity minimal-entity boundary","MarkedPlane","constructor"
+"MarkedPlane","entity minimal-entity boundary","getForegroundColor","get collaborator"
+"MarkedPlane","entity minimal-entity boundary","setForegroundColor","set collaborator"
+"MarkedPlane","entity minimal-entity boundary","getBackgroundColor","get collaborator"
+"MarkedPlane","entity minimal-entity boundary","setBackgroundColor","set collaborator"
+"MarkedPlane","entity minimal-entity boundary","getMarkers","get collaborator"
+"MarkedPlane","entity minimal-entity boundary","setColors","command collaborator"
+"MarkedPlane","entity minimal-entity boundary","getPrewarp","get collaborator"
+"MarkedPlane","entity minimal-entity boundary","setPrewarp","command collaborator"
+"MarkedPlane","entity minimal-entity boundary","getImage","get collaborator"
+"MarkedPlane","entity minimal-entity boundary","getWidth","property non-void-command"
+"MarkedPlane","entity minimal-entity boundary","getHeight","property non-void-command"
+"MarkedPlane","entity minimal-entity boundary","getTotalWarp","property non-void-command collaborator"
+"MarkedPlane","entity minimal-entity boundary","getTotalWarp","property non-void-command collaborator"
+"AndroidFrameConverter","entity boundary","convert","get set factory collaborator"
+"AndroidFrameConverter","entity boundary","convert","get property set factory collaborator"
+"AndroidFrameConverter","entity boundary","gray2rgba","get non-void-command collaborator"
+"AndroidFrameConverter","entity boundary","bgr2rgba","get non-void-command collaborator"
+"AndroidFrameConverter","entity boundary","convert","get property non-void-command collaborator"
+"ProjectiveColorTransformerCL","commander","ProjectiveColorTransformerCL","constructor"
+"ProjectiveColorTransformerCL","commander","getContext","get collaborator"
+"ProjectiveColorTransformerCL","commander","prepareHomographies","command"
+"ProjectiveColorTransformerCL","commander","prepareColorTransforms","command"
+"ProjectiveColorTransformerCL","commander","transform","command collaborator"
+"JavaFxPlayVideoAndAudio","commander small-class","start","command collaborator"
+"JavaFxPlayVideoAndAudio","commander small-class","stop","command"
+"Frame","unclassified","Frame","constructor"
+"Frame","unclassified","Frame","constructor"
+"Frame","unclassified","Frame","constructor"
+"Frame","unclassified","createIndexer","property non-void-command collaborator"
+"Frame","unclassified","createIndexer","property non-void-command collaborator"
+"Frame","unclassified","createIndexer","property controller"
+"Frame","unclassified","clone","factory wrapper"
+"Frame","unclassified","getTypes","property controller"
+"Frame","unclassified","close","set collaborator"
+"ProjectorDevice","entity boundary","ProjectorDevice","constructor"
+"ProjectorDevice","entity boundary","ProjectorDevice","constructor"
+"ProjectorDevice","entity boundary","ProjectorDevice","constructor"
+"ProjectorDevice","entity boundary","ProjectorDevice","constructor"
+"ProjectorDevice","entity boundary","getSettings","property collaborator"
+"ProjectorDevice","entity boundary","setSettings","command collaborator"
+"ProjectorDevice","entity boundary","setSettings","command collaborator"
+"ProjectorDevice","entity boundary","createCanvasFrame","property non-void-command collaborator"
+"ProjectorDevice","entity boundary","getAttenuation","property non-void-command"
+"FacePreview","commander boundary small-class","onCreate","command collaborator"
+"CLCamera","entity data-provider boundary","dispose","command"
+"CLCamera","entity data-provider boundary","createCamera","predicate set"
+"CLCamera","entity data-provider boundary","destroyCamera","predicate wrapper"
+"CLCamera","entity data-provider boundary","startCamera","predicate wrapper"
+"CLCamera","entity data-provider boundary","stopCamera","predicate wrapper"
+"CLCamera","entity data-provider boundary","getCameraFrame","predicate wrapper"
+"CLCamera","entity data-provider boundary","setCameraParam","predicate wrapper"
+"CLCamera","entity data-provider boundary","getCameraParam","property wrapper"
+"FrameConverterTest","pure-controller degenerate","testAndroidFrameConverter","controller stateless"
+"FrameConverterTest","pure-controller degenerate","testJava2DFrameConverter","controller stateless"
+"FrameConverterTest","pure-controller degenerate","testOpenCVFrameConverter","controller stateless"
+"FrameConverterTest","pure-controller degenerate","testLeptonicaFrameConverter","controller stateless"
+"SeekableByteArrayOutputStream","commander","seek","set"
+"SeekableByteArrayOutputStream","commander","write","set"
+"SeekableByteArrayOutputStream","commander","write","command"
+"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor"
+"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor"
+"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor"
+"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor"
+"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor"
+"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor"
+"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor"
+"GLCanvasFrame","entity commander boundary","GLCanvasFrame","constructor"
+"GLCanvasFrame","entity commander boundary","init","command collaborator"
+"GLCanvasFrame","entity commander boundary","initCanvas","empty"
+"GLCanvasFrame","entity commander boundary","getGLCanvas","property collaborator"
+"GLCanvasFrame","entity commander boundary","showColor","command collaborator"
+"GLCanvasFrame","entity commander boundary","showImage","command collaborator"
+"GLCanvasFrame","entity commander boundary","showImage","command"
+"GLCanvasFrame","entity commander boundary","showImage","command collaborator"
+"GLCanvasFrame","entity commander boundary","showImage","command collaborator"
+"GLCanvasFrame","entity commander boundary","showImage","command"
+"FaceApplet","commander","init","command collaborator"
+"FaceApplet","commander","start","set"
+"FaceApplet","commander","run","command"
+"FaceApplet","commander","update","command collaborator"
+"FaceApplet","commander","paint","command collaborator"
+"FaceApplet","commander","stop","set"
+"FaceApplet","commander","destroy","empty"
+"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor"
+"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor"
+"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor"
+"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor"
+"FFmpegFrameGrabber","unclassified","FFmpegFrameGrabber","constructor"
+"FFmpegFrameGrabber","unclassified","release","command"
+"FFmpegFrameGrabber","unclassified","releaseUnsafe","command"
+"FFmpegFrameGrabber","unclassified","finalize","command"
+"FFmpegFrameGrabber","unclassified","isCloseInputStream","get"
+"FFmpegFrameGrabber","unclassified","setCloseInputStream","set"
+"FFmpegFrameGrabber","unclassified","hasVideo","predicate"
+"FFmpegFrameGrabber","unclassified","hasAudio","predicate"
+"FFmpegFrameGrabber","unclassified","getGamma","get property"
+"FFmpegFrameGrabber","unclassified","getFormat","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getImageWidth","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getImageHeight","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getAudioChannels","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getPixelFormat","get property non-void-command"
+"FFmpegFrameGrabber","unclassified","getVideoCodec","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getVideoCodecName","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getVideoBitrate","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getAspectRatio","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getFrameRate","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getAudioFrameRate","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getVideoFrameRate","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","getAudioCodec","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getAudioCodecName","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getAudioBitrate","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getSampleFormat","get property non-void-command"
+"FFmpegFrameGrabber","unclassified","getSampleRate","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getMetadata","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getVideoMetadata","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getAudioMetadata","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getMetadata","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","getVideoMetadata","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","getAudioMetadata","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","getVideoSideData","get property non-void-command factory collaborator"
+"FFmpegFrameGrabber","unclassified","getVideoSideData","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","getDisplayRotation","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","getAudioSideData","get property non-void-command factory collaborator"
+"FFmpegFrameGrabber","unclassified","getAudioSideData","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","setFrameNumber","command"
+"FFmpegFrameGrabber","unclassified","setVideoFrameNumber","command"
+"FFmpegFrameGrabber","unclassified","setAudioFrameNumber","command"
+"FFmpegFrameGrabber","unclassified","setTimestamp","command"
+"FFmpegFrameGrabber","unclassified","setTimestamp","wrapper stateless"
+"FFmpegFrameGrabber","unclassified","setVideoTimestamp","command"
+"FFmpegFrameGrabber","unclassified","setAudioTimestamp","command"
+"FFmpegFrameGrabber","unclassified","setTimestamp","command collaborator"
+"FFmpegFrameGrabber","unclassified","getLengthInFrames","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getLengthInTime","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getLengthInVideoFrames","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getLengthInAudioFrames","property non-void-command"
+"FFmpegFrameGrabber","unclassified","getFormatContext","get collaborator"
+"FFmpegFrameGrabber","unclassified","start","command"
+"FFmpegFrameGrabber","unclassified","start","command"
+"FFmpegFrameGrabber","unclassified","startUnsafe","command"
+"FFmpegFrameGrabber","unclassified","startUnsafe","command collaborator"
+"FFmpegFrameGrabber","unclassified","initPictureRGB","command"
+"FFmpegFrameGrabber","unclassified","stop","command"
+"FFmpegFrameGrabber","unclassified","trigger","command"
+"FFmpegFrameGrabber","unclassified","processImage","command collaborator"
+"FFmpegFrameGrabber","unclassified","processSamples","command"
+"FFmpegFrameGrabber","unclassified","grab","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","grabImage","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","grabSamples","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","grabKeyFrame","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","grabFrame","property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","grabFrame","get property non-void-command collaborator"
+"FFmpegFrameGrabber","unclassified","grabPacket","get property non-void-command collaborator"
+"ProjectorSettings","entity boundary","ProjectorSettings","constructor"
+"ProjectorSettings","entity boundary","ProjectorSettings","constructor"
+"ProjectorSettings","entity boundary","getQuantity","wrapper stateless"
+"ProjectorSettings","entity boundary","setQuantity","command collaborator"
+"ProjectorSettings","entity boundary","toArray","property non-void-command collaborator"
+"FrameConverter<F>","commander data-class small-class","close","set"
+"FrameGrabberTest","pure-controller degenerate","testFFmpegFrameGrabber","controller stateless"
+"FrameGrabberTest","pure-controller degenerate","testFFmpegFrameGrabberLockingTest","controller stateless"
+"FrameGrabberTest","pure-controller degenerate","testFFmpegFrameGrabberSeeking","controller stateless"
+"FaceView","commander boundary","FaceView","constructor"
+"FaceView","commander boundary","onPreviewFrame","command collaborator"
+"FaceView","commander boundary","processImage","command"
+"FaceView","commander boundary","onDraw","command collaborator"
+"ColoredObjectTrack","commander boundary","ColoredObjectTrack","constructor"
+"ColoredObjectTrack","commander boundary","run","command"
+"ColoredObjectTrack","commander boundary","paint","command collaborator"
+"ColoredObjectTrack","commander boundary","getThresholdImage","property set collaborator"
+"ColoredObjectTrack","commander boundary","Equalize","controller stateless"
+"FlyCapture2FrameGrabber","commander boundary","FlyCapture2FrameGrabber","constructor"
+"FlyCapture2FrameGrabber","commander boundary","release","command"
+"FlyCapture2FrameGrabber","commander boundary","finalize","command"
+"FlyCapture2FrameGrabber","commander boundary","getGamma","property wrapper"
+"FlyCapture2FrameGrabber","commander boundary","getImageWidth","property non-void-command"
+"FlyCapture2FrameGrabber","commander boundary","getImageHeight","property non-void-command"
+"FlyCapture2FrameGrabber","commander boundary","getFrameRate","property non-void-command collaborator"
+"FlyCapture2FrameGrabber","commander boundary","setImageMode","command collaborator"
+"FlyCapture2FrameGrabber","commander boundary","start","command collaborator"
+"FlyCapture2FrameGrabber","commander boundary","waitForTriggerReady","command collaborator"
+"FlyCapture2FrameGrabber","commander boundary","stop","command collaborator"
+"FlyCapture2FrameGrabber","commander boundary","trigger","command collaborator"
+"FlyCapture2FrameGrabber","commander boundary","getNumChannels","incidental"
+"FlyCapture2FrameGrabber","commander boundary","getDepth","incidental"
+"FlyCapture2FrameGrabber","commander boundary","setPixelFormat","controller stateless"
+"FlyCapture2FrameGrabber","commander boundary","setStride","controller stateless"
+"FlyCapture2FrameGrabber","commander boundary","grab","property non-void-command collaborator"
+"MarkerDetector","entity boundary","MarkerDetector","constructor"
+"MarkerDetector","entity boundary","MarkerDetector","constructor"
+"MarkerDetector","entity boundary","getSettings","get collaborator"
+"MarkerDetector","entity boundary","setSettings","command collaborator"
+"MarkerDetector","entity boundary","getThresholdedImage","get collaborator"
+"MarkerDetector","entity boundary","init","command collaborator"
+"MarkerDetector","entity boundary","detect","property non-void-command collaborator"
+"MarkerDetector","entity boundary","draw","command collaborator"
+"Preview","commander boundary","Preview","copy-constructor"
+"Preview","commander boundary","surfaceCreated","command collaborator"
+"Preview","commander boundary","surfaceDestroyed","command collaborator"
+"Preview","commander boundary","getOptimalPreviewSize","wrapper stateless"
+"Preview","commander boundary","surfaceChanged","command"
+"DeinterlacedVideoPlayer","commander boundary","DeinterlacedVideoPlayer","constructor"
+"DeinterlacedVideoPlayer","commander boundary","start","command collaborator"
+"DeinterlacedVideoPlayer","commander boundary","startFrameGrabber","command"
+"DeinterlacedVideoPlayer","commander boundary","releaseGrabberAndFilter","command collaborator"
+"DeinterlacedVideoPlayer","commander boundary","releaseFilter","controller stateless"
+"PrincipalComponentAnalysis","unclassified","execute","command collaborator"
+"PrincipalComponentAnalysis","unclassified","principalComponentAnalysis","command collaborator"
+"PrincipalComponentAnalysis","unclassified","drawAxis","controller stateless"
+"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","BufferRing","constructor"
+"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","capacity","property"
+"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","position","get"
+"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","position","get set"
+"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","get","property collaborator"
+"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","get","property collaborator"
+"BufferRing<BextendsBufferRing.ReleasableBuffer>","data-provider","release","set"
+"ProjectiveDevice","boundary","ProjectiveDevice","constructor"
+"ProjectiveDevice","boundary","ProjectiveDevice","constructor"
+"ProjectiveDevice","boundary","ProjectiveDevice","constructor"
+"ProjectiveDevice","boundary","ProjectiveDevice","constructor"
+"ProjectiveDevice","boundary","ProjectiveDevice","constructor"
+"ProjectiveDevice","boundary","getSettings","get collaborator"
+"ProjectiveDevice","boundary","setSettings","set collaborator"
+"ProjectiveDevice","boundary","rescale","command"
+"ProjectiveDevice","boundary","getRGBColorOrder","property non-void-command"
+"ProjectiveDevice","boundary","undistort","property non-void-command"
+"ProjectiveDevice","boundary","distort","property non-void-command"
+"ProjectiveDevice","boundary","isFixedPointMaps","get"
+"ProjectiveDevice","boundary","setFixedPointMaps","command"
+"ProjectiveDevice","boundary","getMapsPyramidLevel","get"
+"ProjectiveDevice","boundary","setMapsPyramidLevel","command"
+"ProjectiveDevice","boundary","initUndistortMaps","command"
+"ProjectiveDevice","boundary","getUndistortMap1","get non-void-command collaborator"
+"ProjectiveDevice","boundary","getUndistortMap2","get non-void-command collaborator"
+"ProjectiveDevice","boundary","undistort","command collaborator"
+"ProjectiveDevice","boundary","undistort","get property set collaborator"
+"ProjectiveDevice","boundary","initDistortMaps","command"
+"ProjectiveDevice","boundary","getDistortMap1","get non-void-command collaborator"
+"ProjectiveDevice","boundary","getDistortMap2","get non-void-command collaborator"
+"ProjectiveDevice","boundary","distort","command collaborator"
+"ProjectiveDevice","boundary","distort","get property set collaborator"
+"ProjectiveDevice","boundary","getBackProjectionMatrix","property non-void-command collaborator"
+"ProjectiveDevice","boundary","getFrontoParallelH","property non-void-command collaborator"
+"ProjectiveDevice","boundary","getRectifyingHomography","property non-void-command collaborator"
+"ProjectiveDevice","boundary","writeParameters","command collaborator"
+"ProjectiveDevice","boundary","writeParameters","command collaborator"
+"ProjectiveDevice","boundary","writeParameters","command collaborator"
+"ProjectiveDevice","boundary","readParameters","command collaborator"
+"ProjectiveDevice","boundary","readParameters","command collaborator"
+"ProjectiveDevice","boundary","readParameters","command collaborator"
+"ProjectiveDevice","boundary","toString","property non-void-command"
+"ProCamTransformerCL","entity boundary","ProCamTransformerCL","constructor"
+"ProCamTransformerCL","entity boundary","ProCamTransformerCL","constructor"
+"ProCamTransformerCL","entity boundary","getContext","get collaborator"
+"ProCamTransformerCL","entity boundary","getSurfaceTransformerCL","property collaborator"
+"ProCamTransformerCL","entity boundary","getProjectorTransformerCL","property collaborator"
+"ProCamTransformerCL","entity boundary","getProjectorImageCL","get collaborator"
+"ProCamTransformerCL","entity boundary","setProjectorImageCL","command collaborator"
+"ProCamTransformerCL","entity boundary","getSurfaceImageCL","get collaborator"
+"ProCamTransformerCL","entity boundary","setSurfaceImageCL","command collaborator"
+"ProCamTransformerCL","entity boundary","prepareTransforms","command collaborator"
+"ProCamTransformerCL","entity boundary","transform","command collaborator"
+"ProCamGeometricCalibrator","boundary","ProCamGeometricCalibrator","constructor"
+"ProCamGeometricCalibrator","boundary","ProCamGeometricCalibrator","constructor"
+"ProCamGeometricCalibrator","boundary","getBoardPlane","get collaborator"
+"ProCamGeometricCalibrator","boundary","getProjectorPlane","get collaborator"
+"ProCamGeometricCalibrator","boundary","getCameraCalibrators","get collaborator"
+"ProCamGeometricCalibrator","boundary","getProjectorCalibrator","get collaborator"
+"ProCamGeometricCalibrator","boundary","getImageCount","property non-void-command collaborator"
+"ProCamGeometricCalibrator","boundary","processCameraImage","property non-void-command collaborator"
+"ProCamGeometricCalibrator","boundary","processCameraImage","property non-void-command collaborator"
+"ProCamGeometricCalibrator","boundary","drawMarkers","command collaborator"
+"ProCamGeometricCalibrator","boundary","drawMarkers","command"
+"ProCamGeometricCalibrator","boundary","processMarkers","predicate non-void-command"
+"ProCamGeometricCalibrator","boundary","processMarkers","predicate non-void-command"
+"ProCamGeometricCalibrator","boundary","processMarkers","predicate non-void-command collaborator"
+"ProCamGeometricCalibrator","boundary","processMarkers","predicate non-void-command"
+"ProCamGeometricCalibrator","boundary","addMarkers","command"
+"ProCamGeometricCalibrator","boundary","addMarkers","command"
+"ProCamGeometricCalibrator","boundary","addMarkers","command collaborator"
+"ProCamGeometricCalibrator","boundary","addMarkers","command"
+"ProCamGeometricCalibrator","boundary","getProjectorImage","property non-void-command collaborator"
+"ProCamGeometricCalibrator","boundary","calibrate","property non-void-command"
+"ProCamGeometricCalibrator","boundary","calibrate","property non-void-command"
+"FrameRecorder","unclassified","getFormat","get"
+"FrameRecorder","unclassified","setFormat","set"
+"FrameRecorder","unclassified","getVideoCodecName","get"
+"FrameRecorder","unclassified","setVideoCodecName","set"
+"FrameRecorder","unclassified","getAudioCodecName","get"
+"FrameRecorder","unclassified","setAudioCodecName","set"
+"FrameRecorder","unclassified","getImageWidth","get"
+"FrameRecorder","unclassified","setImageWidth","set"
+"FrameRecorder","unclassified","getImageHeight","get"
+"FrameRecorder","unclassified","setImageHeight","set"
+"FrameRecorder","unclassified","getAudioChannels","get"
+"FrameRecorder","unclassified","setAudioChannels","set"
+"FrameRecorder","unclassified","getPixelFormat","get"
+"FrameRecorder","unclassified","setPixelFormat","set"
+"FrameRecorder","unclassified","getVideoCodec","get"
+"FrameRecorder","unclassified","setVideoCodec","set"
+"FrameRecorder","unclassified","getVideoBitrate","get"
+"FrameRecorder","unclassified","setVideoBitrate","set"
+"FrameRecorder","unclassified","getImageScalingFlags","get"
+"FrameRecorder","unclassified","setImageScalingFlags","set"
+"FrameRecorder","unclassified","getGopSize","get"
+"FrameRecorder","unclassified","setGopSize","set"
+"FrameRecorder","unclassified","getAspectRatio","get"
+"FrameRecorder","unclassified","setAspectRatio","set"
+"FrameRecorder","unclassified","getFrameRate","get"
+"FrameRecorder","unclassified","setFrameRate","set"
+"FrameRecorder","unclassified","getVideoQuality","get"
+"FrameRecorder","unclassified","setVideoQuality","set"
+"FrameRecorder","unclassified","getSampleFormat","get"
+"FrameRecorder","unclassified","setSampleFormat","set"
+"FrameRecorder","unclassified","getAudioCodec","get"
+"FrameRecorder","unclassified","setAudioCodec","set"
+"FrameRecorder","unclassified","getAudioBitrate","get"
+"FrameRecorder","unclassified","setAudioBitrate","set"
+"FrameRecorder","unclassified","getSampleRate","get"
+"FrameRecorder","unclassified","setSampleRate","set"
+"FrameRecorder","unclassified","getAudioQuality","get"
+"FrameRecorder","unclassified","setAudioQuality","set"
+"FrameRecorder","unclassified","isInterleaved","get"
+"FrameRecorder","unclassified","setInterleaved","set"
+"FrameRecorder","unclassified","getCharset","get collaborator"
+"FrameRecorder","unclassified","setCharset","set collaborator"
+"FrameRecorder","unclassified","getOptions","get"
+"FrameRecorder","unclassified","setOptions","set"
+"FrameRecorder","unclassified","getVideoOptions","get"
+"FrameRecorder","unclassified","setVideoOptions","set"
+"FrameRecorder","unclassified","getAudioOptions","get"
+"FrameRecorder","unclassified","setAudioOptions","set"
+"FrameRecorder","unclassified","getMetadata","get"
+"FrameRecorder","unclassified","setMetadata","set"
+"FrameRecorder","unclassified","getVideoMetadata","get"
+"FrameRecorder","unclassified","setVideoMetadata","set"
+"FrameRecorder","unclassified","getAudioMetadata","get"
+"FrameRecorder","unclassified","setAudioMetadata","set"
+"FrameRecorder","unclassified","getOption","property non-void-command"
+"FrameRecorder","unclassified","setOption","command"
+"FrameRecorder","unclassified","getVideoOption","property non-void-command"
+"FrameRecorder","unclassified","setVideoOption","command"
+"FrameRecorder","unclassified","getAudioOption","property non-void-command"
+"FrameRecorder","unclassified","setAudioOption","command"
+"FrameRecorder","unclassified","getMetadata","property non-void-command"
+"FrameRecorder","unclassified","setMetadata","command"
+"FrameRecorder","unclassified","getVideoMetadata","property non-void-command"
+"FrameRecorder","unclassified","setVideoMetadata","command"
+"FrameRecorder","unclassified","getAudioMetadata","property non-void-command"
+"FrameRecorder","unclassified","setAudioMetadata","command"
+"FrameRecorder","unclassified","getVideoSideData","get collaborator"
+"FrameRecorder","unclassified","setVideoSideData","set collaborator"
+"FrameRecorder","unclassified","getVideoSideData","property non-void-command collaborator"
+"FrameRecorder","unclassified","setVideoSideData","command collaborator"
+"FrameRecorder","unclassified","getAudioSideData","get collaborator"
+"FrameRecorder","unclassified","setAudioSideData","set collaborator"
+"FrameRecorder","unclassified","getAudioSideData","property non-void-command collaborator"
+"FrameRecorder","unclassified","setAudioSideData","command collaborator"
+"FrameRecorder","unclassified","getFrameNumber","get"
+"FrameRecorder","unclassified","setFrameNumber","set"
+"FrameRecorder","unclassified","getTimestamp","get"
+"FrameRecorder","unclassified","setTimestamp","set"
+"FrameRecorder","unclassified","getMaxBFrames","get"
+"FrameRecorder","unclassified","setMaxBFrames","set"
+"FrameRecorder","unclassified","getTrellis","get"
+"FrameRecorder","unclassified","setTrellis","set"
+"FrameRecorder","unclassified","getMaxDelay","get"
+"FrameRecorder","unclassified","setMaxDelay","set"
+"FrameRecorder","unclassified","close","wrapper stateless"
+"FrameGrabberChangingResolutionTest","controller","makeTestfile","controller"
+"FrameGrabberChangingResolutionTest","controller","setupUDPSender","controller"
+"FrameGrabberChangingResolutionTest","controller","setupUDPReceiver","controller"
+"FrameGrabberChangingResolutionTest","controller","testFFmpegFrameGrabber","command collaborator"
+"SeekableByteArrayOutputStreamTest","unclassified","writeByte","controller stateless"
+"SeekableByteArrayOutputStreamTest","unclassified","writePartialBytes","controller stateless"
+"SeekableByteArrayOutputStreamTest","unclassified","writeBytes","controller stateless"
+"SeekableByteArrayOutputStreamTest","unclassified","createVideo","controller"
+"SeekableByteArrayOutputStreamTest","unclassified","serialWriteByteTest","command"
+"SeekableByteArrayOutputStreamTest","unclassified","serialWriteBytesTest","command"
+"SeekableByteArrayOutputStreamTest","unclassified","serialWritePartialBytesTest","command"
+"SeekableByteArrayOutputStreamTest","unclassified","serialWriteTest","command"
+"SeekableByteArrayOutputStreamTest","unclassified","seekWriteTest","command"
+"SeekableByteArrayOutputStreamTest","unclassified","testVideoBytesEqual","controller"
+"LeptonicaFrameConverter","entity boundary","convert","get property non-void-command collaborator"
+"LeptonicaFrameConverter","entity boundary","convert","get property non-void-command factory collaborator"
+"LeptonicaFrameConverter","entity boundary","close","command"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","FFmpegFrameRecorder","constructor"
+"FFmpegFrameRecorder","commander","release","command"
+"FFmpegFrameRecorder","commander","releaseUnsafe","command collaborator"
+"FFmpegFrameRecorder","commander","finalize","command"
+"FFmpegFrameRecorder","commander","isCloseOutputStream","get"
+"FFmpegFrameRecorder","commander","setCloseOutputStream","set"
+"FFmpegFrameRecorder","commander","setDisplayRotation","command"
+"FFmpegFrameRecorder","commander","getFrameNumber","property non-void-command"
+"FFmpegFrameRecorder","commander","setFrameNumber","command"
+"FFmpegFrameRecorder","commander","getTimestamp","property non-void-command"
+"FFmpegFrameRecorder","commander","setTimestamp","command"
+"FFmpegFrameRecorder","commander","start","set collaborator"
+"FFmpegFrameRecorder","commander","start","command"
+"FFmpegFrameRecorder","commander","startUnsafe","command"
+"FFmpegFrameRecorder","commander","flush","command"
+"FFmpegFrameRecorder","commander","stop","command"
+"FFmpegFrameRecorder","commander","record","command collaborator"
+"FFmpegFrameRecorder","commander","record","void-accessor command"
+"FFmpegFrameRecorder","commander","recordImage","predicate non-void-command collaborator"
+"FFmpegFrameRecorder","commander","recordSamples","predicate non-void-command collaborator"
+"FFmpegFrameRecorder","commander","recordSamples","predicate non-void-command collaborator"
+"FFmpegFrameRecorder","commander","writeSamples","command"
+"FFmpegFrameRecorder","commander","writeFrame","get non-void-command collaborator"
+"FFmpegFrameRecorder","commander","writePacket","wrapper"
+"FFmpegFrameRecorder","commander","recordPacket","predicate non-void-command collaborator"
+"FFmpegLogCallback","commander boundary small-class","call","command collaborator"
+"RecordActivity","commander","onCreate","command collaborator"
+"RecordActivity","commander","onDestroy","command"
+"RecordActivity","commander","initLayout","command"
+"RecordActivity","commander","initRecorder","command"
+"RecordActivity","commander","startRecording","command"
+"RecordActivity","commander","stopRecording","command"
+"RecordActivity","commander","onKeyDown","predicate non-void-command collaborator"
+"RecordActivity","commander","onClick","command collaborator"
+"FlyCaptureFrameGrabber","unclassified","FlyCaptureFrameGrabber","constructor"
+"FlyCaptureFrameGrabber","unclassified","release","set"
+"FlyCaptureFrameGrabber","unclassified","finalize","command"
+"FlyCaptureFrameGrabber","unclassified","getGamma","property wrapper"
+"FlyCaptureFrameGrabber","unclassified","getImageWidth","property non-void-command"
+"FlyCaptureFrameGrabber","unclassified","getImageHeight","property non-void-command"
+"FlyCaptureFrameGrabber","unclassified","getFrameRate","get property non-void-command"
+"FlyCaptureFrameGrabber","unclassified","setImageMode","command collaborator"
+"FlyCaptureFrameGrabber","unclassified","start","set"
+"FlyCaptureFrameGrabber","unclassified","waitForTriggerReady","wrapper"
+"FlyCaptureFrameGrabber","unclassified","stop","command"
+"FlyCaptureFrameGrabber","unclassified","trigger","command"
+"FlyCaptureFrameGrabber","unclassified","getNumChannels","incidental"
+"FlyCaptureFrameGrabber","unclassified","getDepth","incidental"
+"FlyCaptureFrameGrabber","unclassified","grab","property non-void-command collaborator"
+"Square","unclassified","angle","controller stateless"
+"Square","unclassified","findSquares4","property controller"
+"Square","unclassified","drawSquares","command collaborator"
+"Square","unclassified","main","command collaborator"
+"FrameFilterTest","pure-controller degenerate small-class","testFFmpegFrameFilter","controller stateless"
+"FrameFilterTest","pure-controller degenerate small-class","testFFmpegFrameFilterMultipleInputs","controller stateless"
+"RealSenseFrameGrabber","commander","getByteOrder","get collaborator"
+"RealSenseFrameGrabber","commander","setByteOrder","set collaborator"
+"RealSenseFrameGrabber","commander","RealSenseFrameGrabber","constructor"
+"RealSenseFrameGrabber","commander","enableColorStream","command"
+"RealSenseFrameGrabber","commander","disableColorStream","set"
+"RealSenseFrameGrabber","commander","enableDepthStream","set"
+"RealSenseFrameGrabber","commander","disableDepthStream","set"
+"RealSenseFrameGrabber","commander","enableIRStream","set"
+"RealSenseFrameGrabber","commander","disableIRStream","set"
+"RealSenseFrameGrabber","commander","release","empty"
+"RealSenseFrameGrabber","commander","finalize","command"
+"RealSenseFrameGrabber","commander","getRealSenseDevice","get collaborator"
+"RealSenseFrameGrabber","commander","getDepthScale","property non-void-command"
+"RealSenseFrameGrabber","commander","getFrameRate","property non-void-command"
+"RealSenseFrameGrabber","commander","loadDevice","get non-void-command collaborator"
+"RealSenseFrameGrabber","commander","start","command"
+"RealSenseFrameGrabber","commander","stop","set"
+"RealSenseFrameGrabber","commander","grabDepth","get property non-void-command collaborator"
+"RealSenseFrameGrabber","commander","grabVideo","get property non-void-command collaborator"
+"RealSenseFrameGrabber","commander","grabIR","get property non-void-command collaborator"
+"RealSenseFrameGrabber","commander","grab","property non-void-command collaborator"
+"RealSenseFrameGrabber","commander","trigger","command"
+"RealSenseFrameGrabber","commander","getDepthImageWidth","get"
+"RealSenseFrameGrabber","commander","setDepthImageWidth","set"
+"RealSenseFrameGrabber","commander","getDepthImageHeight","get"
+"RealSenseFrameGrabber","commander","setDepthImageHeight","set"
+"RealSenseFrameGrabber","commander","getIRImageWidth","get"
+"RealSenseFrameGrabber","commander","setIRImageWidth","set"
+"RealSenseFrameGrabber","commander","getIRImageHeight","get"
+"RealSenseFrameGrabber","commander","setIRImageHeight","set"
+"RealSenseFrameGrabber","commander","getDepthFrameRate","get"
+"RealSenseFrameGrabber","commander","setDepthFrameRate","set"
+"RealSenseFrameGrabber","commander","getIRFrameRate","get"
+"RealSenseFrameGrabber","commander","setIRFrameRate","set"
+"RealSenseFrameGrabber","commander","getGamma","get property"
+"RealSenseFrameGrabber","commander","setPreset","wrapper"
+"RealSenseFrameGrabber","commander","setShortRange","command"
+"RealSenseFrameGrabber","commander","setLongRange","command"
+"RealSenseFrameGrabber","commander","setMidRange","command"
+"RealSenseFrameGrabber","commander","setDefaultPreset","command"
+"RealSenseFrameGrabber","commander","setObjectScanningPreset","command"
+"RealSenseFrameGrabber","commander","setCursorPreset","command"
+"RealSenseFrameGrabber","commander","setGestureRecognitionPreset","command"
+"RealSenseFrameGrabber","commander","setBackgroundSegmentationPreset","command"
+"RealSenseFrameGrabber","commander","setIROnlyPreset","command"
+"RealSenseFrameGrabber","commander","setOption","command"
+"RealSenseFrameGrabber","commander","set","command"
+"RealSenseFrameGrabber","commander","setColorBrightness","command"
+"RealSenseFrameGrabber","commander","setColorContrast","command"
+"RealSenseFrameGrabber","commander","setColorExposure","command"
+"RealSenseFrameGrabber","commander","setColorGain","command"
+"RealSenseFrameGrabber","commander","setColorGamma","command"
+"RealSenseFrameGrabber","commander","setColorHue","command"
+"RealSenseFrameGrabber","commander","setColorSaturation","command"
+"RealSenseFrameGrabber","commander","setColorSharpness","command"
+"RealSenseFrameGrabber","commander","setColorWhiteBalance","command"
+"RealSenseFrameGrabber","commander","setColorEnableAutoExposure","command"
+"RealSenseFrameGrabber","commander","setColorEnableAutoWhiteBalance","command"
+"RealSenseFrameGrabber","commander","setLaserPower","command"
+"RealSenseFrameGrabber","commander","setAccuracy","command"
+"RealSenseFrameGrabber","commander","setMotionRange","command"
+"RealSenseFrameGrabber","commander","setFilterOption","command"
+"RealSenseFrameGrabber","commander","setConfidenceThreshold","command"
+"RealSenseFrameGrabber","commander","setDynamicFPS","command"
+"RealSenseFrameGrabber","commander","setLR_AutoExposureEnabled","command"
+"RealSenseFrameGrabber","commander","setLR_Gain","command"
+"RealSenseFrameGrabber","commander","setLR_Exposure","command"
+"RealSenseFrameGrabber","commander","setEmitterEnabled","command"
+"RealSenseFrameGrabber","commander","setDepthUnits","command"
+"RealSenseFrameGrabber","commander","setDepthClampMin","command"
+"RealSenseFrameGrabber","commander","setDepthClampMax","command"
+"RealSenseFrameGrabber","commander","setDisparityMultiplier","command"
+"RealSenseFrameGrabber","commander","setDisparityShift","command"
+"RealSenseFrameGrabber","commander","setAutoExposureMeanIntensitySetPoint","command"
+"RealSenseFrameGrabber","commander","setAutoExposureBrightRatioSetPoint","command"
+"RealSenseFrameGrabber","commander","setAutoExposureKpGain","command"
+"RealSenseFrameGrabber","commander","setAutoExposureKpExposure","command"
+"RealSenseFrameGrabber","commander","setAutoExposureKpDarkThreshold","command"
+"RealSenseFrameGrabber","commander","setAutoExposureTopEdge","command"
+"RealSenseFrameGrabber","commander","setAutoExposureBottomEdge","command"
+"RealSenseFrameGrabber","commander","setAutoExposureLeftEdge","command"
+"RealSenseFrameGrabber","commander","setAutoExposureRightEdge","command"
+"RealSenseFrameGrabber","commander","setDepthControlEstimateMedianDecrement","command"
+"RealSenseFrameGrabber","commander","setDepthControlEstimateMedianIncrement","command"
+"RealSenseFrameGrabber","commander","setDepthControlMedianThreshold","command"
+"RealSenseFrameGrabber","commander","setDepthControlMinimumThreshold","command"
+"RealSenseFrameGrabber","commander","setDepthControlScoreMaximumThreshold","command"
+"RealSenseFrameGrabber","commander","setDepthControlTextureCountThreshold","command"
+"RealSenseFrameGrabber","commander","setDepthControlTextureDifference","command"
+"RealSenseFrameGrabber","commander","setDepthControlSecondPeakThreshold","command"
+"RealSenseFrameGrabber","commander","setDepthControlNeighborThreshold","command"
+"RealSenseFrameGrabber","commander","setDepthControlLRThreshold","command"
+"RealSenseFrameGrabber","commander","setFisheyeExposure","command"
+"RealSenseFrameGrabber","commander","setFisheyeGain","command"
+"RealSenseFrameGrabber","commander","setFisheyeStobe","command"
+"RealSenseFrameGrabber","commander","setFisheyeExternalTrigger","command"
+"RealSenseFrameGrabber","commander","setFisheyeEnableAutoExposure","command"
+"RealSenseFrameGrabber","commander","setFisheyeAutoExposureMode","command"
+"RealSenseFrameGrabber","commander","setFisheyeAutoExposureAntiflickerRate","command"
+"RealSenseFrameGrabber","commander","setFisheyeAutoExposurePixelSampleRate","command"
+"RealSenseFrameGrabber","commander","setFisheyeAutoExposureSkipFrames","command"
+"RealSenseFrameGrabber","commander","setFramesQueueSize","command"
+"RealSenseFrameGrabber","commander","setHardwareLoggerEnabled","command"
+"YOLONet","entity boundary","YOLONet","constructor"
+"YOLONet","entity boundary","setup","predicate non-void-command"
+"YOLONet","entity boundary","predict","property non-void-command collaborator"
+"YOLONet","entity boundary","postprocess","non-void-command factory collaborator"
+"BaseChildSettings","degenerate","addPropertyChangeListener","wrapper stateless"
+"BaseChildSettings","degenerate","removePropertyChangeListener","wrapper stateless"
+"BaseChildSettings","degenerate","compareTo","property non-void-command"
+"BaseChildSettings","degenerate","getName","incidental"
+"BaseSettings","entity boundary","addPropertyChangeListener","command collaborator"
+"BaseSettings","entity boundary","removePropertyChangeListener","command collaborator"
+"BaseSettings","entity boundary","compareTo","property non-void-command"
+"BaseSettings","entity boundary","getName","incidental"
+"BaseSettings","entity boundary","toArray","property non-void-command collaborator"
+"BaseSettings","entity boundary","toArray","property non-void-command collaborator"
+"BioInspiredRetina","small-class","execute","command collaborator"
+"BioInspiredRetina","small-class","showImage","controller stateless"
+"Blobs","commander","PrintRegionData","command"
+"Blobs","commander","PrintRegionData","unclassified"
+"Blobs","commander","ResetRegion","wrapper"
+"Blobs","commander","OldRegion","set"
+"Blobs","commander","NewRegion","command"
+"Blobs","commander","Subsume","set"
+"Blobs","commander","BlobAnalysis","get property non-void-command"
+"CameraDevice","entity boundary","CameraDevice","constructor"
+"CameraDevice","entity boundary","CameraDevice","constructor"
+"CameraDevice","entity boundary","CameraDevice","constructor"
+"CameraDevice","entity boundary","CameraDevice","constructor"
+"CameraDevice","entity boundary","getSettings","property collaborator"
+"CameraDevice","entity boundary","setSettings","command collaborator"
+"CameraDevice","entity boundary","setSettings","command collaborator"
+"CameraDevice","entity boundary","createFrameGrabber","property non-void-command collaborator"
+"CanvasFrame","commander boundary","CanvasFrame","constructor"
+"CanvasFrame","commander boundary","CanvasFrame","constructor"
+"CanvasFrame","commander boundary","CanvasFrame","constructor"
+"CanvasFrame","commander boundary","CanvasFrame","constructor"
+"CanvasFrame","commander boundary","CanvasFrame","constructor"
+"CanvasFrame","commander boundary","CanvasFrame","constructor"
+"CanvasFrame","commander boundary","init","set"
+"CanvasFrame","commander boundary","initCanvas","command collaborator"
+"CanvasFrame","commander boundary","getLatency","get"
+"CanvasFrame","commander boundary","setLatency","set"
+"CanvasFrame","commander boundary","waitLatency","command"
+"CanvasFrame","commander boundary","waitKey","property non-void-command collaborator"
+"CanvasFrame","commander boundary","waitKey","property set collaborator"
+"CanvasFrame","commander boundary","getCanvas","get collaborator"
+"CanvasFrame","commander boundary","getCanvasSize","property non-void-command collaborator"
+"CanvasFrame","commander boundary","setCanvasSize","command collaborator"
+"CanvasFrame","commander boundary","getCanvasScale","get"
+"CanvasFrame","commander boundary","setCanvasScale","command"
+"CanvasFrame","commander boundary","createGraphics","property non-void-command collaborator"
+"CanvasFrame","commander boundary","releaseGraphics","command collaborator"
+"CanvasFrame","commander boundary","showColor","command collaborator"
+"CanvasFrame","commander boundary","showImage","command collaborator"
+"CanvasFrame","commander boundary","showImage","command"
+"CanvasFrame","commander boundary","showImage","command collaborator"
+"FFmpegFrameFilter","unclassified","FFmpegFrameFilter","constructor"
+"FFmpegFrameFilter","unclassified","FFmpegFrameFilter","constructor"
+"FFmpegFrameFilter","unclassified","FFmpegFrameFilter","constructor"
+"FFmpegFrameFilter","unclassified","release","command"
+"FFmpegFrameFilter","unclassified","releaseUnsafe","command"
+"FFmpegFrameFilter","unclassified","finalize","command"
+"FFmpegFrameFilter","unclassified","getImageWidth","property non-void-command"
+"FFmpegFrameFilter","unclassified","getImageHeight","property non-void-command"
+"FFmpegFrameFilter","unclassified","getPixelFormat","property non-void-command"
+"FFmpegFrameFilter","unclassified","getFrameRate","property non-void-command collaborator"
+"FFmpegFrameFilter","unclassified","getAspectRatio","property non-void-command"
+"FFmpegFrameFilter","unclassified","getAudioChannels","property non-void-command"
+"FFmpegFrameFilter","unclassified","getSampleFormat","property non-void-command"
+"FFmpegFrameFilter","unclassified","getSampleRate","property non-void-command"
+"FFmpegFrameFilter","unclassified","start","command"
+"FFmpegFrameFilter","unclassified","startUnsafe","command"
+"FFmpegFrameFilter","unclassified","startVideoUnsafe","command"
+"FFmpegFrameFilter","unclassified","startAudioUnsafe","command"
+"FFmpegFrameFilter","unclassified","stop","command"
+"FFmpegFrameFilter","unclassified","push","command collaborator"
+"FFmpegFrameFilter","unclassified","push","command"
+"FFmpegFrameFilter","unclassified","push","command collaborator"
+"FFmpegFrameFilter","unclassified","push","command"
+"FFmpegFrameFilter","unclassified","pushImage","command collaborator"
+"FFmpegFrameFilter","unclassified","pushSamples","command collaborator"
+"FFmpegFrameFilter","unclassified","pull","property non-void-command collaborator"
+"FFmpegFrameFilter","unclassified","pullImage","get property non-void-command collaborator"
+"FFmpegFrameFilter","unclassified","pullSamples","get property non-void-command collaborator"
+"CameraSettings","entity boundary","CameraSettings","constructor"
+"CameraSettings","entity boundary","CameraSettings","constructor"
+"CameraSettings","entity boundary","getQuantity","wrapper stateless"
+"CameraSettings","entity boundary","setQuantity","command collaborator"
+"CameraSettings","entity boundary","getMonitorWindowsScale","get"
+"CameraSettings","entity boundary","setMonitorWindowsScale","set"
+"CameraSettings","entity boundary","getFrameGrabber","get collaborator"
+"CameraSettings","entity boundary","setFrameGrabber","set collaborator"
+"CameraSettings","entity boundary","toArray","property non-void-command collaborator"
+"ColorCalibrator","entity boundary small-class","ColorCalibrator","constructor"
+"ColorCalibrator","entity boundary small-class","calibrate","property non-void-command collaborator"
+"DC1394FrameGrabber","unclassified","DC1394FrameGrabber","constructor"
+"DC1394FrameGrabber","unclassified","release","command"
+"DC1394FrameGrabber","unclassified","finalize","command"
+"DC1394FrameGrabber","unclassified","getGamma","property wrapper"
+"DC1394FrameGrabber","unclassified","getImageWidth","property non-void-command"
+"DC1394FrameGrabber","unclassified","getImageHeight","property non-void-command"
+"DC1394FrameGrabber","unclassified","getFrameRate","get property non-void-command"
+"DC1394FrameGrabber","unclassified","setImageMode","command collaborator"
+"DC1394FrameGrabber","unclassified","start","command"
+"DC1394FrameGrabber","unclassified","start","command"
+"DC1394FrameGrabber","unclassified","stop","command"
+"DC1394FrameGrabber","unclassified","enqueue","set"
+"DC1394FrameGrabber","unclassified","enqueue","wrapper"
+"DC1394FrameGrabber","unclassified","trigger","command"
+"DC1394FrameGrabber","unclassified","grab","property non-void-command collaborator"

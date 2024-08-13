@@ -1,1284 +1,1284 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"PeriodicTimer","commander small-class","PeriodicTimer","constructor",
-"PeriodicTimer","commander small-class","start","wrapper",
-"PeriodicTimer","commander small-class","~PeriodicTimer","destructor",
-"PeriodicTimer","commander small-class","handleRead","command",
-"BufferOutputStream","unclassified","BufferOutputStream","constructor",
-"BufferOutputStream","unclassified","Next","predicate non-void-command",
-"BufferOutputStream","unclassified","BackUp","command",
-"BufferOutputStream","unclassified","ByteCount","property",
-"PollPoller","entity commander boundary","PollPoller::PollPoller","constructor",
-"PollPoller","entity commander boundary","PollPoller::poll","property non-void-command collaborator",
-"PollPoller","entity commander boundary","PollPoller::fillActiveChannels","collaborator",
-"PollPoller","entity commander boundary","PollPoller::updateChannel","command collaborator",
-"PollPoller","entity commander boundary","PollPoller::removeChannel","command collaborator",
-"HttpServer","boundary","getLoop","property collaborator",
-"HttpServer","boundary","setHttpCallback","set collaborator",
-"HttpServer","boundary","setThreadNum","command",
-"HttpServer","boundary","HttpServer::HttpServer","constructor",
-"HttpServer","boundary","HttpServer::start","command",
-"HttpServer","boundary","HttpServer::onConnection","controller stateless",
-"HttpServer","boundary","HttpServer::onMessage","void-accessor command collaborator",
-"HttpServer","boundary","HttpServer::onRequest","controller stateless",
-"HttpResponse","commander","HttpResponse","constructor",
-"HttpResponse","commander","setStatusCode","set collaborator",
-"HttpResponse","commander","setStatusMessage","set",
-"HttpResponse","commander","setCloseConnection","set",
-"HttpResponse","commander","closeConnection","get",
-"HttpResponse","commander","setContentType","void-accessor command",
-"HttpResponse","commander","addHeader","set",
-"HttpResponse","commander","setBody","set",
-"HttpResponse","commander","HttpResponse::appendToBuffer","collaborator",
-"HttpContext","entity boundary","HttpContext","constructor",
-"HttpContext","entity boundary","gotAll","predicate",
-"HttpContext","entity boundary","reset","set collaborator",
-"HttpContext","entity boundary","request","get collaborator",
-"HttpContext","entity boundary","request","get collaborator",
-"HttpContext","entity boundary","HttpContext::processRequestLine","predicate non-void-command",
-"HttpContext","entity boundary","HttpContext::parseRequest","predicate non-void-command collaborator",
-"ZlibOutputStream","data-provider","ZlibOutputStream","constructor",
-"ZlibOutputStream","data-provider","~ZlibOutputStream","destructor",
-"ZlibOutputStream","data-provider","zlibErrorMessage","get",
-"ZlibOutputStream","data-provider","zlibErrorCode","get",
-"ZlibOutputStream","data-provider","inputBytes","get",
-"ZlibOutputStream","data-provider","outputBytes","get",
-"ZlibOutputStream","data-provider","internalOutputBufferSize","get",
-"ZlibOutputStream","data-provider","write","predicate non-void-command collaborator",
-"ZlibOutputStream","data-provider","write","predicate non-void-command collaborator",
-"ZlibOutputStream","data-provider","finish","predicate set",
-"ZlibOutputStream","data-provider","compress","property non-void-command",
-"TimerQueue","entity boundary","TimerQueue::TimerQueue","constructor",
-"TimerQueue","entity boundary","TimerQueue::~TimerQueue","destructor",
-"TimerQueue","entity boundary","TimerQueue::addTimer","property non-void-command collaborator",
-"TimerQueue","entity boundary","TimerQueue::cancel","command collaborator",
-"TimerQueue","entity boundary","TimerQueue::addTimerInLoop","void-accessor command collaborator",
-"TimerQueue","entity boundary","TimerQueue::cancelInLoop","command collaborator",
-"TimerQueue","entity boundary","TimerQueue::handleRead","command collaborator",
-"TimerQueue","entity boundary","TimerQueue::getExpired","property non-void-command collaborator",
-"TimerQueue","entity boundary","TimerQueue::reset","command collaborator",
-"TimerQueue","entity boundary","TimerQueue::insert","predicate non-void-command collaborator",
-"TimerId","empty","TimerId","constructor",
-"TimerId","empty","TimerId","constructor",
-"TcpConnection","unclassified","getLoop","get collaborator",
-"TcpConnection","unclassified","name","get",
-"TcpConnection","unclassified","localAddress","get collaborator",
-"TcpConnection","unclassified","peerAddress","get collaborator",
-"TcpConnection","unclassified","connected","predicate",
-"TcpConnection","unclassified","disconnected","predicate",
-"TcpConnection","unclassified","isReading","get",
-"TcpConnection","unclassified","setContext","set collaborator",
-"TcpConnection","unclassified","getContext","get collaborator",
-"TcpConnection","unclassified","getMutableContext","property collaborator",
-"TcpConnection","unclassified","setConnectionCallback","set collaborator",
-"TcpConnection","unclassified","setMessageCallback","set collaborator",
-"TcpConnection","unclassified","setWriteCompleteCallback","set collaborator",
-"TcpConnection","unclassified","setHighWaterMarkCallback","command",
-"TcpConnection","unclassified","inputBuffer","property collaborator",
-"TcpConnection","unclassified","outputBuffer","property collaborator",
-"TcpConnection","unclassified","setCloseCallback","set collaborator",
-"TcpConnection","unclassified","setState","set collaborator",
-"TcpConnection","unclassified","TcpConnection::TcpConnection","constructor",
-"TcpConnection","unclassified","TcpConnection::~TcpConnection","destructor",
-"TcpConnection","unclassified","TcpConnection::getTcpInfo","predicate collaborator",
-"TcpConnection","unclassified","TcpConnection::getTcpInfoString","property",
-"TcpConnection","unclassified","TcpConnection::send","void-accessor command",
-"TcpConnection","unclassified","TcpConnection::send","void-accessor command collaborator",
-"TcpConnection","unclassified","TcpConnection::send","command collaborator",
-"TcpConnection","unclassified","TcpConnection::sendInLoop","command collaborator",
-"TcpConnection","unclassified","TcpConnection::sendInLoop","void-accessor command",
-"TcpConnection","unclassified","TcpConnection::shutdown","command",
-"TcpConnection","unclassified","TcpConnection::shutdownInLoop","command",
-"TcpConnection","unclassified","TcpConnection::forceClose","command",
-"TcpConnection","unclassified","TcpConnection::forceCloseWithDelay","command",
-"TcpConnection","unclassified","TcpConnection::forceCloseInLoop","command",
-"TcpConnection","unclassified","TcpConnection::stateToString","property",
-"TcpConnection","unclassified","TcpConnection::setTcpNoDelay","command",
-"TcpConnection","unclassified","TcpConnection::startRead","command",
-"TcpConnection","unclassified","TcpConnection::startReadInLoop","command",
-"TcpConnection","unclassified","TcpConnection::stopRead","command",
-"TcpConnection","unclassified","TcpConnection::stopReadInLoop","command",
-"TcpConnection","unclassified","TcpConnection::connectEstablished","command",
-"TcpConnection","unclassified","TcpConnection::connectDestroyed","command",
-"TcpConnection","unclassified","TcpConnection::handleRead","command collaborator",
-"TcpConnection","unclassified","TcpConnection::handleWrite","command collaborator",
-"TcpConnection","unclassified","TcpConnection::handleClose","command collaborator",
-"TcpConnection","unclassified","TcpConnection::handleError","command",
-"HttpRequest","unclassified","HttpRequest","constructor",
-"HttpRequest","unclassified","setVersion","set collaborator",
-"HttpRequest","unclassified","getVersion","get collaborator",
-"HttpRequest","unclassified","setMethod","predicate set",
-"HttpRequest","unclassified","method","get collaborator",
-"HttpRequest","unclassified","methodString","property",
-"HttpRequest","unclassified","setPath","void-accessor command",
-"HttpRequest","unclassified","path","get",
-"HttpRequest","unclassified","setQuery","void-accessor command",
-"HttpRequest","unclassified","query","get",
-"HttpRequest","unclassified","setReceiveTime","set collaborator",
-"HttpRequest","unclassified","receiveTime","get collaborator",
-"HttpRequest","unclassified","addHeader","void-accessor set",
-"HttpRequest","unclassified","getHeader","property",
-"HttpRequest","unclassified","headers","get",
-"HttpRequest","unclassified","swap","void-accessor command",
-"TcpClient","boundary","connection","property collaborator",
-"TcpClient","boundary","getLoop","get collaborator",
-"TcpClient","boundary","retry","get",
-"TcpClient","boundary","enableRetry","set",
-"TcpClient","boundary","name","get",
-"TcpClient","boundary","setConnectionCallback","set collaborator",
-"TcpClient","boundary","setMessageCallback","set collaborator",
-"TcpClient","boundary","setWriteCompleteCallback","set collaborator",
-"TcpClient","boundary","TcpClient::TcpClient","constructor",
-"TcpClient","boundary","TcpClient::~TcpClient","destructor",
-"TcpClient","boundary","TcpClient::connect","command",
-"TcpClient","boundary","TcpClient::disconnect","set collaborator",
-"TcpClient","boundary","TcpClient::stop","set",
-"TcpClient","boundary","TcpClient::newConnection","set collaborator",
-"TcpClient","boundary","TcpClient::removeConnection","void-accessor command collaborator",
-"Socket","boundary","Socket","constructor",
-"Socket","boundary","fd","get",
-"Socket","boundary","Socket::~Socket","destructor",
-"Socket","boundary","Socket::getTcpInfo","predicate wrapper",
-"Socket","boundary","Socket::getTcpInfoString","predicate",
-"Socket","boundary","Socket::bindAddress","controller",
-"Socket","boundary","Socket::listen","wrapper",
-"Socket","boundary","Socket::accept","property controller",
-"Socket","boundary","Socket::shutdownWrite","command",
-"Socket","boundary","Socket::setTcpNoDelay","wrapper",
-"Socket","boundary","Socket::setReuseAddr","wrapper",
-"Socket","boundary","Socket::setReusePort","wrapper",
-"Socket","boundary","Socket::setKeepAlive","wrapper",
-"Poller","boundary","assertInLoopThread","unclassified",
-"Poller","boundary","Poller::Poller","constructor",
-"Poller","boundary","Poller::hasChannel","predicate collaborator",
-"Poller","boundary","Poller::newDefaultPoller","factory wrapper stateless",
-"InetAddress","data-provider","InetAddress","constructor",
-"InetAddress","data-provider","InetAddress","constructor",
-"InetAddress","data-provider","family","get collaborator",
-"InetAddress","data-provider","getSockAddr","property wrapper",
-"InetAddress","data-provider","setSockAddrInet6","set collaborator",
-"InetAddress","data-provider","portNetEndian","get",
-"InetAddress","data-provider","InetAddress::InetAddress","constructor",
-"InetAddress","data-provider","InetAddress::InetAddress","constructor",
-"InetAddress","data-provider","InetAddress::toIpPort","property",
-"InetAddress","data-provider","InetAddress::toIp","property",
-"InetAddress","data-provider","InetAddress::ipv4NetEndian","property",
-"InetAddress","data-provider","InetAddress::port","property",
-"InetAddress","data-provider","InetAddress::resolve","controller stateless",
-"InetAddress","data-provider","InetAddress::setScopeId","command",
-"EventLoopThread","small-class","EventLoopThread::EventLoopThread","constructor",
-"EventLoopThread","small-class","EventLoopThread::~EventLoopThread","destructor",
-"EventLoopThread","small-class","EventLoopThread::startLoop","property non-void-command collaborator",
-"EventLoopThread","small-class","EventLoopThread::threadFunc","controller",
-"EventLoop","boundary","pollReturnTime","get collaborator",
-"EventLoop","boundary","iteration","get",
-"EventLoop","boundary","assertInLoopThread","command",
-"EventLoop","boundary","isInLoopThread","predicate wrapper",
-"EventLoop","boundary","eventHandling","get",
-"EventLoop","boundary","setContext","set collaborator",
-"EventLoop","boundary","getContext","get collaborator",
-"EventLoop","boundary","getMutableContext","property collaborator",
-"EventLoop","boundary","EventLoop::getEventLoopOfCurrentThread","incidental",
-"EventLoop","boundary","EventLoop::EventLoop","constructor",
-"EventLoop","boundary","EventLoop::~EventLoop","destructor",
-"EventLoop","boundary","EventLoop::loop","command collaborator",
-"EventLoop","boundary","EventLoop::quit","command",
-"EventLoop","boundary","EventLoop::runInLoop","command collaborator",
-"EventLoop","boundary","EventLoop::queueInLoop","command collaborator",
-"EventLoop","boundary","EventLoop::queueSize","property controller",
-"EventLoop","boundary","EventLoop::runAt","property non-void-command collaborator",
-"EventLoop","boundary","EventLoop::runAfter","property non-void-command collaborator",
-"EventLoop","boundary","EventLoop::runEvery","property non-void-command collaborator",
-"EventLoop","boundary","EventLoop::cancel","command collaborator",
-"EventLoop","boundary","EventLoop::updateChannel","void-accessor command collaborator",
-"EventLoop","boundary","EventLoop::removeChannel","void-accessor command collaborator",
-"EventLoop","boundary","EventLoop::hasChannel","predicate non-void-command collaborator",
-"EventLoop","boundary","EventLoop::abortNotInLoopThread","wrapper",
-"EventLoop","boundary","EventLoop::wakeup","wrapper",
-"EventLoop","boundary","EventLoop::handleRead","wrapper",
-"EventLoop","boundary","EventLoop::doPendingFunctors","set collaborator",
-"EventLoop","boundary","EventLoop::printActiveChannels","controller",
-"IgnoreSigPipe","empty","IgnoreSigPipe","constructor",
-"Channel","unclassified","setReadCallback","set collaborator",
-"Channel","unclassified","setWriteCallback","set collaborator",
-"Channel","unclassified","setCloseCallback","set collaborator",
-"Channel","unclassified","setErrorCallback","set collaborator",
-"Channel","unclassified","fd","get",
-"Channel","unclassified","events","get",
-"Channel","unclassified","set_revents","set",
-"Channel","unclassified","isNoneEvent","predicate",
-"Channel","unclassified","enableReading","set",
-"Channel","unclassified","disableReading","set",
-"Channel","unclassified","enableWriting","set",
-"Channel","unclassified","disableWriting","set",
-"Channel","unclassified","disableAll","set",
-"Channel","unclassified","isWriting","predicate",
-"Channel","unclassified","isReading","predicate",
-"Channel","unclassified","index","get",
-"Channel","unclassified","set_index","set",
-"Channel","unclassified","doNotLogHup","set",
-"Channel","unclassified","ownerLoop","get collaborator",
-"Channel","unclassified","Channel::Channel","constructor",
-"Channel","unclassified","Channel::~Channel","destructor",
-"Channel","unclassified","Channel::tie","command collaborator",
-"Channel","unclassified","Channel::update","set",
-"Channel","unclassified","Channel::remove","command",
-"Channel","unclassified","Channel::handleEvent","command collaborator",
-"Channel","unclassified","Channel::handleEventWithGuard","set collaborator",
-"Channel","unclassified","Channel::reventsToString","property",
-"Channel","unclassified","Channel::eventsToString","property",
-"Channel","unclassified","Channel::eventsToString","controller stateless",
-"ResolverServiceImpl","small-class","ResolverServiceImpl","constructor",
-"ResolverServiceImpl","small-class","Resolve","void-accessor command collaborator",
-"ResolverServiceImpl","small-class","doneCallback","controller stateless",
-"DaytimeServer","degenerate","DaytimeServer::DaytimeServer","constructor",
-"DaytimeServer","degenerate","DaytimeServer::start","command",
-"DaytimeServer","degenerate","DaytimeServer::onConnection","controller stateless",
-"DaytimeServer","degenerate","DaytimeServer::onMessage","controller stateless",
-"QueryServer","degenerate","QueryServer","constructor",
-"QueryServer","degenerate","start","command",
-"QueryServer","degenerate","onConnection","controller stateless",
-"QueryServer","degenerate","onUnknownMessage","controller stateless",
-"QueryServer","degenerate","onQuery","void-accessor command collaborator",
-"QueryServer","degenerate","onAnswer","controller stateless",
-"CallbackT","boundary degenerate small-class","CallbackT","constructor",
-"CallbackT","boundary degenerate small-class","onMessage","wrapper stateless",
-"TimeServer","degenerate","TimeServer::TimeServer","constructor",
-"TimeServer","degenerate","TimeServer::start","command",
-"TimeServer","degenerate","TimeServer::onConnection","controller stateless",
-"TimeServer","degenerate","TimeServer::onMessage","controller stateless",
-"Plot","data-provider boundary","Plot::Plot","constructor",
-"Plot","data-provider boundary","Plot::~Plot","destructor",
-"Plot","data-provider boundary","Plot::plotCpu","property non-void-command",
-"Plot","data-provider boundary","Plot::label","wrapper",
-"Plot","data-provider boundary","Plot::getX","property collaborator",
-"Plot","data-provider boundary","Plot::getY","property",
-"Plot","data-provider boundary","Plot::toPng","property wrapper",
-"UptimeClient","degenerate","UptimeClient","constructor",
-"UptimeClient","degenerate","connect","command",
-"UptimeClient","degenerate","onConnection","controller stateless",
-"UptimeClient","degenerate","onMessage","empty",
-"DateTime","data-provider boundary small-class","DateTime","constructor",
-"DateTime","data-provider boundary small-class","DateTime","constructor",
-"DateTime","data-provider boundary small-class","DateTime::DateTime","constructor",
-"DateTime","data-provider boundary small-class","DateTime::toIsoString","property wrapper",
-"Inspector","unclassified","Inspector::Inspector","constructor",
-"Inspector","unclassified","Inspector::~Inspector","destructor",
-"Inspector","unclassified","Inspector::add","collaborator",
-"Inspector","unclassified","Inspector::remove","void-accessor controller",
-"Inspector","unclassified","Inspector::start","command",
-"Inspector","unclassified","Inspector::onRequest","controller",
-"EchoClient","commander boundary","EchoClient","constructor",
-"EchoClient","commander boundary","connect","command",
-"EchoClient","commander boundary","onConnection","command collaborator",
-"EchoClient","commander boundary","onMessage","controller stateless",
-"EchoClient","commander boundary","EchoClient","constructor",
-"EchoClient","commander boundary","connect","command",
-"EchoClient","commander boundary","onConnection","command collaborator",
-"EchoClient","commander boundary","onMessage","command collaborator",
-"ChargenClient","unclassified","ChargenClient","constructor",
-"ChargenClient","unclassified","connect","command",
-"ChargenClient","unclassified","onConnection","command collaborator",
-"ChargenClient","unclassified","onMessage","controller stateless",
-"MockBackendServer","boundary","MockBackendServer","constructor",
-"MockBackendServer","boundary","start","command collaborator",
-"MockBackendServer","boundary","sendToClient","command collaborator",
-"MockBackendServer","boundary","sendToClient","property non-void-command collaborator",
-"MockBackendServer","boundary","stop","command",
-"MockBackendServer","boundary","getBootstrap","factory controller",
-"DiscardServer","unclassified","DiscardServer","constructor",
-"DiscardServer","unclassified","start","command",
-"DiscardServer","unclassified","onConnection","controller stateless",
-"DiscardServer","unclassified","onMessage","command collaborator",
-"DiscardServer","unclassified","printThroughput","command",
-"DiscardServer","unclassified","DiscardServer::DiscardServer","constructor",
-"DiscardServer","unclassified","DiscardServer::start","command",
-"DiscardServer","unclassified","DiscardServer::onConnection","controller stateless",
-"DiscardServer","unclassified","DiscardServer::onMessage","controller stateless",
-"AtomicIntegerT","entity boundary","AtomicIntegerT","constructor",
-"AtomicIntegerT","entity boundary","get","property wrapper",
-"AtomicIntegerT","entity boundary","getAndAdd","property wrapper",
-"AtomicIntegerT","entity boundary","addAndGet","property non-void-command collaborator",
-"AtomicIntegerT","entity boundary","incrementAndGet","property non-void-command collaborator",
-"AtomicIntegerT","entity boundary","decrementAndGet","property non-void-command collaborator",
-"AtomicIntegerT","entity boundary","add","command collaborator",
-"AtomicIntegerT","entity boundary","increment","command",
-"AtomicIntegerT","entity boundary","decrement","command",
-"AtomicIntegerT","entity boundary","getAndSet","property wrapper",
-"FastCgiCodec","boundary","FastCgiCodec","constructor",
-"FastCgiCodec","boundary","onMessage","void-accessor command collaborator",
-"FastCgiCodec","boundary","FastCgiCodec::onParams","predicate non-void-command",
-"FastCgiCodec","boundary","FastCgiCodec::onStdin","void-accessor set",
-"FastCgiCodec","boundary","FastCgiCodec::parseAllParams","predicate non-void-command",
-"FastCgiCodec","boundary","FastCgiCodec::readLen","property non-void-command",
-"FastCgiCodec","boundary","FastCgiCodec::endStdout","controller",
-"FastCgiCodec","boundary","FastCgiCodec::endRequest","controller",
-"FastCgiCodec","boundary","FastCgiCodec::respond","void-accessor command collaborator",
-"FastCgiCodec","boundary","FastCgiCodec::parseRequest","predicate non-void-command collaborator",
-"FastCgiCodec","boundary","FastCgiCodec::onBeginRequest","predicate set collaborator",
-"ZlibInputStream","empty","ZlibInputStream","constructor",
-"ZlibInputStream","empty","~ZlibInputStream","destructor",
-"Session::Reader","boundary data-class small-class","read","predicate set collaborator",
-"LogFile","boundary","LogFile::LogFile","constructor",
-"LogFile","boundary","LogFile::append","void-accessor command collaborator",
-"LogFile","boundary","LogFile::flush","command collaborator",
-"LogFile","boundary","LogFile::append_unlocked","void-accessor command collaborator",
-"LogFile","boundary","LogFile::rollFile","predicate non-void-command collaborator",
-"LogFile","boundary","LogFile::getLogFileName","controller stateless",
-"ThriftServer","unclassified","ThriftServer","constructor",
-"ThriftServer","unclassified","ThriftServer","constructor",
-"ThriftServer","unclassified","ThriftServer","constructor",
-"ThriftServer","unclassified","ThriftServer","constructor",
-"ThriftServer","unclassified","ThriftServer","constructor",
-"ThriftServer","unclassified","ThriftServer","constructor",
-"ThriftServer","unclassified","ThriftServer","constructor",
-"ThriftServer","unclassified","ThriftServer","constructor",
-"ThriftServer","unclassified","workerThreadPool","get collaborator",
-"ThriftServer","unclassified","isWorkerThreadPoolProcessing","predicate",
-"ThriftServer","unclassified","setThreadNum","command",
-"ThriftServer","unclassified","setWorkerThreadNum","set",
-"ThriftServer","unclassified","ThriftServer::serve","command",
-"ThriftServer","unclassified","ThriftServer::start","command",
-"ThriftServer","unclassified","ThriftServer::stop","command",
-"ThriftServer","unclassified","ThriftServer::onConnection","void-accessor command collaborator",
-"EPollPoller","entity boundary","EPollPoller::EPollPoller","constructor",
-"EPollPoller","entity boundary","EPollPoller::~EPollPoller","destructor",
-"EPollPoller","entity boundary","EPollPoller::poll","property non-void-command collaborator",
-"EPollPoller","entity boundary","EPollPoller::fillActiveChannels","collaborator",
-"EPollPoller","entity boundary","EPollPoller::updateChannel","void-accessor command collaborator",
-"EPollPoller","entity boundary","EPollPoller::removeChannel","void-accessor command collaborator",
-"EPollPoller","entity boundary","EPollPoller::update","command collaborator",
-"EPollPoller","entity boundary","EPollPoller::operationToString","incidental",
-"MultiplexerTest","unclassified","MultiplexerTest","constructor",
-"MultiplexerTest","unclassified","addTestCase","command collaborator",
-"MultiplexerTest","unclassified","run","command collaborator",
-"MultiplexerTest","unclassified","newClient","factory controller",
-"MultiplexerTest","unclassified","getEventQueue","get collaborator",
-"MultiplexerTest","unclassified","getBackend","get collaborator",
-"MultiplexerTest","unclassified","sleep","controller stateless",
-"Tunnel","commander","Tunnel","constructor",
-"Tunnel","commander","~Tunnel","destructor",
-"Tunnel","commander","setup","command",
-"Tunnel","commander","connect","command",
-"Tunnel","commander","disconnect","command",
-"Tunnel","commander","teardown","command",
-"Tunnel","commander","onClientConnection","void-accessor command collaborator",
-"Tunnel","commander","onClientMessage","void-accessor command collaborator",
-"Tunnel","commander","onHighWaterMark","command",
-"Tunnel","commander","onWriteComplete","command collaborator",
-"ProtobufCodecLite","boundary","ProtobufCodecLite","constructor",
-"ProtobufCodecLite","boundary","tag","get",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::send","void-accessor command collaborator",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::fillEmptyBuffer","void-accessor command collaborator",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::onMessage","void-accessor command collaborator",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::parseFromBuffer","controller stateless",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::serializeToBuffer","property controller",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::errorCodeToString","collaborator incidental",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::defaultErrorCallback","command collaborator",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::asInt32","wrapper stateless",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::checksum","wrapper stateless",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::validateChecksum","predicate non-void-command",
-"ProtobufCodecLite","boundary","ProtobufCodecLite::parse","property non-void-command collaborator",
-"Context","empty","Context","constructor",
-"StringPiece","unclassified","StringPiece","constructor",
-"StringPiece","unclassified","StringPiece","constructor",
-"StringPiece","unclassified","StringPiece","constructor",
-"StringPiece","unclassified","StringPiece","constructor",
-"StringPiece","unclassified","StringPiece","constructor",
-"StringPiece","unclassified","data","get",
-"StringPiece","unclassified","size","get",
-"StringPiece","unclassified","empty","predicate",
-"StringPiece","unclassified","begin","get",
-"StringPiece","unclassified","end","property",
-"StringPiece","unclassified","clear","command",
-"StringPiece","unclassified","set","command",
-"StringPiece","unclassified","set","void-accessor command",
-"StringPiece","unclassified","set","command",
-"StringPiece","unclassified","operator[]","get",
-"StringPiece","unclassified","remove_prefix","command",
-"StringPiece","unclassified","remove_suffix","set",
-"StringPiece","unclassified","operator==","predicate wrapper",
-"StringPiece","unclassified","operator!=","predicate",
-"StringPiece","unclassified","compare","property wrapper",
-"StringPiece","unclassified","as_string","property",
-"StringPiece","unclassified","CopyToString","controller",
-"StringPiece","unclassified","starts_with","predicate wrapper",
-"SudokuServiceImpl","pure-controller degenerate small-class","Solve","controller stateless",
-"PerformanceInspector","degenerate","PerformanceInspector::registerCommands","controller stateless",
-"PerformanceInspector","degenerate","PerformanceInspector::heap","controller stateless",
-"PerformanceInspector","degenerate","PerformanceInspector::growth","controller stateless",
-"PerformanceInspector","degenerate","PerformanceInspector::profile","controller stateless",
-"PerformanceInspector","degenerate","PerformanceInspector::cmdline","incidental",
-"PerformanceInspector","degenerate","PerformanceInspector::memstats","wrapper stateless",
-"PerformanceInspector","degenerate","PerformanceInspector::memhistogram","controller stateless",
-"PerformanceInspector","degenerate","PerformanceInspector::releaseFreeMemory","wrapper stateless",
-"ChatServer","boundary","ChatServer","constructor",
-"ChatServer","boundary","start","command",
-"ChatServer","boundary","onConnection","void-accessor command collaborator",
-"ChatServer","boundary","onStringMessage","void-accessor command collaborator",
-"ChatServer","boundary","ChatServer","constructor",
-"ChatServer","boundary","setThreadNum","command",
-"ChatServer","boundary","start","command",
-"ChatServer","boundary","onConnection","void-accessor command collaborator",
-"ChatServer","boundary","onStringMessage","void-accessor command collaborator",
-"ChatServer","boundary","ChatServer","constructor",
-"ChatServer","boundary","setThreadNum","command",
-"ChatServer","boundary","start","command",
-"ChatServer","boundary","onConnection","void-accessor command collaborator",
-"ChatServer","boundary","onStringMessage","void-accessor command collaborator",
-"ChatServer","boundary","getConnectionList","get collaborator",
-"ChatServer","boundary","ChatServer","constructor",
-"ChatServer","boundary","setThreadNum","command",
-"ChatServer","boundary","start","command",
-"ChatServer","boundary","onConnection","controller stateless",
-"ChatServer","boundary","onStringMessage","void-accessor controller",
-"ChatServer","boundary","distributeMessage","void-accessor command collaborator",
-"ChatServer","boundary","threadInit","void-accessor controller",
-"AsyncLogging","commander","~AsyncLogging","destructor",
-"AsyncLogging","commander","start","command",
-"AsyncLogging","commander","stop","set",
-"AsyncLogging","commander","AsyncLogging::AsyncLogging","constructor",
-"AsyncLogging","commander","AsyncLogging::append","void-accessor controller",
-"AsyncLogging","commander","AsyncLogging::threadFunc","command collaborator",
-"Curl","boundary","getCurlm","get collaborator",
-"Curl","boundary","getLoop","get collaborator",
-"Curl","boundary","Curl::initialize","wrapper stateless",
-"Curl","boundary","Curl::socketCallback","controller stateless",
-"Curl","boundary","Curl::timerCallback","controller stateless",
-"Curl","boundary","Curl::Curl","constructor",
-"Curl","boundary","Curl::~Curl","destructor",
-"Curl","boundary","Curl::getUrl","property controller",
-"Curl","boundary","Curl::onTimer","command collaborator",
-"Curl","boundary","Curl::onRead","command collaborator",
-"Curl","boundary","Curl::onWrite","command collaborator",
-"Curl","boundary","Curl::checkFinish","set collaborator",
-"File","data-provider boundary","File","constructor",
-"File","data-provider boundary","~File","destructor",
-"File","data-provider boundary","valid","get",
-"File","data-provider boundary","readBytes","property wrapper",
-"File","data-provider boundary","readToEnd","property controller",
-"File","data-provider boundary","readInt64","property wrapper",
-"File","data-provider boundary","readInt32","property wrapper",
-"File","data-provider boundary","readUInt8","property wrapper",
-"File","data-provider boundary","skip","property wrapper",
-"QueryClient","degenerate","QueryClient","constructor",
-"QueryClient","degenerate","connect","command",
-"QueryClient","degenerate","onConnection","void-accessor command collaborator",
-"QueryClient","degenerate","onUnknownMessage","controller stateless",
-"QueryClient","degenerate","onAnswer","controller stateless",
-"QueryClient","degenerate","onEmpty","controller stateless",
-"ThriftConnection","commander","ThriftConnection::ThriftConnection","constructor",
-"ThriftConnection","commander","ThriftConnection::onMessage","command collaborator",
-"ThriftConnection","commander","ThriftConnection::process","command",
-"ThriftConnection","commander","ThriftConnection::close","command",
-"LogServer","small-class","LogServer","constructor",
-"LogServer","small-class","start","command",
-"LogServer","small-class","onConnection","controller stateless",
-"Percentile","data-provider boundary small-class","Percentile","constructor",
-"Percentile","data-provider boundary small-class","report","property collaborator",
-"Percentile","data-provider boundary small-class","save","void-accessor collaborator",
-"Bench","commander boundary","Bench","constructor",
-"Bench","commander boundary","run","command collaborator",
-"Bench","commander boundary","joinAll","command",
-"Bench","commander boundary","threadFunc","command collaborator",
-"Bench","commander boundary","Bench","constructor",
-"Bench","commander boundary","Start","command collaborator",
-"Bench","commander boundary","Run","command",
-"Bench","commander boundary","Stop","command collaborator",
-"Bench","commander boundary","threadFunc","command",
-"Bench","commander boundary","Bench","constructor",
-"Bench","commander boundary","Start","command collaborator",
-"Bench","commander boundary","Stop","command collaborator",
-"Bench","commander boundary","threadFunc","command",
-"Test","commander","Test","constructor",
-"Test","commander","run","command",
-"Test","commander","joinAll","command",
-"Test","commander","threadFunc","command",
-"Test","commander","Test","constructor",
-"Test","commander","run","command",
-"Test","commander","joinAll","command",
-"Test","commander","threadFunc","command",
-"Test","commander","Test","constructor",
-"Test","commander","~Test","destructor",
-"Test","commander","name","get",
-"Test","commander","setName","set",
-"Test","commander","Test","constructor",
-"Test","commander","~Test","destructor",
-"Test","commander","name","get",
-"Test","commander","setName","set",
-"Test","commander","Test","constructor",
-"Test","commander","~Test","destructor",
-"Test","commander","name","get",
-"Test","commander","setName","set",
-"Test","commander","Test","constructor",
-"Test","commander","~Test","destructor",
-"Test","commander","name","get",
-"Test","commander","setName","set",
-"EchoHandler","degenerate small-class","EchoHandler","constructor",
-"EchoHandler","degenerate small-class","echo","incidental",
-"RpcClient","commander boundary","RpcClient","constructor",
-"RpcClient","commander boundary","connect","command",
-"RpcClient","commander boundary","onConnection","void-accessor command collaborator",
-"RpcClient","commander boundary","resolve","void-accessor command collaborator",
-"RpcClient","commander boundary","resolved","set",
-"RpcClient","commander boundary","RpcClient","constructor",
-"RpcClient","commander boundary","connect","command",
-"RpcClient","commander boundary","onConnection","void-accessor command collaborator",
-"RpcClient","commander boundary","solved","command collaborator",
-"RpcClient","commander boundary","RpcClient","constructor",
-"RpcClient","commander boundary","connect","command",
-"RpcClient","commander boundary","sendRequest","command collaborator",
-"RpcClient","commander boundary","onConnection","void-accessor command collaborator",
-"RpcClient","commander boundary","replied","command collaborator",
-"EchoServer","commander boundary","start","command",
-"EchoServer","commander boundary","EchoServer","constructor",
-"EchoServer","commander boundary","start","command",
-"EchoServer","commander boundary","onConnection","controller stateless",
-"EchoServer","commander boundary","onMessage","void-accessor command collaborator",
-"EchoServer","commander boundary","printThroughput","command",
-"EchoServer","commander boundary","EchoServer","constructor",
-"EchoServer","commander boundary","start","command",
-"EchoServer","commander boundary","onConnection","command collaborator",
-"EchoServer","commander boundary","onMessage","void-accessor command collaborator",
-"EchoServer","commander boundary","printThroughput","command",
-"EchoServer","commander boundary","printConnection","command",
-"EchoServer","commander boundary","getLong","controller stateless",
-"EchoServer","commander boundary","EchoServer","constructor",
-"EchoServer","commander boundary","start","command",
-"EchoServer","commander boundary","onConnection","controller stateless",
-"EchoServer","commander boundary","onMessage","command collaborator",
-"EchoServer","commander boundary","EchoServer::EchoServer","constructor",
-"EchoServer","commander boundary","EchoServer::start","command",
-"EchoServer","commander boundary","EchoServer::onConnection","void-accessor command collaborator",
-"EchoServer","commander boundary","EchoServer::onMessage","command collaborator",
-"EchoServer","commander boundary","EchoServer::onTimer","command",
-"EchoServer","commander boundary","EchoServer::dumpConnectionBuckets","unclassified",
-"EchoServer","commander boundary","EchoServer::EchoServer","constructor",
-"EchoServer","commander boundary","EchoServer::onConnection","void-accessor command collaborator",
-"EchoServer","commander boundary","EchoServer::onMessage","command collaborator",
-"EchoServer","commander boundary","EchoServer::onTimer","command",
-"EchoServer","commander boundary","EchoServer::dumpConnectionList","collaborator",
-"EchoServer","commander boundary","EchoServer::EchoServer","constructor",
-"EchoServer","commander boundary","EchoServer::start","command",
-"EchoServer","commander boundary","EchoServer::onConnection","set collaborator",
-"EchoServer","commander boundary","EchoServer::onMessage","controller stateless",
-"EchoServer","commander boundary","EchoServer::EchoServer","constructor",
-"EchoServer","commander boundary","EchoServer::start","command",
-"EchoServer","commander boundary","EchoServer::onConnection","controller stateless",
-"EchoServer","commander boundary","EchoServer::onMessage","controller stateless",
-"Balancer","boundary","Balancer","constructor",
-"Balancer","boundary","~Balancer","destructor",
-"Balancer","boundary","setThreadNum","command",
-"Balancer","boundary","start","command",
-"Balancer","boundary","initPerThread","void-accessor command collaborator",
-"Balancer","boundary","onConnection","controller stateless",
-"Balancer","boundary","onRpcMessage","void-accessor command collaborator",
-"Balancer","boundary","Balancer","constructor",
-"Balancer","boundary","~Balancer","destructor",
-"Balancer","boundary","setThreadNum","command",
-"Balancer","boundary","start","command",
-"Balancer","boundary","initPerThread","void-accessor command collaborator",
-"Balancer","boundary","onConnection","controller stateless",
-"Balancer","boundary","onRawMessage","predicate non-void-command collaborator",
-"Balancer","boundary","onRpcMessage","void-accessor command collaborator",
-"Balancer","boundary","onMessageT","predicate non-void-command collaborator",
-"Client","commander boundary","Client","constructor",
-"Client","commander boundary","send","command collaborator",
-"Client","commander boundary","onConnection","command collaborator",
-"Client","commander boundary","onMessage","command collaborator",
-"Client","commander boundary","fill","command collaborator",
-"Client","commander boundary","Client","constructor",
-"Client","commander boundary","message","get",
-"Client","commander boundary","onConnect","command",
-"Client","commander boundary","onDisconnect","command collaborator",
-"Client","commander boundary","quit","command",
-"Client","commander boundary","handleTimeout","command",
-"ProcessInspector","degenerate","ProcessInspector::registerCommands","controller stateless",
-"ProcessInspector","degenerate","ProcessInspector::overview","property controller",
-"ProcessInspector","degenerate","ProcessInspector::pid","wrapper stateless",
-"ProcessInspector","degenerate","ProcessInspector::procStatus","wrapper stateless",
-"ProcessInspector","degenerate","ProcessInspector::openedFiles","wrapper stateless",
-"ProcessInspector","degenerate","ProcessInspector::threads","controller stateless",
-"Options","empty","Options","constructor",
-"Options","empty","MemcacheServer::Options::Options","constructor",
-"SendThrottler","commander","SendThrottler","constructor",
-"SendThrottler","commander","connect","command",
-"SendThrottler","commander","disconnect","command",
-"SendThrottler","commander","send","void-accessor command",
-"SendThrottler","commander","onConnection","command collaborator",
-"SendThrottler","commander","onHighWaterMark","set collaborator",
-"SendThrottler","commander","onWriteComplete","set",
-"SendThrottler","commander","throttle","command collaborator",
-"Hiredis","boundary","serverAddress","get collaborator",
-"Hiredis","boundary","setConnectCallback","set collaborator",
-"Hiredis","boundary","setDisconnectCallback","set collaborator",
-"Hiredis","boundary","Hiredis::Hiredis","constructor",
-"Hiredis","boundary","Hiredis::~Hiredis","destructor",
-"Hiredis","boundary","Hiredis::connected","predicate",
-"Hiredis","boundary","Hiredis::errstr","get",
-"Hiredis","boundary","Hiredis::connect","command",
-"Hiredis","boundary","Hiredis::disconnect","command",
-"Hiredis","boundary","Hiredis::fd","property",
-"Hiredis","boundary","Hiredis::setChannel","command",
-"Hiredis","boundary","Hiredis::removeChannel","command",
-"Hiredis","boundary","Hiredis::handleRead","controller",
-"Hiredis","boundary","Hiredis::handleWrite","command",
-"Hiredis","boundary","Hiredis::getHiredis","collaborator incidental",
-"Hiredis","boundary","Hiredis::logConnection","collaborator",
-"Hiredis","boundary","Hiredis::connectCallback","void-accessor command",
-"Hiredis","boundary","Hiredis::connectCallback","command",
-"Hiredis","boundary","Hiredis::disconnectCallback","void-accessor command",
-"Hiredis","boundary","Hiredis::disconnectCallback","command",
-"Hiredis","boundary","Hiredis::addRead","controller stateless",
-"Hiredis","boundary","Hiredis::delRead","controller stateless",
-"Hiredis","boundary","Hiredis::addWrite","controller stateless",
-"Hiredis","boundary","Hiredis::delWrite","controller stateless",
-"Hiredis","boundary","Hiredis::cleanup","incidental",
-"Hiredis","boundary","Hiredis::command","property non-void-command collaborator",
-"Hiredis","boundary","Hiredis::commandCallback","void-accessor command collaborator",
-"Hiredis","boundary","Hiredis::commandCallback","void-accessor wrapper",
-"Hiredis","boundary","Hiredis::ping","property wrapper",
-"Hiredis","boundary","Hiredis::pingCallback","collaborator incidental",
-"PingHandler","degenerate small-class","PingHandler","constructor",
-"PingHandler","degenerate small-class","ping","incidental",
-"ChatClient","commander boundary","ChatClient","constructor",
-"ChatClient","commander boundary","connect","command",
-"ChatClient","commander boundary","disconnect","command",
-"ChatClient","commander boundary","write","void-accessor command collaborator",
-"ChatClient","commander boundary","onConnection","set collaborator",
-"ChatClient","commander boundary","onStringMessage","controller stateless",
-"ChatClient","commander boundary","ChatClient","constructor",
-"ChatClient","commander boundary","connect","command",
-"ChatClient","commander boundary","disconnect","empty",
-"ChatClient","commander boundary","receiveTime","get collaborator",
-"ChatClient","commander boundary","onConnection","command collaborator",
-"ChatClient","commander boundary","onStringMessage","set collaborator",
-"ChatClient","commander boundary","send","command",
-"ProtobufDispatcherLite","boundary small-class","ProtobufDispatcherLite","constructor",
-"ProtobufDispatcherLite","boundary small-class","onProtobufMessage","void-accessor collaborator",
-"ProtobufDispatcherLite","boundary small-class","registerMessageCallback","set collaborator",
-"LogClient","degenerate","LogClient","constructor",
-"LogClient","degenerate","connect","controller stateless",
-"LogClient","degenerate","disconnect","controller stateless",
-"LogClient","degenerate","write","void-accessor command collaborator",
-"LogClient","degenerate","onConnection","command collaborator",
-"LogClient","degenerate","onMessage","controller stateless",
-"WordCountSender","commander","connectAll","command",
-"WordCountSender","commander","disconnectAll","command",
-"WordCountSender","commander","WordCountSender::WordCountSender","constructor",
-"WordCountSender","commander","WordCountSender::processFile","command",
-"RpcChannel","entity commander boundary","setConnection","set collaborator",
-"RpcChannel","entity commander boundary","setServices","set collaborator",
-"RpcChannel","entity commander boundary","RpcChannel::RpcChannel","constructor",
-"RpcChannel","entity commander boundary","RpcChannel::RpcChannel","constructor",
-"RpcChannel","entity commander boundary","RpcChannel::~RpcChannel","destructor",
-"RpcChannel","entity commander boundary","RpcChannel::CallMethod","command collaborator",
-"RpcChannel","entity commander boundary","RpcChannel::onMessage","void-accessor command collaborator",
-"RpcChannel","entity commander boundary","RpcChannel::onRpcMessage","command collaborator",
-"RpcChannel","entity commander boundary","RpcChannel::doneCallback","command collaborator",
-"LengthHeaderCodec","controller small-class","LengthHeaderCodec","constructor",
-"LengthHeaderCodec","controller small-class","onMessage","void-accessor controller",
-"LengthHeaderCodec","controller small-class","send","controller stateless",
-"Downloader","commander boundary","Downloader","constructor",
-"Downloader","commander boundary","onHeader","command",
-"Downloader","commander boundary","onHeaderDone","command collaborator",
-"Downloader","commander boundary","concurrentDownload","command collaborator",
-"Downloader","commander boundary","onData","void-accessor wrapper",
-"Downloader","commander boundary","onDownloadDone","set",
-"ProtobufDispatcher","boundary small-class","ProtobufDispatcher","constructor",
-"ProtobufDispatcher","boundary small-class","onProtobufMessage","void-accessor collaborator",
-"ProtobufDispatcher","boundary small-class","registerMessageCallback","void-accessor set collaborator",
-"ReadSmallFile","data-provider","buffer","get",
-"ReadSmallFile","data-provider","FileUtil::ReadSmallFile::ReadSmallFile","constructor",
-"ReadSmallFile","data-provider","FileUtil::ReadSmallFile::~ReadSmallFile","destructor",
-"ReadSmallFile","data-provider","FileUtil::ReadSmallFile::readToString","property controller",
-"ReadSmallFile","data-provider","FileUtil::ReadSmallFile::readToBuffer","property set collaborator",
-"ThreadPool","boundary","setMaxQueueSize","set",
-"ThreadPool","boundary","setThreadInitCallback","set collaborator",
-"ThreadPool","boundary","name","get",
-"ThreadPool","boundary","ThreadPool::ThreadPool","constructor",
-"ThreadPool","boundary","ThreadPool::~ThreadPool","destructor",
-"ThreadPool","boundary","ThreadPool::start","command",
-"ThreadPool","boundary","ThreadPool::stop","set collaborator",
-"ThreadPool","boundary","ThreadPool::queueSize","property controller",
-"ThreadPool","boundary","ThreadPool::run","command collaborator",
-"ThreadPool","boundary","ThreadPool::take","property controller",
-"ThreadPool","boundary","ThreadPool::isFull","predicate",
-"ThreadPool","boundary","ThreadPool::runInThread","command collaborator",
-"StatData","commander small-class","parse","command",
-"Resolver","commander boundary","Resolver::Resolver","constructor",
-"Resolver","commander boundary","Resolver::~Resolver","destructor",
-"Resolver","commander boundary","Resolver::resolve","predicate non-void-command collaborator",
-"Resolver","commander boundary","Resolver::onRead","controller",
-"Resolver","commander boundary","Resolver::onTimer","command",
-"Resolver","commander boundary","Resolver::onQueryResult","wrapper stateless",
-"Resolver","commander boundary","Resolver::onSockCreate","command collaborator",
-"Resolver","commander boundary","Resolver::onSockStateChange","command collaborator",
-"Resolver","commander boundary","Resolver::ares_host_callback","controller stateless",
-"Resolver","commander boundary","Resolver::ares_sock_create_callback","property non-void-command",
-"Resolver","commander boundary","Resolver::ares_sock_state_callback","command",
-"EventLoopThreadPool","boundary","setThreadNum","set",
-"EventLoopThreadPool","boundary","started","get",
-"EventLoopThreadPool","boundary","name","get",
-"EventLoopThreadPool","boundary","EventLoopThreadPool::EventLoopThreadPool","constructor",
-"EventLoopThreadPool","boundary","EventLoopThreadPool::~EventLoopThreadPool","destructor",
-"EventLoopThreadPool","boundary","EventLoopThreadPool::start","void-accessor command collaborator",
-"EventLoopThreadPool","boundary","EventLoopThreadPool::getNextLoop","property non-void-command collaborator",
-"EventLoopThreadPool","boundary","EventLoopThreadPool::getLoopForHash","property non-void-command collaborator",
-"EventLoopThreadPool","boundary","EventLoopThreadPool::getAllLoops","get property non-void-command collaborator",
-"SudokuServer","unclassified","SudokuServer","constructor",
-"SudokuServer","unclassified","start","command",
-"SudokuServer","unclassified","onConnection","controller stateless",
-"SudokuServer","unclassified","onMessage","void-accessor command collaborator",
-"SudokuServer","unclassified","processRequest","controller stateless",
-"SudokuServer","unclassified","SudokuServer","constructor",
-"SudokuServer","unclassified","start","command",
-"SudokuServer","unclassified","onConnection","controller",
-"SudokuServer","unclassified","onMessage","void-accessor command collaborator",
-"SudokuServer","unclassified","processRequest","predicate non-void-command collaborator",
-"SudokuServer","unclassified","solve","void-accessor command collaborator",
-"SudokuServer","unclassified","SudokuServer","constructor",
-"SudokuServer","unclassified","start","command",
-"SudokuServer","unclassified","onConnection","controller stateless",
-"SudokuServer","unclassified","onMessage","void-accessor command collaborator",
-"SudokuServer","unclassified","processRequest","controller stateless",
-"SudokuServer","unclassified","SudokuServer","constructor",
-"SudokuServer","unclassified","start","command",
-"SudokuServer","unclassified","onConnection","controller",
-"SudokuServer","unclassified","highWaterMark","command",
-"SudokuServer","unclassified","writeComplete","controller",
-"SudokuServer","unclassified","onMessage","void-accessor command collaborator",
-"SudokuServer","unclassified","processRequest","predicate non-void-command collaborator",
-"SudokuServer","unclassified","solve","void-accessor command collaborator",
-"SudokuServer","unclassified","SudokuServer","constructor",
-"SudokuServer","unclassified","start","command",
-"SudokuServer","unclassified","onConnection","controller stateless",
-"SudokuServer","unclassified","onMessage","void-accessor command collaborator",
-"SudokuServer","unclassified","processRequest","predicate non-void-command",
-"TtcpServerConnection","degenerate","TtcpServerConnection","constructor",
-"TtcpServerConnection","degenerate","~TtcpServerConnection","destructor",
-"TtcpServerConnection","degenerate","socket","collaborator incidental",
-"TtcpServerConnection","degenerate","start","command collaborator",
-"TtcpServerConnection","degenerate","doReadSession","controller stateless",
-"Printer","commander boundary","Printer","constructor",
-"Printer","commander boundary","~Printer","destructor",
-"Printer","commander boundary","print","command",
-"Printer","commander boundary","Printer","constructor",
-"Printer","commander boundary","~Printer","destructor",
-"Printer","commander boundary","print1","set collaborator",
-"Printer","commander boundary","print2","set collaborator",
-"Printer","commander boundary","Printer","constructor",
-"Printer","commander boundary","~Printer","destructor",
-"Printer","commander boundary","print1","set collaborator",
-"Printer","commander boundary","print2","set collaborator",
-"Date","data-provider","swap","void-accessor wrapper",
-"Date","data-provider","valid","predicate",
-"Date","data-provider","year","property",
-"Date","data-provider","month","property",
-"Date","data-provider","day","property",
-"Date","data-provider","weekDay","property",
-"Date","data-provider","julianDayNumber","get",
-"Date","data-provider","Date::Date","constructor",
-"Date","data-provider","Date::Date","constructor",
-"Date","data-provider","Date::toIsoString","property collaborator",
-"Date","data-provider","Date::yearMonthDay","property wrapper",
-"Request","boundary","setDataCallback","set collaborator",
-"Request","boundary","setDoneCallback","set collaborator",
-"Request","boundary","setHeaderCallback","set collaborator",
-"Request","boundary","setopt","property wrapper",
-"Request","boundary","setopt","property wrapper",
-"Request","boundary","setopt","property wrapper",
-"Request","boundary","setopt","property wrapper",
-"Request","boundary","getCurl","get collaborator",
-"Request","boundary","getChannel","property wrapper",
-"Request","boundary","Request::Request","constructor",
-"Request","boundary","Request::~Request","destructor",
-"Request","boundary","Request::headerOnly","command",
-"Request","boundary","Request::setRange","command collaborator",
-"Request","boundary","Request::getEffectiveUrl","property wrapper",
-"Request","boundary","Request::getRedirectUrl","property wrapper",
-"Request","boundary","Request::getResponseCode","property wrapper",
-"Request","boundary","Request::setChannel","property non-void-command collaborator",
-"Request","boundary","Request::removeChannel","command",
-"Request","boundary","Request::done","wrapper",
-"Request","boundary","Request::dataCallback","void-accessor wrapper",
-"Request","boundary","Request::headerCallback","void-accessor wrapper",
-"Request","boundary","Request::writeData","controller stateless",
-"Request","boundary","Request::headerData","controller stateless",
-"DiscardClient","commander boundary","DiscardClient","constructor",
-"DiscardClient","commander boundary","connect","command",
-"DiscardClient","commander boundary","onConnection","command collaborator",
-"DiscardClient","commander boundary","onMessage","controller stateless",
-"DiscardClient","commander boundary","onWriteComplete","command collaborator",
-"TestNoDestroy","empty","TestNoDestroy","constructor",
-"TestNoDestroy","empty","~TestNoDestroy","destructor",
-"Topic","entity boundary","Topic","constructor",
-"Topic","entity boundary","add","void-accessor command collaborator",
-"Topic","entity boundary","remove","void-accessor command collaborator",
-"Topic","entity boundary","publish","command collaborator",
-"Topic","entity boundary","makeMessage","property",
-"ProtobufCodec","boundary","ProtobufCodec","constructor",
-"ProtobufCodec","boundary","ProtobufCodec","constructor",
-"ProtobufCodec","boundary","send","void-accessor command collaborator",
-"ProtobufCodec","boundary","ProtobufCodec::fillEmptyBuffer","controller stateless",
-"ProtobufCodec","boundary","ProtobufCodec::errorCodeToString","collaborator incidental",
-"ProtobufCodec","boundary","ProtobufCodec::defaultErrorCallback","command collaborator",
-"ProtobufCodec","boundary","ProtobufCodec::onMessage","void-accessor command collaborator",
-"ProtobufCodec","boundary","ProtobufCodec::createMessage","controller stateless",
-"ProtobufCodec","boundary","ProtobufCodec::parse","property non-void-command collaborator",
-"Fmt","data-provider data-class small-class","data","get",
-"Fmt","data-provider data-class small-class","length","get",
-"Fmt","data-provider data-class small-class","Fmt::Fmt","constructor",
-"PubSubServer","entity boundary","PubSubServer","constructor",
-"PubSubServer","entity boundary","start","command",
-"PubSubServer","entity boundary","onConnection","void-accessor command collaborator",
-"PubSubServer","entity boundary","onMessage","void-accessor command collaborator",
-"PubSubServer","entity boundary","timePublish","command collaborator",
-"PubSubServer","entity boundary","doSubscribe","void-accessor command collaborator",
-"PubSubServer","entity boundary","doUnsubscribe","void-accessor command collaborator",
-"PubSubServer","entity boundary","doPublish","void-accessor command collaborator",
-"PubSubServer","entity boundary","getTopic","property non-void-command collaborator",
-"Session","entity boundary","Session","constructor",
-"Session","entity boundary","getFileName","property non-void-command collaborator",
-"Session","entity boundary","onMessage","command collaborator",
-"Session","entity boundary","Session","constructor",
-"Session","entity boundary","~Session","destructor",
-"Session","entity boundary","Session","constructor",
-"Session","entity boundary","start","command",
-"Session","entity boundary","stop","command",
-"Session","entity boundary","bytesRead","get",
-"Session","entity boundary","messagesRead","get",
-"Session","entity boundary","onMessage","void-accessor command collaborator",
-"Session","entity boundary","Session::onMessage","void-accessor command collaborator",
-"Session","entity boundary","Session::receiveValue","command collaborator",
-"Session","entity boundary","Session::discardValue","command collaborator",
-"Session","entity boundary","Session::processRequest","predicate non-void-command collaborator",
-"Session","entity boundary","Session::resetRequest","command",
-"Session","entity boundary","Session::reply","command collaborator",
-"Session","entity boundary","Session::doUpdate","predicate non-void-command collaborator",
-"Session","entity boundary","Session::doDelete","void-accessor command collaborator",
-"Session","entity boundary","Session::onConnection","void-accessor command collaborator",
-"Item","data-provider","~Item","destructor",
-"Item","data-provider","key","property wrapper",
-"Item","data-provider","flags","get",
-"Item","data-provider","rel_exptime","get",
-"Item","data-provider","value","property",
-"Item","data-provider","valueLength","get",
-"Item","data-provider","cas","get",
-"Item","data-provider","hash","get",
-"Item","data-provider","setCas","set",
-"Item","data-provider","neededBytes","property",
-"Item","data-provider","endsWithCRLF","predicate",
-"Item","data-provider","totalLen","property",
-"Item","data-provider","Item::Item","constructor",
-"Item","data-provider","Item::append","void-accessor command",
-"Item","data-provider","Item::output","collaborator",
-"Item","data-provider","Item::resetKey","command collaborator",
-"RawMessage","unclassified","RawMessage","constructor",
-"RawMessage","unclassified","id","get",
-"RawMessage","unclassified","set_id","set",
-"RawMessage","unclassified","parse","predicate non-void-command",
-"RawMessage","unclassified","updateId","command",
-"EchoServiceImpl","pure-controller degenerate small-class","Echo","controller stateless",
-"TimeClient","unclassified","TimeClient","constructor",
-"TimeClient","unclassified","connect","command",
-"TimeClient","unclassified","onConnection","command collaborator",
-"TimeClient","unclassified","onMessage","controller stateless",
-"PubSubClient","unclassified","setConnectionCallback","set collaborator",
-"PubSubClient","unclassified","PubSubClient::PubSubClient","constructor",
-"PubSubClient","unclassified","PubSubClient::start","command",
-"PubSubClient","unclassified","PubSubClient::stop","command",
-"PubSubClient","unclassified","PubSubClient::connected","predicate",
-"PubSubClient","unclassified","PubSubClient::subscribe","predicate set collaborator",
-"PubSubClient","unclassified","PubSubClient::unsubscribe","command",
-"PubSubClient","unclassified","PubSubClient::publish","predicate non-void-command",
-"PubSubClient","unclassified","PubSubClient::onConnection","set collaborator",
-"PubSubClient","unclassified","PubSubClient::onMessage","void-accessor controller",
-"PubSubClient","unclassified","PubSubClient::send","predicate non-void-command",
-"SudokuStat","entity commander boundary","SudokuStat","constructor",
-"SudokuStat","entity commander boundary","report","property",
-"SudokuStat","entity commander boundary","reset","property non-void-command collaborator",
-"SudokuStat","entity commander boundary","recordResponse","command",
-"SudokuStat","entity commander boundary","recordRequest","set collaborator",
-"SudokuStat","entity commander boundary","recordBadRequest","set collaborator",
-"SudokuStat","entity commander boundary","recordDroppedRequest","set collaborator",
-"Timer","data-provider boundary","Timer","copy-constructor",
-"Timer","data-provider boundary","run","wrapper stateless",
-"Timer","data-provider boundary","expiration","get collaborator",
-"Timer","data-provider boundary","repeat","get",
-"Timer","data-provider boundary","sequence","get",
-"Timer","data-provider boundary","Timer::restart","set collaborator",
-"SudokuSolver","entity boundary degenerate","SudokuSolver","constructor",
-"SudokuSolver","entity boundary degenerate","solve","predicate non-void-command collaborator",
-"SudokuSolver","entity boundary degenerate","new_column","property set collaborator",
-"SudokuSolver","entity boundary degenerate","append_column","command collaborator",
-"SudokuSolver","entity boundary degenerate","new_row","property set collaborator",
-"SudokuSolver","entity boundary degenerate","get_row_col","incidental",
-"SudokuSolver","entity boundary degenerate","get_col_col","incidental",
-"SudokuSolver","entity boundary degenerate","get_box_col","incidental",
-"SudokuSolver","entity boundary degenerate","get_min_column","property collaborator",
-"SudokuSolver","entity boundary degenerate","cover","collaborator incidental",
-"SudokuSolver","entity boundary degenerate","uncover","collaborator incidental",
-"SudokuSolver","entity boundary degenerate","put_left","collaborator incidental",
-"SudokuSolver","entity boundary degenerate","put_up","collaborator incidental",
-"EventQueue","entity boundary","put","command collaborator",
-"EventQueue","entity boundary","take","property non-void-command collaborator",
-"EventQueue","entity boundary","isEmpty","property non-void-command collaborator",
-"MemcacheServer","unclassified","setThreadNum","command",
-"MemcacheServer","unclassified","startTime","get collaborator",
-"MemcacheServer","unclassified","MemcacheServer::MemcacheServer","constructor",
-"MemcacheServer","unclassified","MemcacheServer::start","command",
-"MemcacheServer","unclassified","MemcacheServer::stop","command",
-"MemcacheServer","unclassified","MemcacheServer::storeItem","predicate controller",
-"MemcacheServer","unclassified","MemcacheServer::getItem","property controller",
-"MemcacheServer","unclassified","MemcacheServer::deleteItem","predicate controller",
-"MemcacheServer","unclassified","MemcacheServer::onConnection","void-accessor controller",
-"WordCountReceiver","commander boundary","WordCountReceiver","constructor",
-"WordCountReceiver","commander boundary","start","command",
-"WordCountReceiver","commander boundary","onConnection","command collaborator",
-"WordCountReceiver","commander boundary","onMessage","set collaborator",
-"WordCountReceiver","commander boundary","output","command collaborator",
-"SudokuLoadtest","commander","SudokuLoadtest","constructor",
-"SudokuLoadtest","commander","runClient","void-accessor command",
-"SudokuLoadtest","commander","tick","command collaborator",
-"SudokuLoadtest","commander","tock","set",
-"BoundedBlockingQueue","controller","BoundedBlockingQueue","constructor",
-"BoundedBlockingQueue","controller","put","void-accessor controller",
-"BoundedBlockingQueue","controller","put","void-accessor controller",
-"BoundedBlockingQueue","controller","take","property controller",
-"BoundedBlockingQueue","controller","empty","predicate controller",
-"BoundedBlockingQueue","controller","full","predicate controller",
-"BoundedBlockingQueue","controller","size","property controller",
-"BoundedBlockingQueue","controller","capacity","property controller",
-"TcpServer","entity minimal-entity boundary","ipPort","get",
-"TcpServer","entity minimal-entity boundary","name","get",
-"TcpServer","entity minimal-entity boundary","getLoop","get collaborator",
-"TcpServer","entity minimal-entity boundary","setThreadInitCallback","set collaborator",
-"TcpServer","entity minimal-entity boundary","threadPool","get collaborator",
-"TcpServer","entity minimal-entity boundary","setConnectionCallback","set collaborator",
-"TcpServer","entity minimal-entity boundary","setMessageCallback","set collaborator",
-"TcpServer","entity minimal-entity boundary","setWriteCompleteCallback","set collaborator",
-"TcpServer","entity minimal-entity boundary","TcpServer::TcpServer","constructor",
-"TcpServer","entity minimal-entity boundary","TcpServer::~TcpServer","destructor",
-"TcpServer","entity minimal-entity boundary","TcpServer::setThreadNum","command",
-"TcpServer","entity minimal-entity boundary","TcpServer::start","command",
-"TcpServer","entity minimal-entity boundary","TcpServer::newConnection","void-accessor command collaborator",
-"TcpServer","entity minimal-entity boundary","TcpServer::removeConnection","void-accessor command collaborator",
-"TcpServer","entity minimal-entity boundary","TcpServer::removeConnectionInLoop","void-accessor command collaborator",
-"SudokuClient","commander boundary","SudokuClient","constructor",
-"SudokuClient","commander boundary","connect","command",
-"SudokuClient","commander boundary","onConnection","set collaborator",
-"SudokuClient","commander boundary","onMessage","set collaborator",
-"SudokuClient","commander boundary","SudokuClient","constructor",
-"SudokuClient","commander boundary","connect","command",
-"SudokuClient","commander boundary","send","command",
-"SudokuClient","commander boundary","report","void-accessor command",
-"SudokuClient","commander boundary","onConnection","set collaborator",
-"SudokuClient","commander boundary","onMessage","command collaborator",
-"SudokuClient","commander boundary","verify","predicate non-void-command collaborator",
-"SudokuClient","commander boundary","SudokuClient","constructor",
-"SudokuClient","commander boundary","connect","command",
-"SudokuClient","commander boundary","report","void-accessor command",
-"SudokuClient","commander boundary","onConnection","command collaborator",
-"SudokuClient","commander boundary","send","command",
-"SudokuClient","commander boundary","onMessage","command collaborator",
-"SudokuClient","commander boundary","verify","predicate non-void-command collaborator",
-"CountDownLatch","unclassified","CountDownLatch::CountDownLatch","constructor",
-"CountDownLatch","unclassified","CountDownLatch::wait","controller",
-"CountDownLatch","unclassified","CountDownLatch::countDown","controller",
-"CountDownLatch","unclassified","CountDownLatch::getCount","property collaborator",
-"GzipFile","data-provider boundary","GzipFile","copy-constructor",
-"GzipFile","data-provider boundary","~GzipFile","destructor",
-"GzipFile","data-provider boundary","operator=","get non-void-command",
-"GzipFile","data-provider boundary","valid","predicate",
-"GzipFile","data-provider boundary","swap","void-accessor wrapper",
-"GzipFile","data-provider boundary","setBuffer","predicate wrapper",
-"GzipFile","data-provider boundary","read","property wrapper",
-"GzipFile","data-provider boundary","write","property controller",
-"GzipFile","data-provider boundary","tell","property wrapper",
-"GzipFile","data-provider boundary","offset","property wrapper",
-"GzipFile","data-provider boundary","GzipFile","constructor",
-"Exception","data-provider small-class","what","property",
-"Exception","data-provider small-class","stackTrace","property",
-"Exception","data-provider small-class","Exception::Exception","constructor",
-"FixedBuffer","unclassified","FixedBuffer","constructor",
-"FixedBuffer","unclassified","~FixedBuffer","destructor",
-"FixedBuffer","unclassified","append","set",
-"FixedBuffer","unclassified","data","get",
-"FixedBuffer","unclassified","length","property",
-"FixedBuffer","unclassified","current","get",
-"FixedBuffer","unclassified","avail","property",
-"FixedBuffer","unclassified","add","set",
-"FixedBuffer","unclassified","reset","set",
-"FixedBuffer","unclassified","bzero","wrapper",
-"FixedBuffer","unclassified","setCookie","incidental",
-"FixedBuffer","unclassified","toString","property",
-"FixedBuffer","unclassified","toStringPiece","property collaborator",
-"FixedBuffer","unclassified","end","property",
-"FixedBuffer","unclassified","FixedBuffer<SIZE>::debugString","get set",
-"FixedBuffer","unclassified","FixedBuffer<SIZE>::cookieStart","empty",
-"FixedBuffer","unclassified","FixedBuffer<SIZE>::cookieEnd","empty",
-"SystemInspector","boundary degenerate","SystemInspector::registerCommands","controller stateless",
-"SystemInspector","boundary degenerate","SystemInspector::loadavg","wrapper stateless",
-"SystemInspector","boundary degenerate","SystemInspector::version","wrapper stateless",
-"SystemInspector","boundary degenerate","SystemInspector::cpuinfo","wrapper stateless",
-"SystemInspector","boundary degenerate","SystemInspector::meminfo","wrapper stateless",
-"SystemInspector","boundary degenerate","SystemInspector::stat","wrapper stateless",
-"SystemInspector","boundary degenerate","SystemInspector::overview","controller stateless",
-"T","empty","T","constructor",
-"Condition","entity boundary","Condition","constructor",
-"Condition","entity boundary","~Condition","destructor",
-"Condition","entity boundary","wait","command collaborator",
-"Condition","entity boundary","notify","wrapper",
-"Condition","entity boundary","notifyAll","wrapper",
-"Condition","entity boundary","muduo::Condition::waitForSeconds","predicate non-void-command collaborator",
-"Logger","boundary degenerate","Logger::Logger","constructor",
-"Logger","boundary degenerate","Logger::Logger","constructor",
-"Logger","boundary degenerate","Logger::Logger","constructor",
-"Logger","boundary degenerate","Logger::Logger","constructor",
-"Logger","boundary degenerate","Logger::~Logger","destructor",
-"Logger","boundary degenerate","Logger::setLogLevel","collaborator incidental",
-"Logger","boundary degenerate","Logger::setOutput","collaborator incidental",
-"Logger","boundary degenerate","Logger::setFlush","collaborator incidental",
-"Logger","boundary degenerate","Logger::setTimeZone","collaborator incidental",
-"Logger","boundary degenerate","Logger::logLevel","collaborator incidental",
-"RpcServer","commander","setThreadNum","command",
-"RpcServer","commander","RpcServer::RpcServer","constructor",
-"RpcServer","commander","RpcServer::registerService","set collaborator",
-"RpcServer","commander","RpcServer::start","command",
-"RpcServer","commander","RpcServer::onConnection","void-accessor controller",
-"Procmon","boundary","Procmon","constructor",
-"Procmon","boundary","start","command",
-"Procmon","boundary","getName","property wrapper",
-"Procmon","boundary","onRequest","command collaborator",
-"Procmon","boundary","fillOverview","void-accessor command collaborator",
-"Procmon","boundary","fillRefresh","command",
-"Procmon","boundary","listFiles","command collaborator",
-"Procmon","boundary","listThreads","command",
-"Procmon","boundary","readProcFile","property wrapper",
-"Procmon","boundary","readLink","property controller",
-"Procmon","boundary","appendTableRow","wrapper stateless",
-"Procmon","boundary","appendTableRowFloat","wrapper stateless",
-"Procmon","boundary","appendTableRow","controller stateless",
-"Procmon","boundary","getCmdLine","property non-void-command",
-"Procmon","boundary","getEnviron","property non-void-command",
-"Procmon","boundary","getStartTime","property wrapper",
-"Procmon","boundary","getSeconds","property",
-"Procmon","boundary","tick","command collaborator",
-"Procmon","boundary","Procmon::appendResponse","property non-void-command",
-"Impl","commander small-class","Logger::Impl::Impl","constructor",
-"Impl","commander small-class","Logger::Impl::formatTime","command collaborator",
-"Impl","commander small-class","Logger::Impl::finish","unclassified",
-"MutexLock","unclassified","MutexLock","constructor",
-"MutexLock","unclassified","~MutexLock","destructor",
-"MutexLock","unclassified","isLockedByThisThread","predicate wrapper",
-"MutexLock","unclassified","unassignHolder","set",
-"MutexLock","unclassified","assignHolder","set",
-"Acceptor","commander","setNewConnectionCallback","set collaborator",
-"Acceptor","commander","listening","get",
-"Acceptor","commander","Acceptor::Acceptor","constructor",
-"Acceptor","commander","Acceptor::~Acceptor","destructor",
-"Acceptor","commander","Acceptor::listen","command",
-"Acceptor","commander","Acceptor::handleRead","command",
-"CpuTime","data-provider small-class","CpuTime","constructor",
-"CpuTime","data-provider small-class","total","property",
-"StringArg","data-provider data-class small-class","StringArg","constructor",
-"StringArg","data-provider data-class small-class","StringArg","constructor",
-"StringArg","data-provider data-class small-class","c_str","get",
-"BackendSession","boundary","BackendSession","constructor",
-"BackendSession","boundary","connect","command",
-"BackendSession","boundary","send","predicate non-void-command collaborator",
-"BackendSession","boundary","onConnection","command collaborator",
-"BackendSession","boundary","onRpcMessage","void-accessor command collaborator",
-"BackendSession","boundary","BackendSession","constructor",
-"BackendSession","boundary","connect","command",
-"BackendSession","boundary","send","predicate non-void-command collaborator",
-"BackendSession","boundary","sendTo","void-accessor command collaborator",
-"BackendSession","boundary","sendTo","controller stateless",
-"BackendSession","boundary","onConnection","command collaborator",
-"BackendSession","boundary","onRpcMessage","void-accessor command collaborator",
-"BackendSession","boundary","onRawMessage","predicate non-void-command collaborator",
-"BackendSession","boundary","onMessageT","void-accessor command collaborator",
-"ThreadNameInitializer","empty","ThreadNameInitializer","constructor",
-"ThreadData","commander small-class","ThreadData","constructor",
-"ThreadData","commander small-class","runInThread","command",
-"DemuxServer","entity commander boundary","DemuxServer","constructor",
-"DemuxServer","entity commander boundary","start","command",
-"DemuxServer","entity commander boundary","onServerConnection","command collaborator",
-"DemuxServer","entity commander boundary","onServerMessage","command collaborator",
-"DemuxServer","entity commander boundary","doCommand","void-accessor command collaborator",
-"DemuxServer","entity commander boundary","onSocksConnection","command collaborator",
-"DemuxServer","entity commander boundary","onSocksMessage","void-accessor command collaborator",
-"DemuxServer","entity commander boundary","sendServerPacket","void-accessor command collaborator",
-"Thread","unclassified","started","get",
-"Thread","unclassified","tid","get collaborator",
-"Thread","unclassified","name","get",
-"Thread","unclassified","Thread::Thread","copy-constructor",
-"Thread","unclassified","Thread::~Thread","destructor",
-"Thread","unclassified","Thread::setDefaultName","command",
-"Thread","unclassified","Thread::start","set collaborator",
-"Thread","unclassified","Thread::join","property set",
-"ChargenServer","unclassified","ChargenServer::ChargenServer","constructor",
-"ChargenServer","unclassified","ChargenServer::start","command",
-"ChargenServer","unclassified","ChargenServer::onConnection","controller",
-"ChargenServer","unclassified","ChargenServer::onMessage","controller stateless",
-"ChargenServer","unclassified","ChargenServer::onWriteComplete","set collaborator",
-"ChargenServer","unclassified","ChargenServer::printThroughput","command",
-"ThreadLocal","data-provider boundary small-class","ThreadLocal","constructor",
-"ThreadLocal","data-provider boundary small-class","~ThreadLocal","destructor",
-"ThreadLocal","data-provider boundary small-class","value","property wrapper",
-"BlockingQueue","controller","BlockingQueue","constructor",
-"BlockingQueue","controller","put","void-accessor controller",
-"BlockingQueue","controller","put","void-accessor controller",
-"BlockingQueue","controller","take","property controller",
-"BlockingQueue","controller","drain","property controller",
-"BlockingQueue","controller","size","property controller",
-"TimeZone::Data","commander small-class","addLocalTime","command",
-"TimeZone::Data","commander small-class","addTransition","command collaborator",
-"MultiplexServer","boundary","MultiplexServer","constructor",
-"MultiplexServer","boundary","start","command",
-"MultiplexServer","boundary","sendBackendPacket","void-accessor controller",
-"MultiplexServer","boundary","sendBackendString","void-accessor command collaborator",
-"MultiplexServer","boundary","sendBackendBuffer","void-accessor command collaborator",
-"MultiplexServer","boundary","sendToClient","command collaborator",
-"MultiplexServer","boundary","onClientConnection","command collaborator",
-"MultiplexServer","boundary","onClientMessage","void-accessor command collaborator",
-"MultiplexServer","boundary","onBackendConnection","command collaborator",
-"MultiplexServer","boundary","onBackendMessage","void-accessor command collaborator",
-"MultiplexServer","boundary","printStatistics","command",
-"MultiplexServer","boundary","MultiplexServer","constructor",
-"MultiplexServer","boundary","start","command",
-"MultiplexServer","boundary","onClientConnection","command collaborator",
-"MultiplexServer","boundary","sendBackendString","void-accessor command collaborator",
-"MultiplexServer","boundary","onClientMessage","void-accessor command collaborator",
-"MultiplexServer","boundary","sendBackendBuffer","void-accessor command collaborator",
-"MultiplexServer","boundary","sendBackendPacket","void-accessor command collaborator",
-"MultiplexServer","boundary","onBackendConnection","command collaborator",
-"MultiplexServer","boundary","onBackendMessage","void-accessor command collaborator",
-"MultiplexServer","boundary","sendToClient","command collaborator",
-"MultiplexServer","boundary","doCommand","void-accessor command collaborator",
-"LogStream","unclassified","operator<<","get non-void-command collaborator",
-"LogStream","unclassified","operator<<","get collaborator",
-"LogStream","unclassified","operator<<","get non-void-command collaborator",
-"LogStream","unclassified","operator<<","get non-void-command collaborator",
-"LogStream","unclassified","operator<<","property non-void-command collaborator",
-"LogStream","unclassified","operator<<","get non-void-command collaborator",
-"LogStream","unclassified","operator<<","get non-void-command collaborator",
-"LogStream","unclassified","operator<<","get controller",
-"LogStream","unclassified","append","void-accessor command",
-"LogStream","unclassified","buffer","get collaborator",
-"LogStream","unclassified","resetBuffer","command",
-"LogStream","unclassified","LogStream::staticCheck","unclassified",
-"LogStream","unclassified","LogStream::formatInteger","command collaborator",
-"LogStream","unclassified","LogStream::operator<<","get",
-"LogStream","unclassified","LogStream::operator<<","get",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"LogStream","unclassified","LogStream::operator<<","get non-void-command",
-"TimeZone","data-provider boundary","valid","predicate",
-"TimeZone","data-provider boundary","TimeZone::UTC","property non-void-command",
-"TimeZone","data-provider boundary","TimeZone::loadZoneFile","property non-void-command collaborator",
-"TimeZone","data-provider boundary","TimeZone::TimeZone","constructor",
-"TimeZone","data-provider boundary","TimeZone::TimeZone","constructor",
-"TimeZone","data-provider boundary","TimeZone::toLocalTime","property collaborator",
-"TimeZone","data-provider boundary","TimeZone::fromLocalTime","property",
-"TimeZone","data-provider boundary","TimeZone::toUtcTime","wrapper stateless",
-"TimeZone","data-provider boundary","TimeZone::fromUtcTime","controller stateless",
-"Timestamp","data-provider boundary","Timestamp","constructor",
-"Timestamp","data-provider boundary","Timestamp","constructor",
-"Timestamp","data-provider boundary","swap","void-accessor wrapper",
-"Timestamp","data-provider boundary","valid","predicate",
-"Timestamp","data-provider boundary","microSecondsSinceEpoch","get",
-"Timestamp","data-provider boundary","secondsSinceEpoch","property collaborator",
-"Timestamp","data-provider boundary","Timestamp::toString","property wrapper",
-"Timestamp","data-provider boundary","Timestamp::toFormattedString","property wrapper",
-"Timestamp","data-provider boundary","Timestamp::now","property non-void-command",
-"WeakCallback","data-provider boundary small-class","WeakCallback","constructor",
-"WeakCallback","data-provider boundary small-class","operator()","void-accessor collaborator",
-"Connector","commander","setNewConnectionCallback","set collaborator",
-"Connector","commander","serverAddress","get collaborator",
-"Connector","commander","setState","set collaborator",
-"Connector","commander","Connector::Connector","constructor",
-"Connector","commander","Connector::~Connector","destructor",
-"Connector","commander","Connector::start","set",
-"Connector","commander","Connector::startInLoop","command",
-"Connector","commander","Connector::stop","set",
-"Connector","commander","Connector::stopInLoop","command",
-"Connector","commander","Connector::connect","command",
-"Connector","commander","Connector::restart","command",
-"Connector","commander","Connector::connecting","command",
-"Connector","commander","Connector::removeAndResetChannel","property non-void-command",
-"Connector","commander","Connector::resetChannel","command",
-"Connector","commander","Connector::handleWrite","command",
-"Connector","commander","Connector::handleError","command",
-"Connector","commander","Connector::retry","command",
-"Foo","small-class","Foo","constructor",
-"Foo","small-class","memberFunc","wrapper",
-"Foo","small-class","memberFunc2","controller",
-"ProtobufCodecLiteT","entity boundary","ProtobufCodecLiteT","constructor",
-"ProtobufCodecLiteT","entity boundary","tag","property",
-"ProtobufCodecLiteT","entity boundary","send","void-accessor command collaborator",
-"ProtobufCodecLiteT","entity boundary","onMessage","void-accessor command collaborator",
-"ProtobufCodecLiteT","entity boundary","onRpcMessage","wrapper stateless",
-"ProtobufCodecLiteT","entity boundary","fillEmptyBuffer","void-accessor command collaborator",
-"AppendFile","data-provider boundary","writtenBytes","get collaborator",
-"AppendFile","data-provider boundary","FileUtil::AppendFile::AppendFile","constructor",
-"AppendFile","data-provider boundary","FileUtil::AppendFile::~AppendFile","destructor",
-"AppendFile","data-provider boundary","FileUtil::AppendFile::append","void-accessor set",
-"AppendFile","data-provider boundary","FileUtil::AppendFile::flush","wrapper",
-"AppendFile","data-provider boundary","FileUtil::AppendFile::write","property wrapper",
-"Buffer","unclassified","Buffer","constructor",
-"Buffer","unclassified","swap","void-accessor command",
-"Buffer","unclassified","readableBytes","property",
-"Buffer","unclassified","writableBytes","property",
-"Buffer","unclassified","prependableBytes","get",
-"Buffer","unclassified","peek","property",
-"Buffer","unclassified","findCRLF","property",
-"Buffer","unclassified","findCRLF","property",
-"Buffer","unclassified","findEOL","property",
-"Buffer","unclassified","findEOL","property",
-"Buffer","unclassified","retrieve","command",
-"Buffer","unclassified","retrieveUntil","void-accessor command",
-"Buffer","unclassified","retrieveInt64","command",
-"Buffer","unclassified","retrieveInt32","command",
-"Buffer","unclassified","retrieveInt16","command",
-"Buffer","unclassified","retrieveInt8","command",
-"Buffer","unclassified","retrieveAll","command",
-"Buffer","unclassified","retrieveAllAsString","property non-void-command",
-"Buffer","unclassified","retrieveAsString","property non-void-command",
-"Buffer","unclassified","toStringPiece","property collaborator",
-"Buffer","unclassified","append","command collaborator",
-"Buffer","unclassified","append","command",
-"Buffer","unclassified","append","command",
-"Buffer","unclassified","ensureWritableBytes","command",
-"Buffer","unclassified","beginWrite","property non-void-command",
-"Buffer","unclassified","beginWrite","property",
-"Buffer","unclassified","hasWritten","set",
-"Buffer","unclassified","unwrite","set",
-"Buffer","unclassified","appendInt64","command",
-"Buffer","unclassified","appendInt32","command",
-"Buffer","unclassified","appendInt16","command",
-"Buffer","unclassified","appendInt8","command",
-"Buffer","unclassified","readInt64","property non-void-command",
-"Buffer","unclassified","readInt32","property non-void-command",
-"Buffer","unclassified","readInt16","property non-void-command",
-"Buffer","unclassified","readInt8","property non-void-command",
-"Buffer","unclassified","peekInt64","property",
-"Buffer","unclassified","peekInt32","property",
-"Buffer","unclassified","peekInt16","property",
-"Buffer","unclassified","peekInt8","property",
-"Buffer","unclassified","prependInt64","command",
-"Buffer","unclassified","prependInt32","command",
-"Buffer","unclassified","prependInt16","command",
-"Buffer","unclassified","prependInt8","command",
-"Buffer","unclassified","prepend","command",
-"Buffer","unclassified","shrink","command",
-"Buffer","unclassified","internalCapacity","property",
-"Buffer","unclassified","begin","property non-void-command",
-"Buffer","unclassified","begin","property",
-"Buffer","unclassified","makeSpace","command",
-"Buffer","unclassified","Buffer::readFd","property non-void-command collaborator",
+"PeriodicTimer","commander small-class","PeriodicTimer","constructor"
+"PeriodicTimer","commander small-class","start","wrapper"
+"PeriodicTimer","commander small-class","~PeriodicTimer","destructor"
+"PeriodicTimer","commander small-class","handleRead","command"
+"BufferOutputStream","unclassified","BufferOutputStream","constructor"
+"BufferOutputStream","unclassified","Next","predicate non-void-command"
+"BufferOutputStream","unclassified","BackUp","command"
+"BufferOutputStream","unclassified","ByteCount","property"
+"PollPoller","entity commander boundary","PollPoller::PollPoller","constructor"
+"PollPoller","entity commander boundary","PollPoller::poll","property non-void-command collaborator"
+"PollPoller","entity commander boundary","PollPoller::fillActiveChannels","collaborator"
+"PollPoller","entity commander boundary","PollPoller::updateChannel","command collaborator"
+"PollPoller","entity commander boundary","PollPoller::removeChannel","command collaborator"
+"HttpServer","boundary","getLoop","property collaborator"
+"HttpServer","boundary","setHttpCallback","set collaborator"
+"HttpServer","boundary","setThreadNum","command"
+"HttpServer","boundary","HttpServer::HttpServer","constructor"
+"HttpServer","boundary","HttpServer::start","command"
+"HttpServer","boundary","HttpServer::onConnection","controller stateless"
+"HttpServer","boundary","HttpServer::onMessage","command collaborator"
+"HttpServer","boundary","HttpServer::onRequest","controller stateless"
+"HttpResponse","commander","HttpResponse","constructor"
+"HttpResponse","commander","setStatusCode","set collaborator"
+"HttpResponse","commander","setStatusMessage","set"
+"HttpResponse","commander","setCloseConnection","set"
+"HttpResponse","commander","closeConnection","get"
+"HttpResponse","commander","setContentType","command"
+"HttpResponse","commander","addHeader","set"
+"HttpResponse","commander","setBody","set"
+"HttpResponse","commander","HttpResponse::appendToBuffer","collaborator"
+"HttpContext","entity boundary","HttpContext","constructor"
+"HttpContext","entity boundary","gotAll","predicate"
+"HttpContext","entity boundary","reset","set collaborator"
+"HttpContext","entity boundary","request","get collaborator"
+"HttpContext","entity boundary","request","get collaborator"
+"HttpContext","entity boundary","HttpContext::processRequestLine","predicate non-void-command"
+"HttpContext","entity boundary","HttpContext::parseRequest","predicate non-void-command collaborator"
+"ZlibOutputStream","data-provider","ZlibOutputStream","constructor"
+"ZlibOutputStream","data-provider","~ZlibOutputStream","destructor"
+"ZlibOutputStream","data-provider","zlibErrorMessage","property"
+"ZlibOutputStream","data-provider","zlibErrorCode","get"
+"ZlibOutputStream","data-provider","inputBytes","property"
+"ZlibOutputStream","data-provider","outputBytes","property"
+"ZlibOutputStream","data-provider","internalOutputBufferSize","get"
+"ZlibOutputStream","data-provider","write","predicate non-void-command collaborator"
+"ZlibOutputStream","data-provider","write","predicate non-void-command collaborator"
+"ZlibOutputStream","data-provider","finish","predicate set"
+"ZlibOutputStream","data-provider","compress","property non-void-command"
+"TimerQueue","entity commander boundary","TimerQueue::TimerQueue","constructor"
+"TimerQueue","entity commander boundary","TimerQueue::~TimerQueue","destructor"
+"TimerQueue","entity commander boundary","TimerQueue::addTimer","property non-void-command collaborator"
+"TimerQueue","entity commander boundary","TimerQueue::cancel","command collaborator"
+"TimerQueue","entity commander boundary","TimerQueue::addTimerInLoop","command collaborator"
+"TimerQueue","entity commander boundary","TimerQueue::cancelInLoop","command collaborator"
+"TimerQueue","entity commander boundary","TimerQueue::handleRead","command collaborator"
+"TimerQueue","entity commander boundary","TimerQueue::getExpired","property non-void-command collaborator"
+"TimerQueue","entity commander boundary","TimerQueue::reset","command collaborator"
+"TimerQueue","entity commander boundary","TimerQueue::insert","predicate non-void-command collaborator"
+"TimerId","empty","TimerId","constructor"
+"TimerId","empty","TimerId","constructor"
+"TcpConnection","unclassified","getLoop","get collaborator"
+"TcpConnection","unclassified","name","get"
+"TcpConnection","unclassified","localAddress","get collaborator"
+"TcpConnection","unclassified","peerAddress","get collaborator"
+"TcpConnection","unclassified","connected","predicate"
+"TcpConnection","unclassified","disconnected","predicate"
+"TcpConnection","unclassified","isReading","get"
+"TcpConnection","unclassified","setContext","set collaborator"
+"TcpConnection","unclassified","getContext","get collaborator"
+"TcpConnection","unclassified","getMutableContext","property collaborator"
+"TcpConnection","unclassified","setConnectionCallback","set collaborator"
+"TcpConnection","unclassified","setMessageCallback","set collaborator"
+"TcpConnection","unclassified","setWriteCompleteCallback","set collaborator"
+"TcpConnection","unclassified","setHighWaterMarkCallback","command"
+"TcpConnection","unclassified","inputBuffer","property collaborator"
+"TcpConnection","unclassified","outputBuffer","property collaborator"
+"TcpConnection","unclassified","setCloseCallback","set collaborator"
+"TcpConnection","unclassified","setState","set collaborator"
+"TcpConnection","unclassified","TcpConnection::TcpConnection","constructor"
+"TcpConnection","unclassified","TcpConnection::~TcpConnection","destructor"
+"TcpConnection","unclassified","TcpConnection::getTcpInfo","predicate collaborator"
+"TcpConnection","unclassified","TcpConnection::getTcpInfoString","property"
+"TcpConnection","unclassified","TcpConnection::send","command"
+"TcpConnection","unclassified","TcpConnection::send","command collaborator"
+"TcpConnection","unclassified","TcpConnection::send","command collaborator"
+"TcpConnection","unclassified","TcpConnection::sendInLoop","command collaborator"
+"TcpConnection","unclassified","TcpConnection::sendInLoop","command"
+"TcpConnection","unclassified","TcpConnection::shutdown","command"
+"TcpConnection","unclassified","TcpConnection::shutdownInLoop","command"
+"TcpConnection","unclassified","TcpConnection::forceClose","command"
+"TcpConnection","unclassified","TcpConnection::forceCloseWithDelay","command"
+"TcpConnection","unclassified","TcpConnection::forceCloseInLoop","command"
+"TcpConnection","unclassified","TcpConnection::stateToString","property"
+"TcpConnection","unclassified","TcpConnection::setTcpNoDelay","command"
+"TcpConnection","unclassified","TcpConnection::startRead","command"
+"TcpConnection","unclassified","TcpConnection::startReadInLoop","command"
+"TcpConnection","unclassified","TcpConnection::stopRead","command"
+"TcpConnection","unclassified","TcpConnection::stopReadInLoop","command"
+"TcpConnection","unclassified","TcpConnection::connectEstablished","command"
+"TcpConnection","unclassified","TcpConnection::connectDestroyed","command"
+"TcpConnection","unclassified","TcpConnection::handleRead","command collaborator"
+"TcpConnection","unclassified","TcpConnection::handleWrite","command collaborator"
+"TcpConnection","unclassified","TcpConnection::handleClose","command collaborator"
+"TcpConnection","unclassified","TcpConnection::handleError","command"
+"HttpRequest","unclassified","HttpRequest","constructor"
+"HttpRequest","unclassified","setVersion","set collaborator"
+"HttpRequest","unclassified","getVersion","get collaborator"
+"HttpRequest","unclassified","setMethod","predicate set"
+"HttpRequest","unclassified","method","get collaborator"
+"HttpRequest","unclassified","methodString","property"
+"HttpRequest","unclassified","setPath","command"
+"HttpRequest","unclassified","path","get"
+"HttpRequest","unclassified","setQuery","command"
+"HttpRequest","unclassified","query","get"
+"HttpRequest","unclassified","setReceiveTime","set collaborator"
+"HttpRequest","unclassified","receiveTime","get collaborator"
+"HttpRequest","unclassified","addHeader","void-accessor set"
+"HttpRequest","unclassified","getHeader","property"
+"HttpRequest","unclassified","headers","get"
+"HttpRequest","unclassified","swap","command"
+"TcpClient","commander boundary","connection","property collaborator"
+"TcpClient","commander boundary","getLoop","get collaborator"
+"TcpClient","commander boundary","retry","get"
+"TcpClient","commander boundary","enableRetry","set"
+"TcpClient","commander boundary","name","get"
+"TcpClient","commander boundary","setConnectionCallback","set collaborator"
+"TcpClient","commander boundary","setMessageCallback","set collaborator"
+"TcpClient","commander boundary","setWriteCompleteCallback","set collaborator"
+"TcpClient","commander boundary","TcpClient::TcpClient","constructor"
+"TcpClient","commander boundary","TcpClient::~TcpClient","destructor"
+"TcpClient","commander boundary","TcpClient::connect","command"
+"TcpClient","commander boundary","TcpClient::disconnect","set collaborator"
+"TcpClient","commander boundary","TcpClient::stop","set"
+"TcpClient","commander boundary","TcpClient::newConnection","set collaborator"
+"TcpClient","commander boundary","TcpClient::removeConnection","command collaborator"
+"Socket","boundary","Socket","constructor"
+"Socket","boundary","fd","get"
+"Socket","boundary","Socket::~Socket","destructor"
+"Socket","boundary","Socket::getTcpInfo","predicate wrapper"
+"Socket","boundary","Socket::getTcpInfoString","predicate"
+"Socket","boundary","Socket::bindAddress","controller"
+"Socket","boundary","Socket::listen","wrapper"
+"Socket","boundary","Socket::accept","property controller"
+"Socket","boundary","Socket::shutdownWrite","command"
+"Socket","boundary","Socket::setTcpNoDelay","wrapper"
+"Socket","boundary","Socket::setReuseAddr","wrapper"
+"Socket","boundary","Socket::setReusePort","wrapper"
+"Socket","boundary","Socket::setKeepAlive","wrapper"
+"Poller","boundary","assertInLoopThread","unclassified"
+"Poller","boundary","Poller::Poller","constructor"
+"Poller","boundary","Poller::hasChannel","predicate collaborator"
+"Poller","boundary","Poller::newDefaultPoller","factory wrapper stateless"
+"InetAddress","data-provider","InetAddress","constructor"
+"InetAddress","data-provider","InetAddress","constructor"
+"InetAddress","data-provider","family","property collaborator"
+"InetAddress","data-provider","getSockAddr","property wrapper"
+"InetAddress","data-provider","setSockAddrInet6","set collaborator"
+"InetAddress","data-provider","portNetEndian","property"
+"InetAddress","data-provider","InetAddress::InetAddress","constructor"
+"InetAddress","data-provider","InetAddress::InetAddress","constructor"
+"InetAddress","data-provider","InetAddress::toIpPort","property"
+"InetAddress","data-provider","InetAddress::toIp","property"
+"InetAddress","data-provider","InetAddress::ipv4NetEndian","property"
+"InetAddress","data-provider","InetAddress::port","property"
+"InetAddress","data-provider","InetAddress::resolve","controller stateless"
+"InetAddress","data-provider","InetAddress::setScopeId","command"
+"EventLoopThread","small-class","EventLoopThread::EventLoopThread","constructor"
+"EventLoopThread","small-class","EventLoopThread::~EventLoopThread","destructor"
+"EventLoopThread","small-class","EventLoopThread::startLoop","property non-void-command collaborator"
+"EventLoopThread","small-class","EventLoopThread::threadFunc","controller"
+"EventLoop","boundary","pollReturnTime","get collaborator"
+"EventLoop","boundary","iteration","get"
+"EventLoop","boundary","assertInLoopThread","command"
+"EventLoop","boundary","isInLoopThread","predicate wrapper"
+"EventLoop","boundary","eventHandling","get"
+"EventLoop","boundary","setContext","set collaborator"
+"EventLoop","boundary","getContext","get collaborator"
+"EventLoop","boundary","getMutableContext","property collaborator"
+"EventLoop","boundary","EventLoop::getEventLoopOfCurrentThread","incidental"
+"EventLoop","boundary","EventLoop::EventLoop","constructor"
+"EventLoop","boundary","EventLoop::~EventLoop","destructor"
+"EventLoop","boundary","EventLoop::loop","command collaborator"
+"EventLoop","boundary","EventLoop::quit","command"
+"EventLoop","boundary","EventLoop::runInLoop","command collaborator"
+"EventLoop","boundary","EventLoop::queueInLoop","command collaborator"
+"EventLoop","boundary","EventLoop::queueSize","property controller"
+"EventLoop","boundary","EventLoop::runAt","property non-void-command collaborator"
+"EventLoop","boundary","EventLoop::runAfter","property non-void-command collaborator"
+"EventLoop","boundary","EventLoop::runEvery","property non-void-command collaborator"
+"EventLoop","boundary","EventLoop::cancel","command collaborator"
+"EventLoop","boundary","EventLoop::updateChannel","command collaborator"
+"EventLoop","boundary","EventLoop::removeChannel","command collaborator"
+"EventLoop","boundary","EventLoop::hasChannel","predicate non-void-command collaborator"
+"EventLoop","boundary","EventLoop::abortNotInLoopThread","wrapper"
+"EventLoop","boundary","EventLoop::wakeup","wrapper"
+"EventLoop","boundary","EventLoop::handleRead","wrapper"
+"EventLoop","boundary","EventLoop::doPendingFunctors","set collaborator"
+"EventLoop","boundary","EventLoop::printActiveChannels","controller"
+"IgnoreSigPipe","empty","IgnoreSigPipe","constructor"
+"Channel","unclassified","setReadCallback","set collaborator"
+"Channel","unclassified","setWriteCallback","set collaborator"
+"Channel","unclassified","setCloseCallback","set collaborator"
+"Channel","unclassified","setErrorCallback","set collaborator"
+"Channel","unclassified","fd","get"
+"Channel","unclassified","events","get"
+"Channel","unclassified","set_revents","set"
+"Channel","unclassified","isNoneEvent","predicate"
+"Channel","unclassified","enableReading","set"
+"Channel","unclassified","disableReading","set"
+"Channel","unclassified","enableWriting","set"
+"Channel","unclassified","disableWriting","set"
+"Channel","unclassified","disableAll","set"
+"Channel","unclassified","isWriting","predicate"
+"Channel","unclassified","isReading","predicate"
+"Channel","unclassified","index","get"
+"Channel","unclassified","set_index","set"
+"Channel","unclassified","doNotLogHup","set"
+"Channel","unclassified","ownerLoop","get collaborator"
+"Channel","unclassified","Channel::Channel","constructor"
+"Channel","unclassified","Channel::~Channel","destructor"
+"Channel","unclassified","Channel::tie","command collaborator"
+"Channel","unclassified","Channel::update","set"
+"Channel","unclassified","Channel::remove","command"
+"Channel","unclassified","Channel::handleEvent","command collaborator"
+"Channel","unclassified","Channel::handleEventWithGuard","set collaborator"
+"Channel","unclassified","Channel::reventsToString","property"
+"Channel","unclassified","Channel::eventsToString","property"
+"Channel","unclassified","Channel::eventsToString","controller stateless"
+"ResolverServiceImpl","small-class","ResolverServiceImpl","constructor"
+"ResolverServiceImpl","small-class","Resolve","command collaborator"
+"ResolverServiceImpl","small-class","doneCallback","controller stateless"
+"DaytimeServer","degenerate","DaytimeServer::DaytimeServer","constructor"
+"DaytimeServer","degenerate","DaytimeServer::start","command"
+"DaytimeServer","degenerate","DaytimeServer::onConnection","controller stateless"
+"DaytimeServer","degenerate","DaytimeServer::onMessage","controller stateless"
+"QueryServer","degenerate","QueryServer","constructor"
+"QueryServer","degenerate","start","command"
+"QueryServer","degenerate","onConnection","controller stateless"
+"QueryServer","degenerate","onUnknownMessage","controller stateless"
+"QueryServer","degenerate","onQuery","command collaborator"
+"QueryServer","degenerate","onAnswer","controller stateless"
+"CallbackT","boundary degenerate small-class","CallbackT","constructor"
+"CallbackT","boundary degenerate small-class","onMessage","wrapper stateless"
+"TimeServer","degenerate","TimeServer::TimeServer","constructor"
+"TimeServer","degenerate","TimeServer::start","command"
+"TimeServer","degenerate","TimeServer::onConnection","controller stateless"
+"TimeServer","degenerate","TimeServer::onMessage","controller stateless"
+"Plot","data-provider boundary","Plot::Plot","constructor"
+"Plot","data-provider boundary","Plot::~Plot","destructor"
+"Plot","data-provider boundary","Plot::plotCpu","property non-void-command"
+"Plot","data-provider boundary","Plot::label","wrapper"
+"Plot","data-provider boundary","Plot::getX","property collaborator"
+"Plot","data-provider boundary","Plot::getY","property"
+"Plot","data-provider boundary","Plot::toPng","property wrapper"
+"UptimeClient","degenerate","UptimeClient","constructor"
+"UptimeClient","degenerate","connect","command"
+"UptimeClient","degenerate","onConnection","controller stateless"
+"UptimeClient","degenerate","onMessage","empty"
+"DateTime","data-provider boundary small-class","DateTime","constructor"
+"DateTime","data-provider boundary small-class","DateTime","constructor"
+"DateTime","data-provider boundary small-class","DateTime::DateTime","constructor"
+"DateTime","data-provider boundary small-class","DateTime::toIsoString","property wrapper"
+"Inspector","unclassified","Inspector::Inspector","constructor"
+"Inspector","unclassified","Inspector::~Inspector","destructor"
+"Inspector","unclassified","Inspector::add","collaborator"
+"Inspector","unclassified","Inspector::remove","controller"
+"Inspector","unclassified","Inspector::start","command"
+"Inspector","unclassified","Inspector::onRequest","controller"
+"EchoClient","commander boundary","EchoClient","constructor"
+"EchoClient","commander boundary","connect","command"
+"EchoClient","commander boundary","onConnection","command collaborator"
+"EchoClient","commander boundary","onMessage","controller stateless"
+"EchoClient","commander boundary","EchoClient","constructor"
+"EchoClient","commander boundary","connect","command"
+"EchoClient","commander boundary","onConnection","command collaborator"
+"EchoClient","commander boundary","onMessage","command collaborator"
+"ChargenClient","unclassified","ChargenClient","constructor"
+"ChargenClient","unclassified","connect","command"
+"ChargenClient","unclassified","onConnection","command collaborator"
+"ChargenClient","unclassified","onMessage","controller stateless"
+"MockBackendServer","boundary","MockBackendServer","constructor"
+"MockBackendServer","boundary","start","command collaborator"
+"MockBackendServer","boundary","sendToClient","command collaborator"
+"MockBackendServer","boundary","sendToClient","property non-void-command collaborator"
+"MockBackendServer","boundary","stop","command"
+"MockBackendServer","boundary","getBootstrap","factory controller"
+"DiscardServer","unclassified","DiscardServer","constructor"
+"DiscardServer","unclassified","start","command"
+"DiscardServer","unclassified","onConnection","controller stateless"
+"DiscardServer","unclassified","onMessage","command collaborator"
+"DiscardServer","unclassified","printThroughput","command"
+"DiscardServer","unclassified","DiscardServer::DiscardServer","constructor"
+"DiscardServer","unclassified","DiscardServer::start","command"
+"DiscardServer","unclassified","DiscardServer::onConnection","controller stateless"
+"DiscardServer","unclassified","DiscardServer::onMessage","controller stateless"
+"AtomicIntegerT","entity boundary","AtomicIntegerT","constructor"
+"AtomicIntegerT","entity boundary","get","property wrapper"
+"AtomicIntegerT","entity boundary","getAndAdd","property wrapper"
+"AtomicIntegerT","entity boundary","addAndGet","property non-void-command collaborator"
+"AtomicIntegerT","entity boundary","incrementAndGet","property non-void-command collaborator"
+"AtomicIntegerT","entity boundary","decrementAndGet","property non-void-command collaborator"
+"AtomicIntegerT","entity boundary","add","command collaborator"
+"AtomicIntegerT","entity boundary","increment","command"
+"AtomicIntegerT","entity boundary","decrement","command"
+"AtomicIntegerT","entity boundary","getAndSet","property wrapper"
+"FastCgiCodec","boundary","FastCgiCodec","constructor"
+"FastCgiCodec","boundary","onMessage","command collaborator"
+"FastCgiCodec","boundary","FastCgiCodec::onParams","predicate non-void-command"
+"FastCgiCodec","boundary","FastCgiCodec::onStdin","set"
+"FastCgiCodec","boundary","FastCgiCodec::parseAllParams","predicate non-void-command"
+"FastCgiCodec","boundary","FastCgiCodec::readLen","property non-void-command"
+"FastCgiCodec","boundary","FastCgiCodec::endStdout","controller"
+"FastCgiCodec","boundary","FastCgiCodec::endRequest","controller"
+"FastCgiCodec","boundary","FastCgiCodec::respond","command collaborator"
+"FastCgiCodec","boundary","FastCgiCodec::parseRequest","predicate non-void-command collaborator"
+"FastCgiCodec","boundary","FastCgiCodec::onBeginRequest","predicate set collaborator"
+"ZlibInputStream","empty","ZlibInputStream","constructor"
+"ZlibInputStream","empty","~ZlibInputStream","destructor"
+"Session::Reader","boundary data-class small-class","read","predicate set collaborator"
+"LogFile","commander boundary","LogFile::LogFile","constructor"
+"LogFile","commander boundary","LogFile::append","command collaborator"
+"LogFile","commander boundary","LogFile::flush","command collaborator"
+"LogFile","commander boundary","LogFile::append_unlocked","command collaborator"
+"LogFile","commander boundary","LogFile::rollFile","predicate non-void-command collaborator"
+"LogFile","commander boundary","LogFile::getLogFileName","controller stateless"
+"ThriftServer","commander","ThriftServer","constructor"
+"ThriftServer","commander","ThriftServer","constructor"
+"ThriftServer","commander","ThriftServer","constructor"
+"ThriftServer","commander","ThriftServer","constructor"
+"ThriftServer","commander","ThriftServer","constructor"
+"ThriftServer","commander","ThriftServer","constructor"
+"ThriftServer","commander","ThriftServer","constructor"
+"ThriftServer","commander","ThriftServer","constructor"
+"ThriftServer","commander","workerThreadPool","get collaborator"
+"ThriftServer","commander","isWorkerThreadPoolProcessing","predicate"
+"ThriftServer","commander","setThreadNum","command"
+"ThriftServer","commander","setWorkerThreadNum","set"
+"ThriftServer","commander","ThriftServer::serve","command"
+"ThriftServer","commander","ThriftServer::start","command"
+"ThriftServer","commander","ThriftServer::stop","command"
+"ThriftServer","commander","ThriftServer::onConnection","command collaborator"
+"EPollPoller","entity commander boundary","EPollPoller::EPollPoller","constructor"
+"EPollPoller","entity commander boundary","EPollPoller::~EPollPoller","destructor"
+"EPollPoller","entity commander boundary","EPollPoller::poll","property non-void-command collaborator"
+"EPollPoller","entity commander boundary","EPollPoller::fillActiveChannels","collaborator"
+"EPollPoller","entity commander boundary","EPollPoller::updateChannel","command collaborator"
+"EPollPoller","entity commander boundary","EPollPoller::removeChannel","command collaborator"
+"EPollPoller","entity commander boundary","EPollPoller::update","command collaborator"
+"EPollPoller","entity commander boundary","EPollPoller::operationToString","incidental"
+"MultiplexerTest","unclassified","MultiplexerTest","constructor"
+"MultiplexerTest","unclassified","addTestCase","command collaborator"
+"MultiplexerTest","unclassified","run","command collaborator"
+"MultiplexerTest","unclassified","newClient","factory controller"
+"MultiplexerTest","unclassified","getEventQueue","get collaborator"
+"MultiplexerTest","unclassified","getBackend","get collaborator"
+"MultiplexerTest","unclassified","sleep","controller stateless"
+"Tunnel","commander","Tunnel","constructor"
+"Tunnel","commander","~Tunnel","destructor"
+"Tunnel","commander","setup","command"
+"Tunnel","commander","connect","command"
+"Tunnel","commander","disconnect","command"
+"Tunnel","commander","teardown","command"
+"Tunnel","commander","onClientConnection","command collaborator"
+"Tunnel","commander","onClientMessage","command collaborator"
+"Tunnel","commander","onHighWaterMark","command"
+"Tunnel","commander","onWriteComplete","command collaborator"
+"ProtobufCodecLite","boundary","ProtobufCodecLite","constructor"
+"ProtobufCodecLite","boundary","tag","get"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::send","command collaborator"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::fillEmptyBuffer","command collaborator"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::onMessage","command collaborator"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::parseFromBuffer","controller stateless"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::serializeToBuffer","property controller"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::errorCodeToString","collaborator incidental"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::defaultErrorCallback","command collaborator"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::asInt32","wrapper stateless"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::checksum","wrapper stateless"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::validateChecksum","predicate non-void-command"
+"ProtobufCodecLite","boundary","ProtobufCodecLite::parse","property non-void-command collaborator"
+"Context","empty","Context","constructor"
+"StringPiece","unclassified","StringPiece","constructor"
+"StringPiece","unclassified","StringPiece","constructor"
+"StringPiece","unclassified","StringPiece","constructor"
+"StringPiece","unclassified","StringPiece","constructor"
+"StringPiece","unclassified","StringPiece","constructor"
+"StringPiece","unclassified","data","get"
+"StringPiece","unclassified","size","get"
+"StringPiece","unclassified","empty","predicate"
+"StringPiece","unclassified","begin","get"
+"StringPiece","unclassified","end","property"
+"StringPiece","unclassified","clear","command"
+"StringPiece","unclassified","set","command"
+"StringPiece","unclassified","set","command"
+"StringPiece","unclassified","set","command"
+"StringPiece","unclassified","operator[]","get"
+"StringPiece","unclassified","remove_prefix","command"
+"StringPiece","unclassified","remove_suffix","set"
+"StringPiece","unclassified","operator==","predicate wrapper"
+"StringPiece","unclassified","operator!=","predicate"
+"StringPiece","unclassified","compare","property wrapper"
+"StringPiece","unclassified","as_string","property"
+"StringPiece","unclassified","CopyToString","controller"
+"StringPiece","unclassified","starts_with","predicate wrapper"
+"SudokuServiceImpl","pure-controller degenerate small-class","Solve","controller stateless"
+"PerformanceInspector","degenerate","PerformanceInspector::registerCommands","controller stateless"
+"PerformanceInspector","degenerate","PerformanceInspector::heap","controller stateless"
+"PerformanceInspector","degenerate","PerformanceInspector::growth","controller stateless"
+"PerformanceInspector","degenerate","PerformanceInspector::profile","controller stateless"
+"PerformanceInspector","degenerate","PerformanceInspector::cmdline","incidental"
+"PerformanceInspector","degenerate","PerformanceInspector::memstats","wrapper stateless"
+"PerformanceInspector","degenerate","PerformanceInspector::memhistogram","controller stateless"
+"PerformanceInspector","degenerate","PerformanceInspector::releaseFreeMemory","wrapper stateless"
+"ChatServer","commander boundary","ChatServer","constructor"
+"ChatServer","commander boundary","start","command"
+"ChatServer","commander boundary","onConnection","command collaborator"
+"ChatServer","commander boundary","onStringMessage","command collaborator"
+"ChatServer","commander boundary","ChatServer","constructor"
+"ChatServer","commander boundary","setThreadNum","command"
+"ChatServer","commander boundary","start","command"
+"ChatServer","commander boundary","onConnection","command collaborator"
+"ChatServer","commander boundary","onStringMessage","command collaborator"
+"ChatServer","commander boundary","ChatServer","constructor"
+"ChatServer","commander boundary","setThreadNum","command"
+"ChatServer","commander boundary","start","command"
+"ChatServer","commander boundary","onConnection","command collaborator"
+"ChatServer","commander boundary","onStringMessage","command collaborator"
+"ChatServer","commander boundary","getConnectionList","get collaborator"
+"ChatServer","commander boundary","ChatServer","constructor"
+"ChatServer","commander boundary","setThreadNum","command"
+"ChatServer","commander boundary","start","command"
+"ChatServer","commander boundary","onConnection","controller stateless"
+"ChatServer","commander boundary","onStringMessage","controller"
+"ChatServer","commander boundary","distributeMessage","command collaborator"
+"ChatServer","commander boundary","threadInit","controller"
+"AsyncLogging","commander","~AsyncLogging","destructor"
+"AsyncLogging","commander","start","command"
+"AsyncLogging","commander","stop","set"
+"AsyncLogging","commander","AsyncLogging::AsyncLogging","constructor"
+"AsyncLogging","commander","AsyncLogging::append","controller"
+"AsyncLogging","commander","AsyncLogging::threadFunc","command collaborator"
+"Curl","boundary","getCurlm","get collaborator"
+"Curl","boundary","getLoop","get collaborator"
+"Curl","boundary","Curl::initialize","wrapper stateless"
+"Curl","boundary","Curl::socketCallback","controller stateless"
+"Curl","boundary","Curl::timerCallback","controller stateless"
+"Curl","boundary","Curl::Curl","constructor"
+"Curl","boundary","Curl::~Curl","destructor"
+"Curl","boundary","Curl::getUrl","property controller"
+"Curl","boundary","Curl::onTimer","command collaborator"
+"Curl","boundary","Curl::onRead","command collaborator"
+"Curl","boundary","Curl::onWrite","command collaborator"
+"Curl","boundary","Curl::checkFinish","set collaborator"
+"File","data-provider boundary","File","constructor"
+"File","data-provider boundary","~File","destructor"
+"File","data-provider boundary","valid","get"
+"File","data-provider boundary","readBytes","property wrapper"
+"File","data-provider boundary","readToEnd","property controller"
+"File","data-provider boundary","readInt64","property wrapper"
+"File","data-provider boundary","readInt32","property wrapper"
+"File","data-provider boundary","readUInt8","property wrapper"
+"File","data-provider boundary","skip","property wrapper"
+"QueryClient","degenerate","QueryClient","constructor"
+"QueryClient","degenerate","connect","command"
+"QueryClient","degenerate","onConnection","command collaborator"
+"QueryClient","degenerate","onUnknownMessage","controller stateless"
+"QueryClient","degenerate","onAnswer","controller stateless"
+"QueryClient","degenerate","onEmpty","controller stateless"
+"ThriftConnection","commander","ThriftConnection::ThriftConnection","constructor"
+"ThriftConnection","commander","ThriftConnection::onMessage","command collaborator"
+"ThriftConnection","commander","ThriftConnection::process","command"
+"ThriftConnection","commander","ThriftConnection::close","command"
+"LogServer","small-class","LogServer","constructor"
+"LogServer","small-class","start","command"
+"LogServer","small-class","onConnection","controller stateless"
+"Percentile","data-provider boundary small-class","Percentile","constructor"
+"Percentile","data-provider boundary small-class","report","property collaborator"
+"Percentile","data-provider boundary small-class","save","collaborator"
+"Bench","commander boundary","Bench","constructor"
+"Bench","commander boundary","run","command collaborator"
+"Bench","commander boundary","joinAll","command"
+"Bench","commander boundary","threadFunc","command collaborator"
+"Bench","commander boundary","Bench","constructor"
+"Bench","commander boundary","Start","command collaborator"
+"Bench","commander boundary","Run","command"
+"Bench","commander boundary","Stop","command collaborator"
+"Bench","commander boundary","threadFunc","command"
+"Bench","commander boundary","Bench","constructor"
+"Bench","commander boundary","Start","command collaborator"
+"Bench","commander boundary","Stop","command collaborator"
+"Bench","commander boundary","threadFunc","command"
+"Test","commander","Test","constructor"
+"Test","commander","run","command"
+"Test","commander","joinAll","command"
+"Test","commander","threadFunc","command"
+"Test","commander","Test","constructor"
+"Test","commander","run","command"
+"Test","commander","joinAll","command"
+"Test","commander","threadFunc","command"
+"Test","commander","Test","constructor"
+"Test","commander","~Test","destructor"
+"Test","commander","name","get"
+"Test","commander","setName","set"
+"Test","commander","Test","constructor"
+"Test","commander","~Test","destructor"
+"Test","commander","name","get"
+"Test","commander","setName","set"
+"Test","commander","Test","constructor"
+"Test","commander","~Test","destructor"
+"Test","commander","name","get"
+"Test","commander","setName","set"
+"Test","commander","Test","constructor"
+"Test","commander","~Test","destructor"
+"Test","commander","name","get"
+"Test","commander","setName","set"
+"EchoHandler","degenerate small-class","EchoHandler","constructor"
+"EchoHandler","degenerate small-class","echo","incidental"
+"RpcClient","commander boundary","RpcClient","constructor"
+"RpcClient","commander boundary","connect","command"
+"RpcClient","commander boundary","onConnection","command collaborator"
+"RpcClient","commander boundary","resolve","command collaborator"
+"RpcClient","commander boundary","resolved","set"
+"RpcClient","commander boundary","RpcClient","constructor"
+"RpcClient","commander boundary","connect","command"
+"RpcClient","commander boundary","onConnection","command collaborator"
+"RpcClient","commander boundary","solved","command collaborator"
+"RpcClient","commander boundary","RpcClient","constructor"
+"RpcClient","commander boundary","connect","command"
+"RpcClient","commander boundary","sendRequest","command collaborator"
+"RpcClient","commander boundary","onConnection","command collaborator"
+"RpcClient","commander boundary","replied","command collaborator"
+"EchoServer","commander boundary","start","command"
+"EchoServer","commander boundary","EchoServer","constructor"
+"EchoServer","commander boundary","start","command"
+"EchoServer","commander boundary","onConnection","controller stateless"
+"EchoServer","commander boundary","onMessage","command collaborator"
+"EchoServer","commander boundary","printThroughput","command"
+"EchoServer","commander boundary","EchoServer","constructor"
+"EchoServer","commander boundary","start","command"
+"EchoServer","commander boundary","onConnection","command collaborator"
+"EchoServer","commander boundary","onMessage","command collaborator"
+"EchoServer","commander boundary","printThroughput","command"
+"EchoServer","commander boundary","printConnection","command"
+"EchoServer","commander boundary","getLong","controller stateless"
+"EchoServer","commander boundary","EchoServer","constructor"
+"EchoServer","commander boundary","start","command"
+"EchoServer","commander boundary","onConnection","controller stateless"
+"EchoServer","commander boundary","onMessage","command collaborator"
+"EchoServer","commander boundary","EchoServer::EchoServer","constructor"
+"EchoServer","commander boundary","EchoServer::start","command"
+"EchoServer","commander boundary","EchoServer::onConnection","command collaborator"
+"EchoServer","commander boundary","EchoServer::onMessage","command collaborator"
+"EchoServer","commander boundary","EchoServer::onTimer","command"
+"EchoServer","commander boundary","EchoServer::dumpConnectionBuckets","unclassified"
+"EchoServer","commander boundary","EchoServer::EchoServer","constructor"
+"EchoServer","commander boundary","EchoServer::onConnection","command collaborator"
+"EchoServer","commander boundary","EchoServer::onMessage","command collaborator"
+"EchoServer","commander boundary","EchoServer::onTimer","command"
+"EchoServer","commander boundary","EchoServer::dumpConnectionList","collaborator"
+"EchoServer","commander boundary","EchoServer::EchoServer","constructor"
+"EchoServer","commander boundary","EchoServer::start","command"
+"EchoServer","commander boundary","EchoServer::onConnection","set collaborator"
+"EchoServer","commander boundary","EchoServer::onMessage","controller stateless"
+"EchoServer","commander boundary","EchoServer::EchoServer","constructor"
+"EchoServer","commander boundary","EchoServer::start","command"
+"EchoServer","commander boundary","EchoServer::onConnection","controller stateless"
+"EchoServer","commander boundary","EchoServer::onMessage","controller stateless"
+"Balancer","commander boundary","Balancer","constructor"
+"Balancer","commander boundary","~Balancer","destructor"
+"Balancer","commander boundary","setThreadNum","command"
+"Balancer","commander boundary","start","command"
+"Balancer","commander boundary","initPerThread","command collaborator"
+"Balancer","commander boundary","onConnection","controller stateless"
+"Balancer","commander boundary","onRpcMessage","command collaborator"
+"Balancer","commander boundary","Balancer","constructor"
+"Balancer","commander boundary","~Balancer","destructor"
+"Balancer","commander boundary","setThreadNum","command"
+"Balancer","commander boundary","start","command"
+"Balancer","commander boundary","initPerThread","command collaborator"
+"Balancer","commander boundary","onConnection","controller stateless"
+"Balancer","commander boundary","onRawMessage","predicate non-void-command collaborator"
+"Balancer","commander boundary","onRpcMessage","command collaborator"
+"Balancer","commander boundary","onMessageT","predicate non-void-command collaborator"
+"Client","commander boundary","Client","constructor"
+"Client","commander boundary","send","command collaborator"
+"Client","commander boundary","onConnection","command collaborator"
+"Client","commander boundary","onMessage","command collaborator"
+"Client","commander boundary","fill","command collaborator"
+"Client","commander boundary","Client","constructor"
+"Client","commander boundary","message","get"
+"Client","commander boundary","onConnect","command"
+"Client","commander boundary","onDisconnect","command collaborator"
+"Client","commander boundary","quit","command"
+"Client","commander boundary","handleTimeout","command"
+"ProcessInspector","degenerate","ProcessInspector::registerCommands","controller stateless"
+"ProcessInspector","degenerate","ProcessInspector::overview","property controller"
+"ProcessInspector","degenerate","ProcessInspector::pid","wrapper stateless"
+"ProcessInspector","degenerate","ProcessInspector::procStatus","wrapper stateless"
+"ProcessInspector","degenerate","ProcessInspector::openedFiles","wrapper stateless"
+"ProcessInspector","degenerate","ProcessInspector::threads","controller stateless"
+"Options","empty","Options","constructor"
+"Options","empty","MemcacheServer::Options::Options","constructor"
+"SendThrottler","commander","SendThrottler","constructor"
+"SendThrottler","commander","connect","command"
+"SendThrottler","commander","disconnect","command"
+"SendThrottler","commander","send","command"
+"SendThrottler","commander","onConnection","command collaborator"
+"SendThrottler","commander","onHighWaterMark","set collaborator"
+"SendThrottler","commander","onWriteComplete","set"
+"SendThrottler","commander","throttle","command collaborator"
+"Hiredis","commander boundary","serverAddress","get collaborator"
+"Hiredis","commander boundary","setConnectCallback","set collaborator"
+"Hiredis","commander boundary","setDisconnectCallback","set collaborator"
+"Hiredis","commander boundary","Hiredis::Hiredis","constructor"
+"Hiredis","commander boundary","Hiredis::~Hiredis","destructor"
+"Hiredis","commander boundary","Hiredis::connected","predicate"
+"Hiredis","commander boundary","Hiredis::errstr","property"
+"Hiredis","commander boundary","Hiredis::connect","command"
+"Hiredis","commander boundary","Hiredis::disconnect","command"
+"Hiredis","commander boundary","Hiredis::fd","property"
+"Hiredis","commander boundary","Hiredis::setChannel","command"
+"Hiredis","commander boundary","Hiredis::removeChannel","command"
+"Hiredis","commander boundary","Hiredis::handleRead","controller"
+"Hiredis","commander boundary","Hiredis::handleWrite","command"
+"Hiredis","commander boundary","Hiredis::getHiredis","collaborator incidental"
+"Hiredis","commander boundary","Hiredis::logConnection","collaborator"
+"Hiredis","commander boundary","Hiredis::connectCallback","command"
+"Hiredis","commander boundary","Hiredis::connectCallback","command"
+"Hiredis","commander boundary","Hiredis::disconnectCallback","command"
+"Hiredis","commander boundary","Hiredis::disconnectCallback","command"
+"Hiredis","commander boundary","Hiredis::addRead","controller stateless"
+"Hiredis","commander boundary","Hiredis::delRead","controller stateless"
+"Hiredis","commander boundary","Hiredis::addWrite","controller stateless"
+"Hiredis","commander boundary","Hiredis::delWrite","controller stateless"
+"Hiredis","commander boundary","Hiredis::cleanup","incidental"
+"Hiredis","commander boundary","Hiredis::command","property non-void-command collaborator"
+"Hiredis","commander boundary","Hiredis::commandCallback","command collaborator"
+"Hiredis","commander boundary","Hiredis::commandCallback","wrapper"
+"Hiredis","commander boundary","Hiredis::ping","property wrapper"
+"Hiredis","commander boundary","Hiredis::pingCallback","collaborator"
+"PingHandler","degenerate small-class","PingHandler","constructor"
+"PingHandler","degenerate small-class","ping","incidental"
+"ChatClient","commander boundary","ChatClient","constructor"
+"ChatClient","commander boundary","connect","command"
+"ChatClient","commander boundary","disconnect","command"
+"ChatClient","commander boundary","write","command collaborator"
+"ChatClient","commander boundary","onConnection","set collaborator"
+"ChatClient","commander boundary","onStringMessage","controller stateless"
+"ChatClient","commander boundary","ChatClient","constructor"
+"ChatClient","commander boundary","connect","command"
+"ChatClient","commander boundary","disconnect","empty"
+"ChatClient","commander boundary","receiveTime","get collaborator"
+"ChatClient","commander boundary","onConnection","command collaborator"
+"ChatClient","commander boundary","onStringMessage","set collaborator"
+"ChatClient","commander boundary","send","command"
+"ProtobufDispatcherLite","commander boundary small-class","ProtobufDispatcherLite","constructor"
+"ProtobufDispatcherLite","commander boundary small-class","onProtobufMessage","collaborator"
+"ProtobufDispatcherLite","commander boundary small-class","registerMessageCallback","set collaborator"
+"LogClient","degenerate","LogClient","constructor"
+"LogClient","degenerate","connect","controller stateless"
+"LogClient","degenerate","disconnect","controller stateless"
+"LogClient","degenerate","write","command collaborator"
+"LogClient","degenerate","onConnection","command collaborator"
+"LogClient","degenerate","onMessage","controller stateless"
+"WordCountSender","commander","connectAll","command"
+"WordCountSender","commander","disconnectAll","command"
+"WordCountSender","commander","WordCountSender::WordCountSender","constructor"
+"WordCountSender","commander","WordCountSender::processFile","command"
+"RpcChannel","commander boundary","setConnection","set collaborator"
+"RpcChannel","commander boundary","setServices","set collaborator"
+"RpcChannel","commander boundary","RpcChannel::RpcChannel","constructor"
+"RpcChannel","commander boundary","RpcChannel::RpcChannel","constructor"
+"RpcChannel","commander boundary","RpcChannel::~RpcChannel","destructor"
+"RpcChannel","commander boundary","RpcChannel::CallMethod","command collaborator"
+"RpcChannel","commander boundary","RpcChannel::onMessage","command collaborator"
+"RpcChannel","commander boundary","RpcChannel::onRpcMessage","command collaborator"
+"RpcChannel","commander boundary","RpcChannel::doneCallback","command collaborator"
+"LengthHeaderCodec","pure-controller small-class","LengthHeaderCodec","constructor"
+"LengthHeaderCodec","pure-controller small-class","onMessage","controller"
+"LengthHeaderCodec","pure-controller small-class","send","controller stateless"
+"Downloader","commander boundary","Downloader","constructor"
+"Downloader","commander boundary","onHeader","command"
+"Downloader","commander boundary","onHeaderDone","command collaborator"
+"Downloader","commander boundary","concurrentDownload","command collaborator"
+"Downloader","commander boundary","onData","wrapper"
+"Downloader","commander boundary","onDownloadDone","set"
+"ProtobufDispatcher","commander boundary small-class","ProtobufDispatcher","constructor"
+"ProtobufDispatcher","commander boundary small-class","onProtobufMessage","collaborator"
+"ProtobufDispatcher","commander boundary small-class","registerMessageCallback","set collaborator"
+"ReadSmallFile","data-provider","buffer","get"
+"ReadSmallFile","data-provider","FileUtil::ReadSmallFile::ReadSmallFile","constructor"
+"ReadSmallFile","data-provider","FileUtil::ReadSmallFile::~ReadSmallFile","destructor"
+"ReadSmallFile","data-provider","FileUtil::ReadSmallFile::readToString","property controller"
+"ReadSmallFile","data-provider","FileUtil::ReadSmallFile::readToBuffer","property set collaborator"
+"ThreadPool","boundary","setMaxQueueSize","set"
+"ThreadPool","boundary","setThreadInitCallback","set collaborator"
+"ThreadPool","boundary","name","get"
+"ThreadPool","boundary","ThreadPool::ThreadPool","constructor"
+"ThreadPool","boundary","ThreadPool::~ThreadPool","destructor"
+"ThreadPool","boundary","ThreadPool::start","command"
+"ThreadPool","boundary","ThreadPool::stop","set collaborator"
+"ThreadPool","boundary","ThreadPool::queueSize","property controller"
+"ThreadPool","boundary","ThreadPool::run","command collaborator"
+"ThreadPool","boundary","ThreadPool::take","property controller"
+"ThreadPool","boundary","ThreadPool::isFull","predicate"
+"ThreadPool","boundary","ThreadPool::runInThread","command collaborator"
+"StatData","commander small-class","parse","command"
+"Resolver","commander boundary","Resolver::Resolver","constructor"
+"Resolver","commander boundary","Resolver::~Resolver","destructor"
+"Resolver","commander boundary","Resolver::resolve","predicate non-void-command collaborator"
+"Resolver","commander boundary","Resolver::onRead","controller"
+"Resolver","commander boundary","Resolver::onTimer","command"
+"Resolver","commander boundary","Resolver::onQueryResult","wrapper stateless"
+"Resolver","commander boundary","Resolver::onSockCreate","command collaborator"
+"Resolver","commander boundary","Resolver::onSockStateChange","command collaborator"
+"Resolver","commander boundary","Resolver::ares_host_callback","controller stateless"
+"Resolver","commander boundary","Resolver::ares_sock_create_callback","property non-void-command"
+"Resolver","commander boundary","Resolver::ares_sock_state_callback","command"
+"EventLoopThreadPool","boundary","setThreadNum","set"
+"EventLoopThreadPool","boundary","started","get"
+"EventLoopThreadPool","boundary","name","get"
+"EventLoopThreadPool","boundary","EventLoopThreadPool::EventLoopThreadPool","constructor"
+"EventLoopThreadPool","boundary","EventLoopThreadPool::~EventLoopThreadPool","destructor"
+"EventLoopThreadPool","boundary","EventLoopThreadPool::start","command collaborator"
+"EventLoopThreadPool","boundary","EventLoopThreadPool::getNextLoop","property non-void-command collaborator"
+"EventLoopThreadPool","boundary","EventLoopThreadPool::getLoopForHash","property non-void-command collaborator"
+"EventLoopThreadPool","boundary","EventLoopThreadPool::getAllLoops","get property non-void-command collaborator"
+"SudokuServer","unclassified","SudokuServer","constructor"
+"SudokuServer","unclassified","start","command"
+"SudokuServer","unclassified","onConnection","controller stateless"
+"SudokuServer","unclassified","onMessage","command collaborator"
+"SudokuServer","unclassified","processRequest","controller stateless"
+"SudokuServer","unclassified","SudokuServer","constructor"
+"SudokuServer","unclassified","start","command"
+"SudokuServer","unclassified","onConnection","controller"
+"SudokuServer","unclassified","onMessage","command collaborator"
+"SudokuServer","unclassified","processRequest","predicate non-void-command collaborator"
+"SudokuServer","unclassified","solve","command collaborator"
+"SudokuServer","unclassified","SudokuServer","constructor"
+"SudokuServer","unclassified","start","command"
+"SudokuServer","unclassified","onConnection","controller stateless"
+"SudokuServer","unclassified","onMessage","command collaborator"
+"SudokuServer","unclassified","processRequest","controller stateless"
+"SudokuServer","unclassified","SudokuServer","constructor"
+"SudokuServer","unclassified","start","command"
+"SudokuServer","unclassified","onConnection","controller"
+"SudokuServer","unclassified","highWaterMark","command"
+"SudokuServer","unclassified","writeComplete","controller"
+"SudokuServer","unclassified","onMessage","command collaborator"
+"SudokuServer","unclassified","processRequest","predicate non-void-command collaborator"
+"SudokuServer","unclassified","solve","command collaborator"
+"SudokuServer","unclassified","SudokuServer","constructor"
+"SudokuServer","unclassified","start","command"
+"SudokuServer","unclassified","onConnection","controller stateless"
+"SudokuServer","unclassified","onMessage","command collaborator"
+"SudokuServer","unclassified","processRequest","predicate non-void-command"
+"TtcpServerConnection","degenerate","TtcpServerConnection","constructor"
+"TtcpServerConnection","degenerate","~TtcpServerConnection","destructor"
+"TtcpServerConnection","degenerate","socket","collaborator incidental"
+"TtcpServerConnection","degenerate","start","command collaborator"
+"TtcpServerConnection","degenerate","doReadSession","controller stateless"
+"Printer","commander boundary","Printer","constructor"
+"Printer","commander boundary","~Printer","destructor"
+"Printer","commander boundary","print","command"
+"Printer","commander boundary","Printer","constructor"
+"Printer","commander boundary","~Printer","destructor"
+"Printer","commander boundary","print1","set collaborator"
+"Printer","commander boundary","print2","set collaborator"
+"Printer","commander boundary","Printer","constructor"
+"Printer","commander boundary","~Printer","destructor"
+"Printer","commander boundary","print1","set collaborator"
+"Printer","commander boundary","print2","set collaborator"
+"Date","data-provider","swap","wrapper"
+"Date","data-provider","valid","predicate"
+"Date","data-provider","year","property"
+"Date","data-provider","month","property"
+"Date","data-provider","day","property"
+"Date","data-provider","weekDay","property"
+"Date","data-provider","julianDayNumber","get"
+"Date","data-provider","Date::Date","constructor"
+"Date","data-provider","Date::Date","constructor"
+"Date","data-provider","Date::toIsoString","property collaborator"
+"Date","data-provider","Date::yearMonthDay","property wrapper"
+"Request","boundary","setDataCallback","set collaborator"
+"Request","boundary","setDoneCallback","set collaborator"
+"Request","boundary","setHeaderCallback","set collaborator"
+"Request","boundary","setopt","property wrapper"
+"Request","boundary","setopt","property wrapper"
+"Request","boundary","setopt","property wrapper"
+"Request","boundary","setopt","property wrapper"
+"Request","boundary","getCurl","get collaborator"
+"Request","boundary","getChannel","property wrapper"
+"Request","boundary","Request::Request","constructor"
+"Request","boundary","Request::~Request","destructor"
+"Request","boundary","Request::headerOnly","command"
+"Request","boundary","Request::setRange","command collaborator"
+"Request","boundary","Request::getEffectiveUrl","property wrapper"
+"Request","boundary","Request::getRedirectUrl","property wrapper"
+"Request","boundary","Request::getResponseCode","property wrapper"
+"Request","boundary","Request::setChannel","property non-void-command collaborator"
+"Request","boundary","Request::removeChannel","command"
+"Request","boundary","Request::done","wrapper"
+"Request","boundary","Request::dataCallback","wrapper"
+"Request","boundary","Request::headerCallback","wrapper"
+"Request","boundary","Request::writeData","controller stateless"
+"Request","boundary","Request::headerData","controller stateless"
+"DiscardClient","commander boundary","DiscardClient","constructor"
+"DiscardClient","commander boundary","connect","command"
+"DiscardClient","commander boundary","onConnection","command collaborator"
+"DiscardClient","commander boundary","onMessage","controller stateless"
+"DiscardClient","commander boundary","onWriteComplete","command collaborator"
+"TestNoDestroy","empty","TestNoDestroy","constructor"
+"TestNoDestroy","empty","~TestNoDestroy","destructor"
+"Topic","entity commander boundary","Topic","constructor"
+"Topic","entity commander boundary","add","command collaborator"
+"Topic","entity commander boundary","remove","command collaborator"
+"Topic","entity commander boundary","publish","command collaborator"
+"Topic","entity commander boundary","makeMessage","property"
+"ProtobufCodec","boundary","ProtobufCodec","constructor"
+"ProtobufCodec","boundary","ProtobufCodec","constructor"
+"ProtobufCodec","boundary","send","command collaborator"
+"ProtobufCodec","boundary","ProtobufCodec::fillEmptyBuffer","controller stateless"
+"ProtobufCodec","boundary","ProtobufCodec::errorCodeToString","collaborator incidental"
+"ProtobufCodec","boundary","ProtobufCodec::defaultErrorCallback","command collaborator"
+"ProtobufCodec","boundary","ProtobufCodec::onMessage","command collaborator"
+"ProtobufCodec","boundary","ProtobufCodec::createMessage","controller stateless"
+"ProtobufCodec","boundary","ProtobufCodec::parse","property non-void-command collaborator"
+"Fmt","data-provider data-class small-class","data","get"
+"Fmt","data-provider data-class small-class","length","get"
+"Fmt","data-provider data-class small-class","Fmt::Fmt","constructor"
+"PubSubServer","entity commander boundary","PubSubServer","constructor"
+"PubSubServer","entity commander boundary","start","command"
+"PubSubServer","entity commander boundary","onConnection","command collaborator"
+"PubSubServer","entity commander boundary","onMessage","command collaborator"
+"PubSubServer","entity commander boundary","timePublish","command collaborator"
+"PubSubServer","entity commander boundary","doSubscribe","command collaborator"
+"PubSubServer","entity commander boundary","doUnsubscribe","command collaborator"
+"PubSubServer","entity commander boundary","doPublish","command collaborator"
+"PubSubServer","entity commander boundary","getTopic","property non-void-command collaborator"
+"Session","entity commander boundary","Session","constructor"
+"Session","entity commander boundary","getFileName","property non-void-command collaborator"
+"Session","entity commander boundary","onMessage","command collaborator"
+"Session","entity commander boundary","Session","constructor"
+"Session","entity commander boundary","~Session","destructor"
+"Session","entity commander boundary","Session","constructor"
+"Session","entity commander boundary","start","command"
+"Session","entity commander boundary","stop","command"
+"Session","entity commander boundary","bytesRead","get"
+"Session","entity commander boundary","messagesRead","get"
+"Session","entity commander boundary","onMessage","command collaborator"
+"Session","entity commander boundary","Session::onMessage","command collaborator"
+"Session","entity commander boundary","Session::receiveValue","command collaborator"
+"Session","entity commander boundary","Session::discardValue","command collaborator"
+"Session","entity commander boundary","Session::processRequest","predicate non-void-command collaborator"
+"Session","entity commander boundary","Session::resetRequest","command"
+"Session","entity commander boundary","Session::reply","command collaborator"
+"Session","entity commander boundary","Session::doUpdate","predicate non-void-command collaborator"
+"Session","entity commander boundary","Session::doDelete","void-accessor command collaborator"
+"Session","entity commander boundary","Session::onConnection","command collaborator"
+"Item","data-provider","~Item","destructor"
+"Item","data-provider","key","property wrapper"
+"Item","data-provider","flags","get"
+"Item","data-provider","rel_exptime","get"
+"Item","data-provider","value","property"
+"Item","data-provider","valueLength","get"
+"Item","data-provider","cas","get"
+"Item","data-provider","hash","get"
+"Item","data-provider","setCas","set"
+"Item","data-provider","neededBytes","property"
+"Item","data-provider","endsWithCRLF","predicate"
+"Item","data-provider","totalLen","property"
+"Item","data-provider","Item::Item","constructor"
+"Item","data-provider","Item::append","command"
+"Item","data-provider","Item::output","collaborator"
+"Item","data-provider","Item::resetKey","command collaborator"
+"RawMessage","unclassified","RawMessage","constructor"
+"RawMessage","unclassified","id","get"
+"RawMessage","unclassified","set_id","set"
+"RawMessage","unclassified","parse","predicate non-void-command"
+"RawMessage","unclassified","updateId","command"
+"EchoServiceImpl","pure-controller degenerate small-class","Echo","controller stateless"
+"TimeClient","unclassified","TimeClient","constructor"
+"TimeClient","unclassified","connect","command"
+"TimeClient","unclassified","onConnection","command collaborator"
+"TimeClient","unclassified","onMessage","controller stateless"
+"PubSubClient","unclassified","setConnectionCallback","set collaborator"
+"PubSubClient","unclassified","PubSubClient::PubSubClient","constructor"
+"PubSubClient","unclassified","PubSubClient::start","command"
+"PubSubClient","unclassified","PubSubClient::stop","command"
+"PubSubClient","unclassified","PubSubClient::connected","predicate"
+"PubSubClient","unclassified","PubSubClient::subscribe","predicate set collaborator"
+"PubSubClient","unclassified","PubSubClient::unsubscribe","command"
+"PubSubClient","unclassified","PubSubClient::publish","predicate non-void-command"
+"PubSubClient","unclassified","PubSubClient::onConnection","set collaborator"
+"PubSubClient","unclassified","PubSubClient::onMessage","controller"
+"PubSubClient","unclassified","PubSubClient::send","predicate non-void-command"
+"SudokuStat","entity commander boundary","SudokuStat","constructor"
+"SudokuStat","entity commander boundary","report","property"
+"SudokuStat","entity commander boundary","reset","property non-void-command collaborator"
+"SudokuStat","entity commander boundary","recordResponse","command"
+"SudokuStat","entity commander boundary","recordRequest","set collaborator"
+"SudokuStat","entity commander boundary","recordBadRequest","set collaborator"
+"SudokuStat","entity commander boundary","recordDroppedRequest","set collaborator"
+"Timer","data-provider boundary","Timer","copy-constructor"
+"Timer","data-provider boundary","run","wrapper stateless"
+"Timer","data-provider boundary","expiration","get collaborator"
+"Timer","data-provider boundary","repeat","get"
+"Timer","data-provider boundary","sequence","get"
+"Timer","data-provider boundary","Timer::restart","set collaborator"
+"SudokuSolver","entity boundary degenerate","SudokuSolver","constructor"
+"SudokuSolver","entity boundary degenerate","solve","predicate non-void-command collaborator"
+"SudokuSolver","entity boundary degenerate","new_column","property set collaborator"
+"SudokuSolver","entity boundary degenerate","append_column","command collaborator"
+"SudokuSolver","entity boundary degenerate","new_row","property set collaborator"
+"SudokuSolver","entity boundary degenerate","get_row_col","incidental"
+"SudokuSolver","entity boundary degenerate","get_col_col","incidental"
+"SudokuSolver","entity boundary degenerate","get_box_col","incidental"
+"SudokuSolver","entity boundary degenerate","get_min_column","property collaborator"
+"SudokuSolver","entity boundary degenerate","cover","collaborator incidental"
+"SudokuSolver","entity boundary degenerate","uncover","collaborator incidental"
+"SudokuSolver","entity boundary degenerate","put_left","collaborator incidental"
+"SudokuSolver","entity boundary degenerate","put_up","collaborator incidental"
+"EventQueue","entity boundary","put","command collaborator"
+"EventQueue","entity boundary","take","property non-void-command collaborator"
+"EventQueue","entity boundary","isEmpty","property non-void-command collaborator"
+"MemcacheServer","unclassified","setThreadNum","command"
+"MemcacheServer","unclassified","startTime","get collaborator"
+"MemcacheServer","unclassified","MemcacheServer::MemcacheServer","constructor"
+"MemcacheServer","unclassified","MemcacheServer::start","command"
+"MemcacheServer","unclassified","MemcacheServer::stop","command"
+"MemcacheServer","unclassified","MemcacheServer::storeItem","predicate controller"
+"MemcacheServer","unclassified","MemcacheServer::getItem","property controller"
+"MemcacheServer","unclassified","MemcacheServer::deleteItem","predicate controller"
+"MemcacheServer","unclassified","MemcacheServer::onConnection","controller"
+"WordCountReceiver","commander boundary","WordCountReceiver","constructor"
+"WordCountReceiver","commander boundary","start","command"
+"WordCountReceiver","commander boundary","onConnection","command collaborator"
+"WordCountReceiver","commander boundary","onMessage","set collaborator"
+"WordCountReceiver","commander boundary","output","command collaborator"
+"SudokuLoadtest","commander","SudokuLoadtest","constructor"
+"SudokuLoadtest","commander","runClient","command"
+"SudokuLoadtest","commander","tick","command collaborator"
+"SudokuLoadtest","commander","tock","set"
+"BoundedBlockingQueue","controller","BoundedBlockingQueue","constructor"
+"BoundedBlockingQueue","controller","put","controller"
+"BoundedBlockingQueue","controller","put","controller"
+"BoundedBlockingQueue","controller","take","property controller"
+"BoundedBlockingQueue","controller","empty","predicate controller"
+"BoundedBlockingQueue","controller","full","predicate controller"
+"BoundedBlockingQueue","controller","size","property controller"
+"BoundedBlockingQueue","controller","capacity","property controller"
+"TcpServer","minimal-entity commander boundary","ipPort","get"
+"TcpServer","minimal-entity commander boundary","name","get"
+"TcpServer","minimal-entity commander boundary","getLoop","get collaborator"
+"TcpServer","minimal-entity commander boundary","setThreadInitCallback","set collaborator"
+"TcpServer","minimal-entity commander boundary","threadPool","get collaborator"
+"TcpServer","minimal-entity commander boundary","setConnectionCallback","set collaborator"
+"TcpServer","minimal-entity commander boundary","setMessageCallback","set collaborator"
+"TcpServer","minimal-entity commander boundary","setWriteCompleteCallback","set collaborator"
+"TcpServer","minimal-entity commander boundary","TcpServer::TcpServer","constructor"
+"TcpServer","minimal-entity commander boundary","TcpServer::~TcpServer","destructor"
+"TcpServer","minimal-entity commander boundary","TcpServer::setThreadNum","command"
+"TcpServer","minimal-entity commander boundary","TcpServer::start","command"
+"TcpServer","minimal-entity commander boundary","TcpServer::newConnection","command collaborator"
+"TcpServer","minimal-entity commander boundary","TcpServer::removeConnection","command collaborator"
+"TcpServer","minimal-entity commander boundary","TcpServer::removeConnectionInLoop","command collaborator"
+"SudokuClient","commander boundary","SudokuClient","constructor"
+"SudokuClient","commander boundary","connect","command"
+"SudokuClient","commander boundary","onConnection","set collaborator"
+"SudokuClient","commander boundary","onMessage","set collaborator"
+"SudokuClient","commander boundary","SudokuClient","constructor"
+"SudokuClient","commander boundary","connect","command"
+"SudokuClient","commander boundary","send","command"
+"SudokuClient","commander boundary","report","void-accessor command"
+"SudokuClient","commander boundary","onConnection","set collaborator"
+"SudokuClient","commander boundary","onMessage","command collaborator"
+"SudokuClient","commander boundary","verify","predicate non-void-command collaborator"
+"SudokuClient","commander boundary","SudokuClient","constructor"
+"SudokuClient","commander boundary","connect","command"
+"SudokuClient","commander boundary","report","void-accessor command"
+"SudokuClient","commander boundary","onConnection","command collaborator"
+"SudokuClient","commander boundary","send","command"
+"SudokuClient","commander boundary","onMessage","command collaborator"
+"SudokuClient","commander boundary","verify","predicate non-void-command collaborator"
+"CountDownLatch","unclassified","CountDownLatch::CountDownLatch","constructor"
+"CountDownLatch","unclassified","CountDownLatch::wait","controller"
+"CountDownLatch","unclassified","CountDownLatch::countDown","controller"
+"CountDownLatch","unclassified","CountDownLatch::getCount","property collaborator"
+"GzipFile","data-provider boundary","GzipFile","copy-constructor"
+"GzipFile","data-provider boundary","~GzipFile","destructor"
+"GzipFile","data-provider boundary","operator=","get non-void-command"
+"GzipFile","data-provider boundary","valid","predicate"
+"GzipFile","data-provider boundary","swap","wrapper"
+"GzipFile","data-provider boundary","setBuffer","predicate wrapper"
+"GzipFile","data-provider boundary","read","property wrapper"
+"GzipFile","data-provider boundary","write","property controller"
+"GzipFile","data-provider boundary","tell","property wrapper"
+"GzipFile","data-provider boundary","offset","property wrapper"
+"GzipFile","data-provider boundary","GzipFile","constructor"
+"Exception","data-provider small-class","what","property"
+"Exception","data-provider small-class","stackTrace","property"
+"Exception","data-provider small-class","Exception::Exception","constructor"
+"FixedBuffer","unclassified","FixedBuffer","constructor"
+"FixedBuffer","unclassified","~FixedBuffer","destructor"
+"FixedBuffer","unclassified","append","set"
+"FixedBuffer","unclassified","data","get"
+"FixedBuffer","unclassified","length","property"
+"FixedBuffer","unclassified","current","get"
+"FixedBuffer","unclassified","avail","property"
+"FixedBuffer","unclassified","add","set"
+"FixedBuffer","unclassified","reset","set"
+"FixedBuffer","unclassified","bzero","wrapper"
+"FixedBuffer","unclassified","setCookie","incidental"
+"FixedBuffer","unclassified","toString","property"
+"FixedBuffer","unclassified","toStringPiece","property collaborator"
+"FixedBuffer","unclassified","end","property"
+"FixedBuffer","unclassified","FixedBuffer<SIZE>::debugString","get set"
+"FixedBuffer","unclassified","FixedBuffer<SIZE>::cookieStart","empty"
+"FixedBuffer","unclassified","FixedBuffer<SIZE>::cookieEnd","empty"
+"SystemInspector","boundary degenerate","SystemInspector::registerCommands","controller stateless"
+"SystemInspector","boundary degenerate","SystemInspector::loadavg","wrapper stateless"
+"SystemInspector","boundary degenerate","SystemInspector::version","wrapper stateless"
+"SystemInspector","boundary degenerate","SystemInspector::cpuinfo","wrapper stateless"
+"SystemInspector","boundary degenerate","SystemInspector::meminfo","wrapper stateless"
+"SystemInspector","boundary degenerate","SystemInspector::stat","wrapper stateless"
+"SystemInspector","boundary degenerate","SystemInspector::overview","controller stateless"
+"T","empty","T","constructor"
+"Condition","entity boundary","Condition","constructor"
+"Condition","entity boundary","~Condition","destructor"
+"Condition","entity boundary","wait","command collaborator"
+"Condition","entity boundary","notify","wrapper"
+"Condition","entity boundary","notifyAll","wrapper"
+"Condition","entity boundary","muduo::Condition::waitForSeconds","predicate non-void-command collaborator"
+"Logger","boundary degenerate","Logger::Logger","constructor"
+"Logger","boundary degenerate","Logger::Logger","constructor"
+"Logger","boundary degenerate","Logger::Logger","constructor"
+"Logger","boundary degenerate","Logger::Logger","constructor"
+"Logger","boundary degenerate","Logger::~Logger","destructor"
+"Logger","boundary degenerate","Logger::setLogLevel","collaborator incidental"
+"Logger","boundary degenerate","Logger::setOutput","collaborator incidental"
+"Logger","boundary degenerate","Logger::setFlush","collaborator incidental"
+"Logger","boundary degenerate","Logger::setTimeZone","collaborator incidental"
+"Logger","boundary degenerate","Logger::logLevel","collaborator incidental"
+"RpcServer","commander","setThreadNum","command"
+"RpcServer","commander","RpcServer::RpcServer","constructor"
+"RpcServer","commander","RpcServer::registerService","set collaborator"
+"RpcServer","commander","RpcServer::start","command"
+"RpcServer","commander","RpcServer::onConnection","controller"
+"Procmon","boundary","Procmon","constructor"
+"Procmon","boundary","start","command"
+"Procmon","boundary","getName","property wrapper"
+"Procmon","boundary","onRequest","command collaborator"
+"Procmon","boundary","fillOverview","command collaborator"
+"Procmon","boundary","fillRefresh","command"
+"Procmon","boundary","listFiles","command collaborator"
+"Procmon","boundary","listThreads","command"
+"Procmon","boundary","readProcFile","property wrapper"
+"Procmon","boundary","readLink","property controller"
+"Procmon","boundary","appendTableRow","wrapper stateless"
+"Procmon","boundary","appendTableRowFloat","wrapper stateless"
+"Procmon","boundary","appendTableRow","controller stateless"
+"Procmon","boundary","getCmdLine","property non-void-command"
+"Procmon","boundary","getEnviron","property non-void-command"
+"Procmon","boundary","getStartTime","property wrapper"
+"Procmon","boundary","getSeconds","property"
+"Procmon","boundary","tick","command collaborator"
+"Procmon","boundary","Procmon::appendResponse","property non-void-command"
+"Impl","commander small-class","Logger::Impl::Impl","constructor"
+"Impl","commander small-class","Logger::Impl::formatTime","command collaborator"
+"Impl","commander small-class","Logger::Impl::finish","unclassified"
+"MutexLock","unclassified","MutexLock","constructor"
+"MutexLock","unclassified","~MutexLock","destructor"
+"MutexLock","unclassified","isLockedByThisThread","predicate wrapper"
+"MutexLock","unclassified","unassignHolder","set"
+"MutexLock","unclassified","assignHolder","set"
+"Acceptor","commander","setNewConnectionCallback","set collaborator"
+"Acceptor","commander","listening","get"
+"Acceptor","commander","Acceptor::Acceptor","constructor"
+"Acceptor","commander","Acceptor::~Acceptor","destructor"
+"Acceptor","commander","Acceptor::listen","command"
+"Acceptor","commander","Acceptor::handleRead","command"
+"CpuTime","data-provider small-class","CpuTime","constructor"
+"CpuTime","data-provider small-class","total","property"
+"StringArg","data-provider data-class small-class","StringArg","constructor"
+"StringArg","data-provider data-class small-class","StringArg","constructor"
+"StringArg","data-provider data-class small-class","c_str","get"
+"BackendSession","commander boundary","BackendSession","constructor"
+"BackendSession","commander boundary","connect","command"
+"BackendSession","commander boundary","send","predicate non-void-command collaborator"
+"BackendSession","commander boundary","onConnection","command collaborator"
+"BackendSession","commander boundary","onRpcMessage","command collaborator"
+"BackendSession","commander boundary","BackendSession","constructor"
+"BackendSession","commander boundary","connect","command"
+"BackendSession","commander boundary","send","predicate non-void-command collaborator"
+"BackendSession","commander boundary","sendTo","command collaborator"
+"BackendSession","commander boundary","sendTo","controller stateless"
+"BackendSession","commander boundary","onConnection","command collaborator"
+"BackendSession","commander boundary","onRpcMessage","command collaborator"
+"BackendSession","commander boundary","onRawMessage","predicate non-void-command collaborator"
+"BackendSession","commander boundary","onMessageT","command collaborator"
+"ThreadNameInitializer","empty","ThreadNameInitializer","constructor"
+"ThreadData","commander small-class","ThreadData","constructor"
+"ThreadData","commander small-class","runInThread","command"
+"DemuxServer","commander boundary","DemuxServer","constructor"
+"DemuxServer","commander boundary","start","command"
+"DemuxServer","commander boundary","onServerConnection","command collaborator"
+"DemuxServer","commander boundary","onServerMessage","command collaborator"
+"DemuxServer","commander boundary","doCommand","command collaborator"
+"DemuxServer","commander boundary","onSocksConnection","command collaborator"
+"DemuxServer","commander boundary","onSocksMessage","command collaborator"
+"DemuxServer","commander boundary","sendServerPacket","command collaborator"
+"Thread","unclassified","started","get"
+"Thread","unclassified","tid","get collaborator"
+"Thread","unclassified","name","get"
+"Thread","unclassified","Thread::Thread","copy-constructor"
+"Thread","unclassified","Thread::~Thread","destructor"
+"Thread","unclassified","Thread::setDefaultName","command"
+"Thread","unclassified","Thread::start","set collaborator"
+"Thread","unclassified","Thread::join","property set"
+"ChargenServer","unclassified","ChargenServer::ChargenServer","constructor"
+"ChargenServer","unclassified","ChargenServer::start","command"
+"ChargenServer","unclassified","ChargenServer::onConnection","controller"
+"ChargenServer","unclassified","ChargenServer::onMessage","controller stateless"
+"ChargenServer","unclassified","ChargenServer::onWriteComplete","set collaborator"
+"ChargenServer","unclassified","ChargenServer::printThroughput","command"
+"ThreadLocal","data-provider boundary small-class","ThreadLocal","constructor"
+"ThreadLocal","data-provider boundary small-class","~ThreadLocal","destructor"
+"ThreadLocal","data-provider boundary small-class","value","property wrapper"
+"BlockingQueue","controller","BlockingQueue","constructor"
+"BlockingQueue","controller","put","controller"
+"BlockingQueue","controller","put","controller"
+"BlockingQueue","controller","take","property controller"
+"BlockingQueue","controller","drain","property controller"
+"BlockingQueue","controller","size","property controller"
+"TimeZone::Data","commander small-class","addLocalTime","command"
+"TimeZone::Data","commander small-class","addTransition","command collaborator"
+"MultiplexServer","commander boundary","MultiplexServer","constructor"
+"MultiplexServer","commander boundary","start","command"
+"MultiplexServer","commander boundary","sendBackendPacket","controller"
+"MultiplexServer","commander boundary","sendBackendString","command collaborator"
+"MultiplexServer","commander boundary","sendBackendBuffer","command collaborator"
+"MultiplexServer","commander boundary","sendToClient","command collaborator"
+"MultiplexServer","commander boundary","onClientConnection","command collaborator"
+"MultiplexServer","commander boundary","onClientMessage","command collaborator"
+"MultiplexServer","commander boundary","onBackendConnection","command collaborator"
+"MultiplexServer","commander boundary","onBackendMessage","command collaborator"
+"MultiplexServer","commander boundary","printStatistics","command"
+"MultiplexServer","commander boundary","MultiplexServer","constructor"
+"MultiplexServer","commander boundary","start","command"
+"MultiplexServer","commander boundary","onClientConnection","command collaborator"
+"MultiplexServer","commander boundary","sendBackendString","command collaborator"
+"MultiplexServer","commander boundary","onClientMessage","command collaborator"
+"MultiplexServer","commander boundary","sendBackendBuffer","command collaborator"
+"MultiplexServer","commander boundary","sendBackendPacket","command collaborator"
+"MultiplexServer","commander boundary","onBackendConnection","command collaborator"
+"MultiplexServer","commander boundary","onBackendMessage","command collaborator"
+"MultiplexServer","commander boundary","sendToClient","command collaborator"
+"MultiplexServer","commander boundary","doCommand","command collaborator"
+"LogStream","unclassified","operator<<","get non-void-command collaborator"
+"LogStream","unclassified","operator<<","get collaborator"
+"LogStream","unclassified","operator<<","get non-void-command collaborator"
+"LogStream","unclassified","operator<<","get non-void-command collaborator"
+"LogStream","unclassified","operator<<","property non-void-command collaborator"
+"LogStream","unclassified","operator<<","get non-void-command collaborator"
+"LogStream","unclassified","operator<<","get non-void-command collaborator"
+"LogStream","unclassified","operator<<","get controller"
+"LogStream","unclassified","append","command"
+"LogStream","unclassified","buffer","get collaborator"
+"LogStream","unclassified","resetBuffer","command"
+"LogStream","unclassified","LogStream::staticCheck","unclassified"
+"LogStream","unclassified","LogStream::formatInteger","command collaborator"
+"LogStream","unclassified","LogStream::operator<<","get"
+"LogStream","unclassified","LogStream::operator<<","get"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"LogStream","unclassified","LogStream::operator<<","get non-void-command"
+"TimeZone","data-provider boundary","valid","predicate"
+"TimeZone","data-provider boundary","TimeZone::UTC","property non-void-command"
+"TimeZone","data-provider boundary","TimeZone::loadZoneFile","property non-void-command collaborator"
+"TimeZone","data-provider boundary","TimeZone::TimeZone","constructor"
+"TimeZone","data-provider boundary","TimeZone::TimeZone","constructor"
+"TimeZone","data-provider boundary","TimeZone::toLocalTime","property collaborator"
+"TimeZone","data-provider boundary","TimeZone::fromLocalTime","property"
+"TimeZone","data-provider boundary","TimeZone::toUtcTime","wrapper stateless"
+"TimeZone","data-provider boundary","TimeZone::fromUtcTime","controller stateless"
+"Timestamp","data-provider boundary","Timestamp","constructor"
+"Timestamp","data-provider boundary","Timestamp","constructor"
+"Timestamp","data-provider boundary","swap","wrapper"
+"Timestamp","data-provider boundary","valid","predicate"
+"Timestamp","data-provider boundary","microSecondsSinceEpoch","get"
+"Timestamp","data-provider boundary","secondsSinceEpoch","property collaborator"
+"Timestamp","data-provider boundary","Timestamp::toString","property wrapper"
+"Timestamp","data-provider boundary","Timestamp::toFormattedString","property wrapper"
+"Timestamp","data-provider boundary","Timestamp::now","property non-void-command"
+"WeakCallback","boundary small-class","WeakCallback","constructor"
+"WeakCallback","boundary small-class","operator()","collaborator"
+"Connector","commander","setNewConnectionCallback","set collaborator"
+"Connector","commander","serverAddress","get collaborator"
+"Connector","commander","setState","set collaborator"
+"Connector","commander","Connector::Connector","constructor"
+"Connector","commander","Connector::~Connector","destructor"
+"Connector","commander","Connector::start","set"
+"Connector","commander","Connector::startInLoop","command"
+"Connector","commander","Connector::stop","set"
+"Connector","commander","Connector::stopInLoop","command"
+"Connector","commander","Connector::connect","command"
+"Connector","commander","Connector::restart","command"
+"Connector","commander","Connector::connecting","command"
+"Connector","commander","Connector::removeAndResetChannel","property non-void-command"
+"Connector","commander","Connector::resetChannel","command"
+"Connector","commander","Connector::handleWrite","command"
+"Connector","commander","Connector::handleError","command"
+"Connector","commander","Connector::retry","command"
+"Foo","small-class","Foo","constructor"
+"Foo","small-class","memberFunc","wrapper"
+"Foo","small-class","memberFunc2","controller"
+"ProtobufCodecLiteT","entity commander boundary","ProtobufCodecLiteT","constructor"
+"ProtobufCodecLiteT","entity commander boundary","tag","property"
+"ProtobufCodecLiteT","entity commander boundary","send","command collaborator"
+"ProtobufCodecLiteT","entity commander boundary","onMessage","command collaborator"
+"ProtobufCodecLiteT","entity commander boundary","onRpcMessage","wrapper stateless"
+"ProtobufCodecLiteT","entity commander boundary","fillEmptyBuffer","command collaborator"
+"AppendFile","boundary","writtenBytes","get collaborator"
+"AppendFile","boundary","FileUtil::AppendFile::AppendFile","constructor"
+"AppendFile","boundary","FileUtil::AppendFile::~AppendFile","destructor"
+"AppendFile","boundary","FileUtil::AppendFile::append","set"
+"AppendFile","boundary","FileUtil::AppendFile::flush","wrapper"
+"AppendFile","boundary","FileUtil::AppendFile::write","property wrapper"
+"Buffer","unclassified","Buffer","constructor"
+"Buffer","unclassified","swap","command"
+"Buffer","unclassified","readableBytes","property"
+"Buffer","unclassified","writableBytes","property"
+"Buffer","unclassified","prependableBytes","get"
+"Buffer","unclassified","peek","property"
+"Buffer","unclassified","findCRLF","property"
+"Buffer","unclassified","findCRLF","property"
+"Buffer","unclassified","findEOL","property"
+"Buffer","unclassified","findEOL","property"
+"Buffer","unclassified","retrieve","command"
+"Buffer","unclassified","retrieveUntil","command"
+"Buffer","unclassified","retrieveInt64","command"
+"Buffer","unclassified","retrieveInt32","command"
+"Buffer","unclassified","retrieveInt16","command"
+"Buffer","unclassified","retrieveInt8","command"
+"Buffer","unclassified","retrieveAll","command"
+"Buffer","unclassified","retrieveAllAsString","property non-void-command"
+"Buffer","unclassified","retrieveAsString","property non-void-command"
+"Buffer","unclassified","toStringPiece","property collaborator"
+"Buffer","unclassified","append","command collaborator"
+"Buffer","unclassified","append","command"
+"Buffer","unclassified","append","command"
+"Buffer","unclassified","ensureWritableBytes","command"
+"Buffer","unclassified","beginWrite","property non-void-command"
+"Buffer","unclassified","beginWrite","property"
+"Buffer","unclassified","hasWritten","set"
+"Buffer","unclassified","unwrite","set"
+"Buffer","unclassified","appendInt64","command"
+"Buffer","unclassified","appendInt32","command"
+"Buffer","unclassified","appendInt16","command"
+"Buffer","unclassified","appendInt8","command"
+"Buffer","unclassified","readInt64","property non-void-command"
+"Buffer","unclassified","readInt32","property non-void-command"
+"Buffer","unclassified","readInt16","property non-void-command"
+"Buffer","unclassified","readInt8","property non-void-command"
+"Buffer","unclassified","peekInt64","property"
+"Buffer","unclassified","peekInt32","property"
+"Buffer","unclassified","peekInt16","property"
+"Buffer","unclassified","peekInt8","property"
+"Buffer","unclassified","prependInt64","command"
+"Buffer","unclassified","prependInt32","command"
+"Buffer","unclassified","prependInt16","command"
+"Buffer","unclassified","prependInt8","command"
+"Buffer","unclassified","prepend","command"
+"Buffer","unclassified","shrink","command"
+"Buffer","unclassified","internalCapacity","property"
+"Buffer","unclassified","begin","property non-void-command"
+"Buffer","unclassified","begin","property"
+"Buffer","unclassified","makeSpace","command"
+"Buffer","unclassified","Buffer::readFd","property non-void-command collaborator"

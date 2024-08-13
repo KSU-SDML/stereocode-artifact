@@ -1,1016 +1,1016 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"MyString","data-provider","MyString","constructor",
-"MyString","data-provider","MyString","constructor",
-"MyString","data-provider","empty","predicate",
-"MyString","data-provider","begin","property collaborator",
-"MyString","data-provider","end","property collaborator",
-"MyString","data-provider","append","command",
-"MyString","data-provider","append","void-accessor command",
-"MyString","data-provider","size","property",
-"MyString","data-provider","compare","property",
-"MyOpt","data-provider data-class","MyOpt","constructor",
-"MyOpt","data-provider data-class","MyOpt","constructor",
-"MyOpt","data-provider data-class","operator*","get collaborator",
-"MyOpt","data-provider data-class","operatorbool","get",
-"MyOpt","data-provider data-class","has_value","get",
-"MyOpt","data-provider data-class","value","get collaborator",
-"TablePrinter","boundary lazy-class","TablePrinter","constructor",
-"TablePrinter","boundary lazy-class","columnInfos","get collaborator",
-"TablePrinter","boundary lazy-class","open","set collaborator",
-"TablePrinter","boundary lazy-class","close","set",
-"TablePrinter","boundary lazy-class","operator<<","collaborator incidental",
-"TablePrinter","boundary lazy-class","operator<<","controller stateless",
-"TablePrinter","boundary lazy-class","operator<<","incidental",
-"Duration","data-provider","Duration","constructor",
-"Duration","data-provider","value","get property collaborator",
-"Duration","data-provider","unitsAsString","property",
-"Duration","data-provider","operator<<","controller stateless",
-"AssertionPrinter","commander boundary","AssertionPrinter","constructor",
-"AssertionPrinter","commander boundary","print","command",
-"AssertionPrinter","commander boundary","printSourceInfo","collaborator",
-"AssertionPrinter","commander boundary","printResultType","controller",
-"AssertionPrinter","commander boundary","printIssue","unclassified",
-"AssertionPrinter","commander boundary","printExpressionWas","command collaborator",
-"AssertionPrinter","commander boundary","printOriginalExpression","unclassified",
-"AssertionPrinter","commander boundary","printReconstructedExpression","collaborator",
-"AssertionPrinter","commander boundary","printMessage","set",
-"AssertionPrinter","commander boundary","printRemainingMessages","command collaborator",
-"TestHasher","data-provider boundary small-class","TestHasher","constructor",
-"TestHasher","data-provider boundary small-class","operator()","property collaborator",
-"FileStream","data-provider boundary data-class small-class","FileStream","constructor",
-"FileStream","data-provider boundary data-class small-class","stream","get collaborator",
-"StreamBufImpl","small-class","StreamBufImpl","constructor",
-"StreamBufImpl","small-class","~StreamBufImpl","destructor",
-"StreamBufImpl","small-class","overflow","property non-void-command",
-"StreamBufImpl","small-class","sync","wrapper stateless",
-"TestGroup","entity boundary small-class","TestGroup","constructor",
-"TestGroup","entity boundary small-class","execute","property non-void-command collaborator",
-"Version","empty","Version::Version","copy-constructor",
-"Session","entity boundary","run","property non-void-command collaborator",
-"Session","entity boundary","Session::Session","constructor",
-"Session","entity boundary","Session::~Session","destructor",
-"Session","entity boundary","Session::showHelp","wrapper",
-"Session","entity boundary","Session::libIdentify","wrapper stateless",
-"Session","entity boundary","Session::applyCommandLine","property non-void-command collaborator",
-"Session","entity boundary","Session::applyCommandLine","property non-void-command",
-"Session","entity boundary","Session::useConfigData","set collaborator",
-"Session","entity boundary","Session::run","property non-void-command",
-"Session","entity boundary","Session::cli","get collaborator",
-"Session","entity boundary","Session::cli","set collaborator",
-"Session","entity boundary","Session::configData","get collaborator",
-"Session","entity boundary","Session::config","get set collaborator",
-"Session","entity boundary","Session::runInternal","property non-void-command collaborator",
-"GeneratorTracker","entity boundary","GeneratorTracker","constructor",
-"GeneratorTracker","entity boundary","isGeneratorTracker","incidental",
-"GeneratorTracker","entity boundary","hasGenerator","property collaborator",
-"GeneratorTracker","entity boundary","close","command collaborator",
-"GeneratorTracker","entity boundary","GeneratorTracker::~GeneratorTracker","destructor",
-"OutputDebugWriter","boundary degenerate small-class","operator()","wrapper stateless",
-"ISingleton","empty","ISingleton::~ISingleton","destructor",
-"ReporterRegistry","entity data-provider boundary","ReporterRegistry::create","property collaborator",
-"ReporterRegistry","entity data-provider boundary","ReporterRegistry::registerReporter","void-accessor command collaborator",
-"ReporterRegistry","entity data-provider boundary","ReporterRegistry::registerListener","void-accessor command collaborator",
-"ReporterRegistry","entity data-provider boundary","ReporterRegistry::getFactories","get collaborator",
-"ReporterRegistry","entity data-provider boundary","ReporterRegistry::getListeners","get collaborator",
-"OutputRedirect","empty","OutputRedirect::OutputRedirect","constructor",
-"OutputRedirect","empty","OutputRedirect::~OutputRedirect","destructor",
-"TempFile","small-class","TempFile::TempFile","constructor",
-"TempFile","small-class","TempFile::TempFile","constructor",
-"TempFile","small-class","TempFile::~TempFile","destructor",
-"TempFile","small-class","TempFile::getFile","get collaborator",
-"TempFile","small-class","TempFile::getContents","property controller",
-"RedirectedStreams","empty","RedirectedStreams::RedirectedStreams","constructor",
-"RedirectedStreams","empty","RedirectedStreams::~RedirectedStreams","destructor",
-"RedirectedStdErr","data-provider small-class","RedirectedStdErr::RedirectedStdErr","constructor",
-"RedirectedStdErr","data-provider small-class","RedirectedStdErr::str","property",
-"RedirectedStdOut","data-provider small-class","RedirectedStdOut::RedirectedStdOut","constructor",
-"RedirectedStdOut","data-provider small-class","RedirectedStdOut::str","property",
-"RedirectedStream","empty","RedirectedStream::RedirectedStream","constructor",
-"RedirectedStream","empty","RedirectedStream::~RedirectedStream","destructor",
-"ExceptionTranslatorRegistry","data-provider boundary","ExceptionTranslatorRegistry::~ExceptionTranslatorRegistry","destructor",
-"ExceptionTranslatorRegistry","data-provider boundary","ExceptionTranslatorRegistry::registerTranslator","void-accessor command collaborator",
-"ExceptionTranslatorRegistry","data-provider boundary","ExceptionTranslatorRegistry::translateActiveException","property",
-"ExceptionTranslatorRegistry","data-provider boundary","ExceptionTranslatorRegistry::tryTranslators","get",
-"ExceptionTranslatorRegistry","data-provider boundary","ExceptionTranslatorRegistry::translateActiveException","wrapper stateless",
-"ExceptionTranslatorRegistry","data-provider boundary","ExceptionTranslatorRegistry::tryTranslators","wrapper stateless",
-"EnumValuesRegistry","entity boundary small-class","EnumValuesRegistry::registerEnum","property non-void-command collaborator",
-"Win32ColourImpl","commander boundary small-class","Win32ColourImpl","constructor",
-"Win32ColourImpl","commander boundary small-class","use","command collaborator",
-"Win32ColourImpl","commander boundary small-class","setTextAttribute","wrapper",
-"NoColourImpl","degenerate small-class","use","empty",
-"Parser","boundary","operator|=","get set collaborator",
-"Parser","boundary","operator|=","get non-void-command collaborator",
-"Parser","boundary","operator|=","get non-void-command collaborator",
-"Parser","boundary","operator|=","get non-void-command collaborator",
-"Parser","boundary","operator|","property wrapper",
-"Parser","boundary","operator+=","property non-void-command collaborator",
-"Parser","boundary","operator+","property collaborator",
-"Parser","boundary","getHelpColumns","property controller",
-"Parser","boundary","writeToStream","collaborator",
-"Parser","boundary","operator<<","collaborator incidental",
-"Parser","boundary","validate","property controller",
-"Parser","boundary","parse","property collaborator",
-"Opt","entity data-provider boundary","Opt","constructor",
-"Opt","entity data-provider boundary","Opt","constructor",
-"Opt","entity data-provider boundary","Opt","constructor",
-"Opt","entity data-provider boundary","Opt","constructor",
-"Opt","entity data-provider boundary","operator[]","get non-void-command collaborator",
-"Opt","entity data-provider boundary","getHelpColumns","property collaborator",
-"Opt","entity data-provider boundary","isMatch","property wrapper",
-"Opt","entity data-provider boundary","parse","property collaborator",
-"Opt","entity data-provider boundary","validate","property collaborator",
-"Arg","data-provider boundary small-class","parse","property collaborator",
-"BoundValueRef","data-provider boundary small-class","BoundValueRef","constructor",
-"BoundValueRef","data-provider boundary small-class","setValue","property wrapper",
-"BoundRef","boundary degenerate small-class","isContainer","collaborator incidental",
-"BoundRef","boundary degenerate small-class","isFlag","collaborator incidental",
-"ParseState","data-provider boundary data-class small-class","ParseState","constructor",
-"ParseState","data-provider boundary data-class small-class","type","get collaborator",
-"ParseState","data-provider boundary data-class small-class","remainingTokens","get collaborator",
-"CoutStream","data-provider boundary data-class small-class","CoutStream","constructor",
-"CoutStream","data-provider boundary data-class small-class","stream","get collaborator",
-"BasicResult","data-provider","BasicResult","copy-constructor",
-"BasicResult","data-provider","operatorbool","unclassified",
-"BasicResult","data-provider","type","get collaborator",
-"BasicResult","data-provider","errorMessage","get",
-"BasicResult","data-provider","enforceOk","unclassified",
-"BasicResult","data-provider","BasicResult","constructor",
-"ResultValueBase","boundary data-class small-class","value","get wrapper",
-"ResultValueBase","boundary data-class small-class","ResultValueBase","constructor",
-"ResultValueBase","boundary data-class small-class","ResultValueBase","copy-constructor",
-"ResultValueBase","boundary data-class small-class","ResultValueBase","constructor",
-"ResultValueBase","boundary data-class small-class","operator=","get non-void-command collaborator",
-"ResultValueBase","boundary data-class small-class","~ResultValueBase","destructor",
-"ResultBase","empty","ResultBase","constructor",
-"TokenStream","entity boundary","loadBuffer","command",
-"TokenStream","entity boundary","TokenStream","constructor",
-"TokenStream","entity boundary","TokenStream","constructor",
-"TokenStream","entity boundary","operatorbool","unclassified",
-"TokenStream","entity boundary","count","property collaborator",
-"TokenStream","entity boundary","operator*","property collaborator",
-"TokenStream","entity boundary","operator->","property collaborator",
-"TokenStream","entity boundary","operator++","get non-void-command collaborator",
-"Args","data-provider data-class small-class","Args","constructor",
-"Args","data-provider data-class small-class","Args","constructor",
-"Args","data-provider data-class small-class","exeName","get",
-"PosixColourImpl","commander boundary small-class","use","command collaborator",
-"PosixColourImpl","commander boundary small-class","setColour","wrapper stateless",
-"Column","data-provider boundary","indent","get set collaborator",
-"Column","data-provider boundary","initialIndent","get set collaborator",
-"Column","data-provider boundary","width","get collaborator",
-"Column","data-provider boundary","begin","property wrapper",
-"Column","data-provider boundary","end","property collaborator",
-"Column","data-provider boundary","operator<<","collaborator incidental",
-"Column","data-provider boundary","toString","property controller",
-"Column","data-provider boundary","Column::operator+","property collaborator",
-"FatalConditionHandlerGuard","empty","FatalConditionHandlerGuard","constructor",
-"FatalConditionHandlerGuard","empty","~FatalConditionHandlerGuard","destructor",
-"FatalConditionHandler","commander boundary lazy-class degenerate","engage","set",
-"FatalConditionHandler","commander boundary lazy-class degenerate","disengage","set",
-"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::FatalConditionHandler","constructor",
-"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::engage_platform","wrapper stateless",
-"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::disengage_platform","wrapper stateless",
-"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::FatalConditionHandler","constructor",
-"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::~FatalConditionHandler","destructor",
-"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::engage_platform","wrapper stateless",
-"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::disengage_platform","wrapper stateless",
-"TrackerBase","unclassified","hasStarted","predicate",
-"TrackerBase","unclassified","TrackerBase::TrackerBase","constructor",
-"TrackerBase","unclassified","TrackerBase::isComplete","predicate",
-"TrackerBase","unclassified","TrackerBase::isSuccessfullyCompleted","predicate",
-"TrackerBase","unclassified","TrackerBase::isOpen","predicate",
-"TrackerBase","unclassified","TrackerBase::hasChildren","predicate",
-"TrackerBase","unclassified","TrackerBase::addChild","void-accessor command collaborator",
-"TrackerBase","unclassified","TrackerBase::findChild","property non-void-command collaborator",
-"TrackerBase","unclassified","TrackerBase::parent","get collaborator",
-"TrackerBase","unclassified","TrackerBase::openChild","set",
-"TrackerBase","unclassified","TrackerBase::isSectionTracker","incidental",
-"TrackerBase","unclassified","TrackerBase::isGeneratorTracker","incidental",
-"TrackerBase","unclassified","TrackerBase::open","command",
-"TrackerBase","unclassified","TrackerBase::close","command",
-"TrackerBase","unclassified","TrackerBase::fail","command",
-"TrackerBase","unclassified","TrackerBase::markAsNeedingAnotherRun","set",
-"TrackerBase","unclassified","TrackerBase::moveToParent","command",
-"TrackerBase","unclassified","TrackerBase::moveToThis","command",
-"TrackerContext","unclassified","TrackerContext::startRun","get non-void-command collaborator",
-"TrackerContext","unclassified","TrackerContext::endRun","command",
-"TrackerContext","unclassified","TrackerContext::startCycle","command",
-"TrackerContext","unclassified","TrackerContext::completeCycle","set",
-"TrackerContext","unclassified","TrackerContext::completedCycle","predicate",
-"TrackerContext","unclassified","TrackerContext::currentTracker","get collaborator",
-"TrackerContext","unclassified","TrackerContext::setCurrentTracker","set collaborator",
-"ObjectStorage","entity data-provider boundary","ObjectStorage","constructor",
-"ObjectStorage","entity data-provider boundary","ObjectStorage","copy-constructor",
-"ObjectStorage","entity data-provider boundary","ObjectStorage","copy-constructor",
-"ObjectStorage","entity data-provider boundary","~ObjectStorage","destructor",
-"ObjectStorage","entity data-provider boundary","construct","void-accessor wrapper",
-"ObjectStorage","entity data-provider boundary","destruct","non-void-command collaborator",
-"ObjectStorage","entity data-provider boundary","destruct_on_exit","wrapper stateless",
-"ObjectStorage","entity data-provider boundary","destruct_on_exit","empty",
-"ObjectStorage","entity data-provider boundary","stored_object","property collaborator",
-"ObjectStorage","entity data-provider boundary","stored_object","property collaborator",
-"Benchmark","unclassified","Benchmark","constructor",
-"Benchmark","unclassified","Benchmark","constructor",
-"Benchmark","unclassified","prepare","property controller",
-"Benchmark","unclassified","run","controller",
-"Benchmark","unclassified","operator=","get set collaborator",
-"Benchmark","unclassified","operatorbool","incidental",
-"ListeningReporter","entity boundary","ListeningReporter::ListeningReporter","constructor",
-"ListeningReporter","entity boundary","ListeningReporter::addListener","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::addReporter","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::getPreferences","get collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::getSupportedVerbosities","wrapper stateless",
-"ListeningReporter","entity boundary","ListeningReporter::noMatchingTestCases","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::reportInvalidArguments","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::benchmarkPreparing","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::benchmarkStarting","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::benchmarkEnded","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::benchmarkFailed","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::testRunStarting","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::testGroupStarting","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::testCaseStarting","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::sectionStarting","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::assertionStarting","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::assertionEnded","predicate non-void-command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::sectionEnded","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::testCaseEnded","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::testGroupEnded","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::testRunEnded","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::skipTest","void-accessor command collaborator",
-"ListeningReporter","entity boundary","ListeningReporter::isMulti","incidental",
-"ComposableParserImpl","data-provider boundary small-class","ComposableParserImpl<DerivedT>::operator|","property wrapper",
-"ExecutionPlan","data-provider small-class","operatorExecutionPlan<Duration2>","unclassified",
-"ExecutionPlan","data-provider small-class","run","property collaborator",
-"repeater","boundary degenerate small-class","operator()","wrapper stateless",
-"BenchmarkFunction","data-class","BenchmarkFunction","constructor",
-"BenchmarkFunction","data-class","BenchmarkFunction","constructor",
-"BenchmarkFunction","data-class","operator=","get set",
-"BenchmarkFunction","data-class","operator=","get non-void-command",
-"BenchmarkFunction","data-class","operator()","collaborator",
-"BoundValueRef<std::vector<T>>","entity boundary small-class","BoundValueRef","constructor",
-"BoundValueRef<std::vector<T>>","entity boundary small-class","isContainer","collaborator incidental",
-"BoundValueRef<std::vector<T>>","entity boundary small-class","setValue","property non-void-command collaborator",
-"Columns","data-provider boundary","begin","property wrapper",
-"Columns","data-provider boundary","end","property collaborator",
-"Columns","data-provider boundary","operator+=","get non-void-command collaborator",
-"Columns","data-provider boundary","operator+","property collaborator",
-"Columns","data-provider boundary","operator<<","collaborator incidental",
-"Columns","data-provider boundary","toString","property controller",
-"RegistrarForTagAliases","empty","RegistrarForTagAliases::RegistrarForTagAliases","constructor",
-"XmlWriter","boundary","writeAttribute","property non-void-command collaborator",
-"XmlWriter","boundary","XmlWriter::XmlWriter","constructor",
-"XmlWriter","boundary","XmlWriter::~XmlWriter","destructor",
-"XmlWriter","boundary","XmlWriter::startElement","get non-void-command collaborator",
-"XmlWriter","boundary","XmlWriter::scopedElement","property non-void-command collaborator",
-"XmlWriter","boundary","XmlWriter::endElement","get non-void-command collaborator",
-"XmlWriter","boundary","XmlWriter::writeAttribute","get controller",
-"XmlWriter","boundary","XmlWriter::writeAttribute","get",
-"XmlWriter","boundary","XmlWriter::writeText","get non-void-command collaborator",
-"XmlWriter","boundary","XmlWriter::writeComment","get non-void-command collaborator",
-"XmlWriter","boundary","XmlWriter::writeStylesheetRef","unclassified",
-"XmlWriter","boundary","XmlWriter::writeBlankLine","get non-void-command",
-"XmlWriter","boundary","XmlWriter::ensureTagClosed","set",
-"XmlWriter","boundary","XmlWriter::applyFormatting","set collaborator",
-"XmlWriter","boundary","XmlWriter::writeDeclaration","unclassified",
-"XmlWriter","boundary","XmlWriter::newlineIfNecessary","set",
-"ConsoleAssertionPrinter","boundary","ConsoleAssertionPrinter","constructor",
-"ConsoleAssertionPrinter","boundary","print","unclassified",
-"ConsoleAssertionPrinter","boundary","printResultType","collaborator",
-"ConsoleAssertionPrinter","boundary","printOriginalExpression","collaborator",
-"ConsoleAssertionPrinter","boundary","printReconstructedExpression","collaborator",
-"ConsoleAssertionPrinter","boundary","printMessage","collaborator",
-"ConsoleAssertionPrinter","boundary","printSourceInfo","collaborator",
-"LeakDetector","empty","LeakDetector::LeakDetector","constructor",
-"LeakDetector","empty","Catch::LeakDetector::LeakDetector","constructor",
-"LeakDetector","empty","Catch::LeakDetector::~LeakDetector","destructor",
-"NameAndLocation","degenerate small-class","operator==","incidental",
-"NameAndLocation","degenerate small-class","NameAndLocation::NameAndLocation","constructor",
-"GeneratorWrapper","small-class","GeneratorWrapper","constructor",
-"GeneratorWrapper","small-class","get","property collaborator",
-"GeneratorWrapper","small-class","next","predicate non-void-command",
-"SummaryColumn","data-class small-class","SummaryColumn","constructor",
-"SummaryColumn","data-class small-class","addRow","get non-void-command",
-"CompactReporter","unclassified","CompactReporter::getDescription","incidental",
-"CompactReporter","unclassified","CompactReporter::noMatchingTestCases","unclassified",
-"CompactReporter","unclassified","CompactReporter::assertionStarting","empty",
-"CompactReporter","unclassified","CompactReporter::assertionEnded","predicate non-void-command collaborator",
-"CompactReporter","unclassified","CompactReporter::sectionEnded","wrapper",
-"CompactReporter","unclassified","CompactReporter::testRunEnded","void-accessor command collaborator",
-"CompactReporter","unclassified","CompactReporter::~CompactReporter","destructor",
-"IStreamingReporter","degenerate","reportInvalidArguments","empty",
-"IStreamingReporter","degenerate","benchmarkPreparing","empty",
-"IStreamingReporter","degenerate","benchmarkStarting","empty",
-"IStreamingReporter","degenerate","benchmarkEnded","empty",
-"IStreamingReporter","degenerate","benchmarkFailed","empty",
-"IStreamingReporter","degenerate","IStreamingReporter::fatalErrorEncountered","empty",
-"IStreamingReporter","degenerate","IStreamingReporter::isMulti","incidental",
-"Contains","data-provider boundary small-class","Contains","constructor",
-"Contains","data-provider boundary small-class","match","predicate collaborator",
-"Contains","data-provider boundary small-class","describe","property wrapper",
-"StringMaker<double>","data-provider boundary small-class","StringMaker<double>::convert","property wrapper",
-"std::formatter<E,std::enable_if_t<std::is_enum_v<std::decay_t<E>>&&magic_enum::customize::enum_format_enabled<E>(),char>>","data-provider boundary small-class","format","property collaborator",
-"StringMaker<signedchar>","boundary degenerate small-class","StringMaker<signedchar>::convert","wrapper stateless",
-"StringMaker<bool>","degenerate small-class","StringMaker<bool>::convert","incidental",
-"BoundFlagRefBase","boundary degenerate small-class","isFlag","collaborator incidental",
-"MessageStream","data-provider boundary data-class small-class","operator<<","get collaborator",
-"MatcherBase","data-provider boundary","MatcherBase<T>::operator&&","property wrapper",
-"MatcherBase","data-provider boundary","MatcherBase<T>::operator||","property wrapper",
-"MatcherBase","data-provider boundary","MatcherBase<T>::operator!","property wrapper",
-"StringMaker<longlong>","pure-controller degenerate small-class","StringMaker<longlong>::convert","controller stateless",
-"static_str<0>","degenerate","static_str","constructor",
-"static_str<0>","degenerate","static_str","constructor",
-"static_str<0>","degenerate","data","collaborator incidental",
-"static_str<0>","degenerate","size","incidental",
-"static_str<0>","degenerate","operatorstring_view","incidental",
-"TestRunStats","empty","TestRunStats::TestRunStats","constructor",
-"StringMaker<unsignedlong>","boundary degenerate small-class","StringMaker<unsignedlong>::convert","wrapper stateless",
-"ratio_string","pure-controller degenerate small-class","ratio_string<Ratio>::symbol","controller stateless",
-"RunContext","entity boundary","RunContext::RunContext","constructor",
-"RunContext","entity boundary","RunContext::~RunContext","destructor",
-"RunContext","entity boundary","RunContext::testGroupStarting","void-accessor command",
-"RunContext","entity boundary","RunContext::testGroupEnded","void-accessor command",
-"RunContext","entity boundary","RunContext::runTest","property non-void-command collaborator",
-"RunContext","entity boundary","RunContext::config","get collaborator",
-"RunContext","entity boundary","RunContext::reporter","get collaborator",
-"RunContext","entity boundary","RunContext::assertionEnded","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::resetAssertionInfo","command",
-"RunContext","entity boundary","RunContext::sectionStarted","predicate non-void-command collaborator",
-"RunContext","entity boundary","RunContext::acquireGeneratorTracker","property set collaborator",
-"RunContext","entity boundary","RunContext::testForMissingAssertions","predicate non-void-command collaborator",
-"RunContext","entity boundary","RunContext::sectionEnded","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::sectionEndedEarly","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::benchmarkPreparing","void-accessor command",
-"RunContext","entity boundary","RunContext::benchmarkStarting","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::benchmarkEnded","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::benchmarkFailed","void-accessor command",
-"RunContext","entity boundary","RunContext::pushScopedMessage","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::popScopedMessage","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::emplaceUnscopedMessage","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::getCurrentTestName","property",
-"RunContext","entity boundary","RunContext::getLastResult","property collaborator",
-"RunContext","entity boundary","RunContext::exceptionEarlyReported","set",
-"RunContext","entity boundary","RunContext::handleFatalErrorCondition","command collaborator",
-"RunContext","entity boundary","RunContext::lastAssertionPassed","get",
-"RunContext","entity boundary","RunContext::assertionPassed","command",
-"RunContext","entity boundary","RunContext::aborting","predicate",
-"RunContext","entity boundary","RunContext::runCurrentTest","command collaborator",
-"RunContext","entity boundary","RunContext::invokeActiveTestCase","command collaborator",
-"RunContext","entity boundary","RunContext::handleUnfinishedSections","command collaborator",
-"RunContext","entity boundary","RunContext::handleExpr","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::reportExpr","set collaborator",
-"RunContext","entity boundary","RunContext::handleMessage","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::handleUnexpectedExceptionNotThrown","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::handleUnexpectedInflightException","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::populateReaction","void-accessor command collaborator",
-"RunContext","entity boundary","RunContext::handleIncomplete","set collaborator",
-"RunContext","entity boundary","RunContext::handleNonExpr","void-accessor command collaborator",
-"ApproxMatcher","entity boundary","ApproxMatcher","constructor",
-"ApproxMatcher","entity boundary","match","predicate collaborator",
-"ApproxMatcher","entity boundary","describe","property wrapper",
-"ApproxMatcher","entity boundary","epsilon","get non-void-command collaborator",
-"ApproxMatcher","entity boundary","margin","get non-void-command collaborator",
-"ApproxMatcher","entity boundary","scale","get non-void-command collaborator",
-"ScopedMessage","empty","ScopedMessage::ScopedMessage","constructor",
-"ScopedMessage","empty","ScopedMessage::ScopedMessage","copy-constructor",
-"ScopedMessage","empty","ScopedMessage::~ScopedMessage","destructor",
-"optimized_away_error","degenerate small-class","what","incidental",
-"StringMaker<charconst*>","boundary degenerate small-class","StringMaker<charconst*>::convert","wrapper stateless",
-"ExeName","boundary lazy-class","ExeName","constructor",
-"ExeName","boundary lazy-class","ExeName","constructor",
-"ExeName","boundary lazy-class","ExeName","constructor",
-"ExeName","boundary lazy-class","parse","wrapper stateless",
-"ExeName","boundary lazy-class","name","get",
-"ExeName","boundary lazy-class","set","property set collaborator",
-"SampleAnalysis","boundary small-class","operatorSampleAnalysis<Duration2>","collaborator",
-"ParserBase","degenerate","validate","wrapper stateless",
-"ParserBase","degenerate","cardinality","collaborator incidental",
-"ParserBase","degenerate","parse","controller stateless",
-"StringMaker<float>","data-provider boundary small-class","StringMaker<float>::convert","property wrapper",
-"ITransientExpression","data-provider boundary data-class small-class","isBinaryExpression","get collaborator",
-"ITransientExpression","data-provider boundary data-class small-class","getResult","get collaborator",
-"ITransientExpression","data-provider boundary data-class small-class","ITransientExpression","constructor",
-"AutoReg","empty","AutoReg::AutoReg","constructor",
-"static_str","data-provider","static_str","constructor",
-"static_str","data-provider","static_str","constructor",
-"static_str","data-provider","data","get collaborator",
-"static_str","data-provider","size","incidental",
-"static_str","data-provider","operatorstring_view","unclassified",
-"static_str","data-provider","static_str","constructor",
-"static_str","data-provider","static_str","constructor",
-"ContainsElementMatcher","data-provider boundary small-class","ContainsElementMatcher","constructor",
-"ContainsElementMatcher","data-provider boundary small-class","match","predicate collaborator",
-"ContainsElementMatcher","data-provider boundary small-class","describe","property wrapper",
-"EnumInfo","data-provider boundary small-class","EnumInfo::~EnumInfo","destructor",
-"EnumInfo","data-provider boundary small-class","EnumInfo::lookup","property collaborator",
-"constexpr_hash_t<Value,std::enable_if_t<is_enum_v<Value>>>","boundary degenerate small-class","operator()","collaborator incidental",
-"IteratorGenerator","data-class small-class","IteratorGenerator","constructor",
-"IteratorGenerator","data-class small-class","get","get collaborator",
-"IteratorGenerator","data-class small-class","next","predicate set",
-"StringMaker<char*>","boundary degenerate small-class","StringMaker<char*>::convert","wrapper stateless",
-"StartsWithMatcher","data-provider small-class","StartsWithMatcher::StartsWithMatcher","constructor",
-"StartsWithMatcher","data-provider small-class","StartsWithMatcher::match","predicate",
-"TestInvokerAsMethod","boundary degenerate small-class","TestInvokerAsMethod","constructor",
-"TestInvokerAsMethod","boundary degenerate small-class","invoke","collaborator incidental",
-"case_insensitive","boundary degenerate small-class","operator()","wrapper stateless",
-"StartupExceptionRegistry","entity boundary small-class","StartupExceptionRegistry::add","void-accessor command collaborator",
-"StartupExceptionRegistry","entity boundary small-class","StartupExceptionRegistry::getExceptions","get collaborator",
-"StringRef","data-provider boundary","StringRef","constructor",
-"StringRef","data-provider boundary","StringRef","constructor",
-"StringRef","data-provider boundary","operatorstd::string","wrapper",
-"StringRef","data-provider boundary","operator!=","property collaborator",
-"StringRef","data-provider boundary","operator[]","get collaborator",
-"StringRef","data-provider boundary","empty","property collaborator",
-"StringRef","data-provider boundary","size","get collaborator",
-"StringRef","data-provider boundary","isNullTerminated","get collaborator",
-"StringRef","data-provider boundary","begin","get collaborator",
-"StringRef","data-provider boundary","end","property collaborator",
-"StringRef","data-provider boundary","StringRef::StringRef","constructor",
-"StringRef","data-provider boundary","StringRef::c_str","get collaborator",
-"StringRef","data-provider boundary","StringRef::data","get collaborator",
-"StringRef","data-provider boundary","StringRef::substr","property collaborator",
-"StringRef","data-provider boundary","StringRef::operator==","property wrapper",
-"StringMaker<long>","boundary degenerate small-class","StringMaker<long>::convert","wrapper stateless",
-"StringMaker<unsignedlonglong>","pure-controller degenerate small-class","StringMaker<unsignedlonglong>::convert","controller stateless",
-"name_sort_impl","boundary degenerate small-class","operator()","wrapper stateless",
-"StringMaker<wchar_t*>","boundary degenerate small-class","StringMaker<wchar_t*>::convert","wrapper stateless",
-"RGB","data-provider boundary","empty","predicate wrapper",
-"RGB","data-provider boundary","operator==","predicate wrapper",
-"RGB","data-provider boundary","operator<<","collaborator incidental",
-"RGB","data-provider boundary","empty","predicate wrapper",
-"RGB","data-provider boundary","operator==","predicate wrapper",
-"RGB","data-provider boundary","operator<<","collaborator incidental",
-"Spacer","empty","Spacer","constructor",
-"BenchmarkStats","boundary small-class","operatorBenchmarkStats<Duration2>","collaborator",
-"array","entity data-provider boundary","at","get non-void-command collaborator",
-"array","entity data-provider boundary","at","get collaborator",
-"array","entity data-provider boundary","operator[]","get property non-void-command collaborator",
-"array","entity data-provider boundary","operator[]","get property collaborator",
-"array","entity data-provider boundary","front","property non-void-command collaborator",
-"array","entity data-provider boundary","front","property collaborator",
-"array","entity data-provider boundary","back","property non-void-command collaborator",
-"array","entity data-provider boundary","back","property collaborator",
-"array","entity data-provider boundary","data","property non-void-command collaborator",
-"array","entity data-provider boundary","data","property collaborator",
-"array","entity data-provider boundary","begin","property non-void-command collaborator",
-"array","entity data-provider boundary","begin","property collaborator",
-"array","entity data-provider boundary","cbegin","property collaborator",
-"array","entity data-provider boundary","end","property non-void-command collaborator",
-"array","entity data-provider boundary","end","property collaborator",
-"array","entity data-provider boundary","cend","property collaborator",
-"array","entity data-provider boundary","rbegin","property non-void-command collaborator",
-"array","entity data-provider boundary","rbegin","property collaborator",
-"array","entity data-provider boundary","crbegin","property collaborator",
-"array","entity data-provider boundary","rend","property non-void-command collaborator",
-"array","entity data-provider boundary","rend","property collaborator",
-"array","entity data-provider boundary","crend","property collaborator",
-"array","entity data-provider boundary","empty","predicate",
-"array","entity data-provider boundary","size","property",
-"array","entity data-provider boundary","max_size","property",
-"array","entity data-provider boundary","fill","collaborator",
-"array","entity data-provider boundary","swap","void-accessor set collaborator",
-"array","entity data-provider boundary","operator==","wrapper stateless",
-"array","entity data-provider boundary","operator!=","wrapper stateless",
-"array","entity data-provider boundary","operator<","wrapper stateless",
-"array","entity data-provider boundary","operator<=","wrapper stateless",
-"array","entity data-provider boundary","operator>","wrapper stateless",
-"array","entity data-provider boundary","operator>=","wrapper stateless",
-"Equals","data-provider boundary small-class","Equals","constructor",
-"Equals","data-provider boundary small-class","match","predicate collaborator",
-"Equals","data-provider boundary small-class","describe","property wrapper",
-"Context","boundary data-class","getResultCapture","get collaborator",
-"Context","boundary data-class","getRunner","get collaborator",
-"Context","boundary data-class","getConfig","get collaborator",
-"Context","boundary data-class","setResultCapture","set collaborator",
-"Context","boundary data-class","setRunner","set collaborator",
-"Context","boundary data-class","setConfig","set collaborator",
-"StringMaker<unsignedint>","boundary degenerate small-class","StringMaker<unsignedint>::convert","wrapper stateless",
-"Generators","entity boundary","populate","void-accessor command collaborator",
-"Generators","entity boundary","populate","void-accessor command collaborator",
-"Generators","entity boundary","populate","void-accessor command collaborator",
-"Generators","entity boundary","populate","void-accessor command collaborator",
-"Generators","entity boundary","Generators","copy-constructor",
-"Generators","entity boundary","get","get collaborator",
-"Generators","entity boundary","next","predicate non-void-command",
-"RegistryHub","entity boundary","getReporterRegistry","get collaborator",
-"RegistryHub","entity boundary","getTestCaseRegistry","get collaborator",
-"RegistryHub","entity boundary","getExceptionTranslatorRegistry","get collaborator",
-"RegistryHub","entity boundary","getTagAliasRegistry","get collaborator",
-"RegistryHub","entity boundary","getStartupExceptionRegistry","get collaborator",
-"RegistryHub","entity boundary","registerReporter","void-accessor command collaborator",
-"RegistryHub","entity boundary","registerListener","void-accessor command collaborator",
-"RegistryHub","entity boundary","registerTest","void-accessor command collaborator",
-"RegistryHub","entity boundary","registerTranslator","void-accessor command collaborator",
-"RegistryHub","entity boundary","registerTagAlias","void-accessor command collaborator",
-"RegistryHub","entity boundary","registerStartupException","command",
-"RegistryHub","entity boundary","getMutableEnumValuesRegistry","get collaborator",
-"NameAndTags","empty","NameAndTags::NameAndTags","constructor",
-"IMutableEnumValuesRegistry","entity boundary small-class","registerEnum","property non-void-command collaborator",
-"IMutableEnumValuesRegistry","entity boundary small-class","IMutableEnumValuesRegistry::~IMutableEnumValuesRegistry","destructor",
-"Config","data-provider","Config::Config","copy-constructor",
-"Config","data-provider","Config::getFilename","get",
-"Config","data-provider","Config::listTests","get",
-"Config","data-provider","Config::listTestNamesOnly","get",
-"Config","data-provider","Config::listTags","get",
-"Config","data-provider","Config::listReporters","get",
-"Config","data-provider","Config::getProcessName","get",
-"Config","data-provider","Config::getReporterName","get",
-"Config","data-provider","Config::getTestsOrTags","get",
-"Config","data-provider","Config::getSectionsToRun","get",
-"Config","data-provider","Config::testSpec","get collaborator",
-"Config","data-provider","Config::hasTestFilters","get",
-"Config","data-provider","Config::showHelp","get",
-"Config","data-provider","Config::allowThrows","predicate",
-"Config","data-provider","Config::stream","property collaborator",
-"Config","data-provider","Config::name","property",
-"Config","data-provider","Config::includeSuccessfulResults","get",
-"Config","data-provider","Config::warnAboutMissingAssertions","predicate",
-"Config","data-provider","Config::warnAboutNoTests","predicate",
-"Config","data-provider","Config::showDurations","get collaborator",
-"Config","data-provider","Config::minDuration","get",
-"Config","data-provider","Config::runOrder","get collaborator",
-"Config","data-provider","Config::rngSeed","get",
-"Config","data-provider","Config::useColour","get collaborator",
-"Config","data-provider","Config::shouldDebugBreak","get",
-"Config","data-provider","Config::abortAfter","get",
-"Config","data-provider","Config::showInvisibles","get",
-"Config","data-provider","Config::verbosity","get collaborator",
-"Config","data-provider","Config::benchmarkNoAnalysis","get",
-"Config","data-provider","Config::benchmarkSamples","get",
-"Config","data-provider","Config::benchmarkConfidenceInterval","get",
-"Config","data-provider","Config::benchmarkResamples","get",
-"Config","data-provider","Config::benchmarkWarmupTime","property wrapper",
-"Config","data-provider","Config::openStream","property wrapper",
-"RangeGenerator","data-class small-class","RangeGenerator","constructor",
-"RangeGenerator","data-class small-class","RangeGenerator","constructor",
-"RangeGenerator","data-class small-class","get","get collaborator",
-"RangeGenerator","data-class small-class","next","predicate set",
-"EqualsMatcher","data-provider boundary","EqualsMatcher","constructor",
-"EqualsMatcher","data-provider boundary","match","predicate collaborator",
-"EqualsMatcher","data-provider boundary","describe","property wrapper",
-"EqualsMatcher","data-provider boundary","EqualsMatcher::EqualsMatcher","constructor",
-"EqualsMatcher","data-provider boundary","EqualsMatcher::match","predicate",
-"Chronometer","entity boundary","measure","void-accessor command collaborator",
-"Chronometer","entity boundary","runs","get",
-"Chronometer","entity boundary","Chronometer","copy-constructor",
-"Chronometer","entity boundary","measure","command collaborator",
-"Chronometer","entity boundary","measure","void-accessor command collaborator",
-"constexpr_hash_t<Value,std::enable_if_t<std::is_same_v<Value,string_view>>>","data-provider boundary small-class","operator()","property collaborator",
-"customize_t","empty","customize_t","constructor",
-"customize_t","empty","customize_t","constructor",
-"customize_t","empty","customize_t","copy-constructor",
-"DebugOutStream","data-provider boundary data-class small-class","DebugOutStream","constructor",
-"DebugOutStream","data-provider boundary data-class small-class","stream","get collaborator",
-"FilteredIterator","empty","FilteredIterator","copy-constructor",
-"AssertionHandler","commander","~AssertionHandler","destructor",
-"AssertionHandler","commander","handleExpr","command collaborator",
-"AssertionHandler","commander","AssertionHandler::AssertionHandler","constructor",
-"AssertionHandler","commander","AssertionHandler::handleExpr","void-accessor command collaborator",
-"AssertionHandler","commander","AssertionHandler::handleMessage","void-accessor command collaborator",
-"AssertionHandler","commander","AssertionHandler::allowThrows","property collaborator",
-"AssertionHandler","commander","AssertionHandler::complete","command",
-"AssertionHandler","commander","AssertionHandler::setCompleted","set",
-"AssertionHandler","commander","AssertionHandler::handleUnexpectedInflightException","command",
-"AssertionHandler","commander","AssertionHandler::handleExceptionThrownAsExpected","command",
-"AssertionHandler","commander","AssertionHandler::handleExceptionNotThrownAsExpected","command",
-"AssertionHandler","commander","AssertionHandler::handleUnexpectedExceptionNotThrown","command",
-"AssertionHandler","commander","AssertionHandler::handleThrowingCallSkipped","command",
-"BoundLambda","data-provider boundary small-class","BoundLambda","constructor",
-"BoundLambda","data-provider boundary small-class","setValue","property wrapper",
-"ErrnoGuard","empty","ErrnoGuard::ErrnoGuard","constructor",
-"ErrnoGuard","empty","ErrnoGuard::~ErrnoGuard","destructor",
-"SourceLineInfo","data-provider boundary","SourceLineInfo","constructor",
-"SourceLineInfo","data-provider boundary","empty","get",
-"SourceLineInfo","data-provider boundary","SourceLineInfo::operator==","predicate wrapper",
-"SourceLineInfo","data-provider boundary","SourceLineInfo::operator<","predicate wrapper",
-"MapGenerator","entity boundary small-class","MapGenerator","constructor",
-"MapGenerator","entity boundary small-class","get","get collaborator",
-"MapGenerator","entity boundary small-class","next","predicate non-void-command collaborator",
-"StringMaker<unsignedchar>","boundary degenerate small-class","StringMaker<unsignedchar>::convert","wrapper stateless",
-"UnaryExpr","boundary small-class","streamReconstructedExpression","wrapper",
-"UnaryExpr","boundary small-class","UnaryExpr","constructor",
-"ExprLhs","data-provider boundary","ExprLhs","constructor",
-"ExprLhs","data-provider boundary","operator==","property wrapper",
-"ExprLhs","data-provider boundary","operator==","property collaborator",
-"ExprLhs","data-provider boundary","operator!=","property wrapper",
-"ExprLhs","data-provider boundary","operator!=","property collaborator",
-"ExprLhs","data-provider boundary","operator>","property collaborator",
-"ExprLhs","data-provider boundary","operator<","property collaborator",
-"ExprLhs","data-provider boundary","operator>=","property collaborator",
-"ExprLhs","data-provider boundary","operator<=","property collaborator",
-"ExprLhs","data-provider boundary","operator|","property collaborator",
-"ExprLhs","data-provider boundary","operator&","property collaborator",
-"ExprLhs","data-provider boundary","operator^","property collaborator",
-"ExprLhs","data-provider boundary","operator&&","collaborator incidental",
-"ExprLhs","data-provider boundary","operator||","collaborator incidental",
-"ExprLhs","data-provider boundary","makeUnaryExpr","property wrapper",
-"Decomposer","boundary degenerate small-class","operator<=","wrapper stateless",
-"Decomposer","boundary degenerate small-class","operator<=","wrapper stateless",
-"LazyExpression","small-class","LazyExpression::LazyExpression","constructor",
-"LazyExpression","small-class","LazyExpression::LazyExpression","copy-constructor",
-"LazyExpression","small-class","LazyExpression::operatorbool","unclassified",
-"SectionInfo","empty","SectionInfo","constructor",
-"SectionInfo","empty","SectionInfo::SectionInfo","constructor",
-"WithinAbsMatcher","data-provider small-class","WithinAbsMatcher::WithinAbsMatcher","constructor",
-"WithinAbsMatcher","data-provider small-class","WithinAbsMatcher::match","predicate",
-"WithinAbsMatcher","data-provider small-class","WithinAbsMatcher::describe","property wrapper",
-"MessageInfo","data-provider small-class","MessageInfo::MessageInfo","constructor",
-"MessageInfo","data-provider small-class","MessageInfo::operator==","predicate",
-"MessageInfo","data-provider small-class","MessageInfo::operator<","predicate",
-"GeneratorException","data-provider data-class small-class","GeneratorException","constructor",
-"GeneratorException","data-provider data-class small-class","GeneratorException::what","get",
-"MessageBuilder","data-provider boundary data-class small-class","operator<<","get collaborator",
-"MessageBuilder","data-provider boundary data-class small-class","Catch::MessageBuilder::MessageBuilder","constructor",
-"Capturer","entity boundary","captureValues","void-accessor command collaborator",
-"Capturer","entity boundary","captureValues","void-accessor command collaborator",
-"Capturer","entity boundary","Capturer::Capturer","constructor",
-"Capturer","entity boundary","Capturer::~Capturer","destructor",
-"Capturer","entity boundary","Capturer::captureValue","command",
-"Counts","data-provider","Counts::operator-","property",
-"Counts","data-provider","Counts::operator+=","get non-void-command",
-"Counts","data-provider","Counts::total","property",
-"Counts","data-provider","Counts::allPassed","predicate",
-"Counts","data-provider","Counts::allOk","predicate",
-"Totals","data-provider","Totals::operator-","property",
-"Totals","data-provider","Totals::operator+=","get non-void-command",
-"Totals","data-provider","Totals::delta","property",
-"StringMaker<char>","boundary degenerate small-class","StringMaker<char>::convert","wrapper stateless",
-"ChunkGenerator","small-class","ChunkGenerator","constructor",
-"ChunkGenerator","small-class","get","get collaborator",
-"ChunkGenerator","small-class","next","predicate non-void-command",
-"Section","data-provider data-class small-class","Section::Section","copy-constructor",
-"Section","data-provider data-class small-class","Section::~Section","destructor",
-"Section","data-provider data-class small-class","Section::operatorbool","get",
-"TagAlias","empty","TagAlias::TagAlias","constructor",
-"ExceptionTranslatorRegistrar","empty","ExceptionTranslatorRegistrar","constructor",
-"RandomFloatingGenerator","data-class small-class","RandomFloatingGenerator","constructor",
-"RandomFloatingGenerator","data-class small-class","get","get collaborator",
-"RandomFloatingGenerator","data-class small-class","next","predicate set",
-"pluralise","empty","pluralise::pluralise","constructor",
-"IGeneratorTracker","empty","IGeneratorTracker::~IGeneratorTracker","destructor",
-"ParserRefImpl","boundary","ParserRefImpl","constructor",
-"ParserRefImpl","boundary","ParserRefImpl","constructor",
-"ParserRefImpl","boundary","ParserRefImpl","constructor",
-"ParserRefImpl","boundary","operator()","property set collaborator",
-"ParserRefImpl","boundary","optional","property set collaborator",
-"ParserRefImpl","boundary","required","property set collaborator",
-"ParserRefImpl","boundary","isOptional","property collaborator",
-"ParserRefImpl","boundary","cardinality","property collaborator",
-"ParserRefImpl","boundary","hint","get",
-"ReporterConfig","data-provider boundary data-class small-class","ReporterConfig::ReporterConfig","constructor",
-"ReporterConfig","data-provider boundary data-class small-class","ReporterConfig::ReporterConfig","constructor",
-"ReporterConfig","data-provider boundary data-class small-class","ReporterConfig::stream","get collaborator",
-"ReporterConfig","data-provider boundary data-class small-class","ReporterConfig::fullConfig","get collaborator",
-"EndsWithMatcher","data-provider small-class","EndsWithMatcher::EndsWithMatcher","constructor",
-"EndsWithMatcher","data-provider small-class","EndsWithMatcher::match","predicate",
-"MatcherUntypedBase","small-class","MatcherUntypedBase::toString","get set",
-"StringMaker<wchar_tconst*>","boundary degenerate small-class","StringMaker<wchar_tconst*>::convert","wrapper stateless",
-"FixedValuesGenerator","data-class small-class","FixedValuesGenerator","constructor",
-"FixedValuesGenerator","data-class small-class","get","get collaborator",
-"FixedValuesGenerator","data-class small-class","next","predicate set",
-"StringMaker<int>","boundary degenerate small-class","StringMaker<int>::convert","wrapper stateless",
-"JunitReporter","entity boundary","JunitReporter::JunitReporter","constructor",
-"JunitReporter","entity boundary","JunitReporter::~JunitReporter","destructor",
-"JunitReporter","entity boundary","JunitReporter::getDescription","incidental",
-"JunitReporter","entity boundary","JunitReporter::noMatchingTestCases","empty",
-"JunitReporter","entity boundary","JunitReporter::testRunStarting","void-accessor command collaborator",
-"JunitReporter","entity boundary","JunitReporter::testGroupStarting","void-accessor command collaborator",
-"JunitReporter","entity boundary","JunitReporter::testCaseStarting","set collaborator",
-"JunitReporter","entity boundary","JunitReporter::assertionEnded","predicate set collaborator",
-"JunitReporter","entity boundary","JunitReporter::testCaseEnded","void-accessor command collaborator",
-"JunitReporter","entity boundary","JunitReporter::testGroupEnded","void-accessor command collaborator",
-"JunitReporter","entity boundary","JunitReporter::testRunEndedCumulative","command",
-"JunitReporter","entity boundary","JunitReporter::writeGroup","command collaborator",
-"JunitReporter","entity boundary","JunitReporter::writeTestCase","command collaborator",
-"JunitReporter","entity boundary","JunitReporter::writeSection","void-accessor command collaborator",
-"JunitReporter","entity boundary","JunitReporter::writeAssertions","command collaborator",
-"JunitReporter","entity boundary","JunitReporter::writeAssertion","command collaborator",
-"AssertionStats","empty","AssertionStats::AssertionStats","constructor",
-"MatchAllOf","unclassified","match","predicate controller",
-"MatchAllOf","unclassified","describe","property collaborator",
-"MatchAllOf","unclassified","operator&&","property controller",
-"MatchNotOf","data-provider small-class","MatchNotOf","constructor",
-"MatchNotOf","data-provider small-class","match","predicate collaborator",
-"MatchNotOf","data-provider small-class","describe","property",
-"ExceptionMessageMatcher","small-class","ExceptionMessageMatcher","constructor",
-"ExceptionMessageMatcher","small-class","ExceptionMessageMatcher::match","predicate controller",
-"ExceptionMessageMatcher","small-class","ExceptionMessageMatcher::describe","property",
-"ChronometerModel","unclassified","start","set",
-"ChronometerModel","unclassified","finish","set",
-"ChronometerModel","unclassified","elapsed","property collaborator",
-"WithinUlpsMatcher","small-class","WithinUlpsMatcher::WithinUlpsMatcher","constructor",
-"WithinUlpsMatcher","small-class","WithinUlpsMatcher::match","predicate wrapper",
-"WithinUlpsMatcher","small-class","WithinUlpsMatcher::describe","property controller",
-"ITagAliasRegistry","boundary degenerate small-class","ITagAliasRegistry::~ITagAliasRegistry","destructor",
-"ITagAliasRegistry","boundary degenerate small-class","ITagAliasRegistry::get","wrapper stateless",
-"WithinRelMatcher","small-class","WithinRelMatcher::WithinRelMatcher","constructor",
-"WithinRelMatcher","small-class","WithinRelMatcher::match","predicate wrapper",
-"WithinRelMatcher","small-class","WithinRelMatcher::describe","property controller",
-"TestGroupStats","empty","TestGroupStats::TestGroupStats","constructor",
-"TestGroupStats","empty","TestGroupStats::TestGroupStats","constructor",
-"CasedString","data-provider boundary small-class","CasedString::CasedString","constructor",
-"CasedString","data-provider boundary small-class","CasedString::adjustString","property wrapper",
-"CasedString","data-provider boundary small-class","CasedString::caseSensitivitySuffix","property wrapper",
-"StringMatcherBase","data-provider small-class","StringMatcherBase::StringMatcherBase","constructor",
-"StringMatcherBase","data-provider small-class","StringMatcherBase::describe","property",
-"ContainsMatcher","data-provider boundary","ContainsMatcher","constructor",
-"ContainsMatcher","data-provider boundary","match","predicate collaborator",
-"ContainsMatcher","data-provider boundary","describe","property wrapper",
-"ContainsMatcher","data-provider boundary","ContainsMatcher::ContainsMatcher","constructor",
-"ContainsMatcher","data-provider boundary","ContainsMatcher::match","predicate",
-"SingleValueGenerator","data-provider lazy-class small-class","SingleValueGenerator","constructor",
-"SingleValueGenerator","data-provider lazy-class small-class","get","get collaborator",
-"SingleValueGenerator","data-provider lazy-class small-class","next","incidental",
-"RegexMatcher","data-provider boundary small-class","RegexMatcher::RegexMatcher","constructor",
-"RegexMatcher","data-provider boundary small-class","RegexMatcher::match","predicate wrapper",
-"RegexMatcher","data-provider boundary small-class","RegexMatcher::describe","property wrapper",
-"BoundFlagRef","boundary data-class small-class","BoundFlagRef","constructor",
-"BoundFlagRef","boundary data-class small-class","setFlag","property set collaborator",
-"SectionTracker","unclassified","SectionTracker::SectionTracker","constructor",
-"SectionTracker","unclassified","SectionTracker::isComplete","predicate",
-"SectionTracker","unclassified","SectionTracker::isSectionTracker","incidental",
-"SectionTracker","unclassified","SectionTracker::acquire","controller stateless",
-"SectionTracker","unclassified","SectionTracker::tryOpen","command",
-"SectionTracker","unclassified","SectionTracker::addInitialFilters","command",
-"SectionTracker","unclassified","SectionTracker::addNextFilters","command",
-"SectionTracker","unclassified","SectionTracker::getFilters","get",
-"SectionTracker","unclassified","SectionTracker::trimmedName","get",
-"UnorderedEqualsMatcher","data-provider boundary small-class","UnorderedEqualsMatcher","constructor",
-"UnorderedEqualsMatcher","data-provider boundary small-class","match","predicate collaborator",
-"UnorderedEqualsMatcher","data-provider boundary small-class","describe","property wrapper",
-"GeneratorUntypedBase","empty","GeneratorUntypedBase::~GeneratorUntypedBase","destructor",
-"TakeGenerator","boundary small-class","TakeGenerator","constructor",
-"TakeGenerator","boundary small-class","get","property collaborator",
-"TakeGenerator","boundary small-class","next","predicate set collaborator",
-"FilterGenerator","small-class","FilterGenerator","constructor",
-"FilterGenerator","small-class","get","property collaborator",
-"FilterGenerator","small-class","next","predicate non-void-command",
-"RepeatGenerator","entity data-provider boundary small-class","RepeatGenerator","constructor",
-"RepeatGenerator","entity data-provider boundary small-class","get","get property collaborator",
-"RepeatGenerator","entity data-provider boundary small-class","next","predicate non-void-command collaborator",
-"TestCase","data-provider","TestCase::TestCase","copy-constructor",
-"TestCase","data-provider","TestCase::withName","property",
-"TestCase","data-provider","TestCase::invoke","unclassified",
-"TestCase","data-provider","TestCase::operator==","predicate",
-"TestCase","data-provider","TestCase::operator<","predicate",
-"TestCase","data-provider","TestCase::getTestCaseInfo","get collaborator",
-"MatchAnyOf","unclassified","match","predicate controller",
-"MatchAnyOf","unclassified","describe","property collaborator",
-"MatchAnyOf","unclassified","operator||","property controller",
-"IMutableContext","commander data-class small-class","IMutableContext::createContext","set",
-"OutlierClassification","data-provider small-class","total","property",
-"ITracker","data-provider boundary data-class small-class","ITracker","constructor",
-"ITracker","data-provider boundary data-class small-class","nameAndLocation","get collaborator",
-"SimplePcg32","boundary lazy-class","SimplePcg32","constructor",
-"SimplePcg32","boundary lazy-class","SimplePcg32::SimplePcg32","constructor",
-"SimplePcg32","boundary lazy-class","SimplePcg32::seed","set collaborator",
-"SimplePcg32","boundary lazy-class","SimplePcg32::discard","wrapper stateless",
-"SimplePcg32","boundary lazy-class","SimplePcg32::operator()","property set collaborator",
-"RandomIntegerGenerator","data-class small-class","RandomIntegerGenerator","constructor",
-"RandomIntegerGenerator","data-class small-class","get","get collaborator",
-"RandomIntegerGenerator","data-class small-class","next","predicate set",
-"fmt::formatter<E,std::enable_if_t<std::is_enum_v<std::decay_t<E>>&&magic_enum::customize::enum_format_enabled<E>(),char>>","data-provider boundary small-class","format","property collaborator",
-"TestCaseInfo","data-provider","TestCaseInfo::TestCaseInfo","constructor",
-"TestCaseInfo","data-provider","TestCaseInfo::isHidden","predicate",
-"TestCaseInfo","data-provider","TestCaseInfo::throws","predicate",
-"TestCaseInfo","data-provider","TestCaseInfo::okToFail","predicate",
-"TestCaseInfo","data-provider","TestCaseInfo::expectedToFail","predicate",
-"TestCaseInfo","data-provider","TestCaseInfo::tagsAsString","property collaborator",
-"Timer","data-provider boundary","Timer::start","set",
-"Timer","data-provider boundary","Timer::getElapsedNanoseconds","property wrapper",
-"Timer","data-provider boundary","Timer::getElapsedMicroseconds","property collaborator",
-"Timer","data-provider boundary","Timer::getElapsedMilliseconds","property collaborator",
-"Timer","data-provider boundary","Timer::getElapsedSeconds","property collaborator",
-"OcMethod","boundary small-class","OcMethod","constructor",
-"OcMethod","boundary small-class","invoke","wrapper",
-"OcMethod","boundary small-class","~OcMethod","destructor",
-"StringHolder","boundary degenerate small-class","StringHolder","constructor",
-"StringHolder","boundary degenerate small-class","StringHolder","copy-constructor",
-"StringHolder","boundary degenerate small-class","StringHolder","constructor",
-"StringHolder","boundary degenerate small-class","match","collaborator incidental",
-"MyStringView","data-provider","MyStringView","constructor",
-"MyStringView","data-provider","MyStringView","constructor",
-"MyStringView","data-provider","empty","predicate",
-"MyStringView","data-provider","size","property",
-"MyStringView","data-provider","data","property",
-"MyStringView","data-provider","operator[]","get",
-"MyStringView","data-provider","begin","property collaborator",
-"MyStringView","data-provider","end","property collaborator",
-"MyStringView","data-provider","find","property",
-"MyStringView","data-provider","substr","property non-void-command",
-"MyStringView","data-provider","remove_prefix","command",
-"MyStringView","data-provider","remove_suffix","command",
-"MyStringView","data-provider","MyStringView","constructor",
-"MyStringView","data-provider","compare","property",
-"MyStringView","data-provider","MyStringView","constructor",
-"set","empty","set","constructor",
-"BinaryExpr","data-provider boundary degenerate","streamReconstructedExpression","void-accessor wrapper",
-"BinaryExpr","data-provider boundary degenerate","BinaryExpr","constructor",
-"BinaryExpr","data-provider boundary degenerate","operator&&","collaborator incidental",
-"BinaryExpr","data-provider boundary degenerate","operator||","collaborator incidental",
-"BinaryExpr","data-provider boundary degenerate","operator==","collaborator incidental",
-"BinaryExpr","data-provider boundary degenerate","operator!=","collaborator incidental",
-"BinaryExpr","data-provider boundary degenerate","operator>","collaborator incidental",
-"BinaryExpr","data-provider boundary degenerate","operator<","collaborator incidental",
-"BinaryExpr","data-provider boundary degenerate","operator>=","collaborator incidental",
-"BinaryExpr","data-provider boundary degenerate","operator<=","collaborator incidental",
-"StartsWith","data-provider boundary small-class","StartsWith","constructor",
-"StartsWith","data-provider boundary small-class","match","predicate collaborator",
-"StartsWith","data-provider boundary small-class","describe","property wrapper",
-"TestRegistry","entity boundary","TestRegistry::registerTest","void-accessor command collaborator",
-"TestRegistry","entity boundary","TestRegistry::getAllTests","get collaborator",
-"TestRegistry","entity boundary","TestRegistry::getAllTestsSorted","get non-void-command collaborator",
-"EndsWith","data-provider boundary small-class","EndsWith","constructor",
-"EndsWith","data-provider boundary small-class","match","predicate collaborator",
-"EndsWith","data-provider boundary small-class","describe","property wrapper",
-"ReusableStringStream","data-provider boundary","operator<<","get collaborator",
-"ReusableStringStream","data-provider boundary","get","get collaborator",
-"ReusableStringStream","data-provider boundary","ReusableStringStream::ReusableStringStream","constructor",
-"ReusableStringStream","data-provider boundary","ReusableStringStream::~ReusableStringStream","destructor",
-"ReusableStringStream","data-provider boundary","ReusableStringStream::str","property",
-"WildcardPattern","data-provider small-class","WildcardPattern::WildcardPattern","constructor",
-"WildcardPattern","data-provider small-class","WildcardPattern::matches","predicate",
-"WildcardPattern","data-provider small-class","WildcardPattern::normaliseString","property wrapper",
-"TestSpec","data-provider boundary","TestSpec::hasFilters","predicate",
-"TestSpec","data-provider boundary","TestSpec::matches","predicate collaborator",
-"TestSpec","data-provider boundary","TestSpec::matchesByFilter","property collaborator",
-"TestSpec","data-provider boundary","TestSpec::getInvalidArgs","get collaborator",
-"TestSpecParser","commander","addCharToPattern","command",
-"TestSpecParser","commander","TestSpecParser::TestSpecParser","constructor",
-"TestSpecParser","commander","TestSpecParser::parse","get non-void-command",
-"TestSpecParser","commander","TestSpecParser::testSpec","get non-void-command collaborator",
-"TestSpecParser","commander","TestSpecParser::visitChar","predicate non-void-command",
-"TestSpecParser","commander","TestSpecParser::processNoneChar","predicate non-void-command",
-"TestSpecParser","commander","TestSpecParser::processNameChar","command",
-"TestSpecParser","commander","TestSpecParser::processOtherChar","predicate non-void-command",
-"TestSpecParser","commander","TestSpecParser::startNewMode","set collaborator",
-"TestSpecParser","commander","TestSpecParser::endMode","command",
-"TestSpecParser","commander","TestSpecParser::escape","command",
-"TestSpecParser","commander","TestSpecParser::isControlChar","predicate",
-"TestSpecParser","commander","TestSpecParser::addFilter","command",
-"TestSpecParser","commander","TestSpecParser::saveLastMode","set",
-"TestSpecParser","commander","TestSpecParser::revertBackToLastMode","set",
-"TestSpecParser","commander","TestSpecParser::separate","predicate non-void-command",
-"TestSpecParser","commander","TestSpecParser::preprocessPattern","property non-void-command",
-"TestSpecParser","commander","TestSpecParser::addNamePattern","command collaborator",
-"TestSpecParser","commander","TestSpecParser::addTagPattern","command collaborator",
-"AssertionResultData","boundary small-class","AssertionResultData::AssertionResultData","constructor",
-"AssertionResultData","boundary small-class","AssertionResultData::reconstructExpression","get set collaborator",
-"AssertionResult","data-provider","AssertionResult::AssertionResult","copy-constructor",
-"AssertionResult","data-provider","AssertionResult::succeeded","predicate",
-"AssertionResult","data-provider","AssertionResult::isOk","predicate",
-"AssertionResult","data-provider","AssertionResult::getResultType","get collaborator",
-"AssertionResult","data-provider","AssertionResult::hasExpression","predicate",
-"AssertionResult","data-provider","AssertionResult::hasMessage","predicate",
-"AssertionResult","data-provider","AssertionResult::getExpression","property",
-"AssertionResult","data-provider","AssertionResult::getExpressionInMacro","property",
-"AssertionResult","data-provider","AssertionResult::hasExpandedExpression","predicate",
-"AssertionResult","data-provider","AssertionResult::getExpandedExpression","property",
-"AssertionResult","data-provider","AssertionResult::getMessage","get",
-"AssertionResult","data-provider","AssertionResult::getSourceInfo","get collaborator",
-"AssertionResult","data-provider","AssertionResult::getTestMacroName","get collaborator",
-"StringStreams","small-class","add","property non-void-command collaborator",
-"StringStreams","small-class","release","command",
-"TagAliasRegistry","data-provider","TagAliasRegistry::~TagAliasRegistry","destructor",
-"TagAliasRegistry","data-provider","TagAliasRegistry::find","property collaborator",
-"TagAliasRegistry","data-provider","TagAliasRegistry::expandAliases","property controller",
-"TagAliasRegistry","data-provider","TagAliasRegistry::add","void-accessor command collaborator",
-"Estimate","small-class","operatorEstimate<Duration2>","unclassified",
-"TestInvokerAsFunction","empty","TestInvokerAsFunction::TestInvokerAsFunction","constructor",
-"now","boundary degenerate small-class","operator()","wrapper stateless",
-"LazyStat","small-class","operator=","get set collaborator",
-"LazyStat","small-class","reset","set",
-"TestRunInfo","empty","TestRunInfo::TestRunInfo","constructor",
-"GroupInfo","empty","GroupInfo::GroupInfo","constructor",
-"Help","empty","Help","copy-constructor",
-"SectionStats","empty","SectionStats::SectionStats","constructor",
-"TestCaseStats","empty","TestCaseStats::TestCaseStats","constructor",
-"TagInfo","small-class","TagInfo::add","void-accessor set",
-"TagInfo","small-class","TagInfo::all","property controller",
-"MatchExpr","boundary small-class","MatchExpr","constructor",
-"MatchExpr","boundary small-class","streamReconstructedExpression","collaborator",
-"Option","data-provider","Option","constructor",
-"Option","data-provider","Option","constructor",
-"Option","data-provider","Option","copy-constructor",
-"Option","data-provider","~Option","destructor",
-"Option","data-provider","operator=","get set",
-"Option","data-provider","operator=","get set collaborator",
-"Option","data-provider","reset","set",
-"Option","data-provider","operator*","get collaborator",
-"Option","data-provider","operator*","get collaborator",
-"Option","data-provider","operator->","get collaborator",
-"Option","data-provider","operator->","get collaborator",
-"Option","data-provider","valueOr","property collaborator",
-"Option","data-provider","some","predicate",
-"Option","data-provider","none","predicate",
-"Option","data-provider","operator!","predicate",
-"Option","data-provider","operatorbool","unclassified",
-"ConsoleReporter","boundary","ConsoleReporter::ConsoleReporter","constructor",
-"ConsoleReporter","boundary","ConsoleReporter::getDescription","incidental",
-"ConsoleReporter","boundary","ConsoleReporter::noMatchingTestCases","unclassified",
-"ConsoleReporter","boundary","ConsoleReporter::reportInvalidArguments","unclassified",
-"ConsoleReporter","boundary","ConsoleReporter::assertionStarting","empty",
-"ConsoleReporter","boundary","ConsoleReporter::assertionEnded","predicate non-void-command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::sectionStarting","void-accessor command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::sectionEnded","void-accessor command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::benchmarkPreparing","void-accessor command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::benchmarkStarting","void-accessor command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::benchmarkEnded","command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::benchmarkFailed","wrapper",
-"ConsoleReporter","boundary","ConsoleReporter::testCaseEnded","void-accessor command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::testGroupEnded","void-accessor command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::testRunEnded","void-accessor command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::testRunStarting","void-accessor command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::lazyPrint","command",
-"ConsoleReporter","boundary","ConsoleReporter::lazyPrintWithoutClosingBenchmarkTable","command",
-"ConsoleReporter","boundary","ConsoleReporter::lazyPrintRunInfo","command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::lazyPrintGroupInfo","command",
-"ConsoleReporter","boundary","ConsoleReporter::printTestCaseAndSectionHeader","command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::printClosedHeader","command",
-"ConsoleReporter","boundary","ConsoleReporter::printOpenHeader","void-accessor wrapper",
-"ConsoleReporter","boundary","ConsoleReporter::printHeaderString","void-accessor controller",
-"ConsoleReporter","boundary","ConsoleReporter::printTotals","void-accessor command collaborator",
-"ConsoleReporter","boundary","ConsoleReporter::printSummaryRow","controller",
-"ConsoleReporter","boundary","ConsoleReporter::printTotalsDivider","void-accessor controller",
-"ConsoleReporter","boundary","ConsoleReporter::printSummaryDivider","wrapper",
-"ConsoleReporter","boundary","ConsoleReporter::printTestFilters","command collaborator",
-"StreamingReporterBase","commander","StreamingReporterBase","constructor",
-"StreamingReporterBase","commander","getPreferences","get collaborator",
-"StreamingReporterBase","commander","noMatchingTestCases","empty",
-"StreamingReporterBase","commander","reportInvalidArguments","empty",
-"StreamingReporterBase","commander","testRunStarting","set collaborator",
-"StreamingReporterBase","commander","testGroupStarting","set collaborator",
-"StreamingReporterBase","commander","testCaseStarting","set collaborator",
-"StreamingReporterBase","commander","sectionStarting","void-accessor command collaborator",
-"StreamingReporterBase","commander","sectionEnded","command",
-"StreamingReporterBase","commander","testCaseEnded","command",
-"StreamingReporterBase","commander","testGroupEnded","command",
-"StreamingReporterBase","commander","testRunEnded","command",
-"StreamingReporterBase","commander","skipTest","empty",
-"CumulativeReporterBase","boundary","getPreferences","get collaborator",
-"CumulativeReporterBase","boundary","testRunStarting","empty",
-"CumulativeReporterBase","boundary","testGroupStarting","empty",
-"CumulativeReporterBase","boundary","testCaseStarting","empty",
-"CumulativeReporterBase","boundary","sectionStarting","void-accessor command collaborator",
-"CumulativeReporterBase","boundary","assertionStarting","empty",
-"CumulativeReporterBase","boundary","assertionEnded","predicate non-void-command collaborator",
-"CumulativeReporterBase","boundary","sectionEnded","command collaborator",
-"CumulativeReporterBase","boundary","testCaseEnded","void-accessor command collaborator",
-"CumulativeReporterBase","boundary","testGroupEnded","void-accessor command collaborator",
-"CumulativeReporterBase","boundary","testRunEnded","void-accessor command collaborator",
-"CumulativeReporterBase","boundary","skipTest","empty",
-"EnvironmentEstimate","small-class","operatorEnvironmentEstimate<Duration2>","unclassified",
-"TestEventListenerBase","degenerate","TestEventListenerBase::TestEventListenerBase","constructor",
-"TestEventListenerBase","degenerate","TestEventListenerBase::getSupportedVerbosities","collaborator incidental",
-"TestEventListenerBase","degenerate","TestEventListenerBase::assertionStarting","empty",
-"TestEventListenerBase","degenerate","TestEventListenerBase::assertionEnded","incidental",
-"Colour","lazy-class data-class small-class","Colour::Colour","constructor",
-"Colour","lazy-class data-class small-class","Colour::Colour","copy-constructor",
-"Colour","lazy-class data-class small-class","Colour::operator=","get set",
-"Colour","lazy-class data-class small-class","Colour::~Colour","destructor",
-"Colour","lazy-class data-class small-class","Colour::use","controller stateless",
-"BoundFlagLambda","data-provider boundary small-class","BoundFlagLambda","constructor",
-"BoundFlagLambda","data-provider boundary small-class","setFlag","property wrapper",
-"XmlEncode","data-provider boundary small-class","XmlEncode::XmlEncode","constructor",
-"XmlEncode","data-provider boundary small-class","XmlEncode::encodeTo","void-accessor collaborator",
-"XmlReporter","entity boundary","XmlReporter::XmlReporter","constructor",
-"XmlReporter","entity boundary","XmlReporter::getDescription","incidental",
-"XmlReporter","entity boundary","XmlReporter::getStylesheetRef","wrapper stateless",
-"XmlReporter","entity boundary","XmlReporter::writeSourceInfo","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::noMatchingTestCases","void-accessor command",
-"XmlReporter","entity boundary","XmlReporter::testRunStarting","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::testGroupStarting","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::testCaseStarting","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::sectionStarting","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::assertionStarting","empty",
-"XmlReporter","entity boundary","XmlReporter::assertionEnded","predicate non-void-command collaborator",
-"XmlReporter","entity boundary","XmlReporter::sectionEnded","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::testCaseEnded","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::testGroupEnded","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::testRunEnded","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::benchmarkPreparing","void-accessor command",
-"XmlReporter","entity boundary","XmlReporter::benchmarkStarting","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::benchmarkEnded","void-accessor command collaborator",
-"XmlReporter","entity boundary","XmlReporter::benchmarkFailed","void-accessor command",
-"PredicateMatcher","data-provider lazy-class small-class","PredicateMatcher","constructor",
-"PredicateMatcher","data-provider lazy-class small-class","match","wrapper stateless",
-"PredicateMatcher","data-provider lazy-class small-class","describe","get",
-"Approx","boundary","operator()","property collaborator",
-"Approx","boundary","Approx","constructor",
-"Approx","boundary","operator==","controller stateless",
-"Approx","boundary","operator==","predicate non-void-command collaborator",
-"Approx","boundary","operator!=","predicate non-void-command",
-"Approx","boundary","operator!=","predicate non-void-command collaborator",
-"Approx","boundary","operator<=","incidental",
-"Approx","boundary","operator<=","collaborator incidental",
-"Approx","boundary","operator>=","incidental",
-"Approx","boundary","operator>=","collaborator incidental",
-"Approx","boundary","epsilon","get non-void-command collaborator",
-"Approx","boundary","margin","get non-void-command collaborator",
-"Approx","boundary","scale","get set collaborator",
-"Approx","boundary","Approx::Approx","constructor",
-"Approx","boundary","Approx::custom","property non-void-command",
-"Approx","boundary","Approx::operator-","property collaborator",
-"Approx","boundary","Approx::toString","property controller",
-"Approx","boundary","Approx::equalityComparisonImpl","predicate wrapper",
-"Approx","boundary","Approx::setMargin","set",
-"Approx","boundary","Approx::setEpsilon","set",
+"MyString","data-provider","MyString","constructor"
+"MyString","data-provider","MyString","constructor"
+"MyString","data-provider","empty","predicate"
+"MyString","data-provider","begin","property collaborator"
+"MyString","data-provider","end","property collaborator"
+"MyString","data-provider","append","command"
+"MyString","data-provider","append","command"
+"MyString","data-provider","size","property"
+"MyString","data-provider","compare","property"
+"MyOpt","data-provider data-class","MyOpt","constructor"
+"MyOpt","data-provider data-class","MyOpt","constructor"
+"MyOpt","data-provider data-class","operator*","get collaborator"
+"MyOpt","data-provider data-class","operatorbool","get"
+"MyOpt","data-provider data-class","has_value","get"
+"MyOpt","data-provider data-class","value","get collaborator"
+"TablePrinter","boundary lazy-class","TablePrinter","constructor"
+"TablePrinter","boundary lazy-class","columnInfos","get collaborator"
+"TablePrinter","boundary lazy-class","open","set collaborator"
+"TablePrinter","boundary lazy-class","close","set"
+"TablePrinter","boundary lazy-class","operator<<","collaborator incidental"
+"TablePrinter","boundary lazy-class","operator<<","controller stateless"
+"TablePrinter","boundary lazy-class","operator<<","incidental"
+"Duration","data-provider","Duration","constructor"
+"Duration","data-provider","value","get property collaborator"
+"Duration","data-provider","unitsAsString","property"
+"Duration","data-provider","operator<<","controller stateless"
+"AssertionPrinter","commander boundary","AssertionPrinter","constructor"
+"AssertionPrinter","commander boundary","print","command"
+"AssertionPrinter","commander boundary","printSourceInfo","collaborator"
+"AssertionPrinter","commander boundary","printResultType","controller"
+"AssertionPrinter","commander boundary","printIssue","unclassified"
+"AssertionPrinter","commander boundary","printExpressionWas","command collaborator"
+"AssertionPrinter","commander boundary","printOriginalExpression","unclassified"
+"AssertionPrinter","commander boundary","printReconstructedExpression","collaborator"
+"AssertionPrinter","commander boundary","printMessage","set"
+"AssertionPrinter","commander boundary","printRemainingMessages","command collaborator"
+"TestHasher","data-provider boundary small-class","TestHasher","constructor"
+"TestHasher","data-provider boundary small-class","operator()","property collaborator"
+"FileStream","data-provider boundary data-class small-class","FileStream","constructor"
+"FileStream","data-provider boundary data-class small-class","stream","get collaborator"
+"StreamBufImpl","small-class","StreamBufImpl","constructor"
+"StreamBufImpl","small-class","~StreamBufImpl","destructor"
+"StreamBufImpl","small-class","overflow","property non-void-command"
+"StreamBufImpl","small-class","sync","wrapper stateless"
+"TestGroup","entity boundary small-class","TestGroup","constructor"
+"TestGroup","entity boundary small-class","execute","property non-void-command collaborator"
+"Version","empty","Version::Version","copy-constructor"
+"Session","entity boundary","run","property non-void-command collaborator"
+"Session","entity boundary","Session::Session","constructor"
+"Session","entity boundary","Session::~Session","destructor"
+"Session","entity boundary","Session::showHelp","wrapper"
+"Session","entity boundary","Session::libIdentify","wrapper stateless"
+"Session","entity boundary","Session::applyCommandLine","property non-void-command collaborator"
+"Session","entity boundary","Session::applyCommandLine","property non-void-command"
+"Session","entity boundary","Session::useConfigData","set collaborator"
+"Session","entity boundary","Session::run","property non-void-command"
+"Session","entity boundary","Session::cli","get collaborator"
+"Session","entity boundary","Session::cli","set collaborator"
+"Session","entity boundary","Session::configData","get collaborator"
+"Session","entity boundary","Session::config","get set collaborator"
+"Session","entity boundary","Session::runInternal","property non-void-command collaborator"
+"GeneratorTracker","entity boundary","GeneratorTracker","constructor"
+"GeneratorTracker","entity boundary","isGeneratorTracker","incidental"
+"GeneratorTracker","entity boundary","hasGenerator","property collaborator"
+"GeneratorTracker","entity boundary","close","command collaborator"
+"GeneratorTracker","entity boundary","GeneratorTracker::~GeneratorTracker","destructor"
+"OutputDebugWriter","boundary degenerate small-class","operator()","wrapper stateless"
+"ISingleton","empty","ISingleton::~ISingleton","destructor"
+"ReporterRegistry","entity boundary","ReporterRegistry::create","property collaborator"
+"ReporterRegistry","entity boundary","ReporterRegistry::registerReporter","command collaborator"
+"ReporterRegistry","entity boundary","ReporterRegistry::registerListener","command collaborator"
+"ReporterRegistry","entity boundary","ReporterRegistry::getFactories","get collaborator"
+"ReporterRegistry","entity boundary","ReporterRegistry::getListeners","get collaborator"
+"OutputRedirect","empty","OutputRedirect::OutputRedirect","constructor"
+"OutputRedirect","empty","OutputRedirect::~OutputRedirect","destructor"
+"TempFile","small-class","TempFile::TempFile","constructor"
+"TempFile","small-class","TempFile::TempFile","constructor"
+"TempFile","small-class","TempFile::~TempFile","destructor"
+"TempFile","small-class","TempFile::getFile","get collaborator"
+"TempFile","small-class","TempFile::getContents","property controller"
+"RedirectedStreams","empty","RedirectedStreams::RedirectedStreams","constructor"
+"RedirectedStreams","empty","RedirectedStreams::~RedirectedStreams","destructor"
+"RedirectedStdErr","data-provider small-class","RedirectedStdErr::RedirectedStdErr","constructor"
+"RedirectedStdErr","data-provider small-class","RedirectedStdErr::str","property"
+"RedirectedStdOut","data-provider small-class","RedirectedStdOut::RedirectedStdOut","constructor"
+"RedirectedStdOut","data-provider small-class","RedirectedStdOut::str","property"
+"RedirectedStream","empty","RedirectedStream::RedirectedStream","constructor"
+"RedirectedStream","empty","RedirectedStream::~RedirectedStream","destructor"
+"ExceptionTranslatorRegistry","boundary","ExceptionTranslatorRegistry::~ExceptionTranslatorRegistry","destructor"
+"ExceptionTranslatorRegistry","boundary","ExceptionTranslatorRegistry::registerTranslator","command collaborator"
+"ExceptionTranslatorRegistry","boundary","ExceptionTranslatorRegistry::translateActiveException","property"
+"ExceptionTranslatorRegistry","boundary","ExceptionTranslatorRegistry::tryTranslators","get"
+"ExceptionTranslatorRegistry","boundary","ExceptionTranslatorRegistry::translateActiveException","wrapper stateless"
+"ExceptionTranslatorRegistry","boundary","ExceptionTranslatorRegistry::tryTranslators","wrapper stateless"
+"EnumValuesRegistry","entity boundary small-class","EnumValuesRegistry::registerEnum","property non-void-command collaborator"
+"Win32ColourImpl","commander boundary small-class","Win32ColourImpl","constructor"
+"Win32ColourImpl","commander boundary small-class","use","command collaborator"
+"Win32ColourImpl","commander boundary small-class","setTextAttribute","wrapper"
+"NoColourImpl","degenerate small-class","use","empty"
+"Parser","boundary","operator|=","get set collaborator"
+"Parser","boundary","operator|=","get non-void-command collaborator"
+"Parser","boundary","operator|=","get non-void-command collaborator"
+"Parser","boundary","operator|=","get non-void-command collaborator"
+"Parser","boundary","operator|","property wrapper"
+"Parser","boundary","operator+=","property non-void-command collaborator"
+"Parser","boundary","operator+","property collaborator"
+"Parser","boundary","getHelpColumns","property controller"
+"Parser","boundary","writeToStream","collaborator"
+"Parser","boundary","operator<<","collaborator incidental"
+"Parser","boundary","validate","property controller"
+"Parser","boundary","parse","property collaborator"
+"Opt","entity data-provider boundary","Opt","constructor"
+"Opt","entity data-provider boundary","Opt","constructor"
+"Opt","entity data-provider boundary","Opt","constructor"
+"Opt","entity data-provider boundary","Opt","constructor"
+"Opt","entity data-provider boundary","operator[]","get non-void-command collaborator"
+"Opt","entity data-provider boundary","getHelpColumns","property collaborator"
+"Opt","entity data-provider boundary","isMatch","property wrapper"
+"Opt","entity data-provider boundary","parse","property collaborator"
+"Opt","entity data-provider boundary","validate","property collaborator"
+"Arg","data-provider boundary small-class","parse","property collaborator"
+"BoundValueRef","data-provider boundary small-class","BoundValueRef","constructor"
+"BoundValueRef","data-provider boundary small-class","setValue","property wrapper"
+"BoundRef","boundary degenerate small-class","isContainer","collaborator incidental"
+"BoundRef","boundary degenerate small-class","isFlag","collaborator incidental"
+"ParseState","data-provider boundary data-class small-class","ParseState","constructor"
+"ParseState","data-provider boundary data-class small-class","type","get collaborator"
+"ParseState","data-provider boundary data-class small-class","remainingTokens","get collaborator"
+"CoutStream","data-provider boundary data-class small-class","CoutStream","constructor"
+"CoutStream","data-provider boundary data-class small-class","stream","get collaborator"
+"BasicResult","data-provider","BasicResult","copy-constructor"
+"BasicResult","data-provider","operatorbool","unclassified"
+"BasicResult","data-provider","type","get collaborator"
+"BasicResult","data-provider","errorMessage","get"
+"BasicResult","data-provider","enforceOk","unclassified"
+"BasicResult","data-provider","BasicResult","constructor"
+"ResultValueBase","boundary data-class small-class","value","get wrapper"
+"ResultValueBase","boundary data-class small-class","ResultValueBase","constructor"
+"ResultValueBase","boundary data-class small-class","ResultValueBase","copy-constructor"
+"ResultValueBase","boundary data-class small-class","ResultValueBase","constructor"
+"ResultValueBase","boundary data-class small-class","operator=","get non-void-command collaborator"
+"ResultValueBase","boundary data-class small-class","~ResultValueBase","destructor"
+"ResultBase","empty","ResultBase","constructor"
+"TokenStream","entity boundary","loadBuffer","command"
+"TokenStream","entity boundary","TokenStream","constructor"
+"TokenStream","entity boundary","TokenStream","constructor"
+"TokenStream","entity boundary","operatorbool","unclassified"
+"TokenStream","entity boundary","count","property collaborator"
+"TokenStream","entity boundary","operator*","property collaborator"
+"TokenStream","entity boundary","operator->","property collaborator"
+"TokenStream","entity boundary","operator++","get non-void-command collaborator"
+"Args","data-provider data-class small-class","Args","constructor"
+"Args","data-provider data-class small-class","Args","constructor"
+"Args","data-provider data-class small-class","exeName","get"
+"PosixColourImpl","commander boundary small-class","use","command collaborator"
+"PosixColourImpl","commander boundary small-class","setColour","wrapper stateless"
+"Column","data-provider boundary","indent","get set collaborator"
+"Column","data-provider boundary","initialIndent","get set collaborator"
+"Column","data-provider boundary","width","get collaborator"
+"Column","data-provider boundary","begin","property wrapper"
+"Column","data-provider boundary","end","property collaborator"
+"Column","data-provider boundary","operator<<","collaborator incidental"
+"Column","data-provider boundary","toString","property controller"
+"Column","data-provider boundary","Column::operator+","property collaborator"
+"FatalConditionHandlerGuard","empty","FatalConditionHandlerGuard","constructor"
+"FatalConditionHandlerGuard","empty","~FatalConditionHandlerGuard","destructor"
+"FatalConditionHandler","commander boundary lazy-class degenerate","engage","set"
+"FatalConditionHandler","commander boundary lazy-class degenerate","disengage","set"
+"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::FatalConditionHandler","constructor"
+"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::engage_platform","wrapper stateless"
+"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::disengage_platform","wrapper stateless"
+"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::FatalConditionHandler","constructor"
+"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::~FatalConditionHandler","destructor"
+"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::engage_platform","wrapper stateless"
+"FatalConditionHandler","commander boundary lazy-class degenerate","FatalConditionHandler::disengage_platform","wrapper stateless"
+"TrackerBase","unclassified","hasStarted","predicate"
+"TrackerBase","unclassified","TrackerBase::TrackerBase","constructor"
+"TrackerBase","unclassified","TrackerBase::isComplete","predicate"
+"TrackerBase","unclassified","TrackerBase::isSuccessfullyCompleted","predicate"
+"TrackerBase","unclassified","TrackerBase::isOpen","predicate"
+"TrackerBase","unclassified","TrackerBase::hasChildren","predicate"
+"TrackerBase","unclassified","TrackerBase::addChild","command collaborator"
+"TrackerBase","unclassified","TrackerBase::findChild","property non-void-command collaborator"
+"TrackerBase","unclassified","TrackerBase::parent","get collaborator"
+"TrackerBase","unclassified","TrackerBase::openChild","set"
+"TrackerBase","unclassified","TrackerBase::isSectionTracker","incidental"
+"TrackerBase","unclassified","TrackerBase::isGeneratorTracker","incidental"
+"TrackerBase","unclassified","TrackerBase::open","command"
+"TrackerBase","unclassified","TrackerBase::close","command"
+"TrackerBase","unclassified","TrackerBase::fail","command"
+"TrackerBase","unclassified","TrackerBase::markAsNeedingAnotherRun","set"
+"TrackerBase","unclassified","TrackerBase::moveToParent","command"
+"TrackerBase","unclassified","TrackerBase::moveToThis","command"
+"TrackerContext","unclassified","TrackerContext::startRun","get non-void-command collaborator"
+"TrackerContext","unclassified","TrackerContext::endRun","command"
+"TrackerContext","unclassified","TrackerContext::startCycle","command"
+"TrackerContext","unclassified","TrackerContext::completeCycle","set"
+"TrackerContext","unclassified","TrackerContext::completedCycle","predicate"
+"TrackerContext","unclassified","TrackerContext::currentTracker","get collaborator"
+"TrackerContext","unclassified","TrackerContext::setCurrentTracker","set collaborator"
+"ObjectStorage","entity boundary","ObjectStorage","constructor"
+"ObjectStorage","entity boundary","ObjectStorage","copy-constructor"
+"ObjectStorage","entity boundary","ObjectStorage","copy-constructor"
+"ObjectStorage","entity boundary","~ObjectStorage","destructor"
+"ObjectStorage","entity boundary","construct","wrapper"
+"ObjectStorage","entity boundary","destruct","non-void-command collaborator"
+"ObjectStorage","entity boundary","destruct_on_exit","wrapper stateless"
+"ObjectStorage","entity boundary","destruct_on_exit","empty"
+"ObjectStorage","entity boundary","stored_object","property collaborator"
+"ObjectStorage","entity boundary","stored_object","property collaborator"
+"Benchmark","unclassified","Benchmark","constructor"
+"Benchmark","unclassified","Benchmark","constructor"
+"Benchmark","unclassified","prepare","property controller"
+"Benchmark","unclassified","run","controller"
+"Benchmark","unclassified","operator=","get set collaborator"
+"Benchmark","unclassified","operatorbool","incidental"
+"ListeningReporter","entity commander boundary","ListeningReporter::ListeningReporter","constructor"
+"ListeningReporter","entity commander boundary","ListeningReporter::addListener","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::addReporter","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::getPreferences","get collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::getSupportedVerbosities","wrapper stateless"
+"ListeningReporter","entity commander boundary","ListeningReporter::noMatchingTestCases","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::reportInvalidArguments","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::benchmarkPreparing","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::benchmarkStarting","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::benchmarkEnded","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::benchmarkFailed","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::testRunStarting","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::testGroupStarting","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::testCaseStarting","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::sectionStarting","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::assertionStarting","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::assertionEnded","predicate non-void-command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::sectionEnded","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::testCaseEnded","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::testGroupEnded","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::testRunEnded","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::skipTest","command collaborator"
+"ListeningReporter","entity commander boundary","ListeningReporter::isMulti","incidental"
+"ComposableParserImpl","data-provider boundary small-class","ComposableParserImpl<DerivedT>::operator|","property wrapper"
+"ExecutionPlan","data-provider small-class","operatorExecutionPlan<Duration2>","unclassified"
+"ExecutionPlan","data-provider small-class","run","property collaborator"
+"repeater","boundary degenerate small-class","operator()","wrapper stateless"
+"BenchmarkFunction","data-class","BenchmarkFunction","constructor"
+"BenchmarkFunction","data-class","BenchmarkFunction","constructor"
+"BenchmarkFunction","data-class","operator=","get set"
+"BenchmarkFunction","data-class","operator=","get non-void-command"
+"BenchmarkFunction","data-class","operator()","collaborator"
+"BoundValueRef<std::vector<T>>","entity boundary small-class","BoundValueRef","constructor"
+"BoundValueRef<std::vector<T>>","entity boundary small-class","isContainer","collaborator incidental"
+"BoundValueRef<std::vector<T>>","entity boundary small-class","setValue","property non-void-command collaborator"
+"Columns","data-provider boundary","begin","property wrapper"
+"Columns","data-provider boundary","end","property collaborator"
+"Columns","data-provider boundary","operator+=","get non-void-command collaborator"
+"Columns","data-provider boundary","operator+","property collaborator"
+"Columns","data-provider boundary","operator<<","collaborator incidental"
+"Columns","data-provider boundary","toString","property controller"
+"RegistrarForTagAliases","empty","RegistrarForTagAliases::RegistrarForTagAliases","constructor"
+"XmlWriter","boundary","writeAttribute","property non-void-command collaborator"
+"XmlWriter","boundary","XmlWriter::XmlWriter","constructor"
+"XmlWriter","boundary","XmlWriter::~XmlWriter","destructor"
+"XmlWriter","boundary","XmlWriter::startElement","get non-void-command collaborator"
+"XmlWriter","boundary","XmlWriter::scopedElement","property non-void-command collaborator"
+"XmlWriter","boundary","XmlWriter::endElement","get non-void-command collaborator"
+"XmlWriter","boundary","XmlWriter::writeAttribute","get controller"
+"XmlWriter","boundary","XmlWriter::writeAttribute","get"
+"XmlWriter","boundary","XmlWriter::writeText","get non-void-command collaborator"
+"XmlWriter","boundary","XmlWriter::writeComment","get non-void-command collaborator"
+"XmlWriter","boundary","XmlWriter::writeStylesheetRef","unclassified"
+"XmlWriter","boundary","XmlWriter::writeBlankLine","get non-void-command"
+"XmlWriter","boundary","XmlWriter::ensureTagClosed","set"
+"XmlWriter","boundary","XmlWriter::applyFormatting","set collaborator"
+"XmlWriter","boundary","XmlWriter::writeDeclaration","unclassified"
+"XmlWriter","boundary","XmlWriter::newlineIfNecessary","set"
+"ConsoleAssertionPrinter","boundary","ConsoleAssertionPrinter","constructor"
+"ConsoleAssertionPrinter","boundary","print","unclassified"
+"ConsoleAssertionPrinter","boundary","printResultType","collaborator"
+"ConsoleAssertionPrinter","boundary","printOriginalExpression","collaborator"
+"ConsoleAssertionPrinter","boundary","printReconstructedExpression","collaborator"
+"ConsoleAssertionPrinter","boundary","printMessage","collaborator"
+"ConsoleAssertionPrinter","boundary","printSourceInfo","collaborator"
+"LeakDetector","empty","LeakDetector::LeakDetector","constructor"
+"LeakDetector","empty","Catch::LeakDetector::LeakDetector","constructor"
+"LeakDetector","empty","Catch::LeakDetector::~LeakDetector","destructor"
+"NameAndLocation","degenerate small-class","operator==","incidental"
+"NameAndLocation","degenerate small-class","NameAndLocation::NameAndLocation","constructor"
+"GeneratorWrapper","small-class","GeneratorWrapper","constructor"
+"GeneratorWrapper","small-class","get","property collaborator"
+"GeneratorWrapper","small-class","next","predicate non-void-command"
+"SummaryColumn","data-class small-class","SummaryColumn","constructor"
+"SummaryColumn","data-class small-class","addRow","get non-void-command"
+"CompactReporter","unclassified","CompactReporter::getDescription","incidental"
+"CompactReporter","unclassified","CompactReporter::noMatchingTestCases","unclassified"
+"CompactReporter","unclassified","CompactReporter::assertionStarting","empty"
+"CompactReporter","unclassified","CompactReporter::assertionEnded","predicate non-void-command collaborator"
+"CompactReporter","unclassified","CompactReporter::sectionEnded","wrapper"
+"CompactReporter","unclassified","CompactReporter::testRunEnded","command collaborator"
+"CompactReporter","unclassified","CompactReporter::~CompactReporter","destructor"
+"IStreamingReporter","degenerate","reportInvalidArguments","empty"
+"IStreamingReporter","degenerate","benchmarkPreparing","empty"
+"IStreamingReporter","degenerate","benchmarkStarting","empty"
+"IStreamingReporter","degenerate","benchmarkEnded","empty"
+"IStreamingReporter","degenerate","benchmarkFailed","empty"
+"IStreamingReporter","degenerate","IStreamingReporter::fatalErrorEncountered","empty"
+"IStreamingReporter","degenerate","IStreamingReporter::isMulti","incidental"
+"Contains","data-provider boundary small-class","Contains","constructor"
+"Contains","data-provider boundary small-class","match","predicate collaborator"
+"Contains","data-provider boundary small-class","describe","property wrapper"
+"StringMaker<double>","data-provider boundary small-class","StringMaker<double>::convert","property wrapper"
+"std::formatter<E,std::enable_if_t<std::is_enum_v<std::decay_t<E>>&&magic_enum::customize::enum_format_enabled<E>(),char>>","data-provider boundary small-class","format","property collaborator"
+"StringMaker<signedchar>","boundary degenerate small-class","StringMaker<signedchar>::convert","wrapper stateless"
+"StringMaker<bool>","degenerate small-class","StringMaker<bool>::convert","incidental"
+"BoundFlagRefBase","boundary degenerate small-class","isFlag","collaborator incidental"
+"MessageStream","data-provider boundary data-class small-class","operator<<","get collaborator"
+"MatcherBase","data-provider boundary","MatcherBase<T>::operator&&","property wrapper"
+"MatcherBase","data-provider boundary","MatcherBase<T>::operator||","property wrapper"
+"MatcherBase","data-provider boundary","MatcherBase<T>::operator!","property wrapper"
+"StringMaker<longlong>","pure-controller degenerate small-class","StringMaker<longlong>::convert","controller stateless"
+"static_str<0>","degenerate","static_str","constructor"
+"static_str<0>","degenerate","static_str","constructor"
+"static_str<0>","degenerate","data","collaborator incidental"
+"static_str<0>","degenerate","size","incidental"
+"static_str<0>","degenerate","operatorstring_view","incidental"
+"TestRunStats","empty","TestRunStats::TestRunStats","constructor"
+"StringMaker<unsignedlong>","boundary degenerate small-class","StringMaker<unsignedlong>::convert","wrapper stateless"
+"ratio_string","pure-controller degenerate small-class","ratio_string<Ratio>::symbol","controller stateless"
+"RunContext","entity commander boundary","RunContext::RunContext","constructor"
+"RunContext","entity commander boundary","RunContext::~RunContext","destructor"
+"RunContext","entity commander boundary","RunContext::testGroupStarting","command"
+"RunContext","entity commander boundary","RunContext::testGroupEnded","command"
+"RunContext","entity commander boundary","RunContext::runTest","property non-void-command collaborator"
+"RunContext","entity commander boundary","RunContext::config","get collaborator"
+"RunContext","entity commander boundary","RunContext::reporter","get collaborator"
+"RunContext","entity commander boundary","RunContext::assertionEnded","command collaborator"
+"RunContext","entity commander boundary","RunContext::resetAssertionInfo","command"
+"RunContext","entity commander boundary","RunContext::sectionStarted","predicate non-void-command collaborator"
+"RunContext","entity commander boundary","RunContext::acquireGeneratorTracker","property set collaborator"
+"RunContext","entity commander boundary","RunContext::testForMissingAssertions","predicate non-void-command collaborator"
+"RunContext","entity commander boundary","RunContext::sectionEnded","command collaborator"
+"RunContext","entity commander boundary","RunContext::sectionEndedEarly","command collaborator"
+"RunContext","entity commander boundary","RunContext::benchmarkPreparing","command"
+"RunContext","entity commander boundary","RunContext::benchmarkStarting","command collaborator"
+"RunContext","entity commander boundary","RunContext::benchmarkEnded","command collaborator"
+"RunContext","entity commander boundary","RunContext::benchmarkFailed","command"
+"RunContext","entity commander boundary","RunContext::pushScopedMessage","command collaborator"
+"RunContext","entity commander boundary","RunContext::popScopedMessage","command collaborator"
+"RunContext","entity commander boundary","RunContext::emplaceUnscopedMessage","command collaborator"
+"RunContext","entity commander boundary","RunContext::getCurrentTestName","property"
+"RunContext","entity commander boundary","RunContext::getLastResult","property collaborator"
+"RunContext","entity commander boundary","RunContext::exceptionEarlyReported","set"
+"RunContext","entity commander boundary","RunContext::handleFatalErrorCondition","command collaborator"
+"RunContext","entity commander boundary","RunContext::lastAssertionPassed","get"
+"RunContext","entity commander boundary","RunContext::assertionPassed","command"
+"RunContext","entity commander boundary","RunContext::aborting","predicate"
+"RunContext","entity commander boundary","RunContext::runCurrentTest","command collaborator"
+"RunContext","entity commander boundary","RunContext::invokeActiveTestCase","command collaborator"
+"RunContext","entity commander boundary","RunContext::handleUnfinishedSections","command collaborator"
+"RunContext","entity commander boundary","RunContext::handleExpr","command collaborator"
+"RunContext","entity commander boundary","RunContext::reportExpr","set collaborator"
+"RunContext","entity commander boundary","RunContext::handleMessage","command collaborator"
+"RunContext","entity commander boundary","RunContext::handleUnexpectedExceptionNotThrown","command collaborator"
+"RunContext","entity commander boundary","RunContext::handleUnexpectedInflightException","command collaborator"
+"RunContext","entity commander boundary","RunContext::populateReaction","void-accessor command collaborator"
+"RunContext","entity commander boundary","RunContext::handleIncomplete","set collaborator"
+"RunContext","entity commander boundary","RunContext::handleNonExpr","command collaborator"
+"ApproxMatcher","entity boundary","ApproxMatcher","constructor"
+"ApproxMatcher","entity boundary","match","predicate collaborator"
+"ApproxMatcher","entity boundary","describe","property wrapper"
+"ApproxMatcher","entity boundary","epsilon","get non-void-command collaborator"
+"ApproxMatcher","entity boundary","margin","get non-void-command collaborator"
+"ApproxMatcher","entity boundary","scale","get non-void-command collaborator"
+"ScopedMessage","empty","ScopedMessage::ScopedMessage","constructor"
+"ScopedMessage","empty","ScopedMessage::ScopedMessage","copy-constructor"
+"ScopedMessage","empty","ScopedMessage::~ScopedMessage","destructor"
+"optimized_away_error","degenerate small-class","what","incidental"
+"StringMaker<charconst*>","boundary degenerate small-class","StringMaker<charconst*>::convert","wrapper stateless"
+"ExeName","boundary lazy-class","ExeName","constructor"
+"ExeName","boundary lazy-class","ExeName","constructor"
+"ExeName","boundary lazy-class","ExeName","constructor"
+"ExeName","boundary lazy-class","parse","wrapper stateless"
+"ExeName","boundary lazy-class","name","get"
+"ExeName","boundary lazy-class","set","property set collaborator"
+"SampleAnalysis","boundary small-class","operatorSampleAnalysis<Duration2>","collaborator"
+"ParserBase","degenerate","validate","wrapper stateless"
+"ParserBase","degenerate","cardinality","collaborator incidental"
+"ParserBase","degenerate","parse","controller stateless"
+"StringMaker<float>","data-provider boundary small-class","StringMaker<float>::convert","property wrapper"
+"ITransientExpression","data-provider boundary data-class small-class","isBinaryExpression","get collaborator"
+"ITransientExpression","data-provider boundary data-class small-class","getResult","get collaborator"
+"ITransientExpression","data-provider boundary data-class small-class","ITransientExpression","constructor"
+"AutoReg","empty","AutoReg::AutoReg","constructor"
+"static_str","data-provider","static_str","constructor"
+"static_str","data-provider","static_str","constructor"
+"static_str","data-provider","data","get collaborator"
+"static_str","data-provider","size","incidental"
+"static_str","data-provider","operatorstring_view","unclassified"
+"static_str","data-provider","static_str","constructor"
+"static_str","data-provider","static_str","constructor"
+"ContainsElementMatcher","data-provider boundary small-class","ContainsElementMatcher","constructor"
+"ContainsElementMatcher","data-provider boundary small-class","match","predicate collaborator"
+"ContainsElementMatcher","data-provider boundary small-class","describe","property wrapper"
+"EnumInfo","data-provider boundary small-class","EnumInfo::~EnumInfo","destructor"
+"EnumInfo","data-provider boundary small-class","EnumInfo::lookup","property collaborator"
+"constexpr_hash_t<Value,std::enable_if_t<is_enum_v<Value>>>","boundary degenerate small-class","operator()","collaborator incidental"
+"IteratorGenerator","data-class small-class","IteratorGenerator","constructor"
+"IteratorGenerator","data-class small-class","get","get collaborator"
+"IteratorGenerator","data-class small-class","next","predicate set"
+"StringMaker<char*>","boundary degenerate small-class","StringMaker<char*>::convert","wrapper stateless"
+"StartsWithMatcher","data-provider small-class","StartsWithMatcher::StartsWithMatcher","constructor"
+"StartsWithMatcher","data-provider small-class","StartsWithMatcher::match","predicate"
+"TestInvokerAsMethod","boundary degenerate small-class","TestInvokerAsMethod","constructor"
+"TestInvokerAsMethod","boundary degenerate small-class","invoke","collaborator incidental"
+"case_insensitive","boundary degenerate small-class","operator()","wrapper stateless"
+"StartupExceptionRegistry","boundary small-class","StartupExceptionRegistry::add","command collaborator"
+"StartupExceptionRegistry","boundary small-class","StartupExceptionRegistry::getExceptions","get collaborator"
+"StringRef","data-provider boundary","StringRef","constructor"
+"StringRef","data-provider boundary","StringRef","constructor"
+"StringRef","data-provider boundary","operatorstd::string","wrapper"
+"StringRef","data-provider boundary","operator!=","property collaborator"
+"StringRef","data-provider boundary","operator[]","get collaborator"
+"StringRef","data-provider boundary","empty","property collaborator"
+"StringRef","data-provider boundary","size","get collaborator"
+"StringRef","data-provider boundary","isNullTerminated","get collaborator"
+"StringRef","data-provider boundary","begin","get collaborator"
+"StringRef","data-provider boundary","end","property collaborator"
+"StringRef","data-provider boundary","StringRef::StringRef","constructor"
+"StringRef","data-provider boundary","StringRef::c_str","get collaborator"
+"StringRef","data-provider boundary","StringRef::data","get collaborator"
+"StringRef","data-provider boundary","StringRef::substr","property collaborator"
+"StringRef","data-provider boundary","StringRef::operator==","property wrapper"
+"StringMaker<long>","boundary degenerate small-class","StringMaker<long>::convert","wrapper stateless"
+"StringMaker<unsignedlonglong>","pure-controller degenerate small-class","StringMaker<unsignedlonglong>::convert","controller stateless"
+"name_sort_impl","boundary degenerate small-class","operator()","wrapper stateless"
+"StringMaker<wchar_t*>","boundary degenerate small-class","StringMaker<wchar_t*>::convert","wrapper stateless"
+"RGB","data-provider boundary","empty","predicate wrapper"
+"RGB","data-provider boundary","operator==","predicate wrapper"
+"RGB","data-provider boundary","operator<<","collaborator incidental"
+"RGB","data-provider boundary","empty","predicate wrapper"
+"RGB","data-provider boundary","operator==","predicate wrapper"
+"RGB","data-provider boundary","operator<<","collaborator incidental"
+"Spacer","empty","Spacer","constructor"
+"BenchmarkStats","boundary small-class","operatorBenchmarkStats<Duration2>","collaborator"
+"array","entity data-provider boundary","at","get non-void-command collaborator"
+"array","entity data-provider boundary","at","get collaborator"
+"array","entity data-provider boundary","operator[]","get property non-void-command collaborator"
+"array","entity data-provider boundary","operator[]","get property collaborator"
+"array","entity data-provider boundary","front","property non-void-command collaborator"
+"array","entity data-provider boundary","front","property collaborator"
+"array","entity data-provider boundary","back","property non-void-command collaborator"
+"array","entity data-provider boundary","back","property collaborator"
+"array","entity data-provider boundary","data","property non-void-command collaborator"
+"array","entity data-provider boundary","data","property collaborator"
+"array","entity data-provider boundary","begin","property non-void-command collaborator"
+"array","entity data-provider boundary","begin","property collaborator"
+"array","entity data-provider boundary","cbegin","property collaborator"
+"array","entity data-provider boundary","end","property non-void-command collaborator"
+"array","entity data-provider boundary","end","property collaborator"
+"array","entity data-provider boundary","cend","property collaborator"
+"array","entity data-provider boundary","rbegin","property non-void-command collaborator"
+"array","entity data-provider boundary","rbegin","property collaborator"
+"array","entity data-provider boundary","crbegin","property collaborator"
+"array","entity data-provider boundary","rend","property non-void-command collaborator"
+"array","entity data-provider boundary","rend","property collaborator"
+"array","entity data-provider boundary","crend","property collaborator"
+"array","entity data-provider boundary","empty","predicate"
+"array","entity data-provider boundary","size","property"
+"array","entity data-provider boundary","max_size","property"
+"array","entity data-provider boundary","fill","collaborator"
+"array","entity data-provider boundary","swap","void-accessor set collaborator"
+"array","entity data-provider boundary","operator==","wrapper stateless"
+"array","entity data-provider boundary","operator!=","wrapper stateless"
+"array","entity data-provider boundary","operator<","wrapper stateless"
+"array","entity data-provider boundary","operator<=","wrapper stateless"
+"array","entity data-provider boundary","operator>","wrapper stateless"
+"array","entity data-provider boundary","operator>=","wrapper stateless"
+"Equals","data-provider boundary small-class","Equals","constructor"
+"Equals","data-provider boundary small-class","match","predicate collaborator"
+"Equals","data-provider boundary small-class","describe","property wrapper"
+"Context","boundary data-class","getResultCapture","get collaborator"
+"Context","boundary data-class","getRunner","get collaborator"
+"Context","boundary data-class","getConfig","get collaborator"
+"Context","boundary data-class","setResultCapture","set collaborator"
+"Context","boundary data-class","setRunner","set collaborator"
+"Context","boundary data-class","setConfig","set collaborator"
+"StringMaker<unsignedint>","boundary degenerate small-class","StringMaker<unsignedint>::convert","wrapper stateless"
+"Generators","entity commander boundary","populate","command collaborator"
+"Generators","entity commander boundary","populate","command collaborator"
+"Generators","entity commander boundary","populate","command collaborator"
+"Generators","entity commander boundary","populate","command collaborator"
+"Generators","entity commander boundary","Generators","copy-constructor"
+"Generators","entity commander boundary","get","get collaborator"
+"Generators","entity commander boundary","next","predicate non-void-command"
+"RegistryHub","boundary","getReporterRegistry","get collaborator"
+"RegistryHub","boundary","getTestCaseRegistry","get collaborator"
+"RegistryHub","boundary","getExceptionTranslatorRegistry","get collaborator"
+"RegistryHub","boundary","getTagAliasRegistry","get collaborator"
+"RegistryHub","boundary","getStartupExceptionRegistry","get collaborator"
+"RegistryHub","boundary","registerReporter","command collaborator"
+"RegistryHub","boundary","registerListener","command collaborator"
+"RegistryHub","boundary","registerTest","command collaborator"
+"RegistryHub","boundary","registerTranslator","command collaborator"
+"RegistryHub","boundary","registerTagAlias","command collaborator"
+"RegistryHub","boundary","registerStartupException","command"
+"RegistryHub","boundary","getMutableEnumValuesRegistry","get collaborator"
+"NameAndTags","empty","NameAndTags::NameAndTags","constructor"
+"IMutableEnumValuesRegistry","entity boundary small-class","registerEnum","property non-void-command collaborator"
+"IMutableEnumValuesRegistry","entity boundary small-class","IMutableEnumValuesRegistry::~IMutableEnumValuesRegistry","destructor"
+"Config","data-provider","Config::Config","copy-constructor"
+"Config","data-provider","Config::getFilename","property"
+"Config","data-provider","Config::listTests","predicate"
+"Config","data-provider","Config::listTestNamesOnly","predicate"
+"Config","data-provider","Config::listTags","predicate"
+"Config","data-provider","Config::listReporters","predicate"
+"Config","data-provider","Config::getProcessName","property"
+"Config","data-provider","Config::getReporterName","property"
+"Config","data-provider","Config::getTestsOrTags","property"
+"Config","data-provider","Config::getSectionsToRun","property"
+"Config","data-provider","Config::testSpec","get collaborator"
+"Config","data-provider","Config::hasTestFilters","get"
+"Config","data-provider","Config::showHelp","predicate"
+"Config","data-provider","Config::allowThrows","predicate"
+"Config","data-provider","Config::stream","property collaborator"
+"Config","data-provider","Config::name","property"
+"Config","data-provider","Config::includeSuccessfulResults","predicate"
+"Config","data-provider","Config::warnAboutMissingAssertions","predicate"
+"Config","data-provider","Config::warnAboutNoTests","predicate"
+"Config","data-provider","Config::showDurations","property collaborator"
+"Config","data-provider","Config::minDuration","property"
+"Config","data-provider","Config::runOrder","property collaborator"
+"Config","data-provider","Config::rngSeed","property"
+"Config","data-provider","Config::useColour","property collaborator"
+"Config","data-provider","Config::shouldDebugBreak","predicate"
+"Config","data-provider","Config::abortAfter","property"
+"Config","data-provider","Config::showInvisibles","predicate"
+"Config","data-provider","Config::verbosity","property collaborator"
+"Config","data-provider","Config::benchmarkNoAnalysis","predicate"
+"Config","data-provider","Config::benchmarkSamples","property"
+"Config","data-provider","Config::benchmarkConfidenceInterval","property"
+"Config","data-provider","Config::benchmarkResamples","property"
+"Config","data-provider","Config::benchmarkWarmupTime","property wrapper"
+"Config","data-provider","Config::openStream","property wrapper"
+"RangeGenerator","data-class small-class","RangeGenerator","constructor"
+"RangeGenerator","data-class small-class","RangeGenerator","constructor"
+"RangeGenerator","data-class small-class","get","get collaborator"
+"RangeGenerator","data-class small-class","next","predicate set"
+"EqualsMatcher","data-provider boundary","EqualsMatcher","constructor"
+"EqualsMatcher","data-provider boundary","match","predicate collaborator"
+"EqualsMatcher","data-provider boundary","describe","property wrapper"
+"EqualsMatcher","data-provider boundary","EqualsMatcher::EqualsMatcher","constructor"
+"EqualsMatcher","data-provider boundary","EqualsMatcher::match","predicate"
+"Chronometer","commander boundary","measure","command collaborator"
+"Chronometer","commander boundary","runs","get"
+"Chronometer","commander boundary","Chronometer","copy-constructor"
+"Chronometer","commander boundary","measure","command collaborator"
+"Chronometer","commander boundary","measure","command collaborator"
+"constexpr_hash_t<Value,std::enable_if_t<std::is_same_v<Value,string_view>>>","data-provider boundary small-class","operator()","property collaborator"
+"customize_t","empty","customize_t","constructor"
+"customize_t","empty","customize_t","constructor"
+"customize_t","empty","customize_t","copy-constructor"
+"DebugOutStream","data-provider boundary data-class small-class","DebugOutStream","constructor"
+"DebugOutStream","data-provider boundary data-class small-class","stream","get collaborator"
+"FilteredIterator","empty","FilteredIterator","copy-constructor"
+"AssertionHandler","commander","~AssertionHandler","destructor"
+"AssertionHandler","commander","handleExpr","command collaborator"
+"AssertionHandler","commander","AssertionHandler::AssertionHandler","constructor"
+"AssertionHandler","commander","AssertionHandler::handleExpr","command collaborator"
+"AssertionHandler","commander","AssertionHandler::handleMessage","command collaborator"
+"AssertionHandler","commander","AssertionHandler::allowThrows","property collaborator"
+"AssertionHandler","commander","AssertionHandler::complete","command"
+"AssertionHandler","commander","AssertionHandler::setCompleted","set"
+"AssertionHandler","commander","AssertionHandler::handleUnexpectedInflightException","command"
+"AssertionHandler","commander","AssertionHandler::handleExceptionThrownAsExpected","command"
+"AssertionHandler","commander","AssertionHandler::handleExceptionNotThrownAsExpected","command"
+"AssertionHandler","commander","AssertionHandler::handleUnexpectedExceptionNotThrown","command"
+"AssertionHandler","commander","AssertionHandler::handleThrowingCallSkipped","command"
+"BoundLambda","data-provider boundary small-class","BoundLambda","constructor"
+"BoundLambda","data-provider boundary small-class","setValue","property wrapper"
+"ErrnoGuard","empty","ErrnoGuard::ErrnoGuard","constructor"
+"ErrnoGuard","empty","ErrnoGuard::~ErrnoGuard","destructor"
+"SourceLineInfo","data-provider boundary","SourceLineInfo","constructor"
+"SourceLineInfo","data-provider boundary","empty","get"
+"SourceLineInfo","data-provider boundary","SourceLineInfo::operator==","predicate wrapper"
+"SourceLineInfo","data-provider boundary","SourceLineInfo::operator<","predicate wrapper"
+"MapGenerator","entity boundary small-class","MapGenerator","constructor"
+"MapGenerator","entity boundary small-class","get","get collaborator"
+"MapGenerator","entity boundary small-class","next","predicate non-void-command collaborator"
+"StringMaker<unsignedchar>","boundary degenerate small-class","StringMaker<unsignedchar>::convert","wrapper stateless"
+"UnaryExpr","boundary small-class","streamReconstructedExpression","wrapper"
+"UnaryExpr","boundary small-class","UnaryExpr","constructor"
+"ExprLhs","data-provider boundary","ExprLhs","constructor"
+"ExprLhs","data-provider boundary","operator==","property wrapper"
+"ExprLhs","data-provider boundary","operator==","property collaborator"
+"ExprLhs","data-provider boundary","operator!=","property wrapper"
+"ExprLhs","data-provider boundary","operator!=","property collaborator"
+"ExprLhs","data-provider boundary","operator>","property collaborator"
+"ExprLhs","data-provider boundary","operator<","property collaborator"
+"ExprLhs","data-provider boundary","operator>=","property collaborator"
+"ExprLhs","data-provider boundary","operator<=","property collaborator"
+"ExprLhs","data-provider boundary","operator|","property collaborator"
+"ExprLhs","data-provider boundary","operator&","property collaborator"
+"ExprLhs","data-provider boundary","operator^","property collaborator"
+"ExprLhs","data-provider boundary","operator&&","collaborator incidental"
+"ExprLhs","data-provider boundary","operator||","collaborator incidental"
+"ExprLhs","data-provider boundary","makeUnaryExpr","property wrapper"
+"Decomposer","boundary degenerate small-class","operator<=","wrapper stateless"
+"Decomposer","boundary degenerate small-class","operator<=","wrapper stateless"
+"LazyExpression","small-class","LazyExpression::LazyExpression","constructor"
+"LazyExpression","small-class","LazyExpression::LazyExpression","copy-constructor"
+"LazyExpression","small-class","LazyExpression::operatorbool","unclassified"
+"SectionInfo","empty","SectionInfo","constructor"
+"SectionInfo","empty","SectionInfo::SectionInfo","constructor"
+"WithinAbsMatcher","data-provider small-class","WithinAbsMatcher::WithinAbsMatcher","constructor"
+"WithinAbsMatcher","data-provider small-class","WithinAbsMatcher::match","predicate"
+"WithinAbsMatcher","data-provider small-class","WithinAbsMatcher::describe","property wrapper"
+"MessageInfo","data-provider small-class","MessageInfo::MessageInfo","constructor"
+"MessageInfo","data-provider small-class","MessageInfo::operator==","predicate"
+"MessageInfo","data-provider small-class","MessageInfo::operator<","predicate"
+"GeneratorException","data-provider data-class small-class","GeneratorException","constructor"
+"GeneratorException","data-provider data-class small-class","GeneratorException::what","get"
+"MessageBuilder","data-provider boundary data-class small-class","operator<<","get collaborator"
+"MessageBuilder","data-provider boundary data-class small-class","Catch::MessageBuilder::MessageBuilder","constructor"
+"Capturer","commander boundary","captureValues","command collaborator"
+"Capturer","commander boundary","captureValues","command collaborator"
+"Capturer","commander boundary","Capturer::Capturer","constructor"
+"Capturer","commander boundary","Capturer::~Capturer","destructor"
+"Capturer","commander boundary","Capturer::captureValue","command"
+"Counts","data-provider","Counts::operator-","property"
+"Counts","data-provider","Counts::operator+=","get non-void-command"
+"Counts","data-provider","Counts::total","property"
+"Counts","data-provider","Counts::allPassed","predicate"
+"Counts","data-provider","Counts::allOk","predicate"
+"Totals","data-provider","Totals::operator-","property"
+"Totals","data-provider","Totals::operator+=","get non-void-command"
+"Totals","data-provider","Totals::delta","property"
+"StringMaker<char>","boundary degenerate small-class","StringMaker<char>::convert","wrapper stateless"
+"ChunkGenerator","small-class","ChunkGenerator","constructor"
+"ChunkGenerator","small-class","get","get collaborator"
+"ChunkGenerator","small-class","next","predicate non-void-command"
+"Section","data-provider data-class small-class","Section::Section","copy-constructor"
+"Section","data-provider data-class small-class","Section::~Section","destructor"
+"Section","data-provider data-class small-class","Section::operatorbool","get"
+"TagAlias","empty","TagAlias::TagAlias","constructor"
+"ExceptionTranslatorRegistrar","empty","ExceptionTranslatorRegistrar","constructor"
+"RandomFloatingGenerator","data-class small-class","RandomFloatingGenerator","constructor"
+"RandomFloatingGenerator","data-class small-class","get","get collaborator"
+"RandomFloatingGenerator","data-class small-class","next","predicate set"
+"pluralise","empty","pluralise::pluralise","constructor"
+"IGeneratorTracker","empty","IGeneratorTracker::~IGeneratorTracker","destructor"
+"ParserRefImpl","boundary","ParserRefImpl","constructor"
+"ParserRefImpl","boundary","ParserRefImpl","constructor"
+"ParserRefImpl","boundary","ParserRefImpl","constructor"
+"ParserRefImpl","boundary","operator()","property set collaborator"
+"ParserRefImpl","boundary","optional","property set collaborator"
+"ParserRefImpl","boundary","required","property set collaborator"
+"ParserRefImpl","boundary","isOptional","property collaborator"
+"ParserRefImpl","boundary","cardinality","property collaborator"
+"ParserRefImpl","boundary","hint","get"
+"ReporterConfig","data-provider boundary data-class small-class","ReporterConfig::ReporterConfig","constructor"
+"ReporterConfig","data-provider boundary data-class small-class","ReporterConfig::ReporterConfig","constructor"
+"ReporterConfig","data-provider boundary data-class small-class","ReporterConfig::stream","get collaborator"
+"ReporterConfig","data-provider boundary data-class small-class","ReporterConfig::fullConfig","get collaborator"
+"EndsWithMatcher","data-provider small-class","EndsWithMatcher::EndsWithMatcher","constructor"
+"EndsWithMatcher","data-provider small-class","EndsWithMatcher::match","predicate"
+"MatcherUntypedBase","small-class","MatcherUntypedBase::toString","get set"
+"StringMaker<wchar_tconst*>","boundary degenerate small-class","StringMaker<wchar_tconst*>::convert","wrapper stateless"
+"FixedValuesGenerator","data-class small-class","FixedValuesGenerator","constructor"
+"FixedValuesGenerator","data-class small-class","get","get collaborator"
+"FixedValuesGenerator","data-class small-class","next","predicate set"
+"StringMaker<int>","boundary degenerate small-class","StringMaker<int>::convert","wrapper stateless"
+"JunitReporter","entity commander boundary","JunitReporter::JunitReporter","constructor"
+"JunitReporter","entity commander boundary","JunitReporter::~JunitReporter","destructor"
+"JunitReporter","entity commander boundary","JunitReporter::getDescription","incidental"
+"JunitReporter","entity commander boundary","JunitReporter::noMatchingTestCases","empty"
+"JunitReporter","entity commander boundary","JunitReporter::testRunStarting","command collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::testGroupStarting","command collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::testCaseStarting","set collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::assertionEnded","predicate set collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::testCaseEnded","command collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::testGroupEnded","command collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::testRunEndedCumulative","command"
+"JunitReporter","entity commander boundary","JunitReporter::writeGroup","command collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::writeTestCase","command collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::writeSection","command collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::writeAssertions","command collaborator"
+"JunitReporter","entity commander boundary","JunitReporter::writeAssertion","command collaborator"
+"AssertionStats","empty","AssertionStats::AssertionStats","constructor"
+"MatchAllOf","unclassified","match","predicate controller"
+"MatchAllOf","unclassified","describe","property collaborator"
+"MatchAllOf","unclassified","operator&&","property controller"
+"MatchNotOf","data-provider small-class","MatchNotOf","constructor"
+"MatchNotOf","data-provider small-class","match","predicate collaborator"
+"MatchNotOf","data-provider small-class","describe","property"
+"ExceptionMessageMatcher","small-class","ExceptionMessageMatcher","constructor"
+"ExceptionMessageMatcher","small-class","ExceptionMessageMatcher::match","predicate controller"
+"ExceptionMessageMatcher","small-class","ExceptionMessageMatcher::describe","property"
+"ChronometerModel","unclassified","start","set"
+"ChronometerModel","unclassified","finish","set"
+"ChronometerModel","unclassified","elapsed","property collaborator"
+"WithinUlpsMatcher","small-class","WithinUlpsMatcher::WithinUlpsMatcher","constructor"
+"WithinUlpsMatcher","small-class","WithinUlpsMatcher::match","predicate wrapper"
+"WithinUlpsMatcher","small-class","WithinUlpsMatcher::describe","property controller"
+"ITagAliasRegistry","boundary degenerate small-class","ITagAliasRegistry::~ITagAliasRegistry","destructor"
+"ITagAliasRegistry","boundary degenerate small-class","ITagAliasRegistry::get","wrapper stateless"
+"WithinRelMatcher","small-class","WithinRelMatcher::WithinRelMatcher","constructor"
+"WithinRelMatcher","small-class","WithinRelMatcher::match","predicate wrapper"
+"WithinRelMatcher","small-class","WithinRelMatcher::describe","property controller"
+"TestGroupStats","empty","TestGroupStats::TestGroupStats","constructor"
+"TestGroupStats","empty","TestGroupStats::TestGroupStats","constructor"
+"CasedString","data-provider boundary small-class","CasedString::CasedString","constructor"
+"CasedString","data-provider boundary small-class","CasedString::adjustString","property wrapper"
+"CasedString","data-provider boundary small-class","CasedString::caseSensitivitySuffix","property wrapper"
+"StringMatcherBase","data-provider small-class","StringMatcherBase::StringMatcherBase","constructor"
+"StringMatcherBase","data-provider small-class","StringMatcherBase::describe","property"
+"ContainsMatcher","data-provider boundary","ContainsMatcher","constructor"
+"ContainsMatcher","data-provider boundary","match","predicate collaborator"
+"ContainsMatcher","data-provider boundary","describe","property wrapper"
+"ContainsMatcher","data-provider boundary","ContainsMatcher::ContainsMatcher","constructor"
+"ContainsMatcher","data-provider boundary","ContainsMatcher::match","predicate"
+"SingleValueGenerator","data-provider lazy-class small-class","SingleValueGenerator","constructor"
+"SingleValueGenerator","data-provider lazy-class small-class","get","get collaborator"
+"SingleValueGenerator","data-provider lazy-class small-class","next","incidental"
+"RegexMatcher","data-provider boundary small-class","RegexMatcher::RegexMatcher","constructor"
+"RegexMatcher","data-provider boundary small-class","RegexMatcher::match","predicate wrapper"
+"RegexMatcher","data-provider boundary small-class","RegexMatcher::describe","property wrapper"
+"BoundFlagRef","boundary data-class small-class","BoundFlagRef","constructor"
+"BoundFlagRef","boundary data-class small-class","setFlag","property set collaborator"
+"SectionTracker","unclassified","SectionTracker::SectionTracker","constructor"
+"SectionTracker","unclassified","SectionTracker::isComplete","predicate"
+"SectionTracker","unclassified","SectionTracker::isSectionTracker","incidental"
+"SectionTracker","unclassified","SectionTracker::acquire","controller stateless"
+"SectionTracker","unclassified","SectionTracker::tryOpen","command"
+"SectionTracker","unclassified","SectionTracker::addInitialFilters","command"
+"SectionTracker","unclassified","SectionTracker::addNextFilters","command"
+"SectionTracker","unclassified","SectionTracker::getFilters","get"
+"SectionTracker","unclassified","SectionTracker::trimmedName","get"
+"UnorderedEqualsMatcher","data-provider boundary small-class","UnorderedEqualsMatcher","constructor"
+"UnorderedEqualsMatcher","data-provider boundary small-class","match","predicate collaborator"
+"UnorderedEqualsMatcher","data-provider boundary small-class","describe","property wrapper"
+"GeneratorUntypedBase","empty","GeneratorUntypedBase::~GeneratorUntypedBase","destructor"
+"TakeGenerator","boundary small-class","TakeGenerator","constructor"
+"TakeGenerator","boundary small-class","get","property collaborator"
+"TakeGenerator","boundary small-class","next","predicate set collaborator"
+"FilterGenerator","small-class","FilterGenerator","constructor"
+"FilterGenerator","small-class","get","property collaborator"
+"FilterGenerator","small-class","next","predicate non-void-command"
+"RepeatGenerator","entity data-provider boundary small-class","RepeatGenerator","constructor"
+"RepeatGenerator","entity data-provider boundary small-class","get","get property collaborator"
+"RepeatGenerator","entity data-provider boundary small-class","next","predicate non-void-command collaborator"
+"TestCase","data-provider","TestCase::TestCase","copy-constructor"
+"TestCase","data-provider","TestCase::withName","property"
+"TestCase","data-provider","TestCase::invoke","unclassified"
+"TestCase","data-provider","TestCase::operator==","predicate"
+"TestCase","data-provider","TestCase::operator<","predicate"
+"TestCase","data-provider","TestCase::getTestCaseInfo","get collaborator"
+"MatchAnyOf","unclassified","match","predicate controller"
+"MatchAnyOf","unclassified","describe","property collaborator"
+"MatchAnyOf","unclassified","operator||","property controller"
+"IMutableContext","commander data-class small-class","IMutableContext::createContext","set"
+"OutlierClassification","data-provider small-class","total","property"
+"ITracker","data-provider boundary data-class small-class","ITracker","constructor"
+"ITracker","data-provider boundary data-class small-class","nameAndLocation","get collaborator"
+"SimplePcg32","boundary lazy-class","SimplePcg32","constructor"
+"SimplePcg32","boundary lazy-class","SimplePcg32::SimplePcg32","constructor"
+"SimplePcg32","boundary lazy-class","SimplePcg32::seed","set collaborator"
+"SimplePcg32","boundary lazy-class","SimplePcg32::discard","wrapper stateless"
+"SimplePcg32","boundary lazy-class","SimplePcg32::operator()","property set collaborator"
+"RandomIntegerGenerator","data-class small-class","RandomIntegerGenerator","constructor"
+"RandomIntegerGenerator","data-class small-class","get","get collaborator"
+"RandomIntegerGenerator","data-class small-class","next","predicate set"
+"fmt::formatter<E,std::enable_if_t<std::is_enum_v<std::decay_t<E>>&&magic_enum::customize::enum_format_enabled<E>(),char>>","data-provider boundary small-class","format","property collaborator"
+"TestCaseInfo","data-provider","TestCaseInfo::TestCaseInfo","constructor"
+"TestCaseInfo","data-provider","TestCaseInfo::isHidden","predicate"
+"TestCaseInfo","data-provider","TestCaseInfo::throws","predicate"
+"TestCaseInfo","data-provider","TestCaseInfo::okToFail","predicate"
+"TestCaseInfo","data-provider","TestCaseInfo::expectedToFail","predicate"
+"TestCaseInfo","data-provider","TestCaseInfo::tagsAsString","property collaborator"
+"Timer","data-provider boundary","Timer::start","set"
+"Timer","data-provider boundary","Timer::getElapsedNanoseconds","property wrapper"
+"Timer","data-provider boundary","Timer::getElapsedMicroseconds","property collaborator"
+"Timer","data-provider boundary","Timer::getElapsedMilliseconds","property collaborator"
+"Timer","data-provider boundary","Timer::getElapsedSeconds","property collaborator"
+"OcMethod","boundary small-class","OcMethod","constructor"
+"OcMethod","boundary small-class","invoke","wrapper"
+"OcMethod","boundary small-class","~OcMethod","destructor"
+"StringHolder","boundary degenerate small-class","StringHolder","constructor"
+"StringHolder","boundary degenerate small-class","StringHolder","copy-constructor"
+"StringHolder","boundary degenerate small-class","StringHolder","constructor"
+"StringHolder","boundary degenerate small-class","match","collaborator incidental"
+"MyStringView","data-provider","MyStringView","constructor"
+"MyStringView","data-provider","MyStringView","constructor"
+"MyStringView","data-provider","empty","predicate"
+"MyStringView","data-provider","size","property"
+"MyStringView","data-provider","data","property"
+"MyStringView","data-provider","operator[]","get"
+"MyStringView","data-provider","begin","property collaborator"
+"MyStringView","data-provider","end","property collaborator"
+"MyStringView","data-provider","find","property"
+"MyStringView","data-provider","substr","property non-void-command"
+"MyStringView","data-provider","remove_prefix","command"
+"MyStringView","data-provider","remove_suffix","command"
+"MyStringView","data-provider","MyStringView","constructor"
+"MyStringView","data-provider","compare","property"
+"MyStringView","data-provider","MyStringView","constructor"
+"set","empty","set","constructor"
+"BinaryExpr","boundary degenerate","streamReconstructedExpression","wrapper"
+"BinaryExpr","boundary degenerate","BinaryExpr","constructor"
+"BinaryExpr","boundary degenerate","operator&&","collaborator incidental"
+"BinaryExpr","boundary degenerate","operator||","collaborator incidental"
+"BinaryExpr","boundary degenerate","operator==","collaborator incidental"
+"BinaryExpr","boundary degenerate","operator!=","collaborator incidental"
+"BinaryExpr","boundary degenerate","operator>","collaborator incidental"
+"BinaryExpr","boundary degenerate","operator<","collaborator incidental"
+"BinaryExpr","boundary degenerate","operator>=","collaborator incidental"
+"BinaryExpr","boundary degenerate","operator<=","collaborator incidental"
+"StartsWith","data-provider boundary small-class","StartsWith","constructor"
+"StartsWith","data-provider boundary small-class","match","predicate collaborator"
+"StartsWith","data-provider boundary small-class","describe","property wrapper"
+"TestRegistry","boundary","TestRegistry::registerTest","command collaborator"
+"TestRegistry","boundary","TestRegistry::getAllTests","get collaborator"
+"TestRegistry","boundary","TestRegistry::getAllTestsSorted","get non-void-command collaborator"
+"EndsWith","data-provider boundary small-class","EndsWith","constructor"
+"EndsWith","data-provider boundary small-class","match","predicate collaborator"
+"EndsWith","data-provider boundary small-class","describe","property wrapper"
+"ReusableStringStream","data-provider boundary","operator<<","get collaborator"
+"ReusableStringStream","data-provider boundary","get","get collaborator"
+"ReusableStringStream","data-provider boundary","ReusableStringStream::ReusableStringStream","constructor"
+"ReusableStringStream","data-provider boundary","ReusableStringStream::~ReusableStringStream","destructor"
+"ReusableStringStream","data-provider boundary","ReusableStringStream::str","property"
+"WildcardPattern","data-provider small-class","WildcardPattern::WildcardPattern","constructor"
+"WildcardPattern","data-provider small-class","WildcardPattern::matches","predicate"
+"WildcardPattern","data-provider small-class","WildcardPattern::normaliseString","property wrapper"
+"TestSpec","data-provider boundary","TestSpec::hasFilters","predicate"
+"TestSpec","data-provider boundary","TestSpec::matches","predicate collaborator"
+"TestSpec","data-provider boundary","TestSpec::matchesByFilter","property collaborator"
+"TestSpec","data-provider boundary","TestSpec::getInvalidArgs","get collaborator"
+"TestSpecParser","commander","addCharToPattern","command"
+"TestSpecParser","commander","TestSpecParser::TestSpecParser","constructor"
+"TestSpecParser","commander","TestSpecParser::parse","get non-void-command"
+"TestSpecParser","commander","TestSpecParser::testSpec","get non-void-command collaborator"
+"TestSpecParser","commander","TestSpecParser::visitChar","predicate non-void-command"
+"TestSpecParser","commander","TestSpecParser::processNoneChar","predicate non-void-command"
+"TestSpecParser","commander","TestSpecParser::processNameChar","command"
+"TestSpecParser","commander","TestSpecParser::processOtherChar","predicate non-void-command"
+"TestSpecParser","commander","TestSpecParser::startNewMode","set collaborator"
+"TestSpecParser","commander","TestSpecParser::endMode","command"
+"TestSpecParser","commander","TestSpecParser::escape","command"
+"TestSpecParser","commander","TestSpecParser::isControlChar","predicate"
+"TestSpecParser","commander","TestSpecParser::addFilter","command"
+"TestSpecParser","commander","TestSpecParser::saveLastMode","set"
+"TestSpecParser","commander","TestSpecParser::revertBackToLastMode","set"
+"TestSpecParser","commander","TestSpecParser::separate","predicate non-void-command"
+"TestSpecParser","commander","TestSpecParser::preprocessPattern","property non-void-command"
+"TestSpecParser","commander","TestSpecParser::addNamePattern","command collaborator"
+"TestSpecParser","commander","TestSpecParser::addTagPattern","command collaborator"
+"AssertionResultData","boundary small-class","AssertionResultData::AssertionResultData","constructor"
+"AssertionResultData","boundary small-class","AssertionResultData::reconstructExpression","get set collaborator"
+"AssertionResult","data-provider","AssertionResult::AssertionResult","copy-constructor"
+"AssertionResult","data-provider","AssertionResult::succeeded","predicate"
+"AssertionResult","data-provider","AssertionResult::isOk","predicate"
+"AssertionResult","data-provider","AssertionResult::getResultType","property collaborator"
+"AssertionResult","data-provider","AssertionResult::hasExpression","predicate"
+"AssertionResult","data-provider","AssertionResult::hasMessage","predicate"
+"AssertionResult","data-provider","AssertionResult::getExpression","property"
+"AssertionResult","data-provider","AssertionResult::getExpressionInMacro","property"
+"AssertionResult","data-provider","AssertionResult::hasExpandedExpression","predicate"
+"AssertionResult","data-provider","AssertionResult::getExpandedExpression","property"
+"AssertionResult","data-provider","AssertionResult::getMessage","property"
+"AssertionResult","data-provider","AssertionResult::getSourceInfo","property collaborator"
+"AssertionResult","data-provider","AssertionResult::getTestMacroName","property collaborator"
+"StringStreams","small-class","add","property non-void-command collaborator"
+"StringStreams","small-class","release","command"
+"TagAliasRegistry","unclassified","TagAliasRegistry::~TagAliasRegistry","destructor"
+"TagAliasRegistry","unclassified","TagAliasRegistry::find","property collaborator"
+"TagAliasRegistry","unclassified","TagAliasRegistry::expandAliases","property controller"
+"TagAliasRegistry","unclassified","TagAliasRegistry::add","command collaborator"
+"Estimate","small-class","operatorEstimate<Duration2>","unclassified"
+"TestInvokerAsFunction","empty","TestInvokerAsFunction::TestInvokerAsFunction","constructor"
+"now","boundary degenerate small-class","operator()","wrapper stateless"
+"LazyStat","small-class","operator=","get set collaborator"
+"LazyStat","small-class","reset","set"
+"TestRunInfo","empty","TestRunInfo::TestRunInfo","constructor"
+"GroupInfo","empty","GroupInfo::GroupInfo","constructor"
+"Help","empty","Help","copy-constructor"
+"SectionStats","empty","SectionStats::SectionStats","constructor"
+"TestCaseStats","empty","TestCaseStats::TestCaseStats","constructor"
+"TagInfo","small-class","TagInfo::add","set"
+"TagInfo","small-class","TagInfo::all","property controller"
+"MatchExpr","boundary small-class","MatchExpr","constructor"
+"MatchExpr","boundary small-class","streamReconstructedExpression","collaborator"
+"Option","data-provider","Option","constructor"
+"Option","data-provider","Option","constructor"
+"Option","data-provider","Option","copy-constructor"
+"Option","data-provider","~Option","destructor"
+"Option","data-provider","operator=","get set"
+"Option","data-provider","operator=","get set collaborator"
+"Option","data-provider","reset","set"
+"Option","data-provider","operator*","get collaborator"
+"Option","data-provider","operator*","get collaborator"
+"Option","data-provider","operator->","get collaborator"
+"Option","data-provider","operator->","get collaborator"
+"Option","data-provider","valueOr","property collaborator"
+"Option","data-provider","some","predicate"
+"Option","data-provider","none","predicate"
+"Option","data-provider","operator!","predicate"
+"Option","data-provider","operatorbool","unclassified"
+"ConsoleReporter","commander boundary","ConsoleReporter::ConsoleReporter","constructor"
+"ConsoleReporter","commander boundary","ConsoleReporter::getDescription","incidental"
+"ConsoleReporter","commander boundary","ConsoleReporter::noMatchingTestCases","unclassified"
+"ConsoleReporter","commander boundary","ConsoleReporter::reportInvalidArguments","unclassified"
+"ConsoleReporter","commander boundary","ConsoleReporter::assertionStarting","empty"
+"ConsoleReporter","commander boundary","ConsoleReporter::assertionEnded","predicate non-void-command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::sectionStarting","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::sectionEnded","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::benchmarkPreparing","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::benchmarkStarting","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::benchmarkEnded","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::benchmarkFailed","wrapper"
+"ConsoleReporter","commander boundary","ConsoleReporter::testCaseEnded","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::testGroupEnded","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::testRunEnded","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::testRunStarting","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::lazyPrint","command"
+"ConsoleReporter","commander boundary","ConsoleReporter::lazyPrintWithoutClosingBenchmarkTable","command"
+"ConsoleReporter","commander boundary","ConsoleReporter::lazyPrintRunInfo","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::lazyPrintGroupInfo","command"
+"ConsoleReporter","commander boundary","ConsoleReporter::printTestCaseAndSectionHeader","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::printClosedHeader","command"
+"ConsoleReporter","commander boundary","ConsoleReporter::printOpenHeader","wrapper"
+"ConsoleReporter","commander boundary","ConsoleReporter::printHeaderString","controller"
+"ConsoleReporter","commander boundary","ConsoleReporter::printTotals","command collaborator"
+"ConsoleReporter","commander boundary","ConsoleReporter::printSummaryRow","controller"
+"ConsoleReporter","commander boundary","ConsoleReporter::printTotalsDivider","controller"
+"ConsoleReporter","commander boundary","ConsoleReporter::printSummaryDivider","wrapper"
+"ConsoleReporter","commander boundary","ConsoleReporter::printTestFilters","command collaborator"
+"StreamingReporterBase","commander","StreamingReporterBase","constructor"
+"StreamingReporterBase","commander","getPreferences","get collaborator"
+"StreamingReporterBase","commander","noMatchingTestCases","empty"
+"StreamingReporterBase","commander","reportInvalidArguments","empty"
+"StreamingReporterBase","commander","testRunStarting","set collaborator"
+"StreamingReporterBase","commander","testGroupStarting","set collaborator"
+"StreamingReporterBase","commander","testCaseStarting","set collaborator"
+"StreamingReporterBase","commander","sectionStarting","command collaborator"
+"StreamingReporterBase","commander","sectionEnded","command"
+"StreamingReporterBase","commander","testCaseEnded","command"
+"StreamingReporterBase","commander","testGroupEnded","command"
+"StreamingReporterBase","commander","testRunEnded","command"
+"StreamingReporterBase","commander","skipTest","empty"
+"CumulativeReporterBase","commander boundary","getPreferences","get collaborator"
+"CumulativeReporterBase","commander boundary","testRunStarting","empty"
+"CumulativeReporterBase","commander boundary","testGroupStarting","empty"
+"CumulativeReporterBase","commander boundary","testCaseStarting","empty"
+"CumulativeReporterBase","commander boundary","sectionStarting","command collaborator"
+"CumulativeReporterBase","commander boundary","assertionStarting","empty"
+"CumulativeReporterBase","commander boundary","assertionEnded","predicate non-void-command collaborator"
+"CumulativeReporterBase","commander boundary","sectionEnded","command collaborator"
+"CumulativeReporterBase","commander boundary","testCaseEnded","command collaborator"
+"CumulativeReporterBase","commander boundary","testGroupEnded","command collaborator"
+"CumulativeReporterBase","commander boundary","testRunEnded","command collaborator"
+"CumulativeReporterBase","commander boundary","skipTest","empty"
+"EnvironmentEstimate","small-class","operatorEnvironmentEstimate<Duration2>","unclassified"
+"TestEventListenerBase","degenerate","TestEventListenerBase::TestEventListenerBase","constructor"
+"TestEventListenerBase","degenerate","TestEventListenerBase::getSupportedVerbosities","collaborator incidental"
+"TestEventListenerBase","degenerate","TestEventListenerBase::assertionStarting","empty"
+"TestEventListenerBase","degenerate","TestEventListenerBase::assertionEnded","incidental"
+"Colour","lazy-class data-class small-class","Colour::Colour","constructor"
+"Colour","lazy-class data-class small-class","Colour::Colour","copy-constructor"
+"Colour","lazy-class data-class small-class","Colour::operator=","get set"
+"Colour","lazy-class data-class small-class","Colour::~Colour","destructor"
+"Colour","lazy-class data-class small-class","Colour::use","controller stateless"
+"BoundFlagLambda","data-provider boundary small-class","BoundFlagLambda","constructor"
+"BoundFlagLambda","data-provider boundary small-class","setFlag","property wrapper"
+"XmlEncode","boundary small-class","XmlEncode::XmlEncode","constructor"
+"XmlEncode","boundary small-class","XmlEncode::encodeTo","collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::XmlReporter","constructor"
+"XmlReporter","entity commander boundary","XmlReporter::getDescription","incidental"
+"XmlReporter","entity commander boundary","XmlReporter::getStylesheetRef","wrapper stateless"
+"XmlReporter","entity commander boundary","XmlReporter::writeSourceInfo","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::noMatchingTestCases","command"
+"XmlReporter","entity commander boundary","XmlReporter::testRunStarting","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::testGroupStarting","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::testCaseStarting","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::sectionStarting","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::assertionStarting","empty"
+"XmlReporter","entity commander boundary","XmlReporter::assertionEnded","predicate non-void-command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::sectionEnded","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::testCaseEnded","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::testGroupEnded","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::testRunEnded","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::benchmarkPreparing","command"
+"XmlReporter","entity commander boundary","XmlReporter::benchmarkStarting","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::benchmarkEnded","command collaborator"
+"XmlReporter","entity commander boundary","XmlReporter::benchmarkFailed","command"
+"PredicateMatcher","data-provider lazy-class small-class","PredicateMatcher","constructor"
+"PredicateMatcher","data-provider lazy-class small-class","match","wrapper stateless"
+"PredicateMatcher","data-provider lazy-class small-class","describe","get"
+"Approx","boundary","operator()","property collaborator"
+"Approx","boundary","Approx","constructor"
+"Approx","boundary","operator==","controller stateless"
+"Approx","boundary","operator==","predicate non-void-command collaborator"
+"Approx","boundary","operator!=","predicate non-void-command"
+"Approx","boundary","operator!=","predicate non-void-command collaborator"
+"Approx","boundary","operator<=","incidental"
+"Approx","boundary","operator<=","collaborator incidental"
+"Approx","boundary","operator>=","incidental"
+"Approx","boundary","operator>=","collaborator incidental"
+"Approx","boundary","epsilon","get non-void-command collaborator"
+"Approx","boundary","margin","get non-void-command collaborator"
+"Approx","boundary","scale","get set collaborator"
+"Approx","boundary","Approx::Approx","constructor"
+"Approx","boundary","Approx::custom","property non-void-command"
+"Approx","boundary","Approx::operator-","property collaborator"
+"Approx","boundary","Approx::toString","property controller"
+"Approx","boundary","Approx::equalityComparisonImpl","predicate wrapper"
+"Approx","boundary","Approx::setMargin","set"
+"Approx","boundary","Approx::setEpsilon","set"

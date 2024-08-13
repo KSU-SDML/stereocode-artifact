@@ -1,448 +1,448 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"RegistryKeyValue","empty","RegistryKeyValue","constructor",
-"LsaWrapper","controller","LsaWrapper","constructor",
-"LsaWrapper","controller","LsaWrapper","constructor",
-"LsaWrapper","controller","ReadPrivilege","non-void-command factory collaborator",
-"LsaWrapper","controller","ResolveAccountName","factory controller stateless",
-"LsaWrapper","controller","TestReturnValue","wrapper",
-"LsaWrapper","controller","Dispose","set",
-"LsaWrapper","controller","~LsaWrapper","destructor",
-"SeatbeltOptions","empty","SeatbeltOptions","constructor",
-"Seatbelt","commander","Seatbelt","constructor",
-"Seatbelt","commander","GetOutput","property non-void-command",
-"Seatbelt","commander","OutputSinkFromArgs","property factory controller",
-"Seatbelt","commander","Start","command collaborator",
-"Seatbelt","commander","PrintLogo","command",
-"Seatbelt","commander","Usage","command collaborator",
-"Seatbelt","commander","Dispose","command",
-"Runtime","data-provider boundary","Runtime","constructor",
-"Runtime","data-provider boundary","Runtime","constructor",
-"Runtime","data-provider boundary","Runtime","constructor",
-"Runtime","data-provider boundary","GetManagementObjectSearcher","property set factory collaborator",
-"Runtime","data-provider boundary","GetSubkeyNames","property wrapper",
-"Runtime","data-provider boundary","GetStringValue","property wrapper",
-"Runtime","data-provider boundary","GetDwordValue","property wrapper",
-"Runtime","data-provider boundary","GetBinaryValue","property wrapper",
-"Runtime","data-provider boundary","GetValues","property wrapper",
-"Runtime","data-provider boundary","GetUserSIDs","property wrapper",
-"Runtime","data-provider boundary","GetDirectories","property controller",
-"Runtime","data-provider boundary","GetEventLogReader","factory wrapper",
-"Runtime","data-provider boundary","GetEnvironmentVariable","property non-void-command collaborator",
-"Runtime","data-provider boundary","ISRemote","predicate wrapper",
-"Runtime","data-provider boundary","InitializeCommands","command collaborator",
-"Runtime","data-provider boundary","Execute","command collaborator",
-"Runtime","data-provider boundary","ProcessGroup","predicate non-void-command collaborator",
-"JsonStringOutputSink","entity commander boundary","JsonStringOutputSink","constructor",
-"JsonStringOutputSink","entity commander boundary","WriteOutput","command collaborator",
-"JsonStringOutputSink","entity commander boundary","GetOutput","property non-void-command collaborator",
-"JsonStringOutputSink","entity commander boundary","Dispose","command",
-"JsonFileOutputSink","commander","JsonFileOutputSink","constructor",
-"JsonFileOutputSink","commander","WriteOutput","command collaborator",
-"JsonFileOutputSink","commander","GetOutput","incidental",
-"JsonFileOutputSink","commander","Dispose","command",
-"TextFormatterBase","empty","TextFormatterBase","constructor",
-"SecBufferDesc","entity boundary small-class","SecBufferDesc","constructor",
-"SecBufferDesc","entity boundary small-class","SecBufferDesc","constructor",
-"SecBufferDesc","entity boundary small-class","Dispose","set collaborator",
-"SecBufferDesc","entity boundary small-class","ToArray","property non-void-command collaborator",
-"SecBuffer","small-class","SecBuffer","constructor",
-"SecBuffer","small-class","SecBuffer","constructor",
-"SecBuffer","small-class","ToArray","property wrapper",
-"SecBuffer","small-class","Dispose","set",
-"SeatbeltArgumentParser","entity boundary","SeatbeltArgumentParser","constructor",
-"SeatbeltArgumentParser","entity boundary","Parse","property non-void-command factory collaborator",
-"SeatbeltArgumentParser","entity boundary","ParseAndRemoveSwitchArgument","predicate non-void-command",
-"SeatbeltArgumentParser","entity boundary","ParseAndRemoveKeyValueArgument","property non-void-command collaborator",
-"WindowsFirewallDTO","empty","WindowsFirewallDTO","constructor",
-"WindowsEventForwardingFormatter","boundary degenerate small-class","WindowsEventForwardingFormatter","constructor",
-"WindowsEventForwardingFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"WindowsDefenderDTO","empty","WindowsDefenderDTO","constructor",
-"AsrRule","empty","AsrRule","constructor",
-"WindowsCredentialFileFormatter","boundary degenerate small-class","WindowsCredentialFileFormatter","constructor",
-"WindowsCredentialFileFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"WindowsCredentialFileCommand","controller degenerate","WindowsCredentialFileCommand","constructor",
-"WindowsCredentialFileCommand","controller degenerate","Execute","property non-void-command collaborator",
-"WindowsCredentialFileCommand","controller degenerate","GetCredentialsFromDirectory","factory controller stateless",
-"WindowsCredentialFileCommand","controller degenerate","CredentialFile","factory wrapper stateless",
-"WifiProfileCommand","factory pure-controller degenerate small-class","WifiProfileCommand","constructor",
-"WifiProfileCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"WMIFilterToConsumerBindingDTO","empty","WMIFilterToConsumerBindingDTO","constructor",
-"WMIFilterToConsumerBindingCommand","factory pure-controller degenerate small-class","WMIFilterToConsumerBindingCommand","constructor",
-"WMIFilterToConsumerBindingCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"WmiEventFilterDTO","empty","WmiEventFilterDTO","constructor",
-"WmiEventFilterCommand","factory pure-controller degenerate small-class","WmiEventFilterCommand","constructor",
-"WmiEventFilterCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"WMIEventConsumeFormatter","boundary degenerate small-class","WMIEventConsumeFormatter","constructor",
-"WMIEventConsumeFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"WMIEventConsumerDTO","empty","WMIEventConsumerDTO","constructor",
-"WMIEventConsumerCommand","factory pure-controller degenerate small-class","WMIEventConsumerCommand","constructor",
-"WMIEventConsumerCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"UserRightAssignmentsTextFormatter","boundary degenerate small-class","UserRightAssignmentsTextFormatter","constructor",
-"UserRightAssignmentsTextFormatter","boundary degenerate small-class","FormatResult","wrapper stateless",
-"UserRightAssignmentsCommand","entity factory controller small-class","UserRightAssignmentsCommand","constructor",
-"UserRightAssignmentsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"UserAccountControlCommand","entity factory controller small-class","UserAccountControlCommand","constructor",
-"UserAccountControlCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"UdpConnectionsTextFormatter","boundary degenerate small-class","UdpConnectionsTextFormatter","constructor",
-"UdpConnectionsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"WindowsDefenderFormatter","commander boundary small-class","WindowsDefenderFormatter","constructor",
-"WindowsDefenderFormatter","commander boundary small-class","FormatResult","command collaborator",
-"WindowsDefenderFormatter","commander boundary small-class","DisplayDefenderSettings","command collaborator",
-"DotNetTextFormatter","pure-controller degenerate small-class","DotNetTextFormatter","constructor",
-"DotNetTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless",
-"CredEnumCommand","factory degenerate small-class","CredEnumCommand","constructor",
-"CredEnumCommand","factory degenerate small-class","Execute","factory wrapper stateless",
-"VerboseDTO","empty","VerboseDTO","constructor",
-"SuperPuttyConfig","empty","SuperPuttyConfig","constructor",
-"AzureADFormatter","boundary degenerate small-class","AzureADFormatter","constructor",
-"AzureADFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"NetAadJoinInfo","empty","NetAadJoinInfo","constructor",
-"AppLockerCommand","entity factory controller small-class","AppLockerCommand","constructor",
-"AppLockerCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"AzureADDTO","empty","AzureADDTO","constructor",
-"AzureADCommand","factory controller small-class","AzureADCommand","constructor",
-"AzureADCommand","factory controller small-class","Execute","property non-void-command factory collaborator",
-"AzureADCommand","factory controller small-class","GetNetAadInfo","factory controller stateless",
-"WindowsSearchIndexTextFormatter","boundary degenerate small-class","WindowsSearchIndexTextFormatter","constructor",
-"WindowsSearchIndexTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"AuditPolicyDTO","empty","AuditPolicyDTO","constructor",
-"EnvironmentVariableDTO","empty","EnvironmentVariableDTO","constructor",
-"FirefoxHistoryCommand","entity factory controller small-class","FirefoxHistoryCommand","constructor",
-"FirefoxHistoryCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"DotNetDTO","empty","DotNetDTO","constructor",
-"LolbasCommand","entity factory controller small-class","LolbasCommand","constructor",
-"LolbasCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"LogonSessionsTextFormatter","pure-controller degenerate small-class","LogonSessionsTextFormatter","constructor",
-"LogonSessionsTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless",
-"DNSCacheDTO","empty","DNSCacheDTO","constructor",
-"TypedUrl","empty","TypedUrl","constructor",
-"AMSIProviderDTO","empty","AMSIProviderDTO","constructor",
-"FileTextWriter","commander small-class","FileTextWriter","constructor",
-"FileTextWriter","commander small-class","Dispose","command",
-"ArpTableCommand","pure-controller degenerate small-class","ArpTableCommand","constructor",
-"ArpTableCommand","pure-controller degenerate small-class","Execute","controller stateless",
-"TokenGroupsDTO","empty","TokenGroupsDTO","constructor",
-"WarningTextFormatter","degenerate small-class","WarningTextFormatter","constructor",
-"WarningTextFormatter","degenerate small-class","FormatResult","incidental",
-"WsusClientDTO","empty","WsusClientDTO","constructor",
-"RecycleBinCommand","factory pure-controller degenerate small-class","RecycleBinCommand","constructor",
-"RecycleBinCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"WsusClientCommand","entity factory controller small-class","WsusClientCommand","constructor",
-"WsusClientCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"TokenGroupCommand","boundary degenerate small-class","TokenGroupCommand","constructor",
-"TokenGroupCommand","boundary degenerate small-class","Execute","wrapper stateless",
-"CertificateThumbprintFormatter","boundary degenerate small-class","CertificateThumbprintFormatter","constructor",
-"CertificateThumbprintFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"SysmonDTO","empty","SysmonDTO","constructor",
-"SlackPresenceFormatter","boundary degenerate small-class","SlackPresenceFormatter","constructor",
-"SlackPresenceFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"ArpTableDTO","empty","ArpTableDTO","constructor",
-"SlackDownloadsDTO","empty","SlackDownloadsDTO","constructor",
-"OracleSQLDeveloperCommand","factory pure-controller degenerate small-class","OracleSQLDeveloperCommand","constructor",
-"OracleSQLDeveloperCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"SccmClientDTO","empty","SccmClientDTO","constructor",
-"DpapiMasterKeysFormatter","boundary degenerate small-class","DpapiMasterKeysFormatter","constructor",
-"DpapiMasterKeysFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"DirectoryListCommand","entity boundary","DirectoryListCommand","constructor",
-"DirectoryListCommand","entity boundary","Execute","property non-void-command collaborator",
-"DirectoryListCommand","entity boundary","GetFiles","property non-void-command collaborator",
-"DirectoryListCommand","entity boundary","GetDirectories","property non-void-command collaborator",
-"DirectoryListCommand","entity boundary","WriteOutput","factory wrapper stateless",
-"VerboseTextFormatter","degenerate small-class","VerboseTextFormatter","constructor",
-"VerboseTextFormatter","degenerate small-class","FormatResult","incidental",
-"RemoteDesktopConnectionManagerCommand","entity factory controller small-class","RemoteDesktopConnectionManagerCommand","constructor",
-"RemoteDesktopConnectionManagerCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"CredentialGuardCommand","entity factory controller small-class","CredentialGuardCommand","constructor",
-"CredentialGuardCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"ExplorerRunCommandFormatter","degenerate small-class","ExplorerRunCommandFormatter","constructor",
-"ExplorerRunCommandFormatter","degenerate small-class","FormatResult","controller stateless",
-"ExplorerRunCommandFormatter","degenerate small-class","ExplorerRunCommandFormatter","constructor",
-"ExplorerRunCommandFormatter","degenerate small-class","FormatResult","collaborator incidental",
-"CommandBase","empty","CommandBase","constructor",
-"PuttyHostKeysFormatter","boundary degenerate small-class","PuttyHostKeysFormatter","constructor",
-"PuttyHostKeysFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"DirectoryListTextFormatter","commander boundary small-class","DirectoryListTextFormatter","constructor",
-"DirectoryListTextFormatter","commander boundary small-class","FormatResult","command collaborator",
-"DirectoryListTextFormatter","commander boundary small-class","BytesToString","wrapper stateless",
-"ChromiumHistoryFormatter","boundary degenerate small-class","ChromiumHistoryFormatter","constructor",
-"ChromiumHistoryFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"WMICommand","entity factory controller small-class","WMICommand","constructor",
-"WMICommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"CloudCredentialsDTO","empty","CloudCredentialsDTO","constructor",
-"InternetExplorerFavoritesCommand","entity factory controller small-class","InternetExplorerFavoritesCommand","constructor",
-"InternetExplorerFavoritesCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"CertificateFormatter","boundary degenerate small-class","CertificateFormatter","constructor",
-"CertificateFormatter","boundary degenerate small-class","FormatResult","wrapper stateless",
-"IdleTimeFormatter","boundary degenerate small-class","IdleTimeFormatter","constructor",
-"IdleTimeFormatter","boundary degenerate small-class","FormatResult","wrapper stateless",
-"ErrorDTO","empty","ErrorDTO","constructor",
-"FileZillaFormatter","boundary degenerate small-class","FileZillaFormatter","constructor",
-"FileZillaFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"McAfeeConfigsCommand","factory controller small-class","McAfeeConfigsCommand","constructor",
-"McAfeeConfigsCommand","factory controller small-class","Execute","property factory wrapper",
-"DirectoryQuery","empty","DirectoryQuery","constructor",
-"DirectoryListDTO","empty","DirectoryListDTO","constructor",
-"ExplorerMRUsCommand","controller small-class","ExplorerMRUsCommand","constructor",
-"ExplorerMRUsCommand","controller small-class","Execute","property non-void-command collaborator",
-"ExplorerMRUsCommand","controller small-class","EnumRecentExplorerFiles","factory controller stateless",
-"EnvironmentPathCommand","factory pure-controller degenerate small-class","EnvironmentPathCommand","constructor",
-"EnvironmentPathCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"FirefoxPresenceCommand","entity factory controller small-class","FirefoxPresenceCommand","constructor",
-"FirefoxPresenceCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"ScheduledTasksCommand","factory controller data-class small-class","ScheduledTasksCommand","constructor",
-"ScheduledTasksCommand","factory controller data-class small-class","Execute","property set factory collaborator",
-"CommandDTOBase","data-class small-class","CommandDTOBase","constructor",
-"CommandDTOBase","data-class small-class","SetCommandVersion","set",
-"CommandDTOBase","data-class small-class","GetCommandVersion","get",
-"SecurityPackagesCredentialsCommand","boundary","SecurityPackagesCredentialsCommand","constructor",
-"SecurityPackagesCredentialsCommand","boundary","Execute","property non-void-command collaborator",
-"SecurityPackagesCredentialsCommand","boundary","GetNtlmCreds","property non-void-command collaborator",
-"SecurityPackagesCredentialsCommand","boundary","ParseNTResponse","property non-void-command factory collaborator",
-"SecurityPackagesCredentialsCommand","boundary","FormatNetNtlmV1Hash","property non-void-command",
-"SecurityPackagesCredentialsCommand","boundary","FormatNetNtlmV2Hash","property non-void-command",
-"SecurityPackagesCredentialsCommand","boundary","ByteArrayToString","controller stateless",
-"SlackPresenceDTO","empty","SlackPresenceDTO","constructor",
-"SysmonEventCommand","entity factory controller small-class","SysmonEventCommand","constructor",
-"SysmonEventCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"SccmClientCommand","entity factory controller small-class","SccmClientCommand","constructor",
-"SccmClientCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"McAfeeSiteListCommand","factory pure-controller degenerate small-class","McAfeeSiteListCommand","constructor",
-"McAfeeSiteListCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"InstalledPrintersDTO","empty","InstalledPrintersDTO","constructor",
-"ChromiumBookmarksFormatter","boundary degenerate small-class","ChromiumBookmarksFormatter","constructor",
-"ChromiumBookmarksFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"AuditPolicyTextFormatter","boundary degenerate small-class","AuditPolicyTextFormatter","constructor",
-"AuditPolicyTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"AuditPolicyTextFormatter","boundary degenerate small-class","AuditPolicyTextFormatter","constructor",
-"AuditPolicyTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"PuttySessionsDTO","empty","PuttySessionsDTO","constructor",
-"InternetExplorerTabCommand","factory pure-controller degenerate small-class","InternetExplorerTabCommand","constructor",
-"InternetExplorerTabCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"RegistryValueTextFormatter","boundary degenerate small-class","RegistryValueTextFormatter","constructor",
-"RegistryValueTextFormatter","boundary degenerate small-class","FormatResult","wrapper stateless",
-"MicrosoftUpdateFormatter","boundary degenerate small-class","MicrosoftUpdateFormatter","constructor",
-"MicrosoftUpdateFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"ProcessFormatter","pure-controller degenerate small-class","ProcessFormatter","constructor",
-"ProcessFormatter","pure-controller degenerate small-class","FormatResult","controller stateless",
-"ChromiumHistoryDTO","empty","ChromiumHistoryDTO","constructor",
-"ChromiumPresenceFormatter","pure-controller degenerate small-class","ChromiumPresenceFormatter","constructor",
-"ChromiumPresenceFormatter","pure-controller degenerate small-class","FormatResult","controller stateless",
-"CredentialFileInfo","empty","CredentialFileInfo","constructor",
-"SysmonTextFormatter","small-class","SysmonTextFormatter","constructor",
-"SysmonTextFormatter","small-class","FormatResult","command collaborator",
-"SysmonTextFormatter","small-class","Split","controller stateless",
-"HostTextFormatter","boundary degenerate small-class","HostTextFormatter","constructor",
-"HostTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"AntiVirusDTO","empty","AntiVirusDTO","constructor",
-"ArpEntry","empty","ArpEntry","constructor",
-"FileInfoDTO","empty","FileInfoDTO","constructor",
-"RPCMappedEndpointsTextFormatter","boundary degenerate small-class","RPCMappedEndpointsTextFormatter","constructor",
-"RPCMappedEndpointsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"WindowsDefenderSettings","empty","WindowsDefenderSettings","constructor",
-"PowerShellEventsDTO","empty","PowerShellEventsDTO","constructor",
-"FileZillaDTO","empty","FileZillaDTO","constructor",
-"MTPuTTYConfig","empty","MTPuTTYConfig","constructor",
-"WindowsEventForwardingDTO","empty","WindowsEventForwardingDTO","constructor",
-"ServicesCommand","entity boundary degenerate","ServicesCommand","constructor",
-"ServicesCommand","entity boundary degenerate","Execute","property non-void-command factory collaborator",
-"ServicesCommand","entity boundary degenerate","TryGetServiceSddl","wrapper stateless",
-"ServicesCommand","entity boundary degenerate","GetServiceDll","wrapper stateless",
-"ServicesCommand","entity boundary degenerate","GetServiceCommandFromRegistry","wrapper stateless",
-"ServicesCommand","entity boundary degenerate","GetServiceBinaryPath","wrapper stateless",
-"ServicesCommand","entity boundary degenerate","GetServiceCommand","property non-void-command collaborator",
-"FileInfoCommand","factory controller small-class","FileInfoCommand","constructor",
-"FileInfoCommand","factory controller small-class","Execute","property factory controller",
-"ChromiumBookmarksDTO","empty","ChromiumBookmarksDTO","constructor",
-"AuditEntry","empty","AuditEntry","constructor",
-"SuperPuttyCommand","entity factory controller small-class","SuperPuttyCommand","constructor",
-"SuperPuttyCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"MTPuTTYCommand","controller small-class","MTPuTTYCommand","constructor",
-"MTPuTTYCommand","controller small-class","Execute","property non-void-command factory collaborator",
-"MTPuTTYCommand","controller small-class","DecryptUserPassword","controller stateless",
-"SearchIndexCommand","controller small-class","SearchIndexCommand","constructor",
-"SearchIndexCommand","controller small-class","SearchWindowsIndex","factory controller stateless",
-"SearchIndexCommand","controller small-class","Execute","property non-void-command collaborator",
-"WindowsVaultCommand","factory controller","WindowsVaultCommand","constructor",
-"WindowsVaultCommand","factory controller","Execute","property non-void-command factory collaborator",
-"WindowsVaultCommand","factory controller","GetVaultItem","controller stateless",
-"WindowsVaultCommand","factory controller","ParseVaultItem","property non-void-command factory collaborator",
-"WindowsVaultCommand","factory controller","GetVaultElementValue","factory controller stateless",
-"InternetExplorerTypedUrlsCommand","entity factory controller small-class","InternetExplorerTypedUrlsCommand","constructor",
-"InternetExplorerTypedUrlsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"ConsoleTextWriter","degenerate small-class","ConsoleTextWriter","constructor",
-"ConsoleTextWriter","degenerate small-class","Dispose","empty",
-"ConsoleTextWriter","degenerate small-class","IsConsolePresent","wrapper stateless",
-"NamedPipesFormatter","boundary degenerate small-class","NamedPipesFormatter","constructor",
-"NamedPipesFormatter","boundary degenerate small-class","FormatResult","wrapper stateless",
-"InterestingProcessesDTO","empty","InterestingProcessesDTO","constructor",
-"OptionalFeatureTextFormatter","boundary degenerate small-class","OptionalFeatureTextFormatter","constructor",
-"OptionalFeatureTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"InstalledProductsCommand","entity factory controller small-class","InstalledProductsCommand","constructor",
-"InstalledProductsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"SlackWorkspacesFormatter","boundary degenerate small-class","SlackWorkspacesFormatter","constructor",
-"SlackWorkspacesFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"AutoRunsCommand","factory controller small-class","AutoRunsCommand","constructor",
-"AutoRunsCommand","factory controller small-class","Execute","non-void-command factory collaborator",
-"WindowsCredentialFileDTO","empty","WindowsCredentialFileDTO","constructor",
-"LogonEventsTextFormatter","degenerate small-class","LogonEventsTextFormatter","constructor",
-"LogonEventsTextFormatter","degenerate small-class","FormatResult","incidental",
-"OneNoteCommand","entity factory controller small-class","OneNoteCommand","constructor",
-"OneNoteCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"LAPSCommand","entity factory controller small-class","LAPSCommand","constructor",
-"LAPSCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"SlackDownloadsFormatter","boundary degenerate small-class","SlackDownloadsFormatter","constructor",
-"SlackDownloadsFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"RDPSessionsDTO","empty","RDPSessionsDTO","constructor",
-"TextOutputSink","commander boundary small-class","TextOutputSink","constructor",
-"TextOutputSink","commander boundary small-class","InitializeCustomTextFormatters","command collaborator",
-"McAfeeSite","empty","McAfeeSite","constructor",
-"ChromiumPresenceDTO","empty","ChromiumPresenceDTO","constructor",
-"OfficeMRUsCommand","entity boundary","OfficeMRUsCommand","constructor",
-"OfficeMRUsCommand","entity boundary","Execute","property non-void-command collaborator",
-"OfficeMRUsCommand","entity boundary","EnumRecentOfficeFiles","property non-void-command collaborator",
-"OfficeMRUsCommand","entity boundary","GetMRUsFromVersionKey","property non-void-command collaborator",
-"OfficeMRUsCommand","entity boundary","GetMRUsValues","property non-void-command collaborator",
-"OfficeMRUsCommand","entity boundary","ParseMruString","factory wrapper stateless",
-"SlackWorkspacesDTO","empty","SlackWorkspacesDTO","constructor",
-"CloudSyncProviderCommand","entity factory controller small-class","CloudSyncProviderCommand","constructor",
-"CloudSyncProviderCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"ScheduledTasksFormatter","boundary degenerate small-class","ScheduledTasksFormatter","constructor",
-"ScheduledTasksFormatter","boundary degenerate small-class","FormatResult","wrapper stateless",
-"OutlookDownloadsCommand","entity factory controller small-class","OutlookDownloadsCommand","constructor",
-"OutlookDownloadsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"LocalUserDTO","empty","LocalUserDTO","constructor",
-"WarningDTO","empty","WarningDTO","constructor",
-"MicrosoftUpdateDTO","empty","MicrosoftUpdateDTO","constructor",
-"EnvironmentVariableFormatter","boundary degenerate small-class","EnvironmentVariableFormatter","constructor",
-"EnvironmentVariableFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"InterestingFilesCommand","factory pure-controller degenerate small-class","InterestingFilesCommand","constructor",
-"InterestingFilesCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"ExplicitLogonEventsTextFormatter","boundary degenerate small-class","ExplicitLogonEventsTextFormatter","constructor",
-"ExplicitLogonEventsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"ExplorerRecentFileTextFormatter","pure-controller degenerate small-class","ExplorerRecentFileTextFormatter","constructor",
-"ExplorerRecentFileTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless",
-"LogonEventsDTO","empty","LogonEventsDTO","constructor",
-"RPCMappedEndpointsCommand","factory controller small-class","RPCMappedEndpointsCommand","constructor",
-"RPCMappedEndpointsCommand","factory controller small-class","Execute","property factory wrapper",
-"WMIFormatter","small-class","WMIFormatter","constructor",
-"WMIFormatter","small-class","FormatResult","command collaborator",
-"WMIFormatter","small-class","WriteArrayValue","controller stateless",
-"AuditPoliciesCommand","factory controller degenerate","AuditPoliciesCommand","constructor",
-"AuditPoliciesCommand","factory controller degenerate","Execute","property non-void-command factory collaborator",
-"AuditPoliciesCommand","factory controller degenerate","ParseGPOPath","controller stateless",
-"AuditPoliciesCommand","factory controller degenerate","ParseClassicPolicy","factory controller stateless",
-"AuditPoliciesCommand","factory controller degenerate","ParseAdvancedPolicy","factory controller stateless",
-"PoweredOnEventsTextFormatter","commander boundary data-class small-class","PoweredOnEventsTextFormatter","constructor",
-"PoweredOnEventsTextFormatter","commander boundary data-class small-class","FormatResult","set collaborator",
-"PowerShellTextFormatter","controller small-class","PowerShellTextFormatter","constructor",
-"PowerShellTextFormatter","controller small-class","FormatResult","command collaborator",
-"PowerShellTextFormatter","controller small-class","GetVersionFromString","factory controller stateless",
-"TokenGroupsTextFormatter","boundary degenerate small-class","TokenGroupsTextFormatter","constructor",
-"TokenGroupsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"FileZillaConfig","empty","FileZillaConfig","constructor",
-"ProcessCreationEventsCommand","entity factory controller small-class","ProcessCreationEventsCommand","constructor",
-"ProcessCreationEventsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"ProcessCreationEventDTO","empty","ProcessCreationEventDTO","constructor",
-"RegistryValueCommand","entity boundary","RegistryValueCommand","constructor",
-"RegistryValueCommand","entity boundary","Execute","property non-void-command collaborator",
-"RegistryValueCommand","entity boundary","EnumerateRootKey","property non-void-command collaborator",
-"RegistryValueCommand","entity boundary","EnumerateRegistryKey","property non-void-command factory collaborator",
-"ProcessCreationEventTextFormatter","boundary degenerate small-class","ProcessCreationEventTextFormatter","constructor",
-"ProcessCreationEventTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"RDPSettingsFormatter","boundary degenerate small-class","RDPSettingsFormatter","constructor",
-"RDPSettingsFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"ExplorerRunCommandDTO","empty","ExplorerRunCommandDTO","constructor",
-"PowerShellEventsCommand","entity factory controller small-class","PowerShellEventsCommand","constructor",
-"PowerShellEventsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"RdpSessionsTextFormatter","boundary degenerate small-class","RdpSessionsTextFormatter","constructor",
-"RdpSessionsTextFormatter","boundary degenerate small-class","FormatResult","wrapper stateless",
-"HotfixDTO","empty","HotfixDTO","constructor",
-"ArpTableTextFormatter","boundary degenerate small-class","ArpTableTextFormatter","constructor",
-"ArpTableTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"HotfixTextFormatter","boundary degenerate small-class","HotfixTextFormatter","constructor",
-"HotfixTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"WMIDTO","empty","WMIDTO","constructor",
-"IdleTimeDTO","empty","IdleTimeDTO","constructor",
-"InterestingProcessesFormatter","boundary degenerate small-class","InterestingProcessesFormatter","constructor",
-"InterestingProcessesFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"LocalSecurityAuthorityFormatter","pure-controller degenerate small-class","LocalSecurityAuthorityFormatter","constructor",
-"LocalSecurityAuthorityFormatter","pure-controller degenerate small-class","FormatResult","controller stateless",
-"CommandOutputTypeAttribute","empty","CommandOutputTypeAttribute","constructor",
-"InternetSettingsCommand","factory pure-controller degenerate small-class","InternetSettingsCommand","constructor",
-"InternetSettingsCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"LocalGPOCommand","factory pure-controller degenerate small-class","LocalGPOCommand","constructor",
-"LocalGPOCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"LocalGroupMembershipDTO","empty","LocalGroupMembershipDTO","constructor",
-"RDPSavedConnectionCommandFormatter","boundary degenerate small-class","RDPSavedConnectionCommandFormatter","constructor",
-"RDPSavedConnectionCommandFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"LocalGroupMembershipTextFormatter","boundary degenerate small-class","LocalGroupMembershipTextFormatter","constructor",
-"LocalGroupMembershipTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"LocalSecurityAuthorityDTO","empty","LocalSecurityAuthorityDTO","constructor",
-"ErrorTextFormatter","boundary degenerate small-class","ErrorTextFormatter","constructor",
-"ErrorTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"LogonSessionsDTO","empty","LogonSessionsDTO","constructor",
-"MicrosoftUpdateCommand","factory pure-controller degenerate small-class","MicrosoftUpdateCommand","constructor",
-"MicrosoftUpdateCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"WindowsAutoLogonCommand","entity factory controller small-class","WindowsAutoLogonCommand","constructor",
-"WindowsAutoLogonCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"TokenPrivilegesDTO","empty","TokenPrivilegesDTO","constructor",
-"NamedPipesCommand","controller small-class","NamedPipesCommand","constructor",
-"NamedPipesCommand","controller small-class","Execute","property non-void-command factory collaborator",
-"NamedPipesCommand","controller small-class","GetSddl","controller stateless",
-"RPCMappedEndpointsDTO","empty","RPCMappedEndpointsDTO","constructor",
-"DirectoryInfoDTO","empty","DirectoryInfoDTO","constructor",
-"NetworkShareDTO","empty","NetworkShareDTO","constructor",
-"IdleTimeCommand","factory degenerate small-class","IdleTimeCommand","constructor",
-"IdleTimeCommand","factory degenerate small-class","Execute","factory wrapper stateless",
-"OSInfoDTO","empty","OSInfoDTO","constructor",
-"NtlmHashDTO","empty","NtlmHashDTO","constructor",
-"OptionalFeaturesCommandDTO","empty","OptionalFeaturesCommandDTO","constructor",
-"HostDTO","empty","HostDTO","constructor",
-"PluginAccess","empty","PluginAccess","constructor",
-"NtlmSettingsTextFormatter","pure-controller degenerate small-class","NtlmSettingsTextFormatter","constructor",
-"NtlmSettingsTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless",
-"PSSessionSettingsFormatter","boundary degenerate small-class","PSSessionSettingsFormatter","constructor",
-"PSSessionSettingsFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"AsrSettings","empty","AsrSettings","constructor",
-"PowerShellHistoryCommand","entity factory controller small-class","PowerShellHistoryCommand","constructor",
-"PowerShellHistoryCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"TEMPLATECommand","entity factory controller small-class","TEMPLATECommand","constructor",
-"TEMPLATECommand","entity factory controller small-class","Execute","property non-void-command factory collaborator",
-"PrintersCommand","factory pure-controller degenerate small-class","PrintersCommand","constructor",
-"PrintersCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"PowerShellDTO","empty","PowerShellDTO","constructor",
-"ProcessOwnerFormatter","boundary degenerate small-class","ProcessOwnerFormatter","constructor",
-"ProcessOwnerFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"Module","empty","Module","constructor",
-"TokenPrivilegesCommand","factory pure-controller degenerate small-class","TokenPrivilegesCommand","constructor",
-"TokenPrivilegesCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"ProcessesCommand","entity small-class","ProcessesCommand","constructor",
-"ProcessesCommand","entity small-class","GetProcessProtectionInfo","wrapper stateless",
-"ProcessesCommand","entity small-class","Execute","property non-void-command factory collaborator",
-"ProcessesDTO","empty","ProcessesDTO","constructor",
-"DefaultTextFormatter","pure-controller degenerate small-class","DefaultTextFormatter","constructor",
-"DefaultTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless",
-"VaultItemValue","empty","VaultItemValue","constructor",
-"RDPClientSettings","empty","RDPClientSettings","constructor",
-"Bookmark","empty","Bookmark","constructor",
-"OsInfoTextFormatter","boundary degenerate small-class","OsInfoTextFormatter","constructor",
-"OsInfoTextFormatter","boundary degenerate small-class","FormatResult","wrapper stateless",
-"RDPServerSettings","empty","RDPServerSettings","constructor",
-"RDPSettingsDTO","empty","RDPSettingsDTO","constructor",
-"PSSessionSettingsDTO","empty","PSSessionSettingsDTO","constructor",
-"PuttyHostKeysDTO","empty","PuttyHostKeysDTO","constructor",
-"SecureBootDTO","empty","SecureBootDTO","constructor",
-"SecurityPackagesCommand","factory pure-controller degenerate small-class","SecurityPackagesCommand","constructor",
-"SecurityPackagesCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"RegistryValueDTO","empty","RegistryValueDTO","constructor",
-"ServicesDTO","empty","ServicesDTO","constructor",
-"UdpConnectionsDTO","empty","UdpConnectionsDTO","constructor",
-"TcpConnectionsCommand","factory pure-controller degenerate small-class","TcpConnectionsCommand","constructor",
-"TcpConnectionsCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"UdpConnectionsCommand","factory pure-controller degenerate small-class","UdpConnectionsCommand","constructor",
-"UdpConnectionsCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless",
-"TcpConnectionsDTO","empty","TcpConnectionsDTO","constructor",
-"TcpConnectionsTextFormatter","boundary degenerate small-class","TcpConnectionsTextFormatter","constructor",
-"TcpConnectionsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
-"TokenPrivilegesTextFormatter","boundary degenerate small-class","TokenPrivilegesTextFormatter","constructor",
-"TokenPrivilegesTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental",
+"RegistryKeyValue","empty","RegistryKeyValue","constructor"
+"LsaWrapper","controller","LsaWrapper","constructor"
+"LsaWrapper","controller","LsaWrapper","constructor"
+"LsaWrapper","controller","ReadPrivilege","non-void-command factory collaborator"
+"LsaWrapper","controller","ResolveAccountName","factory controller stateless"
+"LsaWrapper","controller","TestReturnValue","wrapper"
+"LsaWrapper","controller","Dispose","set"
+"LsaWrapper","controller","~LsaWrapper","destructor"
+"SeatbeltOptions","empty","SeatbeltOptions","constructor"
+"Seatbelt","commander","Seatbelt","constructor"
+"Seatbelt","commander","GetOutput","property non-void-command"
+"Seatbelt","commander","OutputSinkFromArgs","property factory controller"
+"Seatbelt","commander","Start","command collaborator"
+"Seatbelt","commander","PrintLogo","command"
+"Seatbelt","commander","Usage","command collaborator"
+"Seatbelt","commander","Dispose","command"
+"Runtime","data-provider boundary","Runtime","constructor"
+"Runtime","data-provider boundary","Runtime","constructor"
+"Runtime","data-provider boundary","Runtime","constructor"
+"Runtime","data-provider boundary","GetManagementObjectSearcher","property set factory collaborator"
+"Runtime","data-provider boundary","GetSubkeyNames","property wrapper"
+"Runtime","data-provider boundary","GetStringValue","property wrapper"
+"Runtime","data-provider boundary","GetDwordValue","property wrapper"
+"Runtime","data-provider boundary","GetBinaryValue","property wrapper"
+"Runtime","data-provider boundary","GetValues","property wrapper"
+"Runtime","data-provider boundary","GetUserSIDs","property wrapper"
+"Runtime","data-provider boundary","GetDirectories","property controller"
+"Runtime","data-provider boundary","GetEventLogReader","factory wrapper"
+"Runtime","data-provider boundary","GetEnvironmentVariable","property non-void-command collaborator"
+"Runtime","data-provider boundary","ISRemote","predicate wrapper"
+"Runtime","data-provider boundary","InitializeCommands","command collaborator"
+"Runtime","data-provider boundary","Execute","command collaborator"
+"Runtime","data-provider boundary","ProcessGroup","predicate non-void-command collaborator"
+"JsonStringOutputSink","entity commander boundary","JsonStringOutputSink","constructor"
+"JsonStringOutputSink","entity commander boundary","WriteOutput","command collaborator"
+"JsonStringOutputSink","entity commander boundary","GetOutput","property non-void-command collaborator"
+"JsonStringOutputSink","entity commander boundary","Dispose","command"
+"JsonFileOutputSink","commander","JsonFileOutputSink","constructor"
+"JsonFileOutputSink","commander","WriteOutput","command collaborator"
+"JsonFileOutputSink","commander","GetOutput","incidental"
+"JsonFileOutputSink","commander","Dispose","command"
+"TextFormatterBase","empty","TextFormatterBase","constructor"
+"SecBufferDesc","entity boundary small-class","SecBufferDesc","constructor"
+"SecBufferDesc","entity boundary small-class","SecBufferDesc","constructor"
+"SecBufferDesc","entity boundary small-class","Dispose","set collaborator"
+"SecBufferDesc","entity boundary small-class","ToArray","property non-void-command collaborator"
+"SecBuffer","small-class","SecBuffer","constructor"
+"SecBuffer","small-class","SecBuffer","constructor"
+"SecBuffer","small-class","ToArray","property wrapper"
+"SecBuffer","small-class","Dispose","set"
+"SeatbeltArgumentParser","entity boundary","SeatbeltArgumentParser","constructor"
+"SeatbeltArgumentParser","entity boundary","Parse","property non-void-command factory collaborator"
+"SeatbeltArgumentParser","entity boundary","ParseAndRemoveSwitchArgument","predicate non-void-command"
+"SeatbeltArgumentParser","entity boundary","ParseAndRemoveKeyValueArgument","property non-void-command collaborator"
+"WindowsFirewallDTO","empty","WindowsFirewallDTO","constructor"
+"WindowsEventForwardingFormatter","boundary degenerate small-class","WindowsEventForwardingFormatter","constructor"
+"WindowsEventForwardingFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"WindowsDefenderDTO","empty","WindowsDefenderDTO","constructor"
+"AsrRule","empty","AsrRule","constructor"
+"WindowsCredentialFileFormatter","boundary degenerate small-class","WindowsCredentialFileFormatter","constructor"
+"WindowsCredentialFileFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"WindowsCredentialFileCommand","controller degenerate","WindowsCredentialFileCommand","constructor"
+"WindowsCredentialFileCommand","controller degenerate","Execute","property non-void-command collaborator"
+"WindowsCredentialFileCommand","controller degenerate","GetCredentialsFromDirectory","factory controller stateless"
+"WindowsCredentialFileCommand","controller degenerate","CredentialFile","factory wrapper stateless"
+"WifiProfileCommand","factory pure-controller degenerate small-class","WifiProfileCommand","constructor"
+"WifiProfileCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"WMIFilterToConsumerBindingDTO","empty","WMIFilterToConsumerBindingDTO","constructor"
+"WMIFilterToConsumerBindingCommand","factory pure-controller degenerate small-class","WMIFilterToConsumerBindingCommand","constructor"
+"WMIFilterToConsumerBindingCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"WmiEventFilterDTO","empty","WmiEventFilterDTO","constructor"
+"WmiEventFilterCommand","factory pure-controller degenerate small-class","WmiEventFilterCommand","constructor"
+"WmiEventFilterCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"WMIEventConsumeFormatter","boundary degenerate small-class","WMIEventConsumeFormatter","constructor"
+"WMIEventConsumeFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"WMIEventConsumerDTO","empty","WMIEventConsumerDTO","constructor"
+"WMIEventConsumerCommand","factory pure-controller degenerate small-class","WMIEventConsumerCommand","constructor"
+"WMIEventConsumerCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"UserRightAssignmentsTextFormatter","boundary degenerate small-class","UserRightAssignmentsTextFormatter","constructor"
+"UserRightAssignmentsTextFormatter","boundary degenerate small-class","FormatResult","wrapper stateless"
+"UserRightAssignmentsCommand","entity factory controller small-class","UserRightAssignmentsCommand","constructor"
+"UserRightAssignmentsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"UserAccountControlCommand","entity factory controller small-class","UserAccountControlCommand","constructor"
+"UserAccountControlCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"UdpConnectionsTextFormatter","boundary degenerate small-class","UdpConnectionsTextFormatter","constructor"
+"UdpConnectionsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"WindowsDefenderFormatter","commander boundary small-class","WindowsDefenderFormatter","constructor"
+"WindowsDefenderFormatter","commander boundary small-class","FormatResult","command collaborator"
+"WindowsDefenderFormatter","commander boundary small-class","DisplayDefenderSettings","command collaborator"
+"DotNetTextFormatter","pure-controller degenerate small-class","DotNetTextFormatter","constructor"
+"DotNetTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless"
+"CredEnumCommand","factory degenerate small-class","CredEnumCommand","constructor"
+"CredEnumCommand","factory degenerate small-class","Execute","factory wrapper stateless"
+"VerboseDTO","empty","VerboseDTO","constructor"
+"SuperPuttyConfig","empty","SuperPuttyConfig","constructor"
+"AzureADFormatter","boundary degenerate small-class","AzureADFormatter","constructor"
+"AzureADFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"NetAadJoinInfo","empty","NetAadJoinInfo","constructor"
+"AppLockerCommand","entity factory controller small-class","AppLockerCommand","constructor"
+"AppLockerCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"AzureADDTO","empty","AzureADDTO","constructor"
+"AzureADCommand","factory controller small-class","AzureADCommand","constructor"
+"AzureADCommand","factory controller small-class","Execute","property non-void-command factory collaborator"
+"AzureADCommand","factory controller small-class","GetNetAadInfo","factory controller stateless"
+"WindowsSearchIndexTextFormatter","boundary degenerate small-class","WindowsSearchIndexTextFormatter","constructor"
+"WindowsSearchIndexTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"AuditPolicyDTO","empty","AuditPolicyDTO","constructor"
+"EnvironmentVariableDTO","empty","EnvironmentVariableDTO","constructor"
+"FirefoxHistoryCommand","entity factory controller small-class","FirefoxHistoryCommand","constructor"
+"FirefoxHistoryCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"DotNetDTO","empty","DotNetDTO","constructor"
+"LolbasCommand","entity factory controller small-class","LolbasCommand","constructor"
+"LolbasCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"LogonSessionsTextFormatter","pure-controller degenerate small-class","LogonSessionsTextFormatter","constructor"
+"LogonSessionsTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless"
+"DNSCacheDTO","empty","DNSCacheDTO","constructor"
+"TypedUrl","empty","TypedUrl","constructor"
+"AMSIProviderDTO","empty","AMSIProviderDTO","constructor"
+"FileTextWriter","commander small-class","FileTextWriter","constructor"
+"FileTextWriter","commander small-class","Dispose","command"
+"ArpTableCommand","pure-controller degenerate small-class","ArpTableCommand","constructor"
+"ArpTableCommand","pure-controller degenerate small-class","Execute","controller stateless"
+"TokenGroupsDTO","empty","TokenGroupsDTO","constructor"
+"WarningTextFormatter","degenerate small-class","WarningTextFormatter","constructor"
+"WarningTextFormatter","degenerate small-class","FormatResult","incidental"
+"WsusClientDTO","empty","WsusClientDTO","constructor"
+"RecycleBinCommand","factory pure-controller degenerate small-class","RecycleBinCommand","constructor"
+"RecycleBinCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"WsusClientCommand","entity factory controller small-class","WsusClientCommand","constructor"
+"WsusClientCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"TokenGroupCommand","boundary degenerate small-class","TokenGroupCommand","constructor"
+"TokenGroupCommand","boundary degenerate small-class","Execute","wrapper stateless"
+"CertificateThumbprintFormatter","boundary degenerate small-class","CertificateThumbprintFormatter","constructor"
+"CertificateThumbprintFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"SysmonDTO","empty","SysmonDTO","constructor"
+"SlackPresenceFormatter","boundary degenerate small-class","SlackPresenceFormatter","constructor"
+"SlackPresenceFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"ArpTableDTO","empty","ArpTableDTO","constructor"
+"SlackDownloadsDTO","empty","SlackDownloadsDTO","constructor"
+"OracleSQLDeveloperCommand","factory pure-controller degenerate small-class","OracleSQLDeveloperCommand","constructor"
+"OracleSQLDeveloperCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"SccmClientDTO","empty","SccmClientDTO","constructor"
+"DpapiMasterKeysFormatter","boundary degenerate small-class","DpapiMasterKeysFormatter","constructor"
+"DpapiMasterKeysFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"DirectoryListCommand","entity boundary","DirectoryListCommand","constructor"
+"DirectoryListCommand","entity boundary","Execute","property non-void-command collaborator"
+"DirectoryListCommand","entity boundary","GetFiles","property non-void-command collaborator"
+"DirectoryListCommand","entity boundary","GetDirectories","property non-void-command collaborator"
+"DirectoryListCommand","entity boundary","WriteOutput","factory wrapper stateless"
+"VerboseTextFormatter","degenerate small-class","VerboseTextFormatter","constructor"
+"VerboseTextFormatter","degenerate small-class","FormatResult","incidental"
+"RemoteDesktopConnectionManagerCommand","entity factory controller small-class","RemoteDesktopConnectionManagerCommand","constructor"
+"RemoteDesktopConnectionManagerCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"CredentialGuardCommand","entity factory controller small-class","CredentialGuardCommand","constructor"
+"CredentialGuardCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"ExplorerRunCommandFormatter","degenerate small-class","ExplorerRunCommandFormatter","constructor"
+"ExplorerRunCommandFormatter","degenerate small-class","FormatResult","controller stateless"
+"ExplorerRunCommandFormatter","degenerate small-class","ExplorerRunCommandFormatter","constructor"
+"ExplorerRunCommandFormatter","degenerate small-class","FormatResult","collaborator incidental"
+"CommandBase","empty","CommandBase","constructor"
+"PuttyHostKeysFormatter","boundary degenerate small-class","PuttyHostKeysFormatter","constructor"
+"PuttyHostKeysFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"DirectoryListTextFormatter","commander boundary small-class","DirectoryListTextFormatter","constructor"
+"DirectoryListTextFormatter","commander boundary small-class","FormatResult","command collaborator"
+"DirectoryListTextFormatter","commander boundary small-class","BytesToString","wrapper stateless"
+"ChromiumHistoryFormatter","boundary degenerate small-class","ChromiumHistoryFormatter","constructor"
+"ChromiumHistoryFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"WMICommand","entity factory controller small-class","WMICommand","constructor"
+"WMICommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"CloudCredentialsDTO","empty","CloudCredentialsDTO","constructor"
+"InternetExplorerFavoritesCommand","entity factory controller small-class","InternetExplorerFavoritesCommand","constructor"
+"InternetExplorerFavoritesCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"CertificateFormatter","boundary degenerate small-class","CertificateFormatter","constructor"
+"CertificateFormatter","boundary degenerate small-class","FormatResult","wrapper stateless"
+"IdleTimeFormatter","boundary degenerate small-class","IdleTimeFormatter","constructor"
+"IdleTimeFormatter","boundary degenerate small-class","FormatResult","wrapper stateless"
+"ErrorDTO","empty","ErrorDTO","constructor"
+"FileZillaFormatter","boundary degenerate small-class","FileZillaFormatter","constructor"
+"FileZillaFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"McAfeeConfigsCommand","factory controller small-class","McAfeeConfigsCommand","constructor"
+"McAfeeConfigsCommand","factory controller small-class","Execute","property factory wrapper"
+"DirectoryQuery","empty","DirectoryQuery","constructor"
+"DirectoryListDTO","empty","DirectoryListDTO","constructor"
+"ExplorerMRUsCommand","controller small-class","ExplorerMRUsCommand","constructor"
+"ExplorerMRUsCommand","controller small-class","Execute","property non-void-command collaborator"
+"ExplorerMRUsCommand","controller small-class","EnumRecentExplorerFiles","factory controller stateless"
+"EnvironmentPathCommand","factory pure-controller degenerate small-class","EnvironmentPathCommand","constructor"
+"EnvironmentPathCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"FirefoxPresenceCommand","entity factory controller small-class","FirefoxPresenceCommand","constructor"
+"FirefoxPresenceCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"ScheduledTasksCommand","factory controller data-class small-class","ScheduledTasksCommand","constructor"
+"ScheduledTasksCommand","factory controller data-class small-class","Execute","property set factory collaborator"
+"CommandDTOBase","data-class small-class","CommandDTOBase","constructor"
+"CommandDTOBase","data-class small-class","SetCommandVersion","set"
+"CommandDTOBase","data-class small-class","GetCommandVersion","get"
+"SecurityPackagesCredentialsCommand","boundary","SecurityPackagesCredentialsCommand","constructor"
+"SecurityPackagesCredentialsCommand","boundary","Execute","property non-void-command collaborator"
+"SecurityPackagesCredentialsCommand","boundary","GetNtlmCreds","property non-void-command collaborator"
+"SecurityPackagesCredentialsCommand","boundary","ParseNTResponse","property non-void-command factory collaborator"
+"SecurityPackagesCredentialsCommand","boundary","FormatNetNtlmV1Hash","property non-void-command"
+"SecurityPackagesCredentialsCommand","boundary","FormatNetNtlmV2Hash","property non-void-command"
+"SecurityPackagesCredentialsCommand","boundary","ByteArrayToString","controller stateless"
+"SlackPresenceDTO","empty","SlackPresenceDTO","constructor"
+"SysmonEventCommand","entity factory controller small-class","SysmonEventCommand","constructor"
+"SysmonEventCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"SccmClientCommand","entity factory controller small-class","SccmClientCommand","constructor"
+"SccmClientCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"McAfeeSiteListCommand","factory pure-controller degenerate small-class","McAfeeSiteListCommand","constructor"
+"McAfeeSiteListCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"InstalledPrintersDTO","empty","InstalledPrintersDTO","constructor"
+"ChromiumBookmarksFormatter","boundary degenerate small-class","ChromiumBookmarksFormatter","constructor"
+"ChromiumBookmarksFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"AuditPolicyTextFormatter","boundary degenerate small-class","AuditPolicyTextFormatter","constructor"
+"AuditPolicyTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"AuditPolicyTextFormatter","boundary degenerate small-class","AuditPolicyTextFormatter","constructor"
+"AuditPolicyTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"PuttySessionsDTO","empty","PuttySessionsDTO","constructor"
+"InternetExplorerTabCommand","factory pure-controller degenerate small-class","InternetExplorerTabCommand","constructor"
+"InternetExplorerTabCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"RegistryValueTextFormatter","boundary degenerate small-class","RegistryValueTextFormatter","constructor"
+"RegistryValueTextFormatter","boundary degenerate small-class","FormatResult","wrapper stateless"
+"MicrosoftUpdateFormatter","boundary degenerate small-class","MicrosoftUpdateFormatter","constructor"
+"MicrosoftUpdateFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"ProcessFormatter","pure-controller degenerate small-class","ProcessFormatter","constructor"
+"ProcessFormatter","pure-controller degenerate small-class","FormatResult","controller stateless"
+"ChromiumHistoryDTO","empty","ChromiumHistoryDTO","constructor"
+"ChromiumPresenceFormatter","pure-controller degenerate small-class","ChromiumPresenceFormatter","constructor"
+"ChromiumPresenceFormatter","pure-controller degenerate small-class","FormatResult","controller stateless"
+"CredentialFileInfo","empty","CredentialFileInfo","constructor"
+"SysmonTextFormatter","small-class","SysmonTextFormatter","constructor"
+"SysmonTextFormatter","small-class","FormatResult","command collaborator"
+"SysmonTextFormatter","small-class","Split","controller stateless"
+"HostTextFormatter","boundary degenerate small-class","HostTextFormatter","constructor"
+"HostTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"AntiVirusDTO","empty","AntiVirusDTO","constructor"
+"ArpEntry","empty","ArpEntry","constructor"
+"FileInfoDTO","empty","FileInfoDTO","constructor"
+"RPCMappedEndpointsTextFormatter","boundary degenerate small-class","RPCMappedEndpointsTextFormatter","constructor"
+"RPCMappedEndpointsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"WindowsDefenderSettings","empty","WindowsDefenderSettings","constructor"
+"PowerShellEventsDTO","empty","PowerShellEventsDTO","constructor"
+"FileZillaDTO","empty","FileZillaDTO","constructor"
+"MTPuTTYConfig","empty","MTPuTTYConfig","constructor"
+"WindowsEventForwardingDTO","empty","WindowsEventForwardingDTO","constructor"
+"ServicesCommand","entity boundary degenerate","ServicesCommand","constructor"
+"ServicesCommand","entity boundary degenerate","Execute","property non-void-command factory collaborator"
+"ServicesCommand","entity boundary degenerate","TryGetServiceSddl","wrapper stateless"
+"ServicesCommand","entity boundary degenerate","GetServiceDll","wrapper stateless"
+"ServicesCommand","entity boundary degenerate","GetServiceCommandFromRegistry","wrapper stateless"
+"ServicesCommand","entity boundary degenerate","GetServiceBinaryPath","wrapper stateless"
+"ServicesCommand","entity boundary degenerate","GetServiceCommand","property non-void-command collaborator"
+"FileInfoCommand","factory controller small-class","FileInfoCommand","constructor"
+"FileInfoCommand","factory controller small-class","Execute","property factory controller"
+"ChromiumBookmarksDTO","empty","ChromiumBookmarksDTO","constructor"
+"AuditEntry","empty","AuditEntry","constructor"
+"SuperPuttyCommand","entity factory controller small-class","SuperPuttyCommand","constructor"
+"SuperPuttyCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"MTPuTTYCommand","controller small-class","MTPuTTYCommand","constructor"
+"MTPuTTYCommand","controller small-class","Execute","property non-void-command factory collaborator"
+"MTPuTTYCommand","controller small-class","DecryptUserPassword","controller stateless"
+"SearchIndexCommand","controller small-class","SearchIndexCommand","constructor"
+"SearchIndexCommand","controller small-class","SearchWindowsIndex","factory controller stateless"
+"SearchIndexCommand","controller small-class","Execute","property non-void-command collaborator"
+"WindowsVaultCommand","factory controller","WindowsVaultCommand","constructor"
+"WindowsVaultCommand","factory controller","Execute","property non-void-command factory collaborator"
+"WindowsVaultCommand","factory controller","GetVaultItem","controller stateless"
+"WindowsVaultCommand","factory controller","ParseVaultItem","property non-void-command factory collaborator"
+"WindowsVaultCommand","factory controller","GetVaultElementValue","factory controller stateless"
+"InternetExplorerTypedUrlsCommand","entity factory controller small-class","InternetExplorerTypedUrlsCommand","constructor"
+"InternetExplorerTypedUrlsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"ConsoleTextWriter","degenerate small-class","ConsoleTextWriter","constructor"
+"ConsoleTextWriter","degenerate small-class","Dispose","empty"
+"ConsoleTextWriter","degenerate small-class","IsConsolePresent","wrapper stateless"
+"NamedPipesFormatter","boundary degenerate small-class","NamedPipesFormatter","constructor"
+"NamedPipesFormatter","boundary degenerate small-class","FormatResult","wrapper stateless"
+"InterestingProcessesDTO","empty","InterestingProcessesDTO","constructor"
+"OptionalFeatureTextFormatter","boundary degenerate small-class","OptionalFeatureTextFormatter","constructor"
+"OptionalFeatureTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"InstalledProductsCommand","entity factory controller small-class","InstalledProductsCommand","constructor"
+"InstalledProductsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"SlackWorkspacesFormatter","boundary degenerate small-class","SlackWorkspacesFormatter","constructor"
+"SlackWorkspacesFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"AutoRunsCommand","factory controller small-class","AutoRunsCommand","constructor"
+"AutoRunsCommand","factory controller small-class","Execute","non-void-command factory collaborator"
+"WindowsCredentialFileDTO","empty","WindowsCredentialFileDTO","constructor"
+"LogonEventsTextFormatter","degenerate small-class","LogonEventsTextFormatter","constructor"
+"LogonEventsTextFormatter","degenerate small-class","FormatResult","incidental"
+"OneNoteCommand","entity factory controller small-class","OneNoteCommand","constructor"
+"OneNoteCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"LAPSCommand","entity factory controller small-class","LAPSCommand","constructor"
+"LAPSCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"SlackDownloadsFormatter","boundary degenerate small-class","SlackDownloadsFormatter","constructor"
+"SlackDownloadsFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"RDPSessionsDTO","empty","RDPSessionsDTO","constructor"
+"TextOutputSink","commander boundary small-class","TextOutputSink","constructor"
+"TextOutputSink","commander boundary small-class","InitializeCustomTextFormatters","command collaborator"
+"McAfeeSite","empty","McAfeeSite","constructor"
+"ChromiumPresenceDTO","empty","ChromiumPresenceDTO","constructor"
+"OfficeMRUsCommand","entity boundary","OfficeMRUsCommand","constructor"
+"OfficeMRUsCommand","entity boundary","Execute","property non-void-command collaborator"
+"OfficeMRUsCommand","entity boundary","EnumRecentOfficeFiles","property non-void-command collaborator"
+"OfficeMRUsCommand","entity boundary","GetMRUsFromVersionKey","property non-void-command collaborator"
+"OfficeMRUsCommand","entity boundary","GetMRUsValues","property non-void-command collaborator"
+"OfficeMRUsCommand","entity boundary","ParseMruString","factory wrapper stateless"
+"SlackWorkspacesDTO","empty","SlackWorkspacesDTO","constructor"
+"CloudSyncProviderCommand","entity factory controller small-class","CloudSyncProviderCommand","constructor"
+"CloudSyncProviderCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"ScheduledTasksFormatter","boundary degenerate small-class","ScheduledTasksFormatter","constructor"
+"ScheduledTasksFormatter","boundary degenerate small-class","FormatResult","wrapper stateless"
+"OutlookDownloadsCommand","entity factory controller small-class","OutlookDownloadsCommand","constructor"
+"OutlookDownloadsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"LocalUserDTO","empty","LocalUserDTO","constructor"
+"WarningDTO","empty","WarningDTO","constructor"
+"MicrosoftUpdateDTO","empty","MicrosoftUpdateDTO","constructor"
+"EnvironmentVariableFormatter","boundary degenerate small-class","EnvironmentVariableFormatter","constructor"
+"EnvironmentVariableFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"InterestingFilesCommand","factory pure-controller degenerate small-class","InterestingFilesCommand","constructor"
+"InterestingFilesCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"ExplicitLogonEventsTextFormatter","boundary degenerate small-class","ExplicitLogonEventsTextFormatter","constructor"
+"ExplicitLogonEventsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"ExplorerRecentFileTextFormatter","pure-controller degenerate small-class","ExplorerRecentFileTextFormatter","constructor"
+"ExplorerRecentFileTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless"
+"LogonEventsDTO","empty","LogonEventsDTO","constructor"
+"RPCMappedEndpointsCommand","factory controller small-class","RPCMappedEndpointsCommand","constructor"
+"RPCMappedEndpointsCommand","factory controller small-class","Execute","property factory wrapper"
+"WMIFormatter","small-class","WMIFormatter","constructor"
+"WMIFormatter","small-class","FormatResult","command collaborator"
+"WMIFormatter","small-class","WriteArrayValue","controller stateless"
+"AuditPoliciesCommand","factory controller degenerate","AuditPoliciesCommand","constructor"
+"AuditPoliciesCommand","factory controller degenerate","Execute","property non-void-command factory collaborator"
+"AuditPoliciesCommand","factory controller degenerate","ParseGPOPath","controller stateless"
+"AuditPoliciesCommand","factory controller degenerate","ParseClassicPolicy","factory controller stateless"
+"AuditPoliciesCommand","factory controller degenerate","ParseAdvancedPolicy","factory controller stateless"
+"PoweredOnEventsTextFormatter","commander boundary data-class small-class","PoweredOnEventsTextFormatter","constructor"
+"PoweredOnEventsTextFormatter","commander boundary data-class small-class","FormatResult","set collaborator"
+"PowerShellTextFormatter","controller small-class","PowerShellTextFormatter","constructor"
+"PowerShellTextFormatter","controller small-class","FormatResult","command collaborator"
+"PowerShellTextFormatter","controller small-class","GetVersionFromString","factory controller stateless"
+"TokenGroupsTextFormatter","boundary degenerate small-class","TokenGroupsTextFormatter","constructor"
+"TokenGroupsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"FileZillaConfig","empty","FileZillaConfig","constructor"
+"ProcessCreationEventsCommand","entity factory controller small-class","ProcessCreationEventsCommand","constructor"
+"ProcessCreationEventsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"ProcessCreationEventDTO","empty","ProcessCreationEventDTO","constructor"
+"RegistryValueCommand","entity boundary","RegistryValueCommand","constructor"
+"RegistryValueCommand","entity boundary","Execute","property non-void-command collaborator"
+"RegistryValueCommand","entity boundary","EnumerateRootKey","property non-void-command collaborator"
+"RegistryValueCommand","entity boundary","EnumerateRegistryKey","property non-void-command factory collaborator"
+"ProcessCreationEventTextFormatter","boundary degenerate small-class","ProcessCreationEventTextFormatter","constructor"
+"ProcessCreationEventTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"RDPSettingsFormatter","boundary degenerate small-class","RDPSettingsFormatter","constructor"
+"RDPSettingsFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"ExplorerRunCommandDTO","empty","ExplorerRunCommandDTO","constructor"
+"PowerShellEventsCommand","entity factory controller small-class","PowerShellEventsCommand","constructor"
+"PowerShellEventsCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"RdpSessionsTextFormatter","boundary degenerate small-class","RdpSessionsTextFormatter","constructor"
+"RdpSessionsTextFormatter","boundary degenerate small-class","FormatResult","wrapper stateless"
+"HotfixDTO","empty","HotfixDTO","constructor"
+"ArpTableTextFormatter","boundary degenerate small-class","ArpTableTextFormatter","constructor"
+"ArpTableTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"HotfixTextFormatter","boundary degenerate small-class","HotfixTextFormatter","constructor"
+"HotfixTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"WMIDTO","empty","WMIDTO","constructor"
+"IdleTimeDTO","empty","IdleTimeDTO","constructor"
+"InterestingProcessesFormatter","boundary degenerate small-class","InterestingProcessesFormatter","constructor"
+"InterestingProcessesFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"LocalSecurityAuthorityFormatter","pure-controller degenerate small-class","LocalSecurityAuthorityFormatter","constructor"
+"LocalSecurityAuthorityFormatter","pure-controller degenerate small-class","FormatResult","controller stateless"
+"CommandOutputTypeAttribute","empty","CommandOutputTypeAttribute","constructor"
+"InternetSettingsCommand","factory pure-controller degenerate small-class","InternetSettingsCommand","constructor"
+"InternetSettingsCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"LocalGPOCommand","factory pure-controller degenerate small-class","LocalGPOCommand","constructor"
+"LocalGPOCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"LocalGroupMembershipDTO","empty","LocalGroupMembershipDTO","constructor"
+"RDPSavedConnectionCommandFormatter","boundary degenerate small-class","RDPSavedConnectionCommandFormatter","constructor"
+"RDPSavedConnectionCommandFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"LocalGroupMembershipTextFormatter","boundary degenerate small-class","LocalGroupMembershipTextFormatter","constructor"
+"LocalGroupMembershipTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"LocalSecurityAuthorityDTO","empty","LocalSecurityAuthorityDTO","constructor"
+"ErrorTextFormatter","boundary degenerate small-class","ErrorTextFormatter","constructor"
+"ErrorTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"LogonSessionsDTO","empty","LogonSessionsDTO","constructor"
+"MicrosoftUpdateCommand","factory pure-controller degenerate small-class","MicrosoftUpdateCommand","constructor"
+"MicrosoftUpdateCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"WindowsAutoLogonCommand","entity factory controller small-class","WindowsAutoLogonCommand","constructor"
+"WindowsAutoLogonCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"TokenPrivilegesDTO","empty","TokenPrivilegesDTO","constructor"
+"NamedPipesCommand","controller small-class","NamedPipesCommand","constructor"
+"NamedPipesCommand","controller small-class","Execute","property non-void-command factory collaborator"
+"NamedPipesCommand","controller small-class","GetSddl","controller stateless"
+"RPCMappedEndpointsDTO","empty","RPCMappedEndpointsDTO","constructor"
+"DirectoryInfoDTO","empty","DirectoryInfoDTO","constructor"
+"NetworkShareDTO","empty","NetworkShareDTO","constructor"
+"IdleTimeCommand","factory degenerate small-class","IdleTimeCommand","constructor"
+"IdleTimeCommand","factory degenerate small-class","Execute","factory wrapper stateless"
+"OSInfoDTO","empty","OSInfoDTO","constructor"
+"NtlmHashDTO","empty","NtlmHashDTO","constructor"
+"OptionalFeaturesCommandDTO","empty","OptionalFeaturesCommandDTO","constructor"
+"HostDTO","empty","HostDTO","constructor"
+"PluginAccess","empty","PluginAccess","constructor"
+"NtlmSettingsTextFormatter","pure-controller degenerate small-class","NtlmSettingsTextFormatter","constructor"
+"NtlmSettingsTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless"
+"PSSessionSettingsFormatter","boundary degenerate small-class","PSSessionSettingsFormatter","constructor"
+"PSSessionSettingsFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"AsrSettings","empty","AsrSettings","constructor"
+"PowerShellHistoryCommand","entity factory controller small-class","PowerShellHistoryCommand","constructor"
+"PowerShellHistoryCommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"TEMPLATECommand","entity factory controller small-class","TEMPLATECommand","constructor"
+"TEMPLATECommand","entity factory controller small-class","Execute","property non-void-command factory collaborator"
+"PrintersCommand","factory pure-controller degenerate small-class","PrintersCommand","constructor"
+"PrintersCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"PowerShellDTO","empty","PowerShellDTO","constructor"
+"ProcessOwnerFormatter","boundary degenerate small-class","ProcessOwnerFormatter","constructor"
+"ProcessOwnerFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"Module","empty","Module","constructor"
+"TokenPrivilegesCommand","factory pure-controller degenerate small-class","TokenPrivilegesCommand","constructor"
+"TokenPrivilegesCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"ProcessesCommand","entity small-class","ProcessesCommand","constructor"
+"ProcessesCommand","entity small-class","GetProcessProtectionInfo","wrapper stateless"
+"ProcessesCommand","entity small-class","Execute","property non-void-command factory collaborator"
+"ProcessesDTO","empty","ProcessesDTO","constructor"
+"DefaultTextFormatter","pure-controller degenerate small-class","DefaultTextFormatter","constructor"
+"DefaultTextFormatter","pure-controller degenerate small-class","FormatResult","controller stateless"
+"VaultItemValue","empty","VaultItemValue","constructor"
+"RDPClientSettings","empty","RDPClientSettings","constructor"
+"Bookmark","empty","Bookmark","constructor"
+"OsInfoTextFormatter","boundary degenerate small-class","OsInfoTextFormatter","constructor"
+"OsInfoTextFormatter","boundary degenerate small-class","FormatResult","wrapper stateless"
+"RDPServerSettings","empty","RDPServerSettings","constructor"
+"RDPSettingsDTO","empty","RDPSettingsDTO","constructor"
+"PSSessionSettingsDTO","empty","PSSessionSettingsDTO","constructor"
+"PuttyHostKeysDTO","empty","PuttyHostKeysDTO","constructor"
+"SecureBootDTO","empty","SecureBootDTO","constructor"
+"SecurityPackagesCommand","factory pure-controller degenerate small-class","SecurityPackagesCommand","constructor"
+"SecurityPackagesCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"RegistryValueDTO","empty","RegistryValueDTO","constructor"
+"ServicesDTO","empty","ServicesDTO","constructor"
+"UdpConnectionsDTO","empty","UdpConnectionsDTO","constructor"
+"TcpConnectionsCommand","factory pure-controller degenerate small-class","TcpConnectionsCommand","constructor"
+"TcpConnectionsCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"UdpConnectionsCommand","factory pure-controller degenerate small-class","UdpConnectionsCommand","constructor"
+"UdpConnectionsCommand","factory pure-controller degenerate small-class","Execute","factory controller stateless"
+"TcpConnectionsDTO","empty","TcpConnectionsDTO","constructor"
+"TcpConnectionsTextFormatter","boundary degenerate small-class","TcpConnectionsTextFormatter","constructor"
+"TcpConnectionsTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"
+"TokenPrivilegesTextFormatter","boundary degenerate small-class","TokenPrivilegesTextFormatter","constructor"
+"TokenPrivilegesTextFormatter","boundary degenerate small-class","FormatResult","collaborator incidental"

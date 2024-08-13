@@ -1,761 +1,761 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"Dictionary","boundary degenerate small-class","Dictionary::Add","wrapper stateless",
-"MonoEmbedding","entity boundary","MonoEmbedding::Initialize","set collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::NormalizeException","void-accessor command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::GetAssembly","get collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::GetImage","property wrapper",
-"MonoEmbedding","entity boundary","MonoEmbedding::GetClass","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::GetClrFuncReflectionWrapFunc","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::GetIDictionaryStringObjectClass","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::GetUriClass","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::CreateDateTime","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::CreateExpandoObject","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::GetFuncClass","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::IEnumerableToArray","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::IDictionaryToFlatArray","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::ContinueTask","void-accessor command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::GetDateValue","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::Int64ToDouble","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::ToString","property non-void-command collaborator",
-"MonoEmbedding","entity boundary","MonoEmbedding::TryConvertPrimitiveOrDecimal","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::ClrFunc","constructor",
-"ClrFunc","boundary","ClrFunc::Initialize","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::MarshalCLRToV8","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::MarshalCLRExceptionToV8","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::MarshalCLRObjectToV8","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::MarshalV8ToCLR","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::Call","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::ClrFunc","constructor",
-"ClrFunc","boundary","ClrFunc::Initialize","controller stateless",
-"ClrFunc","boundary","ClrFunc::MarshalCLRToV8","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::MarshalCLRExceptionToV8","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::MarshalCLRObjectToV8","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::MarshalV8ToCLR","property non-void-command collaborator",
-"ClrFunc","boundary","ClrFunc::Call","property non-void-command collaborator",
-"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext","constructor",
-"NodejsFuncInvokeContext","degenerate","Complete","collaborator incidental",
-"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::NodejsFuncInvokeContext","constructor",
-"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::~NodejsFuncInvokeContext","destructor",
-"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::NodejsFuncInvokeContext","constructor",
-"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::~NodejsFuncInvokeContext","destructor",
-"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::CallFuncOnV8Thread","controller stateless",
-"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::Complete","wrapper",
-"ClrFuncInvokeContext","boundary","CompleteOnCLRThread","wrapper",
-"ClrFuncInvokeContext","boundary","CompleteOnV8ThreadAsynchronous","wrapper",
-"ClrFuncInvokeContext","boundary","GetCompleteOnV8ThreadAsynchronousAction","factory collaborator stateless",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::ClrFuncInvokeContext","constructor",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::DisposeCallback","set",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnCLRThread","set collaborator",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::InitializeAsyncOperation","set collaborator",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnV8ThreadAsynchronous","controller stateless",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnV8Thread","property set collaborator",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::ClrFuncInvokeContext","constructor",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::InitializeAsyncOperation","set collaborator",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::~ClrFuncInvokeContext","destructor",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnCLRThread","controller stateless",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnV8ThreadAsynchronous","controller stateless",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnV8Thread","property non-void-command collaborator",
-"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::GetMonoObject","property wrapper",
-"Task","boundary degenerate","Task::Status","wrapper stateless",
-"Task","boundary degenerate","Task::Exception","wrapper stateless",
-"Task","boundary degenerate","Task::Result","wrapper stateless",
-"V8SynchronizationContext","entity boundary","V8SynchronizationContext::Initialize","command",
-"V8SynchronizationContext","entity boundary","V8SynchronizationContext::Unref","wrapper stateless",
-"V8SynchronizationContext","entity boundary","V8SynchronizationContext::RegisterAction","property non-void-command factory collaborator",
-"V8SynchronizationContext","entity boundary","V8SynchronizationContext::ExecuteAction","wrapper stateless",
-"V8SynchronizationContext","entity boundary","V8SynchronizationContext::CancelAction","wrapper stateless",
-"V8SynchronizationContext","entity boundary","V8SynchronizationContext::GetCurrentThreadId","property non-void-command",
-"JSON_StringParser","entity boundary","JSON_StringParser","constructor",
-"JSON_StringParser","entity boundary","JSON_StringParser<CharType>::NextCharacter","property non-void-command collaborator",
-"JSON_StringParser","entity boundary","JSON_StringParser<CharType>::PeekCharacter","get property wrapper",
-"JSON_StringParser","entity boundary","JSON_StringParser<CharType>::CompleteComment","predicate non-void-command collaborator",
-"JSON_StringParser","entity boundary","JSON_StringParser<CharType>::CompleteStringLiteral","predicate non-void-command collaborator",
-"PersistentDisposeContext","commander boundary small-class","PersistentDisposeContext::PersistentDisposeContext","constructor",
-"PersistentDisposeContext","commander boundary small-class","PersistentDisposeContext::CallDisposeOnV8Thread","command collaborator",
-"ClrFuncReflectionWrap","entity boundary","Call","property non-void-command collaborator",
-"ClrFuncReflectionWrap","entity boundary","ClrFuncReflectionWrap::ClrFuncReflectionWrap","constructor",
-"ClrFuncReflectionWrap","entity boundary","ClrFuncReflectionWrap::Create","property non-void-command collaborator",
-"ClrFuncReflectionWrap","entity boundary","ClrFuncReflectionWrap::Call","collaborator incidental",
-"runtime_config_t","data-provider boundary","is_valid","get",
-"runtime_config_t","data-provider boundary","get_path","get collaborator",
-"runtime_config_t","data-provider boundary","get_dev_path","get collaborator",
-"runtime_config_t","data-provider boundary","runtime_config_t::runtime_config_t","constructor",
-"runtime_config_t","data-provider boundary","runtime_config_t::parse_opts","predicate non-void-command collaborator",
-"runtime_config_t","data-provider boundary","runtime_config_t::ensure_dev_config_parsed","predicate non-void-command collaborator",
-"runtime_config_t","data-provider boundary","runtime_config_t::ensure_parsed","predicate non-void-command collaborator",
-"runtime_config_t","data-provider boundary","runtime_config_t::get_fx_name","get collaborator",
-"runtime_config_t","data-provider boundary","runtime_config_t::get_fx_version","get collaborator",
-"runtime_config_t","data-provider boundary","runtime_config_t::get_patch_roll_fwd","get",
-"runtime_config_t","data-provider boundary","runtime_config_t::get_prerelease_roll_fwd","get",
-"runtime_config_t","data-provider boundary","runtime_config_t::get_portable","get",
-"runtime_config_t","data-provider boundary","runtime_config_t::get_probe_paths","get collaborator",
-"runtime_config_t","data-provider boundary","runtime_config_t::config_kv","controller",
-"SafeIntException","empty","SafeIntException","constructor",
-"SafeIntException","empty","SafeIntException","constructor",
-"arguments_t","commander boundary small-class","print","command collaborator",
-"arguments_t","commander boundary small-class","arguments_t::arguments_t","constructor",
-"Startup","degenerate","Invoke","factory collaborator incidental",
-"Startup","degenerate","Invoke","property non-void-command collaborator",
-"Startup","degenerate","Add7","controller stateless",
-"Startup","degenerate","Invoke","controller stateless",
-"Startup","degenerate","ValidateMarshalNodeJsToNet","controller stateless",
-"Startup","degenerate","Invoke","controller stateless",
-"Startup","degenerate","MarshalIn","property non-void-command collaborator",
-"Startup","degenerate","MarshalBack","wrapper stateless",
-"NodejsFunc","entity data-provider boundary","GetFunc","property factory collaborator",
-"NodejsFunc","entity data-provider boundary","FunctionWrapper","property non-void-command collaborator",
-"NodejsFunc","entity data-provider boundary","NodejsFunc::NodejsFunc","constructor",
-"NodejsFunc","entity data-provider boundary","NodejsFunc::~NodejsFunc","destructor",
-"NodejsFunc","entity data-provider boundary","NodejsFunc::NodejsFunc","constructor",
-"NodejsFunc","entity data-provider boundary","NodejsFunc::~NodejsFunc","destructor",
-"NodejsFunc","entity data-provider boundary","NodejsFunc::Release","incidental",
-"NodejsFunc","entity data-provider boundary","NodejsFunc::GetFunc","property wrapper",
-"NodejsFunc","entity data-provider boundary","NodejsFunc::ExecuteActionOnV8Thread","wrapper stateless",
-"v8BufferData","empty","v8BufferData","constructor",
-"v8BufferData","empty","~v8BufferData","destructor",
-"json_error_category_impl","degenerate","name","incidental",
-"json_error_category_impl","degenerate","message","incidental",
-"json_error_category_impl","degenerate","name","incidental",
-"json_error_category_impl","degenerate","message","incidental",
-"probe_config_t","data-provider small-class","print","unclassified",
-"probe_config_t","data-provider small-class","is_roll_fwd_set","predicate",
-"probe_config_t","data-provider small-class","probe_config_t","constructor",
-"array","entity data-provider boundary","array","constructor",
-"array","entity data-provider boundary","array","constructor",
-"array","entity data-provider boundary","array","constructor",
-"array","entity data-provider boundary","begin","property non-void-command collaborator",
-"array","entity data-provider boundary","begin","property collaborator",
-"array","entity data-provider boundary","end","property non-void-command collaborator",
-"array","entity data-provider boundary","end","property collaborator",
-"array","entity data-provider boundary","rbegin","property non-void-command collaborator",
-"array","entity data-provider boundary","rbegin","property collaborator",
-"array","entity data-provider boundary","rend","property non-void-command collaborator",
-"array","entity data-provider boundary","rend","property collaborator",
-"array","entity data-provider boundary","cbegin","property collaborator",
-"array","entity data-provider boundary","cend","property collaborator",
-"array","entity data-provider boundary","crbegin","property collaborator",
-"array","entity data-provider boundary","crend","property collaborator",
-"array","entity data-provider boundary","erase","property non-void-command collaborator",
-"array","entity data-provider boundary","erase","command",
-"array","entity data-provider boundary","at","get non-void-command collaborator",
-"array","entity data-provider boundary","at","get collaborator",
-"array","entity data-provider boundary","operator[]","get non-void-command collaborator",
-"array","entity data-provider boundary","size","property",
-"array","entity data-provider boundary","array","constructor",
-"array","entity data-provider boundary","array","constructor",
-"array","entity data-provider boundary","array","constructor",
-"array","entity data-provider boundary","begin","property non-void-command collaborator",
-"array","entity data-provider boundary","begin","property collaborator",
-"array","entity data-provider boundary","end","property non-void-command collaborator",
-"array","entity data-provider boundary","end","property collaborator",
-"array","entity data-provider boundary","rbegin","property non-void-command collaborator",
-"array","entity data-provider boundary","rbegin","property collaborator",
-"array","entity data-provider boundary","rend","property non-void-command collaborator",
-"array","entity data-provider boundary","rend","property collaborator",
-"array","entity data-provider boundary","cbegin","property collaborator",
-"array","entity data-provider boundary","cend","property collaborator",
-"array","entity data-provider boundary","crbegin","property collaborator",
-"array","entity data-provider boundary","crend","property collaborator",
-"array","entity data-provider boundary","erase","property non-void-command collaborator",
-"array","entity data-provider boundary","erase","command",
-"array","entity data-provider boundary","at","get non-void-command collaborator",
-"array","entity data-provider boundary","at","get collaborator",
-"array","entity data-provider boundary","operator[]","get non-void-command collaborator",
-"array","entity data-provider boundary","size","property",
-"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::c_locale","wrapper stateless",
-"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::scoped_c_thread_locale","constructor",
-"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::~scoped_c_thread_locale","destructor",
-"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::scoped_c_thread_locale","constructor",
-"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::~scoped_c_thread_locale","destructor",
-"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::scoped_c_thread_locale","constructor",
-"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::~scoped_c_thread_locale","destructor",
-"SafeInt","data-provider boundary","SafeInt","constructor",
-"SafeInt","data-provider boundary","SafeInt","constructor",
-"SafeInt","data-provider boundary","SafeInt","constructor",
-"SafeInt","data-provider boundary","SafeInt","copy-constructor",
-"SafeInt","data-provider boundary","SafeInt","constructor",
-"SafeInt","data-provider boundary","operator=","get set collaborator",
-"SafeInt","data-provider boundary","operator=","get set collaborator",
-"SafeInt","data-provider boundary","operator=","get controller",
-"SafeInt","data-provider boundary","operator=","get set collaborator",
-"SafeInt","data-provider boundary","operatorbool","unclassified",
-"SafeInt","data-provider boundary","operatorchar","wrapper",
-"SafeInt","data-provider boundary","char","property wrapper",
-"SafeInt","data-provider boundary","char","property wrapper",
-"SafeInt","data-provider boundary","operator__int16","wrapper",
-"SafeInt","data-provider boundary","__int16","property wrapper",
-"SafeInt","data-provider boundary","operator__int32","wrapper",
-"SafeInt","data-provider boundary","__int32","property wrapper",
-"SafeInt","data-provider boundary","operatorlong","wrapper",
-"SafeInt","data-provider boundary","long","property wrapper",
-"SafeInt","data-provider boundary","operator__int64","wrapper",
-"SafeInt","data-provider boundary","__int64","property wrapper",
-"SafeInt","data-provider boundary","operatorwchar_t","wrapper",
-"SafeInt","data-provider boundary","operatorsize_t","wrapper",
-"SafeInt","data-provider boundary","operatorfloat","wrapper",
-"SafeInt","data-provider boundary","operatordouble","wrapper",
-"SafeInt","data-provider boundary","double","property wrapper",
-"SafeInt","data-provider boundary","Ptr","property collaborator",
-"SafeInt","data-provider boundary","Ptr","property collaborator",
-"SafeInt","data-provider boundary","Ref","get collaborator",
-"SafeInt","data-provider boundary","operator&","property collaborator",
-"SafeInt","data-provider boundary","operator&","property collaborator",
-"SafeInt","data-provider boundary","operator!","predicate",
-"SafeInt","data-provider boundary","operator+","get collaborator",
-"SafeInt","data-provider boundary","operator-","property wrapper",
-"SafeInt","data-provider boundary","operator++","get set collaborator",
-"SafeInt","data-provider boundary","operator--","get set collaborator",
-"SafeInt","data-provider boundary","operator++","property set collaborator",
-"SafeInt","data-provider boundary","operator--","property set collaborator",
-"SafeInt","data-provider boundary","operator~","property wrapper",
-"SafeInt","data-provider boundary","operator%","property wrapper",
-"SafeInt","data-provider boundary","operator%","property wrapper",
-"SafeInt","data-provider boundary","operator%=","get wrapper",
-"SafeInt","data-provider boundary","operator%=","get wrapper",
-"SafeInt","data-provider boundary","operator*","property wrapper",
-"SafeInt","data-provider boundary","operator*","property wrapper",
-"SafeInt","data-provider boundary","operator*=","get wrapper",
-"SafeInt","data-provider boundary","operator*=","get wrapper",
-"SafeInt","data-provider boundary","operator*=","get controller",
-"SafeInt","data-provider boundary","operator/","property wrapper",
-"SafeInt","data-provider boundary","operator/","property wrapper",
-"SafeInt","data-provider boundary","operator/=","get wrapper",
-"SafeInt","data-provider boundary","operator/=","get wrapper",
-"SafeInt","data-provider boundary","operator/=","get wrapper",
-"SafeInt","data-provider boundary","operator+","property wrapper",
-"SafeInt","data-provider boundary","operator+","property wrapper",
-"SafeInt","data-provider boundary","operator+=","get wrapper",
-"SafeInt","data-provider boundary","operator+=","get wrapper",
-"SafeInt","data-provider boundary","operator+=","get wrapper",
-"SafeInt","data-provider boundary","operator-","property wrapper",
-"SafeInt","data-provider boundary","operator-","property wrapper",
-"SafeInt","data-provider boundary","operator-=","get wrapper",
-"SafeInt","data-provider boundary","operator-=","get wrapper",
-"SafeInt","data-provider boundary","operator-=","get wrapper",
-"SafeInt","data-provider boundary","operator<<","property wrapper",
-"SafeInt","data-provider boundary","operator<<","property wrapper",
-"SafeInt","data-provider boundary","operator<<=","get set collaborator",
-"SafeInt","data-provider boundary","operator<<=","get set collaborator",
-"SafeInt","data-provider boundary","operator>>","property wrapper",
-"SafeInt","data-provider boundary","operator>>","property wrapper",
-"SafeInt","data-provider boundary","operator>>=","get set collaborator",
-"SafeInt","data-provider boundary","operator>>=","get set collaborator",
-"SafeInt","data-provider boundary","operator&","property wrapper",
-"SafeInt","data-provider boundary","operator&","property wrapper",
-"SafeInt","data-provider boundary","operator&=","get set collaborator",
-"SafeInt","data-provider boundary","operator&=","get set collaborator",
-"SafeInt","data-provider boundary","operator&=","get set collaborator",
-"SafeInt","data-provider boundary","operator^","property wrapper",
-"SafeInt","data-provider boundary","operator^","property wrapper",
-"SafeInt","data-provider boundary","operator^=","get set collaborator",
-"SafeInt","data-provider boundary","operator^=","get set collaborator",
-"SafeInt","data-provider boundary","operator^=","get set collaborator",
-"SafeInt","data-provider boundary","operator|","property wrapper",
-"SafeInt","data-provider boundary","operator|","property wrapper",
-"SafeInt","data-provider boundary","operator|=","get set collaborator",
-"SafeInt","data-provider boundary","operator|=","get set collaborator",
-"SafeInt","data-provider boundary","operator|=","get set collaborator",
-"SafeInt","data-provider boundary","Min","property collaborator",
-"SafeInt","data-provider boundary","Max","property collaborator",
-"SafeInt","data-provider boundary","Swap","void-accessor set collaborator",
-"SafeInt","data-provider boundary","Align","get set collaborator",
-"SafeInt","data-provider boundary","Align2","wrapper stateless",
-"SafeInt","data-provider boundary","Align4","wrapper stateless",
-"SafeInt","data-provider boundary","Align8","wrapper stateless",
-"SafeInt","data-provider boundary","Align16","wrapper stateless",
-"SafeInt","data-provider boundary","Align32","wrapper stateless",
-"SafeInt","data-provider boundary","Align64","wrapper stateless",
-"deps_json_t","data-provider boundary","get_entries","get collaborator",
-"deps_json_t","data-provider boundary","exists","get",
-"deps_json_t","data-provider boundary","is_valid","get",
-"deps_json_t","data-provider boundary","get_rid_fallback_graph","get collaborator",
-"deps_json_t","data-provider boundary","deps_json_t::try_ni","get property collaborator",
-"deps_json_t","data-provider boundary","deps_json_t::reconcile_libraries_with_targets","set collaborator",
-"deps_json_t","data-provider boundary","deps_json_t::perform_rid_fallback","controller stateless",
-"deps_json_t","data-provider boundary","deps_json_t::process_runtime_targets","predicate non-void-command collaborator",
-"deps_json_t","data-provider boundary","deps_json_t::process_targets","controller stateless",
-"deps_json_t","data-provider boundary","deps_json_t::load_portable","get predicate non-void-command collaborator",
-"deps_json_t","data-provider boundary","deps_json_t::load_standalone","get predicate non-void-command collaborator",
-"deps_json_t","data-provider boundary","deps_json_t::has_package","predicate collaborator",
-"deps_json_t","data-provider boundary","deps_json_t::load","predicate non-void-command collaborator",
-"_Array","data-provider boundary","_Array","constructor",
-"_Array","data-provider boundary","_Array","constructor",
-"_Array","data-provider boundary","_Array","constructor",
-"_Array","data-provider boundary","_copy_value","property wrapper",
-"_Array","data-provider boundary","type","collaborator incidental",
-"_Array","data-provider boundary","as_array","get",
-"_Array","data-provider boundary","as_array","get",
-"_Array","data-provider boundary","index","get collaborator",
-"_Array","data-provider boundary","is_equal","predicate collaborator",
-"_Array","data-provider boundary","serialize_impl","void-accessor",
-"_Array","data-provider boundary","serialize_impl","void-accessor collaborator",
-"_Array","data-provider boundary","size","property",
-"_Array","data-provider boundary","format","void-accessor collaborator",
-"_Array","data-provider boundary","format","void-accessor collaborator",
-"_Array","data-provider boundary","format_impl","void-accessor collaborator",
-"_Array","data-provider boundary","get_reserve_size","property",
-"_Array","data-provider boundary","_Array","constructor",
-"_Array","data-provider boundary","_Array","constructor",
-"_Array","data-provider boundary","_Array","constructor",
-"_Array","data-provider boundary","_copy_value","property wrapper",
-"_Array","data-provider boundary","type","collaborator incidental",
-"_Array","data-provider boundary","as_array","get",
-"_Array","data-provider boundary","as_array","get",
-"_Array","data-provider boundary","index","get collaborator",
-"_Array","data-provider boundary","is_equal","predicate collaborator",
-"_Array","data-provider boundary","serialize_impl","void-accessor",
-"_Array","data-provider boundary","serialize_impl","void-accessor collaborator",
-"_Array","data-provider boundary","size","property",
-"_Array","data-provider boundary","format","void-accessor collaborator",
-"_Array","data-provider boundary","format","void-accessor collaborator",
-"_Array","data-provider boundary","format_impl","void-accessor collaborator",
-"_Array","data-provider boundary","get_reserve_size","property",
-"json_exception","data-provider small-class","json_exception","constructor",
-"json_exception","data-provider small-class","what","property",
-"json_exception","data-provider small-class","json_exception","constructor",
-"json_exception","data-provider small-class","what","property",
-"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::CoreClrNodejsFuncInvokeContext","constructor",
-"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::~CoreClrNodejsFuncInvokeContext","destructor",
-"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::Complete","void-accessor wrapper",
-"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::Invoke","set",
-"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::InvokeCallback","controller stateless",
-"value","unclassified","is_null","predicate",
-"value","unclassified","is_number","predicate",
-"value","unclassified","is_boolean","predicate",
-"value","unclassified","is_string","predicate",
-"value","unclassified","is_array","predicate",
-"value","unclassified","is_object","predicate",
-"value","unclassified","operator!=","predicate",
-"value","unclassified","operator[]","property non-void-command collaborator",
-"value","unclassified","is_null","predicate",
-"value","unclassified","is_number","predicate",
-"value","unclassified","is_boolean","predicate",
-"value","unclassified","is_string","predicate",
-"value","unclassified","is_array","predicate",
-"value","unclassified","is_object","predicate",
-"value","unclassified","operator!=","predicate",
-"value","unclassified","operator[]","property non-void-command collaborator",
-"value","unclassified","json::value::size","controller stateless",
-"value","unclassified","json::value::has_field","controller stateless",
-"value","unclassified","json::value::get","controller stateless",
-"value","unclassified","json::value::get","controller stateless",
-"value","unclassified","json::value::size","controller stateless",
-"value","unclassified","json::value::has_field","controller stateless",
-"value","unclassified","json::value::get","controller stateless",
-"value","unclassified","json::value::get","controller stateless",
-"value","unclassified","web::json::value::value","constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::operator=","get set",
-"value","unclassified","web::json::value::value","copy-constructor",
-"value","unclassified","web::json::value::operator=","get set",
-"value","unclassified","web::json::value::null","property non-void-command",
-"value","unclassified","web::json::value::number","property non-void-command",
-"value","unclassified","web::json::value::number","property non-void-command",
-"value","unclassified","web::json::value::number","property non-void-command",
-"value","unclassified","web::json::value::number","property non-void-command",
-"value","unclassified","web::json::value::number","property non-void-command",
-"value","unclassified","web::json::value::boolean","property non-void-command",
-"value","unclassified","web::json::value::string","property non-void-command collaborator",
-"value","unclassified","web::json::value::string","property non-void-command collaborator",
-"value","unclassified","web::json::value::string","property non-void-command collaborator",
-"value","unclassified","web::json::value::object","property non-void-command collaborator",
-"value","unclassified","web::json::value::object","property non-void-command collaborator",
-"value","unclassified","web::json::value::array","property non-void-command collaborator",
-"value","unclassified","web::json::value::array","property non-void-command collaborator",
-"value","unclassified","web::json::value::array","property non-void-command collaborator",
-"value","unclassified","web::json::value::as_number","controller stateless",
-"value","unclassified","web::json::value::as_double","controller stateless",
-"value","unclassified","web::json::value::as_integer","controller stateless",
-"value","unclassified","web::json::value::as_bool","controller stateless",
-"value","unclassified","web::json::value::as_array","controller stateless",
-"value","unclassified","web::json::value::as_array","controller stateless",
-"value","unclassified","web::json::value::as_object","controller stateless",
-"value","unclassified","web::json::value::as_object","controller stateless",
-"value","unclassified","json::value::type","controller stateless",
-"value","unclassified","json::value::is_integer","predicate",
-"value","unclassified","json::value::is_double","predicate",
-"value","unclassified","json::value::to_string","controller stateless",
-"value","unclassified","json::value::operator==","controller stateless",
-"value","unclassified","web::json::value::erase","command",
-"value","unclassified","web::json::value::erase","void-accessor command collaborator",
-"value","unclassified","web::json::value::at","property non-void-command",
-"value","unclassified","web::json::value::at","property",
-"value","unclassified","web::json::value::at","property non-void-command collaborator",
-"value","unclassified","web::json::value::at","property collaborator",
-"value","unclassified","web::json::value::operator[]","property set collaborator",
-"value","unclassified","web::json::value::operator[]","property set",
-"value","unclassified","web::json::value::parse","controller stateless",
-"value","unclassified","web::json::value::parse","property non-void-command collaborator",
-"value","unclassified","web::json::value::parse","wrapper stateless",
-"value","unclassified","web::json::value::parse","wrapper stateless",
-"value","unclassified","web::json::value::parse","wrapper stateless",
-"value","unclassified","web::json::value::parse","wrapper stateless",
-"value","unclassified","web::json::value::serialize","controller stateless",
-"value","unclassified","web::json::value::format","controller stateless",
-"value","unclassified","web::json::value::serialize","controller stateless",
-"value","unclassified","web::json::value::format","controller stateless",
-"value","unclassified","web::json::value::as_string","controller stateless",
-"value","unclassified","json::value::serialize","controller stateless",
-"_String","data-provider boundary","_String","constructor",
-"_String","data-provider boundary","_String","constructor",
-"_String","data-provider boundary","_String","constructor",
-"_String","data-provider boundary","_String","constructor",
-"_String","data-provider boundary","_copy_value","property wrapper",
-"_String","data-provider boundary","type","collaborator incidental",
-"_String","data-provider boundary","serialize_impl","void-accessor",
-"_String","data-provider boundary","serialize_impl","void-accessor collaborator",
-"_String","data-provider boundary","get_reserve_size","property",
-"_String","data-provider boundary","serialize_impl_char_type","void-accessor collaborator",
-"_String","data-provider boundary","_String","constructor",
-"_String","data-provider boundary","_String","constructor",
-"_String","data-provider boundary","_String","constructor",
-"_String","data-provider boundary","_String","constructor",
-"_String","data-provider boundary","_copy_value","property wrapper",
-"_String","data-provider boundary","type","collaborator incidental",
-"_String","data-provider boundary","serialize_impl","void-accessor",
-"_String","data-provider boundary","serialize_impl","void-accessor collaborator",
-"_String","data-provider boundary","get_reserve_size","property",
-"_String","data-provider boundary","serialize_impl_char_type","void-accessor collaborator",
-"_String","data-provider boundary","web::json::details::_String::has_escape_chars","wrapper stateless",
-"_String","data-provider boundary","web::json::details::_String::format","void-accessor controller",
-"_String","data-provider boundary","web::json::details::_String::format","void-accessor controller",
-"_String","data-provider boundary","web::json::details::_String::as_string","get collaborator",
-"JSON_Parser","boundary","JSON_Parser","constructor",
-"JSON_Parser","boundary","ParseValue","property non-void-command collaborator",
-"JSON_Parser","boundary","CreateToken","controller stateless",
-"JSON_Parser","boundary","CreateToken","void-accessor controller",
-"JSON_Parser","boundary","JSON_Parser<CharType>::EatWhitespace","wrapper stateless",
-"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteKeywordTrue","wrapper stateless",
-"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteKeywordFalse","wrapper stateless",
-"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteKeywordNull","wrapper stateless",
-"JSON_Parser","boundary","JSON_Parser<CharType>::ParseInt64","wrapper stateless",
-"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteNumberLiteral","predicate non-void-command collaborator",
-"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteComment","wrapper stateless",
-"JSON_Parser","boundary","JSON_Parser<CharType>::handle_unescape_char","controller stateless",
-"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteStringLiteral","predicate non-void-command collaborator",
-"JSON_Parser","boundary","JSON_Parser<CharType>::GetNextToken","void-accessor command collaborator",
-"JSON_Parser","boundary","JSON_Parser<CharType>::_ParseObject","property non-void-command collaborator",
-"JSON_Parser","boundary","JSON_Parser<CharType>::_ParseArray","property non-void-command collaborator",
-"JSON_Parser","boundary","JSON_Parser<CharType>::_ParseValue","property non-void-command collaborator",
-"deps_entry_t","data-provider boundary","deps_entry_t::to_path","predicate controller",
-"deps_entry_t","data-provider boundary","deps_entry_t::to_dir_path","predicate collaborator",
-"deps_entry_t","data-provider boundary","deps_entry_t::to_rel_path","predicate collaborator",
-"deps_entry_t","data-provider boundary","deps_entry_t::to_full_path","predicate collaborator",
-"deps_entry_t","data-provider boundary","deps_entry_t::to_hash_matched_path","predicate collaborator",
-"CallbackHelper","commander small-class","CallbackHelper::Initialize","set",
-"CallbackHelper","commander small-class","CallbackHelper::KickNextTick","command collaborator",
-"deps_resolver_t","boundary","deps_resolver_t","constructor",
-"deps_resolver_t","boundary","valid","predicate non-void-command collaborator",
-"deps_resolver_t","boundary","get_fx_deps_file","get collaborator",
-"deps_resolver_t","boundary","get_deps_file","get collaborator",
-"deps_resolver_t","boundary","get_api_sets","get collaborator",
-"deps_resolver_t","boundary","deps_resolver_t::get_dir_assemblies","controller stateless",
-"deps_resolver_t","boundary","deps_resolver_t::try_roll_forward","predicate non-void-command collaborator",
-"deps_resolver_t","boundary","deps_resolver_t::setup_probe_config","void-accessor command collaborator",
-"deps_resolver_t","boundary","deps_resolver_t::setup_additional_probes","command collaborator",
-"deps_resolver_t","boundary","deps_resolver_t::probe_entry_in_configs","predicate non-void-command collaborator",
-"deps_resolver_t","boundary","deps_resolver_t::probe_deps_entry","predicate non-void-command collaborator",
-"deps_resolver_t","boundary","deps_resolver_t::resolve_tpa_list","predicate non-void-command collaborator",
-"deps_resolver_t","boundary","deps_resolver_t::init_known_entry_path","void-accessor command collaborator",
-"deps_resolver_t","boundary","deps_resolver_t::resolve_probe_dirs","predicate non-void-command collaborator",
-"deps_resolver_t","boundary","deps_resolver_t::resolve_probe_paths","predicate non-void-command collaborator",
-"v8ArrayData","empty","v8ArrayData","constructor",
-"v8ArrayData","empty","~v8ArrayData","destructor",
-"v8ObjectData","empty","v8ObjectData","constructor",
-"v8ObjectData","empty","~v8ObjectData","destructor",
-"object","entity data-provider boundary","object","constructor",
-"object","entity data-provider boundary","object","constructor",
-"object","entity data-provider boundary","begin","property non-void-command collaborator",
-"object","entity data-provider boundary","begin","property collaborator",
-"object","entity data-provider boundary","end","property non-void-command collaborator",
-"object","entity data-provider boundary","end","property collaborator",
-"object","entity data-provider boundary","rbegin","property non-void-command collaborator",
-"object","entity data-provider boundary","rbegin","property collaborator",
-"object","entity data-provider boundary","rend","property non-void-command collaborator",
-"object","entity data-provider boundary","rend","property collaborator",
-"object","entity data-provider boundary","cbegin","property collaborator",
-"object","entity data-provider boundary","cend","property collaborator",
-"object","entity data-provider boundary","crbegin","property collaborator",
-"object","entity data-provider boundary","crend","property collaborator",
-"object","entity data-provider boundary","erase","property non-void-command collaborator",
-"object","entity data-provider boundary","erase","void-accessor command collaborator",
-"object","entity data-provider boundary","at","property non-void-command collaborator",
-"object","entity data-provider boundary","at","property collaborator",
-"object","entity data-provider boundary","operator[]","property non-void-command collaborator",
-"object","entity data-provider boundary","find","property collaborator",
-"object","entity data-provider boundary","size","property",
-"object","entity data-provider boundary","empty","predicate",
-"object","entity data-provider boundary","find_insert_location","property non-void-command collaborator",
-"object","entity data-provider boundary","find_by_key","property collaborator",
-"object","entity data-provider boundary","find_by_key","property non-void-command collaborator",
-"object","entity data-provider boundary","object","constructor",
-"object","entity data-provider boundary","object","constructor",
-"object","entity data-provider boundary","begin","property non-void-command collaborator",
-"object","entity data-provider boundary","begin","property collaborator",
-"object","entity data-provider boundary","end","property non-void-command collaborator",
-"object","entity data-provider boundary","end","property collaborator",
-"object","entity data-provider boundary","rbegin","property non-void-command collaborator",
-"object","entity data-provider boundary","rbegin","property collaborator",
-"object","entity data-provider boundary","rend","property non-void-command collaborator",
-"object","entity data-provider boundary","rend","property collaborator",
-"object","entity data-provider boundary","cbegin","property collaborator",
-"object","entity data-provider boundary","cend","property collaborator",
-"object","entity data-provider boundary","crbegin","property collaborator",
-"object","entity data-provider boundary","crend","property collaborator",
-"object","entity data-provider boundary","erase","property non-void-command collaborator",
-"object","entity data-provider boundary","erase","void-accessor command collaborator",
-"object","entity data-provider boundary","at","property non-void-command collaborator",
-"object","entity data-provider boundary","at","property collaborator",
-"object","entity data-provider boundary","operator[]","property non-void-command collaborator",
-"object","entity data-provider boundary","find","property collaborator",
-"object","entity data-provider boundary","size","property",
-"object","entity data-provider boundary","empty","predicate",
-"object","entity data-provider boundary","find_insert_location","property non-void-command collaborator",
-"object","entity data-provider boundary","find_by_key","property collaborator",
-"object","entity data-provider boundary","find_by_key","property non-void-command collaborator",
-"_Value","boundary degenerate","has_field","incidental",
-"_Value","boundary degenerate","get_field","wrapper stateless",
-"_Value","boundary degenerate","get_element","wrapper stateless",
-"_Value","boundary degenerate","index","wrapper stateless",
-"_Value","boundary degenerate","index","wrapper stateless",
-"_Value","boundary degenerate","cnst_index","wrapper stateless",
-"_Value","boundary degenerate","cnst_index","wrapper stateless",
-"_Value","boundary degenerate","serialize_impl","void-accessor",
-"_Value","boundary degenerate","serialize_impl","void-accessor collaborator",
-"_Value","boundary degenerate","to_string","property collaborator",
-"_Value","boundary degenerate","type","collaborator incidental",
-"_Value","boundary degenerate","is_integer","wrapper stateless",
-"_Value","boundary degenerate","is_double","wrapper stateless",
-"_Value","boundary degenerate","as_number","wrapper stateless",
-"_Value","boundary degenerate","as_double","wrapper stateless",
-"_Value","boundary degenerate","as_integer","wrapper stateless",
-"_Value","boundary degenerate","as_bool","wrapper stateless",
-"_Value","boundary degenerate","as_array","wrapper stateless",
-"_Value","boundary degenerate","as_array","wrapper stateless",
-"_Value","boundary degenerate","as_object","wrapper stateless",
-"_Value","boundary degenerate","as_object","wrapper stateless",
-"_Value","boundary degenerate","as_string","wrapper stateless",
-"_Value","boundary degenerate","size","incidental",
-"_Value","boundary degenerate","~_Value","destructor",
-"_Value","boundary degenerate","_Value","constructor",
-"_Value","boundary degenerate","format","controller stateless",
-"_Value","boundary degenerate","format","controller stateless",
-"_Value","boundary degenerate","has_field","incidental",
-"_Value","boundary degenerate","get_field","wrapper stateless",
-"_Value","boundary degenerate","get_element","wrapper stateless",
-"_Value","boundary degenerate","index","wrapper stateless",
-"_Value","boundary degenerate","index","wrapper stateless",
-"_Value","boundary degenerate","cnst_index","wrapper stateless",
-"_Value","boundary degenerate","cnst_index","wrapper stateless",
-"_Value","boundary degenerate","serialize_impl","void-accessor",
-"_Value","boundary degenerate","serialize_impl","void-accessor collaborator",
-"_Value","boundary degenerate","to_string","property collaborator",
-"_Value","boundary degenerate","type","collaborator incidental",
-"_Value","boundary degenerate","is_integer","wrapper stateless",
-"_Value","boundary degenerate","is_double","wrapper stateless",
-"_Value","boundary degenerate","as_number","wrapper stateless",
-"_Value","boundary degenerate","as_double","wrapper stateless",
-"_Value","boundary degenerate","as_integer","wrapper stateless",
-"_Value","boundary degenerate","as_bool","wrapper stateless",
-"_Value","boundary degenerate","as_array","wrapper stateless",
-"_Value","boundary degenerate","as_array","wrapper stateless",
-"_Value","boundary degenerate","as_object","wrapper stateless",
-"_Value","boundary degenerate","as_object","wrapper stateless",
-"_Value","boundary degenerate","as_string","wrapper stateless",
-"_Value","boundary degenerate","size","incidental",
-"_Value","boundary degenerate","~_Value","destructor",
-"_Value","boundary degenerate","_Value","constructor",
-"_Value","boundary degenerate","format","controller stateless",
-"_Value","boundary degenerate","format","controller stateless",
-"_Boolean","unclassified","_Boolean","constructor",
-"_Boolean","unclassified","_copy_value","property wrapper",
-"_Boolean","unclassified","type","collaborator incidental",
-"_Boolean","unclassified","as_bool","get",
-"_Boolean","unclassified","format","controller",
-"_Boolean","unclassified","format","controller",
-"_Boolean","unclassified","_Boolean","constructor",
-"_Boolean","unclassified","_copy_value","property wrapper",
-"_Boolean","unclassified","type","collaborator incidental",
-"_Boolean","unclassified","as_bool","get",
-"_Boolean","unclassified","format","controller",
-"_Boolean","unclassified","format","controller",
-"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::CoreClrFuncInvokeContext","constructor",
-"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::~CoreClrFuncInvokeContext","destructor",
-"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::InitializeAsyncOperation","set",
-"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::TaskComplete","wrapper stateless",
-"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::TaskCompleteSynchronous","command collaborator",
-"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::InvokeCallback","controller stateless",
-"_Null","boundary degenerate","_copy_value","wrapper stateless",
-"_Null","boundary degenerate","type","collaborator incidental",
-"_Null","boundary degenerate","_copy_value","wrapper stateless",
-"_Null","boundary degenerate","type","collaborator incidental",
-"fx_muxer_t","boundary","fx_muxer_t::resolve_hostpolicy_dir","collaborator incidental",
-"fx_muxer_t","boundary","fx_muxer_t::resolve_fx_dir","controller stateless",
-"fx_muxer_t","boundary","fx_muxer_t::resolve_cli_version","controller stateless",
-"fx_muxer_t","boundary","fx_muxer_t::resolve_sdk_dotnet_path","predicate non-void-command collaborator",
-"fx_muxer_t","boundary","fx_muxer_t::parse_args_and_execute","property non-void-command",
-"fx_muxer_t","boundary","fx_muxer_t::read_config_and_execute","property non-void-command collaborator",
-"fx_muxer_t","boundary","fx_muxer_t::execute","property non-void-command collaborator",
-"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::Initialize","property non-void-command collaborator",
-"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::GetClrFuncReflectionWrapFunc","property non-void-command collaborator",
-"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::CallClrFunc","wrapper stateless",
-"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::ContinueTask","wrapper stateless",
-"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::FreeHandle","wrapper stateless",
-"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::FreeMarshalData","wrapper stateless",
-"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::CompileFunc","property non-void-command collaborator",
-"windows_category_impl","degenerate","name","incidental",
-"windows_category_impl","degenerate","name","incidental",
-"windows_category_impl","degenerate","windows_category_impl::message","controller stateless",
-"windows_category_impl","degenerate","windows_category_impl::default_error_condition","property collaborator",
-"CoreClrNodejsFunc","degenerate small-class","CoreClrNodejsFunc::CoreClrNodejsFunc","constructor",
-"CoreClrNodejsFunc","degenerate small-class","CoreClrNodejsFunc::~CoreClrNodejsFunc","destructor",
-"CoreClrNodejsFunc","degenerate small-class","CoreClrNodejsFunc::Release","wrapper stateless",
-"CoreClrNodejsFunc","degenerate small-class","CoreClrNodejsFunc::Call","controller stateless",
-"number","data-provider","number","constructor",
-"number","data-provider","number","constructor",
-"number","data-provider","number","constructor",
-"number","data-provider","number","constructor",
-"number","data-provider","number","constructor",
-"number","data-provider","is_uint64","predicate",
-"number","data-provider","to_double","get property",
-"number","data-provider","to_int32","property",
-"number","data-provider","to_uint32","property",
-"number","data-provider","to_int64","property",
-"number","data-provider","to_uint64","property",
-"number","data-provider","is_integral","incidental",
-"number","data-provider","operator==","predicate wrapper",
-"number","data-provider","number","constructor",
-"number","data-provider","number","constructor",
-"number","data-provider","number","constructor",
-"number","data-provider","number","constructor",
-"number","data-provider","number","constructor",
-"number","data-provider","is_uint64","predicate",
-"number","data-provider","to_double","get property",
-"number","data-provider","to_int32","property",
-"number","data-provider","to_uint32","property",
-"number","data-provider","to_int64","property",
-"number","data-provider","to_uint64","property",
-"number","data-provider","is_integral","incidental",
-"number","data-provider","operator==","predicate wrapper",
-"number","data-provider","web::json::number::is_int32","predicate wrapper",
-"number","data-provider","web::json::number::is_uint32","predicate wrapper",
-"number","data-provider","web::json::number::is_int64","predicate wrapper",
-"CoreClrFunc","boundary","CoreClrFunc::CoreClrFunc","constructor",
-"CoreClrFunc","boundary","CoreClrFunc::InitializeInstance","controller stateless",
-"CoreClrFunc","boundary","CoreClrFunc::Call","property non-void-command collaborator",
-"CoreClrFunc","boundary","CoreClrFunc::FreeMarshalData","incidental",
-"CoreClrFunc","boundary","CoreClrFunc::CopyV8StringBytes","wrapper stateless",
-"CoreClrFunc","boundary","CoreClrFunc::MarshalV8ExceptionToCLR","void-accessor command collaborator",
-"CoreClrFunc","boundary","CoreClrFunc::MarshalV8ToCLR","void-accessor command collaborator",
-"CoreClrFunc","boundary","CoreClrFunc::MarshalCLRToV8","property non-void-command collaborator",
-"corehost_init_t","entity data-provider boundary","corehost_init_t","constructor",
-"corehost_init_t","entity data-provider boundary","fx_dir","get collaborator",
-"corehost_init_t","entity data-provider boundary","fx_name","get collaborator",
-"corehost_init_t","entity data-provider boundary","fx_version","get collaborator",
-"corehost_init_t","entity data-provider boundary","get_host_init_data","property non-void-command collaborator",
-"_Object","data-provider boundary","_Object","constructor",
-"_Object","data-provider boundary","_Object","constructor",
-"_Object","data-provider boundary","_copy_value","property wrapper",
-"_Object","data-provider boundary","as_object","get collaborator",
-"_Object","data-provider boundary","as_object","get collaborator",
-"_Object","data-provider boundary","type","collaborator incidental",
-"_Object","data-provider boundary","is_equal","predicate",
-"_Object","data-provider boundary","serialize_impl","void-accessor",
-"_Object","data-provider boundary","serialize_impl","void-accessor collaborator",
-"_Object","data-provider boundary","size","property",
-"_Object","data-provider boundary","format","void-accessor collaborator",
-"_Object","data-provider boundary","format","void-accessor collaborator",
-"_Object","data-provider boundary","format_impl","void-accessor collaborator",
-"_Object","data-provider boundary","get_reserve_size","property",
-"_Object","data-provider boundary","_Object","constructor",
-"_Object","data-provider boundary","_Object","constructor",
-"_Object","data-provider boundary","_copy_value","property wrapper",
-"_Object","data-provider boundary","as_object","get collaborator",
-"_Object","data-provider boundary","as_object","get collaborator",
-"_Object","data-provider boundary","type","collaborator incidental",
-"_Object","data-provider boundary","is_equal","predicate",
-"_Object","data-provider boundary","serialize_impl","void-accessor",
-"_Object","data-provider boundary","serialize_impl","void-accessor collaborator",
-"_Object","data-provider boundary","size","property",
-"_Object","data-provider boundary","format","void-accessor collaborator",
-"_Object","data-provider boundary","format","void-accessor collaborator",
-"_Object","data-provider boundary","format_impl","void-accessor collaborator",
-"_Object","data-provider boundary","get_reserve_size","property",
-"_Object","data-provider boundary","web::json::details::_Object::index","get collaborator",
-"_Object","data-provider boundary","web::json::details::_Object::has_field","predicate collaborator",
-"EdgeAssemblyResolver","pure-controller degenerate small-class","EdgeAssemblyResolver","constructor",
-"EdgeAssemblyResolver","pure-controller degenerate small-class","LoadDependencyManifest","controller stateless",
-"datetime","data-provider","datetime","constructor",
-"datetime","data-provider","to_interval","get collaborator",
-"datetime","data-provider","operator-","property collaborator",
-"datetime","data-provider","operator+","property collaborator",
-"datetime","data-provider","operator==","predicate",
-"datetime","data-provider","operator!=","predicate",
-"datetime","data-provider","is_initialized","predicate",
-"datetime","data-provider","datetime","constructor",
-"datetime","data-provider","datetime","constructor",
-"datetime","data-provider","to_interval","get collaborator",
-"datetime","data-provider","operator-","property collaborator",
-"datetime","data-provider","operator+","property collaborator",
-"datetime","data-provider","operator==","predicate",
-"datetime","data-provider","operator!=","predicate",
-"datetime","data-provider","is_initialized","predicate",
-"datetime","data-provider","datetime","constructor",
-"fx_ver_t","data-provider","get_major","get",
-"fx_ver_t","data-provider","get_minor","get",
-"fx_ver_t","data-provider","get_patch","get",
-"fx_ver_t","data-provider","set_major","set",
-"fx_ver_t","data-provider","set_minor","set",
-"fx_ver_t","data-provider","set_patch","set",
-"fx_ver_t","data-provider","is_prerelease","predicate",
-"fx_ver_t","data-provider","fx_ver_t::fx_ver_t","constructor",
-"fx_ver_t","data-provider","fx_ver_t::fx_ver_t","constructor",
-"fx_ver_t","data-provider","fx_ver_t::fx_ver_t","constructor",
-"fx_ver_t","data-provider","fx_ver_t::operator==","predicate",
-"fx_ver_t","data-provider","fx_ver_t::operator!=","predicate",
-"fx_ver_t","data-provider","fx_ver_t::operator<","predicate",
-"fx_ver_t","data-provider","fx_ver_t::operator>","predicate",
-"fx_ver_t","data-provider","fx_ver_t::as_str","property collaborator",
-"fx_ver_t","data-provider","fx_ver_t::prerelease_glob","property controller",
-"fx_ver_t","data-provider","fx_ver_t::patch_glob","property controller",
-"fx_ver_t","data-provider","fx_ver_t::compare","controller stateless",
-"fx_ver_t","data-provider","fx_ver_t::parse","controller stateless",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_copy_value","property wrapper",
-"_Number","data-provider","type","collaborator incidental",
-"_Number","data-provider","is_integer","predicate",
-"_Number","data-provider","is_double","predicate",
-"_Number","data-provider","as_double","property",
-"_Number","data-provider","as_integer","property",
-"_Number","data-provider","as_number","get collaborator",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_Number","constructor",
-"_Number","data-provider","_copy_value","property wrapper",
-"_Number","data-provider","type","collaborator incidental",
-"_Number","data-provider","is_integer","predicate",
-"_Number","data-provider","is_double","predicate",
-"_Number","data-provider","as_double","property",
-"_Number","data-provider","as_integer","property",
-"_Number","data-provider","as_number","get collaborator",
-"_Number","data-provider","web::json::details::_Number::format","controller",
-"_Number","data-provider","web::json::details::_Number::format","controller",
-"JSON_StreamParser","entity boundary small-class","JSON_StreamParser","constructor",
-"JSON_StreamParser","entity boundary small-class","JSON_StreamParser<CharType>::NextCharacter","property non-void-command collaborator",
-"JSON_StreamParser","entity boundary small-class","JSON_StreamParser<CharType>::PeekCharacter","property non-void-command collaborator",
+"Dictionary","boundary degenerate small-class","Dictionary::Add","wrapper stateless"
+"MonoEmbedding","entity boundary","MonoEmbedding::Initialize","set collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::NormalizeException","void-accessor command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::GetAssembly","get collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::GetImage","property wrapper"
+"MonoEmbedding","entity boundary","MonoEmbedding::GetClass","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::GetClrFuncReflectionWrapFunc","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::GetIDictionaryStringObjectClass","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::GetUriClass","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::CreateDateTime","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::CreateExpandoObject","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::GetFuncClass","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::IEnumerableToArray","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::IDictionaryToFlatArray","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::ContinueTask","void-accessor command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::GetDateValue","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::Int64ToDouble","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::ToString","property non-void-command collaborator"
+"MonoEmbedding","entity boundary","MonoEmbedding::TryConvertPrimitiveOrDecimal","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::ClrFunc","constructor"
+"ClrFunc","boundary","ClrFunc::Initialize","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::MarshalCLRToV8","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::MarshalCLRExceptionToV8","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::MarshalCLRObjectToV8","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::MarshalV8ToCLR","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::Call","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::ClrFunc","constructor"
+"ClrFunc","boundary","ClrFunc::Initialize","controller stateless"
+"ClrFunc","boundary","ClrFunc::MarshalCLRToV8","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::MarshalCLRExceptionToV8","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::MarshalCLRObjectToV8","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::MarshalV8ToCLR","property non-void-command collaborator"
+"ClrFunc","boundary","ClrFunc::Call","property non-void-command collaborator"
+"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext","constructor"
+"NodejsFuncInvokeContext","degenerate","Complete","collaborator incidental"
+"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::NodejsFuncInvokeContext","constructor"
+"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::~NodejsFuncInvokeContext","destructor"
+"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::NodejsFuncInvokeContext","constructor"
+"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::~NodejsFuncInvokeContext","destructor"
+"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::CallFuncOnV8Thread","controller stateless"
+"NodejsFuncInvokeContext","degenerate","NodejsFuncInvokeContext::Complete","wrapper"
+"ClrFuncInvokeContext","boundary","CompleteOnCLRThread","wrapper"
+"ClrFuncInvokeContext","boundary","CompleteOnV8ThreadAsynchronous","wrapper"
+"ClrFuncInvokeContext","boundary","GetCompleteOnV8ThreadAsynchronousAction","factory collaborator stateless"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::ClrFuncInvokeContext","constructor"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::DisposeCallback","set"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnCLRThread","set collaborator"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::InitializeAsyncOperation","set collaborator"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnV8ThreadAsynchronous","controller stateless"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnV8Thread","property set collaborator"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::ClrFuncInvokeContext","constructor"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::InitializeAsyncOperation","set collaborator"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::~ClrFuncInvokeContext","destructor"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnCLRThread","controller stateless"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnV8ThreadAsynchronous","controller stateless"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::CompleteOnV8Thread","property non-void-command collaborator"
+"ClrFuncInvokeContext","boundary","ClrFuncInvokeContext::GetMonoObject","property wrapper"
+"Task","boundary degenerate","Task::Status","wrapper stateless"
+"Task","boundary degenerate","Task::Exception","wrapper stateless"
+"Task","boundary degenerate","Task::Result","wrapper stateless"
+"V8SynchronizationContext","entity boundary","V8SynchronizationContext::Initialize","command"
+"V8SynchronizationContext","entity boundary","V8SynchronizationContext::Unref","wrapper stateless"
+"V8SynchronizationContext","entity boundary","V8SynchronizationContext::RegisterAction","property non-void-command factory collaborator"
+"V8SynchronizationContext","entity boundary","V8SynchronizationContext::ExecuteAction","wrapper stateless"
+"V8SynchronizationContext","entity boundary","V8SynchronizationContext::CancelAction","wrapper stateless"
+"V8SynchronizationContext","entity boundary","V8SynchronizationContext::GetCurrentThreadId","property non-void-command"
+"JSON_StringParser","entity boundary","JSON_StringParser","constructor"
+"JSON_StringParser","entity boundary","JSON_StringParser<CharType>::NextCharacter","property non-void-command collaborator"
+"JSON_StringParser","entity boundary","JSON_StringParser<CharType>::PeekCharacter","get property wrapper"
+"JSON_StringParser","entity boundary","JSON_StringParser<CharType>::CompleteComment","predicate non-void-command collaborator"
+"JSON_StringParser","entity boundary","JSON_StringParser<CharType>::CompleteStringLiteral","predicate non-void-command collaborator"
+"PersistentDisposeContext","commander boundary small-class","PersistentDisposeContext::PersistentDisposeContext","constructor"
+"PersistentDisposeContext","commander boundary small-class","PersistentDisposeContext::CallDisposeOnV8Thread","command collaborator"
+"ClrFuncReflectionWrap","entity boundary","Call","property non-void-command collaborator"
+"ClrFuncReflectionWrap","entity boundary","ClrFuncReflectionWrap::ClrFuncReflectionWrap","constructor"
+"ClrFuncReflectionWrap","entity boundary","ClrFuncReflectionWrap::Create","property non-void-command collaborator"
+"ClrFuncReflectionWrap","entity boundary","ClrFuncReflectionWrap::Call","collaborator incidental"
+"runtime_config_t","data-provider boundary","is_valid","get"
+"runtime_config_t","data-provider boundary","get_path","get collaborator"
+"runtime_config_t","data-provider boundary","get_dev_path","get collaborator"
+"runtime_config_t","data-provider boundary","runtime_config_t::runtime_config_t","constructor"
+"runtime_config_t","data-provider boundary","runtime_config_t::parse_opts","predicate non-void-command collaborator"
+"runtime_config_t","data-provider boundary","runtime_config_t::ensure_dev_config_parsed","predicate non-void-command collaborator"
+"runtime_config_t","data-provider boundary","runtime_config_t::ensure_parsed","predicate non-void-command collaborator"
+"runtime_config_t","data-provider boundary","runtime_config_t::get_fx_name","get collaborator"
+"runtime_config_t","data-provider boundary","runtime_config_t::get_fx_version","get collaborator"
+"runtime_config_t","data-provider boundary","runtime_config_t::get_patch_roll_fwd","get"
+"runtime_config_t","data-provider boundary","runtime_config_t::get_prerelease_roll_fwd","get"
+"runtime_config_t","data-provider boundary","runtime_config_t::get_portable","get"
+"runtime_config_t","data-provider boundary","runtime_config_t::get_probe_paths","get collaborator"
+"runtime_config_t","data-provider boundary","runtime_config_t::config_kv","controller"
+"SafeIntException","empty","SafeIntException","constructor"
+"SafeIntException","empty","SafeIntException","constructor"
+"arguments_t","commander boundary small-class","print","command collaborator"
+"arguments_t","commander boundary small-class","arguments_t::arguments_t","constructor"
+"Startup","degenerate","Invoke","factory collaborator incidental"
+"Startup","degenerate","Invoke","property non-void-command collaborator"
+"Startup","degenerate","Add7","controller stateless"
+"Startup","degenerate","Invoke","controller stateless"
+"Startup","degenerate","ValidateMarshalNodeJsToNet","controller stateless"
+"Startup","degenerate","Invoke","controller stateless"
+"Startup","degenerate","MarshalIn","property non-void-command collaborator"
+"Startup","degenerate","MarshalBack","wrapper stateless"
+"NodejsFunc","entity data-provider boundary","GetFunc","property factory collaborator"
+"NodejsFunc","entity data-provider boundary","FunctionWrapper","property non-void-command collaborator"
+"NodejsFunc","entity data-provider boundary","NodejsFunc::NodejsFunc","constructor"
+"NodejsFunc","entity data-provider boundary","NodejsFunc::~NodejsFunc","destructor"
+"NodejsFunc","entity data-provider boundary","NodejsFunc::NodejsFunc","constructor"
+"NodejsFunc","entity data-provider boundary","NodejsFunc::~NodejsFunc","destructor"
+"NodejsFunc","entity data-provider boundary","NodejsFunc::Release","incidental"
+"NodejsFunc","entity data-provider boundary","NodejsFunc::GetFunc","property wrapper"
+"NodejsFunc","entity data-provider boundary","NodejsFunc::ExecuteActionOnV8Thread","wrapper stateless"
+"v8BufferData","empty","v8BufferData","constructor"
+"v8BufferData","empty","~v8BufferData","destructor"
+"json_error_category_impl","degenerate","name","incidental"
+"json_error_category_impl","degenerate","message","incidental"
+"json_error_category_impl","degenerate","name","incidental"
+"json_error_category_impl","degenerate","message","incidental"
+"probe_config_t","data-provider small-class","print","unclassified"
+"probe_config_t","data-provider small-class","is_roll_fwd_set","predicate"
+"probe_config_t","data-provider small-class","probe_config_t","constructor"
+"array","entity data-provider boundary","array","constructor"
+"array","entity data-provider boundary","array","constructor"
+"array","entity data-provider boundary","array","constructor"
+"array","entity data-provider boundary","begin","property non-void-command collaborator"
+"array","entity data-provider boundary","begin","property collaborator"
+"array","entity data-provider boundary","end","property non-void-command collaborator"
+"array","entity data-provider boundary","end","property collaborator"
+"array","entity data-provider boundary","rbegin","property non-void-command collaborator"
+"array","entity data-provider boundary","rbegin","property collaborator"
+"array","entity data-provider boundary","rend","property non-void-command collaborator"
+"array","entity data-provider boundary","rend","property collaborator"
+"array","entity data-provider boundary","cbegin","property collaborator"
+"array","entity data-provider boundary","cend","property collaborator"
+"array","entity data-provider boundary","crbegin","property collaborator"
+"array","entity data-provider boundary","crend","property collaborator"
+"array","entity data-provider boundary","erase","property non-void-command collaborator"
+"array","entity data-provider boundary","erase","command"
+"array","entity data-provider boundary","at","get non-void-command collaborator"
+"array","entity data-provider boundary","at","get collaborator"
+"array","entity data-provider boundary","operator[]","get non-void-command collaborator"
+"array","entity data-provider boundary","size","property"
+"array","entity data-provider boundary","array","constructor"
+"array","entity data-provider boundary","array","constructor"
+"array","entity data-provider boundary","array","constructor"
+"array","entity data-provider boundary","begin","property non-void-command collaborator"
+"array","entity data-provider boundary","begin","property collaborator"
+"array","entity data-provider boundary","end","property non-void-command collaborator"
+"array","entity data-provider boundary","end","property collaborator"
+"array","entity data-provider boundary","rbegin","property non-void-command collaborator"
+"array","entity data-provider boundary","rbegin","property collaborator"
+"array","entity data-provider boundary","rend","property non-void-command collaborator"
+"array","entity data-provider boundary","rend","property collaborator"
+"array","entity data-provider boundary","cbegin","property collaborator"
+"array","entity data-provider boundary","cend","property collaborator"
+"array","entity data-provider boundary","crbegin","property collaborator"
+"array","entity data-provider boundary","crend","property collaborator"
+"array","entity data-provider boundary","erase","property non-void-command collaborator"
+"array","entity data-provider boundary","erase","command"
+"array","entity data-provider boundary","at","get non-void-command collaborator"
+"array","entity data-provider boundary","at","get collaborator"
+"array","entity data-provider boundary","operator[]","get non-void-command collaborator"
+"array","entity data-provider boundary","size","property"
+"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::c_locale","wrapper stateless"
+"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::scoped_c_thread_locale","constructor"
+"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::~scoped_c_thread_locale","destructor"
+"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::scoped_c_thread_locale","constructor"
+"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::~scoped_c_thread_locale","destructor"
+"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::scoped_c_thread_locale","constructor"
+"scoped_c_thread_locale","boundary degenerate small-class","scoped_c_thread_locale::~scoped_c_thread_locale","destructor"
+"SafeInt","data-provider boundary","SafeInt","constructor"
+"SafeInt","data-provider boundary","SafeInt","constructor"
+"SafeInt","data-provider boundary","SafeInt","constructor"
+"SafeInt","data-provider boundary","SafeInt","copy-constructor"
+"SafeInt","data-provider boundary","SafeInt","constructor"
+"SafeInt","data-provider boundary","operator=","get set collaborator"
+"SafeInt","data-provider boundary","operator=","get set collaborator"
+"SafeInt","data-provider boundary","operator=","get controller"
+"SafeInt","data-provider boundary","operator=","get set collaborator"
+"SafeInt","data-provider boundary","operatorbool","unclassified"
+"SafeInt","data-provider boundary","operatorchar","wrapper"
+"SafeInt","data-provider boundary","char","property wrapper"
+"SafeInt","data-provider boundary","char","property wrapper"
+"SafeInt","data-provider boundary","operator__int16","wrapper"
+"SafeInt","data-provider boundary","__int16","property wrapper"
+"SafeInt","data-provider boundary","operator__int32","wrapper"
+"SafeInt","data-provider boundary","__int32","property wrapper"
+"SafeInt","data-provider boundary","operatorlong","wrapper"
+"SafeInt","data-provider boundary","long","property wrapper"
+"SafeInt","data-provider boundary","operator__int64","wrapper"
+"SafeInt","data-provider boundary","__int64","property wrapper"
+"SafeInt","data-provider boundary","operatorwchar_t","wrapper"
+"SafeInt","data-provider boundary","operatorsize_t","wrapper"
+"SafeInt","data-provider boundary","operatorfloat","wrapper"
+"SafeInt","data-provider boundary","operatordouble","wrapper"
+"SafeInt","data-provider boundary","double","property wrapper"
+"SafeInt","data-provider boundary","Ptr","property collaborator"
+"SafeInt","data-provider boundary","Ptr","property collaborator"
+"SafeInt","data-provider boundary","Ref","get collaborator"
+"SafeInt","data-provider boundary","operator&","property collaborator"
+"SafeInt","data-provider boundary","operator&","property collaborator"
+"SafeInt","data-provider boundary","operator!","predicate"
+"SafeInt","data-provider boundary","operator+","get collaborator"
+"SafeInt","data-provider boundary","operator-","property wrapper"
+"SafeInt","data-provider boundary","operator++","get set collaborator"
+"SafeInt","data-provider boundary","operator--","get set collaborator"
+"SafeInt","data-provider boundary","operator++","property set collaborator"
+"SafeInt","data-provider boundary","operator--","property set collaborator"
+"SafeInt","data-provider boundary","operator~","property wrapper"
+"SafeInt","data-provider boundary","operator%","property wrapper"
+"SafeInt","data-provider boundary","operator%","property wrapper"
+"SafeInt","data-provider boundary","operator%=","get wrapper"
+"SafeInt","data-provider boundary","operator%=","get wrapper"
+"SafeInt","data-provider boundary","operator*","property wrapper"
+"SafeInt","data-provider boundary","operator*","property wrapper"
+"SafeInt","data-provider boundary","operator*=","get wrapper"
+"SafeInt","data-provider boundary","operator*=","get wrapper"
+"SafeInt","data-provider boundary","operator*=","get controller"
+"SafeInt","data-provider boundary","operator/","property wrapper"
+"SafeInt","data-provider boundary","operator/","property wrapper"
+"SafeInt","data-provider boundary","operator/=","get wrapper"
+"SafeInt","data-provider boundary","operator/=","get wrapper"
+"SafeInt","data-provider boundary","operator/=","get wrapper"
+"SafeInt","data-provider boundary","operator+","property wrapper"
+"SafeInt","data-provider boundary","operator+","property wrapper"
+"SafeInt","data-provider boundary","operator+=","get wrapper"
+"SafeInt","data-provider boundary","operator+=","get wrapper"
+"SafeInt","data-provider boundary","operator+=","get wrapper"
+"SafeInt","data-provider boundary","operator-","property wrapper"
+"SafeInt","data-provider boundary","operator-","property wrapper"
+"SafeInt","data-provider boundary","operator-=","get wrapper"
+"SafeInt","data-provider boundary","operator-=","get wrapper"
+"SafeInt","data-provider boundary","operator-=","get wrapper"
+"SafeInt","data-provider boundary","operator<<","property wrapper"
+"SafeInt","data-provider boundary","operator<<","property wrapper"
+"SafeInt","data-provider boundary","operator<<=","get set collaborator"
+"SafeInt","data-provider boundary","operator<<=","get set collaborator"
+"SafeInt","data-provider boundary","operator>>","property wrapper"
+"SafeInt","data-provider boundary","operator>>","property wrapper"
+"SafeInt","data-provider boundary","operator>>=","get set collaborator"
+"SafeInt","data-provider boundary","operator>>=","get set collaborator"
+"SafeInt","data-provider boundary","operator&","property wrapper"
+"SafeInt","data-provider boundary","operator&","property wrapper"
+"SafeInt","data-provider boundary","operator&=","get set collaborator"
+"SafeInt","data-provider boundary","operator&=","get set collaborator"
+"SafeInt","data-provider boundary","operator&=","get set collaborator"
+"SafeInt","data-provider boundary","operator^","property wrapper"
+"SafeInt","data-provider boundary","operator^","property wrapper"
+"SafeInt","data-provider boundary","operator^=","get set collaborator"
+"SafeInt","data-provider boundary","operator^=","get set collaborator"
+"SafeInt","data-provider boundary","operator^=","get set collaborator"
+"SafeInt","data-provider boundary","operator|","property wrapper"
+"SafeInt","data-provider boundary","operator|","property wrapper"
+"SafeInt","data-provider boundary","operator|=","get set collaborator"
+"SafeInt","data-provider boundary","operator|=","get set collaborator"
+"SafeInt","data-provider boundary","operator|=","get set collaborator"
+"SafeInt","data-provider boundary","Min","property collaborator"
+"SafeInt","data-provider boundary","Max","property collaborator"
+"SafeInt","data-provider boundary","Swap","void-accessor set collaborator"
+"SafeInt","data-provider boundary","Align","get set collaborator"
+"SafeInt","data-provider boundary","Align2","wrapper stateless"
+"SafeInt","data-provider boundary","Align4","wrapper stateless"
+"SafeInt","data-provider boundary","Align8","wrapper stateless"
+"SafeInt","data-provider boundary","Align16","wrapper stateless"
+"SafeInt","data-provider boundary","Align32","wrapper stateless"
+"SafeInt","data-provider boundary","Align64","wrapper stateless"
+"deps_json_t","data-provider boundary","get_entries","get collaborator"
+"deps_json_t","data-provider boundary","exists","get"
+"deps_json_t","data-provider boundary","is_valid","get"
+"deps_json_t","data-provider boundary","get_rid_fallback_graph","get collaborator"
+"deps_json_t","data-provider boundary","deps_json_t::try_ni","get property collaborator"
+"deps_json_t","data-provider boundary","deps_json_t::reconcile_libraries_with_targets","set collaborator"
+"deps_json_t","data-provider boundary","deps_json_t::perform_rid_fallback","controller stateless"
+"deps_json_t","data-provider boundary","deps_json_t::process_runtime_targets","predicate non-void-command collaborator"
+"deps_json_t","data-provider boundary","deps_json_t::process_targets","controller stateless"
+"deps_json_t","data-provider boundary","deps_json_t::load_portable","predicate non-void-command collaborator"
+"deps_json_t","data-provider boundary","deps_json_t::load_standalone","predicate non-void-command collaborator"
+"deps_json_t","data-provider boundary","deps_json_t::has_package","predicate collaborator"
+"deps_json_t","data-provider boundary","deps_json_t::load","predicate non-void-command collaborator"
+"_Array","data-provider boundary","_Array","constructor"
+"_Array","data-provider boundary","_Array","constructor"
+"_Array","data-provider boundary","_Array","constructor"
+"_Array","data-provider boundary","_copy_value","property wrapper"
+"_Array","data-provider boundary","type","collaborator incidental"
+"_Array","data-provider boundary","as_array","get"
+"_Array","data-provider boundary","as_array","get"
+"_Array","data-provider boundary","index","get collaborator"
+"_Array","data-provider boundary","is_equal","predicate collaborator"
+"_Array","data-provider boundary","serialize_impl","unclassified"
+"_Array","data-provider boundary","serialize_impl","collaborator"
+"_Array","data-provider boundary","size","property"
+"_Array","data-provider boundary","format","collaborator"
+"_Array","data-provider boundary","format","collaborator"
+"_Array","data-provider boundary","format_impl","collaborator"
+"_Array","data-provider boundary","get_reserve_size","property"
+"_Array","data-provider boundary","_Array","constructor"
+"_Array","data-provider boundary","_Array","constructor"
+"_Array","data-provider boundary","_Array","constructor"
+"_Array","data-provider boundary","_copy_value","property wrapper"
+"_Array","data-provider boundary","type","collaborator incidental"
+"_Array","data-provider boundary","as_array","get"
+"_Array","data-provider boundary","as_array","get"
+"_Array","data-provider boundary","index","get collaborator"
+"_Array","data-provider boundary","is_equal","predicate collaborator"
+"_Array","data-provider boundary","serialize_impl","unclassified"
+"_Array","data-provider boundary","serialize_impl","collaborator"
+"_Array","data-provider boundary","size","property"
+"_Array","data-provider boundary","format","collaborator"
+"_Array","data-provider boundary","format","collaborator"
+"_Array","data-provider boundary","format_impl","collaborator"
+"_Array","data-provider boundary","get_reserve_size","property"
+"json_exception","data-provider small-class","json_exception","constructor"
+"json_exception","data-provider small-class","what","property"
+"json_exception","data-provider small-class","json_exception","constructor"
+"json_exception","data-provider small-class","what","property"
+"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::CoreClrNodejsFuncInvokeContext","constructor"
+"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::~CoreClrNodejsFuncInvokeContext","destructor"
+"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::Complete","wrapper"
+"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::Invoke","set"
+"CoreClrNodejsFuncInvokeContext","unclassified","CoreClrNodejsFuncInvokeContext::InvokeCallback","controller stateless"
+"value","unclassified","is_null","predicate"
+"value","unclassified","is_number","predicate"
+"value","unclassified","is_boolean","predicate"
+"value","unclassified","is_string","predicate"
+"value","unclassified","is_array","predicate"
+"value","unclassified","is_object","predicate"
+"value","unclassified","operator!=","predicate"
+"value","unclassified","operator[]","property non-void-command collaborator"
+"value","unclassified","is_null","predicate"
+"value","unclassified","is_number","predicate"
+"value","unclassified","is_boolean","predicate"
+"value","unclassified","is_string","predicate"
+"value","unclassified","is_array","predicate"
+"value","unclassified","is_object","predicate"
+"value","unclassified","operator!=","predicate"
+"value","unclassified","operator[]","property non-void-command collaborator"
+"value","unclassified","json::value::size","controller stateless"
+"value","unclassified","json::value::has_field","controller stateless"
+"value","unclassified","json::value::get","controller stateless"
+"value","unclassified","json::value::get","controller stateless"
+"value","unclassified","json::value::size","controller stateless"
+"value","unclassified","json::value::has_field","controller stateless"
+"value","unclassified","json::value::get","controller stateless"
+"value","unclassified","json::value::get","controller stateless"
+"value","unclassified","web::json::value::value","constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::operator=","get set"
+"value","unclassified","web::json::value::value","copy-constructor"
+"value","unclassified","web::json::value::operator=","get set"
+"value","unclassified","web::json::value::null","property non-void-command"
+"value","unclassified","web::json::value::number","property non-void-command"
+"value","unclassified","web::json::value::number","property non-void-command"
+"value","unclassified","web::json::value::number","property non-void-command"
+"value","unclassified","web::json::value::number","property non-void-command"
+"value","unclassified","web::json::value::number","property non-void-command"
+"value","unclassified","web::json::value::boolean","property non-void-command"
+"value","unclassified","web::json::value::string","property non-void-command collaborator"
+"value","unclassified","web::json::value::string","property non-void-command collaborator"
+"value","unclassified","web::json::value::string","property non-void-command collaborator"
+"value","unclassified","web::json::value::object","property non-void-command collaborator"
+"value","unclassified","web::json::value::object","property non-void-command collaborator"
+"value","unclassified","web::json::value::array","property non-void-command collaborator"
+"value","unclassified","web::json::value::array","property non-void-command collaborator"
+"value","unclassified","web::json::value::array","property non-void-command collaborator"
+"value","unclassified","web::json::value::as_number","controller stateless"
+"value","unclassified","web::json::value::as_double","controller stateless"
+"value","unclassified","web::json::value::as_integer","controller stateless"
+"value","unclassified","web::json::value::as_bool","controller stateless"
+"value","unclassified","web::json::value::as_array","controller stateless"
+"value","unclassified","web::json::value::as_array","controller stateless"
+"value","unclassified","web::json::value::as_object","controller stateless"
+"value","unclassified","web::json::value::as_object","controller stateless"
+"value","unclassified","json::value::type","controller stateless"
+"value","unclassified","json::value::is_integer","predicate"
+"value","unclassified","json::value::is_double","predicate"
+"value","unclassified","json::value::to_string","controller stateless"
+"value","unclassified","json::value::operator==","controller stateless"
+"value","unclassified","web::json::value::erase","command"
+"value","unclassified","web::json::value::erase","command collaborator"
+"value","unclassified","web::json::value::at","property non-void-command"
+"value","unclassified","web::json::value::at","property"
+"value","unclassified","web::json::value::at","property non-void-command collaborator"
+"value","unclassified","web::json::value::at","property collaborator"
+"value","unclassified","web::json::value::operator[]","property set collaborator"
+"value","unclassified","web::json::value::operator[]","property set"
+"value","unclassified","web::json::value::parse","controller stateless"
+"value","unclassified","web::json::value::parse","property non-void-command collaborator"
+"value","unclassified","web::json::value::parse","wrapper stateless"
+"value","unclassified","web::json::value::parse","wrapper stateless"
+"value","unclassified","web::json::value::parse","wrapper stateless"
+"value","unclassified","web::json::value::parse","wrapper stateless"
+"value","unclassified","web::json::value::serialize","controller stateless"
+"value","unclassified","web::json::value::format","controller stateless"
+"value","unclassified","web::json::value::serialize","controller stateless"
+"value","unclassified","web::json::value::format","controller stateless"
+"value","unclassified","web::json::value::as_string","controller stateless"
+"value","unclassified","json::value::serialize","controller stateless"
+"_String","data-provider boundary","_String","constructor"
+"_String","data-provider boundary","_String","constructor"
+"_String","data-provider boundary","_String","constructor"
+"_String","data-provider boundary","_String","constructor"
+"_String","data-provider boundary","_copy_value","property wrapper"
+"_String","data-provider boundary","type","collaborator incidental"
+"_String","data-provider boundary","serialize_impl","unclassified"
+"_String","data-provider boundary","serialize_impl","collaborator"
+"_String","data-provider boundary","get_reserve_size","property"
+"_String","data-provider boundary","serialize_impl_char_type","collaborator"
+"_String","data-provider boundary","_String","constructor"
+"_String","data-provider boundary","_String","constructor"
+"_String","data-provider boundary","_String","constructor"
+"_String","data-provider boundary","_String","constructor"
+"_String","data-provider boundary","_copy_value","property wrapper"
+"_String","data-provider boundary","type","collaborator incidental"
+"_String","data-provider boundary","serialize_impl","unclassified"
+"_String","data-provider boundary","serialize_impl","collaborator"
+"_String","data-provider boundary","get_reserve_size","property"
+"_String","data-provider boundary","serialize_impl_char_type","collaborator"
+"_String","data-provider boundary","web::json::details::_String::has_escape_chars","wrapper stateless"
+"_String","data-provider boundary","web::json::details::_String::format","controller"
+"_String","data-provider boundary","web::json::details::_String::format","controller"
+"_String","data-provider boundary","web::json::details::_String::as_string","get collaborator"
+"JSON_Parser","boundary","JSON_Parser","constructor"
+"JSON_Parser","boundary","ParseValue","property non-void-command collaborator"
+"JSON_Parser","boundary","CreateToken","controller stateless"
+"JSON_Parser","boundary","CreateToken","void-accessor controller"
+"JSON_Parser","boundary","JSON_Parser<CharType>::EatWhitespace","wrapper stateless"
+"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteKeywordTrue","wrapper stateless"
+"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteKeywordFalse","wrapper stateless"
+"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteKeywordNull","wrapper stateless"
+"JSON_Parser","boundary","JSON_Parser<CharType>::ParseInt64","wrapper stateless"
+"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteNumberLiteral","predicate non-void-command collaborator"
+"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteComment","wrapper stateless"
+"JSON_Parser","boundary","JSON_Parser<CharType>::handle_unescape_char","controller stateless"
+"JSON_Parser","boundary","JSON_Parser<CharType>::CompleteStringLiteral","predicate non-void-command collaborator"
+"JSON_Parser","boundary","JSON_Parser<CharType>::GetNextToken","command collaborator"
+"JSON_Parser","boundary","JSON_Parser<CharType>::_ParseObject","property non-void-command collaborator"
+"JSON_Parser","boundary","JSON_Parser<CharType>::_ParseArray","property non-void-command collaborator"
+"JSON_Parser","boundary","JSON_Parser<CharType>::_ParseValue","property non-void-command collaborator"
+"deps_entry_t","data-provider boundary","deps_entry_t::to_path","predicate controller"
+"deps_entry_t","data-provider boundary","deps_entry_t::to_dir_path","predicate collaborator"
+"deps_entry_t","data-provider boundary","deps_entry_t::to_rel_path","predicate collaborator"
+"deps_entry_t","data-provider boundary","deps_entry_t::to_full_path","predicate collaborator"
+"deps_entry_t","data-provider boundary","deps_entry_t::to_hash_matched_path","predicate collaborator"
+"CallbackHelper","commander small-class","CallbackHelper::Initialize","set"
+"CallbackHelper","commander small-class","CallbackHelper::KickNextTick","command collaborator"
+"deps_resolver_t","boundary","deps_resolver_t","constructor"
+"deps_resolver_t","boundary","valid","predicate non-void-command collaborator"
+"deps_resolver_t","boundary","get_fx_deps_file","get collaborator"
+"deps_resolver_t","boundary","get_deps_file","get collaborator"
+"deps_resolver_t","boundary","get_api_sets","get collaborator"
+"deps_resolver_t","boundary","deps_resolver_t::get_dir_assemblies","controller stateless"
+"deps_resolver_t","boundary","deps_resolver_t::try_roll_forward","predicate non-void-command collaborator"
+"deps_resolver_t","boundary","deps_resolver_t::setup_probe_config","command collaborator"
+"deps_resolver_t","boundary","deps_resolver_t::setup_additional_probes","command collaborator"
+"deps_resolver_t","boundary","deps_resolver_t::probe_entry_in_configs","predicate non-void-command collaborator"
+"deps_resolver_t","boundary","deps_resolver_t::probe_deps_entry","predicate non-void-command collaborator"
+"deps_resolver_t","boundary","deps_resolver_t::resolve_tpa_list","predicate non-void-command collaborator"
+"deps_resolver_t","boundary","deps_resolver_t::init_known_entry_path","command collaborator"
+"deps_resolver_t","boundary","deps_resolver_t::resolve_probe_dirs","predicate non-void-command collaborator"
+"deps_resolver_t","boundary","deps_resolver_t::resolve_probe_paths","predicate non-void-command collaborator"
+"v8ArrayData","empty","v8ArrayData","constructor"
+"v8ArrayData","empty","~v8ArrayData","destructor"
+"v8ObjectData","empty","v8ObjectData","constructor"
+"v8ObjectData","empty","~v8ObjectData","destructor"
+"object","entity data-provider boundary","object","constructor"
+"object","entity data-provider boundary","object","constructor"
+"object","entity data-provider boundary","begin","property non-void-command collaborator"
+"object","entity data-provider boundary","begin","property collaborator"
+"object","entity data-provider boundary","end","property non-void-command collaborator"
+"object","entity data-provider boundary","end","property collaborator"
+"object","entity data-provider boundary","rbegin","property non-void-command collaborator"
+"object","entity data-provider boundary","rbegin","property collaborator"
+"object","entity data-provider boundary","rend","property non-void-command collaborator"
+"object","entity data-provider boundary","rend","property collaborator"
+"object","entity data-provider boundary","cbegin","property collaborator"
+"object","entity data-provider boundary","cend","property collaborator"
+"object","entity data-provider boundary","crbegin","property collaborator"
+"object","entity data-provider boundary","crend","property collaborator"
+"object","entity data-provider boundary","erase","property non-void-command collaborator"
+"object","entity data-provider boundary","erase","command collaborator"
+"object","entity data-provider boundary","at","property non-void-command collaborator"
+"object","entity data-provider boundary","at","property collaborator"
+"object","entity data-provider boundary","operator[]","property non-void-command collaborator"
+"object","entity data-provider boundary","find","property collaborator"
+"object","entity data-provider boundary","size","property"
+"object","entity data-provider boundary","empty","predicate"
+"object","entity data-provider boundary","find_insert_location","property non-void-command collaborator"
+"object","entity data-provider boundary","find_by_key","property collaborator"
+"object","entity data-provider boundary","find_by_key","property non-void-command collaborator"
+"object","entity data-provider boundary","object","constructor"
+"object","entity data-provider boundary","object","constructor"
+"object","entity data-provider boundary","begin","property non-void-command collaborator"
+"object","entity data-provider boundary","begin","property collaborator"
+"object","entity data-provider boundary","end","property non-void-command collaborator"
+"object","entity data-provider boundary","end","property collaborator"
+"object","entity data-provider boundary","rbegin","property non-void-command collaborator"
+"object","entity data-provider boundary","rbegin","property collaborator"
+"object","entity data-provider boundary","rend","property non-void-command collaborator"
+"object","entity data-provider boundary","rend","property collaborator"
+"object","entity data-provider boundary","cbegin","property collaborator"
+"object","entity data-provider boundary","cend","property collaborator"
+"object","entity data-provider boundary","crbegin","property collaborator"
+"object","entity data-provider boundary","crend","property collaborator"
+"object","entity data-provider boundary","erase","property non-void-command collaborator"
+"object","entity data-provider boundary","erase","command collaborator"
+"object","entity data-provider boundary","at","property non-void-command collaborator"
+"object","entity data-provider boundary","at","property collaborator"
+"object","entity data-provider boundary","operator[]","property non-void-command collaborator"
+"object","entity data-provider boundary","find","property collaborator"
+"object","entity data-provider boundary","size","property"
+"object","entity data-provider boundary","empty","predicate"
+"object","entity data-provider boundary","find_insert_location","property non-void-command collaborator"
+"object","entity data-provider boundary","find_by_key","property collaborator"
+"object","entity data-provider boundary","find_by_key","property non-void-command collaborator"
+"_Value","boundary degenerate","has_field","incidental"
+"_Value","boundary degenerate","get_field","wrapper stateless"
+"_Value","boundary degenerate","get_element","wrapper stateless"
+"_Value","boundary degenerate","index","wrapper stateless"
+"_Value","boundary degenerate","index","wrapper stateless"
+"_Value","boundary degenerate","cnst_index","wrapper stateless"
+"_Value","boundary degenerate","cnst_index","wrapper stateless"
+"_Value","boundary degenerate","serialize_impl","unclassified"
+"_Value","boundary degenerate","serialize_impl","collaborator"
+"_Value","boundary degenerate","to_string","property collaborator"
+"_Value","boundary degenerate","type","collaborator incidental"
+"_Value","boundary degenerate","is_integer","wrapper stateless"
+"_Value","boundary degenerate","is_double","wrapper stateless"
+"_Value","boundary degenerate","as_number","wrapper stateless"
+"_Value","boundary degenerate","as_double","wrapper stateless"
+"_Value","boundary degenerate","as_integer","wrapper stateless"
+"_Value","boundary degenerate","as_bool","wrapper stateless"
+"_Value","boundary degenerate","as_array","wrapper stateless"
+"_Value","boundary degenerate","as_array","wrapper stateless"
+"_Value","boundary degenerate","as_object","wrapper stateless"
+"_Value","boundary degenerate","as_object","wrapper stateless"
+"_Value","boundary degenerate","as_string","wrapper stateless"
+"_Value","boundary degenerate","size","incidental"
+"_Value","boundary degenerate","~_Value","destructor"
+"_Value","boundary degenerate","_Value","constructor"
+"_Value","boundary degenerate","format","controller stateless"
+"_Value","boundary degenerate","format","controller stateless"
+"_Value","boundary degenerate","has_field","incidental"
+"_Value","boundary degenerate","get_field","wrapper stateless"
+"_Value","boundary degenerate","get_element","wrapper stateless"
+"_Value","boundary degenerate","index","wrapper stateless"
+"_Value","boundary degenerate","index","wrapper stateless"
+"_Value","boundary degenerate","cnst_index","wrapper stateless"
+"_Value","boundary degenerate","cnst_index","wrapper stateless"
+"_Value","boundary degenerate","serialize_impl","unclassified"
+"_Value","boundary degenerate","serialize_impl","collaborator"
+"_Value","boundary degenerate","to_string","property collaborator"
+"_Value","boundary degenerate","type","collaborator incidental"
+"_Value","boundary degenerate","is_integer","wrapper stateless"
+"_Value","boundary degenerate","is_double","wrapper stateless"
+"_Value","boundary degenerate","as_number","wrapper stateless"
+"_Value","boundary degenerate","as_double","wrapper stateless"
+"_Value","boundary degenerate","as_integer","wrapper stateless"
+"_Value","boundary degenerate","as_bool","wrapper stateless"
+"_Value","boundary degenerate","as_array","wrapper stateless"
+"_Value","boundary degenerate","as_array","wrapper stateless"
+"_Value","boundary degenerate","as_object","wrapper stateless"
+"_Value","boundary degenerate","as_object","wrapper stateless"
+"_Value","boundary degenerate","as_string","wrapper stateless"
+"_Value","boundary degenerate","size","incidental"
+"_Value","boundary degenerate","~_Value","destructor"
+"_Value","boundary degenerate","_Value","constructor"
+"_Value","boundary degenerate","format","controller stateless"
+"_Value","boundary degenerate","format","controller stateless"
+"_Boolean","unclassified","_Boolean","constructor"
+"_Boolean","unclassified","_copy_value","property wrapper"
+"_Boolean","unclassified","type","collaborator incidental"
+"_Boolean","unclassified","as_bool","get"
+"_Boolean","unclassified","format","controller"
+"_Boolean","unclassified","format","controller"
+"_Boolean","unclassified","_Boolean","constructor"
+"_Boolean","unclassified","_copy_value","property wrapper"
+"_Boolean","unclassified","type","collaborator incidental"
+"_Boolean","unclassified","as_bool","get"
+"_Boolean","unclassified","format","controller"
+"_Boolean","unclassified","format","controller"
+"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::CoreClrFuncInvokeContext","constructor"
+"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::~CoreClrFuncInvokeContext","destructor"
+"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::InitializeAsyncOperation","set"
+"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::TaskComplete","wrapper stateless"
+"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::TaskCompleteSynchronous","command collaborator"
+"CoreClrFuncInvokeContext","boundary","CoreClrFuncInvokeContext::InvokeCallback","controller stateless"
+"_Null","boundary degenerate","_copy_value","wrapper stateless"
+"_Null","boundary degenerate","type","collaborator incidental"
+"_Null","boundary degenerate","_copy_value","wrapper stateless"
+"_Null","boundary degenerate","type","collaborator incidental"
+"fx_muxer_t","boundary","fx_muxer_t::resolve_hostpolicy_dir","collaborator incidental"
+"fx_muxer_t","boundary","fx_muxer_t::resolve_fx_dir","controller stateless"
+"fx_muxer_t","boundary","fx_muxer_t::resolve_cli_version","controller stateless"
+"fx_muxer_t","boundary","fx_muxer_t::resolve_sdk_dotnet_path","predicate non-void-command collaborator"
+"fx_muxer_t","boundary","fx_muxer_t::parse_args_and_execute","property non-void-command"
+"fx_muxer_t","boundary","fx_muxer_t::read_config_and_execute","property non-void-command collaborator"
+"fx_muxer_t","boundary","fx_muxer_t::execute","property non-void-command collaborator"
+"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::Initialize","property non-void-command collaborator"
+"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::GetClrFuncReflectionWrapFunc","property non-void-command collaborator"
+"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::CallClrFunc","wrapper stateless"
+"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::ContinueTask","wrapper stateless"
+"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::FreeHandle","wrapper stateless"
+"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::FreeMarshalData","wrapper stateless"
+"CoreClrEmbedding","entity boundary degenerate","CoreClrEmbedding::CompileFunc","property non-void-command collaborator"
+"windows_category_impl","degenerate","name","incidental"
+"windows_category_impl","degenerate","name","incidental"
+"windows_category_impl","degenerate","windows_category_impl::message","controller stateless"
+"windows_category_impl","degenerate","windows_category_impl::default_error_condition","property collaborator"
+"CoreClrNodejsFunc","degenerate small-class","CoreClrNodejsFunc::CoreClrNodejsFunc","constructor"
+"CoreClrNodejsFunc","degenerate small-class","CoreClrNodejsFunc::~CoreClrNodejsFunc","destructor"
+"CoreClrNodejsFunc","degenerate small-class","CoreClrNodejsFunc::Release","wrapper stateless"
+"CoreClrNodejsFunc","degenerate small-class","CoreClrNodejsFunc::Call","controller stateless"
+"number","data-provider","number","constructor"
+"number","data-provider","number","constructor"
+"number","data-provider","number","constructor"
+"number","data-provider","number","constructor"
+"number","data-provider","number","constructor"
+"number","data-provider","is_uint64","predicate"
+"number","data-provider","to_double","get property"
+"number","data-provider","to_int32","property"
+"number","data-provider","to_uint32","property"
+"number","data-provider","to_int64","property"
+"number","data-provider","to_uint64","property"
+"number","data-provider","is_integral","incidental"
+"number","data-provider","operator==","predicate wrapper"
+"number","data-provider","number","constructor"
+"number","data-provider","number","constructor"
+"number","data-provider","number","constructor"
+"number","data-provider","number","constructor"
+"number","data-provider","number","constructor"
+"number","data-provider","is_uint64","predicate"
+"number","data-provider","to_double","get property"
+"number","data-provider","to_int32","property"
+"number","data-provider","to_uint32","property"
+"number","data-provider","to_int64","property"
+"number","data-provider","to_uint64","property"
+"number","data-provider","is_integral","incidental"
+"number","data-provider","operator==","predicate wrapper"
+"number","data-provider","web::json::number::is_int32","predicate wrapper"
+"number","data-provider","web::json::number::is_uint32","predicate wrapper"
+"number","data-provider","web::json::number::is_int64","predicate wrapper"
+"CoreClrFunc","boundary","CoreClrFunc::CoreClrFunc","constructor"
+"CoreClrFunc","boundary","CoreClrFunc::InitializeInstance","controller stateless"
+"CoreClrFunc","boundary","CoreClrFunc::Call","property non-void-command collaborator"
+"CoreClrFunc","boundary","CoreClrFunc::FreeMarshalData","incidental"
+"CoreClrFunc","boundary","CoreClrFunc::CopyV8StringBytes","wrapper stateless"
+"CoreClrFunc","boundary","CoreClrFunc::MarshalV8ExceptionToCLR","void-accessor command collaborator"
+"CoreClrFunc","boundary","CoreClrFunc::MarshalV8ToCLR","void-accessor command collaborator"
+"CoreClrFunc","boundary","CoreClrFunc::MarshalCLRToV8","property non-void-command collaborator"
+"corehost_init_t","entity data-provider boundary","corehost_init_t","constructor"
+"corehost_init_t","entity data-provider boundary","fx_dir","get collaborator"
+"corehost_init_t","entity data-provider boundary","fx_name","get collaborator"
+"corehost_init_t","entity data-provider boundary","fx_version","get collaborator"
+"corehost_init_t","entity data-provider boundary","get_host_init_data","property non-void-command collaborator"
+"_Object","data-provider boundary","_Object","constructor"
+"_Object","data-provider boundary","_Object","constructor"
+"_Object","data-provider boundary","_copy_value","property wrapper"
+"_Object","data-provider boundary","as_object","get collaborator"
+"_Object","data-provider boundary","as_object","get collaborator"
+"_Object","data-provider boundary","type","collaborator incidental"
+"_Object","data-provider boundary","is_equal","predicate"
+"_Object","data-provider boundary","serialize_impl","unclassified"
+"_Object","data-provider boundary","serialize_impl","collaborator"
+"_Object","data-provider boundary","size","property"
+"_Object","data-provider boundary","format","collaborator"
+"_Object","data-provider boundary","format","collaborator"
+"_Object","data-provider boundary","format_impl","collaborator"
+"_Object","data-provider boundary","get_reserve_size","property"
+"_Object","data-provider boundary","_Object","constructor"
+"_Object","data-provider boundary","_Object","constructor"
+"_Object","data-provider boundary","_copy_value","property wrapper"
+"_Object","data-provider boundary","as_object","get collaborator"
+"_Object","data-provider boundary","as_object","get collaborator"
+"_Object","data-provider boundary","type","collaborator incidental"
+"_Object","data-provider boundary","is_equal","predicate"
+"_Object","data-provider boundary","serialize_impl","unclassified"
+"_Object","data-provider boundary","serialize_impl","collaborator"
+"_Object","data-provider boundary","size","property"
+"_Object","data-provider boundary","format","collaborator"
+"_Object","data-provider boundary","format","collaborator"
+"_Object","data-provider boundary","format_impl","collaborator"
+"_Object","data-provider boundary","get_reserve_size","property"
+"_Object","data-provider boundary","web::json::details::_Object::index","get collaborator"
+"_Object","data-provider boundary","web::json::details::_Object::has_field","predicate collaborator"
+"EdgeAssemblyResolver","pure-controller degenerate small-class","EdgeAssemblyResolver","constructor"
+"EdgeAssemblyResolver","pure-controller degenerate small-class","LoadDependencyManifest","controller stateless"
+"datetime","data-provider","datetime","constructor"
+"datetime","data-provider","to_interval","get collaborator"
+"datetime","data-provider","operator-","property collaborator"
+"datetime","data-provider","operator+","property collaborator"
+"datetime","data-provider","operator==","predicate"
+"datetime","data-provider","operator!=","predicate"
+"datetime","data-provider","is_initialized","predicate"
+"datetime","data-provider","datetime","constructor"
+"datetime","data-provider","datetime","constructor"
+"datetime","data-provider","to_interval","get collaborator"
+"datetime","data-provider","operator-","property collaborator"
+"datetime","data-provider","operator+","property collaborator"
+"datetime","data-provider","operator==","predicate"
+"datetime","data-provider","operator!=","predicate"
+"datetime","data-provider","is_initialized","predicate"
+"datetime","data-provider","datetime","constructor"
+"fx_ver_t","data-provider","get_major","get"
+"fx_ver_t","data-provider","get_minor","get"
+"fx_ver_t","data-provider","get_patch","get"
+"fx_ver_t","data-provider","set_major","set"
+"fx_ver_t","data-provider","set_minor","set"
+"fx_ver_t","data-provider","set_patch","set"
+"fx_ver_t","data-provider","is_prerelease","predicate"
+"fx_ver_t","data-provider","fx_ver_t::fx_ver_t","constructor"
+"fx_ver_t","data-provider","fx_ver_t::fx_ver_t","constructor"
+"fx_ver_t","data-provider","fx_ver_t::fx_ver_t","constructor"
+"fx_ver_t","data-provider","fx_ver_t::operator==","predicate"
+"fx_ver_t","data-provider","fx_ver_t::operator!=","predicate"
+"fx_ver_t","data-provider","fx_ver_t::operator<","predicate"
+"fx_ver_t","data-provider","fx_ver_t::operator>","predicate"
+"fx_ver_t","data-provider","fx_ver_t::as_str","property collaborator"
+"fx_ver_t","data-provider","fx_ver_t::prerelease_glob","property controller"
+"fx_ver_t","data-provider","fx_ver_t::patch_glob","property controller"
+"fx_ver_t","data-provider","fx_ver_t::compare","controller stateless"
+"fx_ver_t","data-provider","fx_ver_t::parse","controller stateless"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_copy_value","property wrapper"
+"_Number","data-provider","type","collaborator incidental"
+"_Number","data-provider","is_integer","predicate"
+"_Number","data-provider","is_double","predicate"
+"_Number","data-provider","as_double","property"
+"_Number","data-provider","as_integer","property"
+"_Number","data-provider","as_number","get collaborator"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_Number","constructor"
+"_Number","data-provider","_copy_value","property wrapper"
+"_Number","data-provider","type","collaborator incidental"
+"_Number","data-provider","is_integer","predicate"
+"_Number","data-provider","is_double","predicate"
+"_Number","data-provider","as_double","property"
+"_Number","data-provider","as_integer","property"
+"_Number","data-provider","as_number","get collaborator"
+"_Number","data-provider","web::json::details::_Number::format","controller"
+"_Number","data-provider","web::json::details::_Number::format","controller"
+"JSON_StreamParser","entity boundary small-class","JSON_StreamParser","constructor"
+"JSON_StreamParser","entity boundary small-class","JSON_StreamParser<CharType>::NextCharacter","property non-void-command collaborator"
+"JSON_StreamParser","entity boundary small-class","JSON_StreamParser<CharType>::PeekCharacter","property non-void-command collaborator"

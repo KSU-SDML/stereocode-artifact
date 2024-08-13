@@ -1,299 +1,299 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"AlertWindow","commander","AlertWindow","constructor",
-"AlertWindow","commander","create","command",
-"AlertWindow","commander","setContentView","wrapper",
-"AlertWindow","commander","setContentView","set collaborator",
-"AlertWindow","commander","isShowing","get",
-"AlertWindow","commander","show","set",
-"AlertWindow","commander","dismiss","set",
-"NotifyListenerService","degenerate small-class","onNotificationPosted","empty",
-"NotifyListenerService","degenerate small-class","onNotificationRemoved","empty",
-"WriteSettingRationale","pure-controller degenerate small-class","showRationale","controller stateless",
-"LauncherView","commander boundary small-class","LauncherView","constructor",
-"LauncherView","commander boundary small-class","LauncherView","constructor",
-"LauncherView","commander boundary small-class","LauncherView","constructor",
-"LauncherView","commander boundary small-class","onClick","command collaborator",
-"LauncherView","commander boundary small-class","setCancelClickListener","set collaborator",
-"OverlayRationale","pure-controller degenerate small-class","showRationale","controller stateless",
-"NotifyRationale","pure-controller degenerate small-class","showRationale","controller stateless",
-"NotifyListenerRationale","pure-controller degenerate small-class","showRationale","controller stateless",
-"InstallRationale","pure-controller degenerate small-class","showRationale","controller stateless",
-"App","small-class","onCreate","set",
-"App","small-class","showLauncherView","controller",
-"TaskExecutor<T>","commander boundary","TaskExecutor","constructor",
-"TaskExecutor<T>","commander boundary","onPreExecute","command",
-"TaskExecutor<T>","commander boundary","onPostExecute","command collaborator",
-"TaskExecutor<T>","commander boundary","execute","wrapper",
-"XFragmentSource","unclassified","XFragmentSource","constructor",
-"XFragmentSource","unclassified","getContext","property non-void-command collaborator",
-"XFragmentSource","unclassified","startActivity","command collaborator",
-"XFragmentSource","unclassified","startActivityForResult","command",
-"XFragmentSource","unclassified","isShowRationalePermission","predicate non-void-command",
-"Source","unclassified","getTargetSdkVersion","get set",
-"Source","unclassified","getPackageName","get set",
-"Source","unclassified","getPackageManager","get set collaborator",
-"Source","unclassified","getAppOpsManager","get set collaborator",
-"Source","unclassified","getNotificationManager","get set collaborator",
-"Source","unclassified","canRequestPackageInstalls","predicate non-void-command",
-"Source","unclassified","canDrawOverlays","predicate non-void-command collaborator",
-"Source","unclassified","canNotify","predicate non-void-command",
-"Source","unclassified","canListenerNotification","predicate non-void-command",
-"Source","unclassified","canWriteSetting","predicate non-void-command collaborator",
-"Source","unclassified","reflectionOps","predicate non-void-command",
-"MWriteRequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"WrapperSource","unclassified","WrapperSource","constructor",
-"WrapperSource","unclassified","getContext","property non-void-command collaborator",
-"WrapperSource","unclassified","startActivity","command collaborator",
-"WrapperSource","unclassified","startActivityForResult","command",
-"WrapperSource","unclassified","isShowRationalePermission","predicate non-void-command",
-"MWriteRequest","commander","MWriteRequest","constructor",
-"MWriteRequest","commander","start","command",
-"MWriteRequest","commander","execute","controller",
-"MWriteRequest","commander","cancel","command",
-"MWriteRequest","commander","onCallback","command",
-"LWriteRequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"LWriteRequest","commander small-class","LWriteRequest","constructor",
-"LWriteRequest","commander small-class","start","command",
-"Setting","entity boundary small-class","Setting","constructor",
-"Setting","entity boundary small-class","write","property non-void-command collaborator",
-"RuntimeRationale","pure-controller degenerate small-class","showRationale","controller stateless",
-"SettingPage","commander boundary small-class","SettingPage","constructor",
-"SettingPage","commander boundary small-class","start","command collaborator",
-"SensorHeartTest","entity boundary small-class","SensorHeartTest","constructor",
-"SensorHeartTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"Notify","entity boundary small-class","Notify","constructor",
-"Notify","entity boundary small-class","permission","property non-void-command collaborator",
-"Notify","entity boundary small-class","listener","property non-void-command collaborator",
-"RecordAudioTest","small-class","RecordAudioTest","constructor",
-"RecordAudioTest","small-class","test","predicate non-void-command",
-"CalendarReadTest","entity boundary small-class","CalendarReadTest","constructor",
-"CalendarReadTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"PhoneStateReadTest","entity boundary small-class","PhoneStateReadTest","constructor",
-"PhoneStateReadTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"DoubleChecker","small-class","hasPermission","predicate non-void-command",
-"DoubleChecker","small-class","hasPermission","predicate non-void-command",
-"MainActivity","commander boundary","onCreate","command collaborator",
-"MainActivity","commander boundary","onClick","command collaborator",
-"MainActivity","commander boundary","requestPermission","command",
-"MainActivity","commander boundary","showSettingDialog","command",
-"MainActivity","commander boundary","setPermission","wrapper",
-"MainActivity","commander boundary","onActivityResult","command collaborator",
-"MainActivity","commander boundary","requestNotification","command",
-"MainActivity","commander boundary","requestNotificationListener","command",
-"MainActivity","commander boundary","requestPermissionForInstallPackage","command",
-"MainActivity","commander boundary","writeApkForInstallPackage","command collaborator",
-"MainActivity","commander boundary","installPackage","wrapper",
-"MainActivity","commander boundary","requestPermissionForAlertWindow","command",
-"MainActivity","commander boundary","requestWriteSystemSetting","command",
-"MainActivity","commander boundary","showAlertWindow","controller stateless",
-"MainActivity","commander boundary","createMenu","factory controller",
-"MainActivity","commander boundary","toast","wrapper",
-"ContactsReadTest","entity boundary small-class","ContactsReadTest","constructor",
-"ContactsReadTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"ContactsWriteTest","unclassified","ContactsWriteTest","constructor",
-"ContactsWriteTest","unclassified","test","predicate non-void-command",
-"ContactsWriteTest","unclassified","insert","property non-void-command",
-"ContactsWriteTest","unclassified","delete","predicate non-void-command",
-"ContactsWriteTest","unclassified","update","predicate non-void-command collaborator",
-"ContactsWriteTest","unclassified","query","property non-void-command",
-"WaitDialog","empty","WaitDialog","constructor",
-"CallLogReadTest","entity boundary small-class","CallLogReadTest","constructor",
-"CallLogReadTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"LocationCoarseTest","small-class","LocationCoarseTest","constructor",
-"LocationCoarseTest","small-class","test","predicate non-void-command",
-"BridgeService","entity boundary small-class","onBind","property non-void-command collaborator",
-"SensorActivityTest","entity boundary small-class","SensorActivityTest","constructor",
-"SensorActivityTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"AndPermission","empty","AndPermission","constructor",
-"ContextSource","entity boundary","ContextSource","constructor",
-"ContextSource","entity boundary","getContext","get collaborator",
-"ContextSource","entity boundary","startActivity","command collaborator",
-"ContextSource","entity boundary","startActivityForResult","stateless",
-"ContextSource","entity boundary","isShowRationalePermission","predicate non-void-command collaborator",
-"SipTest","controller small-class","SipTest","constructor",
-"SipTest","controller small-class","test","predicate controller",
-"MRequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"MRequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"Boot","entity","Boot","constructor",
-"Boot","entity","runtime","property factory collaborator",
-"Boot","entity","install","property non-void-command collaborator",
-"Boot","entity","overlay","property non-void-command collaborator",
-"Boot","entity","notification","property factory collaborator",
-"Boot","entity","setting","property factory collaborator",
-"CallLogWriteTest","entity boundary small-class","CallLogWriteTest","constructor",
-"CallLogWriteTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"BridgeRequest","data-class","BridgeRequest","constructor",
-"BridgeRequest","data-class","getSource","get collaborator",
-"BridgeRequest","data-class","getType","get",
-"BridgeRequest","data-class","setType","set",
-"BridgeRequest","data-class","getCallback","get collaborator",
-"BridgeRequest","data-class","setCallback","set collaborator",
-"BridgeRequest","data-class","getPermissions","get",
-"BridgeRequest","data-class","setPermissions","set",
-"Runtime","entity boundary","Runtime","constructor",
-"Runtime","entity boundary","permission","property non-void-command collaborator",
-"Runtime","entity boundary","permission","property non-void-command collaborator",
-"Runtime","entity boundary","setting","property factory collaborator",
-"Runtime","entity boundary","checkPermissions","command",
-"LocationFineTest","small-class","LocationFineTest","constructor",
-"LocationFineTest","small-class","test","predicate non-void-command",
-"FileProvider","entity boundary","onCreate","incidental",
-"FileProvider","entity boundary","attachInfo","void-accessor set collaborator",
-"FileProvider","entity boundary","query","non-void-command factory collaborator",
-"FileProvider","entity boundary","getType","property non-void-command collaborator",
-"FileProvider","entity boundary","insert","collaborator stateless",
-"FileProvider","entity boundary","update","stateless",
-"FileProvider","entity boundary","delete","property non-void-command collaborator",
-"FileProvider","entity boundary","openFile","property non-void-command collaborator",
-"SmsReadTest","entity boundary small-class","SmsReadTest","constructor",
-"SmsReadTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"RequestExecutor","commander boundary","RequestExecutor","constructor",
-"RequestExecutor","commander boundary","run","command collaborator",
-"RequestExecutor","commander boundary","executeCurrent","command collaborator",
-"RequestExecutor","commander boundary","onCallback","command",
-"CameraTest","entity boundary small-class","CameraTest","constructor",
-"CameraTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"J2RequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"BridgeActivity","entity commander boundary","onCreate","command collaborator",
-"BridgeActivity","entity commander boundary","onRequestPermissionsResult","wrapper",
-"BridgeActivity","entity commander boundary","startActivityForResult","command",
-"BridgeActivity","entity commander boundary","onActivityResult","command collaborator",
-"BridgeActivity","entity commander boundary","onKeyDown","predicate non-void-command collaborator",
-"Messenger","commander boundary","Messenger","constructor",
-"Messenger","commander boundary","register","command collaborator",
-"Messenger","commander boundary","unRegister","command",
-"Messenger","commander boundary","onReceive","command collaborator",
-"StorageWriteTest","entity boundary small-class","StorageWriteTest","constructor",
-"StorageWriteTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"ActivitySource","unclassified","ActivitySource","constructor",
-"ActivitySource","unclassified","getContext","get collaborator",
-"ActivitySource","unclassified","startActivity","command collaborator",
-"ActivitySource","unclassified","startActivityForResult","command",
-"ActivitySource","unclassified","isShowRationalePermission","predicate non-void-command",
-"RequestManager","commander boundary small-class","RequestManager","constructor",
-"RequestManager","commander boundary small-class","add","command collaborator",
-"FragmentSource","unclassified","FragmentSource","constructor",
-"FragmentSource","unclassified","getContext","property non-void-command collaborator",
-"FragmentSource","unclassified","startActivity","command collaborator",
-"FragmentSource","unclassified","startActivityForResult","command",
-"FragmentSource","unclassified","isShowRationalePermission","predicate non-void-command",
-"StandardChecker","small-class","StandardChecker","constructor",
-"StandardChecker","small-class","hasPermission","predicate non-void-command",
-"StandardChecker","small-class","hasPermission","predicate controller",
-"StorageReadTest","pure-controller degenerate small-class","StorageReadTest","constructor",
-"StorageReadTest","pure-controller degenerate small-class","test","controller stateless",
-"StrictChecker","unclassified","StrictChecker","constructor",
-"StrictChecker","unclassified","hasPermission","predicate non-void-command",
-"StrictChecker","unclassified","hasPermission","predicate non-void-command",
-"StrictChecker","unclassified","hasPermission","wrapper stateless",
-"LRequest","commander","LRequest","constructor",
-"LRequest","commander","start","command",
-"LRequest","commander","execute","controller",
-"LRequest","commander","cancel","command",
-"LRequest","commander","onCallback","command",
-"LRequest","commander","LRequest","constructor",
-"LRequest","commander","permission","get set collaborator",
-"LRequest","commander","permission","get set collaborator",
-"LRequest","commander","start","command",
-"BaseRequest","boundary data-class","BaseRequest","constructor",
-"BaseRequest","boundary data-class","file","get set collaborator",
-"BaseRequest","boundary data-class","rationale","get set collaborator",
-"BaseRequest","boundary data-class","onGranted","get set collaborator",
-"BaseRequest","boundary data-class","onDenied","get set collaborator",
-"BaseRequest","boundary data-class","showRationale","command collaborator",
-"BaseRequest","boundary data-class","install","command collaborator",
-"BaseRequest","boundary data-class","callbackSucceed","command",
-"BaseRequest","boundary data-class","callbackFailed","command",
-"BaseRequest","boundary data-class","BaseRequest","constructor",
-"BaseRequest","boundary data-class","rationale","get set collaborator",
-"BaseRequest","boundary data-class","onGranted","get set collaborator",
-"BaseRequest","boundary data-class","onDenied","get set collaborator",
-"BaseRequest","boundary data-class","showRationale","command collaborator",
-"BaseRequest","boundary data-class","callbackSucceed","command",
-"BaseRequest","boundary data-class","callbackFailed","command",
-"BaseRequest","boundary data-class","BaseRequest","constructor",
-"BaseRequest","boundary data-class","rationale","get set collaborator",
-"BaseRequest","boundary data-class","onGranted","get set collaborator",
-"BaseRequest","boundary data-class","onDenied","get set collaborator",
-"BaseRequest","boundary data-class","showRationale","command collaborator",
-"BaseRequest","boundary data-class","callbackSucceed","command",
-"BaseRequest","boundary data-class","callbackFailed","command",
-"BaseRequest","boundary data-class","BaseRequest","constructor",
-"BaseRequest","boundary data-class","rationale","get set collaborator",
-"BaseRequest","boundary data-class","onGranted","get set collaborator",
-"BaseRequest","boundary data-class","onDenied","get set collaborator",
-"BaseRequest","boundary data-class","showRationale","command collaborator",
-"BaseRequest","boundary data-class","callbackSucceed","command",
-"BaseRequest","boundary data-class","callbackFailed","command",
-"BaseRequest","boundary data-class","BaseRequest","constructor",
-"BaseRequest","boundary data-class","rationale","get set collaborator",
-"BaseRequest","boundary data-class","onGranted","get set collaborator",
-"BaseRequest","boundary data-class","onDenied","get set collaborator",
-"BaseRequest","boundary data-class","showRationale","command collaborator",
-"BaseRequest","boundary data-class","callbackSucceed","command",
-"BaseRequest","boundary data-class","callbackFailed","command",
-"BaseRequest","boundary data-class","BaseRequest","constructor",
-"BaseRequest","boundary data-class","rationale","get set collaborator",
-"BaseRequest","boundary data-class","onGranted","get set collaborator",
-"BaseRequest","boundary data-class","onDenied","get set collaborator",
-"BaseRequest","boundary data-class","showRationale","command collaborator",
-"BaseRequest","boundary data-class","callbackSucceed","command",
-"BaseRequest","boundary data-class","callbackFailed","command",
-"NRequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"NRequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"ORequest","commander","ORequest","constructor",
-"ORequest","commander","start","command",
-"ORequest","commander","execute","controller",
-"ORequest","commander","cancel","command",
-"ORequest","commander","onCallback","command",
-"ORequest","commander","ORequest","constructor",
-"ORequest","commander","start","command",
-"ORequest","commander","execute","controller",
-"ORequest","commander","cancel","command",
-"ORequest","commander","onCallback","command",
-"J1Request","commander degenerate","J1Request","constructor",
-"J1Request","commander degenerate","start","command",
-"J1Request","commander degenerate","execute","empty",
-"J1Request","commander degenerate","cancel","empty",
-"J1RequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"J2Request","commander","J2Request","constructor",
-"J2Request","commander","start","command",
-"J2Request","commander","execute","controller",
-"J2Request","commander","cancel","command",
-"J2Request","commander","onCallback","command",
-"CalendarWriteTest","entity boundary small-class","CalendarWriteTest","constructor",
-"CalendarWriteTest","entity boundary small-class","test","predicate non-void-command collaborator",
-"AllRequest","pure-controller small-class","AllRequest","constructor",
-"AllRequest","pure-controller small-class","start","controller",
-"NRequest","commander","NRequest","constructor",
-"NRequest","commander","start","command",
-"NRequest","commander","NRequest","constructor",
-"NRequest","commander","start","command",
-"NRequest","commander","execute","controller",
-"NRequest","commander","cancel","command",
-"NRequest","commander","onCallback","command",
-"LRequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"LRequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"MRequest","commander","MRequest","constructor",
-"MRequest","commander","start","command",
-"MRequest","commander","execute","controller",
-"MRequest","commander","cancel","command",
-"MRequest","commander","onCallback","command",
-"MRequest","commander","MRequest","constructor",
-"MRequest","commander","permission","get set collaborator",
-"MRequest","commander","permission","get set collaborator",
-"MRequest","commander","start","command",
-"MRequest","commander","execute","controller",
-"MRequest","commander","cancel","command",
-"MRequest","commander","onCallback","command",
-"ORequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"ORequestFactory","factory degenerate small-class","create","factory collaborator stateless",
-"LSettingPage","factory controller degenerate","LSettingPage","constructor",
-"LSettingPage","factory controller degenerate","start","command collaborator",
-"LSettingPage","factory controller degenerate","huaweiApi","factory controller stateless",
-"LSettingPage","factory controller degenerate","xiaomiApi","factory controller stateless",
-"LSettingPage","factory controller degenerate","oppoApi","factory controller stateless",
-"LSettingPage","factory controller degenerate","vivoApi","factory controller stateless",
-"LSettingPage","factory controller degenerate","meizuApi","factory controller stateless",
-"MSettingPage","commander boundary small-class","MSettingPage","constructor",
-"MSettingPage","commander boundary small-class","start","command collaborator",
+"AlertWindow","commander","AlertWindow","constructor"
+"AlertWindow","commander","create","command"
+"AlertWindow","commander","setContentView","wrapper"
+"AlertWindow","commander","setContentView","set collaborator"
+"AlertWindow","commander","isShowing","get"
+"AlertWindow","commander","show","set"
+"AlertWindow","commander","dismiss","set"
+"NotifyListenerService","degenerate small-class","onNotificationPosted","empty"
+"NotifyListenerService","degenerate small-class","onNotificationRemoved","empty"
+"WriteSettingRationale","pure-controller degenerate small-class","showRationale","controller stateless"
+"LauncherView","commander boundary small-class","LauncherView","constructor"
+"LauncherView","commander boundary small-class","LauncherView","constructor"
+"LauncherView","commander boundary small-class","LauncherView","constructor"
+"LauncherView","commander boundary small-class","onClick","command collaborator"
+"LauncherView","commander boundary small-class","setCancelClickListener","set collaborator"
+"OverlayRationale","pure-controller degenerate small-class","showRationale","controller stateless"
+"NotifyRationale","pure-controller degenerate small-class","showRationale","controller stateless"
+"NotifyListenerRationale","pure-controller degenerate small-class","showRationale","controller stateless"
+"InstallRationale","pure-controller degenerate small-class","showRationale","controller stateless"
+"App","small-class","onCreate","set"
+"App","small-class","showLauncherView","controller"
+"TaskExecutor<T>","commander boundary","TaskExecutor","constructor"
+"TaskExecutor<T>","commander boundary","onPreExecute","command"
+"TaskExecutor<T>","commander boundary","onPostExecute","command collaborator"
+"TaskExecutor<T>","commander boundary","execute","wrapper"
+"XFragmentSource","unclassified","XFragmentSource","constructor"
+"XFragmentSource","unclassified","getContext","property non-void-command collaborator"
+"XFragmentSource","unclassified","startActivity","command collaborator"
+"XFragmentSource","unclassified","startActivityForResult","command"
+"XFragmentSource","unclassified","isShowRationalePermission","predicate non-void-command"
+"Source","unclassified","getTargetSdkVersion","get set"
+"Source","unclassified","getPackageName","get set"
+"Source","unclassified","getPackageManager","get set collaborator"
+"Source","unclassified","getAppOpsManager","get set collaborator"
+"Source","unclassified","getNotificationManager","get set collaborator"
+"Source","unclassified","canRequestPackageInstalls","predicate non-void-command"
+"Source","unclassified","canDrawOverlays","predicate non-void-command collaborator"
+"Source","unclassified","canNotify","predicate non-void-command"
+"Source","unclassified","canListenerNotification","predicate non-void-command"
+"Source","unclassified","canWriteSetting","predicate non-void-command collaborator"
+"Source","unclassified","reflectionOps","predicate non-void-command"
+"MWriteRequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"WrapperSource","unclassified","WrapperSource","constructor"
+"WrapperSource","unclassified","getContext","property non-void-command collaborator"
+"WrapperSource","unclassified","startActivity","command collaborator"
+"WrapperSource","unclassified","startActivityForResult","command"
+"WrapperSource","unclassified","isShowRationalePermission","predicate non-void-command"
+"MWriteRequest","commander","MWriteRequest","constructor"
+"MWriteRequest","commander","start","command"
+"MWriteRequest","commander","execute","controller"
+"MWriteRequest","commander","cancel","command"
+"MWriteRequest","commander","onCallback","command"
+"LWriteRequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"LWriteRequest","commander small-class","LWriteRequest","constructor"
+"LWriteRequest","commander small-class","start","command"
+"Setting","entity boundary small-class","Setting","constructor"
+"Setting","entity boundary small-class","write","property non-void-command collaborator"
+"RuntimeRationale","pure-controller degenerate small-class","showRationale","controller stateless"
+"SettingPage","commander boundary small-class","SettingPage","constructor"
+"SettingPage","commander boundary small-class","start","command collaborator"
+"SensorHeartTest","entity boundary small-class","SensorHeartTest","constructor"
+"SensorHeartTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"Notify","entity boundary small-class","Notify","constructor"
+"Notify","entity boundary small-class","permission","property non-void-command collaborator"
+"Notify","entity boundary small-class","listener","property non-void-command collaborator"
+"RecordAudioTest","small-class","RecordAudioTest","constructor"
+"RecordAudioTest","small-class","test","predicate non-void-command"
+"CalendarReadTest","entity boundary small-class","CalendarReadTest","constructor"
+"CalendarReadTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"PhoneStateReadTest","entity boundary small-class","PhoneStateReadTest","constructor"
+"PhoneStateReadTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"DoubleChecker","small-class","hasPermission","predicate non-void-command"
+"DoubleChecker","small-class","hasPermission","predicate non-void-command"
+"MainActivity","commander boundary","onCreate","command collaborator"
+"MainActivity","commander boundary","onClick","command collaborator"
+"MainActivity","commander boundary","requestPermission","command"
+"MainActivity","commander boundary","showSettingDialog","command"
+"MainActivity","commander boundary","setPermission","wrapper"
+"MainActivity","commander boundary","onActivityResult","command collaborator"
+"MainActivity","commander boundary","requestNotification","command"
+"MainActivity","commander boundary","requestNotificationListener","command"
+"MainActivity","commander boundary","requestPermissionForInstallPackage","command"
+"MainActivity","commander boundary","writeApkForInstallPackage","command collaborator"
+"MainActivity","commander boundary","installPackage","wrapper"
+"MainActivity","commander boundary","requestPermissionForAlertWindow","command"
+"MainActivity","commander boundary","requestWriteSystemSetting","command"
+"MainActivity","commander boundary","showAlertWindow","controller stateless"
+"MainActivity","commander boundary","createMenu","factory controller"
+"MainActivity","commander boundary","toast","wrapper"
+"ContactsReadTest","entity boundary small-class","ContactsReadTest","constructor"
+"ContactsReadTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"ContactsWriteTest","unclassified","ContactsWriteTest","constructor"
+"ContactsWriteTest","unclassified","test","predicate non-void-command"
+"ContactsWriteTest","unclassified","insert","property non-void-command"
+"ContactsWriteTest","unclassified","delete","predicate non-void-command"
+"ContactsWriteTest","unclassified","update","predicate non-void-command collaborator"
+"ContactsWriteTest","unclassified","query","property non-void-command"
+"WaitDialog","empty","WaitDialog","constructor"
+"CallLogReadTest","entity boundary small-class","CallLogReadTest","constructor"
+"CallLogReadTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"LocationCoarseTest","small-class","LocationCoarseTest","constructor"
+"LocationCoarseTest","small-class","test","predicate non-void-command"
+"BridgeService","entity boundary small-class","onBind","property non-void-command collaborator"
+"SensorActivityTest","entity boundary small-class","SensorActivityTest","constructor"
+"SensorActivityTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"AndPermission","empty","AndPermission","constructor"
+"ContextSource","entity boundary","ContextSource","constructor"
+"ContextSource","entity boundary","getContext","get collaborator"
+"ContextSource","entity boundary","startActivity","command collaborator"
+"ContextSource","entity boundary","startActivityForResult","stateless"
+"ContextSource","entity boundary","isShowRationalePermission","predicate non-void-command collaborator"
+"SipTest","controller small-class","SipTest","constructor"
+"SipTest","controller small-class","test","predicate controller"
+"MRequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"MRequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"Boot","entity","Boot","constructor"
+"Boot","entity","runtime","property factory collaborator"
+"Boot","entity","install","property non-void-command collaborator"
+"Boot","entity","overlay","property non-void-command collaborator"
+"Boot","entity","notification","property factory collaborator"
+"Boot","entity","setting","property factory collaborator"
+"CallLogWriteTest","entity boundary small-class","CallLogWriteTest","constructor"
+"CallLogWriteTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"BridgeRequest","data-class","BridgeRequest","constructor"
+"BridgeRequest","data-class","getSource","get collaborator"
+"BridgeRequest","data-class","getType","get"
+"BridgeRequest","data-class","setType","set"
+"BridgeRequest","data-class","getCallback","get collaborator"
+"BridgeRequest","data-class","setCallback","set collaborator"
+"BridgeRequest","data-class","getPermissions","get"
+"BridgeRequest","data-class","setPermissions","set"
+"Runtime","entity boundary","Runtime","constructor"
+"Runtime","entity boundary","permission","property non-void-command collaborator"
+"Runtime","entity boundary","permission","property non-void-command collaborator"
+"Runtime","entity boundary","setting","property factory collaborator"
+"Runtime","entity boundary","checkPermissions","command"
+"LocationFineTest","small-class","LocationFineTest","constructor"
+"LocationFineTest","small-class","test","predicate non-void-command"
+"FileProvider","entity boundary","onCreate","incidental"
+"FileProvider","entity boundary","attachInfo","set collaborator"
+"FileProvider","entity boundary","query","non-void-command factory collaborator"
+"FileProvider","entity boundary","getType","property non-void-command collaborator"
+"FileProvider","entity boundary","insert","collaborator stateless"
+"FileProvider","entity boundary","update","stateless"
+"FileProvider","entity boundary","delete","property non-void-command collaborator"
+"FileProvider","entity boundary","openFile","property non-void-command collaborator"
+"SmsReadTest","entity boundary small-class","SmsReadTest","constructor"
+"SmsReadTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"RequestExecutor","commander boundary","RequestExecutor","constructor"
+"RequestExecutor","commander boundary","run","command collaborator"
+"RequestExecutor","commander boundary","executeCurrent","command collaborator"
+"RequestExecutor","commander boundary","onCallback","command"
+"CameraTest","entity boundary small-class","CameraTest","constructor"
+"CameraTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"J2RequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"BridgeActivity","entity commander boundary","onCreate","command collaborator"
+"BridgeActivity","entity commander boundary","onRequestPermissionsResult","wrapper"
+"BridgeActivity","entity commander boundary","startActivityForResult","command"
+"BridgeActivity","entity commander boundary","onActivityResult","command collaborator"
+"BridgeActivity","entity commander boundary","onKeyDown","predicate non-void-command collaborator"
+"Messenger","commander boundary","Messenger","constructor"
+"Messenger","commander boundary","register","command collaborator"
+"Messenger","commander boundary","unRegister","command"
+"Messenger","commander boundary","onReceive","command collaborator"
+"StorageWriteTest","entity boundary small-class","StorageWriteTest","constructor"
+"StorageWriteTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"ActivitySource","unclassified","ActivitySource","constructor"
+"ActivitySource","unclassified","getContext","get collaborator"
+"ActivitySource","unclassified","startActivity","command collaborator"
+"ActivitySource","unclassified","startActivityForResult","command"
+"ActivitySource","unclassified","isShowRationalePermission","predicate non-void-command"
+"RequestManager","commander boundary small-class","RequestManager","constructor"
+"RequestManager","commander boundary small-class","add","command collaborator"
+"FragmentSource","unclassified","FragmentSource","constructor"
+"FragmentSource","unclassified","getContext","property non-void-command collaborator"
+"FragmentSource","unclassified","startActivity","command collaborator"
+"FragmentSource","unclassified","startActivityForResult","command"
+"FragmentSource","unclassified","isShowRationalePermission","predicate non-void-command"
+"StandardChecker","small-class","StandardChecker","constructor"
+"StandardChecker","small-class","hasPermission","predicate non-void-command"
+"StandardChecker","small-class","hasPermission","predicate controller"
+"StorageReadTest","pure-controller degenerate small-class","StorageReadTest","constructor"
+"StorageReadTest","pure-controller degenerate small-class","test","controller stateless"
+"StrictChecker","unclassified","StrictChecker","constructor"
+"StrictChecker","unclassified","hasPermission","predicate non-void-command"
+"StrictChecker","unclassified","hasPermission","predicate non-void-command"
+"StrictChecker","unclassified","hasPermission","wrapper stateless"
+"LRequest","commander","LRequest","constructor"
+"LRequest","commander","start","command"
+"LRequest","commander","execute","controller"
+"LRequest","commander","cancel","command"
+"LRequest","commander","onCallback","command"
+"LRequest","commander","LRequest","constructor"
+"LRequest","commander","permission","get set collaborator"
+"LRequest","commander","permission","get set collaborator"
+"LRequest","commander","start","command"
+"BaseRequest","boundary data-class","BaseRequest","constructor"
+"BaseRequest","boundary data-class","file","get set collaborator"
+"BaseRequest","boundary data-class","rationale","get set collaborator"
+"BaseRequest","boundary data-class","onGranted","get set collaborator"
+"BaseRequest","boundary data-class","onDenied","get set collaborator"
+"BaseRequest","boundary data-class","showRationale","command collaborator"
+"BaseRequest","boundary data-class","install","command collaborator"
+"BaseRequest","boundary data-class","callbackSucceed","command"
+"BaseRequest","boundary data-class","callbackFailed","command"
+"BaseRequest","boundary data-class","BaseRequest","constructor"
+"BaseRequest","boundary data-class","rationale","get set collaborator"
+"BaseRequest","boundary data-class","onGranted","get set collaborator"
+"BaseRequest","boundary data-class","onDenied","get set collaborator"
+"BaseRequest","boundary data-class","showRationale","command collaborator"
+"BaseRequest","boundary data-class","callbackSucceed","command"
+"BaseRequest","boundary data-class","callbackFailed","command"
+"BaseRequest","boundary data-class","BaseRequest","constructor"
+"BaseRequest","boundary data-class","rationale","get set collaborator"
+"BaseRequest","boundary data-class","onGranted","get set collaborator"
+"BaseRequest","boundary data-class","onDenied","get set collaborator"
+"BaseRequest","boundary data-class","showRationale","command collaborator"
+"BaseRequest","boundary data-class","callbackSucceed","command"
+"BaseRequest","boundary data-class","callbackFailed","command"
+"BaseRequest","boundary data-class","BaseRequest","constructor"
+"BaseRequest","boundary data-class","rationale","get set collaborator"
+"BaseRequest","boundary data-class","onGranted","get set collaborator"
+"BaseRequest","boundary data-class","onDenied","get set collaborator"
+"BaseRequest","boundary data-class","showRationale","command collaborator"
+"BaseRequest","boundary data-class","callbackSucceed","command"
+"BaseRequest","boundary data-class","callbackFailed","command"
+"BaseRequest","boundary data-class","BaseRequest","constructor"
+"BaseRequest","boundary data-class","rationale","get set collaborator"
+"BaseRequest","boundary data-class","onGranted","get set collaborator"
+"BaseRequest","boundary data-class","onDenied","get set collaborator"
+"BaseRequest","boundary data-class","showRationale","command collaborator"
+"BaseRequest","boundary data-class","callbackSucceed","command"
+"BaseRequest","boundary data-class","callbackFailed","command"
+"BaseRequest","boundary data-class","BaseRequest","constructor"
+"BaseRequest","boundary data-class","rationale","get set collaborator"
+"BaseRequest","boundary data-class","onGranted","get set collaborator"
+"BaseRequest","boundary data-class","onDenied","get set collaborator"
+"BaseRequest","boundary data-class","showRationale","command collaborator"
+"BaseRequest","boundary data-class","callbackSucceed","command"
+"BaseRequest","boundary data-class","callbackFailed","command"
+"NRequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"NRequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"ORequest","commander","ORequest","constructor"
+"ORequest","commander","start","command"
+"ORequest","commander","execute","controller"
+"ORequest","commander","cancel","command"
+"ORequest","commander","onCallback","command"
+"ORequest","commander","ORequest","constructor"
+"ORequest","commander","start","command"
+"ORequest","commander","execute","controller"
+"ORequest","commander","cancel","command"
+"ORequest","commander","onCallback","command"
+"J1Request","commander degenerate","J1Request","constructor"
+"J1Request","commander degenerate","start","command"
+"J1Request","commander degenerate","execute","empty"
+"J1Request","commander degenerate","cancel","empty"
+"J1RequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"J2Request","commander","J2Request","constructor"
+"J2Request","commander","start","command"
+"J2Request","commander","execute","controller"
+"J2Request","commander","cancel","command"
+"J2Request","commander","onCallback","command"
+"CalendarWriteTest","entity boundary small-class","CalendarWriteTest","constructor"
+"CalendarWriteTest","entity boundary small-class","test","predicate non-void-command collaborator"
+"AllRequest","pure-controller small-class","AllRequest","constructor"
+"AllRequest","pure-controller small-class","start","controller"
+"NRequest","commander","NRequest","constructor"
+"NRequest","commander","start","command"
+"NRequest","commander","NRequest","constructor"
+"NRequest","commander","start","command"
+"NRequest","commander","execute","controller"
+"NRequest","commander","cancel","command"
+"NRequest","commander","onCallback","command"
+"LRequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"LRequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"MRequest","commander","MRequest","constructor"
+"MRequest","commander","start","command"
+"MRequest","commander","execute","controller"
+"MRequest","commander","cancel","command"
+"MRequest","commander","onCallback","command"
+"MRequest","commander","MRequest","constructor"
+"MRequest","commander","permission","get set collaborator"
+"MRequest","commander","permission","get set collaborator"
+"MRequest","commander","start","command"
+"MRequest","commander","execute","controller"
+"MRequest","commander","cancel","command"
+"MRequest","commander","onCallback","command"
+"ORequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"ORequestFactory","factory degenerate small-class","create","factory collaborator stateless"
+"LSettingPage","factory controller degenerate","LSettingPage","constructor"
+"LSettingPage","factory controller degenerate","start","command collaborator"
+"LSettingPage","factory controller degenerate","huaweiApi","factory controller stateless"
+"LSettingPage","factory controller degenerate","xiaomiApi","factory controller stateless"
+"LSettingPage","factory controller degenerate","oppoApi","factory controller stateless"
+"LSettingPage","factory controller degenerate","vivoApi","factory controller stateless"
+"LSettingPage","factory controller degenerate","meizuApi","factory controller stateless"
+"MSettingPage","commander boundary small-class","MSettingPage","constructor"
+"MSettingPage","commander boundary small-class","start","command collaborator"

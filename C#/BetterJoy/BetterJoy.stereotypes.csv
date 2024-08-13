@@ -1,180 +1,167 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"UdpServer","boundary","UdpServer","constructor",
-"UdpServer","boundary","BeginPacket","property wrapper",
-"UdpServer","boundary","FinishPacket","wrapper stateless",
-"UdpServer","boundary","SendPacket","void-accessor command",
-"UdpServer","boundary","ProcessIncoming","void-accessor command collaborator",
-"UdpServer","boundary","ReceiveCallback","command collaborator",
-"UdpServer","boundary","StartReceive","command",
-"UdpServer","boundary","Start","command",
-"UdpServer","boundary","Stop","command",
-"UdpServer","boundary","ReportToBuffer","controller stateless",
-"UdpServer","boundary","NewReportIncoming","void-accessor command collaborator",
-"Resources","data-provider boundary","Resources","constructor",
-"Resources","data-provider boundary","get","get set collaborator",
-"Resources","data-provider boundary","get","get collaborator",
-"Resources","data-provider boundary","set","set collaborator",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"_3rdPartyControllers","commander boundary","Dispose","command",
-"_3rdPartyControllers","commander boundary","InitializeComponent","command collaborator",
-"_3rdPartyControllers","commander boundary","_3rdPartyControllers","constructor",
-"_3rdPartyControllers","commander boundary","_3rdPartyControllers","constructor",
-"_3rdPartyControllers","commander boundary","CopyCustomControllers","wrapper",
-"_3rdPartyControllers","commander boundary","ContainsText","controller stateless",
-"_3rdPartyControllers","commander boundary","RefreshControllerList","command",
-"_3rdPartyControllers","commander boundary","btn_add_Click","command collaborator",
-"_3rdPartyControllers","commander boundary","btn_remove_Click","command collaborator",
-"_3rdPartyControllers","commander boundary","btn_apply_Click","command collaborator",
-"_3rdPartyControllers","commander boundary","btn_applyAndClose_Click","command collaborator",
-"_3rdPartyControllers","commander boundary","_3rdPartyControllers_FormClosing","command collaborator",
-"_3rdPartyControllers","commander boundary","btn_refresh_Click","command collaborator",
-"_3rdPartyControllers","commander boundary","list_allControllers_SelectedValueChanged","command collaborator",
-"_3rdPartyControllers","commander boundary","list_customControllers_SelectedValueChanged","command collaborator",
-"_3rdPartyControllers","commander boundary","list_customControllers_MouseDown","command collaborator",
-"_3rdPartyControllers","commander boundary","list_allControllers_MouseDown","command collaborator",
-"_3rdPartyControllers","commander boundary","chooseType_SelectedValueChanged","collaborator",
-"Config","empty","Config","constructor",
-"OutputControllerDualShock4InputState","data-provider small-class","IsEqual","predicate",
-"Reassign","commander boundary","Dispose","command",
-"Reassign","commander boundary","InitializeComponent","command collaborator",
-"Reassign","commander boundary","Reassign","constructor",
-"Reassign","commander boundary","Menu_joy_buttons_ItemClicked","command collaborator",
-"Reassign","commander boundary","Remap","set collaborator",
-"Reassign","commander boundary","Reassign_Load","command collaborator",
-"Reassign","commander boundary","Mouse_MouseEvent","void-accessor set collaborator",
-"Reassign","commander boundary","Keyboard_KeyEvent","void-accessor set collaborator",
-"Reassign","commander boundary","Reassign_FormClosing","command collaborator",
-"Reassign","commander boundary","AsyncPrettyName","command collaborator",
-"Reassign","commander boundary","GetPrettyName","void-accessor controller",
-"Reassign","commander boundary","btn_apply_Click","wrapper stateless",
-"Reassign","commander boundary","btn_close_Click","command collaborator",
-"OutputControllerXbox360InputState","data-provider small-class","IsEqual","predicate",
-"OutputControllerXbox360","commander","OutputControllerXbox360","constructor",
-"OutputControllerXbox360","commander","OutputControllerXbox360","constructor",
-"OutputControllerXbox360","commander","Init","command",
-"OutputControllerXbox360","commander","FeedbackReceivedRcv","wrapper stateless",
-"OutputControllerXbox360","commander","UpdateInput","predicate non-void-command collaborator",
-"OutputControllerXbox360","commander","Connect","command",
-"OutputControllerXbox360","commander","Disconnect","command",
-"OutputControllerXbox360","commander","DoUpdateInput","void-accessor command collaborator",
-"ConcurrentList<T>","entity boundary degenerate","ConcurrentList","constructor",
-"ConcurrentList<T>","entity boundary degenerate","ConcurrentList","constructor",
-"ConcurrentList<T>","entity boundary degenerate","ConcurrentList","constructor",
-"ConcurrentList<T>","entity boundary degenerate","Add","command collaborator",
-"ConcurrentList<T>","entity boundary degenerate","Clear","command",
-"ConcurrentList<T>","entity boundary degenerate","Contains","wrapper stateless",
-"ConcurrentList<T>","entity boundary degenerate","CopyTo","wrapper stateless",
-"ConcurrentList<T>","entity boundary degenerate","GetEnumerator","wrapper stateless",
-"ConcurrentList<T>","entity boundary degenerate","IndexOf","wrapper stateless",
-"ConcurrentList<T>","entity boundary degenerate","Insert","wrapper stateless",
-"ConcurrentList<T>","entity boundary degenerate","Remove","wrapper stateless",
-"ConcurrentList<T>","entity boundary degenerate","RemoveAt","command",
-"ConcurrentList<T>","entity boundary degenerate","IEnumerable.GetEnumerator","wrapper stateless",
-"ConcurrentList<T>","entity boundary degenerate","LockInternalListAndCommand","wrapper",
-"ConcurrentList<T>","entity boundary degenerate","LockInternalListAndGet","property wrapper",
-"ConcurrentList<T>","entity boundary degenerate","LockInternalListAndQuery<TObject>","property wrapper",
-"ConcurrentList<T>","entity boundary degenerate","get","wrapper stateless",
-"ConcurrentList<T>","entity boundary degenerate","set","non-void-command collaborator",
-"ConcurrentList<T>","entity boundary degenerate","get","wrapper stateless",
-"Joycon","unclassified","SetLEDByPlayerNum","set",
-"Joycon","unclassified","Joycon","constructor",
-"Joycon","unclassified","getActiveData","set",
-"Joycon","unclassified","ReceiveRumble","void-accessor command collaborator",
-"Joycon","unclassified","Ds4_FeedbackReceived","void-accessor command collaborator",
-"Joycon","unclassified","DebugPrint","command collaborator",
-"Joycon","unclassified","GetButtonDown","get collaborator",
-"Joycon","unclassified","GetButton","get collaborator",
-"Joycon","unclassified","GetButtonUp","get collaborator",
-"Joycon","unclassified","GetStick","get",
-"Joycon","unclassified","GetStick2","get",
-"Joycon","unclassified","GetGyro","get collaborator",
-"Joycon","unclassified","GetAccel","get collaborator",
-"Joycon","unclassified","Attach","property non-void-command",
-"Joycon","unclassified","SetPlayerLED","wrapper stateless",
-"Joycon","unclassified","BlinkHomeLight","wrapper",
-"Joycon","unclassified","SetHomeLight","wrapper",
-"Joycon","unclassified","SetHCIState","wrapper stateless",
-"Joycon","unclassified","PowerOff","set",
-"Joycon","unclassified","BatteryChanged","command collaborator",
-"Joycon","unclassified","SetFilterCoeff","set",
-"Joycon","unclassified","Detach","command",
-"Joycon","unclassified","ReceiveRaw","property non-void-command",
-"Joycon","unclassified","DetectShake","command",
-"Joycon","unclassified","Simulate","set",
-"Joycon","unclassified","SimulateContinous","set",
-"Joycon","unclassified","DoThingsWithButtons","command",
-"Joycon","unclassified","Poll","command",
-"Joycon","unclassified","ProcessButtonsAndStick","property non-void-command",
-"Joycon","unclassified","ExtractIMUValues","command",
-"Joycon","unclassified","Begin","command",
-"Joycon","unclassified","CenterSticks","wrapper stateless",
-"Joycon","unclassified","SetRumble","command",
-"Joycon","unclassified","SendRumble","void-accessor set",
-"Joycon","unclassified","Subcommand","property set",
-"Joycon","unclassified","dump_calibration_data","command",
-"Joycon","unclassified","ReadSPI","property non-void-command",
-"Joycon","unclassified","PrintArray<T>","void-accessor wrapper",
-"Joycon","unclassified","get","get",
-"Joycon","unclassified","set","non-void-command",
-"MadgwickAHRS","small-class","MadgwickAHRS","constructor",
-"MadgwickAHRS","small-class","MadgwickAHRS","constructor",
-"MadgwickAHRS","small-class","Update","command",
-"MadgwickAHRS","small-class","GetEulerAngles","property set",
-"SplitButton","entity boundary small-class","SplitButton","constructor",
-"SplitButton","entity boundary small-class","OnMouseDown","void-accessor command collaborator",
-"SplitButton","entity boundary small-class","OnPaint","command collaborator",
-"OutputControllerDualShock4","commander boundary","OutputControllerDualShock4","constructor",
-"OutputControllerDualShock4","commander boundary","OutputControllerDualShock4","constructor",
-"OutputControllerDualShock4","commander boundary","Init","command",
-"OutputControllerDualShock4","commander boundary","FeedbackReceivedRcv","wrapper stateless",
-"OutputControllerDualShock4","commander boundary","Connect","command",
-"OutputControllerDualShock4","commander boundary","Disconnect","command",
-"OutputControllerDualShock4","commander boundary","UpdateInput","predicate non-void-command collaborator",
-"OutputControllerDualShock4","commander boundary","DoUpdateInput","void-accessor command collaborator",
-"OutputControllerDualShock4","commander boundary","MapDPadDirection","collaborator stateless",
-"MainForm","commander boundary","Dispose","command",
-"MainForm","commander boundary","InitializeComponent","command collaborator",
-"MainForm","commander boundary","MainForm","constructor",
-"MainForm","commander boundary","HideToTray","command",
-"MainForm","commander boundary","ShowFromTray","set",
-"MainForm","commander boundary","MainForm_Resize","command collaborator",
-"MainForm","commander boundary","notifyIcon_MouseDoubleClick","command collaborator",
-"MainForm","commander boundary","MainForm_Load","command collaborator",
-"MainForm","commander boundary","MainForm_FormClosing","wrapper stateless",
-"MainForm","commander boundary","exitToolStripMenuItem_Click","wrapper stateless",
-"MainForm","commander boundary","linkLabel1_LinkClicked","set collaborator",
-"MainForm","commander boundary","passiveScanBox_CheckedChanged","wrapper",
-"MainForm","commander boundary","AppendTextBox","command",
-"MainForm","commander boundary","locBtnClickAsync","controller stateless",
-"MainForm","commander boundary","conBtnClick","command collaborator",
-"MainForm","commander boundary","startInTrayBox_CheckedChanged","wrapper",
-"MainForm","commander boundary","btn_open3rdP_Click","controller stateless",
-"MainForm","commander boundary","settingsApply_Click","command collaborator",
-"MainForm","commander boundary","ReenableViGEm","void-accessor controller",
-"MainForm","commander boundary","foldLbl_Click","command collaborator",
-"MainForm","commander boundary","cbBox_Changed","command collaborator",
-"MainForm","commander boundary","StartCalibrate","command collaborator",
-"MainForm","commander boundary","StartGetData","command",
-"MainForm","commander boundary","btn_reassign_open_Click","controller stateless",
-"MainForm","commander boundary","CountDown","command collaborator",
-"MainForm","commander boundary","CalcData","command collaborator",
-"MainForm","commander boundary","quickselect_median","property non-void-command collaborator",
-"MainForm","commander boundary","quickselect","property non-void-command collaborator",
-"MainForm","commander boundary","activeCaliData","get",
-"MainForm","commander boundary","findSer","property",
-"JoyconManager","boundary","Awake","command",
-"JoyconManager","boundary","Start","command",
-"JoyconManager","boundary","ControllerAlreadyAdded","predicate collaborator",
-"JoyconManager","boundary","CleanUp","command collaborator",
-"JoyconManager","boundary","CheckForNewControllersTime","command collaborator",
-"JoyconManager","boundary","TypeToProdId","get property",
-"JoyconManager","boundary","CheckForNewControllers","command collaborator",
-"JoyconManager","boundary","OnApplicationQuit","command collaborator",
-"JoyconManager","boundary","get","get",
+"UdpServer","commander boundary","UdpServer","constructor"
+"UdpServer","commander boundary","BeginPacket","property wrapper"
+"UdpServer","commander boundary","FinishPacket","wrapper stateless"
+"UdpServer","commander boundary","SendPacket","command"
+"UdpServer","commander boundary","ProcessIncoming","void-accessor command collaborator"
+"UdpServer","commander boundary","ReceiveCallback","command collaborator"
+"UdpServer","commander boundary","StartReceive","command"
+"UdpServer","commander boundary","Start","command"
+"UdpServer","commander boundary","Stop","command"
+"UdpServer","commander boundary","ReportToBuffer","controller stateless"
+"UdpServer","commander boundary","NewReportIncoming","command collaborator"
+"_3rdPartyControllers","commander boundary","Dispose","command"
+"_3rdPartyControllers","commander boundary","InitializeComponent","command collaborator"
+"_3rdPartyControllers","commander boundary","_3rdPartyControllers","constructor"
+"_3rdPartyControllers","commander boundary","_3rdPartyControllers","constructor"
+"_3rdPartyControllers","commander boundary","CopyCustomControllers","wrapper"
+"_3rdPartyControllers","commander boundary","ContainsText","controller stateless"
+"_3rdPartyControllers","commander boundary","RefreshControllerList","command"
+"_3rdPartyControllers","commander boundary","btn_add_Click","command collaborator"
+"_3rdPartyControllers","commander boundary","btn_remove_Click","command collaborator"
+"_3rdPartyControllers","commander boundary","btn_apply_Click","command collaborator"
+"_3rdPartyControllers","commander boundary","btn_applyAndClose_Click","command collaborator"
+"_3rdPartyControllers","commander boundary","_3rdPartyControllers_FormClosing","command collaborator"
+"_3rdPartyControllers","commander boundary","btn_refresh_Click","command collaborator"
+"_3rdPartyControllers","commander boundary","list_allControllers_SelectedValueChanged","command collaborator"
+"_3rdPartyControllers","commander boundary","list_customControllers_SelectedValueChanged","command collaborator"
+"_3rdPartyControllers","commander boundary","list_customControllers_MouseDown","command collaborator"
+"_3rdPartyControllers","commander boundary","list_allControllers_MouseDown","command collaborator"
+"_3rdPartyControllers","commander boundary","chooseType_SelectedValueChanged","collaborator"
+"OutputControllerDualShock4InputState","data-provider small-class","IsEqual","predicate"
+"Resources","empty","Resources","constructor"
+"Reassign","commander boundary","Dispose","command"
+"Reassign","commander boundary","InitializeComponent","command collaborator"
+"Reassign","commander boundary","Reassign","constructor"
+"Reassign","commander boundary","Menu_joy_buttons_ItemClicked","command collaborator"
+"Reassign","commander boundary","Remap","set collaborator"
+"Reassign","commander boundary","Reassign_Load","command collaborator"
+"Reassign","commander boundary","Mouse_MouseEvent","void-accessor set collaborator"
+"Reassign","commander boundary","Keyboard_KeyEvent","void-accessor set collaborator"
+"Reassign","commander boundary","Reassign_FormClosing","command collaborator"
+"Reassign","commander boundary","AsyncPrettyName","command collaborator"
+"Reassign","commander boundary","GetPrettyName","void-accessor controller"
+"Reassign","commander boundary","btn_apply_Click","wrapper stateless"
+"Reassign","commander boundary","btn_close_Click","command collaborator"
+"OutputControllerXbox360InputState","data-provider small-class","IsEqual","predicate"
+"OutputControllerXbox360","commander","OutputControllerXbox360","constructor"
+"OutputControllerXbox360","commander","OutputControllerXbox360","constructor"
+"OutputControllerXbox360","commander","Init","command"
+"OutputControllerXbox360","commander","FeedbackReceivedRcv","wrapper stateless"
+"OutputControllerXbox360","commander","UpdateInput","predicate non-void-command collaborator"
+"OutputControllerXbox360","commander","Connect","command"
+"OutputControllerXbox360","commander","Disconnect","command"
+"OutputControllerXbox360","commander","DoUpdateInput","command collaborator"
+"ConcurrentList<T>","entity boundary degenerate","ConcurrentList","constructor"
+"ConcurrentList<T>","entity boundary degenerate","ConcurrentList","constructor"
+"ConcurrentList<T>","entity boundary degenerate","ConcurrentList","constructor"
+"ConcurrentList<T>","entity boundary degenerate","Add","command collaborator"
+"ConcurrentList<T>","entity boundary degenerate","Clear","command"
+"ConcurrentList<T>","entity boundary degenerate","Contains","wrapper stateless"
+"ConcurrentList<T>","entity boundary degenerate","CopyTo","wrapper stateless"
+"ConcurrentList<T>","entity boundary degenerate","GetEnumerator","wrapper stateless"
+"ConcurrentList<T>","entity boundary degenerate","IndexOf","wrapper stateless"
+"ConcurrentList<T>","entity boundary degenerate","Insert","wrapper stateless"
+"ConcurrentList<T>","entity boundary degenerate","Remove","wrapper stateless"
+"ConcurrentList<T>","entity boundary degenerate","RemoveAt","command"
+"ConcurrentList<T>","entity boundary degenerate","IEnumerable.GetEnumerator","wrapper stateless"
+"ConcurrentList<T>","entity boundary degenerate","LockInternalListAndCommand","wrapper"
+"ConcurrentList<T>","entity boundary degenerate","LockInternalListAndGet","property wrapper"
+"ConcurrentList<T>","entity boundary degenerate","LockInternalListAndQuery<TObject>","property wrapper"
+"ConcurrentList<T>","entity boundary degenerate","get","wrapper stateless"
+"ConcurrentList<T>","entity boundary degenerate","set","non-void-command collaborator"
+"ConcurrentList<T>","entity boundary degenerate","get","wrapper stateless"
+"Joycon","unclassified","SetLEDByPlayerNum","set"
+"Joycon","unclassified","Joycon","constructor"
+"Joycon","unclassified","getActiveData","set"
+"Joycon","unclassified","ReceiveRumble","command collaborator"
+"Joycon","unclassified","Ds4_FeedbackReceived","command collaborator"
+"Joycon","unclassified","DebugPrint","command collaborator"
+"Joycon","unclassified","GetButtonDown","get collaborator"
+"Joycon","unclassified","GetButton","get collaborator"
+"Joycon","unclassified","GetButtonUp","get collaborator"
+"Joycon","unclassified","GetStick","get"
+"Joycon","unclassified","GetStick2","get"
+"Joycon","unclassified","GetGyro","get collaborator"
+"Joycon","unclassified","GetAccel","get collaborator"
+"Joycon","unclassified","Attach","property non-void-command"
+"Joycon","unclassified","SetPlayerLED","wrapper stateless"
+"Joycon","unclassified","BlinkHomeLight","wrapper"
+"Joycon","unclassified","SetHomeLight","wrapper"
+"Joycon","unclassified","SetHCIState","wrapper stateless"
+"Joycon","unclassified","PowerOff","set"
+"Joycon","unclassified","BatteryChanged","command collaborator"
+"Joycon","unclassified","SetFilterCoeff","set"
+"Joycon","unclassified","Detach","command"
+"Joycon","unclassified","ReceiveRaw","property non-void-command"
+"Joycon","unclassified","DetectShake","command"
+"Joycon","unclassified","Simulate","set"
+"Joycon","unclassified","SimulateContinous","set"
+"Joycon","unclassified","DoThingsWithButtons","command"
+"Joycon","unclassified","Poll","command"
+"Joycon","unclassified","ProcessButtonsAndStick","property non-void-command"
+"Joycon","unclassified","ExtractIMUValues","command"
+"Joycon","unclassified","Begin","command"
+"Joycon","unclassified","CenterSticks","wrapper stateless"
+"Joycon","unclassified","SetRumble","command"
+"Joycon","unclassified","SendRumble","set"
+"Joycon","unclassified","Subcommand","property set"
+"Joycon","unclassified","dump_calibration_data","command"
+"Joycon","unclassified","ReadSPI","property non-void-command"
+"Joycon","unclassified","PrintArray<T>","wrapper"
+"Joycon","unclassified","get","get"
+"Joycon","unclassified","set","non-void-command"
+"MadgwickAHRS","small-class","MadgwickAHRS","constructor"
+"MadgwickAHRS","small-class","MadgwickAHRS","constructor"
+"MadgwickAHRS","small-class","Update","command"
+"MadgwickAHRS","small-class","GetEulerAngles","property set"
+"SplitButton","commander boundary small-class","SplitButton","constructor"
+"SplitButton","commander boundary small-class","OnMouseDown","command collaborator"
+"SplitButton","commander boundary small-class","OnPaint","command collaborator"
+"OutputControllerDualShock4","commander boundary","OutputControllerDualShock4","constructor"
+"OutputControllerDualShock4","commander boundary","OutputControllerDualShock4","constructor"
+"OutputControllerDualShock4","commander boundary","Init","command"
+"OutputControllerDualShock4","commander boundary","FeedbackReceivedRcv","wrapper stateless"
+"OutputControllerDualShock4","commander boundary","Connect","command"
+"OutputControllerDualShock4","commander boundary","Disconnect","command"
+"OutputControllerDualShock4","commander boundary","UpdateInput","predicate non-void-command collaborator"
+"OutputControllerDualShock4","commander boundary","DoUpdateInput","command collaborator"
+"OutputControllerDualShock4","commander boundary","MapDPadDirection","collaborator stateless"
+"MainForm","commander boundary","Dispose","command"
+"MainForm","commander boundary","InitializeComponent","command collaborator"
+"MainForm","commander boundary","MainForm","constructor"
+"MainForm","commander boundary","HideToTray","command"
+"MainForm","commander boundary","ShowFromTray","set"
+"MainForm","commander boundary","MainForm_Resize","command collaborator"
+"MainForm","commander boundary","notifyIcon_MouseDoubleClick","command collaborator"
+"MainForm","commander boundary","MainForm_Load","command collaborator"
+"MainForm","commander boundary","MainForm_FormClosing","wrapper stateless"
+"MainForm","commander boundary","exitToolStripMenuItem_Click","wrapper stateless"
+"MainForm","commander boundary","linkLabel1_LinkClicked","set collaborator"
+"MainForm","commander boundary","passiveScanBox_CheckedChanged","wrapper"
+"MainForm","commander boundary","AppendTextBox","command"
+"MainForm","commander boundary","locBtnClickAsync","controller stateless"
+"MainForm","commander boundary","conBtnClick","command collaborator"
+"MainForm","commander boundary","startInTrayBox_CheckedChanged","wrapper"
+"MainForm","commander boundary","btn_open3rdP_Click","controller stateless"
+"MainForm","commander boundary","settingsApply_Click","command collaborator"
+"MainForm","commander boundary","ReenableViGEm","void-accessor controller"
+"MainForm","commander boundary","foldLbl_Click","command collaborator"
+"MainForm","commander boundary","cbBox_Changed","command collaborator"
+"MainForm","commander boundary","StartCalibrate","command collaborator"
+"MainForm","commander boundary","StartGetData","command"
+"MainForm","commander boundary","btn_reassign_open_Click","controller stateless"
+"MainForm","commander boundary","CountDown","command collaborator"
+"MainForm","commander boundary","CalcData","command collaborator"
+"MainForm","commander boundary","quickselect_median","property non-void-command collaborator"
+"MainForm","commander boundary","quickselect","property non-void-command collaborator"
+"MainForm","commander boundary","activeCaliData","get"
+"MainForm","commander boundary","findSer","property"
+"JoyconManager","boundary","Awake","command"
+"JoyconManager","boundary","Start","command"
+"JoyconManager","boundary","ControllerAlreadyAdded","predicate collaborator"
+"JoyconManager","boundary","CleanUp","command collaborator"
+"JoyconManager","boundary","CheckForNewControllersTime","command collaborator"
+"JoyconManager","boundary","TypeToProdId","get property"
+"JoyconManager","boundary","CheckForNewControllers","command collaborator"
+"JoyconManager","boundary","OnApplicationQuit","command collaborator"

@@ -1,1109 +1,1109 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"Tracking","entity commander boundary","Tracking::Tracking","constructor",
-"Tracking","entity commander boundary","Tracking::SetLocalMapper","set collaborator",
-"Tracking","entity commander boundary","Tracking::SetLoopClosing","set collaborator",
-"Tracking","entity commander boundary","Tracking::SetViewer","set collaborator",
-"Tracking","entity commander boundary","Tracking::GrabImageStereo","property non-void-command collaborator",
-"Tracking","entity commander boundary","Tracking::GrabImageRGBD","property non-void-command collaborator",
-"Tracking","entity commander boundary","Tracking::GrabImageMonocular","property non-void-command collaborator",
-"Tracking","entity commander boundary","Tracking::Track","command collaborator",
-"Tracking","entity commander boundary","Tracking::StereoInitialization","command collaborator",
-"Tracking","entity commander boundary","Tracking::MonocularInitialization","command collaborator",
-"Tracking","entity commander boundary","Tracking::CreateInitialMapMonocular","command collaborator",
-"Tracking","entity commander boundary","Tracking::CheckReplacedInLastFrame","set collaborator",
-"Tracking","entity commander boundary","Tracking::TrackReferenceKeyFrame","predicate non-void-command collaborator",
-"Tracking","entity commander boundary","Tracking::UpdateLastFrame","command collaborator",
-"Tracking","entity commander boundary","Tracking::TrackWithMotionModel","predicate non-void-command collaborator",
-"Tracking","entity commander boundary","Tracking::TrackLocalMap","predicate non-void-command",
-"Tracking","entity commander boundary","Tracking::NeedNewKeyFrame","predicate non-void-command",
-"Tracking","entity commander boundary","Tracking::CreateNewKeyFrame","command collaborator",
-"Tracking","entity commander boundary","Tracking::SearchLocalPoints","command",
-"Tracking","entity commander boundary","Tracking::UpdateLocalMap","command",
-"Tracking","entity commander boundary","Tracking::UpdateLocalPoints","command collaborator",
-"Tracking","entity commander boundary","Tracking::UpdateLocalKeyFrames","command collaborator",
-"Tracking","entity commander boundary","Tracking::Relocalization","predicate non-void-command",
-"Tracking","entity commander boundary","Tracking::Reset","command",
-"Tracking","entity commander boundary","Tracking::ChangeCalibration","set",
-"Tracking","entity commander boundary","Tracking::InformOnlyTracking","set",
-"System","entity minimal-entity boundary","System::System","constructor",
-"System","entity minimal-entity boundary","System::TrackStereo","property non-void-command collaborator",
-"System","entity minimal-entity boundary","System::TrackRGBD","property non-void-command collaborator",
-"System","entity minimal-entity boundary","System::TrackMonocular","property non-void-command collaborator",
-"System","entity minimal-entity boundary","System::ActivateLocalizationMode","set collaborator",
-"System","entity minimal-entity boundary","System::DeactivateLocalizationMode","set collaborator",
-"System","entity minimal-entity boundary","System::MapChanged","predicate non-void-command",
-"System","entity minimal-entity boundary","System::Reset","set collaborator",
-"System","entity minimal-entity boundary","System::Shutdown","command",
-"System","entity minimal-entity boundary","System::SaveTrajectoryTUM","command",
-"System","entity minimal-entity boundary","System::SaveKeyFrameTrajectoryTUM","command collaborator",
-"System","entity minimal-entity boundary","System::SaveTrajectoryKITTI","command collaborator",
-"System","entity minimal-entity boundary","System::GetTrackingState","get collaborator",
-"System","entity minimal-entity boundary","System::GetTrackedMapPoints","get collaborator",
-"System","entity minimal-entity boundary","System::GetTrackedKeyPointsUn","get collaborator",
-"PnPsolver","commander","PnPsolver::PnPsolver","constructor",
-"PnPsolver","commander","PnPsolver::~PnPsolver","destructor",
-"PnPsolver","commander","PnPsolver::SetRansacParameters","command",
-"PnPsolver","commander","PnPsolver::find","property non-void-command collaborator",
-"PnPsolver","commander","PnPsolver::iterate","property non-void-command collaborator",
-"PnPsolver","commander","PnPsolver::Refine","predicate non-void-command collaborator",
-"PnPsolver","commander","PnPsolver::CheckInliers","command",
-"PnPsolver","commander","PnPsolver::set_maximum_number_of_correspondences","command",
-"PnPsolver","commander","PnPsolver::reset_correspondences","set",
-"PnPsolver","commander","PnPsolver::add_correspondence","command",
-"PnPsolver","commander","PnPsolver::choose_control_points","command",
-"PnPsolver","commander","PnPsolver::compute_barycentric_coordinates","wrapper",
-"PnPsolver","commander","PnPsolver::fill_M","unclassified",
-"PnPsolver","commander","PnPsolver::compute_ccs","command",
-"PnPsolver","commander","PnPsolver::compute_pcs","unclassified",
-"PnPsolver","commander","PnPsolver::compute_pose","property non-void-command",
-"PnPsolver","commander","PnPsolver::copy_R_and_t","incidental",
-"PnPsolver","commander","PnPsolver::dist2","incidental",
-"PnPsolver","commander","PnPsolver::dot","incidental",
-"PnPsolver","commander","PnPsolver::reprojection_error","property non-void-command",
-"PnPsolver","commander","PnPsolver::estimate_R_and_t","command",
-"PnPsolver","commander","PnPsolver::print_pose","incidental",
-"PnPsolver","commander","PnPsolver::solve_for_sign","command",
-"PnPsolver","commander","PnPsolver::compute_R_and_t","property non-void-command",
-"PnPsolver","commander","PnPsolver::find_betas_approx_1","wrapper stateless",
-"PnPsolver","commander","PnPsolver::find_betas_approx_2","wrapper stateless",
-"PnPsolver","commander","PnPsolver::find_betas_approx_3","wrapper stateless",
-"PnPsolver","commander","PnPsolver::compute_L_6x10","command",
-"PnPsolver","commander","PnPsolver::compute_rho","void-accessor command",
-"PnPsolver","commander","PnPsolver::compute_A_and_b_gauss_newton","wrapper stateless",
-"PnPsolver","commander","PnPsolver::gauss_newton","void-accessor command",
-"PnPsolver","commander","PnPsolver::qr_solve","wrapper stateless",
-"PnPsolver","commander","PnPsolver::relative_error","void-accessor command",
-"PnPsolver","commander","PnPsolver::mat_to_quat","wrapper stateless",
-"ORBextractor","data-provider","~ORBextractor","destructor",
-"ORBextractor","data-provider","GetLevels","get",
-"ORBextractor","data-provider","GetScaleFactor","get",
-"ORBextractor","data-provider","GetScaleFactors","get",
-"ORBextractor","data-provider","GetInverseScaleFactors","get",
-"ORBextractor","data-provider","GetScaleSigmaSquares","get",
-"ORBextractor","data-provider","GetInverseScaleSigmaSquares","get",
-"ORBextractor","data-provider","ORBextractor::ORBextractor","constructor",
-"ORBextractor","data-provider","ORBextractor::DistributeOctTree","property controller",
-"ORBextractor","data-provider","ORBextractor::ComputeKeyPointsOctTree","void-accessor command collaborator",
-"ORBextractor","data-provider","ORBextractor::ComputeKeyPointsOld","void-accessor controller",
-"ORBextractor","data-provider","ORBextractor::operator()","command collaborator",
-"ORBextractor","data-provider","ORBextractor::ComputePyramid","set collaborator",
-"MapPoint","boundary","GetFound","get",
-"MapPoint","boundary","MapPoint::MapPoint","constructor",
-"MapPoint","boundary","MapPoint::MapPoint","constructor",
-"MapPoint","boundary","MapPoint::SetWorldPos","controller",
-"MapPoint","boundary","MapPoint::GetWorldPos","property non-void-command collaborator",
-"MapPoint","boundary","MapPoint::GetNormal","property non-void-command collaborator",
-"MapPoint","boundary","MapPoint::GetReferenceKeyFrame","get collaborator",
-"MapPoint","boundary","MapPoint::AddObservation","void-accessor command collaborator",
-"MapPoint","boundary","MapPoint::EraseObservation","void-accessor command collaborator",
-"MapPoint","boundary","MapPoint::GetObservations","get collaborator",
-"MapPoint","boundary","MapPoint::Observations","get collaborator",
-"MapPoint","boundary","MapPoint::SetBadFlag","command collaborator",
-"MapPoint","boundary","MapPoint::GetReplaced","get collaborator",
-"MapPoint","boundary","MapPoint::Replace","void-accessor command collaborator",
-"MapPoint","boundary","MapPoint::isBad","get collaborator",
-"MapPoint","boundary","MapPoint::IncreaseVisible","set collaborator",
-"MapPoint","boundary","MapPoint::IncreaseFound","set collaborator",
-"MapPoint","boundary","MapPoint::GetFoundRatio","property collaborator",
-"MapPoint","boundary","MapPoint::ComputeDistinctiveDescriptors","set collaborator",
-"MapPoint","boundary","MapPoint::GetDescriptor","property non-void-command collaborator",
-"MapPoint","boundary","MapPoint::GetIndexInKeyFrame","get property non-void-command collaborator",
-"MapPoint","boundary","MapPoint::IsInKeyFrame","predicate non-void-command collaborator",
-"MapPoint","boundary","MapPoint::UpdateNormalAndDepth","command collaborator",
-"MapPoint","boundary","MapPoint::GetMinDistanceInvariance","property collaborator",
-"MapPoint","boundary","MapPoint::GetMaxDistanceInvariance","property collaborator",
-"MapPoint","boundary","MapPoint::PredictScale","property wrapper",
-"MapPoint","boundary","MapPoint::PredictScale","property wrapper",
-"Map","entity minimal-entity boundary","Map::Map","constructor",
-"Map","entity minimal-entity boundary","Map::AddKeyFrame","void-accessor set collaborator",
-"Map","entity minimal-entity boundary","Map::AddMapPoint","void-accessor command collaborator",
-"Map","entity minimal-entity boundary","Map::EraseMapPoint","void-accessor command collaborator",
-"Map","entity minimal-entity boundary","Map::EraseKeyFrame","void-accessor command collaborator",
-"Map","entity minimal-entity boundary","Map::SetReferenceMapPoints","set collaborator",
-"Map","entity minimal-entity boundary","Map::InformNewBigChange","set collaborator",
-"Map","entity minimal-entity boundary","Map::GetLastBigChangeIdx","get collaborator",
-"Map","entity minimal-entity boundary","Map::GetAllKeyFrames","property non-void-command collaborator",
-"Map","entity minimal-entity boundary","Map::GetAllMapPoints","property non-void-command collaborator",
-"Map","entity minimal-entity boundary","Map::MapPointsInMap","property non-void-command collaborator",
-"Map","entity minimal-entity boundary","Map::KeyFramesInMap","property non-void-command collaborator",
-"Map","entity minimal-entity boundary","Map::GetReferenceMapPoints","get collaborator",
-"Map","entity minimal-entity boundary","Map::GetMaxKFid","get collaborator",
-"Map","entity minimal-entity boundary","Map::clear","command collaborator",
-"LoopClosing","entity minimal-entity boundary","isRunningGBA","get collaborator",
-"LoopClosing","entity minimal-entity boundary","isFinishedGBA","get collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::LoopClosing","constructor",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::SetTracker","set collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::SetLocalMapper","set collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::Run","command",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::InsertKeyFrame","void-accessor command collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::CheckNewKeyFrames","predicate non-void-command collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::DetectLoop","predicate non-void-command collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::ComputeSim3","predicate non-void-command",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::CorrectLoop","command collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::SearchAndFuse","command collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::RequestReset","set collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::ResetIfRequested","command collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::RunGlobalBundleAdjustment","command collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::RequestFinish","set collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::CheckFinish","get collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::SetFinish","set collaborator",
-"LoopClosing","entity minimal-entity boundary","LoopClosing::isFinished","get collaborator",
-"KeyFrameDatabase","unclassified","KeyFrameDatabase::KeyFrameDatabase","constructor",
-"KeyFrameDatabase","unclassified","KeyFrameDatabase::add","void-accessor controller",
-"KeyFrameDatabase","unclassified","KeyFrameDatabase::erase","controller",
-"KeyFrameDatabase","unclassified","KeyFrameDatabase::clear","command",
-"KeyFrameDatabase","unclassified","KeyFrameDatabase::DetectLoopCandidates","property non-void-command collaborator",
-"KeyFrameDatabase","unclassified","KeyFrameDatabase::DetectRelocalizationCandidates","property non-void-command collaborator",
-"Converter","degenerate","Converter::toDescriptorVector","controller stateless",
-"Converter","degenerate","Converter::toSE3Quat","controller stateless",
-"Converter","degenerate","Converter::toCvMat","property non-void-command collaborator",
-"Converter","degenerate","Converter::toCvMat","property non-void-command collaborator",
-"Converter","degenerate","Converter::toCvMat","controller stateless",
-"Converter","degenerate","Converter::toCvMat","controller stateless",
-"Converter","degenerate","Converter::toCvMat","controller stateless",
-"Converter","degenerate","Converter::toCvSE3","controller stateless",
-"Converter","degenerate","Converter::toVector3d","controller stateless",
-"Converter","degenerate","Converter::toVector3d","collaborator incidental",
-"Converter","degenerate","Converter::toMatrix3d","controller stateless",
-"Converter","degenerate","Converter::toQuaternion","property non-void-command collaborator",
-"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose","empty",
-"EdgeStereoSE3ProjectXYZOnlyPose","boundary","computeError","set collaborator",
-"EdgeStereoSE3ProjectXYZOnlyPose","boundary","isDepthPositive","predicate controller",
-"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose::cam_project","property collaborator",
-"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose::read","predicate non-void-command collaborator",
-"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose::write","predicate collaborator",
-"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose::linearizeOplus","controller",
-"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose","empty",
-"EdgeSE3ProjectXYZOnlyPose","boundary","computeError","set collaborator",
-"EdgeSE3ProjectXYZOnlyPose","boundary","isDepthPositive","predicate controller",
-"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose::read","predicate non-void-command collaborator",
-"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose::write","predicate collaborator",
-"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose::linearizeOplus","controller",
-"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose::cam_project","property wrapper",
-"EdgeStereoSE3ProjectXYZ","unclassified","computeError","set collaborator",
-"EdgeStereoSE3ProjectXYZ","unclassified","isDepthPositive","controller stateless",
-"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::cam_project","property collaborator",
-"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::EdgeStereoSE3ProjectXYZ","constructor",
-"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::read","predicate non-void-command collaborator",
-"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::write","predicate collaborator",
-"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::linearizeOplus","controller",
-"EdgeSE3ProjectXYZ","boundary","computeError","set collaborator",
-"EdgeSE3ProjectXYZ","boundary","isDepthPositive","controller stateless",
-"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::EdgeSE3ProjectXYZ","constructor",
-"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::read","predicate non-void-command collaborator",
-"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::write","predicate collaborator",
-"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::linearizeOplus","set collaborator",
-"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::cam_project","property wrapper",
-"Sim3","data-provider","Sim3","constructor",
-"Sim3","data-provider","Sim3","constructor",
-"Sim3","data-provider","Sim3","constructor",
-"Sim3","data-provider","Sim3","constructor",
-"Sim3","data-provider","map","property collaborator",
-"Sim3","data-provider","log","property collaborator",
-"Sim3","data-provider","inverse","property",
-"Sim3","data-provider","operator[]","get property",
-"Sim3","data-provider","operator[]","get property non-void-command",
-"Sim3","data-provider","operator*","property",
-"Sim3","data-provider","operator*=","get set",
-"Sim3","data-provider","translation","get collaborator",
-"Sim3","data-provider","translation","get collaborator",
-"Sim3","data-provider","rotation","get collaborator",
-"Sim3","data-provider","rotation","get collaborator",
-"Sim3","data-provider","scale","get",
-"Sim3","data-provider","scale","get",
-"SE3Quat","data-provider boundary","SE3Quat","constructor",
-"SE3Quat","data-provider boundary","SE3Quat","constructor",
-"SE3Quat","data-provider boundary","SE3Quat","constructor",
-"SE3Quat","data-provider boundary","SE3Quat","constructor",
-"SE3Quat","data-provider boundary","translation","get collaborator",
-"SE3Quat","data-provider boundary","setTranslation","set collaborator",
-"SE3Quat","data-provider boundary","rotation","get collaborator",
-"SE3Quat","data-provider boundary","setRotation","set collaborator",
-"SE3Quat","data-provider boundary","operator*","property controller",
-"SE3Quat","data-provider boundary","operator*=","get non-void-command",
-"SE3Quat","data-provider boundary","operator*","property collaborator",
-"SE3Quat","data-provider boundary","inverse","property",
-"SE3Quat","data-provider boundary","operator[]","get property",
-"SE3Quat","data-provider boundary","toVector","property collaborator",
-"SE3Quat","data-provider boundary","fromVector","void-accessor command collaborator",
-"SE3Quat","data-provider boundary","toMinimalVector","property collaborator",
-"SE3Quat","data-provider boundary","fromMinimalVector","void-accessor command collaborator",
-"SE3Quat","data-provider boundary","log","property collaborator",
-"SE3Quat","data-provider boundary","map","property collaborator",
-"SE3Quat","data-provider boundary","adj","property collaborator",
-"SE3Quat","data-provider boundary","to_homogeneous_matrix","property collaborator",
-"SE3Quat","data-provider boundary","normalizeRotation","command",
-"SE3Quat","data-provider boundary","operatorEigen::Isometry3d","collaborator",
-"ScopeTime","empty","ScopeTime::ScopeTime","constructor",
-"ScopeTime","empty","ScopeTime::~ScopeTime","destructor",
-"VertexSBAPointXYZ","entity boundary","setToOriginImpl","command",
-"VertexSBAPointXYZ","entity boundary","oplusImpl","set collaborator",
-"VertexSBAPointXYZ","entity boundary","VertexSBAPointXYZ::VertexSBAPointXYZ","constructor",
-"VertexSBAPointXYZ","entity boundary","VertexSBAPointXYZ::read","predicate collaborator",
-"VertexSBAPointXYZ","entity boundary","VertexSBAPointXYZ::write","predicate collaborator",
-"PropertyMap","degenerate","getProperty","wrapper stateless",
-"PropertyMap","degenerate","getProperty","wrapper stateless",
-"PropertyMap","degenerate","makeProperty","property non-void-command factory collaborator",
-"PropertyMap","degenerate","PropertyMap::addProperty","controller stateless",
-"PropertyMap","degenerate","PropertyMap::eraseProperty","wrapper stateless",
-"PropertyMap","degenerate","PropertyMap::~PropertyMap","destructor",
-"PropertyMap","degenerate","PropertyMap::updatePropertyFromString","controller stateless",
-"PropertyMap","degenerate","PropertyMap::writeToCSV","controller stateless",
-"PropertyMap","degenerate","PropertyMap::updateMapFromString","predicate non-void-command",
-"ForceLinker","empty","ForceLinker","constructor",
-"LinearSolverEigen","unclassified","~LinearSolverEigen","destructor",
-"LinearSolverEigen","unclassified","init","predicate set",
-"LinearSolverEigen","unclassified","solve","predicate non-void-command collaborator",
-"LinearSolverEigen","unclassified","blockOrdering","get",
-"LinearSolverEigen","unclassified","setBlockOrdering","set",
-"LinearSolverEigen","unclassified","writeDebug","get",
-"LinearSolverEigen","unclassified","setWriteDebug","set",
-"LinearSolverEigen","unclassified","computeSymbolicDecomposition","command collaborator",
-"LinearSolverEigen","unclassified","fillSparseMatrix","command",
-"EdgeSim3","entity boundary","computeError","set collaborator",
-"EdgeSim3","entity boundary","initialEstimatePossible","incidental",
-"EdgeSim3","entity boundary","initialEstimate","command collaborator",
-"EdgeSim3","entity boundary","EdgeSim3::EdgeSim3","constructor",
-"EdgeSim3","entity boundary","EdgeSim3::read","predicate non-void-command collaborator",
-"EdgeSim3","entity boundary","EdgeSim3::write","predicate collaborator",
-"SparseOptimizer","boundary","computeMarginals","predicate non-void-command collaborator",
-"SparseOptimizer","boundary","computeMarginals","predicate non-void-command collaborator",
-"SparseOptimizer","boundary","verbose","get",
-"SparseOptimizer","boundary","forceStopFlag","get",
-"SparseOptimizer","boundary","terminate","predicate",
-"SparseOptimizer","boundary","indexMapping","get collaborator",
-"SparseOptimizer","boundary","activeVertices","get collaborator",
-"SparseOptimizer","boundary","activeEdges","get collaborator",
-"SparseOptimizer","boundary","algorithm","get collaborator",
-"SparseOptimizer","boundary","solver","get collaborator",
-"SparseOptimizer","boundary","batchStatistics","get collaborator",
-"SparseOptimizer","boundary","batchStatistics","get collaborator",
-"SparseOptimizer","boundary","computeBatchStatistics","get",
-"SparseOptimizer","boundary","SparseOptimizer::SparseOptimizer","constructor",
-"SparseOptimizer","boundary","SparseOptimizer::~SparseOptimizer","destructor",
-"SparseOptimizer","boundary","SparseOptimizer::computeActiveErrors","command",
-"SparseOptimizer","boundary","SparseOptimizer::activeChi2","property collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::activeRobustChi2","property collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::findGauge","property non-void-command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::gaugeFreedom","predicate non-void-command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::buildIndexMapping","predicate non-void-command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::clearIndexMapping","set",
-"SparseOptimizer","boundary","SparseOptimizer::initializeOptimization","predicate non-void-command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::initializeOptimization","predicate non-void-command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::initializeOptimization","predicate non-void-command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::setToOrigin","command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::computeInitialGuess","command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::computeInitialGuess","void-accessor command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::optimize","property non-void-command",
-"SparseOptimizer","boundary","SparseOptimizer::update","void-accessor command",
-"SparseOptimizer","boundary","SparseOptimizer::setComputeBatchStatistics","set",
-"SparseOptimizer","boundary","SparseOptimizer::updateInitialization","predicate non-void-command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::sortVectorContainers","command",
-"SparseOptimizer","boundary","SparseOptimizer::clear","command",
-"SparseOptimizer","boundary","SparseOptimizer::findActiveVertex","property collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::findActiveEdge","property collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::push","controller stateless",
-"SparseOptimizer","boundary","SparseOptimizer::pop","controller stateless",
-"SparseOptimizer","boundary","SparseOptimizer::push","controller stateless",
-"SparseOptimizer","boundary","SparseOptimizer::pop","controller stateless",
-"SparseOptimizer","boundary","SparseOptimizer::discardTop","controller stateless",
-"SparseOptimizer","boundary","SparseOptimizer::setVerbose","set",
-"SparseOptimizer","boundary","SparseOptimizer::setAlgorithm","command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::computeMarginals","predicate non-void-command",
-"SparseOptimizer","boundary","SparseOptimizer::setForceStopFlag","set",
-"SparseOptimizer","boundary","SparseOptimizer::removeVertex","predicate non-void-command collaborator",
-"SparseOptimizer","boundary","SparseOptimizer::addComputeErrorAction","predicate wrapper",
-"SparseOptimizer","boundary","SparseOptimizer::removeComputeErrorAction","get wrapper",
-"SparseOptimizer","boundary","SparseOptimizer::push","command",
-"SparseOptimizer","boundary","SparseOptimizer::pop","command",
-"SparseOptimizer","boundary","SparseOptimizer::discardTop","command",
-"TripletColSort","boundary degenerate small-class","operator()","collaborator incidental",
-"SparseBlockMatrix","data-provider boundary","cols","property",
-"SparseBlockMatrix","data-provider boundary","rows","property",
-"SparseBlockMatrix","data-provider boundary","rowsOfBlock","property",
-"SparseBlockMatrix","data-provider boundary","colsOfBlock","property",
-"SparseBlockMatrix","data-provider boundary","rowBaseOfBlock","property",
-"SparseBlockMatrix","data-provider boundary","colBaseOfBlock","property",
-"SparseBlockMatrix","data-provider boundary","blockCols","get collaborator",
-"SparseBlockMatrix","data-provider boundary","blockCols","get collaborator",
-"SparseBlockMatrix","data-provider boundary","rowBlockIndices","get",
-"SparseBlockMatrix","data-provider boundary","rowBlockIndices","get",
-"SparseBlockMatrix","data-provider boundary","colBlockIndices","get",
-"SparseBlockMatrix","data-provider boundary","colBlockIndices","get",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::SparseBlockMatrix","constructor",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::SparseBlockMatrix","constructor",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::clear","command collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::~SparseBlockMatrix","destructor",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::block","property non-void-command factory collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::block","property wrapper",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::clone","factory collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::transpose","predicate collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::add","predicate collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::multiply","predicate collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::multiply","void-accessor",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::multiplySymmetricUpperTriangle","void-accessor",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::rightMultiply","void-accessor",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::scale","command collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::slice","factory collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::nonZeroBlocks","property",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::nonZeros","property collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::symmPermutation","predicate collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillCCS","property",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillCCS","property",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillBlockStructure","void-accessor collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::writeOctave","predicate collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillSparseBlockMatrixCCS","property collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillSparseBlockMatrixCCSTransposed","property collaborator",
-"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::takePatternFromHash","command collaborator",
-"Solver","data-provider","x","get",
-"Solver","data-provider","x","get",
-"Solver","data-provider","b","get",
-"Solver","data-provider","b","get",
-"Solver","data-provider","vectorSize","get",
-"Solver","data-provider","optimizer","get collaborator",
-"Solver","data-provider","levenberg","get",
-"Solver","data-provider","supportsSchur","incidental",
-"Solver","data-provider","additionalVectorSpace","get",
-"Solver","data-provider","Solver","copy-constructor",
-"Solver","data-provider","operator=","get",
-"Solver","data-provider","Solver::Solver","constructor",
-"Solver","data-provider","Solver::~Solver","destructor",
-"Solver","data-provider","Solver::resizeVector","command",
-"Solver","data-provider","Solver::setOptimizer","set collaborator",
-"Solver","data-provider","Solver::setLevenberg","set",
-"Solver","data-provider","Solver::setAdditionalVectorSpace","set",
-"RobustKernelSaturated","data-provider boundary small-class","RobustKernelSaturated::robustify","void-accessor collaborator",
-"Property","data-provider boundary","Property","constructor",
-"Property","data-provider boundary","Property","constructor",
-"Property","data-provider boundary","setValue","set collaborator",
-"Property","data-provider boundary","value","get collaborator",
-"Property","data-provider boundary","toString","property controller",
-"Property","data-provider boundary","fromString","predicate wrapper",
-"RobustKernelCauchy","data-provider boundary small-class","RobustKernelCauchy::robustify","void-accessor wrapper",
-"RobustKernelPseudoHuber","data-provider boundary small-class","RobustKernelPseudoHuber::robustify","void-accessor wrapper",
-"SparseBlockMatrixHashMap","data-provider","cols","property",
-"SparseBlockMatrixHashMap","data-provider","rows","property",
-"SparseBlockMatrixHashMap","data-provider","SparseBlockMatrixHashMap","constructor",
-"SparseBlockMatrixHashMap","data-provider","rowsOfBlock","property",
-"SparseBlockMatrixHashMap","data-provider","colsOfBlock","property",
-"SparseBlockMatrixHashMap","data-provider","rowBaseOfBlock","property",
-"SparseBlockMatrixHashMap","data-provider","colBaseOfBlock","property",
-"SparseBlockMatrixHashMap","data-provider","blockCols","get collaborator",
-"SparseBlockMatrixHashMap","data-provider","blockCols","get collaborator",
-"SparseBlockMatrixHashMap","data-provider","rowBlockIndices","get",
-"SparseBlockMatrixHashMap","data-provider","colBlockIndices","get",
-"SparseBlockMatrixHashMap","data-provider","addBlock","property non-void-command factory collaborator",
-"RobustKernelHuber","unclassified","RobustKernelHuber::setDelta","command",
-"RobustKernelHuber","unclassified","RobustKernelHuber::setDeltaSqr","command",
-"RobustKernelHuber","unclassified","RobustKernelHuber::robustify","void-accessor wrapper",
-"RegisterRobustKernelProxy","empty","RegisterRobustKernelProxy","constructor",
-"RegisterRobustKernelProxy","empty","~RegisterRobustKernelProxy","destructor",
-"RobustKernelCreator","factory degenerate small-class","construct","factory collaborator incidental",
-"Parameter","lazy-class","~Parameter","destructor",
-"Parameter","lazy-class","id","get",
-"Parameter","lazy-class","elementType","collaborator incidental",
-"Parameter","lazy-class","Parameter::Parameter","constructor",
-"Parameter","lazy-class","Parameter::setId","set",
-"SparseBlockMatrixCCS","data-provider","cols","property",
-"SparseBlockMatrixCCS","data-provider","rows","property",
-"SparseBlockMatrixCCS","data-provider","rowsOfBlock","property",
-"SparseBlockMatrixCCS","data-provider","colsOfBlock","property",
-"SparseBlockMatrixCCS","data-provider","rowBaseOfBlock","property",
-"SparseBlockMatrixCCS","data-provider","colBaseOfBlock","property",
-"SparseBlockMatrixCCS","data-provider","blockCols","get collaborator",
-"SparseBlockMatrixCCS","data-provider","blockCols","get collaborator",
-"SparseBlockMatrixCCS","data-provider","rowBlockIndices","get",
-"SparseBlockMatrixCCS","data-provider","colBlockIndices","get",
-"SparseBlockMatrixCCS","data-provider","rightMultiply","void-accessor",
-"SparseBlockMatrixCCS","data-provider","sortColumns","command",
-"SparseBlockMatrixCCS","data-provider","fillCCS","property",
-"SparseBlockMatrixCCS","data-provider","fillCCS","property",
-"OptimizationAlgorithmWithHessian","unclassified","solver","get collaborator",
-"OptimizationAlgorithmWithHessian","unclassified","writeDebug","predicate",
-"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::OptimizationAlgorithmWithHessian","constructor",
-"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::~OptimizationAlgorithmWithHessian","destructor",
-"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::init","predicate non-void-command",
-"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::computeMarginals","predicate non-void-command",
-"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::buildLinearStructure","predicate non-void-command",
-"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::updateLinearSystem","command",
-"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::updateStructure","predicate non-void-command collaborator",
-"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::setWriteDebug","command",
-"Viewer","entity minimal-entity boundary","Viewer::Viewer","constructor",
-"Viewer","entity minimal-entity boundary","Viewer::Run","command collaborator",
-"Viewer","entity minimal-entity boundary","Viewer::RequestFinish","set collaborator",
-"Viewer","entity minimal-entity boundary","Viewer::CheckFinish","get collaborator",
-"Viewer","entity minimal-entity boundary","Viewer::SetFinish","set collaborator",
-"Viewer","entity minimal-entity boundary","Viewer::isFinished","get collaborator",
-"Viewer","entity minimal-entity boundary","Viewer::RequestStop","set collaborator",
-"Viewer","entity minimal-entity boundary","Viewer::isStopped","get collaborator",
-"Viewer","entity minimal-entity boundary","Viewer::Stop","predicate non-void-command collaborator",
-"Viewer","entity minimal-entity boundary","Viewer::Release","set collaborator",
-"OptimizationAlgorithmProperty","empty","OptimizationAlgorithmProperty","constructor",
-"OptimizationAlgorithmProperty","empty","OptimizationAlgorithmProperty","constructor",
-"BlockSolverBase","empty","~BlockSolverBase","destructor",
-"Frame","boundary","GetCameraCenter","property non-void-command collaborator",
-"Frame","boundary","GetRotationInverse","property non-void-command collaborator",
-"Frame","boundary","Frame::Frame","constructor",
-"Frame","boundary","Frame::Frame","copy-constructor",
-"Frame","boundary","Frame::Frame","constructor",
-"Frame","boundary","Frame::Frame","constructor",
-"Frame","boundary","Frame::Frame","constructor",
-"Frame","boundary","Frame::AssignFeaturesToGrid","command",
-"Frame","boundary","Frame::ExtractORB","void-accessor wrapper",
-"Frame","boundary","Frame::SetPose","set collaborator",
-"Frame","boundary","Frame::UpdatePoseMatrices","command",
-"Frame","boundary","Frame::isInFrustum","predicate controller",
-"Frame","boundary","Frame::GetFeaturesInArea","property controller",
-"Frame","boundary","Frame::PosInGrid","predicate wrapper",
-"Frame","boundary","Frame::ComputeBoW","command collaborator",
-"Frame","boundary","Frame::UndistortKeyPoints","command collaborator",
-"Frame","boundary","Frame::ComputeImageBounds","command collaborator",
-"Frame","boundary","Frame::ComputeStereoMatches","command",
-"Frame","boundary","Frame::ComputeStereoFromRGBD","command collaborator",
-"Frame","boundary","Frame::UnprojectStereo","property wrapper",
-"ScopedOpenMPMutex","empty","ScopedOpenMPMutex","constructor",
-"ScopedOpenMPMutex","empty","~ScopedOpenMPMutex","destructor",
-"VertexSim3Expmap","entity boundary","setToOriginImpl","set",
-"VertexSim3Expmap","entity boundary","oplusImpl","command collaborator",
-"VertexSim3Expmap","entity boundary","cam_map1","property collaborator",
-"VertexSim3Expmap","entity boundary","cam_map2","property collaborator",
-"VertexSim3Expmap","entity boundary","VertexSim3Expmap::VertexSim3Expmap","constructor",
-"VertexSim3Expmap","entity boundary","VertexSim3Expmap::read","predicate non-void-command collaborator",
-"VertexSim3Expmap","entity boundary","VertexSim3Expmap::write","predicate collaborator",
-"SparseBlockMatrixDiagonal","data-provider","cols","property",
-"SparseBlockMatrixDiagonal","data-provider","rows","property",
-"SparseBlockMatrixDiagonal","data-provider","SparseBlockMatrixDiagonal","constructor",
-"SparseBlockMatrixDiagonal","data-provider","dimOfBlock","property",
-"SparseBlockMatrixDiagonal","data-provider","baseOfBlock","property",
-"SparseBlockMatrixDiagonal","data-provider","diagonal","get collaborator",
-"SparseBlockMatrixDiagonal","data-provider","diagonal","get collaborator",
-"SparseBlockMatrixDiagonal","data-provider","blockIndices","get",
-"SparseBlockMatrixDiagonal","data-provider","multiply","void-accessor collaborator",
-"MarginalCovarianceCholesky","unclassified","computeIndex","property",
-"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::MarginalCovarianceCholesky","constructor",
-"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::~MarginalCovarianceCholesky","destructor",
-"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::setCholeskyFactor","command",
-"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::computeEntry","property non-void-command",
-"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::computeCovariance","command collaborator",
-"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::computeCovariance","void-accessor command collaborator",
-"ColSort","degenerate small-class","operator()","incidental",
-"RobustKernelFactory","entity boundary","RobustKernelFactory::RobustKernelFactory","constructor",
-"RobustKernelFactory","entity boundary","RobustKernelFactory::~RobustKernelFactory","destructor",
-"RobustKernelFactory","entity boundary","RobustKernelFactory::instance","get set factory",
-"RobustKernelFactory","entity boundary","RobustKernelFactory::registerRobustKernel","void-accessor command collaborator",
-"RobustKernelFactory","entity boundary","RobustKernelFactory::unregisterType","void-accessor command collaborator",
-"RobustKernelFactory","entity boundary","RobustKernelFactory::construct","property collaborator",
-"RobustKernelFactory","entity boundary","RobustKernelFactory::creator","property collaborator",
-"RobustKernelFactory","entity boundary","RobustKernelFactory::fillKnownKernels","collaborator",
-"RobustKernelFactory","entity boundary","RobustKernelFactory::destroy","set",
-"OptimizationAlgorithmFactory","entity boundary","creatorList","get collaborator",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::OptimizationAlgorithmFactory","constructor",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::~OptimizationAlgorithmFactory","destructor",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::instance","get set factory",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::registerSolver","void-accessor command collaborator",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::unregisterSolver","command collaborator",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::construct","property collaborator",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::destroy","set",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::listSolvers","collaborator",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::findSolver","property collaborator",
-"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::findSolver","property non-void-command collaborator",
-"RobustKernelDCS","data-provider boundary small-class","RobustKernelDCS::robustify","void-accessor collaborator",
-"OptimizationAlgorithm","entity data-provider boundary","printVerbose","collaborator incidental",
-"OptimizationAlgorithm","entity data-provider boundary","optimizer","get collaborator",
-"OptimizationAlgorithm","entity data-provider boundary","optimizer","get collaborator",
-"OptimizationAlgorithm","entity data-provider boundary","properties","get collaborator",
-"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm","copy-constructor",
-"OptimizationAlgorithm","entity data-provider boundary","operator=","get",
-"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::OptimizationAlgorithm","constructor",
-"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::~OptimizationAlgorithm","destructor",
-"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::printProperties","collaborator",
-"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::updatePropertiesFromString","predicate non-void-command",
-"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::setOptimizer","set collaborator",
-"LinearSolverDense","small-class","LinearSolverDense","constructor",
-"LinearSolverDense","small-class","~LinearSolverDense","destructor",
-"LinearSolverDense","small-class","init","predicate set",
-"LinearSolverDense","small-class","solve","predicate non-void-command collaborator",
-"G2OBatchStatistics","commander data-class small-class","G2OBatchStatistics::G2OBatchStatistics","constructor",
-"G2OBatchStatistics","commander data-class small-class","G2OBatchStatistics::setGlobalStats","set",
-"OpenMPMutex","commander","OpenMPMutex","constructor",
-"OpenMPMutex","commander","~OpenMPMutex","destructor",
-"OpenMPMutex","commander","lock","wrapper",
-"OpenMPMutex","commander","unlock","wrapper",
-"OpenMPMutex","commander","OpenMPMutex","constructor",
-"OpenMPMutex","commander","OpenMPMutex","constructor",
-"OpenMPMutex","commander","~OpenMPMutex","destructor",
-"OpenMPMutex","commander","lock","set",
-"OpenMPMutex","commander","unlock","set",
-"HyperGraphElementCreator","lazy-class small-class","HyperGraphElementCreator","constructor",
-"HyperGraphElementCreator","lazy-class small-class","construct","factory collaborator incidental",
-"HyperGraphElementCreator","lazy-class small-class","name","get",
-"BaseVertex","boundary","hessian","wrapper stateless",
-"BaseVertex","boundary","hessian","wrapper stateless",
-"BaseVertex","boundary","hessianDeterminant","property",
-"BaseVertex","boundary","hessianData","property non-void-command",
-"BaseVertex","boundary","copyB","get",
-"BaseVertex","boundary","b","wrapper stateless",
-"BaseVertex","boundary","b","wrapper stateless",
-"BaseVertex","boundary","bData","property non-void-command",
-"BaseVertex","boundary","b","get collaborator",
-"BaseVertex","boundary","b","get collaborator",
-"BaseVertex","boundary","A","get collaborator",
-"BaseVertex","boundary","A","get collaborator",
-"BaseVertex","boundary","push","command",
-"BaseVertex","boundary","pop","command",
-"BaseVertex","boundary","discardTop","command",
-"BaseVertex","boundary","stackSize","property",
-"BaseVertex","boundary","estimate","get collaborator",
-"BaseVertex","boundary","setEstimate","set collaborator",
-"BaseVertex","boundary","BaseVertex<D,T>::BaseVertex","constructor",
-"BaseVertex","boundary","BaseVertex<D,T>::solveDirect","property controller",
-"BaseVertex","boundary","BaseVertex<D,T>::clearQuadraticForm","command",
-"BaseVertex","boundary","BaseVertex<D,T>::mapHessianMemory","void-accessor wrapper",
-"Random","boundary lazy-class degenerate","DUtils::Random::SeedRand","controller stateless",
-"Random","boundary lazy-class degenerate","DUtils::Random::SeedRandOnce","set",
-"Random","boundary lazy-class degenerate","DUtils::Random::SeedRand","wrapper stateless",
-"Random","boundary lazy-class degenerate","DUtils::Random::SeedRandOnce","set",
-"Random","boundary lazy-class degenerate","DUtils::Random::RandomInt","wrapper stateless",
-"ORBmatcher","unclassified","ORBmatcher::ORBmatcher","constructor",
-"ORBmatcher","unclassified","ORBmatcher::SearchByProjection","property non-void-command",
-"ORBmatcher","unclassified","ORBmatcher::RadiusByViewingCos","incidental",
-"ORBmatcher","unclassified","ORBmatcher::CheckDistEpipolarLine","controller stateless",
-"ORBmatcher","unclassified","ORBmatcher::SearchByBoW","property non-void-command collaborator",
-"ORBmatcher","unclassified","ORBmatcher::SearchByProjection","property non-void-command",
-"ORBmatcher","unclassified","ORBmatcher::SearchForInitialization","property non-void-command",
-"ORBmatcher","unclassified","ORBmatcher::SearchByBoW","property non-void-command collaborator",
-"ORBmatcher","unclassified","ORBmatcher::SearchForTriangulation","property non-void-command",
-"ORBmatcher","unclassified","ORBmatcher::Fuse","property non-void-command collaborator",
-"ORBmatcher","unclassified","ORBmatcher::Fuse","property non-void-command collaborator",
-"ORBmatcher","unclassified","ORBmatcher::SearchBySim3","property non-void-command",
-"ORBmatcher","unclassified","ORBmatcher::SearchByProjection","property non-void-command",
-"ORBmatcher","unclassified","ORBmatcher::SearchByProjection","property non-void-command",
-"ORBmatcher","unclassified","ORBmatcher::ComputeThreeMaxima","wrapper stateless",
-"ORBmatcher","unclassified","ORBmatcher::DescriptorDistance","controller stateless",
-"AbstractRobustKernelCreator","empty","~AbstractRobustKernelCreator","destructor",
-"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::constructQuadraticForm","command collaborator",
-"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::linearizeOplus","command collaborator",
-"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::linearizeOplus","set collaborator",
-"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::mapHessianMemory","void-accessor command collaborator",
-"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::resize","command",
-"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::allVerticesFixed","controller stateless",
-"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::computeQuadraticForm","command collaborator",
-"GeneralScoring","empty","~GeneralScoring","destructor",
-"Initializer","unclassified","Initializer::Initializer","constructor",
-"Initializer","unclassified","Initializer::Initialize","predicate non-void-command",
-"Initializer","unclassified","Initializer::FindHomography","void-accessor command collaborator",
-"Initializer","unclassified","Initializer::FindFundamental","void-accessor command collaborator",
-"Initializer","unclassified","Initializer::ComputeH21","controller stateless",
-"Initializer","unclassified","Initializer::ComputeF21","controller stateless",
-"Initializer","unclassified","Initializer::CheckHomography","property controller",
-"Initializer","unclassified","Initializer::CheckFundamental","property controller",
-"Initializer","unclassified","Initializer::ReconstructF","predicate non-void-command",
-"Initializer","unclassified","Initializer::ReconstructH","predicate non-void-command",
-"Initializer","unclassified","Initializer::Triangulate","controller stateless",
-"Initializer","unclassified","Initializer::Normalize","controller stateless",
-"Initializer","unclassified","Initializer::CheckRT","property non-void-command",
-"Initializer","unclassified","Initializer::DecomposeE","controller stateless",
-"OptimizableGraph","boundary","vertex","property non-void-command collaborator",
-"OptimizableGraph","boundary","vertex","property collaborator",
-"OptimizableGraph","boundary","addVertex","predicate non-void-command collaborator",
-"OptimizableGraph","boundary","addParameter","predicate non-void-command collaborator",
-"OptimizableGraph","boundary","parameter","property non-void-command collaborator",
-"OptimizableGraph","boundary","jacobianWorkspace","get collaborator",
-"OptimizableGraph","boundary","jacobianWorkspace","get collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::OptimizableGraph","constructor",
-"OptimizableGraph","boundary","OptimizableGraph::~OptimizableGraph","destructor",
-"OptimizableGraph","boundary","OptimizableGraph::addVertex","predicate non-void-command collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::addEdge","predicate non-void-command collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::optimize","incidental",
-"OptimizableGraph","boundary","OptimizableGraph::chi2","controller stateless",
-"OptimizableGraph","boundary","OptimizableGraph::push","command collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::pop","command collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::discardTop","command collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::push","controller stateless",
-"OptimizableGraph","boundary","OptimizableGraph::pop","controller stateless",
-"OptimizableGraph","boundary","OptimizableGraph::discardTop","controller stateless",
-"OptimizableGraph","boundary","OptimizableGraph::setFixed","controller stateless",
-"OptimizableGraph","boundary","OptimizableGraph::load","predicate non-void-command",
-"OptimizableGraph","boundary","OptimizableGraph::load","predicate non-void-command collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::save","predicate collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::save","predicate collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::saveSubset","predicate non-void-command collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::saveSubset","predicate non-void-command collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::addGraph","command collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::maxDimension","property collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::setRenamedTypesFromString","void-accessor command",
-"OptimizableGraph","boundary","OptimizableGraph::isSolverSuitable","predicate",
-"OptimizableGraph","boundary","OptimizableGraph::dimensions","property collaborator",
-"OptimizableGraph","boundary","OptimizableGraph::preIteration","controller",
-"OptimizableGraph","boundary","OptimizableGraph::postIteration","controller",
-"OptimizableGraph","boundary","OptimizableGraph::addPostIterationAction","predicate wrapper",
-"OptimizableGraph","boundary","OptimizableGraph::addPreIterationAction","predicate wrapper",
-"OptimizableGraph","boundary","OptimizableGraph::removePreIterationAction","get wrapper",
-"OptimizableGraph","boundary","OptimizableGraph::removePostIterationAction","get wrapper",
-"OptimizableGraph","boundary","OptimizableGraph::saveVertex","controller stateless",
-"OptimizableGraph","boundary","OptimizableGraph::saveEdge","predicate controller",
-"OptimizableGraph","boundary","OptimizableGraph::clearParameters","command",
-"OptimizableGraph","boundary","OptimizableGraph::verifyInformationMatrices","predicate",
-"OptimizableGraph","boundary","OptimizableGraph::initMultiThreading","wrapper stateless",
-"MatrixElem","data-provider small-class","MatrixElem","constructor",
-"MatrixElem","data-provider small-class","operator<","predicate",
-"FORB","controller","FORB::meanValue","void-accessor controller",
-"FORB","controller","FORB::distance","controller stateless",
-"FORB","controller","FORB::toString","controller stateless",
-"FORB","controller","FORB::fromString","controller",
-"FORB","controller","FORB::toMat32F","controller",
-"FORB","controller","FORB::toMat8U","controller stateless",
-"VertexSE3Expmap","entity boundary","setToOriginImpl","set",
-"VertexSE3Expmap","entity boundary","oplusImpl","command collaborator",
-"VertexSE3Expmap","entity boundary","VertexSE3Expmap::VertexSE3Expmap","constructor",
-"VertexSE3Expmap","entity boundary","VertexSE3Expmap::read","predicate non-void-command collaborator",
-"VertexSE3Expmap","entity boundary","VertexSE3Expmap::write","predicate collaborator",
-"Random::UnrepeatedRandomizer","data-provider small-class","~UnrepeatedRandomizer","destructor",
-"Random::UnrepeatedRandomizer","data-provider small-class","empty","predicate",
-"Random::UnrepeatedRandomizer","data-provider small-class","left","property",
-"RegisterTypeProxy","empty","RegisterTypeProxy","constructor",
-"RegisterTypeProxy","empty","~RegisterTypeProxy","destructor",
-"FrameDrawer","entity boundary","FrameDrawer::FrameDrawer","constructor",
-"FrameDrawer","entity boundary","FrameDrawer::DrawFrame","property non-void-command collaborator",
-"FrameDrawer","entity boundary","FrameDrawer::DrawTextInfo","void-accessor command collaborator",
-"FrameDrawer","entity boundary","FrameDrawer::Update","command collaborator",
-"CmpPairFirst","boundary degenerate small-class","operator()","wrapper stateless",
-"EstimatePropagatorCostOdometry","data-provider small-class","name","incidental",
-"EstimatePropagatorCostOdometry","data-provider small-class","EstimatePropagatorCostOdometry::EstimatePropagatorCostOdometry","constructor",
-"EstimatePropagatorCostOdometry","data-provider small-class","EstimatePropagatorCostOdometry::operator()","property collaborator",
-"BaseEdge","data-provider boundary","BaseEdge","constructor",
-"BaseEdge","data-provider boundary","~BaseEdge","destructor",
-"BaseEdge","data-provider boundary","chi2","property",
-"BaseEdge","data-provider boundary","errorData","property",
-"BaseEdge","data-provider boundary","errorData","property non-void-command",
-"BaseEdge","data-provider boundary","error","get collaborator",
-"BaseEdge","data-provider boundary","error","get collaborator",
-"BaseEdge","data-provider boundary","information","get collaborator",
-"BaseEdge","data-provider boundary","information","get collaborator",
-"BaseEdge","data-provider boundary","setInformation","set collaborator",
-"BaseEdge","data-provider boundary","informationData","property",
-"BaseEdge","data-provider boundary","informationData","property non-void-command",
-"BaseEdge","data-provider boundary","measurement","get collaborator",
-"BaseEdge","data-provider boundary","setMeasurement","set collaborator",
-"BaseEdge","data-provider boundary","rank","incidental",
-"BaseEdge","data-provider boundary","initialEstimate","incidental",
-"BaseEdge","data-provider boundary","robustInformation","property collaborator",
-"BlockSolver","unclassified","supportsSchur","incidental",
-"BlockSolver","unclassified","schur","get",
-"BlockSolver","unclassified","setSchur","set",
-"BlockSolver","unclassified","linearSolver","get collaborator",
-"BlockSolver","unclassified","writeDebug","predicate",
-"BlockSolver","unclassified","multiplyHessian","void-accessor",
-"BlockSolver","unclassified","BlockSolver<Traits>::BlockSolver","constructor",
-"BlockSolver","unclassified","BlockSolver<Traits>::resize","void-accessor command",
-"BlockSolver","unclassified","BlockSolver<Traits>::deallocate","command",
-"BlockSolver","unclassified","BlockSolver<Traits>::~BlockSolver","destructor",
-"BlockSolver","unclassified","BlockSolver<Traits>::buildStructure","predicate non-void-command",
-"BlockSolver","unclassified","BlockSolver<Traits>::updateStructure","predicate non-void-command collaborator",
-"BlockSolver","unclassified","BlockSolver<Traits>::solve","predicate non-void-command",
-"BlockSolver","unclassified","BlockSolver<Traits>::computeMarginals","predicate non-void-command collaborator",
-"BlockSolver","unclassified","BlockSolver<Traits>::buildSystem","predicate non-void-command",
-"BlockSolver","unclassified","BlockSolver<Traits>::setLambda","predicate non-void-command collaborator",
-"BlockSolver","unclassified","BlockSolver<Traits>::restoreDiagonal","command collaborator",
-"BlockSolver","unclassified","BlockSolver<Traits>::init","predicate non-void-command",
-"BlockSolver","unclassified","BlockSolver<Traits>::setWriteDebug","command",
-"BlockSolver","unclassified","BlockSolver<Traits>::saveHessian","predicate",
-"HyperGraphElementAction","lazy-class","typeName","get",
-"HyperGraphElementAction","lazy-class","name","get",
-"HyperGraphElementAction","lazy-class","HyperGraphElementAction::HyperGraphElementAction","constructor",
-"HyperGraphElementAction","lazy-class","HyperGraphElementAction::setTypeName","set",
-"HyperGraphElementAction","lazy-class","HyperGraphElementAction::operator()","incidental",
-"HyperGraphElementAction","lazy-class","HyperGraphElementAction::operator()","incidental",
-"HyperGraphElementAction","lazy-class","HyperGraphElementAction::~HyperGraphElementAction","destructor",
-"ViewerAR","unclassified","SetFPS","command",
-"ViewerAR","unclassified","SetSLAM","set collaborator",
-"ViewerAR","unclassified","SetCameraCalibration","command",
-"ViewerAR","unclassified","ViewerAR::ViewerAR","constructor",
-"ViewerAR","unclassified","ViewerAR::Run","command collaborator",
-"ViewerAR","unclassified","ViewerAR::SetImagePose","command collaborator",
-"ViewerAR","unclassified","ViewerAR::GetImagePose","void-accessor command collaborator",
-"ViewerAR","unclassified","ViewerAR::LoadCameraPose","controller stateless",
-"ViewerAR","unclassified","ViewerAR::PrintStatus","void-accessor command collaborator",
-"ViewerAR","unclassified","ViewerAR::AddTextToImage","wrapper stateless",
-"ViewerAR","unclassified","ViewerAR::DrawImageTexture","controller stateless",
-"ViewerAR","unclassified","ViewerAR::DrawCube","controller stateless",
-"ViewerAR","unclassified","ViewerAR::DrawPlane","command",
-"ViewerAR","unclassified","ViewerAR::DrawPlane","wrapper stateless",
-"ViewerAR","unclassified","ViewerAR::DrawTrackedPoints","controller stateless",
-"ViewerAR","unclassified","ViewerAR::DetectPlane","factory controller stateless",
-"DrawAction","entity boundary small-class","DrawAction::DrawAction","constructor",
-"DrawAction","entity boundary small-class","DrawAction::refreshPropertyPtrs","predicate non-void-command collaborator",
-"OptimizationAlgorithmGaussNewton","entity boundary small-class","OptimizationAlgorithmGaussNewton::OptimizationAlgorithmGaussNewton","constructor",
-"OptimizationAlgorithmGaussNewton","entity boundary small-class","OptimizationAlgorithmGaussNewton::~OptimizationAlgorithmGaussNewton","destructor",
-"OptimizationAlgorithmGaussNewton","entity boundary small-class","OptimizationAlgorithmGaussNewton::solve","property non-void-command collaborator",
-"OptimizationAlgorithmGaussNewton","entity boundary small-class","OptimizationAlgorithmGaussNewton::printVerbose","collaborator",
-"ImageGrabber","entity boundary","ImageGrabber","constructor",
-"ImageGrabber","entity boundary","ImageGrabber","constructor",
-"ImageGrabber","entity boundary","ImageGrabber","constructor",
-"ImageGrabber","entity boundary","ImageGrabber","constructor",
-"ImageGrabber","entity boundary","ImageGrabber::GrabImage","void-accessor command collaborator",
-"ImageGrabber","entity boundary","ImageGrabber::GrabImage","void-accessor command collaborator",
-"ImageGrabber","entity boundary","ImageGrabber::GrabRGBD","void-accessor command collaborator",
-"ImageGrabber","entity boundary","ImageGrabber::GrabStereo","void-accessor command collaborator",
-"LocalMapping","boundary","KeyframesInQueue","property non-void-command collaborator",
-"LocalMapping","boundary","LocalMapping::LocalMapping","constructor",
-"LocalMapping","boundary","LocalMapping::SetLoopCloser","set collaborator",
-"LocalMapping","boundary","LocalMapping::SetTracker","set collaborator",
-"LocalMapping","boundary","LocalMapping::Run","command",
-"LocalMapping","boundary","LocalMapping::InsertKeyFrame","void-accessor set collaborator",
-"LocalMapping","boundary","LocalMapping::CheckNewKeyFrames","predicate non-void-command collaborator",
-"LocalMapping","boundary","LocalMapping::ProcessNewKeyFrame","command collaborator",
-"LocalMapping","boundary","LocalMapping::MapPointCulling","command collaborator",
-"LocalMapping","boundary","LocalMapping::CreateNewMapPoints","command collaborator",
-"LocalMapping","boundary","LocalMapping::SearchInNeighbors","command collaborator",
-"LocalMapping","boundary","LocalMapping::ComputeF12","property non-void-command collaborator",
-"LocalMapping","boundary","LocalMapping::RequestStop","command collaborator",
-"LocalMapping","boundary","LocalMapping::Stop","predicate set collaborator",
-"LocalMapping","boundary","LocalMapping::isStopped","get collaborator",
-"LocalMapping","boundary","LocalMapping::stopRequested","get collaborator",
-"LocalMapping","boundary","LocalMapping::Release","command collaborator",
-"LocalMapping","boundary","LocalMapping::AcceptKeyFrames","get collaborator",
-"LocalMapping","boundary","LocalMapping::SetAcceptKeyFrames","set collaborator",
-"LocalMapping","boundary","LocalMapping::SetNotStop","predicate set collaborator",
-"LocalMapping","boundary","LocalMapping::InterruptBA","set",
-"LocalMapping","boundary","LocalMapping::KeyFrameCulling","command",
-"LocalMapping","boundary","LocalMapping::SkewSymmetricMatrix","controller stateless",
-"LocalMapping","boundary","LocalMapping::RequestReset","set collaborator",
-"LocalMapping","boundary","LocalMapping::ResetIfRequested","command collaborator",
-"LocalMapping","boundary","LocalMapping::RequestFinish","set collaborator",
-"LocalMapping","boundary","LocalMapping::CheckFinish","get collaborator",
-"LocalMapping","boundary","LocalMapping::SetFinish","command collaborator",
-"LocalMapping","boundary","LocalMapping::isFinished","get collaborator",
-"BaseBinaryEdge","entity boundary","BaseBinaryEdge","constructor",
-"BaseBinaryEdge","entity boundary","jacobianOplusXi","get collaborator",
-"BaseBinaryEdge","entity boundary","jacobianOplusXj","get collaborator",
-"BaseBinaryEdge","entity boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::createFrom","factory collaborator stateless",
-"BaseBinaryEdge","entity boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::createTo","factory collaborator stateless",
-"BaseBinaryEdge","entity boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::resize","command",
-"BaseBinaryEdge","entity boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::allVerticesFixed","wrapper stateless",
-"BaseBinaryEdge","entity boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::constructQuadraticForm","command collaborator",
-"BaseBinaryEdge","entity boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::linearizeOplus","command collaborator",
-"BaseBinaryEdge","entity boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::linearizeOplus","command",
-"BaseBinaryEdge","entity boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::mapHessianMemory","void-accessor set",
-"HyperGraph","entity boundary","vertices","get collaborator",
-"HyperGraph","entity boundary","vertices","get collaborator",
-"HyperGraph","entity boundary","edges","get collaborator",
-"HyperGraph","entity boundary","edges","get collaborator",
-"HyperGraph","entity boundary","operator=","get",
-"HyperGraph","entity boundary","HyperGraph::vertex","property non-void-command collaborator",
-"HyperGraph","entity boundary","HyperGraph::vertex","property collaborator",
-"HyperGraph","entity boundary","HyperGraph::addVertex","predicate non-void-command collaborator",
-"HyperGraph","entity boundary","HyperGraph::changeId","predicate non-void-command collaborator",
-"HyperGraph","entity boundary","HyperGraph::addEdge","predicate non-void-command collaborator",
-"HyperGraph","entity boundary","HyperGraph::removeVertex","predicate non-void-command collaborator",
-"HyperGraph","entity boundary","HyperGraph::removeEdge","predicate non-void-command collaborator",
-"HyperGraph","entity boundary","HyperGraph::HyperGraph","constructor",
-"HyperGraph","entity boundary","HyperGraph::clear","command collaborator",
-"HyperGraph","entity boundary","HyperGraph::~HyperGraph","destructor",
-"Cache","boundary","elementType","collaborator incidental",
-"Cache","boundary","Cache::Cache","copy-constructor",
-"Cache","boundary","Cache::vertex","property non-void-command collaborator",
-"Cache","boundary","Cache::graph","property non-void-command collaborator",
-"Cache","boundary","Cache::container","get collaborator",
-"Cache","boundary","Cache::parameters","get collaborator",
-"Cache","boundary","Cache::key","property controller",
-"Cache","boundary","Cache::update","command",
-"Cache","boundary","Cache::installDependency","property non-void-command",
-"Cache","boundary","Cache::resolveDependancies","incidental",
-"Sim3Solver","boundary","Sim3Solver::Sim3Solver","constructor",
-"Sim3Solver","boundary","Sim3Solver::SetRansacParameters","command",
-"Sim3Solver","boundary","Sim3Solver::iterate","get property non-void-command collaborator",
-"Sim3Solver","boundary","Sim3Solver::find","property non-void-command collaborator",
-"Sim3Solver","boundary","Sim3Solver::ComputeCentroid","controller stateless",
-"Sim3Solver","boundary","Sim3Solver::ComputeSim3","void-accessor command collaborator",
-"Sim3Solver","boundary","Sim3Solver::CheckInliers","command",
-"Sim3Solver","boundary","Sim3Solver::GetEstimatedRotation","property non-void-command collaborator",
-"Sim3Solver","boundary","Sim3Solver::GetEstimatedTranslation","property non-void-command collaborator",
-"Sim3Solver","boundary","Sim3Solver::GetEstimatedScale","get",
-"Sim3Solver","boundary","Sim3Solver::Project","controller stateless",
-"Sim3Solver","boundary","Sim3Solver::FromCameraToImage","controller stateless",
-"AbstractHyperGraphElementCreator","empty","~AbstractHyperGraphElementCreator","destructor",
-"MapDrawer","entity boundary","MapDrawer::MapDrawer","constructor",
-"MapDrawer","entity boundary","MapDrawer::DrawMapPoints","command collaborator",
-"MapDrawer","entity boundary","MapDrawer::DrawKeyFrames","command collaborator",
-"MapDrawer","entity boundary","MapDrawer::DrawCurrentCamera","void-accessor wrapper",
-"MapDrawer","entity boundary","MapDrawer::SetCurrentCameraPose","set collaborator",
-"MapDrawer","entity boundary","MapDrawer::GetCurrentOpenGLCameraMatrix","void-accessor command collaborator",
-"EdgeSim3ProjectXYZ","entity boundary","computeError","set collaborator",
-"EdgeSim3ProjectXYZ","entity boundary","EdgeSim3ProjectXYZ::EdgeSim3ProjectXYZ","constructor",
-"EdgeSim3ProjectXYZ","entity boundary","EdgeSim3ProjectXYZ::read","predicate non-void-command collaborator",
-"EdgeSim3ProjectXYZ","entity boundary","EdgeSim3ProjectXYZ::write","predicate collaborator",
-"RobustKernelTukey","small-class","RobustKernelTukey::setDeltaSqr","command",
-"RobustKernelTukey","small-class","RobustKernelTukey::robustify","void-accessor collaborator",
-"AbstractOptimizationAlgorithmCreator","data-provider boundary data-class small-class","~AbstractOptimizationAlgorithmCreator","destructor",
-"AbstractOptimizationAlgorithmCreator","data-provider boundary data-class small-class","property","get collaborator",
-"AbstractOptimizationAlgorithmCreator","data-provider boundary data-class small-class","AbstractOptimizationAlgorithmCreator::AbstractOptimizationAlgorithmCreator","constructor",
-"RobustKernelScaleDelta","boundary","kernel","get collaborator",
-"RobustKernelScaleDelta","boundary","RobustKernelScaleDelta::RobustKernelScaleDelta","constructor",
-"RobustKernelScaleDelta","boundary","RobustKernelScaleDelta::RobustKernelScaleDelta","constructor",
-"RobustKernelScaleDelta","boundary","RobustKernelScaleDelta::setKernel","set collaborator",
-"RobustKernelScaleDelta","boundary","RobustKernelScaleDelta::robustify","void-accessor collaborator",
-"CacheContainer","boundary","CacheContainer::CacheContainer","constructor",
-"CacheContainer","boundary","CacheContainer::findCache","wrapper stateless",
-"CacheContainer","boundary","CacheContainer::createCache","property controller",
-"CacheContainer","boundary","CacheContainer::vertex","get collaborator",
-"CacheContainer","boundary","CacheContainer::graph","property non-void-command collaborator",
-"CacheContainer","boundary","CacheContainer::update","set collaborator",
-"CacheContainer","boundary","CacheContainer::setUpdateNeeded","set collaborator",
-"CacheContainer","boundary","CacheContainer::~CacheContainer","destructor",
-"ExtractorNode","commander boundary small-class","ExtractorNode","constructor",
-"ExtractorNode","commander boundary small-class","ExtractorNode::DivideNode","command collaborator",
-"MatrixStructure","unclassified","nzMax","get",
-"MatrixStructure","unclassified","MatrixStructure::MatrixStructure","constructor",
-"MatrixStructure","unclassified","MatrixStructure::~MatrixStructure","destructor",
-"MatrixStructure","unclassified","MatrixStructure::alloc","command",
-"MatrixStructure","unclassified","MatrixStructure::free","command",
-"MatrixStructure","unclassified","MatrixStructure::write","predicate controller",
-"Plane","commander small-class","Plane::Plane","constructor",
-"Plane","commander small-class","Plane::Recompute","command",
-"Plane","commander small-class","Plane::Plane","constructor",
-"FrontierLevelCmp","pure-controller degenerate small-class","operator()","controller stateless",
-"EstimatePropagatorCost","data-provider small-class","name","incidental",
-"EstimatePropagatorCost","data-provider small-class","EstimatePropagatorCost::EstimatePropagatorCost","constructor",
-"EstimatePropagatorCost","data-provider small-class","EstimatePropagatorCost::operator()","property collaborator",
-"TemplatedVocabulary","boundary","getBranchingFactor","get",
-"TemplatedVocabulary","boundary","getDepthLevels","get",
-"TemplatedVocabulary","boundary","getWeightingType","get collaborator",
-"TemplatedVocabulary","boundary","getScoringType","get collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary","constructor",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary","constructor",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary","constructor",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::createScoringObject","set",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::setScoringType","set collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::setWeightingType","set collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary","copy-constructor",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::~TemplatedVocabulary","destructor",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::operator=","get non-void-command collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::create","void-accessor command collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::create","void-accessor command",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::create","void-accessor command collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getFeatures","controller stateless",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::HKmeansStep","void-accessor command",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::initiateClusters","void-accessor collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::initiateClustersKMpp","void-accessor controller",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::createWords","command collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::setNodeWeights","command collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::size","property",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::empty","predicate",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getEffectiveLevels","property collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getWord","get collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getWordWeight","get collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","property collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::score","property collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","wrapper stateless",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","void-accessor controller",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getParentNode","property collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getWordsFromNode","controller",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::stopWords","property non-void-command collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::loadFromTextFile","predicate non-void-command",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::saveToTextFile","collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::save","collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::load","controller stateless",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::save","collaborator",
-"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::load","command collaborator",
-"EdgeInverseSim3ProjectXYZ","entity boundary","computeError","set collaborator",
-"EdgeInverseSim3ProjectXYZ","entity boundary","EdgeInverseSim3ProjectXYZ::EdgeInverseSim3ProjectXYZ","constructor",
-"EdgeInverseSim3ProjectXYZ","entity boundary","EdgeInverseSim3ProjectXYZ::read","predicate non-void-command collaborator",
-"EdgeInverseSim3ProjectXYZ","entity boundary","EdgeInverseSim3ProjectXYZ::write","predicate collaborator",
-"FeatureVector","pure-controller degenerate small-class","FeatureVector::FeatureVector","constructor",
-"FeatureVector","pure-controller degenerate small-class","FeatureVector::~FeatureVector","destructor",
-"FeatureVector","pure-controller degenerate small-class","FeatureVector::addFeature","controller stateless",
-"Timestamp","unclassified","setTime","command",
-"Timestamp","unclassified","getTime","void-accessor",
-"Timestamp","unclassified","Timestamp::Timestamp","copy-constructor",
-"Timestamp","unclassified","Timestamp::~Timestamp","destructor",
-"Timestamp","unclassified","Timestamp::empty","predicate",
-"Timestamp","unclassified","Timestamp::setToCurrentTime","command collaborator",
-"Timestamp","unclassified","Timestamp::setTime","command",
-"Timestamp","unclassified","Timestamp::setTime","command",
-"Timestamp","unclassified","Timestamp::getFloatTime","property wrapper",
-"Timestamp","unclassified","Timestamp::getStringTime","controller stateless",
-"Timestamp","unclassified","Timestamp::operator-","controller stateless",
-"Timestamp","unclassified","Timestamp::operator+=","get set",
-"Timestamp","unclassified","Timestamp::operator-=","get set",
-"Timestamp","unclassified","Timestamp::operator+","controller stateless",
-"Timestamp","unclassified","Timestamp::plus","property controller",
-"Timestamp","unclassified","Timestamp::operator-","controller stateless",
-"Timestamp","unclassified","Timestamp::minus","property controller",
-"Timestamp","unclassified","Timestamp::operator>","predicate",
-"Timestamp","unclassified","Timestamp::operator>=","predicate",
-"Timestamp","unclassified","Timestamp::operator<","predicate",
-"Timestamp","unclassified","Timestamp::operator<=","predicate",
-"Timestamp","unclassified","Timestamp::operator==","predicate",
-"Timestamp","unclassified","Timestamp::Format","property",
-"Timestamp","unclassified","Timestamp::Format","controller stateless",
-"Optimizer","controller degenerate","Optimizer::GlobalBundleAdjustemnt","void-accessor command collaborator",
-"Optimizer","controller degenerate","Optimizer::BundleAdjustment","controller stateless",
-"Optimizer","controller degenerate","Optimizer::PoseOptimization","controller stateless",
-"Optimizer","controller degenerate","Optimizer::LocalBundleAdjustment","controller stateless",
-"Optimizer","controller degenerate","Optimizer::OptimizeEssentialGraph","controller stateless",
-"Optimizer","controller degenerate","Optimizer::OptimizeSim3","controller stateless",
-"EstimatePropagator","entity boundary","visited","get collaborator",
-"EstimatePropagator","entity boundary","adjacencyMap","get collaborator",
-"EstimatePropagator","entity boundary","graph","get collaborator",
-"EstimatePropagator","entity boundary","EstimatePropagator::EstimatePropagator","constructor",
-"EstimatePropagator","entity boundary","EstimatePropagator::reset","command collaborator",
-"EstimatePropagator","entity boundary","EstimatePropagator::propagate","void-accessor command collaborator",
-"EstimatePropagator","entity boundary","EstimatePropagator::propagate","command collaborator",
-"BaseUnaryEdge","commander","BaseUnaryEdge","constructor",
-"BaseUnaryEdge","commander","jacobianOplusXi","get collaborator",
-"BaseUnaryEdge","commander","mapHessianMemory","incidental",
-"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::resize","command",
-"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::allVerticesFixed","wrapper stateless",
-"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::constructQuadraticForm","command collaborator",
-"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::linearizeOplus","command collaborator",
-"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::linearizeOplus","set",
-"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::initialEstimate","incidental",
-"Factory","entity boundary","Factory::Factory","constructor",
-"Factory","entity boundary","Factory::~Factory","destructor",
-"Factory","entity boundary","Factory::instance","get set factory",
-"Factory","entity boundary","Factory::registerType","void-accessor command collaborator",
-"Factory","entity boundary","Factory::unregisterType","void-accessor command collaborator",
-"Factory","entity boundary","Factory::construct","property collaborator",
-"Factory","entity boundary","Factory::tag","property collaborator",
-"Factory","entity boundary","Factory::fillKnownTypes","collaborator",
-"Factory","entity boundary","Factory::knowsTag","predicate collaborator",
-"Factory","entity boundary","Factory::destroy","set",
-"Factory","entity boundary","Factory::printRegisteredTypes","collaborator",
-"Factory","entity boundary","Factory::construct","property collaborator",
-"TripletEntry","empty","TripletEntry","constructor",
-"RobustKernel","data-class small-class","~RobustKernel","destructor",
-"RobustKernel","data-class small-class","delta","get",
-"RobustKernel","data-class small-class","RobustKernel::RobustKernel","constructor",
-"RobustKernel","data-class small-class","RobustKernel::RobustKernel","constructor",
-"RobustKernel","data-class small-class","RobustKernel::setDelta","set",
-"HyperDijkstra","unclassified","visited","get collaborator",
-"HyperDijkstra","unclassified","adjacencyMap","get collaborator",
-"HyperDijkstra","unclassified","graph","get collaborator",
-"HyperDijkstra","unclassified","HyperDijkstra::HyperDijkstra","constructor",
-"HyperDijkstra","unclassified","HyperDijkstra::reset","command collaborator",
-"HyperDijkstra","unclassified","HyperDijkstra::shortestPaths","command collaborator",
-"HyperDijkstra","unclassified","HyperDijkstra::shortestPaths","void-accessor command collaborator",
-"HyperDijkstra","unclassified","HyperDijkstra::computeTree","controller stateless",
-"HyperDijkstra","unclassified","HyperDijkstra::visitAdjacencyMap","controller stateless",
-"HyperDijkstra","unclassified","HyperDijkstra::connectedSubset","controller stateless",
-"BowVector","degenerate","BowVector::BowVector","constructor",
-"BowVector","degenerate","BowVector::~BowVector","destructor",
-"BowVector","degenerate","BowVector::addWeight","controller stateless",
-"BowVector","degenerate","BowVector::addIfNotExist","controller stateless",
-"BowVector","degenerate","BowVector::normalize","wrapper stateless",
-"BowVector","degenerate","BowVector::saveM","controller stateless",
-"UniformCostFunction","degenerate small-class","UniformCostFunction::operator()","incidental",
-"HyperGraphAction","degenerate small-class","HyperGraphAction::~HyperGraphAction","destructor",
-"HyperGraphAction","degenerate small-class","HyperGraphAction::operator()","incidental",
-"HyperGraphElementActionCollection","entity boundary","actionMap","get collaborator",
-"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::HyperGraphElementActionCollection","constructor",
-"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::~HyperGraphElementActionCollection","destructor",
-"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::operator()","property non-void-command collaborator",
-"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::operator()","property non-void-command collaborator",
-"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::registerAction","predicate non-void-command collaborator",
-"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::unregisterAction","predicate non-void-command collaborator",
-"RegisterActionProxy","empty","RegisterActionProxy","constructor",
-"RegisterActionProxy","empty","~RegisterActionProxy","destructor",
-"KeyFrame","boundary","KeyFrame::KeyFrame","copy-constructor",
-"KeyFrame","boundary","KeyFrame::ComputeBoW","command collaborator",
-"KeyFrame","boundary","KeyFrame::SetPose","command collaborator",
-"KeyFrame","boundary","KeyFrame::GetPose","property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::GetPoseInverse","property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::GetCameraCenter","property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::GetStereoCenter","property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::GetRotation","property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::GetTranslation","property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::AddConnection","void-accessor command collaborator",
-"KeyFrame","boundary","KeyFrame::UpdateBestCovisibles","command",
-"KeyFrame","boundary","KeyFrame::GetConnectedKeyFrames","property non-void-command",
-"KeyFrame","boundary","KeyFrame::GetVectorCovisibleKeyFrames","get collaborator",
-"KeyFrame","boundary","KeyFrame::GetBestCovisibilityKeyFrames","get property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::GetCovisiblesByWeight","property non-void-command",
-"KeyFrame","boundary","KeyFrame::GetWeight","get property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::AddMapPoint","set collaborator",
-"KeyFrame","boundary","KeyFrame::EraseMapPointMatch","set collaborator",
-"KeyFrame","boundary","KeyFrame::EraseMapPointMatch","set collaborator",
-"KeyFrame","boundary","KeyFrame::ReplaceMapPointMatch","set collaborator",
-"KeyFrame","boundary","KeyFrame::GetMapPoints","property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::TrackedMapPoints","property controller",
-"KeyFrame","boundary","KeyFrame::GetMapPointMatches","get collaborator",
-"KeyFrame","boundary","KeyFrame::GetMapPoint","get collaborator",
-"KeyFrame","boundary","KeyFrame::UpdateConnections","command collaborator",
-"KeyFrame","boundary","KeyFrame::AddChild","void-accessor command collaborator",
-"KeyFrame","boundary","KeyFrame::EraseChild","void-accessor command collaborator",
-"KeyFrame","boundary","KeyFrame::ChangeParent","set collaborator",
-"KeyFrame","boundary","KeyFrame::GetChilds","get collaborator",
-"KeyFrame","boundary","KeyFrame::GetParent","get collaborator",
-"KeyFrame","boundary","KeyFrame::hasChild","predicate non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::AddLoopEdge","void-accessor set collaborator",
-"KeyFrame","boundary","KeyFrame::GetLoopEdges","get collaborator",
-"KeyFrame","boundary","KeyFrame::SetNotErase","set collaborator",
-"KeyFrame","boundary","KeyFrame::SetErase","command collaborator",
-"KeyFrame","boundary","KeyFrame::SetBadFlag","command",
-"KeyFrame","boundary","KeyFrame::isBad","get collaborator",
-"KeyFrame","boundary","KeyFrame::EraseConnection","void-accessor command collaborator",
-"KeyFrame","boundary","KeyFrame::GetFeaturesInArea","property controller",
-"KeyFrame","boundary","KeyFrame::IsInImage","predicate",
-"KeyFrame","boundary","KeyFrame::UnprojectStereo","property non-void-command collaborator",
-"KeyFrame","boundary","KeyFrame::ComputeSceneMedianDepth","property non-void-command",
-"BaseProperty","data-provider data-class small-class","name","get",
-"BaseProperty","data-provider data-class small-class","BaseProperty::BaseProperty","constructor",
-"BaseProperty","data-provider data-class small-class","BaseProperty::~BaseProperty","destructor",
-"HyperGraphActionLibrary","entity boundary","actionMap","get collaborator",
-"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::HyperGraphActionLibrary","constructor",
-"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::instance","get set factory",
-"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::destroy","set",
-"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::~HyperGraphActionLibrary","destructor",
-"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::actionByName","property non-void-command collaborator",
-"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::registerAction","predicate non-void-command collaborator",
-"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::unregisterAction","predicate non-void-command collaborator",
-"WriteGnuplotAction","empty","WriteGnuplotAction::WriteGnuplotAction","constructor",
-"JacobianWorkspace","commander boundary","workspaceForVertex","get non-void-command",
-"JacobianWorkspace","commander boundary","JacobianWorkspace::JacobianWorkspace","constructor",
-"JacobianWorkspace","commander boundary","JacobianWorkspace::~JacobianWorkspace","destructor",
-"JacobianWorkspace","commander boundary","JacobianWorkspace::allocate","predicate non-void-command collaborator",
-"JacobianWorkspace","commander boundary","JacobianWorkspace::updateSize","command collaborator",
-"JacobianWorkspace","commander boundary","JacobianWorkspace::updateSize","command collaborator",
-"JacobianWorkspace","commander boundary","JacobianWorkspace::updateSize","command",
-"LinearSolver","degenerate","LinearSolver","constructor",
-"LinearSolver","degenerate","~LinearSolver","destructor",
-"LinearSolver","degenerate","solveBlocks","collaborator incidental",
-"LinearSolver","degenerate","solvePattern","collaborator incidental",
-"LinearSolver","degenerate","writeDebug","incidental",
-"LinearSolver","degenerate","setWriteDebug","empty",
-"LinearSolverCCS","commander boundary data-class small-class","LinearSolverCCS","constructor",
-"LinearSolverCCS","commander boundary data-class small-class","~LinearSolverCCS","destructor",
-"LinearSolverCCS","commander boundary data-class small-class","initMatrixStructure","set collaborator",
-"OptimizationAlgorithmDogleg","data-provider","lastStep","get",
-"OptimizationAlgorithmDogleg","data-provider","trustRegion","get",
-"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::OptimizationAlgorithmDogleg","constructor",
-"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::~OptimizationAlgorithmDogleg","destructor",
-"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::solve","property non-void-command collaborator",
-"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::printVerbose","collaborator",
-"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::stepType2Str","incidental",
-"OptimizationAlgorithmLevenberg","unclassified","currentLambda","get",
-"OptimizationAlgorithmLevenberg","unclassified","maxTrialsAfterFailure","property",
-"OptimizationAlgorithmLevenberg","unclassified","userLambdaInit","property non-void-command",
-"OptimizationAlgorithmLevenberg","unclassified","levenbergIteration","get",
-"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::OptimizationAlgorithmLevenberg","constructor",
-"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::~OptimizationAlgorithmLevenberg","destructor",
-"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::solve","property non-void-command collaborator",
-"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::computeLambdaInit","property",
-"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::computeScale","property",
-"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::setMaxTrialsAfterFailure","command",
-"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::setUserLambdaInit","command",
-"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::printVerbose","collaborator",
-"ParameterContainer","boundary degenerate","isMainStorage","get",
-"ParameterContainer","boundary degenerate","ParameterContainer::ParameterContainer","constructor",
-"ParameterContainer","boundary degenerate","ParameterContainer::clear","command collaborator",
-"ParameterContainer","boundary degenerate","ParameterContainer::~ParameterContainer","destructor",
-"ParameterContainer","boundary degenerate","ParameterContainer::addParameter","controller stateless",
-"ParameterContainer","boundary degenerate","ParameterContainer::getParameter","wrapper stateless",
-"ParameterContainer","boundary degenerate","ParameterContainer::detachParameter","wrapper stateless",
-"ParameterContainer","boundary degenerate","ParameterContainer::write","controller stateless",
-"ParameterContainer","boundary degenerate","ParameterContainer::read","predicate non-void-command",
-"RegisterOptimizationAlgorithmProxy","empty","RegisterOptimizationAlgorithmProxy","constructor",
-"RegisterOptimizationAlgorithmProxy","empty","~RegisterOptimizationAlgorithmProxy","destructor",
+"Tracking","entity commander boundary","Tracking::Tracking","constructor"
+"Tracking","entity commander boundary","Tracking::SetLocalMapper","set collaborator"
+"Tracking","entity commander boundary","Tracking::SetLoopClosing","set collaborator"
+"Tracking","entity commander boundary","Tracking::SetViewer","set collaborator"
+"Tracking","entity commander boundary","Tracking::GrabImageStereo","property non-void-command collaborator"
+"Tracking","entity commander boundary","Tracking::GrabImageRGBD","property non-void-command collaborator"
+"Tracking","entity commander boundary","Tracking::GrabImageMonocular","property non-void-command collaborator"
+"Tracking","entity commander boundary","Tracking::Track","command collaborator"
+"Tracking","entity commander boundary","Tracking::StereoInitialization","command collaborator"
+"Tracking","entity commander boundary","Tracking::MonocularInitialization","command collaborator"
+"Tracking","entity commander boundary","Tracking::CreateInitialMapMonocular","command collaborator"
+"Tracking","entity commander boundary","Tracking::CheckReplacedInLastFrame","set collaborator"
+"Tracking","entity commander boundary","Tracking::TrackReferenceKeyFrame","predicate non-void-command collaborator"
+"Tracking","entity commander boundary","Tracking::UpdateLastFrame","command collaborator"
+"Tracking","entity commander boundary","Tracking::TrackWithMotionModel","predicate non-void-command collaborator"
+"Tracking","entity commander boundary","Tracking::TrackLocalMap","predicate non-void-command"
+"Tracking","entity commander boundary","Tracking::NeedNewKeyFrame","predicate non-void-command"
+"Tracking","entity commander boundary","Tracking::CreateNewKeyFrame","command collaborator"
+"Tracking","entity commander boundary","Tracking::SearchLocalPoints","command"
+"Tracking","entity commander boundary","Tracking::UpdateLocalMap","command"
+"Tracking","entity commander boundary","Tracking::UpdateLocalPoints","command collaborator"
+"Tracking","entity commander boundary","Tracking::UpdateLocalKeyFrames","command collaborator"
+"Tracking","entity commander boundary","Tracking::Relocalization","predicate non-void-command"
+"Tracking","entity commander boundary","Tracking::Reset","command"
+"Tracking","entity commander boundary","Tracking::ChangeCalibration","set"
+"Tracking","entity commander boundary","Tracking::InformOnlyTracking","set"
+"System","entity minimal-entity boundary","System::System","constructor"
+"System","entity minimal-entity boundary","System::TrackStereo","property non-void-command collaborator"
+"System","entity minimal-entity boundary","System::TrackRGBD","property non-void-command collaborator"
+"System","entity minimal-entity boundary","System::TrackMonocular","property non-void-command collaborator"
+"System","entity minimal-entity boundary","System::ActivateLocalizationMode","set collaborator"
+"System","entity minimal-entity boundary","System::DeactivateLocalizationMode","set collaborator"
+"System","entity minimal-entity boundary","System::MapChanged","predicate non-void-command"
+"System","entity minimal-entity boundary","System::Reset","set collaborator"
+"System","entity minimal-entity boundary","System::Shutdown","command"
+"System","entity minimal-entity boundary","System::SaveTrajectoryTUM","command"
+"System","entity minimal-entity boundary","System::SaveKeyFrameTrajectoryTUM","command collaborator"
+"System","entity minimal-entity boundary","System::SaveTrajectoryKITTI","command collaborator"
+"System","entity minimal-entity boundary","System::GetTrackingState","get collaborator"
+"System","entity minimal-entity boundary","System::GetTrackedMapPoints","get collaborator"
+"System","entity minimal-entity boundary","System::GetTrackedKeyPointsUn","get collaborator"
+"PnPsolver","commander","PnPsolver::PnPsolver","constructor"
+"PnPsolver","commander","PnPsolver::~PnPsolver","destructor"
+"PnPsolver","commander","PnPsolver::SetRansacParameters","command"
+"PnPsolver","commander","PnPsolver::find","property non-void-command collaborator"
+"PnPsolver","commander","PnPsolver::iterate","property non-void-command collaborator"
+"PnPsolver","commander","PnPsolver::Refine","predicate non-void-command collaborator"
+"PnPsolver","commander","PnPsolver::CheckInliers","command"
+"PnPsolver","commander","PnPsolver::set_maximum_number_of_correspondences","command"
+"PnPsolver","commander","PnPsolver::reset_correspondences","set"
+"PnPsolver","commander","PnPsolver::add_correspondence","command"
+"PnPsolver","commander","PnPsolver::choose_control_points","command"
+"PnPsolver","commander","PnPsolver::compute_barycentric_coordinates","wrapper"
+"PnPsolver","commander","PnPsolver::fill_M","unclassified"
+"PnPsolver","commander","PnPsolver::compute_ccs","command"
+"PnPsolver","commander","PnPsolver::compute_pcs","unclassified"
+"PnPsolver","commander","PnPsolver::compute_pose","property non-void-command"
+"PnPsolver","commander","PnPsolver::copy_R_and_t","incidental"
+"PnPsolver","commander","PnPsolver::dist2","incidental"
+"PnPsolver","commander","PnPsolver::dot","incidental"
+"PnPsolver","commander","PnPsolver::reprojection_error","property non-void-command"
+"PnPsolver","commander","PnPsolver::estimate_R_and_t","command"
+"PnPsolver","commander","PnPsolver::print_pose","incidental"
+"PnPsolver","commander","PnPsolver::solve_for_sign","command"
+"PnPsolver","commander","PnPsolver::compute_R_and_t","property non-void-command"
+"PnPsolver","commander","PnPsolver::find_betas_approx_1","wrapper stateless"
+"PnPsolver","commander","PnPsolver::find_betas_approx_2","wrapper stateless"
+"PnPsolver","commander","PnPsolver::find_betas_approx_3","wrapper stateless"
+"PnPsolver","commander","PnPsolver::compute_L_6x10","command"
+"PnPsolver","commander","PnPsolver::compute_rho","void-accessor command"
+"PnPsolver","commander","PnPsolver::compute_A_and_b_gauss_newton","wrapper stateless"
+"PnPsolver","commander","PnPsolver::gauss_newton","command"
+"PnPsolver","commander","PnPsolver::qr_solve","wrapper stateless"
+"PnPsolver","commander","PnPsolver::relative_error","void-accessor command"
+"PnPsolver","commander","PnPsolver::mat_to_quat","wrapper stateless"
+"ORBextractor","data-provider","~ORBextractor","destructor"
+"ORBextractor","data-provider","GetLevels","get"
+"ORBextractor","data-provider","GetScaleFactor","get"
+"ORBextractor","data-provider","GetScaleFactors","get"
+"ORBextractor","data-provider","GetInverseScaleFactors","get"
+"ORBextractor","data-provider","GetScaleSigmaSquares","get"
+"ORBextractor","data-provider","GetInverseScaleSigmaSquares","get"
+"ORBextractor","data-provider","ORBextractor::ORBextractor","constructor"
+"ORBextractor","data-provider","ORBextractor::DistributeOctTree","property controller"
+"ORBextractor","data-provider","ORBextractor::ComputeKeyPointsOctTree","command collaborator"
+"ORBextractor","data-provider","ORBextractor::ComputeKeyPointsOld","controller"
+"ORBextractor","data-provider","ORBextractor::operator()","command collaborator"
+"ORBextractor","data-provider","ORBextractor::ComputePyramid","set collaborator"
+"MapPoint","boundary","GetFound","get"
+"MapPoint","boundary","MapPoint::MapPoint","constructor"
+"MapPoint","boundary","MapPoint::MapPoint","constructor"
+"MapPoint","boundary","MapPoint::SetWorldPos","controller"
+"MapPoint","boundary","MapPoint::GetWorldPos","property non-void-command collaborator"
+"MapPoint","boundary","MapPoint::GetNormal","property non-void-command collaborator"
+"MapPoint","boundary","MapPoint::GetReferenceKeyFrame","get collaborator"
+"MapPoint","boundary","MapPoint::AddObservation","command collaborator"
+"MapPoint","boundary","MapPoint::EraseObservation","command collaborator"
+"MapPoint","boundary","MapPoint::GetObservations","get collaborator"
+"MapPoint","boundary","MapPoint::Observations","get collaborator"
+"MapPoint","boundary","MapPoint::SetBadFlag","command collaborator"
+"MapPoint","boundary","MapPoint::GetReplaced","get collaborator"
+"MapPoint","boundary","MapPoint::Replace","command collaborator"
+"MapPoint","boundary","MapPoint::isBad","get collaborator"
+"MapPoint","boundary","MapPoint::IncreaseVisible","set collaborator"
+"MapPoint","boundary","MapPoint::IncreaseFound","set collaborator"
+"MapPoint","boundary","MapPoint::GetFoundRatio","property collaborator"
+"MapPoint","boundary","MapPoint::ComputeDistinctiveDescriptors","set collaborator"
+"MapPoint","boundary","MapPoint::GetDescriptor","property non-void-command collaborator"
+"MapPoint","boundary","MapPoint::GetIndexInKeyFrame","get property non-void-command collaborator"
+"MapPoint","boundary","MapPoint::IsInKeyFrame","predicate non-void-command collaborator"
+"MapPoint","boundary","MapPoint::UpdateNormalAndDepth","command collaborator"
+"MapPoint","boundary","MapPoint::GetMinDistanceInvariance","property collaborator"
+"MapPoint","boundary","MapPoint::GetMaxDistanceInvariance","property collaborator"
+"MapPoint","boundary","MapPoint::PredictScale","property wrapper"
+"MapPoint","boundary","MapPoint::PredictScale","property wrapper"
+"Map","entity minimal-entity boundary","Map::Map","constructor"
+"Map","entity minimal-entity boundary","Map::AddKeyFrame","set collaborator"
+"Map","entity minimal-entity boundary","Map::AddMapPoint","command collaborator"
+"Map","entity minimal-entity boundary","Map::EraseMapPoint","command collaborator"
+"Map","entity minimal-entity boundary","Map::EraseKeyFrame","command collaborator"
+"Map","entity minimal-entity boundary","Map::SetReferenceMapPoints","set collaborator"
+"Map","entity minimal-entity boundary","Map::InformNewBigChange","set collaborator"
+"Map","entity minimal-entity boundary","Map::GetLastBigChangeIdx","get collaborator"
+"Map","entity minimal-entity boundary","Map::GetAllKeyFrames","property non-void-command collaborator"
+"Map","entity minimal-entity boundary","Map::GetAllMapPoints","property non-void-command collaborator"
+"Map","entity minimal-entity boundary","Map::MapPointsInMap","property non-void-command collaborator"
+"Map","entity minimal-entity boundary","Map::KeyFramesInMap","property non-void-command collaborator"
+"Map","entity minimal-entity boundary","Map::GetReferenceMapPoints","get collaborator"
+"Map","entity minimal-entity boundary","Map::GetMaxKFid","get collaborator"
+"Map","entity minimal-entity boundary","Map::clear","command collaborator"
+"LoopClosing","entity minimal-entity boundary","isRunningGBA","get collaborator"
+"LoopClosing","entity minimal-entity boundary","isFinishedGBA","get collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::LoopClosing","constructor"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::SetTracker","set collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::SetLocalMapper","set collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::Run","command"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::InsertKeyFrame","command collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::CheckNewKeyFrames","predicate non-void-command collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::DetectLoop","predicate non-void-command collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::ComputeSim3","predicate non-void-command"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::CorrectLoop","command collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::SearchAndFuse","command collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::RequestReset","set collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::ResetIfRequested","command collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::RunGlobalBundleAdjustment","command collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::RequestFinish","set collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::CheckFinish","get collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::SetFinish","set collaborator"
+"LoopClosing","entity minimal-entity boundary","LoopClosing::isFinished","get collaborator"
+"KeyFrameDatabase","unclassified","KeyFrameDatabase::KeyFrameDatabase","constructor"
+"KeyFrameDatabase","unclassified","KeyFrameDatabase::add","controller"
+"KeyFrameDatabase","unclassified","KeyFrameDatabase::erase","controller"
+"KeyFrameDatabase","unclassified","KeyFrameDatabase::clear","command"
+"KeyFrameDatabase","unclassified","KeyFrameDatabase::DetectLoopCandidates","property non-void-command collaborator"
+"KeyFrameDatabase","unclassified","KeyFrameDatabase::DetectRelocalizationCandidates","property non-void-command collaborator"
+"Converter","degenerate","Converter::toDescriptorVector","controller stateless"
+"Converter","degenerate","Converter::toSE3Quat","controller stateless"
+"Converter","degenerate","Converter::toCvMat","property non-void-command collaborator"
+"Converter","degenerate","Converter::toCvMat","property non-void-command collaborator"
+"Converter","degenerate","Converter::toCvMat","controller stateless"
+"Converter","degenerate","Converter::toCvMat","controller stateless"
+"Converter","degenerate","Converter::toCvMat","controller stateless"
+"Converter","degenerate","Converter::toCvSE3","controller stateless"
+"Converter","degenerate","Converter::toVector3d","controller stateless"
+"Converter","degenerate","Converter::toVector3d","collaborator incidental"
+"Converter","degenerate","Converter::toMatrix3d","controller stateless"
+"Converter","degenerate","Converter::toQuaternion","property non-void-command collaborator"
+"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose","empty"
+"EdgeStereoSE3ProjectXYZOnlyPose","boundary","computeError","set collaborator"
+"EdgeStereoSE3ProjectXYZOnlyPose","boundary","isDepthPositive","predicate controller"
+"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose::cam_project","property collaborator"
+"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose::read","predicate non-void-command collaborator"
+"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose::write","predicate collaborator"
+"EdgeStereoSE3ProjectXYZOnlyPose","boundary","EdgeStereoSE3ProjectXYZOnlyPose::linearizeOplus","controller"
+"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose","empty"
+"EdgeSE3ProjectXYZOnlyPose","boundary","computeError","set collaborator"
+"EdgeSE3ProjectXYZOnlyPose","boundary","isDepthPositive","predicate controller"
+"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose::read","predicate non-void-command collaborator"
+"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose::write","predicate collaborator"
+"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose::linearizeOplus","controller"
+"EdgeSE3ProjectXYZOnlyPose","boundary","EdgeSE3ProjectXYZOnlyPose::cam_project","property wrapper"
+"EdgeStereoSE3ProjectXYZ","unclassified","computeError","set collaborator"
+"EdgeStereoSE3ProjectXYZ","unclassified","isDepthPositive","controller stateless"
+"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::cam_project","property collaborator"
+"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::EdgeStereoSE3ProjectXYZ","constructor"
+"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::read","predicate non-void-command collaborator"
+"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::write","predicate collaborator"
+"EdgeStereoSE3ProjectXYZ","unclassified","EdgeStereoSE3ProjectXYZ::linearizeOplus","controller"
+"EdgeSE3ProjectXYZ","boundary","computeError","set collaborator"
+"EdgeSE3ProjectXYZ","boundary","isDepthPositive","controller stateless"
+"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::EdgeSE3ProjectXYZ","constructor"
+"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::read","predicate non-void-command collaborator"
+"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::write","predicate collaborator"
+"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::linearizeOplus","set collaborator"
+"EdgeSE3ProjectXYZ","boundary","EdgeSE3ProjectXYZ::cam_project","property wrapper"
+"Sim3","data-provider","Sim3","constructor"
+"Sim3","data-provider","Sim3","constructor"
+"Sim3","data-provider","Sim3","constructor"
+"Sim3","data-provider","Sim3","constructor"
+"Sim3","data-provider","map","property collaborator"
+"Sim3","data-provider","log","property collaborator"
+"Sim3","data-provider","inverse","property"
+"Sim3","data-provider","operator[]","get property"
+"Sim3","data-provider","operator[]","get property non-void-command"
+"Sim3","data-provider","operator*","property"
+"Sim3","data-provider","operator*=","get set"
+"Sim3","data-provider","translation","get collaborator"
+"Sim3","data-provider","translation","get collaborator"
+"Sim3","data-provider","rotation","get collaborator"
+"Sim3","data-provider","rotation","get collaborator"
+"Sim3","data-provider","scale","get"
+"Sim3","data-provider","scale","get"
+"SE3Quat","data-provider boundary","SE3Quat","constructor"
+"SE3Quat","data-provider boundary","SE3Quat","constructor"
+"SE3Quat","data-provider boundary","SE3Quat","constructor"
+"SE3Quat","data-provider boundary","SE3Quat","constructor"
+"SE3Quat","data-provider boundary","translation","get collaborator"
+"SE3Quat","data-provider boundary","setTranslation","set collaborator"
+"SE3Quat","data-provider boundary","rotation","get collaborator"
+"SE3Quat","data-provider boundary","setRotation","set collaborator"
+"SE3Quat","data-provider boundary","operator*","property controller"
+"SE3Quat","data-provider boundary","operator*=","get non-void-command"
+"SE3Quat","data-provider boundary","operator*","property collaborator"
+"SE3Quat","data-provider boundary","inverse","property"
+"SE3Quat","data-provider boundary","operator[]","get property"
+"SE3Quat","data-provider boundary","toVector","property collaborator"
+"SE3Quat","data-provider boundary","fromVector","command collaborator"
+"SE3Quat","data-provider boundary","toMinimalVector","property collaborator"
+"SE3Quat","data-provider boundary","fromMinimalVector","command collaborator"
+"SE3Quat","data-provider boundary","log","property collaborator"
+"SE3Quat","data-provider boundary","map","property collaborator"
+"SE3Quat","data-provider boundary","adj","property collaborator"
+"SE3Quat","data-provider boundary","to_homogeneous_matrix","property collaborator"
+"SE3Quat","data-provider boundary","normalizeRotation","command"
+"SE3Quat","data-provider boundary","operatorEigen::Isometry3d","collaborator"
+"ScopeTime","empty","ScopeTime::ScopeTime","constructor"
+"ScopeTime","empty","ScopeTime::~ScopeTime","destructor"
+"VertexSBAPointXYZ","entity boundary","setToOriginImpl","command"
+"VertexSBAPointXYZ","entity boundary","oplusImpl","set collaborator"
+"VertexSBAPointXYZ","entity boundary","VertexSBAPointXYZ::VertexSBAPointXYZ","constructor"
+"VertexSBAPointXYZ","entity boundary","VertexSBAPointXYZ::read","predicate collaborator"
+"VertexSBAPointXYZ","entity boundary","VertexSBAPointXYZ::write","predicate collaborator"
+"PropertyMap","degenerate","getProperty","wrapper stateless"
+"PropertyMap","degenerate","getProperty","wrapper stateless"
+"PropertyMap","degenerate","makeProperty","property non-void-command factory collaborator"
+"PropertyMap","degenerate","PropertyMap::addProperty","controller stateless"
+"PropertyMap","degenerate","PropertyMap::eraseProperty","wrapper stateless"
+"PropertyMap","degenerate","PropertyMap::~PropertyMap","destructor"
+"PropertyMap","degenerate","PropertyMap::updatePropertyFromString","controller stateless"
+"PropertyMap","degenerate","PropertyMap::writeToCSV","controller stateless"
+"PropertyMap","degenerate","PropertyMap::updateMapFromString","predicate non-void-command"
+"ForceLinker","empty","ForceLinker","constructor"
+"LinearSolverEigen","unclassified","~LinearSolverEigen","destructor"
+"LinearSolverEigen","unclassified","init","predicate set"
+"LinearSolverEigen","unclassified","solve","predicate non-void-command collaborator"
+"LinearSolverEigen","unclassified","blockOrdering","get"
+"LinearSolverEigen","unclassified","setBlockOrdering","set"
+"LinearSolverEigen","unclassified","writeDebug","get"
+"LinearSolverEigen","unclassified","setWriteDebug","set"
+"LinearSolverEigen","unclassified","computeSymbolicDecomposition","command collaborator"
+"LinearSolverEigen","unclassified","fillSparseMatrix","command"
+"EdgeSim3","entity boundary","computeError","set collaborator"
+"EdgeSim3","entity boundary","initialEstimatePossible","incidental"
+"EdgeSim3","entity boundary","initialEstimate","command collaborator"
+"EdgeSim3","entity boundary","EdgeSim3::EdgeSim3","constructor"
+"EdgeSim3","entity boundary","EdgeSim3::read","predicate non-void-command collaborator"
+"EdgeSim3","entity boundary","EdgeSim3::write","predicate collaborator"
+"SparseOptimizer","boundary","computeMarginals","predicate non-void-command collaborator"
+"SparseOptimizer","boundary","computeMarginals","predicate non-void-command collaborator"
+"SparseOptimizer","boundary","verbose","get"
+"SparseOptimizer","boundary","forceStopFlag","get"
+"SparseOptimizer","boundary","terminate","predicate"
+"SparseOptimizer","boundary","indexMapping","get collaborator"
+"SparseOptimizer","boundary","activeVertices","get collaborator"
+"SparseOptimizer","boundary","activeEdges","get collaborator"
+"SparseOptimizer","boundary","algorithm","get collaborator"
+"SparseOptimizer","boundary","solver","get collaborator"
+"SparseOptimizer","boundary","batchStatistics","get collaborator"
+"SparseOptimizer","boundary","batchStatistics","get collaborator"
+"SparseOptimizer","boundary","computeBatchStatistics","get"
+"SparseOptimizer","boundary","SparseOptimizer::SparseOptimizer","constructor"
+"SparseOptimizer","boundary","SparseOptimizer::~SparseOptimizer","destructor"
+"SparseOptimizer","boundary","SparseOptimizer::computeActiveErrors","command"
+"SparseOptimizer","boundary","SparseOptimizer::activeChi2","property collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::activeRobustChi2","property collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::findGauge","property non-void-command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::gaugeFreedom","predicate non-void-command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::buildIndexMapping","predicate non-void-command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::clearIndexMapping","set"
+"SparseOptimizer","boundary","SparseOptimizer::initializeOptimization","predicate non-void-command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::initializeOptimization","predicate non-void-command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::initializeOptimization","predicate non-void-command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::setToOrigin","command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::computeInitialGuess","command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::computeInitialGuess","command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::optimize","property non-void-command"
+"SparseOptimizer","boundary","SparseOptimizer::update","void-accessor command"
+"SparseOptimizer","boundary","SparseOptimizer::setComputeBatchStatistics","set"
+"SparseOptimizer","boundary","SparseOptimizer::updateInitialization","predicate non-void-command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::sortVectorContainers","command"
+"SparseOptimizer","boundary","SparseOptimizer::clear","command"
+"SparseOptimizer","boundary","SparseOptimizer::findActiveVertex","property collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::findActiveEdge","property collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::push","controller stateless"
+"SparseOptimizer","boundary","SparseOptimizer::pop","controller stateless"
+"SparseOptimizer","boundary","SparseOptimizer::push","controller stateless"
+"SparseOptimizer","boundary","SparseOptimizer::pop","controller stateless"
+"SparseOptimizer","boundary","SparseOptimizer::discardTop","controller stateless"
+"SparseOptimizer","boundary","SparseOptimizer::setVerbose","set"
+"SparseOptimizer","boundary","SparseOptimizer::setAlgorithm","command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::computeMarginals","predicate non-void-command"
+"SparseOptimizer","boundary","SparseOptimizer::setForceStopFlag","set"
+"SparseOptimizer","boundary","SparseOptimizer::removeVertex","predicate non-void-command collaborator"
+"SparseOptimizer","boundary","SparseOptimizer::addComputeErrorAction","predicate wrapper"
+"SparseOptimizer","boundary","SparseOptimizer::removeComputeErrorAction","get wrapper"
+"SparseOptimizer","boundary","SparseOptimizer::push","command"
+"SparseOptimizer","boundary","SparseOptimizer::pop","command"
+"SparseOptimizer","boundary","SparseOptimizer::discardTop","command"
+"TripletColSort","boundary degenerate small-class","operator()","collaborator incidental"
+"SparseBlockMatrix","data-provider boundary","cols","property"
+"SparseBlockMatrix","data-provider boundary","rows","property"
+"SparseBlockMatrix","data-provider boundary","rowsOfBlock","property"
+"SparseBlockMatrix","data-provider boundary","colsOfBlock","property"
+"SparseBlockMatrix","data-provider boundary","rowBaseOfBlock","property"
+"SparseBlockMatrix","data-provider boundary","colBaseOfBlock","property"
+"SparseBlockMatrix","data-provider boundary","blockCols","get collaborator"
+"SparseBlockMatrix","data-provider boundary","blockCols","get collaborator"
+"SparseBlockMatrix","data-provider boundary","rowBlockIndices","get"
+"SparseBlockMatrix","data-provider boundary","rowBlockIndices","get"
+"SparseBlockMatrix","data-provider boundary","colBlockIndices","get"
+"SparseBlockMatrix","data-provider boundary","colBlockIndices","get"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::SparseBlockMatrix","constructor"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::SparseBlockMatrix","constructor"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::clear","command collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::~SparseBlockMatrix","destructor"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::block","property non-void-command factory collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::block","property wrapper"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::clone","factory collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::transpose","predicate collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::add","predicate collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::multiply","predicate collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::multiply","void-accessor"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::multiplySymmetricUpperTriangle","void-accessor"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::rightMultiply","void-accessor"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::scale","command collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::slice","factory collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::nonZeroBlocks","property"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::nonZeros","property collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::symmPermutation","predicate collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillCCS","property"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillCCS","property"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillBlockStructure","void-accessor collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::writeOctave","predicate collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillSparseBlockMatrixCCS","property collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::fillSparseBlockMatrixCCSTransposed","property collaborator"
+"SparseBlockMatrix","data-provider boundary","SparseBlockMatrix<MatrixType>::takePatternFromHash","command collaborator"
+"Solver","data-provider","x","get"
+"Solver","data-provider","x","get"
+"Solver","data-provider","b","get"
+"Solver","data-provider","b","get"
+"Solver","data-provider","vectorSize","get"
+"Solver","data-provider","optimizer","get collaborator"
+"Solver","data-provider","levenberg","get"
+"Solver","data-provider","supportsSchur","incidental"
+"Solver","data-provider","additionalVectorSpace","get"
+"Solver","data-provider","Solver","copy-constructor"
+"Solver","data-provider","operator=","get"
+"Solver","data-provider","Solver::Solver","constructor"
+"Solver","data-provider","Solver::~Solver","destructor"
+"Solver","data-provider","Solver::resizeVector","command"
+"Solver","data-provider","Solver::setOptimizer","set collaborator"
+"Solver","data-provider","Solver::setLevenberg","set"
+"Solver","data-provider","Solver::setAdditionalVectorSpace","set"
+"RobustKernelSaturated","data-provider boundary small-class","RobustKernelSaturated::robustify","void-accessor collaborator"
+"Property","data-provider boundary","Property","constructor"
+"Property","data-provider boundary","Property","constructor"
+"Property","data-provider boundary","setValue","set collaborator"
+"Property","data-provider boundary","value","get collaborator"
+"Property","data-provider boundary","toString","property controller"
+"Property","data-provider boundary","fromString","predicate wrapper"
+"RobustKernelCauchy","data-provider boundary small-class","RobustKernelCauchy::robustify","void-accessor wrapper"
+"RobustKernelPseudoHuber","data-provider boundary small-class","RobustKernelPseudoHuber::robustify","void-accessor wrapper"
+"SparseBlockMatrixHashMap","data-provider","cols","property"
+"SparseBlockMatrixHashMap","data-provider","rows","property"
+"SparseBlockMatrixHashMap","data-provider","SparseBlockMatrixHashMap","constructor"
+"SparseBlockMatrixHashMap","data-provider","rowsOfBlock","property"
+"SparseBlockMatrixHashMap","data-provider","colsOfBlock","property"
+"SparseBlockMatrixHashMap","data-provider","rowBaseOfBlock","property"
+"SparseBlockMatrixHashMap","data-provider","colBaseOfBlock","property"
+"SparseBlockMatrixHashMap","data-provider","blockCols","get collaborator"
+"SparseBlockMatrixHashMap","data-provider","blockCols","get collaborator"
+"SparseBlockMatrixHashMap","data-provider","rowBlockIndices","get"
+"SparseBlockMatrixHashMap","data-provider","colBlockIndices","get"
+"SparseBlockMatrixHashMap","data-provider","addBlock","property non-void-command factory collaborator"
+"RobustKernelHuber","unclassified","RobustKernelHuber::setDelta","command"
+"RobustKernelHuber","unclassified","RobustKernelHuber::setDeltaSqr","command"
+"RobustKernelHuber","unclassified","RobustKernelHuber::robustify","void-accessor wrapper"
+"RegisterRobustKernelProxy","empty","RegisterRobustKernelProxy","constructor"
+"RegisterRobustKernelProxy","empty","~RegisterRobustKernelProxy","destructor"
+"RobustKernelCreator","factory degenerate small-class","construct","factory collaborator incidental"
+"Parameter","lazy-class","~Parameter","destructor"
+"Parameter","lazy-class","id","get"
+"Parameter","lazy-class","elementType","collaborator incidental"
+"Parameter","lazy-class","Parameter::Parameter","constructor"
+"Parameter","lazy-class","Parameter::setId","set"
+"SparseBlockMatrixCCS","data-provider","cols","property"
+"SparseBlockMatrixCCS","data-provider","rows","property"
+"SparseBlockMatrixCCS","data-provider","rowsOfBlock","property"
+"SparseBlockMatrixCCS","data-provider","colsOfBlock","property"
+"SparseBlockMatrixCCS","data-provider","rowBaseOfBlock","property"
+"SparseBlockMatrixCCS","data-provider","colBaseOfBlock","property"
+"SparseBlockMatrixCCS","data-provider","blockCols","get collaborator"
+"SparseBlockMatrixCCS","data-provider","blockCols","get collaborator"
+"SparseBlockMatrixCCS","data-provider","rowBlockIndices","get"
+"SparseBlockMatrixCCS","data-provider","colBlockIndices","get"
+"SparseBlockMatrixCCS","data-provider","rightMultiply","void-accessor"
+"SparseBlockMatrixCCS","data-provider","sortColumns","command"
+"SparseBlockMatrixCCS","data-provider","fillCCS","property"
+"SparseBlockMatrixCCS","data-provider","fillCCS","property"
+"OptimizationAlgorithmWithHessian","unclassified","solver","get collaborator"
+"OptimizationAlgorithmWithHessian","unclassified","writeDebug","predicate"
+"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::OptimizationAlgorithmWithHessian","constructor"
+"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::~OptimizationAlgorithmWithHessian","destructor"
+"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::init","predicate non-void-command"
+"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::computeMarginals","predicate non-void-command"
+"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::buildLinearStructure","predicate non-void-command"
+"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::updateLinearSystem","command"
+"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::updateStructure","predicate non-void-command collaborator"
+"OptimizationAlgorithmWithHessian","unclassified","OptimizationAlgorithmWithHessian::setWriteDebug","command"
+"Viewer","entity minimal-entity boundary","Viewer::Viewer","constructor"
+"Viewer","entity minimal-entity boundary","Viewer::Run","command collaborator"
+"Viewer","entity minimal-entity boundary","Viewer::RequestFinish","set collaborator"
+"Viewer","entity minimal-entity boundary","Viewer::CheckFinish","get collaborator"
+"Viewer","entity minimal-entity boundary","Viewer::SetFinish","set collaborator"
+"Viewer","entity minimal-entity boundary","Viewer::isFinished","get collaborator"
+"Viewer","entity minimal-entity boundary","Viewer::RequestStop","set collaborator"
+"Viewer","entity minimal-entity boundary","Viewer::isStopped","get collaborator"
+"Viewer","entity minimal-entity boundary","Viewer::Stop","predicate non-void-command collaborator"
+"Viewer","entity minimal-entity boundary","Viewer::Release","set collaborator"
+"OptimizationAlgorithmProperty","empty","OptimizationAlgorithmProperty","constructor"
+"OptimizationAlgorithmProperty","empty","OptimizationAlgorithmProperty","constructor"
+"BlockSolverBase","empty","~BlockSolverBase","destructor"
+"Frame","boundary","GetCameraCenter","property non-void-command collaborator"
+"Frame","boundary","GetRotationInverse","property non-void-command collaborator"
+"Frame","boundary","Frame::Frame","constructor"
+"Frame","boundary","Frame::Frame","copy-constructor"
+"Frame","boundary","Frame::Frame","constructor"
+"Frame","boundary","Frame::Frame","constructor"
+"Frame","boundary","Frame::Frame","constructor"
+"Frame","boundary","Frame::AssignFeaturesToGrid","command"
+"Frame","boundary","Frame::ExtractORB","wrapper"
+"Frame","boundary","Frame::SetPose","set collaborator"
+"Frame","boundary","Frame::UpdatePoseMatrices","command"
+"Frame","boundary","Frame::isInFrustum","predicate controller"
+"Frame","boundary","Frame::GetFeaturesInArea","property controller"
+"Frame","boundary","Frame::PosInGrid","predicate wrapper"
+"Frame","boundary","Frame::ComputeBoW","command collaborator"
+"Frame","boundary","Frame::UndistortKeyPoints","command collaborator"
+"Frame","boundary","Frame::ComputeImageBounds","command collaborator"
+"Frame","boundary","Frame::ComputeStereoMatches","command"
+"Frame","boundary","Frame::ComputeStereoFromRGBD","command collaborator"
+"Frame","boundary","Frame::UnprojectStereo","property wrapper"
+"ScopedOpenMPMutex","empty","ScopedOpenMPMutex","constructor"
+"ScopedOpenMPMutex","empty","~ScopedOpenMPMutex","destructor"
+"VertexSim3Expmap","entity boundary","setToOriginImpl","set"
+"VertexSim3Expmap","entity boundary","oplusImpl","command collaborator"
+"VertexSim3Expmap","entity boundary","cam_map1","property collaborator"
+"VertexSim3Expmap","entity boundary","cam_map2","property collaborator"
+"VertexSim3Expmap","entity boundary","VertexSim3Expmap::VertexSim3Expmap","constructor"
+"VertexSim3Expmap","entity boundary","VertexSim3Expmap::read","predicate non-void-command collaborator"
+"VertexSim3Expmap","entity boundary","VertexSim3Expmap::write","predicate collaborator"
+"SparseBlockMatrixDiagonal","data-provider","cols","property"
+"SparseBlockMatrixDiagonal","data-provider","rows","property"
+"SparseBlockMatrixDiagonal","data-provider","SparseBlockMatrixDiagonal","constructor"
+"SparseBlockMatrixDiagonal","data-provider","dimOfBlock","property"
+"SparseBlockMatrixDiagonal","data-provider","baseOfBlock","property"
+"SparseBlockMatrixDiagonal","data-provider","diagonal","get collaborator"
+"SparseBlockMatrixDiagonal","data-provider","diagonal","get collaborator"
+"SparseBlockMatrixDiagonal","data-provider","blockIndices","get"
+"SparseBlockMatrixDiagonal","data-provider","multiply","void-accessor collaborator"
+"MarginalCovarianceCholesky","unclassified","computeIndex","property"
+"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::MarginalCovarianceCholesky","constructor"
+"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::~MarginalCovarianceCholesky","destructor"
+"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::setCholeskyFactor","command"
+"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::computeEntry","property non-void-command"
+"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::computeCovariance","command collaborator"
+"MarginalCovarianceCholesky","unclassified","MarginalCovarianceCholesky::computeCovariance","void-accessor command collaborator"
+"ColSort","degenerate small-class","operator()","incidental"
+"RobustKernelFactory","entity boundary","RobustKernelFactory::RobustKernelFactory","constructor"
+"RobustKernelFactory","entity boundary","RobustKernelFactory::~RobustKernelFactory","destructor"
+"RobustKernelFactory","entity boundary","RobustKernelFactory::instance","get set factory"
+"RobustKernelFactory","entity boundary","RobustKernelFactory::registerRobustKernel","command collaborator"
+"RobustKernelFactory","entity boundary","RobustKernelFactory::unregisterType","command collaborator"
+"RobustKernelFactory","entity boundary","RobustKernelFactory::construct","property collaborator"
+"RobustKernelFactory","entity boundary","RobustKernelFactory::creator","property collaborator"
+"RobustKernelFactory","entity boundary","RobustKernelFactory::fillKnownKernels","collaborator"
+"RobustKernelFactory","entity boundary","RobustKernelFactory::destroy","set"
+"OptimizationAlgorithmFactory","entity boundary","creatorList","get collaborator"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::OptimizationAlgorithmFactory","constructor"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::~OptimizationAlgorithmFactory","destructor"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::instance","get set factory"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::registerSolver","command collaborator"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::unregisterSolver","command collaborator"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::construct","property collaborator"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::destroy","set"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::listSolvers","collaborator"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::findSolver","property collaborator"
+"OptimizationAlgorithmFactory","entity boundary","OptimizationAlgorithmFactory::findSolver","property non-void-command collaborator"
+"RobustKernelDCS","data-provider boundary small-class","RobustKernelDCS::robustify","void-accessor collaborator"
+"OptimizationAlgorithm","entity data-provider boundary","printVerbose","collaborator incidental"
+"OptimizationAlgorithm","entity data-provider boundary","optimizer","get collaborator"
+"OptimizationAlgorithm","entity data-provider boundary","optimizer","get collaborator"
+"OptimizationAlgorithm","entity data-provider boundary","properties","get collaborator"
+"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm","copy-constructor"
+"OptimizationAlgorithm","entity data-provider boundary","operator=","get"
+"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::OptimizationAlgorithm","constructor"
+"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::~OptimizationAlgorithm","destructor"
+"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::printProperties","collaborator"
+"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::updatePropertiesFromString","predicate non-void-command"
+"OptimizationAlgorithm","entity data-provider boundary","OptimizationAlgorithm::setOptimizer","set collaborator"
+"LinearSolverDense","small-class","LinearSolverDense","constructor"
+"LinearSolverDense","small-class","~LinearSolverDense","destructor"
+"LinearSolverDense","small-class","init","predicate set"
+"LinearSolverDense","small-class","solve","predicate non-void-command collaborator"
+"G2OBatchStatistics","commander data-class small-class","G2OBatchStatistics::G2OBatchStatistics","constructor"
+"G2OBatchStatistics","commander data-class small-class","G2OBatchStatistics::setGlobalStats","set"
+"OpenMPMutex","commander","OpenMPMutex","constructor"
+"OpenMPMutex","commander","~OpenMPMutex","destructor"
+"OpenMPMutex","commander","lock","wrapper"
+"OpenMPMutex","commander","unlock","wrapper"
+"OpenMPMutex","commander","OpenMPMutex","constructor"
+"OpenMPMutex","commander","OpenMPMutex","constructor"
+"OpenMPMutex","commander","~OpenMPMutex","destructor"
+"OpenMPMutex","commander","lock","set"
+"OpenMPMutex","commander","unlock","set"
+"HyperGraphElementCreator","lazy-class small-class","HyperGraphElementCreator","constructor"
+"HyperGraphElementCreator","lazy-class small-class","construct","factory collaborator incidental"
+"HyperGraphElementCreator","lazy-class small-class","name","get"
+"BaseVertex","boundary","hessian","wrapper stateless"
+"BaseVertex","boundary","hessian","wrapper stateless"
+"BaseVertex","boundary","hessianDeterminant","property"
+"BaseVertex","boundary","hessianData","property non-void-command"
+"BaseVertex","boundary","copyB","get"
+"BaseVertex","boundary","b","wrapper stateless"
+"BaseVertex","boundary","b","wrapper stateless"
+"BaseVertex","boundary","bData","property non-void-command"
+"BaseVertex","boundary","b","get collaborator"
+"BaseVertex","boundary","b","get collaborator"
+"BaseVertex","boundary","A","get collaborator"
+"BaseVertex","boundary","A","get collaborator"
+"BaseVertex","boundary","push","command"
+"BaseVertex","boundary","pop","command"
+"BaseVertex","boundary","discardTop","command"
+"BaseVertex","boundary","stackSize","property"
+"BaseVertex","boundary","estimate","get collaborator"
+"BaseVertex","boundary","setEstimate","set collaborator"
+"BaseVertex","boundary","BaseVertex<D,T>::BaseVertex","constructor"
+"BaseVertex","boundary","BaseVertex<D,T>::solveDirect","property controller"
+"BaseVertex","boundary","BaseVertex<D,T>::clearQuadraticForm","command"
+"BaseVertex","boundary","BaseVertex<D,T>::mapHessianMemory","wrapper"
+"Random","boundary lazy-class degenerate","DUtils::Random::SeedRand","controller stateless"
+"Random","boundary lazy-class degenerate","DUtils::Random::SeedRandOnce","set"
+"Random","boundary lazy-class degenerate","DUtils::Random::SeedRand","wrapper stateless"
+"Random","boundary lazy-class degenerate","DUtils::Random::SeedRandOnce","set"
+"Random","boundary lazy-class degenerate","DUtils::Random::RandomInt","wrapper stateless"
+"ORBmatcher","unclassified","ORBmatcher::ORBmatcher","constructor"
+"ORBmatcher","unclassified","ORBmatcher::SearchByProjection","property non-void-command"
+"ORBmatcher","unclassified","ORBmatcher::RadiusByViewingCos","incidental"
+"ORBmatcher","unclassified","ORBmatcher::CheckDistEpipolarLine","controller stateless"
+"ORBmatcher","unclassified","ORBmatcher::SearchByBoW","property non-void-command collaborator"
+"ORBmatcher","unclassified","ORBmatcher::SearchByProjection","property non-void-command"
+"ORBmatcher","unclassified","ORBmatcher::SearchForInitialization","property non-void-command"
+"ORBmatcher","unclassified","ORBmatcher::SearchByBoW","property non-void-command collaborator"
+"ORBmatcher","unclassified","ORBmatcher::SearchForTriangulation","property non-void-command"
+"ORBmatcher","unclassified","ORBmatcher::Fuse","property non-void-command collaborator"
+"ORBmatcher","unclassified","ORBmatcher::Fuse","property non-void-command collaborator"
+"ORBmatcher","unclassified","ORBmatcher::SearchBySim3","property non-void-command"
+"ORBmatcher","unclassified","ORBmatcher::SearchByProjection","property non-void-command"
+"ORBmatcher","unclassified","ORBmatcher::SearchByProjection","property non-void-command"
+"ORBmatcher","unclassified","ORBmatcher::ComputeThreeMaxima","wrapper stateless"
+"ORBmatcher","unclassified","ORBmatcher::DescriptorDistance","controller stateless"
+"AbstractRobustKernelCreator","empty","~AbstractRobustKernelCreator","destructor"
+"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::constructQuadraticForm","command collaborator"
+"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::linearizeOplus","command collaborator"
+"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::linearizeOplus","set collaborator"
+"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::mapHessianMemory","command collaborator"
+"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::resize","command"
+"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::allVerticesFixed","controller stateless"
+"BaseMultiEdge","commander boundary","BaseMultiEdge<D,E>::computeQuadraticForm","command collaborator"
+"GeneralScoring","empty","~GeneralScoring","destructor"
+"Initializer","unclassified","Initializer::Initializer","constructor"
+"Initializer","unclassified","Initializer::Initialize","predicate non-void-command"
+"Initializer","unclassified","Initializer::FindHomography","void-accessor command collaborator"
+"Initializer","unclassified","Initializer::FindFundamental","void-accessor command collaborator"
+"Initializer","unclassified","Initializer::ComputeH21","controller stateless"
+"Initializer","unclassified","Initializer::ComputeF21","controller stateless"
+"Initializer","unclassified","Initializer::CheckHomography","property controller"
+"Initializer","unclassified","Initializer::CheckFundamental","property controller"
+"Initializer","unclassified","Initializer::ReconstructF","predicate non-void-command"
+"Initializer","unclassified","Initializer::ReconstructH","predicate non-void-command"
+"Initializer","unclassified","Initializer::Triangulate","controller stateless"
+"Initializer","unclassified","Initializer::Normalize","controller stateless"
+"Initializer","unclassified","Initializer::CheckRT","property non-void-command"
+"Initializer","unclassified","Initializer::DecomposeE","controller stateless"
+"OptimizableGraph","boundary","vertex","property non-void-command collaborator"
+"OptimizableGraph","boundary","vertex","property collaborator"
+"OptimizableGraph","boundary","addVertex","predicate non-void-command collaborator"
+"OptimizableGraph","boundary","addParameter","predicate non-void-command collaborator"
+"OptimizableGraph","boundary","parameter","property non-void-command collaborator"
+"OptimizableGraph","boundary","jacobianWorkspace","get collaborator"
+"OptimizableGraph","boundary","jacobianWorkspace","get collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::OptimizableGraph","constructor"
+"OptimizableGraph","boundary","OptimizableGraph::~OptimizableGraph","destructor"
+"OptimizableGraph","boundary","OptimizableGraph::addVertex","predicate non-void-command collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::addEdge","predicate non-void-command collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::optimize","incidental"
+"OptimizableGraph","boundary","OptimizableGraph::chi2","controller stateless"
+"OptimizableGraph","boundary","OptimizableGraph::push","command collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::pop","command collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::discardTop","command collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::push","controller stateless"
+"OptimizableGraph","boundary","OptimizableGraph::pop","controller stateless"
+"OptimizableGraph","boundary","OptimizableGraph::discardTop","controller stateless"
+"OptimizableGraph","boundary","OptimizableGraph::setFixed","controller stateless"
+"OptimizableGraph","boundary","OptimizableGraph::load","predicate non-void-command"
+"OptimizableGraph","boundary","OptimizableGraph::load","predicate non-void-command collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::save","predicate collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::save","predicate collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::saveSubset","predicate non-void-command collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::saveSubset","predicate non-void-command collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::addGraph","command collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::maxDimension","property collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::setRenamedTypesFromString","command"
+"OptimizableGraph","boundary","OptimizableGraph::isSolverSuitable","predicate"
+"OptimizableGraph","boundary","OptimizableGraph::dimensions","property collaborator"
+"OptimizableGraph","boundary","OptimizableGraph::preIteration","controller"
+"OptimizableGraph","boundary","OptimizableGraph::postIteration","controller"
+"OptimizableGraph","boundary","OptimizableGraph::addPostIterationAction","predicate wrapper"
+"OptimizableGraph","boundary","OptimizableGraph::addPreIterationAction","predicate wrapper"
+"OptimizableGraph","boundary","OptimizableGraph::removePreIterationAction","get wrapper"
+"OptimizableGraph","boundary","OptimizableGraph::removePostIterationAction","get wrapper"
+"OptimizableGraph","boundary","OptimizableGraph::saveVertex","controller stateless"
+"OptimizableGraph","boundary","OptimizableGraph::saveEdge","predicate controller"
+"OptimizableGraph","boundary","OptimizableGraph::clearParameters","command"
+"OptimizableGraph","boundary","OptimizableGraph::verifyInformationMatrices","predicate"
+"OptimizableGraph","boundary","OptimizableGraph::initMultiThreading","wrapper stateless"
+"MatrixElem","data-provider small-class","MatrixElem","constructor"
+"MatrixElem","data-provider small-class","operator<","predicate"
+"FORB","controller","FORB::meanValue","void-accessor controller"
+"FORB","controller","FORB::distance","controller stateless"
+"FORB","controller","FORB::toString","controller stateless"
+"FORB","controller","FORB::fromString","controller"
+"FORB","controller","FORB::toMat32F","controller"
+"FORB","controller","FORB::toMat8U","controller stateless"
+"VertexSE3Expmap","entity boundary","setToOriginImpl","set"
+"VertexSE3Expmap","entity boundary","oplusImpl","command collaborator"
+"VertexSE3Expmap","entity boundary","VertexSE3Expmap::VertexSE3Expmap","constructor"
+"VertexSE3Expmap","entity boundary","VertexSE3Expmap::read","predicate non-void-command collaborator"
+"VertexSE3Expmap","entity boundary","VertexSE3Expmap::write","predicate collaborator"
+"Random::UnrepeatedRandomizer","data-provider small-class","~UnrepeatedRandomizer","destructor"
+"Random::UnrepeatedRandomizer","data-provider small-class","empty","predicate"
+"Random::UnrepeatedRandomizer","data-provider small-class","left","property"
+"RegisterTypeProxy","empty","RegisterTypeProxy","constructor"
+"RegisterTypeProxy","empty","~RegisterTypeProxy","destructor"
+"FrameDrawer","entity boundary","FrameDrawer::FrameDrawer","constructor"
+"FrameDrawer","entity boundary","FrameDrawer::DrawFrame","property non-void-command collaborator"
+"FrameDrawer","entity boundary","FrameDrawer::DrawTextInfo","void-accessor command collaborator"
+"FrameDrawer","entity boundary","FrameDrawer::Update","command collaborator"
+"CmpPairFirst","boundary degenerate small-class","operator()","wrapper stateless"
+"EstimatePropagatorCostOdometry","data-provider small-class","name","incidental"
+"EstimatePropagatorCostOdometry","data-provider small-class","EstimatePropagatorCostOdometry::EstimatePropagatorCostOdometry","constructor"
+"EstimatePropagatorCostOdometry","data-provider small-class","EstimatePropagatorCostOdometry::operator()","property collaborator"
+"BaseEdge","data-provider boundary","BaseEdge","constructor"
+"BaseEdge","data-provider boundary","~BaseEdge","destructor"
+"BaseEdge","data-provider boundary","chi2","property"
+"BaseEdge","data-provider boundary","errorData","property"
+"BaseEdge","data-provider boundary","errorData","property non-void-command"
+"BaseEdge","data-provider boundary","error","get collaborator"
+"BaseEdge","data-provider boundary","error","get collaborator"
+"BaseEdge","data-provider boundary","information","get collaborator"
+"BaseEdge","data-provider boundary","information","get collaborator"
+"BaseEdge","data-provider boundary","setInformation","set collaborator"
+"BaseEdge","data-provider boundary","informationData","property"
+"BaseEdge","data-provider boundary","informationData","property non-void-command"
+"BaseEdge","data-provider boundary","measurement","get collaborator"
+"BaseEdge","data-provider boundary","setMeasurement","set collaborator"
+"BaseEdge","data-provider boundary","rank","incidental"
+"BaseEdge","data-provider boundary","initialEstimate","incidental"
+"BaseEdge","data-provider boundary","robustInformation","property collaborator"
+"BlockSolver","unclassified","supportsSchur","incidental"
+"BlockSolver","unclassified","schur","get"
+"BlockSolver","unclassified","setSchur","set"
+"BlockSolver","unclassified","linearSolver","get collaborator"
+"BlockSolver","unclassified","writeDebug","predicate"
+"BlockSolver","unclassified","multiplyHessian","unclassified"
+"BlockSolver","unclassified","BlockSolver<Traits>::BlockSolver","constructor"
+"BlockSolver","unclassified","BlockSolver<Traits>::resize","command"
+"BlockSolver","unclassified","BlockSolver<Traits>::deallocate","command"
+"BlockSolver","unclassified","BlockSolver<Traits>::~BlockSolver","destructor"
+"BlockSolver","unclassified","BlockSolver<Traits>::buildStructure","predicate non-void-command"
+"BlockSolver","unclassified","BlockSolver<Traits>::updateStructure","predicate non-void-command collaborator"
+"BlockSolver","unclassified","BlockSolver<Traits>::solve","predicate non-void-command"
+"BlockSolver","unclassified","BlockSolver<Traits>::computeMarginals","predicate non-void-command collaborator"
+"BlockSolver","unclassified","BlockSolver<Traits>::buildSystem","predicate non-void-command"
+"BlockSolver","unclassified","BlockSolver<Traits>::setLambda","predicate non-void-command collaborator"
+"BlockSolver","unclassified","BlockSolver<Traits>::restoreDiagonal","command collaborator"
+"BlockSolver","unclassified","BlockSolver<Traits>::init","predicate non-void-command"
+"BlockSolver","unclassified","BlockSolver<Traits>::setWriteDebug","command"
+"BlockSolver","unclassified","BlockSolver<Traits>::saveHessian","predicate"
+"HyperGraphElementAction","lazy-class","typeName","get"
+"HyperGraphElementAction","lazy-class","name","get"
+"HyperGraphElementAction","lazy-class","HyperGraphElementAction::HyperGraphElementAction","constructor"
+"HyperGraphElementAction","lazy-class","HyperGraphElementAction::setTypeName","set"
+"HyperGraphElementAction","lazy-class","HyperGraphElementAction::operator()","incidental"
+"HyperGraphElementAction","lazy-class","HyperGraphElementAction::operator()","incidental"
+"HyperGraphElementAction","lazy-class","HyperGraphElementAction::~HyperGraphElementAction","destructor"
+"ViewerAR","unclassified","SetFPS","command"
+"ViewerAR","unclassified","SetSLAM","set collaborator"
+"ViewerAR","unclassified","SetCameraCalibration","command"
+"ViewerAR","unclassified","ViewerAR::ViewerAR","constructor"
+"ViewerAR","unclassified","ViewerAR::Run","command collaborator"
+"ViewerAR","unclassified","ViewerAR::SetImagePose","command collaborator"
+"ViewerAR","unclassified","ViewerAR::GetImagePose","void-accessor command collaborator"
+"ViewerAR","unclassified","ViewerAR::LoadCameraPose","controller stateless"
+"ViewerAR","unclassified","ViewerAR::PrintStatus","command collaborator"
+"ViewerAR","unclassified","ViewerAR::AddTextToImage","wrapper stateless"
+"ViewerAR","unclassified","ViewerAR::DrawImageTexture","controller stateless"
+"ViewerAR","unclassified","ViewerAR::DrawCube","controller stateless"
+"ViewerAR","unclassified","ViewerAR::DrawPlane","command"
+"ViewerAR","unclassified","ViewerAR::DrawPlane","wrapper stateless"
+"ViewerAR","unclassified","ViewerAR::DrawTrackedPoints","controller stateless"
+"ViewerAR","unclassified","ViewerAR::DetectPlane","factory controller stateless"
+"DrawAction","entity boundary small-class","DrawAction::DrawAction","constructor"
+"DrawAction","entity boundary small-class","DrawAction::refreshPropertyPtrs","predicate non-void-command collaborator"
+"OptimizationAlgorithmGaussNewton","entity boundary small-class","OptimizationAlgorithmGaussNewton::OptimizationAlgorithmGaussNewton","constructor"
+"OptimizationAlgorithmGaussNewton","entity boundary small-class","OptimizationAlgorithmGaussNewton::~OptimizationAlgorithmGaussNewton","destructor"
+"OptimizationAlgorithmGaussNewton","entity boundary small-class","OptimizationAlgorithmGaussNewton::solve","property non-void-command collaborator"
+"OptimizationAlgorithmGaussNewton","entity boundary small-class","OptimizationAlgorithmGaussNewton::printVerbose","collaborator"
+"ImageGrabber","commander boundary","ImageGrabber","constructor"
+"ImageGrabber","commander boundary","ImageGrabber","constructor"
+"ImageGrabber","commander boundary","ImageGrabber","constructor"
+"ImageGrabber","commander boundary","ImageGrabber","constructor"
+"ImageGrabber","commander boundary","ImageGrabber::GrabImage","command collaborator"
+"ImageGrabber","commander boundary","ImageGrabber::GrabImage","command collaborator"
+"ImageGrabber","commander boundary","ImageGrabber::GrabRGBD","command collaborator"
+"ImageGrabber","commander boundary","ImageGrabber::GrabStereo","command collaborator"
+"LocalMapping","commander boundary","KeyframesInQueue","property non-void-command collaborator"
+"LocalMapping","commander boundary","LocalMapping::LocalMapping","constructor"
+"LocalMapping","commander boundary","LocalMapping::SetLoopCloser","set collaborator"
+"LocalMapping","commander boundary","LocalMapping::SetTracker","set collaborator"
+"LocalMapping","commander boundary","LocalMapping::Run","command"
+"LocalMapping","commander boundary","LocalMapping::InsertKeyFrame","set collaborator"
+"LocalMapping","commander boundary","LocalMapping::CheckNewKeyFrames","predicate non-void-command collaborator"
+"LocalMapping","commander boundary","LocalMapping::ProcessNewKeyFrame","command collaborator"
+"LocalMapping","commander boundary","LocalMapping::MapPointCulling","command collaborator"
+"LocalMapping","commander boundary","LocalMapping::CreateNewMapPoints","command collaborator"
+"LocalMapping","commander boundary","LocalMapping::SearchInNeighbors","command collaborator"
+"LocalMapping","commander boundary","LocalMapping::ComputeF12","property non-void-command collaborator"
+"LocalMapping","commander boundary","LocalMapping::RequestStop","command collaborator"
+"LocalMapping","commander boundary","LocalMapping::Stop","predicate set collaborator"
+"LocalMapping","commander boundary","LocalMapping::isStopped","get collaborator"
+"LocalMapping","commander boundary","LocalMapping::stopRequested","get collaborator"
+"LocalMapping","commander boundary","LocalMapping::Release","command collaborator"
+"LocalMapping","commander boundary","LocalMapping::AcceptKeyFrames","get collaborator"
+"LocalMapping","commander boundary","LocalMapping::SetAcceptKeyFrames","set collaborator"
+"LocalMapping","commander boundary","LocalMapping::SetNotStop","predicate set collaborator"
+"LocalMapping","commander boundary","LocalMapping::InterruptBA","set"
+"LocalMapping","commander boundary","LocalMapping::KeyFrameCulling","command"
+"LocalMapping","commander boundary","LocalMapping::SkewSymmetricMatrix","controller stateless"
+"LocalMapping","commander boundary","LocalMapping::RequestReset","set collaborator"
+"LocalMapping","commander boundary","LocalMapping::ResetIfRequested","command collaborator"
+"LocalMapping","commander boundary","LocalMapping::RequestFinish","set collaborator"
+"LocalMapping","commander boundary","LocalMapping::CheckFinish","get collaborator"
+"LocalMapping","commander boundary","LocalMapping::SetFinish","command collaborator"
+"LocalMapping","commander boundary","LocalMapping::isFinished","get collaborator"
+"BaseBinaryEdge","commander boundary","BaseBinaryEdge","constructor"
+"BaseBinaryEdge","commander boundary","jacobianOplusXi","get collaborator"
+"BaseBinaryEdge","commander boundary","jacobianOplusXj","get collaborator"
+"BaseBinaryEdge","commander boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::createFrom","factory collaborator stateless"
+"BaseBinaryEdge","commander boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::createTo","factory collaborator stateless"
+"BaseBinaryEdge","commander boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::resize","command"
+"BaseBinaryEdge","commander boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::allVerticesFixed","wrapper stateless"
+"BaseBinaryEdge","commander boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::constructQuadraticForm","command collaborator"
+"BaseBinaryEdge","commander boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::linearizeOplus","command collaborator"
+"BaseBinaryEdge","commander boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::linearizeOplus","command"
+"BaseBinaryEdge","commander boundary","BaseBinaryEdge<D,E,VertexXiType,VertexXjType>::mapHessianMemory","set"
+"HyperGraph","entity boundary","vertices","get collaborator"
+"HyperGraph","entity boundary","vertices","get collaborator"
+"HyperGraph","entity boundary","edges","get collaborator"
+"HyperGraph","entity boundary","edges","get collaborator"
+"HyperGraph","entity boundary","operator=","get"
+"HyperGraph","entity boundary","HyperGraph::vertex","property non-void-command collaborator"
+"HyperGraph","entity boundary","HyperGraph::vertex","property collaborator"
+"HyperGraph","entity boundary","HyperGraph::addVertex","predicate non-void-command collaborator"
+"HyperGraph","entity boundary","HyperGraph::changeId","predicate non-void-command collaborator"
+"HyperGraph","entity boundary","HyperGraph::addEdge","predicate non-void-command collaborator"
+"HyperGraph","entity boundary","HyperGraph::removeVertex","predicate non-void-command collaborator"
+"HyperGraph","entity boundary","HyperGraph::removeEdge","predicate non-void-command collaborator"
+"HyperGraph","entity boundary","HyperGraph::HyperGraph","constructor"
+"HyperGraph","entity boundary","HyperGraph::clear","command collaborator"
+"HyperGraph","entity boundary","HyperGraph::~HyperGraph","destructor"
+"Cache","boundary","elementType","collaborator incidental"
+"Cache","boundary","Cache::Cache","copy-constructor"
+"Cache","boundary","Cache::vertex","property non-void-command collaborator"
+"Cache","boundary","Cache::graph","property non-void-command collaborator"
+"Cache","boundary","Cache::container","get collaborator"
+"Cache","boundary","Cache::parameters","get collaborator"
+"Cache","boundary","Cache::key","property controller"
+"Cache","boundary","Cache::update","command"
+"Cache","boundary","Cache::installDependency","property non-void-command"
+"Cache","boundary","Cache::resolveDependancies","incidental"
+"Sim3Solver","boundary","Sim3Solver::Sim3Solver","constructor"
+"Sim3Solver","boundary","Sim3Solver::SetRansacParameters","command"
+"Sim3Solver","boundary","Sim3Solver::iterate","get property non-void-command collaborator"
+"Sim3Solver","boundary","Sim3Solver::find","property non-void-command collaborator"
+"Sim3Solver","boundary","Sim3Solver::ComputeCentroid","controller stateless"
+"Sim3Solver","boundary","Sim3Solver::ComputeSim3","command collaborator"
+"Sim3Solver","boundary","Sim3Solver::CheckInliers","command"
+"Sim3Solver","boundary","Sim3Solver::GetEstimatedRotation","property non-void-command collaborator"
+"Sim3Solver","boundary","Sim3Solver::GetEstimatedTranslation","property non-void-command collaborator"
+"Sim3Solver","boundary","Sim3Solver::GetEstimatedScale","get"
+"Sim3Solver","boundary","Sim3Solver::Project","controller stateless"
+"Sim3Solver","boundary","Sim3Solver::FromCameraToImage","controller stateless"
+"AbstractHyperGraphElementCreator","empty","~AbstractHyperGraphElementCreator","destructor"
+"MapDrawer","entity commander boundary","MapDrawer::MapDrawer","constructor"
+"MapDrawer","entity commander boundary","MapDrawer::DrawMapPoints","command collaborator"
+"MapDrawer","entity commander boundary","MapDrawer::DrawKeyFrames","command collaborator"
+"MapDrawer","entity commander boundary","MapDrawer::DrawCurrentCamera","wrapper"
+"MapDrawer","entity commander boundary","MapDrawer::SetCurrentCameraPose","set collaborator"
+"MapDrawer","entity commander boundary","MapDrawer::GetCurrentOpenGLCameraMatrix","void-accessor command collaborator"
+"EdgeSim3ProjectXYZ","entity boundary","computeError","set collaborator"
+"EdgeSim3ProjectXYZ","entity boundary","EdgeSim3ProjectXYZ::EdgeSim3ProjectXYZ","constructor"
+"EdgeSim3ProjectXYZ","entity boundary","EdgeSim3ProjectXYZ::read","predicate non-void-command collaborator"
+"EdgeSim3ProjectXYZ","entity boundary","EdgeSim3ProjectXYZ::write","predicate collaborator"
+"RobustKernelTukey","small-class","RobustKernelTukey::setDeltaSqr","command"
+"RobustKernelTukey","small-class","RobustKernelTukey::robustify","void-accessor collaborator"
+"AbstractOptimizationAlgorithmCreator","data-provider boundary data-class small-class","~AbstractOptimizationAlgorithmCreator","destructor"
+"AbstractOptimizationAlgorithmCreator","data-provider boundary data-class small-class","property","get collaborator"
+"AbstractOptimizationAlgorithmCreator","data-provider boundary data-class small-class","AbstractOptimizationAlgorithmCreator::AbstractOptimizationAlgorithmCreator","constructor"
+"RobustKernelScaleDelta","boundary","kernel","get collaborator"
+"RobustKernelScaleDelta","boundary","RobustKernelScaleDelta::RobustKernelScaleDelta","constructor"
+"RobustKernelScaleDelta","boundary","RobustKernelScaleDelta::RobustKernelScaleDelta","constructor"
+"RobustKernelScaleDelta","boundary","RobustKernelScaleDelta::setKernel","set collaborator"
+"RobustKernelScaleDelta","boundary","RobustKernelScaleDelta::robustify","void-accessor collaborator"
+"CacheContainer","boundary","CacheContainer::CacheContainer","constructor"
+"CacheContainer","boundary","CacheContainer::findCache","wrapper stateless"
+"CacheContainer","boundary","CacheContainer::createCache","property controller"
+"CacheContainer","boundary","CacheContainer::vertex","get collaborator"
+"CacheContainer","boundary","CacheContainer::graph","property non-void-command collaborator"
+"CacheContainer","boundary","CacheContainer::update","set collaborator"
+"CacheContainer","boundary","CacheContainer::setUpdateNeeded","set collaborator"
+"CacheContainer","boundary","CacheContainer::~CacheContainer","destructor"
+"ExtractorNode","commander boundary small-class","ExtractorNode","constructor"
+"ExtractorNode","commander boundary small-class","ExtractorNode::DivideNode","command collaborator"
+"MatrixStructure","unclassified","nzMax","get"
+"MatrixStructure","unclassified","MatrixStructure::MatrixStructure","constructor"
+"MatrixStructure","unclassified","MatrixStructure::~MatrixStructure","destructor"
+"MatrixStructure","unclassified","MatrixStructure::alloc","command"
+"MatrixStructure","unclassified","MatrixStructure::free","command"
+"MatrixStructure","unclassified","MatrixStructure::write","predicate controller"
+"Plane","commander small-class","Plane::Plane","constructor"
+"Plane","commander small-class","Plane::Recompute","command"
+"Plane","commander small-class","Plane::Plane","constructor"
+"FrontierLevelCmp","pure-controller degenerate small-class","operator()","controller stateless"
+"EstimatePropagatorCost","data-provider small-class","name","incidental"
+"EstimatePropagatorCost","data-provider small-class","EstimatePropagatorCost::EstimatePropagatorCost","constructor"
+"EstimatePropagatorCost","data-provider small-class","EstimatePropagatorCost::operator()","property collaborator"
+"TemplatedVocabulary","boundary","getBranchingFactor","get"
+"TemplatedVocabulary","boundary","getDepthLevels","get"
+"TemplatedVocabulary","boundary","getWeightingType","get collaborator"
+"TemplatedVocabulary","boundary","getScoringType","get collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary","constructor"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary","constructor"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary","constructor"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::createScoringObject","set"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::setScoringType","set collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::setWeightingType","set collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::TemplatedVocabulary","copy-constructor"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::~TemplatedVocabulary","destructor"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::operator=","get non-void-command collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::create","command collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::create","command"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::create","command collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getFeatures","controller stateless"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::HKmeansStep","command"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::initiateClusters","collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::initiateClustersKMpp","controller"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::createWords","command collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::setNodeWeights","command collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::size","property"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::empty","predicate"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getEffectiveLevels","property collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getWord","get collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getWordWeight","get collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","property collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::score","property collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","wrapper stateless"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::transform","void-accessor controller"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getParentNode","property collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::getWordsFromNode","controller"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::stopWords","property non-void-command collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::loadFromTextFile","predicate non-void-command"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::saveToTextFile","collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::save","collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::load","controller stateless"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::save","collaborator"
+"TemplatedVocabulary","boundary","TemplatedVocabulary<TDescriptor,F>::load","command collaborator"
+"EdgeInverseSim3ProjectXYZ","entity boundary","computeError","set collaborator"
+"EdgeInverseSim3ProjectXYZ","entity boundary","EdgeInverseSim3ProjectXYZ::EdgeInverseSim3ProjectXYZ","constructor"
+"EdgeInverseSim3ProjectXYZ","entity boundary","EdgeInverseSim3ProjectXYZ::read","predicate non-void-command collaborator"
+"EdgeInverseSim3ProjectXYZ","entity boundary","EdgeInverseSim3ProjectXYZ::write","predicate collaborator"
+"FeatureVector","pure-controller degenerate small-class","FeatureVector::FeatureVector","constructor"
+"FeatureVector","pure-controller degenerate small-class","FeatureVector::~FeatureVector","destructor"
+"FeatureVector","pure-controller degenerate small-class","FeatureVector::addFeature","controller stateless"
+"Timestamp","unclassified","setTime","command"
+"Timestamp","unclassified","getTime","void-accessor"
+"Timestamp","unclassified","Timestamp::Timestamp","copy-constructor"
+"Timestamp","unclassified","Timestamp::~Timestamp","destructor"
+"Timestamp","unclassified","Timestamp::empty","predicate"
+"Timestamp","unclassified","Timestamp::setToCurrentTime","command collaborator"
+"Timestamp","unclassified","Timestamp::setTime","command"
+"Timestamp","unclassified","Timestamp::setTime","command"
+"Timestamp","unclassified","Timestamp::getFloatTime","property wrapper"
+"Timestamp","unclassified","Timestamp::getStringTime","controller stateless"
+"Timestamp","unclassified","Timestamp::operator-","controller stateless"
+"Timestamp","unclassified","Timestamp::operator+=","get set"
+"Timestamp","unclassified","Timestamp::operator-=","get set"
+"Timestamp","unclassified","Timestamp::operator+","controller stateless"
+"Timestamp","unclassified","Timestamp::plus","property controller"
+"Timestamp","unclassified","Timestamp::operator-","controller stateless"
+"Timestamp","unclassified","Timestamp::minus","property controller"
+"Timestamp","unclassified","Timestamp::operator>","predicate"
+"Timestamp","unclassified","Timestamp::operator>=","predicate"
+"Timestamp","unclassified","Timestamp::operator<","predicate"
+"Timestamp","unclassified","Timestamp::operator<=","predicate"
+"Timestamp","unclassified","Timestamp::operator==","predicate"
+"Timestamp","unclassified","Timestamp::Format","property"
+"Timestamp","unclassified","Timestamp::Format","controller stateless"
+"Optimizer","controller degenerate","Optimizer::GlobalBundleAdjustemnt","command collaborator"
+"Optimizer","controller degenerate","Optimizer::BundleAdjustment","controller stateless"
+"Optimizer","controller degenerate","Optimizer::PoseOptimization","controller stateless"
+"Optimizer","controller degenerate","Optimizer::LocalBundleAdjustment","controller stateless"
+"Optimizer","controller degenerate","Optimizer::OptimizeEssentialGraph","controller stateless"
+"Optimizer","controller degenerate","Optimizer::OptimizeSim3","controller stateless"
+"EstimatePropagator","boundary","visited","get collaborator"
+"EstimatePropagator","boundary","adjacencyMap","get collaborator"
+"EstimatePropagator","boundary","graph","get collaborator"
+"EstimatePropagator","boundary","EstimatePropagator::EstimatePropagator","constructor"
+"EstimatePropagator","boundary","EstimatePropagator::reset","command collaborator"
+"EstimatePropagator","boundary","EstimatePropagator::propagate","command collaborator"
+"EstimatePropagator","boundary","EstimatePropagator::propagate","command collaborator"
+"BaseUnaryEdge","commander","BaseUnaryEdge","constructor"
+"BaseUnaryEdge","commander","jacobianOplusXi","get collaborator"
+"BaseUnaryEdge","commander","mapHessianMemory","incidental"
+"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::resize","command"
+"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::allVerticesFixed","wrapper stateless"
+"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::constructQuadraticForm","command collaborator"
+"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::linearizeOplus","command collaborator"
+"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::linearizeOplus","set"
+"BaseUnaryEdge","commander","BaseUnaryEdge<D,E,VertexXiType>::initialEstimate","incidental"
+"Factory","entity boundary","Factory::Factory","constructor"
+"Factory","entity boundary","Factory::~Factory","destructor"
+"Factory","entity boundary","Factory::instance","get set factory"
+"Factory","entity boundary","Factory::registerType","command collaborator"
+"Factory","entity boundary","Factory::unregisterType","command collaborator"
+"Factory","entity boundary","Factory::construct","property collaborator"
+"Factory","entity boundary","Factory::tag","property collaborator"
+"Factory","entity boundary","Factory::fillKnownTypes","collaborator"
+"Factory","entity boundary","Factory::knowsTag","predicate collaborator"
+"Factory","entity boundary","Factory::destroy","set"
+"Factory","entity boundary","Factory::printRegisteredTypes","collaborator"
+"Factory","entity boundary","Factory::construct","property collaborator"
+"TripletEntry","empty","TripletEntry","constructor"
+"RobustKernel","data-class small-class","~RobustKernel","destructor"
+"RobustKernel","data-class small-class","delta","get"
+"RobustKernel","data-class small-class","RobustKernel::RobustKernel","constructor"
+"RobustKernel","data-class small-class","RobustKernel::RobustKernel","constructor"
+"RobustKernel","data-class small-class","RobustKernel::setDelta","set"
+"HyperDijkstra","unclassified","visited","get collaborator"
+"HyperDijkstra","unclassified","adjacencyMap","get collaborator"
+"HyperDijkstra","unclassified","graph","get collaborator"
+"HyperDijkstra","unclassified","HyperDijkstra::HyperDijkstra","constructor"
+"HyperDijkstra","unclassified","HyperDijkstra::reset","command collaborator"
+"HyperDijkstra","unclassified","HyperDijkstra::shortestPaths","command collaborator"
+"HyperDijkstra","unclassified","HyperDijkstra::shortestPaths","command collaborator"
+"HyperDijkstra","unclassified","HyperDijkstra::computeTree","controller stateless"
+"HyperDijkstra","unclassified","HyperDijkstra::visitAdjacencyMap","controller stateless"
+"HyperDijkstra","unclassified","HyperDijkstra::connectedSubset","controller stateless"
+"BowVector","degenerate","BowVector::BowVector","constructor"
+"BowVector","degenerate","BowVector::~BowVector","destructor"
+"BowVector","degenerate","BowVector::addWeight","controller stateless"
+"BowVector","degenerate","BowVector::addIfNotExist","controller stateless"
+"BowVector","degenerate","BowVector::normalize","wrapper stateless"
+"BowVector","degenerate","BowVector::saveM","controller stateless"
+"UniformCostFunction","degenerate small-class","UniformCostFunction::operator()","incidental"
+"HyperGraphAction","degenerate small-class","HyperGraphAction::~HyperGraphAction","destructor"
+"HyperGraphAction","degenerate small-class","HyperGraphAction::operator()","incidental"
+"HyperGraphElementActionCollection","entity boundary","actionMap","get collaborator"
+"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::HyperGraphElementActionCollection","constructor"
+"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::~HyperGraphElementActionCollection","destructor"
+"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::operator()","property non-void-command collaborator"
+"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::operator()","property non-void-command collaborator"
+"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::registerAction","predicate non-void-command collaborator"
+"HyperGraphElementActionCollection","entity boundary","HyperGraphElementActionCollection::unregisterAction","predicate non-void-command collaborator"
+"RegisterActionProxy","empty","RegisterActionProxy","constructor"
+"RegisterActionProxy","empty","~RegisterActionProxy","destructor"
+"KeyFrame","boundary","KeyFrame::KeyFrame","copy-constructor"
+"KeyFrame","boundary","KeyFrame::ComputeBoW","command collaborator"
+"KeyFrame","boundary","KeyFrame::SetPose","command collaborator"
+"KeyFrame","boundary","KeyFrame::GetPose","property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::GetPoseInverse","property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::GetCameraCenter","property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::GetStereoCenter","property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::GetRotation","property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::GetTranslation","property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::AddConnection","command collaborator"
+"KeyFrame","boundary","KeyFrame::UpdateBestCovisibles","command"
+"KeyFrame","boundary","KeyFrame::GetConnectedKeyFrames","property non-void-command"
+"KeyFrame","boundary","KeyFrame::GetVectorCovisibleKeyFrames","get collaborator"
+"KeyFrame","boundary","KeyFrame::GetBestCovisibilityKeyFrames","get property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::GetCovisiblesByWeight","property non-void-command"
+"KeyFrame","boundary","KeyFrame::GetWeight","get property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::AddMapPoint","set collaborator"
+"KeyFrame","boundary","KeyFrame::EraseMapPointMatch","set collaborator"
+"KeyFrame","boundary","KeyFrame::EraseMapPointMatch","set collaborator"
+"KeyFrame","boundary","KeyFrame::ReplaceMapPointMatch","set collaborator"
+"KeyFrame","boundary","KeyFrame::GetMapPoints","property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::TrackedMapPoints","property controller"
+"KeyFrame","boundary","KeyFrame::GetMapPointMatches","get collaborator"
+"KeyFrame","boundary","KeyFrame::GetMapPoint","get collaborator"
+"KeyFrame","boundary","KeyFrame::UpdateConnections","command collaborator"
+"KeyFrame","boundary","KeyFrame::AddChild","command collaborator"
+"KeyFrame","boundary","KeyFrame::EraseChild","command collaborator"
+"KeyFrame","boundary","KeyFrame::ChangeParent","set collaborator"
+"KeyFrame","boundary","KeyFrame::GetChilds","get collaborator"
+"KeyFrame","boundary","KeyFrame::GetParent","get collaborator"
+"KeyFrame","boundary","KeyFrame::hasChild","predicate non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::AddLoopEdge","set collaborator"
+"KeyFrame","boundary","KeyFrame::GetLoopEdges","get collaborator"
+"KeyFrame","boundary","KeyFrame::SetNotErase","set collaborator"
+"KeyFrame","boundary","KeyFrame::SetErase","command collaborator"
+"KeyFrame","boundary","KeyFrame::SetBadFlag","command"
+"KeyFrame","boundary","KeyFrame::isBad","get collaborator"
+"KeyFrame","boundary","KeyFrame::EraseConnection","command collaborator"
+"KeyFrame","boundary","KeyFrame::GetFeaturesInArea","property controller"
+"KeyFrame","boundary","KeyFrame::IsInImage","predicate"
+"KeyFrame","boundary","KeyFrame::UnprojectStereo","property non-void-command collaborator"
+"KeyFrame","boundary","KeyFrame::ComputeSceneMedianDepth","property non-void-command"
+"BaseProperty","data-provider data-class small-class","name","get"
+"BaseProperty","data-provider data-class small-class","BaseProperty::BaseProperty","constructor"
+"BaseProperty","data-provider data-class small-class","BaseProperty::~BaseProperty","destructor"
+"HyperGraphActionLibrary","entity boundary","actionMap","get collaborator"
+"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::HyperGraphActionLibrary","constructor"
+"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::instance","get set factory"
+"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::destroy","set"
+"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::~HyperGraphActionLibrary","destructor"
+"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::actionByName","property non-void-command collaborator"
+"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::registerAction","predicate non-void-command collaborator"
+"HyperGraphActionLibrary","entity boundary","HyperGraphActionLibrary::unregisterAction","predicate non-void-command collaborator"
+"WriteGnuplotAction","empty","WriteGnuplotAction::WriteGnuplotAction","constructor"
+"JacobianWorkspace","commander boundary","workspaceForVertex","get non-void-command"
+"JacobianWorkspace","commander boundary","JacobianWorkspace::JacobianWorkspace","constructor"
+"JacobianWorkspace","commander boundary","JacobianWorkspace::~JacobianWorkspace","destructor"
+"JacobianWorkspace","commander boundary","JacobianWorkspace::allocate","predicate non-void-command collaborator"
+"JacobianWorkspace","commander boundary","JacobianWorkspace::updateSize","command collaborator"
+"JacobianWorkspace","commander boundary","JacobianWorkspace::updateSize","command collaborator"
+"JacobianWorkspace","commander boundary","JacobianWorkspace::updateSize","command"
+"LinearSolver","degenerate","LinearSolver","constructor"
+"LinearSolver","degenerate","~LinearSolver","destructor"
+"LinearSolver","degenerate","solveBlocks","collaborator incidental"
+"LinearSolver","degenerate","solvePattern","collaborator incidental"
+"LinearSolver","degenerate","writeDebug","incidental"
+"LinearSolver","degenerate","setWriteDebug","empty"
+"LinearSolverCCS","commander boundary data-class small-class","LinearSolverCCS","constructor"
+"LinearSolverCCS","commander boundary data-class small-class","~LinearSolverCCS","destructor"
+"LinearSolverCCS","commander boundary data-class small-class","initMatrixStructure","set collaborator"
+"OptimizationAlgorithmDogleg","data-provider","lastStep","get"
+"OptimizationAlgorithmDogleg","data-provider","trustRegion","get"
+"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::OptimizationAlgorithmDogleg","constructor"
+"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::~OptimizationAlgorithmDogleg","destructor"
+"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::solve","property non-void-command collaborator"
+"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::printVerbose","collaborator"
+"OptimizationAlgorithmDogleg","data-provider","OptimizationAlgorithmDogleg::stepType2Str","incidental"
+"OptimizationAlgorithmLevenberg","unclassified","currentLambda","get"
+"OptimizationAlgorithmLevenberg","unclassified","maxTrialsAfterFailure","property"
+"OptimizationAlgorithmLevenberg","unclassified","userLambdaInit","property non-void-command"
+"OptimizationAlgorithmLevenberg","unclassified","levenbergIteration","get"
+"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::OptimizationAlgorithmLevenberg","constructor"
+"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::~OptimizationAlgorithmLevenberg","destructor"
+"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::solve","property non-void-command collaborator"
+"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::computeLambdaInit","property"
+"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::computeScale","property"
+"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::setMaxTrialsAfterFailure","command"
+"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::setUserLambdaInit","command"
+"OptimizationAlgorithmLevenberg","unclassified","OptimizationAlgorithmLevenberg::printVerbose","collaborator"
+"ParameterContainer","boundary degenerate","isMainStorage","get"
+"ParameterContainer","boundary degenerate","ParameterContainer::ParameterContainer","constructor"
+"ParameterContainer","boundary degenerate","ParameterContainer::clear","command collaborator"
+"ParameterContainer","boundary degenerate","ParameterContainer::~ParameterContainer","destructor"
+"ParameterContainer","boundary degenerate","ParameterContainer::addParameter","controller stateless"
+"ParameterContainer","boundary degenerate","ParameterContainer::getParameter","wrapper stateless"
+"ParameterContainer","boundary degenerate","ParameterContainer::detachParameter","wrapper stateless"
+"ParameterContainer","boundary degenerate","ParameterContainer::write","controller stateless"
+"ParameterContainer","boundary degenerate","ParameterContainer::read","predicate non-void-command"
+"RegisterOptimizationAlgorithmProxy","empty","RegisterOptimizationAlgorithmProxy","constructor"
+"RegisterOptimizationAlgorithmProxy","empty","~RegisterOptimizationAlgorithmProxy","destructor"

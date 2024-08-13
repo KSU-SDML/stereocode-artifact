@@ -1,739 +1,739 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"MyGLCanvas","commander small-class","MyGLCanvas","constructor",
-"MyGLCanvas","commander small-class","~MyGLCanvas","destructor",
-"MyGLCanvas","commander small-class","setRotation","set collaborator",
-"MyGLCanvas","commander small-class","drawGL","command",
-"ExampleApplication","small-class","ExampleApplication","constructor",
-"ExampleApplication","small-class","ExampleApplication","constructor",
-"ExampleApplication","small-class","keyboardEvent","predicate non-void-command",
-"ExampleApplication","small-class","draw","void-accessor command collaborator",
-"GLTexture","unclassified","GLTexture","constructor",
-"GLTexture","unclassified","GLTexture","constructor",
-"GLTexture","unclassified","GLTexture","copy-constructor",
-"GLTexture","unclassified","operator=","get set",
-"GLTexture","unclassified","~GLTexture","destructor",
-"GLTexture","unclassified","texture","get collaborator",
-"GLTexture","unclassified","textureName","get",
-"GLTexture","unclassified","load","property set collaborator",
-"MainloopHandle","commander boundary data-class small-class","~MainloopHandle","destructor",
-"MainloopHandle","commander boundary data-class small-class","join","set collaborator",
-"Window","boundary","title","get",
-"Window","boundary","setTitle","set",
-"Window","boundary","modal","get",
-"Window","boundary","setModal","set",
-"Window","boundary","Window::Window","constructor",
-"Window","boundary","Window::preferredSize","property collaborator",
-"Window","boundary","Window::buttonPanel","get set factory collaborator",
-"Window","boundary","Window::performLayout","void-accessor command collaborator",
-"Window","boundary","Window::draw","void-accessor command collaborator",
-"Window","boundary","Window::dispose","controller",
-"Window","boundary","Window::center","controller",
-"Window","boundary","Window::mouseDragEvent","predicate non-void-command",
-"Window","boundary","Window::mouseButtonEvent","predicate non-void-command",
-"Window","boundary","Window::scrollEvent","predicate non-void-command collaborator",
-"Window","boundary","Window::refreshRelativePlacement","empty",
-"Window","boundary","Window::save","void-accessor collaborator",
-"Window","boundary","Window::load","predicate set collaborator",
-"IntBox","entity commander boundary","IntBox","constructor",
-"IntBox","entity commander boundary","value","property collaborator",
-"IntBox","entity commander boundary","setValue","command collaborator",
-"IntBox","entity commander boundary","setCallback","command collaborator",
-"IntBox","entity commander boundary","setValueIncrement","set collaborator",
-"IntBox","entity commander boundary","setMinValue","set collaborator",
-"IntBox","entity commander boundary","setMaxValue","set collaborator",
-"IntBox","entity commander boundary","setMinMaxValues","command collaborator",
-"IntBox","entity commander boundary","mouseButtonEvent","predicate non-void-command collaborator",
-"IntBox","entity commander boundary","mouseDragEvent","predicate non-void-command",
-"IntBox","entity commander boundary","scrollEvent","predicate non-void-command collaborator",
-"TextBox","unclassified","editable","get",
-"TextBox","unclassified","spinnable","get",
-"TextBox","unclassified","setSpinnable","set",
-"TextBox","unclassified","value","get",
-"TextBox","unclassified","setValue","set",
-"TextBox","unclassified","defaultValue","get",
-"TextBox","unclassified","setDefaultValue","set",
-"TextBox","unclassified","alignment","get collaborator",
-"TextBox","unclassified","setAlignment","set collaborator",
-"TextBox","unclassified","units","get",
-"TextBox","unclassified","setUnits","set",
-"TextBox","unclassified","unitsImage","get",
-"TextBox","unclassified","setUnitsImage","set",
-"TextBox","unclassified","format","get",
-"TextBox","unclassified","setFormat","set",
-"TextBox","unclassified","placeholder","get",
-"TextBox","unclassified","setPlaceholder","set",
-"TextBox","unclassified","callback","get collaborator",
-"TextBox","unclassified","setCallback","set collaborator",
-"TextBox","unclassified","TextBox::TextBox","constructor",
-"TextBox","unclassified","TextBox::setEditable","set",
-"TextBox","unclassified","TextBox::setTheme","void-accessor set collaborator",
-"TextBox","unclassified","TextBox::preferredSize","property collaborator",
-"TextBox","unclassified","TextBox::draw","void-accessor command collaborator",
-"TextBox","unclassified","TextBox::mouseButtonEvent","predicate non-void-command",
-"TextBox","unclassified","TextBox::mouseMotionEvent","predicate non-void-command collaborator",
-"TextBox","unclassified","TextBox::mouseDragEvent","predicate non-void-command collaborator",
-"TextBox","unclassified","TextBox::focusEvent","predicate non-void-command",
-"TextBox","unclassified","TextBox::keyboardEvent","predicate non-void-command",
-"TextBox","unclassified","TextBox::keyboardCharacterEvent","predicate non-void-command collaborator",
-"TextBox","unclassified","TextBox::checkFormat","controller stateless",
-"TextBox","unclassified","TextBox::copySelection","predicate non-void-command",
-"TextBox","unclassified","TextBox::pasteFromClipboard","command",
-"TextBox","unclassified","TextBox::deleteSelection","predicate non-void-command",
-"TextBox","unclassified","TextBox::updateCursor","void-accessor command",
-"TextBox","unclassified","TextBox::cursorIndex2Position","incidental",
-"TextBox","unclassified","TextBox::position2CursorIndex","wrapper stateless",
-"TextBox","unclassified","TextBox::spinArea","property non-void-command collaborator",
-"TextBox","unclassified","TextBox::save","void-accessor collaborator",
-"TextBox","unclassified","TextBox::load","predicate non-void-command collaborator",
-"TabWidget","boundary","setCallback","set collaborator",
-"TabWidget","boundary","callback","get collaborator",
-"TabWidget","boundary","TabWidget::TabWidget","constructor",
-"TabWidget","boundary","TabWidget::addChild","wrapper stateless",
-"TabWidget","boundary","TabWidget::setActiveTab","command",
-"TabWidget","boundary","TabWidget::activeTab","property",
-"TabWidget","boundary","TabWidget::tabCount","property",
-"TabWidget","boundary","TabWidget::createTab","non-void-command factory collaborator",
-"TabWidget","boundary","TabWidget::createTab","property non-void-command collaborator",
-"TabWidget","boundary","TabWidget::addTab","void-accessor command collaborator",
-"TabWidget","boundary","TabWidget::addTab","void-accessor command collaborator",
-"TabWidget","boundary","TabWidget::tabLabelIndex","property non-void-command",
-"TabWidget","boundary","TabWidget::tabIndex","property non-void-command collaborator",
-"TabWidget","boundary","TabWidget::ensureTabVisible","command",
-"TabWidget","boundary","TabWidget::tab","property collaborator",
-"TabWidget","boundary","TabWidget::tab","property non-void-command collaborator",
-"TabWidget","boundary","TabWidget::tab","property collaborator",
-"TabWidget","boundary","TabWidget::tab","property non-void-command collaborator",
-"TabWidget","boundary","TabWidget::removeTab","predicate non-void-command",
-"TabWidget","boundary","TabWidget::removeTab","command",
-"TabWidget","boundary","TabWidget::tabLabelAt","property",
-"TabWidget","boundary","TabWidget::performLayout","void-accessor command collaborator",
-"TabWidget","boundary","TabWidget::preferredSize","property collaborator",
-"TabWidget","boundary","TabWidget::draw","void-accessor command collaborator",
-"Slider","boundary","value","get",
-"Slider","boundary","setValue","set",
-"Slider","boundary","highlightColor","get collaborator",
-"Slider","boundary","setHighlightColor","set collaborator",
-"Slider","boundary","range","get",
-"Slider","boundary","setRange","set",
-"Slider","boundary","highlightedRange","get",
-"Slider","boundary","setHighlightedRange","set",
-"Slider","boundary","callback","get collaborator",
-"Slider","boundary","setCallback","set collaborator",
-"Slider","boundary","finalCallback","get collaborator",
-"Slider","boundary","setFinalCallback","set collaborator",
-"Slider","boundary","Slider::Slider","constructor",
-"Slider","boundary","Slider::preferredSize","wrapper stateless",
-"Slider","boundary","Slider::mouseDragEvent","predicate non-void-command collaborator",
-"Slider","boundary","Slider::mouseButtonEvent","predicate non-void-command",
-"Slider","boundary","Slider::draw","void-accessor command collaborator",
-"Slider","boundary","Slider::save","void-accessor collaborator",
-"Slider","boundary","Slider::load","predicate non-void-command collaborator",
-"MessageDialog","data-provider boundary data-class","messageLabel","get collaborator",
-"MessageDialog","data-provider boundary data-class","messageLabel","get collaborator",
-"MessageDialog","data-provider boundary data-class","callback","get collaborator",
-"MessageDialog","data-provider boundary data-class","setCallback","set collaborator",
-"MessageDialog","data-provider boundary data-class","MessageDialog::MessageDialog","constructor",
-"FormWidget<std::string,std::true_type>","commander boundary small-class","FormWidget","constructor",
-"FormWidget<std::string,std::true_type>","commander boundary small-class","setCallback","command collaborator",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","Color","constructor",
-"Color","boundary lazy-class degenerate","operator=","get collaborator",
-"Color","boundary lazy-class degenerate","r","wrapper stateless",
-"Color","boundary lazy-class degenerate","r","wrapper stateless",
-"Color","boundary lazy-class degenerate","g","wrapper stateless",
-"Color","boundary lazy-class degenerate","g","wrapper stateless",
-"Color","boundary lazy-class degenerate","b","wrapper stateless",
-"Color","boundary lazy-class degenerate","b","wrapper stateless",
-"Color","boundary lazy-class degenerate","contrastingColor","property",
-"Color","boundary lazy-class degenerate","Color::operatorconstNVGcolor&","controller stateless",
-"Button","boundary","caption","get",
-"Button","boundary","setCaption","set",
-"Button","boundary","backgroundColor","get collaborator",
-"Button","boundary","setBackgroundColor","set collaborator",
-"Button","boundary","textColor","get collaborator",
-"Button","boundary","setTextColor","set collaborator",
-"Button","boundary","icon","get",
-"Button","boundary","setIcon","set",
-"Button","boundary","flags","get",
-"Button","boundary","setFlags","set",
-"Button","boundary","iconPosition","get collaborator",
-"Button","boundary","setIconPosition","set collaborator",
-"Button","boundary","pushed","get",
-"Button","boundary","setPushed","set",
-"Button","boundary","callback","get collaborator",
-"Button","boundary","setCallback","set collaborator",
-"Button","boundary","changeCallback","get collaborator",
-"Button","boundary","setChangeCallback","set collaborator",
-"Button","boundary","setButtonGroup","set",
-"Button","boundary","buttonGroup","get",
-"Button","boundary","Button::Button","constructor",
-"Button","boundary","Button::preferredSize","property collaborator",
-"Button","boundary","Button::mouseButtonEvent","predicate non-void-command",
-"Button","boundary","Button::draw","void-accessor command collaborator",
-"Button","boundary","Button::save","void-accessor collaborator",
-"Button","boundary","Button::load","predicate non-void-command collaborator",
-"FormWidget<T,typenamestd::is_floating_point<T>::type>","empty","FormWidget","constructor",
-"GLShader","unclassified","name","get",
-"GLShader","unclassified","define","set",
-"GLShader","unclassified","uploadAttrib","void-accessor command",
-"GLShader","unclassified","downloadAttrib","void-accessor command collaborator",
-"GLShader","unclassified","uploadIndices","void-accessor command",
-"GLShader","unclassified","hasAttrib","predicate collaborator",
-"GLShader","unclassified","attribVersion","property collaborator",
-"GLShader","unclassified","resetAttribVersion","void-accessor command collaborator",
-"GLShader","unclassified","setUniform","incidental",
-"GLShader","unclassified","setUniform","incidental",
-"GLShader","unclassified","setUniform","incidental",
-"GLShader","unclassified","setUniform","incidental",
-"GLShader","unclassified","setUniform","void-accessor command",
-"GLShader","unclassified","setUniform","void-accessor command",
-"GLShader","unclassified","setUniform","void-accessor command",
-"GLShader","unclassified","setUniform","void-accessor command",
-"GLShader","unclassified","setUniform","void-accessor command",
-"GLShader","unclassified","setUniform","void-accessor command",
-"GLShader","unclassified","setUniform","void-accessor command",
-"GLShader","unclassified","setUniform","void-accessor command",
-"GLShader","unclassified","setUniform","void-accessor command",
-"GLShader","unclassified","bufferSize","property collaborator",
-"GLShader","unclassified","GLShader::initFromFiles","predicate non-void-command collaborator",
-"GLShader","unclassified","GLShader::init","predicate non-void-command",
-"GLShader","unclassified","GLShader::bind","wrapper",
-"GLShader","unclassified","GLShader::attrib","property controller",
-"GLShader","unclassified","GLShader::setUniform","controller",
-"GLShader","unclassified","GLShader::uniform","property controller",
-"GLShader","unclassified","GLShader::uploadAttrib","void-accessor command",
-"GLShader","unclassified","GLShader::downloadAttrib","void-accessor command",
-"GLShader","unclassified","GLShader::shareAttrib","controller stateless",
-"GLShader","unclassified","GLShader::invalidateAttribs","unclassified",
-"GLShader","unclassified","GLShader::freeAttrib","void-accessor command collaborator",
-"GLShader","unclassified","GLShader::drawIndexed","wrapper stateless",
-"GLShader","unclassified","GLShader::drawArray","wrapper stateless",
-"GLShader","unclassified","GLShader::free","command",
-"GLShader","unclassified","GLShader::attribBuffer","property wrapper",
-"UniformBufferStd140","entity commander boundary","push_back","command collaborator",
-"UniformBufferStd140","entity commander boundary","push_back","void-accessor command collaborator",
-"UniformBufferStd140","entity commander boundary","push_back","command",
-"FormHelper","boundary degenerate small-class","FormHelper","constructor",
-"FormHelper","boundary degenerate small-class","addWindow","collaborator stateless",
-"PyGLCanvas","boundary degenerate small-class","drawGL","wrapper stateless",
-"StackedWidget","unclassified","StackedWidget::StackedWidget","constructor",
-"StackedWidget","unclassified","StackedWidget::setSelectedIndex","command",
-"StackedWidget","unclassified","StackedWidget::selectedIndex","get",
-"StackedWidget","unclassified","StackedWidget::performLayout","void-accessor controller",
-"StackedWidget","unclassified","StackedWidget::preferredSize","property controller",
-"StackedWidget","unclassified","StackedWidget::addChild","void-accessor command collaborator",
-"GLCanvas","entity boundary","backgroundColor","get collaborator",
-"GLCanvas","entity boundary","setBackgroundColor","set collaborator",
-"GLCanvas","entity boundary","setDrawBorder","set",
-"GLCanvas","entity boundary","drawBorder","get",
-"GLCanvas","entity boundary","drawGL","empty",
-"GLCanvas","entity boundary","GLCanvas::GLCanvas","constructor",
-"GLCanvas","entity boundary","GLCanvas::drawWidgetBorder","void-accessor collaborator",
-"GLCanvas","entity boundary","GLCanvas::draw","void-accessor command collaborator",
-"GLCanvas","entity boundary","GLCanvas::save","void-accessor collaborator",
-"GLCanvas","entity boundary","GLCanvas::load","predicate non-void-command collaborator",
-"Widget","unclassified","parent","get",
-"Widget","unclassified","parent","get",
-"Widget","unclassified","setParent","set",
-"Widget","unclassified","layout","get collaborator",
-"Widget","unclassified","layout","property collaborator",
-"Widget","unclassified","setLayout","set collaborator",
-"Widget","unclassified","theme","get collaborator",
-"Widget","unclassified","theme","property collaborator",
-"Widget","unclassified","position","get collaborator",
-"Widget","unclassified","setPosition","set collaborator",
-"Widget","unclassified","absolutePosition","property collaborator",
-"Widget","unclassified","size","get collaborator",
-"Widget","unclassified","setSize","set collaborator",
-"Widget","unclassified","width","property",
-"Widget","unclassified","setWidth","command",
-"Widget","unclassified","height","property",
-"Widget","unclassified","setHeight","command",
-"Widget","unclassified","setFixedSize","set collaborator",
-"Widget","unclassified","fixedSize","get collaborator",
-"Widget","unclassified","fixedWidth","property",
-"Widget","unclassified","fixedHeight","property",
-"Widget","unclassified","setFixedWidth","command",
-"Widget","unclassified","setFixedHeight","command",
-"Widget","unclassified","visible","get",
-"Widget","unclassified","setVisible","set",
-"Widget","unclassified","visibleRecursive","predicate controller",
-"Widget","unclassified","childCount","property",
-"Widget","unclassified","children","get",
-"Widget","unclassified","childAt","get",
-"Widget","unclassified","childAt","get",
-"Widget","unclassified","add","property factory collaborator",
-"Widget","unclassified","setId","set",
-"Widget","unclassified","id","get",
-"Widget","unclassified","enabled","get",
-"Widget","unclassified","setEnabled","set",
-"Widget","unclassified","focused","get",
-"Widget","unclassified","setFocused","set",
-"Widget","unclassified","tooltip","get",
-"Widget","unclassified","setTooltip","set",
-"Widget","unclassified","setFontSize","set",
-"Widget","unclassified","hasFontSize","predicate",
-"Widget","unclassified","iconExtraScale","get",
-"Widget","unclassified","setIconExtraScale","set",
-"Widget","unclassified","cursor","get collaborator",
-"Widget","unclassified","setCursor","set collaborator",
-"Widget","unclassified","contains","predicate collaborator",
-"Widget","unclassified","icon_scale","get",
-"Widget","unclassified","Widget::Widget","copy-constructor",
-"Widget","unclassified","Widget::~Widget","destructor",
-"Widget","unclassified","Widget::setTheme","void-accessor set collaborator",
-"Widget","unclassified","Widget::fontSize","property",
-"Widget","unclassified","Widget::preferredSize","get property collaborator",
-"Widget","unclassified","Widget::performLayout","void-accessor command collaborator",
-"Widget","unclassified","Widget::findWidget","property non-void-command collaborator",
-"Widget","unclassified","Widget::mouseButtonEvent","predicate non-void-command",
-"Widget","unclassified","Widget::mouseMotionEvent","predicate non-void-command",
-"Widget","unclassified","Widget::scrollEvent","predicate non-void-command collaborator",
-"Widget","unclassified","Widget::mouseDragEvent","incidental",
-"Widget","unclassified","Widget::mouseEnterEvent","predicate set",
-"Widget","unclassified","Widget::focusEvent","predicate set",
-"Widget","unclassified","Widget::keyboardEvent","incidental",
-"Widget","unclassified","Widget::keyboardCharacterEvent","incidental",
-"Widget","unclassified","Widget::addChild","void-accessor command",
-"Widget","unclassified","Widget::addChild","void-accessor command",
-"Widget","unclassified","Widget::removeChild","void-accessor command",
-"Widget","unclassified","Widget::removeChild","command",
-"Widget","unclassified","Widget::childIndex","property collaborator",
-"Widget","unclassified","Widget::window","property controller",
-"Widget","unclassified","Widget::screen","property controller",
-"Widget","unclassified","Widget::requestFocus","controller",
-"Widget","unclassified","Widget::draw","void-accessor command collaborator",
-"Widget","unclassified","Widget::save","controller",
-"Widget","unclassified","Widget::load","predicate controller",
-"ProgressBar","entity boundary","value","get",
-"ProgressBar","entity boundary","setValue","set",
-"ProgressBar","entity boundary","ProgressBar::ProgressBar","constructor",
-"ProgressBar","entity boundary","ProgressBar::preferredSize","wrapper stateless",
-"ProgressBar","entity boundary","ProgressBar::draw","void-accessor command collaborator",
-"ProgressBar","entity boundary","ProgressBar::save","void-accessor collaborator",
-"ProgressBar","entity boundary","ProgressBar::load","predicate non-void-command collaborator",
-"ComboBox","boundary","callback","get collaborator",
-"ComboBox","boundary","setCallback","set collaborator",
-"ComboBox","boundary","selectedIndex","get",
-"ComboBox","boundary","setItems","void-accessor command",
-"ComboBox","boundary","items","get",
-"ComboBox","boundary","itemsShort","get",
-"ComboBox","boundary","ComboBox::ComboBox","constructor",
-"ComboBox","boundary","ComboBox::ComboBox","constructor",
-"ComboBox","boundary","ComboBox::ComboBox","constructor",
-"ComboBox","boundary","ComboBox::setSelectedIndex","command collaborator",
-"ComboBox","boundary","ComboBox::setItems","command collaborator",
-"ComboBox","boundary","ComboBox::scrollEvent","predicate non-void-command collaborator",
-"ComboBox","boundary","ComboBox::save","void-accessor collaborator",
-"ComboBox","boundary","ComboBox::load","predicate non-void-command collaborator",
-"ToolButton","empty","ToolButton","constructor",
-"FloatBox","boundary","FloatBox","constructor",
-"FloatBox","boundary","numberFormat","incidental",
-"FloatBox","boundary","numberFormat","incidental",
-"FloatBox","boundary","value","property collaborator",
-"FloatBox","boundary","setValue","command collaborator",
-"FloatBox","boundary","setCallback","command collaborator",
-"TabHeader","boundary","setFont","set",
-"TabHeader","boundary","font","get",
-"TabHeader","boundary","overflowing","get",
-"TabHeader","boundary","setCallback","set collaborator",
-"TabHeader","boundary","callback","get collaborator",
-"TabHeader","boundary","tabCount","property",
-"TabHeader","boundary","visibleBegin","property non-void-command collaborator",
-"TabHeader","boundary","visibleEnd","property non-void-command collaborator",
-"TabHeader","boundary","activeIterator","property non-void-command collaborator",
-"TabHeader","boundary","tabIterator","property non-void-command collaborator",
-"TabHeader","boundary","visibleBegin","property collaborator",
-"TabHeader","boundary","visibleEnd","property collaborator",
-"TabHeader","boundary","activeIterator","property collaborator",
-"TabHeader","boundary","tabIterator","property collaborator",
-"TabHeader","boundary","TabHeader::TabHeader","constructor",
-"TabHeader","boundary","TabHeader::setActiveTab","set",
-"TabHeader","boundary","TabHeader::activeTab","get",
-"TabHeader","boundary","TabHeader::isTabVisible","predicate",
-"TabHeader","boundary","TabHeader::addTab","void-accessor command",
-"TabHeader","boundary","TabHeader::addTab","void-accessor command",
-"TabHeader","boundary","TabHeader::removeTab","property non-void-command",
-"TabHeader","boundary","TabHeader::removeTab","command",
-"TabHeader","boundary","TabHeader::tabLabelAt","get",
-"TabHeader","boundary","TabHeader::tabIndex","property non-void-command collaborator",
-"TabHeader","boundary","TabHeader::ensureTabVisible","command collaborator",
-"TabHeader","boundary","TabHeader::visibleButtonArea","property collaborator",
-"TabHeader","boundary","TabHeader::activeButtonArea","property collaborator",
-"TabHeader","boundary","TabHeader::performLayout","void-accessor command collaborator",
-"TabHeader","boundary","TabHeader::preferredSize","property collaborator",
-"TabHeader","boundary","TabHeader::mouseButtonEvent","predicate non-void-command collaborator",
-"TabHeader","boundary","TabHeader::draw","void-accessor command collaborator",
-"TabHeader","boundary","TabHeader::calculateVisibleEnd","command collaborator",
-"TabHeader","boundary","TabHeader::drawControls","void-accessor command collaborator",
-"TabHeader","boundary","TabHeader::locateClick","property non-void-command collaborator",
-"TabHeader","boundary","TabHeader::onArrowLeft","set",
-"TabHeader","boundary","TabHeader::onArrowRight","command",
-"AdvancedGridLayout","unclassified","margin","get",
-"AdvancedGridLayout","unclassified","setMargin","set",
-"AdvancedGridLayout","unclassified","colCount","property",
-"AdvancedGridLayout","unclassified","rowCount","property",
-"AdvancedGridLayout","unclassified","appendRow","command",
-"AdvancedGridLayout","unclassified","appendCol","command",
-"AdvancedGridLayout","unclassified","setRowStretch","command",
-"AdvancedGridLayout","unclassified","setColStretch","command",
-"AdvancedGridLayout","unclassified","setAnchor","set collaborator",
-"AdvancedGridLayout","unclassified","anchor","property collaborator",
-"AdvancedGridLayout","unclassified","AdvancedGridLayout::AdvancedGridLayout","constructor",
-"AdvancedGridLayout","unclassified","AdvancedGridLayout::preferredSize","property collaborator",
-"AdvancedGridLayout","unclassified","AdvancedGridLayout::performLayout","void-accessor collaborator",
-"AdvancedGridLayout","unclassified","AdvancedGridLayout::computeLayout","void-accessor controller",
-"FormWidget<Color,std::true_type>","entity boundary","FormWidget","constructor",
-"FormWidget<Color,std::true_type>","entity boundary","setValue","void-accessor command collaborator",
-"FormWidget<Color,std::true_type>","entity boundary","setEditable","command",
-"FormWidget<Color,std::true_type>","entity boundary","value","property collaborator",
-"GridLayout","boundary","GridLayout","constructor",
-"GridLayout","boundary","orientation","get collaborator",
-"GridLayout","boundary","setOrientation","set collaborator",
-"GridLayout","boundary","resolution","get",
-"GridLayout","boundary","setResolution","set",
-"GridLayout","boundary","spacing","get",
-"GridLayout","boundary","setSpacing","set",
-"GridLayout","boundary","setSpacing","command",
-"GridLayout","boundary","margin","get",
-"GridLayout","boundary","setMargin","set",
-"GridLayout","boundary","alignment","get wrapper",
-"GridLayout","boundary","setColAlignment","set collaborator",
-"GridLayout","boundary","setRowAlignment","set collaborator",
-"GridLayout","boundary","setColAlignment","set collaborator",
-"GridLayout","boundary","setRowAlignment","set collaborator",
-"GridLayout","boundary","GridLayout::preferredSize","property collaborator",
-"GridLayout","boundary","GridLayout::computeLayout","void-accessor controller",
-"GridLayout","boundary","GridLayout::performLayout","void-accessor collaborator",
-"semaphore","commander boundary data-class small-class","semaphore","constructor",
-"semaphore","commander boundary data-class small-class","notify","set collaborator",
-"semaphore","commander boundary data-class small-class","wait","set collaborator",
-"Popup","entity boundary","setAnchorPos","set collaborator",
-"Popup","entity boundary","anchorPos","get collaborator",
-"Popup","entity boundary","setAnchorHeight","set",
-"Popup","entity boundary","anchorHeight","get",
-"Popup","entity boundary","setSide","set collaborator",
-"Popup","entity boundary","side","get collaborator",
-"Popup","entity boundary","parentWindow","get collaborator",
-"Popup","entity boundary","parentWindow","get collaborator",
-"Popup","entity boundary","Popup::Popup","constructor",
-"Popup","entity boundary","Popup::performLayout","void-accessor command collaborator",
-"Popup","entity boundary","Popup::refreshRelativePlacement","command",
-"Popup","entity boundary","Popup::draw","void-accessor command collaborator",
-"Popup","entity boundary","Popup::save","void-accessor collaborator",
-"Popup","entity boundary","Popup::load","predicate non-void-command collaborator",
-"FormWidget<T,typenamestd::is_integral<T>::type>","empty","FormWidget","constructor",
-"ColorPicker","boundary","callback","get collaborator",
-"ColorPicker","boundary","setCallback","set collaborator",
-"ColorPicker","boundary","finalCallback","get collaborator",
-"ColorPicker","boundary","setFinalCallback","set collaborator",
-"ColorPicker","boundary","pickButtonCaption","property non-void-command",
-"ColorPicker","boundary","setPickButtonCaption","void-accessor command",
-"ColorPicker","boundary","resetButtonCaption","property non-void-command",
-"ColorPicker","boundary","setResetButtonCaption","void-accessor command",
-"ColorPicker","boundary","ColorPicker::ColorPicker","constructor",
-"ColorPicker","boundary","ColorPicker::color","property collaborator",
-"ColorPicker","boundary","ColorPicker::setColor","void-accessor command collaborator",
-"ColorWheel","entity boundary","callback","get collaborator",
-"ColorWheel","entity boundary","setCallback","set collaborator",
-"ColorWheel","entity boundary","ColorWheel::ColorWheel","constructor",
-"ColorWheel","entity boundary","ColorWheel::preferredSize","collaborator incidental",
-"ColorWheel","entity boundary","ColorWheel::draw","void-accessor command collaborator",
-"ColorWheel","entity boundary","ColorWheel::mouseButtonEvent","predicate set",
-"ColorWheel","entity boundary","ColorWheel::mouseDragEvent","predicate non-void-command collaborator",
-"ColorWheel","entity boundary","ColorWheel::adjustPosition","property non-void-command collaborator",
-"ColorWheel","entity boundary","ColorWheel::hue2rgb","wrapper stateless",
-"ColorWheel","entity boundary","ColorWheel::color","property collaborator",
-"ColorWheel","entity boundary","ColorWheel::setColor","command collaborator",
-"ColorWheel","entity boundary","ColorWheel::save","void-accessor collaborator",
-"ColorWheel","entity boundary","ColorWheel::load","predicate set collaborator",
-"CheckBox","unclassified","caption","get",
-"CheckBox","unclassified","setCaption","set",
-"CheckBox","unclassified","checked","get",
-"CheckBox","unclassified","setChecked","set",
-"CheckBox","unclassified","pushed","get",
-"CheckBox","unclassified","setPushed","set",
-"CheckBox","unclassified","callback","get collaborator",
-"CheckBox","unclassified","setCallback","set collaborator",
-"CheckBox","unclassified","CheckBox::CheckBox","constructor",
-"CheckBox","unclassified","CheckBox::mouseButtonEvent","predicate non-void-command",
-"CheckBox","unclassified","CheckBox::preferredSize","get property collaborator",
-"CheckBox","unclassified","CheckBox::draw","void-accessor command collaborator",
-"CheckBox","unclassified","CheckBox::save","void-accessor collaborator",
-"CheckBox","unclassified","CheckBox::load","predicate non-void-command collaborator",
-"ImageView","boundary","imageShader","get collaborator",
-"ImageView","boundary","positionF","property collaborator",
-"ImageView","boundary","sizeF","property collaborator",
-"ImageView","boundary","imageSize","get collaborator",
-"ImageView","boundary","scaledImageSize","property collaborator",
-"ImageView","boundary","imageSizeF","property collaborator",
-"ImageView","boundary","scaledImageSizeF","property collaborator",
-"ImageView","boundary","offset","get collaborator",
-"ImageView","boundary","setOffset","set collaborator",
-"ImageView","boundary","scale","get",
-"ImageView","boundary","setScale","set",
-"ImageView","boundary","fixedOffset","get",
-"ImageView","boundary","setFixedOffset","set",
-"ImageView","boundary","fixedScale","get",
-"ImageView","boundary","setFixedScale","set",
-"ImageView","boundary","zoomSensitivity","get",
-"ImageView","boundary","setZoomSensitivity","set",
-"ImageView","boundary","gridThreshold","get",
-"ImageView","boundary","setGridThreshold","set",
-"ImageView","boundary","pixelInfoThreshold","get",
-"ImageView","boundary","setPixelInfoThreshold","set",
-"ImageView","boundary","setPixelInfoCallback","set collaborator",
-"ImageView","boundary","pixelInfoCallback","get collaborator",
-"ImageView","boundary","setFontScaleFactor","set",
-"ImageView","boundary","fontScaleFactor","get",
-"ImageView","boundary","ImageView::ImageView","constructor",
-"ImageView","boundary","ImageView::~ImageView","destructor",
-"ImageView","boundary","ImageView::bindImage","command collaborator",
-"ImageView","boundary","ImageView::imageCoordinateAt","property collaborator",
-"ImageView","boundary","ImageView::clampedImageCoordinateAt","property collaborator",
-"ImageView","boundary","ImageView::positionForCoordinate","property collaborator",
-"ImageView","boundary","ImageView::setImageCoordinateAt","command collaborator",
-"ImageView","boundary","ImageView::center","command",
-"ImageView","boundary","ImageView::fit","command",
-"ImageView","boundary","ImageView::setScaleCentered","command collaborator",
-"ImageView","boundary","ImageView::moveOffset","command collaborator",
-"ImageView","boundary","ImageView::zoom","void-accessor command collaborator",
-"ImageView","boundary","ImageView::mouseDragEvent","predicate non-void-command",
-"ImageView","boundary","ImageView::gridVisible","predicate",
-"ImageView","boundary","ImageView::pixelInfoVisible","predicate",
-"ImageView","boundary","ImageView::helpersVisible","predicate",
-"ImageView","boundary","ImageView::scrollEvent","predicate non-void-command collaborator",
-"ImageView","boundary","ImageView::keyboardEvent","predicate wrapper",
-"ImageView","boundary","ImageView::keyboardCharacterEvent","predicate non-void-command",
-"ImageView","boundary","ImageView::preferredSize","get collaborator",
-"ImageView","boundary","ImageView::performLayout","void-accessor command collaborator",
-"ImageView","boundary","ImageView::draw","void-accessor command collaborator",
-"ImageView","boundary","ImageView::updateImageParameters","set collaborator",
-"ImageView","boundary","ImageView::drawWidgetBorder","void-accessor collaborator",
-"ImageView","boundary","ImageView::drawImageBorder","void-accessor collaborator",
-"ImageView","boundary","ImageView::drawHelpers","void-accessor collaborator",
-"ImageView","boundary","ImageView::drawPixelGrid","controller stateless",
-"ImageView","boundary","ImageView::drawPixelInfo","void-accessor",
-"ImageView","boundary","ImageView::writePixelInfo","controller stateless",
-"Theme","empty","~Theme","destructor",
-"Theme","empty","Theme::Theme","constructor",
-"VScrollPanel","entity boundary","scroll","get",
-"VScrollPanel","entity boundary","setScroll","set",
-"VScrollPanel","entity boundary","VScrollPanel::VScrollPanel","constructor",
-"VScrollPanel","entity boundary","VScrollPanel::performLayout","void-accessor command collaborator",
-"VScrollPanel","entity boundary","VScrollPanel::preferredSize","get property collaborator",
-"VScrollPanel","entity boundary","VScrollPanel::mouseDragEvent","predicate non-void-command",
-"VScrollPanel","entity boundary","VScrollPanel::scrollEvent","predicate non-void-command collaborator",
-"VScrollPanel","entity boundary","VScrollPanel::draw","void-accessor command collaborator",
-"VScrollPanel","entity boundary","VScrollPanel::save","void-accessor collaborator",
-"VScrollPanel","entity boundary","VScrollPanel::load","predicate non-void-command collaborator",
-"GLUniformBuffer","unclassified","GLUniformBuffer","constructor",
-"GLUniformBuffer","unclassified","getBindingPoint","get",
-"GLUniformBuffer","unclassified","GLUniformBuffer::init","wrapper",
-"GLUniformBuffer","unclassified","GLUniformBuffer::bind","set",
-"GLUniformBuffer","unclassified","GLUniformBuffer::release","wrapper",
-"GLUniformBuffer","unclassified","GLUniformBuffer::free","set",
-"GLUniformBuffer","unclassified","GLUniformBuffer::update","controller",
-"ImagePanel","entity boundary","setImages","set collaborator",
-"ImagePanel","entity boundary","images","get collaborator",
-"ImagePanel","entity boundary","callback","get collaborator",
-"ImagePanel","entity boundary","setCallback","set collaborator",
-"ImagePanel","entity boundary","ImagePanel::ImagePanel","constructor",
-"ImagePanel","entity boundary","ImagePanel::gridSize","property collaborator",
-"ImagePanel","entity boundary","ImagePanel::indexForPosition","property collaborator",
-"ImagePanel","entity boundary","ImagePanel::mouseMotionEvent","predicate set collaborator",
-"ImagePanel","entity boundary","ImagePanel::mouseButtonEvent","predicate non-void-command",
-"ImagePanel","entity boundary","ImagePanel::preferredSize","property collaborator",
-"ImagePanel","entity boundary","ImagePanel::draw","void-accessor command collaborator",
-"Layout","empty","~Layout","destructor",
-"GLFramebuffer","unclassified","GLFramebuffer","constructor",
-"GLFramebuffer","unclassified","ready","predicate",
-"GLFramebuffer","unclassified","samples","get",
-"GLFramebuffer","unclassified","GLFramebuffer::init","command collaborator",
-"GLFramebuffer","unclassified","GLFramebuffer::free","command",
-"GLFramebuffer","unclassified","GLFramebuffer::bind","wrapper",
-"GLFramebuffer","unclassified","GLFramebuffer::release","wrapper",
-"GLFramebuffer","unclassified","GLFramebuffer::blit","command",
-"GLFramebuffer","unclassified","GLFramebuffer::downloadTGA","command collaborator",
-"ref","data-provider boundary","ref","constructor",
-"ref","data-provider boundary","ref","constructor",
-"ref","data-provider boundary","ref","copy-constructor",
-"ref","data-provider boundary","ref","copy-constructor",
-"ref","data-provider boundary","~ref","destructor",
-"ref","data-provider boundary","operator=","get set",
-"ref","data-provider boundary","operator=","get set",
-"ref","data-provider boundary","operator=","get set collaborator",
-"ref","data-provider boundary","operator==","predicate",
-"ref","data-provider boundary","operator!=","predicate",
-"ref","data-provider boundary","operator==","predicate collaborator",
-"ref","data-provider boundary","operator!=","predicate collaborator",
-"ref","data-provider boundary","operator->","get collaborator",
-"ref","data-provider boundary","operator->","get collaborator",
-"ref","data-provider boundary","operator*","get collaborator",
-"ref","data-provider boundary","operator*","get collaborator",
-"ref","data-provider boundary","operatorT*","get",
-"ref","data-provider boundary","get","get collaborator",
-"ref","data-provider boundary","get","get collaborator",
-"ref","data-provider boundary","operatorbool","unclassified",
-"Screen","boundary","caption","get",
-"Screen","boundary","background","get collaborator",
-"Screen","boundary","setBackground","set collaborator",
-"Screen","boundary","drawContents","empty",
-"Screen","boundary","pixelRatio","get",
-"Screen","boundary","dropEvent","incidental",
-"Screen","boundary","resizeCallback","get collaborator",
-"Screen","boundary","setResizeCallback","set collaborator",
-"Screen","boundary","mousePos","get collaborator",
-"Screen","boundary","glfwWindow","get collaborator",
-"Screen","boundary","nvgContext","get collaborator",
-"Screen","boundary","setShutdownGLFWOnDestruct","set",
-"Screen","boundary","shutdownGLFWOnDestruct","get",
-"Screen","boundary","performLayout","command",
-"Screen","boundary","Screen::Screen","constructor",
-"Screen","boundary","Screen::Screen","constructor",
-"Screen","boundary","Screen::initialize","void-accessor command",
-"Screen","boundary","Screen::~Screen","destructor",
-"Screen","boundary","Screen::setVisible","set",
-"Screen","boundary","Screen::setCaption","set",
-"Screen","boundary","Screen::setSize","void-accessor command collaborator",
-"Screen","boundary","Screen::drawAll","command",
-"Screen","boundary","Screen::drawWidgets","command",
-"Screen","boundary","Screen::keyboardEvent","predicate non-void-command collaborator",
-"Screen","boundary","Screen::keyboardCharacterEvent","predicate non-void-command collaborator",
-"Screen","boundary","Screen::resizeEvent","predicate wrapper",
-"Screen","boundary","Screen::cursorPosCallbackEvent","predicate non-void-command collaborator",
-"Screen","boundary","Screen::mouseButtonCallbackEvent","predicate non-void-command collaborator",
-"Screen","boundary","Screen::keyCallbackEvent","predicate set",
-"Screen","boundary","Screen::charCallbackEvent","predicate set",
-"Screen","boundary","Screen::dropCallbackEvent","predicate non-void-command",
-"Screen","boundary","Screen::scrollCallbackEvent","predicate non-void-command collaborator",
-"Screen","boundary","Screen::resizeCallbackEvent","predicate non-void-command collaborator",
-"Screen","boundary","Screen::updateFocus","void-accessor command collaborator",
-"Screen","boundary","Screen::disposeWindow","void-accessor command collaborator",
-"Screen","boundary","Screen::centerWindow","controller",
-"Screen","boundary","Screen::moveWindowToFront","void-accessor command collaborator",
-"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","FormWidget","constructor",
-"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","value","property collaborator",
-"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","setValue","set collaborator",
-"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","setCallback","command collaborator",
-"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","setEditable","command",
-"Arcball","boundary","Arcball","constructor",
-"Arcball","boundary","Arcball","constructor",
-"Arcball","boundary","state","get collaborator",
-"Arcball","boundary","state","get collaborator",
-"Arcball","boundary","setState","command collaborator",
-"Arcball","boundary","setSize","set collaborator",
-"Arcball","boundary","size","get collaborator",
-"Arcball","boundary","setSpeedFactor","set",
-"Arcball","boundary","speedFactor","get",
-"Arcball","boundary","active","get",
-"Arcball","boundary","button","command",
-"Arcball","boundary","motion","predicate non-void-command collaborator",
-"Arcball","boundary","matrix","property controller",
-"Arcball","boundary","activeState","property collaborator",
-"Arcball","boundary","interrupt","command",
-"Graph","entity boundary","caption","get",
-"Graph","entity boundary","setCaption","set",
-"Graph","entity boundary","header","get",
-"Graph","entity boundary","setHeader","set",
-"Graph","entity boundary","footer","get",
-"Graph","entity boundary","setFooter","set",
-"Graph","entity boundary","backgroundColor","get collaborator",
-"Graph","entity boundary","setBackgroundColor","set collaborator",
-"Graph","entity boundary","foregroundColor","get collaborator",
-"Graph","entity boundary","setForegroundColor","set collaborator",
-"Graph","entity boundary","textColor","get collaborator",
-"Graph","entity boundary","setTextColor","set collaborator",
-"Graph","entity boundary","values","get collaborator",
-"Graph","entity boundary","values","get collaborator",
-"Graph","entity boundary","setValues","set collaborator",
-"Graph","entity boundary","Graph::Graph","constructor",
-"Graph","entity boundary","Graph::preferredSize","wrapper stateless",
-"Graph","entity boundary","Graph::draw","void-accessor command collaborator",
-"Graph","entity boundary","Graph::save","void-accessor collaborator",
-"Graph","entity boundary","Graph::load","predicate non-void-command collaborator",
-"FormWidget<bool,std::true_type>","unclassified","FormWidget","constructor",
-"FormWidget<bool,std::true_type>","unclassified","setValue","command",
-"FormWidget<bool,std::true_type>","unclassified","setEditable","command",
-"FormWidget<bool,std::true_type>","unclassified","value","predicate",
-"Serializer","unclassified","setCompatibility","set",
-"Serializer","unclassified","compatibility","get",
-"Serializer","unclassified","set","void-accessor command collaborator",
-"Serializer","unclassified","get","predicate non-void-command collaborator",
-"Serializer","unclassified","Serializer::Serializer","constructor",
-"Serializer","unclassified","Serializer::~Serializer","destructor",
-"Serializer","unclassified","Serializer::isSerializedFile","incidental",
-"Serializer","unclassified","Serializer::size","property non-void-command",
-"Serializer","unclassified","Serializer::push","void-accessor command",
-"Serializer","unclassified","Serializer::pop","command",
-"Serializer","unclassified","Serializer::keys","property collaborator",
-"Serializer","unclassified","Serializer::get_base","predicate non-void-command collaborator",
-"Serializer","unclassified","Serializer::set_base","void-accessor command collaborator",
-"Serializer","unclassified","Serializer::writeTOC","command",
-"Serializer","unclassified","Serializer::readTOC","command",
-"Serializer","unclassified","Serializer::read","void-accessor command",
-"Serializer","unclassified","Serializer::write","void-accessor command",
-"Serializer","unclassified","Serializer::seek","command",
-"Label","boundary","caption","get",
-"Label","boundary","setCaption","set",
-"Label","boundary","setFont","set",
-"Label","boundary","font","get",
-"Label","boundary","color","get collaborator",
-"Label","boundary","setColor","set collaborator",
-"Label","boundary","Label::Label","constructor",
-"Label","boundary","Label::setTheme","void-accessor command collaborator",
-"Label","boundary","Label::preferredSize","property collaborator",
-"Label","boundary","Label::draw","void-accessor command collaborator",
-"Label","boundary","Label::save","void-accessor collaborator",
-"Label","boundary","Label::load","predicate non-void-command collaborator",
-"BoxLayout","boundary","orientation","get collaborator",
-"BoxLayout","boundary","setOrientation","set collaborator",
-"BoxLayout","boundary","alignment","get collaborator",
-"BoxLayout","boundary","setAlignment","set collaborator",
-"BoxLayout","boundary","margin","get",
-"BoxLayout","boundary","setMargin","set",
-"BoxLayout","boundary","spacing","get",
-"BoxLayout","boundary","setSpacing","set",
-"BoxLayout","boundary","BoxLayout::BoxLayout","constructor",
-"BoxLayout","boundary","BoxLayout::preferredSize","property controller",
-"BoxLayout","boundary","BoxLayout::performLayout","void-accessor controller",
-"GroupLayout","unclassified","GroupLayout","constructor",
-"GroupLayout","unclassified","margin","get",
-"GroupLayout","unclassified","setMargin","set",
-"GroupLayout","unclassified","spacing","get",
-"GroupLayout","unclassified","setSpacing","set",
-"GroupLayout","unclassified","groupIndent","get",
-"GroupLayout","unclassified","setGroupIndent","set",
-"GroupLayout","unclassified","groupSpacing","get",
-"GroupLayout","unclassified","setGroupSpacing","set",
-"GroupLayout","unclassified","GroupLayout::preferredSize","property controller",
-"GroupLayout","unclassified","GroupLayout::performLayout","void-accessor controller",
-"Object","data-class","Object","constructor",
-"Object","data-class","Object","copy-constructor",
-"Object","data-class","getRefCount","get",
-"Object","data-class","incRef","set",
-"Object","data-class","Object::decRef","set",
-"Object","data-class","Object::~Object","destructor",
-"PopupButton","entity boundary","setChevronIcon","set",
-"PopupButton","entity boundary","chevronIcon","get",
-"PopupButton","entity boundary","side","property collaborator",
-"PopupButton","entity boundary","popup","get collaborator",
-"PopupButton","entity boundary","popup","get collaborator",
-"PopupButton","entity boundary","PopupButton::PopupButton","constructor",
-"PopupButton","entity boundary","PopupButton::~PopupButton","destructor",
-"PopupButton","entity boundary","PopupButton::preferredSize","property collaborator",
-"PopupButton","entity boundary","PopupButton::draw","void-accessor command collaborator",
-"PopupButton","entity boundary","PopupButton::performLayout","void-accessor command collaborator",
-"PopupButton","entity boundary","PopupButton::setSide","command collaborator",
-"PopupButton","entity boundary","PopupButton::save","void-accessor collaborator",
-"PopupButton","entity boundary","PopupButton::load","predicate non-void-command collaborator",
+"MyGLCanvas","commander small-class","MyGLCanvas","constructor"
+"MyGLCanvas","commander small-class","~MyGLCanvas","destructor"
+"MyGLCanvas","commander small-class","setRotation","set collaborator"
+"MyGLCanvas","commander small-class","drawGL","command"
+"ExampleApplication","small-class","ExampleApplication","constructor"
+"ExampleApplication","small-class","ExampleApplication","constructor"
+"ExampleApplication","small-class","keyboardEvent","predicate non-void-command"
+"ExampleApplication","small-class","draw","command collaborator"
+"GLTexture","unclassified","GLTexture","constructor"
+"GLTexture","unclassified","GLTexture","constructor"
+"GLTexture","unclassified","GLTexture","copy-constructor"
+"GLTexture","unclassified","operator=","get set"
+"GLTexture","unclassified","~GLTexture","destructor"
+"GLTexture","unclassified","texture","get collaborator"
+"GLTexture","unclassified","textureName","get"
+"GLTexture","unclassified","load","property set collaborator"
+"MainloopHandle","commander boundary data-class small-class","~MainloopHandle","destructor"
+"MainloopHandle","commander boundary data-class small-class","join","set collaborator"
+"Window","boundary","title","get"
+"Window","boundary","setTitle","set"
+"Window","boundary","modal","get"
+"Window","boundary","setModal","set"
+"Window","boundary","Window::Window","constructor"
+"Window","boundary","Window::preferredSize","property collaborator"
+"Window","boundary","Window::buttonPanel","get set factory collaborator"
+"Window","boundary","Window::performLayout","command collaborator"
+"Window","boundary","Window::draw","command collaborator"
+"Window","boundary","Window::dispose","controller"
+"Window","boundary","Window::center","controller"
+"Window","boundary","Window::mouseDragEvent","predicate non-void-command"
+"Window","boundary","Window::mouseButtonEvent","predicate non-void-command"
+"Window","boundary","Window::scrollEvent","predicate non-void-command collaborator"
+"Window","boundary","Window::refreshRelativePlacement","empty"
+"Window","boundary","Window::save","collaborator"
+"Window","boundary","Window::load","predicate set collaborator"
+"IntBox","entity commander boundary","IntBox","constructor"
+"IntBox","entity commander boundary","value","property collaborator"
+"IntBox","entity commander boundary","setValue","command collaborator"
+"IntBox","entity commander boundary","setCallback","command collaborator"
+"IntBox","entity commander boundary","setValueIncrement","set collaborator"
+"IntBox","entity commander boundary","setMinValue","set collaborator"
+"IntBox","entity commander boundary","setMaxValue","set collaborator"
+"IntBox","entity commander boundary","setMinMaxValues","command collaborator"
+"IntBox","entity commander boundary","mouseButtonEvent","predicate non-void-command collaborator"
+"IntBox","entity commander boundary","mouseDragEvent","predicate non-void-command"
+"IntBox","entity commander boundary","scrollEvent","predicate non-void-command collaborator"
+"TextBox","unclassified","editable","get"
+"TextBox","unclassified","spinnable","get"
+"TextBox","unclassified","setSpinnable","set"
+"TextBox","unclassified","value","get"
+"TextBox","unclassified","setValue","set"
+"TextBox","unclassified","defaultValue","get"
+"TextBox","unclassified","setDefaultValue","set"
+"TextBox","unclassified","alignment","get collaborator"
+"TextBox","unclassified","setAlignment","set collaborator"
+"TextBox","unclassified","units","get"
+"TextBox","unclassified","setUnits","set"
+"TextBox","unclassified","unitsImage","get"
+"TextBox","unclassified","setUnitsImage","set"
+"TextBox","unclassified","format","get"
+"TextBox","unclassified","setFormat","set"
+"TextBox","unclassified","placeholder","get"
+"TextBox","unclassified","setPlaceholder","set"
+"TextBox","unclassified","callback","get collaborator"
+"TextBox","unclassified","setCallback","set collaborator"
+"TextBox","unclassified","TextBox::TextBox","constructor"
+"TextBox","unclassified","TextBox::setEditable","set"
+"TextBox","unclassified","TextBox::setTheme","set collaborator"
+"TextBox","unclassified","TextBox::preferredSize","property collaborator"
+"TextBox","unclassified","TextBox::draw","command collaborator"
+"TextBox","unclassified","TextBox::mouseButtonEvent","predicate non-void-command"
+"TextBox","unclassified","TextBox::mouseMotionEvent","predicate non-void-command collaborator"
+"TextBox","unclassified","TextBox::mouseDragEvent","predicate non-void-command collaborator"
+"TextBox","unclassified","TextBox::focusEvent","predicate non-void-command"
+"TextBox","unclassified","TextBox::keyboardEvent","predicate non-void-command"
+"TextBox","unclassified","TextBox::keyboardCharacterEvent","predicate non-void-command collaborator"
+"TextBox","unclassified","TextBox::checkFormat","controller stateless"
+"TextBox","unclassified","TextBox::copySelection","predicate non-void-command"
+"TextBox","unclassified","TextBox::pasteFromClipboard","command"
+"TextBox","unclassified","TextBox::deleteSelection","predicate non-void-command"
+"TextBox","unclassified","TextBox::updateCursor","command"
+"TextBox","unclassified","TextBox::cursorIndex2Position","incidental"
+"TextBox","unclassified","TextBox::position2CursorIndex","wrapper stateless"
+"TextBox","unclassified","TextBox::spinArea","property non-void-command collaborator"
+"TextBox","unclassified","TextBox::save","collaborator"
+"TextBox","unclassified","TextBox::load","predicate non-void-command collaborator"
+"TabWidget","boundary","setCallback","set collaborator"
+"TabWidget","boundary","callback","get collaborator"
+"TabWidget","boundary","TabWidget::TabWidget","constructor"
+"TabWidget","boundary","TabWidget::addChild","wrapper stateless"
+"TabWidget","boundary","TabWidget::setActiveTab","command"
+"TabWidget","boundary","TabWidget::activeTab","property"
+"TabWidget","boundary","TabWidget::tabCount","property"
+"TabWidget","boundary","TabWidget::createTab","non-void-command factory collaborator"
+"TabWidget","boundary","TabWidget::createTab","property non-void-command collaborator"
+"TabWidget","boundary","TabWidget::addTab","command collaborator"
+"TabWidget","boundary","TabWidget::addTab","command collaborator"
+"TabWidget","boundary","TabWidget::tabLabelIndex","property non-void-command"
+"TabWidget","boundary","TabWidget::tabIndex","property non-void-command collaborator"
+"TabWidget","boundary","TabWidget::ensureTabVisible","command"
+"TabWidget","boundary","TabWidget::tab","property collaborator"
+"TabWidget","boundary","TabWidget::tab","property non-void-command collaborator"
+"TabWidget","boundary","TabWidget::tab","property collaborator"
+"TabWidget","boundary","TabWidget::tab","property non-void-command collaborator"
+"TabWidget","boundary","TabWidget::removeTab","predicate non-void-command"
+"TabWidget","boundary","TabWidget::removeTab","command"
+"TabWidget","boundary","TabWidget::tabLabelAt","property"
+"TabWidget","boundary","TabWidget::performLayout","command collaborator"
+"TabWidget","boundary","TabWidget::preferredSize","property collaborator"
+"TabWidget","boundary","TabWidget::draw","command collaborator"
+"Slider","boundary","value","get"
+"Slider","boundary","setValue","set"
+"Slider","boundary","highlightColor","get collaborator"
+"Slider","boundary","setHighlightColor","set collaborator"
+"Slider","boundary","range","get"
+"Slider","boundary","setRange","set"
+"Slider","boundary","highlightedRange","get"
+"Slider","boundary","setHighlightedRange","set"
+"Slider","boundary","callback","get collaborator"
+"Slider","boundary","setCallback","set collaborator"
+"Slider","boundary","finalCallback","get collaborator"
+"Slider","boundary","setFinalCallback","set collaborator"
+"Slider","boundary","Slider::Slider","constructor"
+"Slider","boundary","Slider::preferredSize","wrapper stateless"
+"Slider","boundary","Slider::mouseDragEvent","predicate non-void-command collaborator"
+"Slider","boundary","Slider::mouseButtonEvent","predicate non-void-command"
+"Slider","boundary","Slider::draw","command collaborator"
+"Slider","boundary","Slider::save","collaborator"
+"Slider","boundary","Slider::load","predicate non-void-command collaborator"
+"MessageDialog","data-provider boundary data-class","messageLabel","get collaborator"
+"MessageDialog","data-provider boundary data-class","messageLabel","get collaborator"
+"MessageDialog","data-provider boundary data-class","callback","get collaborator"
+"MessageDialog","data-provider boundary data-class","setCallback","set collaborator"
+"MessageDialog","data-provider boundary data-class","MessageDialog::MessageDialog","constructor"
+"FormWidget<std::string,std::true_type>","commander boundary small-class","FormWidget","constructor"
+"FormWidget<std::string,std::true_type>","commander boundary small-class","setCallback","command collaborator"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","Color","constructor"
+"Color","boundary lazy-class degenerate","operator=","get collaborator"
+"Color","boundary lazy-class degenerate","r","wrapper stateless"
+"Color","boundary lazy-class degenerate","r","wrapper stateless"
+"Color","boundary lazy-class degenerate","g","wrapper stateless"
+"Color","boundary lazy-class degenerate","g","wrapper stateless"
+"Color","boundary lazy-class degenerate","b","wrapper stateless"
+"Color","boundary lazy-class degenerate","b","wrapper stateless"
+"Color","boundary lazy-class degenerate","contrastingColor","property"
+"Color","boundary lazy-class degenerate","Color::operatorconstNVGcolor&","controller stateless"
+"Button","boundary","caption","get"
+"Button","boundary","setCaption","set"
+"Button","boundary","backgroundColor","get collaborator"
+"Button","boundary","setBackgroundColor","set collaborator"
+"Button","boundary","textColor","get collaborator"
+"Button","boundary","setTextColor","set collaborator"
+"Button","boundary","icon","get"
+"Button","boundary","setIcon","set"
+"Button","boundary","flags","get"
+"Button","boundary","setFlags","set"
+"Button","boundary","iconPosition","get collaborator"
+"Button","boundary","setIconPosition","set collaborator"
+"Button","boundary","pushed","get"
+"Button","boundary","setPushed","set"
+"Button","boundary","callback","get collaborator"
+"Button","boundary","setCallback","set collaborator"
+"Button","boundary","changeCallback","get collaborator"
+"Button","boundary","setChangeCallback","set collaborator"
+"Button","boundary","setButtonGroup","set"
+"Button","boundary","buttonGroup","get"
+"Button","boundary","Button::Button","constructor"
+"Button","boundary","Button::preferredSize","property collaborator"
+"Button","boundary","Button::mouseButtonEvent","predicate non-void-command"
+"Button","boundary","Button::draw","command collaborator"
+"Button","boundary","Button::save","collaborator"
+"Button","boundary","Button::load","predicate non-void-command collaborator"
+"FormWidget<T,typenamestd::is_floating_point<T>::type>","empty","FormWidget","constructor"
+"GLShader","commander","name","get"
+"GLShader","commander","define","set"
+"GLShader","commander","uploadAttrib","command"
+"GLShader","commander","downloadAttrib","command collaborator"
+"GLShader","commander","uploadIndices","command"
+"GLShader","commander","hasAttrib","predicate collaborator"
+"GLShader","commander","attribVersion","property collaborator"
+"GLShader","commander","resetAttribVersion","command collaborator"
+"GLShader","commander","setUniform","incidental"
+"GLShader","commander","setUniform","incidental"
+"GLShader","commander","setUniform","incidental"
+"GLShader","commander","setUniform","incidental"
+"GLShader","commander","setUniform","command"
+"GLShader","commander","setUniform","command"
+"GLShader","commander","setUniform","command"
+"GLShader","commander","setUniform","command"
+"GLShader","commander","setUniform","command"
+"GLShader","commander","setUniform","command"
+"GLShader","commander","setUniform","command"
+"GLShader","commander","setUniform","command"
+"GLShader","commander","setUniform","command"
+"GLShader","commander","bufferSize","property collaborator"
+"GLShader","commander","GLShader::initFromFiles","predicate non-void-command collaborator"
+"GLShader","commander","GLShader::init","predicate non-void-command"
+"GLShader","commander","GLShader::bind","wrapper"
+"GLShader","commander","GLShader::attrib","property controller"
+"GLShader","commander","GLShader::setUniform","controller"
+"GLShader","commander","GLShader::uniform","property controller"
+"GLShader","commander","GLShader::uploadAttrib","command"
+"GLShader","commander","GLShader::downloadAttrib","command"
+"GLShader","commander","GLShader::shareAttrib","controller stateless"
+"GLShader","commander","GLShader::invalidateAttribs","unclassified"
+"GLShader","commander","GLShader::freeAttrib","command collaborator"
+"GLShader","commander","GLShader::drawIndexed","wrapper stateless"
+"GLShader","commander","GLShader::drawArray","wrapper stateless"
+"GLShader","commander","GLShader::free","command"
+"GLShader","commander","GLShader::attribBuffer","property wrapper"
+"UniformBufferStd140","commander boundary","push_back","command collaborator"
+"UniformBufferStd140","commander boundary","push_back","command collaborator"
+"UniformBufferStd140","commander boundary","push_back","command"
+"FormHelper","boundary degenerate small-class","FormHelper","constructor"
+"FormHelper","boundary degenerate small-class","addWindow","collaborator stateless"
+"PyGLCanvas","boundary degenerate small-class","drawGL","wrapper stateless"
+"StackedWidget","unclassified","StackedWidget::StackedWidget","constructor"
+"StackedWidget","unclassified","StackedWidget::setSelectedIndex","command"
+"StackedWidget","unclassified","StackedWidget::selectedIndex","get"
+"StackedWidget","unclassified","StackedWidget::performLayout","controller"
+"StackedWidget","unclassified","StackedWidget::preferredSize","property controller"
+"StackedWidget","unclassified","StackedWidget::addChild","command collaborator"
+"GLCanvas","entity boundary","backgroundColor","get collaborator"
+"GLCanvas","entity boundary","setBackgroundColor","set collaborator"
+"GLCanvas","entity boundary","setDrawBorder","set"
+"GLCanvas","entity boundary","drawBorder","get"
+"GLCanvas","entity boundary","drawGL","empty"
+"GLCanvas","entity boundary","GLCanvas::GLCanvas","constructor"
+"GLCanvas","entity boundary","GLCanvas::drawWidgetBorder","collaborator"
+"GLCanvas","entity boundary","GLCanvas::draw","command collaborator"
+"GLCanvas","entity boundary","GLCanvas::save","collaborator"
+"GLCanvas","entity boundary","GLCanvas::load","predicate non-void-command collaborator"
+"Widget","unclassified","parent","get"
+"Widget","unclassified","parent","get"
+"Widget","unclassified","setParent","set"
+"Widget","unclassified","layout","get collaborator"
+"Widget","unclassified","layout","property collaborator"
+"Widget","unclassified","setLayout","set collaborator"
+"Widget","unclassified","theme","get collaborator"
+"Widget","unclassified","theme","property collaborator"
+"Widget","unclassified","position","get collaborator"
+"Widget","unclassified","setPosition","set collaborator"
+"Widget","unclassified","absolutePosition","property collaborator"
+"Widget","unclassified","size","get collaborator"
+"Widget","unclassified","setSize","set collaborator"
+"Widget","unclassified","width","property"
+"Widget","unclassified","setWidth","command"
+"Widget","unclassified","height","property"
+"Widget","unclassified","setHeight","command"
+"Widget","unclassified","setFixedSize","set collaborator"
+"Widget","unclassified","fixedSize","get collaborator"
+"Widget","unclassified","fixedWidth","property"
+"Widget","unclassified","fixedHeight","property"
+"Widget","unclassified","setFixedWidth","command"
+"Widget","unclassified","setFixedHeight","command"
+"Widget","unclassified","visible","get"
+"Widget","unclassified","setVisible","set"
+"Widget","unclassified","visibleRecursive","predicate controller"
+"Widget","unclassified","childCount","property"
+"Widget","unclassified","children","get"
+"Widget","unclassified","childAt","get"
+"Widget","unclassified","childAt","get"
+"Widget","unclassified","add","property factory collaborator"
+"Widget","unclassified","setId","set"
+"Widget","unclassified","id","get"
+"Widget","unclassified","enabled","get"
+"Widget","unclassified","setEnabled","set"
+"Widget","unclassified","focused","get"
+"Widget","unclassified","setFocused","set"
+"Widget","unclassified","tooltip","get"
+"Widget","unclassified","setTooltip","set"
+"Widget","unclassified","setFontSize","set"
+"Widget","unclassified","hasFontSize","predicate"
+"Widget","unclassified","iconExtraScale","get"
+"Widget","unclassified","setIconExtraScale","set"
+"Widget","unclassified","cursor","get collaborator"
+"Widget","unclassified","setCursor","set collaborator"
+"Widget","unclassified","contains","predicate collaborator"
+"Widget","unclassified","icon_scale","property"
+"Widget","unclassified","Widget::Widget","copy-constructor"
+"Widget","unclassified","Widget::~Widget","destructor"
+"Widget","unclassified","Widget::setTheme","set collaborator"
+"Widget","unclassified","Widget::fontSize","property"
+"Widget","unclassified","Widget::preferredSize","get property collaborator"
+"Widget","unclassified","Widget::performLayout","command collaborator"
+"Widget","unclassified","Widget::findWidget","property non-void-command collaborator"
+"Widget","unclassified","Widget::mouseButtonEvent","predicate non-void-command"
+"Widget","unclassified","Widget::mouseMotionEvent","predicate non-void-command"
+"Widget","unclassified","Widget::scrollEvent","predicate non-void-command collaborator"
+"Widget","unclassified","Widget::mouseDragEvent","incidental"
+"Widget","unclassified","Widget::mouseEnterEvent","predicate set"
+"Widget","unclassified","Widget::focusEvent","predicate set"
+"Widget","unclassified","Widget::keyboardEvent","incidental"
+"Widget","unclassified","Widget::keyboardCharacterEvent","incidental"
+"Widget","unclassified","Widget::addChild","command"
+"Widget","unclassified","Widget::addChild","command"
+"Widget","unclassified","Widget::removeChild","command"
+"Widget","unclassified","Widget::removeChild","command"
+"Widget","unclassified","Widget::childIndex","property collaborator"
+"Widget","unclassified","Widget::window","property controller"
+"Widget","unclassified","Widget::screen","property controller"
+"Widget","unclassified","Widget::requestFocus","controller"
+"Widget","unclassified","Widget::draw","command collaborator"
+"Widget","unclassified","Widget::save","controller"
+"Widget","unclassified","Widget::load","predicate controller"
+"ProgressBar","entity boundary","value","get"
+"ProgressBar","entity boundary","setValue","set"
+"ProgressBar","entity boundary","ProgressBar::ProgressBar","constructor"
+"ProgressBar","entity boundary","ProgressBar::preferredSize","wrapper stateless"
+"ProgressBar","entity boundary","ProgressBar::draw","command collaborator"
+"ProgressBar","entity boundary","ProgressBar::save","collaborator"
+"ProgressBar","entity boundary","ProgressBar::load","predicate non-void-command collaborator"
+"ComboBox","boundary","callback","get collaborator"
+"ComboBox","boundary","setCallback","set collaborator"
+"ComboBox","boundary","selectedIndex","get"
+"ComboBox","boundary","setItems","command"
+"ComboBox","boundary","items","get"
+"ComboBox","boundary","itemsShort","get"
+"ComboBox","boundary","ComboBox::ComboBox","constructor"
+"ComboBox","boundary","ComboBox::ComboBox","constructor"
+"ComboBox","boundary","ComboBox::ComboBox","constructor"
+"ComboBox","boundary","ComboBox::setSelectedIndex","command collaborator"
+"ComboBox","boundary","ComboBox::setItems","command collaborator"
+"ComboBox","boundary","ComboBox::scrollEvent","predicate non-void-command collaborator"
+"ComboBox","boundary","ComboBox::save","collaborator"
+"ComboBox","boundary","ComboBox::load","predicate non-void-command collaborator"
+"ToolButton","empty","ToolButton","constructor"
+"FloatBox","boundary","FloatBox","constructor"
+"FloatBox","boundary","numberFormat","incidental"
+"FloatBox","boundary","numberFormat","incidental"
+"FloatBox","boundary","value","property collaborator"
+"FloatBox","boundary","setValue","command collaborator"
+"FloatBox","boundary","setCallback","command collaborator"
+"TabHeader","boundary","setFont","set"
+"TabHeader","boundary","font","get"
+"TabHeader","boundary","overflowing","get"
+"TabHeader","boundary","setCallback","set collaborator"
+"TabHeader","boundary","callback","get collaborator"
+"TabHeader","boundary","tabCount","property"
+"TabHeader","boundary","visibleBegin","property non-void-command collaborator"
+"TabHeader","boundary","visibleEnd","property non-void-command collaborator"
+"TabHeader","boundary","activeIterator","property non-void-command collaborator"
+"TabHeader","boundary","tabIterator","property non-void-command collaborator"
+"TabHeader","boundary","visibleBegin","property collaborator"
+"TabHeader","boundary","visibleEnd","property collaborator"
+"TabHeader","boundary","activeIterator","property collaborator"
+"TabHeader","boundary","tabIterator","property collaborator"
+"TabHeader","boundary","TabHeader::TabHeader","constructor"
+"TabHeader","boundary","TabHeader::setActiveTab","set"
+"TabHeader","boundary","TabHeader::activeTab","get"
+"TabHeader","boundary","TabHeader::isTabVisible","predicate"
+"TabHeader","boundary","TabHeader::addTab","command"
+"TabHeader","boundary","TabHeader::addTab","command"
+"TabHeader","boundary","TabHeader::removeTab","property non-void-command"
+"TabHeader","boundary","TabHeader::removeTab","command"
+"TabHeader","boundary","TabHeader::tabLabelAt","get"
+"TabHeader","boundary","TabHeader::tabIndex","property non-void-command collaborator"
+"TabHeader","boundary","TabHeader::ensureTabVisible","command collaborator"
+"TabHeader","boundary","TabHeader::visibleButtonArea","property collaborator"
+"TabHeader","boundary","TabHeader::activeButtonArea","property collaborator"
+"TabHeader","boundary","TabHeader::performLayout","command collaborator"
+"TabHeader","boundary","TabHeader::preferredSize","property collaborator"
+"TabHeader","boundary","TabHeader::mouseButtonEvent","predicate non-void-command collaborator"
+"TabHeader","boundary","TabHeader::draw","command collaborator"
+"TabHeader","boundary","TabHeader::calculateVisibleEnd","command collaborator"
+"TabHeader","boundary","TabHeader::drawControls","command collaborator"
+"TabHeader","boundary","TabHeader::locateClick","property non-void-command collaborator"
+"TabHeader","boundary","TabHeader::onArrowLeft","set"
+"TabHeader","boundary","TabHeader::onArrowRight","command"
+"AdvancedGridLayout","unclassified","margin","get"
+"AdvancedGridLayout","unclassified","setMargin","set"
+"AdvancedGridLayout","unclassified","colCount","property"
+"AdvancedGridLayout","unclassified","rowCount","property"
+"AdvancedGridLayout","unclassified","appendRow","command"
+"AdvancedGridLayout","unclassified","appendCol","command"
+"AdvancedGridLayout","unclassified","setRowStretch","command"
+"AdvancedGridLayout","unclassified","setColStretch","command"
+"AdvancedGridLayout","unclassified","setAnchor","set collaborator"
+"AdvancedGridLayout","unclassified","anchor","property collaborator"
+"AdvancedGridLayout","unclassified","AdvancedGridLayout::AdvancedGridLayout","constructor"
+"AdvancedGridLayout","unclassified","AdvancedGridLayout::preferredSize","property collaborator"
+"AdvancedGridLayout","unclassified","AdvancedGridLayout::performLayout","collaborator"
+"AdvancedGridLayout","unclassified","AdvancedGridLayout::computeLayout","controller"
+"FormWidget<Color,std::true_type>","entity boundary","FormWidget","constructor"
+"FormWidget<Color,std::true_type>","entity boundary","setValue","command collaborator"
+"FormWidget<Color,std::true_type>","entity boundary","setEditable","command"
+"FormWidget<Color,std::true_type>","entity boundary","value","property collaborator"
+"GridLayout","boundary","GridLayout","constructor"
+"GridLayout","boundary","orientation","get collaborator"
+"GridLayout","boundary","setOrientation","set collaborator"
+"GridLayout","boundary","resolution","get"
+"GridLayout","boundary","setResolution","set"
+"GridLayout","boundary","spacing","get"
+"GridLayout","boundary","setSpacing","set"
+"GridLayout","boundary","setSpacing","command"
+"GridLayout","boundary","margin","get"
+"GridLayout","boundary","setMargin","set"
+"GridLayout","boundary","alignment","get wrapper"
+"GridLayout","boundary","setColAlignment","set collaborator"
+"GridLayout","boundary","setRowAlignment","set collaborator"
+"GridLayout","boundary","setColAlignment","set collaborator"
+"GridLayout","boundary","setRowAlignment","set collaborator"
+"GridLayout","boundary","GridLayout::preferredSize","property collaborator"
+"GridLayout","boundary","GridLayout::computeLayout","void-accessor controller"
+"GridLayout","boundary","GridLayout::performLayout","collaborator"
+"semaphore","commander boundary data-class small-class","semaphore","constructor"
+"semaphore","commander boundary data-class small-class","notify","set collaborator"
+"semaphore","commander boundary data-class small-class","wait","set collaborator"
+"Popup","entity boundary","setAnchorPos","set collaborator"
+"Popup","entity boundary","anchorPos","get collaborator"
+"Popup","entity boundary","setAnchorHeight","set"
+"Popup","entity boundary","anchorHeight","get"
+"Popup","entity boundary","setSide","set collaborator"
+"Popup","entity boundary","side","get collaborator"
+"Popup","entity boundary","parentWindow","get collaborator"
+"Popup","entity boundary","parentWindow","get collaborator"
+"Popup","entity boundary","Popup::Popup","constructor"
+"Popup","entity boundary","Popup::performLayout","command collaborator"
+"Popup","entity boundary","Popup::refreshRelativePlacement","command"
+"Popup","entity boundary","Popup::draw","command collaborator"
+"Popup","entity boundary","Popup::save","collaborator"
+"Popup","entity boundary","Popup::load","predicate non-void-command collaborator"
+"FormWidget<T,typenamestd::is_integral<T>::type>","empty","FormWidget","constructor"
+"ColorPicker","boundary","callback","get collaborator"
+"ColorPicker","boundary","setCallback","set collaborator"
+"ColorPicker","boundary","finalCallback","get collaborator"
+"ColorPicker","boundary","setFinalCallback","set collaborator"
+"ColorPicker","boundary","pickButtonCaption","property non-void-command"
+"ColorPicker","boundary","setPickButtonCaption","command"
+"ColorPicker","boundary","resetButtonCaption","property non-void-command"
+"ColorPicker","boundary","setResetButtonCaption","command"
+"ColorPicker","boundary","ColorPicker::ColorPicker","constructor"
+"ColorPicker","boundary","ColorPicker::color","property collaborator"
+"ColorPicker","boundary","ColorPicker::setColor","command collaborator"
+"ColorWheel","entity boundary","callback","get collaborator"
+"ColorWheel","entity boundary","setCallback","set collaborator"
+"ColorWheel","entity boundary","ColorWheel::ColorWheel","constructor"
+"ColorWheel","entity boundary","ColorWheel::preferredSize","collaborator incidental"
+"ColorWheel","entity boundary","ColorWheel::draw","command collaborator"
+"ColorWheel","entity boundary","ColorWheel::mouseButtonEvent","predicate set"
+"ColorWheel","entity boundary","ColorWheel::mouseDragEvent","predicate non-void-command collaborator"
+"ColorWheel","entity boundary","ColorWheel::adjustPosition","property non-void-command collaborator"
+"ColorWheel","entity boundary","ColorWheel::hue2rgb","wrapper stateless"
+"ColorWheel","entity boundary","ColorWheel::color","property collaborator"
+"ColorWheel","entity boundary","ColorWheel::setColor","command collaborator"
+"ColorWheel","entity boundary","ColorWheel::save","collaborator"
+"ColorWheel","entity boundary","ColorWheel::load","predicate set collaborator"
+"CheckBox","unclassified","caption","get"
+"CheckBox","unclassified","setCaption","set"
+"CheckBox","unclassified","checked","get"
+"CheckBox","unclassified","setChecked","set"
+"CheckBox","unclassified","pushed","get"
+"CheckBox","unclassified","setPushed","set"
+"CheckBox","unclassified","callback","get collaborator"
+"CheckBox","unclassified","setCallback","set collaborator"
+"CheckBox","unclassified","CheckBox::CheckBox","constructor"
+"CheckBox","unclassified","CheckBox::mouseButtonEvent","predicate non-void-command"
+"CheckBox","unclassified","CheckBox::preferredSize","get property collaborator"
+"CheckBox","unclassified","CheckBox::draw","command collaborator"
+"CheckBox","unclassified","CheckBox::save","collaborator"
+"CheckBox","unclassified","CheckBox::load","predicate non-void-command collaborator"
+"ImageView","boundary","imageShader","get collaborator"
+"ImageView","boundary","positionF","property collaborator"
+"ImageView","boundary","sizeF","property collaborator"
+"ImageView","boundary","imageSize","get collaborator"
+"ImageView","boundary","scaledImageSize","property collaborator"
+"ImageView","boundary","imageSizeF","property collaborator"
+"ImageView","boundary","scaledImageSizeF","property collaborator"
+"ImageView","boundary","offset","get collaborator"
+"ImageView","boundary","setOffset","set collaborator"
+"ImageView","boundary","scale","get"
+"ImageView","boundary","setScale","set"
+"ImageView","boundary","fixedOffset","get"
+"ImageView","boundary","setFixedOffset","set"
+"ImageView","boundary","fixedScale","get"
+"ImageView","boundary","setFixedScale","set"
+"ImageView","boundary","zoomSensitivity","get"
+"ImageView","boundary","setZoomSensitivity","set"
+"ImageView","boundary","gridThreshold","get"
+"ImageView","boundary","setGridThreshold","set"
+"ImageView","boundary","pixelInfoThreshold","get"
+"ImageView","boundary","setPixelInfoThreshold","set"
+"ImageView","boundary","setPixelInfoCallback","set collaborator"
+"ImageView","boundary","pixelInfoCallback","get collaborator"
+"ImageView","boundary","setFontScaleFactor","set"
+"ImageView","boundary","fontScaleFactor","get"
+"ImageView","boundary","ImageView::ImageView","constructor"
+"ImageView","boundary","ImageView::~ImageView","destructor"
+"ImageView","boundary","ImageView::bindImage","command collaborator"
+"ImageView","boundary","ImageView::imageCoordinateAt","property collaborator"
+"ImageView","boundary","ImageView::clampedImageCoordinateAt","property collaborator"
+"ImageView","boundary","ImageView::positionForCoordinate","property collaborator"
+"ImageView","boundary","ImageView::setImageCoordinateAt","command collaborator"
+"ImageView","boundary","ImageView::center","command"
+"ImageView","boundary","ImageView::fit","command"
+"ImageView","boundary","ImageView::setScaleCentered","command collaborator"
+"ImageView","boundary","ImageView::moveOffset","command collaborator"
+"ImageView","boundary","ImageView::zoom","command collaborator"
+"ImageView","boundary","ImageView::mouseDragEvent","predicate non-void-command"
+"ImageView","boundary","ImageView::gridVisible","predicate"
+"ImageView","boundary","ImageView::pixelInfoVisible","predicate"
+"ImageView","boundary","ImageView::helpersVisible","predicate"
+"ImageView","boundary","ImageView::scrollEvent","predicate non-void-command collaborator"
+"ImageView","boundary","ImageView::keyboardEvent","predicate wrapper"
+"ImageView","boundary","ImageView::keyboardCharacterEvent","predicate non-void-command"
+"ImageView","boundary","ImageView::preferredSize","get collaborator"
+"ImageView","boundary","ImageView::performLayout","command collaborator"
+"ImageView","boundary","ImageView::draw","command collaborator"
+"ImageView","boundary","ImageView::updateImageParameters","set collaborator"
+"ImageView","boundary","ImageView::drawWidgetBorder","collaborator"
+"ImageView","boundary","ImageView::drawImageBorder","collaborator"
+"ImageView","boundary","ImageView::drawHelpers","collaborator"
+"ImageView","boundary","ImageView::drawPixelGrid","controller stateless"
+"ImageView","boundary","ImageView::drawPixelInfo","unclassified"
+"ImageView","boundary","ImageView::writePixelInfo","controller stateless"
+"Theme","empty","~Theme","destructor"
+"Theme","empty","Theme::Theme","constructor"
+"VScrollPanel","entity boundary","scroll","get"
+"VScrollPanel","entity boundary","setScroll","set"
+"VScrollPanel","entity boundary","VScrollPanel::VScrollPanel","constructor"
+"VScrollPanel","entity boundary","VScrollPanel::performLayout","command collaborator"
+"VScrollPanel","entity boundary","VScrollPanel::preferredSize","get property collaborator"
+"VScrollPanel","entity boundary","VScrollPanel::mouseDragEvent","predicate non-void-command"
+"VScrollPanel","entity boundary","VScrollPanel::scrollEvent","predicate non-void-command collaborator"
+"VScrollPanel","entity boundary","VScrollPanel::draw","command collaborator"
+"VScrollPanel","entity boundary","VScrollPanel::save","collaborator"
+"VScrollPanel","entity boundary","VScrollPanel::load","predicate non-void-command collaborator"
+"GLUniformBuffer","unclassified","GLUniformBuffer","constructor"
+"GLUniformBuffer","unclassified","getBindingPoint","get"
+"GLUniformBuffer","unclassified","GLUniformBuffer::init","wrapper"
+"GLUniformBuffer","unclassified","GLUniformBuffer::bind","set"
+"GLUniformBuffer","unclassified","GLUniformBuffer::release","wrapper"
+"GLUniformBuffer","unclassified","GLUniformBuffer::free","set"
+"GLUniformBuffer","unclassified","GLUniformBuffer::update","controller"
+"ImagePanel","entity boundary","setImages","set collaborator"
+"ImagePanel","entity boundary","images","get collaborator"
+"ImagePanel","entity boundary","callback","get collaborator"
+"ImagePanel","entity boundary","setCallback","set collaborator"
+"ImagePanel","entity boundary","ImagePanel::ImagePanel","constructor"
+"ImagePanel","entity boundary","ImagePanel::gridSize","property collaborator"
+"ImagePanel","entity boundary","ImagePanel::indexForPosition","property collaborator"
+"ImagePanel","entity boundary","ImagePanel::mouseMotionEvent","predicate set collaborator"
+"ImagePanel","entity boundary","ImagePanel::mouseButtonEvent","predicate non-void-command"
+"ImagePanel","entity boundary","ImagePanel::preferredSize","property collaborator"
+"ImagePanel","entity boundary","ImagePanel::draw","command collaborator"
+"Layout","empty","~Layout","destructor"
+"GLFramebuffer","unclassified","GLFramebuffer","constructor"
+"GLFramebuffer","unclassified","ready","predicate"
+"GLFramebuffer","unclassified","samples","get"
+"GLFramebuffer","unclassified","GLFramebuffer::init","command collaborator"
+"GLFramebuffer","unclassified","GLFramebuffer::free","command"
+"GLFramebuffer","unclassified","GLFramebuffer::bind","wrapper"
+"GLFramebuffer","unclassified","GLFramebuffer::release","wrapper"
+"GLFramebuffer","unclassified","GLFramebuffer::blit","command"
+"GLFramebuffer","unclassified","GLFramebuffer::downloadTGA","command collaborator"
+"ref","data-provider boundary","ref","constructor"
+"ref","data-provider boundary","ref","constructor"
+"ref","data-provider boundary","ref","copy-constructor"
+"ref","data-provider boundary","ref","copy-constructor"
+"ref","data-provider boundary","~ref","destructor"
+"ref","data-provider boundary","operator=","get set"
+"ref","data-provider boundary","operator=","get set"
+"ref","data-provider boundary","operator=","get set collaborator"
+"ref","data-provider boundary","operator==","predicate"
+"ref","data-provider boundary","operator!=","predicate"
+"ref","data-provider boundary","operator==","predicate collaborator"
+"ref","data-provider boundary","operator!=","predicate collaborator"
+"ref","data-provider boundary","operator->","get collaborator"
+"ref","data-provider boundary","operator->","get collaborator"
+"ref","data-provider boundary","operator*","get collaborator"
+"ref","data-provider boundary","operator*","get collaborator"
+"ref","data-provider boundary","operatorT*","get"
+"ref","data-provider boundary","get","get collaborator"
+"ref","data-provider boundary","get","get collaborator"
+"ref","data-provider boundary","operatorbool","unclassified"
+"Screen","boundary","caption","get"
+"Screen","boundary","background","get collaborator"
+"Screen","boundary","setBackground","set collaborator"
+"Screen","boundary","drawContents","empty"
+"Screen","boundary","pixelRatio","get"
+"Screen","boundary","dropEvent","incidental"
+"Screen","boundary","resizeCallback","get collaborator"
+"Screen","boundary","setResizeCallback","set collaborator"
+"Screen","boundary","mousePos","get collaborator"
+"Screen","boundary","glfwWindow","get collaborator"
+"Screen","boundary","nvgContext","get collaborator"
+"Screen","boundary","setShutdownGLFWOnDestruct","set"
+"Screen","boundary","shutdownGLFWOnDestruct","get"
+"Screen","boundary","performLayout","command"
+"Screen","boundary","Screen::Screen","constructor"
+"Screen","boundary","Screen::Screen","constructor"
+"Screen","boundary","Screen::initialize","command"
+"Screen","boundary","Screen::~Screen","destructor"
+"Screen","boundary","Screen::setVisible","set"
+"Screen","boundary","Screen::setCaption","set"
+"Screen","boundary","Screen::setSize","command collaborator"
+"Screen","boundary","Screen::drawAll","command"
+"Screen","boundary","Screen::drawWidgets","command"
+"Screen","boundary","Screen::keyboardEvent","predicate non-void-command collaborator"
+"Screen","boundary","Screen::keyboardCharacterEvent","predicate non-void-command collaborator"
+"Screen","boundary","Screen::resizeEvent","predicate wrapper"
+"Screen","boundary","Screen::cursorPosCallbackEvent","predicate non-void-command collaborator"
+"Screen","boundary","Screen::mouseButtonCallbackEvent","predicate non-void-command collaborator"
+"Screen","boundary","Screen::keyCallbackEvent","predicate set"
+"Screen","boundary","Screen::charCallbackEvent","predicate set"
+"Screen","boundary","Screen::dropCallbackEvent","predicate non-void-command"
+"Screen","boundary","Screen::scrollCallbackEvent","predicate non-void-command collaborator"
+"Screen","boundary","Screen::resizeCallbackEvent","predicate non-void-command collaborator"
+"Screen","boundary","Screen::updateFocus","void-accessor command collaborator"
+"Screen","boundary","Screen::disposeWindow","command collaborator"
+"Screen","boundary","Screen::centerWindow","controller"
+"Screen","boundary","Screen::moveWindowToFront","command collaborator"
+"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","FormWidget","constructor"
+"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","value","property collaborator"
+"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","setValue","set collaborator"
+"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","setCallback","command collaborator"
+"FormWidget<T,typenamestd::is_enum<T>::type>","entity commander boundary","setEditable","command"
+"Arcball","boundary","Arcball","constructor"
+"Arcball","boundary","Arcball","constructor"
+"Arcball","boundary","state","get collaborator"
+"Arcball","boundary","state","get collaborator"
+"Arcball","boundary","setState","command collaborator"
+"Arcball","boundary","setSize","set collaborator"
+"Arcball","boundary","size","get collaborator"
+"Arcball","boundary","setSpeedFactor","set"
+"Arcball","boundary","speedFactor","get"
+"Arcball","boundary","active","get"
+"Arcball","boundary","button","command"
+"Arcball","boundary","motion","predicate non-void-command collaborator"
+"Arcball","boundary","matrix","property controller"
+"Arcball","boundary","activeState","property collaborator"
+"Arcball","boundary","interrupt","command"
+"Graph","entity boundary","caption","get"
+"Graph","entity boundary","setCaption","set"
+"Graph","entity boundary","header","get"
+"Graph","entity boundary","setHeader","set"
+"Graph","entity boundary","footer","get"
+"Graph","entity boundary","setFooter","set"
+"Graph","entity boundary","backgroundColor","get collaborator"
+"Graph","entity boundary","setBackgroundColor","set collaborator"
+"Graph","entity boundary","foregroundColor","get collaborator"
+"Graph","entity boundary","setForegroundColor","set collaborator"
+"Graph","entity boundary","textColor","get collaborator"
+"Graph","entity boundary","setTextColor","set collaborator"
+"Graph","entity boundary","values","get collaborator"
+"Graph","entity boundary","values","get collaborator"
+"Graph","entity boundary","setValues","set collaborator"
+"Graph","entity boundary","Graph::Graph","constructor"
+"Graph","entity boundary","Graph::preferredSize","wrapper stateless"
+"Graph","entity boundary","Graph::draw","command collaborator"
+"Graph","entity boundary","Graph::save","collaborator"
+"Graph","entity boundary","Graph::load","predicate non-void-command collaborator"
+"FormWidget<bool,std::true_type>","unclassified","FormWidget","constructor"
+"FormWidget<bool,std::true_type>","unclassified","setValue","command"
+"FormWidget<bool,std::true_type>","unclassified","setEditable","command"
+"FormWidget<bool,std::true_type>","unclassified","value","predicate"
+"Serializer","commander","setCompatibility","set"
+"Serializer","commander","compatibility","get"
+"Serializer","commander","set","command collaborator"
+"Serializer","commander","get","predicate non-void-command collaborator"
+"Serializer","commander","Serializer::Serializer","constructor"
+"Serializer","commander","Serializer::~Serializer","destructor"
+"Serializer","commander","Serializer::isSerializedFile","incidental"
+"Serializer","commander","Serializer::size","property non-void-command"
+"Serializer","commander","Serializer::push","command"
+"Serializer","commander","Serializer::pop","command"
+"Serializer","commander","Serializer::keys","property collaborator"
+"Serializer","commander","Serializer::get_base","predicate non-void-command collaborator"
+"Serializer","commander","Serializer::set_base","command collaborator"
+"Serializer","commander","Serializer::writeTOC","command"
+"Serializer","commander","Serializer::readTOC","command"
+"Serializer","commander","Serializer::read","command"
+"Serializer","commander","Serializer::write","command"
+"Serializer","commander","Serializer::seek","command"
+"Label","boundary","caption","get"
+"Label","boundary","setCaption","set"
+"Label","boundary","setFont","set"
+"Label","boundary","font","get"
+"Label","boundary","color","get collaborator"
+"Label","boundary","setColor","set collaborator"
+"Label","boundary","Label::Label","constructor"
+"Label","boundary","Label::setTheme","command collaborator"
+"Label","boundary","Label::preferredSize","property collaborator"
+"Label","boundary","Label::draw","command collaborator"
+"Label","boundary","Label::save","collaborator"
+"Label","boundary","Label::load","predicate non-void-command collaborator"
+"BoxLayout","boundary","orientation","get collaborator"
+"BoxLayout","boundary","setOrientation","set collaborator"
+"BoxLayout","boundary","alignment","get collaborator"
+"BoxLayout","boundary","setAlignment","set collaborator"
+"BoxLayout","boundary","margin","get"
+"BoxLayout","boundary","setMargin","set"
+"BoxLayout","boundary","spacing","get"
+"BoxLayout","boundary","setSpacing","set"
+"BoxLayout","boundary","BoxLayout::BoxLayout","constructor"
+"BoxLayout","boundary","BoxLayout::preferredSize","property controller"
+"BoxLayout","boundary","BoxLayout::performLayout","controller"
+"GroupLayout","unclassified","GroupLayout","constructor"
+"GroupLayout","unclassified","margin","get"
+"GroupLayout","unclassified","setMargin","set"
+"GroupLayout","unclassified","spacing","get"
+"GroupLayout","unclassified","setSpacing","set"
+"GroupLayout","unclassified","groupIndent","get"
+"GroupLayout","unclassified","setGroupIndent","set"
+"GroupLayout","unclassified","groupSpacing","get"
+"GroupLayout","unclassified","setGroupSpacing","set"
+"GroupLayout","unclassified","GroupLayout::preferredSize","property controller"
+"GroupLayout","unclassified","GroupLayout::performLayout","controller"
+"Object","data-class","Object","constructor"
+"Object","data-class","Object","copy-constructor"
+"Object","data-class","getRefCount","get"
+"Object","data-class","incRef","set"
+"Object","data-class","Object::decRef","set"
+"Object","data-class","Object::~Object","destructor"
+"PopupButton","entity boundary","setChevronIcon","set"
+"PopupButton","entity boundary","chevronIcon","get"
+"PopupButton","entity boundary","side","property collaborator"
+"PopupButton","entity boundary","popup","get collaborator"
+"PopupButton","entity boundary","popup","get collaborator"
+"PopupButton","entity boundary","PopupButton::PopupButton","constructor"
+"PopupButton","entity boundary","PopupButton::~PopupButton","destructor"
+"PopupButton","entity boundary","PopupButton::preferredSize","property collaborator"
+"PopupButton","entity boundary","PopupButton::draw","command collaborator"
+"PopupButton","entity boundary","PopupButton::performLayout","command collaborator"
+"PopupButton","entity boundary","PopupButton::setSide","command collaborator"
+"PopupButton","entity boundary","PopupButton::save","collaborator"
+"PopupButton","entity boundary","PopupButton::load","predicate non-void-command collaborator"

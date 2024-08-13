@@ -1,219 +1,219 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"LogHistory","unclassified","LogHistory","constructor",
-"LogHistory","unclassified","describeContents","incidental",
-"LogHistory","unclassified","writeToParcel","command",
-"LogHistory","unclassified","getData","property factory collaborator",
-"LogHistory","unclassified","addEntry","command",
-"LogHistory","unclassified","LogHistory","constructor",
-"LogHistoryAndroidUnitTest","commander small-class","createLogHistory","set",
-"LogHistoryAndroidUnitTest","commander small-class","logHistory_ParcelableWriteRead","command collaborator",
-"SharedPreferencesHelperTest","commander boundary","initMocks","command",
-"SharedPreferencesHelperTest","commander boundary","sharedPreferencesHelper_SaveAndReadPersonalInformation","command collaborator",
-"SharedPreferencesHelperTest","commander boundary","sharedPreferencesHelper_SavePersonalInformationFailed_ReturnsFalse","command",
-"SharedPreferencesHelperTest","commander boundary","createMockSharedPreference","property non-void-command factory collaborator",
-"SharedPreferencesHelperTest","commander boundary","createBrokenMockSharedPreference","property non-void-command factory collaborator",
-"SharedPreferencesHelper","entity small-class","SharedPreferencesHelper","constructor",
-"SharedPreferencesHelper","entity small-class","savePersonalInfo","predicate non-void-command collaborator",
-"SharedPreferencesHelper","entity small-class","getPersonalInfo","property non-void-command factory collaborator",
-"EmailValidatorTest","boundary degenerate","emailValidator_CorrectEmailSimple_ReturnsTrue","wrapper stateless",
-"EmailValidatorTest","boundary degenerate","emailValidator_CorrectEmailSubDomain_ReturnsTrue","wrapper stateless",
-"EmailValidatorTest","boundary degenerate","emailValidator_InvalidEmailNoTld_ReturnsFalse","wrapper stateless",
-"EmailValidatorTest","boundary degenerate","emailValidator_InvalidEmailDoubleDot_ReturnsFalse","wrapper stateless",
-"EmailValidatorTest","boundary degenerate","emailValidator_InvalidEmailNoUsername_ReturnsFalse","wrapper stateless",
-"EmailValidatorTest","boundary degenerate","emailValidator_EmptyString_ReturnsFalse","wrapper stateless",
-"EmailValidatorTest","boundary degenerate","emailValidator_NullEmail_ReturnsFalse","wrapper stateless",
-"SharedPreferenceEntry","data-provider data-class","SharedPreferenceEntry","constructor",
-"SharedPreferenceEntry","data-provider data-class","getName","get",
-"SharedPreferenceEntry","data-provider data-class","getDateOfBirth","get collaborator",
-"SharedPreferenceEntry","data-provider data-class","getEmail","get",
-"EmailValidator","lazy-class","isValid","get",
-"EmailValidator","lazy-class","afterTextChanged","set collaborator",
-"EmailValidator","lazy-class","beforeTextChanged","empty",
-"EmailValidator","lazy-class","onTextChanged","empty",
-"WebViewActivity","commander boundary small-class","onCreate","command collaborator",
-"WebViewActivityTest","commander small-class","typeTextInInput_clickButton_SubmitsForm","command",
-"WebViewActivityTest","commander small-class","typeTextInInput_clickButton_ChangesText","command",
-"SuggestActivity","small-class","onCreate","command collaborator",
-"SuggestActivity","small-class","setUpAutoCompleteTextView","controller",
-"PrivateProcessActivity","unclassified","onCreate","command collaborator",
-"PrivateProcessActivity","unclassified","onBtnClick","controller stateless",
-"PrivateProcessActivity","unclassified","onItemClick","command",
-"ExampleInstrumentedTest","boundary small-class","launchActivity","wrapper stateless",
-"ExampleInstrumentedTest","boundary small-class","verifyAssertingOnViewInRemoteProcessIsSuccessful","wrapper",
-"CalculatorTest","commander","setUp","set",
-"CalculatorTest","commander","addTwoNumbers","command",
-"CalculatorTest","commander","subTwoNumbers","command",
-"CalculatorTest","commander","subWorksWithNegativeResult","command",
-"CalculatorTest","commander","divTwoNumbers","command",
-"CalculatorTest","commander","divDivideByZeroThrows","command",
-"CalculatorTest","commander","mulTwoNumbers","command",
-"Calculator","degenerate","add","incidental",
-"Calculator","degenerate","sub","incidental",
-"Calculator","degenerate","div","wrapper stateless",
-"Calculator","degenerate","mul","incidental",
-"Calculator","degenerate","add","incidental",
-"Calculator","degenerate","sub","incidental",
-"Calculator","degenerate","div","wrapper stateless",
-"Calculator","degenerate","mul","incidental",
-"Calculator","degenerate","add","incidental",
-"Calculator","degenerate","sub","incidental",
-"Calculator","degenerate","div","wrapper stateless",
-"Calculator","degenerate","mul","incidental",
-"ContactsActivity","commander boundary small-class","onCreate","command collaborator",
-"OperationHintInstrumentationTest","commander","OperationHintInstrumentationTest","constructor",
-"OperationHintInstrumentationTest","commander","setUp","set",
-"OperationHintInstrumentationTest","commander","testPreconditions","wrapper",
-"OperationHintInstrumentationTest","commander","testEditText_OperandOneHint","command",
-"OperationHintInstrumentationTest","commander","testEditText_OperandTwoHint","command",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","onClick","controller stateless",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","onClick","command collaborator",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","onClick","command collaborator",
-"MainActivity","minimal-entity commander boundary","showResult","command",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","onClick","command collaborator",
-"MainActivity","minimal-entity commander boundary","onDone","command",
-"MainActivity","minimal-entity commander boundary","getIdlingResource","get set factory collaborator",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","onClick","command collaborator",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","populateUi","command collaborator",
-"MainActivity","minimal-entity commander boundary","onSaveClick","command collaborator",
-"MainActivity","minimal-entity commander boundary","onRevertClick","command collaborator",
-"MainActivity","minimal-entity commander boundary","updateHistory","command collaborator",
-"MainActivity","minimal-entity commander boundary","onCreate","command collaborator",
-"MainActivity","minimal-entity commander boundary","onRestoreInstanceState","command collaborator",
-"MainActivity","minimal-entity commander boundary","onSaveInstanceState","command collaborator",
-"MainActivity","minimal-entity commander boundary","appendEntryToView","command collaborator",
-"CalculatorActivity","commander boundary","onCreate","command collaborator",
-"CalculatorActivity","commander boundary","onAdd","command collaborator",
-"CalculatorActivity","commander boundary","onSub","command collaborator",
-"CalculatorActivity","commander boundary","onDiv","command collaborator",
-"CalculatorActivity","commander boundary","onMul","command collaborator",
-"CalculatorActivity","commander boundary","compute","command collaborator",
-"CalculatorActivity","commander boundary","onCreate","command collaborator",
-"CalculatorActivity","commander boundary","onAdd","command collaborator",
-"CalculatorActivity","commander boundary","onSub","command collaborator",
-"CalculatorActivity","commander boundary","onDiv","command collaborator",
-"CalculatorActivity","commander boundary","onMul","command collaborator",
-"CalculatorActivity","commander boundary","compute","command collaborator",
-"CalculatorActivity","commander boundary","onCreate","command collaborator",
-"CalculatorActivity","commander boundary","onAdd","command collaborator",
-"CalculatorActivity","commander boundary","onSub","command collaborator",
-"CalculatorActivity","commander boundary","onDiv","command collaborator",
-"CalculatorActivity","commander boundary","onMul","command collaborator",
-"CalculatorActivity","commander boundary","compute","command collaborator",
-"SimpleIdlingResource","unclassified","getName","property non-void-command",
-"SimpleIdlingResource","unclassified","isIdleNow","predicate non-void-command",
-"SimpleIdlingResource","unclassified","registerIdleTransitionCallback","set collaborator",
-"SimpleIdlingResource","unclassified","setIdleState","command",
-"CalculatorInstrumentationTest","commander","launchActivity","wrapper stateless",
-"CalculatorInstrumentationTest","commander","noOperandShowsComputationError","wrapper stateless",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformAddOperation","command",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformSubOperation","command",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformDivOperation","command",
-"CalculatorInstrumentationTest","commander","divZeroForOperandTwoShowsError","command",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformMulOperation","command",
-"CalculatorInstrumentationTest","commander","performOperation","wrapper stateless",
-"CalculatorInstrumentationTest","commander","launchActivity","wrapper stateless",
-"CalculatorInstrumentationTest","commander","noOperandShowsComputationError","wrapper stateless",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformAddOperation","command",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformSubOperation","command",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformDivOperation","command",
-"CalculatorInstrumentationTest","commander","divZeroForOperandTwoShowsError","command",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformMulOperation","command",
-"CalculatorInstrumentationTest","commander","performOperation","wrapper stateless",
-"CalculatorInstrumentationTest","commander","launchActivity","wrapper stateless",
-"CalculatorInstrumentationTest","commander","noOperandShowsComputationError","wrapper stateless",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformAddOperation","command",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformSubOperation","command",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformDivOperation","command",
-"CalculatorInstrumentationTest","commander","divZeroForOperandTwoShowsError","command",
-"CalculatorInstrumentationTest","commander","typeOperandsAndPerformMulOperation","command",
-"CalculatorInstrumentationTest","commander","performOperation","wrapper stateless",
-"CalculatorAddParameterizedTest","commander","CalculatorAddParameterizedTest","constructor",
-"CalculatorAddParameterizedTest","commander","setUp","set",
-"CalculatorAddParameterizedTest","commander","testAdd_TwoNumbers","command",
-"CalculatorAddParameterizedTest","commander","CalculatorAddParameterizedTest","constructor",
-"CalculatorAddParameterizedTest","commander","setUp","set",
-"CalculatorAddParameterizedTest","commander","testAdd_TwoNumbers","command",
-"CalculatorAddParameterizedTest","commander","CalculatorAddParameterizedTest","constructor",
-"CalculatorAddParameterizedTest","commander","setUp","set",
-"CalculatorAddParameterizedTest","commander","testAdd_TwoNumbers","command",
-"LocalService","data-class small-class","onBind","get set collaborator",
-"LocalService","data-class small-class","getRandomInt","property non-void-command",
-"LocalServiceTest","commander boundary small-class","testWithBoundService","command collaborator",
-"AccessibilityChecksTest","boundary degenerate small-class","accessibilityChecks","wrapper stateless",
-"ChangeTextBehaviorTest","commander boundary","changeText_sameActivity","wrapper",
-"ChangeTextBehaviorTest","commander boundary","changeText_newActivity","wrapper",
-"ChangeTextBehaviorTest","commander boundary","registerIdlingResource","set collaborator",
-"ChangeTextBehaviorTest","commander boundary","changeText_sameActivity","wrapper",
-"ChangeTextBehaviorTest","commander boundary","unregisterIdlingResource","wrapper",
-"ChangeTextBehaviorTest","commander boundary","startMainActivityFromHomeScreen","command collaborator",
-"ChangeTextBehaviorTest","commander boundary","checkPreconditions","wrapper",
-"ChangeTextBehaviorTest","commander boundary","testChangeText_sameActivity","command collaborator",
-"ChangeTextBehaviorTest","commander boundary","testChangeText_newActivity","command collaborator",
-"ChangeTextBehaviorTest","commander boundary","getLauncherPackageName","controller stateless",
-"ShowTextActivity","commander boundary small-class","onCreate","command collaborator",
-"ShowTextActivity","commander boundary small-class","onCreate","command collaborator",
-"OperationHintLegacyInstrumentationTest","commander","OperationHintLegacyInstrumentationTest","constructor",
-"OperationHintLegacyInstrumentationTest","commander","setUp","set",
-"OperationHintLegacyInstrumentationTest","commander","testPreconditions","wrapper",
-"OperationHintLegacyInstrumentationTest","commander","testEditText_OperandOneHint","command",
-"OperationHintLegacyInstrumentationTest","commander","testEditText_OperandTwoHint","command",
-"LongListActivity","commander small-class","onCreate","command collaborator",
-"LongListActivity","commander small-class","populateData","command",
-"DialerActivity","commander boundary","onCreate","set collaborator",
-"DialerActivity","commander boundary","onCall","command collaborator",
-"DialerActivity","commander boundary","onPickContact","wrapper",
-"DialerActivity","commander boundary","createCallIntentFromNumber","non-void-command factory collaborator",
-"DialerActivity","commander boundary","onActivityResult","command collaborator",
-"CustomAdapter","unclassified","CustomAdapter","constructor",
-"CustomAdapter","unclassified","onCreateViewHolder","factory controller stateless",
-"CustomAdapter","unclassified","onBindViewHolder","command",
-"CustomAdapter","unclassified","getItemCount","property non-void-command",
-"ChangeTextBehaviorLocalTest","boundary","intentsInit","wrapper stateless",
-"ChangeTextBehaviorLocalTest","boundary","intentsTeardown","wrapper stateless",
-"ChangeTextBehaviorLocalTest","boundary","changeText_sameActivity","wrapper",
-"ChangeTextBehaviorLocalTest","boundary","changeText_newActivity","wrapper",
-"MultiWindowTest","commander","setActivity","set",
-"MultiWindowTest","commander","autoCompleteTextView_twoSuggestions","command",
-"MultiWindowTest","commander","autoCompleteTextView_oneSuggestion","command",
-"MultiWindowTest","commander","autoCompleteTextView_clickAndCheck","command",
-"MultiWindowTest","commander","autoCompleteTextView_onDataClickAndCheck","command",
-"ImageViewerActivityTest","boundary degenerate","stubCameraIntent","command collaborator",
-"ImageViewerActivityTest","boundary degenerate","tearDown","wrapper stateless",
-"ImageViewerActivityTest","boundary degenerate","takePhoto_drawableIsApplied","wrapper stateless",
-"ImageViewerActivityTest","boundary degenerate","createImageCaptureActivityResultStub","factory controller stateless",
-"HintMatchersTest","commander boundary","initValidStrings","command",
-"HintMatchersTest","commander boundary","hint_isDisplayedInEditText","wrapper stateless",
-"HintMatchersTest","commander boundary","hint_endsWith","wrapper",
-"HintMatchersTest","commander boundary","editText_canBeTypedInto","wrapper",
-"HintMatchersTest","commander boundary","validation_resultIsOneOfTheValidStrings","wrapper",
-"HintMatchersTest","commander boundary","validation_resultHasCorrectEnding","wrapper",
-"HintMatchersTest","commander boundary","validation_resultIsIncorrect","wrapper",
-"ImageViewerActivity","commander boundary","onCreate","set collaborator",
-"ImageViewerActivity","commander boundary","dispatchTakePictureIntent","wrapper",
-"ImageViewerActivity","commander boundary","onOpenCamera","command collaborator",
-"ImageViewerActivity","commander boundary","onActivityResult","command collaborator",
-"LongListActivityTest","boundary","lastItem_NotDisplayed","wrapper",
-"LongListActivityTest","boundary","list_Scrolls","wrapper",
-"LongListActivityTest","boundary","row_Click","wrapper",
-"LongListActivityTest","boundary","toggle_Click","wrapper",
-"LongListActivityTest","boundary","toggle_ClickDoesntPropagate","wrapper",
-"ScreenshotJavaTest","commander","saveActivityBitmap","command",
-"ScreenshotJavaTest","commander","saveViewBitmap","command",
-"ScreenshotJavaTest","commander","saveDeviceScreenBitmap","command",
-"DefaultProcessActivity","commander boundary small-class","onCreate","set collaborator",
-"DefaultProcessActivity","commander boundary small-class","onStartActivityBtnClick","wrapper",
-"RecyclerViewSampleTest","boundary degenerate","itemWithText_doesNotExist","wrapper stateless",
-"RecyclerViewSampleTest","boundary degenerate","scrollToItemBelowFold_checkItsText","wrapper",
-"RecyclerViewSampleTest","boundary degenerate","itemInMiddleOfList_hasSpecialText","wrapper stateless",
-"DialerActivityTest","boundary","stubAllExternalIntents","wrapper stateless",
-"DialerActivityTest","boundary","typeNumber_ValidInput_InitiatesCall","wrapper",
-"DialerActivityTest","boundary","typeNumber_ValidInput_InitiatesCall_truth","wrapper",
-"DialerActivityTest","boundary","pickContactButton_click_SelectsPhoneNumber","wrapper",
+"LogHistory","unclassified","LogHistory","constructor"
+"LogHistory","unclassified","describeContents","incidental"
+"LogHistory","unclassified","writeToParcel","command"
+"LogHistory","unclassified","getData","property factory collaborator"
+"LogHistory","unclassified","addEntry","command"
+"LogHistory","unclassified","LogHistory","constructor"
+"LogHistoryAndroidUnitTest","commander small-class","createLogHistory","set"
+"LogHistoryAndroidUnitTest","commander small-class","logHistory_ParcelableWriteRead","command collaborator"
+"SharedPreferencesHelperTest","commander boundary","initMocks","command"
+"SharedPreferencesHelperTest","commander boundary","sharedPreferencesHelper_SaveAndReadPersonalInformation","command collaborator"
+"SharedPreferencesHelperTest","commander boundary","sharedPreferencesHelper_SavePersonalInformationFailed_ReturnsFalse","command"
+"SharedPreferencesHelperTest","commander boundary","createMockSharedPreference","property non-void-command factory collaborator"
+"SharedPreferencesHelperTest","commander boundary","createBrokenMockSharedPreference","property non-void-command factory collaborator"
+"SharedPreferencesHelper","entity small-class","SharedPreferencesHelper","constructor"
+"SharedPreferencesHelper","entity small-class","savePersonalInfo","predicate non-void-command collaborator"
+"SharedPreferencesHelper","entity small-class","getPersonalInfo","property non-void-command factory collaborator"
+"EmailValidatorTest","boundary degenerate","emailValidator_CorrectEmailSimple_ReturnsTrue","wrapper stateless"
+"EmailValidatorTest","boundary degenerate","emailValidator_CorrectEmailSubDomain_ReturnsTrue","wrapper stateless"
+"EmailValidatorTest","boundary degenerate","emailValidator_InvalidEmailNoTld_ReturnsFalse","wrapper stateless"
+"EmailValidatorTest","boundary degenerate","emailValidator_InvalidEmailDoubleDot_ReturnsFalse","wrapper stateless"
+"EmailValidatorTest","boundary degenerate","emailValidator_InvalidEmailNoUsername_ReturnsFalse","wrapper stateless"
+"EmailValidatorTest","boundary degenerate","emailValidator_EmptyString_ReturnsFalse","wrapper stateless"
+"EmailValidatorTest","boundary degenerate","emailValidator_NullEmail_ReturnsFalse","wrapper stateless"
+"SharedPreferenceEntry","data-provider data-class","SharedPreferenceEntry","constructor"
+"SharedPreferenceEntry","data-provider data-class","getName","get"
+"SharedPreferenceEntry","data-provider data-class","getDateOfBirth","get collaborator"
+"SharedPreferenceEntry","data-provider data-class","getEmail","get"
+"EmailValidator","lazy-class","isValid","get"
+"EmailValidator","lazy-class","afterTextChanged","set collaborator"
+"EmailValidator","lazy-class","beforeTextChanged","empty"
+"EmailValidator","lazy-class","onTextChanged","empty"
+"WebViewActivity","commander boundary small-class","onCreate","command collaborator"
+"WebViewActivityTest","commander small-class","typeTextInInput_clickButton_SubmitsForm","command"
+"WebViewActivityTest","commander small-class","typeTextInInput_clickButton_ChangesText","command"
+"SuggestActivity","small-class","onCreate","command collaborator"
+"SuggestActivity","small-class","setUpAutoCompleteTextView","controller"
+"PrivateProcessActivity","unclassified","onCreate","command collaborator"
+"PrivateProcessActivity","unclassified","onBtnClick","controller stateless"
+"PrivateProcessActivity","unclassified","onItemClick","command"
+"ExampleInstrumentedTest","boundary small-class","launchActivity","wrapper stateless"
+"ExampleInstrumentedTest","boundary small-class","verifyAssertingOnViewInRemoteProcessIsSuccessful","wrapper"
+"CalculatorTest","commander","setUp","set"
+"CalculatorTest","commander","addTwoNumbers","command"
+"CalculatorTest","commander","subTwoNumbers","command"
+"CalculatorTest","commander","subWorksWithNegativeResult","command"
+"CalculatorTest","commander","divTwoNumbers","command"
+"CalculatorTest","commander","divDivideByZeroThrows","command"
+"CalculatorTest","commander","mulTwoNumbers","command"
+"Calculator","degenerate","add","incidental"
+"Calculator","degenerate","sub","incidental"
+"Calculator","degenerate","div","wrapper stateless"
+"Calculator","degenerate","mul","incidental"
+"Calculator","degenerate","add","incidental"
+"Calculator","degenerate","sub","incidental"
+"Calculator","degenerate","div","wrapper stateless"
+"Calculator","degenerate","mul","incidental"
+"Calculator","degenerate","add","incidental"
+"Calculator","degenerate","sub","incidental"
+"Calculator","degenerate","div","wrapper stateless"
+"Calculator","degenerate","mul","incidental"
+"ContactsActivity","commander boundary small-class","onCreate","command collaborator"
+"OperationHintInstrumentationTest","commander","OperationHintInstrumentationTest","constructor"
+"OperationHintInstrumentationTest","commander","setUp","set"
+"OperationHintInstrumentationTest","commander","testPreconditions","wrapper"
+"OperationHintInstrumentationTest","commander","testEditText_OperandOneHint","command"
+"OperationHintInstrumentationTest","commander","testEditText_OperandTwoHint","command"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","onClick","controller stateless"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","onClick","command collaborator"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","onClick","command collaborator"
+"MainActivity","minimal-entity commander boundary","showResult","command"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","onClick","command collaborator"
+"MainActivity","minimal-entity commander boundary","onDone","command"
+"MainActivity","minimal-entity commander boundary","getIdlingResource","get set factory collaborator"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","onClick","command collaborator"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","populateUi","command collaborator"
+"MainActivity","minimal-entity commander boundary","onSaveClick","command collaborator"
+"MainActivity","minimal-entity commander boundary","onRevertClick","command collaborator"
+"MainActivity","minimal-entity commander boundary","updateHistory","command collaborator"
+"MainActivity","minimal-entity commander boundary","onCreate","command collaborator"
+"MainActivity","minimal-entity commander boundary","onRestoreInstanceState","command collaborator"
+"MainActivity","minimal-entity commander boundary","onSaveInstanceState","command collaborator"
+"MainActivity","minimal-entity commander boundary","appendEntryToView","command collaborator"
+"CalculatorActivity","commander boundary","onCreate","command collaborator"
+"CalculatorActivity","commander boundary","onAdd","command collaborator"
+"CalculatorActivity","commander boundary","onSub","command collaborator"
+"CalculatorActivity","commander boundary","onDiv","command collaborator"
+"CalculatorActivity","commander boundary","onMul","command collaborator"
+"CalculatorActivity","commander boundary","compute","command collaborator"
+"CalculatorActivity","commander boundary","onCreate","command collaborator"
+"CalculatorActivity","commander boundary","onAdd","command collaborator"
+"CalculatorActivity","commander boundary","onSub","command collaborator"
+"CalculatorActivity","commander boundary","onDiv","command collaborator"
+"CalculatorActivity","commander boundary","onMul","command collaborator"
+"CalculatorActivity","commander boundary","compute","command collaborator"
+"CalculatorActivity","commander boundary","onCreate","command collaborator"
+"CalculatorActivity","commander boundary","onAdd","command collaborator"
+"CalculatorActivity","commander boundary","onSub","command collaborator"
+"CalculatorActivity","commander boundary","onDiv","command collaborator"
+"CalculatorActivity","commander boundary","onMul","command collaborator"
+"CalculatorActivity","commander boundary","compute","command collaborator"
+"SimpleIdlingResource","unclassified","getName","property non-void-command"
+"SimpleIdlingResource","unclassified","isIdleNow","predicate non-void-command"
+"SimpleIdlingResource","unclassified","registerIdleTransitionCallback","set collaborator"
+"SimpleIdlingResource","unclassified","setIdleState","command"
+"CalculatorInstrumentationTest","commander","launchActivity","wrapper stateless"
+"CalculatorInstrumentationTest","commander","noOperandShowsComputationError","wrapper stateless"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformAddOperation","command"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformSubOperation","command"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformDivOperation","command"
+"CalculatorInstrumentationTest","commander","divZeroForOperandTwoShowsError","command"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformMulOperation","command"
+"CalculatorInstrumentationTest","commander","performOperation","wrapper stateless"
+"CalculatorInstrumentationTest","commander","launchActivity","wrapper stateless"
+"CalculatorInstrumentationTest","commander","noOperandShowsComputationError","wrapper stateless"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformAddOperation","command"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformSubOperation","command"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformDivOperation","command"
+"CalculatorInstrumentationTest","commander","divZeroForOperandTwoShowsError","command"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformMulOperation","command"
+"CalculatorInstrumentationTest","commander","performOperation","wrapper stateless"
+"CalculatorInstrumentationTest","commander","launchActivity","wrapper stateless"
+"CalculatorInstrumentationTest","commander","noOperandShowsComputationError","wrapper stateless"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformAddOperation","command"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformSubOperation","command"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformDivOperation","command"
+"CalculatorInstrumentationTest","commander","divZeroForOperandTwoShowsError","command"
+"CalculatorInstrumentationTest","commander","typeOperandsAndPerformMulOperation","command"
+"CalculatorInstrumentationTest","commander","performOperation","wrapper stateless"
+"CalculatorAddParameterizedTest","commander","CalculatorAddParameterizedTest","constructor"
+"CalculatorAddParameterizedTest","commander","setUp","set"
+"CalculatorAddParameterizedTest","commander","testAdd_TwoNumbers","command"
+"CalculatorAddParameterizedTest","commander","CalculatorAddParameterizedTest","constructor"
+"CalculatorAddParameterizedTest","commander","setUp","set"
+"CalculatorAddParameterizedTest","commander","testAdd_TwoNumbers","command"
+"CalculatorAddParameterizedTest","commander","CalculatorAddParameterizedTest","constructor"
+"CalculatorAddParameterizedTest","commander","setUp","set"
+"CalculatorAddParameterizedTest","commander","testAdd_TwoNumbers","command"
+"LocalService","data-class small-class","onBind","get set collaborator"
+"LocalService","data-class small-class","getRandomInt","property non-void-command"
+"LocalServiceTest","commander boundary small-class","testWithBoundService","command collaborator"
+"AccessibilityChecksTest","boundary degenerate small-class","accessibilityChecks","wrapper stateless"
+"ChangeTextBehaviorTest","commander boundary","changeText_sameActivity","wrapper"
+"ChangeTextBehaviorTest","commander boundary","changeText_newActivity","wrapper"
+"ChangeTextBehaviorTest","commander boundary","registerIdlingResource","set collaborator"
+"ChangeTextBehaviorTest","commander boundary","changeText_sameActivity","wrapper"
+"ChangeTextBehaviorTest","commander boundary","unregisterIdlingResource","wrapper"
+"ChangeTextBehaviorTest","commander boundary","startMainActivityFromHomeScreen","command collaborator"
+"ChangeTextBehaviorTest","commander boundary","checkPreconditions","wrapper"
+"ChangeTextBehaviorTest","commander boundary","testChangeText_sameActivity","command collaborator"
+"ChangeTextBehaviorTest","commander boundary","testChangeText_newActivity","command collaborator"
+"ChangeTextBehaviorTest","commander boundary","getLauncherPackageName","controller stateless"
+"ShowTextActivity","commander boundary small-class","onCreate","command collaborator"
+"ShowTextActivity","commander boundary small-class","onCreate","command collaborator"
+"OperationHintLegacyInstrumentationTest","commander","OperationHintLegacyInstrumentationTest","constructor"
+"OperationHintLegacyInstrumentationTest","commander","setUp","set"
+"OperationHintLegacyInstrumentationTest","commander","testPreconditions","wrapper"
+"OperationHintLegacyInstrumentationTest","commander","testEditText_OperandOneHint","command"
+"OperationHintLegacyInstrumentationTest","commander","testEditText_OperandTwoHint","command"
+"LongListActivity","commander small-class","onCreate","command collaborator"
+"LongListActivity","commander small-class","populateData","command"
+"DialerActivity","commander boundary","onCreate","set collaborator"
+"DialerActivity","commander boundary","onCall","command collaborator"
+"DialerActivity","commander boundary","onPickContact","wrapper"
+"DialerActivity","commander boundary","createCallIntentFromNumber","non-void-command factory collaborator"
+"DialerActivity","commander boundary","onActivityResult","command collaborator"
+"CustomAdapter","unclassified","CustomAdapter","constructor"
+"CustomAdapter","unclassified","onCreateViewHolder","factory controller stateless"
+"CustomAdapter","unclassified","onBindViewHolder","command"
+"CustomAdapter","unclassified","getItemCount","property non-void-command"
+"ChangeTextBehaviorLocalTest","boundary","intentsInit","wrapper stateless"
+"ChangeTextBehaviorLocalTest","boundary","intentsTeardown","wrapper stateless"
+"ChangeTextBehaviorLocalTest","boundary","changeText_sameActivity","wrapper"
+"ChangeTextBehaviorLocalTest","boundary","changeText_newActivity","wrapper"
+"MultiWindowTest","commander","setActivity","set"
+"MultiWindowTest","commander","autoCompleteTextView_twoSuggestions","command"
+"MultiWindowTest","commander","autoCompleteTextView_oneSuggestion","command"
+"MultiWindowTest","commander","autoCompleteTextView_clickAndCheck","command"
+"MultiWindowTest","commander","autoCompleteTextView_onDataClickAndCheck","command"
+"ImageViewerActivityTest","boundary degenerate","stubCameraIntent","command collaborator"
+"ImageViewerActivityTest","boundary degenerate","tearDown","wrapper stateless"
+"ImageViewerActivityTest","boundary degenerate","takePhoto_drawableIsApplied","wrapper stateless"
+"ImageViewerActivityTest","boundary degenerate","createImageCaptureActivityResultStub","factory controller stateless"
+"HintMatchersTest","commander boundary","initValidStrings","command"
+"HintMatchersTest","commander boundary","hint_isDisplayedInEditText","wrapper stateless"
+"HintMatchersTest","commander boundary","hint_endsWith","wrapper"
+"HintMatchersTest","commander boundary","editText_canBeTypedInto","wrapper"
+"HintMatchersTest","commander boundary","validation_resultIsOneOfTheValidStrings","wrapper"
+"HintMatchersTest","commander boundary","validation_resultHasCorrectEnding","wrapper"
+"HintMatchersTest","commander boundary","validation_resultIsIncorrect","wrapper"
+"ImageViewerActivity","commander boundary","onCreate","set collaborator"
+"ImageViewerActivity","commander boundary","dispatchTakePictureIntent","wrapper"
+"ImageViewerActivity","commander boundary","onOpenCamera","command collaborator"
+"ImageViewerActivity","commander boundary","onActivityResult","command collaborator"
+"LongListActivityTest","boundary","lastItem_NotDisplayed","wrapper"
+"LongListActivityTest","boundary","list_Scrolls","wrapper"
+"LongListActivityTest","boundary","row_Click","wrapper"
+"LongListActivityTest","boundary","toggle_Click","wrapper"
+"LongListActivityTest","boundary","toggle_ClickDoesntPropagate","wrapper"
+"ScreenshotJavaTest","commander","saveActivityBitmap","command"
+"ScreenshotJavaTest","commander","saveViewBitmap","command"
+"ScreenshotJavaTest","commander","saveDeviceScreenBitmap","command"
+"DefaultProcessActivity","commander boundary small-class","onCreate","set collaborator"
+"DefaultProcessActivity","commander boundary small-class","onStartActivityBtnClick","wrapper"
+"RecyclerViewSampleTest","boundary degenerate","itemWithText_doesNotExist","wrapper stateless"
+"RecyclerViewSampleTest","boundary degenerate","scrollToItemBelowFold_checkItsText","wrapper"
+"RecyclerViewSampleTest","boundary degenerate","itemInMiddleOfList_hasSpecialText","wrapper stateless"
+"DialerActivityTest","boundary","stubAllExternalIntents","wrapper stateless"
+"DialerActivityTest","boundary","typeNumber_ValidInput_InitiatesCall","wrapper"
+"DialerActivityTest","boundary","typeNumber_ValidInput_InitiatesCall_truth","wrapper"
+"DialerActivityTest","boundary","pickContactButton_click_SelectsPhoneNumber","wrapper"

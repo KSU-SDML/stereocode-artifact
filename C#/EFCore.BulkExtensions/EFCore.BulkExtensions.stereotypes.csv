@@ -1,232 +1,228 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"SpanSplitExtensions","entity boundary small-class","TokenSplitEnumerator","constructor",
-"SpanSplitExtensions","entity boundary small-class","MoveNext","predicate non-void-command collaborator",
-"TableInfo","commander boundary small-class","LoadData<T>","command collaborator",
-"SqlServerAdapter","degenerate","Insert<T>","wrapper stateless",
-"SqlServerAdapter","degenerate","InsertAsync<T>","wrapper stateless",
-"SqlServerAdapter","degenerate","Merge<T>","wrapper stateless",
-"SqlServerAdapter","degenerate","MergeAsync<T>","wrapper stateless",
-"SqlServerAdapter","degenerate","MergeAsync<T>","controller stateless",
-"SqlServerAdapter","degenerate","Read<T>","wrapper stateless",
-"SqlServerAdapter","degenerate","ReadAsync<T>","wrapper stateless",
-"SqlServerAdapter","degenerate","ReadAsync<T>","controller stateless",
-"SqlServerAdapter","degenerate","Truncate","controller stateless",
-"SqlServerAdapter","degenerate","TruncateAsync","controller stateless",
-"SqlServerAdapter","degenerate","FillOwnedType","void-accessor command collaborator",
-"SqlQueryBuilder","pure-controller degenerate","SelectFromOutputTable","controller stateless",
-"SqlQueryBuilder","pure-controller degenerate","CreateTableCopy","controller stateless",
-"SqlQueryBuilder","pure-controller degenerate","DropTable","incidental",
-"SqlDefaultDialect","degenerate small-class","ReloadSqlParameters","factory controller stateless",
-"SqlDefaultDialect","degenerate small-class","GetBinaryExpressionAddOperation","collaborator incidental",
-"SqlAdaptersMapping","boundary small-class","get","get set collaborator",
-"MySqlQueryBuilder","degenerate","DropTable","controller stateless",
-"MySqlQueryBuilder","degenerate","SelectFromOutputTable","controller stateless",
-"MySqlQueryBuilder","degenerate","RestructureForBatch","controller stateless",
-"MySqlQueryBuilder","degenerate","TruncateTable","controller stateless",
-"MySqlQueryBuilder","degenerate","CreateParameter","factory collaborator stateless",
-"MySqlQueryBuilder","degenerate","Dbtype","collaborator stateless",
-"MySqlQueryBuilder","degenerate","SetDbTypeParam","collaborator stateless",
-"SqlQueryBuilderSqliteTests","degenerate","MergeTableInsertOrUpdateWithoutOnConflictUpdateWhereSqlTest","command",
-"SqlQueryBuilderSqliteTests","degenerate","MergeTableInsertOrUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless",
-"SqlQueryBuilderSqliteTests","degenerate","GetTestTableInfo","factory controller stateless",
-"OwnedGraph","degenerate small-class","Test","controller stateless",
-"OwnedGraph","degenerate small-class","Dispose","wrapper stateless",
-"Issue547","boundary degenerate small-class","Test","wrapper stateless",
-"Issue547","boundary degenerate small-class","Dispose","wrapper stateless",
-"AddressCD","empty","AddressCD","constructor",
-"UserRole","empty","UserRole","constructor",
-"UserRole","empty","UserRole","constructor",
-"ExpressionNode","empty","ExpressionNode","copy-constructor",
-"FastProperty","commander boundary","FastProperty","constructor",
-"FastProperty","commander boundary","InitializeSet","set collaborator",
-"FastProperty","commander boundary","InitializeGet","command collaborator",
-"FastProperty","commander boundary","Set","wrapper",
-"SqlServerQueryBuilder","boundary degenerate","CreateParameter","collaborator stateless",
-"SqlServerQueryBuilder","boundary degenerate","Dbtype","collaborator stateless",
-"SqlServerQueryBuilder","boundary degenerate","RestructureForBatch","stateless",
-"SqlServerQueryBuilder","boundary degenerate","SetDbTypeParam","collaborator stateless",
-"EFCoreBulkTest","boundary degenerate","InsertEnumStringValue","wrapper stateless",
-"EFCoreBulkTest","boundary degenerate","InsertTestPostgreSql","controller stateless",
-"EFCoreBulkTest","boundary degenerate","InsertTestMySql","wrapper stateless",
-"EFCoreBulkTest","boundary degenerate","OperationsTest","command",
-"EFCoreBulkTest","boundary degenerate","SideEffectsTest","wrapper stateless",
-"EFCoreBulkTest","boundary degenerate","RunDelete","wrapper stateless",
-"MyCommand","boundary","MyCommand","constructor",
-"MyCommand","boundary","Cancel","command",
-"MyCommand","boundary","ExecuteNonQuery","property non-void-command",
-"MyCommand","boundary","ExecuteScalar","property non-void-command collaborator",
-"MyCommand","boundary","Prepare","command",
-"MyCommand","boundary","CreateDbParameter","property non-void-command collaborator",
-"MyCommand","boundary","ExecuteDbDataReader","property non-void-command collaborator",
-"MyCommand","boundary","set","non-void-command collaborator",
-"MyConnection","commander","MyConnection","constructor",
-"MyConnection","commander","ChangeDatabase","command",
-"MyConnection","commander","Open","command",
-"MyConnection","commander","Close","command",
-"MyConnection","commander","BeginDbTransaction","property non-void-command factory collaborator",
-"MyConnection","commander","CreateDbCommand","property non-void-command factory collaborator",
-"EFCoreBatchTestAsync","degenerate","BatchTestAsync","non-void-command collaborator",
-"EFCoreBatchTestAsync","degenerate","BatchUpdateAsync_correctly_specifies_AnsiString_type_on_the_sql_parameter","controller stateless",
-"EFCoreBatchTestAsync","degenerate","RunDeleteAllAsync","wrapper stateless",
-"SpDbContext","commander boundary small-class","SpDbContext","constructor",
-"SpDbContext","commander boundary small-class","OnModelCreating","command collaborator",
-"EFCoreBulkTestAsync","boundary degenerate","OperationsTestAsync","wrapper stateless",
-"EFCoreBulkTestAsync","boundary degenerate","SideEffectsTestAsync","wrapper stateless",
-"EFCoreBulkTestAsync","boundary degenerate","RunDeleteAsync","wrapper stateless",
-"EFCoreBatchTest","commander boundary degenerate","BatchConverterTest","wrapper stateless",
-"EFCoreBatchTest","commander boundary degenerate","BatchTest","command collaborator",
-"EFCoreBatchTest","commander boundary degenerate","RunDeleteAll","wrapper stateless",
-"ContextUtil","commander boundary small-class","set","non-void-command collaborator",
-"MyTransaction","commander small-class","MyTransaction","constructor",
-"MyTransaction","commander small-class","Commit","command",
-"MyTransaction","commander small-class","Rollback","command",
-"BatchUtilTests","boundary degenerate small-class","GetBatchSql_UpdateSqlite_ReturnsExpectedValues","wrapper stateless",
-"NestedOwnedTests","boundary degenerate small-class","NestedOwnedTest","wrapper stateless",
-"IncludeGraphTests","boundary small-class","BulkInsertOrUpdate_EntityWithNestedObjectGraph_SavesGraphToDatabase","wrapper",
-"IncludeGraphTests","boundary small-class","Dispose","wrapper stateless",
-"LocalDate","empty","LocalDate","constructor",
-"ShadowPropertyTests","boundary degenerate","BulkInsertOrUpdate_EntityWithShadowProperties_SavesToDatabase","wrapper stateless",
-"ShadowPropertyTests","boundary degenerate","BulkInsertOrUpdate_EntityWithShadowProperties_GlobalFunc_SavesToDatabase","wrapper stateless",
-"ShadowPropertyTests","boundary degenerate","Dispose","wrapper stateless",
-"SqlQueryBuilderPostgreSqlTests","boundary degenerate","MergeTableInsertOrUpdateWithoutOnConflictUpdateWhereSqlTest","command",
-"SqlQueryBuilderPostgreSqlTests","boundary degenerate","MergeTableInsertOrUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless",
-"SqlQueryBuilderPostgreSqlTests","boundary degenerate","MergeTableInsertOrUpdateWithInsertOnlyTest","command",
-"SqlQueryBuilderPostgreSqlTests","boundary degenerate","MergeTableUpdateOnlyTest","command",
-"SqlQueryBuilderPostgreSqlTests","boundary degenerate","GetTestTableInfo","factory controller stateless",
-"SqlQueryBuilderPostgreSqlTests","boundary degenerate","RestructureForBatchWithoutJoinToOtherTablesTest","wrapper stateless",
-"SqlQueryBuilderPostgreSqlTests","boundary degenerate","RestructureForBatchWithJoinToOtherTablesTest","wrapper stateless",
-"VcDbContext","commander boundary small-class","VcDbContext","constructor",
-"VcDbContext","commander boundary small-class","OnModelCreating","command collaborator",
-"EFCoreBulkTestSaveChanges","boundary degenerate small-class","SaveChangesTest","wrapper stateless",
-"EFCoreBulkTestSaveChanges","boundary degenerate small-class","SaveChangesTestAsync","wrapper stateless",
-"ValueConverterTests","degenerate","BulkInsertOrUpdate_EntityUsingBuiltInEnumToStringConverter_SavesToDatabase","controller stateless",
-"ValueConverterTests","degenerate","BatchUpdate_EntityUsingBuiltInEnumToStringConverter_UpdatesDatabaseWithEnumStringValue","controller stateless",
-"ValueConverterTests","degenerate","BatchDelete_UsingWhereExpressionWithValueConverter_Deletes","wrapper stateless",
-"ValueConverterTests","degenerate","Dispose","wrapper stateless",
-"MultiplePropertyListSetException","empty","MultiplePropertyListSetException","constructor",
-"MultiplePropertyListSetException","empty","MultiplePropertyListSetException","constructor",
-"BulkConfig","commander data-class","SetSynchronizeFilter<T>","set collaborator",
-"BulkConfig","commander data-class","ClearSynchronizeFilter","set",
-"BulkConfig","commander data-class","SetSynchronizeSoftDelete<T>","set collaborator",
-"BulkConfig","commander data-class","ClearSoftDelete","set",
-"EFCoreBulkTestAtypical","degenerate","CalcStatsTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","DefaultValuesTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","TemporalTableTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","RunDefaultPKInsertWithGraph","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","UpsertOrderTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","ComputedAndDefaultValuesTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","ParameterlessConstructorTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","ArrayPGTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","TimeStampPGTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","TimeStampTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","CompositeKeyTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","DiscriminatorShadowTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","ValueConversionTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","OwnedTypesTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","OwnedTypeSpatialDataTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","ShadowFKPropertiesTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","UpsertWithOutputSortTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","NoPrimaryKeyTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","EscapeBracketTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","NonEntityChildTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","GeometryColumnTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","GeographyAndGeometryArePersistedCorrectlyTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","HierarchyIdColumnTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","HierarchyIdIsPersistedCorrectlySimpleTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","HierarchyIdIsPersistedCorrectlyLargerHierarchyTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","DestinationAndSourceTableNameTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","TablePerTypeInsertTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","TableWithSpecialRowVersion","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","TimeStamp2PGTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","CustomPrecisionDateTimeTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","ByteArrayPKBulkReadTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","UpsertWithOnUpdateNonPK","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","PrivateKeyTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","ReplaceReadEntitiesTest","controller stateless",
-"EFCoreBulkTestAtypical","degenerate","JsonTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","XminTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","DataReaderTest","wrapper stateless",
-"EFCoreBulkTestAtypical","degenerate","ParallelsTestAsync","controller stateless",
-"OwnedGraphContext","commander boundary small-class","OwnedGraphContext","constructor",
-"OwnedGraphContext","commander boundary small-class","OnModelCreating","command collaborator",
-"MySqlAdapter","degenerate","Insert<T>","wrapper stateless",
-"MySqlAdapter","degenerate","InsertAsync<T>","wrapper stateless",
-"MySqlAdapter","degenerate","Merge<T>","wrapper stateless",
-"MySqlAdapter","degenerate","MergeAsync<T>","wrapper stateless",
-"MySqlAdapter","degenerate","MergeAsync<T>","controller stateless",
-"MySqlAdapter","degenerate","Read<T>","collaborator stateless",
-"MySqlAdapter","degenerate","ReadAsync<T>","collaborator stateless",
-"MySqlAdapter","degenerate","Truncate","controller stateless",
-"MySqlAdapter","degenerate","TruncateAsync","controller stateless",
-"Letter","empty","Letter","constructor",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertTest","command",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateTest","command",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateWithCompareTest","command",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateWithCompareAndOnConflictUpdateWhereSqlTest","wrapper stateless",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateNoUpdateTest","command",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateNoUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableUpdateTest","command",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless",
-"SqlQueryBuilderUnitTests","boundary degenerate","SelectJoinTableReadTest","command",
-"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableDeleteDeleteTest","command",
-"SqlQueryBuilderUnitTests","boundary degenerate","GetTestTableInfo","factory controller stateless",
-"SqlQueryBuilderUnitTests","boundary degenerate","GetTestTableWithCompareInfo","factory controller stateless",
-"SqlQueryBuilderUnitTests","boundary degenerate","GetTestTableWithNoUpdateInfo","factory controller stateless",
-"SqlQueryBuilderUnitTests","boundary degenerate","DelegateDecompiler_DecompileAsync_WorksAsync","wrapper stateless",
-"Issue547DbContext","commander boundary small-class","Issue547DbContext","constructor",
-"Issue547DbContext","commander boundary small-class","OnModelCreating","command collaborator",
-"SqliteDialect","degenerate","ReloadSqlParameters","factory controller stateless",
-"SqliteDialect","degenerate","GetBinaryExpressionAddOperation","wrapper stateless",
-"SqliteDialect","degenerate","GetBatchSqlExtractTableAliasFromQuery","factory wrapper stateless",
-"SqliteAdapter","boundary degenerate","Insert<T>","wrapper stateless",
-"SqliteAdapter","boundary degenerate","InsertAsync<T>","wrapper stateless",
-"SqliteAdapter","boundary degenerate","Merge<T>","wrapper stateless",
-"SqliteAdapter","boundary degenerate","MergeAsync<T>","wrapper stateless",
-"SqliteAdapter","boundary degenerate","Read<T>","wrapper stateless",
-"SqliteAdapter","boundary degenerate","ReadAsync<T>","wrapper stateless",
-"SqliteAdapter","boundary degenerate","Truncate","controller stateless",
-"SqliteAdapter","boundary degenerate","TruncateAsync","controller stateless",
-"InvalidBulkConfigException","empty","InvalidBulkConfigException","constructor",
-"InvalidBulkConfigException","empty","InvalidBulkConfigException","constructor",
-"InvalidBulkConfigException","empty","InvalidBulkConfigException","constructor",
-"Info","data-provider data-class","Info","constructor",
-"Info","data-provider data-class","GetLogData","get",
-"Info","data-provider data-class","GetDateCreated","get collaborator",
-"Info","data-provider data-class","get","get",
-"Info","data-provider data-class","set","set",
-"TimeRecord","empty","TimeRecord","constructor",
-"ColumnMappingExceptionMessage","empty","ColumnMappingExceptionMessage","constructor",
-"BatchUpdateCreateBodyData","boundary small-class","BatchUpdateCreateBodyData","constructor",
-"BatchUpdateCreateBodyData","boundary small-class","GetTableInfoForType","get set collaborator",
-"TestDbCommandInterceptor","entity boundary","NonQueryExecuted","property non-void-command",
-"TestDbCommandInterceptor","entity boundary","NonQueryExecuting","property non-void-command collaborator",
-"TestDbCommandInterceptor","entity boundary","ReaderExecuted","property non-void-command collaborator",
-"TestDbCommandInterceptor","entity boundary","ReaderExecuting","property non-void-command collaborator",
-"TestDbCommandInterceptor","entity boundary","ScalarExecuted","property non-void-command collaborator",
-"TestDbCommandInterceptor","entity boundary","ScalarExecuting","property non-void-command collaborator",
-"EFCoreBulkUnderlyingTest","commander small-class","OperationsTest","command",
-"EFCoreBulkUnderlyingTest","commander small-class","RunDelete","wrapper stateless",
-"GraphDbContext","commander boundary small-class","GraphDbContext","constructor",
-"GraphDbContext","commander boundary small-class","OnModelCreating","command collaborator",
-"PostgreSqlAdapter","degenerate","Insert<T>","wrapper stateless",
-"PostgreSqlAdapter","degenerate","InsertAsync<T>","wrapper stateless",
-"PostgreSqlAdapter","degenerate","Merge<T>","wrapper stateless",
-"PostgreSqlAdapter","degenerate","MergeAsync<T>","wrapper stateless",
-"PostgreSqlAdapter","degenerate","MergeAsync<T>","controller stateless",
-"PostgreSqlAdapter","degenerate","Truncate","controller stateless",
-"PostgreSqlAdapter","degenerate","TruncateAsync","controller stateless",
-"PostgreSqlAdapter","degenerate","ReconfigureTableInfo","controller stateless",
-"TestContext","pure-controller small-class","TestContext","constructor",
-"TestContext","pure-controller small-class","OnConfiguring","empty",
-"TestContext","pure-controller small-class","OnModelCreating","controller",
-"Item","empty","Item","constructor",
-"Item","empty","Item","copy-constructor",
-"SqliteQueryBuilder","boundary degenerate","CreateParameter","collaborator stateless",
-"SqliteQueryBuilder","boundary degenerate","Dbtype","collaborator stateless",
-"SqliteQueryBuilder","boundary degenerate","RestructureForBatch","stateless",
-"SqliteQueryBuilder","boundary degenerate","SetDbTypeParam","collaborator stateless",
-"BulkMethodEntries","empty","BulkMethodEntries","constructor",
-"DbNode","boundary data-class small-class","DbNode","constructor",
-"DbNode","boundary data-class small-class","AddEntry","void-accessor set collaborator",
-"ISqlOperationsAdapter","boundary degenerate small-class","ReconfigureTableInfo","collaborator incidental",
+"TableInfo","commander boundary small-class","LoadData<T>","command collaborator"
+"SqliteQueryBuilder","boundary degenerate","CreateParameter","collaborator stateless"
+"SqliteQueryBuilder","boundary degenerate","Dbtype","collaborator stateless"
+"SqliteQueryBuilder","boundary degenerate","RestructureForBatch","stateless"
+"SqliteQueryBuilder","boundary degenerate","SetDbTypeParam","collaborator stateless"
+"SqlServerQueryBuilder","boundary degenerate","CreateParameter","collaborator stateless"
+"SqlServerQueryBuilder","boundary degenerate","Dbtype","collaborator stateless"
+"SqlServerQueryBuilder","boundary degenerate","RestructureForBatch","stateless"
+"SqlServerQueryBuilder","boundary degenerate","SetDbTypeParam","collaborator stateless"
+"Letter","empty","Letter","constructor"
+"SqlQueryBuilderSqliteTests","degenerate","MergeTableInsertOrUpdateWithoutOnConflictUpdateWhereSqlTest","command"
+"SqlQueryBuilderSqliteTests","degenerate","MergeTableInsertOrUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless"
+"SqlQueryBuilderSqliteTests","degenerate","GetTestTableInfo","factory controller stateless"
+"OwnedGraph","degenerate small-class","Test","controller stateless"
+"OwnedGraph","degenerate small-class","Dispose","wrapper stateless"
+"Issue547","boundary degenerate small-class","Test","wrapper stateless"
+"Issue547","boundary degenerate small-class","Dispose","wrapper stateless"
+"AddressCD","empty","AddressCD","constructor"
+"UserRole","empty","UserRole","constructor"
+"UserRole","empty","UserRole","constructor"
+"ExpressionNode","empty","ExpressionNode","copy-constructor"
+"FastProperty","commander boundary","FastProperty","constructor"
+"FastProperty","commander boundary","InitializeSet","set collaborator"
+"FastProperty","commander boundary","InitializeGet","command collaborator"
+"FastProperty","commander boundary","Set","wrapper"
+"EFCoreBulkTest","boundary degenerate","InsertEnumStringValue","wrapper stateless"
+"EFCoreBulkTest","boundary degenerate","InsertTestPostgreSql","controller stateless"
+"EFCoreBulkTest","boundary degenerate","InsertTestMySql","wrapper stateless"
+"EFCoreBulkTest","boundary degenerate","OperationsTest","command"
+"EFCoreBulkTest","boundary degenerate","SideEffectsTest","wrapper stateless"
+"EFCoreBulkTest","boundary degenerate","RunDelete","wrapper stateless"
+"MyCommand","boundary","MyCommand","constructor"
+"MyCommand","boundary","Cancel","command"
+"MyCommand","boundary","ExecuteNonQuery","property non-void-command"
+"MyCommand","boundary","ExecuteScalar","property non-void-command collaborator"
+"MyCommand","boundary","Prepare","command"
+"MyCommand","boundary","CreateDbParameter","property non-void-command collaborator"
+"MyCommand","boundary","ExecuteDbDataReader","property non-void-command collaborator"
+"MyCommand","boundary","set","non-void-command collaborator"
+"MyConnection","commander","MyConnection","constructor"
+"MyConnection","commander","ChangeDatabase","command"
+"MyConnection","commander","Open","command"
+"MyConnection","commander","Close","command"
+"MyConnection","commander","BeginDbTransaction","property non-void-command factory collaborator"
+"MyConnection","commander","CreateDbCommand","property non-void-command factory collaborator"
+"EFCoreBatchTestAsync","degenerate","BatchTestAsync","non-void-command collaborator"
+"EFCoreBatchTestAsync","degenerate","BatchUpdateAsync_correctly_specifies_AnsiString_type_on_the_sql_parameter","controller stateless"
+"EFCoreBatchTestAsync","degenerate","RunDeleteAllAsync","wrapper stateless"
+"SpDbContext","commander boundary small-class","SpDbContext","constructor"
+"SpDbContext","commander boundary small-class","OnModelCreating","command collaborator"
+"EFCoreBulkTestAsync","boundary degenerate","OperationsTestAsync","wrapper stateless"
+"EFCoreBulkTestAsync","boundary degenerate","SideEffectsTestAsync","wrapper stateless"
+"EFCoreBulkTestAsync","boundary degenerate","RunDeleteAsync","wrapper stateless"
+"EFCoreBatchTest","commander boundary degenerate","BatchConverterTest","wrapper stateless"
+"EFCoreBatchTest","commander boundary degenerate","BatchTest","command collaborator"
+"EFCoreBatchTest","commander boundary degenerate","RunDeleteAll","wrapper stateless"
+"MyTransaction","commander small-class","MyTransaction","constructor"
+"MyTransaction","commander small-class","Commit","command"
+"MyTransaction","commander small-class","Rollback","command"
+"BatchUtilTests","boundary degenerate small-class","GetBatchSql_UpdateSqlite_ReturnsExpectedValues","wrapper stateless"
+"IncludeGraphTests","boundary small-class","BulkInsertOrUpdate_EntityWithNestedObjectGraph_SavesGraphToDatabase","wrapper"
+"IncludeGraphTests","boundary small-class","Dispose","wrapper stateless"
+"NestedOwnedTests","boundary degenerate small-class","NestedOwnedTest","wrapper stateless"
+"SqlQueryBuilder","pure-controller degenerate","SelectFromOutputTable","controller stateless"
+"SqlQueryBuilder","pure-controller degenerate","CreateTableCopy","controller stateless"
+"SqlQueryBuilder","pure-controller degenerate","DropTable","incidental"
+"SqlServerAdapter","degenerate","Insert<T>","wrapper stateless"
+"SqlServerAdapter","degenerate","InsertAsync<T>","wrapper stateless"
+"SqlServerAdapter","degenerate","Merge<T>","wrapper stateless"
+"SqlServerAdapter","degenerate","MergeAsync<T>","wrapper stateless"
+"SqlServerAdapter","degenerate","MergeAsync<T>","controller stateless"
+"SqlServerAdapter","degenerate","Read<T>","wrapper stateless"
+"SqlServerAdapter","degenerate","ReadAsync<T>","wrapper stateless"
+"SqlServerAdapter","degenerate","ReadAsync<T>","controller stateless"
+"SqlServerAdapter","degenerate","Truncate","controller stateless"
+"SqlServerAdapter","degenerate","TruncateAsync","controller stateless"
+"SqlServerAdapter","degenerate","FillOwnedType","command collaborator"
+"LocalDate","empty","LocalDate","constructor"
+"MySqlAdapter","degenerate","Insert<T>","wrapper stateless"
+"MySqlAdapter","degenerate","InsertAsync<T>","wrapper stateless"
+"MySqlAdapter","degenerate","Merge<T>","wrapper stateless"
+"MySqlAdapter","degenerate","MergeAsync<T>","wrapper stateless"
+"MySqlAdapter","degenerate","MergeAsync<T>","controller stateless"
+"MySqlAdapter","degenerate","Read<T>","collaborator stateless"
+"MySqlAdapter","degenerate","ReadAsync<T>","collaborator stateless"
+"MySqlAdapter","degenerate","Truncate","controller stateless"
+"MySqlAdapter","degenerate","TruncateAsync","controller stateless"
+"ShadowPropertyTests","boundary degenerate","BulkInsertOrUpdate_EntityWithShadowProperties_SavesToDatabase","wrapper stateless"
+"ShadowPropertyTests","boundary degenerate","BulkInsertOrUpdate_EntityWithShadowProperties_GlobalFunc_SavesToDatabase","wrapper stateless"
+"ShadowPropertyTests","boundary degenerate","Dispose","wrapper stateless"
+"SqlDefaultDialect","degenerate small-class","ReloadSqlParameters","factory controller stateless"
+"SqlDefaultDialect","degenerate small-class","GetBinaryExpressionAddOperation","collaborator incidental"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertTest","command"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateTest","command"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateWithCompareTest","command"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateWithCompareAndOnConflictUpdateWhereSqlTest","wrapper stateless"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateNoUpdateTest","command"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableInsertOrUpdateNoUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableUpdateTest","command"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless"
+"SqlQueryBuilderUnitTests","boundary degenerate","SelectJoinTableReadTest","command"
+"SqlQueryBuilderUnitTests","boundary degenerate","MergeTableDeleteDeleteTest","command"
+"SqlQueryBuilderUnitTests","boundary degenerate","GetTestTableInfo","factory controller stateless"
+"SqlQueryBuilderUnitTests","boundary degenerate","GetTestTableWithCompareInfo","factory controller stateless"
+"SqlQueryBuilderUnitTests","boundary degenerate","GetTestTableWithNoUpdateInfo","factory controller stateless"
+"SqlQueryBuilderUnitTests","boundary degenerate","DelegateDecompiler_DecompileAsync_WorksAsync","wrapper stateless"
+"Issue547DbContext","commander boundary small-class","Issue547DbContext","constructor"
+"Issue547DbContext","commander boundary small-class","OnModelCreating","command collaborator"
+"SqlQueryBuilderPostgreSqlTests","boundary degenerate","MergeTableInsertOrUpdateWithoutOnConflictUpdateWhereSqlTest","command"
+"SqlQueryBuilderPostgreSqlTests","boundary degenerate","MergeTableInsertOrUpdateWithOnConflictUpdateWhereSqlTest","wrapper stateless"
+"SqlQueryBuilderPostgreSqlTests","boundary degenerate","MergeTableInsertOrUpdateWithInsertOnlyTest","command"
+"SqlQueryBuilderPostgreSqlTests","boundary degenerate","MergeTableUpdateOnlyTest","command"
+"SqlQueryBuilderPostgreSqlTests","boundary degenerate","GetTestTableInfo","factory controller stateless"
+"SqlQueryBuilderPostgreSqlTests","boundary degenerate","RestructureForBatchWithoutJoinToOtherTablesTest","wrapper stateless"
+"SqlQueryBuilderPostgreSqlTests","boundary degenerate","RestructureForBatchWithJoinToOtherTablesTest","wrapper stateless"
+"VcDbContext","commander boundary small-class","VcDbContext","constructor"
+"VcDbContext","commander boundary small-class","OnModelCreating","command collaborator"
+"EFCoreBulkTestSaveChanges","boundary degenerate small-class","SaveChangesTest","wrapper stateless"
+"EFCoreBulkTestSaveChanges","boundary degenerate small-class","SaveChangesTestAsync","wrapper stateless"
+"ValueConverterTests","degenerate","BulkInsertOrUpdate_EntityUsingBuiltInEnumToStringConverter_SavesToDatabase","controller stateless"
+"ValueConverterTests","degenerate","BatchUpdate_EntityUsingBuiltInEnumToStringConverter_UpdatesDatabaseWithEnumStringValue","controller stateless"
+"ValueConverterTests","degenerate","BatchDelete_UsingWhereExpressionWithValueConverter_Deletes","wrapper stateless"
+"ValueConverterTests","degenerate","Dispose","wrapper stateless"
+"MultiplePropertyListSetException","empty","MultiplePropertyListSetException","constructor"
+"MultiplePropertyListSetException","empty","MultiplePropertyListSetException","constructor"
+"BulkConfig","commander data-class","SetSynchronizeFilter<T>","set collaborator"
+"BulkConfig","commander data-class","ClearSynchronizeFilter","set"
+"BulkConfig","commander data-class","SetSynchronizeSoftDelete<T>","set collaborator"
+"BulkConfig","commander data-class","ClearSoftDelete","set"
+"EFCoreBulkTestAtypical","degenerate","CalcStatsTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","DefaultValuesTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","TemporalTableTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","RunDefaultPKInsertWithGraph","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","UpsertOrderTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","ComputedAndDefaultValuesTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","ParameterlessConstructorTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","ArrayPGTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","TimeStampPGTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","TimeStampTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","CompositeKeyTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","DiscriminatorShadowTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","ValueConversionTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","OwnedTypesTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","OwnedTypeSpatialDataTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","ShadowFKPropertiesTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","UpsertWithOutputSortTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","NoPrimaryKeyTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","EscapeBracketTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","NonEntityChildTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","GeometryColumnTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","GeographyAndGeometryArePersistedCorrectlyTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","HierarchyIdColumnTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","HierarchyIdIsPersistedCorrectlySimpleTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","HierarchyIdIsPersistedCorrectlyLargerHierarchyTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","DestinationAndSourceTableNameTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","TablePerTypeInsertTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","TableWithSpecialRowVersion","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","TimeStamp2PGTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","CustomPrecisionDateTimeTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","ByteArrayPKBulkReadTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","UpsertWithOnUpdateNonPK","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","PrivateKeyTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","ReplaceReadEntitiesTest","controller stateless"
+"EFCoreBulkTestAtypical","degenerate","JsonTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","XminTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","DataReaderTest","wrapper stateless"
+"EFCoreBulkTestAtypical","degenerate","ParallelsTestAsync","controller stateless"
+"OwnedGraphContext","commander boundary small-class","OwnedGraphContext","constructor"
+"OwnedGraphContext","commander boundary small-class","OnModelCreating","command collaborator"
+"SqliteDialect","degenerate","ReloadSqlParameters","factory controller stateless"
+"SqliteDialect","degenerate","GetBinaryExpressionAddOperation","wrapper stateless"
+"SqliteDialect","degenerate","GetBatchSqlExtractTableAliasFromQuery","factory wrapper stateless"
+"SqliteAdapter","boundary degenerate","Insert<T>","wrapper stateless"
+"SqliteAdapter","boundary degenerate","InsertAsync<T>","wrapper stateless"
+"SqliteAdapter","boundary degenerate","Merge<T>","wrapper stateless"
+"SqliteAdapter","boundary degenerate","MergeAsync<T>","wrapper stateless"
+"SqliteAdapter","boundary degenerate","Read<T>","wrapper stateless"
+"SqliteAdapter","boundary degenerate","ReadAsync<T>","wrapper stateless"
+"SqliteAdapter","boundary degenerate","Truncate","controller stateless"
+"SqliteAdapter","boundary degenerate","TruncateAsync","controller stateless"
+"InvalidBulkConfigException","empty","InvalidBulkConfigException","constructor"
+"InvalidBulkConfigException","empty","InvalidBulkConfigException","constructor"
+"InvalidBulkConfigException","empty","InvalidBulkConfigException","constructor"
+"Info","data-provider","Info","constructor"
+"Info","data-provider","GetLogData","get"
+"Info","data-provider","GetDateCreated","property collaborator"
+"Info","data-provider","get","get"
+"Info","data-provider","set","set"
+"TimeRecord","empty","TimeRecord","constructor"
+"ColumnMappingExceptionMessage","empty","ColumnMappingExceptionMessage","constructor"
+"BatchUpdateCreateBodyData","boundary small-class","BatchUpdateCreateBodyData","constructor"
+"BatchUpdateCreateBodyData","boundary small-class","GetTableInfoForType","get set collaborator"
+"TestDbCommandInterceptor","entity boundary","NonQueryExecuted","property non-void-command"
+"TestDbCommandInterceptor","entity boundary","NonQueryExecuting","property non-void-command collaborator"
+"TestDbCommandInterceptor","entity boundary","ReaderExecuted","property non-void-command collaborator"
+"TestDbCommandInterceptor","entity boundary","ReaderExecuting","property non-void-command collaborator"
+"TestDbCommandInterceptor","entity boundary","ScalarExecuted","property non-void-command collaborator"
+"TestDbCommandInterceptor","entity boundary","ScalarExecuting","property non-void-command collaborator"
+"EFCoreBulkUnderlyingTest","commander small-class","OperationsTest","command"
+"EFCoreBulkUnderlyingTest","commander small-class","RunDelete","wrapper stateless"
+"GraphDbContext","commander boundary small-class","GraphDbContext","constructor"
+"GraphDbContext","commander boundary small-class","OnModelCreating","command collaborator"
+"PostgreSqlAdapter","degenerate","Insert<T>","wrapper stateless"
+"PostgreSqlAdapter","degenerate","InsertAsync<T>","wrapper stateless"
+"PostgreSqlAdapter","degenerate","Merge<T>","wrapper stateless"
+"PostgreSqlAdapter","degenerate","MergeAsync<T>","wrapper stateless"
+"PostgreSqlAdapter","degenerate","MergeAsync<T>","controller stateless"
+"PostgreSqlAdapter","degenerate","Truncate","controller stateless"
+"PostgreSqlAdapter","degenerate","TruncateAsync","controller stateless"
+"PostgreSqlAdapter","degenerate","ReconfigureTableInfo","controller stateless"
+"TestContext","pure-controller small-class","TestContext","constructor"
+"TestContext","pure-controller small-class","OnConfiguring","empty"
+"TestContext","pure-controller small-class","OnModelCreating","controller"
+"Item","empty","Item","constructor"
+"Item","empty","Item","copy-constructor"
+"BulkMethodEntries","empty","BulkMethodEntries","constructor"
+"DbNode","commander boundary data-class small-class","DbNode","constructor"
+"DbNode","commander boundary data-class small-class","AddEntry","set collaborator"
+"ISqlOperationsAdapter","boundary degenerate small-class","ReconfigureTableInfo","collaborator incidental"
+"MySqlQueryBuilder","degenerate","DropTable","controller stateless"
+"MySqlQueryBuilder","degenerate","SelectFromOutputTable","controller stateless"
+"MySqlQueryBuilder","degenerate","RestructureForBatch","controller stateless"
+"MySqlQueryBuilder","degenerate","TruncateTable","controller stateless"
+"MySqlQueryBuilder","degenerate","CreateParameter","factory collaborator stateless"
+"MySqlQueryBuilder","degenerate","Dbtype","collaborator stateless"
+"MySqlQueryBuilder","degenerate","SetDbTypeParam","collaborator stateless"

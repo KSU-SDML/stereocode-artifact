@@ -1,171 +1,159 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"PlacementMarginConverter","degenerate small-class","Convert","factory collaborator stateless",
-"PlacementMarginConverter","degenerate small-class","ConvertBack","collaborator stateless",
-"NotifyPropertyChanged","commander small-class","OnPropertyChanged","wrapper",
-"NotifyPropertyChanged","commander small-class","OnPropertyChanged","command",
-"KeyPress","unclassified","KeyPress","constructor",
-"KeyPress","unclassified","GetTextParts","property wrapper",
-"KeyPress","unclassified","Equals","predicate non-void-command collaborator",
-"KeyPress","unclassified","GetHashCode","property non-void-command",
-"KeyPress","unclassified","Equals","predicate non-void-command",
-"KeyPress","unclassified","get","predicate",
-"MessageFacts","unclassified","message_does_not_group_different_letters","controller",
-"MessageFacts","unclassified","message_does_not_group_letter_and_backspace","controller",
-"MessageFacts","unclassified","message_groups_multiple_backspace_key_presses_together","controller",
-"MessageFacts","unclassified","message_does_not_group_different_arrow_key_presses_together","controller",
-"MessageFacts","unclassified","message_groups_two_equal_arrow_key_presses_together","controller",
-"MessageFacts","unclassified","message_groups_three_equal_arrow_key_presses_together","wrapper",
-"MessageFacts","unclassified","multiple_shortcuts_have_comma_inserted_between_input","controller",
-"MessageFacts","unclassified","multiple_shortcuts_duplicate_shortcuts_are_grouped","controller",
-"MainWindow","commander boundary","MainWindow","constructor",
-"MainWindow","commander boundary","StartCapture","set collaborator",
-"MainWindow","commander boundary","StopCapture","set collaborator",
-"MainWindow","commander boundary","GenerateCode","command collaborator",
-"MainWindow","commander boundary","OnClosed","command collaborator",
-"KeyProviderTests","controller","KeyProviderTests","constructor",
-"KeyProviderTests","controller","ctrlshiftl_is_processed_correctly","controller",
-"KeyProviderTests","controller","shift_is_not_outputted_when_is_being_used_as_a_modifier_key","controller",
-"KeyProviderTests","controller","key_without_shift_is_lowercase","controller",
-"KeyProviderTests","controller","verify_number","controller",
-"KeyProviderTests","controller","verify_shift_number","controller",
-"KeyProviderTests","controller","keyprovider_detects_windows_key_presses","controller",
-"KeyProviderTests","controller","output_with_matching_filter","non-void-command collaborator",
-"KeyProviderTests","controller","no_output_with_no_match_filter","non-void-command collaborator",
-"ProcessInfo","empty","ProcessInfo","constructor",
-"ProcessInfo","empty","ProcessInfo","constructor",
-"Message","data-provider","Message","constructor",
-"Message","data-provider","Message","constructor",
-"Message","data-provider","Message","constructor",
-"Message","data-provider","Message","copy-constructor",
-"Message","data-provider","Message","copy-constructor",
-"Message","data-provider","Merge","property factory",
-"Message","data-provider","FadeOut","property factory",
-"Message","data-provider","ToString","wrapper stateless",
-"Message","data-provider","Equals","predicate non-void-command",
-"Message","data-provider","Equals","predicate non-void-command collaborator",
-"Message","data-provider","GetHashCode","property non-void-command collaborator",
-"Message","data-provider","get","get",
-"Message","data-provider","get","get collaborator",
-"Message","data-provider","get","get",
-"Message","data-provider","get","get",
-"Message","data-provider","get","get",
-"Message","data-provider","get","get",
-"Message","data-provider","get","get",
-"Message","data-provider","get","get collaborator",
-"Message","data-provider","get","get",
-"Message","data-provider","get","get",
-"KeyShortcut","controller small-class","KeyShortcut","constructor",
-"KeyShortcut","controller small-class","StartsWith","predicate controller",
-"KeyShortcut","controller small-class","IsMatch","predicate controller",
-"DesktopLockEventService","boundary degenerate small-class","GetSessionSwitchStream","wrapper stateless",
-"PasswordModeService","entity small-class","PasswordModeService","constructor",
-"PasswordModeService","entity small-class","CheckPasswordMode","get predicate non-void-command collaborator",
-"PasswordModeService","entity small-class","get","get set factory collaborator",
-"PositionOnMonitorSelector","boundary degenerate small-class","PositionOnMonitorSelector","constructor",
-"PositionOnMonitorSelector","boundary degenerate small-class","RadioChecked","collaborator incidental",
-"PreferencesField","data-provider boundary","PreferencesField","constructor",
-"PreferencesField","data-provider boundary","get","property wrapper",
-"PreferencesField","data-provider boundary","set","wrapper",
-"PreferencesField","data-provider boundary","get","property wrapper",
-"PreferencesField","data-provider boundary","set","wrapper",
-"FixedQueue<T>","entity boundary","FixedQueue","constructor",
-"FixedQueue<T>","entity boundary","Enqueue","command collaborator",
-"FixedQueue<T>","entity boundary","Clear","command",
-"FixedQueue<T>","entity boundary","GetEnumerator","property non-void-command collaborator",
-"FixedQueue<T>","entity boundary","IEnumerable.GetEnumerator","property non-void-command collaborator",
-"ShortcutCollection","entity boundary small-class","ShortcutCollection","constructor",
-"ShortcutCollection","entity boundary small-class","GetShortcutsMatching","property non-void-command collaborator",
-"InterceptKeys","data-provider boundary data-class small-class","InterceptKeys","constructor",
-"InterceptKeys","data-provider boundary data-class small-class","GetKeyStream","get collaborator",
-"PopupSettings","commander","OnLeftChanged","wrapper",
-"PopupSettings","commander","get","incidental",
-"PopupSettings","commander","set","non-void-command",
-"KeyShowView","commander boundary degenerate","KeyShowView","copy-constructor",
-"KeyShowView","commander boundary degenerate","OnSourceInitialized","command collaborator",
-"KeyShowView","commander boundary degenerate","WindowLoaded","empty",
-"KeyShowView","commander boundary degenerate","SettingsLeftChanged","collaborator incidental",
-"KeysController","commander small-class","KeysController","constructor",
-"KeysController","commander small-class","Start","command collaborator",
-"KeysController","commander small-class","Dispose","command",
-"KeysControllerFacts","boundary","KeysControllerFacts","constructor",
-"KeysControllerFacts","boundary","CreateKeysController","property non-void-command factory collaborator",
-"KeysControllerFacts","boundary","MessagesAreAddedIntoKeysColletion","command collaborator",
-"KeysControllerFacts","boundary","MessagesAreFlaggedAsDeletingAfter5Seconds","command collaborator",
-"KeysControllerFacts","boundary","MessagesIsRemovedAfter6Seconds","command collaborator",
-"KeysControllerFacts","boundary","MessageTimeoutIsStartedAgainIfMessageIsUpdated","command collaborator",
-"KeysControllerFacts","boundary","MultiMerge","command collaborator",
-"KeysControllerFacts","boundary","SingleMessageAt100Ticks","property non-void-command collaborator",
-"KeysControllerFacts","boundary","GetDefaultFadeDelay","controller stateless",
-"KeysControllerFacts","boundary","get","factory collaborator stateless",
-"KeysControllerFacts","boundary","get","factory collaborator stateless",
-"ShortcutAccumulator","entity boundary","ShortcutAccumulator","constructor",
-"ShortcutAccumulator","entity boundary","ProcessKey","get property non-void-command factory collaborator",
-"ShortcutAccumulator","entity boundary","GetMessages","get collaborator",
-"ShortcutAccumulator","entity boundary","Add","command collaborator",
-"ShortcutAccumulator","entity boundary","EvaluateShortcuts","command collaborator",
-"ShortcutAccumulator","entity boundary","BeginShortcut","command collaborator",
-"ShortcutAccumulator","entity boundary","ShortcutCompleted","command collaborator",
-"ShortcutAccumulator","entity boundary","NoMatchingShortcut","command",
-"ShortcutAccumulator","entity boundary","Complete","command collaborator",
-"ShortcutAccumulator","entity boundary","get","get collaborator",
-"SpecificationFor<T>","empty","SpecificationFor","constructor",
-"InterceptKeyEventArgs","data-provider small-class","InterceptKeyEventArgs","constructor",
-"InterceptKeyEventArgs","data-provider small-class","IsLetter","predicate",
-"MessageProvider","entity boundary small-class","MessageProvider","constructor",
-"MessageProvider","entity boundary small-class","GetMessageStream","property non-void-command collaborator",
-"ShortcutProvider","entity boundary small-class","ShortcutProvider","constructor",
-"ShortcutProvider","entity boundary small-class","GetShortcutsStartingWith","property non-void-command collaborator",
-"KeyProvider","entity boundary","KeyProvider","constructor",
-"KeyProvider","entity boundary","ShouldFilterProcess","predicate set collaborator",
-"KeyProvider","entity boundary","GetKeyStream","property non-void-command factory collaborator",
-"KeyProvider","entity boundary","DetectWindowsKey","property set collaborator",
-"KeyProvider","entity boundary","IsModifierKeyPress","predicate non-void-command collaborator",
-"KeyProvider","entity boundary","ToCarnacKeyPress","property non-void-command factory collaborator",
-"KeyPressDefinition","unclassified","KeyPressDefinition","constructor",
-"KeyPressDefinition","unclassified","Equals","predicate controller",
-"KeyPressDefinition","unclassified","Equals","predicate non-void-command collaborator",
-"KeyPressDefinition","unclassified","GetHashCode","property non-void-command",
-"MessageProviderFacts","commander boundary","MessageProviderFacts","constructor",
-"MessageProviderFacts","commander boundary","CreateMessageProvider","property factory controller",
-"MessageProviderFacts","commander boundary","key_with_modifiers_raises_a_new_message","non-void-command collaborator",
-"MessageProviderFacts","commander boundary","recognises_shortcuts","non-void-command collaborator",
-"MessageProviderFacts","commander boundary","does_not_show_key_press_on_partial_match","non-void-command collaborator",
-"MessageProviderFacts","commander boundary","produces_two_messages_when_shortcut_is_broken","non-void-command collaborator",
-"MessageProviderFacts","commander boundary","does_show_shortcut_name_on_full_match","non-void-command collaborator",
-"MessageProviderFacts","commander boundary","keeps_order_of_streams","non-void-command collaborator",
-"App","unclassified","App","constructor",
-"App","unclassified","OnStartup","command collaborator",
-"App","unclassified","OnExit","command collaborator",
-"App","unclassified","TrayIconOnOpenPreferences","controller",
-"KeyPlayer","entity boundary small-class","GetKeyStream","property non-void-command collaborator",
-"CarnacTrayIcon","small-class","CarnacTrayIcon","constructor",
-"CarnacTrayIcon","small-class","NotifyIconClick","controller stateless",
-"CarnacTrayIcon","small-class","Dispose","command",
-"ConcurrencyService","empty","ConcurrencyService","constructor",
-"Resources","boundary","Resources","constructor",
-"Resources","boundary","get","get set collaborator",
-"Resources","boundary","get","get collaborator",
-"Resources","boundary","set","set collaborator",
-"Resources","boundary","get","property wrapper",
-"Resources","boundary","Resources","constructor",
-"Resources","boundary","get","get set collaborator",
-"Resources","boundary","get","get collaborator",
-"Resources","boundary","set","set collaborator",
-"Settings","data-provider data-class small-class","get","get",
-"Settings","data-provider data-class small-class","get","get",
-"PreferencesView","empty","PreferencesView","copy-constructor",
-"AvailableColor","empty","AvailableColor","constructor",
-"DelegateCommand","boundary degenerate","DelegateCommand","constructor",
-"DelegateCommand","boundary degenerate","Execute","wrapper stateless",
-"DelegateCommand","boundary degenerate","CanExecute","collaborator incidental",
-"DelegateCommand","boundary degenerate","RaiseCanExecuteChanged","wrapper",
-"KeyShowViewModel","empty","KeyShowViewModel","constructor",
-"ScreenManager","factory pure-controller degenerate small-class","GetScreens","factory controller stateless",
-"PreferencesViewModel","entity boundary","PreferencesViewModel","constructor",
-"PreferencesViewModel","entity boundary","Visit","wrapper stateless",
-"PreferencesViewModel","entity boundary","SaveSettings","command",
-"PreferencesViewModel","entity boundary","PlaceScreen","command",
-"PreferencesViewModel","entity boundary","get","wrapper stateless",
-"PreferencesViewModel","entity boundary","get","property wrapper",
-"PreferencesViewModel","entity boundary","get","property wrapper",
-"DesignTimeHelper","entity boundary small-class","get","predicate non-void-command collaborator",
+"MainWindow","commander boundary","MainWindow","constructor"
+"MainWindow","commander boundary","StartCapture","set collaborator"
+"MainWindow","commander boundary","StopCapture","set collaborator"
+"MainWindow","commander boundary","GenerateCode","command collaborator"
+"MainWindow","commander boundary","OnClosed","command collaborator"
+"PreferencesViewModel","entity boundary","PreferencesViewModel","constructor"
+"PreferencesViewModel","entity boundary","Visit","wrapper stateless"
+"PreferencesViewModel","entity boundary","SaveSettings","command"
+"PreferencesViewModel","entity boundary","PlaceScreen","command"
+"PreferencesViewModel","entity boundary","get","wrapper stateless"
+"PreferencesViewModel","entity boundary","get","property wrapper"
+"PreferencesViewModel","entity boundary","get","property wrapper"
+"KeyShowViewModel","empty","KeyShowViewModel","constructor"
+"DelegateCommand","boundary degenerate","DelegateCommand","constructor"
+"DelegateCommand","boundary degenerate","Execute","wrapper stateless"
+"DelegateCommand","boundary degenerate","CanExecute","collaborator incidental"
+"DelegateCommand","boundary degenerate","RaiseCanExecuteChanged","wrapper"
+"AvailableColor","empty","AvailableColor","constructor"
+"PreferencesView","empty","PreferencesView","copy-constructor"
+"Resources","empty","Resources","constructor"
+"Resources","empty","Resources","constructor"
+"ConcurrencyService","empty","ConcurrencyService","constructor"
+"CarnacTrayIcon","small-class","CarnacTrayIcon","constructor"
+"CarnacTrayIcon","small-class","NotifyIconClick","controller stateless"
+"CarnacTrayIcon","small-class","Dispose","command"
+"App","unclassified","App","constructor"
+"App","unclassified","OnStartup","command collaborator"
+"App","unclassified","OnExit","command collaborator"
+"App","unclassified","TrayIconOnOpenPreferences","controller"
+"MessageProviderFacts","commander boundary","MessageProviderFacts","constructor"
+"MessageProviderFacts","commander boundary","CreateMessageProvider","property factory controller"
+"MessageProviderFacts","commander boundary","key_with_modifiers_raises_a_new_message","non-void-command collaborator"
+"MessageProviderFacts","commander boundary","recognises_shortcuts","non-void-command collaborator"
+"MessageProviderFacts","commander boundary","does_not_show_key_press_on_partial_match","non-void-command collaborator"
+"MessageProviderFacts","commander boundary","produces_two_messages_when_shortcut_is_broken","non-void-command collaborator"
+"MessageProviderFacts","commander boundary","does_show_shortcut_name_on_full_match","non-void-command collaborator"
+"MessageProviderFacts","commander boundary","keeps_order_of_streams","non-void-command collaborator"
+"ShortcutProvider","entity boundary small-class","ShortcutProvider","constructor"
+"ShortcutProvider","entity boundary small-class","GetShortcutsStartingWith","property non-void-command collaborator"
+"KeysControllerFacts","commander boundary","KeysControllerFacts","constructor"
+"KeysControllerFacts","commander boundary","CreateKeysController","property non-void-command factory collaborator"
+"KeysControllerFacts","commander boundary","MessagesAreAddedIntoKeysColletion","command collaborator"
+"KeysControllerFacts","commander boundary","MessagesAreFlaggedAsDeletingAfter5Seconds","command collaborator"
+"KeysControllerFacts","commander boundary","MessagesIsRemovedAfter6Seconds","command collaborator"
+"KeysControllerFacts","commander boundary","MessageTimeoutIsStartedAgainIfMessageIsUpdated","command collaborator"
+"KeysControllerFacts","commander boundary","MultiMerge","command collaborator"
+"KeysControllerFacts","commander boundary","SingleMessageAt100Ticks","property non-void-command collaborator"
+"KeysControllerFacts","commander boundary","GetDefaultFadeDelay","controller stateless"
+"InterceptKeys","data-provider boundary data-class small-class","InterceptKeys","constructor"
+"InterceptKeys","data-provider boundary data-class small-class","GetKeyStream","get collaborator"
+"MessageProvider","entity boundary small-class","MessageProvider","constructor"
+"MessageProvider","entity boundary small-class","GetMessageStream","property non-void-command collaborator"
+"InterceptKeyEventArgs","data-provider small-class","InterceptKeyEventArgs","constructor"
+"InterceptKeyEventArgs","data-provider small-class","IsLetter","predicate"
+"SpecificationFor<T>","empty","SpecificationFor","constructor"
+"ShortcutAccumulator","entity boundary","ShortcutAccumulator","constructor"
+"ShortcutAccumulator","entity boundary","ProcessKey","get property non-void-command factory collaborator"
+"ShortcutAccumulator","entity boundary","GetMessages","get collaborator"
+"ShortcutAccumulator","entity boundary","Add","command collaborator"
+"ShortcutAccumulator","entity boundary","EvaluateShortcuts","command collaborator"
+"ShortcutAccumulator","entity boundary","BeginShortcut","command collaborator"
+"ShortcutAccumulator","entity boundary","ShortcutCompleted","command collaborator"
+"ShortcutAccumulator","entity boundary","NoMatchingShortcut","command"
+"ShortcutAccumulator","entity boundary","Complete","command collaborator"
+"ShortcutAccumulator","entity boundary","get","get collaborator"
+"KeysController","commander small-class","KeysController","constructor"
+"KeysController","commander small-class","Start","command collaborator"
+"KeysController","commander small-class","Dispose","command"
+"KeyShowView","commander boundary degenerate","KeyShowView","copy-constructor"
+"KeyShowView","commander boundary degenerate","OnSourceInitialized","command collaborator"
+"KeyShowView","commander boundary degenerate","WindowLoaded","empty"
+"KeyShowView","commander boundary degenerate","SettingsLeftChanged","collaborator incidental"
+"PopupSettings","commander","OnLeftChanged","wrapper"
+"PopupSettings","commander","get","incidental"
+"PopupSettings","commander","set","non-void-command"
+"ShortcutCollection","entity boundary small-class","ShortcutCollection","constructor"
+"ShortcutCollection","entity boundary small-class","GetShortcutsMatching","property non-void-command collaborator"
+"FixedQueue<T>","entity boundary","FixedQueue","constructor"
+"FixedQueue<T>","entity boundary","Enqueue","command collaborator"
+"FixedQueue<T>","entity boundary","Clear","command"
+"FixedQueue<T>","entity boundary","GetEnumerator","property non-void-command collaborator"
+"FixedQueue<T>","entity boundary","IEnumerable.GetEnumerator","property non-void-command collaborator"
+"PreferencesField","data-provider boundary","PreferencesField","constructor"
+"PreferencesField","data-provider boundary","get","property wrapper"
+"PreferencesField","data-provider boundary","set","wrapper"
+"PreferencesField","data-provider boundary","get","property wrapper"
+"PreferencesField","data-provider boundary","set","wrapper"
+"KeyPlayer","entity boundary small-class","GetKeyStream","property non-void-command collaborator"
+"KeyProvider","entity boundary","KeyProvider","constructor"
+"KeyProvider","entity boundary","ShouldFilterProcess","predicate set collaborator"
+"KeyProvider","entity boundary","GetKeyStream","property non-void-command factory collaborator"
+"KeyProvider","entity boundary","DetectWindowsKey","property set collaborator"
+"KeyProvider","entity boundary","IsModifierKeyPress","predicate non-void-command collaborator"
+"KeyProvider","entity boundary","ToCarnacKeyPress","property non-void-command factory collaborator"
+"Message","data-provider","Message","constructor"
+"Message","data-provider","Message","constructor"
+"Message","data-provider","Message","constructor"
+"Message","data-provider","Message","copy-constructor"
+"Message","data-provider","Message","copy-constructor"
+"Message","data-provider","Merge","property factory"
+"Message","data-provider","FadeOut","property factory"
+"Message","data-provider","ToString","wrapper stateless"
+"Message","data-provider","Equals","predicate non-void-command"
+"Message","data-provider","Equals","predicate non-void-command collaborator"
+"Message","data-provider","GetHashCode","property non-void-command collaborator"
+"Message","data-provider","get","get"
+"Message","data-provider","get","get collaborator"
+"Message","data-provider","get","get"
+"Message","data-provider","get","get"
+"Message","data-provider","get","get"
+"Message","data-provider","get","get"
+"Message","data-provider","get","get"
+"Message","data-provider","get","get collaborator"
+"Message","data-provider","get","get"
+"Message","data-provider","get","get"
+"ProcessInfo","empty","ProcessInfo","constructor"
+"ProcessInfo","empty","ProcessInfo","constructor"
+"KeyProviderTests","controller","KeyProviderTests","constructor"
+"KeyProviderTests","controller","ctrlshiftl_is_processed_correctly","controller"
+"KeyProviderTests","controller","shift_is_not_outputted_when_is_being_used_as_a_modifier_key","controller"
+"KeyProviderTests","controller","key_without_shift_is_lowercase","controller"
+"KeyProviderTests","controller","verify_number","controller"
+"KeyProviderTests","controller","verify_shift_number","controller"
+"KeyProviderTests","controller","keyprovider_detects_windows_key_presses","controller"
+"KeyProviderTests","controller","output_with_matching_filter","non-void-command collaborator"
+"KeyProviderTests","controller","no_output_with_no_match_filter","non-void-command collaborator"
+"DesktopLockEventService","boundary degenerate small-class","GetSessionSwitchStream","wrapper stateless"
+"KeyShortcut","controller small-class","KeyShortcut","constructor"
+"KeyShortcut","controller small-class","StartsWith","predicate controller"
+"KeyShortcut","controller small-class","IsMatch","predicate controller"
+"ScreenManager","factory pure-controller degenerate small-class","GetScreens","factory controller stateless"
+"MessageFacts","unclassified","message_does_not_group_different_letters","controller"
+"MessageFacts","unclassified","message_does_not_group_letter_and_backspace","controller"
+"MessageFacts","unclassified","message_groups_multiple_backspace_key_presses_together","controller"
+"MessageFacts","unclassified","message_does_not_group_different_arrow_key_presses_together","controller"
+"MessageFacts","unclassified","message_groups_two_equal_arrow_key_presses_together","controller"
+"MessageFacts","unclassified","message_groups_three_equal_arrow_key_presses_together","wrapper"
+"MessageFacts","unclassified","multiple_shortcuts_have_comma_inserted_between_input","controller"
+"MessageFacts","unclassified","multiple_shortcuts_duplicate_shortcuts_are_grouped","controller"
+"KeyPress","unclassified","KeyPress","constructor"
+"KeyPress","unclassified","GetTextParts","property wrapper"
+"KeyPress","unclassified","Equals","predicate non-void-command collaborator"
+"KeyPress","unclassified","GetHashCode","property non-void-command"
+"KeyPress","unclassified","Equals","predicate non-void-command"
+"KeyPress","unclassified","get","predicate"
+"PlacementMarginConverter","degenerate small-class","Convert","factory collaborator stateless"
+"PlacementMarginConverter","degenerate small-class","ConvertBack","collaborator stateless"
+"NotifyPropertyChanged","commander small-class","OnPropertyChanged","wrapper"
+"NotifyPropertyChanged","commander small-class","OnPropertyChanged","command"
+"PositionOnMonitorSelector","boundary degenerate small-class","PositionOnMonitorSelector","constructor"
+"PositionOnMonitorSelector","boundary degenerate small-class","RadioChecked","collaborator incidental"
+"KeyPressDefinition","unclassified","KeyPressDefinition","constructor"
+"KeyPressDefinition","unclassified","Equals","predicate controller"
+"KeyPressDefinition","unclassified","Equals","predicate non-void-command collaborator"
+"KeyPressDefinition","unclassified","GetHashCode","property non-void-command"
+"PasswordModeService","entity small-class","PasswordModeService","constructor"
+"PasswordModeService","entity small-class","CheckPasswordMode","get predicate non-void-command collaborator"
+"PasswordModeService","entity small-class","get","get set factory collaborator"

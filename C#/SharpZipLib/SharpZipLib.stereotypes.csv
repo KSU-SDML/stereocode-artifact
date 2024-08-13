@@ -1,1506 +1,1502 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"TransformBase","pure-controller degenerate small-class","TestFile","controller stateless",
-"TransformBase","pure-controller degenerate small-class","TestDirectory","controller stateless",
-"TestEncodingProvider","factory controller small-class","GetEncodings","property factory collaborator",
-"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamUsingAsync","wrapper stateless",
-"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamAsync","wrapper stateless",
-"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamWithAesAsync","wrapper stateless",
-"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamWithZipCryptoAsync","wrapper stateless",
-"ZipStreamAsyncTests","boundary degenerate","WriteReadOnlyZipStreamAsync","wrapper stateless",
-"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamToAsyncOnlyStream","wrapper stateless",
-"ZipNameTransformHandling","degenerate","Basic","command collaborator",
-"ZipNameTransformHandling","degenerate","Basic_Windows","command collaborator",
-"ZipNameTransformHandling","degenerate","Basic_Posix","command collaborator",
-"ZipNameTransformHandling","degenerate","TooLong","controller stateless",
-"ZipNameTransformHandling","degenerate","LengthBoundaryOk","controller stateless",
-"ZipNameTransformHandling","degenerate","NameTransforms_Windows","controller stateless",
-"ZipNameTransformHandling","degenerate","NameTransforms_Posix","controller stateless",
-"ZipNameTransformHandling","degenerate","FilenameCleaning","wrapper stateless",
-"ZipNameTransformHandling","degenerate","PathalogicalNames","controller stateless",
-"ZipFileHandling","boundary degenerate","NullStreamDetected","wrapper stateless",
-"ZipFileHandling","boundary degenerate","Zip64Entries","controller stateless",
-"ZipFileHandling","boundary degenerate","EmbeddedArchive","controller stateless",
-"ZipFileHandling","boundary degenerate","Zip64Useage","controller stateless",
-"ZipFileHandling","boundary degenerate","Zip64Update","controller stateless",
-"ZipFileHandling","boundary degenerate","FakeZip64Locator","wrapper stateless",
-"ZipFileHandling","boundary degenerate","Zip64Offset","empty",
-"ZipFileHandling","boundary degenerate","BasicEncryption","wrapper stateless",
-"ZipFileHandling","boundary degenerate","BasicEncryptionToDisk","wrapper stateless",
-"ZipFileHandling","boundary degenerate","AddEncryptedEntriesToExistingArchive","wrapper stateless",
-"ZipFileHandling","boundary degenerate","TryDeleting","wrapper stateless",
-"ZipFileHandling","boundary degenerate","TryDeleting","wrapper stateless",
-"ZipFileHandling","boundary degenerate","AddAndDeleteEntriesMemory","command",
-"ZipFileHandling","boundary degenerate","AddAndDeleteEntries","wrapper stateless",
-"ZipFileHandling","boundary degenerate","RoundTrip","command collaborator",
-"ZipFileHandling","boundary degenerate","RoundTripInMemory","command collaborator",
-"ZipFileHandling","boundary degenerate","RoundTripInMemoryAsync","non-void-command collaborator",
-"ZipFileHandling","boundary degenerate","AddToEmptyArchive","wrapper stateless",
-"ZipFileHandling","boundary degenerate","CreateEmptyArchive","wrapper stateless",
-"ZipFileHandling","boundary degenerate","CreateArchiveWithNoCompression","wrapper stateless",
-"ZipFileHandling","boundary degenerate","FindEntriesInArchiveWithLongComment","command collaborator",
-"ZipFileHandling","boundary degenerate","FindEntriesInArchiveExtraData","command collaborator",
-"ZipFileHandling","boundary degenerate","FindEntry","command",
-"ZipFileHandling","boundary degenerate","HandlesNoEntries","command",
-"ZipFileHandling","boundary degenerate","ArchiveTesting","command",
-"ZipFileHandling","boundary degenerate","TestDirectoryEntry","controller stateless",
-"ZipFileHandling","boundary degenerate","TestDirectoryEntry","command",
-"ZipFileHandling","boundary degenerate","TestEncryptedDirectoryEntry","controller stateless",
-"ZipFileHandling","boundary degenerate","TestEncryptedDirectoryEntry","command",
-"ZipFileHandling","boundary degenerate","Crypto_AddEncryptedEntryToExistingArchiveSafe","controller stateless",
-"ZipFileHandling","boundary degenerate","Crypto_AddEncryptedEntryToExistingArchiveDirect","wrapper stateless",
-"ZipFileHandling","boundary degenerate","UnicodeNames","wrapper stateless",
-"ZipFileHandling","boundary degenerate","UpdateCommentOnlyInMemory","wrapper stateless",
-"ZipFileHandling","boundary degenerate","UpdateCommentOnlyOnDisk","wrapper stateless",
-"ZipFileHandling","boundary degenerate","NameFactory","wrapper stateless",
-"ZipFileHandling","boundary degenerate","NestedArchive","controller stateless",
-"ZipFileHandling","boundary degenerate","GetPartialStream","controller stateless",
-"ZipFileHandling","boundary degenerate","UnreferencedZipFileClosingPartialStream","command collaborator",
-"ZipFileHandling","boundary degenerate","StreamClosedWhenOwner","command collaborator",
-"ZipFileHandling","boundary degenerate","StreamNotClosedWhenNotOwner","command collaborator",
-"ZipFileHandling","boundary degenerate","FileStreamClosedWhenOwner","command collaborator",
-"ZipFileHandling","boundary degenerate","FileStreamNotClosedWhenNotOwner","command",
-"ZipFileHandling","boundary degenerate","StreamClosedOnError","wrapper stateless",
-"ZipFileHandling","boundary degenerate","HostSystemPersistedFromOutputStream","controller stateless",
-"ZipFileHandling","boundary degenerate","HostSystemPersistedFromZipFile","wrapper stateless",
-"ZipFileHandling","boundary degenerate","AddingAnAESEncryptedEntryShouldThrow","wrapper stateless",
-"ZipFileHandling","boundary degenerate","AddFileWithAlternateName","wrapper stateless",
-"ZipFileHandling","boundary degenerate","ZipWithBZip2Compression","wrapper stateless",
-"ZipFileHandling","boundary degenerate","ShouldReadBZip2ZipCreatedBy7Zip","wrapper stateless",
-"ZipFileHandling","boundary degenerate","ShouldReadAESBZip2ZipCreatedBy7Zip","wrapper stateless",
-"ZipFileHandling","boundary degenerate","TestDescriptorUpdateOnDelete","controller stateless",
-"ZipFileHandling","boundary degenerate","TestDescriptorUpdateOnAdd","controller stateless",
-"ZipFileHandling","boundary degenerate","HandlesEmptyFileName","wrapper stateless",
-"ZipEntryHandling","commander boundary degenerate","MakeLocalHeader","wrapper stateless",
-"ZipEntryHandling","commander boundary degenerate","MakeEntry","property non-void-command collaborator",
-"ZipEntryHandling","commander boundary degenerate","PiecewiseCompare","controller stateless",
-"ZipEntryHandling","commander boundary degenerate","Copying","command collaborator",
-"ZipEntryHandling","commander boundary degenerate","Cloning","command collaborator",
-"ZipEntryHandling","commander boundary degenerate","NullEntryComment","wrapper stateless",
-"ZipEntryHandling","commander boundary degenerate","NullNameInConstructor","wrapper stateless",
-"ZipEntryHandling","commander boundary degenerate","DateAndTime","wrapper stateless",
-"ZipEntryHandling","commander boundary degenerate","DateTimeSetsDosTime","wrapper stateless",
-"ZipEntryHandling","commander boundary degenerate","CanDecompress","command collaborator",
-"ZipEntryFactoryHandling","degenerate","Defaults","wrapper stateless",
-"ZipEntryFactoryHandling","degenerate","CreateInMemoryValues","controller stateless",
-"ZipEntryFactoryHandling","degenerate","CreatedFileEntriesUsesExpectedAttributes","controller stateless",
-"ZipEntryFactoryHandling","degenerate","CreatedFileEntriesUsesExpectedTime","controller stateless",
-"ZipEntryFactoryHandling","degenerate","CreatedDirectoryEntriesUsesExpectedTime","controller stateless",
-"WindowsNameTransformHandling","boundary degenerate","TestInit","wrapper stateless",
-"WindowsNameTransformHandling","boundary degenerate","BasicFiles","command collaborator",
-"WindowsNameTransformHandling","boundary degenerate","Replacement","command collaborator",
-"WindowsNameTransformHandling","boundary degenerate","NameTooLong","controller stateless",
-"WindowsNameTransformHandling","boundary degenerate","LengthBoundaryOk","controller stateless",
-"WindowsNameTransformHandling","boundary degenerate","ReplacementChecking","wrapper stateless",
-"WindowsNameTransformHandling","boundary degenerate","BasicDirectories","command",
-"StreamHandling","degenerate","MustFailRead","controller stateless",
-"StreamHandling","degenerate","ParameterHandling","command",
-"StreamHandling","degenerate","Zip64Descriptor","controller stateless",
-"StreamHandling","degenerate","ReadAndWriteZip64NonSeekable","controller stateless",
-"StreamHandling","degenerate","EntryWithNoDataAndZip64","controller stateless",
-"StreamHandling","degenerate","EmptyZipEntries","controller stateless",
-"StreamHandling","degenerate","TestZeroByteWrite","wrapper stateless",
-"StreamHandling","degenerate","WriteZipStreamWithNoCompression","wrapper stateless",
-"StreamHandling","degenerate","ZipEntryFileNameAutoClean","wrapper stateless",
-"StreamHandling","degenerate","CreateAndReadEmptyZip","controller stateless",
-"StreamHandling","degenerate","BaseClosedWhenOwner","wrapper stateless",
-"StreamHandling","degenerate","BaseNotClosedWhenNotOwner","wrapper stateless",
-"StreamHandling","degenerate","BaseClosedAfterFailure","wrapper stateless",
-"StreamHandling","degenerate","WriteThroughput","controller stateless",
-"StreamHandling","degenerate","SingleLargeEntry","controller stateless",
-"StreamHandling","degenerate","ShouldReadBZip2EntryButNotDecompress","controller",
-"StreamHandling","degenerate","ShouldBeAbleToReadEntriesWithInvalidFileNames","wrapper stateless",
-"StreamHandling","degenerate","AddingAnAESEntryWithNoPasswordShouldThrow","wrapper stateless",
-"StreamHandling","degenerate","ShouldThrowDescriptiveExceptionOnUncompressedDescriptorEntry","wrapper stateless",
-"StreamHandling","degenerate","IteratingOverEntriesInDirectUpdatedArchive","wrapper stateless",
-"FastZipHandling","controller degenerate","Basics","controller stateless",
-"FastZipHandling","controller degenerate","EnsureTestDirectoryIsEmpty","wrapper",
-"FastZipHandling","controller degenerate","ExtractEmptyDirectories","command collaborator",
-"FastZipHandling","controller degenerate","CreateEmptyDirectories","controller",
-"FastZipHandling","controller degenerate","ContentEqualAfterAfterArchived","controller stateless",
-"FastZipHandling","controller degenerate","Encryption","controller stateless",
-"FastZipHandling","controller degenerate","CreateExceptions","controller stateless",
-"FastZipHandling","controller degenerate","TestFileNames","controller stateless",
-"FastZipHandling","controller degenerate","UnicodeText","command",
-"FastZipHandling","controller degenerate","NonUnicodeText","command collaborator",
-"FastZipHandling","controller degenerate","ExtractExceptions","controller stateless",
-"FastZipHandling","controller degenerate","ReadingOfLockedDataFiles","controller stateless",
-"FastZipHandling","controller degenerate","NonAsciiPasswords","controller stateless",
-"FastZipHandling","controller degenerate","LimitExtractPath","controller stateless",
-"FastZipHandling","controller degenerate","StreamNotClosedOnError","controller stateless",
-"FastZipHandling","controller degenerate","StreamClosedOnError","controller stateless",
-"FastZipHandling","controller degenerate","SetDirectoryModifiedDate","command collaborator",
-"FastZipHandling","controller degenerate","CreateZipShouldLeaveOutputStreamOpenIfRequested","controller stateless",
-"FastZipHandling","controller degenerate","CreateZipShouldSetTimeOnEntriesFromConstructorDateTime","controller stateless",
-"FastZipHandling","controller degenerate","CreateZipShouldSetTimeOnEntriesFromConstructorTimeSetting","controller stateless",
-"FastZipHandling","controller degenerate","ExtractZipShouldSetTimeOnFilesFromConstructorTimeSetting","controller",
-"FastZipHandling","controller degenerate","ExtractZipShouldSetTimeOnFilesFromConstructorDateTime","controller",
-"FastZipHandling","controller degenerate","ExtractZipShouldSetTimeOnFilesWithEmptyConstructor","controller",
-"TempDir","commander","Delete","wrapper stateless",
-"TempDir","commander","TempDir","constructor",
-"TempDir","commander","Dispose","set",
-"TempDir","commander","Dispose","command",
-"TempFile","commander","Delete","command",
-"TempFile","commander","TempFile","constructor",
-"TempFile","commander","Dispose","set",
-"TempFile","commander","Dispose","command",
-"TestTraceListener","empty","TestTraceListener","constructor",
-"SelfClosingStream","small-class","SelfClosingStream","constructor",
-"SelfClosingStream","small-class","Read","property set collaborator",
-"SelfClosingStream","small-class","get","predicate",
-"WindowedStream","unclassified","WindowedStream","constructor",
-"WindowedStream","unclassified","Flush","empty",
-"WindowedStream","unclassified","Read","property non-void-command",
-"WindowedStream","unclassified","Write","void-accessor command",
-"WindowedStream","unclassified","Dispose","command",
-"WindowedStream","unclassified","get","get",
-"NullStream","degenerate","Flush","empty",
-"NullStream","degenerate","Read","stateless",
-"NullStream","degenerate","Seek","collaborator stateless",
-"NullStream","degenerate","SetLength","stateless",
-"NullStream","degenerate","Write","empty",
-"NullStream","degenerate","get","incidental",
-"NullStream","degenerate","get","incidental",
-"NullStream","degenerate","get","incidental",
-"NullStream","degenerate","get","stateless",
-"NullStream","degenerate","get","stateless",
-"NullStream","degenerate","set","stateless",
-"TrackedMemoryStream","unclassified","TrackedMemoryStream","constructor",
-"TrackedMemoryStream","unclassified","TrackedMemoryStream","constructor",
-"TrackedMemoryStream","unclassified","WriteLEShort","wrapper stateless",
-"TrackedMemoryStream","unclassified","WriteLEInt","command",
-"TrackedMemoryStream","unclassified","Dispose","set",
-"TrackedMemoryStream","unclassified","Close","set",
-"TrackedMemoryStream","unclassified","get","get",
-"TrackedMemoryStream","unclassified","get","get",
-"StringTesting","empty","StringTesting","constructor",
-"ExerciseBuffer","commander","Basic","command",
-"ExerciseBuffer","commander","Buffered","set",
-"ExerciseBuffer","commander","Threaded","command collaborator",
-"ExerciseBuffer","commander","Reader","command",
-"ExerciseBuffer","commander","Writer","command",
-"PerfWorkerState","commander small-class","InitStream","set",
-"PerfWorkerState","commander small-class","DeinitStream","wrapper",
-"TarTestSuite","lazy-class degenerate","EntryCounter","set",
-"TarTestSuite","lazy-class degenerate","Setup","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","EmptyTar","set collaborator",
-"TarTestSuite","lazy-class degenerate","BlockFactorHandling","controller stateless",
-"TarTestSuite","lazy-class degenerate","TrailerContainsNulls","controller stateless",
-"TarTestSuite","lazy-class degenerate","TryLongName","controller stateless",
-"TarTestSuite","lazy-class degenerate","LongNames","command",
-"TarTestSuite","lazy-class degenerate","ExtendedHeaderLongName","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","HeaderEquality","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","Checksum","controller stateless",
-"TarTestSuite","lazy-class degenerate","ValuesPreserved","set collaborator",
-"TarTestSuite","lazy-class degenerate","InvalidModTime","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","InvalidSize","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","InvalidName","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","UserAndGroupNames","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","InvalidMagic","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","InvalidLinkName","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","InvalidVersionName","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","CloningAndUniqueness","controller stateless",
-"TarTestSuite","lazy-class degenerate","OutputStreamOwnership","controller stateless",
-"TarTestSuite","lazy-class degenerate","InputStreamOwnership","controller stateless",
-"TarTestSuite","lazy-class degenerate","EndBlockHandling","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","WriteThroughput","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","SingleLargeEntry","controller stateless",
-"TarTestSuite","lazy-class degenerate","ExtractingCorruptTarShouldntLeakFiles","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","ParseHeaderWithEncoding","controller stateless",
-"TarTestSuite","lazy-class degenerate","StreamWithJapaneseNameAsync","wrapper stateless",
-"TarTestSuite","lazy-class degenerate","RootPathIsRespected","controller stateless",
-"TarBufferTests","pure-controller degenerate","TestSimpleReadWrite","controller stateless",
-"TarBufferTests","pure-controller degenerate","TestSkipBlock","controller stateless",
-"TarBufferTests","pure-controller degenerate","TestSimpleReadWriteAsync","controller stateless",
-"TarBufferTests","pure-controller degenerate","TestSkipBlockAsync","controller stateless",
-"TarArchiveTests","commander","ExtractingContentsWithNonTraversalPathSucceeds","command",
-"TarArchiveTests","commander","ExtractingContentsWithExplicitlyAllowedTraversalPathSucceeds","command",
-"TarArchiveTests","commander","ExtractingContentsWithDisallowedPathsFails","command",
-"TarArchiveTests","commander","ExtractingContentsOnWindowsWithDisallowedPathsFails","command",
-"TarArchiveTests","commander","ExtractTarOK","wrapper stateless",
-"RuntimeInfo","data-provider data-class","RuntimeInfo","constructor",
-"RuntimeInfo","data-provider data-class","RuntimeInfo","constructor",
-"RuntimeInfo","data-provider data-class","get","get",
-"RuntimeInfo","data-provider data-class","get","get collaborator",
-"RuntimeInfo","data-provider data-class","get","get",
-"RuntimeInfo","data-provider data-class","get","get",
-"RuntimeInfo","data-provider data-class","get","get",
-"RuntimeInfo","data-provider data-class","get","get",
-"RuntimeInfo","data-provider data-class","get","get",
-"RuntimeInfo","data-provider data-class","get","get",
-"SerializationTests","boundary degenerate small-class","SerializeException","wrapper stateless",
-"SerializationTests","boundary degenerate small-class","SerializeValueOutOfRangeException","wrapper stateless",
-"CoreTestSuite","boundary degenerate","FilterQuoting","wrapper stateless",
-"CoreTestSuite","boundary degenerate","NullFilter","controller stateless",
-"CoreTestSuite","boundary degenerate","ValidFilter","wrapper stateless",
-"CoreTestSuite","boundary degenerate","DropPathRoot_Windows","wrapper stateless",
-"CoreTestSuite","boundary degenerate","DropPathRoot_Posix","wrapper stateless",
-"CoreTestSuite","boundary degenerate","DropPathRoot_DoesNotThrowForInvalidPath","wrapper stateless",
-"ByteOrderUtilsTests","boundary small-class","ToSwappedBytes","wrapper",
-"ByteOrderUtilsTests","boundary small-class","FromSwappedBytes","wrapper",
-"ZipExtraDataHandling","controller degenerate","IsDataUnique","controller stateless",
-"ZipExtraDataHandling","controller degenerate","ExceedSize","controller stateless",
-"ZipExtraDataHandling","controller degenerate","Deleting","controller stateless",
-"ZipExtraDataHandling","controller degenerate","BasicOperations","command",
-"ZipExtraDataHandling","controller degenerate","UnreadCountValid","controller stateless",
-"ZipExtraDataHandling","controller degenerate","Skipping","controller stateless",
-"ZipExtraDataHandling","controller degenerate","ReadOverrunLong","controller stateless",
-"ZipExtraDataHandling","controller degenerate","ReadOverrunInt","controller stateless",
-"ZipExtraDataHandling","controller degenerate","ReadOverrunShort","controller stateless",
-"ZipExtraDataHandling","controller degenerate","TaggedDataHandling","controller stateless",
-"GZipTestSuite","degenerate","TestGZip","controller stateless",
-"GZipTestSuite","degenerate","DelayedHeaderWriteNoData","wrapper stateless",
-"GZipTestSuite","degenerate","DelayedHeaderWriteFlushNoData","controller stateless",
-"GZipTestSuite","degenerate","DelayedHeaderWriteWithData","controller stateless",
-"GZipTestSuite","degenerate","DelayedHeaderWriteFlushWithData","controller stateless",
-"GZipTestSuite","degenerate","ZeroLengthInputStream","controller stateless",
-"GZipTestSuite","degenerate","OutputStreamOwnership","controller stateless",
-"GZipTestSuite","degenerate","InputStreamOwnership","controller stateless",
-"GZipTestSuite","degenerate","DoubleFooter","controller stateless",
-"GZipTestSuite","degenerate","DoubleClose","controller stateless",
-"GZipTestSuite","degenerate","WriteAfterFinish","controller stateless",
-"GZipTestSuite","degenerate","WriteAfterClose","controller stateless",
-"GZipTestSuite","degenerate","TrailingGarbage","controller stateless",
-"GZipTestSuite","degenerate","FlushToUnderlyingStream","controller stateless",
-"GZipTestSuite","degenerate","SmallBufferDecompression","wrapper stateless",
-"GZipTestSuite","degenerate","ShouldGracefullyHandleReadingANonReadableStream","controller stateless",
-"GZipTestSuite","degenerate","WriteThroughput","wrapper stateless",
-"GZipTestSuite","degenerate","ReadWriteThroughput","wrapper stateless",
-"GZipTestSuite","degenerate","OriginalFilename","wrapper stateless",
-"ChecksumTests","commander boundary","Adler_32","command collaborator",
-"ChecksumTests","commander boundary","Adler_32_Performance","command collaborator",
-"ChecksumTests","commander boundary","CRC_32_BZip2","command collaborator",
-"ChecksumTests","commander boundary","CRC_32_BZip2_Long","wrapper",
-"ChecksumTests","commander boundary","CRC_32_BZip2_Unaligned","wrapper",
-"ChecksumTests","commander boundary","CRC_32_BZip2_Long_Unaligned","wrapper",
-"ChecksumTests","commander boundary","CRC_32","command collaborator",
-"ChecksumTests","commander boundary","CRC_32_Long","wrapper",
-"ChecksumTests","commander boundary","CRC_32_Unaligned","wrapper",
-"ChecksumTests","commander boundary","CRC_32_Long_Unaligned","wrapper",
-"ChecksumTests","commander boundary","exceptionTesting","controller",
-"InflaterDeflaterTestSuite","boundary","Inflate","void-accessor command",
-"InflaterDeflaterTestSuite","boundary","Deflate","factory wrapper stateless",
-"InflaterDeflaterTestSuite","boundary","RandomDeflateInflate","command collaborator",
-"InflaterDeflaterTestSuite","boundary","InflateAsync","non-void-command collaborator",
-"InflaterDeflaterTestSuite","boundary","DeflateAsync","factory wrapper stateless",
-"InflaterDeflaterTestSuite","boundary","RandomDeflateInflateAsync","non-void-command collaborator",
-"InflaterDeflaterTestSuite","boundary","VerifyInflatedData","controller stateless",
-"InflaterDeflaterTestSuite","boundary","InflateDeflateZlib","command",
-"InflaterDeflaterTestSuite","boundary","InflateDeflateZlibAsync","non-void-command collaborator",
-"InflaterDeflaterTestSuite","boundary","DeflateAndInflate","void-accessor command collaborator",
-"InflaterDeflaterTestSuite","boundary","TryVariants","void-accessor command",
-"InflaterDeflaterTestSuite","boundary","TryManyVariants","void-accessor command collaborator",
-"InflaterDeflaterTestSuite","boundary","SmallBlocks","command collaborator",
-"InflaterDeflaterTestSuite","boundary","InflateDeflateNonZlib","command",
-"InflaterDeflaterTestSuite","boundary","InflateDeflateNonZlibAsync","non-void-command collaborator",
-"InflaterDeflaterTestSuite","boundary","CloseDeflatorWithNestedUsing","wrapper stateless",
-"InflaterDeflaterTestSuite","boundary","DeflatorStreamOwnership","controller stateless",
-"InflaterDeflaterTestSuite","boundary","InflatorStreamOwnership","controller stateless",
-"InflaterDeflaterTestSuite","boundary","CloseInflatorWithNestedUsing","controller stateless",
-"ZipAESStream","unclassified","ZipAESStream","constructor",
-"ZipAESStream","unclassified","Read","property non-void-command",
-"ZipAESStream","unclassified","ReadAsync","property non-void-command collaborator",
-"ZipAESStream","unclassified","ReadAndTransform","property non-void-command",
-"ZipAESStream","unclassified","ReadBufferedData","property set",
-"ZipAESStream","unclassified","TransformAndBufferBlock","property non-void-command collaborator",
-"ZipAESStream","unclassified","Write","stateless",
-"LzwInputStream","unclassified","LzwInputStream","constructor",
-"LzwInputStream","unclassified","ReadByte","get property non-void-command",
-"LzwInputStream","unclassified","Read","property non-void-command",
-"LzwInputStream","unclassified","ResetBuf","property set",
-"LzwInputStream","unclassified","Fill","command",
-"LzwInputStream","unclassified","ParseHeader","command",
-"LzwInputStream","unclassified","Flush","command",
-"LzwInputStream","unclassified","Seek","collaborator stateless",
-"LzwInputStream","unclassified","SetLength","stateless",
-"LzwInputStream","unclassified","Write","stateless",
-"LzwInputStream","unclassified","WriteByte","stateless",
-"LzwInputStream","unclassified","Dispose","set",
-"LzwInputStream","unclassified","get","get",
-"LzwInputStream","unclassified","get","incidental",
-"LzwInputStream","unclassified","get","incidental",
-"LzwInputStream","unclassified","get","get",
-"LzwInputStream","unclassified","get","get",
-"LzwInputStream","unclassified","set","stateless",
-"StringBuilderPool","commander boundary small-class","Rent","collaborator stateless",
-"StringBuilderPool","commander boundary small-class","Return","command collaborator",
-"SingleByteReadingStream","small-class","SingleByteReadingStream","constructor",
-"SingleByteReadingStream","small-class","Read","property non-void-command",
-"DirectoryEventArgs","data-provider data-class small-class","DirectoryEventArgs","constructor",
-"DirectoryEventArgs","data-provider data-class small-class","get","get",
-"ZipCorruptionHandling","small-class","ZeroCodeLengthZipFile","controller",
-"ZipCorruptionHandling","small-class","CorruptCentralDirWithCorrectZip64CD","wrapper",
-"FastZip","boundary","FastZip","constructor",
-"FastZip","boundary","FastZip","constructor",
-"FastZip","boundary","FastZip","constructor",
-"FastZip","boundary","FastZip","copy-constructor",
-"FastZip","boundary","CreateZip","command",
-"FastZip","boundary","CreateZip","command",
-"FastZip","boundary","CreateZip","command",
-"FastZip","boundary","CreateZip","command collaborator",
-"FastZip","boundary","CreateZip","command collaborator",
-"FastZip","boundary","CreateZip","command collaborator",
-"FastZip","boundary","CreateZip","void-accessor command",
-"FastZip","boundary","ExtractZip","wrapper",
-"FastZip","boundary","ExtractZip","command collaborator",
-"FastZip","boundary","ExtractZip","command collaborator",
-"FastZip","boundary","ProcessDirectory","void-accessor command collaborator",
-"FastZip","boundary","ProcessFile","void-accessor command collaborator",
-"FastZip","boundary","ConfigureEntryEncryption","void-accessor wrapper",
-"FastZip","boundary","AddFileContents","command collaborator",
-"FastZip","boundary","ExtractFileEntry","void-accessor command collaborator",
-"FastZip","boundary","ExtractEntry","void-accessor command collaborator",
-"FastZip","boundary","get","get",
-"FastZip","boundary","set","set",
-"FastZip","boundary","get","get",
-"FastZip","boundary","set","set",
-"FastZip","boundary","get","get collaborator",
-"FastZip","boundary","set","set collaborator",
-"FastZip","boundary","get","get collaborator",
-"FastZip","boundary","set","set collaborator",
-"FastZip","boundary","get","get collaborator",
-"FastZip","boundary","set","set collaborator",
-"FastZip","boundary","get","get",
-"FastZip","boundary","set","set",
-"FastZip","boundary","get","get",
-"FastZip","boundary","set","set",
-"FastZip","boundary","get","get collaborator",
-"FastZip","boundary","set","set collaborator",
-"PkzipClassicEncryptCryptoTransform","degenerate","PkzipClassicEncryptCryptoTransform","constructor",
-"PkzipClassicEncryptCryptoTransform","degenerate","TransformFinalBlock","property non-void-command",
-"PkzipClassicEncryptCryptoTransform","degenerate","TransformBlock","property non-void-command",
-"PkzipClassicEncryptCryptoTransform","degenerate","Dispose","command",
-"PkzipClassicEncryptCryptoTransform","degenerate","get","incidental",
-"PkzipClassicEncryptCryptoTransform","degenerate","get","incidental",
-"PkzipClassicEncryptCryptoTransform","degenerate","get","incidental",
-"PkzipClassicEncryptCryptoTransform","degenerate","get","incidental",
-"ExtendedPathFilter","boundary","ExtendedPathFilter","constructor",
-"ExtendedPathFilter","boundary","ExtendedPathFilter","constructor",
-"ExtendedPathFilter","boundary","ExtendedPathFilter","constructor",
-"ExtendedPathFilter","boundary","IsMatch","predicate non-void-command collaborator",
-"ExtendedPathFilter","boundary","get","get",
-"ExtendedPathFilter","boundary","set","set",
-"ExtendedPathFilter","boundary","get","get",
-"ExtendedPathFilter","boundary","set","set",
-"ExtendedPathFilter","boundary","get","get collaborator",
-"ExtendedPathFilter","boundary","set","set collaborator",
-"ExtendedPathFilter","boundary","get","get collaborator",
-"ExtendedPathFilter","boundary","set","set collaborator",
-"ZipStringsTests","boundary degenerate","TestSystemDefaultEncoding","controller stateless",
-"ZipStringsTests","boundary degenerate","TestFastZipRoundTripWithCodePage","controller stateless",
-"ZipStringsTests","boundary degenerate","TestZipFileRoundTripWithCodePage","wrapper stateless",
-"ZipStringsTests","boundary degenerate","TestZipStreamRoundTripWithCodePage","wrapper stateless",
-"ZipStringsTests","boundary degenerate","TestZipCryptoPasswordEncodingRoundtrip","wrapper stateless",
-"ZipStringsTests","boundary degenerate","TestZipStreamCommentEncodingRoundtrip","wrapper stateless",
-"ZipStringsTests","boundary degenerate","TestZipFileCommentEncodingRoundtrip","wrapper stateless",
-"UnexpectedEndOfStreamException","empty","UnexpectedEndOfStreamException","constructor",
-"UnexpectedEndOfStreamException","empty","UnexpectedEndOfStreamException","constructor",
-"UnexpectedEndOfStreamException","empty","UnexpectedEndOfStreamException","constructor",
-"UnexpectedEndOfStreamException","empty","UnexpectedEndOfStreamException","constructor",
-"LzwConstants","empty","LzwConstants","constructor",
-"PkzipClassicManaged","lazy-class","GenerateIV","empty",
-"PkzipClassicManaged","lazy-class","GenerateKey","set",
-"PkzipClassicManaged","lazy-class","CreateEncryptor","property set factory collaborator",
-"PkzipClassicManaged","lazy-class","CreateDecryptor","property set factory collaborator",
-"PkzipClassicManaged","lazy-class","get","incidental",
-"PkzipClassicManaged","lazy-class","set","stateless",
-"PkzipClassicManaged","lazy-class","get","factory collaborator stateless",
-"PkzipClassicManaged","lazy-class","get","factory collaborator stateless",
-"PkzipClassicManaged","lazy-class","get","property non-void-command",
-"PkzipClassicManaged","lazy-class","set","set",
-"StreamUnsupportedException","empty","StreamUnsupportedException","constructor",
-"StreamUnsupportedException","empty","StreamUnsupportedException","constructor",
-"StreamUnsupportedException","empty","StreamUnsupportedException","constructor",
-"StreamUnsupportedException","empty","StreamUnsupportedException","constructor",
-"ZipEncryptionHandling","unclassified","Aes128Encryption","command collaborator",
-"ZipEncryptionHandling","unclassified","Aes256Encryption","command collaborator",
-"ZipEncryptionHandling","unclassified","ZipCryptoEncryption","command collaborator",
-"ZipEncryptionHandling","unclassified","ZipOutputStreamEncryptEmptyEntries","wrapper stateless",
-"ZipEncryptionHandling","unclassified","ZipFileAesDecryption","controller",
-"ZipEncryptionHandling","unclassified","ZipFileAesRead","controller",
-"ZipEncryptionHandling","unclassified","ZipFileStoreAes","controller",
-"ZipEncryptionHandling","unclassified","ZipFileStoreAesAsync","controller",
-"ZipEncryptionHandling","unclassified","ZipFileStoreAesPartialRead","controller",
-"ZipEncryptionHandling","unclassified","ZipFileAesAdd","wrapper",
-"ZipEncryptionHandling","unclassified","ZipFileAesDelete","command collaborator",
-"ZipEncryptionHandling","unclassified","ZipFileAESReadWithEmptyPassword","wrapper",
-"ZipEncryptionHandling","unclassified","ZipinputStreamShouldGracefullyFailWithAESStreams","wrapper stateless",
-"ZipEncryptionHandling","unclassified","WriteEncryptedZipToStream","wrapper stateless",
-"ZipEncryptionHandling","unclassified","CreateZipWithEncryptedEntries","wrapper stateless",
-"StreamDecodingException","empty","StreamDecodingException","constructor",
-"StreamDecodingException","empty","StreamDecodingException","constructor",
-"StreamDecodingException","empty","StreamDecodingException","constructor",
-"StreamDecodingException","empty","StreamDecodingException","constructor",
-"ExactMemoryPool<T>","degenerate small-class","Rent","factory wrapper stateless",
-"ExactMemoryPool<T>","degenerate small-class","Dispose","empty",
-"ZipEntry","commander","ZipEntry","constructor",
-"ZipEntry","commander","ZipEntry","constructor",
-"ZipEntry","commander","ZipEntry","constructor",
-"ZipEntry","commander","ZipEntry","copy-constructor",
-"ZipEntry","commander","HasDosAttributes","predicate",
-"ZipEntry","commander","ProcessExtraData","command collaborator",
-"ZipEntry","commander","ProcessAESExtraData","command collaborator",
-"ZipEntry","commander","Clone","property non-void-command collaborator",
-"ZipEntry","commander","set","non-void-command",
-"ZipEntry","commander","set","set",
-"ZipEntry","commander","get","property non-void-command",
-"ZipEntry","commander","get","predicate",
-"ZipEntry","commander","get","property collaborator",
-"ZipEntry","commander","set","wrapper stateless",
-"ZipEntry","commander","set","non-void-command collaborator",
-"ZipEntry","commander","set","non-void-command",
-"ZipEntry","commander","set","non-void-command",
-"ZipEntry","commander","set","non-void-command",
-"ZipEntry","commander","set","set",
-"ZipEntry","commander","get","property",
-"ZipEntry","commander","set","set",
-"ZipEntry","commander","set","set",
-"MemoryStreamWithoutSync","entity commander boundary","CopyToAsync","non-void-command collaborator",
-"MemoryStreamWithoutSync","entity commander boundary","Seek","property non-void-command collaborator",
-"MemoryStreamWithoutSync","entity commander boundary","SetLength","command",
-"ZipOutputStream","commander","GlobalSetup","command",
-"ZipOutputStream","commander","WriteZipOutputStream","property controller",
-"ZipOutputStream","commander","WriteZipOutputStreamAsync","property set collaborator",
-"ZipOutputStream","commander","ZipOutputStream","constructor",
-"ZipOutputStream","commander","ZipOutputStream","constructor",
-"ZipOutputStream","commander","ZipOutputStream","constructor",
-"ZipOutputStream","commander","SetComment","set",
-"ZipOutputStream","commander","SetLevel","set",
-"ZipOutputStream","commander","GetLevel","property non-void-command",
-"ZipOutputStream","commander","WriteLeShort","command",
-"ZipOutputStream","commander","WriteLeInt","command",
-"ZipOutputStream","commander","WriteLeLong","command",
-"ZipOutputStream","commander","TransformEntryName","void-accessor command collaborator",
-"ZipOutputStream","commander","PutNextEntry","command collaborator",
-"ZipOutputStream","commander","PutNextPassthroughEntry","command collaborator",
-"ZipOutputStream","commander","PutNextEntry","void-accessor command",
-"ZipOutputStream","commander","CloseEntry","command",
-"ZipOutputStream","commander","FinishCompressionSyncOrAsync","non-void-command collaborator",
-"ZipOutputStream","commander","CloseEntryAsync","non-void-command collaborator",
-"ZipOutputStream","commander","WriteEntryFooter","command collaborator",
-"ZipOutputStream","commander","InitializeAESPassword","property non-void-command collaborator",
-"ZipOutputStream","commander","CreateZipCryptoHeader","property non-void-command",
-"ZipOutputStream","commander","InitializeZipCryptoPassword","set",
-"ZipOutputStream","commander","WriteSyncOrAsync","non-void-command collaborator",
-"ZipOutputStream","commander","CopyAndEncrypt","void-accessor command",
-"ZipOutputStream","commander","Finish","set collaborator",
-"ZipOutputStream","commander","FinishAsync","non-void-command collaborator",
-"ZipOutputStream","commander","Flush","command",
-"ZipOutputStream","commander","get","predicate",
-"ZipOutputStream","commander","get","get collaborator",
-"ZipOutputStream","commander","set","set collaborator",
-"ZipOutputStream","commander","get","get",
-"ZipOutputStream","commander","set","set",
-"LzwTestSuite","pure-controller degenerate small-class","ZeroLengthInputStream","controller stateless",
-"LzwTestSuite","pure-controller degenerate small-class","InputStreamOwnership","controller stateless",
-"ZipFileArchiver","commander boundary","ZipFileArchiver","constructor",
-"ZipFileArchiver","commander boundary","SetArgs","predicate non-void-command",
-"ZipFileArchiver","commander boundary","ShowEnvironment","set",
-"ZipFileArchiver","commander boundary","ShowVersion","set collaborator",
-"ZipFileArchiver","commander boundary","ShowHelp","set",
-"ZipFileArchiver","commander boundary","ListArchiveContents","wrapper stateless",
-"ZipFileArchiver","commander boundary","ListArchiveContents","command collaborator",
-"ZipFileArchiver","commander boundary","List","command collaborator",
-"ZipFileArchiver","commander boundary","Create","set collaborator",
-"ZipFileArchiver","commander boundary","ExtractFile","predicate non-void-command",
-"ZipFileArchiver","commander boundary","DecompressArchive","predicate non-void-command collaborator",
-"ZipFileArchiver","commander boundary","Extract","set collaborator",
-"ZipFileArchiver","commander boundary","TestResultHandler","incidental",
-"ZipFileArchiver","commander boundary","Test","wrapper",
-"ZipFileArchiver","commander boundary","Delete","wrapper stateless",
-"ZipFileArchiver","commander boundary","ProcessFile","void-accessor command collaborator",
-"ZipFileArchiver","commander boundary","ProcessDirectory","void-accessor command collaborator",
-"ZipFileArchiver","commander boundary","Add","set collaborator",
-"ZipFileArchiver","commander boundary","Execute","void-accessor command",
-"ZipFileArchiver","commander boundary","GetBuffer","get set",
-"BZip2Exception","empty","BZip2Exception","constructor",
-"BZip2Exception","empty","BZip2Exception","constructor",
-"BZip2Exception","empty","BZip2Exception","constructor",
-"BZip2Exception","empty","BZip2Exception","constructor",
-"StaticDiskDataSource","data-provider boundary small-class","StaticDiskDataSource","constructor",
-"StaticDiskDataSource","data-provider boundary small-class","GetSource","property wrapper",
-"TestArchiveReport","commander small-class","HandleTestResults","command",
-"PathFilter","small-class","PathFilter","constructor",
-"PathFilter","small-class","IsMatch","predicate non-void-command",
-"InflaterPool","pure-controller degenerate small-class","InflaterPool","constructor",
-"InflaterPool","pure-controller degenerate small-class","Rent","factory controller stateless",
-"InflaterPool","pure-controller degenerate small-class","Return","controller stateless",
-"BZip2OutputStream","commander","BZip2OutputStream","constructor",
-"BZip2OutputStream","commander","BZip2OutputStream","constructor",
-"BZip2OutputStream","commander","~BZip2OutputStream","destructor",
-"BZip2OutputStream","commander","Seek","collaborator stateless",
-"BZip2OutputStream","commander","SetLength","stateless",
-"BZip2OutputStream","commander","ReadByte","stateless",
-"BZip2OutputStream","commander","Read","stateless",
-"BZip2OutputStream","commander","Write","void-accessor command",
-"BZip2OutputStream","commander","WriteByte","command",
-"BZip2OutputStream","commander","MakeMaps","command",
-"BZip2OutputStream","commander","WriteRun","command",
-"BZip2OutputStream","commander","Dispose","command",
-"BZip2OutputStream","commander","Flush","command",
-"BZip2OutputStream","commander","Initialize","command",
-"BZip2OutputStream","commander","InitBlock","command",
-"BZip2OutputStream","commander","EndBlock","command",
-"BZip2OutputStream","commander","EndCompression","command",
-"BZip2OutputStream","commander","BsFinishedWithStream","command",
-"BZip2OutputStream","commander","BsW","command",
-"BZip2OutputStream","commander","BsPutUChar","command",
-"BZip2OutputStream","commander","BsPutint","command",
-"BZip2OutputStream","commander","BsPutIntVS","command",
-"BZip2OutputStream","commander","SendMTFValues","command",
-"BZip2OutputStream","commander","MoveToFrontCodeAndSend","command",
-"BZip2OutputStream","commander","SimpleSort","command",
-"BZip2OutputStream","commander","Vswap","command",
-"BZip2OutputStream","commander","QSort3","command",
-"BZip2OutputStream","commander","MainSort","command",
-"BZip2OutputStream","commander","RandomiseBlock","command",
-"BZip2OutputStream","commander","DoReversibleTransformation","command",
-"BZip2OutputStream","commander","FullGtU","predicate set",
-"BZip2OutputStream","commander","AllocateCompressStructures","command",
-"BZip2OutputStream","commander","GenerateMTFValues","command",
-"BZip2OutputStream","commander","get","incidental",
-"BZip2OutputStream","commander","get","incidental",
-"BZip2OutputStream","commander","get","get",
-"BZip2OutputStream","commander","get","get",
-"BZip2OutputStream","commander","get","get",
-"BZip2OutputStream","commander","set","stateless",
-"BZip2OutputStream","commander","get","get",
-"OutputWindow","unclassified","Write","command",
-"OutputWindow","unclassified","SlowRepeat","command",
-"OutputWindow","unclassified","Repeat","command",
-"OutputWindow","unclassified","CopyStored","property non-void-command",
-"OutputWindow","unclassified","CopyDict","void-accessor set",
-"OutputWindow","unclassified","GetFreeSpace","property",
-"OutputWindow","unclassified","GetAvailable","get",
-"OutputWindow","unclassified","CopyOutput","property set",
-"OutputWindow","unclassified","Reset","command",
-"ZipFile","boundary","GlobalSetup","set collaborator",
-"ZipFile","boundary","ReadLargeZipFile","wrapper",
-"ZipFile","boundary","OnKeysRequired","set collaborator",
-"ZipFile","boundary","ZipFile","constructor",
-"ZipFile","boundary","ZipFile","constructor",
-"ZipFile","boundary","ZipFile","constructor",
-"ZipFile","boundary","ZipFile","constructor",
-"ZipFile","boundary","ZipFile","constructor",
-"ZipFile","boundary","ZipFile","constructor",
-"ZipFile","boundary","ZipFile","constructor",
-"ZipFile","boundary","ZipFile","constructor",
-"ZipFile","boundary","~ZipFile","destructor",
-"ZipFile","boundary","Close","command",
-"ZipFile","boundary","IEnumerable.GetEnumerator","property non-void-command collaborator",
-"ZipFile","boundary","IEnumerable<ZipEntry>.GetEnumerator","property non-void-command collaborator",
-"ZipFile","boundary","GetEnumerator","property factory collaborator",
-"ZipFile","boundary","FindEntry","property wrapper",
-"ZipFile","boundary","GetEntry","property non-void-command collaborator",
-"ZipFile","boundary","GetInputStream","property non-void-command collaborator",
-"ZipFile","boundary","GetInputStream","non-void-command factory collaborator",
-"ZipFile","boundary","TestArchive","predicate non-void-command",
-"ZipFile","boundary","TestArchive","predicate non-void-command collaborator",
-"ZipFile","boundary","TestLocalHeader","property non-void-command collaborator",
-"ZipFile","boundary","BeginUpdate","command collaborator",
-"ZipFile","boundary","BeginUpdate","command collaborator",
-"ZipFile","boundary","BeginUpdate","command",
-"ZipFile","boundary","CommitUpdate","command",
-"ZipFile","boundary","AbortUpdate","command",
-"ZipFile","boundary","SetComment","command",
-"ZipFile","boundary","AddUpdate","void-accessor command collaborator",
-"ZipFile","boundary","Add","set collaborator",
-"ZipFile","boundary","Add","set collaborator",
-"ZipFile","boundary","Add","command",
-"ZipFile","boundary","Add","command",
-"ZipFile","boundary","Add","command",
-"ZipFile","boundary","Add","command collaborator",
-"ZipFile","boundary","Add","command collaborator",
-"ZipFile","boundary","Add","command collaborator",
-"ZipFile","boundary","Add","void-accessor command collaborator",
-"ZipFile","boundary","AddDirectory","command collaborator",
-"ZipFile","boundary","Delete","predicate non-void-command",
-"ZipFile","boundary","Delete","command collaborator",
-"ZipFile","boundary","WriteLEShort","command",
-"ZipFile","boundary","WriteLEUshort","command",
-"ZipFile","boundary","WriteLEInt","command",
-"ZipFile","boundary","WriteLEUint","command",
-"ZipFile","boundary","WriteLeLong","command",
-"ZipFile","boundary","WriteLEUlong","command",
-"ZipFile","boundary","WriteLocalEntryHeader","void-accessor command collaborator",
-"ZipFile","boundary","WriteCentralDirectoryHeader","property non-void-command collaborator",
-"ZipFile","boundary","PostUpdateCleanup","command",
-"ZipFile","boundary","GetTransformedFileName","controller stateless",
-"ZipFile","boundary","GetTransformedDirectoryName","controller stateless",
-"ZipFile","boundary","GetBuffer","get set",
-"ZipFile","boundary","CopyDescriptorBytes","command collaborator",
-"ZipFile","boundary","CopyBytes","void-accessor command",
-"ZipFile","boundary","CopyDescriptorBytesDirect","void-accessor command collaborator",
-"ZipFile","boundary","CopyEntryDataDirect","void-accessor command",
-"ZipFile","boundary","FindExistingUpdate","property non-void-command collaborator",
-"ZipFile","boundary","FindExistingUpdate","property non-void-command",
-"ZipFile","boundary","GetOutputStream","non-void-command factory collaborator",
-"ZipFile","boundary","AddEntry","void-accessor command collaborator",
-"ZipFile","boundary","ModifyEntry","void-accessor command collaborator",
-"ZipFile","boundary","CopyEntryDirect","void-accessor command collaborator",
-"ZipFile","boundary","CopyEntry","void-accessor command collaborator",
-"ZipFile","boundary","Reopen","command collaborator",
-"ZipFile","boundary","Reopen","wrapper stateless",
-"ZipFile","boundary","UpdateCommentOnly","command",
-"ZipFile","boundary","RunUpdates","command collaborator",
-"ZipFile","boundary","CheckUpdating","unclassified",
-"ZipFile","boundary","IDisposable.Dispose","command",
-"ZipFile","boundary","DisposeInternal","command",
-"ZipFile","boundary","Dispose","command",
-"ZipFile","boundary","ReadLEUshort","property non-void-command",
-"ZipFile","boundary","ReadLEUint","property non-void-command",
-"ZipFile","boundary","ReadLEUlong","property non-void-command",
-"ZipFile","boundary","ReadEntries","command",
-"ZipFile","boundary","LocateEntry","property non-void-command collaborator",
-"ZipFile","boundary","CreateAndInitDecryptionStream","non-void-command factory collaborator",
-"ZipFile","boundary","CreateAndInitEncryptionStream","property non-void-command factory collaborator",
-"ZipFile","boundary","get","get",
-"ZipFile","boundary","set","set",
-"ZipFile","boundary","set","non-void-command",
-"ZipFile","boundary","get","predicate",
-"ZipFile","boundary","get","get",
-"ZipFile","boundary","set","set",
-"ZipFile","boundary","get","predicate",
-"ZipFile","boundary","get","get",
-"ZipFile","boundary","get","get",
-"ZipFile","boundary","get","get",
-"ZipFile","boundary","get","get",
-"ZipFile","boundary","get","get",
-"ZipFile","boundary","get","property wrapper",
-"ZipFile","boundary","set","set collaborator",
-"ZipFile","boundary","get","get collaborator",
-"ZipFile","boundary","set","set collaborator",
-"ZipFile","boundary","get","get collaborator",
-"ZipFile","boundary","set","set collaborator",
-"ZipFile","boundary","get","get",
-"ZipFile","boundary","set","non-void-command",
-"ZipFile","boundary","get","predicate",
-"ZipFile","boundary","get","get collaborator",
-"ZipFile","boundary","set","set collaborator",
-"FastZipDemo","boundary degenerate","ListFile","collaborator incidental",
-"FastZipDemo","boundary degenerate","ListDir","collaborator incidental",
-"FastZipDemo","boundary degenerate","ListFileSystem","controller stateless",
-"FastZipDemo","boundary degenerate","ShowProgress","collaborator incidental",
-"FastZipDemo","boundary degenerate","ProcessFile","collaborator incidental",
-"FastZipDemo","boundary degenerate","ProcessDirectory","collaborator incidental",
-"FastZipDemo","boundary degenerate","ConfirmOverwrite","controller stateless",
-"FastZipDemo","boundary degenerate","Run","command collaborator",
-"TarInputStream","unclassified","TarInputStream","constructor",
-"TarInputStream","unclassified","ReadTarInputStream","property wrapper",
-"TarInputStream","unclassified","ReadTarInputStreamAsync","property non-void-command collaborator",
-"TarInputStream","unclassified","TarInputStream","constructor",
-"TarInputStream","unclassified","TarInputStream","constructor",
-"TarInputStream","unclassified","TarInputStream","constructor",
-"TarInputStream","unclassified","TarInputStream","constructor",
-"TarInputStream","unclassified","Flush","command",
-"TarInputStream","unclassified","FlushAsync","non-void-command collaborator",
-"TarInputStream","unclassified","Seek","collaborator stateless",
-"TarInputStream","unclassified","SetLength","stateless",
-"TarInputStream","unclassified","Write","stateless",
-"TarInputStream","unclassified","WriteByte","stateless",
-"TarInputStream","unclassified","ReadByte","property non-void-command collaborator",
-"TarInputStream","unclassified","ReadAsync","property non-void-command collaborator",
-"TarInputStream","unclassified","ReadAsync","property non-void-command collaborator",
-"TarInputStream","unclassified","Read","property non-void-command",
-"TarInputStream","unclassified","ReadAsync","property non-void-command collaborator",
-"TarInputStream","unclassified","Dispose","command",
-"TarInputStream","unclassified","DisposeAsync","non-void-command collaborator",
-"TarInputStream","unclassified","SetEntryFactory","set collaborator",
-"TarInputStream","unclassified","GetRecordSize","get wrapper",
-"TarInputStream","unclassified","SkipAsync","non-void-command collaborator",
-"TarInputStream","unclassified","Mark","empty",
-"TarInputStream","unclassified","Reset","empty",
-"TarInputStream","unclassified","GetNextEntryAsync","get property non-void-command factory collaborator",
-"TarInputStream","unclassified","CopyEntryContentsAsync","non-void-command collaborator",
-"TarInputStream","unclassified","SkipToNextEntryAsync","non-void-command collaborator",
-"TarInputStream","unclassified","get","get",
-"TarInputStream","unclassified","set","set",
-"TarInputStream","unclassified","get","get",
-"TarInputStream","unclassified","get","incidental",
-"TarInputStream","unclassified","get","incidental",
-"TarInputStream","unclassified","get","get",
-"TarInputStream","unclassified","get","get",
-"TarInputStream","unclassified","set","stateless",
-"TarInputStream","unclassified","get","get",
-"TarInputStream","unclassified","get","property",
-"TarInputStream","unclassified","get","incidental",
-"InflaterHuffmanTree","small-class","InflaterHuffmanTree","constructor",
-"InflaterHuffmanTree","small-class","InflaterHuffmanTree","constructor",
-"InflaterHuffmanTree","small-class","BuildTree","command collaborator",
-"InflaterHuffmanTree","small-class","GetSymbol","property controller",
-"Adler32","unclassified","Adler32","constructor",
-"Adler32","unclassified","Adler32LargeUpdate","property wrapper",
-"Adler32","unclassified","Adler32","constructor",
-"Adler32","unclassified","Reset","set",
-"Adler32","unclassified","Update","set",
-"Adler32","unclassified","Update","wrapper stateless",
-"Adler32","unclassified","Update","set collaborator",
-"Adler32","unclassified","get","get",
-"GeneralHandling","unclassified","ExerciseZip","command",
-"GeneralHandling","unclassified","InvalidPasswordSeekable","command",
-"GeneralHandling","unclassified","ExerciseGetNextEntry","controller stateless",
-"GeneralHandling","unclassified","InvalidPasswordNonSeekable","command",
-"GeneralHandling","unclassified","AddEntryAfterFinish","controller stateless",
-"GeneralHandling","unclassified","SetCommentOversize","controller stateless",
-"GeneralHandling","unclassified","CloseOnlyHandled","controller stateless",
-"GeneralHandling","unclassified","BasicDeflated","command",
-"GeneralHandling","unclassified","BasicDeflatedNonSeekable","command",
-"GeneralHandling","unclassified","BasicStored","command",
-"GeneralHandling","unclassified","BasicStoredNonSeekable","command",
-"GeneralHandling","unclassified","StoredNonSeekableKnownSizeNoCrc","controller stateless",
-"GeneralHandling","unclassified","BasicDeflatedEncrypted","command",
-"GeneralHandling","unclassified","BasicDeflatedEncryptedNonSeekable","command",
-"GeneralHandling","unclassified","SkipEncryptedEntriesWithoutSettingPassword","controller stateless",
-"GeneralHandling","unclassified","MixedEncryptedAndPlain","wrapper stateless",
-"GeneralHandling","unclassified","BasicStoredEncrypted","command",
-"GeneralHandling","unclassified","BasicStoredEncryptedNonSeekable","command",
-"GeneralHandling","unclassified","StoredNonSeekableConvertToDeflate","controller stateless",
-"GeneralHandling","unclassified","Stream_UnicodeEntries","controller stateless",
-"GeneralHandling","unclassified","PartialStreamClosing","command collaborator",
-"GeneralHandling","unclassified","TestLargeZip","controller stateless",
-"GeneralHandling","unclassified","TestLargeZipFile","command",
-"GeneralHandling","unclassified","MakeLargeZipFile","command",
-"GeneralHandling","unclassified","SerializedObjectZeroLength","command collaborator",
-"GeneralHandling","unclassified","SerializedObject","command collaborator",
-"GeneralHandling","unclassified","ZipZeroLength","controller stateless",
-"GeneralHandling","unclassified","UnZipZeroLength","controller stateless",
-"GeneralHandling","unclassified","LegacyNameConversion","controller stateless",
-"GeneralHandling","unclassified","UnicodeNameConversion","controller stateless",
-"GeneralHandling","unclassified","PasswordCheckingWithDateInExtraData","controller stateless",
-"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor",
-"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor",
-"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor",
-"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor",
-"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor",
-"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor",
-"ZipAESTransform","small-class","ZipAESTransform","constructor",
-"ZipAESTransform","small-class","TransformBlock","property non-void-command",
-"ZipAESTransform","small-class","TransformFinalBlock","property set",
-"MultipleRuntimes","empty","MultipleRuntimes","constructor",
-"ZipBase","degenerate","MakeInMemoryZip","controller stateless",
-"ZipBase","degenerate","MakeInMemoryZip","controller stateless",
-"ZipBase","degenerate","WriteToFile","wrapper stateless",
-"ZipBase","degenerate","MakeZipFile","wrapper stateless",
-"ZipBase","degenerate","MakeZipFile","wrapper stateless",
-"ZipBase","degenerate","MakeZipFile","wrapper stateless",
-"ZipBase","degenerate","MakeZipFile","wrapper stateless",
-"ZipBase","degenerate","MakeZipFile","controller stateless",
-"ZipBase","degenerate","ReadByteChecked","controller stateless",
-"ZipBase","degenerate","ReadInt","property non-void-command collaborator",
-"ZipBase","degenerate","ReadLong","property non-void-command collaborator",
-"BZip2Crc","unclassified","BZip2Crc","constructor",
-"BZip2Crc","unclassified","BZip2CrcLargeUpdate","property controller",
-"BZip2Crc","unclassified","BZip2Crc","constructor",
-"BZip2Crc","unclassified","Reset","set",
-"BZip2Crc","unclassified","Update","set",
-"BZip2Crc","unclassified","Update","void-accessor command",
-"BZip2Crc","unclassified","Update","void-accessor command collaborator",
-"BZip2Crc","unclassified","Update","void-accessor set",
-"BZip2Crc","unclassified","SlowUpdateLoop","void-accessor command",
-"BZip2Crc","unclassified","get","property",
-"GZipAsyncTests","commander boundary small-class","SmallBufferDecompressionAsync","non-void-command collaborator",
-"DeflaterEngine","unclassified","DeflaterEngine","constructor",
-"DeflaterEngine","unclassified","DeflaterEngine","constructor",
-"DeflaterEngine","unclassified","Deflate","predicate non-void-command",
-"DeflaterEngine","unclassified","SetInput","void-accessor command",
-"DeflaterEngine","unclassified","NeedsInput","predicate",
-"DeflaterEngine","unclassified","SetDictionary","void-accessor command",
-"DeflaterEngine","unclassified","Reset","command",
-"DeflaterEngine","unclassified","ResetAdler","command",
-"DeflaterEngine","unclassified","SetLevel","command",
-"DeflaterEngine","unclassified","FillWindow","command",
-"DeflaterEngine","unclassified","UpdateHash","set",
-"DeflaterEngine","unclassified","InsertString","property non-void-command",
-"DeflaterEngine","unclassified","SlideWindow","command",
-"DeflaterEngine","unclassified","FindLongestMatch","predicate non-void-command",
-"DeflaterEngine","unclassified","DeflateStored","predicate non-void-command",
-"DeflaterEngine","unclassified","DeflateFast","predicate non-void-command",
-"DeflaterEngine","unclassified","DeflateSlow","predicate non-void-command",
-"DeflaterEngine","unclassified","get","property",
-"DeflaterEngine","unclassified","get","get",
-"DeflaterEngine","unclassified","get","get collaborator",
-"DeflaterEngine","unclassified","set","set collaborator",
-"BZip2InputStream","commander","BZip2InputStream","constructor",
-"BZip2InputStream","commander","DecompressData","wrapper",
-"BZip2InputStream","commander","BZip2InputStream","constructor",
-"BZip2InputStream","commander","Flush","command",
-"BZip2InputStream","commander","Seek","collaborator stateless",
-"BZip2InputStream","commander","SetLength","stateless",
-"BZip2InputStream","commander","Write","stateless",
-"BZip2InputStream","commander","WriteByte","stateless",
-"BZip2InputStream","commander","Read","property non-void-command",
-"BZip2InputStream","commander","Dispose","command",
-"BZip2InputStream","commander","ReadByte","property non-void-command",
-"BZip2InputStream","commander","MakeMaps","command",
-"BZip2InputStream","commander","Initialize","command",
-"BZip2InputStream","commander","InitBlock","command",
-"BZip2InputStream","commander","EndBlock","command",
-"BZip2InputStream","commander","Complete","command",
-"BZip2InputStream","commander","FillBuffer","command",
-"BZip2InputStream","commander","BsR","property set",
-"BZip2InputStream","commander","BsGetUChar","property non-void-command",
-"BZip2InputStream","commander","BsGetIntVS","property non-void-command",
-"BZip2InputStream","commander","BsGetInt32","property non-void-command",
-"BZip2InputStream","commander","RecvDecodingTables","command",
-"BZip2InputStream","commander","GetAndMoveToFrontDecode","command collaborator",
-"BZip2InputStream","commander","SetupBlock","command",
-"BZip2InputStream","commander","SetupRandPartA","command",
-"BZip2InputStream","commander","SetupNoRandPartA","command",
-"BZip2InputStream","commander","SetupRandPartB","command",
-"BZip2InputStream","commander","SetupRandPartC","command",
-"BZip2InputStream","commander","SetupNoRandPartB","command",
-"BZip2InputStream","commander","SetupNoRandPartC","command",
-"BZip2InputStream","commander","SetDecompressStructureSizes","command",
-"BZip2InputStream","commander","get","get",
-"BZip2InputStream","commander","get","incidental",
-"BZip2InputStream","commander","get","incidental",
-"BZip2InputStream","commander","get","get",
-"BZip2InputStream","commander","get","get",
-"BZip2InputStream","commander","set","stateless",
-"NameFilter","unclassified","NameFilter","constructor",
-"NameFilter","unclassified","ToString","get",
-"NameFilter","unclassified","IsIncluded","predicate controller",
-"NameFilter","unclassified","IsExcluded","predicate controller",
-"NameFilter","unclassified","IsMatch","predicate non-void-command",
-"NameFilter","unclassified","Compile","command",
-"ZipInputStream","unclassified","GlobalSetup","set",
-"ZipInputStream","unclassified","ReadZipInputStream","property wrapper",
-"ZipInputStream","unclassified","ZipInputStream","constructor",
-"ZipInputStream","unclassified","ZipInputStream","constructor",
-"ZipInputStream","unclassified","ZipInputStream","constructor",
-"ZipInputStream","unclassified","GetNextEntry","get property non-void-command factory collaborator",
-"ZipInputStream","unclassified","SkipUntilNextEntry","predicate non-void-command collaborator",
-"ZipInputStream","unclassified","ReadDataDescriptor","command",
-"ZipInputStream","unclassified","CompleteCloseEntry","command",
-"ZipInputStream","unclassified","CloseEntry","command",
-"ZipInputStream","unclassified","ReadByte","property non-void-command",
-"ZipInputStream","unclassified","ReadingNotAvailable","stateless",
-"ZipInputStream","unclassified","ReadingNotSupported","stateless",
-"ZipInputStream","unclassified","InitialRead","property non-void-command",
-"ZipInputStream","unclassified","Read","wrapper stateless",
-"ZipInputStream","unclassified","BodyRead","property non-void-command",
-"ZipInputStream","unclassified","Dispose","command",
-"ZipInputStream","unclassified","get","get",
-"ZipInputStream","unclassified","set","set",
-"ZipInputStream","unclassified","get","property",
-"ZipInputStream","unclassified","get","get",
-"PkzipClassicCryptoBase","unclassified","TransformByte","property",
-"PkzipClassicCryptoBase","unclassified","SetKeys","void-accessor command",
-"PkzipClassicCryptoBase","unclassified","UpdateKeys","command",
-"PkzipClassicCryptoBase","unclassified","Reset","command",
-"ProgressEventArgs","data-provider","ProgressEventArgs","constructor",
-"ProgressEventArgs","data-provider","get","get",
-"ProgressEventArgs","data-provider","get","get",
-"ProgressEventArgs","data-provider","set","set",
-"ProgressEventArgs","data-provider","get","property",
-"ProgressEventArgs","data-provider","get","get",
-"ProgressEventArgs","data-provider","get","get",
-"StringMemoryDataSource","empty","StringMemoryDataSource","constructor",
-"TarOutputStream","unclassified","WriteTarOutputStream","command",
-"TarOutputStream","unclassified","WriteTarOutputStreamAsync","non-void-command collaborator",
-"TarOutputStream","unclassified","TarOutputStream","constructor",
-"TarOutputStream","unclassified","TarOutputStream","constructor",
-"TarOutputStream","unclassified","TarOutputStream","constructor",
-"TarOutputStream","unclassified","TarOutputStream","constructor",
-"TarOutputStream","unclassified","Seek","property non-void-command collaborator",
-"TarOutputStream","unclassified","SetLength","command",
-"TarOutputStream","unclassified","ReadByte","property non-void-command",
-"TarOutputStream","unclassified","Read","property non-void-command",
-"TarOutputStream","unclassified","ReadAsync","property non-void-command collaborator",
-"TarOutputStream","unclassified","Flush","command",
-"TarOutputStream","unclassified","FlushAsync","non-void-command collaborator",
-"TarOutputStream","unclassified","FinishAsync","non-void-command collaborator",
-"TarOutputStream","unclassified","Dispose","set",
-"TarOutputStream","unclassified","GetRecordSize","get wrapper",
-"TarOutputStream","unclassified","PutNextEntryAsync","non-void-command collaborator",
-"TarOutputStream","unclassified","CloseEntryAsync","non-void-command collaborator",
-"TarOutputStream","unclassified","WriteByte","wrapper stateless",
-"TarOutputStream","unclassified","WriteAsync","non-void-command collaborator",
-"TarOutputStream","unclassified","WriteEofBlockAsync","non-void-command collaborator",
-"TarOutputStream","unclassified","get","get",
-"TarOutputStream","unclassified","set","set",
-"TarOutputStream","unclassified","get","get",
-"TarOutputStream","unclassified","get","get",
-"TarOutputStream","unclassified","get","get",
-"TarOutputStream","unclassified","get","get",
-"TarOutputStream","unclassified","get","get",
-"TarOutputStream","unclassified","set","set",
-"TarOutputStream","unclassified","get","get",
-"TarOutputStream","unclassified","get","predicate",
-"InvalidNameException","empty","InvalidNameException","constructor",
-"InvalidNameException","empty","InvalidNameException","constructor",
-"InvalidNameException","empty","InvalidNameException","constructor",
-"InvalidNameException","empty","InvalidNameException","constructor",
-"DeflaterPending","empty","DeflaterPending","constructor",
-"TrackedFileStream","data-class","TrackedFileStream","constructor",
-"TrackedFileStream","data-class","Dispose","set",
-"TrackedFileStream","data-class","Close","set",
-"TrackedFileStream","data-class","get","get",
-"TrackedFileStream","data-class","get","get",
-"DynamicDiskDataSource","boundary degenerate small-class","GetSource","wrapper stateless",
-"FastZipEvents","data-provider boundary","OnDirectoryFailure","predicate wrapper",
-"FastZipEvents","data-provider boundary","OnFileFailure","predicate wrapper",
-"FastZipEvents","data-provider boundary","OnProcessFile","predicate wrapper",
-"FastZipEvents","data-provider boundary","OnCompletedFile","predicate wrapper",
-"FastZipEvents","data-provider boundary","OnProcessDirectory","predicate wrapper",
-"FastZipEvents","data-provider boundary","get","get collaborator",
-"FastZipEvents","data-provider boundary","set","set collaborator",
-"TarEntry","unclassified","TarEntry","constructor",
-"TarEntry","unclassified","TarEntry","constructor",
-"TarEntry","unclassified","TarEntry","constructor",
-"TarEntry","unclassified","TarEntry","constructor",
-"TarEntry","unclassified","Clone","non-void-command factory collaborator",
-"TarEntry","unclassified","Equals","wrapper stateless",
-"TarEntry","unclassified","GetHashCode","wrapper stateless",
-"TarEntry","unclassified","IsDescendent","controller stateless",
-"TarEntry","unclassified","SetIds","incidental",
-"TarEntry","unclassified","SetNames","incidental",
-"TarEntry","unclassified","GetFileTarHeader","void-accessor set",
-"TarEntry","unclassified","GetDirectoryEntries","property factory wrapper",
-"TarEntry","unclassified","WriteEntryHeader","void-accessor command",
-"TarEntry","unclassified","WriteEntryHeader","void-accessor command collaborator",
-"TarEntry","unclassified","NameTarHeader","command",
-"TarEntry","unclassified","get","get collaborator",
-"TarEntry","unclassified","get","get",
-"TarEntry","unclassified","set","set",
-"TarEntry","unclassified","get","get",
-"TarEntry","unclassified","set","set",
-"TarEntry","unclassified","get","get",
-"TarEntry","unclassified","set","set",
-"TarEntry","unclassified","get","get",
-"TarEntry","unclassified","set","set",
-"TarEntry","unclassified","get","get",
-"TarEntry","unclassified","set","set",
-"TarEntry","unclassified","get","get collaborator",
-"TarEntry","unclassified","set","set collaborator",
-"TarEntry","unclassified","get","get",
-"TarEntry","unclassified","get","get",
-"TarEntry","unclassified","set","set",
-"TarEntry","unclassified","get","predicate wrapper",
-"GZipOutputStream","commander","GZipOutputStream","constructor",
-"GZipOutputStream","commander","GZipOutputStream","constructor",
-"GZipOutputStream","commander","SetLevel","command",
-"GZipOutputStream","commander","GetLevel","property non-void-command",
-"GZipOutputStream","commander","WriteSyncOrAsync","non-void-command collaborator",
-"GZipOutputStream","commander","Dispose","command",
-"GZipOutputStream","commander","DisposeAsync","non-void-command collaborator",
-"GZipOutputStream","commander","Flush","command",
-"GZipOutputStream","commander","FlushAsync","non-void-command collaborator",
-"GZipOutputStream","commander","Finish","command collaborator",
-"GZipOutputStream","commander","FinishAsync","non-void-command collaborator",
-"GZipOutputStream","commander","GetFooter","property",
-"GZipOutputStream","commander","GetHeader","property non-void-command",
-"GZipOutputStream","commander","WriteHeader","set collaborator",
-"GZipOutputStream","commander","WriteHeaderAsync","non-void-command collaborator",
-"GZipOutputStream","commander","set","non-void-command",
-"Inflater","unclassified","Inflater","constructor",
-"Inflater","unclassified","Inflater","constructor",
-"Inflater","unclassified","Reset","command",
-"Inflater","unclassified","DecodeHeader","predicate non-void-command",
-"Inflater","unclassified","DecodeDict","predicate non-void-command",
-"Inflater","unclassified","DecodeHuffman","predicate non-void-command",
-"Inflater","unclassified","DecodeChksum","predicate non-void-command",
-"Inflater","unclassified","Decode","predicate non-void-command",
-"Inflater","unclassified","SetDictionary","void-accessor command",
-"Inflater","unclassified","SetDictionary","void-accessor command",
-"Inflater","unclassified","SetInput","void-accessor command",
-"Inflater","unclassified","SetInput","void-accessor set",
-"Inflater","unclassified","Inflate","property non-void-command",
-"Inflater","unclassified","Inflate","property non-void-command",
-"Inflater","unclassified","get","get",
-"Inflater","unclassified","get","predicate",
-"Inflater","unclassified","get","predicate non-void-command",
-"Inflater","unclassified","get","get property",
-"Inflater","unclassified","get","get",
-"Inflater","unclassified","get","property",
-"Inflater","unclassified","get","get",
-"ReadWriteRingBuffer","unclassified","ReadWriteRingBuffer","constructor",
-"ReadWriteRingBuffer","unclassified","Clear","command",
-"ReadWriteRingBuffer","unclassified","Close","set",
-"ReadWriteRingBuffer","unclassified","WriteByte","command",
-"ReadWriteRingBuffer","unclassified","Write","command",
-"ReadWriteRingBuffer","unclassified","ReadByte","property non-void-command",
-"ReadWriteRingBuffer","unclassified","Read","property non-void-command",
-"ReadWriteRingBuffer","unclassified","get","predicate",
-"ReadWriteRingBuffer","unclassified","get","predicate",
-"ReadWriteRingBuffer","unclassified","get","get",
-"ReadWriteRingBuffer","unclassified","get","get",
-"ReadWriteRingBuffer","unclassified","get","get",
-"ReadWriteRingBuffer","unclassified","get","get",
-"ReadWriteRingBuffer","unclassified","get","get",
-"ReadWriteRingBuffer","unclassified","get","get wrapper",
-"InflaterDynHeader","entity boundary small-class","InflaterDynHeader","constructor",
-"InflaterDynHeader","entity boundary small-class","CreateStateMachine","property non-void-command collaborator",
-"SharpZipArchiver","boundary","SetArgs","predicate non-void-command",
-"SharpZipArchiver","boundary","ShowEnvironment","set",
-"SharpZipArchiver","boundary","ShowVersion","set collaborator",
-"SharpZipArchiver","boundary","ShowHelp","set",
-"SharpZipArchiver","boundary","ListZip","wrapper",
-"SharpZipArchiver","boundary","ListZipViaZipFile","wrapper stateless",
-"SharpZipArchiver","boundary","List","command collaborator",
-"SharpZipArchiver","boundary","CookZipEntryName","property wrapper",
-"SharpZipArchiver","boundary","AddFileSeekableOutput","command collaborator",
-"SharpZipArchiver","boundary","GetBuffer","get set",
-"SharpZipArchiver","boundary","AddFile","command",
-"SharpZipArchiver","boundary","AddFolder","command collaborator",
-"SharpZipArchiver","boundary","CompressFolder","property non-void-command",
-"SharpZipArchiver","boundary","Create","command collaborator",
-"SharpZipArchiver","boundary","ExtractFile","predicate controller",
-"SharpZipArchiver","boundary","ExtractDirectory","empty",
-"SharpZipArchiver","boundary","DecompressFile","predicate non-void-command collaborator",
-"SharpZipArchiver","boundary","Extract","set collaborator",
-"SharpZipArchiver","boundary","Test","wrapper",
-"SharpZipArchiver","boundary","Delete","wrapper stateless",
-"SharpZipArchiver","boundary","Add","wrapper stateless",
-"SharpZipArchiver","boundary","Execute","void-accessor command",
-"BZip2Suite","degenerate","BasicRoundTrip","controller",
-"BZip2Suite","degenerate","CreateEmptyArchive","controller stateless",
-"BZip2Suite","degenerate","WriteThroughput","wrapper stateless",
-"BZip2Suite","degenerate","ReadWriteThroughput","wrapper stateless",
-"PassesTestArchiveConstraint","factory controller small-class","PassesTestArchiveConstraint","constructor",
-"PassesTestArchiveConstraint","factory controller small-class","ApplyTo<TActual>","property factory wrapper",
-"GZipConstants","boundary degenerate small-class","get","wrapper stateless",
-"Cmd_Tar","unclassified","Cmd_Tar","constructor",
-"Cmd_Tar","unclassified","InstanceMain","void-accessor command",
-"Cmd_Tar","unclassified","ShowTarProgressMessage","void-accessor controller",
-"Cmd_Tar","unclassified","ProcessArguments","property non-void-command",
-"StringBuilderPoolTests","pure-controller degenerate","RoundTrip","controller stateless",
-"StringBuilderPoolTests","pure-controller degenerate","ReturnsClears","controller stateless",
-"StringBuilderPoolTests","pure-controller degenerate","ThreadSafeAsync","controller stateless",
-"InvalidHeaderException","empty","InvalidHeaderException","constructor",
-"InvalidHeaderException","empty","InvalidHeaderException","constructor",
-"InvalidHeaderException","empty","InvalidHeaderException","constructor",
-"InvalidHeaderException","empty","InvalidHeaderException","constructor",
-"FileSystemScanner","entity commander boundary","FileSystemScanner","constructor",
-"FileSystemScanner","entity commander boundary","FileSystemScanner","constructor",
-"FileSystemScanner","entity commander boundary","FileSystemScanner","constructor",
-"FileSystemScanner","entity commander boundary","FileSystemScanner","constructor",
-"FileSystemScanner","entity commander boundary","OnDirectoryFailure","predicate set collaborator",
-"FileSystemScanner","entity commander boundary","OnFileFailure","predicate set collaborator",
-"FileSystemScanner","entity commander boundary","OnProcessFile","set collaborator",
-"FileSystemScanner","entity commander boundary","OnCompleteFile","set collaborator",
-"FileSystemScanner","entity commander boundary","OnProcessDirectory","set collaborator",
-"FileSystemScanner","entity commander boundary","Scan","set",
-"FileSystemScanner","entity commander boundary","ScanDir","command",
-"PassthroughTests","boundary degenerate","AddingValidPrecompressedEntryToZipOutputStream","wrapper stateless",
-"PassthroughTests","boundary degenerate","AddingPrecompressedEntryToZipOutputStreamWithInvalidSize","wrapper stateless",
-"PassthroughTests","boundary degenerate","AddingPrecompressedEntryToZipOutputStreamWithInvalidCompressedSize","wrapper stateless",
-"PassthroughTests","boundary degenerate","AddingPrecompressedEntryToZipOutputStreamWithNonSupportedMethod","wrapper stateless",
-"PassthroughTests","boundary degenerate","AddingPrecompressedEntryToZipOutputStreamWithEncryption","wrapper stateless",
-"GZipException","empty","GZipException","constructor",
-"GZipException","empty","GZipException","constructor",
-"GZipException","empty","GZipException","constructor",
-"GZipException","empty","GZipException","constructor",
-"TarException","empty","TarException","constructor",
-"TarException","empty","TarException","constructor",
-"TarException","empty","TarException","constructor",
-"TarException","empty","TarException","constructor",
-"GZipInputStream","unclassified","GZipInputStream","constructor",
-"GZipInputStream","unclassified","GZipInputStream","constructor",
-"GZipInputStream","unclassified","Read","property non-void-command",
-"GZipInputStream","unclassified","GetFilename","get",
-"GZipInputStream","unclassified","ReadHeader","predicate non-void-command",
-"GZipInputStream","unclassified","ReadFooter","command",
-"LzwException","empty","LzwException","constructor",
-"LzwException","empty","LzwException","constructor",
-"LzwException","empty","LzwException","constructor",
-"LzwException","empty","LzwException","constructor",
-"DeflaterHuffman","unclassified","DeflaterHuffman","constructor",
-"DeflaterHuffman","unclassified","DeflaterHuffman","constructor",
-"DeflaterHuffman","unclassified","Reset","command",
-"DeflaterHuffman","unclassified","SendAllTrees","command",
-"DeflaterHuffman","unclassified","CompressBlock","command",
-"DeflaterHuffman","unclassified","FlushStoredBlock","void-accessor command",
-"DeflaterHuffman","unclassified","FlushBlock","void-accessor command",
-"DeflaterHuffman","unclassified","IsFull","predicate",
-"DeflaterHuffman","unclassified","TallyLit","predicate non-void-command",
-"DeflaterHuffman","unclassified","TallyDist","predicate non-void-command",
-"ZipNameTransform","unclassified","ZipNameTransform","constructor",
-"ZipNameTransform","unclassified","ZipNameTransform","constructor",
-"ZipNameTransform","unclassified","ZipNameTransform","constructor",
-"ZipNameTransform","unclassified","TransformDirectory","property non-void-command",
-"ZipNameTransform","unclassified","TransformFile","property controller",
-"ZipNameTransform","unclassified","get","get",
-"ZipNameTransform","unclassified","set","set",
-"TarArchive","unclassified","OnProgressMessageEvent","wrapper",
-"TarArchive","unclassified","TarArchive","constructor",
-"TarArchive","unclassified","TarArchive","constructor",
-"TarArchive","unclassified","TarArchive","constructor",
-"TarArchive","unclassified","SetKeepOldFiles","set",
-"TarArchive","unclassified","SetAsciiTranslation","set",
-"TarArchive","unclassified","SetUserInfo","command",
-"TarArchive","unclassified","CloseArchive","command",
-"TarArchive","unclassified","ListContents","command collaborator",
-"TarArchive","unclassified","ExtractContents","command collaborator",
-"TarArchive","unclassified","ExtractEntry","command collaborator",
-"TarArchive","unclassified","ExtractAndTranslateEntry","command collaborator",
-"TarArchive","unclassified","WriteEntry","void-accessor command",
-"TarArchive","unclassified","WriteEntryCore","command",
-"TarArchive","unclassified","Dispose","command",
-"TarArchive","unclassified","Dispose","command",
-"TarArchive","unclassified","Close","command",
-"TarArchive","unclassified","~TarArchive","destructor",
-"TarArchive","unclassified","get","get",
-"TarArchive","unclassified","set","set",
-"TarArchive","unclassified","get","get",
-"TarArchive","unclassified","set","set",
-"TarArchive","unclassified","get","get",
-"TarArchive","unclassified","set","set",
-"TarArchive","unclassified","get","get",
-"TarArchive","unclassified","set","set",
-"TarArchive","unclassified","get","get",
-"TarArchive","unclassified","get","get",
-"TarArchive","unclassified","get","get",
-"TarArchive","unclassified","get","get",
-"TarArchive","unclassified","get","get property",
-"TarArchive","unclassified","set","non-void-command",
-"PkzipClassicDecryptCryptoTransform","degenerate","PkzipClassicDecryptCryptoTransform","constructor",
-"PkzipClassicDecryptCryptoTransform","degenerate","TransformFinalBlock","property non-void-command",
-"PkzipClassicDecryptCryptoTransform","degenerate","TransformBlock","property non-void-command collaborator",
-"PkzipClassicDecryptCryptoTransform","degenerate","Dispose","command",
-"PkzipClassicDecryptCryptoTransform","degenerate","get","incidental",
-"PkzipClassicDecryptCryptoTransform","degenerate","get","incidental",
-"PkzipClassicDecryptCryptoTransform","degenerate","get","incidental",
-"PkzipClassicDecryptCryptoTransform","degenerate","get","incidental",
-"TarBuffer","boundary","GetRecordSize","get wrapper",
-"TarBuffer","boundary","GetBlockFactor","get wrapper",
-"TarBuffer","boundary","TarBuffer","constructor",
-"TarBuffer","boundary","Initialize","command",
-"TarBuffer","boundary","IsEOFBlock","predicate wrapper",
-"TarBuffer","boundary","SkipBlockAsync","set collaborator",
-"TarBuffer","boundary","ReadBlock","property set",
-"TarBuffer","boundary","ReadBlockIntAsync","non-void-command collaborator",
-"TarBuffer","boundary","ReadRecordAsync","property non-void-command collaborator",
-"TarBuffer","boundary","GetCurrentBlockNum","get wrapper",
-"TarBuffer","boundary","GetCurrentRecordNum","get wrapper",
-"TarBuffer","boundary","WriteBlockAsync","property non-void-command collaborator",
-"TarBuffer","boundary","WriteBlock","void-accessor command",
-"TarBuffer","boundary","WriteBlockAsync","property non-void-command collaborator",
-"TarBuffer","boundary","WriteBlock","void-accessor command",
-"TarBuffer","boundary","WriteBlockAsync","set collaborator",
-"TarBuffer","boundary","WriteRecordAsync","non-void-command collaborator",
-"TarBuffer","boundary","WriteFinalRecordAsync","non-void-command collaborator",
-"TarBuffer","boundary","CloseAsync","non-void-command collaborator",
-"TarBuffer","boundary","get","get",
-"TarBuffer","boundary","get","get",
-"TarBuffer","boundary","get","get",
-"TarBuffer","boundary","get","get",
-"TarExtendedHeaderReader","commander","TarExtendedHeaderReader","constructor",
-"TarExtendedHeaderReader","commander","Read","command collaborator",
-"TarExtendedHeaderReader","commander","Flush","command",
-"TarExtendedHeaderReader","commander","ResetBuffers","command",
-"TarExtendedHeaderReader","commander","get","get",
-"BaseArchiveStorage","data-provider boundary data-class small-class","BaseArchiveStorage","constructor",
-"BaseArchiveStorage","data-provider boundary data-class small-class","get","get collaborator",
-"TarHeader","unclassified","TarHeader","constructor",
-"TarHeader","unclassified","GetName","get wrapper",
-"TarHeader","unclassified","Clone","property non-void-command collaborator",
-"TarHeader","unclassified","ParseBuffer","void-accessor command collaborator",
-"TarHeader","unclassified","ParseBuffer","void-accessor command",
-"TarHeader","unclassified","WriteHeader","void-accessor command",
-"TarHeader","unclassified","WriteHeader","void-accessor command collaborator",
-"TarHeader","unclassified","GetHashCode","wrapper stateless",
-"TarHeader","unclassified","Equals","predicate collaborator",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get collaborator",
-"TarHeader","unclassified","set","set collaborator",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarHeader","unclassified","get","get",
-"TarHeader","unclassified","set","set",
-"TarInputStreamTests","degenerate","TestRead","controller stateless",
-"TarInputStreamTests","degenerate","TestReadAsync","controller stateless",
-"TarInputStreamTests","degenerate","ReadEmptyStreamWhenArrayPoolIsDirty","wrapper stateless",
-"Deflater","unclassified","Deflater","constructor",
-"Deflater","unclassified","Deflater","constructor",
-"Deflater","unclassified","Deflater","constructor",
-"Deflater","unclassified","Reset","command",
-"Deflater","unclassified","Flush","set",
-"Deflater","unclassified","Finish","set",
-"Deflater","unclassified","SetInput","void-accessor command",
-"Deflater","unclassified","SetInput","void-accessor command",
-"Deflater","unclassified","SetLevel","set",
-"Deflater","unclassified","GetLevel","get",
-"Deflater","unclassified","SetStrategy","set collaborator",
-"Deflater","unclassified","Deflate","property non-void-command",
-"Deflater","unclassified","Deflate","property non-void-command",
-"Deflater","unclassified","SetDictionary","void-accessor command",
-"Deflater","unclassified","SetDictionary","void-accessor set",
-"Deflater","unclassified","get","get",
-"Deflater","unclassified","get","get",
-"Deflater","unclassified","get","get",
-"Deflater","unclassified","get","predicate",
-"Deflater","unclassified","get","predicate non-void-command",
-"NameAndSizeFilter","unclassified","NameAndSizeFilter","constructor",
-"NameAndSizeFilter","unclassified","IsMatch","predicate non-void-command",
-"NameAndSizeFilter","unclassified","get","get",
-"NameAndSizeFilter","unclassified","set","set",
-"NameAndSizeFilter","unclassified","get","get",
-"NameAndSizeFilter","unclassified","set","set",
-"Crc32","unclassified","Crc32","constructor",
-"Crc32","unclassified","Crc32LargeUpdate","property wrapper",
-"Crc32","unclassified","Crc32","constructor",
-"Crc32","unclassified","Reset","set",
-"Crc32","unclassified","Update","set",
-"Crc32","unclassified","Update","void-accessor command",
-"Crc32","unclassified","Update","void-accessor command collaborator",
-"Crc32","unclassified","Update","void-accessor set",
-"Crc32","unclassified","SlowUpdateLoop","void-accessor command",
-"Crc32","unclassified","get","property",
-"RawTaggedData","data-class","RawTaggedData","constructor",
-"RawTaggedData","data-class","SetData","void-accessor set",
-"RawTaggedData","data-class","GetData","get",
-"RawTaggedData","data-class","get","get",
-"RawTaggedData","data-class","set","set",
-"RawTaggedData","data-class","get","get",
-"RawTaggedData","data-class","set","set",
-"PendingBuffer","unclassified","PendingBuffer","constructor",
-"PendingBuffer","unclassified","PendingBuffer","constructor",
-"PendingBuffer","unclassified","Reset","command",
-"PendingBuffer","unclassified","WriteByte","command",
-"PendingBuffer","unclassified","WriteShort","command",
-"PendingBuffer","unclassified","WriteInt","command",
-"PendingBuffer","unclassified","WriteBlock","void-accessor set",
-"PendingBuffer","unclassified","AlignToByte","command",
-"PendingBuffer","unclassified","WriteBits","command",
-"PendingBuffer","unclassified","WriteShortMSB","command",
-"PendingBuffer","unclassified","Flush","property non-void-command",
-"PendingBuffer","unclassified","ToByteArray","property non-void-command",
-"PendingBuffer","unclassified","get","get",
-"PendingBuffer","unclassified","get","predicate",
-"DeflaterOutputStream","unclassified","DeflaterOutputStream","constructor",
-"DeflaterOutputStream","unclassified","DeflaterOutputStream","constructor",
-"DeflaterOutputStream","unclassified","DeflaterOutputStream","constructor",
-"DeflaterOutputStream","unclassified","Finish","command",
-"DeflaterOutputStream","unclassified","FinishAsync","non-void-command collaborator",
-"DeflaterOutputStream","unclassified","EncryptBlock","void-accessor command",
-"DeflaterOutputStream","unclassified","DeflateSyncOrAsync","non-void-command collaborator",
-"DeflaterOutputStream","unclassified","Seek","collaborator stateless",
-"DeflaterOutputStream","unclassified","SetLength","stateless",
-"DeflaterOutputStream","unclassified","ReadByte","stateless",
-"DeflaterOutputStream","unclassified","Read","stateless",
-"DeflaterOutputStream","unclassified","Flush","command",
-"DeflaterOutputStream","unclassified","FlushAsync","non-void-command collaborator",
-"DeflaterOutputStream","unclassified","Dispose","command",
-"DeflaterOutputStream","unclassified","DisposeAsync","non-void-command collaborator",
-"DeflaterOutputStream","unclassified","GetAuthCodeIfAES","set",
-"DeflaterOutputStream","unclassified","WriteByte","incidental",
-"DeflaterOutputStream","unclassified","Write","void-accessor command",
-"DeflaterOutputStream","unclassified","WriteAsync","non-void-command collaborator",
-"DeflaterOutputStream","unclassified","get","get",
-"DeflaterOutputStream","unclassified","set","set collaborator",
-"DeflaterOutputStream","unclassified","get","incidental",
-"DeflaterOutputStream","unclassified","get","incidental",
-"DeflaterOutputStream","unclassified","get","get",
-"DeflaterOutputStream","unclassified","get","get",
-"DeflaterOutputStream","unclassified","get","get",
-"DeflaterOutputStream","unclassified","set","stateless",
-"StreamManipulator","unclassified","PeekBits","property non-void-command",
-"StreamManipulator","unclassified","TryGetBits","predicate non-void-command collaborator",
-"StreamManipulator","unclassified","TryGetBits","predicate non-void-command collaborator",
-"StreamManipulator","unclassified","DropBits","command",
-"StreamManipulator","unclassified","GetBits","property non-void-command",
-"StreamManipulator","unclassified","SkipToByteBoundary","command",
-"StreamManipulator","unclassified","CopyBytes","property non-void-command",
-"StreamManipulator","unclassified","Reset","command",
-"StreamManipulator","unclassified","SetInput","void-accessor command",
-"StreamManipulator","unclassified","get","get",
-"StreamManipulator","unclassified","get","property",
-"StreamManipulator","unclassified","get","predicate",
-"ScanFailureEventArgs","data-provider data-class","ScanFailureEventArgs","constructor",
-"ScanFailureEventArgs","data-provider data-class","get","get",
-"ScanFailureEventArgs","data-provider data-class","get","get collaborator",
-"ScanFailureEventArgs","data-provider data-class","get","get",
-"ScanFailureEventArgs","data-provider data-class","set","set",
-"InflaterInputBuffer","unclassified","InflaterInputBuffer","constructor",
-"InflaterInputBuffer","unclassified","InflaterInputBuffer","constructor",
-"InflaterInputBuffer","unclassified","SetInflaterInput","set collaborator",
-"InflaterInputBuffer","unclassified","Fill","command",
-"InflaterInputBuffer","unclassified","ReadRawBuffer","property non-void-command",
-"InflaterInputBuffer","unclassified","ReadRawBuffer","property set",
-"InflaterInputBuffer","unclassified","ReadClearTextBuffer","property set",
-"InflaterInputBuffer","unclassified","ReadLeByte","property set",
-"InflaterInputBuffer","unclassified","ReadLeShort","property non-void-command",
-"InflaterInputBuffer","unclassified","ReadLeInt","property non-void-command",
-"InflaterInputBuffer","unclassified","ReadLeLong","property non-void-command",
-"InflaterInputBuffer","unclassified","get","get",
-"InflaterInputBuffer","unclassified","get","get",
-"InflaterInputBuffer","unclassified","get","get",
-"InflaterInputBuffer","unclassified","get","get",
-"InflaterInputBuffer","unclassified","get","get",
-"InflaterInputBuffer","unclassified","set","set",
-"InflaterInputBuffer","unclassified","set","non-void-command collaborator",
-"InflaterInputStream","unclassified","InflaterInputStream","constructor",
-"InflaterInputStream","unclassified","InflaterInputStream","constructor",
-"InflaterInputStream","unclassified","InflaterInputStream","constructor",
-"InflaterInputStream","unclassified","Skip","property non-void-command",
-"InflaterInputStream","unclassified","StopDecrypting","set",
-"InflaterInputStream","unclassified","Fill","command",
-"InflaterInputStream","unclassified","Flush","command",
-"InflaterInputStream","unclassified","Seek","collaborator stateless",
-"InflaterInputStream","unclassified","SetLength","stateless",
-"InflaterInputStream","unclassified","Write","stateless",
-"InflaterInputStream","unclassified","WriteByte","stateless",
-"InflaterInputStream","unclassified","Dispose","command",
-"InflaterInputStream","unclassified","Read","property non-void-command",
-"InflaterInputStream","unclassified","get","property",
-"InflaterInputStream","unclassified","get","get",
-"InflaterInputStream","unclassified","get","incidental",
-"InflaterInputStream","unclassified","get","incidental",
-"InflaterInputStream","unclassified","get","stateless",
-"InflaterInputStream","unclassified","get","get",
-"InflaterInputStream","unclassified","set","stateless",
-"WindowsNameTransform","unclassified","WindowsNameTransform","constructor",
-"WindowsNameTransform","unclassified","WindowsNameTransform","constructor",
-"WindowsNameTransform","unclassified","TransformDirectory","property non-void-command",
-"WindowsNameTransform","unclassified","TransformFile","property wrapper",
-"WindowsNameTransform","unclassified","get","get",
-"WindowsNameTransform","unclassified","set","set",
-"WindowsNameTransform","unclassified","get","get",
-"WindowsNameTransform","unclassified","set","set",
-"WindowsNameTransform","unclassified","get","get",
-"WindowsNameTransform","unclassified","set","set",
-"ZipException","empty","ZipException","constructor",
-"ZipException","empty","ZipException","constructor",
-"ZipException","empty","ZipException","constructor",
-"ZipException","empty","ZipException","constructor",
-"SharpZipBaseException","empty","SharpZipBaseException","constructor",
-"SharpZipBaseException","empty","SharpZipBaseException","constructor",
-"SharpZipBaseException","empty","SharpZipBaseException","constructor",
-"SharpZipBaseException","empty","SharpZipBaseException","constructor",
-"ZipEntryFactory","boundary","ZipEntryFactory","constructor",
-"ZipEntryFactory","boundary","ZipEntryFactory","constructor",
-"ZipEntryFactory","boundary","ZipEntryFactory","constructor",
-"ZipEntryFactory","boundary","MakeFileEntry","property non-void-command collaborator",
-"ZipEntryFactory","boundary","MakeFileEntry","property non-void-command collaborator",
-"ZipEntryFactory","boundary","MakeFileEntry","non-void-command factory collaborator",
-"ZipEntryFactory","boundary","MakeDirectoryEntry","property non-void-command collaborator",
-"ZipEntryFactory","boundary","MakeDirectoryEntry","non-void-command factory collaborator",
-"ZipEntryFactory","boundary","get","get collaborator",
-"ZipEntryFactory","boundary","set","set collaborator",
-"ZipEntryFactory","boundary","get","get collaborator",
-"ZipEntryFactory","boundary","set","set collaborator",
-"ZipEntryFactory","boundary","get","get collaborator",
-"ZipEntryFactory","boundary","set","set collaborator",
-"ZipEntryFactory","boundary","get","get",
-"ZipEntryFactory","boundary","set","set",
-"ZipEntryFactory","boundary","get","get",
-"ZipEntryFactory","boundary","set","set",
-"ZipEntryFactory","boundary","get","get",
-"ZipEntryFactory","boundary","set","set",
-"ExtendedUnixData","entity boundary","SetData","void-accessor command",
-"ExtendedUnixData","entity boundary","GetData","property wrapper",
-"ExtendedUnixData","entity boundary","get","incidental",
-"ExtendedUnixData","entity boundary","get","get collaborator",
-"ExtendedUnixData","entity boundary","set","non-void-command collaborator",
-"ExtendedUnixData","entity boundary","get","get collaborator",
-"ExtendedUnixData","entity boundary","set","non-void-command collaborator",
-"ExtendedUnixData","entity boundary","get","get collaborator",
-"ExtendedUnixData","entity boundary","set","non-void-command collaborator",
-"ExtendedUnixData","entity boundary","get","get collaborator",
-"ExtendedUnixData","entity boundary","set","set collaborator",
-"NTTaggedData","entity boundary","SetData","void-accessor command",
-"NTTaggedData","entity boundary","GetData","property non-void-command",
-"NTTaggedData","entity boundary","get","incidental",
-"NTTaggedData","entity boundary","get","get collaborator",
-"NTTaggedData","entity boundary","set","set collaborator",
-"NTTaggedData","entity boundary","get","get collaborator",
-"NTTaggedData","entity boundary","set","set collaborator",
-"NTTaggedData","entity boundary","get","get collaborator",
-"NTTaggedData","entity boundary","set","set collaborator",
-"MemoryDataSource","factory controller small-class","MemoryDataSource","constructor",
-"MemoryDataSource","factory controller small-class","GetSource","property factory collaborator",
-"DiskArchiveStorage","boundary","DiskArchiveStorage","constructor",
-"DiskArchiveStorage","boundary","DiskArchiveStorage","constructor",
-"DiskArchiveStorage","boundary","GetTemporaryOutput","get non-void-command collaborator",
-"DiskArchiveStorage","boundary","ConvertTemporaryToFinal","property non-void-command collaborator",
-"DiskArchiveStorage","boundary","MakeTemporaryCopy","get non-void-command factory collaborator",
-"DiskArchiveStorage","boundary","OpenForDirectUpdate","factory controller",
-"DiskArchiveStorage","boundary","Dispose","command",
-"ZipStrings","commander small-class","set","non-void-command",
-"ZipStrings","commander small-class","set","non-void-command",
-"ScanEventArgs","data-class","ScanEventArgs","constructor",
-"ScanEventArgs","data-class","get","get",
-"ScanEventArgs","data-class","get","get",
-"ScanEventArgs","data-class","set","set",
-"ZipExtraData","unclassified","ZipExtraData","constructor",
-"ZipExtraData","unclassified","ZipExtraData","constructor",
-"ZipExtraData","unclassified","GetEntryData","property non-void-command",
-"ZipExtraData","unclassified","Clear","set",
-"ZipExtraData","unclassified","GetStreamForTag","non-void-command factory collaborator",
-"ZipExtraData","unclassified","GetData<T>","property non-void-command factory collaborator",
-"ZipExtraData","unclassified","Find","predicate non-void-command",
-"ZipExtraData","unclassified","AddEntry","void-accessor command collaborator",
-"ZipExtraData","unclassified","AddEntry","void-accessor command",
-"ZipExtraData","unclassified","StartNewEntry","set",
-"ZipExtraData","unclassified","AddNewEntry","command",
-"ZipExtraData","unclassified","AddData","command",
-"ZipExtraData","unclassified","AddData","wrapper stateless",
-"ZipExtraData","unclassified","AddLeShort","command",
-"ZipExtraData","unclassified","AddLeInt","command",
-"ZipExtraData","unclassified","AddLeLong","command",
-"ZipExtraData","unclassified","Delete","predicate set",
-"ZipExtraData","unclassified","ReadLong","property non-void-command",
-"ZipExtraData","unclassified","ReadInt","property set",
-"ZipExtraData","unclassified","ReadShort","property set",
-"ZipExtraData","unclassified","ReadByte","property set",
-"ZipExtraData","unclassified","Skip","set",
-"ZipExtraData","unclassified","ReadCheck","unclassified",
-"ZipExtraData","unclassified","ReadShortInternal","property set",
-"ZipExtraData","unclassified","SetShort","void-accessor command",
-"ZipExtraData","unclassified","Dispose","command",
-"ZipExtraData","unclassified","get","get",
-"ZipExtraData","unclassified","get","get",
-"ZipExtraData","unclassified","get","get",
-"ZipExtraData","unclassified","get","property",
-"KeysRequiredEventArgs","data-class","KeysRequiredEventArgs","constructor",
-"KeysRequiredEventArgs","data-class","KeysRequiredEventArgs","constructor",
-"KeysRequiredEventArgs","data-class","get","get",
-"KeysRequiredEventArgs","data-class","get","get",
-"KeysRequiredEventArgs","data-class","set","set",
-"TestStatus","unclassified","TestStatus","constructor",
-"TestStatus","unclassified","AddError","command",
-"TestStatus","unclassified","SetOperation","set collaborator",
-"TestStatus","unclassified","SetEntry","command collaborator",
-"TestStatus","unclassified","SetBytesTested","set",
-"TestStatus","unclassified","get","get collaborator",
-"TestStatus","unclassified","get","get collaborator",
-"TestStatus","unclassified","get","get collaborator",
-"TestStatus","unclassified","get","get",
-"TestStatus","unclassified","get","get",
-"TestStatus","unclassified","get","get",
-"PooledInflater","empty","PooledInflater","constructor",
-"MemoryArchiveStorage","controller","MemoryArchiveStorage","constructor",
-"MemoryArchiveStorage","controller","MemoryArchiveStorage","constructor",
-"MemoryArchiveStorage","controller","GetTemporaryOutput","get set factory collaborator",
-"MemoryArchiveStorage","controller","ConvertTemporaryToFinal","get set factory collaborator",
-"MemoryArchiveStorage","controller","MakeTemporaryCopy","get set factory collaborator",
-"MemoryArchiveStorage","controller","OpenForDirectUpdate","factory controller stateless",
-"MemoryArchiveStorage","controller","Dispose","command",
-"MemoryArchiveStorage","controller","get","get collaborator",
-"PathTransformer","small-class","PathTransformer","constructor",
-"PathTransformer","small-class","TransformDirectory","property non-void-command",
-"PathTransformer","small-class","TransformFile","controller stateless",
-"StringCodec","empty","StringCodec","constructor",
+"TransformBase","pure-controller degenerate small-class","TestFile","controller stateless"
+"TransformBase","pure-controller degenerate small-class","TestDirectory","controller stateless"
+"TestEncodingProvider","factory controller small-class","GetEncodings","property factory collaborator"
+"ZipStringsTests","boundary degenerate","TestSystemDefaultEncoding","controller stateless"
+"ZipStringsTests","boundary degenerate","TestFastZipRoundTripWithCodePage","controller stateless"
+"ZipStringsTests","boundary degenerate","TestZipFileRoundTripWithCodePage","wrapper stateless"
+"ZipStringsTests","boundary degenerate","TestZipStreamRoundTripWithCodePage","wrapper stateless"
+"ZipStringsTests","boundary degenerate","TestZipCryptoPasswordEncodingRoundtrip","wrapper stateless"
+"ZipStringsTests","boundary degenerate","TestZipStreamCommentEncodingRoundtrip","wrapper stateless"
+"ZipStringsTests","boundary degenerate","TestZipFileCommentEncodingRoundtrip","wrapper stateless"
+"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamUsingAsync","wrapper stateless"
+"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamAsync","wrapper stateless"
+"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamWithAesAsync","wrapper stateless"
+"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamWithZipCryptoAsync","wrapper stateless"
+"ZipStreamAsyncTests","boundary degenerate","WriteReadOnlyZipStreamAsync","wrapper stateless"
+"ZipStreamAsyncTests","boundary degenerate","WriteZipStreamToAsyncOnlyStream","wrapper stateless"
+"ZipNameTransformHandling","degenerate","Basic","command collaborator"
+"ZipNameTransformHandling","degenerate","Basic_Windows","command collaborator"
+"ZipNameTransformHandling","degenerate","Basic_Posix","command collaborator"
+"ZipNameTransformHandling","degenerate","TooLong","controller stateless"
+"ZipNameTransformHandling","degenerate","LengthBoundaryOk","controller stateless"
+"ZipNameTransformHandling","degenerate","NameTransforms_Windows","controller stateless"
+"ZipNameTransformHandling","degenerate","NameTransforms_Posix","controller stateless"
+"ZipNameTransformHandling","degenerate","FilenameCleaning","wrapper stateless"
+"ZipNameTransformHandling","degenerate","PathalogicalNames","controller stateless"
+"ZipFileHandling","boundary degenerate","NullStreamDetected","wrapper stateless"
+"ZipFileHandling","boundary degenerate","Zip64Entries","controller stateless"
+"ZipFileHandling","boundary degenerate","EmbeddedArchive","controller stateless"
+"ZipFileHandling","boundary degenerate","Zip64Useage","controller stateless"
+"ZipFileHandling","boundary degenerate","Zip64Update","controller stateless"
+"ZipFileHandling","boundary degenerate","FakeZip64Locator","wrapper stateless"
+"ZipFileHandling","boundary degenerate","Zip64Offset","empty"
+"ZipFileHandling","boundary degenerate","BasicEncryption","wrapper stateless"
+"ZipFileHandling","boundary degenerate","BasicEncryptionToDisk","wrapper stateless"
+"ZipFileHandling","boundary degenerate","AddEncryptedEntriesToExistingArchive","wrapper stateless"
+"ZipFileHandling","boundary degenerate","TryDeleting","wrapper stateless"
+"ZipFileHandling","boundary degenerate","TryDeleting","wrapper stateless"
+"ZipFileHandling","boundary degenerate","AddAndDeleteEntriesMemory","command"
+"ZipFileHandling","boundary degenerate","AddAndDeleteEntries","wrapper stateless"
+"ZipFileHandling","boundary degenerate","RoundTrip","command collaborator"
+"ZipFileHandling","boundary degenerate","RoundTripInMemory","command collaborator"
+"ZipFileHandling","boundary degenerate","RoundTripInMemoryAsync","non-void-command collaborator"
+"ZipFileHandling","boundary degenerate","AddToEmptyArchive","wrapper stateless"
+"ZipFileHandling","boundary degenerate","CreateEmptyArchive","wrapper stateless"
+"ZipFileHandling","boundary degenerate","CreateArchiveWithNoCompression","wrapper stateless"
+"ZipFileHandling","boundary degenerate","FindEntriesInArchiveWithLongComment","command collaborator"
+"ZipFileHandling","boundary degenerate","FindEntriesInArchiveExtraData","command collaborator"
+"ZipFileHandling","boundary degenerate","FindEntry","command"
+"ZipFileHandling","boundary degenerate","HandlesNoEntries","command"
+"ZipFileHandling","boundary degenerate","ArchiveTesting","command"
+"ZipFileHandling","boundary degenerate","TestDirectoryEntry","controller stateless"
+"ZipFileHandling","boundary degenerate","TestDirectoryEntry","command"
+"ZipFileHandling","boundary degenerate","TestEncryptedDirectoryEntry","controller stateless"
+"ZipFileHandling","boundary degenerate","TestEncryptedDirectoryEntry","command"
+"ZipFileHandling","boundary degenerate","Crypto_AddEncryptedEntryToExistingArchiveSafe","controller stateless"
+"ZipFileHandling","boundary degenerate","Crypto_AddEncryptedEntryToExistingArchiveDirect","wrapper stateless"
+"ZipFileHandling","boundary degenerate","UnicodeNames","wrapper stateless"
+"ZipFileHandling","boundary degenerate","UpdateCommentOnlyInMemory","wrapper stateless"
+"ZipFileHandling","boundary degenerate","UpdateCommentOnlyOnDisk","wrapper stateless"
+"ZipFileHandling","boundary degenerate","NameFactory","wrapper stateless"
+"ZipFileHandling","boundary degenerate","NestedArchive","controller stateless"
+"ZipFileHandling","boundary degenerate","GetPartialStream","controller stateless"
+"ZipFileHandling","boundary degenerate","UnreferencedZipFileClosingPartialStream","command collaborator"
+"ZipFileHandling","boundary degenerate","StreamClosedWhenOwner","command collaborator"
+"ZipFileHandling","boundary degenerate","StreamNotClosedWhenNotOwner","command collaborator"
+"ZipFileHandling","boundary degenerate","FileStreamClosedWhenOwner","command collaborator"
+"ZipFileHandling","boundary degenerate","FileStreamNotClosedWhenNotOwner","command"
+"ZipFileHandling","boundary degenerate","StreamClosedOnError","wrapper stateless"
+"ZipFileHandling","boundary degenerate","HostSystemPersistedFromOutputStream","controller stateless"
+"ZipFileHandling","boundary degenerate","HostSystemPersistedFromZipFile","wrapper stateless"
+"ZipFileHandling","boundary degenerate","AddingAnAESEncryptedEntryShouldThrow","wrapper stateless"
+"ZipFileHandling","boundary degenerate","AddFileWithAlternateName","wrapper stateless"
+"ZipFileHandling","boundary degenerate","ZipWithBZip2Compression","wrapper stateless"
+"ZipFileHandling","boundary degenerate","ShouldReadBZip2ZipCreatedBy7Zip","wrapper stateless"
+"ZipFileHandling","boundary degenerate","ShouldReadAESBZip2ZipCreatedBy7Zip","wrapper stateless"
+"ZipFileHandling","boundary degenerate","TestDescriptorUpdateOnDelete","controller stateless"
+"ZipFileHandling","boundary degenerate","TestDescriptorUpdateOnAdd","controller stateless"
+"ZipFileHandling","boundary degenerate","HandlesEmptyFileName","wrapper stateless"
+"ZipEntryHandling","commander boundary degenerate","MakeLocalHeader","wrapper stateless"
+"ZipEntryHandling","commander boundary degenerate","MakeEntry","property non-void-command collaborator"
+"ZipEntryHandling","commander boundary degenerate","PiecewiseCompare","controller stateless"
+"ZipEntryHandling","commander boundary degenerate","Copying","command collaborator"
+"ZipEntryHandling","commander boundary degenerate","Cloning","command collaborator"
+"ZipEntryHandling","commander boundary degenerate","NullEntryComment","wrapper stateless"
+"ZipEntryHandling","commander boundary degenerate","NullNameInConstructor","wrapper stateless"
+"ZipEntryHandling","commander boundary degenerate","DateAndTime","wrapper stateless"
+"ZipEntryHandling","commander boundary degenerate","DateTimeSetsDosTime","wrapper stateless"
+"ZipEntryHandling","commander boundary degenerate","CanDecompress","command collaborator"
+"ZipEntryFactoryHandling","degenerate","Defaults","wrapper stateless"
+"ZipEntryFactoryHandling","degenerate","CreateInMemoryValues","controller stateless"
+"ZipEntryFactoryHandling","degenerate","CreatedFileEntriesUsesExpectedAttributes","controller stateless"
+"ZipEntryFactoryHandling","degenerate","CreatedFileEntriesUsesExpectedTime","controller stateless"
+"ZipEntryFactoryHandling","degenerate","CreatedDirectoryEntriesUsesExpectedTime","controller stateless"
+"ZipCorruptionHandling","small-class","ZeroCodeLengthZipFile","controller"
+"ZipCorruptionHandling","small-class","CorruptCentralDirWithCorrectZip64CD","wrapper"
+"WindowsNameTransformHandling","boundary degenerate","TestInit","wrapper stateless"
+"WindowsNameTransformHandling","boundary degenerate","BasicFiles","command collaborator"
+"WindowsNameTransformHandling","boundary degenerate","Replacement","command collaborator"
+"WindowsNameTransformHandling","boundary degenerate","NameTooLong","controller stateless"
+"WindowsNameTransformHandling","boundary degenerate","LengthBoundaryOk","controller stateless"
+"WindowsNameTransformHandling","boundary degenerate","ReplacementChecking","wrapper stateless"
+"WindowsNameTransformHandling","boundary degenerate","BasicDirectories","command"
+"StreamHandling","degenerate","MustFailRead","controller stateless"
+"StreamHandling","degenerate","ParameterHandling","command"
+"StreamHandling","degenerate","Zip64Descriptor","controller stateless"
+"StreamHandling","degenerate","ReadAndWriteZip64NonSeekable","controller stateless"
+"StreamHandling","degenerate","EntryWithNoDataAndZip64","controller stateless"
+"StreamHandling","degenerate","EmptyZipEntries","controller stateless"
+"StreamHandling","degenerate","TestZeroByteWrite","wrapper stateless"
+"StreamHandling","degenerate","WriteZipStreamWithNoCompression","wrapper stateless"
+"StreamHandling","degenerate","ZipEntryFileNameAutoClean","wrapper stateless"
+"StreamHandling","degenerate","CreateAndReadEmptyZip","controller stateless"
+"StreamHandling","degenerate","BaseClosedWhenOwner","wrapper stateless"
+"StreamHandling","degenerate","BaseNotClosedWhenNotOwner","wrapper stateless"
+"StreamHandling","degenerate","BaseClosedAfterFailure","wrapper stateless"
+"StreamHandling","degenerate","WriteThroughput","controller stateless"
+"StreamHandling","degenerate","SingleLargeEntry","controller stateless"
+"StreamHandling","degenerate","ShouldReadBZip2EntryButNotDecompress","controller"
+"StreamHandling","degenerate","ShouldBeAbleToReadEntriesWithInvalidFileNames","wrapper stateless"
+"StreamHandling","degenerate","AddingAnAESEntryWithNoPasswordShouldThrow","wrapper stateless"
+"StreamHandling","degenerate","ShouldThrowDescriptiveExceptionOnUncompressedDescriptorEntry","wrapper stateless"
+"StreamHandling","degenerate","IteratingOverEntriesInDirectUpdatedArchive","wrapper stateless"
+"FastZipHandling","controller degenerate","Basics","controller stateless"
+"FastZipHandling","controller degenerate","EnsureTestDirectoryIsEmpty","wrapper"
+"FastZipHandling","controller degenerate","ExtractEmptyDirectories","command collaborator"
+"FastZipHandling","controller degenerate","CreateEmptyDirectories","controller"
+"FastZipHandling","controller degenerate","ContentEqualAfterAfterArchived","controller stateless"
+"FastZipHandling","controller degenerate","Encryption","controller stateless"
+"FastZipHandling","controller degenerate","CreateExceptions","controller stateless"
+"FastZipHandling","controller degenerate","TestFileNames","controller stateless"
+"FastZipHandling","controller degenerate","UnicodeText","command"
+"FastZipHandling","controller degenerate","NonUnicodeText","command collaborator"
+"FastZipHandling","controller degenerate","ExtractExceptions","controller stateless"
+"FastZipHandling","controller degenerate","ReadingOfLockedDataFiles","controller stateless"
+"FastZipHandling","controller degenerate","NonAsciiPasswords","controller stateless"
+"FastZipHandling","controller degenerate","LimitExtractPath","controller stateless"
+"FastZipHandling","controller degenerate","StreamNotClosedOnError","controller stateless"
+"FastZipHandling","controller degenerate","StreamClosedOnError","controller stateless"
+"FastZipHandling","controller degenerate","SetDirectoryModifiedDate","command collaborator"
+"FastZipHandling","controller degenerate","CreateZipShouldLeaveOutputStreamOpenIfRequested","controller stateless"
+"FastZipHandling","controller degenerate","CreateZipShouldSetTimeOnEntriesFromConstructorDateTime","controller stateless"
+"FastZipHandling","controller degenerate","CreateZipShouldSetTimeOnEntriesFromConstructorTimeSetting","controller stateless"
+"FastZipHandling","controller degenerate","ExtractZipShouldSetTimeOnFilesFromConstructorTimeSetting","controller"
+"FastZipHandling","controller degenerate","ExtractZipShouldSetTimeOnFilesFromConstructorDateTime","controller"
+"FastZipHandling","controller degenerate","ExtractZipShouldSetTimeOnFilesWithEmptyConstructor","controller"
+"TempDir","commander","Delete","wrapper stateless"
+"TempDir","commander","TempDir","constructor"
+"TempDir","commander","Dispose","set"
+"TempDir","commander","Dispose","command"
+"TempFile","commander","Delete","command"
+"TempFile","commander","TempFile","constructor"
+"TempFile","commander","Dispose","set"
+"TempFile","commander","Dispose","command"
+"TestTraceListener","empty","TestTraceListener","constructor"
+"SelfClosingStream","small-class","SelfClosingStream","constructor"
+"SelfClosingStream","small-class","Read","property set collaborator"
+"SelfClosingStream","small-class","get","predicate"
+"WindowedStream","unclassified","WindowedStream","constructor"
+"WindowedStream","unclassified","Flush","empty"
+"WindowedStream","unclassified","Read","property non-void-command"
+"WindowedStream","unclassified","Write","command"
+"WindowedStream","unclassified","Dispose","command"
+"WindowedStream","unclassified","get","predicate"
+"NullStream","degenerate","Flush","empty"
+"NullStream","degenerate","Read","stateless"
+"NullStream","degenerate","Seek","collaborator stateless"
+"NullStream","degenerate","SetLength","stateless"
+"NullStream","degenerate","Write","empty"
+"NullStream","degenerate","get","incidental"
+"NullStream","degenerate","get","incidental"
+"NullStream","degenerate","get","incidental"
+"NullStream","degenerate","get","stateless"
+"NullStream","degenerate","get","stateless"
+"NullStream","degenerate","set","stateless"
+"LzwInputStream","unclassified","LzwInputStream","constructor"
+"LzwInputStream","unclassified","ReadByte","get property non-void-command"
+"LzwInputStream","unclassified","Read","property non-void-command"
+"LzwInputStream","unclassified","ResetBuf","property set"
+"LzwInputStream","unclassified","Fill","command"
+"LzwInputStream","unclassified","ParseHeader","command"
+"LzwInputStream","unclassified","Flush","command"
+"LzwInputStream","unclassified","Seek","collaborator stateless"
+"LzwInputStream","unclassified","SetLength","stateless"
+"LzwInputStream","unclassified","Write","stateless"
+"LzwInputStream","unclassified","WriteByte","stateless"
+"LzwInputStream","unclassified","Dispose","set"
+"LzwInputStream","unclassified","get","predicate"
+"LzwInputStream","unclassified","get","incidental"
+"LzwInputStream","unclassified","get","incidental"
+"LzwInputStream","unclassified","get","get"
+"LzwInputStream","unclassified","get","property"
+"LzwInputStream","unclassified","set","stateless"
+"ZipAESStream","unclassified","ZipAESStream","constructor"
+"ZipAESStream","unclassified","Read","property non-void-command"
+"ZipAESStream","unclassified","ReadAsync","property non-void-command collaborator"
+"ZipAESStream","unclassified","ReadAndTransform","property non-void-command"
+"ZipAESStream","unclassified","ReadBufferedData","property set"
+"ZipAESStream","unclassified","TransformAndBufferBlock","property non-void-command collaborator"
+"ZipAESStream","unclassified","Write","stateless"
+"TarBufferTests","pure-controller degenerate","TestSimpleReadWrite","controller stateless"
+"TarBufferTests","pure-controller degenerate","TestSkipBlock","controller stateless"
+"TarBufferTests","pure-controller degenerate","TestSimpleReadWriteAsync","controller stateless"
+"TarBufferTests","pure-controller degenerate","TestSkipBlockAsync","controller stateless"
+"GZipInputStream","unclassified","GZipInputStream","constructor"
+"GZipInputStream","unclassified","GZipInputStream","constructor"
+"GZipInputStream","unclassified","Read","property non-void-command"
+"GZipInputStream","unclassified","GetFilename","get"
+"GZipInputStream","unclassified","ReadHeader","predicate non-void-command"
+"GZipInputStream","unclassified","ReadFooter","command"
+"StringBuilderPool","commander boundary small-class","Rent","collaborator stateless"
+"StringBuilderPool","commander boundary small-class","Return","command collaborator"
+"SingleByteReadingStream","small-class","SingleByteReadingStream","constructor"
+"SingleByteReadingStream","small-class","Read","property non-void-command"
+"DirectoryEventArgs","data-provider data-class small-class","DirectoryEventArgs","constructor"
+"DirectoryEventArgs","data-provider data-class small-class","get","get"
+"PkzipClassicEncryptCryptoTransform","degenerate","PkzipClassicEncryptCryptoTransform","constructor"
+"PkzipClassicEncryptCryptoTransform","degenerate","TransformFinalBlock","property non-void-command"
+"PkzipClassicEncryptCryptoTransform","degenerate","TransformBlock","property non-void-command"
+"PkzipClassicEncryptCryptoTransform","degenerate","Dispose","command"
+"PkzipClassicEncryptCryptoTransform","degenerate","get","incidental"
+"PkzipClassicEncryptCryptoTransform","degenerate","get","incidental"
+"PkzipClassicEncryptCryptoTransform","degenerate","get","incidental"
+"PkzipClassicEncryptCryptoTransform","degenerate","get","incidental"
+"ExtendedPathFilter","boundary","ExtendedPathFilter","constructor"
+"ExtendedPathFilter","boundary","ExtendedPathFilter","constructor"
+"ExtendedPathFilter","boundary","ExtendedPathFilter","constructor"
+"ExtendedPathFilter","boundary","IsMatch","predicate non-void-command collaborator"
+"ExtendedPathFilter","boundary","get","get"
+"ExtendedPathFilter","boundary","set","set"
+"ExtendedPathFilter","boundary","get","get"
+"ExtendedPathFilter","boundary","set","set"
+"ExtendedPathFilter","boundary","get","get collaborator"
+"ExtendedPathFilter","boundary","set","set collaborator"
+"ExtendedPathFilter","boundary","get","get collaborator"
+"ExtendedPathFilter","boundary","set","set collaborator"
+"PassesTestArchiveConstraint","factory controller small-class","PassesTestArchiveConstraint","constructor"
+"PassesTestArchiveConstraint","factory controller small-class","ApplyTo<TActual>","property factory wrapper"
+"StringBuilderPoolTests","pure-controller degenerate","RoundTrip","controller stateless"
+"StringBuilderPoolTests","pure-controller degenerate","ReturnsClears","controller stateless"
+"StringBuilderPoolTests","pure-controller degenerate","ThreadSafeAsync","controller stateless"
+"InvalidHeaderException","empty","InvalidHeaderException","constructor"
+"InvalidHeaderException","empty","InvalidHeaderException","constructor"
+"InvalidHeaderException","empty","InvalidHeaderException","constructor"
+"InvalidHeaderException","empty","InvalidHeaderException","constructor"
+"FileSystemScanner","entity commander boundary","FileSystemScanner","constructor"
+"FileSystemScanner","entity commander boundary","FileSystemScanner","constructor"
+"FileSystemScanner","entity commander boundary","FileSystemScanner","constructor"
+"FileSystemScanner","entity commander boundary","FileSystemScanner","constructor"
+"FileSystemScanner","entity commander boundary","OnDirectoryFailure","predicate set collaborator"
+"FileSystemScanner","entity commander boundary","OnFileFailure","predicate set collaborator"
+"FileSystemScanner","entity commander boundary","OnProcessFile","set collaborator"
+"FileSystemScanner","entity commander boundary","OnCompleteFile","set collaborator"
+"FileSystemScanner","entity commander boundary","OnProcessDirectory","set collaborator"
+"FileSystemScanner","entity commander boundary","Scan","set"
+"FileSystemScanner","entity commander boundary","ScanDir","command"
+"GZipOutputStream","commander","GZipOutputStream","constructor"
+"GZipOutputStream","commander","GZipOutputStream","constructor"
+"GZipOutputStream","commander","SetLevel","command"
+"GZipOutputStream","commander","GetLevel","property non-void-command"
+"GZipOutputStream","commander","WriteSyncOrAsync","non-void-command collaborator"
+"GZipOutputStream","commander","Dispose","command"
+"GZipOutputStream","commander","DisposeAsync","non-void-command collaborator"
+"GZipOutputStream","commander","Flush","command"
+"GZipOutputStream","commander","FlushAsync","non-void-command collaborator"
+"GZipOutputStream","commander","Finish","command collaborator"
+"GZipOutputStream","commander","FinishAsync","non-void-command collaborator"
+"GZipOutputStream","commander","GetFooter","property"
+"GZipOutputStream","commander","GetHeader","property non-void-command"
+"GZipOutputStream","commander","WriteHeader","set collaborator"
+"GZipOutputStream","commander","WriteHeaderAsync","non-void-command collaborator"
+"GZipOutputStream","commander","set","non-void-command"
+"Inflater","unclassified","Inflater","constructor"
+"Inflater","unclassified","Inflater","constructor"
+"Inflater","unclassified","Reset","command"
+"Inflater","unclassified","DecodeHeader","predicate non-void-command"
+"Inflater","unclassified","DecodeDict","predicate non-void-command"
+"Inflater","unclassified","DecodeHuffman","predicate non-void-command"
+"Inflater","unclassified","DecodeChksum","predicate non-void-command"
+"Inflater","unclassified","Decode","predicate non-void-command"
+"Inflater","unclassified","SetDictionary","command"
+"Inflater","unclassified","SetDictionary","command"
+"Inflater","unclassified","SetInput","command"
+"Inflater","unclassified","SetInput","set"
+"Inflater","unclassified","Inflate","property non-void-command"
+"Inflater","unclassified","Inflate","property non-void-command"
+"Inflater","unclassified","get","predicate"
+"Inflater","unclassified","get","predicate"
+"Inflater","unclassified","get","predicate non-void-command"
+"Inflater","unclassified","get","get property"
+"Inflater","unclassified","get","get"
+"Inflater","unclassified","get","property"
+"Inflater","unclassified","get","property"
+"BZip2Suite","degenerate","BasicRoundTrip","controller"
+"BZip2Suite","degenerate","CreateEmptyArchive","controller stateless"
+"BZip2Suite","degenerate","WriteThroughput","wrapper stateless"
+"BZip2Suite","degenerate","ReadWriteThroughput","wrapper stateless"
+"CoreTestSuite","boundary degenerate","FilterQuoting","wrapper stateless"
+"CoreTestSuite","boundary degenerate","NullFilter","controller stateless"
+"CoreTestSuite","boundary degenerate","ValidFilter","wrapper stateless"
+"CoreTestSuite","boundary degenerate","DropPathRoot_Windows","wrapper stateless"
+"CoreTestSuite","boundary degenerate","DropPathRoot_Posix","wrapper stateless"
+"CoreTestSuite","boundary degenerate","DropPathRoot_DoesNotThrowForInvalidPath","wrapper stateless"
+"UnexpectedEndOfStreamException","empty","UnexpectedEndOfStreamException","constructor"
+"UnexpectedEndOfStreamException","empty","UnexpectedEndOfStreamException","constructor"
+"UnexpectedEndOfStreamException","empty","UnexpectedEndOfStreamException","constructor"
+"UnexpectedEndOfStreamException","empty","UnexpectedEndOfStreamException","constructor"
+"GeneralHandling","unclassified","ExerciseZip","command"
+"GeneralHandling","unclassified","InvalidPasswordSeekable","command"
+"GeneralHandling","unclassified","ExerciseGetNextEntry","controller stateless"
+"GeneralHandling","unclassified","InvalidPasswordNonSeekable","command"
+"GeneralHandling","unclassified","AddEntryAfterFinish","controller stateless"
+"GeneralHandling","unclassified","SetCommentOversize","controller stateless"
+"GeneralHandling","unclassified","CloseOnlyHandled","controller stateless"
+"GeneralHandling","unclassified","BasicDeflated","command"
+"GeneralHandling","unclassified","BasicDeflatedNonSeekable","command"
+"GeneralHandling","unclassified","BasicStored","command"
+"GeneralHandling","unclassified","BasicStoredNonSeekable","command"
+"GeneralHandling","unclassified","StoredNonSeekableKnownSizeNoCrc","controller stateless"
+"GeneralHandling","unclassified","BasicDeflatedEncrypted","command"
+"GeneralHandling","unclassified","BasicDeflatedEncryptedNonSeekable","command"
+"GeneralHandling","unclassified","SkipEncryptedEntriesWithoutSettingPassword","controller stateless"
+"GeneralHandling","unclassified","MixedEncryptedAndPlain","wrapper stateless"
+"GeneralHandling","unclassified","BasicStoredEncrypted","command"
+"GeneralHandling","unclassified","BasicStoredEncryptedNonSeekable","command"
+"GeneralHandling","unclassified","StoredNonSeekableConvertToDeflate","controller stateless"
+"GeneralHandling","unclassified","Stream_UnicodeEntries","controller stateless"
+"GeneralHandling","unclassified","PartialStreamClosing","command collaborator"
+"GeneralHandling","unclassified","TestLargeZip","controller stateless"
+"GeneralHandling","unclassified","TestLargeZipFile","command"
+"GeneralHandling","unclassified","MakeLargeZipFile","command"
+"GeneralHandling","unclassified","SerializedObjectZeroLength","command collaborator"
+"GeneralHandling","unclassified","SerializedObject","command collaborator"
+"GeneralHandling","unclassified","ZipZeroLength","controller stateless"
+"GeneralHandling","unclassified","UnZipZeroLength","controller stateless"
+"GeneralHandling","unclassified","LegacyNameConversion","controller stateless"
+"GeneralHandling","unclassified","UnicodeNameConversion","controller stateless"
+"GeneralHandling","unclassified","PasswordCheckingWithDateInExtraData","controller stateless"
+"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor"
+"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor"
+"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor"
+"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor"
+"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor"
+"ValueOutOfRangeException","empty","ValueOutOfRangeException","constructor"
+"Adler32","unclassified","Adler32","constructor"
+"Adler32","unclassified","Adler32LargeUpdate","property wrapper"
+"Adler32","unclassified","Adler32","constructor"
+"Adler32","unclassified","Reset","set"
+"Adler32","unclassified","Update","set"
+"Adler32","unclassified","Update","wrapper stateless"
+"Adler32","unclassified","Update","set collaborator"
+"Adler32","unclassified","get","get"
+"MemoryStreamWithoutSync","entity commander boundary","CopyToAsync","non-void-command collaborator"
+"MemoryStreamWithoutSync","entity commander boundary","Seek","property non-void-command collaborator"
+"MemoryStreamWithoutSync","entity commander boundary","SetLength","command"
+"ZipOutputStream","commander","GlobalSetup","command"
+"ZipOutputStream","commander","WriteZipOutputStream","property controller"
+"ZipOutputStream","commander","WriteZipOutputStreamAsync","property set collaborator"
+"ZipOutputStream","commander","ZipOutputStream","constructor"
+"ZipOutputStream","commander","ZipOutputStream","constructor"
+"ZipOutputStream","commander","ZipOutputStream","constructor"
+"ZipOutputStream","commander","SetComment","set"
+"ZipOutputStream","commander","SetLevel","set"
+"ZipOutputStream","commander","GetLevel","property non-void-command"
+"ZipOutputStream","commander","WriteLeShort","command"
+"ZipOutputStream","commander","WriteLeInt","command"
+"ZipOutputStream","commander","WriteLeLong","command"
+"ZipOutputStream","commander","TransformEntryName","void-accessor command collaborator"
+"ZipOutputStream","commander","PutNextEntry","command collaborator"
+"ZipOutputStream","commander","PutNextPassthroughEntry","command collaborator"
+"ZipOutputStream","commander","PutNextEntry","void-accessor command"
+"ZipOutputStream","commander","CloseEntry","command"
+"ZipOutputStream","commander","FinishCompressionSyncOrAsync","non-void-command collaborator"
+"ZipOutputStream","commander","CloseEntryAsync","non-void-command collaborator"
+"ZipOutputStream","commander","WriteEntryFooter","command collaborator"
+"ZipOutputStream","commander","InitializeAESPassword","property non-void-command collaborator"
+"ZipOutputStream","commander","CreateZipCryptoHeader","property non-void-command"
+"ZipOutputStream","commander","InitializeZipCryptoPassword","set"
+"ZipOutputStream","commander","WriteSyncOrAsync","non-void-command collaborator"
+"ZipOutputStream","commander","CopyAndEncrypt","command"
+"ZipOutputStream","commander","Finish","set collaborator"
+"ZipOutputStream","commander","FinishAsync","non-void-command collaborator"
+"ZipOutputStream","commander","Flush","command"
+"ZipOutputStream","commander","get","predicate"
+"ZipOutputStream","commander","get","get collaborator"
+"ZipOutputStream","commander","set","set collaborator"
+"ZipOutputStream","commander","get","get"
+"ZipOutputStream","commander","set","set"
+"LzwTestSuite","pure-controller degenerate small-class","ZeroLengthInputStream","controller stateless"
+"LzwTestSuite","pure-controller degenerate small-class","InputStreamOwnership","controller stateless"
+"ZipFileArchiver","commander boundary","ZipFileArchiver","constructor"
+"ZipFileArchiver","commander boundary","SetArgs","predicate non-void-command"
+"ZipFileArchiver","commander boundary","ShowEnvironment","set"
+"ZipFileArchiver","commander boundary","ShowVersion","set collaborator"
+"ZipFileArchiver","commander boundary","ShowHelp","set"
+"ZipFileArchiver","commander boundary","ListArchiveContents","wrapper stateless"
+"ZipFileArchiver","commander boundary","ListArchiveContents","command collaborator"
+"ZipFileArchiver","commander boundary","List","command collaborator"
+"ZipFileArchiver","commander boundary","Create","set collaborator"
+"ZipFileArchiver","commander boundary","ExtractFile","predicate non-void-command"
+"ZipFileArchiver","commander boundary","DecompressArchive","predicate non-void-command collaborator"
+"ZipFileArchiver","commander boundary","Extract","set collaborator"
+"ZipFileArchiver","commander boundary","TestResultHandler","incidental"
+"ZipFileArchiver","commander boundary","Test","wrapper"
+"ZipFileArchiver","commander boundary","Delete","wrapper stateless"
+"ZipFileArchiver","commander boundary","ProcessFile","command collaborator"
+"ZipFileArchiver","commander boundary","ProcessDirectory","command collaborator"
+"ZipFileArchiver","commander boundary","Add","set collaborator"
+"ZipFileArchiver","commander boundary","Execute","command"
+"ZipFileArchiver","commander boundary","GetBuffer","get set"
+"TarArchiveTests","commander","ExtractingContentsWithNonTraversalPathSucceeds","command"
+"TarArchiveTests","commander","ExtractingContentsWithExplicitlyAllowedTraversalPathSucceeds","command"
+"TarArchiveTests","commander","ExtractingContentsWithDisallowedPathsFails","command"
+"TarArchiveTests","commander","ExtractingContentsOnWindowsWithDisallowedPathsFails","command"
+"TarArchiveTests","commander","ExtractTarOK","wrapper stateless"
+"BZip2Exception","empty","BZip2Exception","constructor"
+"BZip2Exception","empty","BZip2Exception","constructor"
+"BZip2Exception","empty","BZip2Exception","constructor"
+"BZip2Exception","empty","BZip2Exception","constructor"
+"StaticDiskDataSource","data-provider boundary small-class","StaticDiskDataSource","constructor"
+"StaticDiskDataSource","data-provider boundary small-class","GetSource","property wrapper"
+"TestArchiveReport","commander small-class","HandleTestResults","command"
+"PathFilter","small-class","PathFilter","constructor"
+"PathFilter","small-class","IsMatch","predicate non-void-command"
+"InflaterPool","pure-controller degenerate small-class","InflaterPool","constructor"
+"InflaterPool","pure-controller degenerate small-class","Rent","factory controller stateless"
+"InflaterPool","pure-controller degenerate small-class","Return","controller stateless"
+"BZip2OutputStream","commander","BZip2OutputStream","constructor"
+"BZip2OutputStream","commander","BZip2OutputStream","constructor"
+"BZip2OutputStream","commander","~BZip2OutputStream","destructor"
+"BZip2OutputStream","commander","Seek","collaborator stateless"
+"BZip2OutputStream","commander","SetLength","stateless"
+"BZip2OutputStream","commander","ReadByte","stateless"
+"BZip2OutputStream","commander","Read","stateless"
+"BZip2OutputStream","commander","Write","command"
+"BZip2OutputStream","commander","WriteByte","command"
+"BZip2OutputStream","commander","MakeMaps","command"
+"BZip2OutputStream","commander","WriteRun","command"
+"BZip2OutputStream","commander","Dispose","command"
+"BZip2OutputStream","commander","Flush","command"
+"BZip2OutputStream","commander","Initialize","command"
+"BZip2OutputStream","commander","InitBlock","command"
+"BZip2OutputStream","commander","EndBlock","command"
+"BZip2OutputStream","commander","EndCompression","command"
+"BZip2OutputStream","commander","BsFinishedWithStream","command"
+"BZip2OutputStream","commander","BsW","command"
+"BZip2OutputStream","commander","BsPutUChar","command"
+"BZip2OutputStream","commander","BsPutint","command"
+"BZip2OutputStream","commander","BsPutIntVS","command"
+"BZip2OutputStream","commander","SendMTFValues","command"
+"BZip2OutputStream","commander","MoveToFrontCodeAndSend","command"
+"BZip2OutputStream","commander","SimpleSort","command"
+"BZip2OutputStream","commander","Vswap","command"
+"BZip2OutputStream","commander","QSort3","command"
+"BZip2OutputStream","commander","MainSort","command"
+"BZip2OutputStream","commander","RandomiseBlock","command"
+"BZip2OutputStream","commander","DoReversibleTransformation","command"
+"BZip2OutputStream","commander","FullGtU","predicate set"
+"BZip2OutputStream","commander","AllocateCompressStructures","command"
+"BZip2OutputStream","commander","GenerateMTFValues","command"
+"BZip2OutputStream","commander","get","incidental"
+"BZip2OutputStream","commander","get","incidental"
+"BZip2OutputStream","commander","get","predicate"
+"BZip2OutputStream","commander","get","property"
+"BZip2OutputStream","commander","get","property"
+"BZip2OutputStream","commander","set","stateless"
+"BZip2OutputStream","commander","get","get"
+"OutputWindow","unclassified","Write","command"
+"OutputWindow","unclassified","SlowRepeat","command"
+"OutputWindow","unclassified","Repeat","command"
+"OutputWindow","unclassified","CopyStored","property non-void-command"
+"OutputWindow","unclassified","CopyDict","set"
+"OutputWindow","unclassified","GetFreeSpace","property"
+"OutputWindow","unclassified","GetAvailable","get"
+"OutputWindow","unclassified","CopyOutput","property set"
+"OutputWindow","unclassified","Reset","command"
+"ZipFile","boundary","GlobalSetup","set collaborator"
+"ZipFile","boundary","ReadLargeZipFile","wrapper"
+"ZipFile","boundary","OnKeysRequired","set collaborator"
+"ZipFile","boundary","ZipFile","constructor"
+"ZipFile","boundary","ZipFile","constructor"
+"ZipFile","boundary","ZipFile","constructor"
+"ZipFile","boundary","ZipFile","constructor"
+"ZipFile","boundary","ZipFile","constructor"
+"ZipFile","boundary","ZipFile","constructor"
+"ZipFile","boundary","ZipFile","constructor"
+"ZipFile","boundary","ZipFile","constructor"
+"ZipFile","boundary","~ZipFile","destructor"
+"ZipFile","boundary","Close","command"
+"ZipFile","boundary","IEnumerable.GetEnumerator","property non-void-command collaborator"
+"ZipFile","boundary","IEnumerable<ZipEntry>.GetEnumerator","property non-void-command collaborator"
+"ZipFile","boundary","GetEnumerator","property factory collaborator"
+"ZipFile","boundary","FindEntry","property wrapper"
+"ZipFile","boundary","GetEntry","property non-void-command collaborator"
+"ZipFile","boundary","GetInputStream","property non-void-command collaborator"
+"ZipFile","boundary","GetInputStream","non-void-command factory collaborator"
+"ZipFile","boundary","TestArchive","predicate non-void-command"
+"ZipFile","boundary","TestArchive","predicate non-void-command collaborator"
+"ZipFile","boundary","TestLocalHeader","property non-void-command collaborator"
+"ZipFile","boundary","BeginUpdate","command collaborator"
+"ZipFile","boundary","BeginUpdate","command collaborator"
+"ZipFile","boundary","BeginUpdate","command"
+"ZipFile","boundary","CommitUpdate","command"
+"ZipFile","boundary","AbortUpdate","command"
+"ZipFile","boundary","SetComment","command"
+"ZipFile","boundary","AddUpdate","command collaborator"
+"ZipFile","boundary","Add","set collaborator"
+"ZipFile","boundary","Add","set collaborator"
+"ZipFile","boundary","Add","command"
+"ZipFile","boundary","Add","command"
+"ZipFile","boundary","Add","command"
+"ZipFile","boundary","Add","command collaborator"
+"ZipFile","boundary","Add","command collaborator"
+"ZipFile","boundary","Add","command collaborator"
+"ZipFile","boundary","Add","command collaborator"
+"ZipFile","boundary","AddDirectory","command collaborator"
+"ZipFile","boundary","Delete","predicate non-void-command"
+"ZipFile","boundary","Delete","command collaborator"
+"ZipFile","boundary","WriteLEShort","command"
+"ZipFile","boundary","WriteLEUshort","command"
+"ZipFile","boundary","WriteLEInt","command"
+"ZipFile","boundary","WriteLEUint","command"
+"ZipFile","boundary","WriteLeLong","command"
+"ZipFile","boundary","WriteLEUlong","command"
+"ZipFile","boundary","WriteLocalEntryHeader","void-accessor command collaborator"
+"ZipFile","boundary","WriteCentralDirectoryHeader","property non-void-command collaborator"
+"ZipFile","boundary","PostUpdateCleanup","command"
+"ZipFile","boundary","GetTransformedFileName","controller stateless"
+"ZipFile","boundary","GetTransformedDirectoryName","controller stateless"
+"ZipFile","boundary","GetBuffer","get set"
+"ZipFile","boundary","CopyDescriptorBytes","command collaborator"
+"ZipFile","boundary","CopyBytes","void-accessor command"
+"ZipFile","boundary","CopyDescriptorBytesDirect","void-accessor command collaborator"
+"ZipFile","boundary","CopyEntryDataDirect","void-accessor command"
+"ZipFile","boundary","FindExistingUpdate","property non-void-command collaborator"
+"ZipFile","boundary","FindExistingUpdate","property non-void-command"
+"ZipFile","boundary","GetOutputStream","non-void-command factory collaborator"
+"ZipFile","boundary","AddEntry","void-accessor command collaborator"
+"ZipFile","boundary","ModifyEntry","void-accessor command collaborator"
+"ZipFile","boundary","CopyEntryDirect","void-accessor command collaborator"
+"ZipFile","boundary","CopyEntry","command collaborator"
+"ZipFile","boundary","Reopen","command collaborator"
+"ZipFile","boundary","Reopen","wrapper stateless"
+"ZipFile","boundary","UpdateCommentOnly","command"
+"ZipFile","boundary","RunUpdates","command collaborator"
+"ZipFile","boundary","CheckUpdating","unclassified"
+"ZipFile","boundary","IDisposable.Dispose","command"
+"ZipFile","boundary","DisposeInternal","command"
+"ZipFile","boundary","Dispose","command"
+"ZipFile","boundary","ReadLEUshort","property non-void-command"
+"ZipFile","boundary","ReadLEUint","property non-void-command"
+"ZipFile","boundary","ReadLEUlong","property non-void-command"
+"ZipFile","boundary","ReadEntries","command"
+"ZipFile","boundary","LocateEntry","property non-void-command collaborator"
+"ZipFile","boundary","CreateAndInitDecryptionStream","non-void-command factory collaborator"
+"ZipFile","boundary","CreateAndInitEncryptionStream","property non-void-command factory collaborator"
+"ZipFile","boundary","get","get"
+"ZipFile","boundary","set","set"
+"ZipFile","boundary","set","non-void-command"
+"ZipFile","boundary","get","predicate"
+"ZipFile","boundary","get","get"
+"ZipFile","boundary","set","set"
+"ZipFile","boundary","get","predicate"
+"ZipFile","boundary","get","get"
+"ZipFile","boundary","get","get"
+"ZipFile","boundary","get","get"
+"ZipFile","boundary","get","property"
+"ZipFile","boundary","get","property"
+"ZipFile","boundary","get","property wrapper"
+"ZipFile","boundary","set","set collaborator"
+"ZipFile","boundary","get","property collaborator"
+"ZipFile","boundary","set","set collaborator"
+"ZipFile","boundary","get","get collaborator"
+"ZipFile","boundary","set","set collaborator"
+"ZipFile","boundary","get","get"
+"ZipFile","boundary","set","non-void-command"
+"ZipFile","boundary","get","predicate"
+"ZipFile","boundary","get","get collaborator"
+"ZipFile","boundary","set","set collaborator"
+"FastZipDemo","boundary degenerate","ListFile","collaborator incidental"
+"FastZipDemo","boundary degenerate","ListDir","collaborator incidental"
+"FastZipDemo","boundary degenerate","ListFileSystem","controller stateless"
+"FastZipDemo","boundary degenerate","ShowProgress","collaborator incidental"
+"FastZipDemo","boundary degenerate","ProcessFile","collaborator incidental"
+"FastZipDemo","boundary degenerate","ProcessDirectory","collaborator incidental"
+"FastZipDemo","boundary degenerate","ConfirmOverwrite","controller stateless"
+"FastZipDemo","boundary degenerate","Run","command collaborator"
+"TrackedMemoryStream","unclassified","TrackedMemoryStream","constructor"
+"TrackedMemoryStream","unclassified","TrackedMemoryStream","constructor"
+"TrackedMemoryStream","unclassified","WriteLEShort","wrapper stateless"
+"TrackedMemoryStream","unclassified","WriteLEInt","command"
+"TrackedMemoryStream","unclassified","Dispose","set"
+"TrackedMemoryStream","unclassified","Close","set"
+"TrackedMemoryStream","unclassified","get","get"
+"TrackedMemoryStream","unclassified","get","get"
+"TarInputStream","unclassified","TarInputStream","constructor"
+"TarInputStream","unclassified","ReadTarInputStream","property wrapper"
+"TarInputStream","unclassified","ReadTarInputStreamAsync","property non-void-command collaborator"
+"TarInputStream","unclassified","TarInputStream","constructor"
+"TarInputStream","unclassified","TarInputStream","constructor"
+"TarInputStream","unclassified","TarInputStream","constructor"
+"TarInputStream","unclassified","TarInputStream","constructor"
+"TarInputStream","unclassified","Flush","command"
+"TarInputStream","unclassified","FlushAsync","non-void-command collaborator"
+"TarInputStream","unclassified","Seek","collaborator stateless"
+"TarInputStream","unclassified","SetLength","stateless"
+"TarInputStream","unclassified","Write","stateless"
+"TarInputStream","unclassified","WriteByte","stateless"
+"TarInputStream","unclassified","ReadByte","property non-void-command collaborator"
+"TarInputStream","unclassified","ReadAsync","property non-void-command collaborator"
+"TarInputStream","unclassified","ReadAsync","property non-void-command collaborator"
+"TarInputStream","unclassified","Read","property non-void-command"
+"TarInputStream","unclassified","ReadAsync","property non-void-command collaborator"
+"TarInputStream","unclassified","Dispose","command"
+"TarInputStream","unclassified","DisposeAsync","non-void-command collaborator"
+"TarInputStream","unclassified","SetEntryFactory","set collaborator"
+"TarInputStream","unclassified","GetRecordSize","property wrapper"
+"TarInputStream","unclassified","SkipAsync","non-void-command collaborator"
+"TarInputStream","unclassified","Mark","empty"
+"TarInputStream","unclassified","Reset","empty"
+"TarInputStream","unclassified","GetNextEntryAsync","get property non-void-command factory collaborator"
+"TarInputStream","unclassified","CopyEntryContentsAsync","non-void-command collaborator"
+"TarInputStream","unclassified","SkipToNextEntryAsync","non-void-command collaborator"
+"TarInputStream","unclassified","get","predicate"
+"TarInputStream","unclassified","set","set"
+"TarInputStream","unclassified","get","predicate"
+"TarInputStream","unclassified","get","incidental"
+"TarInputStream","unclassified","get","incidental"
+"TarInputStream","unclassified","get","property"
+"TarInputStream","unclassified","get","property"
+"TarInputStream","unclassified","set","stateless"
+"TarInputStream","unclassified","get","property"
+"TarInputStream","unclassified","get","property"
+"TarInputStream","unclassified","get","incidental"
+"InflaterHuffmanTree","small-class","InflaterHuffmanTree","constructor"
+"InflaterHuffmanTree","small-class","InflaterHuffmanTree","constructor"
+"InflaterHuffmanTree","small-class","BuildTree","command collaborator"
+"InflaterHuffmanTree","small-class","GetSymbol","property controller"
+"SharpZipBaseException","empty","SharpZipBaseException","constructor"
+"SharpZipBaseException","empty","SharpZipBaseException","constructor"
+"SharpZipBaseException","empty","SharpZipBaseException","constructor"
+"SharpZipBaseException","empty","SharpZipBaseException","constructor"
+"LzwConstants","empty","LzwConstants","constructor"
+"PkzipClassicManaged","lazy-class","GenerateIV","empty"
+"PkzipClassicManaged","lazy-class","GenerateKey","set"
+"PkzipClassicManaged","lazy-class","CreateEncryptor","property set factory collaborator"
+"PkzipClassicManaged","lazy-class","CreateDecryptor","property set factory collaborator"
+"PkzipClassicManaged","lazy-class","get","incidental"
+"PkzipClassicManaged","lazy-class","set","stateless"
+"PkzipClassicManaged","lazy-class","get","factory collaborator stateless"
+"PkzipClassicManaged","lazy-class","get","factory collaborator stateless"
+"PkzipClassicManaged","lazy-class","get","property non-void-command"
+"PkzipClassicManaged","lazy-class","set","set"
+"ZipAESTransform","small-class","ZipAESTransform","constructor"
+"ZipAESTransform","small-class","TransformBlock","property non-void-command"
+"ZipAESTransform","small-class","TransformFinalBlock","property set"
+"MultipleRuntimes","empty","MultipleRuntimes","constructor"
+"ExactMemoryPool<T>","degenerate small-class","Rent","factory wrapper stateless"
+"ExactMemoryPool<T>","degenerate small-class","Dispose","empty"
+"ZipEntry","commander","ZipEntry","constructor"
+"ZipEntry","commander","ZipEntry","constructor"
+"ZipEntry","commander","ZipEntry","constructor"
+"ZipEntry","commander","ZipEntry","copy-constructor"
+"ZipEntry","commander","HasDosAttributes","predicate"
+"ZipEntry","commander","ProcessExtraData","command collaborator"
+"ZipEntry","commander","ProcessAESExtraData","command collaborator"
+"ZipEntry","commander","Clone","property non-void-command collaborator"
+"ZipEntry","commander","set","non-void-command"
+"ZipEntry","commander","set","set"
+"ZipEntry","commander","get","property non-void-command"
+"ZipEntry","commander","get","predicate"
+"ZipEntry","commander","get","property collaborator"
+"ZipEntry","commander","set","wrapper stateless"
+"ZipEntry","commander","set","non-void-command collaborator"
+"ZipEntry","commander","set","non-void-command"
+"ZipEntry","commander","set","non-void-command"
+"ZipEntry","commander","set","non-void-command"
+"ZipEntry","commander","set","set"
+"ZipEntry","commander","get","property"
+"ZipEntry","commander","set","set"
+"ZipEntry","commander","set","set"
+"ZipBase","degenerate","MakeInMemoryZip","controller stateless"
+"ZipBase","degenerate","MakeInMemoryZip","controller stateless"
+"ZipBase","degenerate","WriteToFile","wrapper stateless"
+"ZipBase","degenerate","MakeZipFile","wrapper stateless"
+"ZipBase","degenerate","MakeZipFile","wrapper stateless"
+"ZipBase","degenerate","MakeZipFile","wrapper stateless"
+"ZipBase","degenerate","MakeZipFile","wrapper stateless"
+"ZipBase","degenerate","MakeZipFile","controller stateless"
+"ZipBase","degenerate","ReadByteChecked","controller stateless"
+"ZipBase","degenerate","ReadInt","property non-void-command collaborator"
+"ZipBase","degenerate","ReadLong","property non-void-command collaborator"
+"BZip2Crc","commander","BZip2Crc","constructor"
+"BZip2Crc","commander","BZip2CrcLargeUpdate","get controller"
+"BZip2Crc","commander","BZip2Crc","constructor"
+"BZip2Crc","commander","Reset","set"
+"BZip2Crc","commander","Update","set"
+"BZip2Crc","commander","Update","command"
+"BZip2Crc","commander","Update","command collaborator"
+"BZip2Crc","commander","Update","set"
+"BZip2Crc","commander","SlowUpdateLoop","command"
+"BZip2Crc","commander","get","property"
+"GZipAsyncTests","commander boundary small-class","SmallBufferDecompressionAsync","non-void-command collaborator"
+"DeflaterEngine","unclassified","DeflaterEngine","constructor"
+"DeflaterEngine","unclassified","DeflaterEngine","constructor"
+"DeflaterEngine","unclassified","Deflate","predicate non-void-command"
+"DeflaterEngine","unclassified","SetInput","command"
+"DeflaterEngine","unclassified","NeedsInput","predicate"
+"DeflaterEngine","unclassified","SetDictionary","command"
+"DeflaterEngine","unclassified","Reset","command"
+"DeflaterEngine","unclassified","ResetAdler","command"
+"DeflaterEngine","unclassified","SetLevel","command"
+"DeflaterEngine","unclassified","FillWindow","command"
+"DeflaterEngine","unclassified","UpdateHash","set"
+"DeflaterEngine","unclassified","InsertString","property non-void-command"
+"DeflaterEngine","unclassified","SlideWindow","command"
+"DeflaterEngine","unclassified","FindLongestMatch","predicate non-void-command"
+"DeflaterEngine","unclassified","DeflateStored","predicate non-void-command"
+"DeflaterEngine","unclassified","DeflateFast","predicate non-void-command"
+"DeflaterEngine","unclassified","DeflateSlow","predicate non-void-command"
+"DeflaterEngine","unclassified","get","property"
+"DeflaterEngine","unclassified","get","get"
+"DeflaterEngine","unclassified","get","get collaborator"
+"DeflaterEngine","unclassified","set","set collaborator"
+"PassthroughTests","boundary degenerate","AddingValidPrecompressedEntryToZipOutputStream","wrapper stateless"
+"PassthroughTests","boundary degenerate","AddingPrecompressedEntryToZipOutputStreamWithInvalidSize","wrapper stateless"
+"PassthroughTests","boundary degenerate","AddingPrecompressedEntryToZipOutputStreamWithInvalidCompressedSize","wrapper stateless"
+"PassthroughTests","boundary degenerate","AddingPrecompressedEntryToZipOutputStreamWithNonSupportedMethod","wrapper stateless"
+"PassthroughTests","boundary degenerate","AddingPrecompressedEntryToZipOutputStreamWithEncryption","wrapper stateless"
+"GZipException","empty","GZipException","constructor"
+"GZipException","empty","GZipException","constructor"
+"GZipException","empty","GZipException","constructor"
+"GZipException","empty","GZipException","constructor"
+"BZip2InputStream","commander","BZip2InputStream","constructor"
+"BZip2InputStream","commander","DecompressData","wrapper"
+"BZip2InputStream","commander","BZip2InputStream","constructor"
+"BZip2InputStream","commander","Flush","command"
+"BZip2InputStream","commander","Seek","collaborator stateless"
+"BZip2InputStream","commander","SetLength","stateless"
+"BZip2InputStream","commander","Write","stateless"
+"BZip2InputStream","commander","WriteByte","stateless"
+"BZip2InputStream","commander","Read","property non-void-command"
+"BZip2InputStream","commander","Dispose","command"
+"BZip2InputStream","commander","ReadByte","property non-void-command"
+"BZip2InputStream","commander","MakeMaps","command"
+"BZip2InputStream","commander","Initialize","command"
+"BZip2InputStream","commander","InitBlock","command"
+"BZip2InputStream","commander","EndBlock","command"
+"BZip2InputStream","commander","Complete","command"
+"BZip2InputStream","commander","FillBuffer","command"
+"BZip2InputStream","commander","BsR","property set"
+"BZip2InputStream","commander","BsGetUChar","property non-void-command"
+"BZip2InputStream","commander","BsGetIntVS","property non-void-command"
+"BZip2InputStream","commander","BsGetInt32","property non-void-command"
+"BZip2InputStream","commander","RecvDecodingTables","command"
+"BZip2InputStream","commander","GetAndMoveToFrontDecode","command collaborator"
+"BZip2InputStream","commander","SetupBlock","command"
+"BZip2InputStream","commander","SetupRandPartA","command"
+"BZip2InputStream","commander","SetupNoRandPartA","command"
+"BZip2InputStream","commander","SetupRandPartB","command"
+"BZip2InputStream","commander","SetupRandPartC","command"
+"BZip2InputStream","commander","SetupNoRandPartB","command"
+"BZip2InputStream","commander","SetupNoRandPartC","command"
+"BZip2InputStream","commander","SetDecompressStructureSizes","command"
+"BZip2InputStream","commander","get","predicate"
+"BZip2InputStream","commander","get","incidental"
+"BZip2InputStream","commander","get","incidental"
+"BZip2InputStream","commander","get","property"
+"BZip2InputStream","commander","get","property"
+"BZip2InputStream","commander","set","stateless"
+"NameFilter","unclassified","NameFilter","constructor"
+"NameFilter","unclassified","ToString","get"
+"NameFilter","unclassified","IsIncluded","predicate controller"
+"NameFilter","unclassified","IsExcluded","predicate controller"
+"NameFilter","unclassified","IsMatch","predicate non-void-command"
+"NameFilter","unclassified","Compile","command"
+"ZipInputStream","unclassified","GlobalSetup","set"
+"ZipInputStream","unclassified","ReadZipInputStream","property wrapper"
+"ZipInputStream","unclassified","ZipInputStream","constructor"
+"ZipInputStream","unclassified","ZipInputStream","constructor"
+"ZipInputStream","unclassified","ZipInputStream","constructor"
+"ZipInputStream","unclassified","GetNextEntry","get property non-void-command factory collaborator"
+"ZipInputStream","unclassified","SkipUntilNextEntry","predicate non-void-command collaborator"
+"ZipInputStream","unclassified","ReadDataDescriptor","command"
+"ZipInputStream","unclassified","CompleteCloseEntry","command"
+"ZipInputStream","unclassified","CloseEntry","command"
+"ZipInputStream","unclassified","ReadByte","property non-void-command"
+"ZipInputStream","unclassified","ReadingNotAvailable","stateless"
+"ZipInputStream","unclassified","ReadingNotSupported","stateless"
+"ZipInputStream","unclassified","InitialRead","property non-void-command"
+"ZipInputStream","unclassified","Read","wrapper stateless"
+"ZipInputStream","unclassified","BodyRead","property non-void-command"
+"ZipInputStream","unclassified","Dispose","command"
+"ZipInputStream","unclassified","get","get"
+"ZipInputStream","unclassified","set","set"
+"ZipInputStream","unclassified","get","property"
+"ZipInputStream","unclassified","get","property"
+"PkzipClassicCryptoBase","commander","TransformByte","property"
+"PkzipClassicCryptoBase","commander","SetKeys","command"
+"PkzipClassicCryptoBase","commander","UpdateKeys","command"
+"PkzipClassicCryptoBase","commander","Reset","command"
+"StreamUnsupportedException","empty","StreamUnsupportedException","constructor"
+"StreamUnsupportedException","empty","StreamUnsupportedException","constructor"
+"StreamUnsupportedException","empty","StreamUnsupportedException","constructor"
+"StreamUnsupportedException","empty","StreamUnsupportedException","constructor"
+"ProgressEventArgs","data-provider","ProgressEventArgs","constructor"
+"ProgressEventArgs","data-provider","get","get"
+"ProgressEventArgs","data-provider","get","get"
+"ProgressEventArgs","data-provider","set","set"
+"ProgressEventArgs","data-provider","get","property"
+"ProgressEventArgs","data-provider","get","get"
+"ProgressEventArgs","data-provider","get","get"
+"StringMemoryDataSource","empty","StringMemoryDataSource","constructor"
+"TarOutputStream","unclassified","WriteTarOutputStream","command"
+"TarOutputStream","unclassified","WriteTarOutputStreamAsync","non-void-command collaborator"
+"TarOutputStream","unclassified","TarOutputStream","constructor"
+"TarOutputStream","unclassified","TarOutputStream","constructor"
+"TarOutputStream","unclassified","TarOutputStream","constructor"
+"TarOutputStream","unclassified","TarOutputStream","constructor"
+"TarOutputStream","unclassified","Seek","property non-void-command collaborator"
+"TarOutputStream","unclassified","SetLength","command"
+"TarOutputStream","unclassified","ReadByte","property non-void-command"
+"TarOutputStream","unclassified","Read","property non-void-command"
+"TarOutputStream","unclassified","ReadAsync","property non-void-command collaborator"
+"TarOutputStream","unclassified","Flush","command"
+"TarOutputStream","unclassified","FlushAsync","non-void-command collaborator"
+"TarOutputStream","unclassified","FinishAsync","non-void-command collaborator"
+"TarOutputStream","unclassified","Dispose","set"
+"TarOutputStream","unclassified","GetRecordSize","property wrapper"
+"TarOutputStream","unclassified","PutNextEntryAsync","non-void-command collaborator"
+"TarOutputStream","unclassified","CloseEntryAsync","non-void-command collaborator"
+"TarOutputStream","unclassified","WriteByte","wrapper stateless"
+"TarOutputStream","unclassified","WriteAsync","non-void-command collaborator"
+"TarOutputStream","unclassified","WriteEofBlockAsync","non-void-command collaborator"
+"TarOutputStream","unclassified","get","predicate"
+"TarOutputStream","unclassified","set","set"
+"TarOutputStream","unclassified","get","predicate"
+"TarOutputStream","unclassified","get","predicate"
+"TarOutputStream","unclassified","get","predicate"
+"TarOutputStream","unclassified","get","property"
+"TarOutputStream","unclassified","get","property"
+"TarOutputStream","unclassified","set","set"
+"TarOutputStream","unclassified","get","property"
+"TarOutputStream","unclassified","get","predicate"
+"InvalidNameException","empty","InvalidNameException","constructor"
+"InvalidNameException","empty","InvalidNameException","constructor"
+"InvalidNameException","empty","InvalidNameException","constructor"
+"InvalidNameException","empty","InvalidNameException","constructor"
+"DeflaterPending","empty","DeflaterPending","constructor"
+"FastZipEvents","data-provider boundary","OnDirectoryFailure","predicate wrapper"
+"FastZipEvents","data-provider boundary","OnFileFailure","predicate wrapper"
+"FastZipEvents","data-provider boundary","OnProcessFile","predicate wrapper"
+"FastZipEvents","data-provider boundary","OnCompletedFile","predicate wrapper"
+"FastZipEvents","data-provider boundary","OnProcessDirectory","predicate wrapper"
+"FastZipEvents","data-provider boundary","get","get collaborator"
+"FastZipEvents","data-provider boundary","set","set collaborator"
+"SharpZipArchiver","commander boundary","SetArgs","predicate non-void-command"
+"SharpZipArchiver","commander boundary","ShowEnvironment","set"
+"SharpZipArchiver","commander boundary","ShowVersion","set collaborator"
+"SharpZipArchiver","commander boundary","ShowHelp","set"
+"SharpZipArchiver","commander boundary","ListZip","wrapper"
+"SharpZipArchiver","commander boundary","ListZipViaZipFile","wrapper stateless"
+"SharpZipArchiver","commander boundary","List","command collaborator"
+"SharpZipArchiver","commander boundary","CookZipEntryName","property wrapper"
+"SharpZipArchiver","commander boundary","AddFileSeekableOutput","command collaborator"
+"SharpZipArchiver","commander boundary","GetBuffer","get set"
+"SharpZipArchiver","commander boundary","AddFile","command"
+"SharpZipArchiver","commander boundary","AddFolder","command collaborator"
+"SharpZipArchiver","commander boundary","CompressFolder","property non-void-command"
+"SharpZipArchiver","commander boundary","Create","command collaborator"
+"SharpZipArchiver","commander boundary","ExtractFile","predicate controller"
+"SharpZipArchiver","commander boundary","ExtractDirectory","empty"
+"SharpZipArchiver","commander boundary","DecompressFile","predicate non-void-command collaborator"
+"SharpZipArchiver","commander boundary","Extract","set collaborator"
+"SharpZipArchiver","commander boundary","Test","wrapper"
+"SharpZipArchiver","commander boundary","Delete","wrapper stateless"
+"SharpZipArchiver","commander boundary","Add","wrapper stateless"
+"SharpZipArchiver","commander boundary","Execute","command"
+"TarEntry","unclassified","TarEntry","constructor"
+"TarEntry","unclassified","TarEntry","constructor"
+"TarEntry","unclassified","TarEntry","constructor"
+"TarEntry","unclassified","TarEntry","constructor"
+"TarEntry","unclassified","Clone","non-void-command factory collaborator"
+"TarEntry","unclassified","Equals","wrapper stateless"
+"TarEntry","unclassified","GetHashCode","wrapper stateless"
+"TarEntry","unclassified","IsDescendent","controller stateless"
+"TarEntry","unclassified","SetIds","incidental"
+"TarEntry","unclassified","SetNames","incidental"
+"TarEntry","unclassified","GetFileTarHeader","void-accessor set"
+"TarEntry","unclassified","GetDirectoryEntries","property factory wrapper"
+"TarEntry","unclassified","WriteEntryHeader","command"
+"TarEntry","unclassified","WriteEntryHeader","command collaborator"
+"TarEntry","unclassified","NameTarHeader","command"
+"TarEntry","unclassified","get","get collaborator"
+"TarEntry","unclassified","get","property"
+"TarEntry","unclassified","set","set"
+"TarEntry","unclassified","get","property"
+"TarEntry","unclassified","set","set"
+"TarEntry","unclassified","get","property"
+"TarEntry","unclassified","set","set"
+"TarEntry","unclassified","get","property"
+"TarEntry","unclassified","set","set"
+"TarEntry","unclassified","get","property"
+"TarEntry","unclassified","set","set"
+"TarEntry","unclassified","get","property collaborator"
+"TarEntry","unclassified","set","set collaborator"
+"TarEntry","unclassified","get","get"
+"TarEntry","unclassified","get","property"
+"TarEntry","unclassified","set","set"
+"TarEntry","unclassified","get","predicate wrapper"
+"LzwException","empty","LzwException","constructor"
+"LzwException","empty","LzwException","constructor"
+"LzwException","empty","LzwException","constructor"
+"LzwException","empty","LzwException","constructor"
+"DeflaterHuffman","commander","DeflaterHuffman","constructor"
+"DeflaterHuffman","commander","DeflaterHuffman","constructor"
+"DeflaterHuffman","commander","Reset","command"
+"DeflaterHuffman","commander","SendAllTrees","command"
+"DeflaterHuffman","commander","CompressBlock","command"
+"DeflaterHuffman","commander","FlushStoredBlock","command"
+"DeflaterHuffman","commander","FlushBlock","command"
+"DeflaterHuffman","commander","IsFull","predicate"
+"DeflaterHuffman","commander","TallyLit","predicate non-void-command"
+"DeflaterHuffman","commander","TallyDist","predicate non-void-command"
+"ZipNameTransform","unclassified","ZipNameTransform","constructor"
+"ZipNameTransform","unclassified","ZipNameTransform","constructor"
+"ZipNameTransform","unclassified","ZipNameTransform","constructor"
+"ZipNameTransform","unclassified","TransformDirectory","property non-void-command"
+"ZipNameTransform","unclassified","TransformFile","property controller"
+"ZipNameTransform","unclassified","get","get"
+"ZipNameTransform","unclassified","set","set"
+"Cmd_Tar","unclassified","Cmd_Tar","constructor"
+"Cmd_Tar","unclassified","InstanceMain","command"
+"Cmd_Tar","unclassified","ShowTarProgressMessage","controller"
+"Cmd_Tar","unclassified","ProcessArguments","property non-void-command"
+"TarException","empty","TarException","constructor"
+"TarException","empty","TarException","constructor"
+"TarException","empty","TarException","constructor"
+"TarException","empty","TarException","constructor"
+"DynamicDiskDataSource","boundary degenerate small-class","GetSource","wrapper stateless"
+"ZipEncryptionHandling","unclassified","Aes128Encryption","command collaborator"
+"ZipEncryptionHandling","unclassified","Aes256Encryption","command collaborator"
+"ZipEncryptionHandling","unclassified","ZipCryptoEncryption","command collaborator"
+"ZipEncryptionHandling","unclassified","ZipOutputStreamEncryptEmptyEntries","wrapper stateless"
+"ZipEncryptionHandling","unclassified","ZipFileAesDecryption","controller"
+"ZipEncryptionHandling","unclassified","ZipFileAesRead","controller"
+"ZipEncryptionHandling","unclassified","ZipFileStoreAes","controller"
+"ZipEncryptionHandling","unclassified","ZipFileStoreAesAsync","controller"
+"ZipEncryptionHandling","unclassified","ZipFileStoreAesPartialRead","controller"
+"ZipEncryptionHandling","unclassified","ZipFileAesAdd","wrapper"
+"ZipEncryptionHandling","unclassified","ZipFileAesDelete","command collaborator"
+"ZipEncryptionHandling","unclassified","ZipFileAESReadWithEmptyPassword","wrapper"
+"ZipEncryptionHandling","unclassified","ZipinputStreamShouldGracefullyFailWithAESStreams","wrapper stateless"
+"ZipEncryptionHandling","unclassified","WriteEncryptedZipToStream","wrapper stateless"
+"ZipEncryptionHandling","unclassified","CreateZipWithEncryptedEntries","wrapper stateless"
+"StreamDecodingException","empty","StreamDecodingException","constructor"
+"StreamDecodingException","empty","StreamDecodingException","constructor"
+"StreamDecodingException","empty","StreamDecodingException","constructor"
+"StreamDecodingException","empty","StreamDecodingException","constructor"
+"TarArchive","unclassified","OnProgressMessageEvent","wrapper"
+"TarArchive","unclassified","TarArchive","constructor"
+"TarArchive","unclassified","TarArchive","constructor"
+"TarArchive","unclassified","TarArchive","constructor"
+"TarArchive","unclassified","SetKeepOldFiles","set"
+"TarArchive","unclassified","SetAsciiTranslation","set"
+"TarArchive","unclassified","SetUserInfo","command"
+"TarArchive","unclassified","CloseArchive","command"
+"TarArchive","unclassified","ListContents","command collaborator"
+"TarArchive","unclassified","ExtractContents","command collaborator"
+"TarArchive","unclassified","ExtractEntry","command collaborator"
+"TarArchive","unclassified","ExtractAndTranslateEntry","command collaborator"
+"TarArchive","unclassified","WriteEntry","command"
+"TarArchive","unclassified","WriteEntryCore","command"
+"TarArchive","unclassified","Dispose","command"
+"TarArchive","unclassified","Dispose","command"
+"TarArchive","unclassified","Close","command"
+"TarArchive","unclassified","~TarArchive","destructor"
+"TarArchive","unclassified","get","get"
+"TarArchive","unclassified","set","set"
+"TarArchive","unclassified","get","get"
+"TarArchive","unclassified","set","set"
+"TarArchive","unclassified","get","get"
+"TarArchive","unclassified","set","set"
+"TarArchive","unclassified","get","get"
+"TarArchive","unclassified","set","set"
+"TarArchive","unclassified","get","get"
+"TarArchive","unclassified","get","get"
+"TarArchive","unclassified","get","get"
+"TarArchive","unclassified","get","get"
+"TarArchive","unclassified","get","property"
+"TarArchive","unclassified","set","non-void-command"
+"PkzipClassicDecryptCryptoTransform","degenerate","PkzipClassicDecryptCryptoTransform","constructor"
+"PkzipClassicDecryptCryptoTransform","degenerate","TransformFinalBlock","property non-void-command"
+"PkzipClassicDecryptCryptoTransform","degenerate","TransformBlock","property non-void-command collaborator"
+"PkzipClassicDecryptCryptoTransform","degenerate","Dispose","command"
+"PkzipClassicDecryptCryptoTransform","degenerate","get","incidental"
+"PkzipClassicDecryptCryptoTransform","degenerate","get","incidental"
+"PkzipClassicDecryptCryptoTransform","degenerate","get","incidental"
+"PkzipClassicDecryptCryptoTransform","degenerate","get","incidental"
+"TarBuffer","boundary","GetRecordSize","get wrapper"
+"TarBuffer","boundary","GetBlockFactor","get wrapper"
+"TarBuffer","boundary","TarBuffer","constructor"
+"TarBuffer","boundary","Initialize","command"
+"TarBuffer","boundary","IsEOFBlock","predicate wrapper"
+"TarBuffer","boundary","SkipBlockAsync","set collaborator"
+"TarBuffer","boundary","ReadBlock","property set"
+"TarBuffer","boundary","ReadBlockIntAsync","non-void-command collaborator"
+"TarBuffer","boundary","ReadRecordAsync","property non-void-command collaborator"
+"TarBuffer","boundary","GetCurrentBlockNum","get wrapper"
+"TarBuffer","boundary","GetCurrentRecordNum","get wrapper"
+"TarBuffer","boundary","WriteBlockAsync","property non-void-command collaborator"
+"TarBuffer","boundary","WriteBlock","command"
+"TarBuffer","boundary","WriteBlockAsync","property non-void-command collaborator"
+"TarBuffer","boundary","WriteBlock","command"
+"TarBuffer","boundary","WriteBlockAsync","set collaborator"
+"TarBuffer","boundary","WriteRecordAsync","non-void-command collaborator"
+"TarBuffer","boundary","WriteFinalRecordAsync","non-void-command collaborator"
+"TarBuffer","boundary","CloseAsync","non-void-command collaborator"
+"TarBuffer","boundary","get","get"
+"TarBuffer","boundary","get","get"
+"TarBuffer","boundary","get","get"
+"TarBuffer","boundary","get","get"
+"ZipExtraDataHandling","controller degenerate","IsDataUnique","controller stateless"
+"ZipExtraDataHandling","controller degenerate","ExceedSize","controller stateless"
+"ZipExtraDataHandling","controller degenerate","Deleting","controller stateless"
+"ZipExtraDataHandling","controller degenerate","BasicOperations","command"
+"ZipExtraDataHandling","controller degenerate","UnreadCountValid","controller stateless"
+"ZipExtraDataHandling","controller degenerate","Skipping","controller stateless"
+"ZipExtraDataHandling","controller degenerate","ReadOverrunLong","controller stateless"
+"ZipExtraDataHandling","controller degenerate","ReadOverrunInt","controller stateless"
+"ZipExtraDataHandling","controller degenerate","ReadOverrunShort","controller stateless"
+"ZipExtraDataHandling","controller degenerate","TaggedDataHandling","controller stateless"
+"GZipTestSuite","degenerate","TestGZip","controller stateless"
+"GZipTestSuite","degenerate","DelayedHeaderWriteNoData","wrapper stateless"
+"GZipTestSuite","degenerate","DelayedHeaderWriteFlushNoData","controller stateless"
+"GZipTestSuite","degenerate","DelayedHeaderWriteWithData","controller stateless"
+"GZipTestSuite","degenerate","DelayedHeaderWriteFlushWithData","controller stateless"
+"GZipTestSuite","degenerate","ZeroLengthInputStream","controller stateless"
+"GZipTestSuite","degenerate","OutputStreamOwnership","controller stateless"
+"GZipTestSuite","degenerate","InputStreamOwnership","controller stateless"
+"GZipTestSuite","degenerate","DoubleFooter","controller stateless"
+"GZipTestSuite","degenerate","DoubleClose","controller stateless"
+"GZipTestSuite","degenerate","WriteAfterFinish","controller stateless"
+"GZipTestSuite","degenerate","WriteAfterClose","controller stateless"
+"GZipTestSuite","degenerate","TrailingGarbage","controller stateless"
+"GZipTestSuite","degenerate","FlushToUnderlyingStream","controller stateless"
+"GZipTestSuite","degenerate","SmallBufferDecompression","wrapper stateless"
+"GZipTestSuite","degenerate","ShouldGracefullyHandleReadingANonReadableStream","controller stateless"
+"GZipTestSuite","degenerate","WriteThroughput","wrapper stateless"
+"GZipTestSuite","degenerate","ReadWriteThroughput","wrapper stateless"
+"GZipTestSuite","degenerate","OriginalFilename","wrapper stateless"
+"ChecksumTests","commander boundary","Adler_32","command collaborator"
+"ChecksumTests","commander boundary","Adler_32_Performance","command collaborator"
+"ChecksumTests","commander boundary","CRC_32_BZip2","command collaborator"
+"ChecksumTests","commander boundary","CRC_32_BZip2_Long","wrapper"
+"ChecksumTests","commander boundary","CRC_32_BZip2_Unaligned","wrapper"
+"ChecksumTests","commander boundary","CRC_32_BZip2_Long_Unaligned","wrapper"
+"ChecksumTests","commander boundary","CRC_32","command collaborator"
+"ChecksumTests","commander boundary","CRC_32_Long","wrapper"
+"ChecksumTests","commander boundary","CRC_32_Unaligned","wrapper"
+"ChecksumTests","commander boundary","CRC_32_Long_Unaligned","wrapper"
+"ChecksumTests","commander boundary","exceptionTesting","controller"
+"TarExtendedHeaderReader","commander","TarExtendedHeaderReader","constructor"
+"TarExtendedHeaderReader","commander","Read","command collaborator"
+"TarExtendedHeaderReader","commander","Flush","command"
+"TarExtendedHeaderReader","commander","ResetBuffers","command"
+"TarExtendedHeaderReader","commander","get","get"
+"BaseArchiveStorage","data-provider boundary data-class small-class","BaseArchiveStorage","constructor"
+"BaseArchiveStorage","data-provider boundary data-class small-class","get","get collaborator"
+"TarHeader","unclassified","TarHeader","constructor"
+"TarHeader","unclassified","GetName","get wrapper"
+"TarHeader","unclassified","Clone","property non-void-command collaborator"
+"TarHeader","unclassified","ParseBuffer","command collaborator"
+"TarHeader","unclassified","ParseBuffer","command"
+"TarHeader","unclassified","WriteHeader","command"
+"TarHeader","unclassified","WriteHeader","void-accessor command collaborator"
+"TarHeader","unclassified","GetHashCode","wrapper stateless"
+"TarHeader","unclassified","Equals","predicate collaborator"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get collaborator"
+"TarHeader","unclassified","set","set collaborator"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarHeader","unclassified","get","get"
+"TarHeader","unclassified","set","set"
+"TarInputStreamTests","degenerate","TestRead","controller stateless"
+"TarInputStreamTests","degenerate","TestReadAsync","controller stateless"
+"TarInputStreamTests","degenerate","ReadEmptyStreamWhenArrayPoolIsDirty","wrapper stateless"
+"Deflater","unclassified","Deflater","constructor"
+"Deflater","unclassified","Deflater","constructor"
+"Deflater","unclassified","Deflater","constructor"
+"Deflater","unclassified","Reset","command"
+"Deflater","unclassified","Flush","set"
+"Deflater","unclassified","Finish","set"
+"Deflater","unclassified","SetInput","command"
+"Deflater","unclassified","SetInput","command"
+"Deflater","unclassified","SetLevel","set"
+"Deflater","unclassified","GetLevel","get"
+"Deflater","unclassified","SetStrategy","set collaborator"
+"Deflater","unclassified","Deflate","property non-void-command"
+"Deflater","unclassified","Deflate","property non-void-command"
+"Deflater","unclassified","SetDictionary","command"
+"Deflater","unclassified","SetDictionary","set"
+"Deflater","unclassified","get","property"
+"Deflater","unclassified","get","property"
+"Deflater","unclassified","get","get"
+"Deflater","unclassified","get","predicate"
+"Deflater","unclassified","get","predicate non-void-command"
+"NameAndSizeFilter","unclassified","NameAndSizeFilter","constructor"
+"NameAndSizeFilter","unclassified","IsMatch","predicate non-void-command"
+"NameAndSizeFilter","unclassified","get","get"
+"NameAndSizeFilter","unclassified","set","set"
+"NameAndSizeFilter","unclassified","get","get"
+"NameAndSizeFilter","unclassified","set","set"
+"Crc32","commander","Crc32","constructor"
+"Crc32","commander","Crc32LargeUpdate","property wrapper"
+"Crc32","commander","Crc32","constructor"
+"Crc32","commander","Reset","set"
+"Crc32","commander","Update","set"
+"Crc32","commander","Update","command"
+"Crc32","commander","Update","command collaborator"
+"Crc32","commander","Update","set"
+"Crc32","commander","SlowUpdateLoop","command"
+"Crc32","commander","get","property"
+"RawTaggedData","data-class","RawTaggedData","constructor"
+"RawTaggedData","data-class","SetData","set"
+"RawTaggedData","data-class","GetData","get"
+"RawTaggedData","data-class","get","get"
+"RawTaggedData","data-class","set","set"
+"RawTaggedData","data-class","get","get"
+"RawTaggedData","data-class","set","set"
+"PendingBuffer","commander","PendingBuffer","constructor"
+"PendingBuffer","commander","PendingBuffer","constructor"
+"PendingBuffer","commander","Reset","command"
+"PendingBuffer","commander","WriteByte","command"
+"PendingBuffer","commander","WriteShort","command"
+"PendingBuffer","commander","WriteInt","command"
+"PendingBuffer","commander","WriteBlock","set"
+"PendingBuffer","commander","AlignToByte","command"
+"PendingBuffer","commander","WriteBits","command"
+"PendingBuffer","commander","WriteShortMSB","command"
+"PendingBuffer","commander","Flush","property non-void-command"
+"PendingBuffer","commander","ToByteArray","property non-void-command"
+"PendingBuffer","commander","get","get"
+"PendingBuffer","commander","get","predicate"
+"PerfWorkerState","commander small-class","InitStream","set"
+"PerfWorkerState","commander small-class","DeinitStream","wrapper"
+"DeflaterOutputStream","commander","DeflaterOutputStream","constructor"
+"DeflaterOutputStream","commander","DeflaterOutputStream","constructor"
+"DeflaterOutputStream","commander","DeflaterOutputStream","constructor"
+"DeflaterOutputStream","commander","Finish","command"
+"DeflaterOutputStream","commander","FinishAsync","non-void-command collaborator"
+"DeflaterOutputStream","commander","EncryptBlock","command"
+"DeflaterOutputStream","commander","DeflateSyncOrAsync","non-void-command collaborator"
+"DeflaterOutputStream","commander","Seek","collaborator stateless"
+"DeflaterOutputStream","commander","SetLength","stateless"
+"DeflaterOutputStream","commander","ReadByte","stateless"
+"DeflaterOutputStream","commander","Read","stateless"
+"DeflaterOutputStream","commander","Flush","command"
+"DeflaterOutputStream","commander","FlushAsync","non-void-command collaborator"
+"DeflaterOutputStream","commander","Dispose","command"
+"DeflaterOutputStream","commander","DisposeAsync","non-void-command collaborator"
+"DeflaterOutputStream","commander","GetAuthCodeIfAES","set"
+"DeflaterOutputStream","commander","WriteByte","incidental"
+"DeflaterOutputStream","commander","Write","command"
+"DeflaterOutputStream","commander","WriteAsync","non-void-command collaborator"
+"DeflaterOutputStream","commander","get","predicate"
+"DeflaterOutputStream","commander","set","set collaborator"
+"DeflaterOutputStream","commander","get","incidental"
+"DeflaterOutputStream","commander","get","incidental"
+"DeflaterOutputStream","commander","get","predicate"
+"DeflaterOutputStream","commander","get","property"
+"DeflaterOutputStream","commander","get","property"
+"DeflaterOutputStream","commander","set","stateless"
+"StreamManipulator","unclassified","PeekBits","property non-void-command"
+"StreamManipulator","unclassified","TryGetBits","predicate non-void-command collaborator"
+"StreamManipulator","unclassified","TryGetBits","predicate non-void-command collaborator"
+"StreamManipulator","unclassified","DropBits","command"
+"StreamManipulator","unclassified","GetBits","property non-void-command"
+"StreamManipulator","unclassified","SkipToByteBoundary","command"
+"StreamManipulator","unclassified","CopyBytes","property non-void-command"
+"StreamManipulator","unclassified","Reset","command"
+"StreamManipulator","unclassified","SetInput","command"
+"StreamManipulator","unclassified","get","get"
+"StreamManipulator","unclassified","get","property"
+"StreamManipulator","unclassified","get","predicate"
+"ScanFailureEventArgs","data-provider data-class","ScanFailureEventArgs","constructor"
+"ScanFailureEventArgs","data-provider data-class","get","get"
+"ScanFailureEventArgs","data-provider data-class","get","get collaborator"
+"ScanFailureEventArgs","data-provider data-class","get","get"
+"ScanFailureEventArgs","data-provider data-class","set","set"
+"InflaterInputBuffer","unclassified","InflaterInputBuffer","constructor"
+"InflaterInputBuffer","unclassified","InflaterInputBuffer","constructor"
+"InflaterInputBuffer","unclassified","SetInflaterInput","set collaborator"
+"InflaterInputBuffer","unclassified","Fill","command"
+"InflaterInputBuffer","unclassified","ReadRawBuffer","property non-void-command"
+"InflaterInputBuffer","unclassified","ReadRawBuffer","property set"
+"InflaterInputBuffer","unclassified","ReadClearTextBuffer","property set"
+"InflaterInputBuffer","unclassified","ReadLeByte","property set"
+"InflaterInputBuffer","unclassified","ReadLeShort","property non-void-command"
+"InflaterInputBuffer","unclassified","ReadLeInt","property non-void-command"
+"InflaterInputBuffer","unclassified","ReadLeLong","property non-void-command"
+"InflaterInputBuffer","unclassified","get","get"
+"InflaterInputBuffer","unclassified","get","get"
+"InflaterInputBuffer","unclassified","get","get"
+"InflaterInputBuffer","unclassified","get","get"
+"InflaterInputBuffer","unclassified","get","get"
+"InflaterInputBuffer","unclassified","set","set"
+"InflaterInputBuffer","unclassified","set","non-void-command collaborator"
+"InflaterInputStream","unclassified","InflaterInputStream","constructor"
+"InflaterInputStream","unclassified","InflaterInputStream","constructor"
+"InflaterInputStream","unclassified","InflaterInputStream","constructor"
+"InflaterInputStream","unclassified","Skip","property non-void-command"
+"InflaterInputStream","unclassified","StopDecrypting","set"
+"InflaterInputStream","unclassified","Fill","command"
+"InflaterInputStream","unclassified","Flush","command"
+"InflaterInputStream","unclassified","Seek","collaborator stateless"
+"InflaterInputStream","unclassified","SetLength","stateless"
+"InflaterInputStream","unclassified","Write","stateless"
+"InflaterInputStream","unclassified","WriteByte","stateless"
+"InflaterInputStream","unclassified","Dispose","command"
+"InflaterInputStream","unclassified","Read","property non-void-command"
+"InflaterInputStream","unclassified","get","property"
+"InflaterInputStream","unclassified","get","predicate"
+"InflaterInputStream","unclassified","get","incidental"
+"InflaterInputStream","unclassified","get","incidental"
+"InflaterInputStream","unclassified","get","stateless"
+"InflaterInputStream","unclassified","get","property"
+"InflaterInputStream","unclassified","set","stateless"
+"FastZip","commander boundary","FastZip","constructor"
+"FastZip","commander boundary","FastZip","constructor"
+"FastZip","commander boundary","FastZip","constructor"
+"FastZip","commander boundary","FastZip","copy-constructor"
+"FastZip","commander boundary","CreateZip","command"
+"FastZip","commander boundary","CreateZip","command"
+"FastZip","commander boundary","CreateZip","command"
+"FastZip","commander boundary","CreateZip","command collaborator"
+"FastZip","commander boundary","CreateZip","command collaborator"
+"FastZip","commander boundary","CreateZip","command collaborator"
+"FastZip","commander boundary","CreateZip","void-accessor command"
+"FastZip","commander boundary","ExtractZip","wrapper"
+"FastZip","commander boundary","ExtractZip","command collaborator"
+"FastZip","commander boundary","ExtractZip","command collaborator"
+"FastZip","commander boundary","ProcessDirectory","command collaborator"
+"FastZip","commander boundary","ProcessFile","command collaborator"
+"FastZip","commander boundary","ConfigureEntryEncryption","void-accessor wrapper"
+"FastZip","commander boundary","AddFileContents","command collaborator"
+"FastZip","commander boundary","ExtractFileEntry","command collaborator"
+"FastZip","commander boundary","ExtractEntry","command collaborator"
+"FastZip","commander boundary","get","get"
+"FastZip","commander boundary","set","set"
+"FastZip","commander boundary","get","get"
+"FastZip","commander boundary","set","set"
+"FastZip","commander boundary","get","property collaborator"
+"FastZip","commander boundary","set","set collaborator"
+"FastZip","commander boundary","get","get collaborator"
+"FastZip","commander boundary","set","set collaborator"
+"FastZip","commander boundary","get","get collaborator"
+"FastZip","commander boundary","set","set collaborator"
+"FastZip","commander boundary","get","get"
+"FastZip","commander boundary","set","set"
+"FastZip","commander boundary","get","get"
+"FastZip","commander boundary","set","set"
+"FastZip","commander boundary","get","get collaborator"
+"FastZip","commander boundary","set","set collaborator"
+"WindowsNameTransform","unclassified","WindowsNameTransform","constructor"
+"WindowsNameTransform","unclassified","WindowsNameTransform","constructor"
+"WindowsNameTransform","unclassified","TransformDirectory","property non-void-command"
+"WindowsNameTransform","unclassified","TransformFile","property wrapper"
+"WindowsNameTransform","unclassified","get","get"
+"WindowsNameTransform","unclassified","set","set"
+"WindowsNameTransform","unclassified","get","get"
+"WindowsNameTransform","unclassified","set","set"
+"WindowsNameTransform","unclassified","get","get"
+"WindowsNameTransform","unclassified","set","set"
+"ZipException","empty","ZipException","constructor"
+"ZipException","empty","ZipException","constructor"
+"ZipException","empty","ZipException","constructor"
+"ZipException","empty","ZipException","constructor"
+"ZipEntryFactory","boundary","ZipEntryFactory","constructor"
+"ZipEntryFactory","boundary","ZipEntryFactory","constructor"
+"ZipEntryFactory","boundary","ZipEntryFactory","constructor"
+"ZipEntryFactory","boundary","MakeFileEntry","property non-void-command collaborator"
+"ZipEntryFactory","boundary","MakeFileEntry","property non-void-command collaborator"
+"ZipEntryFactory","boundary","MakeFileEntry","non-void-command factory collaborator"
+"ZipEntryFactory","boundary","MakeDirectoryEntry","property non-void-command collaborator"
+"ZipEntryFactory","boundary","MakeDirectoryEntry","non-void-command factory collaborator"
+"ZipEntryFactory","boundary","get","get collaborator"
+"ZipEntryFactory","boundary","set","set collaborator"
+"ZipEntryFactory","boundary","get","get collaborator"
+"ZipEntryFactory","boundary","set","set collaborator"
+"ZipEntryFactory","boundary","get","get collaborator"
+"ZipEntryFactory","boundary","set","set collaborator"
+"ZipEntryFactory","boundary","get","get"
+"ZipEntryFactory","boundary","set","set"
+"ZipEntryFactory","boundary","get","get"
+"ZipEntryFactory","boundary","set","set"
+"ZipEntryFactory","boundary","get","get"
+"ZipEntryFactory","boundary","set","set"
+"ExtendedUnixData","entity boundary","SetData","command"
+"ExtendedUnixData","entity boundary","GetData","property wrapper"
+"ExtendedUnixData","entity boundary","get","incidental"
+"ExtendedUnixData","entity boundary","get","get collaborator"
+"ExtendedUnixData","entity boundary","set","non-void-command collaborator"
+"ExtendedUnixData","entity boundary","get","get collaborator"
+"ExtendedUnixData","entity boundary","set","non-void-command collaborator"
+"ExtendedUnixData","entity boundary","get","get collaborator"
+"ExtendedUnixData","entity boundary","set","non-void-command collaborator"
+"ExtendedUnixData","entity boundary","get","get collaborator"
+"ExtendedUnixData","entity boundary","set","set collaborator"
+"NTTaggedData","entity boundary","SetData","command"
+"NTTaggedData","entity boundary","GetData","property non-void-command"
+"NTTaggedData","entity boundary","get","incidental"
+"NTTaggedData","entity boundary","get","get collaborator"
+"NTTaggedData","entity boundary","set","set collaborator"
+"NTTaggedData","entity boundary","get","get collaborator"
+"NTTaggedData","entity boundary","set","set collaborator"
+"NTTaggedData","entity boundary","get","get collaborator"
+"NTTaggedData","entity boundary","set","set collaborator"
+"MemoryDataSource","factory controller small-class","MemoryDataSource","constructor"
+"MemoryDataSource","factory controller small-class","GetSource","property factory collaborator"
+"DiskArchiveStorage","boundary","DiskArchiveStorage","constructor"
+"DiskArchiveStorage","boundary","DiskArchiveStorage","constructor"
+"DiskArchiveStorage","boundary","GetTemporaryOutput","get non-void-command collaborator"
+"DiskArchiveStorage","boundary","ConvertTemporaryToFinal","property non-void-command collaborator"
+"DiskArchiveStorage","boundary","MakeTemporaryCopy","get non-void-command factory collaborator"
+"DiskArchiveStorage","boundary","OpenForDirectUpdate","factory controller"
+"DiskArchiveStorage","boundary","Dispose","command"
+"ScanEventArgs","data-class","ScanEventArgs","constructor"
+"ScanEventArgs","data-class","get","get"
+"ScanEventArgs","data-class","get","get"
+"ScanEventArgs","data-class","set","set"
+"ZipExtraData","unclassified","ZipExtraData","constructor"
+"ZipExtraData","unclassified","ZipExtraData","constructor"
+"ZipExtraData","unclassified","GetEntryData","property non-void-command"
+"ZipExtraData","unclassified","Clear","set"
+"ZipExtraData","unclassified","GetStreamForTag","non-void-command factory collaborator"
+"ZipExtraData","unclassified","GetData<T>","property non-void-command factory collaborator"
+"ZipExtraData","unclassified","Find","predicate non-void-command"
+"ZipExtraData","unclassified","AddEntry","command collaborator"
+"ZipExtraData","unclassified","AddEntry","command"
+"ZipExtraData","unclassified","StartNewEntry","set"
+"ZipExtraData","unclassified","AddNewEntry","command"
+"ZipExtraData","unclassified","AddData","command"
+"ZipExtraData","unclassified","AddData","wrapper stateless"
+"ZipExtraData","unclassified","AddLeShort","command"
+"ZipExtraData","unclassified","AddLeInt","command"
+"ZipExtraData","unclassified","AddLeLong","command"
+"ZipExtraData","unclassified","Delete","predicate set"
+"ZipExtraData","unclassified","ReadLong","property non-void-command"
+"ZipExtraData","unclassified","ReadInt","property set"
+"ZipExtraData","unclassified","ReadShort","property set"
+"ZipExtraData","unclassified","ReadByte","property set"
+"ZipExtraData","unclassified","Skip","set"
+"ZipExtraData","unclassified","ReadCheck","unclassified"
+"ZipExtraData","unclassified","ReadShortInternal","property set"
+"ZipExtraData","unclassified","SetShort","void-accessor command"
+"ZipExtraData","unclassified","Dispose","command"
+"ZipExtraData","unclassified","get","property"
+"ZipExtraData","unclassified","get","get"
+"ZipExtraData","unclassified","get","get"
+"ZipExtraData","unclassified","get","property"
+"KeysRequiredEventArgs","data-class","KeysRequiredEventArgs","constructor"
+"KeysRequiredEventArgs","data-class","KeysRequiredEventArgs","constructor"
+"KeysRequiredEventArgs","data-class","get","get"
+"KeysRequiredEventArgs","data-class","get","get"
+"KeysRequiredEventArgs","data-class","set","set"
+"TestStatus","unclassified","TestStatus","constructor"
+"TestStatus","unclassified","AddError","command"
+"TestStatus","unclassified","SetOperation","set collaborator"
+"TestStatus","unclassified","SetEntry","command collaborator"
+"TestStatus","unclassified","SetBytesTested","set"
+"TestStatus","unclassified","get","get collaborator"
+"TestStatus","unclassified","get","get collaborator"
+"TestStatus","unclassified","get","get collaborator"
+"TestStatus","unclassified","get","get"
+"TestStatus","unclassified","get","get"
+"TestStatus","unclassified","get","get"
+"InflaterDeflaterTestSuite","boundary","Inflate","command"
+"InflaterDeflaterTestSuite","boundary","Deflate","factory wrapper stateless"
+"InflaterDeflaterTestSuite","boundary","RandomDeflateInflate","command collaborator"
+"InflaterDeflaterTestSuite","boundary","InflateAsync","non-void-command collaborator"
+"InflaterDeflaterTestSuite","boundary","DeflateAsync","factory wrapper stateless"
+"InflaterDeflaterTestSuite","boundary","RandomDeflateInflateAsync","non-void-command collaborator"
+"InflaterDeflaterTestSuite","boundary","VerifyInflatedData","controller stateless"
+"InflaterDeflaterTestSuite","boundary","InflateDeflateZlib","command"
+"InflaterDeflaterTestSuite","boundary","InflateDeflateZlibAsync","non-void-command collaborator"
+"InflaterDeflaterTestSuite","boundary","DeflateAndInflate","command collaborator"
+"InflaterDeflaterTestSuite","boundary","TryVariants","void-accessor command"
+"InflaterDeflaterTestSuite","boundary","TryManyVariants","command collaborator"
+"InflaterDeflaterTestSuite","boundary","SmallBlocks","command collaborator"
+"InflaterDeflaterTestSuite","boundary","InflateDeflateNonZlib","command"
+"InflaterDeflaterTestSuite","boundary","InflateDeflateNonZlibAsync","non-void-command collaborator"
+"InflaterDeflaterTestSuite","boundary","CloseDeflatorWithNestedUsing","wrapper stateless"
+"InflaterDeflaterTestSuite","boundary","DeflatorStreamOwnership","controller stateless"
+"InflaterDeflaterTestSuite","boundary","InflatorStreamOwnership","controller stateless"
+"InflaterDeflaterTestSuite","boundary","CloseInflatorWithNestedUsing","controller stateless"
+"PooledInflater","empty","PooledInflater","constructor"
+"MemoryArchiveStorage","controller","MemoryArchiveStorage","constructor"
+"MemoryArchiveStorage","controller","MemoryArchiveStorage","constructor"
+"MemoryArchiveStorage","controller","GetTemporaryOutput","get set factory collaborator"
+"MemoryArchiveStorage","controller","ConvertTemporaryToFinal","get set factory collaborator"
+"MemoryArchiveStorage","controller","MakeTemporaryCopy","get set factory collaborator"
+"MemoryArchiveStorage","controller","OpenForDirectUpdate","factory controller stateless"
+"MemoryArchiveStorage","controller","Dispose","command"
+"MemoryArchiveStorage","controller","get","get collaborator"
+"PathTransformer","small-class","PathTransformer","constructor"
+"PathTransformer","small-class","TransformDirectory","property non-void-command"
+"PathTransformer","small-class","TransformFile","controller stateless"
+"StringCodec","empty","StringCodec","constructor"
+"ByteOrderUtilsTests","boundary small-class","ToSwappedBytes","wrapper"
+"ByteOrderUtilsTests","boundary small-class","FromSwappedBytes","wrapper"
+"RuntimeInfo","data-provider data-class","RuntimeInfo","constructor"
+"RuntimeInfo","data-provider data-class","RuntimeInfo","constructor"
+"RuntimeInfo","data-provider data-class","get","get"
+"RuntimeInfo","data-provider data-class","get","get collaborator"
+"RuntimeInfo","data-provider data-class","get","get"
+"RuntimeInfo","data-provider data-class","get","get"
+"RuntimeInfo","data-provider data-class","get","get"
+"RuntimeInfo","data-provider data-class","get","get"
+"RuntimeInfo","data-provider data-class","get","get"
+"RuntimeInfo","data-provider data-class","get","get"
+"SerializationTests","boundary degenerate small-class","SerializeException","wrapper stateless"
+"SerializationTests","boundary degenerate small-class","SerializeValueOutOfRangeException","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","EntryCounter","set"
+"TarTestSuite","lazy-class degenerate","Setup","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","EmptyTar","set collaborator"
+"TarTestSuite","lazy-class degenerate","BlockFactorHandling","controller stateless"
+"TarTestSuite","lazy-class degenerate","TrailerContainsNulls","controller stateless"
+"TarTestSuite","lazy-class degenerate","TryLongName","controller stateless"
+"TarTestSuite","lazy-class degenerate","LongNames","command"
+"TarTestSuite","lazy-class degenerate","ExtendedHeaderLongName","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","HeaderEquality","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","Checksum","controller stateless"
+"TarTestSuite","lazy-class degenerate","ValuesPreserved","set collaborator"
+"TarTestSuite","lazy-class degenerate","InvalidModTime","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","InvalidSize","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","InvalidName","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","UserAndGroupNames","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","InvalidMagic","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","InvalidLinkName","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","InvalidVersionName","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","CloningAndUniqueness","controller stateless"
+"TarTestSuite","lazy-class degenerate","OutputStreamOwnership","controller stateless"
+"TarTestSuite","lazy-class degenerate","InputStreamOwnership","controller stateless"
+"TarTestSuite","lazy-class degenerate","EndBlockHandling","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","WriteThroughput","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","SingleLargeEntry","controller stateless"
+"TarTestSuite","lazy-class degenerate","ExtractingCorruptTarShouldntLeakFiles","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","ParseHeaderWithEncoding","controller stateless"
+"TarTestSuite","lazy-class degenerate","StreamWithJapaneseNameAsync","wrapper stateless"
+"TarTestSuite","lazy-class degenerate","RootPathIsRespected","controller stateless"
+"InflaterDynHeader","entity boundary small-class","InflaterDynHeader","constructor"
+"InflaterDynHeader","entity boundary small-class","CreateStateMachine","property non-void-command collaborator"
+"ReadWriteRingBuffer","unclassified","ReadWriteRingBuffer","constructor"
+"ReadWriteRingBuffer","unclassified","Clear","command"
+"ReadWriteRingBuffer","unclassified","Close","set"
+"ReadWriteRingBuffer","unclassified","WriteByte","command"
+"ReadWriteRingBuffer","unclassified","Write","command"
+"ReadWriteRingBuffer","unclassified","ReadByte","property non-void-command"
+"ReadWriteRingBuffer","unclassified","Read","property non-void-command"
+"ReadWriteRingBuffer","unclassified","get","predicate"
+"ReadWriteRingBuffer","unclassified","get","predicate"
+"ReadWriteRingBuffer","unclassified","get","get"
+"ReadWriteRingBuffer","unclassified","get","get"
+"ReadWriteRingBuffer","unclassified","get","property"
+"ReadWriteRingBuffer","unclassified","get","get"
+"ReadWriteRingBuffer","unclassified","get","get"
+"ReadWriteRingBuffer","unclassified","get","get wrapper"
+"ExerciseBuffer","commander","Basic","command"
+"ExerciseBuffer","commander","Buffered","set"
+"ExerciseBuffer","commander","Threaded","command collaborator"
+"ExerciseBuffer","commander","Reader","command"
+"ExerciseBuffer","commander","Writer","command"
+"TrackedFileStream","data-class","TrackedFileStream","constructor"
+"TrackedFileStream","data-class","Dispose","set"
+"TrackedFileStream","data-class","Close","set"
+"TrackedFileStream","data-class","get","get"
+"TrackedFileStream","data-class","get","get"

@@ -1,1207 +1,1207 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"VehicleNode","unclassified","VehicleNode","constructor",
-"VehicleNode","unclassified","~VehicleNode","destructor",
-"VehicleNode","unclassified","generate","controller",
-"VehicleNode","unclassified","registerInputs","command",
-"VehicleNode","unclassified","_evaluate","command",
-"PistonObject","unclassified","PistonObject::PistonObject","constructor",
-"PistonObject","unclassified","PistonObject::~PistonObject","destructor",
-"PistonObject","unclassified","PistonObject::generateGeometry","command collaborator",
-"PistonObject","unclassified","PistonObject::render","void-accessor command collaborator",
-"PistonObject","unclassified","PistonObject::process","empty",
-"PistonObject","unclassified","PistonObject::destroy","empty",
-"Valvetrain","empty","Valvetrain::Valvetrain","constructor",
-"Valvetrain","empty","Valvetrain::~Valvetrain","destructor",
-"PerformanceCluster","commander","setSimulator","set collaborator",
-"PerformanceCluster","commander","PerformanceCluster::PerformanceCluster","constructor",
-"PerformanceCluster","commander","PerformanceCluster::~PerformanceCluster","destructor",
-"PerformanceCluster","commander","PerformanceCluster::initialize","void-accessor command collaborator",
-"PerformanceCluster","commander","PerformanceCluster::destroy","command",
-"PerformanceCluster","commander","PerformanceCluster::update","command",
-"PerformanceCluster","commander","PerformanceCluster::render","command",
-"PerformanceCluster","commander","PerformanceCluster::addTimePerTimestepSample","set",
-"PerformanceCluster","commander","PerformanceCluster::addAudioLatencySample","set",
-"PerformanceCluster","commander","PerformanceCluster::addInputBufferUsageSample","set",
-"Oscilloscope","commander","Oscilloscope::Oscilloscope","constructor",
-"Oscilloscope","commander","Oscilloscope::~Oscilloscope","destructor",
-"Oscilloscope","commander","Oscilloscope::initialize","void-accessor command collaborator",
-"Oscilloscope","commander","Oscilloscope::destroy","command",
-"Oscilloscope","commander","Oscilloscope::update","set",
-"Oscilloscope","commander","Oscilloscope::render","command",
-"Oscilloscope","commander","Oscilloscope::render","void-accessor command collaborator",
-"Oscilloscope","commander","Oscilloscope::dataPointToRenderPosition","property collaborator",
-"Oscilloscope","commander","Oscilloscope::addDataPoint","command",
-"Oscilloscope","commander","Oscilloscope::setBufferSize","command",
-"Oscilloscope","commander","Oscilloscope::reset","command",
-"LowPassFilter","data-class","fast_f","get set collaborator",
-"LowPassFilter","data-class","setCutoffFrequency","set",
-"LowPassFilter","data-class","LowPassFilter::LowPassFilter","constructor",
-"LowPassFilter","data-class","LowPassFilter::~LowPassFilter","destructor",
-"LowPassFilter","data-class","LowPassFilter::f","property non-void-command",
-"LevelingFilter","small-class","getAttenuation","get",
-"LevelingFilter","small-class","LevelingFilter::LevelingFilter","constructor",
-"LevelingFilter","small-class","LevelingFilter::~LevelingFilter","destructor",
-"LevelingFilter","small-class","LevelingFilter::f","property non-void-command",
-"AddGearNode","commander small-class","AddGearNode","constructor",
-"AddGearNode","commander small-class","~AddGearNode","destructor",
-"AddGearNode","commander small-class","registerInputs","command",
-"AddGearNode","commander small-class","_evaluate","command",
-"Governor","commander boundary","Governor::Governor","constructor",
-"Governor","commander boundary","Governor::~Governor","destructor",
-"Governor","commander boundary","Governor::initialize","command collaborator",
-"Governor","commander boundary","Governor::setSpeedControl","set",
-"Governor","commander boundary","Governor::update","command collaborator",
-"ConnectIgnitionWireNode","commander small-class","ConnectIgnitionWireNode","constructor",
-"ConnectIgnitionWireNode","commander small-class","~ConnectIgnitionWireNode","destructor",
-"ConnectIgnitionWireNode","commander small-class","registerInputs","command",
-"ConnectIgnitionWireNode","commander small-class","_evaluate","command",
-"TransmissionNode","commander","TransmissionNode","constructor",
-"TransmissionNode","commander","~TransmissionNode","destructor",
-"TransmissionNode","commander","generate","collaborator",
-"TransmissionNode","commander","addGear","command",
-"TransmissionNode","commander","registerInputs","command",
-"TransmissionNode","commander","_evaluate","command",
-"GeometryGenerator","boundary","getVertexData","get collaborator",
-"GeometryGenerator","boundary","getIndexData","get",
-"GeometryGenerator","boundary","getCurrentVertexCount","incidental",
-"GeometryGenerator","boundary","getCurrentIndexCount","incidental",
-"GeometryGenerator","boundary","GeometryGenerator::GeometryGenerator","constructor",
-"GeometryGenerator","boundary","GeometryGenerator::~GeometryGenerator","destructor",
-"GeometryGenerator","boundary","GeometryGenerator::initialize","command",
-"GeometryGenerator","boundary","GeometryGenerator::destroy","unclassified",
-"GeometryGenerator","boundary","GeometryGenerator::reset","incidental",
-"GeometryGenerator","boundary","GeometryGenerator::generateFilledCircle","predicate non-void-command",
-"GeometryGenerator","boundary","GeometryGenerator::generateFilledFanPolygon","predicate non-void-command",
-"GeometryGenerator","boundary","GeometryGenerator::generateLineRing","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateLineRingBalanced","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateLine","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateLine2d","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateFrame","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateGrid","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateRing2d","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateCircle2d","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateCam","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateRhombus","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateTrapezoid2d","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generateIsoscelesTriangle","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::startPath","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::generatePathSegment","predicate non-void-command collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::writeVertex","property collaborator",
-"GeometryGenerator","boundary","GeometryGenerator::startShape","unclassified",
-"GeometryGenerator","boundary","GeometryGenerator::endShape","collaborator incidental",
-"GeometryGenerator","boundary","GeometryGenerator::startSubshape","incidental",
-"GeometryGenerator","boundary","GeometryGenerator::writeFace","command",
-"GeometryGenerator","boundary","GeometryGenerator::checkCapacity","predicate",
-"GeometryGenerator","boundary","GeometryGenerator::findOrthogonal","wrapper stateless",
-"GasSystem","unclassified","~GasSystem","destructor",
-"GasSystem","unclassified","degreesOfFreedom","get",
-"GasSystem","unclassified","kineticEnergyPerMol","property",
-"GasSystem","unclassified","mix","get collaborator",
-"GasSystem","unclassified","GasSystem::kineticEnergyPerMol","incidental",
-"GasSystem","unclassified","GasSystem::heatCapacityRatio","incidental",
-"GasSystem","unclassified","GasSystem::chokedFlowLimit","property non-void-command",
-"GasSystem","unclassified","GasSystem::chokedFlowRate","property non-void-command",
-"GasSystem","unclassified","GasSystem::approximateDensity","property",
-"GasSystem","unclassified","GasSystem::n","get",
-"GasSystem","unclassified","GasSystem::n","property",
-"GasSystem","unclassified","GasSystem::kineticEnergy","get",
-"GasSystem","unclassified","GasSystem::kineticEnergy","property",
-"GasSystem","unclassified","GasSystem::c","property",
-"GasSystem","unclassified","GasSystem::totalEnergy","property",
-"GasSystem","unclassified","GasSystem::bulkKineticEnergy","property",
-"GasSystem","unclassified","GasSystem::dynamicPressure","property",
-"GasSystem","unclassified","GasSystem::mass","property",
-"GasSystem","unclassified","GasSystem::pressure","property",
-"GasSystem","unclassified","GasSystem::temperature","property",
-"GasSystem","unclassified","GasSystem::velocity_x","get property",
-"GasSystem","unclassified","GasSystem::velocity_y","get property",
-"GasSystem","unclassified","GasSystem::volume","get",
-"GasSystem","unclassified","GasSystem::volume","property",
-"GasSystem","unclassified","GasSystem::n_fuel","property",
-"GasSystem","unclassified","GasSystem::n_inert","property",
-"GasSystem","unclassified","GasSystem::n_o2","property",
-"GasSystem","unclassified","GasSystem::heatCapacityRatio","property",
-"GasSystem","unclassified","GasSystem::setGeometry","command",
-"GasSystem","unclassified","GasSystem::initialize","command",
-"GasSystem","unclassified","GasSystem::reset","command collaborator",
-"GasSystem","unclassified","GasSystem::setVolume","command",
-"GasSystem","unclassified","GasSystem::setN","command",
-"GasSystem","unclassified","GasSystem::changeVolume","command",
-"GasSystem","unclassified","GasSystem::changePressure","set",
-"GasSystem","unclassified","GasSystem::changeTemperature","set",
-"GasSystem","unclassified","GasSystem::changeEnergy","set",
-"GasSystem","unclassified","GasSystem::changeMix","set collaborator",
-"GasSystem","unclassified","GasSystem::injectFuel","set",
-"GasSystem","unclassified","GasSystem::changeTemperature","set",
-"GasSystem","unclassified","GasSystem::react","property non-void-command collaborator",
-"GasSystem","unclassified","GasSystem::flowConstant","wrapper stateless",
-"GasSystem","unclassified","GasSystem::k_28inH2O","property non-void-command",
-"GasSystem","unclassified","GasSystem::k_carb","property non-void-command",
-"GasSystem","unclassified","GasSystem::flowRate","wrapper stateless",
-"GasSystem","unclassified","GasSystem::loseN","property non-void-command",
-"GasSystem","unclassified","GasSystem::gainN","property non-void-command collaborator",
-"GasSystem","unclassified","GasSystem::dissipateExcessVelocity","command",
-"GasSystem","unclassified","GasSystem::updateVelocity","command",
-"GasSystem","unclassified","GasSystem::dissipateVelocity","command",
-"GasSystem","unclassified","GasSystem::flow","property non-void-command collaborator",
-"GasSystem","unclassified","GasSystem::flow","property non-void-command collaborator",
-"GasSystem","unclassified","GasSystem::pressureEquilibriumMaxFlow","property",
-"GasSystem","unclassified","GasSystem::pressureEquilibriumMaxFlow","property",
-"Throttle","lazy-class","getSpeedControl","get",
-"Throttle","lazy-class","Throttle::Throttle","constructor",
-"Throttle","lazy-class","Throttle::~Throttle","destructor",
-"Throttle","lazy-class","Throttle::setSpeedControl","set",
-"Throttle","lazy-class","Throttle::update","empty",
-"FiringOrderDisplay","commander","FiringOrderDisplay::FiringOrderDisplay","constructor",
-"FiringOrderDisplay","commander","FiringOrderDisplay::~FiringOrderDisplay","destructor",
-"FiringOrderDisplay","commander","FiringOrderDisplay::initialize","void-accessor command collaborator",
-"FiringOrderDisplay","commander","FiringOrderDisplay::destroy","command",
-"FiringOrderDisplay","commander","FiringOrderDisplay::update","command",
-"FiringOrderDisplay","commander","FiringOrderDisplay::render","command collaborator",
-"ImpulseResponse","unclassified","getFilename","get",
-"ImpulseResponse","unclassified","getVolume","get",
-"ImpulseResponse","unclassified","ImpulseResponse::ImpulseResponse","constructor",
-"ImpulseResponse","unclassified","ImpulseResponse::~ImpulseResponse","destructor",
-"ImpulseResponse","unclassified","ImpulseResponse::initialize","command",
-"ConvolutionFilter","unclassified","getSampleCount","get",
-"ConvolutionFilter","unclassified","getImpulseResponse","get",
-"ConvolutionFilter","unclassified","ConvolutionFilter::ConvolutionFilter","constructor",
-"ConvolutionFilter","unclassified","ConvolutionFilter::~ConvolutionFilter","destructor",
-"ConvolutionFilter","unclassified","ConvolutionFilter::initialize","command",
-"ConvolutionFilter","unclassified","ConvolutionFilter::destroy","command",
-"ConvolutionFilter","unclassified","ConvolutionFilter::f","property non-void-command",
-"Point","data-provider","Point","constructor",
-"Point","data-provider","Point","constructor",
-"Point","data-provider","Point","constructor",
-"Point","data-provider","operator+","property",
-"Point","data-provider","operator-","property",
-"Point","data-provider","operator-","property",
-"Point","data-provider","operator*","property",
-"Point","data-provider","operator*","property",
-"Point","data-provider","operator/","property",
-"Point","data-provider","operator/","property",
-"Point","data-provider","operator+=","property non-void-command",
-"Point","data-provider","operator-=","property non-void-command",
-"Point","data-provider","operator/=","property non-void-command",
-"Point","data-provider","operator*=","property non-void-command",
-"Point","data-provider","operator>","predicate",
-"Point","data-provider","operator>=","predicate",
-"Point","data-provider","operator<","predicate",
-"Point","data-provider","operator<=","predicate",
-"Point","data-provider","length","property wrapper",
-"Point","data-provider","lengthSquared","property",
-"Point","data-provider","dot","property",
-"Point","data-provider","normalized","property",
-"Point","data-provider","componentMax","property wrapper",
-"Point","data-provider","componentMin","property wrapper",
-"FeedbackCombFilter","commander","FeedbackCombFilter::FeedbackCombFilter","constructor",
-"FeedbackCombFilter","commander","FeedbackCombFilter::~FeedbackCombFilter","destructor",
-"FeedbackCombFilter","commander","FeedbackCombFilter::initialize","command",
-"FeedbackCombFilter","commander","FeedbackCombFilter::f","property non-void-command",
-"FeedbackCombFilter","commander","FeedbackCombFilter::destroy","set",
-"k_CarbNode","commander","~k_CarbNode","destructor",
-"k_CarbNode","commander","registerInputs","command",
-"k_CarbNode","commander","registerOutputs","wrapper",
-"k_CarbNode","commander","_evaluate","command",
-"Piston","data-provider","getRod","get collaborator",
-"Piston","data-provider","getCylinderBank","get collaborator",
-"Piston","data-provider","getCylinderIndex","get",
-"Piston","data-provider","getCompressionHeight","get",
-"Piston","data-provider","getDisplacement","get",
-"Piston","data-provider","getWristPinLocation","get",
-"Piston","data-provider","getMass","get",
-"Piston","data-provider","getBlowbyK","get",
-"Piston","data-provider","Piston::setCylinderConstraint","set collaborator",
-"Piston","data-provider","Piston::Piston","constructor",
-"Piston","data-provider","Piston::~Piston","destructor",
-"Piston","data-provider","Piston::initialize","command collaborator",
-"Piston","data-provider","Piston::destroy","empty",
-"Piston","data-provider","Piston::relativeX","property",
-"Piston","data-provider","Piston::relativeY","property",
-"Piston","data-provider","Piston::calculateCylinderWallForce","property wrapper",
-"ExhaustSystem","data-provider","getIndex","get",
-"ExhaustSystem","data-provider","getLength","get",
-"ExhaustSystem","data-provider","getFlow","get",
-"ExhaustSystem","data-provider","getAudioVolume","get",
-"ExhaustSystem","data-provider","getPrimaryFlowRate","get",
-"ExhaustSystem","data-provider","getCollectorCrossSectionArea","get",
-"ExhaustSystem","data-provider","getPrimaryTubeLength","get",
-"ExhaustSystem","data-provider","getVelocityDecay","get",
-"ExhaustSystem","data-provider","getImpulseResponse","get collaborator",
-"ExhaustSystem","data-provider","getSystem","property collaborator",
-"ExhaustSystem","data-provider","ExhaustSystem::ExhaustSystem","constructor",
-"ExhaustSystem","data-provider","ExhaustSystem::~ExhaustSystem","destructor",
-"ExhaustSystem","data-provider","ExhaustSystem::initialize","void-accessor command collaborator",
-"ExhaustSystem","data-provider","ExhaustSystem::destroy","empty",
-"ExhaustSystem","data-provider","ExhaustSystem::process","command collaborator",
-"Crankshaft","data-provider","getRodJournalCount","get",
-"Crankshaft","data-provider","getRodJournalAngle","get",
-"Crankshaft","data-provider","getTdc","get",
-"Crankshaft","data-provider","getThrow","get",
-"Crankshaft","data-provider","getMass","get",
-"Crankshaft","data-provider","getMomentOfInertia","get",
-"Crankshaft","data-provider","getFlywheelMass","get",
-"Crankshaft","data-provider","getPosX","get",
-"Crankshaft","data-provider","getPosY","get",
-"Crankshaft","data-provider","getFrictionTorque","get",
-"Crankshaft","data-provider","Crankshaft::Crankshaft","constructor",
-"Crankshaft","data-provider","Crankshaft::~Crankshaft","destructor",
-"Crankshaft","data-provider","Crankshaft::initialize","command collaborator",
-"Crankshaft","data-provider","Crankshaft::destroy","set",
-"Crankshaft","data-provider","Crankshaft::getRodJournalPositionLocal","void-accessor wrapper",
-"Crankshaft","data-provider","Crankshaft::getRodJournalPositionGlobal","void-accessor command",
-"Crankshaft","data-provider","Crankshaft::resetAngle","set",
-"Crankshaft","data-provider","Crankshaft::setRodJournalAngle","set",
-"Crankshaft","data-provider","Crankshaft::getAngle","get",
-"Crankshaft","data-provider","Crankshaft::getCycleAngle","property non-void-command",
-"OscilloscopeCluster","entity minimal-entity boundary","getTotalExhaustFlowOscilloscope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","getExhaustFlowOscilloscope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","getIntakeFlowOscilloscope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","getAudioWaveformOscilloscope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","getIntakeValveLiftOscilloscope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","getExhaustValveLiftOscilloscope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","getCylinderPressureScope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","getSparkAdvanceScope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","getCylinderMoleculesScope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","getPvScope","get collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","setDynoMaxRange","command",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::OscilloscopeCluster","constructor",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::~OscilloscopeCluster","destructor",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::initialize","void-accessor command collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::destroy","command",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::signal","command collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::update","command collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::render","command",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::sample","command",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::setSimulator","set collaborator",
-"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::renderScope","void-accessor command collaborator",
-"EngineView","entity commander boundary","setDrawFrame","set",
-"EngineView","entity commander boundary","EngineView::EngineView","constructor",
-"EngineView","entity commander boundary","EngineView::~EngineView","destructor",
-"EngineView","entity commander boundary","EngineView::update","set",
-"EngineView","entity commander boundary","EngineView::render","command",
-"EngineView","entity commander boundary","EngineView::onMouseDown","void-accessor set collaborator",
-"EngineView","entity commander boundary","EngineView::onDrag","set collaborator",
-"EngineView","entity commander boundary","EngineView::onMouseScroll","command collaborator",
-"EngineView","entity commander boundary","EngineView::setBounds","set collaborator",
-"EngineView","entity commander boundary","EngineView::getCenter","property collaborator",
-"EngineView","entity commander boundary","EngineView::getCameraPosition","property wrapper",
-"Gauge","commander","setBandCount","command",
-"Gauge","commander","setBand","set",
-"Gauge","commander","Gauge::Gauge","constructor",
-"Gauge","commander","Gauge::~Gauge","destructor",
-"Gauge","commander","Gauge::initialize","void-accessor command collaborator",
-"Gauge","commander","Gauge::destroy","empty",
-"Gauge","commander","Gauge::update","command",
-"Gauge","commander","Gauge::render","command collaborator",
-"RingBuffer","unclassified","RingBuffer","constructor",
-"RingBuffer","unclassified","~RingBuffer","destructor",
-"RingBuffer","unclassified","initialize","command",
-"RingBuffer","unclassified","destroy","command",
-"RingBuffer","unclassified","write","command collaborator",
-"RingBuffer","unclassified","overwrite","command",
-"RingBuffer","unclassified","index","property",
-"RingBuffer","unclassified","read","property collaborator",
-"RingBuffer","unclassified","read","void-accessor wrapper",
-"RingBuffer","unclassified","readAndRemove","void-accessor set collaborator",
-"RingBuffer","unclassified","setWriteIndex","set",
-"RingBuffer","unclassified","removeBeginning","set",
-"RingBuffer","unclassified","setStartIndex","set",
-"RingBuffer","unclassified","size","property",
-"RingBuffer","unclassified","writeIndex","get",
-"RingBuffer","unclassified","start","get",
-"CombustionChamber","unclassified","setEngine","set collaborator",
-"CombustionChamber","unclassified","getCylinderHead","get collaborator",
-"CombustionChamber","unclassified","getPiston","get collaborator",
-"CombustionChamber","unclassified","isLit","get",
-"CombustionChamber","unclassified","getLastIterationExhaustFlow","get",
-"CombustionChamber","unclassified","resetLastTimestepExhaustFlow","set",
-"CombustionChamber","unclassified","getLastTimestepExhaustFlow","get",
-"CombustionChamber","unclassified","resetLastTimestepIntakeFlow","set",
-"CombustionChamber","unclassified","getLastTimestepIntakeFlow","get",
-"CombustionChamber","unclassified","CombustionChamber::CombustionChamber","constructor",
-"CombustionChamber","unclassified","CombustionChamber::~CombustionChamber","destructor",
-"CombustionChamber","unclassified","CombustionChamber::initialize","command collaborator",
-"CombustionChamber","unclassified","CombustionChamber::destroy","command",
-"CombustionChamber","unclassified","CombustionChamber::getVolume","property",
-"CombustionChamber","unclassified","CombustionChamber::pistonSpeed","property collaborator",
-"CombustionChamber","unclassified","CombustionChamber::calculateMeanPistonSpeed","property",
-"CombustionChamber","unclassified","CombustionChamber::calculateFiringPressure","property",
-"CombustionChamber","unclassified","CombustionChamber::popLitLastFrame","predicate set",
-"CombustionChamber","unclassified","CombustionChamber::ignite","command",
-"CombustionChamber","unclassified","CombustionChamber::update","command",
-"CombustionChamber","unclassified","CombustionChamber::flow","command",
-"CombustionChamber","unclassified","CombustionChamber::lastEventAfr","property wrapper",
-"CombustionChamber","unclassified","CombustionChamber::calculateFrictionForce","property",
-"CombustionChamber","unclassified","CombustionChamber::updateCycleStates","command",
-"CombustionChamber","unclassified","CombustionChamber::apply","command collaborator",
-"CombustionChamber","unclassified","CombustionChamber::getFrictionForce","property",
-"InfoCluster","commander","setEngine","set collaborator",
-"InfoCluster","commander","setLogMessage","set",
-"InfoCluster","commander","getLogMessage","get",
-"InfoCluster","commander","InfoCluster::InfoCluster","constructor",
-"InfoCluster","commander","InfoCluster::~InfoCluster","destructor",
-"InfoCluster","commander","InfoCluster::initialize","void-accessor command collaborator",
-"InfoCluster","commander","InfoCluster::destroy","command",
-"InfoCluster","commander","InfoCluster::update","command",
-"InfoCluster","commander","InfoCluster::render","command collaborator",
-"AddSampleNode","commander small-class","AddSampleNode","constructor",
-"AddSampleNode","commander small-class","~AddSampleNode","destructor",
-"AddSampleNode","commander small-class","registerInputs","command",
-"AddSampleNode","commander small-class","_evaluate","command",
-"SetCylinderHeadNode","commander small-class","SetCylinderHeadNode","constructor",
-"SetCylinderHeadNode","commander small-class","~SetCylinderHeadNode","destructor",
-"SetCylinderHeadNode","commander small-class","registerInputs","command",
-"SetCylinderHeadNode","commander small-class","_evaluate","command",
-"GenerateHarmonicCamLobeNode","commander small-class","GenerateHarmonicCamLobeNode","constructor",
-"GenerateHarmonicCamLobeNode","commander small-class","~GenerateHarmonicCamLobeNode","destructor",
-"GenerateHarmonicCamLobeNode","commander small-class","registerInputs","command",
-"GenerateHarmonicCamLobeNode","commander small-class","_evaluate","command",
-"CamshaftNode","commander","CamshaftNode","constructor",
-"CamshaftNode","commander","~CamshaftNode","destructor",
-"CamshaftNode","commander","generate","void-accessor collaborator",
-"CamshaftNode","commander","addLobe","command",
-"CamshaftNode","commander","registerInputs","command",
-"CamshaftNode","commander","_evaluate","command",
-"CrankshaftObject","degenerate","CrankshaftObject::CrankshaftObject","constructor",
-"CrankshaftObject","degenerate","CrankshaftObject::~CrankshaftObject","destructor",
-"CrankshaftObject","degenerate","CrankshaftObject::generateGeometry","empty",
-"CrankshaftObject","degenerate","CrankshaftObject::render","void-accessor command collaborator",
-"CrankshaftObject","degenerate","CrankshaftObject::process","empty",
-"CrankshaftObject","degenerate","CrankshaftObject::destroy","empty",
-"ObjectReferenceNodeOutput","boundary","ObjectReferenceNodeOutput","constructor",
-"ObjectReferenceNodeOutput","boundary","~ObjectReferenceNodeOutput","destructor",
-"ObjectReferenceNodeOutput","boundary","fullCompute","unclassified",
-"ObjectReferenceNodeOutput","boundary","getReference","get collaborator",
-"ObjectReferenceNodeOutput","boundary","setReference","set collaborator",
-"EngineSimApplication","boundary","getGeometryGenerator","property collaborator",
-"EngineSimApplication","boundary","getShaders","property collaborator",
-"EngineSimApplication","boundary","getTextRenderer","property collaborator",
-"EngineSimApplication","boundary","getEngine","property collaborator",
-"EngineSimApplication","boundary","getBackgroundColor","get collaborator",
-"EngineSimApplication","boundary","getForegroundColor","get collaborator",
-"EngineSimApplication","boundary","getHightlight1Color","get collaborator",
-"EngineSimApplication","boundary","getPink","get collaborator",
-"EngineSimApplication","boundary","getGreen","get collaborator",
-"EngineSimApplication","boundary","getYellow","get collaborator",
-"EngineSimApplication","boundary","getRed","get collaborator",
-"EngineSimApplication","boundary","getOrange","get collaborator",
-"EngineSimApplication","boundary","getBlue","get collaborator",
-"EngineSimApplication","boundary","setViewLayer","set",
-"EngineSimApplication","boundary","getAssetManager","property collaborator",
-"EngineSimApplication","boundary","getScreenWidth","get",
-"EngineSimApplication","boundary","getScreenHeight","get",
-"EngineSimApplication","boundary","getSimulator","get collaborator",
-"EngineSimApplication","boundary","getInfoCluster","get collaborator",
-"EngineSimApplication","boundary","getAppSettings","property collaborator",
-"EngineSimApplication","boundary","isRecording","get",
-"EngineSimApplication","boundary","EngineSimApplication::EngineSimApplication","constructor",
-"EngineSimApplication","boundary","EngineSimApplication::~EngineSimApplication","destructor",
-"EngineSimApplication","boundary","EngineSimApplication::initialize","command collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::initialize","command",
-"EngineSimApplication","boundary","EngineSimApplication::process","command",
-"EngineSimApplication","boundary","EngineSimApplication::render","command collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::pixelsToUnits","property",
-"EngineSimApplication","boundary","EngineSimApplication::unitsToPixels","property",
-"EngineSimApplication","boundary","EngineSimApplication::run","command",
-"EngineSimApplication","boundary","EngineSimApplication::destroy","command",
-"EngineSimApplication","boundary","EngineSimApplication::loadEngine","void-accessor command collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::drawGenerated","void-accessor command",
-"EngineSimApplication","boundary","EngineSimApplication::drawGeneratedUi","void-accessor command",
-"EngineSimApplication","boundary","EngineSimApplication::drawGenerated","void-accessor command collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::configure","command collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::createObjects","command collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::destroyObjects","command collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::getViewParameters","get collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::loadScript","command collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::processEngineInput","command",
-"EngineSimApplication","boundary","EngineSimApplication::renderScene","command",
-"EngineSimApplication","boundary","EngineSimApplication::refreshUserInterface","command",
-"EngineSimApplication","boundary","EngineSimApplication::startRecording","command collaborator",
-"EngineSimApplication","boundary","EngineSimApplication::updateScreenSizeStability","command",
-"EngineSimApplication","boundary","EngineSimApplication::readyToRecord","predicate",
-"EngineSimApplication","boundary","EngineSimApplication::stopRecording","command",
-"EngineSimApplication","boundary","EngineSimApplication::recordFrame","command collaborator",
-"Engine","data-provider","getName","get",
-"Engine","data-provider","getDisplacement","get",
-"Engine","data-provider","getStarterTorque","get",
-"Engine","data-provider","getStarterSpeed","get",
-"Engine","data-provider","getRedline","get",
-"Engine","data-provider","getDynoMinSpeed","get",
-"Engine","data-provider","getDynoMaxSpeed","get",
-"Engine","data-provider","getDynoHoldStep","get",
-"Engine","data-provider","getCylinderBankCount","get",
-"Engine","data-provider","getCylinderCount","get",
-"Engine","data-provider","getCrankshaftCount","get",
-"Engine","data-provider","getExhaustSystemCount","get",
-"Engine","data-provider","getIntakeCount","get",
-"Engine","data-provider","getCrankshaft","property collaborator",
-"Engine","data-provider","getCylinderBank","property collaborator",
-"Engine","data-provider","getHead","property collaborator",
-"Engine","data-provider","getPiston","property collaborator",
-"Engine","data-provider","getConnectingRod","property collaborator",
-"Engine","data-provider","getIgnitionModule","property collaborator",
-"Engine","data-provider","getExhaustSystem","property collaborator",
-"Engine","data-provider","getIntake","property collaborator",
-"Engine","data-provider","getChamber","property collaborator",
-"Engine","data-provider","getFuel","property collaborator",
-"Engine","data-provider","getSimulationFrequency","get",
-"Engine","data-provider","getInitialHighFrequencyGain","get",
-"Engine","data-provider","getInitialNoise","get",
-"Engine","data-provider","getInitialJitter","get",
-"Engine","data-provider","Engine::Engine","constructor",
-"Engine","data-provider","Engine::~Engine","destructor",
-"Engine","data-provider","Engine::initialize","command collaborator",
-"Engine","data-provider","Engine::destroy","command",
-"Engine","data-provider","Engine::getOutputCrankshaft","property collaborator",
-"Engine","data-provider","Engine::setSpeedControl","command",
-"Engine","data-provider","Engine::getSpeedControl","property non-void-command",
-"Engine","data-provider","Engine::setThrottle","command",
-"Engine","data-provider","Engine::getThrottle","get",
-"Engine","data-provider","Engine::getThrottlePlateAngle","property wrapper",
-"Engine","data-provider","Engine::calculateDisplacement","set",
-"Engine","data-provider","Engine::getIntakeFlowRate","property",
-"Engine","data-provider","Engine::update","command",
-"Engine","data-provider","Engine::getManifoldPressure","property controller",
-"Engine","data-provider","Engine::getIntakeAfr","property controller",
-"Engine","data-provider","Engine::getExhaustO2","property controller",
-"Engine","data-provider","Engine::resetFuelConsumption","unclassified",
-"Engine","data-provider","Engine::getTotalFuelMassConsumed","property",
-"Engine","data-provider","Engine::getTotalVolumeFuelConsumed","property",
-"Engine","data-provider","Engine::getMaxDepth","property wrapper",
-"Engine","data-provider","Engine::createSimulator","property controller",
-"Engine","data-provider","Engine::getRpm","property",
-"Engine","data-provider","Engine::getSpeed","property",
-"Engine","data-provider","Engine::isSpinningCw","predicate",
-"Node","boundary","~Node","destructor",
-"Node","boundary","readAtomicInput","property wrapper",
-"Node","boundary","readAllInputs","wrapper",
-"Node","boundary","addInput","set collaborator",
-"Node","boundary","registerInputs","wrapper",
-"AudioBuffer","unclassified","offsetToTime","property",
-"AudioBuffer","unclassified","timeDelta","property",
-"AudioBuffer","unclassified","offsetDelta","property",
-"AudioBuffer","unclassified","writeSample","set",
-"AudioBuffer","unclassified","readSample","get",
-"AudioBuffer","unclassified","commitBlock","set",
-"AudioBuffer","unclassified","getBufferIndex","property",
-"AudioBuffer","unclassified","copyBuffer","void-accessor command",
-"AudioBuffer","unclassified","AudioBuffer::AudioBuffer","constructor",
-"AudioBuffer","unclassified","AudioBuffer::~AudioBuffer","destructor",
-"AudioBuffer","unclassified","AudioBuffer::initialize","command",
-"AudioBuffer","unclassified","AudioBuffer::destroy","command",
-"AudioBuffer","unclassified","AudioBuffer::checkForDiscontinuitiy","predicate wrapper",
-"DerivativeFilter","data-class small-class","DerivativeFilter::DerivativeFilter","constructor",
-"DerivativeFilter","data-class small-class","DerivativeFilter::~DerivativeFilter","destructor",
-"DerivativeFilter","data-class small-class","DerivativeFilter::f","property set",
-"DirectThrottleLinkage","entity commander boundary","DirectThrottleLinkage::DirectThrottleLinkage","constructor",
-"DirectThrottleLinkage","entity commander boundary","DirectThrottleLinkage::~DirectThrottleLinkage","destructor",
-"DirectThrottleLinkage","entity commander boundary","DirectThrottleLinkage::initialize","set collaborator",
-"DirectThrottleLinkage","entity commander boundary","DirectThrottleLinkage::setSpeedControl","set",
-"DirectThrottleLinkage","entity commander boundary","DirectThrottleLinkage::update","void-accessor command collaborator",
-"Camshaft","data-provider","setLobeCenterline","set",
-"Camshaft","data-provider","getLobeCenterline","get",
-"Camshaft","data-provider","getLobeProfile","get collaborator",
-"Camshaft","data-provider","getAdvance","get",
-"Camshaft","data-provider","getBaseRadius","get",
-"Camshaft","data-provider","Camshaft::Camshaft","constructor",
-"Camshaft","data-provider","Camshaft::~Camshaft","destructor",
-"Camshaft","data-provider","Camshaft::initialize","void-accessor command collaborator",
-"Camshaft","data-provider","Camshaft::destroy","command",
-"Camshaft","data-provider","Camshaft::valveLift","property",
-"Camshaft","data-provider","Camshaft::sampleLobe","property",
-"Camshaft","data-provider","Camshaft::getAngle","property",
-"RodJournalNode","unclassified","RodJournalNode","constructor",
-"RodJournalNode","unclassified","~RodJournalNode","destructor",
-"RodJournalNode","unclassified","getAngle","get",
-"RodJournalNode","unclassified","getCrankshaft","get collaborator",
-"RodJournalNode","unclassified","getRod","get collaborator",
-"RodJournalNode","unclassified","registerInputs","command",
-"RodJournalNode","unclassified","_evaluate","command",
-"Fuel","data-provider","getMolecularMass","get",
-"Fuel","data-provider","getEnergyDensity","get",
-"Fuel","data-provider","getDensity","get",
-"Fuel","data-provider","getBurningEfficiencyRandomness","get",
-"Fuel","data-provider","getLowEfficiencyAttenuation","get",
-"Fuel","data-provider","getMaxBurningEfficiency","get",
-"Fuel","data-provider","getMaxTurbulenceEffect","get",
-"Fuel","data-provider","getMaxDilutionEffect","get",
-"Fuel","data-provider","getMolecularAfr","get",
-"Fuel","data-provider","Fuel::Fuel","constructor",
-"Fuel","data-provider","Fuel::~Fuel","destructor",
-"Fuel","data-provider","Fuel::initialize","command collaborator",
-"Fuel","data-provider","Fuel::flameSpeed","property",
-"Fuel","data-provider","Fuel::laminarBurningVelocity","property wrapper",
-"AfrCluster","commander","AfrCluster::AfrCluster","constructor",
-"AfrCluster","commander","AfrCluster::~AfrCluster","destructor",
-"AfrCluster","commander","AfrCluster::initialize","void-accessor command collaborator",
-"AfrCluster","commander","AfrCluster::destroy","command",
-"AfrCluster","commander","AfrCluster::update","command",
-"AfrCluster","commander","AfrCluster::render","command collaborator",
-"CylinderPressureGauge","commander","CylinderPressureGauge::CylinderPressureGauge","constructor",
-"CylinderPressureGauge","commander","CylinderPressureGauge::~CylinderPressureGauge","destructor",
-"CylinderPressureGauge","commander","CylinderPressureGauge::initialize","void-accessor command collaborator",
-"CylinderPressureGauge","commander","CylinderPressureGauge::destroy","command",
-"CylinderPressureGauge","commander","CylinderPressureGauge::update","command",
-"CylinderPressureGauge","commander","CylinderPressureGauge::render","command collaborator",
-"PistonNode","unclassified","PistonNode","constructor",
-"PistonNode","unclassified","~PistonNode","destructor",
-"PistonNode","unclassified","generate","controller",
-"PistonNode","unclassified","registerInputs","command",
-"PistonNode","unclassified","_evaluate","command",
-"FuelCluster","unclassified","FuelCluster::FuelCluster","constructor",
-"FuelCluster","unclassified","FuelCluster::~FuelCluster","destructor",
-"FuelCluster","unclassified","FuelCluster::initialize","void-accessor command collaborator",
-"FuelCluster","unclassified","FuelCluster::destroy","command",
-"FuelCluster","unclassified","FuelCluster::update","command",
-"FuelCluster","unclassified","FuelCluster::render","command collaborator",
-"FuelCluster","unclassified","FuelCluster::getTotalVolumeFuelConsumed","property",
-"StandardValvetrainNode","small-class","StandardValvetrainNode","constructor",
-"StandardValvetrainNode","small-class","~StandardValvetrainNode","destructor",
-"StandardValvetrainNode","small-class","generate","non-void-command factory collaborator",
-"StandardValvetrainNode","small-class","registerInputs","command",
-"GaussianFilter","unclassified","getRadius","get",
-"GaussianFilter","unclassified","getAlpha","get",
-"GaussianFilter","unclassified","GaussianFilter::GaussianFilter","constructor",
-"GaussianFilter","unclassified","GaussianFilter::~GaussianFilter","destructor",
-"GaussianFilter","unclassified","GaussianFilter::initialize","command",
-"GaussianFilter","unclassified","GaussianFilter::evaluate","property wrapper",
-"GaussianFilter","unclassified","GaussianFilter::calculate","property wrapper",
-"GaussianFilter","unclassified","GaussianFilter::generateCache","command",
-"CylinderBankObject","commander","CylinderBankObject::CylinderBankObject","constructor",
-"CylinderBankObject","commander","CylinderBankObject::~CylinderBankObject","destructor",
-"CylinderBankObject","commander","CylinderBankObject::generateGeometry","command collaborator",
-"CylinderBankObject","commander","CylinderBankObject::render","command collaborator",
-"CylinderBankObject","commander","CylinderBankObject::process","empty",
-"CylinderBankObject","commander","CylinderBankObject::destroy","empty",
-"ConnectingRod","data-provider","setMaster","set",
-"ConnectingRod","data-provider","setCrankshaft","set collaborator",
-"ConnectingRod","data-provider","getRodJournalCount","get",
-"ConnectingRod","data-provider","getRodJournalAngle","get",
-"ConnectingRod","data-provider","getSlaveThrow","get",
-"ConnectingRod","data-provider","getCenterOfMass","get",
-"ConnectingRod","data-provider","getLength","get",
-"ConnectingRod","data-provider","getMass","get",
-"ConnectingRod","data-provider","getMomentOfInertia","get",
-"ConnectingRod","data-provider","getJournal","get",
-"ConnectingRod","data-provider","getMasterRod","get",
-"ConnectingRod","data-provider","getCrankshaft","get collaborator",
-"ConnectingRod","data-provider","getPiston","get collaborator",
-"ConnectingRod","data-provider","ConnectingRod::ConnectingRod","constructor",
-"ConnectingRod","data-provider","ConnectingRod::~ConnectingRod","destructor",
-"ConnectingRod","data-provider","ConnectingRod::initialize","command collaborator",
-"ConnectingRod","data-provider","ConnectingRod::getBigEndLocal","property",
-"ConnectingRod","data-provider","ConnectingRod::getLittleEndLocal","property",
-"ConnectingRod","data-provider","ConnectingRod::setRodJournalAngle","set",
-"ConnectingRod","data-provider","ConnectingRod::getRodJournalPositionLocal","void-accessor command",
-"ConnectingRod","data-provider","ConnectingRod::getRodJournalPositionGlobal","void-accessor command",
-"ConnectingRod","data-provider","ConnectingRod::getLayer","property",
-"IgnitionModule","unclassified","IgnitionModule::IgnitionModule","constructor",
-"IgnitionModule","unclassified","IgnitionModule::~IgnitionModule","destructor",
-"IgnitionModule","unclassified","IgnitionModule::destroy","command",
-"IgnitionModule","unclassified","IgnitionModule::initialize","command collaborator",
-"IgnitionModule","unclassified","IgnitionModule::setFiringOrder","unclassified",
-"IgnitionModule","unclassified","IgnitionModule::reset","command",
-"IgnitionModule","unclassified","IgnitionModule::update","command",
-"IgnitionModule","unclassified","IgnitionModule::getIgnitionEvent","get",
-"IgnitionModule","unclassified","IgnitionModule::resetIgnitionEvents","unclassified",
-"IgnitionModule","unclassified","IgnitionModule::getTimingAdvance","property non-void-command",
-"IgnitionModule","unclassified","IgnitionModule::getPlug","property collaborator",
-"DelayFilter","unclassified","DelayFilter","constructor",
-"DelayFilter","unclassified","~DelayFilter","destructor",
-"DelayFilter","unclassified","initialize","set",
-"DelayFilter","unclassified","f","property non-void-command",
-"DelayFilter","unclassified","fast_f","property non-void-command",
-"AddCylinderBankNode","commander small-class","AddCylinderBankNode","constructor",
-"AddCylinderBankNode","commander small-class","~AddCylinderBankNode","destructor",
-"AddCylinderBankNode","commander small-class","registerInputs","command",
-"AddCylinderBankNode","commander small-class","_evaluate","command",
-"LabeledGauge","commander","LabeledGauge::LabeledGauge","constructor",
-"LabeledGauge","commander","LabeledGauge::~LabeledGauge","destructor",
-"LabeledGauge","commander","LabeledGauge::initialize","void-accessor command collaborator",
-"LabeledGauge","commander","LabeledGauge::destroy","command",
-"LabeledGauge","commander","LabeledGauge::update","command",
-"LabeledGauge","commander","LabeledGauge::render","command collaborator",
-"Grid","controller small-class","get","property controller",
-"AddCylinderNode","commander small-class","AddCylinderNode","constructor",
-"AddCylinderNode","commander small-class","~AddCylinderNode","destructor",
-"AddCylinderNode","commander small-class","registerInputs","command",
-"AddCylinderNode","commander small-class","_evaluate","command",
-"FunctionNode","commander","~FunctionNode","destructor",
-"FunctionNode","commander","addSample","command",
-"FunctionNode","commander","setFilterRadius","set",
-"FunctionNode","commander","generate","property non-void-command factory collaborator",
-"FunctionNode","commander","registerInputs","command",
-"FunctionNode","commander","_evaluate","command",
-"Function","unclassified","setInputScale","set",
-"Function","unclassified","setOutputScale","set",
-"Function","unclassified","Function::Function","constructor",
-"Function","unclassified","Function::~Function","destructor",
-"Function","unclassified","Function::initialize","command collaborator",
-"Function","unclassified","Function::resize","command",
-"Function","unclassified","Function::destroy","command",
-"Function","unclassified","Function::addSample","command",
-"Function","unclassified","Function::sampleTriangle","get property",
-"Function","unclassified","Function::sampleGaussian","property",
-"Function","unclassified","Function::isOrdered","predicate",
-"Function","unclassified","Function::getDomain","void-accessor",
-"Function","unclassified","Function::getRange","void-accessor",
-"Function","unclassified","Function::triangle","property wrapper",
-"Function","unclassified","Function::closestSample","property wrapper",
-"CylinderHeadObject","degenerate","CylinderHeadObject::CylinderHeadObject","constructor",
-"CylinderHeadObject","degenerate","CylinderHeadObject::~CylinderHeadObject","destructor",
-"CylinderHeadObject","degenerate","CylinderHeadObject::generateGeometry","empty",
-"CylinderHeadObject","degenerate","CylinderHeadObject::render","void-accessor command collaborator",
-"CylinderHeadObject","degenerate","CylinderHeadObject::process","empty",
-"CylinderHeadObject","degenerate","CylinderHeadObject::destroy","empty",
-"CylinderHeadObject","degenerate","CylinderHeadObject::generateCamshaft","void-accessor command collaborator",
-"SimulationObject","unclassified","SimulationObject::SimulationObject","constructor",
-"SimulationObject","unclassified","SimulationObject::~SimulationObject","destructor",
-"SimulationObject","unclassified","SimulationObject::initialize","set collaborator",
-"SimulationObject","unclassified","SimulationObject::generateGeometry","empty",
-"SimulationObject","unclassified","SimulationObject::render","empty",
-"SimulationObject","unclassified","SimulationObject::process","empty",
-"SimulationObject","unclassified","SimulationObject::destroy","empty",
-"SimulationObject","unclassified","SimulationObject::getForemostPiston","property non-void-command collaborator",
-"SimulationObject","unclassified","SimulationObject::resetShader","command",
-"SimulationObject","unclassified","SimulationObject::setTransform","void-accessor command collaborator",
-"SimulationObject","unclassified","SimulationObject::tintByLayer","property collaborator",
-"CylinderHead","data-provider","getExhaustSystem","get collaborator",
-"CylinderHead","data-provider","getSoundAttenuation","get",
-"CylinderHead","data-provider","getIntake","get collaborator",
-"CylinderHead","data-provider","getHeaderPrimaryLength","get",
-"CylinderHead","data-provider","getFlipDisplay","get",
-"CylinderHead","data-provider","getCombustionChamberVolume","get",
-"CylinderHead","data-provider","getCylinderBank","get collaborator",
-"CylinderHead","data-provider","getIntakeRunnerVolume","get",
-"CylinderHead","data-provider","getIntakeRunnerCrossSectionArea","get",
-"CylinderHead","data-provider","getExhaustRunnerVolume","get",
-"CylinderHead","data-provider","getExhaustRunnerCrossSectionArea","get",
-"CylinderHead","data-provider","CylinderHead::CylinderHead","constructor",
-"CylinderHead","data-provider","CylinderHead::~CylinderHead","destructor",
-"CylinderHead","data-provider","CylinderHead::initialize","command collaborator",
-"CylinderHead","data-provider","CylinderHead::destroy","set",
-"CylinderHead","data-provider","CylinderHead::intakeFlowRate","property",
-"CylinderHead","data-provider","CylinderHead::exhaustFlowRate","property",
-"CylinderHead","data-provider","CylinderHead::intakeValveLift","property",
-"CylinderHead","data-provider","CylinderHead::exhaustValveLift","property",
-"CylinderHead","data-provider","CylinderHead::setAllExhaustSystems","command collaborator",
-"CylinderHead","data-provider","CylinderHead::setExhaustSystem","collaborator",
-"CylinderHead","data-provider","CylinderHead::setSoundAttenuation","unclassified",
-"CylinderHead","data-provider","CylinderHead::setAllIntakes","void-accessor command collaborator",
-"CylinderHead","data-provider","CylinderHead::setIntake","void-accessor collaborator",
-"CylinderHead","data-provider","CylinderHead::setAllHeaderPrimaryLengths","command",
-"CylinderHead","data-provider","CylinderHead::setHeaderPrimaryLength","unclassified",
-"CylinderHead","data-provider","CylinderHead::getExhaustCamshaft","property non-void-command collaborator",
-"CylinderHead","data-provider","CylinderHead::getIntakeCamshaft","property non-void-command collaborator",
-"SetEngineNode","small-class","SetEngineNode","constructor",
-"SetEngineNode","small-class","~SetEngineNode","destructor",
-"SetEngineNode","small-class","registerInputs","wrapper",
-"SetEngineNode","small-class","_evaluate","controller",
-"k_28inH2ONode","commander","~k_28inH2ONode","destructor",
-"k_28inH2ONode","commander","registerInputs","command",
-"k_28inH2ONode","commander","registerOutputs","wrapper",
-"k_28inH2ONode","commander","_evaluate","command",
-"CylinderBank","data-provider","getAngle","get",
-"CylinderBank","data-provider","getBore","get",
-"CylinderBank","data-provider","getDeckHeight","get",
-"CylinderBank","data-provider","getCylinderCount","get",
-"CylinderBank","data-provider","getIndex","get",
-"CylinderBank","data-provider","getDx","get",
-"CylinderBank","data-provider","getDy","get",
-"CylinderBank","data-provider","getX","get",
-"CylinderBank","data-provider","getY","get",
-"CylinderBank","data-provider","getDisplayDepth","get",
-"CylinderBank","data-provider","CylinderBank::CylinderBank","constructor",
-"CylinderBank","data-provider","CylinderBank::~CylinderBank","destructor",
-"CylinderBank","data-provider","CylinderBank::initialize","command collaborator",
-"CylinderBank","data-provider","CylinderBank::destroy","empty",
-"CylinderBank","data-provider","CylinderBank::getPositionAboveDeck","void-accessor",
-"CylinderBank","data-provider","CylinderBank::boreSurfaceArea","property",
-"LoadSimulationCluster","entity boundary","setSimulator","set collaborator",
-"LoadSimulationCluster","entity boundary","getTransmission","property collaborator",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::LoadSimulationCluster","constructor",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::~LoadSimulationCluster","destructor",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::initialize","void-accessor command collaborator",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::destroy","empty",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::update","command collaborator",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::render","command collaborator",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::drawCurrentGear","void-accessor command collaborator",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::drawClutchPressureGauge","command collaborator",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::drawSystemStatus","void-accessor command collaborator",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::updateHpAndTorque","command",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::isIgnitionOn","predicate collaborator",
-"LoadSimulationCluster","entity boundary","LoadSimulationCluster::setUnits","command",
-"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::CylinderTemperatureGauge","constructor",
-"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::~CylinderTemperatureGauge","destructor",
-"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::initialize","void-accessor command collaborator",
-"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::destroy","command",
-"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::update","command",
-"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::render","command collaborator",
-"PistonEngineSimulator","unclassified","setFluidSimulationSteps","set",
-"PistonEngineSimulator","unclassified","getFluidSimulationSteps","get",
-"PistonEngineSimulator","unclassified","getFluidSimulationFrequency","property",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::PistonEngineSimulator","constructor",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::~PistonEngineSimulator","destructor",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::loadSimulation","void-accessor command collaborator",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::getAverageOutputSignal","property",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::placeAndInitialize","command",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::placeCylinder","command",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::simulateStep_","command",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::getTotalExhaustFlow","property",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::endFrame","command",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::destroy","command",
-"PistonEngineSimulator","unclassified","PistonEngineSimulator::writeToSynthesizer","command collaborator",
-"CDiscord","commander boundary","CDiscord::CDiscord","constructor",
-"CDiscord","commander boundary","CDiscord::~CDiscord","destructor",
-"CDiscord","commander boundary","CDiscord::CreateInstance","predicate set",
-"CDiscord","commander boundary","CDiscord::DestroyInstance","wrapper",
-"CDiscord","commander boundary","CDiscord::handleDiscordReady","command collaborator",
-"CDiscord","commander boundary","CDiscord::handleDiscordDisconnected","command",
-"CDiscord","commander boundary","CDiscord::handleDiscordError","empty",
-"CDiscord","commander boundary","CDiscord::InitDiscord","wrapper stateless",
-"CDiscord","commander boundary","CDiscord::UpdatePresence","command collaborator",
-"CDiscord","commander boundary","CDiscord::ClearPresence","wrapper stateless",
-"CDiscord","commander boundary","CDiscord::UpdateDiscordConnection","wrapper",
-"CDiscord","commander boundary","CDiscord::SetUseDiscord","set",
-"CDiscord","commander boundary","CDiscord::SetConnected","set",
-"CDiscord","commander boundary","CDiscord::SetStatus","controller stateless",
-"SetApplicationSettingsNode","commander small-class","SetApplicationSettingsNode","constructor",
-"SetApplicationSettingsNode","commander small-class","~SetApplicationSettingsNode","destructor",
-"SetApplicationSettingsNode","commander small-class","registerInputs","command",
-"SetApplicationSettingsNode","commander small-class","_evaluate","command",
-"Dynamometer","data-provider boundary degenerate","Dynamometer::Dynamometer","constructor",
-"Dynamometer","data-provider boundary degenerate","Dynamometer::~Dynamometer","destructor",
-"Dynamometer","data-provider boundary degenerate","Dynamometer::connectCrankshaft","collaborator incidental",
-"Dynamometer","data-provider boundary degenerate","Dynamometer::calculate","void-accessor collaborator",
-"Dynamometer","data-provider boundary degenerate","Dynamometer::getTorque","incidental",
-"ButterworthLowPassFilter","entity boundary small-class","ButterworthLowPassFilter","constructor",
-"ButterworthLowPassFilter","entity boundary small-class","~ButterworthLowPassFilter","destructor",
-"ButterworthLowPassFilter","entity boundary small-class","fast_f","property non-void-command collaborator",
-"ButterworthLowPassFilter","entity boundary small-class","setCutoffFrequency","command collaborator",
-"PreemphasisFilter","small-class","PreemphasisFilter","constructor",
-"PreemphasisFilter","small-class","~PreemphasisFilter","destructor",
-"PreemphasisFilter","small-class","f","property non-void-command",
-"PreemphasisFilter","small-class","fast_f","property set collaborator",
-"RightGaugeCluster","unclassified","RightGaugeCluster::RightGaugeCluster","constructor",
-"RightGaugeCluster","unclassified","RightGaugeCluster::~RightGaugeCluster","destructor",
-"RightGaugeCluster","unclassified","RightGaugeCluster::initialize","void-accessor command collaborator",
-"RightGaugeCluster","unclassified","RightGaugeCluster::destroy","command",
-"RightGaugeCluster","unclassified","RightGaugeCluster::update","command",
-"RightGaugeCluster","unclassified","RightGaugeCluster::render","command collaborator",
-"RightGaugeCluster","unclassified","RightGaugeCluster::setEngine","set collaborator",
-"RightGaugeCluster","unclassified","RightGaugeCluster::renderTachSpeedCluster","command collaborator",
-"RightGaugeCluster","unclassified","RightGaugeCluster::renderFuelAirCluster","command collaborator",
-"RightGaugeCluster","unclassified","RightGaugeCluster::getManifoldPressureWithUnits","property non-void-command",
-"RightGaugeCluster","unclassified","RightGaugeCluster::getRpm","property",
-"RightGaugeCluster","unclassified","RightGaugeCluster::getRedline","property",
-"RightGaugeCluster","unclassified","RightGaugeCluster::getSpeed","property",
-"RightGaugeCluster","unclassified","RightGaugeCluster::getManifoldPressure","property",
-"RightGaugeCluster","unclassified","RightGaugeCluster::setUnits","command",
-"ObjectReferenceNode","commander","ObjectReferenceNode","constructor",
-"ObjectReferenceNode","commander","~ObjectReferenceNode","destructor",
-"ObjectReferenceNode","commander","overrideType","command",
-"ObjectReferenceNode","commander","registerOutputs","wrapper",
-"ObjectReferenceNode","commander","_evaluate","command",
-"ObjectReferenceNode","commander","setOutput","void-accessor command collaborator",
-"Shaders","entity boundary","Shaders::Shaders","constructor",
-"Shaders","entity boundary","Shaders::~Shaders","destructor",
-"Shaders","entity boundary","Shaders::Initialize","property non-void-command collaborator",
-"Shaders","entity boundary","Shaders::UseMaterial","wrapper stateless",
-"Shaders","entity boundary","Shaders::SetObjectTransform","set collaborator",
-"Shaders","entity boundary","Shaders::ConfigureModel","empty",
-"Shaders","entity boundary","Shaders::SetBaseColor","set collaborator",
-"Shaders","entity boundary","Shaders::ResetBaseColor","set",
-"Shaders","entity boundary","Shaders::GetRegularFlags","property collaborator",
-"Shaders","entity boundary","Shaders::GetUiFlags","property collaborator",
-"Shaders","entity boundary","Shaders::CalculateCamera","command collaborator",
-"Shaders","entity boundary","Shaders::CalculateUiCamera","command collaborator",
-"Shaders","entity boundary","Shaders::SetClearColor","void-accessor command collaborator",
-"UiManager","unclassified","getRoot","property collaborator",
-"UiManager","unclassified","UiManager::UiManager","constructor",
-"UiManager","unclassified","UiManager::~UiManager","destructor",
-"UiManager","unclassified","UiManager::initialize","void-accessor set collaborator",
-"UiManager","unclassified","UiManager::destroy","command",
-"UiManager","unclassified","UiManager::update","command",
-"UiManager","unclassified","UiManager::render","command",
-"StarterMotor","data-provider boundary small-class","StarterMotor::StarterMotor","constructor",
-"StarterMotor","data-provider boundary small-class","StarterMotor::~StarterMotor","destructor",
-"StarterMotor","data-provider boundary small-class","StarterMotor::connectCrankshaft","collaborator incidental",
-"StarterMotor","data-provider boundary small-class","StarterMotor::calculate","void-accessor collaborator",
-"Simulator","unclassified","getFrameIterationCount","get",
-"Simulator","unclassified","synthesizer","get collaborator",
-"Simulator","unclassified","getEngine","get collaborator",
-"Simulator","unclassified","getTransmission","get collaborator",
-"Simulator","unclassified","getVehicle","get collaborator",
-"Simulator","unclassified","getSystem","get collaborator",
-"Simulator","unclassified","setSimulationFrequency","set",
-"Simulator","unclassified","getSimulationFrequency","get",
-"Simulator","unclassified","getTimestep","property",
-"Simulator","unclassified","setTargetSynthesizerLatency","set",
-"Simulator","unclassified","getTargetSynthesizerLatency","get",
-"Simulator","unclassified","getSynthesizerInputLatency","property",
-"Simulator","unclassified","setSimulationSpeed","set",
-"Simulator","unclassified","getSimulationSpeed","get",
-"Simulator","unclassified","getCurrentIteration","get",
-"Simulator","unclassified","getAverageProcessingTime","get",
-"Simulator","unclassified","simulationSteps","get",
-"Simulator","unclassified","filteredEngineSpeed","get",
-"Simulator","unclassified","Simulator::Simulator","constructor",
-"Simulator","unclassified","Simulator::~Simulator","destructor",
-"Simulator","unclassified","Simulator::initialize","command collaborator",
-"Simulator","unclassified","Simulator::loadSimulation","command collaborator",
-"Simulator","unclassified","Simulator::releaseSimulation","command",
-"Simulator","unclassified","Simulator::startFrame","command",
-"Simulator","unclassified","Simulator::simulateStep","predicate non-void-command",
-"Simulator","unclassified","Simulator::getTotalExhaustFlow","incidental",
-"Simulator","unclassified","Simulator::readAudioOutput","property non-void-command",
-"Simulator","unclassified","Simulator::endFrame","command",
-"Simulator","unclassified","Simulator::destroy","command",
-"Simulator","unclassified","Simulator::startAudioRenderingThread","command",
-"Simulator","unclassified","Simulator::endAudioRenderingThread","command",
-"Simulator","unclassified","Simulator::getSynthesizerInputLatencyTarget","get",
-"Simulator","unclassified","Simulator::getFilteredDynoTorque","property",
-"Simulator","unclassified","Simulator::getDynoPower","property",
-"Simulator","unclassified","Simulator::getAverageOutputSignal","incidental",
-"Simulator","unclassified","Simulator::initializeSynthesizer","command collaborator",
-"Simulator","unclassified","Simulator::simulateStep_","empty",
-"Simulator","unclassified","Simulator::updateFilteredEngineSpeed","set",
-"Transmission","unclassified","getGear","get",
-"Transmission","unclassified","setClutchPressure","set",
-"Transmission","unclassified","getClutchPressure","get",
-"Transmission","unclassified","Transmission::Transmission","constructor",
-"Transmission","unclassified","Transmission::~Transmission","destructor",
-"Transmission","unclassified","Transmission::initialize","void-accessor command collaborator",
-"Transmission","unclassified","Transmission::update","command",
-"Transmission","unclassified","Transmission::addToSystem","command collaborator",
-"Transmission","unclassified","Transmission::changeGear","command",
-"UiButton","commander small-class","UiButton::UiButton","constructor",
-"UiButton","commander small-class","UiButton::~UiButton","destructor",
-"UiButton","commander small-class","UiButton::update","set",
-"UiButton","commander small-class","UiButton::render","command collaborator",
-"ConnectingRodNode","unclassified","ConnectingRodNode","constructor",
-"ConnectingRodNode","unclassified","~ConnectingRodNode","destructor",
-"ConnectingRodNode","unclassified","addRodJournal","void-accessor command collaborator",
-"ConnectingRodNode","unclassified","isMaster","predicate",
-"ConnectingRodNode","unclassified","indexSlaveJournals","controller",
-"ConnectingRodNode","unclassified","generate","unclassified",
-"ConnectingRodNode","unclassified","registerInputs","command",
-"ConnectingRodNode","unclassified","_evaluate","command",
-"Part","degenerate small-class","Part::Part","constructor",
-"Part","degenerate small-class","Part::~Part","destructor",
-"Part","degenerate small-class","Part::destroy","empty",
-"UiElement","boundary","isMouseOver","get",
-"UiElement","boundary","isMouseHeld","get",
-"UiElement","boundary","addElement","non-void-command factory collaborator",
-"UiElement","boundary","getLocalPosition","get collaborator",
-"UiElement","boundary","setLocalPosition","set collaborator",
-"UiElement","boundary","worldToLocal","property collaborator",
-"UiElement","boundary","localToWorld","property collaborator",
-"UiElement","boundary","setVisible","set",
-"UiElement","boundary","isVisible","get",
-"UiElement","boundary","getChildCount","property",
-"UiElement","boundary","UiElement::UiElement","constructor",
-"UiElement","boundary","UiElement::~UiElement","destructor",
-"UiElement","boundary","UiElement::initialize","set collaborator",
-"UiElement","boundary","UiElement::destroy","command",
-"UiElement","boundary","UiElement::update","controller",
-"UiElement","boundary","UiElement::render","controller",
-"UiElement","boundary","UiElement::signal","empty",
-"UiElement","boundary","UiElement::onMouseDown","set collaborator",
-"UiElement","boundary","UiElement::onMouseUp","set collaborator",
-"UiElement","boundary","UiElement::onMouseClick","command collaborator",
-"UiElement","boundary","UiElement::onDrag","set collaborator",
-"UiElement","boundary","UiElement::onMouseOver","set collaborator",
-"UiElement","boundary","UiElement::onMouseLeave","set",
-"UiElement","boundary","UiElement::onMouseScroll","empty",
-"UiElement","boundary","UiElement::mouseOver","property non-void-command collaborator",
-"UiElement","boundary","UiElement::getWorldPosition","property collaborator",
-"UiElement","boundary","UiElement::setLocalPosition","void-accessor set collaborator",
-"UiElement","boundary","UiElement::bringToFront","command",
-"UiElement","boundary","UiElement::activate","command",
-"UiElement","boundary","UiElement::signal","command collaborator",
-"UiElement","boundary","UiElement::pixelsToUnits","incidental",
-"UiElement","boundary","UiElement::pixelsToUnits","property collaborator",
-"UiElement","boundary","UiElement::unitsToPixels","incidental",
-"UiElement","boundary","UiElement::unitsToPixels","property collaborator",
-"UiElement","boundary","UiElement::getRenderPoint","property collaborator",
-"UiElement","boundary","UiElement::getRenderBounds","property collaborator",
-"UiElement","boundary","UiElement::unitsToPixels","property collaborator",
-"UiElement","boundary","UiElement::resetShader","command",
-"UiElement","boundary","UiElement::drawModel","void-accessor command collaborator",
-"UiElement","boundary","UiElement::drawFrame","void-accessor command collaborator",
-"UiElement","boundary","UiElement::drawBox","void-accessor command collaborator",
-"UiElement","boundary","UiElement::drawText","void-accessor command collaborator",
-"UiElement","boundary","UiElement::drawAlignedText","void-accessor command collaborator",
-"UiElement","boundary","UiElement::drawCenteredText","void-accessor command collaborator",
-"Bounds","data-provider","Bounds","constructor",
-"Bounds","data-provider","Bounds","constructor",
-"Bounds","data-provider","Bounds","constructor",
-"Bounds","data-provider","Bounds","constructor",
-"Bounds","data-provider","overlaps","predicate collaborator",
-"Bounds","data-provider","add","controller stateless",
-"Bounds","data-provider","move","get non-void-command collaborator",
-"Bounds","data-provider","setPosition","void-accessor command collaborator",
-"Bounds","data-provider","getPosition","property collaborator",
-"Bounds","data-provider","left","incidental",
-"Bounds","data-provider","right","incidental",
-"Bounds","data-provider","top","incidental",
-"Bounds","data-provider","bottom","incidental",
-"Bounds","data-provider","center_h","incidental",
-"Bounds","data-provider","center_v","incidental",
-"Bounds","data-provider","width","incidental",
-"Bounds","data-provider","height","incidental",
-"Bounds","data-provider","dim","property collaborator",
-"Bounds","data-provider","inset","property",
-"Bounds","data-provider","grow","property",
-"Bounds","data-provider","verticalSplit","property",
-"Bounds","data-provider","horizontalSplit","property",
-"VtecValvetrainNode","small-class","VtecValvetrainNode","constructor",
-"VtecValvetrainNode","small-class","~VtecValvetrainNode","destructor",
-"VtecValvetrainNode","small-class","generate","non-void-command factory collaborator",
-"VtecValvetrainNode","small-class","registerInputs","command",
-"ConnectingRodObject","unclassified","ConnectingRodObject::ConnectingRodObject","constructor",
-"ConnectingRodObject","unclassified","ConnectingRodObject::~ConnectingRodObject","destructor",
-"ConnectingRodObject","unclassified","ConnectingRodObject::generateGeometry","command",
-"ConnectingRodObject","unclassified","ConnectingRodObject::render","void-accessor command collaborator",
-"ConnectingRodObject","unclassified","ConnectingRodObject::process","empty",
-"ConnectingRodObject","unclassified","ConnectingRodObject::destroy","empty",
-"CombustionChamberObject","unclassified","CombustionChamberObject::CombustionChamberObject","constructor",
-"CombustionChamberObject","unclassified","CombustionChamberObject::~CombustionChamberObject","destructor",
-"CombustionChamberObject","unclassified","CombustionChamberObject::generateGeometry","command collaborator",
-"CombustionChamberObject","unclassified","CombustionChamberObject::render","void-accessor command collaborator",
-"CombustionChamberObject","unclassified","CombustionChamberObject::process","empty",
-"CombustionChamberObject","unclassified","CombustionChamberObject::destroy","empty",
-"Vehicle","data-provider","getMass","get",
-"Vehicle","data-provider","getRollingResistance","get",
-"Vehicle","data-provider","getDragCoefficient","get",
-"Vehicle","data-provider","getCrossSectionArea","get",
-"Vehicle","data-provider","getDiffRatio","get",
-"Vehicle","data-provider","getTireRadius","get",
-"Vehicle","data-provider","getTravelledDistance","get",
-"Vehicle","data-provider","resetTravelledDistance","set",
-"Vehicle","data-provider","Vehicle::Vehicle","constructor",
-"Vehicle","data-provider","Vehicle::~Vehicle","destructor",
-"Vehicle","data-provider","Vehicle::initialize","command collaborator",
-"Vehicle","data-provider","Vehicle::update","set",
-"Vehicle","data-provider","Vehicle::addToSystem","set collaborator",
-"Vehicle","data-provider","Vehicle::getSpeed","property wrapper",
-"Vehicle","data-provider","Vehicle::linearForceToVirtualTorque","property wrapper",
-"VehicleDragConstraint","entity boundary small-class","VehicleDragConstraint::VehicleDragConstraint","constructor",
-"VehicleDragConstraint","entity boundary small-class","VehicleDragConstraint::~VehicleDragConstraint","destructor",
-"VehicleDragConstraint","entity boundary small-class","VehicleDragConstraint::initialize","set collaborator",
-"VehicleDragConstraint","entity boundary small-class","VehicleDragConstraint::calculate","void-accessor command collaborator",
-"VtecValvetrain","unclassified","VtecValvetrain::VtecValvetrain","constructor",
-"VtecValvetrain","unclassified","VtecValvetrain::~VtecValvetrain","destructor",
-"VtecValvetrain","unclassified","VtecValvetrain::initialize","command collaborator",
-"VtecValvetrain","unclassified","VtecValvetrain::intakeValveLift","property non-void-command",
-"VtecValvetrain","unclassified","VtecValvetrain::exhaustValveLift","property non-void-command",
-"VtecValvetrain","unclassified","VtecValvetrain::getActiveIntakeCamshaft","property non-void-command collaborator",
-"VtecValvetrain","unclassified","VtecValvetrain::getActiveExhaustCamshaft","property non-void-command collaborator",
-"VtecValvetrain","unclassified","VtecValvetrain::isVtecEnabled","predicate",
-"AddLobeNode","commander small-class","AddLobeNode","constructor",
-"AddLobeNode","commander small-class","~AddLobeNode","destructor",
-"AddLobeNode","commander small-class","registerInputs","command",
-"AddLobeNode","commander small-class","_evaluate","command",
-"MixerCluster","commander","setSimulator","set collaborator",
-"MixerCluster","commander","MixerCluster::MixerCluster","constructor",
-"MixerCluster","commander","MixerCluster::~MixerCluster","destructor",
-"MixerCluster","commander","MixerCluster::initialize","void-accessor command collaborator",
-"MixerCluster","commander","MixerCluster::destroy","command",
-"MixerCluster","commander","MixerCluster::update","command",
-"MixerCluster","commander","MixerCluster::render","command",
-"CylinderHeadNode","boundary","CylinderHeadNode","constructor",
-"CylinderHeadNode","boundary","~CylinderHeadNode","destructor",
-"CylinderHeadNode","boundary","generate","void-accessor collaborator",
-"CylinderHeadNode","boundary","setBank","set collaborator",
-"CylinderHeadNode","boundary","getBank","get collaborator",
-"CylinderHeadNode","boundary","registerInputs","command",
-"CylinderHeadNode","boundary","_evaluate","command",
-"AddSlaveJournalNode","commander small-class","AddSlaveJournalNode","constructor",
-"AddSlaveJournalNode","commander small-class","~AddSlaveJournalNode","destructor",
-"AddSlaveJournalNode","commander small-class","registerInputs","command",
-"AddSlaveJournalNode","commander small-class","_evaluate","command",
-"AddCrankshaftNode","commander small-class","AddCrankshaftNode","constructor",
-"AddCrankshaftNode","commander small-class","~AddCrankshaftNode","destructor",
-"AddCrankshaftNode","commander small-class","registerInputs","command",
-"AddCrankshaftNode","commander small-class","_evaluate","command",
-"Filter","degenerate small-class","Filter::Filter","constructor",
-"Filter","degenerate small-class","Filter::~Filter","destructor",
-"Filter","degenerate small-class","Filter::f","incidental",
-"Filter","degenerate small-class","Filter::destroy","empty",
-"SetTransmissionNode","commander small-class","SetTransmissionNode","constructor",
-"SetTransmissionNode","commander small-class","~SetTransmissionNode","destructor",
-"SetTransmissionNode","commander small-class","registerInputs","command",
-"SetTransmissionNode","commander small-class","_evaluate","command collaborator",
-"SetVehicleNode","small-class","SetVehicleNode","constructor",
-"SetVehicleNode","small-class","~SetVehicleNode","destructor",
-"SetVehicleNode","small-class","registerInputs","command",
-"SetVehicleNode","small-class","_evaluate","controller",
-"AddRodJournalNode","commander small-class","AddRodJournalNode","constructor",
-"AddRodJournalNode","commander small-class","~AddRodJournalNode","destructor",
-"AddRodJournalNode","commander small-class","registerInputs","command",
-"AddRodJournalNode","commander small-class","_evaluate","command",
-"Compiler","minimal-entity boundary","es_script::Compiler::Compiler","constructor",
-"Compiler","minimal-entity boundary","es_script::Compiler::~Compiler","destructor",
-"Compiler","minimal-entity boundary","es_script::Compiler::output","get set factory collaborator",
-"Compiler","minimal-entity boundary","es_script::Compiler::initialize","command",
-"Compiler","minimal-entity boundary","es_script::Compiler::compile","predicate non-void-command collaborator",
-"Compiler","minimal-entity boundary","es_script::Compiler::execute","property non-void-command collaborator",
-"Compiler","minimal-entity boundary","es_script::Compiler::destroy","command",
-"Compiler","minimal-entity boundary","es_script::Compiler::printError","controller stateless",
-"CrankshaftNode","unclassified","CrankshaftNode","constructor",
-"CrankshaftNode","unclassified","~CrankshaftNode","destructor",
-"CrankshaftNode","unclassified","addRodJournal","void-accessor command collaborator",
-"CrankshaftNode","unclassified","generate","void-accessor command collaborator",
-"CrankshaftNode","unclassified","registerInputs","command",
-"CrankshaftNode","unclassified","_evaluate","command",
-"CylinderBankNode","boundary","~CylinderBankNode","destructor",
-"CylinderBankNode","boundary","connectRodAssemblies","collaborator",
-"CylinderBankNode","boundary","indexSlaveJournals","void-accessor collaborator",
-"CylinderBankNode","boundary","generate","void-accessor collaborator",
-"CylinderBankNode","boundary","addCylinder","void-accessor command",
-"CylinderBankNode","boundary","getCylinder","get collaborator",
-"CylinderBankNode","boundary","getCylinderCount","property",
-"CylinderBankNode","boundary","setCylinderHead","set collaborator",
-"CylinderBankNode","boundary","getCylinderHead","get collaborator",
-"CylinderBankNode","boundary","registerInputs","command",
-"CylinderBankNode","boundary","_evaluate","command",
-"EngineContext","entity boundary","setEngine","set collaborator",
-"EngineContext","entity boundary","getEngine","get collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::EngineContext","constructor",
-"EngineContext","entity boundary","es_script::EngineContext::~EngineContext","destructor",
-"EngineContext","entity boundary","es_script::EngineContext::addHead","set collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::getHead","property non-void-command collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::addBank","set collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::getBank","property collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::addRodJournal","set",
-"EngineContext","entity boundary","es_script::EngineContext::getRodJournalIndex","property collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::addIntake","set collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::getIntake","property collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::addExhaust","set collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::getExhaust","property collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::addFunction","set collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::getFunction","property collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::addImpulseResponse","set collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::getImpulseResponse","property collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::addCrankshaft","set collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::getCrankshaft","property collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::addConnectingRod","set collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::getConnectingRod","property collaborator",
-"EngineContext","entity boundary","es_script::EngineContext::setCylinderIndex","set",
-"EngineContext","entity boundary","es_script::EngineContext::getCylinderIndex","property",
-"ImpulseResponseNode","unclassified","ImpulseResponseNode","constructor",
-"ImpulseResponseNode","unclassified","~ImpulseResponseNode","destructor",
-"ImpulseResponseNode","unclassified","generate","property factory controller",
-"ImpulseResponseNode","unclassified","registerInputs","command",
-"ImpulseResponseNode","unclassified","_evaluate","command",
-"Intake","data-provider","getRunnerFlowRate","get",
-"Intake","data-provider","getThrottlePlatePosition","property",
-"Intake","data-provider","getRunnerLength","get",
-"Intake","data-provider","getPlenumCrossSectionArea","get",
-"Intake","data-provider","getVelocityDecay","get",
-"Intake","data-provider","Intake::Intake","constructor",
-"Intake","data-provider","Intake::~Intake","destructor",
-"Intake","data-provider","Intake::initialize","void-accessor command collaborator",
-"Intake","data-provider","Intake::destroy","empty",
-"Intake","data-provider","Intake::process","command",
-"EngineNode","boundary","EngineNode","constructor",
-"EngineNode","boundary","~EngineNode","destructor",
-"EngineNode","boundary","buildEngine","void-accessor command collaborator",
-"EngineNode","boundary","addCrankshaft","void-accessor command collaborator",
-"EngineNode","boundary","addCylinderBank","void-accessor command collaborator",
-"EngineNode","boundary","getIgnitionModuleCount","property",
-"EngineNode","boundary","addIgnitionModule","set collaborator",
-"EngineNode","boundary","registerInputs","command",
-"EngineNode","boundary","_evaluate","command",
-"StandardValvetrain","boundary","StandardValvetrain::StandardValvetrain","constructor",
-"StandardValvetrain","boundary","StandardValvetrain::~StandardValvetrain","destructor",
-"StandardValvetrain","boundary","StandardValvetrain::initialize","command collaborator",
-"StandardValvetrain","boundary","StandardValvetrain::intakeValveLift","property non-void-command",
-"StandardValvetrain","boundary","StandardValvetrain::exhaustValveLift","property non-void-command",
-"StandardValvetrain","boundary","StandardValvetrain::getActiveIntakeCamshaft","get collaborator",
-"StandardValvetrain","boundary","StandardValvetrain::getActiveExhaustCamshaft","get collaborator",
-"ThrottleDisplay","entity commander boundary","ThrottleDisplay::ThrottleDisplay","constructor",
-"ThrottleDisplay","entity commander boundary","ThrottleDisplay::~ThrottleDisplay","destructor",
-"ThrottleDisplay","entity commander boundary","ThrottleDisplay::initialize","void-accessor command collaborator",
-"ThrottleDisplay","entity commander boundary","ThrottleDisplay::destroy","command",
-"ThrottleDisplay","entity commander boundary","ThrottleDisplay::update","command",
-"ThrottleDisplay","entity commander boundary","ThrottleDisplay::render","command collaborator",
-"ThrottleDisplay","entity commander boundary","ThrottleDisplay::renderThrottle","command collaborator",
-"ThrottleDisplay","entity commander boundary","ThrottleDisplay::renderSpeedControl","void-accessor command collaborator",
-"ExhaustSystemNode","commander","ExhaustSystemNode","constructor",
-"ExhaustSystemNode","commander","~ExhaustSystemNode","destructor",
-"ExhaustSystemNode","commander","generate","property non-void-command collaborator",
-"ExhaustSystemNode","commander","registerInputs","command",
-"ExhaustSystemNode","commander","_evaluate","command",
-"JitterFilter","unclassified","fast_f","property non-void-command collaborator",
-"JitterFilter","unclassified","setJitterScale","set",
-"JitterFilter","unclassified","getJitterScale","get",
-"JitterFilter","unclassified","JitterFilter::JitterFilter","constructor",
-"JitterFilter","unclassified","JitterFilter::~JitterFilter","destructor",
-"JitterFilter","unclassified","JitterFilter::initialize","command",
-"JitterFilter","unclassified","JitterFilter::f","wrapper stateless",
-"FuelNode","unclassified","FuelNode","constructor",
-"FuelNode","unclassified","~FuelNode","destructor",
-"FuelNode","unclassified","generate","void-accessor collaborator",
-"FuelNode","unclassified","registerInputs","command",
-"FuelNode","unclassified","_evaluate","command",
-"IgnitionModuleNode","unclassified","~IgnitionModuleNode","destructor",
-"IgnitionModuleNode","unclassified","generate","void-accessor collaborator",
-"IgnitionModuleNode","unclassified","connect","void-accessor command",
-"IgnitionModuleNode","unclassified","registerInputs","command",
-"IgnitionModuleNode","unclassified","_evaluate","command",
-"ValvetrainNode","commander small-class","ValvetrainNode","constructor",
-"ValvetrainNode","commander small-class","~ValvetrainNode","destructor",
-"ValvetrainNode","commander small-class","registerInputs","command",
-"ValvetrainNode","commander small-class","_evaluate","command",
-"IgnitionWireNode","unclassified","IgnitionWireNode","constructor",
-"IgnitionWireNode","unclassified","~IgnitionWireNode","destructor",
-"IgnitionWireNode","unclassified","connect","void-accessor command",
-"IgnitionWireNode","unclassified","getConnections","get collaborator",
-"IgnitionWireNode","unclassified","registerInputs","command",
-"IgnitionWireNode","unclassified","_evaluate","command",
-"Synthesizer","unclassified","getInputSampleRate","get",
-"Synthesizer","unclassified","Synthesizer::Synthesizer","constructor",
-"Synthesizer","unclassified","Synthesizer::~Synthesizer","destructor",
-"Synthesizer","unclassified","Synthesizer::initialize","void-accessor command collaborator",
-"Synthesizer","unclassified","Synthesizer::initializeImpulseResponse","void-accessor controller",
-"Synthesizer","unclassified","Synthesizer::startAudioRenderingThread","command",
-"Synthesizer","unclassified","Synthesizer::endAudioRenderingThread","command",
-"Synthesizer","unclassified","Synthesizer::destroy","command",
-"Synthesizer","unclassified","Synthesizer::readAudioOutput","property non-void-command",
-"Synthesizer","unclassified","Synthesizer::waitProcessed","get controller",
-"Synthesizer","unclassified","Synthesizer::writeInput","command",
-"Synthesizer","unclassified","Synthesizer::endInputBlock","command",
-"Synthesizer","unclassified","Synthesizer::audioRenderingThread","command",
-"Synthesizer","unclassified","Synthesizer::renderAudio","controller",
-"Synthesizer","unclassified","Synthesizer::inputDelta","property",
-"Synthesizer","unclassified","Synthesizer::inputDistance","property",
-"Synthesizer","unclassified","Synthesizer::setInputSampleRate","set collaborator",
-"Synthesizer","unclassified","Synthesizer::renderAudio","property non-void-command",
-"Synthesizer","unclassified","Synthesizer::getLevelerGain","property non-void-command collaborator",
-"Synthesizer","unclassified","Synthesizer::getAudioParameters","get collaborator",
-"Synthesizer","unclassified","Synthesizer::setAudioParameters","set collaborator",
-"DirectThrottleLinkageNode","small-class","DirectThrottleLinkageNode","constructor",
-"DirectThrottleLinkageNode","small-class","~DirectThrottleLinkageNode","destructor",
-"DirectThrottleLinkageNode","small-class","generate","property controller",
-"DirectThrottleLinkageNode","small-class","registerInputs","command",
-"IntakeNode","unclassified","IntakeNode","constructor",
-"IntakeNode","unclassified","~IntakeNode","destructor",
-"IntakeNode","unclassified","generate","property controller",
-"IntakeNode","unclassified","registerInputs","command",
-"IntakeNode","unclassified","_evaluate","command",
-"LanguageRules","boundary degenerate small-class","es_script::LanguageRules::LanguageRules","constructor",
-"LanguageRules","boundary degenerate small-class","es_script::LanguageRules::~LanguageRules","destructor",
-"LanguageRules","boundary degenerate small-class","es_script::LanguageRules::registerBuiltinNodeTypes","wrapper stateless",
-"ThrottleNode","commander small-class","ThrottleNode","constructor",
-"ThrottleNode","commander small-class","~ThrottleNode","destructor",
-"ThrottleNode","commander small-class","_evaluate","command",
-"AddIgnitionModuleNode","commander small-class","AddIgnitionModuleNode","constructor",
-"AddIgnitionModuleNode","commander small-class","~AddIgnitionModuleNode","destructor",
-"AddIgnitionModuleNode","commander small-class","registerInputs","command",
-"AddIgnitionModuleNode","commander small-class","_evaluate","command",
-"GovernorNode","small-class","GovernorNode","constructor",
-"GovernorNode","small-class","~GovernorNode","destructor",
-"GovernorNode","small-class","generate","property controller",
-"GovernorNode","small-class","registerInputs","command",
+"VehicleNode","unclassified","VehicleNode","constructor"
+"VehicleNode","unclassified","~VehicleNode","destructor"
+"VehicleNode","unclassified","generate","controller"
+"VehicleNode","unclassified","registerInputs","command"
+"VehicleNode","unclassified","_evaluate","command"
+"PistonObject","commander","PistonObject::PistonObject","constructor"
+"PistonObject","commander","PistonObject::~PistonObject","destructor"
+"PistonObject","commander","PistonObject::generateGeometry","command collaborator"
+"PistonObject","commander","PistonObject::render","command collaborator"
+"PistonObject","commander","PistonObject::process","empty"
+"PistonObject","commander","PistonObject::destroy","empty"
+"Valvetrain","empty","Valvetrain::Valvetrain","constructor"
+"Valvetrain","empty","Valvetrain::~Valvetrain","destructor"
+"PerformanceCluster","commander","setSimulator","set collaborator"
+"PerformanceCluster","commander","PerformanceCluster::PerformanceCluster","constructor"
+"PerformanceCluster","commander","PerformanceCluster::~PerformanceCluster","destructor"
+"PerformanceCluster","commander","PerformanceCluster::initialize","command collaborator"
+"PerformanceCluster","commander","PerformanceCluster::destroy","command"
+"PerformanceCluster","commander","PerformanceCluster::update","command"
+"PerformanceCluster","commander","PerformanceCluster::render","command"
+"PerformanceCluster","commander","PerformanceCluster::addTimePerTimestepSample","set"
+"PerformanceCluster","commander","PerformanceCluster::addAudioLatencySample","set"
+"PerformanceCluster","commander","PerformanceCluster::addInputBufferUsageSample","set"
+"Oscilloscope","commander","Oscilloscope::Oscilloscope","constructor"
+"Oscilloscope","commander","Oscilloscope::~Oscilloscope","destructor"
+"Oscilloscope","commander","Oscilloscope::initialize","command collaborator"
+"Oscilloscope","commander","Oscilloscope::destroy","command"
+"Oscilloscope","commander","Oscilloscope::update","set"
+"Oscilloscope","commander","Oscilloscope::render","command"
+"Oscilloscope","commander","Oscilloscope::render","command collaborator"
+"Oscilloscope","commander","Oscilloscope::dataPointToRenderPosition","property collaborator"
+"Oscilloscope","commander","Oscilloscope::addDataPoint","command"
+"Oscilloscope","commander","Oscilloscope::setBufferSize","command"
+"Oscilloscope","commander","Oscilloscope::reset","command"
+"LowPassFilter","data-class","fast_f","get set collaborator"
+"LowPassFilter","data-class","setCutoffFrequency","set"
+"LowPassFilter","data-class","LowPassFilter::LowPassFilter","constructor"
+"LowPassFilter","data-class","LowPassFilter::~LowPassFilter","destructor"
+"LowPassFilter","data-class","LowPassFilter::f","property non-void-command"
+"LevelingFilter","small-class","getAttenuation","get"
+"LevelingFilter","small-class","LevelingFilter::LevelingFilter","constructor"
+"LevelingFilter","small-class","LevelingFilter::~LevelingFilter","destructor"
+"LevelingFilter","small-class","LevelingFilter::f","property non-void-command"
+"AddGearNode","commander small-class","AddGearNode","constructor"
+"AddGearNode","commander small-class","~AddGearNode","destructor"
+"AddGearNode","commander small-class","registerInputs","command"
+"AddGearNode","commander small-class","_evaluate","command"
+"Governor","commander boundary","Governor::Governor","constructor"
+"Governor","commander boundary","Governor::~Governor","destructor"
+"Governor","commander boundary","Governor::initialize","command collaborator"
+"Governor","commander boundary","Governor::setSpeedControl","set"
+"Governor","commander boundary","Governor::update","command collaborator"
+"ConnectIgnitionWireNode","commander small-class","ConnectIgnitionWireNode","constructor"
+"ConnectIgnitionWireNode","commander small-class","~ConnectIgnitionWireNode","destructor"
+"ConnectIgnitionWireNode","commander small-class","registerInputs","command"
+"ConnectIgnitionWireNode","commander small-class","_evaluate","command"
+"TransmissionNode","commander","TransmissionNode","constructor"
+"TransmissionNode","commander","~TransmissionNode","destructor"
+"TransmissionNode","commander","generate","collaborator"
+"TransmissionNode","commander","addGear","command"
+"TransmissionNode","commander","registerInputs","command"
+"TransmissionNode","commander","_evaluate","command"
+"GeometryGenerator","boundary","getVertexData","get collaborator"
+"GeometryGenerator","boundary","getIndexData","get"
+"GeometryGenerator","boundary","getCurrentVertexCount","incidental"
+"GeometryGenerator","boundary","getCurrentIndexCount","incidental"
+"GeometryGenerator","boundary","GeometryGenerator::GeometryGenerator","constructor"
+"GeometryGenerator","boundary","GeometryGenerator::~GeometryGenerator","destructor"
+"GeometryGenerator","boundary","GeometryGenerator::initialize","command"
+"GeometryGenerator","boundary","GeometryGenerator::destroy","unclassified"
+"GeometryGenerator","boundary","GeometryGenerator::reset","incidental"
+"GeometryGenerator","boundary","GeometryGenerator::generateFilledCircle","predicate non-void-command"
+"GeometryGenerator","boundary","GeometryGenerator::generateFilledFanPolygon","predicate non-void-command"
+"GeometryGenerator","boundary","GeometryGenerator::generateLineRing","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateLineRingBalanced","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateLine","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateLine2d","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateFrame","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateGrid","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateRing2d","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateCircle2d","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateCam","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateRhombus","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateTrapezoid2d","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generateIsoscelesTriangle","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::startPath","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::generatePathSegment","predicate non-void-command collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::writeVertex","property collaborator"
+"GeometryGenerator","boundary","GeometryGenerator::startShape","unclassified"
+"GeometryGenerator","boundary","GeometryGenerator::endShape","collaborator incidental"
+"GeometryGenerator","boundary","GeometryGenerator::startSubshape","incidental"
+"GeometryGenerator","boundary","GeometryGenerator::writeFace","command"
+"GeometryGenerator","boundary","GeometryGenerator::checkCapacity","predicate"
+"GeometryGenerator","boundary","GeometryGenerator::findOrthogonal","wrapper stateless"
+"GasSystem","unclassified","~GasSystem","destructor"
+"GasSystem","unclassified","degreesOfFreedom","get"
+"GasSystem","unclassified","kineticEnergyPerMol","property"
+"GasSystem","unclassified","mix","property collaborator"
+"GasSystem","unclassified","GasSystem::kineticEnergyPerMol","incidental"
+"GasSystem","unclassified","GasSystem::heatCapacityRatio","incidental"
+"GasSystem","unclassified","GasSystem::chokedFlowLimit","property non-void-command"
+"GasSystem","unclassified","GasSystem::chokedFlowRate","property non-void-command"
+"GasSystem","unclassified","GasSystem::approximateDensity","property"
+"GasSystem","unclassified","GasSystem::n","property"
+"GasSystem","unclassified","GasSystem::n","property"
+"GasSystem","unclassified","GasSystem::kineticEnergy","property"
+"GasSystem","unclassified","GasSystem::kineticEnergy","property"
+"GasSystem","unclassified","GasSystem::c","property"
+"GasSystem","unclassified","GasSystem::totalEnergy","property"
+"GasSystem","unclassified","GasSystem::bulkKineticEnergy","property"
+"GasSystem","unclassified","GasSystem::dynamicPressure","property"
+"GasSystem","unclassified","GasSystem::mass","property"
+"GasSystem","unclassified","GasSystem::pressure","property"
+"GasSystem","unclassified","GasSystem::temperature","property"
+"GasSystem","unclassified","GasSystem::velocity_x","property"
+"GasSystem","unclassified","GasSystem::velocity_y","property"
+"GasSystem","unclassified","GasSystem::volume","property"
+"GasSystem","unclassified","GasSystem::volume","property"
+"GasSystem","unclassified","GasSystem::n_fuel","property"
+"GasSystem","unclassified","GasSystem::n_inert","property"
+"GasSystem","unclassified","GasSystem::n_o2","property"
+"GasSystem","unclassified","GasSystem::heatCapacityRatio","property"
+"GasSystem","unclassified","GasSystem::setGeometry","command"
+"GasSystem","unclassified","GasSystem::initialize","command"
+"GasSystem","unclassified","GasSystem::reset","command collaborator"
+"GasSystem","unclassified","GasSystem::setVolume","command"
+"GasSystem","unclassified","GasSystem::setN","command"
+"GasSystem","unclassified","GasSystem::changeVolume","command"
+"GasSystem","unclassified","GasSystem::changePressure","set"
+"GasSystem","unclassified","GasSystem::changeTemperature","set"
+"GasSystem","unclassified","GasSystem::changeEnergy","set"
+"GasSystem","unclassified","GasSystem::changeMix","set collaborator"
+"GasSystem","unclassified","GasSystem::injectFuel","set"
+"GasSystem","unclassified","GasSystem::changeTemperature","set"
+"GasSystem","unclassified","GasSystem::react","property non-void-command collaborator"
+"GasSystem","unclassified","GasSystem::flowConstant","wrapper stateless"
+"GasSystem","unclassified","GasSystem::k_28inH2O","property non-void-command"
+"GasSystem","unclassified","GasSystem::k_carb","property non-void-command"
+"GasSystem","unclassified","GasSystem::flowRate","wrapper stateless"
+"GasSystem","unclassified","GasSystem::loseN","property non-void-command"
+"GasSystem","unclassified","GasSystem::gainN","property non-void-command collaborator"
+"GasSystem","unclassified","GasSystem::dissipateExcessVelocity","command"
+"GasSystem","unclassified","GasSystem::updateVelocity","command"
+"GasSystem","unclassified","GasSystem::dissipateVelocity","command"
+"GasSystem","unclassified","GasSystem::flow","property non-void-command collaborator"
+"GasSystem","unclassified","GasSystem::flow","property non-void-command collaborator"
+"GasSystem","unclassified","GasSystem::pressureEquilibriumMaxFlow","property"
+"GasSystem","unclassified","GasSystem::pressureEquilibriumMaxFlow","property"
+"Throttle","lazy-class","getSpeedControl","get"
+"Throttle","lazy-class","Throttle::Throttle","constructor"
+"Throttle","lazy-class","Throttle::~Throttle","destructor"
+"Throttle","lazy-class","Throttle::setSpeedControl","set"
+"Throttle","lazy-class","Throttle::update","empty"
+"FiringOrderDisplay","commander","FiringOrderDisplay::FiringOrderDisplay","constructor"
+"FiringOrderDisplay","commander","FiringOrderDisplay::~FiringOrderDisplay","destructor"
+"FiringOrderDisplay","commander","FiringOrderDisplay::initialize","command collaborator"
+"FiringOrderDisplay","commander","FiringOrderDisplay::destroy","command"
+"FiringOrderDisplay","commander","FiringOrderDisplay::update","command"
+"FiringOrderDisplay","commander","FiringOrderDisplay::render","command collaborator"
+"ImpulseResponse","unclassified","getFilename","get"
+"ImpulseResponse","unclassified","getVolume","get"
+"ImpulseResponse","unclassified","ImpulseResponse::ImpulseResponse","constructor"
+"ImpulseResponse","unclassified","ImpulseResponse::~ImpulseResponse","destructor"
+"ImpulseResponse","unclassified","ImpulseResponse::initialize","command"
+"ConvolutionFilter","unclassified","getSampleCount","get"
+"ConvolutionFilter","unclassified","getImpulseResponse","get"
+"ConvolutionFilter","unclassified","ConvolutionFilter::ConvolutionFilter","constructor"
+"ConvolutionFilter","unclassified","ConvolutionFilter::~ConvolutionFilter","destructor"
+"ConvolutionFilter","unclassified","ConvolutionFilter::initialize","command"
+"ConvolutionFilter","unclassified","ConvolutionFilter::destroy","command"
+"ConvolutionFilter","unclassified","ConvolutionFilter::f","property non-void-command"
+"Point","data-provider","Point","constructor"
+"Point","data-provider","Point","constructor"
+"Point","data-provider","Point","constructor"
+"Point","data-provider","operator+","property"
+"Point","data-provider","operator-","property"
+"Point","data-provider","operator-","property"
+"Point","data-provider","operator*","property"
+"Point","data-provider","operator*","property"
+"Point","data-provider","operator/","property"
+"Point","data-provider","operator/","property"
+"Point","data-provider","operator+=","property non-void-command"
+"Point","data-provider","operator-=","property non-void-command"
+"Point","data-provider","operator/=","property non-void-command"
+"Point","data-provider","operator*=","property non-void-command"
+"Point","data-provider","operator>","predicate"
+"Point","data-provider","operator>=","predicate"
+"Point","data-provider","operator<","predicate"
+"Point","data-provider","operator<=","predicate"
+"Point","data-provider","length","property wrapper"
+"Point","data-provider","lengthSquared","property"
+"Point","data-provider","dot","property"
+"Point","data-provider","normalized","property"
+"Point","data-provider","componentMax","property wrapper"
+"Point","data-provider","componentMin","property wrapper"
+"FeedbackCombFilter","commander","FeedbackCombFilter::FeedbackCombFilter","constructor"
+"FeedbackCombFilter","commander","FeedbackCombFilter::~FeedbackCombFilter","destructor"
+"FeedbackCombFilter","commander","FeedbackCombFilter::initialize","command"
+"FeedbackCombFilter","commander","FeedbackCombFilter::f","property non-void-command"
+"FeedbackCombFilter","commander","FeedbackCombFilter::destroy","set"
+"k_CarbNode","commander","~k_CarbNode","destructor"
+"k_CarbNode","commander","registerInputs","command"
+"k_CarbNode","commander","registerOutputs","wrapper"
+"k_CarbNode","commander","_evaluate","command"
+"Piston","data-provider","getRod","get collaborator"
+"Piston","data-provider","getCylinderBank","get collaborator"
+"Piston","data-provider","getCylinderIndex","get"
+"Piston","data-provider","getCompressionHeight","get"
+"Piston","data-provider","getDisplacement","get"
+"Piston","data-provider","getWristPinLocation","get"
+"Piston","data-provider","getMass","get"
+"Piston","data-provider","getBlowbyK","get"
+"Piston","data-provider","Piston::setCylinderConstraint","set collaborator"
+"Piston","data-provider","Piston::Piston","constructor"
+"Piston","data-provider","Piston::~Piston","destructor"
+"Piston","data-provider","Piston::initialize","command collaborator"
+"Piston","data-provider","Piston::destroy","empty"
+"Piston","data-provider","Piston::relativeX","property"
+"Piston","data-provider","Piston::relativeY","property"
+"Piston","data-provider","Piston::calculateCylinderWallForce","property wrapper"
+"ExhaustSystem","data-provider","getIndex","get"
+"ExhaustSystem","data-provider","getLength","get"
+"ExhaustSystem","data-provider","getFlow","get"
+"ExhaustSystem","data-provider","getAudioVolume","get"
+"ExhaustSystem","data-provider","getPrimaryFlowRate","get"
+"ExhaustSystem","data-provider","getCollectorCrossSectionArea","get"
+"ExhaustSystem","data-provider","getPrimaryTubeLength","get"
+"ExhaustSystem","data-provider","getVelocityDecay","get"
+"ExhaustSystem","data-provider","getImpulseResponse","get collaborator"
+"ExhaustSystem","data-provider","getSystem","property collaborator"
+"ExhaustSystem","data-provider","ExhaustSystem::ExhaustSystem","constructor"
+"ExhaustSystem","data-provider","ExhaustSystem::~ExhaustSystem","destructor"
+"ExhaustSystem","data-provider","ExhaustSystem::initialize","command collaborator"
+"ExhaustSystem","data-provider","ExhaustSystem::destroy","empty"
+"ExhaustSystem","data-provider","ExhaustSystem::process","command collaborator"
+"Crankshaft","data-provider","getRodJournalCount","get"
+"Crankshaft","data-provider","getRodJournalAngle","get"
+"Crankshaft","data-provider","getTdc","get"
+"Crankshaft","data-provider","getThrow","get"
+"Crankshaft","data-provider","getMass","get"
+"Crankshaft","data-provider","getMomentOfInertia","get"
+"Crankshaft","data-provider","getFlywheelMass","get"
+"Crankshaft","data-provider","getPosX","get"
+"Crankshaft","data-provider","getPosY","get"
+"Crankshaft","data-provider","getFrictionTorque","get"
+"Crankshaft","data-provider","Crankshaft::Crankshaft","constructor"
+"Crankshaft","data-provider","Crankshaft::~Crankshaft","destructor"
+"Crankshaft","data-provider","Crankshaft::initialize","command collaborator"
+"Crankshaft","data-provider","Crankshaft::destroy","set"
+"Crankshaft","data-provider","Crankshaft::getRodJournalPositionLocal","void-accessor wrapper"
+"Crankshaft","data-provider","Crankshaft::getRodJournalPositionGlobal","void-accessor command"
+"Crankshaft","data-provider","Crankshaft::resetAngle","set"
+"Crankshaft","data-provider","Crankshaft::setRodJournalAngle","set"
+"Crankshaft","data-provider","Crankshaft::getAngle","property"
+"Crankshaft","data-provider","Crankshaft::getCycleAngle","property non-void-command"
+"OscilloscopeCluster","entity minimal-entity boundary","getTotalExhaustFlowOscilloscope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","getExhaustFlowOscilloscope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","getIntakeFlowOscilloscope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","getAudioWaveformOscilloscope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","getIntakeValveLiftOscilloscope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","getExhaustValveLiftOscilloscope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","getCylinderPressureScope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","getSparkAdvanceScope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","getCylinderMoleculesScope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","getPvScope","get collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","setDynoMaxRange","command"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::OscilloscopeCluster","constructor"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::~OscilloscopeCluster","destructor"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::initialize","command collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::destroy","command"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::signal","command collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::update","command collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::render","command"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::sample","command"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::setSimulator","set collaborator"
+"OscilloscopeCluster","entity minimal-entity boundary","OscilloscopeCluster::renderScope","void-accessor command collaborator"
+"EngineView","entity commander boundary","setDrawFrame","set"
+"EngineView","entity commander boundary","EngineView::EngineView","constructor"
+"EngineView","entity commander boundary","EngineView::~EngineView","destructor"
+"EngineView","entity commander boundary","EngineView::update","set"
+"EngineView","entity commander boundary","EngineView::render","command"
+"EngineView","entity commander boundary","EngineView::onMouseDown","set collaborator"
+"EngineView","entity commander boundary","EngineView::onDrag","set collaborator"
+"EngineView","entity commander boundary","EngineView::onMouseScroll","command collaborator"
+"EngineView","entity commander boundary","EngineView::setBounds","set collaborator"
+"EngineView","entity commander boundary","EngineView::getCenter","property collaborator"
+"EngineView","entity commander boundary","EngineView::getCameraPosition","property wrapper"
+"Gauge","commander","setBandCount","command"
+"Gauge","commander","setBand","set"
+"Gauge","commander","Gauge::Gauge","constructor"
+"Gauge","commander","Gauge::~Gauge","destructor"
+"Gauge","commander","Gauge::initialize","command collaborator"
+"Gauge","commander","Gauge::destroy","empty"
+"Gauge","commander","Gauge::update","command"
+"Gauge","commander","Gauge::render","command collaborator"
+"RingBuffer","unclassified","RingBuffer","constructor"
+"RingBuffer","unclassified","~RingBuffer","destructor"
+"RingBuffer","unclassified","initialize","command"
+"RingBuffer","unclassified","destroy","command"
+"RingBuffer","unclassified","write","command collaborator"
+"RingBuffer","unclassified","overwrite","command"
+"RingBuffer","unclassified","index","property"
+"RingBuffer","unclassified","read","property collaborator"
+"RingBuffer","unclassified","read","wrapper"
+"RingBuffer","unclassified","readAndRemove","set collaborator"
+"RingBuffer","unclassified","setWriteIndex","set"
+"RingBuffer","unclassified","removeBeginning","set"
+"RingBuffer","unclassified","setStartIndex","set"
+"RingBuffer","unclassified","size","property"
+"RingBuffer","unclassified","writeIndex","get"
+"RingBuffer","unclassified","start","get"
+"CombustionChamber","unclassified","setEngine","set collaborator"
+"CombustionChamber","unclassified","getCylinderHead","get collaborator"
+"CombustionChamber","unclassified","getPiston","get collaborator"
+"CombustionChamber","unclassified","isLit","get"
+"CombustionChamber","unclassified","getLastIterationExhaustFlow","get"
+"CombustionChamber","unclassified","resetLastTimestepExhaustFlow","set"
+"CombustionChamber","unclassified","getLastTimestepExhaustFlow","get"
+"CombustionChamber","unclassified","resetLastTimestepIntakeFlow","set"
+"CombustionChamber","unclassified","getLastTimestepIntakeFlow","get"
+"CombustionChamber","unclassified","CombustionChamber::CombustionChamber","constructor"
+"CombustionChamber","unclassified","CombustionChamber::~CombustionChamber","destructor"
+"CombustionChamber","unclassified","CombustionChamber::initialize","command collaborator"
+"CombustionChamber","unclassified","CombustionChamber::destroy","command"
+"CombustionChamber","unclassified","CombustionChamber::getVolume","property"
+"CombustionChamber","unclassified","CombustionChamber::pistonSpeed","property collaborator"
+"CombustionChamber","unclassified","CombustionChamber::calculateMeanPistonSpeed","property"
+"CombustionChamber","unclassified","CombustionChamber::calculateFiringPressure","property"
+"CombustionChamber","unclassified","CombustionChamber::popLitLastFrame","predicate set"
+"CombustionChamber","unclassified","CombustionChamber::ignite","command"
+"CombustionChamber","unclassified","CombustionChamber::update","command"
+"CombustionChamber","unclassified","CombustionChamber::flow","command"
+"CombustionChamber","unclassified","CombustionChamber::lastEventAfr","property wrapper"
+"CombustionChamber","unclassified","CombustionChamber::calculateFrictionForce","property"
+"CombustionChamber","unclassified","CombustionChamber::updateCycleStates","command"
+"CombustionChamber","unclassified","CombustionChamber::apply","command collaborator"
+"CombustionChamber","unclassified","CombustionChamber::getFrictionForce","property"
+"InfoCluster","commander","setEngine","set collaborator"
+"InfoCluster","commander","setLogMessage","set"
+"InfoCluster","commander","getLogMessage","get"
+"InfoCluster","commander","InfoCluster::InfoCluster","constructor"
+"InfoCluster","commander","InfoCluster::~InfoCluster","destructor"
+"InfoCluster","commander","InfoCluster::initialize","command collaborator"
+"InfoCluster","commander","InfoCluster::destroy","command"
+"InfoCluster","commander","InfoCluster::update","command"
+"InfoCluster","commander","InfoCluster::render","command collaborator"
+"AddSampleNode","commander small-class","AddSampleNode","constructor"
+"AddSampleNode","commander small-class","~AddSampleNode","destructor"
+"AddSampleNode","commander small-class","registerInputs","command"
+"AddSampleNode","commander small-class","_evaluate","command"
+"SetCylinderHeadNode","commander small-class","SetCylinderHeadNode","constructor"
+"SetCylinderHeadNode","commander small-class","~SetCylinderHeadNode","destructor"
+"SetCylinderHeadNode","commander small-class","registerInputs","command"
+"SetCylinderHeadNode","commander small-class","_evaluate","command"
+"GenerateHarmonicCamLobeNode","commander small-class","GenerateHarmonicCamLobeNode","constructor"
+"GenerateHarmonicCamLobeNode","commander small-class","~GenerateHarmonicCamLobeNode","destructor"
+"GenerateHarmonicCamLobeNode","commander small-class","registerInputs","command"
+"GenerateHarmonicCamLobeNode","commander small-class","_evaluate","command"
+"CamshaftNode","commander","CamshaftNode","constructor"
+"CamshaftNode","commander","~CamshaftNode","destructor"
+"CamshaftNode","commander","generate","collaborator"
+"CamshaftNode","commander","addLobe","command"
+"CamshaftNode","commander","registerInputs","command"
+"CamshaftNode","commander","_evaluate","command"
+"CrankshaftObject","commander degenerate","CrankshaftObject::CrankshaftObject","constructor"
+"CrankshaftObject","commander degenerate","CrankshaftObject::~CrankshaftObject","destructor"
+"CrankshaftObject","commander degenerate","CrankshaftObject::generateGeometry","empty"
+"CrankshaftObject","commander degenerate","CrankshaftObject::render","command collaborator"
+"CrankshaftObject","commander degenerate","CrankshaftObject::process","empty"
+"CrankshaftObject","commander degenerate","CrankshaftObject::destroy","empty"
+"ObjectReferenceNodeOutput","boundary","ObjectReferenceNodeOutput","constructor"
+"ObjectReferenceNodeOutput","boundary","~ObjectReferenceNodeOutput","destructor"
+"ObjectReferenceNodeOutput","boundary","fullCompute","unclassified"
+"ObjectReferenceNodeOutput","boundary","getReference","get collaborator"
+"ObjectReferenceNodeOutput","boundary","setReference","set collaborator"
+"EngineSimApplication","boundary","getGeometryGenerator","property collaborator"
+"EngineSimApplication","boundary","getShaders","property collaborator"
+"EngineSimApplication","boundary","getTextRenderer","property collaborator"
+"EngineSimApplication","boundary","getEngine","property collaborator"
+"EngineSimApplication","boundary","getBackgroundColor","get collaborator"
+"EngineSimApplication","boundary","getForegroundColor","get collaborator"
+"EngineSimApplication","boundary","getHightlight1Color","get collaborator"
+"EngineSimApplication","boundary","getPink","get collaborator"
+"EngineSimApplication","boundary","getGreen","get collaborator"
+"EngineSimApplication","boundary","getYellow","get collaborator"
+"EngineSimApplication","boundary","getRed","get collaborator"
+"EngineSimApplication","boundary","getOrange","get collaborator"
+"EngineSimApplication","boundary","getBlue","get collaborator"
+"EngineSimApplication","boundary","setViewLayer","set"
+"EngineSimApplication","boundary","getAssetManager","property collaborator"
+"EngineSimApplication","boundary","getScreenWidth","get"
+"EngineSimApplication","boundary","getScreenHeight","get"
+"EngineSimApplication","boundary","getSimulator","get collaborator"
+"EngineSimApplication","boundary","getInfoCluster","get collaborator"
+"EngineSimApplication","boundary","getAppSettings","property collaborator"
+"EngineSimApplication","boundary","isRecording","get"
+"EngineSimApplication","boundary","EngineSimApplication::EngineSimApplication","constructor"
+"EngineSimApplication","boundary","EngineSimApplication::~EngineSimApplication","destructor"
+"EngineSimApplication","boundary","EngineSimApplication::initialize","command collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::initialize","command"
+"EngineSimApplication","boundary","EngineSimApplication::process","command"
+"EngineSimApplication","boundary","EngineSimApplication::render","command collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::pixelsToUnits","property"
+"EngineSimApplication","boundary","EngineSimApplication::unitsToPixels","property"
+"EngineSimApplication","boundary","EngineSimApplication::run","command"
+"EngineSimApplication","boundary","EngineSimApplication::destroy","command"
+"EngineSimApplication","boundary","EngineSimApplication::loadEngine","command collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::drawGenerated","command"
+"EngineSimApplication","boundary","EngineSimApplication::drawGeneratedUi","command"
+"EngineSimApplication","boundary","EngineSimApplication::drawGenerated","command collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::configure","command collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::createObjects","command collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::destroyObjects","command collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::getViewParameters","get collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::loadScript","command collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::processEngineInput","command"
+"EngineSimApplication","boundary","EngineSimApplication::renderScene","command"
+"EngineSimApplication","boundary","EngineSimApplication::refreshUserInterface","command"
+"EngineSimApplication","boundary","EngineSimApplication::startRecording","command collaborator"
+"EngineSimApplication","boundary","EngineSimApplication::updateScreenSizeStability","command"
+"EngineSimApplication","boundary","EngineSimApplication::readyToRecord","predicate"
+"EngineSimApplication","boundary","EngineSimApplication::stopRecording","command"
+"EngineSimApplication","boundary","EngineSimApplication::recordFrame","command collaborator"
+"Engine","data-provider","getName","get"
+"Engine","data-provider","getDisplacement","get"
+"Engine","data-provider","getStarterTorque","get"
+"Engine","data-provider","getStarterSpeed","get"
+"Engine","data-provider","getRedline","get"
+"Engine","data-provider","getDynoMinSpeed","get"
+"Engine","data-provider","getDynoMaxSpeed","get"
+"Engine","data-provider","getDynoHoldStep","get"
+"Engine","data-provider","getCylinderBankCount","get"
+"Engine","data-provider","getCylinderCount","get"
+"Engine","data-provider","getCrankshaftCount","get"
+"Engine","data-provider","getExhaustSystemCount","get"
+"Engine","data-provider","getIntakeCount","get"
+"Engine","data-provider","getCrankshaft","property collaborator"
+"Engine","data-provider","getCylinderBank","property collaborator"
+"Engine","data-provider","getHead","property collaborator"
+"Engine","data-provider","getPiston","property collaborator"
+"Engine","data-provider","getConnectingRod","property collaborator"
+"Engine","data-provider","getIgnitionModule","property collaborator"
+"Engine","data-provider","getExhaustSystem","property collaborator"
+"Engine","data-provider","getIntake","property collaborator"
+"Engine","data-provider","getChamber","property collaborator"
+"Engine","data-provider","getFuel","property collaborator"
+"Engine","data-provider","getSimulationFrequency","get"
+"Engine","data-provider","getInitialHighFrequencyGain","get"
+"Engine","data-provider","getInitialNoise","get"
+"Engine","data-provider","getInitialJitter","get"
+"Engine","data-provider","Engine::Engine","constructor"
+"Engine","data-provider","Engine::~Engine","destructor"
+"Engine","data-provider","Engine::initialize","command collaborator"
+"Engine","data-provider","Engine::destroy","command"
+"Engine","data-provider","Engine::getOutputCrankshaft","property collaborator"
+"Engine","data-provider","Engine::setSpeedControl","command"
+"Engine","data-provider","Engine::getSpeedControl","property non-void-command"
+"Engine","data-provider","Engine::setThrottle","command"
+"Engine","data-provider","Engine::getThrottle","get"
+"Engine","data-provider","Engine::getThrottlePlateAngle","property wrapper"
+"Engine","data-provider","Engine::calculateDisplacement","set"
+"Engine","data-provider","Engine::getIntakeFlowRate","property"
+"Engine","data-provider","Engine::update","command"
+"Engine","data-provider","Engine::getManifoldPressure","property controller"
+"Engine","data-provider","Engine::getIntakeAfr","property controller"
+"Engine","data-provider","Engine::getExhaustO2","property controller"
+"Engine","data-provider","Engine::resetFuelConsumption","unclassified"
+"Engine","data-provider","Engine::getTotalFuelMassConsumed","property"
+"Engine","data-provider","Engine::getTotalVolumeFuelConsumed","property"
+"Engine","data-provider","Engine::getMaxDepth","property wrapper"
+"Engine","data-provider","Engine::createSimulator","property controller"
+"Engine","data-provider","Engine::getRpm","property"
+"Engine","data-provider","Engine::getSpeed","property"
+"Engine","data-provider","Engine::isSpinningCw","predicate"
+"Node","boundary","~Node","destructor"
+"Node","boundary","readAtomicInput","property wrapper"
+"Node","boundary","readAllInputs","wrapper"
+"Node","boundary","addInput","set collaborator"
+"Node","boundary","registerInputs","wrapper"
+"AudioBuffer","unclassified","offsetToTime","property"
+"AudioBuffer","unclassified","timeDelta","property"
+"AudioBuffer","unclassified","offsetDelta","property"
+"AudioBuffer","unclassified","writeSample","set"
+"AudioBuffer","unclassified","readSample","get"
+"AudioBuffer","unclassified","commitBlock","set"
+"AudioBuffer","unclassified","getBufferIndex","property"
+"AudioBuffer","unclassified","copyBuffer","command"
+"AudioBuffer","unclassified","AudioBuffer::AudioBuffer","constructor"
+"AudioBuffer","unclassified","AudioBuffer::~AudioBuffer","destructor"
+"AudioBuffer","unclassified","AudioBuffer::initialize","command"
+"AudioBuffer","unclassified","AudioBuffer::destroy","command"
+"AudioBuffer","unclassified","AudioBuffer::checkForDiscontinuitiy","predicate wrapper"
+"DerivativeFilter","data-class small-class","DerivativeFilter::DerivativeFilter","constructor"
+"DerivativeFilter","data-class small-class","DerivativeFilter::~DerivativeFilter","destructor"
+"DerivativeFilter","data-class small-class","DerivativeFilter::f","property set"
+"DirectThrottleLinkage","commander boundary","DirectThrottleLinkage::DirectThrottleLinkage","constructor"
+"DirectThrottleLinkage","commander boundary","DirectThrottleLinkage::~DirectThrottleLinkage","destructor"
+"DirectThrottleLinkage","commander boundary","DirectThrottleLinkage::initialize","set collaborator"
+"DirectThrottleLinkage","commander boundary","DirectThrottleLinkage::setSpeedControl","set"
+"DirectThrottleLinkage","commander boundary","DirectThrottleLinkage::update","command collaborator"
+"Camshaft","data-provider","setLobeCenterline","set"
+"Camshaft","data-provider","getLobeCenterline","get"
+"Camshaft","data-provider","getLobeProfile","get collaborator"
+"Camshaft","data-provider","getAdvance","get"
+"Camshaft","data-provider","getBaseRadius","get"
+"Camshaft","data-provider","Camshaft::Camshaft","constructor"
+"Camshaft","data-provider","Camshaft::~Camshaft","destructor"
+"Camshaft","data-provider","Camshaft::initialize","command collaborator"
+"Camshaft","data-provider","Camshaft::destroy","command"
+"Camshaft","data-provider","Camshaft::valveLift","property"
+"Camshaft","data-provider","Camshaft::sampleLobe","property"
+"Camshaft","data-provider","Camshaft::getAngle","property"
+"RodJournalNode","unclassified","RodJournalNode","constructor"
+"RodJournalNode","unclassified","~RodJournalNode","destructor"
+"RodJournalNode","unclassified","getAngle","get"
+"RodJournalNode","unclassified","getCrankshaft","get collaborator"
+"RodJournalNode","unclassified","getRod","get collaborator"
+"RodJournalNode","unclassified","registerInputs","command"
+"RodJournalNode","unclassified","_evaluate","command"
+"Fuel","data-provider","getMolecularMass","get"
+"Fuel","data-provider","getEnergyDensity","get"
+"Fuel","data-provider","getDensity","get"
+"Fuel","data-provider","getBurningEfficiencyRandomness","get"
+"Fuel","data-provider","getLowEfficiencyAttenuation","get"
+"Fuel","data-provider","getMaxBurningEfficiency","get"
+"Fuel","data-provider","getMaxTurbulenceEffect","get"
+"Fuel","data-provider","getMaxDilutionEffect","get"
+"Fuel","data-provider","getMolecularAfr","get"
+"Fuel","data-provider","Fuel::Fuel","constructor"
+"Fuel","data-provider","Fuel::~Fuel","destructor"
+"Fuel","data-provider","Fuel::initialize","command collaborator"
+"Fuel","data-provider","Fuel::flameSpeed","property"
+"Fuel","data-provider","Fuel::laminarBurningVelocity","property wrapper"
+"AfrCluster","commander","AfrCluster::AfrCluster","constructor"
+"AfrCluster","commander","AfrCluster::~AfrCluster","destructor"
+"AfrCluster","commander","AfrCluster::initialize","command collaborator"
+"AfrCluster","commander","AfrCluster::destroy","command"
+"AfrCluster","commander","AfrCluster::update","command"
+"AfrCluster","commander","AfrCluster::render","command collaborator"
+"CylinderPressureGauge","commander","CylinderPressureGauge::CylinderPressureGauge","constructor"
+"CylinderPressureGauge","commander","CylinderPressureGauge::~CylinderPressureGauge","destructor"
+"CylinderPressureGauge","commander","CylinderPressureGauge::initialize","command collaborator"
+"CylinderPressureGauge","commander","CylinderPressureGauge::destroy","command"
+"CylinderPressureGauge","commander","CylinderPressureGauge::update","command"
+"CylinderPressureGauge","commander","CylinderPressureGauge::render","command collaborator"
+"PistonNode","unclassified","PistonNode","constructor"
+"PistonNode","unclassified","~PistonNode","destructor"
+"PistonNode","unclassified","generate","controller"
+"PistonNode","unclassified","registerInputs","command"
+"PistonNode","unclassified","_evaluate","command"
+"FuelCluster","commander","FuelCluster::FuelCluster","constructor"
+"FuelCluster","commander","FuelCluster::~FuelCluster","destructor"
+"FuelCluster","commander","FuelCluster::initialize","command collaborator"
+"FuelCluster","commander","FuelCluster::destroy","command"
+"FuelCluster","commander","FuelCluster::update","command"
+"FuelCluster","commander","FuelCluster::render","command collaborator"
+"FuelCluster","commander","FuelCluster::getTotalVolumeFuelConsumed","property"
+"StandardValvetrainNode","small-class","StandardValvetrainNode","constructor"
+"StandardValvetrainNode","small-class","~StandardValvetrainNode","destructor"
+"StandardValvetrainNode","small-class","generate","non-void-command factory collaborator"
+"StandardValvetrainNode","small-class","registerInputs","command"
+"GaussianFilter","unclassified","getRadius","get"
+"GaussianFilter","unclassified","getAlpha","get"
+"GaussianFilter","unclassified","GaussianFilter::GaussianFilter","constructor"
+"GaussianFilter","unclassified","GaussianFilter::~GaussianFilter","destructor"
+"GaussianFilter","unclassified","GaussianFilter::initialize","command"
+"GaussianFilter","unclassified","GaussianFilter::evaluate","property wrapper"
+"GaussianFilter","unclassified","GaussianFilter::calculate","property wrapper"
+"GaussianFilter","unclassified","GaussianFilter::generateCache","command"
+"CylinderBankObject","commander","CylinderBankObject::CylinderBankObject","constructor"
+"CylinderBankObject","commander","CylinderBankObject::~CylinderBankObject","destructor"
+"CylinderBankObject","commander","CylinderBankObject::generateGeometry","command collaborator"
+"CylinderBankObject","commander","CylinderBankObject::render","command collaborator"
+"CylinderBankObject","commander","CylinderBankObject::process","empty"
+"CylinderBankObject","commander","CylinderBankObject::destroy","empty"
+"ConnectingRod","data-provider","setMaster","set"
+"ConnectingRod","data-provider","setCrankshaft","set collaborator"
+"ConnectingRod","data-provider","getRodJournalCount","get"
+"ConnectingRod","data-provider","getRodJournalAngle","get"
+"ConnectingRod","data-provider","getSlaveThrow","get"
+"ConnectingRod","data-provider","getCenterOfMass","get"
+"ConnectingRod","data-provider","getLength","get"
+"ConnectingRod","data-provider","getMass","get"
+"ConnectingRod","data-provider","getMomentOfInertia","get"
+"ConnectingRod","data-provider","getJournal","get"
+"ConnectingRod","data-provider","getMasterRod","get"
+"ConnectingRod","data-provider","getCrankshaft","get collaborator"
+"ConnectingRod","data-provider","getPiston","get collaborator"
+"ConnectingRod","data-provider","ConnectingRod::ConnectingRod","constructor"
+"ConnectingRod","data-provider","ConnectingRod::~ConnectingRod","destructor"
+"ConnectingRod","data-provider","ConnectingRod::initialize","command collaborator"
+"ConnectingRod","data-provider","ConnectingRod::getBigEndLocal","property"
+"ConnectingRod","data-provider","ConnectingRod::getLittleEndLocal","property"
+"ConnectingRod","data-provider","ConnectingRod::setRodJournalAngle","set"
+"ConnectingRod","data-provider","ConnectingRod::getRodJournalPositionLocal","void-accessor command"
+"ConnectingRod","data-provider","ConnectingRod::getRodJournalPositionGlobal","void-accessor command"
+"ConnectingRod","data-provider","ConnectingRod::getLayer","property"
+"IgnitionModule","unclassified","IgnitionModule::IgnitionModule","constructor"
+"IgnitionModule","unclassified","IgnitionModule::~IgnitionModule","destructor"
+"IgnitionModule","unclassified","IgnitionModule::destroy","command"
+"IgnitionModule","unclassified","IgnitionModule::initialize","command collaborator"
+"IgnitionModule","unclassified","IgnitionModule::setFiringOrder","unclassified"
+"IgnitionModule","unclassified","IgnitionModule::reset","command"
+"IgnitionModule","unclassified","IgnitionModule::update","command"
+"IgnitionModule","unclassified","IgnitionModule::getIgnitionEvent","get"
+"IgnitionModule","unclassified","IgnitionModule::resetIgnitionEvents","unclassified"
+"IgnitionModule","unclassified","IgnitionModule::getTimingAdvance","property non-void-command"
+"IgnitionModule","unclassified","IgnitionModule::getPlug","property collaborator"
+"DelayFilter","unclassified","DelayFilter","constructor"
+"DelayFilter","unclassified","~DelayFilter","destructor"
+"DelayFilter","unclassified","initialize","set"
+"DelayFilter","unclassified","f","property non-void-command"
+"DelayFilter","unclassified","fast_f","property non-void-command"
+"AddCylinderBankNode","commander small-class","AddCylinderBankNode","constructor"
+"AddCylinderBankNode","commander small-class","~AddCylinderBankNode","destructor"
+"AddCylinderBankNode","commander small-class","registerInputs","command"
+"AddCylinderBankNode","commander small-class","_evaluate","command"
+"LabeledGauge","commander","LabeledGauge::LabeledGauge","constructor"
+"LabeledGauge","commander","LabeledGauge::~LabeledGauge","destructor"
+"LabeledGauge","commander","LabeledGauge::initialize","command collaborator"
+"LabeledGauge","commander","LabeledGauge::destroy","command"
+"LabeledGauge","commander","LabeledGauge::update","command"
+"LabeledGauge","commander","LabeledGauge::render","command collaborator"
+"Grid","controller small-class","get","property controller"
+"AddCylinderNode","commander small-class","AddCylinderNode","constructor"
+"AddCylinderNode","commander small-class","~AddCylinderNode","destructor"
+"AddCylinderNode","commander small-class","registerInputs","command"
+"AddCylinderNode","commander small-class","_evaluate","command"
+"FunctionNode","commander","~FunctionNode","destructor"
+"FunctionNode","commander","addSample","command"
+"FunctionNode","commander","setFilterRadius","set"
+"FunctionNode","commander","generate","property non-void-command factory collaborator"
+"FunctionNode","commander","registerInputs","command"
+"FunctionNode","commander","_evaluate","command"
+"Function","unclassified","setInputScale","set"
+"Function","unclassified","setOutputScale","set"
+"Function","unclassified","Function::Function","constructor"
+"Function","unclassified","Function::~Function","destructor"
+"Function","unclassified","Function::initialize","command collaborator"
+"Function","unclassified","Function::resize","command"
+"Function","unclassified","Function::destroy","command"
+"Function","unclassified","Function::addSample","command"
+"Function","unclassified","Function::sampleTriangle","get property"
+"Function","unclassified","Function::sampleGaussian","property"
+"Function","unclassified","Function::isOrdered","predicate"
+"Function","unclassified","Function::getDomain","void-accessor"
+"Function","unclassified","Function::getRange","void-accessor"
+"Function","unclassified","Function::triangle","property wrapper"
+"Function","unclassified","Function::closestSample","property wrapper"
+"CylinderHeadObject","commander degenerate","CylinderHeadObject::CylinderHeadObject","constructor"
+"CylinderHeadObject","commander degenerate","CylinderHeadObject::~CylinderHeadObject","destructor"
+"CylinderHeadObject","commander degenerate","CylinderHeadObject::generateGeometry","empty"
+"CylinderHeadObject","commander degenerate","CylinderHeadObject::render","command collaborator"
+"CylinderHeadObject","commander degenerate","CylinderHeadObject::process","empty"
+"CylinderHeadObject","commander degenerate","CylinderHeadObject::destroy","empty"
+"CylinderHeadObject","commander degenerate","CylinderHeadObject::generateCamshaft","command collaborator"
+"SimulationObject","unclassified","SimulationObject::SimulationObject","constructor"
+"SimulationObject","unclassified","SimulationObject::~SimulationObject","destructor"
+"SimulationObject","unclassified","SimulationObject::initialize","set collaborator"
+"SimulationObject","unclassified","SimulationObject::generateGeometry","empty"
+"SimulationObject","unclassified","SimulationObject::render","empty"
+"SimulationObject","unclassified","SimulationObject::process","empty"
+"SimulationObject","unclassified","SimulationObject::destroy","empty"
+"SimulationObject","unclassified","SimulationObject::getForemostPiston","property non-void-command collaborator"
+"SimulationObject","unclassified","SimulationObject::resetShader","command"
+"SimulationObject","unclassified","SimulationObject::setTransform","command collaborator"
+"SimulationObject","unclassified","SimulationObject::tintByLayer","property collaborator"
+"CylinderHead","data-provider","getExhaustSystem","get collaborator"
+"CylinderHead","data-provider","getSoundAttenuation","get"
+"CylinderHead","data-provider","getIntake","get collaborator"
+"CylinderHead","data-provider","getHeaderPrimaryLength","get"
+"CylinderHead","data-provider","getFlipDisplay","get"
+"CylinderHead","data-provider","getCombustionChamberVolume","get"
+"CylinderHead","data-provider","getCylinderBank","get collaborator"
+"CylinderHead","data-provider","getIntakeRunnerVolume","get"
+"CylinderHead","data-provider","getIntakeRunnerCrossSectionArea","get"
+"CylinderHead","data-provider","getExhaustRunnerVolume","get"
+"CylinderHead","data-provider","getExhaustRunnerCrossSectionArea","get"
+"CylinderHead","data-provider","CylinderHead::CylinderHead","constructor"
+"CylinderHead","data-provider","CylinderHead::~CylinderHead","destructor"
+"CylinderHead","data-provider","CylinderHead::initialize","command collaborator"
+"CylinderHead","data-provider","CylinderHead::destroy","set"
+"CylinderHead","data-provider","CylinderHead::intakeFlowRate","property"
+"CylinderHead","data-provider","CylinderHead::exhaustFlowRate","property"
+"CylinderHead","data-provider","CylinderHead::intakeValveLift","property"
+"CylinderHead","data-provider","CylinderHead::exhaustValveLift","property"
+"CylinderHead","data-provider","CylinderHead::setAllExhaustSystems","command collaborator"
+"CylinderHead","data-provider","CylinderHead::setExhaustSystem","collaborator"
+"CylinderHead","data-provider","CylinderHead::setSoundAttenuation","unclassified"
+"CylinderHead","data-provider","CylinderHead::setAllIntakes","void-accessor command collaborator"
+"CylinderHead","data-provider","CylinderHead::setIntake","void-accessor collaborator"
+"CylinderHead","data-provider","CylinderHead::setAllHeaderPrimaryLengths","command"
+"CylinderHead","data-provider","CylinderHead::setHeaderPrimaryLength","unclassified"
+"CylinderHead","data-provider","CylinderHead::getExhaustCamshaft","property non-void-command collaborator"
+"CylinderHead","data-provider","CylinderHead::getIntakeCamshaft","property non-void-command collaborator"
+"SetEngineNode","small-class","SetEngineNode","constructor"
+"SetEngineNode","small-class","~SetEngineNode","destructor"
+"SetEngineNode","small-class","registerInputs","wrapper"
+"SetEngineNode","small-class","_evaluate","controller"
+"k_28inH2ONode","commander","~k_28inH2ONode","destructor"
+"k_28inH2ONode","commander","registerInputs","command"
+"k_28inH2ONode","commander","registerOutputs","wrapper"
+"k_28inH2ONode","commander","_evaluate","command"
+"CylinderBank","data-provider","getAngle","get"
+"CylinderBank","data-provider","getBore","get"
+"CylinderBank","data-provider","getDeckHeight","get"
+"CylinderBank","data-provider","getCylinderCount","get"
+"CylinderBank","data-provider","getIndex","get"
+"CylinderBank","data-provider","getDx","get"
+"CylinderBank","data-provider","getDy","get"
+"CylinderBank","data-provider","getX","get"
+"CylinderBank","data-provider","getY","get"
+"CylinderBank","data-provider","getDisplayDepth","get"
+"CylinderBank","data-provider","CylinderBank::CylinderBank","constructor"
+"CylinderBank","data-provider","CylinderBank::~CylinderBank","destructor"
+"CylinderBank","data-provider","CylinderBank::initialize","command collaborator"
+"CylinderBank","data-provider","CylinderBank::destroy","empty"
+"CylinderBank","data-provider","CylinderBank::getPositionAboveDeck","void-accessor"
+"CylinderBank","data-provider","CylinderBank::boreSurfaceArea","property"
+"LoadSimulationCluster","entity commander boundary","setSimulator","set collaborator"
+"LoadSimulationCluster","entity commander boundary","getTransmission","property collaborator"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::LoadSimulationCluster","constructor"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::~LoadSimulationCluster","destructor"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::initialize","command collaborator"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::destroy","empty"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::update","command collaborator"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::render","command collaborator"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::drawCurrentGear","command collaborator"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::drawClutchPressureGauge","command collaborator"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::drawSystemStatus","command collaborator"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::updateHpAndTorque","command"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::isIgnitionOn","predicate collaborator"
+"LoadSimulationCluster","entity commander boundary","LoadSimulationCluster::setUnits","command"
+"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::CylinderTemperatureGauge","constructor"
+"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::~CylinderTemperatureGauge","destructor"
+"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::initialize","command collaborator"
+"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::destroy","command"
+"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::update","command"
+"CylinderTemperatureGauge","commander","CylinderTemperatureGauge::render","command collaborator"
+"PistonEngineSimulator","unclassified","setFluidSimulationSteps","set"
+"PistonEngineSimulator","unclassified","getFluidSimulationSteps","get"
+"PistonEngineSimulator","unclassified","getFluidSimulationFrequency","property"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::PistonEngineSimulator","constructor"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::~PistonEngineSimulator","destructor"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::loadSimulation","command collaborator"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::getAverageOutputSignal","property"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::placeAndInitialize","command"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::placeCylinder","command"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::simulateStep_","command"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::getTotalExhaustFlow","property"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::endFrame","command"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::destroy","command"
+"PistonEngineSimulator","unclassified","PistonEngineSimulator::writeToSynthesizer","command collaborator"
+"CDiscord","commander boundary","CDiscord::CDiscord","constructor"
+"CDiscord","commander boundary","CDiscord::~CDiscord","destructor"
+"CDiscord","commander boundary","CDiscord::CreateInstance","predicate set"
+"CDiscord","commander boundary","CDiscord::DestroyInstance","wrapper"
+"CDiscord","commander boundary","CDiscord::handleDiscordReady","command collaborator"
+"CDiscord","commander boundary","CDiscord::handleDiscordDisconnected","command"
+"CDiscord","commander boundary","CDiscord::handleDiscordError","empty"
+"CDiscord","commander boundary","CDiscord::InitDiscord","wrapper stateless"
+"CDiscord","commander boundary","CDiscord::UpdatePresence","command collaborator"
+"CDiscord","commander boundary","CDiscord::ClearPresence","wrapper stateless"
+"CDiscord","commander boundary","CDiscord::UpdateDiscordConnection","wrapper"
+"CDiscord","commander boundary","CDiscord::SetUseDiscord","set"
+"CDiscord","commander boundary","CDiscord::SetConnected","set"
+"CDiscord","commander boundary","CDiscord::SetStatus","controller stateless"
+"SetApplicationSettingsNode","commander small-class","SetApplicationSettingsNode","constructor"
+"SetApplicationSettingsNode","commander small-class","~SetApplicationSettingsNode","destructor"
+"SetApplicationSettingsNode","commander small-class","registerInputs","command"
+"SetApplicationSettingsNode","commander small-class","_evaluate","command"
+"Dynamometer","data-provider boundary degenerate","Dynamometer::Dynamometer","constructor"
+"Dynamometer","data-provider boundary degenerate","Dynamometer::~Dynamometer","destructor"
+"Dynamometer","data-provider boundary degenerate","Dynamometer::connectCrankshaft","collaborator incidental"
+"Dynamometer","data-provider boundary degenerate","Dynamometer::calculate","void-accessor collaborator"
+"Dynamometer","data-provider boundary degenerate","Dynamometer::getTorque","incidental"
+"ButterworthLowPassFilter","entity boundary small-class","ButterworthLowPassFilter","constructor"
+"ButterworthLowPassFilter","entity boundary small-class","~ButterworthLowPassFilter","destructor"
+"ButterworthLowPassFilter","entity boundary small-class","fast_f","property non-void-command collaborator"
+"ButterworthLowPassFilter","entity boundary small-class","setCutoffFrequency","command collaborator"
+"PreemphasisFilter","small-class","PreemphasisFilter","constructor"
+"PreemphasisFilter","small-class","~PreemphasisFilter","destructor"
+"PreemphasisFilter","small-class","f","property non-void-command"
+"PreemphasisFilter","small-class","fast_f","property set collaborator"
+"RightGaugeCluster","unclassified","RightGaugeCluster::RightGaugeCluster","constructor"
+"RightGaugeCluster","unclassified","RightGaugeCluster::~RightGaugeCluster","destructor"
+"RightGaugeCluster","unclassified","RightGaugeCluster::initialize","command collaborator"
+"RightGaugeCluster","unclassified","RightGaugeCluster::destroy","command"
+"RightGaugeCluster","unclassified","RightGaugeCluster::update","command"
+"RightGaugeCluster","unclassified","RightGaugeCluster::render","command collaborator"
+"RightGaugeCluster","unclassified","RightGaugeCluster::setEngine","set collaborator"
+"RightGaugeCluster","unclassified","RightGaugeCluster::renderTachSpeedCluster","command collaborator"
+"RightGaugeCluster","unclassified","RightGaugeCluster::renderFuelAirCluster","command collaborator"
+"RightGaugeCluster","unclassified","RightGaugeCluster::getManifoldPressureWithUnits","property non-void-command"
+"RightGaugeCluster","unclassified","RightGaugeCluster::getRpm","property"
+"RightGaugeCluster","unclassified","RightGaugeCluster::getRedline","property"
+"RightGaugeCluster","unclassified","RightGaugeCluster::getSpeed","property"
+"RightGaugeCluster","unclassified","RightGaugeCluster::getManifoldPressure","property"
+"RightGaugeCluster","unclassified","RightGaugeCluster::setUnits","command"
+"ObjectReferenceNode","commander","ObjectReferenceNode","constructor"
+"ObjectReferenceNode","commander","~ObjectReferenceNode","destructor"
+"ObjectReferenceNode","commander","overrideType","command"
+"ObjectReferenceNode","commander","registerOutputs","wrapper"
+"ObjectReferenceNode","commander","_evaluate","command"
+"ObjectReferenceNode","commander","setOutput","command collaborator"
+"Shaders","entity commander boundary","Shaders::Shaders","constructor"
+"Shaders","entity commander boundary","Shaders::~Shaders","destructor"
+"Shaders","entity commander boundary","Shaders::Initialize","property non-void-command collaborator"
+"Shaders","entity commander boundary","Shaders::UseMaterial","wrapper stateless"
+"Shaders","entity commander boundary","Shaders::SetObjectTransform","set collaborator"
+"Shaders","entity commander boundary","Shaders::ConfigureModel","empty"
+"Shaders","entity commander boundary","Shaders::SetBaseColor","set collaborator"
+"Shaders","entity commander boundary","Shaders::ResetBaseColor","set"
+"Shaders","entity commander boundary","Shaders::GetRegularFlags","property collaborator"
+"Shaders","entity commander boundary","Shaders::GetUiFlags","property collaborator"
+"Shaders","entity commander boundary","Shaders::CalculateCamera","command collaborator"
+"Shaders","entity commander boundary","Shaders::CalculateUiCamera","command collaborator"
+"Shaders","entity commander boundary","Shaders::SetClearColor","command collaborator"
+"UiManager","commander","getRoot","property collaborator"
+"UiManager","commander","UiManager::UiManager","constructor"
+"UiManager","commander","UiManager::~UiManager","destructor"
+"UiManager","commander","UiManager::initialize","set collaborator"
+"UiManager","commander","UiManager::destroy","command"
+"UiManager","commander","UiManager::update","command"
+"UiManager","commander","UiManager::render","command"
+"StarterMotor","data-provider boundary small-class","StarterMotor::StarterMotor","constructor"
+"StarterMotor","data-provider boundary small-class","StarterMotor::~StarterMotor","destructor"
+"StarterMotor","data-provider boundary small-class","StarterMotor::connectCrankshaft","collaborator incidental"
+"StarterMotor","data-provider boundary small-class","StarterMotor::calculate","void-accessor collaborator"
+"Simulator","unclassified","getFrameIterationCount","get"
+"Simulator","unclassified","synthesizer","get collaborator"
+"Simulator","unclassified","getEngine","get collaborator"
+"Simulator","unclassified","getTransmission","get collaborator"
+"Simulator","unclassified","getVehicle","get collaborator"
+"Simulator","unclassified","getSystem","get collaborator"
+"Simulator","unclassified","setSimulationFrequency","set"
+"Simulator","unclassified","getSimulationFrequency","get"
+"Simulator","unclassified","getTimestep","property"
+"Simulator","unclassified","setTargetSynthesizerLatency","set"
+"Simulator","unclassified","getTargetSynthesizerLatency","get"
+"Simulator","unclassified","getSynthesizerInputLatency","property"
+"Simulator","unclassified","setSimulationSpeed","set"
+"Simulator","unclassified","getSimulationSpeed","get"
+"Simulator","unclassified","getCurrentIteration","get"
+"Simulator","unclassified","getAverageProcessingTime","get"
+"Simulator","unclassified","simulationSteps","get"
+"Simulator","unclassified","filteredEngineSpeed","get"
+"Simulator","unclassified","Simulator::Simulator","constructor"
+"Simulator","unclassified","Simulator::~Simulator","destructor"
+"Simulator","unclassified","Simulator::initialize","command collaborator"
+"Simulator","unclassified","Simulator::loadSimulation","command collaborator"
+"Simulator","unclassified","Simulator::releaseSimulation","command"
+"Simulator","unclassified","Simulator::startFrame","command"
+"Simulator","unclassified","Simulator::simulateStep","predicate non-void-command"
+"Simulator","unclassified","Simulator::getTotalExhaustFlow","incidental"
+"Simulator","unclassified","Simulator::readAudioOutput","property non-void-command"
+"Simulator","unclassified","Simulator::endFrame","command"
+"Simulator","unclassified","Simulator::destroy","command"
+"Simulator","unclassified","Simulator::startAudioRenderingThread","command"
+"Simulator","unclassified","Simulator::endAudioRenderingThread","command"
+"Simulator","unclassified","Simulator::getSynthesizerInputLatencyTarget","get"
+"Simulator","unclassified","Simulator::getFilteredDynoTorque","property"
+"Simulator","unclassified","Simulator::getDynoPower","property"
+"Simulator","unclassified","Simulator::getAverageOutputSignal","incidental"
+"Simulator","unclassified","Simulator::initializeSynthesizer","command collaborator"
+"Simulator","unclassified","Simulator::simulateStep_","empty"
+"Simulator","unclassified","Simulator::updateFilteredEngineSpeed","set"
+"Transmission","commander","getGear","get"
+"Transmission","commander","setClutchPressure","set"
+"Transmission","commander","getClutchPressure","get"
+"Transmission","commander","Transmission::Transmission","constructor"
+"Transmission","commander","Transmission::~Transmission","destructor"
+"Transmission","commander","Transmission::initialize","command collaborator"
+"Transmission","commander","Transmission::update","command"
+"Transmission","commander","Transmission::addToSystem","command collaborator"
+"Transmission","commander","Transmission::changeGear","command"
+"UiButton","commander small-class","UiButton::UiButton","constructor"
+"UiButton","commander small-class","UiButton::~UiButton","destructor"
+"UiButton","commander small-class","UiButton::update","set"
+"UiButton","commander small-class","UiButton::render","command collaborator"
+"ConnectingRodNode","unclassified","ConnectingRodNode","constructor"
+"ConnectingRodNode","unclassified","~ConnectingRodNode","destructor"
+"ConnectingRodNode","unclassified","addRodJournal","void-accessor command collaborator"
+"ConnectingRodNode","unclassified","isMaster","predicate"
+"ConnectingRodNode","unclassified","indexSlaveJournals","controller"
+"ConnectingRodNode","unclassified","generate","unclassified"
+"ConnectingRodNode","unclassified","registerInputs","command"
+"ConnectingRodNode","unclassified","_evaluate","command"
+"Part","degenerate small-class","Part::Part","constructor"
+"Part","degenerate small-class","Part::~Part","destructor"
+"Part","degenerate small-class","Part::destroy","empty"
+"UiElement","boundary","isMouseOver","get"
+"UiElement","boundary","isMouseHeld","get"
+"UiElement","boundary","addElement","non-void-command factory collaborator"
+"UiElement","boundary","getLocalPosition","get collaborator"
+"UiElement","boundary","setLocalPosition","set collaborator"
+"UiElement","boundary","worldToLocal","property collaborator"
+"UiElement","boundary","localToWorld","property collaborator"
+"UiElement","boundary","setVisible","set"
+"UiElement","boundary","isVisible","get"
+"UiElement","boundary","getChildCount","property"
+"UiElement","boundary","UiElement::UiElement","constructor"
+"UiElement","boundary","UiElement::~UiElement","destructor"
+"UiElement","boundary","UiElement::initialize","set collaborator"
+"UiElement","boundary","UiElement::destroy","command"
+"UiElement","boundary","UiElement::update","controller"
+"UiElement","boundary","UiElement::render","controller"
+"UiElement","boundary","UiElement::signal","empty"
+"UiElement","boundary","UiElement::onMouseDown","set collaborator"
+"UiElement","boundary","UiElement::onMouseUp","set collaborator"
+"UiElement","boundary","UiElement::onMouseClick","command collaborator"
+"UiElement","boundary","UiElement::onDrag","set collaborator"
+"UiElement","boundary","UiElement::onMouseOver","set collaborator"
+"UiElement","boundary","UiElement::onMouseLeave","set"
+"UiElement","boundary","UiElement::onMouseScroll","empty"
+"UiElement","boundary","UiElement::mouseOver","property non-void-command collaborator"
+"UiElement","boundary","UiElement::getWorldPosition","property collaborator"
+"UiElement","boundary","UiElement::setLocalPosition","set collaborator"
+"UiElement","boundary","UiElement::bringToFront","command"
+"UiElement","boundary","UiElement::activate","command"
+"UiElement","boundary","UiElement::signal","command collaborator"
+"UiElement","boundary","UiElement::pixelsToUnits","incidental"
+"UiElement","boundary","UiElement::pixelsToUnits","property collaborator"
+"UiElement","boundary","UiElement::unitsToPixels","incidental"
+"UiElement","boundary","UiElement::unitsToPixels","property collaborator"
+"UiElement","boundary","UiElement::getRenderPoint","property collaborator"
+"UiElement","boundary","UiElement::getRenderBounds","property collaborator"
+"UiElement","boundary","UiElement::unitsToPixels","property collaborator"
+"UiElement","boundary","UiElement::resetShader","command"
+"UiElement","boundary","UiElement::drawModel","command collaborator"
+"UiElement","boundary","UiElement::drawFrame","command collaborator"
+"UiElement","boundary","UiElement::drawBox","command collaborator"
+"UiElement","boundary","UiElement::drawText","command collaborator"
+"UiElement","boundary","UiElement::drawAlignedText","command collaborator"
+"UiElement","boundary","UiElement::drawCenteredText","command collaborator"
+"Bounds","data-provider","Bounds","constructor"
+"Bounds","data-provider","Bounds","constructor"
+"Bounds","data-provider","Bounds","constructor"
+"Bounds","data-provider","Bounds","constructor"
+"Bounds","data-provider","overlaps","predicate collaborator"
+"Bounds","data-provider","add","controller stateless"
+"Bounds","data-provider","move","get non-void-command collaborator"
+"Bounds","data-provider","setPosition","command collaborator"
+"Bounds","data-provider","getPosition","property collaborator"
+"Bounds","data-provider","left","incidental"
+"Bounds","data-provider","right","incidental"
+"Bounds","data-provider","top","incidental"
+"Bounds","data-provider","bottom","incidental"
+"Bounds","data-provider","center_h","incidental"
+"Bounds","data-provider","center_v","incidental"
+"Bounds","data-provider","width","incidental"
+"Bounds","data-provider","height","incidental"
+"Bounds","data-provider","dim","property collaborator"
+"Bounds","data-provider","inset","property"
+"Bounds","data-provider","grow","property"
+"Bounds","data-provider","verticalSplit","property"
+"Bounds","data-provider","horizontalSplit","property"
+"VtecValvetrainNode","small-class","VtecValvetrainNode","constructor"
+"VtecValvetrainNode","small-class","~VtecValvetrainNode","destructor"
+"VtecValvetrainNode","small-class","generate","non-void-command factory collaborator"
+"VtecValvetrainNode","small-class","registerInputs","command"
+"ConnectingRodObject","commander","ConnectingRodObject::ConnectingRodObject","constructor"
+"ConnectingRodObject","commander","ConnectingRodObject::~ConnectingRodObject","destructor"
+"ConnectingRodObject","commander","ConnectingRodObject::generateGeometry","command"
+"ConnectingRodObject","commander","ConnectingRodObject::render","command collaborator"
+"ConnectingRodObject","commander","ConnectingRodObject::process","empty"
+"ConnectingRodObject","commander","ConnectingRodObject::destroy","empty"
+"CombustionChamberObject","commander","CombustionChamberObject::CombustionChamberObject","constructor"
+"CombustionChamberObject","commander","CombustionChamberObject::~CombustionChamberObject","destructor"
+"CombustionChamberObject","commander","CombustionChamberObject::generateGeometry","command collaborator"
+"CombustionChamberObject","commander","CombustionChamberObject::render","command collaborator"
+"CombustionChamberObject","commander","CombustionChamberObject::process","empty"
+"CombustionChamberObject","commander","CombustionChamberObject::destroy","empty"
+"Vehicle","data-provider","getMass","get"
+"Vehicle","data-provider","getRollingResistance","get"
+"Vehicle","data-provider","getDragCoefficient","get"
+"Vehicle","data-provider","getCrossSectionArea","get"
+"Vehicle","data-provider","getDiffRatio","get"
+"Vehicle","data-provider","getTireRadius","get"
+"Vehicle","data-provider","getTravelledDistance","get"
+"Vehicle","data-provider","resetTravelledDistance","set"
+"Vehicle","data-provider","Vehicle::Vehicle","constructor"
+"Vehicle","data-provider","Vehicle::~Vehicle","destructor"
+"Vehicle","data-provider","Vehicle::initialize","command collaborator"
+"Vehicle","data-provider","Vehicle::update","set"
+"Vehicle","data-provider","Vehicle::addToSystem","set collaborator"
+"Vehicle","data-provider","Vehicle::getSpeed","property wrapper"
+"Vehicle","data-provider","Vehicle::linearForceToVirtualTorque","property wrapper"
+"VehicleDragConstraint","entity boundary small-class","VehicleDragConstraint::VehicleDragConstraint","constructor"
+"VehicleDragConstraint","entity boundary small-class","VehicleDragConstraint::~VehicleDragConstraint","destructor"
+"VehicleDragConstraint","entity boundary small-class","VehicleDragConstraint::initialize","set collaborator"
+"VehicleDragConstraint","entity boundary small-class","VehicleDragConstraint::calculate","void-accessor command collaborator"
+"VtecValvetrain","unclassified","VtecValvetrain::VtecValvetrain","constructor"
+"VtecValvetrain","unclassified","VtecValvetrain::~VtecValvetrain","destructor"
+"VtecValvetrain","unclassified","VtecValvetrain::initialize","command collaborator"
+"VtecValvetrain","unclassified","VtecValvetrain::intakeValveLift","property non-void-command"
+"VtecValvetrain","unclassified","VtecValvetrain::exhaustValveLift","property non-void-command"
+"VtecValvetrain","unclassified","VtecValvetrain::getActiveIntakeCamshaft","property non-void-command collaborator"
+"VtecValvetrain","unclassified","VtecValvetrain::getActiveExhaustCamshaft","property non-void-command collaborator"
+"VtecValvetrain","unclassified","VtecValvetrain::isVtecEnabled","predicate"
+"AddLobeNode","commander small-class","AddLobeNode","constructor"
+"AddLobeNode","commander small-class","~AddLobeNode","destructor"
+"AddLobeNode","commander small-class","registerInputs","command"
+"AddLobeNode","commander small-class","_evaluate","command"
+"MixerCluster","commander","setSimulator","set collaborator"
+"MixerCluster","commander","MixerCluster::MixerCluster","constructor"
+"MixerCluster","commander","MixerCluster::~MixerCluster","destructor"
+"MixerCluster","commander","MixerCluster::initialize","command collaborator"
+"MixerCluster","commander","MixerCluster::destroy","command"
+"MixerCluster","commander","MixerCluster::update","command"
+"MixerCluster","commander","MixerCluster::render","command"
+"CylinderHeadNode","commander boundary","CylinderHeadNode","constructor"
+"CylinderHeadNode","commander boundary","~CylinderHeadNode","destructor"
+"CylinderHeadNode","commander boundary","generate","collaborator"
+"CylinderHeadNode","commander boundary","setBank","set collaborator"
+"CylinderHeadNode","commander boundary","getBank","get collaborator"
+"CylinderHeadNode","commander boundary","registerInputs","command"
+"CylinderHeadNode","commander boundary","_evaluate","command"
+"AddSlaveJournalNode","commander small-class","AddSlaveJournalNode","constructor"
+"AddSlaveJournalNode","commander small-class","~AddSlaveJournalNode","destructor"
+"AddSlaveJournalNode","commander small-class","registerInputs","command"
+"AddSlaveJournalNode","commander small-class","_evaluate","command"
+"AddCrankshaftNode","commander small-class","AddCrankshaftNode","constructor"
+"AddCrankshaftNode","commander small-class","~AddCrankshaftNode","destructor"
+"AddCrankshaftNode","commander small-class","registerInputs","command"
+"AddCrankshaftNode","commander small-class","_evaluate","command"
+"Filter","degenerate small-class","Filter::Filter","constructor"
+"Filter","degenerate small-class","Filter::~Filter","destructor"
+"Filter","degenerate small-class","Filter::f","incidental"
+"Filter","degenerate small-class","Filter::destroy","empty"
+"SetTransmissionNode","commander small-class","SetTransmissionNode","constructor"
+"SetTransmissionNode","commander small-class","~SetTransmissionNode","destructor"
+"SetTransmissionNode","commander small-class","registerInputs","command"
+"SetTransmissionNode","commander small-class","_evaluate","command collaborator"
+"SetVehicleNode","small-class","SetVehicleNode","constructor"
+"SetVehicleNode","small-class","~SetVehicleNode","destructor"
+"SetVehicleNode","small-class","registerInputs","command"
+"SetVehicleNode","small-class","_evaluate","controller"
+"AddRodJournalNode","commander small-class","AddRodJournalNode","constructor"
+"AddRodJournalNode","commander small-class","~AddRodJournalNode","destructor"
+"AddRodJournalNode","commander small-class","registerInputs","command"
+"AddRodJournalNode","commander small-class","_evaluate","command"
+"Compiler","minimal-entity boundary","es_script::Compiler::Compiler","constructor"
+"Compiler","minimal-entity boundary","es_script::Compiler::~Compiler","destructor"
+"Compiler","minimal-entity boundary","es_script::Compiler::output","get set factory collaborator"
+"Compiler","minimal-entity boundary","es_script::Compiler::initialize","command"
+"Compiler","minimal-entity boundary","es_script::Compiler::compile","predicate non-void-command collaborator"
+"Compiler","minimal-entity boundary","es_script::Compiler::execute","property non-void-command collaborator"
+"Compiler","minimal-entity boundary","es_script::Compiler::destroy","command"
+"Compiler","minimal-entity boundary","es_script::Compiler::printError","controller stateless"
+"CrankshaftNode","commander","CrankshaftNode","constructor"
+"CrankshaftNode","commander","~CrankshaftNode","destructor"
+"CrankshaftNode","commander","addRodJournal","void-accessor command collaborator"
+"CrankshaftNode","commander","generate","command collaborator"
+"CrankshaftNode","commander","registerInputs","command"
+"CrankshaftNode","commander","_evaluate","command"
+"CylinderBankNode","boundary","~CylinderBankNode","destructor"
+"CylinderBankNode","boundary","connectRodAssemblies","collaborator"
+"CylinderBankNode","boundary","indexSlaveJournals","collaborator"
+"CylinderBankNode","boundary","generate","collaborator"
+"CylinderBankNode","boundary","addCylinder","command"
+"CylinderBankNode","boundary","getCylinder","get collaborator"
+"CylinderBankNode","boundary","getCylinderCount","property"
+"CylinderBankNode","boundary","setCylinderHead","set collaborator"
+"CylinderBankNode","boundary","getCylinderHead","get collaborator"
+"CylinderBankNode","boundary","registerInputs","command"
+"CylinderBankNode","boundary","_evaluate","command"
+"EngineContext","entity boundary","setEngine","set collaborator"
+"EngineContext","entity boundary","getEngine","get collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::EngineContext","constructor"
+"EngineContext","entity boundary","es_script::EngineContext::~EngineContext","destructor"
+"EngineContext","entity boundary","es_script::EngineContext::addHead","set collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::getHead","property non-void-command collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::addBank","set collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::getBank","property collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::addRodJournal","set"
+"EngineContext","entity boundary","es_script::EngineContext::getRodJournalIndex","property collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::addIntake","set collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::getIntake","property collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::addExhaust","set collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::getExhaust","property collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::addFunction","set collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::getFunction","property collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::addImpulseResponse","set collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::getImpulseResponse","property collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::addCrankshaft","set collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::getCrankshaft","property collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::addConnectingRod","set collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::getConnectingRod","property collaborator"
+"EngineContext","entity boundary","es_script::EngineContext::setCylinderIndex","set"
+"EngineContext","entity boundary","es_script::EngineContext::getCylinderIndex","property"
+"ImpulseResponseNode","unclassified","ImpulseResponseNode","constructor"
+"ImpulseResponseNode","unclassified","~ImpulseResponseNode","destructor"
+"ImpulseResponseNode","unclassified","generate","property factory controller"
+"ImpulseResponseNode","unclassified","registerInputs","command"
+"ImpulseResponseNode","unclassified","_evaluate","command"
+"Intake","data-provider","getRunnerFlowRate","get"
+"Intake","data-provider","getThrottlePlatePosition","property"
+"Intake","data-provider","getRunnerLength","get"
+"Intake","data-provider","getPlenumCrossSectionArea","get"
+"Intake","data-provider","getVelocityDecay","get"
+"Intake","data-provider","Intake::Intake","constructor"
+"Intake","data-provider","Intake::~Intake","destructor"
+"Intake","data-provider","Intake::initialize","command collaborator"
+"Intake","data-provider","Intake::destroy","empty"
+"Intake","data-provider","Intake::process","command"
+"EngineNode","commander boundary","EngineNode","constructor"
+"EngineNode","commander boundary","~EngineNode","destructor"
+"EngineNode","commander boundary","buildEngine","command collaborator"
+"EngineNode","commander boundary","addCrankshaft","command collaborator"
+"EngineNode","commander boundary","addCylinderBank","command collaborator"
+"EngineNode","commander boundary","getIgnitionModuleCount","property"
+"EngineNode","commander boundary","addIgnitionModule","set collaborator"
+"EngineNode","commander boundary","registerInputs","command"
+"EngineNode","commander boundary","_evaluate","command"
+"StandardValvetrain","boundary","StandardValvetrain::StandardValvetrain","constructor"
+"StandardValvetrain","boundary","StandardValvetrain::~StandardValvetrain","destructor"
+"StandardValvetrain","boundary","StandardValvetrain::initialize","command collaborator"
+"StandardValvetrain","boundary","StandardValvetrain::intakeValveLift","property non-void-command"
+"StandardValvetrain","boundary","StandardValvetrain::exhaustValveLift","property non-void-command"
+"StandardValvetrain","boundary","StandardValvetrain::getActiveIntakeCamshaft","get collaborator"
+"StandardValvetrain","boundary","StandardValvetrain::getActiveExhaustCamshaft","get collaborator"
+"ThrottleDisplay","commander boundary","ThrottleDisplay::ThrottleDisplay","constructor"
+"ThrottleDisplay","commander boundary","ThrottleDisplay::~ThrottleDisplay","destructor"
+"ThrottleDisplay","commander boundary","ThrottleDisplay::initialize","command collaborator"
+"ThrottleDisplay","commander boundary","ThrottleDisplay::destroy","command"
+"ThrottleDisplay","commander boundary","ThrottleDisplay::update","command"
+"ThrottleDisplay","commander boundary","ThrottleDisplay::render","command collaborator"
+"ThrottleDisplay","commander boundary","ThrottleDisplay::renderThrottle","command collaborator"
+"ThrottleDisplay","commander boundary","ThrottleDisplay::renderSpeedControl","command collaborator"
+"ExhaustSystemNode","commander","ExhaustSystemNode","constructor"
+"ExhaustSystemNode","commander","~ExhaustSystemNode","destructor"
+"ExhaustSystemNode","commander","generate","property non-void-command collaborator"
+"ExhaustSystemNode","commander","registerInputs","command"
+"ExhaustSystemNode","commander","_evaluate","command"
+"JitterFilter","unclassified","fast_f","property non-void-command collaborator"
+"JitterFilter","unclassified","setJitterScale","set"
+"JitterFilter","unclassified","getJitterScale","get"
+"JitterFilter","unclassified","JitterFilter::JitterFilter","constructor"
+"JitterFilter","unclassified","JitterFilter::~JitterFilter","destructor"
+"JitterFilter","unclassified","JitterFilter::initialize","command"
+"JitterFilter","unclassified","JitterFilter::f","wrapper stateless"
+"FuelNode","commander","FuelNode","constructor"
+"FuelNode","commander","~FuelNode","destructor"
+"FuelNode","commander","generate","collaborator"
+"FuelNode","commander","registerInputs","command"
+"FuelNode","commander","_evaluate","command"
+"IgnitionModuleNode","commander","~IgnitionModuleNode","destructor"
+"IgnitionModuleNode","commander","generate","collaborator"
+"IgnitionModuleNode","commander","connect","command"
+"IgnitionModuleNode","commander","registerInputs","command"
+"IgnitionModuleNode","commander","_evaluate","command"
+"ValvetrainNode","commander small-class","ValvetrainNode","constructor"
+"ValvetrainNode","commander small-class","~ValvetrainNode","destructor"
+"ValvetrainNode","commander small-class","registerInputs","command"
+"ValvetrainNode","commander small-class","_evaluate","command"
+"IgnitionWireNode","commander","IgnitionWireNode","constructor"
+"IgnitionWireNode","commander","~IgnitionWireNode","destructor"
+"IgnitionWireNode","commander","connect","command"
+"IgnitionWireNode","commander","getConnections","get collaborator"
+"IgnitionWireNode","commander","registerInputs","command"
+"IgnitionWireNode","commander","_evaluate","command"
+"Synthesizer","unclassified","getInputSampleRate","get"
+"Synthesizer","unclassified","Synthesizer::Synthesizer","constructor"
+"Synthesizer","unclassified","Synthesizer::~Synthesizer","destructor"
+"Synthesizer","unclassified","Synthesizer::initialize","command collaborator"
+"Synthesizer","unclassified","Synthesizer::initializeImpulseResponse","controller"
+"Synthesizer","unclassified","Synthesizer::startAudioRenderingThread","command"
+"Synthesizer","unclassified","Synthesizer::endAudioRenderingThread","command"
+"Synthesizer","unclassified","Synthesizer::destroy","command"
+"Synthesizer","unclassified","Synthesizer::readAudioOutput","property non-void-command"
+"Synthesizer","unclassified","Synthesizer::waitProcessed","get controller"
+"Synthesizer","unclassified","Synthesizer::writeInput","command"
+"Synthesizer","unclassified","Synthesizer::endInputBlock","command"
+"Synthesizer","unclassified","Synthesizer::audioRenderingThread","command"
+"Synthesizer","unclassified","Synthesizer::renderAudio","controller"
+"Synthesizer","unclassified","Synthesizer::inputDelta","property"
+"Synthesizer","unclassified","Synthesizer::inputDistance","property"
+"Synthesizer","unclassified","Synthesizer::setInputSampleRate","set collaborator"
+"Synthesizer","unclassified","Synthesizer::renderAudio","property non-void-command"
+"Synthesizer","unclassified","Synthesizer::getLevelerGain","property non-void-command collaborator"
+"Synthesizer","unclassified","Synthesizer::getAudioParameters","get collaborator"
+"Synthesizer","unclassified","Synthesizer::setAudioParameters","set collaborator"
+"DirectThrottleLinkageNode","small-class","DirectThrottleLinkageNode","constructor"
+"DirectThrottleLinkageNode","small-class","~DirectThrottleLinkageNode","destructor"
+"DirectThrottleLinkageNode","small-class","generate","property controller"
+"DirectThrottleLinkageNode","small-class","registerInputs","command"
+"IntakeNode","unclassified","IntakeNode","constructor"
+"IntakeNode","unclassified","~IntakeNode","destructor"
+"IntakeNode","unclassified","generate","property controller"
+"IntakeNode","unclassified","registerInputs","command"
+"IntakeNode","unclassified","_evaluate","command"
+"LanguageRules","boundary degenerate small-class","es_script::LanguageRules::LanguageRules","constructor"
+"LanguageRules","boundary degenerate small-class","es_script::LanguageRules::~LanguageRules","destructor"
+"LanguageRules","boundary degenerate small-class","es_script::LanguageRules::registerBuiltinNodeTypes","wrapper stateless"
+"ThrottleNode","commander small-class","ThrottleNode","constructor"
+"ThrottleNode","commander small-class","~ThrottleNode","destructor"
+"ThrottleNode","commander small-class","_evaluate","command"
+"AddIgnitionModuleNode","commander small-class","AddIgnitionModuleNode","constructor"
+"AddIgnitionModuleNode","commander small-class","~AddIgnitionModuleNode","destructor"
+"AddIgnitionModuleNode","commander small-class","registerInputs","command"
+"AddIgnitionModuleNode","commander small-class","_evaluate","command"
+"GovernorNode","small-class","GovernorNode","constructor"
+"GovernorNode","small-class","~GovernorNode","destructor"
+"GovernorNode","small-class","generate","property controller"
+"GovernorNode","small-class","registerInputs","command"

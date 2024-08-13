@@ -1,476 +1,476 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"SmtpMailerTests","pure-controller degenerate","SmtpMailerRenderSucessful","controller stateless",
-"SmtpMailerTests","pure-controller degenerate","SmtpMailerRenderWithReplyToSucessful","controller stateless",
-"SmtpMailerTests","pure-controller degenerate","SmtpMailerUseAuthentication","controller stateless",
-"TestUserWithFields","empty","TestUserWithFields","constructor",
-"MailableWithModelFields","commander small-class","MailableWithModelFields","constructor",
-"MailableWithModelFields","commander small-class","Build","command",
-"GenericHtmlMailable","degenerate small-class","Build","empty",
-"CustomMailerTests","degenerate","CustomMailerSucessful","controller stateless",
-"CustomMailerTests","degenerate","CustomMailer_GlobalFrom","controller stateless",
-"CustomMailerTests","degenerate","CustomMailer_Render","controller stateless",
-"CustomMailerTests","degenerate","CustomMailerHasAttachments","collaborator stateless",
-"StaticUtcTimeStub","empty","StaticUtcTimeStub","constructor",
-"DispatcherStub","boundary degenerate small-class","Broadcast<TEvent>","collaborator incidental",
-"SchedulerZonedScheduleTests","pure-controller degenerate small-class","SchedulerRunsZonedIntervals","controller stateless",
-"UnscheduleTests","pure-controller degenerate small-class","TestCanUnschedule","controller stateless",
-"ScheduleWorkerTests","pure-controller degenerate","ScheduleWorkerSuccessfulWithOneThreadPerWorker","controller stateless",
-"ScheduleWorkerTests","pure-controller degenerate","ScheduleWorkerSuccessfulOnMultipleThreadsWithMutiRuns","controller stateless",
-"ScheduleWorkerTests","pure-controller degenerate","ScheduleWorkerSuccessfulWithDifferentSchedules","controller stateless",
-"SchedulerWeekends","pure-controller degenerate small-class","DailyOnWeekendsOnly","controller stateless",
-"SchedulerWeekdays","pure-controller degenerate small-class","DailyOnWeekdaysOnly","controller stateless",
-"SchedulerWednesdays","pure-controller degenerate small-class","DailyOnWednesdayOnly","controller stateless",
-"SchedulerTuesdays","pure-controller degenerate small-class","DailyOnTuesdaysOnly","controller stateless",
-"SchedulerThursdays","pure-controller degenerate small-class","DailyOnThursdaysOnly","controller stateless",
-"SchedulerSundays","pure-controller degenerate small-class","DailyOnSundaysOnly","controller stateless",
-"SchedulerSaturdays","pure-controller degenerate small-class","DailyOnSaturdaysOnly","controller stateless",
-"SchedulerFridays","pure-controller degenerate small-class","DailyOnFridaysOnly","controller stateless",
-"OverlappingTests","pure-controller degenerate small-class","LongRunningEventPreventOverlap","controller stateless",
-"OverlappingTests","pure-controller degenerate small-class","OverlapNotPrevented","controller stateless",
-"InMemoryMutexTests","pure-controller degenerate small-class","InMemoryMutexLocksAndReleases","controller stateless",
-"InMemoryMutexTests","pure-controller degenerate small-class","InMemoryMutexCanGetLockAfterTimeoutExpired","controller stateless",
-"CancellableInvocableTests","pure-controller degenerate small-class","TestInvocableCanBeCancelled","controller stateless",
-"SchedulerWeeklyTests","pure-controller degenerate small-class","ValidDaily","controller stateless",
-"SchedulerHourlyTests","pure-controller degenerate small-class","ValidHourly","controller stateless",
-"SchedulerEveryTenMinuteTests","pure-controller degenerate small-class","ValidEveryTenMinutes","controller stateless",
-"SchedulerEveryFiveMinuteTests","pure-controller degenerate small-class","ValidEveryFiveMinutes","controller stateless",
-"SchedulerDailyTests","pure-controller degenerate small-class","ValidDaily","controller stateless",
-"SchedulerDailyAtTests","pure-controller degenerate small-class","DailyTests","controller stateless",
-"SchedulerCronTests","pure-controller degenerate small-class","ScheduledEventCron","controller stateless",
-"EnsureContinuousSecondTicksTests","pure-controller degenerate","ShouldNotHaveMissingTicks","controller stateless",
-"EnsureContinuousSecondTicksTests","pure-controller degenerate","ShouldHaveMissingTicks","controller",
-"EnsureContinuousSecondTicksTests","pure-controller degenerate","MissingTicksAreExpectedTimes","controller stateless",
-"CronExpressionTests","pure-controller degenerate small-class","InvokeCron","controller stateless",
-"SchedulerHourlyAtTests","pure-controller degenerate small-class","HourlyAtTests","controller stateless",
-"TestInvocableWithStringParam","entity boundary small-class","Invoke","property non-void-command collaborator",
-"QueueBroadcastTests","pure-controller degenerate small-class","TestQueueBroadcastsEvents","controller stateless",
-"QueueBroadcastTests","pure-controller degenerate small-class","TestQueuedTaskStartedAndCompletedEvents","controller stateless",
-"AsyncDisposableInvocable","commander boundary","AsyncDisposableInvocable","constructor",
-"AsyncDisposableInvocable","commander boundary","Invoke","collaborator incidental",
-"AsyncDisposableInvocable","commander boundary","DisposeAsync","non-void-command collaborator",
-"AsyncDisposableInvocable","commander boundary","AsyncDisposableInvocable","constructor",
-"AsyncDisposableInvocable","commander boundary","Invoke","collaborator incidental",
-"AsyncDisposableInvocable","commander boundary","DisposeAsync","non-void-command collaborator",
-"DisposableInvocable","commander","DisposableInvocable","constructor",
-"DisposableInvocable","commander","Invoke","collaborator incidental",
-"DisposableInvocable","commander","Dispose","command",
-"DisposableInvocable","commander","DisposableInvocable","constructor",
-"DisposableInvocable","commander","Invoke","collaborator incidental",
-"DisposableInvocable","commander","Dispose","command",
-"InvocableDisposableTests","pure-controller degenerate","TestInvocableWasDisposed","controller stateless",
-"InvocableDisposableTests","pure-controller degenerate","TestInvocableWasDisposedAsync","controller stateless",
-"InvocableDisposableTests","pure-controller degenerate","TestInvocableWasDisposed","controller stateless",
-"InvocableDisposableTests","pure-controller degenerate","TestInvocableWasDisposedAsync","controller stateless",
-"CancellableInvocableForQueueTests","pure-controller degenerate small-class","CanCancelInvocable","controller stateless",
-"CancellableInvocableForQueueTests","pure-controller degenerate small-class","CanCancelInvocablesForShutdown","controller stateless",
-"AsyncQueueTests","pure-controller degenerate small-class","TestAsyncQueueRunsProperly","controller stateless",
-"AsyncQueueTests","pure-controller degenerate small-class","TryEnqueueWhileRunnningLongRunningAsync","controller stateless",
-"ListenerDisposableTests","pure-controller degenerate small-class","TestListenerWasDisposedAndDisposedAsync","controller stateless",
-"TestListenerThatFiresEvent1And2","pure-controller degenerate small-class","HandleAsync","controller stateless",
-"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventPerSecond","wrapper stateless",
-"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryFiveSeconds","wrapper stateless",
-"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryTenSeconds","wrapper stateless",
-"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryFifteenSeconds","wrapper stateless",
-"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryThirtySeconds","wrapper stateless",
-"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryNSeconds","wrapper stateless",
-"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryNSecondsFails","wrapper stateless",
-"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventTestingSubMinuteMixed","controller stateless",
-"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventPerSecond_EveryWeekDay","wrapper stateless",
-"TestListenerForEvent2","entity boundary small-class","TestListenerForEvent2","constructor",
-"TestListenerForEvent2","entity boundary small-class","HandleAsync","property non-void-command collaborator",
-"TestListener1ForEvent1","entity boundary small-class","TestListener1ForEvent1","constructor",
-"TestListener1ForEvent1","entity boundary small-class","HandleAsync","property non-void-command collaborator",
-"SchedulerOnErrorTests","pure-controller degenerate small-class","TestSchedulerHandlesErrors","controller stateless",
-"SchedulerOnErrorTests","pure-controller degenerate small-class","TestSchedulerSkipsErrors","controller stateless",
-"TestEventWithDispatcher","empty","TestEventWithDispatcher","constructor",
-"ScheduledEventStartedListener","boundary data-class small-class","HandleAsync","property set collaborator",
-"QueueConsumationStartedListener","boundary data-class small-class","HandleAsync","property set collaborator",
-"FileLogMailer","unclassified","FileLogMailer","constructor",
-"FileLogMailer","unclassified","RenderAsync<T>","property controller",
-"FileLogMailer","unclassified","SendAsync","wrapper",
-"FileLogMailer","unclassified","SendAsync<T>","controller",
-"SendFormToExternalApi","data-provider boundary lazy-class small-class","WithForm","get collaborator",
-"SendFormToExternalApi","data-provider boundary lazy-class small-class","Invoke","collaborator stateless",
-"Dispatcher","entity small-class","Dispatcher","constructor",
-"Dispatcher","entity small-class","Register<TEvent>","property non-void-command factory collaborator",
-"Dispatcher","entity small-class","Broadcast<TEvent>","non-void-command collaborator",
-"MailRecipient","empty","MailRecipient","constructor",
-"MailRecipient","empty","MailRecipient","constructor",
-"QueueTaskStarted","empty","QueueTaskStarted","constructor",
-"SmtpMailer","unclassified","SmtpMailer","constructor",
-"SmtpMailer","unclassified","SendAsync<T>","controller",
-"SmtpMailer","unclassified","SendAsync","non-void-command collaborator",
-"SmtpMailer","unclassified","SetFrom","controller",
-"SmtpMailer","unclassified","UseSMTPAuthentication","predicate wrapper",
-"NoMailRendererFound","empty","NoMailRendererFound","constructor",
-"GenerateEventCommand","entity boundary","Execute","command",
-"GenerateEventCommand","entity boundary","GenerateListenerFile","predicate wrapper",
-"GenerateEventCommand","entity boundary","GenerateEventFile","predicate wrapper",
-"CreateViewStartCommand","boundary small-class","Execute","wrapper",
-"CacheEntryDBModel","data-provider small-class","IsExpired","predicate",
-"CreateViewImportsCommand","boundary small-class","Execute","wrapper",
-"GeneratedWithModelFieldsMailTests","boundary degenerate small-class","CheckSubject_Email_Name_GeneratedFromFields","wrapper stateless",
-"QueueTests","pure-controller degenerate","TestQueueRunsProperly","controller stateless",
-"QueueTests","pure-controller degenerate","TestQueueSlientErrors","controller stateless",
-"QueueTests","pure-controller degenerate","TestQueueInvocable","controller stateless",
-"QueueTests","pure-controller degenerate","DoesNotThrowOnNullDispatcher","controller stateless",
-"QueueTests","pure-controller degenerate","QueueDispatchesInternalEvents","controller stateless",
-"AsyncDisposableListener","boundary small-class","AsyncDisposableListener","constructor",
-"AsyncDisposableListener","boundary small-class","DisposeAsync","wrapper",
-"AsyncDisposableListener","boundary small-class","HandleAsync","collaborator incidental",
-"CreateMailableCommand","boundary small-class","Execute","wrapper",
-"EventTests","pure-controller degenerate","TestRegisterOneListener","controller stateless",
-"EventTests","pure-controller degenerate","TestRegisterTwoListenerWithDifferentRegisterCallSameCounter","controller stateless",
-"EventTests","pure-controller degenerate","TestRegisterTwoListenerWithDifferentRegisterCallDifferentCounters","controller stateless",
-"EventTests","pure-controller degenerate","TestRegisterAllListeners","controller stateless",
-"EventTests","pure-controller degenerate","TestDuplicateSubscriptionsJustBypasses","controller stateless",
-"EventTests","pure-controller degenerate","TestEventListenerThatDispatchesEvent1And2","controller stateless",
-"EventTests","pure-controller degenerate","TestRegisterSameTypeTwiceDoesntThrow","controller stateless",
-"InstallCoravelCommand","boundary degenerate small-class","Execute","wrapper stateless",
-"SQLServerDriver","factory degenerate small-class","CreateConnection","factory collaborator stateless",
-"Mailable<T>","entity boundary","From","get set collaborator",
-"Mailable<T>","entity boundary","To","get set collaborator",
-"Mailable<T>","entity boundary","To","get set collaborator",
-"Mailable<T>","entity boundary","Cc","get set collaborator",
-"Mailable<T>","entity boundary","Bcc","get set collaborator",
-"Mailable<T>","entity boundary","ReplyTo","get set collaborator",
-"Mailable<T>","entity boundary","ReplyTo","get set collaborator",
-"Mailable<T>","entity boundary","Subject","get set collaborator",
-"Mailable<T>","entity boundary","Attach","get set collaborator",
-"Mailable<T>","entity boundary","Html","get set collaborator",
-"Mailable<T>","entity boundary","View","get non-void-command collaborator",
-"Mailable<T>","entity boundary","View","get non-void-command collaborator",
-"Mailable<T>","entity boundary","Build","empty",
-"Mailable<T>","entity boundary","SendAsync","non-void-command collaborator",
-"Mailable<T>","entity boundary","RenderAsync","property non-void-command collaborator",
-"Mailable<T>","entity boundary","BuildMessage","get property non-void-command collaborator",
-"Mailable<T>","entity boundary","BindDynamicProperties","command",
-"Mailable<T>","entity boundary","BindEmailField","command collaborator",
-"Mailable<T>","entity boundary","BindSubjectField","set",
-"NightlyReportMailable","commander small-class","Build","command",
-"SchedulerEventDispatcherTests","pure-controller degenerate small-class","DoesNotThrowOnNullDispatcher","controller stateless",
-"SchedulerEventDispatcherTests","pure-controller degenerate small-class","SchedulerDispatchesEvents","controller stateless",
-"QueueMetricTests","pure-controller degenerate","TestQueueHasCorrectNumberOfJobsWaiting","controller stateless",
-"QueueMetricTests","pure-controller degenerate","TestQueueHasCorrectNumberOfJobsWaitingWhileSomeRunning","controller stateless",
-"QueueMetricTests","pure-controller degenerate","TestQueueHasCorrectNumberOfJobsRunning","controller stateless",
-"QueueMetricTests","pure-controller degenerate","TestAllGuidMethods","controller stateless",
-"MyFirstInvocable","boundary degenerate small-class","Invoke","collaborator incidental",
-"PostgreSQLDriver","factory degenerate small-class","CreateConnection","factory collaborator stateless",
-"WriteStaticMessageToConsoleListener","boundary degenerate small-class","HandleAsync","collaborator incidental",
-"DatabaseCache","entity boundary","DatabaseCache","constructor",
-"DatabaseCache","entity boundary","Flush","command",
-"DatabaseCache","entity boundary","Forever<TResult>","property non-void-command collaborator",
-"DatabaseCache","entity boundary","ForeverAsync<TResult>","property non-void-command collaborator",
-"DatabaseCache","entity boundary","Forget","incidental",
-"DatabaseCache","entity boundary","Remember<TResult>","property non-void-command collaborator",
-"DatabaseCache","entity boundary","RememberAsync<TResult>","property non-void-command collaborator",
-"DatabaseCache","entity boundary","HasAsync","property non-void-command collaborator",
-"DatabaseCache","entity boundary","GetAsync<TResult>","property non-void-command collaborator",
-"DatabaseCache","entity boundary","TryCachingEntry<T>","property non-void-command collaborator",
-"DatabaseCache","entity boundary","TryCachingEntryAsync<T>","property non-void-command collaborator",
-"DatabaseCache","entity boundary","GetCacheItem","property collaborator",
-"DatabaseCache","entity boundary","GetCacheItemAsync","property collaborator",
-"DatabaseCache","entity boundary","TryCreateCacheTablesIfNotExisting","set",
-"NewUserViewMail","commander small-class","Build","command",
-"NewUserViewMail","commander small-class","Build","command",
-"TestListener2ForEvent1","entity boundary small-class","TestListener2ForEvent1","constructor",
-"TestListener2ForEvent1","entity boundary small-class","HandleAsync","property non-void-command collaborator",
-"ErrorModel","commander data-class small-class","ErrorModel","copy-constructor",
-"ErrorModel","commander data-class small-class","OnGet","set",
-"WelcomeUserHtmlMail","commander small-class","Build","command",
-"HomeController","entity boundary degenerate","HomeController","constructor",
-"HomeController","entity boundary degenerate","Index","wrapper stateless",
-"HomeController","entity boundary degenerate","QueueTask","property non-void-command collaborator",
-"HomeController","entity boundary degenerate","QueueTaskAsync","property non-void-command collaborator",
-"HomeController","entity boundary degenerate","ScheduleTask","property non-void-command collaborator",
-"HomeController","entity boundary degenerate","HomeController","constructor",
-"HomeController","entity boundary degenerate","Index","property non-void-command collaborator",
-"HomeController","entity boundary degenerate","Privacy","wrapper stateless",
-"HomeController","entity boundary degenerate","Error","wrapper stateless",
-"HomeController","entity boundary degenerate","Index","wrapper stateless",
-"HomeController","entity boundary degenerate","About","wrapper stateless",
-"HomeController","entity boundary degenerate","Contact","wrapper stateless",
-"HomeController","entity boundary degenerate","Privacy","wrapper stateless",
-"HomeController","entity boundary degenerate","Error","wrapper stateless",
-"SchedulerPredicate","pure-controller degenerate small-class","PredicateTest","controller stateless",
-"GeneralMailTests","boundary degenerate","MailableHasSubjectField","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableSubjectIsGeneratedFromMailableName","wrapper stateless",
-"GeneralMailTests","boundary degenerate","CheckToAndNameFieldsAreGeneratedFromModel","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasToField_OneAddress","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasToField_OneMailRecipient","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasToField_MultiAddress","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasToField_MultiMailRecipient","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasFromField_FromAddress","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasFromField_FromMailRecipient","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasReplyToField_FromAddress","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasReplyToField_FromMailRecipient","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasCcField_FromAddresses","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasCcField_FromMailRecipients","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasBccField_FromAddresses","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasBccField_FromMailRecipients","wrapper stateless",
-"GeneralMailTests","boundary degenerate","MailableHasAttachments","wrapper stateless",
-"ForeverTests","commander boundary small-class","ForeverTests","constructor",
-"ForeverTests","commander boundary small-class","Forever_Cache_Working","non-void-command collaborator",
-"RebuildStaticCachedData","boundary degenerate small-class","RebuildStaticCachedData","constructor",
-"RebuildStaticCachedData","boundary degenerate small-class","Invoke","collaborator incidental",
-"SampleInvocable","boundary degenerate small-class","Invoke","collaborator incidental",
-"WriteMessageToConsoleListener","boundary degenerate small-class","HandleAsync","collaborator incidental",
-"EmailLinkButton","boundary degenerate small-class","InvokeAsync","wrapper stateless",
-"SendPendingNotifications","boundary degenerate small-class","SendPendingNotifications","constructor",
-"SendPendingNotifications","boundary degenerate small-class","Invoke","collaborator incidental",
-"test","degenerate","BuildTargetModel","controller stateless",
-"test","degenerate","Up","collaborator incidental",
-"test","degenerate","Down","controller stateless",
-"ApplicationDbContext","empty","ApplicationDbContext","copy-constructor",
-"InMemoryMutex","unclassified","InMemoryMutex","constructor",
-"InMemoryMutex","unclassified","Using","set collaborator",
-"InMemoryMutex","unclassified","Release","unclassified",
-"InMemoryMutex","unclassified","TryGetLock","predicate non-void-command",
-"InMemoryMutex","unclassified","CreateLockedMutex","predicate non-void-command collaborator",
-"ApplicationDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"CreateIdentitySchema","pure-controller degenerate","BuildTargetModel","controller stateless",
-"CreateIdentitySchema","pure-controller degenerate","Up","controller stateless",
-"CreateIdentitySchema","pure-controller degenerate","Down","controller stateless",
-"DoExpensiveCalculationAndStore","boundary degenerate small-class","Invoke","wrapper stateless",
-"CreateMailViewCommand","boundary small-class","Execute","wrapper",
-"MailController","entity boundary","MailController","constructor",
-"MailController","entity boundary","WithHtml","property non-void-command collaborator",
-"MailController","entity boundary","RenderHtml","property non-void-command collaborator",
-"MailController","entity boundary","WithView","property non-void-command collaborator",
-"MailController","entity boundary","RenderView","property non-void-command collaborator",
-"MailController","entity boundary","QueueMail","property non-void-command collaborator",
-"MailController","entity boundary","MailController","constructor",
-"MailController","entity boundary","WithHtml","property non-void-command collaborator",
-"MailController","entity boundary","RenderHtml","property non-void-command collaborator",
-"MailController","entity boundary","WithView","property non-void-command collaborator",
-"MailController","entity boundary","RenderView","property non-void-command collaborator",
-"EventSubscription<TEvent>","boundary data-class small-class","EventSubscription","constructor",
-"EventSubscription<TEvent>","boundary data-class small-class","Subscribe<TListener>","get non-void-command collaborator",
-"SchedulerRunAtStartTests","pure-controller degenerate small-class","TestRunsOnlyAtStart","controller stateless",
-"SchedulerRunAtStartTests","pure-controller degenerate small-class","TestRunsAtStartAndWhenDue","controller stateless",
-"LongRunningTask","boundary small-class","Invoke","wrapper",
-"CacheController","entity boundary","CacheController","constructor",
-"CacheController","entity boundary","Remember","property non-void-command factory collaborator",
-"CacheController","entity boundary","RememberAsync","property non-void-command collaborator",
-"CacheController","entity boundary","HasAsync","property non-void-command collaborator",
-"CacheController","entity boundary","GetAsync","property non-void-command collaborator",
-"CacheController","entity boundary","Forever","property non-void-command collaborator",
-"CacheController","entity boundary","ForeverAsync","property non-void-command collaborator",
-"CacheController","entity boundary","Flush","property non-void-command collaborator",
-"CacheController","entity boundary","Forget","property non-void-command collaborator",
-"CacheController","entity boundary","CacheController","constructor",
-"CacheController","entity boundary","Remember","property non-void-command collaborator",
-"CacheController","entity boundary","RememberAsync","property non-void-command collaborator",
-"CacheController","entity boundary","Forever","property non-void-command collaborator",
-"CacheController","entity boundary","ForeverAsync","property non-void-command collaborator",
-"CacheController","entity boundary","HasAsync","property non-void-command collaborator",
-"CacheController","entity boundary","GetAsync","property non-void-command collaborator",
-"CacheController","entity boundary","Forget","property non-void-command collaborator",
-"CacheController","entity boundary","Flush","property non-void-command collaborator",
-"ServiceScopeFactoryStub","boundary degenerate small-class","CreateScope","collaborator stateless",
-"NoCacheEntryException","empty","NoCacheEntryException","constructor",
-"QueueConsumationEnded","empty","QueueConsumationEnded","constructor",
-"MailableWithModelProperties","commander small-class","MailableWithModelProperties","constructor",
-"MailableWithModelProperties","commander small-class","Build","command",
-"DemoEvent","empty","DemoEvent","constructor",
-"Startup","controller degenerate","ConfigureServices","controller",
-"Startup","controller degenerate","Configure","controller stateless",
-"Startup","controller degenerate","Startup","constructor",
-"Startup","controller degenerate","ConfigureServices","command collaborator",
-"Startup","controller degenerate","Configure","controller stateless",
-"Startup","controller degenerate","Startup","constructor",
-"Startup","controller degenerate","ConfigureServices","controller stateless",
-"Startup","controller degenerate","Configure","controller stateless",
-"Startup","controller degenerate","Startup","constructor",
-"Startup","controller degenerate","ConfigureServices","controller",
-"Startup","controller degenerate","Configure","controller stateless",
-"IndexModel","degenerate small-class","IndexModel","copy-constructor",
-"IndexModel","degenerate small-class","OnGet","empty",
-"SchedulerEveryThirtyMinuteTests","pure-controller degenerate small-class","ValidEveryThirtyMinutes","controller stateless",
-"RazorRenderer","entity boundary","RazorRenderer","constructor",
-"RazorRenderer","entity boundary","RenderViewToStringAsync<TModel>","property non-void-command collaborator",
-"RazorRenderer","entity boundary","BindConfigurationToViewBag","void-accessor collaborator",
-"RazorRenderer","entity boundary","FindView","property non-void-command collaborator",
-"RazorRenderer","entity boundary","GetActionContext","property factory collaborator",
-"SchedulerEveryMinuteTests","pure-controller degenerate small-class","ValidEveryMinute","controller stateless",
-"InMemoryCache","entity boundary","InMemoryCache","constructor",
-"InMemoryCache","entity boundary","Remember<TResult>","property non-void-command collaborator",
-"InMemoryCache","entity boundary","RememberAsync<TResult>","property non-void-command collaborator",
-"InMemoryCache","entity boundary","Forever<TResult>","property non-void-command collaborator",
-"InMemoryCache","entity boundary","ForeverAsync<TResult>","property non-void-command collaborator",
-"InMemoryCache","entity boundary","HasAsync","wrapper stateless",
-"InMemoryCache","entity boundary","GetAsync<TResult>","wrapper stateless",
-"InMemoryCache","entity boundary","Forget","command",
-"InMemoryCache","entity boundary","Flush","command",
-"InMemoryCache","entity boundary","EvictionCallback","command collaborator",
-"AsyncSchedulerTest","pure-controller degenerate small-class","AsyncSchedulesTest","controller stateless",
-"SendNightlyReportsEmailJob","commander boundary small-class","SendNightlyReportsEmailJob","constructor",
-"SendNightlyReportsEmailJob","commander boundary small-class","Invoke","non-void-command collaborator",
-"SchedulerHost","commander boundary","SchedulerHost","copy-constructor",
-"SchedulerHost","commander boundary","StartAsync","property non-void-command collaborator",
-"SchedulerHost","commander boundary","InitializeAfterAppStarted","set",
-"SchedulerHost","commander boundary","RunSchedulerPerSecondAsync","command collaborator",
-"SchedulerHost","commander boundary","StopAsync","non-void-command collaborator",
-"SchedulerHost","commander boundary","Dispose","command",
-"DequeuedTaskFailed","empty","DequeuedTaskFailed","constructor",
-"DisposableListener","boundary small-class","DisposableListener","constructor",
-"DisposableListener","boundary small-class","Dispose","wrapper",
-"DisposableListener","boundary small-class","HandleAsync","collaborator incidental",
-"QueueConsumationStarted","empty","QueueConsumationStarted","constructor",
-"QueueController","entity boundary","QueueController","constructor",
-"QueueController","entity boundary","TriggerExpensiveStuff","property non-void-command collaborator",
-"QueueController","entity boundary","QueueController","constructor",
-"QueueController","entity boundary","Start","property non-void-command collaborator",
-"QueueController","entity boundary","Stop","wrapper stateless",
-"QueueTaskCompleted","empty","QueueTaskCompleted","constructor",
-"SchedulerMonthlyTests","pure-controller degenerate small-class","ValidMonthly","controller stateless",
-"QueuingHost","commander boundary","QueuingHost","copy-constructor",
-"QueuingHost","commander boundary","StartAsync","property non-void-command collaborator",
-"QueuingHost","commander boundary","GetConsummationDelay","property non-void-command",
-"QueuingHost","commander boundary","ConsumeQueueAsync","non-void-command collaborator",
-"QueuingHost","commander boundary","StopAsync","non-void-command collaborator",
-"QueuingHost","commander boundary","Dispose","command",
-"ActionOrAsyncFunc","commander boundary small-class","ActionOrAsyncFunc","constructor",
-"ActionOrAsyncFunc","commander boundary small-class","ActionOrAsyncFunc","constructor",
-"ActionOrAsyncFunc","commander boundary small-class","Invoke","non-void-command collaborator",
-"Queue","entity boundary","Queue","constructor",
-"Queue","entity boundary","QueueTask","non-void-command factory collaborator",
-"Queue","entity boundary","QueueInvocable<T>","wrapper stateless",
-"Queue","entity boundary","QueueInvocableWithPayload<T,TParams>","property non-void-command collaborator",
-"SchedulerOnce","pure-controller degenerate small-class","ScheduleOnceWithCron","controller stateless",
-"SchedulerOnce","pure-controller degenerate small-class","ScheduleOnceAtHourly","controller stateless",
-"QueueMetrics","data-provider data-class small-class","QueueMetrics","constructor",
-"QueueMetrics","data-provider data-class small-class","WaitingCount","get",
-"QueueMetrics","data-provider data-class small-class","RunningCount","get",
-"InstallMailCommand","commander small-class","Execute","command",
-"ScheduledEventFailed","empty","ScheduledEventFailed","constructor",
-"CustomMailer","commander boundary small-class","CustomMailer","constructor",
-"CustomMailer","commander boundary small-class","SendAsync","non-void-command collaborator",
-"ScheduledEventStarted","empty","ScheduledEventStarted","constructor",
-"InvocableTests","controller degenerate","InvocableTests","constructor",
-"InvocableTests","controller degenerate","InvocableWithDIWorking","non-void-command collaborator",
-"InvocableTests","controller degenerate","TestScheduledInvocableRuns","controller stateless",
-"InvocableTests","controller degenerate","TestScheduledInvocableWithParamsRuns","controller stateless",
-"InvocableTests","controller degenerate","TestScheduledInvocableWithMissingParamsDoesNotRun","controller stateless",
-"InvocableTests","controller degenerate","TestScheduledInvocableWithParamsTypeRuns","controller stateless",
-"InvocableTests","controller degenerate","TestScheduledInvocableWithMissingParamsTypeDoesNotRun","controller stateless",
-"InvocableTests","controller degenerate","TestScheduledInvocableWithParamsType_Throws","controller stateless",
-"InvocableTests","controller degenerate","TestScheduledInvocableFromTypeRuns","controller stateless",
-"InvocableTests","controller degenerate","TestScheduledInvocableFromTypeRuns_FromInterface","controller stateless",
-"InvocableTests","controller degenerate","TestScheduledInvocableFromType_Throws","controller stateless",
-"CronExpression","entity boundary","CronExpression","constructor",
-"CronExpression","entity boundary","AppendWeekDay","get set collaborator",
-"CronExpression","entity boundary","IsDue","predicate non-void-command collaborator",
-"CronExpression","entity boundary","IsWeekDayDue","predicate non-void-command collaborator",
-"CronExpression","entity boundary","IsMinuteDue","predicate non-void-command collaborator",
-"CronExpression","entity boundary","IsHoursDue","predicate non-void-command collaborator",
-"CronExpression","entity boundary","IsDayDue","predicate non-void-command collaborator",
-"CronExpression","entity boundary","IsMonthDue","predicate non-void-command collaborator",
-"CronExpression","entity boundary","GuardExpressionIsValid","command collaborator",
-"SchedulerMondays","pure-controller degenerate small-class","DailyOnMondaysOnly","controller stateless",
-"CronExpressionComplexPart","boundary","CronExpressionComplexPart","constructor",
-"CronExpressionComplexPart","boundary","CheckIfTimeIsDue","predicate non-void-command collaborator",
-"CronExpressionComplexPart","boundary","CheckDelineatedArray","controller stateless",
-"CronExpressionComplexPart","boundary","CheckRange","predicate non-void-command collaborator",
-"CronExpressionComplexPart","boundary","CheckDivisibleRange","predicate non-void-command collaborator",
-"CronExpressionComplexPart","boundary","IsBetween","collaborator incidental",
-"CronExpressionComplexPart","boundary","IsBetweenSkipping","collaborator incidental",
-"CronExpressionPart","small-class","CronExpressionPart","constructor",
-"CronExpressionPart","small-class","IsDue","predicate non-void-command",
-"CronExpressionPart","small-class","CronExpressionPartIsDue","controller stateless",
-"AssertMailer","boundary degenerate small-class","AssertMailer","constructor",
-"AssertMailer","boundary degenerate small-class","SendAsync","collaborator incidental",
-"MalformedCronExpressionException","empty","MalformedCronExpressionException","constructor",
-"ScheduledEvent","boundary","ScheduledEvent","constructor",
-"ScheduledEvent","boundary","ScheduledEvent","constructor",
-"ScheduledEvent","boundary","ScheduledEvent","constructor",
-"ScheduledEvent","boundary","IsDue","predicate non-void-command collaborator",
-"ScheduledEvent","boundary","InvokeScheduledEvent","non-void-command collaborator",
-"ScheduledEvent","boundary","Daily","get set collaborator",
-"ScheduledEvent","boundary","DailyAtHour","get set collaborator",
-"ScheduledEvent","boundary","DailyAt","get set collaborator",
-"ScheduledEvent","boundary","Hourly","get set collaborator",
-"ScheduledEvent","boundary","HourlyAt","get set collaborator",
-"ScheduledEvent","boundary","EveryMinute","get set collaborator",
-"ScheduledEvent","boundary","EveryFiveMinutes","get set collaborator",
-"ScheduledEvent","boundary","EveryTenMinutes","get set collaborator",
-"ScheduledEvent","boundary","EveryFifteenMinutes","get set collaborator",
-"ScheduledEvent","boundary","EveryThirtyMinutes","get set collaborator",
-"ScheduledEvent","boundary","Weekly","get set collaborator",
-"ScheduledEvent","boundary","Monthly","get set collaborator",
-"ScheduledEvent","boundary","Cron","get set collaborator",
-"ScheduledEvent","boundary","Monday","get non-void-command collaborator",
-"ScheduledEvent","boundary","Tuesday","get non-void-command collaborator",
-"ScheduledEvent","boundary","Wednesday","get non-void-command collaborator",
-"ScheduledEvent","boundary","Thursday","get non-void-command collaborator",
-"ScheduledEvent","boundary","Friday","get non-void-command collaborator",
-"ScheduledEvent","boundary","Saturday","get non-void-command collaborator",
-"ScheduledEvent","boundary","Sunday","get non-void-command collaborator",
-"ScheduledEvent","boundary","Weekday","get non-void-command collaborator",
-"ScheduledEvent","boundary","Weekend","get non-void-command collaborator",
-"ScheduledEvent","boundary","PreventOverlapping","property set collaborator",
-"ScheduledEvent","boundary","When","get set collaborator",
-"ScheduledEvent","boundary","AssignUniqueIndentifier","get set collaborator",
-"ScheduledEvent","boundary","WhenPredicateFails","property non-void-command collaborator",
-"ScheduledEvent","boundary","EverySecond","get non-void-command collaborator",
-"ScheduledEvent","boundary","EveryFiveSeconds","get non-void-command collaborator",
-"ScheduledEvent","boundary","EveryTenSeconds","get non-void-command collaborator",
-"ScheduledEvent","boundary","EveryFifteenSeconds","get non-void-command collaborator",
-"ScheduledEvent","boundary","EveryThirtySeconds","get non-void-command collaborator",
-"ScheduledEvent","boundary","EverySeconds","get non-void-command collaborator",
-"ScheduledEvent","boundary","Zoned","get set collaborator",
-"ScheduledEvent","boundary","RunOnceAtStart","get set collaborator",
-"ScheduledEvent","boundary","Once","get set collaborator",
-"ScheduledEvent","boundary","IsSecondsDue","predicate collaborator",
-"ScheduledEvent","boundary","GetInvocable","property controller",
-"ScheduledEvent","boundary","MarkedAsExecutedOnce","set",
-"ScheduledEvent","boundary","UnScheduleIfWarranted","command collaborator",
-"ScheduledEventEnded","empty","ScheduledEventEnded","constructor",
-"CreateInvocableCommand","boundary small-class","Execute","wrapper",
-"HasAsyncTests","commander boundary small-class","HasAsyncTests","constructor",
-"HasAsyncTests","commander boundary small-class","Has_Async_Cache_Working","non-void-command collaborator",
-"Scheduler","entity boundary","Scheduler","constructor",
-"Scheduler","entity boundary","CancelAllCancellableTasks","command",
-"Scheduler","entity boundary","Schedule","non-void-command factory collaborator",
-"Scheduler","entity boundary","ScheduleAsync","non-void-command factory collaborator",
-"Scheduler","entity boundary","Schedule<T>","property non-void-command collaborator",
-"Scheduler","entity boundary","ScheduleWithParams<T>","property non-void-command collaborator",
-"Scheduler","entity boundary","ScheduleWithParams","property non-void-command collaborator",
-"Scheduler","entity boundary","ScheduleInvocableType","property non-void-command collaborator",
-"Scheduler","entity boundary","OnWorker","get set collaborator",
-"Scheduler","entity boundary","RunAtAsync","set collaborator",
-"Scheduler","entity boundary","OnError","get set collaborator",
-"Scheduler","entity boundary","LogScheduledTaskProgress","get set collaborator",
-"Scheduler","entity boundary","TryUnschedule","predicate non-void-command collaborator",
-"Scheduler","entity boundary","InvokeEventWithLoggerScope","non-void-command collaborator",
-"Scheduler","entity boundary","InvokeEvent","non-void-command collaborator",
-"Scheduler","entity boundary","RunWorkersAt","property non-void-command collaborator",
-"Scheduler","entity boundary","TryDispatchEvent","non-void-command collaborator",
-"ZonedTime","data-provider boundary small-class","ZonedTime","constructor",
-"ZonedTime","data-provider boundary small-class","Convert","property wrapper",
-"WelcomeUserMailable","commander small-class","Build","command",
-"FlushTests","commander boundary small-class","FlushTests","constructor",
-"FlushTests","commander boundary small-class","Flush_Cache_Working","non-void-command collaborator",
-"PrivacyModel","degenerate small-class","PrivacyModel","copy-constructor",
-"PrivacyModel","degenerate small-class","OnGet","empty",
-"ForeverAsyncTests","commander boundary small-class","ForeverAsyncTests","constructor",
-"ForeverAsyncTests","commander boundary small-class","Forever_Async_Cache_Working","non-void-command collaborator",
-"QueueInvocableWithParamsTests","pure-controller degenerate small-class","TestQueueInvocableWithComplexParams","controller stateless",
-"TestInvocable","entity boundary small-class","TestInvocable","constructor",
-"TestInvocable","entity boundary small-class","Invoke","non-void-command collaborator",
-"TestInvocable","entity boundary small-class","Invoke","property non-void-command collaborator",
-"ForgetTests","commander boundary small-class","ForgetTests","constructor",
-"ForgetTests","commander boundary small-class","Forget_Cache_Working","non-void-command collaborator",
-"GetAsyncTests","commander boundary small-class","GetAsyncTests","constructor",
-"GetAsyncTests","commander boundary small-class","Get_Async_Cache_Working","non-void-command collaborator",
-"RememberAsyncTests","commander boundary small-class","RememberAsyncTests","constructor",
-"RememberAsyncTests","commander boundary small-class","Remember_Async_Cache_Working","non-void-command collaborator",
-"SchedulerEveryFifteenMinuteTests","pure-controller degenerate small-class","ValidEveryFifteenMinutes","controller stateless",
-"EnsureContinuousSecondTicks","entity boundary small-class","EnsureContinuousSecondTicks","constructor",
-"EnsureContinuousSecondTicks","entity boundary small-class","GetTicksBetweenPreviousAndNext","property non-void-command collaborator",
-"EnsureContinuousSecondTicks","entity boundary small-class","SetNextTick","set collaborator",
-"RememberTests","commander boundary small-class","RememberTests","constructor",
-"RememberTests","commander boundary small-class","Remember_Cache_Working","non-void-command collaborator",
-"FileLogMailerSmokeTests","commander boundary small-class","FileLogMailerSmokeTests","constructor",
-"FileLogMailerSmokeTests","commander boundary small-class","WithHtmlDoesntThrowTest","non-void-command collaborator",
-"FileLogMailerSmokeTests","commander boundary small-class","RenderHtmlDoesntThrowTest","non-void-command collaborator",
+"SmtpMailerTests","pure-controller degenerate","SmtpMailerRenderSucessful","controller stateless"
+"SmtpMailerTests","pure-controller degenerate","SmtpMailerRenderWithReplyToSucessful","controller stateless"
+"SmtpMailerTests","pure-controller degenerate","SmtpMailerUseAuthentication","controller stateless"
+"TestUserWithFields","empty","TestUserWithFields","constructor"
+"MailableWithModelFields","commander small-class","MailableWithModelFields","constructor"
+"MailableWithModelFields","commander small-class","Build","command"
+"GenericHtmlMailable","degenerate small-class","Build","empty"
+"GeneralMailTests","boundary degenerate","MailableHasSubjectField","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableSubjectIsGeneratedFromMailableName","wrapper stateless"
+"GeneralMailTests","boundary degenerate","CheckToAndNameFieldsAreGeneratedFromModel","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasToField_OneAddress","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasToField_OneMailRecipient","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasToField_MultiAddress","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasToField_MultiMailRecipient","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasFromField_FromAddress","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasFromField_FromMailRecipient","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasReplyToField_FromAddress","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasReplyToField_FromMailRecipient","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasCcField_FromAddresses","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasCcField_FromMailRecipients","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasBccField_FromAddresses","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasBccField_FromMailRecipients","wrapper stateless"
+"GeneralMailTests","boundary degenerate","MailableHasAttachments","wrapper stateless"
+"CustomMailerTests","degenerate","CustomMailerSucessful","controller stateless"
+"CustomMailerTests","degenerate","CustomMailer_GlobalFrom","controller stateless"
+"CustomMailerTests","degenerate","CustomMailer_Render","controller stateless"
+"CustomMailerTests","degenerate","CustomMailerHasAttachments","collaborator stateless"
+"StaticUtcTimeStub","empty","StaticUtcTimeStub","constructor"
+"DispatcherStub","boundary degenerate small-class","Broadcast<TEvent>","collaborator incidental"
+"SchedulerZonedScheduleTests","pure-controller degenerate small-class","SchedulerRunsZonedIntervals","controller stateless"
+"UnscheduleTests","pure-controller degenerate small-class","TestCanUnschedule","controller stateless"
+"ScheduleWorkerTests","pure-controller degenerate","ScheduleWorkerSuccessfulWithOneThreadPerWorker","controller stateless"
+"ScheduleWorkerTests","pure-controller degenerate","ScheduleWorkerSuccessfulOnMultipleThreadsWithMutiRuns","controller stateless"
+"ScheduleWorkerTests","pure-controller degenerate","ScheduleWorkerSuccessfulWithDifferentSchedules","controller stateless"
+"SchedulerWeekends","pure-controller degenerate small-class","DailyOnWeekendsOnly","controller stateless"
+"SchedulerWeekdays","pure-controller degenerate small-class","DailyOnWeekdaysOnly","controller stateless"
+"SchedulerWednesdays","pure-controller degenerate small-class","DailyOnWednesdayOnly","controller stateless"
+"SchedulerTuesdays","pure-controller degenerate small-class","DailyOnTuesdaysOnly","controller stateless"
+"SchedulerThursdays","pure-controller degenerate small-class","DailyOnThursdaysOnly","controller stateless"
+"SchedulerSundays","pure-controller degenerate small-class","DailyOnSundaysOnly","controller stateless"
+"SchedulerSaturdays","pure-controller degenerate small-class","DailyOnSaturdaysOnly","controller stateless"
+"SchedulerPredicate","pure-controller degenerate small-class","PredicateTest","controller stateless"
+"SchedulerFridays","pure-controller degenerate small-class","DailyOnFridaysOnly","controller stateless"
+"OverlappingTests","pure-controller degenerate small-class","LongRunningEventPreventOverlap","controller stateless"
+"OverlappingTests","pure-controller degenerate small-class","OverlapNotPrevented","controller stateless"
+"InMemoryMutexTests","pure-controller degenerate small-class","InMemoryMutexLocksAndReleases","controller stateless"
+"InMemoryMutexTests","pure-controller degenerate small-class","InMemoryMutexCanGetLockAfterTimeoutExpired","controller stateless"
+"CancellableInvocableTests","pure-controller degenerate small-class","TestInvocableCanBeCancelled","controller stateless"
+"SchedulerWeeklyTests","pure-controller degenerate small-class","ValidDaily","controller stateless"
+"SchedulerHourlyTests","pure-controller degenerate small-class","ValidHourly","controller stateless"
+"SchedulerEveryTenMinuteTests","pure-controller degenerate small-class","ValidEveryTenMinutes","controller stateless"
+"SchedulerEveryFiveMinuteTests","pure-controller degenerate small-class","ValidEveryFiveMinutes","controller stateless"
+"SchedulerDailyTests","pure-controller degenerate small-class","ValidDaily","controller stateless"
+"SchedulerDailyAtTests","pure-controller degenerate small-class","DailyTests","controller stateless"
+"SchedulerCronTests","pure-controller degenerate small-class","ScheduledEventCron","controller stateless"
+"EnsureContinuousSecondTicksTests","pure-controller degenerate","ShouldNotHaveMissingTicks","controller stateless"
+"EnsureContinuousSecondTicksTests","pure-controller degenerate","ShouldHaveMissingTicks","controller"
+"EnsureContinuousSecondTicksTests","pure-controller degenerate","MissingTicksAreExpectedTimes","controller stateless"
+"CronExpressionTests","pure-controller degenerate small-class","InvokeCron","controller stateless"
+"GeneratedWithModelFieldsMailTests","boundary degenerate small-class","CheckSubject_Email_Name_GeneratedFromFields","wrapper stateless"
+"QueueTests","pure-controller degenerate","TestQueueRunsProperly","controller stateless"
+"QueueTests","pure-controller degenerate","TestQueueSlientErrors","controller stateless"
+"QueueTests","pure-controller degenerate","TestQueueInvocable","controller stateless"
+"QueueTests","pure-controller degenerate","DoesNotThrowOnNullDispatcher","controller stateless"
+"QueueTests","pure-controller degenerate","QueueDispatchesInternalEvents","controller stateless"
+"SchedulerHourlyAtTests","pure-controller degenerate small-class","HourlyAtTests","controller stateless"
+"TestInvocableWithStringParam","entity boundary small-class","Invoke","property non-void-command collaborator"
+"QueueBroadcastTests","pure-controller degenerate small-class","TestQueueBroadcastsEvents","controller stateless"
+"QueueBroadcastTests","pure-controller degenerate small-class","TestQueuedTaskStartedAndCompletedEvents","controller stateless"
+"AsyncDisposableInvocable","commander boundary","AsyncDisposableInvocable","constructor"
+"AsyncDisposableInvocable","commander boundary","Invoke","collaborator incidental"
+"AsyncDisposableInvocable","commander boundary","DisposeAsync","non-void-command collaborator"
+"AsyncDisposableInvocable","commander boundary","AsyncDisposableInvocable","constructor"
+"AsyncDisposableInvocable","commander boundary","Invoke","collaborator incidental"
+"AsyncDisposableInvocable","commander boundary","DisposeAsync","non-void-command collaborator"
+"DisposableInvocable","commander","DisposableInvocable","constructor"
+"DisposableInvocable","commander","Invoke","collaborator incidental"
+"DisposableInvocable","commander","Dispose","command"
+"DisposableInvocable","commander","DisposableInvocable","constructor"
+"DisposableInvocable","commander","Invoke","collaborator incidental"
+"DisposableInvocable","commander","Dispose","command"
+"InvocableDisposableTests","pure-controller degenerate","TestInvocableWasDisposed","controller stateless"
+"InvocableDisposableTests","pure-controller degenerate","TestInvocableWasDisposedAsync","controller stateless"
+"InvocableDisposableTests","pure-controller degenerate","TestInvocableWasDisposed","controller stateless"
+"InvocableDisposableTests","pure-controller degenerate","TestInvocableWasDisposedAsync","controller stateless"
+"CancellableInvocableForQueueTests","pure-controller degenerate small-class","CanCancelInvocable","controller stateless"
+"CancellableInvocableForQueueTests","pure-controller degenerate small-class","CanCancelInvocablesForShutdown","controller stateless"
+"AsyncQueueTests","pure-controller degenerate small-class","TestAsyncQueueRunsProperly","controller stateless"
+"AsyncQueueTests","pure-controller degenerate small-class","TryEnqueueWhileRunnningLongRunningAsync","controller stateless"
+"FileLogMailer","unclassified","FileLogMailer","constructor"
+"FileLogMailer","unclassified","RenderAsync<T>","property controller"
+"FileLogMailer","unclassified","SendAsync","wrapper"
+"FileLogMailer","unclassified","SendAsync<T>","controller"
+"SendFormToExternalApi","data-provider boundary lazy-class small-class","WithForm","get collaborator"
+"SendFormToExternalApi","data-provider boundary lazy-class small-class","Invoke","collaborator stateless"
+"CustomMailer","commander boundary small-class","CustomMailer","constructor"
+"CustomMailer","commander boundary small-class","SendAsync","non-void-command collaborator"
+"Dispatcher","entity small-class","Dispatcher","constructor"
+"Dispatcher","entity small-class","Register<TEvent>","property non-void-command factory collaborator"
+"Dispatcher","entity small-class","Broadcast<TEvent>","non-void-command collaborator"
+"MailRecipient","empty","MailRecipient","constructor"
+"MailRecipient","empty","MailRecipient","constructor"
+"QueueTaskStarted","empty","QueueTaskStarted","constructor"
+"SmtpMailer","unclassified","SmtpMailer","constructor"
+"SmtpMailer","unclassified","SendAsync<T>","controller"
+"SmtpMailer","unclassified","SendAsync","non-void-command collaborator"
+"SmtpMailer","unclassified","SetFrom","controller"
+"SmtpMailer","unclassified","UseSMTPAuthentication","predicate wrapper"
+"NoMailRendererFound","empty","NoMailRendererFound","constructor"
+"GenerateEventCommand","entity boundary","Execute","command"
+"GenerateEventCommand","entity boundary","GenerateListenerFile","predicate wrapper"
+"GenerateEventCommand","entity boundary","GenerateEventFile","predicate wrapper"
+"SchedulerOnErrorTests","pure-controller degenerate small-class","TestSchedulerHandlesErrors","controller stateless"
+"SchedulerOnErrorTests","pure-controller degenerate small-class","TestSchedulerSkipsErrors","controller stateless"
+"TestEventWithDispatcher","empty","TestEventWithDispatcher","constructor"
+"TestListener1ForEvent1","entity boundary small-class","TestListener1ForEvent1","constructor"
+"TestListener1ForEvent1","entity boundary small-class","HandleAsync","property non-void-command collaborator"
+"CreateViewStartCommand","boundary small-class","Execute","wrapper"
+"CacheEntryDBModel","data-provider small-class","IsExpired","predicate"
+"CreateViewImportsCommand","boundary small-class","Execute","wrapper"
+"AsyncDisposableListener","boundary small-class","AsyncDisposableListener","constructor"
+"AsyncDisposableListener","boundary small-class","DisposeAsync","wrapper"
+"AsyncDisposableListener","boundary small-class","HandleAsync","collaborator incidental"
+"CreateMailableCommand","boundary small-class","Execute","wrapper"
+"EventTests","pure-controller degenerate","TestRegisterOneListener","controller stateless"
+"EventTests","pure-controller degenerate","TestRegisterTwoListenerWithDifferentRegisterCallSameCounter","controller stateless"
+"EventTests","pure-controller degenerate","TestRegisterTwoListenerWithDifferentRegisterCallDifferentCounters","controller stateless"
+"EventTests","pure-controller degenerate","TestRegisterAllListeners","controller stateless"
+"EventTests","pure-controller degenerate","TestDuplicateSubscriptionsJustBypasses","controller stateless"
+"EventTests","pure-controller degenerate","TestEventListenerThatDispatchesEvent1And2","controller stateless"
+"EventTests","pure-controller degenerate","TestRegisterSameTypeTwiceDoesntThrow","controller stateless"
+"InstallCoravelCommand","boundary degenerate small-class","Execute","wrapper stateless"
+"SQLServerDriver","factory degenerate small-class","CreateConnection","factory collaborator stateless"
+"Mailable<T>","entity boundary","From","get set collaborator"
+"Mailable<T>","entity boundary","To","get set collaborator"
+"Mailable<T>","entity boundary","To","get set collaborator"
+"Mailable<T>","entity boundary","Cc","get set collaborator"
+"Mailable<T>","entity boundary","Bcc","get set collaborator"
+"Mailable<T>","entity boundary","ReplyTo","get set collaborator"
+"Mailable<T>","entity boundary","ReplyTo","get set collaborator"
+"Mailable<T>","entity boundary","Subject","get set collaborator"
+"Mailable<T>","entity boundary","Attach","get set collaborator"
+"Mailable<T>","entity boundary","Html","get set collaborator"
+"Mailable<T>","entity boundary","View","get non-void-command collaborator"
+"Mailable<T>","entity boundary","View","get non-void-command collaborator"
+"Mailable<T>","entity boundary","Build","empty"
+"Mailable<T>","entity boundary","SendAsync","non-void-command collaborator"
+"Mailable<T>","entity boundary","RenderAsync","property non-void-command collaborator"
+"Mailable<T>","entity boundary","BuildMessage","get property non-void-command collaborator"
+"Mailable<T>","entity boundary","BindDynamicProperties","command"
+"Mailable<T>","entity boundary","BindEmailField","command collaborator"
+"Mailable<T>","entity boundary","BindSubjectField","set"
+"SchedulerEventDispatcherTests","pure-controller degenerate small-class","DoesNotThrowOnNullDispatcher","controller stateless"
+"SchedulerEventDispatcherTests","pure-controller degenerate small-class","SchedulerDispatchesEvents","controller stateless"
+"QueueMetricTests","pure-controller degenerate","TestQueueHasCorrectNumberOfJobsWaiting","controller stateless"
+"QueueMetricTests","pure-controller degenerate","TestQueueHasCorrectNumberOfJobsWaitingWhileSomeRunning","controller stateless"
+"QueueMetricTests","pure-controller degenerate","TestQueueHasCorrectNumberOfJobsRunning","controller stateless"
+"QueueMetricTests","pure-controller degenerate","TestAllGuidMethods","controller stateless"
+"MyFirstInvocable","boundary degenerate small-class","Invoke","collaborator incidental"
+"PostgreSQLDriver","factory degenerate small-class","CreateConnection","factory collaborator stateless"
+"SchedulerEveryThirtyMinuteTests","pure-controller degenerate small-class","ValidEveryThirtyMinutes","controller stateless"
+"RazorRenderer","entity boundary","RazorRenderer","constructor"
+"RazorRenderer","entity boundary","RenderViewToStringAsync<TModel>","property non-void-command collaborator"
+"RazorRenderer","entity boundary","BindConfigurationToViewBag","void-accessor collaborator"
+"RazorRenderer","entity boundary","FindView","property non-void-command collaborator"
+"RazorRenderer","entity boundary","GetActionContext","property factory collaborator"
+"SchedulerEveryMinuteTests","pure-controller degenerate small-class","ValidEveryMinute","controller stateless"
+"WriteStaticMessageToConsoleListener","boundary degenerate small-class","HandleAsync","collaborator incidental"
+"DatabaseCache","entity boundary","DatabaseCache","constructor"
+"DatabaseCache","entity boundary","Flush","command"
+"DatabaseCache","entity boundary","Forever<TResult>","property non-void-command collaborator"
+"DatabaseCache","entity boundary","ForeverAsync<TResult>","property non-void-command collaborator"
+"DatabaseCache","entity boundary","Forget","incidental"
+"DatabaseCache","entity boundary","Remember<TResult>","property non-void-command collaborator"
+"DatabaseCache","entity boundary","RememberAsync<TResult>","property non-void-command collaborator"
+"DatabaseCache","entity boundary","HasAsync","property non-void-command collaborator"
+"DatabaseCache","entity boundary","GetAsync<TResult>","property non-void-command collaborator"
+"DatabaseCache","entity boundary","TryCachingEntry<T>","property non-void-command collaborator"
+"DatabaseCache","entity boundary","TryCachingEntryAsync<T>","property non-void-command collaborator"
+"DatabaseCache","entity boundary","GetCacheItem","property collaborator"
+"DatabaseCache","entity boundary","GetCacheItemAsync","property collaborator"
+"DatabaseCache","entity boundary","TryCreateCacheTablesIfNotExisting","set"
+"NewUserViewMail","commander small-class","Build","command"
+"NewUserViewMail","commander small-class","Build","command"
+"WelcomeUserHtmlMail","commander small-class","Build","command"
+"HomeController","entity boundary degenerate","HomeController","constructor"
+"HomeController","entity boundary degenerate","Index","wrapper stateless"
+"HomeController","entity boundary degenerate","QueueTask","property non-void-command collaborator"
+"HomeController","entity boundary degenerate","QueueTaskAsync","property non-void-command collaborator"
+"HomeController","entity boundary degenerate","ScheduleTask","property non-void-command collaborator"
+"HomeController","entity boundary degenerate","HomeController","constructor"
+"HomeController","entity boundary degenerate","Index","property non-void-command collaborator"
+"HomeController","entity boundary degenerate","Privacy","wrapper stateless"
+"HomeController","entity boundary degenerate","Error","wrapper stateless"
+"HomeController","entity boundary degenerate","Index","wrapper stateless"
+"HomeController","entity boundary degenerate","About","wrapper stateless"
+"HomeController","entity boundary degenerate","Contact","wrapper stateless"
+"HomeController","entity boundary degenerate","Privacy","wrapper stateless"
+"HomeController","entity boundary degenerate","Error","wrapper stateless"
+"RebuildStaticCachedData","boundary degenerate small-class","RebuildStaticCachedData","constructor"
+"RebuildStaticCachedData","boundary degenerate small-class","Invoke","collaborator incidental"
+"SampleInvocable","boundary degenerate small-class","Invoke","collaborator incidental"
+"WriteMessageToConsoleListener","boundary degenerate small-class","HandleAsync","collaborator incidental"
+"EmailLinkButton","boundary degenerate small-class","InvokeAsync","wrapper stateless"
+"SendPendingNotifications","boundary degenerate small-class","SendPendingNotifications","constructor"
+"SendPendingNotifications","boundary degenerate small-class","Invoke","collaborator incidental"
+"test","degenerate","BuildTargetModel","controller stateless"
+"test","degenerate","Up","collaborator incidental"
+"test","degenerate","Down","controller stateless"
+"ApplicationDbContext","empty","ApplicationDbContext","copy-constructor"
+"InMemoryMutex","unclassified","InMemoryMutex","constructor"
+"InMemoryMutex","unclassified","Using","set collaborator"
+"InMemoryMutex","unclassified","Release","unclassified"
+"InMemoryMutex","unclassified","TryGetLock","predicate non-void-command"
+"InMemoryMutex","unclassified","CreateLockedMutex","predicate non-void-command collaborator"
+"ApplicationDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"CreateIdentitySchema","pure-controller degenerate","BuildTargetModel","controller stateless"
+"CreateIdentitySchema","pure-controller degenerate","Up","controller stateless"
+"CreateIdentitySchema","pure-controller degenerate","Down","controller stateless"
+"DoExpensiveCalculationAndStore","boundary degenerate small-class","Invoke","wrapper stateless"
+"CreateMailViewCommand","boundary small-class","Execute","wrapper"
+"MailController","entity boundary","MailController","constructor"
+"MailController","entity boundary","WithHtml","property non-void-command collaborator"
+"MailController","entity boundary","RenderHtml","property non-void-command collaborator"
+"MailController","entity boundary","WithView","property non-void-command collaborator"
+"MailController","entity boundary","RenderView","property non-void-command collaborator"
+"MailController","entity boundary","QueueMail","property non-void-command collaborator"
+"MailController","entity boundary","MailController","constructor"
+"MailController","entity boundary","WithHtml","property non-void-command collaborator"
+"MailController","entity boundary","RenderHtml","property non-void-command collaborator"
+"MailController","entity boundary","WithView","property non-void-command collaborator"
+"MailController","entity boundary","RenderView","property non-void-command collaborator"
+"EventSubscription<TEvent>","boundary data-class small-class","EventSubscription","constructor"
+"EventSubscription<TEvent>","boundary data-class small-class","Subscribe<TListener>","get non-void-command collaborator"
+"SchedulerRunAtStartTests","pure-controller degenerate small-class","TestRunsOnlyAtStart","controller stateless"
+"SchedulerRunAtStartTests","pure-controller degenerate small-class","TestRunsAtStartAndWhenDue","controller stateless"
+"LongRunningTask","boundary small-class","Invoke","wrapper"
+"CacheController","entity boundary","CacheController","constructor"
+"CacheController","entity boundary","Remember","property non-void-command factory collaborator"
+"CacheController","entity boundary","RememberAsync","property non-void-command collaborator"
+"CacheController","entity boundary","HasAsync","property non-void-command collaborator"
+"CacheController","entity boundary","GetAsync","property non-void-command collaborator"
+"CacheController","entity boundary","Forever","property non-void-command collaborator"
+"CacheController","entity boundary","ForeverAsync","property non-void-command collaborator"
+"CacheController","entity boundary","Flush","property non-void-command collaborator"
+"CacheController","entity boundary","Forget","property non-void-command collaborator"
+"CacheController","entity boundary","CacheController","constructor"
+"CacheController","entity boundary","Remember","property non-void-command collaborator"
+"CacheController","entity boundary","RememberAsync","property non-void-command collaborator"
+"CacheController","entity boundary","Forever","property non-void-command collaborator"
+"CacheController","entity boundary","ForeverAsync","property non-void-command collaborator"
+"CacheController","entity boundary","HasAsync","property non-void-command collaborator"
+"CacheController","entity boundary","GetAsync","property non-void-command collaborator"
+"CacheController","entity boundary","Forget","property non-void-command collaborator"
+"CacheController","entity boundary","Flush","property non-void-command collaborator"
+"ServiceScopeFactoryStub","boundary degenerate small-class","CreateScope","collaborator stateless"
+"NoCacheEntryException","empty","NoCacheEntryException","constructor"
+"QueueConsumationEnded","empty","QueueConsumationEnded","constructor"
+"MailableWithModelProperties","commander small-class","MailableWithModelProperties","constructor"
+"MailableWithModelProperties","commander small-class","Build","command"
+"DemoEvent","empty","DemoEvent","constructor"
+"Startup","controller degenerate","ConfigureServices","controller"
+"Startup","controller degenerate","Configure","controller stateless"
+"Startup","controller degenerate","Startup","constructor"
+"Startup","controller degenerate","ConfigureServices","command collaborator"
+"Startup","controller degenerate","Configure","controller stateless"
+"Startup","controller degenerate","Startup","constructor"
+"Startup","controller degenerate","ConfigureServices","controller stateless"
+"Startup","controller degenerate","Configure","controller stateless"
+"Startup","controller degenerate","Startup","constructor"
+"Startup","controller degenerate","ConfigureServices","controller"
+"Startup","controller degenerate","Configure","controller stateless"
+"IndexModel","degenerate small-class","IndexModel","copy-constructor"
+"IndexModel","degenerate small-class","OnGet","empty"
+"InMemoryCache","entity boundary","InMemoryCache","constructor"
+"InMemoryCache","entity boundary","Remember<TResult>","property non-void-command collaborator"
+"InMemoryCache","entity boundary","RememberAsync<TResult>","property non-void-command collaborator"
+"InMemoryCache","entity boundary","Forever<TResult>","property non-void-command collaborator"
+"InMemoryCache","entity boundary","ForeverAsync<TResult>","property non-void-command collaborator"
+"InMemoryCache","entity boundary","HasAsync","wrapper stateless"
+"InMemoryCache","entity boundary","GetAsync<TResult>","wrapper stateless"
+"InMemoryCache","entity boundary","Forget","command"
+"InMemoryCache","entity boundary","Flush","command"
+"InMemoryCache","entity boundary","EvictionCallback","command collaborator"
+"AsyncSchedulerTest","pure-controller degenerate small-class","AsyncSchedulesTest","controller stateless"
+"SendNightlyReportsEmailJob","commander boundary small-class","SendNightlyReportsEmailJob","constructor"
+"SendNightlyReportsEmailJob","commander boundary small-class","Invoke","non-void-command collaborator"
+"SchedulerHost","commander boundary","SchedulerHost","copy-constructor"
+"SchedulerHost","commander boundary","StartAsync","property non-void-command collaborator"
+"SchedulerHost","commander boundary","InitializeAfterAppStarted","set"
+"SchedulerHost","commander boundary","RunSchedulerPerSecondAsync","command collaborator"
+"SchedulerHost","commander boundary","StopAsync","non-void-command collaborator"
+"SchedulerHost","commander boundary","Dispose","command"
+"DequeuedTaskFailed","empty","DequeuedTaskFailed","constructor"
+"QueueController","entity boundary","QueueController","constructor"
+"QueueController","entity boundary","TriggerExpensiveStuff","property non-void-command collaborator"
+"QueueController","entity boundary","QueueController","constructor"
+"QueueController","entity boundary","Start","property non-void-command collaborator"
+"QueueController","entity boundary","Stop","wrapper stateless"
+"QueueTaskCompleted","empty","QueueTaskCompleted","constructor"
+"SchedulerMonthlyTests","pure-controller degenerate small-class","ValidMonthly","controller stateless"
+"QueuingHost","commander boundary","QueuingHost","copy-constructor"
+"QueuingHost","commander boundary","StartAsync","property non-void-command collaborator"
+"QueuingHost","commander boundary","GetConsummationDelay","property non-void-command"
+"QueuingHost","commander boundary","ConsumeQueueAsync","non-void-command collaborator"
+"QueuingHost","commander boundary","StopAsync","non-void-command collaborator"
+"QueuingHost","commander boundary","Dispose","command"
+"ActionOrAsyncFunc","commander boundary small-class","ActionOrAsyncFunc","constructor"
+"ActionOrAsyncFunc","commander boundary small-class","ActionOrAsyncFunc","constructor"
+"ActionOrAsyncFunc","commander boundary small-class","Invoke","non-void-command collaborator"
+"Queue","entity boundary","Queue","constructor"
+"Queue","entity boundary","QueueTask","property non-void-command collaborator"
+"Queue","entity boundary","QueueInvocable<T>","wrapper stateless"
+"Queue","entity boundary","QueueInvocableWithPayload<T,TParams>","property non-void-command collaborator"
+"SchedulerOnce","pure-controller degenerate small-class","ScheduleOnceWithCron","controller stateless"
+"SchedulerOnce","pure-controller degenerate small-class","ScheduleOnceAtHourly","controller stateless"
+"QueueMetrics","data-provider data-class small-class","QueueMetrics","constructor"
+"QueueMetrics","data-provider data-class small-class","WaitingCount","get"
+"QueueMetrics","data-provider data-class small-class","RunningCount","get"
+"InstallMailCommand","commander small-class","Execute","command"
+"ScheduledEventFailed","empty","ScheduledEventFailed","constructor"
+"ScheduledEventStarted","empty","ScheduledEventStarted","constructor"
+"InvocableTests","controller degenerate","InvocableTests","constructor"
+"InvocableTests","controller degenerate","InvocableWithDIWorking","non-void-command collaborator"
+"InvocableTests","controller degenerate","TestScheduledInvocableRuns","controller stateless"
+"InvocableTests","controller degenerate","TestScheduledInvocableWithParamsRuns","controller stateless"
+"InvocableTests","controller degenerate","TestScheduledInvocableWithMissingParamsDoesNotRun","controller stateless"
+"InvocableTests","controller degenerate","TestScheduledInvocableWithParamsTypeRuns","controller stateless"
+"InvocableTests","controller degenerate","TestScheduledInvocableWithMissingParamsTypeDoesNotRun","controller stateless"
+"InvocableTests","controller degenerate","TestScheduledInvocableWithParamsType_Throws","controller stateless"
+"InvocableTests","controller degenerate","TestScheduledInvocableFromTypeRuns","controller stateless"
+"InvocableTests","controller degenerate","TestScheduledInvocableFromTypeRuns_FromInterface","controller stateless"
+"InvocableTests","controller degenerate","TestScheduledInvocableFromType_Throws","controller stateless"
+"CronExpression","entity boundary","CronExpression","constructor"
+"CronExpression","entity boundary","AppendWeekDay","get set collaborator"
+"CronExpression","entity boundary","IsDue","predicate non-void-command collaborator"
+"CronExpression","entity boundary","IsWeekDayDue","predicate non-void-command collaborator"
+"CronExpression","entity boundary","IsMinuteDue","predicate non-void-command collaborator"
+"CronExpression","entity boundary","IsHoursDue","predicate non-void-command collaborator"
+"CronExpression","entity boundary","IsDayDue","predicate non-void-command collaborator"
+"CronExpression","entity boundary","IsMonthDue","predicate non-void-command collaborator"
+"CronExpression","entity boundary","GuardExpressionIsValid","command collaborator"
+"SchedulerMondays","pure-controller degenerate small-class","DailyOnMondaysOnly","controller stateless"
+"CronExpressionComplexPart","boundary","CronExpressionComplexPart","constructor"
+"CronExpressionComplexPart","boundary","CheckIfTimeIsDue","predicate non-void-command collaborator"
+"CronExpressionComplexPart","boundary","CheckDelineatedArray","controller stateless"
+"CronExpressionComplexPart","boundary","CheckRange","predicate non-void-command collaborator"
+"CronExpressionComplexPart","boundary","CheckDivisibleRange","predicate non-void-command collaborator"
+"CronExpressionComplexPart","boundary","IsBetween","collaborator incidental"
+"CronExpressionComplexPart","boundary","IsBetweenSkipping","collaborator incidental"
+"CronExpressionPart","small-class","CronExpressionPart","constructor"
+"CronExpressionPart","small-class","IsDue","predicate non-void-command"
+"CronExpressionPart","small-class","CronExpressionPartIsDue","controller stateless"
+"ScheduledEventStartedListener","boundary data-class small-class","HandleAsync","property set collaborator"
+"AssertMailer","boundary degenerate small-class","AssertMailer","constructor"
+"AssertMailer","boundary degenerate small-class","SendAsync","collaborator incidental"
+"MalformedCronExpressionException","empty","MalformedCronExpressionException","constructor"
+"ScheduledEvent","boundary","ScheduledEvent","constructor"
+"ScheduledEvent","boundary","ScheduledEvent","constructor"
+"ScheduledEvent","boundary","ScheduledEvent","constructor"
+"ScheduledEvent","boundary","IsDue","predicate non-void-command collaborator"
+"ScheduledEvent","boundary","InvokeScheduledEvent","non-void-command collaborator"
+"ScheduledEvent","boundary","Daily","get set collaborator"
+"ScheduledEvent","boundary","DailyAtHour","get set collaborator"
+"ScheduledEvent","boundary","DailyAt","get set collaborator"
+"ScheduledEvent","boundary","Hourly","get set collaborator"
+"ScheduledEvent","boundary","HourlyAt","get set collaborator"
+"ScheduledEvent","boundary","EveryMinute","get set collaborator"
+"ScheduledEvent","boundary","EveryFiveMinutes","get set collaborator"
+"ScheduledEvent","boundary","EveryTenMinutes","get set collaborator"
+"ScheduledEvent","boundary","EveryFifteenMinutes","get set collaborator"
+"ScheduledEvent","boundary","EveryThirtyMinutes","get set collaborator"
+"ScheduledEvent","boundary","Weekly","get set collaborator"
+"ScheduledEvent","boundary","Monthly","get set collaborator"
+"ScheduledEvent","boundary","Cron","get set collaborator"
+"ScheduledEvent","boundary","Monday","get non-void-command collaborator"
+"ScheduledEvent","boundary","Tuesday","get non-void-command collaborator"
+"ScheduledEvent","boundary","Wednesday","get non-void-command collaborator"
+"ScheduledEvent","boundary","Thursday","get non-void-command collaborator"
+"ScheduledEvent","boundary","Friday","get non-void-command collaborator"
+"ScheduledEvent","boundary","Saturday","get non-void-command collaborator"
+"ScheduledEvent","boundary","Sunday","get non-void-command collaborator"
+"ScheduledEvent","boundary","Weekday","get non-void-command collaborator"
+"ScheduledEvent","boundary","Weekend","get non-void-command collaborator"
+"ScheduledEvent","boundary","PreventOverlapping","property set collaborator"
+"ScheduledEvent","boundary","When","get set collaborator"
+"ScheduledEvent","boundary","AssignUniqueIndentifier","get set collaborator"
+"ScheduledEvent","boundary","WhenPredicateFails","property non-void-command collaborator"
+"ScheduledEvent","boundary","EverySecond","get non-void-command collaborator"
+"ScheduledEvent","boundary","EveryFiveSeconds","get non-void-command collaborator"
+"ScheduledEvent","boundary","EveryTenSeconds","get non-void-command collaborator"
+"ScheduledEvent","boundary","EveryFifteenSeconds","get non-void-command collaborator"
+"ScheduledEvent","boundary","EveryThirtySeconds","get non-void-command collaborator"
+"ScheduledEvent","boundary","EverySeconds","get non-void-command collaborator"
+"ScheduledEvent","boundary","Zoned","get set collaborator"
+"ScheduledEvent","boundary","RunOnceAtStart","get set collaborator"
+"ScheduledEvent","boundary","Once","get set collaborator"
+"ScheduledEvent","boundary","IsSecondsDue","predicate collaborator"
+"ScheduledEvent","boundary","GetInvocable","property controller"
+"ScheduledEvent","boundary","MarkedAsExecutedOnce","set"
+"ScheduledEvent","boundary","UnScheduleIfWarranted","command collaborator"
+"ScheduledEventEnded","empty","ScheduledEventEnded","constructor"
+"CreateInvocableCommand","boundary small-class","Execute","wrapper"
+"HasAsyncTests","commander boundary small-class","HasAsyncTests","constructor"
+"HasAsyncTests","commander boundary small-class","Has_Async_Cache_Working","non-void-command collaborator"
+"Scheduler","entity boundary","Scheduler","constructor"
+"Scheduler","entity boundary","CancelAllCancellableTasks","command"
+"Scheduler","entity boundary","Schedule","non-void-command factory collaborator"
+"Scheduler","entity boundary","ScheduleAsync","non-void-command factory collaborator"
+"Scheduler","entity boundary","Schedule<T>","property non-void-command collaborator"
+"Scheduler","entity boundary","ScheduleWithParams<T>","property non-void-command collaborator"
+"Scheduler","entity boundary","ScheduleWithParams","property non-void-command collaborator"
+"Scheduler","entity boundary","ScheduleInvocableType","property non-void-command collaborator"
+"Scheduler","entity boundary","OnWorker","get set collaborator"
+"Scheduler","entity boundary","RunAtAsync","set collaborator"
+"Scheduler","entity boundary","OnError","get set collaborator"
+"Scheduler","entity boundary","LogScheduledTaskProgress","get set collaborator"
+"Scheduler","entity boundary","TryUnschedule","predicate non-void-command collaborator"
+"Scheduler","entity boundary","InvokeEventWithLoggerScope","non-void-command collaborator"
+"Scheduler","entity boundary","InvokeEvent","non-void-command collaborator"
+"Scheduler","entity boundary","RunWorkersAt","property non-void-command collaborator"
+"Scheduler","entity boundary","TryDispatchEvent","non-void-command collaborator"
+"ZonedTime","data-provider boundary small-class","ZonedTime","constructor"
+"ZonedTime","data-provider boundary small-class","Convert","property wrapper"
+"WelcomeUserMailable","commander small-class","Build","command"
+"FlushTests","commander boundary small-class","FlushTests","constructor"
+"FlushTests","commander boundary small-class","Flush_Cache_Working","non-void-command collaborator"
+"PrivacyModel","degenerate small-class","PrivacyModel","copy-constructor"
+"PrivacyModel","degenerate small-class","OnGet","empty"
+"ForeverAsyncTests","commander boundary small-class","ForeverAsyncTests","constructor"
+"ForeverAsyncTests","commander boundary small-class","Forever_Async_Cache_Working","non-void-command collaborator"
+"ForeverTests","commander boundary small-class","ForeverTests","constructor"
+"ForeverTests","commander boundary small-class","Forever_Cache_Working","non-void-command collaborator"
+"QueueInvocableWithParamsTests","pure-controller degenerate small-class","TestQueueInvocableWithComplexParams","controller stateless"
+"TestInvocable","entity boundary small-class","TestInvocable","constructor"
+"TestInvocable","entity boundary small-class","Invoke","non-void-command collaborator"
+"TestInvocable","entity boundary small-class","Invoke","property non-void-command collaborator"
+"ForgetTests","commander boundary small-class","ForgetTests","constructor"
+"ForgetTests","commander boundary small-class","Forget_Cache_Working","non-void-command collaborator"
+"GetAsyncTests","commander boundary small-class","GetAsyncTests","constructor"
+"GetAsyncTests","commander boundary small-class","Get_Async_Cache_Working","non-void-command collaborator"
+"RememberAsyncTests","commander boundary small-class","RememberAsyncTests","constructor"
+"RememberAsyncTests","commander boundary small-class","Remember_Async_Cache_Working","non-void-command collaborator"
+"SchedulerEveryFifteenMinuteTests","pure-controller degenerate small-class","ValidEveryFifteenMinutes","controller stateless"
+"EnsureContinuousSecondTicks","entity boundary small-class","EnsureContinuousSecondTicks","constructor"
+"EnsureContinuousSecondTicks","entity boundary small-class","GetTicksBetweenPreviousAndNext","property non-void-command collaborator"
+"EnsureContinuousSecondTicks","entity boundary small-class","SetNextTick","set collaborator"
+"RememberTests","commander boundary small-class","RememberTests","constructor"
+"RememberTests","commander boundary small-class","Remember_Cache_Working","non-void-command collaborator"
+"FileLogMailerSmokeTests","commander boundary small-class","FileLogMailerSmokeTests","constructor"
+"FileLogMailerSmokeTests","commander boundary small-class","WithHtmlDoesntThrowTest","non-void-command collaborator"
+"FileLogMailerSmokeTests","commander boundary small-class","RenderHtmlDoesntThrowTest","non-void-command collaborator"
+"QueueConsumationStartedListener","boundary data-class small-class","HandleAsync","property set collaborator"
+"NightlyReportMailable","commander small-class","Build","command"
+"ErrorModel","commander data-class small-class","ErrorModel","copy-constructor"
+"ErrorModel","commander data-class small-class","OnGet","set"
+"TestListener2ForEvent1","entity boundary small-class","TestListener2ForEvent1","constructor"
+"TestListener2ForEvent1","entity boundary small-class","HandleAsync","property non-void-command collaborator"
+"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventPerSecond","wrapper stateless"
+"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryFiveSeconds","wrapper stateless"
+"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryTenSeconds","wrapper stateless"
+"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryFifteenSeconds","wrapper stateless"
+"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryThirtySeconds","wrapper stateless"
+"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryNSeconds","wrapper stateless"
+"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventEveryNSecondsFails","wrapper stateless"
+"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventTestingSubMinuteMixed","controller stateless"
+"SchedulerSubMinuteTests","boundary degenerate","ScheduledEventPerSecond_EveryWeekDay","wrapper stateless"
+"TestListenerForEvent2","entity boundary small-class","TestListenerForEvent2","constructor"
+"TestListenerForEvent2","entity boundary small-class","HandleAsync","property non-void-command collaborator"
+"TestListenerThatFiresEvent1And2","pure-controller degenerate small-class","HandleAsync","controller stateless"
+"ListenerDisposableTests","pure-controller degenerate small-class","TestListenerWasDisposedAndDisposedAsync","controller stateless"
+"QueueConsumationStarted","empty","QueueConsumationStarted","constructor"
+"DisposableListener","boundary small-class","DisposableListener","constructor"
+"DisposableListener","boundary small-class","Dispose","wrapper"
+"DisposableListener","boundary small-class","HandleAsync","collaborator incidental"

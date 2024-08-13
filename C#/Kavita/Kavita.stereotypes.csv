@@ -1,534 +1,534 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"TachiyomiServiceTests","entity commander boundary","TachiyomiServiceTests","constructor",
-"TachiyomiServiceTests","entity commander boundary","SeedDb","property non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","ResetDb","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnChapter_NoProgress","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnMaxChapter_CompletelyRead","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnHighestChapter_Progress","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnEncodedVolume_Progress","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnEncodedVolume_Progress2","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnEncodedYearlyVolume_Progress","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldReturnChapter_NoProgress","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldReturnMaxChapter_CompletelyRead","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldReturnHighestChapter_Progress","non-void-command collaborator",
-"TachiyomiServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldReturnEncodedVolume_Progress","non-void-command collaborator",
-"ScannerServiceTests","boundary degenerate small-class","FindSeriesNotOnDisk_Should_Remove1","wrapper stateless",
-"ScannerServiceTests","boundary degenerate small-class","FindSeriesNotOnDisk_Should_RemoveNothing_Test","wrapper stateless",
-"ReadingListServiceTests","entity commander boundary","ReadingListServiceTests","constructor",
-"ReadingListServiceTests","entity commander boundary","SeedDb","property non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","ResetDb","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","AddChaptersToReadingList_ShouldAddFirstItem_AsOrderZero","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","AddChaptersToReadingList_ShouldNewItems_AfterLastOrder","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","UpdateReadingListItemPosition_MoveLastToFirst_TwoItemsShouldShift","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","UpdateReadingListItemPosition_MoveLastToFirst_TwoItemsShouldShift_ThenDeleteSecond_OrderShouldBeCorrect","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","DeleteReadingListItem_DeleteFirstItem_SecondShouldBecomeFirst","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","RemoveFullyReadItems_RemovesAllFullyReadItems","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CalculateAgeRating_ShouldUpdateToUnknown_IfNoneSet","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CalculateAgeRating_ShouldUpdateToMax","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CalculateStartAndEndDates_ShouldBeNothing_IfNothing","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CalculateStartAndEndDates_ShouldBeSomething_IfChapterHasSet","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","FormatTitle_ShouldFormatCorrectly","wrapper stateless",
-"ReadingListServiceTests","entity commander boundary","CreateReadingList_SetupBaseData","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CreateReadingList_ShouldCreate_WhenNoOtherListsOnUser","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CreateReadingList_ShouldNotCreate_WhenExistingList","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CreateReadingList_ShouldNotCreate_WhenPromotedListExists","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","DeleteReadingList_ShouldDelete","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","UserHasReadingListAccess_ShouldWorkIfTheirList","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","UserHasReadingListAccess_ShouldNotWork_IfNotTheirList","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","UserHasReadingListAccess_ShouldWork_IfNotTheirList_ButUserIsAdmin","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","ValidateCblFile_ShouldFail_UserHasAccessToNoSeries","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","ValidateCblFile_ShouldFail_ServerHasNoSeries","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CreateReadingListFromCBL_ShouldCreateList","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CreateReadingListFromCBL_ShouldCreateList_ButOnlyIncludeSeriesThatUserHasAccessTo","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CreateReadingListFromCBL_ShouldUpdateAnExistingList","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","CreateReadingListFromCBL_ShouldCreateList_WithAnnuals","non-void-command collaborator",
-"ReadingListServiceTests","entity commander boundary","SetupData","property non-void-command factory collaborator",
-"ReaderServiceTests","entity commander boundary","ReaderServiceTests","constructor",
-"ReaderServiceTests","entity commander boundary","SeedDb","property non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","ResetDb","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","FormatBookmarkFolderPathTest","wrapper stateless",
-"ReaderServiceTests","entity commander boundary","CapPageToChapterTest","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","SaveReadingProgress_ShouldCreateNewEntity","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","SaveReadingProgress_ShouldUpdateExisting","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","MarkChaptersAsReadTest","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","MarkChapterAsUnreadTest","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldGetNextVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldGetNextVolume_WhenUsingRanges","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldGetNextVolume_OnlyFloats","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoNextVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoNextVolumeWithFloat","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoChaptersFromVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoNextChapter_WhenVolumesAreOnlyOneChapter_AndNextChapterIs0","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromSpecial","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromLastChapter_NoSpecials","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromLastChapter_NoSpecials_FirstIsVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromLastChapter_WithSpecials","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldMoveFromVolumeToSpecial_NoLooseLeafChapters","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldMoveFromLooseLeafChapterToSpecial","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromSpecial_WithVolumeAndLooseLeafChapters","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldMoveFromSpecialToSpecial","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoNextVolume_WhenAllVolumesHaveAChapterToo","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldGetPrevVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldGetPrevVolume_WithFloatVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldGetPrevVolume_2","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldRollIntoPrevVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldMoveFromSpecialToVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromVolumeWithZeroChapter","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromVolumeWithZeroChapterAndHasNormalChapters","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromVolumeWithZeroChapterAndHasNormalChapters2","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromChapter","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldMoveFromSpecialToSpecial","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldMoveFromChapterToVolume","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldRollIntoPrevVolume_WhenAllVolumesHaveAChapterToo","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstVolume_NoProgress","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstVolume_WhenFirstVolumeIsAlsoTaggedAsChapter1_WithProgress","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstVolume_WhenFirstVolumeIsAlsoTaggedAsChapter1Through11_WithProgress","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstNonSpecial","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstNonSpecial2","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstChapter_WhenHasSpecial","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstSpecial","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstChapter_WhenNonRead_LooseLeafChaptersAndVolumes","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnLooseChapter_WhenAllVolumesRead_HasSpecialAndLooseChapters_Unread","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnLooseChapter_WhenAllVolumesAndAFewLooseChaptersRead","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstChapter_WhenAllRead","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstChapter_WhenAllReadAndAllChapters","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstSpecial_WhenAllReadAndAllChapters","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstVolumeChapter_WhenPreExistingProgress","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnUnreadSingleVolume_WhenThereAreSomeSingleVolumesBeforeLooseLeafChapters","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnLastLooseChapter","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","GetContinuePoint_DuplicateIssueNumberBetweenChapters","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldMarkAllChaptersAsRead","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldMarkUptTillChapterNumberAsRead","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldMarkAsRead_OnlyVolumesWithChapter0","non-void-command collaborator",
-"ReaderServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldMarkAsReadAnythingUntil","non-void-command collaborator",
-"MockReadingItemService","entity boundary degenerate","MockReadingItemService","constructor",
-"MockReadingItemService","entity boundary degenerate","GetComicInfo","collaborator incidental",
-"MockReadingItemService","entity boundary degenerate","GetNumberOfPages","collaborator incidental",
-"MockReadingItemService","entity boundary degenerate","GetCoverImage","collaborator incidental",
-"MockReadingItemService","entity boundary degenerate","Extract","stateless",
-"MockReadingItemService","entity boundary degenerate","Parse","property non-void-command collaborator",
-"MockReadingItemService","entity boundary degenerate","ParseFile","property non-void-command collaborator",
-"PersonHelperTests","degenerate","UpdatePeople_ShouldAddNewPeople","controller stateless",
-"PersonHelperTests","degenerate","UpdatePeople_ShouldNotAddDuplicatePeople","controller stateless",
-"PersonHelperTests","degenerate","UpdatePeopleList_NullTags_NoChanges","wrapper stateless",
-"PersonHelperTests","degenerate","UpdatePeopleList_AddNewTag_TagAddedAndOnModifiedCalled","controller stateless",
-"PersonHelperTests","degenerate","UpdatePeopleList_RemoveExistingTag_TagRemovedAndOnModifiedCalled","controller stateless",
-"PersonHelperTests","degenerate","UpdatePeopleList_UpdateExistingTag_OnModifiedCalled","controller stateless",
-"PersonHelperTests","degenerate","UpdatePeopleList_NoChanges_HandleAddAndOnModifiedNotCalled","controller stateless",
-"PersonHelperTests","degenerate","RemovePeople_ShouldRemovePeopleOfSameRole","controller stateless",
-"PersonHelperTests","degenerate","RemovePeople_ShouldRemovePeopleFromBothRoles","controller stateless",
-"PersonHelperTests","degenerate","RemovePeople_ShouldRemovePeopleOfSameRole_WhenNothingPassed","controller stateless",
-"PersonHelperTests","degenerate","KeepOnlySamePeopleBetweenLists","controller stateless",
-"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldAddPerson_WhenPersonDoesNotExist","wrapper stateless",
-"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldNotAddPerson_WhenPersonAlreadyExists","controller stateless",
-"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldNotAddPerson_WhenPersonNameIsNullOrEmpty","wrapper stateless",
-"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldAddPerson_WhenPersonNameIsDifferentButRoleIsSame","wrapper stateless",
-"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldAddPerson_WhenPersonNameIsSameButRoleIsDifferent","wrapper stateless",
-"PersonHelperTests","degenerate","AddPeople_ShouldAddOnlyNonExistingPeople","wrapper stateless",
-"CleanupServiceTests","unclassified","CleanupServiceTests","constructor",
-"CleanupServiceTests","unclassified","ResetDb","non-void-command collaborator",
-"CleanupServiceTests","unclassified","DeleteSeriesCoverImages_ShouldDeleteAll","non-void-command collaborator",
-"CleanupServiceTests","unclassified","DeleteSeriesCoverImages_ShouldNotDeleteLinkedFiles","non-void-command collaborator",
-"CleanupServiceTests","unclassified","DeleteChapterCoverImages_ShouldNotDeleteLinkedFiles","non-void-command collaborator",
-"CleanupServiceTests","unclassified","DeleteReadingListCoverImages_ShouldNotDeleteLinkedFiles","non-void-command collaborator",
-"CleanupServiceTests","unclassified","CleanupCacheDirectory_ClearAllFiles","controller",
-"CleanupServiceTests","unclassified","CleanupCacheDirectory_ClearAllFilesInSubDirectory","controller",
-"CleanupServiceTests","unclassified","CleanupBackups_LeaveOneFile_SinceAllAreExpired","controller",
-"CleanupServiceTests","unclassified","CleanupBackups_LeaveLestExpired","controller",
-"CleanupServiceTests","unclassified","CleanupLogs_LeaveOneFile_SinceAllAreExpired","controller",
-"CleanupServiceTests","unclassified","CleanupLogs_LeaveLestExpired","controller",
-"CleanupServiceTests","unclassified","CleanupDbEntries_CleanupAbandonedChapters","non-void-command collaborator",
-"CleanupServiceTests","unclassified","CleanupDbEntries_RemoveTagsWithoutSeries","non-void-command collaborator",
-"CleanupServiceTests","unclassified","CleanupWantToRead_ShouldRemoveFullyReadSeries","non-void-command collaborator",
-"CleanupServiceTests","unclassified","EnsureChapterProgressIsCapped_ShouldNormalizeProgress","non-void-command collaborator",
-"MetadataServiceTests","empty","MetadataServiceTests","constructor",
-"SeriesFilterTests","boundary degenerate small-class","ResetDb","collaborator incidental",
-"SeriesFilterTests","boundary degenerate small-class","HasLanguage_Works","wrapper stateless",
-"TestBenchmark","boundary degenerate small-class","TestSortSpecialChapters","wrapper stateless",
-"ComicParsingTests","boundary degenerate","ParseComicSeriesTest","wrapper stateless",
-"ComicParsingTests","boundary degenerate","ParseComicVolumeTest","wrapper stateless",
-"ComicParsingTests","boundary degenerate","ParseComicChapterTest","wrapper stateless",
-"ComicParsingTests","boundary degenerate","IsComicSpecialTest","wrapper stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_MultipleSpecials","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_Volume1Chapter1_Volume2_AndLooseChapters","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_LooseChapters_WithSub1_Chapter","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_LooseChapters_WithSub1_Chapter_WithSpecials","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_JustVolumes","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_JustSpecials_WithDecimal","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_JustChaptersAndSpecials","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_VolumesChapters","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_VolumesChaptersAndSpecials","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_VolumesChaptersAndSpecials_Ippo","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_VolumesChapters_WhereVolumeIsNot1","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_LessThanIssue1","controller stateless",
-"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_LessThanIssue1_WithNegative","controller stateless",
-"ParseScannedFilesTests","commander boundary","ParseScannedFilesTests","constructor",
-"ParseScannedFilesTests","commander boundary","ResetDb","non-void-command collaborator",
-"ParseScannedFilesTests","commander boundary","ScanLibrariesForSeries_ShouldFindFiles","non-void-command collaborator",
-"ParseScannedFilesTests","commander boundary","ProcessFiles_ForLibraryMode_OnlyCallsFolderActionForEachTopLevelFolder","non-void-command collaborator",
-"ParseScannedFilesTests","commander boundary","ProcessFiles_ForNonLibraryMode_CallsFolderActionOnce","non-void-command collaborator",
-"ParseScannedFilesTests","commander boundary","ProcessFiles_ShouldCallFolderActionTwice","non-void-command collaborator",
-"ParseScannedFilesTests","commander boundary","ProcessFiles_ShouldCallFolderActionOnce","non-void-command collaborator",
-"PathExtensionsTests","pure-controller degenerate small-class","GetFullPathWithoutExtension_Test","controller stateless",
-"CollectionTagRepositoryTests","entity boundary small-class","CollectionTagRepositoryTests","constructor",
-"CollectionTagRepositoryTests","entity boundary small-class","SeedDb","property non-void-command collaborator",
-"CollectionTagRepositoryTests","entity boundary small-class","ResetDb","non-void-command collaborator",
-"SiteThemeServiceTest","commander boundary","SiteThemeServiceTest","constructor",
-"SiteThemeServiceTest","commander boundary","ResetDb","non-void-command collaborator",
-"SiteThemeServiceTest","commander boundary","UpdateDefault_ShouldThrowOnInvalidId","non-void-command collaborator",
-"SiteThemeServiceTest","commander boundary","GetContent_ShouldReturnContent","non-void-command collaborator",
-"SiteThemeServiceTest","commander boundary","UpdateDefault_ShouldHaveOneDefault","non-void-command collaborator",
-"ParserInfoListExtensions","commander boundary small-class","ParserInfoListExtensions","constructor",
-"ParserInfoListExtensions","commander boundary small-class","HasInfoTest_SuccessWhenSpecial","command collaborator",
-"CacheHelperTests","unclassified","CacheHelperTests","constructor",
-"CacheHelperTests","unclassified","CoverImageExists_DoesFileExist","command",
-"CacheHelperTests","unclassified","CoverImageExists_FileExists","command",
-"CacheHelperTests","unclassified","ShouldUpdateCoverImage_OnFirstRun","command collaborator",
-"CacheHelperTests","unclassified","ShouldUpdateCoverImage_ShouldNotUpdateOnSecondRunWithCoverImageSetNotLocked","command collaborator",
-"CacheHelperTests","unclassified","ShouldUpdateCoverImage_ShouldNotUpdateOnSecondRunWithCoverImageSetNotLocked_2","command collaborator",
-"CacheHelperTests","unclassified","ShouldUpdateCoverImage_ShouldNotUpdateOnSecondRunWithCoverImageSetLocked","command collaborator",
-"CacheHelperTests","unclassified","ShouldUpdateCoverImage_ShouldNotUpdateOnSecondRunWithCoverImageSetLocked_Modified","command collaborator",
-"CacheHelperTests","unclassified","ShouldUpdateCoverImage_CoverImageSetAndReplaced_Modified","controller",
-"CacheHelperTests","unclassified","HasFileNotChangedSinceCreationOrLastScan_NotChangedSinceCreated","controller",
-"CacheHelperTests","unclassified","HasFileNotChangedSinceCreationOrLastScan_NotChangedSinceLastModified","controller",
-"CacheHelperTests","unclassified","HasFileNotChangedSinceCreationOrLastScan_NotChangedSinceLastModified_ForceUpdate","controller",
-"CacheHelperTests","unclassified","IsFileUnmodifiedSinceCreationOrLastScan_ModifiedSinceLastScan","controller",
-"CacheHelperTests","unclassified","HasFileNotChangedSinceCreationOrLastScan_ModifiedSinceLastScan_ButLastModifiedSame","controller",
-"FilterDtoExtensionsTests","pure-controller degenerate","GetSqlFilter_ShouldReturnAllFormats","controller stateless",
-"FilterDtoExtensionsTests","pure-controller degenerate","GetSqlFilter_ShouldReturnAllFormats2","controller stateless",
-"FilterDtoExtensionsTests","pure-controller degenerate","GetSqlFilter_ShouldReturnJust2","controller stateless",
-"AbstractDbTest","entity boundary small-class","AbstractDbTest","constructor",
-"AbstractDbTest","entity boundary small-class","SeedDb","property non-void-command collaborator",
-"ChapterListExtensionsTests","pure-controller degenerate","GetAnyChapterByRange_Test_ShouldBeNull","controller stateless",
-"ChapterListExtensionsTests","pure-controller degenerate","GetAnyChapterByRange_Test_ShouldBeNotNull","controller stateless",
-"ChapterListExtensionsTests","pure-controller degenerate","GetChapterByRange_On_Duplicate_Files_Test_Should_Not_Error","controller stateless",
-"ChapterListExtensionsTests","pure-controller degenerate","GetChapterByRange_On_FilenameChange_ShouldGetChapter","controller stateless",
-"ChapterListExtensionsTests","pure-controller degenerate","GetFirstChapterWithFiles_ShouldReturnAllChapters","controller stateless",
-"ChapterListExtensionsTests","pure-controller degenerate","GetFirstChapterWithFiles_ShouldReturnSecondChapter","controller stateless",
-"ChapterListExtensionsTests","pure-controller degenerate","MinimumReleaseYear_ZeroIfNoChapters","controller stateless",
-"ChapterListExtensionsTests","pure-controller degenerate","MinimumReleaseYear_ZeroIfNoValidDates","controller stateless",
-"ChapterListExtensionsTests","pure-controller degenerate","MinimumReleaseYear_MinValidReleaseYear","controller stateless",
-"SeriesServiceTests","commander boundary","SeriesServiceTests","constructor",
-"SeriesServiceTests","commander boundary","ResetDb","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnSpecials","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnVolumesAndChapters","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnVolumesAndChapters_ButRemove0Chapter","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnCorrectNaming_VolumeTitle","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnChaptersOnly_WhenBookLibrary","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_WhenBookLibrary_ShouldReturnVolumesAndSpecial","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_ShouldSortVolumesByName","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_Manga_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_Comic_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_ComicVine_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_Book_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesDetail_LightNovel_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateRating_ShouldSetRating","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateRating_ShouldUpdateExistingRating","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateRating_ShouldClampRatingAt5","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateRating_ShouldReturnFalseWhenSeriesDoesntExist","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldCreateEmptyMetadata_IfDoesntExist","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldRemoveExistingTags","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldAddNewPerson_NoExistingPeople","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldAddNewPerson_ExistingPeople","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldRemoveExistingPerson","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldLockIfTold","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldNotUpdateReleaseYear_IfLessThan1000","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_BookWithOnlyVolumeNumbers_Test","wrapper stateless",
-"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_Book_Test","wrapper stateless",
-"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_NonBook_ShouldReturnVolume1","wrapper stateless",
-"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_NonBook_ShouldReturnVolume1_WhenFirstChapterIsFloat","controller stateless",
-"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_NonBook_ShouldReturnChapter1_WhenFirstVolumeIs3","wrapper stateless",
-"SeriesServiceTests","commander boundary","UpdateRelatedSeries_ShouldAddAllRelations","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateRelatedSeries_DeleteAllRelations","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateRelatedSeries_DeleteTargetSeries_ShouldSucceed","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateRelatedSeries_DeleteSourceSeries_ShouldSucceed","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","UpdateRelatedSeries_ShouldNotAllowDuplicates","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","GetRelatedSeries_EditionPrequelSequel_ShouldNotHaveParent","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesRelation_ShouldAllowDeleteOnLibrary","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","SeriesRelation_ShouldAllowDeleteOnLibrary_WhenSeriesCrossLibraries","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","FormatChapterNameTest","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","DeleteMultipleSeries_ShouldDeleteSeries","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","GetEstimatedChapterCreationDate_NoNextChapter_InvalidType","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","GetEstimatedChapterCreationDate_NoNextChapter_InvalidPublicationStatus","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","GetEstimatedChapterCreationDate_NoNextChapter_Only2Chapters","non-void-command collaborator",
-"SeriesServiceTests","commander boundary","GetEstimatedChapterCreationDate_NextChapter_ChaptersMonthApart","non-void-command collaborator",
-"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_Series_ShouldRestrictEverythingAboveTeen","controller stateless",
-"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_CollectionTag_ShouldRestrictEverythingAboveTeen","controller stateless",
-"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_Genre_ShouldRestrictEverythingAboveTeen","controller stateless",
-"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_Tag_ShouldRestrictEverythingAboveTeen","controller stateless",
-"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_Person_ShouldRestrictEverythingAboveTeen","controller stateless",
-"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_ReadingList_ShouldRestrictEverythingAboveTeen","controller stateless",
-"ArchiveServiceBenchmark","commander boundary","ArchiveServiceBenchmark","constructor",
-"ArchiveServiceBenchmark","commander boundary","TestGetComicInfo_baseline","command",
-"ArchiveServiceBenchmark","commander boundary","TestGetComicInfo_duplicate","command",
-"ArchiveServiceBenchmark","commander boundary","TestGetComicInfo_outside_root","command",
-"ArchiveServiceBenchmark","commander boundary","ImageSharp_ExtractImage_PNG","command collaborator",
-"ArchiveServiceBenchmark","commander boundary","ImageSharp_ExtractImage_WebP","command collaborator",
-"ArchiveServiceBenchmark","commander boundary","NetVips_ExtractImage_PNG","command collaborator",
-"ArchiveServiceBenchmark","commander boundary","NetVips_ExtractImage_WebP","command collaborator",
-"ComicInfoTests","degenerate","ConvertAgeRatingToEnum_ShouldConvertCorrectly","wrapper stateless",
-"ComicInfoTests","degenerate","ConvertAgeRatingToEnum_ShouldCompareCaseInsensitive","wrapper stateless",
-"ComicInfoTests","degenerate","CalculatedCount_ReturnsVolumeCount","controller stateless",
-"ComicInfoTests","degenerate","CalculatedCount_ReturnsNoCountWhenCountNotSet","controller stateless",
-"ComicInfoTests","degenerate","CalculatedCount_ReturnsNumberCount","controller stateless",
-"ComicInfoTests","degenerate","CalculatedCount_ReturnsNumberCount_OnlyWholeNumber","controller stateless",
-"CronConverterTests","boundary degenerate small-class","ConvertTest","wrapper stateless",
-"OrderableHelperTests","boundary degenerate","ReorderItems_ItemExists_SuccessfullyReorders","wrapper stateless",
-"OrderableHelperTests","boundary degenerate","ReorderItems_ItemNotFound_NoChange","wrapper stateless",
-"OrderableHelperTests","boundary degenerate","ReorderItems_InvalidPosition_NoChange","wrapper stateless",
-"OrderableHelperTests","boundary degenerate","ReorderItems_EmptyList_NoChange","wrapper stateless",
-"OrderableHelperTests","boundary degenerate","ReorderItems_DoubleMove","controller stateless",
-"ImageParserTests","commander boundary","ImageParserTests","constructor",
-"ImageParserTests","commander boundary","Parse_SeriesWithDirectoryName","command collaborator",
-"ImageParserTests","commander boundary","Parse_SeriesWithNoNestedChapter","command collaborator",
-"ImageParserTests","commander boundary","Parse_SeriesWithLooseImages","command collaborator",
-"ImageParserTests","commander boundary","IsApplicable_Fails_WhenNonMatchingLibraryType","command",
-"ImageParserTests","commander boundary","IsApplicable_Success_WhenMatchingLibraryType","command",
-"CacheServiceTests","unclassified","CacheServiceTests","constructor",
-"CacheServiceTests","unclassified","SeedDb","property non-void-command collaborator",
-"CacheServiceTests","unclassified","ResetDB","non-void-command collaborator",
-"CacheServiceTests","unclassified","Ensure_DirectoryAlreadyExists_DontExtractAnything","non-void-command collaborator",
-"CacheServiceTests","unclassified","CleanupChapters_AllFilesShouldBeDeleted","controller",
-"CacheServiceTests","unclassified","GetCachedEpubFile_ShouldReturnFirstEpub","controller",
-"CacheServiceTests","unclassified","GetCachedPagePath_ReturnNullIfNoFiles","controller",
-"CacheServiceTests","unclassified","GetCachedPagePath_GetFileFromFirstFile","controller",
-"CacheServiceTests","unclassified","GetCachedPagePath_GetLastPageFromSingleFile","controller",
-"CacheServiceTests","unclassified","GetCachedPagePath_GetFileFromSecondFile","controller",
-"FileInfoExtensionsTests","boundary small-class","HasFileBeenModifiedSince_ShouldBeFalse","wrapper",
-"FileInfoExtensionsTests","boundary small-class","HasFileBeenModifiedSince_ShouldBeTrue","wrapper",
-"ParserBenchmarks","unclassified","ParserBenchmarks","constructor",
-"ParserBenchmarks","unclassified","TestNormalizeName","wrapper",
-"ParserBenchmarks","unclassified","TestIsEpub","wrapper",
-"ParserBenchmarks","unclassified","TestIsEpub_New","wrapper",
-"ParserBenchmarks","unclassified","Test_CharacterReplace","controller",
-"ParserBenchmarks","unclassified","Test_StringReplace","controller",
-"ParserInfoHelperTests","boundary degenerate small-class","SeriesHasMatchingParserInfoFormat_ShouldBeFalse","wrapper stateless",
-"ParserInfoHelperTests","boundary degenerate small-class","SeriesHasMatchingParserInfoFormat_ShouldBeTrue","wrapper stateless",
-"GenreHelperTests","degenerate","UpdateGenre_ShouldAddNewGenre","controller stateless",
-"GenreHelperTests","degenerate","UpdateGenre_ShouldNotAddDuplicateGenre","controller stateless",
-"GenreHelperTests","degenerate","AddGenre_ShouldAddOnlyNonExistingGenre","wrapper stateless",
-"GenreHelperTests","degenerate","KeepOnlySamePeopleBetweenLists","controller stateless",
-"GenreHelperTests","degenerate","RemoveEveryoneIfNothingInRemoveAllExcept","controller stateless",
-"DefaultParserTests","commander boundary","DefaultParserTests","constructor",
-"DefaultParserTests","commander boundary","ParseFromFallbackFolders_FallbackShouldParseSeries","command collaborator",
-"DefaultParserTests","commander boundary","ParseFromFallbackFolders_ShouldUseExistingSeriesName","command collaborator",
-"DefaultParserTests","commander boundary","ParseFromFallbackFolders_ShouldUseExistingSeriesName_NewScanLoop","command collaborator",
-"DefaultParserTests","commander boundary","Parse_ParseInfo_Manga","command collaborator",
-"DefaultParserTests","commander boundary","Parse_ParseInfo_Manga_ImageOnly","command collaborator",
-"DefaultParserTests","commander boundary","Parse_ParseInfo_Manga_WithSpecialsFolder","controller stateless",
-"DefaultParserTests","commander boundary","Parse_ParseInfo_Comic","command collaborator",
-"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_ArchiveFormat","controller stateless",
-"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_ChoosesVolume1_WhenHalf","controller stateless",
-"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_EpubFormat","controller stateless",
-"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_PdfFormat","controller stateless",
-"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_ImageFormat","controller stateless",
-"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_ImageFormat_NoSpecials","controller stateless",
-"BookServiceTests","commander boundary","BookServiceTests","constructor",
-"BookServiceTests","commander boundary","GetNumberOfPagesTest","command collaborator",
-"BookServiceTests","commander boundary","ShouldHaveComicInfo","command collaborator",
-"BookServiceTests","commander boundary","ShouldHaveComicInfo_WithAuthors","command collaborator",
-"BookServiceTests","commander boundary","ShouldParseAsVolumeGroup_WithoutSeriesIndex","command collaborator",
-"BookServiceTests","commander boundary","ShouldParseAsVolumeGroup_WithSeriesIndex","command collaborator",
-"ArchiveServiceTests","commander boundary","ArchiveServiceTests","constructor",
-"ArchiveServiceTests","commander boundary","ArchiveNeedsFlatteningTest","command collaborator",
-"ArchiveServiceTests","commander boundary","IsValidArchiveTest","command collaborator",
-"ArchiveServiceTests","commander boundary","GetNumberOfPagesFromArchiveTest","command collaborator",
-"ArchiveServiceTests","commander boundary","CanOpenArchive","command collaborator",
-"ArchiveServiceTests","commander boundary","CanExtractArchive","command collaborator",
-"ArchiveServiceTests","commander boundary","GetCoverImage_Default_Test","command collaborator",
-"ArchiveServiceTests","commander boundary","GetCoverImage_SharpCompress_Test","command collaborator",
-"ArchiveServiceTests","commander boundary","CanParseCoverImage","controller",
-"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo","command collaborator",
-"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_CanParseUmlaut","command collaborator",
-"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_WithAuthors","command collaborator",
-"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_TopLevelFileOnly","command collaborator",
-"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_OutsideRoot","command collaborator",
-"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_OutsideRoot_SharpCompress","command collaborator",
-"ArchiveServiceTests","commander boundary","CanParseComicInfo","command collaborator",
-"ArchiveServiceTests","commander boundary","CanParseComicInfo_DefaultNumberIsBlank","command collaborator",
-"ArchiveServiceTests","commander boundary","CreateZipForDownloadTest","wrapper stateless",
-"EnumerableExtensionsTests","pure-controller degenerate small-class","RestrictAgainstAgeRestriction_ShouldRestrictEverythingAboveTeen","controller stateless",
-"RateLimiterTests","pure-controller degenerate","AcquireTokens_Successful","controller stateless",
-"RateLimiterTests","pure-controller degenerate","AcquireTokens_ExceedLimit","controller stateless",
-"RateLimiterTests","pure-controller degenerate","AcquireTokens_Refill","controller stateless",
-"RateLimiterTests","pure-controller degenerate","AcquireTokens_Refill_WithOff","controller stateless",
-"RateLimiterTests","pure-controller degenerate","AcquireTokens_MultipleKeys","controller stateless",
-"BookParserTests","commander small-class","BookParserTests","constructor",
-"BookParserTests","commander small-class","IsApplicable_Fails_WhenNonMatchingLibraryType","command",
-"BookParserTests","commander small-class","IsApplicable_Success_WhenMatchingLibraryType","command",
-"PdfParserTests","commander","PdfParserTests","constructor",
-"PdfParserTests","commander","Parse_Book_SeriesWithDirectoryName","command collaborator",
-"PdfParserTests","commander","IsApplicable_Fails_WhenNonMatchingLibraryType","command",
-"PdfParserTests","commander","IsApplicable_Success_WhenMatchingLibraryType","command",
-"ScrobblingServiceTests","boundary degenerate small-class","CanParseWeblink_AniList","wrapper stateless",
-"ScrobblingServiceTests","boundary degenerate small-class","CanParseWeblink_MangaDex","wrapper stateless",
-"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_SameFormat","wrapper stateless",
-"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_NullName","wrapper stateless",
-"SeriesHelperTests","boundary degenerate","FindSeries_ShouldNotFind_WrongFormat","wrapper stateless",
-"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_UsingOriginalName","wrapper stateless",
-"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_UsingLocalizedName","wrapper stateless",
-"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_UsingLocalizedName_2","wrapper stateless",
-"SeriesHelperTests","boundary degenerate","RemoveMissingSeries_Should_RemoveSeries","controller stateless",
-"SmartFilterHelperTests","degenerate","Test_ShouldMigrateFilter","wrapper stateless",
-"SmartFilterHelperTests","degenerate","Test_Decode","controller stateless",
-"SmartFilterHelperTests","degenerate","Test_Decode2","wrapper stateless",
-"SmartFilterHelperTests","degenerate","Test_EncodeDecode","controller stateless",
-"SmartFilterHelperTests","degenerate","Test_EncodeDecode_MultipleValues_Contains","controller stateless",
-"SmartFilterHelperTests","degenerate","MigrationWorks","wrapper stateless",
-"SeriesRepositoryTests","entity commander boundary","SeriesRepositoryTests","constructor",
-"SeriesRepositoryTests","entity commander boundary","SeedDb","property non-void-command collaborator",
-"SeriesRepositoryTests","entity commander boundary","ResetDb","non-void-command collaborator",
-"SeriesRepositoryTests","entity commander boundary","SetupSeriesData","non-void-command collaborator",
-"SeriesRepositoryTests","entity commander boundary","GetFullSeriesByAnyName_Should","non-void-command collaborator",
-"BasicParserTests","commander boundary","BasicParserTests","constructor",
-"BasicParserTests","commander boundary","Parse_MangaLibrary_JustCover_ShouldReturnNull","command collaborator",
-"BasicParserTests","commander boundary","Parse_MangaLibrary_OtherImage_ShouldReturnNull","command collaborator",
-"BasicParserTests","commander boundary","Parse_MangaLibrary_VolumeAndChapterInFilename","command collaborator",
-"BasicParserTests","commander boundary","Parse_MangaLibrary_JustVolumeInFilename","command collaborator",
-"BasicParserTests","commander boundary","Parse_MangaLibrary_JustChapterInFilename","command collaborator",
-"BasicParserTests","commander boundary","Parse_MangaLibrary_SpecialMarkerInFilename","command collaborator",
-"BasicParserTests","commander boundary","Parse_MangaLibrary_SpecialInFilename","command collaborator",
-"BasicParserTests","commander boundary","Parse_MangaLibrary_EditionInFilename","command collaborator",
-"BasicParserTests","commander boundary","Parse_MangaBooks_JustVolumeInFilename","command collaborator",
-"BasicParserTests","commander boundary","IsApplicable_Fails_WhenNonMatchingLibraryType","command",
-"BasicParserTests","commander boundary","IsApplicable_Success_WhenMatchingLibraryType","command",
-"BackupServiceTests","unclassified","BackupServiceTests","constructor",
-"BackupServiceTests","unclassified","SeedDb","property non-void-command collaborator",
-"BackupServiceTests","unclassified","ResetDB","non-void-command collaborator",
-"BackupServiceTests","unclassified","GetLogFiles_ExpectAllFiles_NoRollingFiles","controller",
-"BackupServiceTests","unclassified","GetLogFiles_ExpectAllFiles_WithRollingFiles","controller",
-"ComicVineParserTests","commander boundary","ComicVineParserTests","constructor",
-"ComicVineParserTests","commander boundary","Parse_SeriesWithComicInfo","wrapper stateless",
-"ComicVineParserTests","commander boundary","Parse_SeriesWithDirectoryNameAsSeriesYear","command collaborator",
-"ComicVineParserTests","commander boundary","Parse_SeriesWithADirectoryNameAsSeriesYear","command collaborator",
-"ComicVineParserTests","commander boundary","Parse_FallbackToDirectoryNameOnly","command collaborator",
-"ComicVineParserTests","commander boundary","IsApplicable_Fails_WhenNonMatchingLibraryType","command",
-"ComicVineParserTests","commander boundary","IsApplicable_Success_WhenMatchingLibraryType","command",
-"BookParsingTests","boundary degenerate small-class","ParseSeriesTest","wrapper stateless",
-"BookParsingTests","boundary degenerate small-class","ParseVolumeTest","wrapper stateless",
-"ParserInfoTests","boundary degenerate small-class","MergeFromTest","wrapper stateless",
-"ParserInfoTests","boundary degenerate small-class","MergeFromTest2","wrapper stateless",
-"ImageParsingTests","commander boundary small-class","ImageParsingTests","constructor",
-"ImageParsingTests","commander boundary small-class","Parse_ParseInfo_Manga_ImageOnly","command collaborator",
-"MangaParsingTests","boundary degenerate","MangaParsingTests","constructor",
-"MangaParsingTests","boundary degenerate","ParseVolumeTest","wrapper stateless",
-"MangaParsingTests","boundary degenerate","ParseSeriesTest","wrapper stateless",
-"MangaParsingTests","boundary degenerate","ParseChaptersTest","wrapper stateless",
-"MangaParsingTests","boundary degenerate","ParseEditionTest","wrapper stateless",
-"MangaParsingTests","boundary degenerate","IsMangaSpecialTest","wrapper stateless",
-"MangaParsingTests","boundary degenerate","ParseFormatTest","wrapper stateless",
-"DeviceServiceDbTests","commander boundary","DeviceServiceDbTests","constructor",
-"DeviceServiceDbTests","commander boundary","ResetDb","non-void-command collaborator",
-"DeviceServiceDbTests","commander boundary","CreateDevice_Succeeds","non-void-command collaborator",
-"DeviceServiceDbTests","commander boundary","CreateDevice_ThrowsErrorWhenEmailDoesntMatchRules","non-void-command collaborator",
-"TagHelperTests","degenerate","UpdateTag_ShouldAddNewTag","controller stateless",
-"TagHelperTests","degenerate","UpdateTag_ShouldNotAddDuplicateTag","controller stateless",
-"TagHelperTests","degenerate","AddTag_ShouldAddOnlyNonExistingTag","wrapper stateless",
-"TagHelperTests","degenerate","KeepOnlySamePeopleBetweenLists","controller stateless",
-"TagHelperTests","degenerate","RemoveEveryoneIfNothingInRemoveAllExcept","controller stateless",
-"DirectoryServiceTests","degenerate","TraverseTreeParallelForEach_JustArchives_ShouldBe28","controller",
-"DirectoryServiceTests","degenerate","TraverseTreeParallelForEach_LongDirectory_ShouldBe1","controller",
-"DirectoryServiceTests","degenerate","TraverseTreeParallelForEach_DontCountExcludedDirectories_ShouldBe28","controller",
-"DirectoryServiceTests","degenerate","GetFilesWithCertainExtensions_ShouldBe10","controller stateless",
-"DirectoryServiceTests","degenerate","GetFilesWithCertainExtensions_OnlyArchives","controller stateless",
-"DirectoryServiceTests","degenerate","GetFiles_ArchiveOnly_ShouldBe10","controller stateless",
-"DirectoryServiceTests","degenerate","GetFiles_All_ShouldBe11","controller stateless",
-"DirectoryServiceTests","degenerate","GetFiles_All_MixedPathSeparators","controller stateless",
-"DirectoryServiceTests","degenerate","GetFiles_All_TopDirectoryOnly_ShouldBe10","controller stateless",
-"DirectoryServiceTests","degenerate","GetFiles_WithSubDirectories_ShouldCountOnlyTopLevel","controller stateless",
-"DirectoryServiceTests","degenerate","GetFiles_ShouldNotReturnFilesThatAreExcluded","controller stateless",
-"DirectoryServiceTests","degenerate","GetFiles_WithCustomRegex_ShouldBe10","controller stateless",
-"DirectoryServiceTests","degenerate","GetFiles_WithCustomRegexThatContainsFolder_ShouldBe10","controller stateless",
-"DirectoryServiceTests","degenerate","GetTotalSize_ShouldBeGreaterThan0","controller stateless",
-"DirectoryServiceTests","degenerate","CopyFileToDirectory_ShouldCopyFileToNonExistentDirectory","controller stateless",
-"DirectoryServiceTests","degenerate","CopyFileToDirectory_ShouldCopyFileToExistingDirectoryAndOverwrite","controller stateless",
-"DirectoryServiceTests","degenerate","CopyDirectoryToDirectory_ShouldThrowWhenSourceDestinationDoesntExist","controller stateless",
-"DirectoryServiceTests","degenerate","CopyDirectoryToDirectory_ShouldCopyEmptyDirectory","controller stateless",
-"DirectoryServiceTests","degenerate","CopyDirectoryToDirectory_ShouldCopyAllFileAndNestedDirectoriesOver","controller stateless",
-"DirectoryServiceTests","degenerate","IsDriveMounted_DriveIsNotMounted","controller stateless",
-"DirectoryServiceTests","degenerate","IsDriveMounted_DriveIsMounted","controller stateless",
-"DirectoryServiceTests","degenerate","IsDirectoryEmpty_DirectoryIsEmpty","controller stateless",
-"DirectoryServiceTests","degenerate","IsDirectoryEmpty_DirectoryIsNotEmpty","controller stateless",
-"DirectoryServiceTests","degenerate","ExistOrCreate_ShouldCreate","controller stateless",
-"DirectoryServiceTests","degenerate","ClearAndDeleteDirectory_ShouldDeleteSelfAndAllFilesAndFolders","controller stateless",
-"DirectoryServiceTests","degenerate","ClearDirectory_ShouldDeleteAllFilesAndFolders_LeaveSelf","controller stateless",
-"DirectoryServiceTests","degenerate","ClearDirectory_ShouldDeleteFoldersWithOneFileInside","controller stateless",
-"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveAllFiles","controller stateless",
-"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveAllFilesAndNotFailOnNonExistentFiles","controller stateless",
-"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveAllFiles_InclFilesInNestedFolders","controller stateless",
-"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveAllFiles_WithPrepend","controller stateless",
-"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveOnlyFilesThatExist","controller stateless",
-"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldAppendWhenTargetFileExists","controller stateless",
-"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldRenameFilesToPassedNames","controller stateless",
-"DirectoryServiceTests","degenerate","ListDirectory_EmptyForNonExistent","controller stateless",
-"DirectoryServiceTests","degenerate","ListDirectory_ListsAllDirectories","controller stateless",
-"DirectoryServiceTests","degenerate","ListDirectory_ListsOnlyNonSystemAndHiddenOnly","controller stateless",
-"DirectoryServiceTests","degenerate","ReadFileAsync_ShouldGetBytes","controller stateless",
-"DirectoryServiceTests","degenerate","ReadFileAsync_ShouldReadNothingFromNonExistent","controller stateless",
-"DirectoryServiceTests","degenerate","GetFoldersTillRoot_Test","controller stateless",
-"DirectoryServiceTests","degenerate","RemoveNonImages","controller stateless",
-"DirectoryServiceTests","degenerate","Flatten_ShouldDoNothing","controller stateless",
-"DirectoryServiceTests","degenerate","Flatten_ShouldFlatten","controller stateless",
-"DirectoryServiceTests","degenerate","Flatten_ShouldFlatten_WithoutMacosx","controller stateless",
-"DirectoryServiceTests","degenerate","CheckWriteAccess_ShouldHaveAccess","controller stateless",
-"DirectoryServiceTests","degenerate","GetHumanReadableBytesTest","wrapper stateless",
-"DirectoryServiceTests","degenerate","ScanFiles_ShouldFindNoFiles_AllAreIgnored","controller stateless",
-"DirectoryServiceTests","degenerate","ScanFiles_ShouldFindNoNestedFiles_IgnoreNestedFiles","controller stateless",
-"DirectoryServiceTests","degenerate","ScanFiles_NestedIgnore_IgnoreNestedFilesInOneDirectoryOnly","controller stateless",
-"DirectoryServiceTests","degenerate","ScanFiles_ShouldFindAllFiles","controller stateless",
-"DirectoryServiceTests","degenerate","GetAllDirectories_ShouldFindAllNestedDirectories","controller stateless",
-"DirectoryServiceTests","degenerate","GetParentDirectoryName_ShouldFindParentOfFiles","controller stateless",
-"DirectoryServiceTests","degenerate","GetParentDirectoryName_ShouldFindParentOfDirectories","controller stateless",
-"DirectoryServiceTests","degenerate","GetLastWriteTime_ShouldReturnMaxTime_IfNoFiles","controller stateless",
-"ParsingTests","boundary degenerate","ShouldWork","wrapper stateless",
-"ParsingTests","boundary degenerate","CleanAuthorTest","wrapper stateless",
-"ParsingTests","boundary degenerate","CleanSpecialTitleTest","wrapper stateless",
-"ParsingTests","boundary degenerate","HasSpecialTest","wrapper stateless",
-"ParsingTests","boundary degenerate","ParseSpecialIndexTest","wrapper stateless",
-"ParsingTests","boundary degenerate","RemoveLeadingZeroesTest","wrapper stateless",
-"ParsingTests","boundary degenerate","PadZerosTest","wrapper stateless",
-"ParsingTests","boundary degenerate","CleanTitleTest","wrapper stateless",
-"ParsingTests","boundary degenerate","FontCssRewriteMatches","wrapper stateless",
-"ParsingTests","boundary degenerate","IsArchiveTest","wrapper stateless",
-"ParsingTests","boundary degenerate","IsBookTest","wrapper stateless",
-"ParsingTests","boundary degenerate","IsEpubTest","wrapper stateless",
-"ParsingTests","boundary degenerate","MinimumNumberFromRangeTest","wrapper stateless",
-"ParsingTests","boundary degenerate","MaximumNumberFromRangeTest","wrapper stateless",
-"ParsingTests","boundary degenerate","NormalizeTest","wrapper stateless",
-"ParsingTests","boundary degenerate","IsImageTest","wrapper stateless",
-"ParsingTests","boundary degenerate","IsCoverImageTest","wrapper stateless",
-"ParsingTests","boundary degenerate","HasBlacklistedFolderInPathTest","wrapper stateless",
-"ParsingTests","boundary degenerate","NormalizePathTest","wrapper stateless",
-"ParsingTests","boundary degenerate","BalancedParenTest_Matches","wrapper stateless",
-"ParsingTests","boundary degenerate","BalancedParenTest_DoesNotMatch","wrapper stateless",
-"ParsingTests","boundary degenerate","BalancedBracketTest_Matches","wrapper stateless",
-"ParsingTests","boundary degenerate","BalancedBracketTest_DoesNotMatch","wrapper stateless",
-"BookmarkServiceTests","entity commander boundary","BookmarkServiceTests","constructor",
-"BookmarkServiceTests","entity commander boundary","Create","property factory wrapper",
-"BookmarkServiceTests","entity commander boundary","SeedDb","property non-void-command collaborator",
-"BookmarkServiceTests","entity commander boundary","ResetDB","non-void-command collaborator",
-"BookmarkServiceTests","entity commander boundary","BookmarkPage_ShouldCopyTheFileAndUpdateDB","non-void-command collaborator",
-"BookmarkServiceTests","entity commander boundary","BookmarkPage_ShouldDeleteFileOnUnbookmark","non-void-command collaborator",
-"BookmarkServiceTests","entity commander boundary","DeleteBookmarkFiles_ShouldDeleteOnlyPassedFiles","non-void-command collaborator",
-"BookmarkServiceTests","entity commander boundary","GetBookmarkFilesById_ShouldMatchActualFiles","non-void-command collaborator",
-"BookmarkServiceTests","entity commander boundary","ShouldNotDeleteBookmark_OnChapterDeletion","non-void-command collaborator",
-"BookmarkServiceTests","entity commander boundary","ShouldNotDeleteBookmark_OnVolumeDeletion","non-void-command collaborator",
-"MockReadingItemServiceForCacheService","boundary degenerate","MockReadingItemServiceForCacheService","constructor",
-"MockReadingItemServiceForCacheService","boundary degenerate","GetComicInfo","collaborator incidental",
-"MockReadingItemServiceForCacheService","boundary degenerate","GetNumberOfPages","collaborator incidental",
-"MockReadingItemServiceForCacheService","boundary degenerate","GetCoverImage","collaborator incidental",
-"MockReadingItemServiceForCacheService","boundary degenerate","Extract","stateless",
-"MockReadingItemServiceForCacheService","boundary degenerate","Parse","collaborator stateless",
-"MockReadingItemServiceForCacheService","boundary degenerate","ParseFile","collaborator stateless",
-"CollectionTagServiceTests","commander boundary","CollectionTagServiceTests","constructor",
-"CollectionTagServiceTests","commander boundary","ResetDb","non-void-command collaborator",
-"CollectionTagServiceTests","commander boundary","SeedSeries","non-void-command collaborator",
-"CollectionTagServiceTests","commander boundary","UpdateTag_ShouldUpdateFields","non-void-command collaborator",
-"CollectionTagServiceTests","commander boundary","UpdateTag_ShouldNotChangeTitle_WhenNotKavitaSource","non-void-command collaborator",
-"CollectionTagServiceTests","commander boundary","RemoveTagFromSeries_RemoveSeriesFromTag","non-void-command collaborator",
-"CollectionTagServiceTests","commander boundary","RemoveTagFromSeries_RemoveSeriesFromTag_UpdatesRating","non-void-command collaborator",
-"CollectionTagServiceTests","commander boundary","RemoveTagFromSeries_RemoveSeriesFromTag_DeleteTagWhenNoSeriesLeft","non-void-command collaborator",
-"FileSystemTests","pure-controller degenerate small-class","FileHasNotBeenModifiedSinceCreation","controller stateless",
-"FileSystemTests","pure-controller degenerate small-class","FileHasBeenModifiedSinceCreation","controller stateless",
+"TachiyomiServiceTests","entity commander boundary","TachiyomiServiceTests","constructor"
+"TachiyomiServiceTests","entity commander boundary","SeedDb","property non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","ResetDb","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnChapter_NoProgress","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnMaxChapter_CompletelyRead","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnHighestChapter_Progress","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnEncodedVolume_Progress","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnEncodedVolume_Progress2","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","GetLatestChapter_ShouldReturnEncodedYearlyVolume_Progress","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldReturnChapter_NoProgress","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldReturnMaxChapter_CompletelyRead","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldReturnHighestChapter_Progress","non-void-command collaborator"
+"TachiyomiServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldReturnEncodedVolume_Progress","non-void-command collaborator"
+"ScannerServiceTests","boundary degenerate small-class","FindSeriesNotOnDisk_Should_Remove1","wrapper stateless"
+"ScannerServiceTests","boundary degenerate small-class","FindSeriesNotOnDisk_Should_RemoveNothing_Test","wrapper stateless"
+"ReadingListServiceTests","entity commander boundary","ReadingListServiceTests","constructor"
+"ReadingListServiceTests","entity commander boundary","SeedDb","property non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","ResetDb","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","AddChaptersToReadingList_ShouldAddFirstItem_AsOrderZero","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","AddChaptersToReadingList_ShouldNewItems_AfterLastOrder","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","UpdateReadingListItemPosition_MoveLastToFirst_TwoItemsShouldShift","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","UpdateReadingListItemPosition_MoveLastToFirst_TwoItemsShouldShift_ThenDeleteSecond_OrderShouldBeCorrect","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","DeleteReadingListItem_DeleteFirstItem_SecondShouldBecomeFirst","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","RemoveFullyReadItems_RemovesAllFullyReadItems","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CalculateAgeRating_ShouldUpdateToUnknown_IfNoneSet","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CalculateAgeRating_ShouldUpdateToMax","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CalculateStartAndEndDates_ShouldBeNothing_IfNothing","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CalculateStartAndEndDates_ShouldBeSomething_IfChapterHasSet","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","FormatTitle_ShouldFormatCorrectly","wrapper stateless"
+"ReadingListServiceTests","entity commander boundary","CreateReadingList_SetupBaseData","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CreateReadingList_ShouldCreate_WhenNoOtherListsOnUser","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CreateReadingList_ShouldNotCreate_WhenExistingList","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CreateReadingList_ShouldNotCreate_WhenPromotedListExists","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","DeleteReadingList_ShouldDelete","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","UserHasReadingListAccess_ShouldWorkIfTheirList","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","UserHasReadingListAccess_ShouldNotWork_IfNotTheirList","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","UserHasReadingListAccess_ShouldWork_IfNotTheirList_ButUserIsAdmin","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","ValidateCblFile_ShouldFail_UserHasAccessToNoSeries","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","ValidateCblFile_ShouldFail_ServerHasNoSeries","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CreateReadingListFromCBL_ShouldCreateList","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CreateReadingListFromCBL_ShouldCreateList_ButOnlyIncludeSeriesThatUserHasAccessTo","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CreateReadingListFromCBL_ShouldUpdateAnExistingList","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","CreateReadingListFromCBL_ShouldCreateList_WithAnnuals","non-void-command collaborator"
+"ReadingListServiceTests","entity commander boundary","SetupData","property non-void-command factory collaborator"
+"ReaderServiceTests","entity commander boundary","ReaderServiceTests","constructor"
+"ReaderServiceTests","entity commander boundary","SeedDb","property non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","ResetDb","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","FormatBookmarkFolderPathTest","wrapper stateless"
+"ReaderServiceTests","entity commander boundary","CapPageToChapterTest","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","SaveReadingProgress_ShouldCreateNewEntity","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","SaveReadingProgress_ShouldUpdateExisting","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","MarkChaptersAsReadTest","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","MarkChapterAsUnreadTest","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldGetNextVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldGetNextVolume_WhenUsingRanges","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldGetNextVolume_OnlyFloats","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoNextVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoNextVolumeWithFloat","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoChaptersFromVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoNextChapter_WhenVolumesAreOnlyOneChapter_AndNextChapterIs0","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromSpecial","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromLastChapter_NoSpecials","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromLastChapter_NoSpecials_FirstIsVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromLastChapter_WithSpecials","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldMoveFromVolumeToSpecial_NoLooseLeafChapters","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldMoveFromLooseLeafChapterToSpecial","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldFindNoNextChapterFromSpecial_WithVolumeAndLooseLeafChapters","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldMoveFromSpecialToSpecial","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetNextChapterIdAsync_ShouldRollIntoNextVolume_WhenAllVolumesHaveAChapterToo","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldGetPrevVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldGetPrevVolume_WithFloatVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldGetPrevVolume_2","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldRollIntoPrevVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldMoveFromSpecialToVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromVolumeWithZeroChapter","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromVolumeWithZeroChapterAndHasNormalChapters","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromVolumeWithZeroChapterAndHasNormalChapters2","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldFindNoPrevChapterFromChapter","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldMoveFromSpecialToSpecial","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldMoveFromChapterToVolume","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetPrevChapterIdAsync_ShouldRollIntoPrevVolume_WhenAllVolumesHaveAChapterToo","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstVolume_NoProgress","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstVolume_WhenFirstVolumeIsAlsoTaggedAsChapter1_WithProgress","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstVolume_WhenFirstVolumeIsAlsoTaggedAsChapter1Through11_WithProgress","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstNonSpecial","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstNonSpecial2","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstChapter_WhenHasSpecial","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstSpecial","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstChapter_WhenNonRead_LooseLeafChaptersAndVolumes","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnLooseChapter_WhenAllVolumesRead_HasSpecialAndLooseChapters_Unread","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnLooseChapter_WhenAllVolumesAndAFewLooseChaptersRead","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstChapter_WhenAllRead","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstChapter_WhenAllReadAndAllChapters","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstSpecial_WhenAllReadAndAllChapters","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnFirstVolumeChapter_WhenPreExistingProgress","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnUnreadSingleVolume_WhenThereAreSomeSingleVolumesBeforeLooseLeafChapters","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_ShouldReturnLastLooseChapter","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","GetContinuePoint_DuplicateIssueNumberBetweenChapters","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldMarkAllChaptersAsRead","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldMarkUptTillChapterNumberAsRead","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldMarkAsRead_OnlyVolumesWithChapter0","non-void-command collaborator"
+"ReaderServiceTests","entity commander boundary","MarkChaptersUntilAsRead_ShouldMarkAsReadAnythingUntil","non-void-command collaborator"
+"SmartFilterHelperTests","degenerate","Test_ShouldMigrateFilter","wrapper stateless"
+"SmartFilterHelperTests","degenerate","Test_Decode","controller stateless"
+"SmartFilterHelperTests","degenerate","Test_Decode2","wrapper stateless"
+"SmartFilterHelperTests","degenerate","Test_EncodeDecode","controller stateless"
+"SmartFilterHelperTests","degenerate","Test_EncodeDecode_MultipleValues_Contains","controller stateless"
+"SmartFilterHelperTests","degenerate","MigrationWorks","wrapper stateless"
+"SeriesRepositoryTests","entity commander boundary","SeriesRepositoryTests","constructor"
+"SeriesRepositoryTests","entity commander boundary","SeedDb","property non-void-command collaborator"
+"SeriesRepositoryTests","entity commander boundary","ResetDb","non-void-command collaborator"
+"SeriesRepositoryTests","entity commander boundary","SetupSeriesData","non-void-command collaborator"
+"SeriesRepositoryTests","entity commander boundary","GetFullSeriesByAnyName_Should","non-void-command collaborator"
+"ScrobblingServiceTests","boundary degenerate small-class","CanParseWeblink_AniList","wrapper stateless"
+"ScrobblingServiceTests","boundary degenerate small-class","CanParseWeblink_MangaDex","wrapper stateless"
+"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_SameFormat","wrapper stateless"
+"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_NullName","wrapper stateless"
+"SeriesHelperTests","boundary degenerate","FindSeries_ShouldNotFind_WrongFormat","wrapper stateless"
+"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_UsingOriginalName","wrapper stateless"
+"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_UsingLocalizedName","wrapper stateless"
+"SeriesHelperTests","boundary degenerate","FindSeries_ShouldFind_UsingLocalizedName_2","wrapper stateless"
+"SeriesHelperTests","boundary degenerate","RemoveMissingSeries_Should_RemoveSeries","controller stateless"
+"RateLimiterTests","pure-controller degenerate","AcquireTokens_Successful","controller stateless"
+"RateLimiterTests","pure-controller degenerate","AcquireTokens_ExceedLimit","controller stateless"
+"RateLimiterTests","pure-controller degenerate","AcquireTokens_Refill","controller stateless"
+"RateLimiterTests","pure-controller degenerate","AcquireTokens_Refill_WithOff","controller stateless"
+"RateLimiterTests","pure-controller degenerate","AcquireTokens_MultipleKeys","controller stateless"
+"BookParserTests","commander small-class","BookParserTests","constructor"
+"BookParserTests","commander small-class","IsApplicable_Fails_WhenNonMatchingLibraryType","command"
+"BookParserTests","commander small-class","IsApplicable_Success_WhenMatchingLibraryType","command"
+"PdfParserTests","commander","PdfParserTests","constructor"
+"PdfParserTests","commander","Parse_Book_SeriesWithDirectoryName","command collaborator"
+"PdfParserTests","commander","IsApplicable_Fails_WhenNonMatchingLibraryType","command"
+"PdfParserTests","commander","IsApplicable_Success_WhenMatchingLibraryType","command"
+"PersonHelperTests","degenerate","UpdatePeople_ShouldAddNewPeople","controller stateless"
+"PersonHelperTests","degenerate","UpdatePeople_ShouldNotAddDuplicatePeople","controller stateless"
+"PersonHelperTests","degenerate","UpdatePeopleList_NullTags_NoChanges","wrapper stateless"
+"PersonHelperTests","degenerate","UpdatePeopleList_AddNewTag_TagAddedAndOnModifiedCalled","controller stateless"
+"PersonHelperTests","degenerate","UpdatePeopleList_RemoveExistingTag_TagRemovedAndOnModifiedCalled","controller stateless"
+"PersonHelperTests","degenerate","UpdatePeopleList_UpdateExistingTag_OnModifiedCalled","controller stateless"
+"PersonHelperTests","degenerate","UpdatePeopleList_NoChanges_HandleAddAndOnModifiedNotCalled","controller stateless"
+"PersonHelperTests","degenerate","RemovePeople_ShouldRemovePeopleOfSameRole","controller stateless"
+"PersonHelperTests","degenerate","RemovePeople_ShouldRemovePeopleFromBothRoles","controller stateless"
+"PersonHelperTests","degenerate","RemovePeople_ShouldRemovePeopleOfSameRole_WhenNothingPassed","controller stateless"
+"PersonHelperTests","degenerate","KeepOnlySamePeopleBetweenLists","controller stateless"
+"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldAddPerson_WhenPersonDoesNotExist","wrapper stateless"
+"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldNotAddPerson_WhenPersonAlreadyExists","controller stateless"
+"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldNotAddPerson_WhenPersonNameIsNullOrEmpty","wrapper stateless"
+"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldAddPerson_WhenPersonNameIsDifferentButRoleIsSame","wrapper stateless"
+"PersonHelperTests","degenerate","AddPersonIfNotExists_ShouldAddPerson_WhenPersonNameIsSameButRoleIsDifferent","wrapper stateless"
+"PersonHelperTests","degenerate","AddPeople_ShouldAddOnlyNonExistingPeople","wrapper stateless"
+"CleanupServiceTests","unclassified","CleanupServiceTests","constructor"
+"CleanupServiceTests","unclassified","ResetDb","non-void-command collaborator"
+"CleanupServiceTests","unclassified","DeleteSeriesCoverImages_ShouldDeleteAll","non-void-command collaborator"
+"CleanupServiceTests","unclassified","DeleteSeriesCoverImages_ShouldNotDeleteLinkedFiles","non-void-command collaborator"
+"CleanupServiceTests","unclassified","DeleteChapterCoverImages_ShouldNotDeleteLinkedFiles","non-void-command collaborator"
+"CleanupServiceTests","unclassified","DeleteReadingListCoverImages_ShouldNotDeleteLinkedFiles","non-void-command collaborator"
+"CleanupServiceTests","unclassified","CleanupCacheDirectory_ClearAllFiles","controller"
+"CleanupServiceTests","unclassified","CleanupCacheDirectory_ClearAllFilesInSubDirectory","controller"
+"CleanupServiceTests","unclassified","CleanupBackups_LeaveOneFile_SinceAllAreExpired","controller"
+"CleanupServiceTests","unclassified","CleanupBackups_LeaveLestExpired","controller"
+"CleanupServiceTests","unclassified","CleanupLogs_LeaveOneFile_SinceAllAreExpired","controller"
+"CleanupServiceTests","unclassified","CleanupLogs_LeaveLestExpired","controller"
+"CleanupServiceTests","unclassified","CleanupDbEntries_CleanupAbandonedChapters","non-void-command collaborator"
+"CleanupServiceTests","unclassified","CleanupDbEntries_RemoveTagsWithoutSeries","non-void-command collaborator"
+"CleanupServiceTests","unclassified","CleanupWantToRead_ShouldRemoveFullyReadSeries","non-void-command collaborator"
+"CleanupServiceTests","unclassified","EnsureChapterProgressIsCapped_ShouldNormalizeProgress","non-void-command collaborator"
+"SeriesFilterTests","boundary degenerate small-class","ResetDb","collaborator incidental"
+"SeriesFilterTests","boundary degenerate small-class","HasLanguage_Works","wrapper stateless"
+"TestBenchmark","boundary degenerate small-class","TestSortSpecialChapters","wrapper stateless"
+"ComicParsingTests","boundary degenerate","ParseComicSeriesTest","wrapper stateless"
+"ComicParsingTests","boundary degenerate","ParseComicVolumeTest","wrapper stateless"
+"ComicParsingTests","boundary degenerate","ParseComicChapterTest","wrapper stateless"
+"ComicParsingTests","boundary degenerate","IsComicSpecialTest","wrapper stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_MultipleSpecials","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_Volume1Chapter1_Volume2_AndLooseChapters","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_LooseChapters_WithSub1_Chapter","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_LooseChapters_WithSub1_Chapter_WithSpecials","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_JustVolumes","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_JustSpecials_WithDecimal","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_JustChaptersAndSpecials","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_VolumesChapters","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_VolumesChaptersAndSpecials","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_VolumesChaptersAndSpecials_Ippo","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_VolumesChapters_WhereVolumeIsNot1","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_LessThanIssue1","controller stateless"
+"SeriesExtensionsTests","pure-controller degenerate","GetCoverImage_LessThanIssue1_WithNegative","controller stateless"
+"CollectionTagRepositoryTests","entity boundary small-class","CollectionTagRepositoryTests","constructor"
+"CollectionTagRepositoryTests","entity boundary small-class","SeedDb","property non-void-command collaborator"
+"CollectionTagRepositoryTests","entity boundary small-class","ResetDb","non-void-command collaborator"
+"SiteThemeServiceTest","commander boundary","SiteThemeServiceTest","constructor"
+"SiteThemeServiceTest","commander boundary","ResetDb","non-void-command collaborator"
+"SiteThemeServiceTest","commander boundary","UpdateDefault_ShouldThrowOnInvalidId","non-void-command collaborator"
+"SiteThemeServiceTest","commander boundary","GetContent_ShouldReturnContent","non-void-command collaborator"
+"SiteThemeServiceTest","commander boundary","UpdateDefault_ShouldHaveOneDefault","non-void-command collaborator"
+"ParserInfoListExtensions","commander boundary small-class","ParserInfoListExtensions","constructor"
+"ParserInfoListExtensions","commander boundary small-class","HasInfoTest_SuccessWhenSpecial","command collaborator"
+"CacheHelperTests","unclassified","CacheHelperTests","constructor"
+"CacheHelperTests","unclassified","CoverImageExists_DoesFileExist","command"
+"CacheHelperTests","unclassified","CoverImageExists_FileExists","command"
+"CacheHelperTests","unclassified","ShouldUpdateCoverImage_OnFirstRun","command collaborator"
+"CacheHelperTests","unclassified","ShouldUpdateCoverImage_ShouldNotUpdateOnSecondRunWithCoverImageSetNotLocked","command collaborator"
+"CacheHelperTests","unclassified","ShouldUpdateCoverImage_ShouldNotUpdateOnSecondRunWithCoverImageSetNotLocked_2","command collaborator"
+"CacheHelperTests","unclassified","ShouldUpdateCoverImage_ShouldNotUpdateOnSecondRunWithCoverImageSetLocked","command collaborator"
+"CacheHelperTests","unclassified","ShouldUpdateCoverImage_ShouldNotUpdateOnSecondRunWithCoverImageSetLocked_Modified","command collaborator"
+"CacheHelperTests","unclassified","ShouldUpdateCoverImage_CoverImageSetAndReplaced_Modified","controller"
+"CacheHelperTests","unclassified","HasFileNotChangedSinceCreationOrLastScan_NotChangedSinceCreated","controller"
+"CacheHelperTests","unclassified","HasFileNotChangedSinceCreationOrLastScan_NotChangedSinceLastModified","controller"
+"CacheHelperTests","unclassified","HasFileNotChangedSinceCreationOrLastScan_NotChangedSinceLastModified_ForceUpdate","controller"
+"CacheHelperTests","unclassified","IsFileUnmodifiedSinceCreationOrLastScan_ModifiedSinceLastScan","controller"
+"CacheHelperTests","unclassified","HasFileNotChangedSinceCreationOrLastScan_ModifiedSinceLastScan_ButLastModifiedSame","controller"
+"SeriesServiceTests","commander boundary","SeriesServiceTests","constructor"
+"SeriesServiceTests","commander boundary","ResetDb","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnSpecials","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnVolumesAndChapters","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnVolumesAndChapters_ButRemove0Chapter","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnCorrectNaming_VolumeTitle","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_ShouldReturnChaptersOnly_WhenBookLibrary","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_WhenBookLibrary_ShouldReturnVolumesAndSpecial","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_ShouldSortVolumesByName","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_Manga_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_Comic_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_ComicVine_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_Book_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesDetail_LightNovel_ShouldReturnAppropriatelyNamedTitles","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateRating_ShouldSetRating","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateRating_ShouldUpdateExistingRating","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateRating_ShouldClampRatingAt5","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateRating_ShouldReturnFalseWhenSeriesDoesntExist","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldCreateEmptyMetadata_IfDoesntExist","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldRemoveExistingTags","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldAddNewPerson_NoExistingPeople","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldAddNewPerson_ExistingPeople","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldRemoveExistingPerson","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldLockIfTold","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateSeriesMetadata_ShouldNotUpdateReleaseYear_IfLessThan1000","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_BookWithOnlyVolumeNumbers_Test","wrapper stateless"
+"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_Book_Test","wrapper stateless"
+"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_NonBook_ShouldReturnVolume1","wrapper stateless"
+"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_NonBook_ShouldReturnVolume1_WhenFirstChapterIsFloat","controller stateless"
+"SeriesServiceTests","commander boundary","GetFirstChapterForMetadata_NonBook_ShouldReturnChapter1_WhenFirstVolumeIs3","wrapper stateless"
+"SeriesServiceTests","commander boundary","UpdateRelatedSeries_ShouldAddAllRelations","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateRelatedSeries_DeleteAllRelations","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateRelatedSeries_DeleteTargetSeries_ShouldSucceed","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateRelatedSeries_DeleteSourceSeries_ShouldSucceed","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","UpdateRelatedSeries_ShouldNotAllowDuplicates","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","GetRelatedSeries_EditionPrequelSequel_ShouldNotHaveParent","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesRelation_ShouldAllowDeleteOnLibrary","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","SeriesRelation_ShouldAllowDeleteOnLibrary_WhenSeriesCrossLibraries","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","FormatChapterNameTest","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","DeleteMultipleSeries_ShouldDeleteSeries","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","GetEstimatedChapterCreationDate_NoNextChapter_InvalidType","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","GetEstimatedChapterCreationDate_NoNextChapter_InvalidPublicationStatus","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","GetEstimatedChapterCreationDate_NoNextChapter_Only2Chapters","non-void-command collaborator"
+"SeriesServiceTests","commander boundary","GetEstimatedChapterCreationDate_NextChapter_ChaptersMonthApart","non-void-command collaborator"
+"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_Series_ShouldRestrictEverythingAboveTeen","controller stateless"
+"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_CollectionTag_ShouldRestrictEverythingAboveTeen","controller stateless"
+"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_Genre_ShouldRestrictEverythingAboveTeen","controller stateless"
+"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_Tag_ShouldRestrictEverythingAboveTeen","controller stateless"
+"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_Person_ShouldRestrictEverythingAboveTeen","controller stateless"
+"QueryableExtensionsTests","pure-controller degenerate","RestrictAgainstAgeRestriction_ReadingList_ShouldRestrictEverythingAboveTeen","controller stateless"
+"ArchiveServiceBenchmark","commander boundary","ArchiveServiceBenchmark","constructor"
+"ArchiveServiceBenchmark","commander boundary","TestGetComicInfo_baseline","command"
+"ArchiveServiceBenchmark","commander boundary","TestGetComicInfo_duplicate","command"
+"ArchiveServiceBenchmark","commander boundary","TestGetComicInfo_outside_root","command"
+"ArchiveServiceBenchmark","commander boundary","ImageSharp_ExtractImage_PNG","command collaborator"
+"ArchiveServiceBenchmark","commander boundary","ImageSharp_ExtractImage_WebP","command collaborator"
+"ArchiveServiceBenchmark","commander boundary","NetVips_ExtractImage_PNG","command collaborator"
+"ArchiveServiceBenchmark","commander boundary","NetVips_ExtractImage_WebP","command collaborator"
+"ComicInfoTests","degenerate","ConvertAgeRatingToEnum_ShouldConvertCorrectly","wrapper stateless"
+"ComicInfoTests","degenerate","ConvertAgeRatingToEnum_ShouldCompareCaseInsensitive","wrapper stateless"
+"ComicInfoTests","degenerate","CalculatedCount_ReturnsVolumeCount","controller stateless"
+"ComicInfoTests","degenerate","CalculatedCount_ReturnsNoCountWhenCountNotSet","controller stateless"
+"ComicInfoTests","degenerate","CalculatedCount_ReturnsNumberCount","controller stateless"
+"ComicInfoTests","degenerate","CalculatedCount_ReturnsNumberCount_OnlyWholeNumber","controller stateless"
+"CronConverterTests","boundary degenerate small-class","ConvertTest","wrapper stateless"
+"FileInfoExtensionsTests","boundary small-class","HasFileBeenModifiedSince_ShouldBeFalse","wrapper"
+"FileInfoExtensionsTests","boundary small-class","HasFileBeenModifiedSince_ShouldBeTrue","wrapper"
+"ParserBenchmarks","unclassified","ParserBenchmarks","constructor"
+"ParserBenchmarks","unclassified","TestNormalizeName","wrapper"
+"ParserBenchmarks","unclassified","TestIsEpub","wrapper"
+"ParserBenchmarks","unclassified","TestIsEpub_New","wrapper"
+"ParserBenchmarks","unclassified","Test_CharacterReplace","controller"
+"ParserBenchmarks","unclassified","Test_StringReplace","controller"
+"ParserInfoHelperTests","boundary degenerate small-class","SeriesHasMatchingParserInfoFormat_ShouldBeFalse","wrapper stateless"
+"ParserInfoHelperTests","boundary degenerate small-class","SeriesHasMatchingParserInfoFormat_ShouldBeTrue","wrapper stateless"
+"GenreHelperTests","degenerate","UpdateGenre_ShouldAddNewGenre","controller stateless"
+"GenreHelperTests","degenerate","UpdateGenre_ShouldNotAddDuplicateGenre","controller stateless"
+"GenreHelperTests","degenerate","AddGenre_ShouldAddOnlyNonExistingGenre","wrapper stateless"
+"GenreHelperTests","degenerate","KeepOnlySamePeopleBetweenLists","controller stateless"
+"GenreHelperTests","degenerate","RemoveEveryoneIfNothingInRemoveAllExcept","controller stateless"
+"FilterDtoExtensionsTests","pure-controller degenerate","GetSqlFilter_ShouldReturnAllFormats","controller stateless"
+"FilterDtoExtensionsTests","pure-controller degenerate","GetSqlFilter_ShouldReturnAllFormats2","controller stateless"
+"FilterDtoExtensionsTests","pure-controller degenerate","GetSqlFilter_ShouldReturnJust2","controller stateless"
+"AbstractDbTest","entity boundary small-class","AbstractDbTest","constructor"
+"AbstractDbTest","entity boundary small-class","SeedDb","property non-void-command collaborator"
+"ChapterListExtensionsTests","pure-controller degenerate","GetAnyChapterByRange_Test_ShouldBeNull","controller stateless"
+"ChapterListExtensionsTests","pure-controller degenerate","GetAnyChapterByRange_Test_ShouldBeNotNull","controller stateless"
+"ChapterListExtensionsTests","pure-controller degenerate","GetChapterByRange_On_Duplicate_Files_Test_Should_Not_Error","controller stateless"
+"ChapterListExtensionsTests","pure-controller degenerate","GetChapterByRange_On_FilenameChange_ShouldGetChapter","controller stateless"
+"ChapterListExtensionsTests","pure-controller degenerate","GetFirstChapterWithFiles_ShouldReturnAllChapters","controller stateless"
+"ChapterListExtensionsTests","pure-controller degenerate","GetFirstChapterWithFiles_ShouldReturnSecondChapter","controller stateless"
+"ChapterListExtensionsTests","pure-controller degenerate","MinimumReleaseYear_ZeroIfNoChapters","controller stateless"
+"ChapterListExtensionsTests","pure-controller degenerate","MinimumReleaseYear_ZeroIfNoValidDates","controller stateless"
+"ChapterListExtensionsTests","pure-controller degenerate","MinimumReleaseYear_MinValidReleaseYear","controller stateless"
+"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_ArchiveFormat","controller stateless"
+"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_ChoosesVolume1_WhenHalf","controller stateless"
+"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_EpubFormat","controller stateless"
+"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_PdfFormat","controller stateless"
+"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_ImageFormat","controller stateless"
+"VolumeListExtensionsTests","pure-controller degenerate","GetCoverImage_ImageFormat_NoSpecials","controller stateless"
+"BookServiceTests","commander boundary","BookServiceTests","constructor"
+"BookServiceTests","commander boundary","GetNumberOfPagesTest","command collaborator"
+"BookServiceTests","commander boundary","ShouldHaveComicInfo","command collaborator"
+"BookServiceTests","commander boundary","ShouldHaveComicInfo_WithAuthors","command collaborator"
+"BookServiceTests","commander boundary","ShouldParseAsVolumeGroup_WithoutSeriesIndex","command collaborator"
+"BookServiceTests","commander boundary","ShouldParseAsVolumeGroup_WithSeriesIndex","command collaborator"
+"ArchiveServiceTests","commander boundary","ArchiveServiceTests","constructor"
+"ArchiveServiceTests","commander boundary","ArchiveNeedsFlatteningTest","command collaborator"
+"ArchiveServiceTests","commander boundary","IsValidArchiveTest","command collaborator"
+"ArchiveServiceTests","commander boundary","GetNumberOfPagesFromArchiveTest","command collaborator"
+"ArchiveServiceTests","commander boundary","CanOpenArchive","command collaborator"
+"ArchiveServiceTests","commander boundary","CanExtractArchive","command collaborator"
+"ArchiveServiceTests","commander boundary","GetCoverImage_Default_Test","command collaborator"
+"ArchiveServiceTests","commander boundary","GetCoverImage_SharpCompress_Test","command collaborator"
+"ArchiveServiceTests","commander boundary","CanParseCoverImage","controller"
+"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo","command collaborator"
+"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_CanParseUmlaut","command collaborator"
+"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_WithAuthors","command collaborator"
+"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_TopLevelFileOnly","command collaborator"
+"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_OutsideRoot","command collaborator"
+"ArchiveServiceTests","commander boundary","ShouldHaveComicInfo_OutsideRoot_SharpCompress","command collaborator"
+"ArchiveServiceTests","commander boundary","CanParseComicInfo","command collaborator"
+"ArchiveServiceTests","commander boundary","CanParseComicInfo_DefaultNumberIsBlank","command collaborator"
+"ArchiveServiceTests","commander boundary","CreateZipForDownloadTest","wrapper stateless"
+"OrderableHelperTests","boundary degenerate","ReorderItems_ItemExists_SuccessfullyReorders","wrapper stateless"
+"OrderableHelperTests","boundary degenerate","ReorderItems_ItemNotFound_NoChange","wrapper stateless"
+"OrderableHelperTests","boundary degenerate","ReorderItems_InvalidPosition_NoChange","wrapper stateless"
+"OrderableHelperTests","boundary degenerate","ReorderItems_EmptyList_NoChange","wrapper stateless"
+"OrderableHelperTests","boundary degenerate","ReorderItems_DoubleMove","controller stateless"
+"ImageParserTests","commander boundary","ImageParserTests","constructor"
+"ImageParserTests","commander boundary","Parse_SeriesWithDirectoryName","command collaborator"
+"ImageParserTests","commander boundary","Parse_SeriesWithNoNestedChapter","command collaborator"
+"ImageParserTests","commander boundary","Parse_SeriesWithLooseImages","command collaborator"
+"ImageParserTests","commander boundary","IsApplicable_Fails_WhenNonMatchingLibraryType","command"
+"ImageParserTests","commander boundary","IsApplicable_Success_WhenMatchingLibraryType","command"
+"CacheServiceTests","unclassified","CacheServiceTests","constructor"
+"CacheServiceTests","unclassified","SeedDb","property non-void-command collaborator"
+"CacheServiceTests","unclassified","ResetDB","non-void-command collaborator"
+"CacheServiceTests","unclassified","Ensure_DirectoryAlreadyExists_DontExtractAnything","non-void-command collaborator"
+"CacheServiceTests","unclassified","CleanupChapters_AllFilesShouldBeDeleted","controller"
+"CacheServiceTests","unclassified","GetCachedEpubFile_ShouldReturnFirstEpub","controller"
+"CacheServiceTests","unclassified","GetCachedPagePath_ReturnNullIfNoFiles","controller"
+"CacheServiceTests","unclassified","GetCachedPagePath_GetFileFromFirstFile","controller"
+"CacheServiceTests","unclassified","GetCachedPagePath_GetLastPageFromSingleFile","controller"
+"CacheServiceTests","unclassified","GetCachedPagePath_GetFileFromSecondFile","controller"
+"EnumerableExtensionsTests","pure-controller degenerate small-class","RestrictAgainstAgeRestriction_ShouldRestrictEverythingAboveTeen","controller stateless"
+"BasicParserTests","commander boundary","BasicParserTests","constructor"
+"BasicParserTests","commander boundary","Parse_MangaLibrary_JustCover_ShouldReturnNull","command collaborator"
+"BasicParserTests","commander boundary","Parse_MangaLibrary_OtherImage_ShouldReturnNull","command collaborator"
+"BasicParserTests","commander boundary","Parse_MangaLibrary_VolumeAndChapterInFilename","command collaborator"
+"BasicParserTests","commander boundary","Parse_MangaLibrary_JustVolumeInFilename","command collaborator"
+"BasicParserTests","commander boundary","Parse_MangaLibrary_JustChapterInFilename","command collaborator"
+"BasicParserTests","commander boundary","Parse_MangaLibrary_SpecialMarkerInFilename","command collaborator"
+"BasicParserTests","commander boundary","Parse_MangaLibrary_SpecialInFilename","command collaborator"
+"BasicParserTests","commander boundary","Parse_MangaLibrary_EditionInFilename","command collaborator"
+"BasicParserTests","commander boundary","Parse_MangaBooks_JustVolumeInFilename","command collaborator"
+"BasicParserTests","commander boundary","IsApplicable_Fails_WhenNonMatchingLibraryType","command"
+"BasicParserTests","commander boundary","IsApplicable_Success_WhenMatchingLibraryType","command"
+"BackupServiceTests","unclassified","BackupServiceTests","constructor"
+"BackupServiceTests","unclassified","SeedDb","property non-void-command collaborator"
+"BackupServiceTests","unclassified","ResetDB","non-void-command collaborator"
+"BackupServiceTests","unclassified","GetLogFiles_ExpectAllFiles_NoRollingFiles","controller"
+"BackupServiceTests","unclassified","GetLogFiles_ExpectAllFiles_WithRollingFiles","controller"
+"DefaultParserTests","commander boundary","DefaultParserTests","constructor"
+"DefaultParserTests","commander boundary","ParseFromFallbackFolders_FallbackShouldParseSeries","command collaborator"
+"DefaultParserTests","commander boundary","ParseFromFallbackFolders_ShouldUseExistingSeriesName","command collaborator"
+"DefaultParserTests","commander boundary","ParseFromFallbackFolders_ShouldUseExistingSeriesName_NewScanLoop","command collaborator"
+"DefaultParserTests","commander boundary","Parse_ParseInfo_Manga","command collaborator"
+"DefaultParserTests","commander boundary","Parse_ParseInfo_Manga_ImageOnly","command collaborator"
+"DefaultParserTests","commander boundary","Parse_ParseInfo_Manga_WithSpecialsFolder","controller stateless"
+"DefaultParserTests","commander boundary","Parse_ParseInfo_Comic","command collaborator"
+"ComicVineParserTests","commander boundary","ComicVineParserTests","constructor"
+"ComicVineParserTests","commander boundary","Parse_SeriesWithComicInfo","wrapper stateless"
+"ComicVineParserTests","commander boundary","Parse_SeriesWithDirectoryNameAsSeriesYear","command collaborator"
+"ComicVineParserTests","commander boundary","Parse_SeriesWithADirectoryNameAsSeriesYear","command collaborator"
+"ComicVineParserTests","commander boundary","Parse_FallbackToDirectoryNameOnly","command collaborator"
+"ComicVineParserTests","commander boundary","IsApplicable_Fails_WhenNonMatchingLibraryType","command"
+"ComicVineParserTests","commander boundary","IsApplicable_Success_WhenMatchingLibraryType","command"
+"BookParsingTests","boundary degenerate small-class","ParseSeriesTest","wrapper stateless"
+"BookParsingTests","boundary degenerate small-class","ParseVolumeTest","wrapper stateless"
+"ParserInfoTests","boundary degenerate small-class","MergeFromTest","wrapper stateless"
+"ParserInfoTests","boundary degenerate small-class","MergeFromTest2","wrapper stateless"
+"ImageParsingTests","commander boundary small-class","ImageParsingTests","constructor"
+"ImageParsingTests","commander boundary small-class","Parse_ParseInfo_Manga_ImageOnly","command collaborator"
+"PathExtensionsTests","pure-controller degenerate small-class","GetFullPathWithoutExtension_Test","controller stateless"
+"ParseScannedFilesTests","commander boundary","ParseScannedFilesTests","constructor"
+"ParseScannedFilesTests","commander boundary","ResetDb","non-void-command collaborator"
+"ParseScannedFilesTests","commander boundary","ScanLibrariesForSeries_ShouldFindFiles","non-void-command collaborator"
+"ParseScannedFilesTests","commander boundary","ProcessFiles_ForLibraryMode_OnlyCallsFolderActionForEachTopLevelFolder","non-void-command collaborator"
+"ParseScannedFilesTests","commander boundary","ProcessFiles_ForNonLibraryMode_CallsFolderActionOnce","non-void-command collaborator"
+"ParseScannedFilesTests","commander boundary","ProcessFiles_ShouldCallFolderActionTwice","non-void-command collaborator"
+"ParseScannedFilesTests","commander boundary","ProcessFiles_ShouldCallFolderActionOnce","non-void-command collaborator"
+"MangaParsingTests","boundary degenerate","MangaParsingTests","constructor"
+"MangaParsingTests","boundary degenerate","ParseVolumeTest","wrapper stateless"
+"MangaParsingTests","boundary degenerate","ParseSeriesTest","wrapper stateless"
+"MangaParsingTests","boundary degenerate","ParseChaptersTest","wrapper stateless"
+"MangaParsingTests","boundary degenerate","ParseEditionTest","wrapper stateless"
+"MangaParsingTests","boundary degenerate","IsMangaSpecialTest","wrapper stateless"
+"MangaParsingTests","boundary degenerate","ParseFormatTest","wrapper stateless"
+"DeviceServiceDbTests","commander boundary","DeviceServiceDbTests","constructor"
+"DeviceServiceDbTests","commander boundary","ResetDb","non-void-command collaborator"
+"DeviceServiceDbTests","commander boundary","CreateDevice_Succeeds","non-void-command collaborator"
+"DeviceServiceDbTests","commander boundary","CreateDevice_ThrowsErrorWhenEmailDoesntMatchRules","non-void-command collaborator"
+"TagHelperTests","degenerate","UpdateTag_ShouldAddNewTag","controller stateless"
+"TagHelperTests","degenerate","UpdateTag_ShouldNotAddDuplicateTag","controller stateless"
+"TagHelperTests","degenerate","AddTag_ShouldAddOnlyNonExistingTag","wrapper stateless"
+"TagHelperTests","degenerate","KeepOnlySamePeopleBetweenLists","controller stateless"
+"TagHelperTests","degenerate","RemoveEveryoneIfNothingInRemoveAllExcept","controller stateless"
+"DirectoryServiceTests","degenerate","TraverseTreeParallelForEach_JustArchives_ShouldBe28","controller"
+"DirectoryServiceTests","degenerate","TraverseTreeParallelForEach_LongDirectory_ShouldBe1","controller"
+"DirectoryServiceTests","degenerate","TraverseTreeParallelForEach_DontCountExcludedDirectories_ShouldBe28","controller"
+"DirectoryServiceTests","degenerate","GetFilesWithCertainExtensions_ShouldBe10","controller stateless"
+"DirectoryServiceTests","degenerate","GetFilesWithCertainExtensions_OnlyArchives","controller stateless"
+"DirectoryServiceTests","degenerate","GetFiles_ArchiveOnly_ShouldBe10","controller stateless"
+"DirectoryServiceTests","degenerate","GetFiles_All_ShouldBe11","controller stateless"
+"DirectoryServiceTests","degenerate","GetFiles_All_MixedPathSeparators","controller stateless"
+"DirectoryServiceTests","degenerate","GetFiles_All_TopDirectoryOnly_ShouldBe10","controller stateless"
+"DirectoryServiceTests","degenerate","GetFiles_WithSubDirectories_ShouldCountOnlyTopLevel","controller stateless"
+"DirectoryServiceTests","degenerate","GetFiles_ShouldNotReturnFilesThatAreExcluded","controller stateless"
+"DirectoryServiceTests","degenerate","GetFiles_WithCustomRegex_ShouldBe10","controller stateless"
+"DirectoryServiceTests","degenerate","GetFiles_WithCustomRegexThatContainsFolder_ShouldBe10","controller stateless"
+"DirectoryServiceTests","degenerate","GetTotalSize_ShouldBeGreaterThan0","controller stateless"
+"DirectoryServiceTests","degenerate","CopyFileToDirectory_ShouldCopyFileToNonExistentDirectory","controller stateless"
+"DirectoryServiceTests","degenerate","CopyFileToDirectory_ShouldCopyFileToExistingDirectoryAndOverwrite","controller stateless"
+"DirectoryServiceTests","degenerate","CopyDirectoryToDirectory_ShouldThrowWhenSourceDestinationDoesntExist","controller stateless"
+"DirectoryServiceTests","degenerate","CopyDirectoryToDirectory_ShouldCopyEmptyDirectory","controller stateless"
+"DirectoryServiceTests","degenerate","CopyDirectoryToDirectory_ShouldCopyAllFileAndNestedDirectoriesOver","controller stateless"
+"DirectoryServiceTests","degenerate","IsDriveMounted_DriveIsNotMounted","controller stateless"
+"DirectoryServiceTests","degenerate","IsDriveMounted_DriveIsMounted","controller stateless"
+"DirectoryServiceTests","degenerate","IsDirectoryEmpty_DirectoryIsEmpty","controller stateless"
+"DirectoryServiceTests","degenerate","IsDirectoryEmpty_DirectoryIsNotEmpty","controller stateless"
+"DirectoryServiceTests","degenerate","ExistOrCreate_ShouldCreate","controller stateless"
+"DirectoryServiceTests","degenerate","ClearAndDeleteDirectory_ShouldDeleteSelfAndAllFilesAndFolders","controller stateless"
+"DirectoryServiceTests","degenerate","ClearDirectory_ShouldDeleteAllFilesAndFolders_LeaveSelf","controller stateless"
+"DirectoryServiceTests","degenerate","ClearDirectory_ShouldDeleteFoldersWithOneFileInside","controller stateless"
+"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveAllFiles","controller stateless"
+"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveAllFilesAndNotFailOnNonExistentFiles","controller stateless"
+"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveAllFiles_InclFilesInNestedFolders","controller stateless"
+"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveAllFiles_WithPrepend","controller stateless"
+"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldMoveOnlyFilesThatExist","controller stateless"
+"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldAppendWhenTargetFileExists","controller stateless"
+"DirectoryServiceTests","degenerate","CopyFilesToDirectory_ShouldRenameFilesToPassedNames","controller stateless"
+"DirectoryServiceTests","degenerate","ListDirectory_EmptyForNonExistent","controller stateless"
+"DirectoryServiceTests","degenerate","ListDirectory_ListsAllDirectories","controller stateless"
+"DirectoryServiceTests","degenerate","ListDirectory_ListsOnlyNonSystemAndHiddenOnly","controller stateless"
+"DirectoryServiceTests","degenerate","ReadFileAsync_ShouldGetBytes","controller stateless"
+"DirectoryServiceTests","degenerate","ReadFileAsync_ShouldReadNothingFromNonExistent","controller stateless"
+"DirectoryServiceTests","degenerate","GetFoldersTillRoot_Test","controller stateless"
+"DirectoryServiceTests","degenerate","RemoveNonImages","controller stateless"
+"DirectoryServiceTests","degenerate","Flatten_ShouldDoNothing","controller stateless"
+"DirectoryServiceTests","degenerate","Flatten_ShouldFlatten","controller stateless"
+"DirectoryServiceTests","degenerate","Flatten_ShouldFlatten_WithoutMacosx","controller stateless"
+"DirectoryServiceTests","degenerate","CheckWriteAccess_ShouldHaveAccess","controller stateless"
+"DirectoryServiceTests","degenerate","GetHumanReadableBytesTest","wrapper stateless"
+"DirectoryServiceTests","degenerate","ScanFiles_ShouldFindNoFiles_AllAreIgnored","controller stateless"
+"DirectoryServiceTests","degenerate","ScanFiles_ShouldFindNoNestedFiles_IgnoreNestedFiles","controller stateless"
+"DirectoryServiceTests","degenerate","ScanFiles_NestedIgnore_IgnoreNestedFilesInOneDirectoryOnly","controller stateless"
+"DirectoryServiceTests","degenerate","ScanFiles_ShouldFindAllFiles","controller stateless"
+"DirectoryServiceTests","degenerate","GetAllDirectories_ShouldFindAllNestedDirectories","controller stateless"
+"DirectoryServiceTests","degenerate","GetParentDirectoryName_ShouldFindParentOfFiles","controller stateless"
+"DirectoryServiceTests","degenerate","GetParentDirectoryName_ShouldFindParentOfDirectories","controller stateless"
+"DirectoryServiceTests","degenerate","GetLastWriteTime_ShouldReturnMaxTime_IfNoFiles","controller stateless"
+"ParsingTests","boundary degenerate","ShouldWork","wrapper stateless"
+"ParsingTests","boundary degenerate","CleanAuthorTest","wrapper stateless"
+"ParsingTests","boundary degenerate","CleanSpecialTitleTest","wrapper stateless"
+"ParsingTests","boundary degenerate","HasSpecialTest","wrapper stateless"
+"ParsingTests","boundary degenerate","ParseSpecialIndexTest","wrapper stateless"
+"ParsingTests","boundary degenerate","RemoveLeadingZeroesTest","wrapper stateless"
+"ParsingTests","boundary degenerate","PadZerosTest","wrapper stateless"
+"ParsingTests","boundary degenerate","CleanTitleTest","wrapper stateless"
+"ParsingTests","boundary degenerate","FontCssRewriteMatches","wrapper stateless"
+"ParsingTests","boundary degenerate","IsArchiveTest","wrapper stateless"
+"ParsingTests","boundary degenerate","IsBookTest","wrapper stateless"
+"ParsingTests","boundary degenerate","IsEpubTest","wrapper stateless"
+"ParsingTests","boundary degenerate","MinimumNumberFromRangeTest","wrapper stateless"
+"ParsingTests","boundary degenerate","MaximumNumberFromRangeTest","wrapper stateless"
+"ParsingTests","boundary degenerate","NormalizeTest","wrapper stateless"
+"ParsingTests","boundary degenerate","IsImageTest","wrapper stateless"
+"ParsingTests","boundary degenerate","IsCoverImageTest","wrapper stateless"
+"ParsingTests","boundary degenerate","HasBlacklistedFolderInPathTest","wrapper stateless"
+"ParsingTests","boundary degenerate","NormalizePathTest","wrapper stateless"
+"ParsingTests","boundary degenerate","BalancedParenTest_Matches","wrapper stateless"
+"ParsingTests","boundary degenerate","BalancedParenTest_DoesNotMatch","wrapper stateless"
+"ParsingTests","boundary degenerate","BalancedBracketTest_Matches","wrapper stateless"
+"ParsingTests","boundary degenerate","BalancedBracketTest_DoesNotMatch","wrapper stateless"
+"BookmarkServiceTests","entity commander boundary","BookmarkServiceTests","constructor"
+"BookmarkServiceTests","entity commander boundary","Create","property factory wrapper"
+"BookmarkServiceTests","entity commander boundary","SeedDb","property non-void-command collaborator"
+"BookmarkServiceTests","entity commander boundary","ResetDB","non-void-command collaborator"
+"BookmarkServiceTests","entity commander boundary","BookmarkPage_ShouldCopyTheFileAndUpdateDB","non-void-command collaborator"
+"BookmarkServiceTests","entity commander boundary","BookmarkPage_ShouldDeleteFileOnUnbookmark","non-void-command collaborator"
+"BookmarkServiceTests","entity commander boundary","DeleteBookmarkFiles_ShouldDeleteOnlyPassedFiles","non-void-command collaborator"
+"BookmarkServiceTests","entity commander boundary","GetBookmarkFilesById_ShouldMatchActualFiles","non-void-command collaborator"
+"BookmarkServiceTests","entity commander boundary","ShouldNotDeleteBookmark_OnChapterDeletion","non-void-command collaborator"
+"BookmarkServiceTests","entity commander boundary","ShouldNotDeleteBookmark_OnVolumeDeletion","non-void-command collaborator"
+"MockReadingItemServiceForCacheService","boundary degenerate","MockReadingItemServiceForCacheService","constructor"
+"MockReadingItemServiceForCacheService","boundary degenerate","GetComicInfo","collaborator incidental"
+"MockReadingItemServiceForCacheService","boundary degenerate","GetNumberOfPages","collaborator incidental"
+"MockReadingItemServiceForCacheService","boundary degenerate","GetCoverImage","collaborator incidental"
+"MockReadingItemServiceForCacheService","boundary degenerate","Extract","stateless"
+"MockReadingItemServiceForCacheService","boundary degenerate","Parse","collaborator stateless"
+"MockReadingItemServiceForCacheService","boundary degenerate","ParseFile","collaborator stateless"
+"CollectionTagServiceTests","commander boundary","CollectionTagServiceTests","constructor"
+"CollectionTagServiceTests","commander boundary","ResetDb","non-void-command collaborator"
+"CollectionTagServiceTests","commander boundary","SeedSeries","non-void-command collaborator"
+"CollectionTagServiceTests","commander boundary","UpdateTag_ShouldUpdateFields","non-void-command collaborator"
+"CollectionTagServiceTests","commander boundary","UpdateTag_ShouldNotChangeTitle_WhenNotKavitaSource","non-void-command collaborator"
+"CollectionTagServiceTests","commander boundary","RemoveTagFromSeries_RemoveSeriesFromTag","non-void-command collaborator"
+"CollectionTagServiceTests","commander boundary","RemoveTagFromSeries_RemoveSeriesFromTag_UpdatesRating","non-void-command collaborator"
+"CollectionTagServiceTests","commander boundary","RemoveTagFromSeries_RemoveSeriesFromTag_DeleteTagWhenNoSeriesLeft","non-void-command collaborator"
+"FileSystemTests","pure-controller degenerate small-class","FileHasNotBeenModifiedSinceCreation","controller stateless"
+"FileSystemTests","pure-controller degenerate small-class","FileHasBeenModifiedSinceCreation","controller stateless"
+"MetadataServiceTests","empty","MetadataServiceTests","constructor"
+"MockReadingItemService","entity boundary degenerate","MockReadingItemService","constructor"
+"MockReadingItemService","entity boundary degenerate","GetComicInfo","collaborator incidental"
+"MockReadingItemService","entity boundary degenerate","GetNumberOfPages","collaborator incidental"
+"MockReadingItemService","entity boundary degenerate","GetCoverImage","collaborator incidental"
+"MockReadingItemService","entity boundary degenerate","Extract","stateless"
+"MockReadingItemService","entity boundary degenerate","Parse","property non-void-command collaborator"
+"MockReadingItemService","entity boundary degenerate","ParseFile","property non-void-command collaborator"

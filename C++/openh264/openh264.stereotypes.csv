@@ -1,840 +1,840 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"BufferedData","unclassified","BufferedData","constructor",
-"BufferedData","unclassified","~BufferedData","destructor",
-"BufferedData","unclassified","PushBack","predicate non-void-command",
-"BufferedData","unclassified","PushBack","predicate set",
-"BufferedData","unclassified","PopFront","property non-void-command",
-"BufferedData","unclassified","Clear","set",
-"BufferedData","unclassified","SetLength","property non-void-command",
-"BufferedData","unclassified","Length","get",
-"BufferedData","unclassified","data","get",
-"BufferedData","unclassified","EnsureCapacity","predicate non-void-command",
-"SadSatdAssemblyFuncTest","commander small-class","SetUp","command",
-"SadSatdAssemblyFuncTest","commander small-class","TearDown","command",
-"FeatureMotionEstimateTest","unclassified","SetUp","command",
-"FeatureMotionEstimateTest","unclassified","TearDown","command",
-"FeatureMotionEstimateTest","unclassified","InitRefPicForMeTest","void-accessor wrapper",
-"MotionEstimateRangeTest","commander small-class","SetUp","command",
-"MotionEstimateRangeTest","commander small-class","TearDown","command",
-"EncInterfaceCallTest","commander","SetUp","command",
-"EncInterfaceCallTest","commander","TearDown","command",
-"EncInterfaceCallTest","commander","onEncodeFrame","empty",
-"EncoderInterfaceTest","commander","SetUp","command",
-"EncoderInterfaceTest","commander","TearDown","set",
-"EncoderInterfaceTest","commander","EncoderInterfaceTest::PrepareOneSrcFrame","command",
-"EncoderInterfaceTest","commander","EncoderInterfaceTest::EncodeOneFrame","void-accessor command collaborator",
-"EncoderInterfaceTest","commander","EncoderInterfaceTest::EncodeOneIDRandP","set collaborator",
-"EncoderInterfaceTest","commander","EncoderInterfaceTest::InitializeParamExt","command",
-"EncoderInterfaceTest","commander","EncoderInterfaceTest::ChangeResolutionAndCheckStatistics","void-accessor command collaborator",
-"DecoderParseSyntaxTest","commander boundary","SetUp","wrapper",
-"DecoderParseSyntaxTest","commander boundary","TearDown","wrapper",
-"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::Init","property non-void-command collaborator",
-"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::Uninit","command",
-"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::DecodeBs","predicate non-void-command collaborator",
-"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::ParseBs","predicate non-void-command collaborator",
-"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::TestScalingList","command",
-"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::TestSpecificBs","command",
-"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::TestSpecificBsError","command",
-"CSimpleTask","data-provider boundary small-class","CSimpleTask","constructor",
-"CSimpleTask","data-provider boundary small-class","~CSimpleTask","destructor",
-"CSimpleTask","data-provider boundary small-class","Execute","property wrapper",
-"CThreadPoolTest","boundary data-class","CThreadPoolTest","constructor",
-"CThreadPoolTest","boundary data-class","~CThreadPoolTest","destructor",
-"CThreadPoolTest","boundary data-class","OnTaskExecuted","property set collaborator",
-"CThreadPoolTest","boundary data-class","OnTaskCancelled","property set collaborator",
-"CThreadPoolTest","boundary data-class","OnTaskExecuted","property set collaborator",
-"CThreadPoolTest","boundary data-class","OnTaskCancelled","property set collaborator",
-"CThreadPoolTest","boundary data-class","GetTaskCount","get",
-"ThreadDecoderOutputTest","commander small-class","SetUp","command",
-"ThreadDecoderOutputTest","commander small-class","onDecodeFrame","wrapper",
-"ThreadDecoderInitTest","commander small-class","SetUp","command",
-"ThreadDecoderInitTest","commander small-class","TearDown","command",
-"ThreadDecoderCapabilityTest","degenerate small-class","SetUp","empty",
-"ThreadDecoderCapabilityTest","degenerate small-class","TearDown","empty",
-"EncoderInitTest","commander small-class","SetUp","command",
-"EncoderInitTest","commander small-class","TearDown","command",
-"EncodeDecodeTestAPIBase","commander","SetUp","command",
-"EncodeDecodeTestAPIBase","commander","TearDown","command",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::prepareParam0","void-accessor command collaborator",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::prepareParamDefault","void-accessor command collaborator",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::EncodeOneFrame","command",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::EncDecOneFrame","predicate non-void-command collaborator",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::TestOneSimulcastAVC","predicate non-void-command",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::InitialEncDec","predicate non-void-command",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::RandomParamExtCombination","command collaborator",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::ValidateParamExtCombination","command collaborator",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::SliceParamValidationForMode2","wrapper",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::SliceParamValidationForMode3","unclassified",
-"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::SliceParamValidationForMode4","set",
-"DecoderCapabilityTest","degenerate small-class","SetUp","empty",
-"DecoderCapabilityTest","degenerate small-class","TearDown","empty",
-"DecodeParseAPI","commander","DecodeParseAPI","constructor",
-"DecodeParseAPI","commander","SetUp","command",
-"DecodeParseAPI","commander","TearDown","set",
-"DecodeParseAPI","commander","prepareEncDecParam","predicate set collaborator",
-"DecodeParseAPI","commander","MockInputData","wrapper stateless",
-"DecodeParseAPI","commander","EncodeOneFrame","command",
-"DecodeParseAPI","commander","prepareParam","void-accessor command collaborator",
-"DecodeCrashTestAPI","commander","SetUp","set",
-"DecodeCrashTestAPI","commander","TearDown","set",
-"DecodeCrashTestAPI","commander","prepareParam","void-accessor command collaborator",
-"DecodeCrashTestAPI","commander","EncodeOneFrame","command",
-"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::BaseThreadDecoderTest","constructor",
-"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::SetUp","property non-void-command",
-"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::TearDown","command",
-"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::DecodeFrame","void-accessor command collaborator",
-"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::FlushFrame","set collaborator",
-"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::ThreadDecodeFile","predicate non-void-command collaborator",
-"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::Open","predicate non-void-command",
-"BaseEncoderTest","unclassified","BaseEncoderTest::BaseEncoderTest","constructor",
-"BaseEncoderTest","unclassified","BaseEncoderTest::SetUp","command",
-"BaseEncoderTest","unclassified","BaseEncoderTest::TearDown","command",
-"BaseEncoderTest","unclassified","BaseEncoderTest::EncodeStream","void-accessor command collaborator",
-"BaseEncoderTest","unclassified","BaseEncoderTest::EncodeFile","void-accessor command collaborator",
-"BaseDecoderTest","entity boundary","BaseDecoderTest::BaseDecoderTest","constructor",
-"BaseDecoderTest","entity boundary","BaseDecoderTest::SetUp","property non-void-command collaborator",
-"BaseDecoderTest","entity boundary","BaseDecoderTest::TearDown","command",
-"BaseDecoderTest","entity boundary","BaseDecoderTest::DecodeFrame","void-accessor command collaborator",
-"BaseDecoderTest","entity boundary","BaseDecoderTest::FlushFrame","command collaborator",
-"BaseDecoderTest","entity boundary","BaseDecoderTest::DecodeFile","predicate non-void-command collaborator",
-"BaseDecoderTest","entity boundary","BaseDecoderTest::Open","predicate non-void-command",
-"BaseDecoderTest","entity boundary","BaseDecoderTest::DecodeNextFrame","predicate non-void-command collaborator",
-"gmp_args_m_14_ret","commander lazy-class small-class","gmp_args_m_14_ret","constructor",
-"gmp_args_m_14_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_14_ret","commander lazy-class small-class","Run","set",
-"DecoderOutputTest","commander small-class","SetUp","command",
-"DecoderOutputTest","commander small-class","onDecodeFrame","wrapper",
-"gmp_args_m_13","small-class","gmp_args_m_13","constructor",
-"gmp_args_m_13","small-class","Run","unclassified",
-"gmp_args_nm_13_ret","commander lazy-class small-class","gmp_args_nm_13_ret","constructor",
-"gmp_args_nm_13_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_13_ret","commander lazy-class small-class","Run","set",
-"gmp_args_nm_13","boundary small-class","gmp_args_nm_13","constructor",
-"gmp_args_nm_13","boundary small-class","Run","wrapper",
-"gmp_args_m_12_ret","commander lazy-class small-class","gmp_args_m_12_ret","constructor",
-"gmp_args_m_12_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_12_ret","commander lazy-class small-class","Run","set",
-"gmp_args_m_12","small-class","gmp_args_m_12","constructor",
-"gmp_args_m_12","small-class","Run","unclassified",
-"gmp_args_nm_12","boundary small-class","gmp_args_nm_12","constructor",
-"gmp_args_nm_12","boundary small-class","Run","wrapper",
-"CWelsParametersetSpsListingPpsIncreasing","data-provider small-class","CWelsParametersetSpsListingPpsIncreasing","constructor",
-"CWelsParametersetSpsListingPpsIncreasing","data-provider small-class","CWelsParametersetSpsListingPpsIncreasing::GetPpsIdOffset","get",
-"CWelsParametersetSpsListingPpsIncreasing","data-provider small-class","CWelsParametersetSpsListingPpsIncreasing::Update","wrapper",
-"EncoderOutputTest","small-class","SetUp","command",
-"EncoderOutputTest","small-class","onEncodeFrame","void-accessor wrapper",
-"gmp_args_m_1","small-class","gmp_args_m_1","constructor",
-"gmp_args_m_1","small-class","Run","unclassified",
-"FileInputStream","small-class","Open","predicate non-void-command",
-"FileInputStream","small-class","read","property non-void-command",
-"DecoderInitTest","commander small-class","SetUp","command",
-"DecoderInitTest","commander small-class","TearDown","command",
-"gmp_args_nm_6","boundary small-class","gmp_args_nm_6","constructor",
-"gmp_args_nm_6","boundary small-class","Run","wrapper",
-"gmp_args_m_5","small-class","gmp_args_m_5","constructor",
-"gmp_args_m_5","small-class","Run","unclassified",
-"welsCodecTrace","commander","welsCodecTrace::welsCodecTrace","constructor",
-"welsCodecTrace","commander","welsCodecTrace::~welsCodecTrace","destructor",
-"welsCodecTrace","commander","welsCodecTrace::StaticCodecTrace","controller stateless",
-"welsCodecTrace","commander","welsCodecTrace::CodecTrace","void-accessor wrapper",
-"welsCodecTrace","commander","welsCodecTrace::SetCodecInstance","set",
-"welsCodecTrace","commander","welsCodecTrace::SetTraceLevel","set",
-"welsCodecTrace","commander","welsCodecTrace::SetTraceCallback","set collaborator",
-"welsCodecTrace","commander","welsCodecTrace::SetTraceCallbackContext","set",
-"ISVCDecoder","empty","~ISVCDecoder","destructor",
-"CWelsTaskThread","entity boundary","GetID","get collaborator",
-"CWelsTaskThread","entity boundary","CWelsTaskThread::CWelsTaskThread","constructor",
-"CWelsTaskThread","entity boundary","CWelsTaskThread::~CWelsTaskThread","destructor",
-"CWelsTaskThread","entity boundary","CWelsTaskThread::ExecuteTask","command collaborator",
-"CWelsTaskThread","entity boundary","CWelsTaskThread::SetTask","property non-void-command collaborator",
-"CWelsPreProcessVideo","entity boundary small-class","CWelsPreProcessVideo","constructor",
-"CWelsPreProcessVideo","entity boundary small-class","CWelsPreProcessVideo::DetectSceneChange","property non-void-command collaborator",
-"CWelsPreProcessVideo","entity boundary small-class","CWelsPreProcessVideo::GetCurrentOrigFrame","get non-void-command collaborator",
-"RefCounted","data-class small-class","AddRef","set",
-"RefCounted","data-class small-class","Release","property set",
-"RefCounted","data-class small-class","RefCounted","constructor",
-"RefCounted","data-class small-class","~RefCounted","destructor",
-"gmp_args_m_9","small-class","gmp_args_m_9","constructor",
-"gmp_args_m_9","small-class","Run","unclassified",
-"CMemoryAlign","unclassified","CMemoryAlign::CMemoryAlign","constructor",
-"CMemoryAlign","unclassified","CMemoryAlign::~CMemoryAlign","destructor",
-"CMemoryAlign","unclassified","CMemoryAlign::WelsMallocz","property command collaborator",
-"CMemoryAlign","unclassified","CMemoryAlign::WelsMalloc","property set collaborator",
-"CMemoryAlign","unclassified","CMemoryAlign::WelsFree","void-accessor set",
-"CMemoryAlign","unclassified","CMemoryAlign::WelsGetCacheLineSize","get",
-"CMemoryAlign","unclassified","CMemoryAlign::WelsGetMemoryUsage","get",
-"gmp_args_nm_8_ret","commander lazy-class small-class","gmp_args_nm_8_ret","constructor",
-"gmp_args_nm_8_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_8_ret","commander lazy-class small-class","Run","set",
-"CSliceBufferReallocatTest","boundary","SetUp","command collaborator",
-"CSliceBufferReallocatTest","boundary","TearDown","command",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitParamForTestCase","incidental",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitParamForSizeLimitSlcModeCase","property non-void-command collaborator",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::UnInitParamForTestCase","command",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitParam","property controller",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::UnInitParam","controller",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitFrameBsBuffer","property controller",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::UnInitFrameBsBuffer","controller",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitLayerSliceBuffer","property wrapper",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::UnInitLayerSliceBuffer","wrapper",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::SimulateEncodedOneSlice","wrapper",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::SimulateSliceInOnePartition","command",
-"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::SimulateSliceInOneLayer","command",
-"CWelsLock","data-provider boundary small-class","CWelsLock","constructor",
-"CWelsLock","data-provider boundary small-class","~CWelsLock","destructor",
-"CWelsLock","data-provider boundary small-class","Lock","property wrapper",
-"CWelsLock","data-provider boundary small-class","Unlock","property wrapper",
-"IStrategy","boundary degenerate","IStrategy","constructor",
-"IStrategy","boundary degenerate","~IStrategy","destructor",
-"IStrategy","boundary degenerate","Init","collaborator incidental",
-"IStrategy","boundary degenerate","Uninit","collaborator incidental",
-"IStrategy","boundary degenerate","Flush","collaborator incidental",
-"IStrategy","boundary degenerate","Get","collaborator incidental",
-"IStrategy","boundary degenerate","Set","collaborator incidental",
-"IStrategy","boundary degenerate","SpecialFeature","collaborator incidental",
-"CD3D9ExUtils","boundary","CD3D9ExUtils::CD3D9ExUtils","constructor",
-"CD3D9ExUtils","boundary","CD3D9ExUtils::~CD3D9ExUtils","destructor",
-"CD3D9ExUtils","boundary","CD3D9ExUtils::Init","property set collaborator",
-"CD3D9ExUtils","boundary","CD3D9ExUtils::Uninit","property set collaborator",
-"CD3D9ExUtils","boundary","CD3D9ExUtils::Process","property non-void-command collaborator",
-"CD3D9ExUtils","boundary","CD3D9ExUtils::Render","property non-void-command collaborator",
-"CD3D9ExUtils","boundary","CD3D9ExUtils::Dump","wrapper stateless",
-"CD3D9ExUtils","boundary","CD3D9ExUtils::InitResource","property controller",
-"EncodeDecodeTestAPI","commander small-class","SetUp","command",
-"EncodeDecodeTestAPI","commander small-class","TearDown","command",
-"CWelsThread","boundary","SetRunning","set collaborator",
-"CWelsThread","boundary","SetEndFlag","set collaborator",
-"CWelsThread","boundary","GetRunning","get",
-"CWelsThread","boundary","GetEndFlag","get",
-"CWelsThread","boundary","SignalThread","wrapper",
-"CWelsThread","boundary","CWelsThread::CWelsThread","constructor",
-"CWelsThread","boundary","CWelsThread::~CWelsThread","destructor",
-"CWelsThread","boundary","CWelsThread::Thread","command",
-"CWelsThread","boundary","CWelsThread::Start","property non-void-command collaborator",
-"CWelsThread","boundary","CWelsThread::Kill","command",
-"CWelsThread","boundary","CWelsThread::TheThread","controller stateless",
-"CWelsAutoLock","empty","CWelsAutoLock","constructor",
-"CWelsAutoLock","empty","~CWelsAutoLock","destructor",
-"DecodeParseCrashAPI","commander small-class","DecodeParseCrashAPI","constructor",
-"DecodeParseCrashAPI","commander small-class","SetUp","command",
-"DecodeParseCrashAPI","commander small-class","TearDown","set",
-"SVCEncoderImpl","data-provider boundary","~SVCEncoderImpl","destructor",
-"SVCEncoderImpl","data-provider boundary","Initialize","property wrapper",
-"SVCEncoderImpl","data-provider boundary","InitializeExt","property wrapper",
-"SVCEncoderImpl","data-provider boundary","GetDefaultParams","property wrapper",
-"SVCEncoderImpl","data-provider boundary","Uninitialize","property wrapper",
-"SVCEncoderImpl","data-provider boundary","EncodeFrame","property wrapper",
-"SVCEncoderImpl","data-provider boundary","EncodeParameterSets","property wrapper",
-"SVCEncoderImpl","data-provider boundary","ForceIntraFrame","property wrapper",
-"SVCEncoderImpl","data-provider boundary","SetOption","property wrapper",
-"SVCEncoderImpl","data-provider boundary","GetOption","property wrapper",
-"CReadConfig","data-provider","CReadConfig::CReadConfig","constructor",
-"CReadConfig","data-provider","CReadConfig::CReadConfig","constructor",
-"CReadConfig","data-provider","CReadConfig::CReadConfig","constructor",
-"CReadConfig","data-provider","CReadConfig::~CReadConfig","destructor",
-"CReadConfig","data-provider","CReadConfig::Openf","void-accessor command",
-"CReadConfig","data-provider","CReadConfig::ReadLine","property set",
-"CReadConfig","data-provider","CReadConfig::EndOfFile","predicate wrapper",
-"CReadConfig","data-provider","CReadConfig::GetLines","get",
-"CReadConfig","data-provider","CReadConfig::ExistFile","predicate",
-"CReadConfig","data-provider","CReadConfig::GetFileName","get",
-"gmp_args_m_3_ret","commander lazy-class small-class","gmp_args_m_3_ret","constructor",
-"gmp_args_m_3_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_3_ret","commander lazy-class small-class","Run","set",
-"EncodeTestAPI","commander","SetUp","command",
-"EncodeTestAPI","commander","TearDown","command",
-"EncodeTestAPI","commander","EncodeOneFrameRandom","command",
-"CImageRotating","entity boundary","CImageRotating::CImageRotating","non-void-command collaborator",
-"CImageRotating","entity boundary","CImageRotating::~CImageRotating","destructor",
-"CImageRotating","entity boundary","CImageRotating::InitImageRotateFuncs","incidental",
-"CImageRotating","entity boundary","CImageRotating::ProcessImageRotate","property non-void-command collaborator",
-"CImageRotating","entity boundary","CImageRotating::Process","property non-void-command collaborator",
-"CWelsReference_LosslessWithLtr","data-provider boundary","CWelsReference_LosslessWithLtr::BuildRefList","predicate wrapper",
-"CWelsReference_LosslessWithLtr","data-provider boundary","CWelsReference_LosslessWithLtr::MarkPic","wrapper",
-"CWelsReference_LosslessWithLtr","data-provider boundary","CWelsReference_LosslessWithLtr::UpdateRefList","predicate wrapper",
-"CWelsReference_LosslessWithLtr","data-provider boundary","CWelsReference_LosslessWithLtr::EndofUpdateRefList","wrapper",
-"gmp_args_nm_2_ret","commander lazy-class small-class","gmp_args_nm_2_ret","constructor",
-"gmp_args_nm_2_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_2_ret","commander lazy-class small-class","Run","set",
-"gmp_args_m_4","small-class","gmp_args_m_4","constructor",
-"gmp_args_m_4","small-class","Run","unclassified",
-"CWelsParametersetSpsListing","unclassified","GetSpsIdx","incidental",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::CWelsParametersetSpsListing","constructor",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::GetNeededSubsetSpsNum","get set",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::LoadPreviousSps","void-accessor command collaborator",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::LoadPrevious","void-accessor command collaborator",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::CheckParamCompatibility","wrapper stateless",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::CheckPpsGenerating","incidental",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::SpsReset","property non-void-command",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::GenerateNewSps","property non-void-command",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::UpdateParaSetNum","void-accessor collaborator",
-"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::OutputCurrentStructure","void-accessor command collaborator",
-"CWelsNonDuplicatedList","entity boundary small-class","push_back","predicate non-void-command collaborator",
-"ISVCEncoder","empty","~ISVCEncoder","destructor",
-"CWelsTaskManageOne","boundary","GetThreadPoolThreadNum","incidental",
-"CWelsTaskManageOne","boundary","CWelsTaskManageOne::Init","property set collaborator",
-"CWelsTaskManageOne","boundary","CWelsTaskManageOne::ExecuteTasks","property wrapper",
-"DecodeEncodeTest","unclassified","SetUp","command",
-"DecodeEncodeTest","unclassified","TearDown","command",
-"DecodeEncodeTest","unclassified","onDecodeFrame","wrapper",
-"DecodeEncodeTest","unclassified","onEncodeFrame","void-accessor wrapper",
-"DecodeEncodeTest","unclassified","read","property non-void-command",
-"CSceneChangeDetectorVideo","data-provider data-class","CSceneChangeDetectorVideo","constructor",
-"CSceneChangeDetectorVideo","data-provider data-class","~CSceneChangeDetectorVideo","destructor",
-"CSceneChangeDetectorVideo","data-provider data-class","operator()","void-accessor set collaborator",
-"CSceneChangeDetectorVideo","data-provider data-class","GetSceneChangeMotionRatioLarge","get",
-"CSceneChangeDetectorVideo","data-provider data-class","GetSceneChangeMotionRatioMedium","get",
-"CWelsDecoder","boundary","CWelsDecoder::CWelsDecoder","constructor",
-"CWelsDecoder","boundary","CWelsDecoder::~CWelsDecoder","destructor",
-"CWelsDecoder","boundary","CWelsDecoder::Initialize","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::Uninitialize","property non-void-command",
-"CWelsDecoder","boundary","CWelsDecoder::UninitDecoder","command",
-"CWelsDecoder","boundary","CWelsDecoder::OpenDecoderThreads","set",
-"CWelsDecoder","boundary","CWelsDecoder::CloseDecoderThreads","wrapper",
-"CWelsDecoder","boundary","CWelsDecoder::UninitDecoderCtx","void-accessor controller",
-"CWelsDecoder","boundary","CWelsDecoder::InitDecoder","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::InitDecoderCtx","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::ResetDecoder","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::ThreadResetDecoder","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::SetOption","property non-void-command",
-"CWelsDecoder","boundary","CWelsDecoder::GetOption","property wrapper",
-"CWelsDecoder","boundary","CWelsDecoder::DecodeFrameNoDelay","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::DecodeFrame2WithCtx","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::DecodeFrame2","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::FlushFrame","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::OutputStatisticsLog","void-accessor wrapper",
-"CWelsDecoder","boundary","CWelsDecoder::BufferingReadyPicture","void-accessor command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::ReleaseBufferedReadyPictureReorder","void-accessor command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::ReleaseBufferedReadyPictureNoReorder","void-accessor command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::ReorderPicturesInDisplay","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::DecodeParser","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::DecodeFrame","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::DecodeFrameEx","collaborator incidental",
-"CWelsDecoder","boundary","CWelsDecoder::ParseAccessUnit","property non-void-command collaborator",
-"CWelsDecoder","boundary","CWelsDecoder::ThreadDecodeFrameInternal","property non-void-command collaborator",
-"IWelsTask","data-provider boundary data-class small-class","IWelsTask","copy-constructor",
-"IWelsTask","data-provider boundary data-class small-class","~IWelsTask","destructor",
-"IWelsTask","data-provider boundary data-class small-class","GetSink","get collaborator",
-"CVAACalculation","entity boundary","CVAACalculation::CVAACalculation","non-void-command collaborator",
-"CVAACalculation","entity boundary","CVAACalculation::~CVAACalculation","destructor",
-"CVAACalculation","entity boundary","CVAACalculation::InitVaaFuncs","incidental",
-"CVAACalculation","entity boundary","CVAACalculation::Process","property non-void-command collaborator",
-"CVAACalculation","entity boundary","CVAACalculation::Set","property set collaborator",
-"CD3D9Utils","boundary","CD3D9Utils::CD3D9Utils","constructor",
-"CD3D9Utils","boundary","CD3D9Utils::~CD3D9Utils","destructor",
-"CD3D9Utils","boundary","CD3D9Utils::Init","property non-void-command collaborator",
-"CD3D9Utils","boundary","CD3D9Utils::Uninit","property set collaborator",
-"CD3D9Utils","boundary","CD3D9Utils::Process","property non-void-command collaborator",
-"CD3D9Utils","boundary","CD3D9Utils::Render","property non-void-command collaborator",
-"CD3D9Utils","boundary","CD3D9Utils::Dump","wrapper stateless",
-"CD3D9Utils","boundary","CD3D9Utils::InitResource","property controller",
-"gmp_args_nm_9","boundary small-class","gmp_args_nm_9","constructor",
-"gmp_args_nm_9","boundary small-class","Run","wrapper",
-"AtomicRefCount","boundary data-class","AtomicRefCount","constructor",
-"AtomicRefCount","boundary data-class","~AtomicRefCount","destructor",
-"AtomicRefCount","boundary data-class","operator--","property set collaborator",
-"AtomicRefCount","boundary data-class","operator++","property set collaborator",
-"AtomicRefCount","boundary data-class","operatoruint32_t","get collaborator",
-"gmp_args_m_11","small-class","gmp_args_m_11","constructor",
-"gmp_args_m_11","small-class","Run","unclassified",
-"CWelsThreadPool","boundary","GetThreadNum","get",
-"CWelsThreadPool","boundary","CWelsThreadPool::CWelsThreadPool","constructor",
-"CWelsThreadPool","boundary","CWelsThreadPool::~CWelsThreadPool","destructor",
-"CWelsThreadPool","boundary","CWelsThreadPool::SetThreadNum","property set collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::AddReference","get property non-void-command factory collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::RemoveInstance","command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::IsReferenced","predicate wrapper",
-"CWelsThreadPool","boundary","CWelsThreadPool::OnTaskStart","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::OnTaskStop","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::Init","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::StopAllRunning","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::Uninit","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::ExecuteTask","command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::QueueTask","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::CreateIdleThread","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::DestroyThread","controller stateless",
-"CWelsThreadPool","boundary","CWelsThreadPool::AddThreadToIdleQueue","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::AddThreadToBusyList","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::RemoveThreadFromBusyList","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::AddTaskToWaitedList","predicate non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::GetIdleThread","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::GetBusyThreadNum","property non-void-command",
-"CWelsThreadPool","boundary","CWelsThreadPool::GetIdleThreadNum","property non-void-command",
-"CWelsThreadPool","boundary","CWelsThreadPool::GetWaitedTaskNum","property non-void-command",
-"CWelsThreadPool","boundary","CWelsThreadPool::GetWaitedTask","property non-void-command collaborator",
-"CWelsThreadPool","boundary","CWelsThreadPool::ClearWaitedTasks","command collaborator",
-"gmp_args_m_6_ret","commander lazy-class small-class","gmp_args_m_6_ret","constructor",
-"gmp_args_m_6_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_6_ret","commander lazy-class small-class","Run","set",
-"CWelsList","boundary","CWelsList","constructor",
-"CWelsList","boundary","~CWelsList","destructor",
-"CWelsList","boundary","size","get",
-"CWelsList","boundary","push_back","predicate non-void-command collaborator",
-"CWelsList","boundary","begin","get property collaborator",
-"CWelsList","boundary","pop_front","command collaborator",
-"CWelsList","boundary","erase","predicate non-void-command collaborator",
-"CWelsList","boundary","findNode","predicate collaborator",
-"CWelsList","boundary","getNode","property collaborator",
-"CWelsList","boundary","ExpandList","predicate non-void-command",
-"CWelsList","boundary","InitStorage","incidental",
-"CWelsList","boundary","CleanOneNode","collaborator incidental",
-"CWelsList","boundary","ResetStorage","command",
-"SadSatdCFuncTest","commander small-class","SetUp","command",
-"SadSatdCFuncTest","commander small-class","TearDown","command",
-"IWelsParametersetStrategy","boundary degenerate small-class","~IWelsParametersetStrategy","destructor",
-"IWelsParametersetStrategy","boundary degenerate small-class","IWelsParametersetStrategy::CreateParametersetStrategy","wrapper stateless",
-"CWelsParametersetIdNonConstant","data-provider boundary small-class","CWelsParametersetIdNonConstant","constructor",
-"CWelsParametersetIdNonConstant","data-provider boundary small-class","CWelsParametersetIdNonConstant::OutputCurrentStructure","void-accessor wrapper",
-"CWelsParametersetIdNonConstant","data-provider boundary small-class","CWelsParametersetIdNonConstant::LoadPreviousStructure","void-accessor wrapper",
-"gmp_args_nm_0","boundary degenerate small-class","gmp_args_nm_0","constructor",
-"gmp_args_nm_0","boundary degenerate small-class","Run","wrapper stateless",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen","constructor",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::GetReferenceSrcPicList","property collaborator",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::GetAvailableRefListLosslessScreenRefSelection","void-accessor",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::GetAvailableRefList","void-accessor",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::InitRefJudgement","collaborator incidental",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::JudgeBestRef","incidental",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::SaveBestRefToJudgement","collaborator incidental",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::SaveBestRefToLocal","wrapper stateless",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::SaveBestRefToVaa","collaborator incidental",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::GetCurrentOrigFrame","get collaborator",
-"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::DetectSceneChange","property non-void-command collaborator",
-"tagFilesSet","empty","tagFilesSet","constructor",
-"OpenH264VideoEncoder","unclassified","OpenH264VideoEncoder","constructor",
-"OpenH264VideoEncoder","unclassified","InitEncode","void-accessor command",
-"OpenH264VideoEncoder","unclassified","Encode","void-accessor command",
-"OpenH264VideoEncoder","unclassified","SetChannelParameters","empty",
-"OpenH264VideoEncoder","unclassified","SetRates","command",
-"OpenH264VideoEncoder","unclassified","SetPeriodicKeyFrames","empty",
-"OpenH264VideoEncoder","unclassified","EncodingComplete","command",
-"OpenH264VideoEncoder","unclassified","~OpenH264VideoEncoder","destructor",
-"OpenH264VideoEncoder","unclassified","TearDownEncoder","command",
-"OpenH264VideoEncoder","unclassified","TrySyncRunOnMainThread","void-accessor controller",
-"OpenH264VideoEncoder","unclassified","Error","command collaborator",
-"OpenH264VideoEncoder","unclassified","Encode_w","void-accessor command collaborator",
-"OpenH264VideoEncoder","unclassified","Encode_m","void-accessor command collaborator",
-"OpenH264VideoEncoder","unclassified","DestroyInputFrame_m","controller stateless",
-"gmp_args_nm_4","boundary small-class","gmp_args_nm_4","constructor",
-"gmp_args_nm_4","boundary small-class","Run","wrapper",
-"ParameterSetStrategyTest","unclassified","SetUp","command",
-"ParameterSetStrategyTest","unclassified","TearDown","command",
-"ParameterSetStrategyTest","unclassified","ParameterSetStrategyTest::GenerateParam","controller stateless",
-"CUtils","entity boundary small-class","CUtils::CUtils","constructor",
-"CUtils","entity boundary small-class","CUtils::~CUtils","destructor",
-"CUtils","entity boundary small-class","CUtils::Process","property non-void-command collaborator",
-"CUtils","entity boundary small-class","CUtils::CheckOS","wrapper stateless",
-"RefCountTaskWrapper","commander small-class","RefCountTaskWrapper","constructor",
-"RefCountTaskWrapper","commander small-class","Run","command",
-"RefCountTaskWrapper","commander small-class","Destroy","command",
-"RefCountTaskWrapper","commander small-class","~RefCountTaskWrapper","destructor",
-"gmp_args_nm_14","boundary small-class","gmp_args_nm_14","constructor",
-"gmp_args_nm_14","boundary small-class","Run","wrapper",
-"AutoLock","empty","AutoLock","constructor",
-"AutoLock","empty","~AutoLock","destructor",
-"gmp_args_nm_1_ret","commander lazy-class small-class","gmp_args_nm_1_ret","constructor",
-"gmp_args_nm_1_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_1_ret","commander lazy-class small-class","Run","set",
-"gmp_args_nm_0_ret","commander lazy-class small-class","gmp_args_nm_0_ret","constructor",
-"gmp_args_nm_0_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_0_ret","commander lazy-class small-class","Run","set",
-"CWelsParametersetIdConstant","lazy-class degenerate","UpdatePpsList","empty",
-"CWelsParametersetIdConstant","lazy-class degenerate","CheckParamCompatibility","collaborator incidental",
-"CWelsParametersetIdConstant","lazy-class degenerate","UpdateParaSetNum","empty",
-"CWelsParametersetIdConstant","lazy-class degenerate","GetCurrentPpsId","incidental",
-"CWelsParametersetIdConstant","lazy-class degenerate","OutputCurrentStructure","empty",
-"CWelsParametersetIdConstant","lazy-class degenerate","LoadPreviousStructure","empty",
-"CWelsParametersetIdConstant","lazy-class degenerate","GetSpsIdx","incidental",
-"CWelsParametersetIdConstant","lazy-class degenerate","LoadPreviousSps","empty",
-"CWelsParametersetIdConstant","lazy-class degenerate","LoadPreviousPps","empty",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::CWelsParametersetIdConstant","constructor",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::~CWelsParametersetIdConstant","destructor",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetPpsIdOffset","incidental",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetSpsIdOffset","incidental",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetSpsIdOffsetList","property",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetAllNeededParasetNum","property non-void-command",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetNeededSpsNum","get set",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetNeededSubsetSpsNum","get set",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetNeededPpsNum","get set",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::LoadPrevious","collaborator incidental",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::Update","wrapper",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GenerateNewSps","wrapper stateless",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::InitPps","property non-void-command",
-"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::SetUseSubsetFlag","set",
-"gmp_args_m_7_ret","commander lazy-class small-class","gmp_args_m_7_ret","constructor",
-"gmp_args_m_7_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_7_ret","commander lazy-class small-class","Run","set",
-"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing","constructor",
-"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::DebugSpsPps","unclassified",
-"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::DebugPps","unclassified",
-"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::Update","set",
-"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::GetPpsIdOffset","get non-void-command",
-"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::GetSpsIdOffset","get non-void-command",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::CWelsParametersetSpsPpsListing","constructor",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::LoadPreviousPps","void-accessor set collaborator",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::UpdatePpsList","void-accessor command collaborator",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::CheckPpsGenerating","predicate",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::SpsReset","incidental",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::InitPps","property set",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::UpdateParaSetNum","void-accessor command collaborator",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::GetCurrentPpsId","get",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::LoadPreviousStructure","void-accessor wrapper",
-"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::OutputCurrentStructure","void-accessor command collaborator",
-"TagPicture","commander small-class","SetUnref","command",
-"IWelsReferenceStrategy","pure-controller degenerate small-class","IWelsReferenceStrategy","constructor",
-"IWelsReferenceStrategy","pure-controller degenerate small-class","~IWelsReferenceStrategy","destructor",
-"IWelsReferenceStrategy","pure-controller degenerate small-class","IWelsReferenceStrategy::CreateReferenceStrategy","controller stateless",
-"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::Init","set collaborator",
-"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::BuildRefList","predicate wrapper",
-"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::MarkPic","wrapper",
-"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::UpdateRefList","predicate wrapper",
-"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::EndofUpdateRefList","wrapper",
-"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::AfterBuildRefList","wrapper",
-"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::BuildRefList","predicate wrapper",
-"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::MarkPic","wrapper",
-"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::UpdateRefList","predicate wrapper",
-"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::EndofUpdateRefList","wrapper",
-"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::AfterBuildRefList","wrapper",
-"SVCDecoderImpl","data-provider boundary","~SVCDecoderImpl","destructor",
-"SVCDecoderImpl","data-provider boundary","Initialize","property wrapper",
-"SVCDecoderImpl","data-provider boundary","Uninitialize","property wrapper",
-"SVCDecoderImpl","data-provider boundary","DecodeFrame","property wrapper",
-"SVCDecoderImpl","data-provider boundary","DecodeFrameNoDelay","property wrapper",
-"SVCDecoderImpl","data-provider boundary","DecodeFrame2","property wrapper",
-"SVCDecoderImpl","data-provider boundary","FlushFrame","property wrapper",
-"SVCDecoderImpl","data-provider boundary","DecodeFrameEx","property wrapper",
-"SVCDecoderImpl","data-provider boundary","DecodeParser","property wrapper",
-"SVCDecoderImpl","data-provider boundary","SetOption","property wrapper",
-"SVCDecoderImpl","data-provider boundary","GetOption","property wrapper",
-"TagStateCtx","unclassified","Mps","property",
-"TagStateCtx","unclassified","State","property",
-"TagStateCtx","unclassified","Set","set",
-"gmp_args_nm_12_ret","commander lazy-class small-class","gmp_args_nm_12_ret","constructor",
-"gmp_args_nm_12_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_12_ret","commander lazy-class small-class","Run","set",
-"gmp_args_m_13_ret","commander lazy-class small-class","gmp_args_m_13_ret","constructor",
-"gmp_args_m_13_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_13_ret","commander lazy-class small-class","Run","set",
-"CDenoiser","boundary","CDenoiser::CDenoiser","non-void-command collaborator",
-"CDenoiser","boundary","CDenoiser::~CDenoiser","destructor",
-"CDenoiser","boundary","CDenoiser::InitDenoiseFunc","wrapper stateless",
-"CDenoiser","boundary","CDenoiser::Process","property non-void-command collaborator",
-"CDenoiser","boundary","CDenoiser::BilateralDenoiseLuma","void-accessor command",
-"CDenoiser","boundary","CDenoiser::WaverageDenoiseChroma","void-accessor command",
-"SMVUnitXY","data-class small-class","sDeltaMv","get non-void-command",
-"SMVUnitXY","data-class small-class","sAssignMv","get non-void-command",
-"gmp_args_nm_3_ret","commander lazy-class small-class","gmp_args_nm_3_ret","constructor",
-"gmp_args_nm_3_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_3_ret","commander lazy-class small-class","Run","set",
-"gmp_args_nm_8","boundary small-class","gmp_args_nm_8","constructor",
-"gmp_args_nm_8","boundary small-class","Run","wrapper",
-"CWelsPreProcess","boundary","CWelsPreProcess::CreatePreProcess","wrapper stateless",
-"CWelsPreProcess","boundary","CWelsPreProcess::CWelsPreProcess","constructor",
-"CWelsPreProcess","boundary","CWelsPreProcess::~CWelsPreProcess","destructor",
-"CWelsPreProcess","boundary","CWelsPreProcess::WelsPreprocessCreate","property non-void-command",
-"CWelsPreProcess","boundary","CWelsPreProcess::WelsPreprocessDestroy","property set",
-"CWelsPreProcess","boundary","CWelsPreProcess::WelsPreprocessReset","property non-void-command collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::AllocSpatialPictures","property non-void-command collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::FreeSpatialPictures","set collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::BuildSpatialPicList","property non-void-command collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::GetBestRefPic","get collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::GetBestRefPic","get collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::AnalyzeSpatialPic","property non-void-command",
-"CWelsPreProcess","boundary","CWelsPreProcess::GetCurPicPosition","get",
-"CWelsPreProcess","boundary","CWelsPreProcess::UpdateSpatialPictures","property non-void-command",
-"CWelsPreProcess","boundary","CWelsPreProcess::SingleLayerPreprocess","property non-void-command collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::InitLastSpatialPictures","property non-void-command collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::ColorspaceConvert","incidental",
-"CWelsPreProcess","boundary","CWelsPreProcess::BilateralDenoising","command collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::DownsamplePadding","property non-void-command",
-"CWelsPreProcess","boundary","CWelsPreProcess::VaaCalculation","void-accessor command collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::BackgroundDetection","void-accessor command",
-"CWelsPreProcess","boundary","CWelsPreProcess::AdaptiveQuantCalculation","void-accessor command collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::SetRefMbType","collaborator incidental",
-"CWelsPreProcess","boundary","CWelsPreProcess::AnalyzePictureComplexity","void-accessor command",
-"CWelsPreProcess","boundary","CWelsPreProcess::InitPixMap","collaborator incidental",
-"CWelsPreProcess","boundary","CWelsPreProcess::GetRefFrameInfo","get collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::Padding","wrapper stateless",
-"CWelsPreProcess","boundary","CWelsPreProcess::UpdateBlockIdcForScreen","property non-void-command collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::WelsExchangeSpatialPictures","collaborator incidental",
-"CWelsPreProcess","boundary","CWelsPreProcess::UpdateSrcListLosslessScreenRefSelectionWithLtr","set collaborator",
-"CWelsPreProcess","boundary","CWelsPreProcess::UpdateSrcList","command",
-"CWelsPreProcess","boundary","CWelsPreProcess::WelsMoveMemoryWrapper","command",
-"CWelsPreProcess","boundary","CWelsPreProcess::GetSceneChangeFlag","collaborator incidental",
-"CWelsBaseTask","empty","CWelsBaseTask","constructor",
-"CWelsBaseTask","empty","CWelsBaseTask::~CWelsBaseTask","destructor",
-"CWelsSliceEncodingTask","boundary","GetTaskType","incidental",
-"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::CWelsSliceEncodingTask","constructor",
-"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::~CWelsSliceEncodingTask","destructor",
-"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::Execute","get non-void-command collaborator",
-"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::SetBoundary","property non-void-command collaborator",
-"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::QueryEmptyThread","incidental",
-"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::InitTask","property non-void-command collaborator",
-"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::FinishTask","command",
-"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::ExecuteTask","property non-void-command collaborator",
-"gmp_args_nm_10_ret","commander lazy-class small-class","gmp_args_nm_10_ret","constructor",
-"gmp_args_nm_10_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_10_ret","commander lazy-class small-class","Run","set",
-"MotionEstimateTest","commander","SetUp","command",
-"MotionEstimateTest","commander","TearDown","command",
-"MotionEstimateTest","commander","MotionEstimateTest::DoLineTest","wrapper",
-"CWelsConstrainedSizeSlicingEncodingTask","small-class","CWelsConstrainedSizeSlicingEncodingTask","constructor",
-"CWelsConstrainedSizeSlicingEncodingTask","small-class","GetTaskType","incidental",
-"CWelsConstrainedSizeSlicingEncodingTask","small-class","CWelsConstrainedSizeSlicingEncodingTask::ExecuteTask","property non-void-command collaborator",
-"gmp_args_m_1_ret","commander lazy-class small-class","gmp_args_m_1_ret","constructor",
-"gmp_args_m_1_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_1_ret","commander lazy-class small-class","Run","set",
-"CWelsUpdateMbMapTask","data-provider small-class","GetTaskType","incidental",
-"CWelsUpdateMbMapTask","data-provider small-class","CWelsUpdateMbMapTask::CWelsUpdateMbMapTask","constructor",
-"CWelsUpdateMbMapTask","data-provider small-class","CWelsUpdateMbMapTask::~CWelsUpdateMbMapTask","destructor",
-"CWelsUpdateMbMapTask","data-provider small-class","CWelsUpdateMbMapTask::Execute","property wrapper",
-"IWelsTaskManage","pure-controller degenerate small-class","~IWelsTaskManage","destructor",
-"IWelsTaskManage","pure-controller degenerate small-class","InitFrame","empty",
-"IWelsTaskManage","pure-controller degenerate small-class","IWelsTaskManage::CreateTaskManage","controller stateless",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::CWelsH264SVCEncoder","constructor",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::~CWelsH264SVCEncoder","destructor",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::InitEncoder","set",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::GetDefaultParams","wrapper stateless",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::Initialize","property non-void-command collaborator",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::InitializeExt","property non-void-command collaborator",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::InitializeInternal","property non-void-command collaborator",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::Uninitialize","property non-void-command",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::EncodeFrame","property set collaborator",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::EncodeFrameInternal","property non-void-command collaborator",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::EncodeParameterSets","property wrapper",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::ForceIntraFrame","property wrapper",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::TraceParamInfo","void-accessor wrapper",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::LogStatistics","wrapper",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::UpdateStatistics","command",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::SetOption","property non-void-command",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::GetOption","property non-void-command collaborator",
-"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::DumpSrcPicture","void-accessor wrapper",
-"CVpFrameWork","unclassified","CVpFrameWork::CVpFrameWork","constructor",
-"CVpFrameWork","unclassified","CVpFrameWork::~CVpFrameWork","destructor",
-"CVpFrameWork","unclassified","CVpFrameWork::Init","property non-void-command collaborator",
-"CVpFrameWork","unclassified","CVpFrameWork::Uninit","property controller",
-"CVpFrameWork","unclassified","CVpFrameWork::Flush","collaborator incidental",
-"CVpFrameWork","unclassified","CVpFrameWork::Process","property non-void-command collaborator",
-"CVpFrameWork","unclassified","CVpFrameWork::Get","property controller",
-"CVpFrameWork","unclassified","CVpFrameWork::Set","property controller",
-"CVpFrameWork","unclassified","CVpFrameWork::SpecialFeature","collaborator incidental",
-"CVpFrameWork","unclassified","CVpFrameWork::CheckValid","collaborator incidental",
-"CVpFrameWork","unclassified","CVpFrameWork::CreateStrategy","wrapper stateless",
-"IWelsVP","empty","~IWelsVP","destructor",
-"gmp_args_m_9_ret","commander lazy-class small-class","gmp_args_m_9_ret","constructor",
-"gmp_args_m_9_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_9_ret","commander lazy-class small-class","Run","set",
-"gmp_args_m_8_ret","commander lazy-class small-class","gmp_args_m_8_ret","constructor",
-"gmp_args_m_8_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_8_ret","commander lazy-class small-class","Run","set",
-"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::CAdaptiveQuantization","non-void-command collaborator",
-"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::~CAdaptiveQuantization","destructor",
-"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::Process","property non-void-command collaborator",
-"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::Set","property set collaborator",
-"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::Get","property collaborator",
-"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::WelsInitVarFunc","incidental",
-"CSceneChangeDetectorScreen","entity boundary small-class","CSceneChangeDetectorScreen","constructor",
-"CSceneChangeDetectorScreen","entity boundary small-class","~CSceneChangeDetectorScreen","destructor",
-"CSceneChangeDetectorScreen","entity boundary small-class","operator()","void-accessor command collaborator",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::CBackgroundDetection","non-void-command collaborator",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::~CBackgroundDetection","destructor",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::Process","property non-void-command collaborator",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::Set","collaborator incidental",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::AllocateOUArrayMemory","wrapper stateless",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::GetOUParameters","wrapper stateless",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundBackgroundDivision","void-accessor command collaborator",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::CalculateAsdChromaEdge","wrapper stateless",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundDilation23Luma","wrapper stateless",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundDilation23Chroma","predicate non-void-command collaborator",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundDilation","void-accessor command",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::BackgroundErosion","void-accessor command collaborator",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::SetBackgroundMbFlag","incidental",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::UpperOUForegroundCheck","void-accessor command collaborator",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundDilationAndBackgroundErosion","void-accessor command collaborator",
-"CBackgroundDetection","entity boundary","CBackgroundDetection::BackgroundDetection","void-accessor command collaborator",
-"RefPtr","boundary data-class","RefPtr","constructor",
-"RefPtr","boundary data-class","~RefPtr","destructor",
-"RefPtr","boundary data-class","operator->","get collaborator",
-"RefPtr","boundary data-class","operator=","get non-void-command collaborator",
-"RefPtr","boundary data-class","Assign","set collaborator",
-"CComplexityAnalysis","entity boundary","CComplexityAnalysis::CComplexityAnalysis","non-void-command collaborator",
-"CComplexityAnalysis","entity boundary","CComplexityAnalysis::~CComplexityAnalysis","destructor",
-"CComplexityAnalysis","entity boundary","CComplexityAnalysis::Process","property non-void-command collaborator",
-"CComplexityAnalysis","entity boundary","CComplexityAnalysis::Set","property set collaborator",
-"CComplexityAnalysis","entity boundary","CComplexityAnalysis::Get","property collaborator",
-"CComplexityAnalysis","entity boundary","CComplexityAnalysis::AnalyzeFrameComplexityViaSad","void-accessor set collaborator",
-"CComplexityAnalysis","entity boundary","CComplexityAnalysis::GetFrameSadExcludeBackground","property wrapper",
-"CComplexityAnalysis","entity boundary","CComplexityAnalysis::AnalyzeGomComplexityViaSad","set collaborator",
-"CComplexityAnalysis","entity boundary","CComplexityAnalysis::AnalyzeGomComplexityViaVar","set collaborator",
-"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::CComplexityAnalysisScreen","constructor",
-"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::~CComplexityAnalysisScreen","destructor",
-"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::Process","property non-void-command collaborator",
-"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::Set","property set collaborator",
-"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::Get","property collaborator",
-"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::GomComplexityAnalysisIntra","command collaborator",
-"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::GomComplexityAnalysisInter","command",
-"CDownsampling","unclassified","CDownsampling::CDownsampling","non-void-command collaborator",
-"CDownsampling","unclassified","CDownsampling::~CDownsampling","destructor",
-"CDownsampling","unclassified","CDownsampling::AllocateSampleBuffer","predicate non-void-command",
-"CDownsampling","unclassified","CDownsampling::FreeSampleBuffer","command",
-"CDownsampling","unclassified","CDownsampling::InitDownsampleFuncs","wrapper stateless",
-"CDownsampling","unclassified","CDownsampling::Process","property non-void-command collaborator",
-"CDownsampling","unclassified","CDownsampling::DownsampleHalfAverage","void-accessor command",
-"CSceneChangeDetection","entity boundary","CSceneChangeDetection","constructor",
-"CSceneChangeDetection","entity boundary","~CSceneChangeDetection","destructor",
-"CSceneChangeDetection","entity boundary","Process","property non-void-command collaborator",
-"CSceneChangeDetection","entity boundary","Get","property collaborator",
-"CSceneChangeDetection","entity boundary","Set","property set collaborator",
-"TagWelsSvcCodingParam","entity boundary","TagWelsSvcCodingParam","constructor",
-"TagWelsSvcCodingParam","entity boundary","~TagWelsSvcCodingParam","destructor",
-"TagWelsSvcCodingParam","entity boundary","FillDefault","command",
-"TagWelsSvcCodingParam","entity boundary","ParamBaseTranscode","property non-void-command collaborator",
-"TagWelsSvcCodingParam","entity boundary","GetBaseParams","collaborator incidental",
-"TagWelsSvcCodingParam","entity boundary","ParamTranscode","property non-void-command collaborator",
-"TagWelsSvcCodingParam","entity boundary","SetActualPicResolution","wrapper",
-"TagWelsSvcCodingParam","entity boundary","DetermineTemporalSettings","property set",
-"CScrollDetection","entity boundary","CScrollDetection","constructor",
-"CScrollDetection","entity boundary","~CScrollDetection","destructor",
-"CScrollDetection","entity boundary","CScrollDetection::Process","property non-void-command collaborator",
-"CScrollDetection","entity boundary","CScrollDetection::Set","property set collaborator",
-"CScrollDetection","entity boundary","CScrollDetection::Get","property collaborator",
-"CScrollDetection","entity boundary","CScrollDetection::ScrollDetectionWithMask","void-accessor command collaborator",
-"CScrollDetection","entity boundary","CScrollDetection::ScrollDetectionWithoutMask","void-accessor wrapper",
-"gmp_args_m_14","small-class","gmp_args_m_14","constructor",
-"gmp_args_m_14","small-class","Run","unclassified",
-"gmp_args_nm_14_ret","commander lazy-class small-class","gmp_args_nm_14_ret","constructor",
-"gmp_args_nm_14_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_14_ret","commander lazy-class small-class","Run","set",
-"SelfDestruct","boundary data-class small-class","SelfDestruct","constructor",
-"SelfDestruct","boundary data-class small-class","~SelfDestruct","destructor",
-"SelfDestruct","boundary data-class small-class","forget","property set collaborator",
-"FrameStats","commander small-class","FrameStats","constructor",
-"FrameStats","commander small-class","FrameIn","command collaborator",
-"FrameStats","commander small-class","FrameOut","set",
-"gmp_args_m_3","small-class","gmp_args_m_3","constructor",
-"gmp_args_m_3","small-class","Run","unclassified",
-"OpenH264VideoDecoder","commander","OpenH264VideoDecoder","constructor",
-"OpenH264VideoDecoder","commander","InitDecode","void-accessor command collaborator",
-"OpenH264VideoDecoder","commander","Decode","void-accessor command collaborator",
-"OpenH264VideoDecoder","commander","Reset","command",
-"OpenH264VideoDecoder","commander","Drain","command",
-"OpenH264VideoDecoder","commander","DecodingComplete","command",
-"OpenH264VideoDecoder","commander","~OpenH264VideoDecoder","destructor",
-"OpenH264VideoDecoder","commander","TearDownDecoder","command",
-"OpenH264VideoDecoder","commander","TrySyncRunOnMainThread","void-accessor controller",
-"OpenH264VideoDecoder","commander","Error","command collaborator",
-"OpenH264VideoDecoder","commander","Decode_w","void-accessor command",
-"OpenH264VideoDecoder","commander","Decode_m","void-accessor command collaborator",
-"OpenH264VideoDecoder","commander","Reset_w","command",
-"OpenH264VideoDecoder","commander","Reset_m","command",
-"gmp_args_base","small-class","Destroy","unclassified",
-"gmp_args_m_0","degenerate small-class","gmp_args_m_0","constructor",
-"gmp_args_m_0","degenerate small-class","Run","incidental",
-"gmp_args_m_0_ret","commander lazy-class small-class","gmp_args_m_0_ret","constructor",
-"gmp_args_m_0_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_0_ret","commander lazy-class small-class","Run","set",
-"gmp_args_nm_1","boundary small-class","gmp_args_nm_1","constructor",
-"gmp_args_nm_1","boundary small-class","Run","wrapper",
-"CWelsLoadBalancingSlicingEncodingTask","boundary lazy-class","CWelsLoadBalancingSlicingEncodingTask","constructor",
-"CWelsLoadBalancingSlicingEncodingTask","boundary lazy-class","GetTaskType","incidental",
-"CWelsLoadBalancingSlicingEncodingTask","boundary lazy-class","CWelsLoadBalancingSlicingEncodingTask::InitTask","property set collaborator",
-"CWelsLoadBalancingSlicingEncodingTask","boundary lazy-class","CWelsLoadBalancingSlicingEncodingTask::FinishTask","set collaborator",
-"gmp_args_nm_2","boundary small-class","gmp_args_nm_2","constructor",
-"gmp_args_nm_2","boundary small-class","Run","wrapper",
-"gmp_args_m_2_ret","commander lazy-class small-class","gmp_args_m_2_ret","constructor",
-"gmp_args_m_2_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_2_ret","commander lazy-class small-class","Run","set",
-"gmp_args_nm_11","boundary small-class","gmp_args_nm_11","constructor",
-"gmp_args_nm_11","boundary small-class","Run","wrapper",
-"gmp_args_nm_3","boundary small-class","gmp_args_nm_3","constructor",
-"gmp_args_nm_3","boundary small-class","Run","wrapper",
-"gmp_args_nm_4_ret","commander lazy-class small-class","gmp_args_nm_4_ret","constructor",
-"gmp_args_nm_4_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_4_ret","commander lazy-class small-class","Run","set",
-"gmp_args_m_2","small-class","gmp_args_m_2","constructor",
-"gmp_args_m_2","small-class","Run","unclassified",
-"gmp_args_nm_5","boundary small-class","gmp_args_nm_5","constructor",
-"gmp_args_nm_5","boundary small-class","Run","wrapper",
-"gmp_args_nm_5_ret","commander lazy-class small-class","gmp_args_nm_5_ret","constructor",
-"gmp_args_nm_5_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_5_ret","commander lazy-class small-class","Run","set",
-"EncodeDecodeTestBase","commander boundary degenerate","SetUp","command",
-"EncodeDecodeTestBase","commander boundary degenerate","TearDown","command",
-"EncodeDecodeTestBase","commander boundary degenerate","GetRandWidth","wrapper stateless",
-"EncodeDecodeTestBase","commander boundary degenerate","GetRandHeight","wrapper stateless",
-"EncodeDecodeTestBase","commander boundary degenerate","EncodeDecodeTestBase::prepareParam","collaborator incidental",
-"EncodeDecodeTestBase","commander boundary degenerate","EncodeDecodeTestBase::prepareEncDecParam","predicate non-void-command collaborator",
-"EncodeDecodeTestBase","commander boundary degenerate","EncodeDecodeTestBase::encToDecData","incidental",
-"EncodeDecodeTestBase","commander boundary degenerate","EncodeDecodeTestBase::encToDecSliceData","wrapper stateless",
-"gmp_args_m_5_ret","commander lazy-class small-class","gmp_args_m_5_ret","constructor",
-"gmp_args_m_5_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_5_ret","commander lazy-class small-class","Run","set",
-"gmp_args_nm_6_ret","commander lazy-class small-class","gmp_args_nm_6_ret","constructor",
-"gmp_args_nm_6_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_6_ret","commander lazy-class small-class","Run","set",
-"gmp_args_m_6","small-class","gmp_args_m_6","constructor",
-"gmp_args_m_6","small-class","Run","unclassified",
-"gmp_args_nm_7","boundary small-class","gmp_args_nm_7","constructor",
-"gmp_args_nm_7","boundary small-class","Run","wrapper",
-"gmp_args_m_4_ret","commander lazy-class small-class","gmp_args_m_4_ret","constructor",
-"gmp_args_m_4_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_4_ret","commander lazy-class small-class","Run","set",
-"gmp_args_nm_7_ret","commander lazy-class small-class","gmp_args_nm_7_ret","constructor",
-"gmp_args_nm_7_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_7_ret","commander lazy-class small-class","Run","set",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::CWelsTaskManageBase","constructor",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::~CWelsTaskManageBase","destructor",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::Init","property non-void-command collaborator",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::Uninit","command",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::CreateTasks","property set collaborator",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::DestroyTaskList","controller stateless",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::DestroyTasks","command",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::OnTaskMinusOne","wrapper",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::OnTaskCancelled","property non-void-command collaborator",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::OnTaskExecuted","property non-void-command collaborator",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::ExecuteTaskList","property set collaborator",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::InitFrame","set",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::ExecuteTasks","property non-void-command collaborator",
-"CWelsTaskManageBase","boundary","CWelsTaskManageBase::GetThreadPoolThreadNum","property non-void-command",
-"gmp_args_m_8","small-class","gmp_args_m_8","constructor",
-"gmp_args_m_8","small-class","Run","unclassified",
-"gmp_args_nm_9_ret","commander lazy-class small-class","gmp_args_nm_9_ret","constructor",
-"gmp_args_nm_9_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_9_ret","commander lazy-class small-class","Run","set",
-"gmp_args_nm_10","boundary small-class","gmp_args_nm_10","constructor",
-"gmp_args_nm_10","boundary small-class","Run","wrapper",
-"DecoderInterfaceTest","commander","SetUp","wrapper",
-"DecoderInterfaceTest","commander","TearDown","wrapper",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::Init","property non-void-command collaborator",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::ValidInit","property non-void-command collaborator",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::Uninit","command collaborator",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::DecoderBs","void-accessor command",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::MockPacketType","command",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestInitUninit","command",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestParseOnlyAPI","command",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestEndOfStream","command",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestVclNal","command",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestTemporalId","empty",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestFrameNum","empty",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestIdrPicId","empty",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestLtrMarkingFlag","empty",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestLtrMarkedFrameNum","empty",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestErrorConIdc","command",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestTraceLevel","empty",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestTraceCallback","empty",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestTraceCallbackContext","empty",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestGetDecStatistics","command",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestGetDecSarInfo","command collaborator",
-"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestVuiInSubsetSps","command collaborator",
-"gmp_args_m_7","small-class","gmp_args_m_7","constructor",
-"gmp_args_m_7","small-class","Run","unclassified",
-"gmp_args_m_10","small-class","gmp_args_m_10","constructor",
-"gmp_args_m_10","small-class","Run","unclassified",
-"gmp_args_m_10_ret","commander lazy-class small-class","gmp_args_m_10_ret","constructor",
-"gmp_args_m_10_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_10_ret","commander lazy-class small-class","Run","set",
-"gmp_args_nm_11_ret","commander lazy-class small-class","gmp_args_nm_11_ret","constructor",
-"gmp_args_nm_11_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_nm_11_ret","commander lazy-class small-class","Run","set",
-"gmp_args_m_11_ret","commander lazy-class small-class","gmp_args_m_11_ret","constructor",
-"gmp_args_m_11_ret","commander lazy-class small-class","returns_value","incidental",
-"gmp_args_m_11_ret","commander lazy-class small-class","Run","set",
+"BufferedData","unclassified","BufferedData","constructor"
+"BufferedData","unclassified","~BufferedData","destructor"
+"BufferedData","unclassified","PushBack","predicate non-void-command"
+"BufferedData","unclassified","PushBack","predicate set"
+"BufferedData","unclassified","PopFront","property non-void-command"
+"BufferedData","unclassified","Clear","set"
+"BufferedData","unclassified","SetLength","property non-void-command"
+"BufferedData","unclassified","Length","get"
+"BufferedData","unclassified","data","get"
+"BufferedData","unclassified","EnsureCapacity","predicate non-void-command"
+"SadSatdAssemblyFuncTest","commander small-class","SetUp","command"
+"SadSatdAssemblyFuncTest","commander small-class","TearDown","command"
+"FeatureMotionEstimateTest","unclassified","SetUp","command"
+"FeatureMotionEstimateTest","unclassified","TearDown","command"
+"FeatureMotionEstimateTest","unclassified","InitRefPicForMeTest","void-accessor wrapper"
+"MotionEstimateRangeTest","commander small-class","SetUp","command"
+"MotionEstimateRangeTest","commander small-class","TearDown","command"
+"EncInterfaceCallTest","commander","SetUp","command"
+"EncInterfaceCallTest","commander","TearDown","command"
+"EncInterfaceCallTest","commander","onEncodeFrame","empty"
+"EncoderInterfaceTest","commander","SetUp","command"
+"EncoderInterfaceTest","commander","TearDown","set"
+"EncoderInterfaceTest","commander","EncoderInterfaceTest::PrepareOneSrcFrame","command"
+"EncoderInterfaceTest","commander","EncoderInterfaceTest::EncodeOneFrame","command collaborator"
+"EncoderInterfaceTest","commander","EncoderInterfaceTest::EncodeOneIDRandP","set collaborator"
+"EncoderInterfaceTest","commander","EncoderInterfaceTest::InitializeParamExt","command"
+"EncoderInterfaceTest","commander","EncoderInterfaceTest::ChangeResolutionAndCheckStatistics","command collaborator"
+"DecoderParseSyntaxTest","commander boundary","SetUp","wrapper"
+"DecoderParseSyntaxTest","commander boundary","TearDown","wrapper"
+"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::Init","property non-void-command collaborator"
+"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::Uninit","command"
+"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::DecodeBs","predicate non-void-command collaborator"
+"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::ParseBs","predicate non-void-command collaborator"
+"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::TestScalingList","command"
+"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::TestSpecificBs","command"
+"DecoderParseSyntaxTest","commander boundary","DecoderParseSyntaxTest::TestSpecificBsError","command"
+"CSimpleTask","data-provider boundary small-class","CSimpleTask","constructor"
+"CSimpleTask","data-provider boundary small-class","~CSimpleTask","destructor"
+"CSimpleTask","data-provider boundary small-class","Execute","property wrapper"
+"CThreadPoolTest","boundary data-class","CThreadPoolTest","constructor"
+"CThreadPoolTest","boundary data-class","~CThreadPoolTest","destructor"
+"CThreadPoolTest","boundary data-class","OnTaskExecuted","property set collaborator"
+"CThreadPoolTest","boundary data-class","OnTaskCancelled","property set collaborator"
+"CThreadPoolTest","boundary data-class","OnTaskExecuted","property set collaborator"
+"CThreadPoolTest","boundary data-class","OnTaskCancelled","property set collaborator"
+"CThreadPoolTest","boundary data-class","GetTaskCount","get"
+"ThreadDecoderOutputTest","commander small-class","SetUp","command"
+"ThreadDecoderOutputTest","commander small-class","onDecodeFrame","wrapper"
+"ThreadDecoderInitTest","commander small-class","SetUp","command"
+"ThreadDecoderInitTest","commander small-class","TearDown","command"
+"ThreadDecoderCapabilityTest","degenerate small-class","SetUp","empty"
+"ThreadDecoderCapabilityTest","degenerate small-class","TearDown","empty"
+"EncoderInitTest","commander small-class","SetUp","command"
+"EncoderInitTest","commander small-class","TearDown","command"
+"EncodeDecodeTestAPIBase","commander","SetUp","command"
+"EncodeDecodeTestAPIBase","commander","TearDown","command"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::prepareParam0","command collaborator"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::prepareParamDefault","command collaborator"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::EncodeOneFrame","command"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::EncDecOneFrame","predicate non-void-command collaborator"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::TestOneSimulcastAVC","predicate non-void-command"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::InitialEncDec","predicate non-void-command"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::RandomParamExtCombination","command collaborator"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::ValidateParamExtCombination","command collaborator"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::SliceParamValidationForMode2","wrapper"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::SliceParamValidationForMode3","unclassified"
+"EncodeDecodeTestAPIBase","commander","EncodeDecodeTestAPIBase::SliceParamValidationForMode4","set"
+"DecoderCapabilityTest","degenerate small-class","SetUp","empty"
+"DecoderCapabilityTest","degenerate small-class","TearDown","empty"
+"DecodeParseAPI","commander","DecodeParseAPI","constructor"
+"DecodeParseAPI","commander","SetUp","command"
+"DecodeParseAPI","commander","TearDown","set"
+"DecodeParseAPI","commander","prepareEncDecParam","predicate set collaborator"
+"DecodeParseAPI","commander","MockInputData","wrapper stateless"
+"DecodeParseAPI","commander","EncodeOneFrame","command"
+"DecodeParseAPI","commander","prepareParam","command collaborator"
+"DecodeCrashTestAPI","commander","SetUp","set"
+"DecodeCrashTestAPI","commander","TearDown","set"
+"DecodeCrashTestAPI","commander","prepareParam","command collaborator"
+"DecodeCrashTestAPI","commander","EncodeOneFrame","command"
+"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::BaseThreadDecoderTest","constructor"
+"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::SetUp","property non-void-command"
+"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::TearDown","command"
+"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::DecodeFrame","command collaborator"
+"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::FlushFrame","set collaborator"
+"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::ThreadDecodeFile","predicate non-void-command collaborator"
+"BaseThreadDecoderTest","unclassified","BaseThreadDecoderTest::Open","predicate non-void-command"
+"BaseEncoderTest","commander","BaseEncoderTest::BaseEncoderTest","constructor"
+"BaseEncoderTest","commander","BaseEncoderTest::SetUp","command"
+"BaseEncoderTest","commander","BaseEncoderTest::TearDown","command"
+"BaseEncoderTest","commander","BaseEncoderTest::EncodeStream","command collaborator"
+"BaseEncoderTest","commander","BaseEncoderTest::EncodeFile","command collaborator"
+"BaseDecoderTest","entity boundary","BaseDecoderTest::BaseDecoderTest","constructor"
+"BaseDecoderTest","entity boundary","BaseDecoderTest::SetUp","property non-void-command collaborator"
+"BaseDecoderTest","entity boundary","BaseDecoderTest::TearDown","command"
+"BaseDecoderTest","entity boundary","BaseDecoderTest::DecodeFrame","command collaborator"
+"BaseDecoderTest","entity boundary","BaseDecoderTest::FlushFrame","command collaborator"
+"BaseDecoderTest","entity boundary","BaseDecoderTest::DecodeFile","predicate non-void-command collaborator"
+"BaseDecoderTest","entity boundary","BaseDecoderTest::Open","predicate non-void-command"
+"BaseDecoderTest","entity boundary","BaseDecoderTest::DecodeNextFrame","predicate non-void-command collaborator"
+"gmp_args_m_14_ret","commander lazy-class small-class","gmp_args_m_14_ret","constructor"
+"gmp_args_m_14_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_14_ret","commander lazy-class small-class","Run","set"
+"DecoderOutputTest","commander small-class","SetUp","command"
+"DecoderOutputTest","commander small-class","onDecodeFrame","wrapper"
+"gmp_args_m_13","small-class","gmp_args_m_13","constructor"
+"gmp_args_m_13","small-class","Run","unclassified"
+"gmp_args_nm_13_ret","commander lazy-class small-class","gmp_args_nm_13_ret","constructor"
+"gmp_args_nm_13_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_13_ret","commander lazy-class small-class","Run","set"
+"gmp_args_nm_13","boundary small-class","gmp_args_nm_13","constructor"
+"gmp_args_nm_13","boundary small-class","Run","wrapper"
+"gmp_args_m_12_ret","commander lazy-class small-class","gmp_args_m_12_ret","constructor"
+"gmp_args_m_12_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_12_ret","commander lazy-class small-class","Run","set"
+"gmp_args_m_12","small-class","gmp_args_m_12","constructor"
+"gmp_args_m_12","small-class","Run","unclassified"
+"gmp_args_nm_12","boundary small-class","gmp_args_nm_12","constructor"
+"gmp_args_nm_12","boundary small-class","Run","wrapper"
+"CWelsParametersetSpsListingPpsIncreasing","data-provider small-class","CWelsParametersetSpsListingPpsIncreasing","constructor"
+"CWelsParametersetSpsListingPpsIncreasing","data-provider small-class","CWelsParametersetSpsListingPpsIncreasing::GetPpsIdOffset","property"
+"CWelsParametersetSpsListingPpsIncreasing","data-provider small-class","CWelsParametersetSpsListingPpsIncreasing::Update","wrapper"
+"EncoderOutputTest","commander small-class","SetUp","command"
+"EncoderOutputTest","commander small-class","onEncodeFrame","wrapper"
+"gmp_args_m_1","small-class","gmp_args_m_1","constructor"
+"gmp_args_m_1","small-class","Run","unclassified"
+"FileInputStream","small-class","Open","predicate non-void-command"
+"FileInputStream","small-class","read","property non-void-command"
+"DecoderInitTest","commander small-class","SetUp","command"
+"DecoderInitTest","commander small-class","TearDown","command"
+"gmp_args_nm_6","boundary small-class","gmp_args_nm_6","constructor"
+"gmp_args_nm_6","boundary small-class","Run","wrapper"
+"gmp_args_m_5","small-class","gmp_args_m_5","constructor"
+"gmp_args_m_5","small-class","Run","unclassified"
+"welsCodecTrace","commander","welsCodecTrace::welsCodecTrace","constructor"
+"welsCodecTrace","commander","welsCodecTrace::~welsCodecTrace","destructor"
+"welsCodecTrace","commander","welsCodecTrace::StaticCodecTrace","controller stateless"
+"welsCodecTrace","commander","welsCodecTrace::CodecTrace","wrapper"
+"welsCodecTrace","commander","welsCodecTrace::SetCodecInstance","set"
+"welsCodecTrace","commander","welsCodecTrace::SetTraceLevel","set"
+"welsCodecTrace","commander","welsCodecTrace::SetTraceCallback","set collaborator"
+"welsCodecTrace","commander","welsCodecTrace::SetTraceCallbackContext","set"
+"ISVCDecoder","empty","~ISVCDecoder","destructor"
+"CWelsTaskThread","entity boundary","GetID","get collaborator"
+"CWelsTaskThread","entity boundary","CWelsTaskThread::CWelsTaskThread","constructor"
+"CWelsTaskThread","entity boundary","CWelsTaskThread::~CWelsTaskThread","destructor"
+"CWelsTaskThread","entity boundary","CWelsTaskThread::ExecuteTask","command collaborator"
+"CWelsTaskThread","entity boundary","CWelsTaskThread::SetTask","property non-void-command collaborator"
+"CWelsPreProcessVideo","entity boundary small-class","CWelsPreProcessVideo","constructor"
+"CWelsPreProcessVideo","entity boundary small-class","CWelsPreProcessVideo::DetectSceneChange","property non-void-command collaborator"
+"CWelsPreProcessVideo","entity boundary small-class","CWelsPreProcessVideo::GetCurrentOrigFrame","get non-void-command collaborator"
+"RefCounted","data-class small-class","AddRef","set"
+"RefCounted","data-class small-class","Release","property set"
+"RefCounted","data-class small-class","RefCounted","constructor"
+"RefCounted","data-class small-class","~RefCounted","destructor"
+"gmp_args_m_11_ret","commander lazy-class small-class","gmp_args_m_11_ret","constructor"
+"gmp_args_m_11_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_11_ret","commander lazy-class small-class","Run","set"
+"gmp_args_m_9","small-class","gmp_args_m_9","constructor"
+"gmp_args_m_9","small-class","Run","unclassified"
+"CMemoryAlign","unclassified","CMemoryAlign::CMemoryAlign","constructor"
+"CMemoryAlign","unclassified","CMemoryAlign::~CMemoryAlign","destructor"
+"CMemoryAlign","unclassified","CMemoryAlign::WelsMallocz","property command collaborator"
+"CMemoryAlign","unclassified","CMemoryAlign::WelsMalloc","property set collaborator"
+"CMemoryAlign","unclassified","CMemoryAlign::WelsFree","set"
+"CMemoryAlign","unclassified","CMemoryAlign::WelsGetCacheLineSize","get"
+"CMemoryAlign","unclassified","CMemoryAlign::WelsGetMemoryUsage","get"
+"gmp_args_nm_8_ret","commander lazy-class small-class","gmp_args_nm_8_ret","constructor"
+"gmp_args_nm_8_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_8_ret","commander lazy-class small-class","Run","set"
+"CSliceBufferReallocatTest","boundary","SetUp","command collaborator"
+"CSliceBufferReallocatTest","boundary","TearDown","command"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitParamForTestCase","incidental"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitParamForSizeLimitSlcModeCase","property non-void-command collaborator"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::UnInitParamForTestCase","command"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitParam","property controller"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::UnInitParam","controller"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitFrameBsBuffer","property controller"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::UnInitFrameBsBuffer","controller"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::InitLayerSliceBuffer","property wrapper"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::UnInitLayerSliceBuffer","wrapper"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::SimulateEncodedOneSlice","wrapper"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::SimulateSliceInOnePartition","command"
+"CSliceBufferReallocatTest","boundary","CSliceBufferReallocatTest::SimulateSliceInOneLayer","command"
+"CWelsLock","data-provider boundary small-class","CWelsLock","constructor"
+"CWelsLock","data-provider boundary small-class","~CWelsLock","destructor"
+"CWelsLock","data-provider boundary small-class","Lock","property wrapper"
+"CWelsLock","data-provider boundary small-class","Unlock","property wrapper"
+"IStrategy","boundary degenerate","IStrategy","constructor"
+"IStrategy","boundary degenerate","~IStrategy","destructor"
+"IStrategy","boundary degenerate","Init","collaborator incidental"
+"IStrategy","boundary degenerate","Uninit","collaborator incidental"
+"IStrategy","boundary degenerate","Flush","collaborator incidental"
+"IStrategy","boundary degenerate","Get","collaborator incidental"
+"IStrategy","boundary degenerate","Set","collaborator incidental"
+"IStrategy","boundary degenerate","SpecialFeature","collaborator incidental"
+"CD3D9ExUtils","boundary","CD3D9ExUtils::CD3D9ExUtils","constructor"
+"CD3D9ExUtils","boundary","CD3D9ExUtils::~CD3D9ExUtils","destructor"
+"CD3D9ExUtils","boundary","CD3D9ExUtils::Init","property set collaborator"
+"CD3D9ExUtils","boundary","CD3D9ExUtils::Uninit","property set collaborator"
+"CD3D9ExUtils","boundary","CD3D9ExUtils::Process","property non-void-command collaborator"
+"CD3D9ExUtils","boundary","CD3D9ExUtils::Render","property non-void-command collaborator"
+"CD3D9ExUtils","boundary","CD3D9ExUtils::Dump","wrapper stateless"
+"CD3D9ExUtils","boundary","CD3D9ExUtils::InitResource","property controller"
+"EncodeDecodeTestAPI","commander small-class","SetUp","command"
+"EncodeDecodeTestAPI","commander small-class","TearDown","command"
+"CWelsThread","boundary","SetRunning","set collaborator"
+"CWelsThread","boundary","SetEndFlag","set collaborator"
+"CWelsThread","boundary","GetRunning","get"
+"CWelsThread","boundary","GetEndFlag","get"
+"CWelsThread","boundary","SignalThread","wrapper"
+"CWelsThread","boundary","CWelsThread::CWelsThread","constructor"
+"CWelsThread","boundary","CWelsThread::~CWelsThread","destructor"
+"CWelsThread","boundary","CWelsThread::Thread","command"
+"CWelsThread","boundary","CWelsThread::Start","property non-void-command collaborator"
+"CWelsThread","boundary","CWelsThread::Kill","command"
+"CWelsThread","boundary","CWelsThread::TheThread","controller stateless"
+"CWelsAutoLock","empty","CWelsAutoLock","constructor"
+"CWelsAutoLock","empty","~CWelsAutoLock","destructor"
+"DecodeParseCrashAPI","commander small-class","DecodeParseCrashAPI","constructor"
+"DecodeParseCrashAPI","commander small-class","SetUp","command"
+"DecodeParseCrashAPI","commander small-class","TearDown","set"
+"SVCEncoderImpl","data-provider boundary","~SVCEncoderImpl","destructor"
+"SVCEncoderImpl","data-provider boundary","Initialize","property wrapper"
+"SVCEncoderImpl","data-provider boundary","InitializeExt","property wrapper"
+"SVCEncoderImpl","data-provider boundary","GetDefaultParams","property wrapper"
+"SVCEncoderImpl","data-provider boundary","Uninitialize","property wrapper"
+"SVCEncoderImpl","data-provider boundary","EncodeFrame","property wrapper"
+"SVCEncoderImpl","data-provider boundary","EncodeParameterSets","property wrapper"
+"SVCEncoderImpl","data-provider boundary","ForceIntraFrame","property wrapper"
+"SVCEncoderImpl","data-provider boundary","SetOption","property wrapper"
+"SVCEncoderImpl","data-provider boundary","GetOption","property wrapper"
+"CReadConfig","data-provider","CReadConfig::CReadConfig","constructor"
+"CReadConfig","data-provider","CReadConfig::CReadConfig","constructor"
+"CReadConfig","data-provider","CReadConfig::CReadConfig","constructor"
+"CReadConfig","data-provider","CReadConfig::~CReadConfig","destructor"
+"CReadConfig","data-provider","CReadConfig::Openf","command"
+"CReadConfig","data-provider","CReadConfig::ReadLine","property set"
+"CReadConfig","data-provider","CReadConfig::EndOfFile","predicate wrapper"
+"CReadConfig","data-provider","CReadConfig::GetLines","get"
+"CReadConfig","data-provider","CReadConfig::ExistFile","predicate"
+"CReadConfig","data-provider","CReadConfig::GetFileName","get"
+"gmp_args_m_3_ret","commander lazy-class small-class","gmp_args_m_3_ret","constructor"
+"gmp_args_m_3_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_3_ret","commander lazy-class small-class","Run","set"
+"EncodeTestAPI","commander","SetUp","command"
+"EncodeTestAPI","commander","TearDown","command"
+"EncodeTestAPI","commander","EncodeOneFrameRandom","command"
+"CImageRotating","entity boundary","CImageRotating::CImageRotating","non-void-command collaborator"
+"CImageRotating","entity boundary","CImageRotating::~CImageRotating","destructor"
+"CImageRotating","entity boundary","CImageRotating::InitImageRotateFuncs","incidental"
+"CImageRotating","entity boundary","CImageRotating::ProcessImageRotate","property non-void-command collaborator"
+"CImageRotating","entity boundary","CImageRotating::Process","property non-void-command collaborator"
+"CWelsReference_LosslessWithLtr","data-provider boundary","CWelsReference_LosslessWithLtr::BuildRefList","predicate wrapper"
+"CWelsReference_LosslessWithLtr","data-provider boundary","CWelsReference_LosslessWithLtr::MarkPic","wrapper"
+"CWelsReference_LosslessWithLtr","data-provider boundary","CWelsReference_LosslessWithLtr::UpdateRefList","predicate wrapper"
+"CWelsReference_LosslessWithLtr","data-provider boundary","CWelsReference_LosslessWithLtr::EndofUpdateRefList","wrapper"
+"gmp_args_nm_2_ret","commander lazy-class small-class","gmp_args_nm_2_ret","constructor"
+"gmp_args_nm_2_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_2_ret","commander lazy-class small-class","Run","set"
+"gmp_args_m_4","small-class","gmp_args_m_4","constructor"
+"gmp_args_m_4","small-class","Run","unclassified"
+"CWelsParametersetSpsListing","unclassified","GetSpsIdx","incidental"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::CWelsParametersetSpsListing","constructor"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::GetNeededSubsetSpsNum","property set"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::LoadPreviousSps","command collaborator"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::LoadPrevious","command collaborator"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::CheckParamCompatibility","wrapper stateless"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::CheckPpsGenerating","incidental"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::SpsReset","property non-void-command"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::GenerateNewSps","property non-void-command"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::UpdateParaSetNum","void-accessor collaborator"
+"CWelsParametersetSpsListing","unclassified","CWelsParametersetSpsListing::OutputCurrentStructure","void-accessor command collaborator"
+"CWelsNonDuplicatedList","entity boundary small-class","push_back","predicate non-void-command collaborator"
+"ISVCEncoder","empty","~ISVCEncoder","destructor"
+"CWelsTaskManageOne","boundary","GetThreadPoolThreadNum","incidental"
+"CWelsTaskManageOne","boundary","CWelsTaskManageOne::Init","property set collaborator"
+"CWelsTaskManageOne","boundary","CWelsTaskManageOne::ExecuteTasks","property wrapper"
+"DecodeEncodeTest","commander","SetUp","command"
+"DecodeEncodeTest","commander","TearDown","command"
+"DecodeEncodeTest","commander","onDecodeFrame","wrapper"
+"DecodeEncodeTest","commander","onEncodeFrame","wrapper"
+"DecodeEncodeTest","commander","read","property non-void-command"
+"CSceneChangeDetectorVideo","data-class","CSceneChangeDetectorVideo","constructor"
+"CSceneChangeDetectorVideo","data-class","~CSceneChangeDetectorVideo","destructor"
+"CSceneChangeDetectorVideo","data-class","operator()","set collaborator"
+"CSceneChangeDetectorVideo","data-class","GetSceneChangeMotionRatioLarge","get"
+"CSceneChangeDetectorVideo","data-class","GetSceneChangeMotionRatioMedium","get"
+"CWelsDecoder","boundary","CWelsDecoder::CWelsDecoder","constructor"
+"CWelsDecoder","boundary","CWelsDecoder::~CWelsDecoder","destructor"
+"CWelsDecoder","boundary","CWelsDecoder::Initialize","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::Uninitialize","property non-void-command"
+"CWelsDecoder","boundary","CWelsDecoder::UninitDecoder","command"
+"CWelsDecoder","boundary","CWelsDecoder::OpenDecoderThreads","set"
+"CWelsDecoder","boundary","CWelsDecoder::CloseDecoderThreads","wrapper"
+"CWelsDecoder","boundary","CWelsDecoder::UninitDecoderCtx","void-accessor controller"
+"CWelsDecoder","boundary","CWelsDecoder::InitDecoder","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::InitDecoderCtx","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::ResetDecoder","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::ThreadResetDecoder","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::SetOption","property non-void-command"
+"CWelsDecoder","boundary","CWelsDecoder::GetOption","property wrapper"
+"CWelsDecoder","boundary","CWelsDecoder::DecodeFrameNoDelay","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::DecodeFrame2WithCtx","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::DecodeFrame2","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::FlushFrame","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::OutputStatisticsLog","wrapper"
+"CWelsDecoder","boundary","CWelsDecoder::BufferingReadyPicture","void-accessor command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::ReleaseBufferedReadyPictureReorder","void-accessor command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::ReleaseBufferedReadyPictureNoReorder","void-accessor command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::ReorderPicturesInDisplay","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::DecodeParser","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::DecodeFrame","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::DecodeFrameEx","collaborator incidental"
+"CWelsDecoder","boundary","CWelsDecoder::ParseAccessUnit","property non-void-command collaborator"
+"CWelsDecoder","boundary","CWelsDecoder::ThreadDecodeFrameInternal","property non-void-command collaborator"
+"IWelsTask","data-provider boundary data-class small-class","IWelsTask","copy-constructor"
+"IWelsTask","data-provider boundary data-class small-class","~IWelsTask","destructor"
+"IWelsTask","data-provider boundary data-class small-class","GetSink","get collaborator"
+"CVAACalculation","entity boundary","CVAACalculation::CVAACalculation","non-void-command collaborator"
+"CVAACalculation","entity boundary","CVAACalculation::~CVAACalculation","destructor"
+"CVAACalculation","entity boundary","CVAACalculation::InitVaaFuncs","incidental"
+"CVAACalculation","entity boundary","CVAACalculation::Process","property non-void-command collaborator"
+"CVAACalculation","entity boundary","CVAACalculation::Set","property set collaborator"
+"CD3D9Utils","boundary","CD3D9Utils::CD3D9Utils","constructor"
+"CD3D9Utils","boundary","CD3D9Utils::~CD3D9Utils","destructor"
+"CD3D9Utils","boundary","CD3D9Utils::Init","property non-void-command collaborator"
+"CD3D9Utils","boundary","CD3D9Utils::Uninit","property set collaborator"
+"CD3D9Utils","boundary","CD3D9Utils::Process","property non-void-command collaborator"
+"CD3D9Utils","boundary","CD3D9Utils::Render","property non-void-command collaborator"
+"CD3D9Utils","boundary","CD3D9Utils::Dump","wrapper stateless"
+"CD3D9Utils","boundary","CD3D9Utils::InitResource","property controller"
+"gmp_args_nm_9","boundary small-class","gmp_args_nm_9","constructor"
+"gmp_args_nm_9","boundary small-class","Run","wrapper"
+"AtomicRefCount","boundary data-class","AtomicRefCount","constructor"
+"AtomicRefCount","boundary data-class","~AtomicRefCount","destructor"
+"AtomicRefCount","boundary data-class","operator--","property set collaborator"
+"AtomicRefCount","boundary data-class","operator++","property set collaborator"
+"AtomicRefCount","boundary data-class","operatoruint32_t","get collaborator"
+"gmp_args_m_11","small-class","gmp_args_m_11","constructor"
+"gmp_args_m_11","small-class","Run","unclassified"
+"CWelsThreadPool","boundary","GetThreadNum","get"
+"CWelsThreadPool","boundary","CWelsThreadPool::CWelsThreadPool","constructor"
+"CWelsThreadPool","boundary","CWelsThreadPool::~CWelsThreadPool","destructor"
+"CWelsThreadPool","boundary","CWelsThreadPool::SetThreadNum","property set collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::AddReference","get property non-void-command factory collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::RemoveInstance","command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::IsReferenced","predicate wrapper"
+"CWelsThreadPool","boundary","CWelsThreadPool::OnTaskStart","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::OnTaskStop","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::Init","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::StopAllRunning","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::Uninit","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::ExecuteTask","command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::QueueTask","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::CreateIdleThread","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::DestroyThread","controller stateless"
+"CWelsThreadPool","boundary","CWelsThreadPool::AddThreadToIdleQueue","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::AddThreadToBusyList","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::RemoveThreadFromBusyList","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::AddTaskToWaitedList","predicate non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::GetIdleThread","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::GetBusyThreadNum","property non-void-command"
+"CWelsThreadPool","boundary","CWelsThreadPool::GetIdleThreadNum","property non-void-command"
+"CWelsThreadPool","boundary","CWelsThreadPool::GetWaitedTaskNum","property non-void-command"
+"CWelsThreadPool","boundary","CWelsThreadPool::GetWaitedTask","property non-void-command collaborator"
+"CWelsThreadPool","boundary","CWelsThreadPool::ClearWaitedTasks","command collaborator"
+"gmp_args_m_6_ret","commander lazy-class small-class","gmp_args_m_6_ret","constructor"
+"gmp_args_m_6_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_6_ret","commander lazy-class small-class","Run","set"
+"CWelsList","boundary","CWelsList","constructor"
+"CWelsList","boundary","~CWelsList","destructor"
+"CWelsList","boundary","size","get"
+"CWelsList","boundary","push_back","predicate non-void-command collaborator"
+"CWelsList","boundary","begin","property collaborator"
+"CWelsList","boundary","pop_front","command collaborator"
+"CWelsList","boundary","erase","predicate non-void-command collaborator"
+"CWelsList","boundary","findNode","predicate collaborator"
+"CWelsList","boundary","getNode","property collaborator"
+"CWelsList","boundary","ExpandList","predicate non-void-command"
+"CWelsList","boundary","InitStorage","incidental"
+"CWelsList","boundary","CleanOneNode","collaborator incidental"
+"CWelsList","boundary","ResetStorage","command"
+"SadSatdCFuncTest","commander small-class","SetUp","command"
+"SadSatdCFuncTest","commander small-class","TearDown","command"
+"IWelsParametersetStrategy","boundary degenerate small-class","~IWelsParametersetStrategy","destructor"
+"IWelsParametersetStrategy","boundary degenerate small-class","IWelsParametersetStrategy::CreateParametersetStrategy","wrapper stateless"
+"CWelsParametersetIdNonConstant","boundary small-class","CWelsParametersetIdNonConstant","constructor"
+"CWelsParametersetIdNonConstant","boundary small-class","CWelsParametersetIdNonConstant::OutputCurrentStructure","wrapper"
+"CWelsParametersetIdNonConstant","boundary small-class","CWelsParametersetIdNonConstant::LoadPreviousStructure","wrapper"
+"gmp_args_nm_0","boundary degenerate small-class","gmp_args_nm_0","constructor"
+"gmp_args_nm_0","boundary degenerate small-class","Run","wrapper stateless"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen","constructor"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::GetReferenceSrcPicList","property collaborator"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::GetAvailableRefListLosslessScreenRefSelection","void-accessor"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::GetAvailableRefList","void-accessor"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::InitRefJudgement","collaborator incidental"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::JudgeBestRef","incidental"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::SaveBestRefToJudgement","collaborator incidental"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::SaveBestRefToLocal","wrapper stateless"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::SaveBestRefToVaa","collaborator incidental"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::GetCurrentOrigFrame","get collaborator"
+"CWelsPreProcessScreen","entity data-provider boundary","CWelsPreProcessScreen::DetectSceneChange","property non-void-command collaborator"
+"tagFilesSet","empty","tagFilesSet","constructor"
+"OpenH264VideoEncoder","commander","OpenH264VideoEncoder","constructor"
+"OpenH264VideoEncoder","commander","InitEncode","command"
+"OpenH264VideoEncoder","commander","Encode","command"
+"OpenH264VideoEncoder","commander","SetChannelParameters","empty"
+"OpenH264VideoEncoder","commander","SetRates","command"
+"OpenH264VideoEncoder","commander","SetPeriodicKeyFrames","empty"
+"OpenH264VideoEncoder","commander","EncodingComplete","command"
+"OpenH264VideoEncoder","commander","~OpenH264VideoEncoder","destructor"
+"OpenH264VideoEncoder","commander","TearDownEncoder","command"
+"OpenH264VideoEncoder","commander","TrySyncRunOnMainThread","controller"
+"OpenH264VideoEncoder","commander","Error","command collaborator"
+"OpenH264VideoEncoder","commander","Encode_w","command collaborator"
+"OpenH264VideoEncoder","commander","Encode_m","command collaborator"
+"OpenH264VideoEncoder","commander","DestroyInputFrame_m","controller stateless"
+"gmp_args_nm_4","boundary small-class","gmp_args_nm_4","constructor"
+"gmp_args_nm_4","boundary small-class","Run","wrapper"
+"ParameterSetStrategyTest","unclassified","SetUp","command"
+"ParameterSetStrategyTest","unclassified","TearDown","command"
+"ParameterSetStrategyTest","unclassified","ParameterSetStrategyTest::GenerateParam","controller stateless"
+"CUtils","entity boundary small-class","CUtils::CUtils","constructor"
+"CUtils","entity boundary small-class","CUtils::~CUtils","destructor"
+"CUtils","entity boundary small-class","CUtils::Process","property non-void-command collaborator"
+"CUtils","entity boundary small-class","CUtils::CheckOS","wrapper stateless"
+"RefCountTaskWrapper","commander small-class","RefCountTaskWrapper","constructor"
+"RefCountTaskWrapper","commander small-class","Run","command"
+"RefCountTaskWrapper","commander small-class","Destroy","command"
+"RefCountTaskWrapper","commander small-class","~RefCountTaskWrapper","destructor"
+"gmp_args_nm_14","boundary small-class","gmp_args_nm_14","constructor"
+"gmp_args_nm_14","boundary small-class","Run","wrapper"
+"AutoLock","empty","AutoLock","constructor"
+"AutoLock","empty","~AutoLock","destructor"
+"gmp_args_nm_1_ret","commander lazy-class small-class","gmp_args_nm_1_ret","constructor"
+"gmp_args_nm_1_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_1_ret","commander lazy-class small-class","Run","set"
+"gmp_args_nm_0_ret","commander lazy-class small-class","gmp_args_nm_0_ret","constructor"
+"gmp_args_nm_0_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_0_ret","commander lazy-class small-class","Run","set"
+"CWelsParametersetIdConstant","lazy-class degenerate","UpdatePpsList","empty"
+"CWelsParametersetIdConstant","lazy-class degenerate","CheckParamCompatibility","collaborator incidental"
+"CWelsParametersetIdConstant","lazy-class degenerate","UpdateParaSetNum","empty"
+"CWelsParametersetIdConstant","lazy-class degenerate","GetCurrentPpsId","incidental"
+"CWelsParametersetIdConstant","lazy-class degenerate","OutputCurrentStructure","empty"
+"CWelsParametersetIdConstant","lazy-class degenerate","LoadPreviousStructure","empty"
+"CWelsParametersetIdConstant","lazy-class degenerate","GetSpsIdx","incidental"
+"CWelsParametersetIdConstant","lazy-class degenerate","LoadPreviousSps","empty"
+"CWelsParametersetIdConstant","lazy-class degenerate","LoadPreviousPps","empty"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::CWelsParametersetIdConstant","constructor"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::~CWelsParametersetIdConstant","destructor"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetPpsIdOffset","incidental"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetSpsIdOffset","incidental"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetSpsIdOffsetList","property"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetAllNeededParasetNum","property non-void-command"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetNeededSpsNum","property set"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetNeededSubsetSpsNum","property set"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GetNeededPpsNum","property set"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::LoadPrevious","collaborator incidental"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::Update","wrapper"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::GenerateNewSps","wrapper stateless"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::InitPps","property non-void-command"
+"CWelsParametersetIdConstant","lazy-class degenerate","CWelsParametersetIdConstant::SetUseSubsetFlag","set"
+"gmp_args_m_7_ret","commander lazy-class small-class","gmp_args_m_7_ret","constructor"
+"gmp_args_m_7_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_7_ret","commander lazy-class small-class","Run","set"
+"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing","constructor"
+"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::DebugSpsPps","unclassified"
+"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::DebugPps","unclassified"
+"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::Update","set"
+"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::GetPpsIdOffset","property non-void-command"
+"CWelsParametersetIdIncreasing","unclassified","CWelsParametersetIdIncreasing::GetSpsIdOffset","property non-void-command"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::CWelsParametersetSpsPpsListing","constructor"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::LoadPreviousPps","set collaborator"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::UpdatePpsList","void-accessor command collaborator"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::CheckPpsGenerating","predicate"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::SpsReset","incidental"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::InitPps","property set"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::UpdateParaSetNum","void-accessor command collaborator"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::GetCurrentPpsId","property"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::LoadPreviousStructure","wrapper"
+"CWelsParametersetSpsPpsListing","boundary","CWelsParametersetSpsPpsListing::OutputCurrentStructure","void-accessor command collaborator"
+"TagPicture","commander small-class","SetUnref","command"
+"IWelsReferenceStrategy","pure-controller degenerate small-class","IWelsReferenceStrategy","constructor"
+"IWelsReferenceStrategy","pure-controller degenerate small-class","~IWelsReferenceStrategy","destructor"
+"IWelsReferenceStrategy","pure-controller degenerate small-class","IWelsReferenceStrategy::CreateReferenceStrategy","controller stateless"
+"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::Init","set collaborator"
+"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::BuildRefList","predicate wrapper"
+"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::MarkPic","wrapper"
+"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::UpdateRefList","predicate wrapper"
+"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::EndofUpdateRefList","wrapper"
+"CWelsReference_TemporalLayer","boundary","CWelsReference_TemporalLayer::AfterBuildRefList","wrapper"
+"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::BuildRefList","predicate wrapper"
+"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::MarkPic","wrapper"
+"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::UpdateRefList","predicate wrapper"
+"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::EndofUpdateRefList","wrapper"
+"CWelsReference_Screen","data-provider boundary","CWelsReference_Screen::AfterBuildRefList","wrapper"
+"SVCDecoderImpl","data-provider boundary","~SVCDecoderImpl","destructor"
+"SVCDecoderImpl","data-provider boundary","Initialize","property wrapper"
+"SVCDecoderImpl","data-provider boundary","Uninitialize","property wrapper"
+"SVCDecoderImpl","data-provider boundary","DecodeFrame","property wrapper"
+"SVCDecoderImpl","data-provider boundary","DecodeFrameNoDelay","property wrapper"
+"SVCDecoderImpl","data-provider boundary","DecodeFrame2","property wrapper"
+"SVCDecoderImpl","data-provider boundary","FlushFrame","property wrapper"
+"SVCDecoderImpl","data-provider boundary","DecodeFrameEx","property wrapper"
+"SVCDecoderImpl","data-provider boundary","DecodeParser","property wrapper"
+"SVCDecoderImpl","data-provider boundary","SetOption","property wrapper"
+"SVCDecoderImpl","data-provider boundary","GetOption","property wrapper"
+"TagStateCtx","unclassified","Mps","property"
+"TagStateCtx","unclassified","State","property"
+"TagStateCtx","unclassified","Set","set"
+"gmp_args_nm_12_ret","commander lazy-class small-class","gmp_args_nm_12_ret","constructor"
+"gmp_args_nm_12_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_12_ret","commander lazy-class small-class","Run","set"
+"gmp_args_m_13_ret","commander lazy-class small-class","gmp_args_m_13_ret","constructor"
+"gmp_args_m_13_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_13_ret","commander lazy-class small-class","Run","set"
+"CDenoiser","boundary","CDenoiser::CDenoiser","non-void-command collaborator"
+"CDenoiser","boundary","CDenoiser::~CDenoiser","destructor"
+"CDenoiser","boundary","CDenoiser::InitDenoiseFunc","wrapper stateless"
+"CDenoiser","boundary","CDenoiser::Process","property non-void-command collaborator"
+"CDenoiser","boundary","CDenoiser::BilateralDenoiseLuma","void-accessor command"
+"CDenoiser","boundary","CDenoiser::WaverageDenoiseChroma","void-accessor command"
+"SMVUnitXY","data-class small-class","sDeltaMv","get non-void-command"
+"SMVUnitXY","data-class small-class","sAssignMv","get non-void-command"
+"gmp_args_nm_3_ret","commander lazy-class small-class","gmp_args_nm_3_ret","constructor"
+"gmp_args_nm_3_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_3_ret","commander lazy-class small-class","Run","set"
+"gmp_args_nm_8","boundary small-class","gmp_args_nm_8","constructor"
+"gmp_args_nm_8","boundary small-class","Run","wrapper"
+"CWelsPreProcess","boundary","CWelsPreProcess::CreatePreProcess","wrapper stateless"
+"CWelsPreProcess","boundary","CWelsPreProcess::CWelsPreProcess","constructor"
+"CWelsPreProcess","boundary","CWelsPreProcess::~CWelsPreProcess","destructor"
+"CWelsPreProcess","boundary","CWelsPreProcess::WelsPreprocessCreate","property non-void-command"
+"CWelsPreProcess","boundary","CWelsPreProcess::WelsPreprocessDestroy","property set"
+"CWelsPreProcess","boundary","CWelsPreProcess::WelsPreprocessReset","property non-void-command collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::AllocSpatialPictures","property non-void-command collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::FreeSpatialPictures","set collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::BuildSpatialPicList","property non-void-command collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::GetBestRefPic","get collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::GetBestRefPic","get collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::AnalyzeSpatialPic","property non-void-command"
+"CWelsPreProcess","boundary","CWelsPreProcess::GetCurPicPosition","get"
+"CWelsPreProcess","boundary","CWelsPreProcess::UpdateSpatialPictures","property non-void-command"
+"CWelsPreProcess","boundary","CWelsPreProcess::SingleLayerPreprocess","property non-void-command collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::InitLastSpatialPictures","property non-void-command collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::ColorspaceConvert","incidental"
+"CWelsPreProcess","boundary","CWelsPreProcess::BilateralDenoising","command collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::DownsamplePadding","property non-void-command"
+"CWelsPreProcess","boundary","CWelsPreProcess::VaaCalculation","void-accessor command collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::BackgroundDetection","void-accessor command"
+"CWelsPreProcess","boundary","CWelsPreProcess::AdaptiveQuantCalculation","void-accessor command collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::SetRefMbType","collaborator incidental"
+"CWelsPreProcess","boundary","CWelsPreProcess::AnalyzePictureComplexity","command"
+"CWelsPreProcess","boundary","CWelsPreProcess::InitPixMap","collaborator incidental"
+"CWelsPreProcess","boundary","CWelsPreProcess::GetRefFrameInfo","get collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::Padding","wrapper stateless"
+"CWelsPreProcess","boundary","CWelsPreProcess::UpdateBlockIdcForScreen","property non-void-command collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::WelsExchangeSpatialPictures","collaborator incidental"
+"CWelsPreProcess","boundary","CWelsPreProcess::UpdateSrcListLosslessScreenRefSelectionWithLtr","set collaborator"
+"CWelsPreProcess","boundary","CWelsPreProcess::UpdateSrcList","command"
+"CWelsPreProcess","boundary","CWelsPreProcess::WelsMoveMemoryWrapper","command"
+"CWelsPreProcess","boundary","CWelsPreProcess::GetSceneChangeFlag","collaborator incidental"
+"CWelsBaseTask","empty","CWelsBaseTask","constructor"
+"CWelsBaseTask","empty","CWelsBaseTask::~CWelsBaseTask","destructor"
+"CWelsSliceEncodingTask","boundary","GetTaskType","incidental"
+"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::CWelsSliceEncodingTask","constructor"
+"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::~CWelsSliceEncodingTask","destructor"
+"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::Execute","get non-void-command collaborator"
+"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::SetBoundary","property non-void-command collaborator"
+"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::QueryEmptyThread","incidental"
+"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::InitTask","property non-void-command collaborator"
+"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::FinishTask","command"
+"CWelsSliceEncodingTask","boundary","CWelsSliceEncodingTask::ExecuteTask","property non-void-command collaborator"
+"gmp_args_nm_10_ret","commander lazy-class small-class","gmp_args_nm_10_ret","constructor"
+"gmp_args_nm_10_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_10_ret","commander lazy-class small-class","Run","set"
+"MotionEstimateTest","commander","SetUp","command"
+"MotionEstimateTest","commander","TearDown","command"
+"MotionEstimateTest","commander","MotionEstimateTest::DoLineTest","wrapper"
+"CWelsConstrainedSizeSlicingEncodingTask","small-class","CWelsConstrainedSizeSlicingEncodingTask","constructor"
+"CWelsConstrainedSizeSlicingEncodingTask","small-class","GetTaskType","incidental"
+"CWelsConstrainedSizeSlicingEncodingTask","small-class","CWelsConstrainedSizeSlicingEncodingTask::ExecuteTask","property non-void-command collaborator"
+"gmp_args_m_1_ret","commander lazy-class small-class","gmp_args_m_1_ret","constructor"
+"gmp_args_m_1_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_1_ret","commander lazy-class small-class","Run","set"
+"CWelsUpdateMbMapTask","data-provider small-class","GetTaskType","incidental"
+"CWelsUpdateMbMapTask","data-provider small-class","CWelsUpdateMbMapTask::CWelsUpdateMbMapTask","constructor"
+"CWelsUpdateMbMapTask","data-provider small-class","CWelsUpdateMbMapTask::~CWelsUpdateMbMapTask","destructor"
+"CWelsUpdateMbMapTask","data-provider small-class","CWelsUpdateMbMapTask::Execute","property wrapper"
+"IWelsTaskManage","pure-controller degenerate small-class","~IWelsTaskManage","destructor"
+"IWelsTaskManage","pure-controller degenerate small-class","InitFrame","empty"
+"IWelsTaskManage","pure-controller degenerate small-class","IWelsTaskManage::CreateTaskManage","controller stateless"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::CWelsH264SVCEncoder","constructor"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::~CWelsH264SVCEncoder","destructor"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::InitEncoder","set"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::GetDefaultParams","wrapper stateless"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::Initialize","property non-void-command collaborator"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::InitializeExt","property non-void-command collaborator"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::InitializeInternal","property non-void-command collaborator"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::Uninitialize","property non-void-command"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::EncodeFrame","property set collaborator"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::EncodeFrameInternal","property non-void-command collaborator"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::EncodeParameterSets","property wrapper"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::ForceIntraFrame","property wrapper"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::TraceParamInfo","wrapper"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::LogStatistics","wrapper"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::UpdateStatistics","command"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::SetOption","property non-void-command"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::GetOption","property non-void-command collaborator"
+"CWelsH264SVCEncoder","entity boundary","CWelsH264SVCEncoder::DumpSrcPicture","wrapper"
+"CVpFrameWork","unclassified","CVpFrameWork::CVpFrameWork","constructor"
+"CVpFrameWork","unclassified","CVpFrameWork::~CVpFrameWork","destructor"
+"CVpFrameWork","unclassified","CVpFrameWork::Init","property non-void-command collaborator"
+"CVpFrameWork","unclassified","CVpFrameWork::Uninit","property controller"
+"CVpFrameWork","unclassified","CVpFrameWork::Flush","collaborator incidental"
+"CVpFrameWork","unclassified","CVpFrameWork::Process","property non-void-command collaborator"
+"CVpFrameWork","unclassified","CVpFrameWork::Get","property controller"
+"CVpFrameWork","unclassified","CVpFrameWork::Set","property controller"
+"CVpFrameWork","unclassified","CVpFrameWork::SpecialFeature","collaborator incidental"
+"CVpFrameWork","unclassified","CVpFrameWork::CheckValid","collaborator incidental"
+"CVpFrameWork","unclassified","CVpFrameWork::CreateStrategy","wrapper stateless"
+"IWelsVP","empty","~IWelsVP","destructor"
+"gmp_args_m_9_ret","commander lazy-class small-class","gmp_args_m_9_ret","constructor"
+"gmp_args_m_9_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_9_ret","commander lazy-class small-class","Run","set"
+"gmp_args_m_8_ret","commander lazy-class small-class","gmp_args_m_8_ret","constructor"
+"gmp_args_m_8_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_8_ret","commander lazy-class small-class","Run","set"
+"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::CAdaptiveQuantization","non-void-command collaborator"
+"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::~CAdaptiveQuantization","destructor"
+"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::Process","property non-void-command collaborator"
+"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::Set","property set collaborator"
+"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::Get","property collaborator"
+"CAdaptiveQuantization","entity boundary","CAdaptiveQuantization::WelsInitVarFunc","incidental"
+"CSceneChangeDetectorScreen","commander boundary small-class","CSceneChangeDetectorScreen","constructor"
+"CSceneChangeDetectorScreen","commander boundary small-class","~CSceneChangeDetectorScreen","destructor"
+"CSceneChangeDetectorScreen","commander boundary small-class","operator()","command collaborator"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::CBackgroundDetection","non-void-command collaborator"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::~CBackgroundDetection","destructor"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::Process","property non-void-command collaborator"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::Set","collaborator incidental"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::AllocateOUArrayMemory","wrapper stateless"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::GetOUParameters","wrapper stateless"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundBackgroundDivision","command collaborator"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::CalculateAsdChromaEdge","wrapper stateless"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundDilation23Luma","wrapper stateless"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundDilation23Chroma","predicate non-void-command collaborator"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundDilation","void-accessor command"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::BackgroundErosion","void-accessor command collaborator"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::SetBackgroundMbFlag","incidental"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::UpperOUForegroundCheck","void-accessor command collaborator"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::ForegroundDilationAndBackgroundErosion","command collaborator"
+"CBackgroundDetection","entity boundary","CBackgroundDetection::BackgroundDetection","command collaborator"
+"RefPtr","boundary data-class","RefPtr","constructor"
+"RefPtr","boundary data-class","~RefPtr","destructor"
+"RefPtr","boundary data-class","operator->","get collaborator"
+"RefPtr","boundary data-class","operator=","get non-void-command collaborator"
+"RefPtr","boundary data-class","Assign","set collaborator"
+"CComplexityAnalysis","entity boundary","CComplexityAnalysis::CComplexityAnalysis","non-void-command collaborator"
+"CComplexityAnalysis","entity boundary","CComplexityAnalysis::~CComplexityAnalysis","destructor"
+"CComplexityAnalysis","entity boundary","CComplexityAnalysis::Process","property non-void-command collaborator"
+"CComplexityAnalysis","entity boundary","CComplexityAnalysis::Set","property set collaborator"
+"CComplexityAnalysis","entity boundary","CComplexityAnalysis::Get","property collaborator"
+"CComplexityAnalysis","entity boundary","CComplexityAnalysis::AnalyzeFrameComplexityViaSad","set collaborator"
+"CComplexityAnalysis","entity boundary","CComplexityAnalysis::GetFrameSadExcludeBackground","property wrapper"
+"CComplexityAnalysis","entity boundary","CComplexityAnalysis::AnalyzeGomComplexityViaSad","set collaborator"
+"CComplexityAnalysis","entity boundary","CComplexityAnalysis::AnalyzeGomComplexityViaVar","set collaborator"
+"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::CComplexityAnalysisScreen","constructor"
+"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::~CComplexityAnalysisScreen","destructor"
+"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::Process","property non-void-command collaborator"
+"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::Set","property set collaborator"
+"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::Get","property collaborator"
+"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::GomComplexityAnalysisIntra","command collaborator"
+"CComplexityAnalysisScreen","entity boundary","CComplexityAnalysisScreen::GomComplexityAnalysisInter","command"
+"CDownsampling","commander","CDownsampling::CDownsampling","non-void-command collaborator"
+"CDownsampling","commander","CDownsampling::~CDownsampling","destructor"
+"CDownsampling","commander","CDownsampling::AllocateSampleBuffer","predicate non-void-command"
+"CDownsampling","commander","CDownsampling::FreeSampleBuffer","command"
+"CDownsampling","commander","CDownsampling::InitDownsampleFuncs","wrapper stateless"
+"CDownsampling","commander","CDownsampling::Process","property non-void-command collaborator"
+"CDownsampling","commander","CDownsampling::DownsampleHalfAverage","command"
+"CSceneChangeDetection","entity boundary","CSceneChangeDetection","constructor"
+"CSceneChangeDetection","entity boundary","~CSceneChangeDetection","destructor"
+"CSceneChangeDetection","entity boundary","Process","property non-void-command collaborator"
+"CSceneChangeDetection","entity boundary","Get","property collaborator"
+"CSceneChangeDetection","entity boundary","Set","property set collaborator"
+"TagWelsSvcCodingParam","entity boundary","TagWelsSvcCodingParam","constructor"
+"TagWelsSvcCodingParam","entity boundary","~TagWelsSvcCodingParam","destructor"
+"TagWelsSvcCodingParam","entity boundary","FillDefault","command"
+"TagWelsSvcCodingParam","entity boundary","ParamBaseTranscode","property non-void-command collaborator"
+"TagWelsSvcCodingParam","entity boundary","GetBaseParams","collaborator incidental"
+"TagWelsSvcCodingParam","entity boundary","ParamTranscode","property non-void-command collaborator"
+"TagWelsSvcCodingParam","entity boundary","SetActualPicResolution","wrapper"
+"TagWelsSvcCodingParam","entity boundary","DetermineTemporalSettings","property set"
+"CScrollDetection","entity boundary","CScrollDetection","constructor"
+"CScrollDetection","entity boundary","~CScrollDetection","destructor"
+"CScrollDetection","entity boundary","CScrollDetection::Process","property non-void-command collaborator"
+"CScrollDetection","entity boundary","CScrollDetection::Set","property set collaborator"
+"CScrollDetection","entity boundary","CScrollDetection::Get","property collaborator"
+"CScrollDetection","entity boundary","CScrollDetection::ScrollDetectionWithMask","command collaborator"
+"CScrollDetection","entity boundary","CScrollDetection::ScrollDetectionWithoutMask","wrapper"
+"gmp_args_m_14","small-class","gmp_args_m_14","constructor"
+"gmp_args_m_14","small-class","Run","unclassified"
+"gmp_args_nm_14_ret","commander lazy-class small-class","gmp_args_nm_14_ret","constructor"
+"gmp_args_nm_14_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_14_ret","commander lazy-class small-class","Run","set"
+"SelfDestruct","boundary data-class small-class","SelfDestruct","constructor"
+"SelfDestruct","boundary data-class small-class","~SelfDestruct","destructor"
+"SelfDestruct","boundary data-class small-class","forget","property set collaborator"
+"FrameStats","commander small-class","FrameStats","constructor"
+"FrameStats","commander small-class","FrameIn","command collaborator"
+"FrameStats","commander small-class","FrameOut","set"
+"gmp_args_m_3","small-class","gmp_args_m_3","constructor"
+"gmp_args_m_3","small-class","Run","unclassified"
+"OpenH264VideoDecoder","commander","OpenH264VideoDecoder","constructor"
+"OpenH264VideoDecoder","commander","InitDecode","command collaborator"
+"OpenH264VideoDecoder","commander","Decode","command collaborator"
+"OpenH264VideoDecoder","commander","Reset","command"
+"OpenH264VideoDecoder","commander","Drain","command"
+"OpenH264VideoDecoder","commander","DecodingComplete","command"
+"OpenH264VideoDecoder","commander","~OpenH264VideoDecoder","destructor"
+"OpenH264VideoDecoder","commander","TearDownDecoder","command"
+"OpenH264VideoDecoder","commander","TrySyncRunOnMainThread","controller"
+"OpenH264VideoDecoder","commander","Error","command collaborator"
+"OpenH264VideoDecoder","commander","Decode_w","void-accessor command"
+"OpenH264VideoDecoder","commander","Decode_m","command collaborator"
+"OpenH264VideoDecoder","commander","Reset_w","command"
+"OpenH264VideoDecoder","commander","Reset_m","command"
+"gmp_args_base","small-class","Destroy","unclassified"
+"gmp_args_m_0","degenerate small-class","gmp_args_m_0","constructor"
+"gmp_args_m_0","degenerate small-class","Run","incidental"
+"gmp_args_m_0_ret","commander lazy-class small-class","gmp_args_m_0_ret","constructor"
+"gmp_args_m_0_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_0_ret","commander lazy-class small-class","Run","set"
+"gmp_args_nm_1","boundary small-class","gmp_args_nm_1","constructor"
+"gmp_args_nm_1","boundary small-class","Run","wrapper"
+"CWelsLoadBalancingSlicingEncodingTask","boundary lazy-class","CWelsLoadBalancingSlicingEncodingTask","constructor"
+"CWelsLoadBalancingSlicingEncodingTask","boundary lazy-class","GetTaskType","incidental"
+"CWelsLoadBalancingSlicingEncodingTask","boundary lazy-class","CWelsLoadBalancingSlicingEncodingTask::InitTask","property set collaborator"
+"CWelsLoadBalancingSlicingEncodingTask","boundary lazy-class","CWelsLoadBalancingSlicingEncodingTask::FinishTask","set collaborator"
+"gmp_args_nm_2","boundary small-class","gmp_args_nm_2","constructor"
+"gmp_args_nm_2","boundary small-class","Run","wrapper"
+"gmp_args_m_2_ret","commander lazy-class small-class","gmp_args_m_2_ret","constructor"
+"gmp_args_m_2_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_2_ret","commander lazy-class small-class","Run","set"
+"gmp_args_nm_11","boundary small-class","gmp_args_nm_11","constructor"
+"gmp_args_nm_11","boundary small-class","Run","wrapper"
+"gmp_args_nm_3","boundary small-class","gmp_args_nm_3","constructor"
+"gmp_args_nm_3","boundary small-class","Run","wrapper"
+"gmp_args_nm_4_ret","commander lazy-class small-class","gmp_args_nm_4_ret","constructor"
+"gmp_args_nm_4_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_4_ret","commander lazy-class small-class","Run","set"
+"gmp_args_m_2","small-class","gmp_args_m_2","constructor"
+"gmp_args_m_2","small-class","Run","unclassified"
+"gmp_args_nm_5","boundary small-class","gmp_args_nm_5","constructor"
+"gmp_args_nm_5","boundary small-class","Run","wrapper"
+"gmp_args_nm_5_ret","commander lazy-class small-class","gmp_args_nm_5_ret","constructor"
+"gmp_args_nm_5_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_5_ret","commander lazy-class small-class","Run","set"
+"EncodeDecodeTestBase","commander boundary degenerate","SetUp","command"
+"EncodeDecodeTestBase","commander boundary degenerate","TearDown","command"
+"EncodeDecodeTestBase","commander boundary degenerate","GetRandWidth","wrapper stateless"
+"EncodeDecodeTestBase","commander boundary degenerate","GetRandHeight","wrapper stateless"
+"EncodeDecodeTestBase","commander boundary degenerate","EncodeDecodeTestBase::prepareParam","collaborator incidental"
+"EncodeDecodeTestBase","commander boundary degenerate","EncodeDecodeTestBase::prepareEncDecParam","predicate non-void-command collaborator"
+"EncodeDecodeTestBase","commander boundary degenerate","EncodeDecodeTestBase::encToDecData","incidental"
+"EncodeDecodeTestBase","commander boundary degenerate","EncodeDecodeTestBase::encToDecSliceData","wrapper stateless"
+"gmp_args_m_5_ret","commander lazy-class small-class","gmp_args_m_5_ret","constructor"
+"gmp_args_m_5_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_5_ret","commander lazy-class small-class","Run","set"
+"gmp_args_nm_6_ret","commander lazy-class small-class","gmp_args_nm_6_ret","constructor"
+"gmp_args_nm_6_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_6_ret","commander lazy-class small-class","Run","set"
+"gmp_args_m_6","small-class","gmp_args_m_6","constructor"
+"gmp_args_m_6","small-class","Run","unclassified"
+"gmp_args_nm_7","boundary small-class","gmp_args_nm_7","constructor"
+"gmp_args_nm_7","boundary small-class","Run","wrapper"
+"gmp_args_m_4_ret","commander lazy-class small-class","gmp_args_m_4_ret","constructor"
+"gmp_args_m_4_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_4_ret","commander lazy-class small-class","Run","set"
+"gmp_args_nm_7_ret","commander lazy-class small-class","gmp_args_nm_7_ret","constructor"
+"gmp_args_nm_7_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_7_ret","commander lazy-class small-class","Run","set"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::CWelsTaskManageBase","constructor"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::~CWelsTaskManageBase","destructor"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::Init","property non-void-command collaborator"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::Uninit","command"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::CreateTasks","property set collaborator"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::DestroyTaskList","controller stateless"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::DestroyTasks","command"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::OnTaskMinusOne","wrapper"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::OnTaskCancelled","property non-void-command collaborator"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::OnTaskExecuted","property non-void-command collaborator"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::ExecuteTaskList","property set collaborator"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::InitFrame","set"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::ExecuteTasks","property non-void-command collaborator"
+"CWelsTaskManageBase","boundary","CWelsTaskManageBase::GetThreadPoolThreadNum","property non-void-command"
+"gmp_args_m_8","small-class","gmp_args_m_8","constructor"
+"gmp_args_m_8","small-class","Run","unclassified"
+"gmp_args_nm_9_ret","commander lazy-class small-class","gmp_args_nm_9_ret","constructor"
+"gmp_args_nm_9_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_9_ret","commander lazy-class small-class","Run","set"
+"gmp_args_nm_10","boundary small-class","gmp_args_nm_10","constructor"
+"gmp_args_nm_10","boundary small-class","Run","wrapper"
+"DecoderInterfaceTest","commander","SetUp","wrapper"
+"DecoderInterfaceTest","commander","TearDown","wrapper"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::Init","property non-void-command collaborator"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::ValidInit","property non-void-command collaborator"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::Uninit","command collaborator"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::DecoderBs","command"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::MockPacketType","command"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestInitUninit","command"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestParseOnlyAPI","command"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestEndOfStream","command"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestVclNal","command"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestTemporalId","empty"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestFrameNum","empty"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestIdrPicId","empty"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestLtrMarkingFlag","empty"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestLtrMarkedFrameNum","empty"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestErrorConIdc","command"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestTraceLevel","empty"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestTraceCallback","empty"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestTraceCallbackContext","empty"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestGetDecStatistics","command"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestGetDecSarInfo","command collaborator"
+"DecoderInterfaceTest","commander","DecoderInterfaceTest::TestVuiInSubsetSps","command collaborator"
+"gmp_args_m_7","small-class","gmp_args_m_7","constructor"
+"gmp_args_m_7","small-class","Run","unclassified"
+"gmp_args_m_10","small-class","gmp_args_m_10","constructor"
+"gmp_args_m_10","small-class","Run","unclassified"
+"gmp_args_m_10_ret","commander lazy-class small-class","gmp_args_m_10_ret","constructor"
+"gmp_args_m_10_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_m_10_ret","commander lazy-class small-class","Run","set"
+"gmp_args_nm_11_ret","commander lazy-class small-class","gmp_args_nm_11_ret","constructor"
+"gmp_args_nm_11_ret","commander lazy-class small-class","returns_value","incidental"
+"gmp_args_nm_11_ret","commander lazy-class small-class","Run","set"

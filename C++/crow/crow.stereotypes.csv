@@ -1,329 +1,329 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"FirstMW","pure-controller degenerate small-class","before_handle","controller stateless",
-"FirstMW","pure-controller degenerate small-class","after_handle","controller stateless",
-"NullSimpleMiddleware","degenerate small-class","before_handle","empty",
-"NullSimpleMiddleware","degenerate small-class","after_handle","empty",
-"NullMiddleware","degenerate small-class","before_handle","empty",
-"NullMiddleware","degenerate small-class","after_handle","empty",
-"Test","empty","Test::Test","constructor",
-"connection","data-class small-class","~connection","destructor",
-"connection","data-class small-class","userdata","set",
-"connection","data-class small-class","userdata","get collaborator",
-"wvalue","unclassified","t","get collaborator",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","clear","command",
-"wvalue","unclassified","reset","command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get set",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command",
-"wvalue","unclassified","operator=","get non-void-command collaborator",
-"wvalue","unclassified","operator[]","get non-void-command",
-"wvalue","unclassified","count","property non-void-command",
-"wvalue","unclassified","operator[]","get non-void-command",
-"wvalue","unclassified","keys","property controller",
-"wvalue","unclassified","estimate_length","property",
-"r_string","unclassified","r_string","constructor",
-"r_string","unclassified","r_string","constructor",
-"r_string","unclassified","~r_string","destructor",
-"r_string","unclassified","r_string","copy-constructor",
-"r_string","unclassified","r_string","copy-constructor",
-"r_string","unclassified","operator=","get non-void-command",
-"r_string","unclassified","operator=","get non-void-command",
-"r_string","unclassified","operatorstd::string","wrapper",
-"r_string","unclassified","begin","get",
-"r_string","unclassified","end","get",
-"r_string","unclassified","size","property",
-"r_string","unclassified","operator<<","collaborator incidental",
-"r_string","unclassified","force","command",
-"Server","commander","Server","constructor",
-"Server","commander","set_tick_function","command collaborator",
-"Server","commander","on_tick","command",
-"Server","commander","run","command",
-"Server","commander","stop","command",
-"Server","commander","pick_io_service","get set collaborator",
-"Server","commander","do_accept","command collaborator",
-"WebSocketRule","boundary","WebSocketRule","constructor",
-"WebSocketRule","boundary","validate","empty",
-"WebSocketRule","boundary","handle","controller stateless",
-"WebSocketRule","boundary","handle_upgrade","void-accessor wrapper",
-"WebSocketRule","boundary","handle_upgrade","void-accessor wrapper",
-"WebSocketRule","boundary","onopen","get set collaborator",
-"WebSocketRule","boundary","onmessage","get set collaborator",
-"WebSocketRule","boundary","onclose","get set collaborator",
-"WebSocketRule","boundary","onerror","get set collaborator",
-"WebSocketRule","boundary","onaccept","get set collaborator",
-"CerrLogHandler","degenerate small-class","log","incidental",
-"routing_params","data-provider","debug_print","collaborator",
-"routing_params","data-provider","routing_params::get<int64_t>","get",
-"routing_params","data-provider","routing_params::get<uint64_t>","get",
-"routing_params","data-provider","routing_params::get<double>","get",
-"response","unclassified","set_header","command",
-"response","unclassified","add_header","command",
-"response","unclassified","get_header_value","property wrapper",
-"response","unclassified","operator=","get non-void-command",
-"response","unclassified","is_completed","get",
-"response","unclassified","clear","command",
-"response","unclassified","redirect","void-accessor set",
-"response","unclassified","write","set",
-"response","unclassified","end","set",
-"response","unclassified","end","set",
-"response","unclassified","is_alive","predicate wrapper",
-"response","unclassified","json_mode","command",
-"call<F,NInt,NUint,NDouble,NString,black_magic::S<double,Args1...>,black_magic::S<Args2...>>","boundary degenerate small-class","operator()","wrapper stateless",
-"ThirdMW","pure-controller degenerate small-class","before_handle","controller stateless",
-"ThirdMW","pure-controller degenerate small-class","after_handle","controller stateless",
-"request","entity commander boundary","request","constructor",
-"request","entity commander boundary","request","constructor",
-"request","entity commander boundary","add_header","command",
-"request","entity commander boundary","get_header_value","property wrapper",
-"request","entity commander boundary","post","command collaborator",
-"request","entity commander boundary","dispatch","command collaborator",
-"call<F,NInt,NUint,NDouble,NString,black_magic::S<uint64_t,Args1...>,black_magic::S<Args2...>>","boundary degenerate small-class","operator()","wrapper stateless",
-"Crow","boundary","Crow","constructor",
-"Crow","boundary","handle_upgrade","void-accessor command collaborator",
-"Crow","boundary","handle","void-accessor command collaborator",
-"Crow","boundary","route_dynamic","property non-void-command collaborator",
-"Crow","boundary","route","property non-void-command collaborator",
-"Crow","boundary","port","get set collaborator",
-"Crow","boundary","bindaddr","get set collaborator",
-"Crow","boundary","multithreaded","property non-void-command collaborator",
-"Crow","boundary","concurrency","get set collaborator",
-"Crow","boundary","validate","command",
-"Crow","boundary","notify_server_start","set collaborator",
-"Crow","boundary","run","command",
-"Crow","boundary","stop","command",
-"Crow","boundary","debug_print","command",
-"Crow","boundary","loglevel","get wrapper",
-"Crow","boundary","ssl_file","get non-void-command collaborator",
-"Crow","boundary","ssl_file","get non-void-command collaborator",
-"Crow","boundary","ssl","get non-void-command collaborator",
-"Crow","boundary","ssl_file","get collaborator",
-"Crow","boundary","ssl","get collaborator",
-"Crow","boundary","get_context","controller stateless",
-"Crow","boundary","get_middleware","property wrapper",
-"Crow","boundary","tick","get non-void-command collaborator",
-"Crow","boundary","wait_for_server_start","command collaborator",
-"Connection","commander","Connection","constructor",
-"Connection","commander","~Connection","destructor",
-"Connection","commander","socket","property non-void-command collaborator",
-"Connection","commander","start","command",
-"Connection","commander","handle_header","command",
-"Connection","commander","handle","command collaborator",
-"Connection","commander","complete_request","command",
-"Connection","commander","do_read","command",
-"Connection","commander","Connection","constructor",
-"Connection","commander","dispatch","command collaborator",
-"Connection","commander","post","command collaborator",
-"Connection","commander","send_pong","void-accessor command",
-"Connection","commander","send_binary","void-accessor command",
-"Connection","commander","send_text","void-accessor command",
-"Connection","commander","close","void-accessor command",
-"Connection","commander","build_header","wrapper stateless",
-"Connection","commander","start","void-accessor command",
-"Connection","commander","do_read","command",
-"Connection","commander","is_FIN","predicate",
-"Connection","commander","opcode","property",
-"Connection","commander","handle_fragment","command collaborator",
-"Connection","commander","do_write","command collaborator",
-"Connection","commander","check_destroy","command",
-"ExampleLogHandler","degenerate","log","empty",
-"ExampleLogHandler","degenerate","log","empty",
-"ExampleLogHandler","degenerate","log","empty",
-"ExampleMiddleware","commander","ExampleMiddleware","constructor",
-"ExampleMiddleware","commander","setMessage","set",
-"ExampleMiddleware","commander","before_handle","unclassified",
-"ExampleMiddleware","commander","after_handle","empty",
-"ExampleMiddleware","commander","ExampleMiddleware","constructor",
-"ExampleMiddleware","commander","setMessage","set",
-"ExampleMiddleware","commander","before_handle","collaborator",
-"ExampleMiddleware","commander","after_handle","empty",
-"Trie","unclassified","optimizeNode","void-accessor command collaborator",
-"Trie","unclassified","optimize","command",
-"Trie","unclassified","validate","command",
-"Trie","unclassified","find","property collaborator",
-"Trie","unclassified","add","void-accessor command collaborator",
-"Trie","unclassified","debug_node_print","void-accessor command",
-"Trie","unclassified","debug_print","command",
-"Trie","unclassified","head","property collaborator",
-"Trie","unclassified","head","property non-void-command collaborator",
-"Trie","unclassified","new_node","non-void-command",
-"SHA1","unclassified","SHA1","constructor",
-"SHA1","unclassified","~SHA1","destructor",
-"SHA1","unclassified","SHA1","copy-constructor",
-"SHA1","unclassified","operator=","get non-void-command",
-"SHA1","unclassified","reset","get non-void-command",
-"SHA1","unclassified","processByte","get non-void-command",
-"SHA1","unclassified","processBlock","get non-void-command",
-"SHA1","unclassified","processBytes","get non-void-command",
-"SHA1","unclassified","getDigest","property non-void-command collaborator",
-"SHA1","unclassified","getDigestBytes","property non-void-command collaborator",
-"SHA1","unclassified","processBlock","command",
-"ci_hash","boundary degenerate small-class","operator()","wrapper stateless",
-"RuleParameterTraits","boundary","websocket","factory controller",
-"RuleParameterTraits","boundary","name","property wrapper",
-"RuleParameterTraits","boundary","methods","property collaborator",
-"RuleParameterTraits","boundary","methods","property non-void-command collaborator",
-"ci_key_eq","boundary degenerate small-class","operator()","wrapper stateless",
-"call<F,NInt,NUint,NDouble,NString,black_magic::S<int64_t,Args1...>,black_magic::S<Args2...>>","boundary degenerate small-class","operator()","wrapper stateless",
-"IntSettingMiddleware","boundary degenerate small-class","before_handle","collaborator incidental",
-"IntSettingMiddleware","boundary degenerate small-class","after_handle","collaborator incidental",
-"TaggedRule","entity commander boundary","TaggedRule","constructor",
-"TaggedRule","entity commander boundary","validate","command",
-"TaggedRule","entity commander boundary","operator()","set collaborator",
-"TaggedRule","entity commander boundary","operator()","set collaborator",
-"TaggedRule","entity commander boundary","operator()","set collaborator",
-"TaggedRule","entity commander boundary","operator()","void-accessor set collaborator",
-"TaggedRule","entity commander boundary","handle","void-accessor wrapper",
-"logger","data-provider boundary data-class small-class","logger","constructor",
-"logger","data-provider boundary data-class small-class","~logger","destructor",
-"logger","data-provider boundary data-class small-class","operator<<","get wrapper",
-"dumb_timer_queue","commander boundary","cancel","controller stateless",
-"dumb_timer_queue","commander boundary","add","property non-void-command collaborator",
-"dumb_timer_queue","commander boundary","process","command collaborator",
-"dumb_timer_queue","commander boundary","set_io_service","set collaborator",
-"dumb_timer_queue","commander boundary","dumb_timer_queue","constructor",
-"DynamicRule","entity boundary","DynamicRule","constructor",
-"DynamicRule","entity boundary","validate","command",
-"DynamicRule","entity boundary","handle","wrapper stateless",
-"DynamicRule","entity boundary","operator()","set collaborator",
-"DynamicRule","entity boundary","wrap","property non-void-command collaborator",
-"DynamicRule","entity boundary","operator()","void-accessor set collaborator",
-"const_str","data-provider","operator[]","get property wrapper",
-"const_str","data-provider","operatorconstchar*","get",
-"const_str","data-provider","begin","get",
-"const_str","data-provider","end","property",
-"const_str","data-provider","size","get",
-"CookieParser","pure-controller degenerate small-class","before_handle","controller stateless",
-"CookieParser","pure-controller degenerate small-class","after_handle","controller stateless",
-"SSLAdaptor","entity boundary","SSLAdaptor","constructor",
-"SSLAdaptor","entity boundary","socket","get collaborator",
-"SSLAdaptor","entity boundary","raw_socket","property non-void-command collaborator",
-"SSLAdaptor","entity boundary","remote_endpoint","property non-void-command collaborator",
-"SSLAdaptor","entity boundary","is_open","predicate non-void-command",
-"SSLAdaptor","entity boundary","close","command collaborator",
-"SSLAdaptor","entity boundary","get_io_service","property non-void-command collaborator",
-"SSLAdaptor","entity boundary","start","command collaborator",
-"Parser","entity boundary","Parser","constructor",
-"Parser","entity boundary","consume","predicate set",
-"Parser","entity boundary","ws_skip","set",
-"Parser","entity boundary","decode_string","property set collaborator",
-"Parser","entity boundary","decode_list","property non-void-command collaborator",
-"Parser","entity boundary","decode_number","property set collaborator",
-"Parser","entity boundary","decode_value","property non-void-command collaborator",
-"Parser","entity boundary","decode_object","property non-void-command collaborator",
-"Parser","entity boundary","parse","property non-void-command collaborator",
-"OutOfRange","empty","OutOfRange","constructor",
-"rvalue","data-provider","rvalue","constructor",
-"rvalue","data-provider","rvalue","constructor",
-"rvalue","data-provider","rvalue","constructor",
-"rvalue","data-provider","rvalue","copy-constructor",
-"rvalue","data-provider","rvalue","copy-constructor",
-"rvalue","data-provider","operator=","get non-void-command",
-"rvalue","data-provider","operator=","get non-void-command",
-"rvalue","data-provider","operatorbool","unclassified",
-"rvalue","data-provider","operatorint64_t","unclassified",
-"rvalue","data-provider","operatoruint64_t","unclassified",
-"rvalue","data-provider","operatorint","unclassified",
-"rvalue","data-provider","t","get wrapper",
-"rvalue","data-provider","nt","get wrapper",
-"rvalue","data-provider","i","property",
-"rvalue","data-provider","u","property",
-"rvalue","data-provider","d","property",
-"rvalue","data-provider","b","predicate",
-"rvalue","data-provider","unescape","set",
-"rvalue","data-provider","s","property collaborator",
-"rvalue","data-provider","has","predicate",
-"rvalue","data-provider","has","predicate collaborator",
-"rvalue","data-provider","count","property non-void-command",
-"rvalue","data-provider","begin","property",
-"rvalue","data-provider","end","property",
-"rvalue","data-provider","key","get collaborator",
-"rvalue","data-provider","size","get property",
-"rvalue","data-provider","operator[]","get",
-"rvalue","data-provider","operator[]","get",
-"rvalue","data-provider","operator[]","controller stateless",
-"rvalue","data-provider","operator[]","property",
-"rvalue","data-provider","set_error","set",
-"rvalue","data-provider","error","predicate",
-"rvalue","data-provider","is_cached","predicate",
-"rvalue","data-provider","set_cached","set",
-"rvalue","data-provider","copy_l","command",
-"rvalue","data-provider","emplace_back","void-accessor command",
-"rvalue","data-provider","determine_num_type","set",
-"rvalue","data-provider","operator<<","property controller",
-"partial_context","data-provider boundary small-class","get","property collaborator",
-"invalid_template_exception","data-provider small-class","invalid_template_exception","constructor",
-"invalid_template_exception","data-provider small-class","what","property",
-"context","data-provider small-class","get","property",
-"template_t","boundary","template_t","constructor",
-"template_t","boundary","tag_name","property non-void-command collaborator",
-"template_t","boundary","find_context","controller stateless",
-"template_t","boundary","escape","controller stateless",
-"template_t","boundary","render_internal","void-accessor command collaborator",
-"template_t","boundary","render_fragment","void-accessor command",
-"template_t","boundary","render","property non-void-command",
-"template_t","boundary","render","property non-void-command collaborator",
-"template_t","boundary","parse","command",
-"HTTPParser","unclassified","HTTPParser","constructor",
-"HTTPParser","unclassified","feed","predicate wrapper",
-"HTTPParser","unclassified","done","predicate non-void-command",
-"HTTPParser","unclassified","clear","command",
-"HTTPParser","unclassified","process_header","command",
-"HTTPParser","unclassified","process_message","command",
-"HTTPParser","unclassified","to_request","property wrapper",
-"HTTPParser","unclassified","is_upgrade","get",
-"HTTPParser","unclassified","check_version","predicate",
-"query_string","unclassified","query_string","constructor",
-"query_string","unclassified","query_string","copy-constructor",
-"query_string","unclassified","operator=","get non-void-command collaborator",
-"query_string","unclassified","operator=","get non-void-command",
-"query_string","unclassified","query_string","constructor",
-"query_string","unclassified","clear","command",
-"query_string","unclassified","operator<<","controller stateless",
-"query_string","unclassified","get","property",
-"query_string","unclassified","get_list","property",
-"query_string","unclassified","get_dict","property",
-"BaseRule","unclassified","BaseRule","constructor",
-"BaseRule","unclassified","~BaseRule","destructor",
-"BaseRule","unclassified","upgrade","property wrapper",
-"BaseRule","unclassified","handle_upgrade","controller stateless",
-"BaseRule","unclassified","handle_upgrade","controller stateless",
-"BaseRule","unclassified","get_methods","get",
-"BaseRule","unclassified","foreach_method","wrapper",
-"BaseRule","unclassified","rule","get",
-"SecondMW","pure-controller degenerate small-class","before_handle","controller stateless",
-"SecondMW","pure-controller degenerate small-class","after_handle","controller stateless",
-"SocketAdaptor","entity boundary","SocketAdaptor","constructor",
-"SocketAdaptor","entity boundary","get_io_service","property non-void-command collaborator",
-"SocketAdaptor","entity boundary","raw_socket","get collaborator",
-"SocketAdaptor","entity boundary","socket","get collaborator",
-"SocketAdaptor","entity boundary","remote_endpoint","property non-void-command collaborator",
-"SocketAdaptor","entity boundary","is_open","predicate non-void-command",
-"SocketAdaptor","entity boundary","close","command collaborator",
-"SocketAdaptor","entity boundary","start","wrapper stateless",
-"call<F,NInt,NUint,NDouble,NString,black_magic::S<std::string,Args1...>,black_magic::S<Args2...>>","boundary degenerate small-class","operator()","wrapper stateless",
-"call<F,NInt,NUint,NDouble,NString,black_magic::S<>,black_magic::S<Args1...>>","boundary degenerate small-class","operator()","collaborator incidental",
-"Wrapped","commander boundary","set_","set collaborator",
-"Wrapped","commander boundary","set_","set collaborator",
-"Wrapped","commander boundary","set_","set collaborator",
-"Wrapped","commander boundary","operator()","void-accessor wrapper",
-"Action","empty","Action","copy-constructor",
-"Router","controller","Router","constructor",
-"Router","controller","new_rule_dynamic","non-void-command factory collaborator",
-"Router","controller","new_rule_tagged","non-void-command factory collaborator",
-"Router","controller","internal_add_rule_object","void-accessor controller",
-"Router","controller","validate","command collaborator",
-"Router","controller","handle_upgrade","void-accessor command collaborator",
-"Router","controller","handle","void-accessor controller",
-"Router","controller","debug_print","controller",
+"FirstMW","pure-controller degenerate small-class","before_handle","controller stateless"
+"FirstMW","pure-controller degenerate small-class","after_handle","controller stateless"
+"NullSimpleMiddleware","degenerate small-class","before_handle","empty"
+"NullSimpleMiddleware","degenerate small-class","after_handle","empty"
+"NullMiddleware","degenerate small-class","before_handle","empty"
+"NullMiddleware","degenerate small-class","after_handle","empty"
+"Test","empty","Test::Test","constructor"
+"connection","data-class small-class","~connection","destructor"
+"connection","data-class small-class","userdata","set"
+"connection","data-class small-class","userdata","get collaborator"
+"wvalue","unclassified","t","get collaborator"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","clear","command"
+"wvalue","unclassified","reset","command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get set"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command"
+"wvalue","unclassified","operator=","get non-void-command collaborator"
+"wvalue","unclassified","operator[]","get non-void-command"
+"wvalue","unclassified","count","property non-void-command"
+"wvalue","unclassified","operator[]","get non-void-command"
+"wvalue","unclassified","keys","property controller"
+"wvalue","unclassified","estimate_length","property"
+"r_string","unclassified","r_string","constructor"
+"r_string","unclassified","r_string","constructor"
+"r_string","unclassified","~r_string","destructor"
+"r_string","unclassified","r_string","copy-constructor"
+"r_string","unclassified","r_string","copy-constructor"
+"r_string","unclassified","operator=","get non-void-command"
+"r_string","unclassified","operator=","get non-void-command"
+"r_string","unclassified","operatorstd::string","wrapper"
+"r_string","unclassified","begin","get"
+"r_string","unclassified","end","get"
+"r_string","unclassified","size","property"
+"r_string","unclassified","operator<<","collaborator incidental"
+"r_string","unclassified","force","command"
+"Server","commander","Server","constructor"
+"Server","commander","set_tick_function","command collaborator"
+"Server","commander","on_tick","command"
+"Server","commander","run","command"
+"Server","commander","stop","command"
+"Server","commander","pick_io_service","get set collaborator"
+"Server","commander","do_accept","command collaborator"
+"WebSocketRule","boundary","WebSocketRule","constructor"
+"WebSocketRule","boundary","validate","empty"
+"WebSocketRule","boundary","handle","controller stateless"
+"WebSocketRule","boundary","handle_upgrade","wrapper"
+"WebSocketRule","boundary","handle_upgrade","wrapper"
+"WebSocketRule","boundary","onopen","get set collaborator"
+"WebSocketRule","boundary","onmessage","get set collaborator"
+"WebSocketRule","boundary","onclose","get set collaborator"
+"WebSocketRule","boundary","onerror","get set collaborator"
+"WebSocketRule","boundary","onaccept","get set collaborator"
+"CerrLogHandler","degenerate small-class","log","incidental"
+"routing_params","data-provider","debug_print","collaborator"
+"routing_params","data-provider","routing_params::get<int64_t>","get"
+"routing_params","data-provider","routing_params::get<uint64_t>","get"
+"routing_params","data-provider","routing_params::get<double>","get"
+"response","commander","set_header","command"
+"response","commander","add_header","command"
+"response","commander","get_header_value","property wrapper"
+"response","commander","operator=","get non-void-command"
+"response","commander","is_completed","get"
+"response","commander","clear","command"
+"response","commander","redirect","set"
+"response","commander","write","set"
+"response","commander","end","set"
+"response","commander","end","set"
+"response","commander","is_alive","predicate wrapper"
+"response","commander","json_mode","command"
+"call<F,NInt,NUint,NDouble,NString,black_magic::S<double,Args1...>,black_magic::S<Args2...>>","boundary degenerate small-class","operator()","wrapper stateless"
+"ThirdMW","pure-controller degenerate small-class","before_handle","controller stateless"
+"ThirdMW","pure-controller degenerate small-class","after_handle","controller stateless"
+"request","entity commander boundary","request","constructor"
+"request","entity commander boundary","request","constructor"
+"request","entity commander boundary","add_header","command"
+"request","entity commander boundary","get_header_value","property wrapper"
+"request","entity commander boundary","post","command collaborator"
+"request","entity commander boundary","dispatch","command collaborator"
+"call<F,NInt,NUint,NDouble,NString,black_magic::S<uint64_t,Args1...>,black_magic::S<Args2...>>","boundary degenerate small-class","operator()","wrapper stateless"
+"Crow","boundary","Crow","constructor"
+"Crow","boundary","handle_upgrade","command collaborator"
+"Crow","boundary","handle","command collaborator"
+"Crow","boundary","route_dynamic","property non-void-command collaborator"
+"Crow","boundary","route","property non-void-command collaborator"
+"Crow","boundary","port","get set collaborator"
+"Crow","boundary","bindaddr","get set collaborator"
+"Crow","boundary","multithreaded","property non-void-command collaborator"
+"Crow","boundary","concurrency","get set collaborator"
+"Crow","boundary","validate","command"
+"Crow","boundary","notify_server_start","set collaborator"
+"Crow","boundary","run","command"
+"Crow","boundary","stop","command"
+"Crow","boundary","debug_print","command"
+"Crow","boundary","loglevel","get wrapper"
+"Crow","boundary","ssl_file","get non-void-command collaborator"
+"Crow","boundary","ssl_file","get non-void-command collaborator"
+"Crow","boundary","ssl","get non-void-command collaborator"
+"Crow","boundary","ssl_file","get collaborator"
+"Crow","boundary","ssl","get collaborator"
+"Crow","boundary","get_context","controller stateless"
+"Crow","boundary","get_middleware","property wrapper"
+"Crow","boundary","tick","get non-void-command collaborator"
+"Crow","boundary","wait_for_server_start","command collaborator"
+"Connection","commander","Connection","constructor"
+"Connection","commander","~Connection","destructor"
+"Connection","commander","socket","property non-void-command collaborator"
+"Connection","commander","start","command"
+"Connection","commander","handle_header","command"
+"Connection","commander","handle","command collaborator"
+"Connection","commander","complete_request","command"
+"Connection","commander","do_read","command"
+"Connection","commander","Connection","constructor"
+"Connection","commander","dispatch","command collaborator"
+"Connection","commander","post","command collaborator"
+"Connection","commander","send_pong","command"
+"Connection","commander","send_binary","command"
+"Connection","commander","send_text","command"
+"Connection","commander","close","command"
+"Connection","commander","build_header","wrapper stateless"
+"Connection","commander","start","command"
+"Connection","commander","do_read","command"
+"Connection","commander","is_FIN","predicate"
+"Connection","commander","opcode","property"
+"Connection","commander","handle_fragment","command collaborator"
+"Connection","commander","do_write","command collaborator"
+"Connection","commander","check_destroy","command"
+"ExampleLogHandler","degenerate","log","empty"
+"ExampleLogHandler","degenerate","log","empty"
+"ExampleLogHandler","degenerate","log","empty"
+"ExampleMiddleware","commander","ExampleMiddleware","constructor"
+"ExampleMiddleware","commander","setMessage","set"
+"ExampleMiddleware","commander","before_handle","unclassified"
+"ExampleMiddleware","commander","after_handle","empty"
+"ExampleMiddleware","commander","ExampleMiddleware","constructor"
+"ExampleMiddleware","commander","setMessage","set"
+"ExampleMiddleware","commander","before_handle","collaborator"
+"ExampleMiddleware","commander","after_handle","empty"
+"Trie","unclassified","optimizeNode","void-accessor command collaborator"
+"Trie","unclassified","optimize","command"
+"Trie","unclassified","validate","command"
+"Trie","unclassified","find","property collaborator"
+"Trie","unclassified","add","command collaborator"
+"Trie","unclassified","debug_node_print","command"
+"Trie","unclassified","debug_print","command"
+"Trie","unclassified","head","property collaborator"
+"Trie","unclassified","head","property non-void-command collaborator"
+"Trie","unclassified","new_node","non-void-command"
+"SHA1","unclassified","SHA1","constructor"
+"SHA1","unclassified","~SHA1","destructor"
+"SHA1","unclassified","SHA1","copy-constructor"
+"SHA1","unclassified","operator=","get non-void-command"
+"SHA1","unclassified","reset","get non-void-command"
+"SHA1","unclassified","processByte","get non-void-command"
+"SHA1","unclassified","processBlock","get non-void-command"
+"SHA1","unclassified","processBytes","get non-void-command"
+"SHA1","unclassified","getDigest","property non-void-command collaborator"
+"SHA1","unclassified","getDigestBytes","property non-void-command collaborator"
+"SHA1","unclassified","processBlock","command"
+"ci_hash","boundary degenerate small-class","operator()","wrapper stateless"
+"RuleParameterTraits","boundary","websocket","factory controller"
+"RuleParameterTraits","boundary","name","property wrapper"
+"RuleParameterTraits","boundary","methods","property collaborator"
+"RuleParameterTraits","boundary","methods","property non-void-command collaborator"
+"ci_key_eq","boundary degenerate small-class","operator()","wrapper stateless"
+"call<F,NInt,NUint,NDouble,NString,black_magic::S<int64_t,Args1...>,black_magic::S<Args2...>>","boundary degenerate small-class","operator()","wrapper stateless"
+"IntSettingMiddleware","boundary degenerate small-class","before_handle","collaborator incidental"
+"IntSettingMiddleware","boundary degenerate small-class","after_handle","collaborator incidental"
+"TaggedRule","commander boundary","TaggedRule","constructor"
+"TaggedRule","commander boundary","validate","command"
+"TaggedRule","commander boundary","operator()","set collaborator"
+"TaggedRule","commander boundary","operator()","set collaborator"
+"TaggedRule","commander boundary","operator()","set collaborator"
+"TaggedRule","commander boundary","operator()","set collaborator"
+"TaggedRule","commander boundary","handle","wrapper"
+"logger","data-provider boundary data-class small-class","logger","constructor"
+"logger","data-provider boundary data-class small-class","~logger","destructor"
+"logger","data-provider boundary data-class small-class","operator<<","get wrapper"
+"dumb_timer_queue","commander boundary","cancel","controller stateless"
+"dumb_timer_queue","commander boundary","add","property non-void-command collaborator"
+"dumb_timer_queue","commander boundary","process","command collaborator"
+"dumb_timer_queue","commander boundary","set_io_service","set collaborator"
+"dumb_timer_queue","commander boundary","dumb_timer_queue","constructor"
+"DynamicRule","entity commander boundary","DynamicRule","constructor"
+"DynamicRule","entity commander boundary","validate","command"
+"DynamicRule","entity commander boundary","handle","wrapper stateless"
+"DynamicRule","entity commander boundary","operator()","set collaborator"
+"DynamicRule","entity commander boundary","wrap","property non-void-command collaborator"
+"DynamicRule","entity commander boundary","operator()","set collaborator"
+"const_str","data-provider","operator[]","get property wrapper"
+"const_str","data-provider","operatorconstchar*","get"
+"const_str","data-provider","begin","get"
+"const_str","data-provider","end","property"
+"const_str","data-provider","size","get"
+"CookieParser","pure-controller degenerate small-class","before_handle","controller stateless"
+"CookieParser","pure-controller degenerate small-class","after_handle","controller stateless"
+"SSLAdaptor","entity boundary","SSLAdaptor","constructor"
+"SSLAdaptor","entity boundary","socket","get collaborator"
+"SSLAdaptor","entity boundary","raw_socket","property non-void-command collaborator"
+"SSLAdaptor","entity boundary","remote_endpoint","property non-void-command collaborator"
+"SSLAdaptor","entity boundary","is_open","predicate non-void-command"
+"SSLAdaptor","entity boundary","close","command collaborator"
+"SSLAdaptor","entity boundary","get_io_service","property non-void-command collaborator"
+"SSLAdaptor","entity boundary","start","command collaborator"
+"Parser","entity boundary","Parser","constructor"
+"Parser","entity boundary","consume","predicate set"
+"Parser","entity boundary","ws_skip","set"
+"Parser","entity boundary","decode_string","property set collaborator"
+"Parser","entity boundary","decode_list","property non-void-command collaborator"
+"Parser","entity boundary","decode_number","property set collaborator"
+"Parser","entity boundary","decode_value","property non-void-command collaborator"
+"Parser","entity boundary","decode_object","property non-void-command collaborator"
+"Parser","entity boundary","parse","property non-void-command collaborator"
+"OutOfRange","empty","OutOfRange","constructor"
+"rvalue","data-provider","rvalue","constructor"
+"rvalue","data-provider","rvalue","constructor"
+"rvalue","data-provider","rvalue","constructor"
+"rvalue","data-provider","rvalue","copy-constructor"
+"rvalue","data-provider","rvalue","copy-constructor"
+"rvalue","data-provider","operator=","get non-void-command"
+"rvalue","data-provider","operator=","get non-void-command"
+"rvalue","data-provider","operatorbool","unclassified"
+"rvalue","data-provider","operatorint64_t","unclassified"
+"rvalue","data-provider","operatoruint64_t","unclassified"
+"rvalue","data-provider","operatorint","unclassified"
+"rvalue","data-provider","t","get wrapper"
+"rvalue","data-provider","nt","get wrapper"
+"rvalue","data-provider","i","property"
+"rvalue","data-provider","u","property"
+"rvalue","data-provider","d","property"
+"rvalue","data-provider","b","predicate"
+"rvalue","data-provider","unescape","set"
+"rvalue","data-provider","s","property collaborator"
+"rvalue","data-provider","has","predicate"
+"rvalue","data-provider","has","predicate collaborator"
+"rvalue","data-provider","count","property non-void-command"
+"rvalue","data-provider","begin","property"
+"rvalue","data-provider","end","property"
+"rvalue","data-provider","key","get collaborator"
+"rvalue","data-provider","size","get property"
+"rvalue","data-provider","operator[]","get"
+"rvalue","data-provider","operator[]","get"
+"rvalue","data-provider","operator[]","controller stateless"
+"rvalue","data-provider","operator[]","property"
+"rvalue","data-provider","set_error","set"
+"rvalue","data-provider","error","predicate"
+"rvalue","data-provider","is_cached","predicate"
+"rvalue","data-provider","set_cached","set"
+"rvalue","data-provider","copy_l","command"
+"rvalue","data-provider","emplace_back","command"
+"rvalue","data-provider","determine_num_type","set"
+"rvalue","data-provider","operator<<","property controller"
+"partial_context","data-provider boundary small-class","get","property collaborator"
+"invalid_template_exception","data-provider small-class","invalid_template_exception","constructor"
+"invalid_template_exception","data-provider small-class","what","property"
+"context","data-provider small-class","get","property"
+"template_t","boundary","template_t","constructor"
+"template_t","boundary","tag_name","property non-void-command collaborator"
+"template_t","boundary","find_context","controller stateless"
+"template_t","boundary","escape","controller stateless"
+"template_t","boundary","render_internal","void-accessor command collaborator"
+"template_t","boundary","render_fragment","void-accessor command"
+"template_t","boundary","render","property non-void-command"
+"template_t","boundary","render","property non-void-command collaborator"
+"template_t","boundary","parse","command"
+"HTTPParser","unclassified","HTTPParser","constructor"
+"HTTPParser","unclassified","feed","predicate wrapper"
+"HTTPParser","unclassified","done","predicate non-void-command"
+"HTTPParser","unclassified","clear","command"
+"HTTPParser","unclassified","process_header","command"
+"HTTPParser","unclassified","process_message","command"
+"HTTPParser","unclassified","to_request","property wrapper"
+"HTTPParser","unclassified","is_upgrade","get"
+"HTTPParser","unclassified","check_version","predicate"
+"query_string","unclassified","query_string","constructor"
+"query_string","unclassified","query_string","copy-constructor"
+"query_string","unclassified","operator=","get non-void-command collaborator"
+"query_string","unclassified","operator=","get non-void-command"
+"query_string","unclassified","query_string","constructor"
+"query_string","unclassified","clear","command"
+"query_string","unclassified","operator<<","controller stateless"
+"query_string","unclassified","get","property"
+"query_string","unclassified","get_list","property"
+"query_string","unclassified","get_dict","property"
+"BaseRule","unclassified","BaseRule","constructor"
+"BaseRule","unclassified","~BaseRule","destructor"
+"BaseRule","unclassified","upgrade","property wrapper"
+"BaseRule","unclassified","handle_upgrade","controller stateless"
+"BaseRule","unclassified","handle_upgrade","controller stateless"
+"BaseRule","unclassified","get_methods","get"
+"BaseRule","unclassified","foreach_method","wrapper"
+"BaseRule","unclassified","rule","get"
+"SecondMW","pure-controller degenerate small-class","before_handle","controller stateless"
+"SecondMW","pure-controller degenerate small-class","after_handle","controller stateless"
+"SocketAdaptor","entity boundary","SocketAdaptor","constructor"
+"SocketAdaptor","entity boundary","get_io_service","property non-void-command collaborator"
+"SocketAdaptor","entity boundary","raw_socket","get collaborator"
+"SocketAdaptor","entity boundary","socket","get collaborator"
+"SocketAdaptor","entity boundary","remote_endpoint","property non-void-command collaborator"
+"SocketAdaptor","entity boundary","is_open","predicate non-void-command"
+"SocketAdaptor","entity boundary","close","command collaborator"
+"SocketAdaptor","entity boundary","start","wrapper stateless"
+"call<F,NInt,NUint,NDouble,NString,black_magic::S<std::string,Args1...>,black_magic::S<Args2...>>","boundary degenerate small-class","operator()","wrapper stateless"
+"call<F,NInt,NUint,NDouble,NString,black_magic::S<>,black_magic::S<Args1...>>","boundary degenerate small-class","operator()","collaborator incidental"
+"Wrapped","commander boundary","set_","set collaborator"
+"Wrapped","commander boundary","set_","set collaborator"
+"Wrapped","commander boundary","set_","set collaborator"
+"Wrapped","commander boundary","operator()","wrapper"
+"Action","empty","Action","copy-constructor"
+"Router","controller","Router","constructor"
+"Router","controller","new_rule_dynamic","non-void-command factory collaborator"
+"Router","controller","new_rule_tagged","non-void-command factory collaborator"
+"Router","controller","internal_add_rule_object","controller"
+"Router","controller","validate","command collaborator"
+"Router","controller","handle_upgrade","void-accessor command collaborator"
+"Router","controller","handle","void-accessor controller"
+"Router","controller","debug_print","controller"

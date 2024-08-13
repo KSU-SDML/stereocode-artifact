@@ -1,208 +1,208 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"LinearFbGemm","entity boundary","serialize","wrapper",
-"LinearFbGemm","entity boundary","LinearFbGemm::LinearFbGemm","constructor",
-"LinearFbGemm","entity boundary","LinearFbGemm::LinearFbGemm","constructor",
-"LinearFbGemm","entity boundary","LinearFbGemm::init","set collaborator",
-"LinearFbGemm","entity boundary","LinearFbGemm::debugString","property",
-"LinearFbGemm","entity boundary","LinearFbGemm::debugStringWithContent","property",
-"LinearFbGemm","entity boundary","LinearFbGemm::debugStringImpl","property collaborator",
-"LinearFbGemm","entity boundary","LinearFbGemm::run","property non-void-command collaborator",
-"Conv1dFbGemm","boundary","serialize","wrapper",
-"Conv1dFbGemm","boundary","Conv1dFbGemm::Conv1dFbGemm","constructor",
-"Conv1dFbGemm","boundary","Conv1dFbGemm::Conv1dFbGemm","constructor",
-"Conv1dFbGemm","boundary","Conv1dFbGemm::init","set collaborator",
-"Conv1dFbGemm","boundary","Conv1dFbGemm::debugString","property collaborator",
-"Conv1dFbGemm","boundary","Conv1dFbGemm::start","property controller",
-"Conv1dFbGemm","boundary","Conv1dFbGemm::finish","property non-void-command collaborator",
-"Conv1dFbGemm","boundary","Conv1dFbGemm::run","property non-void-command collaborator",
-"TDSBlock","data-provider boundary small-class","serialize","wrapper",
-"TDSBlock","data-provider boundary small-class","TDSBlock::TDSBlock","constructor",
-"TDSBlock","data-provider boundary small-class","TDSBlock::TDSBlock","constructor",
-"TDSBlock","data-provider boundary small-class","TDSBlock::debugString","property collaborator",
-"Sequential","unclassified","serialize","wrapper",
-"Sequential","unclassified","Sequential::Sequential","constructor",
-"Sequential","unclassified","Sequential::Sequential","constructor",
-"Sequential","unclassified","Sequential::add","command collaborator",
-"Sequential","unclassified","Sequential::start","property controller",
-"Sequential","unclassified","Sequential::run","property controller",
-"Sequential","unclassified","Sequential::finish","property controller",
-"Sequential","unclassified","Sequential::setMemoryManager","command collaborator",
-"Sequential","unclassified","Sequential::debugString","property controller",
-"Residual","boundary","serialize","wrapper",
-"Residual","boundary","Residual::Residual","constructor",
-"Residual","boundary","Residual::Residual","constructor",
-"Residual","boundary","Residual::start","property non-void-command collaborator",
-"Residual","boundary","Residual::run","property non-void-command collaborator",
-"Residual","boundary","Residual::finish","property non-void-command collaborator",
-"Residual","boundary","Residual::setMemoryManager","command collaborator",
-"Residual","boundary","Residual::debugString","property collaborator",
-"Residual","boundary","Residual::sum","controller",
-"Linear","unclassified","serialize","wrapper",
-"Linear","unclassified","Linear::Linear","constructor",
-"Linear","unclassified","Linear::start","controller stateless",
-"Linear","unclassified","Linear::debugString","property controller",
-"Linear","unclassified","Linear::debugStringWithContent","property",
-"LexiconFreeSeq2SeqDecoderState","data-provider small-class","LexiconFreeSeq2SeqDecoderState","copy-constructor",
-"LexiconFreeSeq2SeqDecoderState","data-provider small-class","LexiconFreeSeq2SeqDecoderState","constructor",
-"LexiconFreeSeq2SeqDecoderState","data-provider small-class","compareNoScoreStates","property",
-"LexiconFreeSeq2SeqDecoderState","data-provider small-class","getWord","incidental",
-"LayerNorm","controller","serialize","wrapper",
-"LayerNorm","controller","LayerNorm::LayerNorm","constructor",
-"LayerNorm","controller","LayerNorm::LayerNorm","constructor",
-"LayerNorm","controller","LayerNorm::start","controller stateless",
-"LayerNorm","controller","LayerNorm::run","property controller",
-"LayerNorm","controller","LayerNorm::debugString","property controller",
-"SSLDatasetMeters","empty","SSLDatasetMeters","constructor",
-"DataScheduler","boundary","DataScheduler","constructor",
-"DataScheduler","boundary","DataScheduler::DataScheduler","constructor",
-"DataScheduler","boundary","DataScheduler::initialize","command collaborator",
-"DataScheduler","boundary","DataScheduler::get","property non-void-command collaborator",
-"DataScheduler","boundary","DataScheduler::update","command collaborator",
-"DataScheduler","boundary","DataScheduler::getSchedule","get",
-"DataScheduler","boundary","DataScheduler::setSchedule","command",
-"LMWrapper","entity boundary","lm","wrapper stateless",
-"LMWrapper","entity boundary","LMWrapper::LMWrapper","constructor",
-"LMWrapper","entity boundary","LMWrapper::forward","non-void-command collaborator",
-"LMWrapper","entity boundary","LMWrapper::prettyString","property",
-"LocalNorm","controller","serialize","wrapper",
-"LocalNorm","controller","LocalNorm::LocalNorm","constructor",
-"LocalNorm","controller","LocalNorm::LocalNorm","constructor",
-"LocalNorm","controller","LocalNorm::start","controller stateless",
-"LocalNorm","controller","LocalNorm::run","property controller",
-"LocalNorm","controller","LocalNorm::debugString","property controller",
-"CPCSpecAugment","boundary","CPCSpecAugment::CPCSpecAugment","constructor",
-"CPCSpecAugment","boundary","CPCSpecAugment::generateRandomInt","property wrapper",
-"CPCSpecAugment","boundary","CPCSpecAugment::maskFunction","property non-void-command collaborator",
-"CPCSpecAugment","boundary","CPCSpecAugment::setMaskEmbedding","set collaborator",
-"CPCSpecAugment","boundary","CPCSpecAugment::forward","property non-void-command collaborator",
-"CPCSpecAugment","boundary","CPCSpecAugment::prettyString","property controller",
-"MemoryManager","pure-controller degenerate small-class","MemoryManager","constructor",
-"MemoryManager","pure-controller degenerate small-class","makeShared","controller stateless",
-"Relu","controller","serialize","wrapper",
-"Relu","controller","Relu::Relu","constructor",
-"Relu","controller","Relu::start","controller stateless",
-"Relu","controller","Relu::run","property controller",
-"Relu","controller","Relu::debugString","property controller",
-"Sample","data-provider small-class","Sample","constructor",
-"Sample","data-provider small-class","toString","property",
-"Sample","data-provider small-class","getDuration","property wrapper",
-"SSLTrainMeters","empty","SSLTrainMeters","constructor",
-"LogMelFeature","unclassified","serialize","command collaborator",
-"LogMelFeature","unclassified","LogMelFeature::LogMelFeature","constructor",
-"LogMelFeature","unclassified","LogMelFeature::LogMelFeature","constructor",
-"LogMelFeature","unclassified","LogMelFeature::start","controller stateless",
-"LogMelFeature","unclassified","LogMelFeature::run","property non-void-command collaborator",
-"LogMelFeature","unclassified","LogMelFeature::debugString","property controller",
-"LogMelFeature","unclassified","LogMelFeature::init","command",
-"CPCCriterion","boundary degenerate","numMask","wrapper stateless",
-"CPCCriterion","boundary degenerate","CPCCriterion::CPCCriterion","constructor",
-"CPCCriterion","boundary degenerate","CPCCriterion::getRandomIntegers","controller stateless",
-"CPCCriterion","boundary degenerate","CPCCriterion::getMask","property non-void-command collaborator",
-"CPCCriterion","boundary degenerate","CPCCriterion::getNegativeSamples","property non-void-command collaborator",
-"CPCCriterion","boundary degenerate","CPCCriterion::forward","controller stateless",
-"CPCCriterion","boundary degenerate","CPCCriterion::viterbiPath","incidental",
-"CPCCriterion","boundary degenerate","CPCCriterion::prettyString","incidental",
-"LexiconFreeSeq2SeqDecoder","data-provider","LexiconFreeSeq2SeqDecoder","constructor",
-"LexiconFreeSeq2SeqDecoder","data-provider","LexiconFreeSeq2SeqDecoder::decodeStep","void-accessor command",
-"LexiconFreeSeq2SeqDecoder","data-provider","LexiconFreeSeq2SeqDecoder::getAllFinalHypothesis","property collaborator",
-"LexiconFreeSeq2SeqDecoder","data-provider","LexiconFreeSeq2SeqDecoder::getBestHypothesis","property collaborator",
-"LexiconFreeSeq2SeqDecoder","data-provider","LexiconFreeSeq2SeqDecoder::prune","incidental",
-"LexiconFreeSeq2SeqDecoder","data-provider","LexiconFreeSeq2SeqDecoder::nDecodedFramesInBuffer","incidental",
-"EnumHash","boundary degenerate small-class","operator()","collaborator incidental",
-"IOBuffer","boundary","serialize","wrapper",
-"IOBuffer","boundary","IOBuffer::IOBuffer","constructor",
-"IOBuffer","boundary","IOBuffer::IOBuffer","constructor",
-"IOBuffer","boundary","IOBuffer::headRoom","get wrapper",
-"IOBuffer","boundary","IOBuffer::tailRoom","property",
-"IOBuffer","boundary","IOBuffer::reset","command",
-"IOBuffer","boundary","IOBuffer::debugString","property",
-"IOBuffer","boundary","IOBuffer::debugStringHelper","property collaborator",
-"IOBuffer","boundary","IOBuffer::clear","command",
-"IOBuffer","boundary","IOBuffer::buffer","get",
-"IOBuffer","boundary","IOBuffer::data","property non-void-command collaborator",
-"IOBuffer","boundary","IOBuffer::data","property collaborator",
-"IOBuffer","boundary","IOBuffer::tail","property non-void-command collaborator",
-"IOBuffer","boundary","IOBuffer::tail","property collaborator",
-"IOBuffer","boundary","IOBuffer::consume","command collaborator",
-"IOBuffer","boundary","IOBuffer::ensure","command",
-"IOBuffer","boundary","IOBuffer::move","command collaborator",
-"IOBuffer","boundary","IOBuffer::write","controller stateless",
-"IOBuffer","boundary","IOBuffer::writeZero","wrapper stateless",
-"IOBuffer","boundary","IOBuffer::size","property",
-"IOBuffer","boundary","IOBuffer::debugStringWithContent","property",
-"LogHelper","unclassified","LogHelper","constructor",
-"LogHelper","unclassified","LogHelper::LogHelper","constructor",
-"LogHelper","unclassified","LogHelper::saveConfig","void-accessor wrapper",
-"LogHelper","unclassified","LogHelper::writeHeader","void-accessor command collaborator",
-"LogHelper","unclassified","LogHelper::logStatus","void-accessor command collaborator",
-"LogHelper","unclassified","LogHelper::saveModel","property controller",
-"LogHelper","unclassified","LogHelper::logAndSaveModel","void-accessor command collaborator",
-"LogHelper","unclassified","LogHelper::formatStatus","property controller",
-"DecoderFactory","data-provider","DecoderFactory::DecoderFactory","constructor",
-"DecoderFactory","data-provider","DecoderFactory::createDecoder","property wrapper",
-"DecoderFactory","data-provider","DecoderFactory::alphabetSize","get",
-"DecoderFactory","data-provider","DecoderFactory::result2Words","property collaborator",
-"DecoderFactory","data-provider","DecoderFactory::isInt","controller stateless",
-"DecoderFactory","data-provider","DecoderFactory::nUTF8Bytes","incidental",
-"DecoderFactory","data-provider","DecoderFactory::unpackReplabels","property",
-"WordUnit","empty","WordUnit","constructor",
-"Decoder","unclassified","Decoder","constructor",
-"Decoder","unclassified","Decoder","copy-constructor",
-"Decoder","unclassified","Decoder::start","command",
-"Decoder","unclassified","Decoder::run","void-accessor command",
-"Decoder","unclassified","Decoder::finish","command",
-"Decoder","unclassified","Decoder::getBestHypothesisInWords","property collaborator",
-"Decoder","unclassified","Decoder::prune","command",
-"MyModel","unclassified","MyModel","constructor",
-"MyModel","unclassified","forward","property non-void-command collaborator",
-"MyModel","unclassified","prettyString","property",
-"MyModel","unclassified","MyModel","constructor",
-"MyModel","unclassified","forward","property non-void-command collaborator",
-"MyModel","unclassified","prettyString","property",
-"MyModel","unclassified","MyModel","constructor",
-"MyModel","unclassified","forward","property non-void-command collaborator",
-"MyModel","unclassified","prettyString","property",
-"MyModel","unclassified","MyModel","constructor",
-"MyModel","unclassified","forward","property non-void-command collaborator",
-"MyModel","unclassified","prettyString","property",
-"TimeElapsedReporter","empty","TimeElapsedReporter::TimeElapsedReporter","constructor",
-"TimeElapsedReporter","empty","TimeElapsedReporter::~TimeElapsedReporter","destructor",
-"ModuleParameter","data-provider boundary small-class","serialize","wrapper",
-"ModuleParameter","data-provider boundary small-class","ModuleParameter::ModuleParameter","constructor",
-"ModuleParameter","data-provider boundary small-class","ModuleParameter::ModuleParameter","constructor",
-"ModuleParameter","data-provider boundary small-class","ModuleParameter::debugString","property collaborator",
-"ThreadPool","entity boundary small-class","ThreadPool::ThreadPool","constructor",
-"ThreadPool","entity boundary small-class","ThreadPool::enqueue","property non-void-command collaborator",
-"ThreadPool","entity boundary small-class","ThreadPool::~ThreadPool","destructor",
-"myModel","small-class","myModel","constructor",
-"myModel","small-class","forward","property non-void-command collaborator",
-"myModel","small-class","prettyString","property",
-"DefaultMemoryManager","degenerate","DefaultMemoryManager::DefaultMemoryManager","constructor",
-"DefaultMemoryManager","degenerate","DefaultMemoryManager::allocate","wrapper stateless",
-"DefaultMemoryManager","degenerate","DefaultMemoryManager::free","void-accessor command",
-"DefaultMemoryManager","degenerate","DefaultMemoryManager::debugString","incidental",
-"Identity","degenerate","serialize","wrapper",
-"Identity","degenerate","Identity::Identity","constructor",
-"Identity","degenerate","Identity::start","controller stateless",
-"Identity","degenerate","Identity::run","controller stateless",
-"Identity","degenerate","Identity::debugString","controller stateless",
-"InferenceModule","commander lazy-class degenerate","~InferenceModule","destructor",
-"InferenceModule","commander lazy-class degenerate","finish","wrapper stateless",
-"InferenceModule","commander lazy-class degenerate","clear","empty",
-"InferenceModule","commander lazy-class degenerate","serialize","empty",
-"InferenceModule","commander lazy-class degenerate","InferenceModule::InferenceModule","constructor",
-"InferenceModule","commander lazy-class degenerate","InferenceModule::setMemoryManager","set collaborator",
-"TransformerCPC","boundary","TransformerCPC::TransformerCPC","constructor",
-"TransformerCPC","boundary","TransformerCPC::mlp","property wrapper",
-"TransformerCPC","boundary","TransformerCPC::getMask","wrapper stateless",
-"TransformerCPC","boundary","TransformerCPC::selfAttention","property non-void-command collaborator",
-"TransformerCPC","boundary","TransformerCPC::forward","property non-void-command collaborator",
-"TransformerCPC","boundary","TransformerCPC::prettyString","property controller",
-"TransformerCPC","boundary","TransformerCPC::TransformerCPC","constructor",
-"ModuleProcessingState","boundary","ModuleProcessingState::ModuleProcessingState","constructor",
-"ModuleProcessingState","boundary","ModuleProcessingState::buffers","get collaborator",
-"ModuleProcessingState","boundary","ModuleProcessingState::buffer","get non-void-command collaborator",
-"ModuleProcessingState","boundary","ModuleProcessingState::next","get set collaborator",
-"Conv1d","small-class","serialize","wrapper",
-"Conv1d","small-class","Conv1d::Conv1d","constructor",
-"Conv1d","small-class","Conv1d::debugString","property controller",
+"LinearFbGemm","entity boundary","serialize","wrapper"
+"LinearFbGemm","entity boundary","LinearFbGemm::LinearFbGemm","constructor"
+"LinearFbGemm","entity boundary","LinearFbGemm::LinearFbGemm","constructor"
+"LinearFbGemm","entity boundary","LinearFbGemm::init","set collaborator"
+"LinearFbGemm","entity boundary","LinearFbGemm::debugString","property"
+"LinearFbGemm","entity boundary","LinearFbGemm::debugStringWithContent","property"
+"LinearFbGemm","entity boundary","LinearFbGemm::debugStringImpl","property collaborator"
+"LinearFbGemm","entity boundary","LinearFbGemm::run","property non-void-command collaborator"
+"Conv1dFbGemm","boundary","serialize","wrapper"
+"Conv1dFbGemm","boundary","Conv1dFbGemm::Conv1dFbGemm","constructor"
+"Conv1dFbGemm","boundary","Conv1dFbGemm::Conv1dFbGemm","constructor"
+"Conv1dFbGemm","boundary","Conv1dFbGemm::init","set collaborator"
+"Conv1dFbGemm","boundary","Conv1dFbGemm::debugString","property collaborator"
+"Conv1dFbGemm","boundary","Conv1dFbGemm::start","property controller"
+"Conv1dFbGemm","boundary","Conv1dFbGemm::finish","property non-void-command collaborator"
+"Conv1dFbGemm","boundary","Conv1dFbGemm::run","property non-void-command collaborator"
+"TDSBlock","data-provider boundary small-class","serialize","wrapper"
+"TDSBlock","data-provider boundary small-class","TDSBlock::TDSBlock","constructor"
+"TDSBlock","data-provider boundary small-class","TDSBlock::TDSBlock","constructor"
+"TDSBlock","data-provider boundary small-class","TDSBlock::debugString","property collaborator"
+"Sequential","unclassified","serialize","wrapper"
+"Sequential","unclassified","Sequential::Sequential","constructor"
+"Sequential","unclassified","Sequential::Sequential","constructor"
+"Sequential","unclassified","Sequential::add","command collaborator"
+"Sequential","unclassified","Sequential::start","property controller"
+"Sequential","unclassified","Sequential::run","property controller"
+"Sequential","unclassified","Sequential::finish","property controller"
+"Sequential","unclassified","Sequential::setMemoryManager","command collaborator"
+"Sequential","unclassified","Sequential::debugString","property controller"
+"Residual","boundary","serialize","wrapper"
+"Residual","boundary","Residual::Residual","constructor"
+"Residual","boundary","Residual::Residual","constructor"
+"Residual","boundary","Residual::start","property non-void-command collaborator"
+"Residual","boundary","Residual::run","property non-void-command collaborator"
+"Residual","boundary","Residual::finish","property non-void-command collaborator"
+"Residual","boundary","Residual::setMemoryManager","command collaborator"
+"Residual","boundary","Residual::debugString","property collaborator"
+"Residual","boundary","Residual::sum","controller"
+"Linear","unclassified","serialize","wrapper"
+"Linear","unclassified","Linear::Linear","constructor"
+"Linear","unclassified","Linear::start","controller stateless"
+"Linear","unclassified","Linear::debugString","property controller"
+"Linear","unclassified","Linear::debugStringWithContent","property"
+"LexiconFreeSeq2SeqDecoderState","data-provider small-class","LexiconFreeSeq2SeqDecoderState","copy-constructor"
+"LexiconFreeSeq2SeqDecoderState","data-provider small-class","LexiconFreeSeq2SeqDecoderState","constructor"
+"LexiconFreeSeq2SeqDecoderState","data-provider small-class","compareNoScoreStates","property"
+"LexiconFreeSeq2SeqDecoderState","data-provider small-class","getWord","incidental"
+"LayerNorm","controller","serialize","wrapper"
+"LayerNorm","controller","LayerNorm::LayerNorm","constructor"
+"LayerNorm","controller","LayerNorm::LayerNorm","constructor"
+"LayerNorm","controller","LayerNorm::start","controller stateless"
+"LayerNorm","controller","LayerNorm::run","property controller"
+"LayerNorm","controller","LayerNorm::debugString","property controller"
+"SSLDatasetMeters","empty","SSLDatasetMeters","constructor"
+"DataScheduler","boundary","DataScheduler","constructor"
+"DataScheduler","boundary","DataScheduler::DataScheduler","constructor"
+"DataScheduler","boundary","DataScheduler::initialize","command collaborator"
+"DataScheduler","boundary","DataScheduler::get","property non-void-command collaborator"
+"DataScheduler","boundary","DataScheduler::update","command collaborator"
+"DataScheduler","boundary","DataScheduler::getSchedule","get"
+"DataScheduler","boundary","DataScheduler::setSchedule","command"
+"LMWrapper","entity boundary","lm","wrapper stateless"
+"LMWrapper","entity boundary","LMWrapper::LMWrapper","constructor"
+"LMWrapper","entity boundary","LMWrapper::forward","non-void-command collaborator"
+"LMWrapper","entity boundary","LMWrapper::prettyString","property"
+"LocalNorm","controller","serialize","wrapper"
+"LocalNorm","controller","LocalNorm::LocalNorm","constructor"
+"LocalNorm","controller","LocalNorm::LocalNorm","constructor"
+"LocalNorm","controller","LocalNorm::start","controller stateless"
+"LocalNorm","controller","LocalNorm::run","property controller"
+"LocalNorm","controller","LocalNorm::debugString","property controller"
+"CPCSpecAugment","boundary","CPCSpecAugment::CPCSpecAugment","constructor"
+"CPCSpecAugment","boundary","CPCSpecAugment::generateRandomInt","property wrapper"
+"CPCSpecAugment","boundary","CPCSpecAugment::maskFunction","property non-void-command collaborator"
+"CPCSpecAugment","boundary","CPCSpecAugment::setMaskEmbedding","set collaborator"
+"CPCSpecAugment","boundary","CPCSpecAugment::forward","property non-void-command collaborator"
+"CPCSpecAugment","boundary","CPCSpecAugment::prettyString","property controller"
+"MemoryManager","pure-controller degenerate small-class","MemoryManager","constructor"
+"MemoryManager","pure-controller degenerate small-class","makeShared","controller stateless"
+"Relu","controller","serialize","wrapper"
+"Relu","controller","Relu::Relu","constructor"
+"Relu","controller","Relu::start","controller stateless"
+"Relu","controller","Relu::run","property controller"
+"Relu","controller","Relu::debugString","property controller"
+"Sample","data-provider small-class","Sample","constructor"
+"Sample","data-provider small-class","toString","property"
+"Sample","data-provider small-class","getDuration","property wrapper"
+"SSLTrainMeters","empty","SSLTrainMeters","constructor"
+"LogMelFeature","unclassified","serialize","command collaborator"
+"LogMelFeature","unclassified","LogMelFeature::LogMelFeature","constructor"
+"LogMelFeature","unclassified","LogMelFeature::LogMelFeature","constructor"
+"LogMelFeature","unclassified","LogMelFeature::start","controller stateless"
+"LogMelFeature","unclassified","LogMelFeature::run","property non-void-command collaborator"
+"LogMelFeature","unclassified","LogMelFeature::debugString","property controller"
+"LogMelFeature","unclassified","LogMelFeature::init","command"
+"CPCCriterion","boundary degenerate","numMask","wrapper stateless"
+"CPCCriterion","boundary degenerate","CPCCriterion::CPCCriterion","constructor"
+"CPCCriterion","boundary degenerate","CPCCriterion::getRandomIntegers","controller stateless"
+"CPCCriterion","boundary degenerate","CPCCriterion::getMask","property non-void-command collaborator"
+"CPCCriterion","boundary degenerate","CPCCriterion::getNegativeSamples","property non-void-command collaborator"
+"CPCCriterion","boundary degenerate","CPCCriterion::forward","controller stateless"
+"CPCCriterion","boundary degenerate","CPCCriterion::viterbiPath","incidental"
+"CPCCriterion","boundary degenerate","CPCCriterion::prettyString","incidental"
+"LexiconFreeSeq2SeqDecoder","unclassified","LexiconFreeSeq2SeqDecoder","constructor"
+"LexiconFreeSeq2SeqDecoder","unclassified","LexiconFreeSeq2SeqDecoder::decodeStep","command"
+"LexiconFreeSeq2SeqDecoder","unclassified","LexiconFreeSeq2SeqDecoder::getAllFinalHypothesis","property collaborator"
+"LexiconFreeSeq2SeqDecoder","unclassified","LexiconFreeSeq2SeqDecoder::getBestHypothesis","property collaborator"
+"LexiconFreeSeq2SeqDecoder","unclassified","LexiconFreeSeq2SeqDecoder::prune","incidental"
+"LexiconFreeSeq2SeqDecoder","unclassified","LexiconFreeSeq2SeqDecoder::nDecodedFramesInBuffer","incidental"
+"EnumHash","boundary degenerate small-class","operator()","collaborator incidental"
+"IOBuffer","boundary","serialize","wrapper"
+"IOBuffer","boundary","IOBuffer::IOBuffer","constructor"
+"IOBuffer","boundary","IOBuffer::IOBuffer","constructor"
+"IOBuffer","boundary","IOBuffer::headRoom","get wrapper"
+"IOBuffer","boundary","IOBuffer::tailRoom","property"
+"IOBuffer","boundary","IOBuffer::reset","command"
+"IOBuffer","boundary","IOBuffer::debugString","property"
+"IOBuffer","boundary","IOBuffer::debugStringHelper","property collaborator"
+"IOBuffer","boundary","IOBuffer::clear","command"
+"IOBuffer","boundary","IOBuffer::buffer","get"
+"IOBuffer","boundary","IOBuffer::data","property non-void-command collaborator"
+"IOBuffer","boundary","IOBuffer::data","property collaborator"
+"IOBuffer","boundary","IOBuffer::tail","property non-void-command collaborator"
+"IOBuffer","boundary","IOBuffer::tail","property collaborator"
+"IOBuffer","boundary","IOBuffer::consume","command collaborator"
+"IOBuffer","boundary","IOBuffer::ensure","command"
+"IOBuffer","boundary","IOBuffer::move","command collaborator"
+"IOBuffer","boundary","IOBuffer::write","controller stateless"
+"IOBuffer","boundary","IOBuffer::writeZero","wrapper stateless"
+"IOBuffer","boundary","IOBuffer::size","property"
+"IOBuffer","boundary","IOBuffer::debugStringWithContent","property"
+"LogHelper","unclassified","LogHelper","constructor"
+"LogHelper","unclassified","LogHelper::LogHelper","constructor"
+"LogHelper","unclassified","LogHelper::saveConfig","wrapper"
+"LogHelper","unclassified","LogHelper::writeHeader","command collaborator"
+"LogHelper","unclassified","LogHelper::logStatus","command collaborator"
+"LogHelper","unclassified","LogHelper::saveModel","property controller"
+"LogHelper","unclassified","LogHelper::logAndSaveModel","command collaborator"
+"LogHelper","unclassified","LogHelper::formatStatus","property controller"
+"DecoderFactory","data-provider","DecoderFactory::DecoderFactory","constructor"
+"DecoderFactory","data-provider","DecoderFactory::createDecoder","property wrapper"
+"DecoderFactory","data-provider","DecoderFactory::alphabetSize","get"
+"DecoderFactory","data-provider","DecoderFactory::result2Words","property collaborator"
+"DecoderFactory","data-provider","DecoderFactory::isInt","controller stateless"
+"DecoderFactory","data-provider","DecoderFactory::nUTF8Bytes","incidental"
+"DecoderFactory","data-provider","DecoderFactory::unpackReplabels","property"
+"WordUnit","empty","WordUnit","constructor"
+"Decoder","commander","Decoder","constructor"
+"Decoder","commander","Decoder","copy-constructor"
+"Decoder","commander","Decoder::start","command"
+"Decoder","commander","Decoder::run","command"
+"Decoder","commander","Decoder::finish","command"
+"Decoder","commander","Decoder::getBestHypothesisInWords","property collaborator"
+"Decoder","commander","Decoder::prune","command"
+"MyModel","unclassified","MyModel","constructor"
+"MyModel","unclassified","forward","property non-void-command collaborator"
+"MyModel","unclassified","prettyString","property"
+"MyModel","unclassified","MyModel","constructor"
+"MyModel","unclassified","forward","property non-void-command collaborator"
+"MyModel","unclassified","prettyString","property"
+"MyModel","unclassified","MyModel","constructor"
+"MyModel","unclassified","forward","property non-void-command collaborator"
+"MyModel","unclassified","prettyString","property"
+"MyModel","unclassified","MyModel","constructor"
+"MyModel","unclassified","forward","property non-void-command collaborator"
+"MyModel","unclassified","prettyString","property"
+"TimeElapsedReporter","empty","TimeElapsedReporter::TimeElapsedReporter","constructor"
+"TimeElapsedReporter","empty","TimeElapsedReporter::~TimeElapsedReporter","destructor"
+"ModuleParameter","data-provider boundary small-class","serialize","wrapper"
+"ModuleParameter","data-provider boundary small-class","ModuleParameter::ModuleParameter","constructor"
+"ModuleParameter","data-provider boundary small-class","ModuleParameter::ModuleParameter","constructor"
+"ModuleParameter","data-provider boundary small-class","ModuleParameter::debugString","property collaborator"
+"ThreadPool","entity boundary small-class","ThreadPool::ThreadPool","constructor"
+"ThreadPool","entity boundary small-class","ThreadPool::enqueue","property non-void-command collaborator"
+"ThreadPool","entity boundary small-class","ThreadPool::~ThreadPool","destructor"
+"myModel","small-class","myModel","constructor"
+"myModel","small-class","forward","property non-void-command collaborator"
+"myModel","small-class","prettyString","property"
+"DefaultMemoryManager","commander degenerate","DefaultMemoryManager::DefaultMemoryManager","constructor"
+"DefaultMemoryManager","commander degenerate","DefaultMemoryManager::allocate","wrapper stateless"
+"DefaultMemoryManager","commander degenerate","DefaultMemoryManager::free","command"
+"DefaultMemoryManager","commander degenerate","DefaultMemoryManager::debugString","incidental"
+"Identity","degenerate","serialize","wrapper"
+"Identity","degenerate","Identity::Identity","constructor"
+"Identity","degenerate","Identity::start","controller stateless"
+"Identity","degenerate","Identity::run","controller stateless"
+"Identity","degenerate","Identity::debugString","controller stateless"
+"InferenceModule","commander lazy-class degenerate","~InferenceModule","destructor"
+"InferenceModule","commander lazy-class degenerate","finish","wrapper stateless"
+"InferenceModule","commander lazy-class degenerate","clear","empty"
+"InferenceModule","commander lazy-class degenerate","serialize","empty"
+"InferenceModule","commander lazy-class degenerate","InferenceModule::InferenceModule","constructor"
+"InferenceModule","commander lazy-class degenerate","InferenceModule::setMemoryManager","set collaborator"
+"TransformerCPC","boundary","TransformerCPC::TransformerCPC","constructor"
+"TransformerCPC","boundary","TransformerCPC::mlp","property wrapper"
+"TransformerCPC","boundary","TransformerCPC::getMask","wrapper stateless"
+"TransformerCPC","boundary","TransformerCPC::selfAttention","property non-void-command collaborator"
+"TransformerCPC","boundary","TransformerCPC::forward","property non-void-command collaborator"
+"TransformerCPC","boundary","TransformerCPC::prettyString","property controller"
+"TransformerCPC","boundary","TransformerCPC::TransformerCPC","constructor"
+"ModuleProcessingState","boundary","ModuleProcessingState::ModuleProcessingState","constructor"
+"ModuleProcessingState","boundary","ModuleProcessingState::buffers","get collaborator"
+"ModuleProcessingState","boundary","ModuleProcessingState::buffer","get non-void-command collaborator"
+"ModuleProcessingState","boundary","ModuleProcessingState::next","get set collaborator"
+"Conv1d","small-class","serialize","wrapper"
+"Conv1d","small-class","Conv1d::Conv1d","constructor"
+"Conv1d","small-class","Conv1d::debugString","property controller"

@@ -1,855 +1,855 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"SPIClass","commander boundary","transfer","property non-void-command collaborator",
-"SPIClass","commander boundary","transfer16","property non-void-command collaborator",
-"SPIClass","commander boundary","transfer","void-accessor command collaborator",
-"SPIClass","commander boundary","beginTransaction","command collaborator",
-"SPIClass","commander boundary","setBitOrder","command collaborator",
-"SPIClass","commander boundary","setDataMode","command",
-"SPIClass","commander boundary","setClockDivider","command",
-"SPIClass","commander boundary","SPIClass::SPIClass","constructor",
-"SPIClass","commander boundary","SPIClass::begin","command",
-"SPIClass","commander boundary","SPIClass::begin","command",
-"SPIClass","commander boundary","SPIClass::init","command",
-"SPIClass","commander boundary","SPIClass::usingInterrupt","command",
-"SPIClass","commander boundary","SPIClass::beginTransaction","command collaborator",
-"SPIClass","commander boundary","SPIClass::endTransaction","wrapper",
-"SPIClass","commander boundary","SPIClass::end","wrapper stateless",
-"SPIClass","commander boundary","SPIClass::end","set",
-"SPIClass","commander boundary","SPIClass::setBitOrder","set collaborator",
-"SPIClass","commander boundary","SPIClass::setDataMode","set",
-"SPIClass","commander boundary","SPIClass::setClockDivider","set",
-"SPIClass","commander boundary","SPIClass::transfer","property set collaborator",
-"SPIClass","commander boundary","SPIClass::transfer16","property non-void-command collaborator",
-"SPIClass","commander boundary","SPIClass::transfer","set collaborator",
-"SPIClass","commander boundary","SPIClass::attachInterrupt","empty",
-"SPIClass","commander boundary","SPIClass::detachInterrupt","empty",
-"SPISettings","boundary degenerate small-class","SPISettings","constructor",
-"SPISettings","boundary degenerate small-class","SPISettings","constructor",
-"SPISettings","boundary degenerate small-class","init_MightInline","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::MPU6050","constructor",
-"MPU6050","data-provider boundary","MPU6050::initialize","command",
-"MPU6050","data-provider boundary","MPU6050::testConnection","predicate non-void-command",
-"MPU6050","data-provider boundary","MPU6050::getAuxVDDIOLevel","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setAuxVDDIOLevel","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getRate","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setRate","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getExternalFrameSync","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setExternalFrameSync","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDLPFMode","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setDLPFMode","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFullScaleGyroRange","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setFullScaleGyroRange","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelXSelfTestFactoryTrim","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelYSelfTestFactoryTrim","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelZSelfTestFactoryTrim","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getGyroXSelfTestFactoryTrim","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getGyroYSelfTestFactoryTrim","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getGyroZSelfTestFactoryTrim","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelXSelfTest","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setAccelXSelfTest","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelYSelfTest","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setAccelYSelfTest","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelZSelfTest","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setAccelZSelfTest","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFullScaleAccelRange","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setFullScaleAccelRange","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDHPFMode","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setDHPFMode","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFreefallDetectionThreshold","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setFreefallDetectionThreshold","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFreefallDetectionDuration","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setFreefallDetectionDuration","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getMotionDetectionThreshold","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setMotionDetectionThreshold","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getMotionDetectionDuration","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setMotionDetectionDuration","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getZeroMotionDetectionThreshold","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setZeroMotionDetectionThreshold","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getZeroMotionDetectionDuration","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setZeroMotionDetectionDuration","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getTempFIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setTempFIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getXGyroFIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setXGyroFIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getYGyroFIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setYGyroFIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getZGyroFIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setZGyroFIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelFIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setAccelFIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave2FIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave2FIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave1FIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave1FIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave0FIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave0FIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getMultiMasterEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setMultiMasterEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getWaitForExternalSensorEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setWaitForExternalSensorEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave3FIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave3FIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlaveReadWriteTransitionEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveReadWriteTransitionEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getMasterClockSpeed","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setMasterClockSpeed","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlaveAddress","get property wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveAddress","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlaveRegister","get property wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveRegister","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlaveEnabled","get predicate wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlaveWordByteSwap","get predicate wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveWordByteSwap","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlaveWriteMode","get predicate wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveWriteMode","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlaveWordGroupOffset","get predicate wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveWordGroupOffset","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlaveDataLength","get property wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveDataLength","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave4Address","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave4Address","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave4Register","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave4Register","wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave4OutputByte","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave4Enabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave4Enabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave4InterruptEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave4InterruptEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave4WriteMode","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave4WriteMode","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave4MasterDelay","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlave4MasterDelay","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlate4InputByte","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getPassthroughStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave4IsDone","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getLostArbitration","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave4Nack","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave3Nack","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave2Nack","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave1Nack","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlave0Nack","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getInterruptMode","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setInterruptMode","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getInterruptDrive","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setInterruptDrive","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getInterruptLatch","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setInterruptLatch","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getInterruptLatchClear","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setInterruptLatchClear","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFSyncInterruptLevel","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setFSyncInterruptLevel","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFSyncInterruptEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setFSyncInterruptEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getI2CBypassEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setI2CBypassEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getClockOutputEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setClockOutputEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setIntEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntFreefallEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setIntFreefallEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntMotionEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setIntMotionEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntZeroMotionEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setIntZeroMotionEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntFIFOBufferOverflowEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setIntFIFOBufferOverflowEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntI2CMasterEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setIntI2CMasterEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntDataReadyEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setIntDataReadyEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntFreefallStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntMotionStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntZeroMotionStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntFIFOBufferOverflowStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntI2CMasterStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntDataReadyStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getMotion9","void-accessor command",
-"MPU6050","data-provider boundary","MPU6050::getMotion6","void-accessor wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAcceleration","void-accessor wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelerationX","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelerationY","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelerationZ","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getTemperature","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getRotation","void-accessor wrapper",
-"MPU6050","data-provider boundary","MPU6050::getRotationX","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getRotationY","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getRotationZ","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getExternalSensorByte","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getExternalSensorWord","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getExternalSensorDWord","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getMotionStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getXNegMotionDetected","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getXPosMotionDetected","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getYNegMotionDetected","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getYPosMotionDetected","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getZNegMotionDetected","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getZPosMotionDetected","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getZeroMotionDetected","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveOutputByte","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getExternalShadowDelayEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setExternalShadowDelayEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSlaveDelayEnabled","get predicate wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSlaveDelayEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::resetGyroscopePath","wrapper",
-"MPU6050","data-provider boundary","MPU6050::resetAccelerometerPath","wrapper",
-"MPU6050","data-provider boundary","MPU6050::resetTemperaturePath","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getAccelerometerPowerOnDelay","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setAccelerometerPowerOnDelay","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFreefallDetectionCounterDecrement","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setFreefallDetectionCounterDecrement","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getMotionDetectionCounterDecrement","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setMotionDetectionCounterDecrement","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFIFOEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setFIFOEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getI2CMasterModeEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setI2CMasterModeEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::switchSPIEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::resetFIFO","wrapper",
-"MPU6050","data-provider boundary","MPU6050::resetI2CMaster","wrapper",
-"MPU6050","data-provider boundary","MPU6050::resetSensors","wrapper",
-"MPU6050","data-provider boundary","MPU6050::reset","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getSleepEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setSleepEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getWakeCycleEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setWakeCycleEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getTempSensorEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setTempSensorEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getClockSource","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setClockSource","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getWakeFrequency","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setWakeFrequency","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getStandbyXAccelEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setStandbyXAccelEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getStandbyYAccelEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setStandbyYAccelEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getStandbyZAccelEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setStandbyZAccelEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getStandbyXGyroEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setStandbyXGyroEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getStandbyYGyroEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setStandbyYGyroEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getStandbyZGyroEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setStandbyZGyroEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFIFOCount","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFIFOByte","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getFIFOBytes","void-accessor wrapper",
-"MPU6050","data-provider boundary","MPU6050::GetCurrentFIFOPacket","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::setFIFOByte","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDeviceID","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setDeviceID","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getOTPBankValid","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setOTPBankValid","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getXGyroOffsetTC","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setXGyroOffsetTC","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getYGyroOffsetTC","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setYGyroOffsetTC","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getZGyroOffsetTC","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setZGyroOffsetTC","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getXFineGain","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setXFineGain","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getYFineGain","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setYFineGain","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getZFineGain","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setZFineGain","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getXAccelOffset","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::setXAccelOffset","command",
-"MPU6050","data-provider boundary","MPU6050::getYAccelOffset","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::setYAccelOffset","command",
-"MPU6050","data-provider boundary","MPU6050::getZAccelOffset","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::setZAccelOffset","command",
-"MPU6050","data-provider boundary","MPU6050::getXGyroOffset","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::setXGyroOffset","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getYGyroOffset","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::setYGyroOffset","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getZGyroOffset","property wrapper",
-"MPU6050","data-provider boundary","MPU6050::setZGyroOffset","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntPLLReadyEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setIntPLLReadyEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntDMPEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setIntDMPEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDMPInt5Status","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDMPInt4Status","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDMPInt3Status","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDMPInt2Status","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDMPInt1Status","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDMPInt0Status","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntPLLReadyStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getIntDMPStatus","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDMPEnabled","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setDMPEnabled","wrapper",
-"MPU6050","data-provider boundary","MPU6050::resetDMP","wrapper",
-"MPU6050","data-provider boundary","MPU6050::setMemoryBank","wrapper",
-"MPU6050","data-provider boundary","MPU6050::setMemoryStartAddress","wrapper",
-"MPU6050","data-provider boundary","MPU6050::readMemoryByte","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::writeMemoryByte","wrapper",
-"MPU6050","data-provider boundary","MPU6050::readMemoryBlock","void-accessor command",
-"MPU6050","data-provider boundary","MPU6050::writeMemoryBlock","predicate non-void-command",
-"MPU6050","data-provider boundary","MPU6050::writeProgMemoryBlock","predicate non-void-command",
-"MPU6050","data-provider boundary","MPU6050::writeDMPConfigurationSet","predicate wrapper",
-"MPU6050","data-provider boundary","MPU6050::writeProgDMPConfigurationSet","predicate non-void-command",
-"MPU6050","data-provider boundary","MPU6050::getDMPConfig1","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setDMPConfig1","wrapper",
-"MPU6050","data-provider boundary","MPU6050::getDMPConfig2","get wrapper",
-"MPU6050","data-provider boundary","MPU6050::setDMPConfig2","wrapper",
-"MPU6050","data-provider boundary","MPU6050::CalibrateGyro","command",
-"MPU6050","data-provider boundary","MPU6050::CalibrateAccel","command",
-"MPU6050","data-provider boundary","MPU6050::PID","command",
-"MPU6050","data-provider boundary","MPU6050::PrintActiveOffsets","empty",
-"MPU6050","data-provider boundary","MPU6050::dmpInitialize","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpPacketAvailable","predicate non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccel","collaborator incidental",
-"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccelInWorld","controller stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","collaborator incidental",
-"MPU6050","data-provider boundary","MPU6050::dmpGetEuler","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpProcessFIFOPacket","incidental",
-"MPU6050","data-provider boundary","MPU6050::dmpReadAndProcessFIFOPacket","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetFIFOPacketSize","get",
-"MPU6050","data-provider boundary","MPU6050::dmpGetCurrentFIFOPacket","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpInitialize","property set",
-"MPU6050","data-provider boundary","MPU6050::dmpPacketAvailable","predicate non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccel","collaborator incidental",
-"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccelInWorld","controller stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","collaborator incidental",
-"MPU6050","data-provider boundary","MPU6050::dmpGetEuler","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpProcessFIFOPacket","incidental",
-"MPU6050","data-provider boundary","MPU6050::dmpReadAndProcessFIFOPacket","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetFIFOPacketSize","get",
-"MPU6050","data-provider boundary","MPU6050::dmpGetCurrentFIFOPacket","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpInitialize","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpPacketAvailable","predicate non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetMag","property",
-"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccel","collaborator incidental",
-"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccelInWorld","controller stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","collaborator incidental",
-"MPU6050","data-provider boundary","MPU6050::dmpGetEuler","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless",
-"MPU6050","data-provider boundary","MPU6050::dmpProcessFIFOPacket","incidental",
-"MPU6050","data-provider boundary","MPU6050::dmpReadAndProcessFIFOPacket","property non-void-command",
-"MPU6050","data-provider boundary","MPU6050::dmpGetFIFOPacketSize","get",
-"Fastwire","unclassified","Fastwire::waitInt","collaborator incidental",
-"Fastwire","unclassified","Fastwire::setup","wrapper stateless",
-"Fastwire","unclassified","Fastwire::beginTransmission","property non-void-command",
-"Fastwire","unclassified","Fastwire::writeBuf","property non-void-command",
-"Fastwire","unclassified","Fastwire::write","property non-void-command",
-"Fastwire","unclassified","Fastwire::readBuf","property non-void-command",
-"Fastwire","unclassified","Fastwire::reset","incidental",
-"Fastwire","unclassified","Fastwire::stop","property non-void-command",
-"HIDSubDescriptor","empty","HIDSubDescriptor","constructor",
-"UDP","pure-controller degenerate small-class","beginMulticast","incidental",
-"UDP","pure-controller degenerate small-class","rawIPAddress","controller stateless",
-"PluggableUSB_","controller","PluggableUSB_::getInterface","property controller",
-"PluggableUSB_","controller","PluggableUSB_::getDescriptor","property controller",
-"PluggableUSB_","controller","PluggableUSB_::getShortName","void-accessor controller",
-"PluggableUSB_","controller","PluggableUSB_::setup","predicate controller",
-"PluggableUSB_","controller","PluggableUSB_::plug","predicate non-void-command collaborator",
-"PluggableUSB_","controller","PluggableUSB_::PluggableUSB_","constructor",
-"USARTClass","commander boundary","USARTClass::USARTClass","constructor",
-"USARTClass","commander boundary","USARTClass::begin","command",
-"USARTClass","commander boundary","USARTClass::begin","command collaborator",
-"USARTClass","commander boundary","USARTClass::begin","command collaborator",
-"Stream","unclassified","Stream","constructor",
-"Stream","unclassified","getTimeout","get",
-"Stream","unclassified","find","predicate non-void-command",
-"Stream","unclassified","find","predicate non-void-command",
-"Stream","unclassified","find","predicate non-void-command",
-"Stream","unclassified","findUntil","predicate non-void-command",
-"Stream","unclassified","findUntil","predicate non-void-command",
-"Stream","unclassified","readBytes","property non-void-command",
-"Stream","unclassified","readBytesUntil","property non-void-command",
-"Stream","unclassified","parseInt","property non-void-command",
-"Stream","unclassified","parseFloat","property non-void-command",
-"Stream","unclassified","Stream::timedRead","property set",
-"Stream","unclassified","Stream::timedPeek","property set",
-"Stream","unclassified","Stream::peekNextDigit","property non-void-command",
-"Stream","unclassified","Stream::setTimeout","set",
-"Stream","unclassified","Stream::find","predicate non-void-command",
-"Stream","unclassified","Stream::find","predicate non-void-command",
-"Stream","unclassified","Stream::findUntil","predicate non-void-command",
-"Stream","unclassified","Stream::findUntil","predicate non-void-command collaborator",
-"Stream","unclassified","Stream::parseInt","property non-void-command",
-"Stream","unclassified","Stream::parseFloat","property non-void-command",
-"Stream","unclassified","Stream::readBytes","property non-void-command",
-"Stream","unclassified","Stream::readBytesUntil","property non-void-command",
-"Stream","unclassified","Stream::readString","property non-void-command collaborator",
-"Stream","unclassified","Stream::readStringUntil","property non-void-command collaborator",
-"Stream","unclassified","Stream::findMulti","property non-void-command",
-"RingBuffer","commander small-class","RingBuffer::RingBuffer","constructor",
-"RingBuffer","commander small-class","RingBuffer::store_char","command",
-"IPAddress","data-provider","raw_address","get",
-"IPAddress","data-provider","fromString","predicate non-void-command collaborator",
-"IPAddress","data-provider","operatoruint32_t","get",
-"IPAddress","data-provider","operator==","predicate",
-"IPAddress","data-provider","operator[]","get",
-"IPAddress","data-provider","operator[]","get",
-"IPAddress","data-provider","IPAddress::IPAddress","constructor",
-"IPAddress","data-provider","IPAddress::IPAddress","constructor",
-"IPAddress","data-provider","IPAddress::IPAddress","constructor",
-"IPAddress","data-provider","IPAddress::IPAddress","constructor",
-"IPAddress","data-provider","IPAddress::fromString","predicate non-void-command",
-"IPAddress","data-provider","IPAddress::operator=","get wrapper",
-"IPAddress","data-provider","IPAddress::operator=","get set",
-"IPAddress","data-provider","IPAddress::operator==","predicate wrapper",
-"IPAddress","data-provider","IPAddress::printTo","property controller",
-"String","unclassified","StringIfHelper","empty",
-"String","unclassified","length","get",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command",
-"String","unclassified","operator+=","get non-void-command collaborator",
-"String","unclassified","operatorStringIfHelperType","unclassified",
-"String","unclassified","operator==","property",
-"String","unclassified","operator==","property",
-"String","unclassified","operator!=","property",
-"String","unclassified","operator!=","property",
-"String","unclassified","toCharArray","void-accessor",
-"String","unclassified","c_str","get",
-"String","unclassified","begin","get",
-"String","unclassified","end","property non-void-command",
-"String","unclassified","begin","property",
-"String","unclassified","end","property",
-"String","unclassified","substring","property",
-"String","unclassified","String::String","constructor",
-"String","unclassified","String::String","copy-constructor",
-"String","unclassified","String::String","copy-constructor",
-"String","unclassified","String::String","copy-constructor",
-"String","unclassified","String::String","copy-constructor",
-"String","unclassified","String::String","constructor",
-"String","unclassified","String::String","constructor",
-"String","unclassified","String::String","constructor",
-"String","unclassified","String::String","constructor",
-"String","unclassified","String::String","constructor",
-"String","unclassified","String::String","constructor",
-"String","unclassified","String::String","constructor",
-"String","unclassified","String::String","constructor",
-"String","unclassified","String::~String","destructor",
-"String","unclassified","String::init","command",
-"String","unclassified","String::invalidate","command",
-"String","unclassified","String::reserve","property set",
-"String","unclassified","String::changeBuffer","property non-void-command",
-"String","unclassified","String::copy","get non-void-command",
-"String","unclassified","String::copy","get non-void-command",
-"String","unclassified","String::move","void-accessor command",
-"String","unclassified","String::operator=","get non-void-command",
-"String","unclassified","String::operator=","get non-void-command",
-"String","unclassified","String::operator=","get non-void-command collaborator",
-"String","unclassified","String::operator=","get non-void-command",
-"String","unclassified","String::operator=","get non-void-command collaborator",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property set",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property non-void-command",
-"String","unclassified","String::concat","property set collaborator",
-"String","unclassified","String::compareTo","get property wrapper",
-"String","unclassified","String::equals","property",
-"String","unclassified","String::equals","get property wrapper",
-"String","unclassified","String::operator<","property",
-"String","unclassified","String::operator>","property",
-"String","unclassified","String::operator<=","property",
-"String","unclassified","String::operator>=","property",
-"String","unclassified","String::equalsIgnoreCase","property wrapper",
-"String","unclassified","String::startsWith","property",
-"String","unclassified","String::startsWith","property wrapper",
-"String","unclassified","String::endsWith","property wrapper",
-"String","unclassified","String::charAt","property",
-"String","unclassified","String::setCharAt","set",
-"String","unclassified","String::operator[]","get property",
-"String","unclassified","String::operator[]","get property",
-"String","unclassified","String::getBytes","void-accessor wrapper",
-"String","unclassified","String::indexOf","property",
-"String","unclassified","String::indexOf","property wrapper",
-"String","unclassified","String::indexOf","property",
-"String","unclassified","String::indexOf","property wrapper",
-"String","unclassified","String::lastIndexOf","property",
-"String","unclassified","String::lastIndexOf","property set",
-"String","unclassified","String::lastIndexOf","property",
-"String","unclassified","String::lastIndexOf","property wrapper",
-"String","unclassified","String::substring","property set",
-"String","unclassified","String::replace","unclassified",
-"String","unclassified","String::replace","void-accessor command",
-"String","unclassified","String::remove","command",
-"String","unclassified","String::remove","command",
-"String","unclassified","String::toLowerCase","wrapper",
-"String","unclassified","String::toUpperCase","wrapper",
-"String","unclassified","String::trim","command",
-"String","unclassified","String::toInt","property wrapper",
-"String","unclassified","String::toFloat","property",
-"String","unclassified","String::toDouble","property wrapper",
-"HID_","entity data-provider boundary","HID_::getInterface","property wrapper",
-"HID_","entity data-provider boundary","HID_::getDescriptor","property wrapper",
-"HID_","entity data-provider boundary","HID_::getShortName","property",
-"HID_","entity data-provider boundary","HID_::AppendDescriptor","command collaborator",
-"HID_","entity data-provider boundary","HID_::SendReport","property wrapper",
-"HID_","entity data-provider boundary","HID_::setup","predicate non-void-command collaborator",
-"HID_","entity data-provider boundary","HID_::HID_","constructor",
-"HID_","entity data-provider boundary","HID_::begin","incidental",
-"USBDevice_","degenerate","USBDevice_::USBDevice_","constructor",
-"USBDevice_","degenerate","USBDevice_::attach","wrapper stateless",
-"USBDevice_","degenerate","USBDevice_::detach","wrapper stateless",
-"USBDevice_","degenerate","USBDevice_::configured","incidental",
-"USBDevice_","degenerate","USBDevice_::poll","empty",
-"COpenVRDriverContext","entity boundary","COpenVRDriverContext","constructor",
-"COpenVRDriverContext","entity boundary","VRSettings","get set collaborator",
-"COpenVRDriverContext","entity boundary","VRPropertiesRaw","get non-void-command collaborator",
-"COpenVRDriverContext","entity boundary","VRProperties","property non-void-command collaborator",
-"COpenVRDriverContext","entity boundary","VRHiddenArea","property non-void-command collaborator",
-"COpenVRDriverContext","entity boundary","VRServerDriverHost","get set collaborator",
-"COpenVRDriverContext","entity boundary","VRWatchdogHost","get set collaborator",
-"COpenVRDriverContext","entity boundary","VRCompositorDriverHost","get set collaborator",
-"COpenVRDriverContext","entity boundary","VRDriverLog","get set collaborator",
-"COpenVRDriverContext","entity boundary","VRDriverHandle","wrapper stateless",
-"COpenVRDriverContext","entity boundary","VRDriverManager","get set collaborator",
-"COpenVRDriverContext","entity boundary","VRResources","get set collaborator",
-"COpenVRDriverContext","entity boundary","VRDriverInput","get set collaborator",
-"COpenVRDriverContext","entity boundary","VRIOBuffer","get set collaborator",
-"COpenVRDriverContext","entity boundary","VRDriverSpatialAnchors","get set collaborator",
-"COpenVRDriverContext","entity boundary","COpenVRDriverContext::Clear","command",
-"COpenVRDriverContext","entity boundary","COpenVRDriverContext::InitServer","property non-void-command collaborator",
-"COpenVRDriverContext","entity boundary","COpenVRDriverContext::InitWatchdog","property non-void-command collaborator",
-"COpenVRDriverContext","entity boundary","COpenVRDriverContext::InitCompositor","property non-void-command collaborator",
-"VectorFloat","unclassified","VectorFloat","constructor",
-"VectorFloat","unclassified","VectorFloat","constructor",
-"VectorFloat","unclassified","getMagnitude","property wrapper",
-"VectorFloat","unclassified","normalize","command",
-"VectorFloat","unclassified","getNormalized","property controller",
-"VectorFloat","unclassified","rotate","command collaborator",
-"VectorFloat","unclassified","getRotated","property controller",
-"PluggableUSBModule","data-provider small-class","PluggableUSBModule","constructor",
-"PluggableUSBModule","data-provider small-class","getShortName","property",
-"CVRSettingHelper","entity boundary","CVRSettingHelper","constructor",
-"CVRSettingHelper","entity boundary","GetSettingsErrorNameFromEnum","property non-void-command collaborator",
-"CVRSettingHelper","entity boundary","SetBool","void-accessor command collaborator",
-"CVRSettingHelper","entity boundary","SetInt32","void-accessor command collaborator",
-"CVRSettingHelper","entity boundary","SetFloat","void-accessor command collaborator",
-"CVRSettingHelper","entity boundary","SetString","void-accessor command collaborator",
-"CVRSettingHelper","entity boundary","SetString","void-accessor command collaborator",
-"CVRSettingHelper","entity boundary","GetBool","predicate non-void-command collaborator",
-"CVRSettingHelper","entity boundary","GetInt32","property non-void-command collaborator",
-"CVRSettingHelper","entity boundary","GetFloat","property non-void-command collaborator",
-"IVRDriverDirectModeComponent","degenerate","CreateSwapTextureSet","empty",
-"IVRDriverDirectModeComponent","degenerate","DestroySwapTextureSet","empty",
-"IVRDriverDirectModeComponent","degenerate","DestroyAllSwapTextureSets","empty",
-"I2Cdev","unclassified","I2Cdev::I2Cdev","constructor",
-"I2Cdev","unclassified","I2Cdev::readBit","property non-void-command",
-"I2Cdev","unclassified","I2Cdev::readBitW","property non-void-command",
-"I2Cdev","unclassified","I2Cdev::readBits","property non-void-command",
-"I2Cdev","unclassified","I2Cdev::readBitsW","property non-void-command",
-"I2Cdev","unclassified","I2Cdev::readByte","property non-void-command",
-"I2Cdev","unclassified","I2Cdev::readWord","property non-void-command",
-"I2Cdev","unclassified","I2Cdev::readBytes","controller stateless",
-"I2Cdev","unclassified","I2Cdev::readWords","controller stateless",
-"I2Cdev","unclassified","I2Cdev::writeBit","predicate non-void-command",
-"I2Cdev","unclassified","I2Cdev::writeBitW","predicate non-void-command",
-"I2Cdev","unclassified","I2Cdev::writeBits","predicate non-void-command",
-"I2Cdev","unclassified","I2Cdev::writeBitsW","predicate non-void-command",
-"I2Cdev","unclassified","I2Cdev::writeByte","predicate non-void-command",
-"I2Cdev","unclassified","I2Cdev::writeWord","predicate non-void-command",
-"I2Cdev","unclassified","I2Cdev::writeBytes","controller stateless",
-"I2Cdev","unclassified","I2Cdev::writeWords","controller stateless",
-"CVRHiddenAreaHelpers","entity boundary","CVRHiddenAreaHelpers","constructor",
-"CVRHiddenAreaHelpers","entity boundary","GetPropertyEnum","collaborator incidental",
-"CVRHiddenAreaHelpers","entity boundary","CVRHiddenAreaHelpers::SetHiddenArea","property non-void-command collaborator",
-"CVRHiddenAreaHelpers","entity boundary","CVRHiddenAreaHelpers::GetHiddenArea","property non-void-command collaborator",
-"LockEP","empty","~LockEP","destructor",
-"HMDDriver","commander","Relativty::HMDDriver::Activate","property non-void-command collaborator",
-"HMDDriver","commander","Relativty::HMDDriver::Deactivate","command",
-"HMDDriver","commander","Relativty::HMDDriver::update_pose_threaded","command",
-"HMDDriver","commander","Relativty::HMDDriver::calibrate_quaternion","command",
-"HMDDriver","commander","Relativty::HMDDriver::retrieve_device_quaternion_packet_threaded","command collaborator",
-"HMDDriver","commander","Relativty::HMDDriver::retrieve_client_vector_packet_threaded","command",
-"HMDDriver","commander","Relativty::HMDDriver::HMDDriver","constructor",
-"HMDDriver","commander","Relativty::HMDDriver::setProperties","wrapper",
-"Client","pure-controller degenerate small-class","rawIPAddress","controller stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers","constructor",
-"CVRPropertyHelpers","boundary","TrackedDeviceToPropertyContainer","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetProperty","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetStringProperty","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetStringProperty","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetPropertyHelper","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetBoolProperty","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetFloatProperty","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetDoubleProperty","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetInt32Property","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetUint64Property","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetVec2Property","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetVec3Property","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetVec4Property","wrapper stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetBoolProperty","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetFloatProperty","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetDoubleProperty","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetInt32Property","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetUint64Property","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetVec2Property","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetVec3Property","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetVec4Property","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetPropertyError","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::EraseProperty","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetPropertyVector","property non-void-command collaborator",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetPropertyVector","controller stateless",
-"CVRPropertyHelpers","boundary","CVRPropertyHelpers::IsPropertySet","wrapper stateless",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"StringSumHelper","empty","StringSumHelper","constructor",
-"UARTClass","unclassified","operatorbool","incidental",
-"UARTClass","unclassified","UARTClass::UARTClass","constructor",
-"UARTClass","unclassified","UARTClass::begin","command",
-"UARTClass","unclassified","UARTClass::begin","command collaborator",
-"UARTClass","unclassified","UARTClass::init","command",
-"UARTClass","unclassified","UARTClass::end","set",
-"UARTClass","unclassified","UARTClass::setInterruptPriority","wrapper",
-"UARTClass","unclassified","UARTClass::getInterruptPriority","property wrapper",
-"UARTClass","unclassified","UARTClass::available","property",
-"UARTClass","unclassified","UARTClass::availableForWrite","property",
-"UARTClass","unclassified","UARTClass::peek","get property",
-"UARTClass","unclassified","UARTClass::read","property set",
-"UARTClass","unclassified","UARTClass::flush","unclassified",
-"UARTClass","unclassified","UARTClass::write","property non-void-command",
-"UARTClass","unclassified","UARTClass::IrqHandler","command",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::MPU9250_DMP","constructor",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::begin","property non-void-command collaborator",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::enableInterrupt","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setIntLevel","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setIntLatched","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getIntStatus","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::lowPowerAccel","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setGyroFSR","property set collaborator",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setAccelFSR","property set collaborator",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getGyroFSR","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getAccelFSR","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getMagFSR","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setLPF","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getLPF","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setSampleRate","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getSampleRate","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setCompassSampleRate","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getCompassSampleRate","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getGyroSens","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getAccelSens","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getMagSens","incidental",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getFifoConfig","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::configureFifo","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::resetFifo","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::fifoAvailable","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateFifo","property non-void-command collaborator",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setSensors","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dataReady","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::update","property non-void-command collaborator",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateAccel","property non-void-command",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateGyro","property non-void-command",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateCompass","property non-void-command",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateTemperature","property wrapper",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::selfTest","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpBegin","property non-void-command collaborator",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpLoad","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetFifoRate","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetFifoRate","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpUpdateFifo","property non-void-command collaborator",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpEnableFeatures","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetEnabledFeatures","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetTap","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getTapDir","incidental",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getTapCount","incidental",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::tapAvailable","incidental",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetOrientation","property non-void-command collaborator",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetOrientation","incidental",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpEnable3Quat","property non-void-command collaborator",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetPedometerSteps","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetPedometerSteps","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetPedometerTime","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetPedometerTime","wrapper stateless",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::calcAccel","property",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::calcGyro","property",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::calcMag","property",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::calcQuat","property non-void-command",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::qToFloat","incidental",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::computeEulerAngles","command",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::computeCompassHeading","get set",
-"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::orientation_row_2_scale","incidental",
-"Print","unclassified","setWriteError","set",
-"Print","unclassified","Print","constructor",
-"Print","unclassified","getWriteError","get",
-"Print","unclassified","clearWriteError","command",
-"Print","unclassified","write","property non-void-command",
-"Print","unclassified","write","property non-void-command",
-"Print","unclassified","Print::write","property non-void-command",
-"Print","unclassified","Print::print","property non-void-command collaborator",
-"Print","unclassified","Print::print","property non-void-command collaborator",
-"Print","unclassified","Print::print","property non-void-command",
-"Print","unclassified","Print::print","property non-void-command",
-"Print","unclassified","Print::print","property non-void-command",
-"Print","unclassified","Print::print","property non-void-command",
-"Print","unclassified","Print::print","property non-void-command",
-"Print","unclassified","Print::print","property non-void-command",
-"Print","unclassified","Print::print","property non-void-command",
-"Print","unclassified","Print::print","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command collaborator",
-"Print","unclassified","Print::print","property controller",
-"Print","unclassified","Print::println","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command collaborator",
-"Print","unclassified","Print::println","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command",
-"Print","unclassified","Print::println","property non-void-command collaborator",
-"Print","unclassified","Print::printNumber","property non-void-command",
-"Print","unclassified","Print::printFloat","property non-void-command",
-"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::Init","property set collaborator",
-"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::Cleanup","set",
-"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::GetInterfaceVersions","incidental",
-"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::RunFrame","empty",
-"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::ShouldBlockStandbyMode","incidental",
-"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::EnterStandby","empty",
-"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::LeaveStandby","empty",
-"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::Log","command",
-"TwoWire","unclassified","write","property non-void-command",
-"TwoWire","unclassified","write","property non-void-command",
-"TwoWire","unclassified","write","property non-void-command",
-"TwoWire","unclassified","write","property non-void-command",
-"TwoWire","unclassified","TwoWire::TwoWire","constructor",
-"TwoWire","unclassified","TwoWire::begin","command",
-"TwoWire","unclassified","TwoWire::beginTransmission","command",
-"TwoWire","unclassified","TwoWire::endTransmission","property non-void-command",
-"TwoWire","unclassified","TwoWire::nbendTransmission","wrapper",
-"TwoWire","unclassified","TwoWire::send","command",
-"TwoWire","unclassified","TwoWire::receive","property set",
-"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command",
-"TwoWire","unclassified","TwoWire::nbrequestFrom","command",
-"TwoWire","unclassified","TwoWire::available","property",
-"TwoWire","unclassified","TwoWire::TwoWire","constructor",
-"TwoWire","unclassified","TwoWire::begin","command",
-"TwoWire","unclassified","TwoWire::begin","command",
-"TwoWire","unclassified","TwoWire::begin","command",
-"TwoWire","unclassified","TwoWire::end","set",
-"TwoWire","unclassified","TwoWire::setClock","set",
-"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command",
-"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command",
-"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command",
-"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command",
-"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command",
-"TwoWire","unclassified","TwoWire::beginTransmission","command",
-"TwoWire","unclassified","TwoWire::beginTransmission","command",
-"TwoWire","unclassified","TwoWire::endTransmission","property non-void-command",
-"TwoWire","unclassified","TwoWire::endTransmission","property non-void-command",
-"TwoWire","unclassified","TwoWire::write","property non-void-command",
-"TwoWire","unclassified","TwoWire::write","property non-void-command",
-"TwoWire","unclassified","TwoWire::available","property",
-"TwoWire","unclassified","TwoWire::read","get property set",
-"TwoWire","unclassified","TwoWire::peek","get property",
-"TwoWire","unclassified","TwoWire::flush","empty",
-"TwoWire","unclassified","TwoWire::onReceive","incidental",
-"TwoWire","unclassified","TwoWire::onRequest","incidental",
-"TwoWire","unclassified","TwoWire::onService","command",
-"RelativtyDevice","unclassified","RelativtyDevice","constructor",
-"RelativtyDevice","unclassified","~RelativtyDevice","destructor",
-"RelativtyDevice","unclassified","Activate","property non-void-command collaborator",
-"RelativtyDevice","unclassified","Deactivate","set",
-"RelativtyDevice","unclassified","EnterStandby","empty",
-"RelativtyDevice","unclassified","PowerOff","empty",
-"RelativtyDevice","unclassified","DebugRequest","void-accessor command",
-"RelativtyDevice","unclassified","GetPose","get collaborator",
-"RelativtyDevice","unclassified","GetComponent","property command collaborator",
-"RelativtyDevice","unclassified","GetSerialNumber","get",
-"RelativtyDevice","unclassified","ProcessEvent","void-accessor wrapper",
-"VectorInt16","unclassified","VectorInt16","constructor",
-"VectorInt16","unclassified","VectorInt16","constructor",
-"VectorInt16","unclassified","getMagnitude","property wrapper",
-"VectorInt16","unclassified","normalize","command",
-"VectorInt16","unclassified","getNormalized","property controller",
-"VectorInt16","unclassified","rotate","command collaborator",
-"VectorInt16","unclassified","getRotated","property controller",
-"Serial_","degenerate","Serial_::begin","incidental",
-"Serial_","degenerate","Serial_::begin","incidental",
-"Serial_","degenerate","Serial_::end","empty",
-"Serial_","degenerate","Serial_::accept","wrapper stateless",
-"Serial_","degenerate","Serial_::available","collaborator incidental",
-"Serial_","degenerate","Serial_::availableForWrite","incidental",
-"Serial_","degenerate","Serial_::peek","collaborator incidental",
-"Serial_","degenerate","Serial_::read","property non-void-command",
-"Serial_","degenerate","Serial_::flush","wrapper stateless",
-"Serial_","degenerate","Serial_::write","property non-void-command",
-"Serial_","degenerate","Serial_::write","property non-void-command",
-"Serial_","degenerate","Serial_::operatorbool","wrapper stateless",
-"Serial_","degenerate","Serial_::readBreak","wrapper stateless",
-"Serial_","degenerate","Serial_::baud","incidental",
-"Serial_","degenerate","Serial_::stopbits","incidental",
-"Serial_","degenerate","Serial_::paritytype","incidental",
-"Serial_","degenerate","Serial_::numbits","incidental",
-"Serial_","degenerate","Serial_::dtr","incidental",
-"Serial_","degenerate","Serial_::rts","incidental",
-"Quaternion","unclassified","Quaternion","constructor",
-"Quaternion","unclassified","Quaternion","constructor",
-"Quaternion","unclassified","getProduct","property non-void-command",
-"Quaternion","unclassified","getConjugate","property non-void-command",
-"Quaternion","unclassified","getMagnitude","property wrapper",
-"Quaternion","unclassified","normalize","command",
-"Quaternion","unclassified","getNormalized","property controller",
-"RelativtyExtendedDisplayComponent","data-provider","RelativtyExtendedDisplayComponent","constructor",
-"RelativtyExtendedDisplayComponent","data-provider","GetWindowBounds","void-accessor",
-"RelativtyExtendedDisplayComponent","data-provider","IsDisplayOnDesktop","get",
-"RelativtyExtendedDisplayComponent","data-provider","IsDisplayRealDisplay","get",
-"RelativtyExtendedDisplayComponent","data-provider","GetRecommendedRenderTargetSize","void-accessor",
-"RelativtyExtendedDisplayComponent","data-provider","GetEyeOutputViewport","void-accessor",
-"RelativtyExtendedDisplayComponent","data-provider","GetProjectionRaw","void-accessor wrapper",
-"RelativtyExtendedDisplayComponent","data-provider","ComputeDistortion","property wrapper",
-"RelativtyExtendedDisplayComponent","data-provider","GetComponentNameAndVersion","incidental",
+"SPIClass","commander boundary","transfer","property non-void-command collaborator"
+"SPIClass","commander boundary","transfer16","property non-void-command collaborator"
+"SPIClass","commander boundary","transfer","command collaborator"
+"SPIClass","commander boundary","beginTransaction","command collaborator"
+"SPIClass","commander boundary","setBitOrder","command collaborator"
+"SPIClass","commander boundary","setDataMode","command"
+"SPIClass","commander boundary","setClockDivider","command"
+"SPIClass","commander boundary","SPIClass::SPIClass","constructor"
+"SPIClass","commander boundary","SPIClass::begin","command"
+"SPIClass","commander boundary","SPIClass::begin","command"
+"SPIClass","commander boundary","SPIClass::init","command"
+"SPIClass","commander boundary","SPIClass::usingInterrupt","command"
+"SPIClass","commander boundary","SPIClass::beginTransaction","command collaborator"
+"SPIClass","commander boundary","SPIClass::endTransaction","wrapper"
+"SPIClass","commander boundary","SPIClass::end","wrapper stateless"
+"SPIClass","commander boundary","SPIClass::end","set"
+"SPIClass","commander boundary","SPIClass::setBitOrder","set collaborator"
+"SPIClass","commander boundary","SPIClass::setDataMode","set"
+"SPIClass","commander boundary","SPIClass::setClockDivider","set"
+"SPIClass","commander boundary","SPIClass::transfer","property set collaborator"
+"SPIClass","commander boundary","SPIClass::transfer16","property non-void-command collaborator"
+"SPIClass","commander boundary","SPIClass::transfer","set collaborator"
+"SPIClass","commander boundary","SPIClass::attachInterrupt","empty"
+"SPIClass","commander boundary","SPIClass::detachInterrupt","empty"
+"SPISettings","boundary degenerate small-class","SPISettings","constructor"
+"SPISettings","boundary degenerate small-class","SPISettings","constructor"
+"SPISettings","boundary degenerate small-class","init_MightInline","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::MPU6050","constructor"
+"MPU6050","data-provider boundary","MPU6050::initialize","command"
+"MPU6050","data-provider boundary","MPU6050::testConnection","predicate non-void-command"
+"MPU6050","data-provider boundary","MPU6050::getAuxVDDIOLevel","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setAuxVDDIOLevel","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getRate","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setRate","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getExternalFrameSync","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setExternalFrameSync","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDLPFMode","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setDLPFMode","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFullScaleGyroRange","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setFullScaleGyroRange","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelXSelfTestFactoryTrim","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelYSelfTestFactoryTrim","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelZSelfTestFactoryTrim","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getGyroXSelfTestFactoryTrim","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getGyroYSelfTestFactoryTrim","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getGyroZSelfTestFactoryTrim","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelXSelfTest","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setAccelXSelfTest","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelYSelfTest","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setAccelYSelfTest","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelZSelfTest","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setAccelZSelfTest","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFullScaleAccelRange","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setFullScaleAccelRange","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDHPFMode","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setDHPFMode","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFreefallDetectionThreshold","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setFreefallDetectionThreshold","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFreefallDetectionDuration","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setFreefallDetectionDuration","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getMotionDetectionThreshold","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setMotionDetectionThreshold","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getMotionDetectionDuration","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setMotionDetectionDuration","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getZeroMotionDetectionThreshold","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setZeroMotionDetectionThreshold","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getZeroMotionDetectionDuration","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setZeroMotionDetectionDuration","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getTempFIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setTempFIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getXGyroFIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setXGyroFIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getYGyroFIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setYGyroFIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getZGyroFIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setZGyroFIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelFIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setAccelFIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave2FIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave2FIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave1FIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave1FIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave0FIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave0FIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getMultiMasterEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setMultiMasterEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getWaitForExternalSensorEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setWaitForExternalSensorEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave3FIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave3FIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlaveReadWriteTransitionEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveReadWriteTransitionEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getMasterClockSpeed","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setMasterClockSpeed","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlaveAddress","get property wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveAddress","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlaveRegister","get property wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveRegister","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlaveEnabled","get predicate wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlaveWordByteSwap","get predicate wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveWordByteSwap","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlaveWriteMode","get predicate wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveWriteMode","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlaveWordGroupOffset","get predicate wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveWordGroupOffset","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlaveDataLength","get property wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveDataLength","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave4Address","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave4Address","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave4Register","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave4Register","wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave4OutputByte","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave4Enabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave4Enabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave4InterruptEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave4InterruptEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave4WriteMode","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave4WriteMode","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave4MasterDelay","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlave4MasterDelay","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlate4InputByte","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getPassthroughStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave4IsDone","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getLostArbitration","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave4Nack","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave3Nack","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave2Nack","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave1Nack","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlave0Nack","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getInterruptMode","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setInterruptMode","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getInterruptDrive","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setInterruptDrive","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getInterruptLatch","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setInterruptLatch","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getInterruptLatchClear","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setInterruptLatchClear","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFSyncInterruptLevel","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setFSyncInterruptLevel","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFSyncInterruptEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setFSyncInterruptEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getI2CBypassEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setI2CBypassEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getClockOutputEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setClockOutputEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setIntEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntFreefallEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setIntFreefallEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntMotionEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setIntMotionEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntZeroMotionEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setIntZeroMotionEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntFIFOBufferOverflowEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setIntFIFOBufferOverflowEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntI2CMasterEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setIntI2CMasterEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntDataReadyEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setIntDataReadyEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntFreefallStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntMotionStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntZeroMotionStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntFIFOBufferOverflowStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntI2CMasterStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntDataReadyStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getMotion9","command"
+"MPU6050","data-provider boundary","MPU6050::getMotion6","void-accessor wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAcceleration","void-accessor wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelerationX","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelerationY","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelerationZ","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getTemperature","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getRotation","void-accessor wrapper"
+"MPU6050","data-provider boundary","MPU6050::getRotationX","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getRotationY","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getRotationZ","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getExternalSensorByte","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getExternalSensorWord","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getExternalSensorDWord","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getMotionStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getXNegMotionDetected","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getXPosMotionDetected","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getYNegMotionDetected","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getYPosMotionDetected","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getZNegMotionDetected","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getZPosMotionDetected","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getZeroMotionDetected","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveOutputByte","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getExternalShadowDelayEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setExternalShadowDelayEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSlaveDelayEnabled","get predicate wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSlaveDelayEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::resetGyroscopePath","wrapper"
+"MPU6050","data-provider boundary","MPU6050::resetAccelerometerPath","wrapper"
+"MPU6050","data-provider boundary","MPU6050::resetTemperaturePath","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getAccelerometerPowerOnDelay","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setAccelerometerPowerOnDelay","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFreefallDetectionCounterDecrement","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setFreefallDetectionCounterDecrement","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getMotionDetectionCounterDecrement","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setMotionDetectionCounterDecrement","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFIFOEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setFIFOEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getI2CMasterModeEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setI2CMasterModeEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::switchSPIEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::resetFIFO","wrapper"
+"MPU6050","data-provider boundary","MPU6050::resetI2CMaster","wrapper"
+"MPU6050","data-provider boundary","MPU6050::resetSensors","wrapper"
+"MPU6050","data-provider boundary","MPU6050::reset","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getSleepEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setSleepEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getWakeCycleEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setWakeCycleEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getTempSensorEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setTempSensorEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getClockSource","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setClockSource","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getWakeFrequency","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setWakeFrequency","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getStandbyXAccelEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setStandbyXAccelEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getStandbyYAccelEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setStandbyYAccelEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getStandbyZAccelEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setStandbyZAccelEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getStandbyXGyroEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setStandbyXGyroEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getStandbyYGyroEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setStandbyYGyroEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getStandbyZGyroEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setStandbyZGyroEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFIFOCount","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFIFOByte","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getFIFOBytes","void-accessor wrapper"
+"MPU6050","data-provider boundary","MPU6050::GetCurrentFIFOPacket","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::setFIFOByte","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDeviceID","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setDeviceID","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getOTPBankValid","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setOTPBankValid","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getXGyroOffsetTC","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setXGyroOffsetTC","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getYGyroOffsetTC","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setYGyroOffsetTC","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getZGyroOffsetTC","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setZGyroOffsetTC","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getXFineGain","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setXFineGain","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getYFineGain","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setYFineGain","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getZFineGain","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setZFineGain","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getXAccelOffset","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::setXAccelOffset","command"
+"MPU6050","data-provider boundary","MPU6050::getYAccelOffset","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::setYAccelOffset","command"
+"MPU6050","data-provider boundary","MPU6050::getZAccelOffset","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::setZAccelOffset","command"
+"MPU6050","data-provider boundary","MPU6050::getXGyroOffset","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::setXGyroOffset","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getYGyroOffset","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::setYGyroOffset","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getZGyroOffset","property wrapper"
+"MPU6050","data-provider boundary","MPU6050::setZGyroOffset","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntPLLReadyEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setIntPLLReadyEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntDMPEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setIntDMPEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDMPInt5Status","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDMPInt4Status","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDMPInt3Status","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDMPInt2Status","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDMPInt1Status","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDMPInt0Status","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntPLLReadyStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getIntDMPStatus","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDMPEnabled","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setDMPEnabled","wrapper"
+"MPU6050","data-provider boundary","MPU6050::resetDMP","wrapper"
+"MPU6050","data-provider boundary","MPU6050::setMemoryBank","wrapper"
+"MPU6050","data-provider boundary","MPU6050::setMemoryStartAddress","wrapper"
+"MPU6050","data-provider boundary","MPU6050::readMemoryByte","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::writeMemoryByte","wrapper"
+"MPU6050","data-provider boundary","MPU6050::readMemoryBlock","command"
+"MPU6050","data-provider boundary","MPU6050::writeMemoryBlock","predicate non-void-command"
+"MPU6050","data-provider boundary","MPU6050::writeProgMemoryBlock","predicate non-void-command"
+"MPU6050","data-provider boundary","MPU6050::writeDMPConfigurationSet","predicate wrapper"
+"MPU6050","data-provider boundary","MPU6050::writeProgDMPConfigurationSet","predicate non-void-command"
+"MPU6050","data-provider boundary","MPU6050::getDMPConfig1","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setDMPConfig1","wrapper"
+"MPU6050","data-provider boundary","MPU6050::getDMPConfig2","get wrapper"
+"MPU6050","data-provider boundary","MPU6050::setDMPConfig2","wrapper"
+"MPU6050","data-provider boundary","MPU6050::CalibrateGyro","command"
+"MPU6050","data-provider boundary","MPU6050::CalibrateAccel","command"
+"MPU6050","data-provider boundary","MPU6050::PID","command"
+"MPU6050","data-provider boundary","MPU6050::PrintActiveOffsets","empty"
+"MPU6050","data-provider boundary","MPU6050::dmpInitialize","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpPacketAvailable","predicate non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccel","collaborator incidental"
+"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccelInWorld","controller stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","collaborator incidental"
+"MPU6050","data-provider boundary","MPU6050::dmpGetEuler","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpProcessFIFOPacket","incidental"
+"MPU6050","data-provider boundary","MPU6050::dmpReadAndProcessFIFOPacket","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetFIFOPacketSize","get"
+"MPU6050","data-provider boundary","MPU6050::dmpGetCurrentFIFOPacket","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpInitialize","property set"
+"MPU6050","data-provider boundary","MPU6050::dmpPacketAvailable","predicate non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccel","collaborator incidental"
+"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccelInWorld","controller stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","collaborator incidental"
+"MPU6050","data-provider boundary","MPU6050::dmpGetEuler","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpProcessFIFOPacket","incidental"
+"MPU6050","data-provider boundary","MPU6050::dmpReadAndProcessFIFOPacket","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetFIFOPacketSize","get"
+"MPU6050","data-provider boundary","MPU6050::dmpGetCurrentFIFOPacket","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpInitialize","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpPacketAvailable","predicate non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetAccel","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetQuaternion","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGyro","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetMag","property"
+"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccel","collaborator incidental"
+"MPU6050","data-provider boundary","MPU6050::dmpGetLinearAccelInWorld","controller stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetGravity","collaborator incidental"
+"MPU6050","data-provider boundary","MPU6050::dmpGetEuler","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpGetYawPitchRoll","wrapper stateless"
+"MPU6050","data-provider boundary","MPU6050::dmpProcessFIFOPacket","incidental"
+"MPU6050","data-provider boundary","MPU6050::dmpReadAndProcessFIFOPacket","property non-void-command"
+"MPU6050","data-provider boundary","MPU6050::dmpGetFIFOPacketSize","get"
+"Fastwire","unclassified","Fastwire::waitInt","collaborator incidental"
+"Fastwire","unclassified","Fastwire::setup","wrapper stateless"
+"Fastwire","unclassified","Fastwire::beginTransmission","property non-void-command"
+"Fastwire","unclassified","Fastwire::writeBuf","property non-void-command"
+"Fastwire","unclassified","Fastwire::write","property non-void-command"
+"Fastwire","unclassified","Fastwire::readBuf","property non-void-command"
+"Fastwire","unclassified","Fastwire::reset","incidental"
+"Fastwire","unclassified","Fastwire::stop","property non-void-command"
+"HIDSubDescriptor","empty","HIDSubDescriptor","constructor"
+"UDP","pure-controller degenerate small-class","beginMulticast","incidental"
+"UDP","pure-controller degenerate small-class","rawIPAddress","controller stateless"
+"PluggableUSB_","controller","PluggableUSB_::getInterface","property controller"
+"PluggableUSB_","controller","PluggableUSB_::getDescriptor","property controller"
+"PluggableUSB_","controller","PluggableUSB_::getShortName","void-accessor controller"
+"PluggableUSB_","controller","PluggableUSB_::setup","predicate controller"
+"PluggableUSB_","controller","PluggableUSB_::plug","predicate non-void-command collaborator"
+"PluggableUSB_","controller","PluggableUSB_::PluggableUSB_","constructor"
+"USARTClass","commander boundary","USARTClass::USARTClass","constructor"
+"USARTClass","commander boundary","USARTClass::begin","command"
+"USARTClass","commander boundary","USARTClass::begin","command collaborator"
+"USARTClass","commander boundary","USARTClass::begin","command collaborator"
+"Stream","unclassified","Stream","constructor"
+"Stream","unclassified","getTimeout","get"
+"Stream","unclassified","find","predicate non-void-command"
+"Stream","unclassified","find","predicate non-void-command"
+"Stream","unclassified","find","predicate non-void-command"
+"Stream","unclassified","findUntil","predicate non-void-command"
+"Stream","unclassified","findUntil","predicate non-void-command"
+"Stream","unclassified","readBytes","property non-void-command"
+"Stream","unclassified","readBytesUntil","property non-void-command"
+"Stream","unclassified","parseInt","property non-void-command"
+"Stream","unclassified","parseFloat","property non-void-command"
+"Stream","unclassified","Stream::timedRead","property set"
+"Stream","unclassified","Stream::timedPeek","property set"
+"Stream","unclassified","Stream::peekNextDigit","property non-void-command"
+"Stream","unclassified","Stream::setTimeout","set"
+"Stream","unclassified","Stream::find","predicate non-void-command"
+"Stream","unclassified","Stream::find","predicate non-void-command"
+"Stream","unclassified","Stream::findUntil","predicate non-void-command"
+"Stream","unclassified","Stream::findUntil","predicate non-void-command collaborator"
+"Stream","unclassified","Stream::parseInt","property non-void-command"
+"Stream","unclassified","Stream::parseFloat","property non-void-command"
+"Stream","unclassified","Stream::readBytes","property non-void-command"
+"Stream","unclassified","Stream::readBytesUntil","property non-void-command"
+"Stream","unclassified","Stream::readString","property non-void-command collaborator"
+"Stream","unclassified","Stream::readStringUntil","property non-void-command collaborator"
+"Stream","unclassified","Stream::findMulti","property non-void-command"
+"RingBuffer","commander small-class","RingBuffer::RingBuffer","constructor"
+"RingBuffer","commander small-class","RingBuffer::store_char","command"
+"IPAddress","data-provider","raw_address","get"
+"IPAddress","data-provider","fromString","predicate non-void-command collaborator"
+"IPAddress","data-provider","operatoruint32_t","get"
+"IPAddress","data-provider","operator==","predicate"
+"IPAddress","data-provider","operator[]","get"
+"IPAddress","data-provider","operator[]","get"
+"IPAddress","data-provider","IPAddress::IPAddress","constructor"
+"IPAddress","data-provider","IPAddress::IPAddress","constructor"
+"IPAddress","data-provider","IPAddress::IPAddress","constructor"
+"IPAddress","data-provider","IPAddress::IPAddress","constructor"
+"IPAddress","data-provider","IPAddress::fromString","predicate non-void-command"
+"IPAddress","data-provider","IPAddress::operator=","get wrapper"
+"IPAddress","data-provider","IPAddress::operator=","get set"
+"IPAddress","data-provider","IPAddress::operator==","predicate wrapper"
+"IPAddress","data-provider","IPAddress::printTo","property controller"
+"String","unclassified","StringIfHelper","empty"
+"String","unclassified","length","get"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command"
+"String","unclassified","operator+=","get non-void-command collaborator"
+"String","unclassified","operatorStringIfHelperType","unclassified"
+"String","unclassified","operator==","property"
+"String","unclassified","operator==","property"
+"String","unclassified","operator!=","property"
+"String","unclassified","operator!=","property"
+"String","unclassified","toCharArray","unclassified"
+"String","unclassified","c_str","get"
+"String","unclassified","begin","get"
+"String","unclassified","end","property non-void-command"
+"String","unclassified","begin","property"
+"String","unclassified","end","property"
+"String","unclassified","substring","property"
+"String","unclassified","String::String","constructor"
+"String","unclassified","String::String","copy-constructor"
+"String","unclassified","String::String","copy-constructor"
+"String","unclassified","String::String","copy-constructor"
+"String","unclassified","String::String","copy-constructor"
+"String","unclassified","String::String","constructor"
+"String","unclassified","String::String","constructor"
+"String","unclassified","String::String","constructor"
+"String","unclassified","String::String","constructor"
+"String","unclassified","String::String","constructor"
+"String","unclassified","String::String","constructor"
+"String","unclassified","String::String","constructor"
+"String","unclassified","String::String","constructor"
+"String","unclassified","String::~String","destructor"
+"String","unclassified","String::init","command"
+"String","unclassified","String::invalidate","command"
+"String","unclassified","String::reserve","property set"
+"String","unclassified","String::changeBuffer","property non-void-command"
+"String","unclassified","String::copy","get non-void-command"
+"String","unclassified","String::copy","get non-void-command"
+"String","unclassified","String::move","void-accessor command"
+"String","unclassified","String::operator=","get non-void-command"
+"String","unclassified","String::operator=","get non-void-command"
+"String","unclassified","String::operator=","get non-void-command collaborator"
+"String","unclassified","String::operator=","get non-void-command"
+"String","unclassified","String::operator=","get non-void-command collaborator"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property set"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property non-void-command"
+"String","unclassified","String::concat","property set collaborator"
+"String","unclassified","String::compareTo","get property wrapper"
+"String","unclassified","String::equals","property"
+"String","unclassified","String::equals","get property wrapper"
+"String","unclassified","String::operator<","property"
+"String","unclassified","String::operator>","property"
+"String","unclassified","String::operator<=","property"
+"String","unclassified","String::operator>=","property"
+"String","unclassified","String::equalsIgnoreCase","property wrapper"
+"String","unclassified","String::startsWith","property"
+"String","unclassified","String::startsWith","property wrapper"
+"String","unclassified","String::endsWith","property wrapper"
+"String","unclassified","String::charAt","property"
+"String","unclassified","String::setCharAt","set"
+"String","unclassified","String::operator[]","get property"
+"String","unclassified","String::operator[]","get property"
+"String","unclassified","String::getBytes","void-accessor wrapper"
+"String","unclassified","String::indexOf","property"
+"String","unclassified","String::indexOf","property wrapper"
+"String","unclassified","String::indexOf","property"
+"String","unclassified","String::indexOf","property wrapper"
+"String","unclassified","String::lastIndexOf","property"
+"String","unclassified","String::lastIndexOf","property set"
+"String","unclassified","String::lastIndexOf","property"
+"String","unclassified","String::lastIndexOf","property wrapper"
+"String","unclassified","String::substring","property set"
+"String","unclassified","String::replace","unclassified"
+"String","unclassified","String::replace","command"
+"String","unclassified","String::remove","command"
+"String","unclassified","String::remove","command"
+"String","unclassified","String::toLowerCase","wrapper"
+"String","unclassified","String::toUpperCase","wrapper"
+"String","unclassified","String::trim","command"
+"String","unclassified","String::toInt","property wrapper"
+"String","unclassified","String::toFloat","property"
+"String","unclassified","String::toDouble","property wrapper"
+"HID_","entity data-provider boundary","HID_::getInterface","property wrapper"
+"HID_","entity data-provider boundary","HID_::getDescriptor","property wrapper"
+"HID_","entity data-provider boundary","HID_::getShortName","property"
+"HID_","entity data-provider boundary","HID_::AppendDescriptor","command collaborator"
+"HID_","entity data-provider boundary","HID_::SendReport","property wrapper"
+"HID_","entity data-provider boundary","HID_::setup","predicate non-void-command collaborator"
+"HID_","entity data-provider boundary","HID_::HID_","constructor"
+"HID_","entity data-provider boundary","HID_::begin","incidental"
+"USBDevice_","degenerate","USBDevice_::USBDevice_","constructor"
+"USBDevice_","degenerate","USBDevice_::attach","wrapper stateless"
+"USBDevice_","degenerate","USBDevice_::detach","wrapper stateless"
+"USBDevice_","degenerate","USBDevice_::configured","incidental"
+"USBDevice_","degenerate","USBDevice_::poll","empty"
+"COpenVRDriverContext","entity boundary","COpenVRDriverContext","constructor"
+"COpenVRDriverContext","entity boundary","VRSettings","get set collaborator"
+"COpenVRDriverContext","entity boundary","VRPropertiesRaw","get non-void-command collaborator"
+"COpenVRDriverContext","entity boundary","VRProperties","property non-void-command collaborator"
+"COpenVRDriverContext","entity boundary","VRHiddenArea","property non-void-command collaborator"
+"COpenVRDriverContext","entity boundary","VRServerDriverHost","get set collaborator"
+"COpenVRDriverContext","entity boundary","VRWatchdogHost","get set collaborator"
+"COpenVRDriverContext","entity boundary","VRCompositorDriverHost","get set collaborator"
+"COpenVRDriverContext","entity boundary","VRDriverLog","get set collaborator"
+"COpenVRDriverContext","entity boundary","VRDriverHandle","wrapper stateless"
+"COpenVRDriverContext","entity boundary","VRDriverManager","get set collaborator"
+"COpenVRDriverContext","entity boundary","VRResources","get set collaborator"
+"COpenVRDriverContext","entity boundary","VRDriverInput","get set collaborator"
+"COpenVRDriverContext","entity boundary","VRIOBuffer","get set collaborator"
+"COpenVRDriverContext","entity boundary","VRDriverSpatialAnchors","get set collaborator"
+"COpenVRDriverContext","entity boundary","COpenVRDriverContext::Clear","command"
+"COpenVRDriverContext","entity boundary","COpenVRDriverContext::InitServer","property non-void-command collaborator"
+"COpenVRDriverContext","entity boundary","COpenVRDriverContext::InitWatchdog","property non-void-command collaborator"
+"COpenVRDriverContext","entity boundary","COpenVRDriverContext::InitCompositor","property non-void-command collaborator"
+"VectorFloat","unclassified","VectorFloat","constructor"
+"VectorFloat","unclassified","VectorFloat","constructor"
+"VectorFloat","unclassified","getMagnitude","property wrapper"
+"VectorFloat","unclassified","normalize","command"
+"VectorFloat","unclassified","getNormalized","property controller"
+"VectorFloat","unclassified","rotate","command collaborator"
+"VectorFloat","unclassified","getRotated","property controller"
+"PluggableUSBModule","data-provider small-class","PluggableUSBModule","constructor"
+"PluggableUSBModule","data-provider small-class","getShortName","property"
+"CVRSettingHelper","entity commander boundary","CVRSettingHelper","constructor"
+"CVRSettingHelper","entity commander boundary","GetSettingsErrorNameFromEnum","property non-void-command collaborator"
+"CVRSettingHelper","entity commander boundary","SetBool","command collaborator"
+"CVRSettingHelper","entity commander boundary","SetInt32","command collaborator"
+"CVRSettingHelper","entity commander boundary","SetFloat","command collaborator"
+"CVRSettingHelper","entity commander boundary","SetString","command collaborator"
+"CVRSettingHelper","entity commander boundary","SetString","command collaborator"
+"CVRSettingHelper","entity commander boundary","GetBool","predicate non-void-command collaborator"
+"CVRSettingHelper","entity commander boundary","GetInt32","property non-void-command collaborator"
+"CVRSettingHelper","entity commander boundary","GetFloat","property non-void-command collaborator"
+"IVRDriverDirectModeComponent","degenerate","CreateSwapTextureSet","empty"
+"IVRDriverDirectModeComponent","degenerate","DestroySwapTextureSet","empty"
+"IVRDriverDirectModeComponent","degenerate","DestroyAllSwapTextureSets","empty"
+"I2Cdev","unclassified","I2Cdev::I2Cdev","constructor"
+"I2Cdev","unclassified","I2Cdev::readBit","property non-void-command"
+"I2Cdev","unclassified","I2Cdev::readBitW","property non-void-command"
+"I2Cdev","unclassified","I2Cdev::readBits","property non-void-command"
+"I2Cdev","unclassified","I2Cdev::readBitsW","property non-void-command"
+"I2Cdev","unclassified","I2Cdev::readByte","property non-void-command"
+"I2Cdev","unclassified","I2Cdev::readWord","property non-void-command"
+"I2Cdev","unclassified","I2Cdev::readBytes","controller stateless"
+"I2Cdev","unclassified","I2Cdev::readWords","controller stateless"
+"I2Cdev","unclassified","I2Cdev::writeBit","predicate non-void-command"
+"I2Cdev","unclassified","I2Cdev::writeBitW","predicate non-void-command"
+"I2Cdev","unclassified","I2Cdev::writeBits","predicate non-void-command"
+"I2Cdev","unclassified","I2Cdev::writeBitsW","predicate non-void-command"
+"I2Cdev","unclassified","I2Cdev::writeByte","predicate non-void-command"
+"I2Cdev","unclassified","I2Cdev::writeWord","predicate non-void-command"
+"I2Cdev","unclassified","I2Cdev::writeBytes","controller stateless"
+"I2Cdev","unclassified","I2Cdev::writeWords","controller stateless"
+"CVRHiddenAreaHelpers","entity boundary","CVRHiddenAreaHelpers","constructor"
+"CVRHiddenAreaHelpers","entity boundary","GetPropertyEnum","collaborator incidental"
+"CVRHiddenAreaHelpers","entity boundary","CVRHiddenAreaHelpers::SetHiddenArea","property non-void-command collaborator"
+"CVRHiddenAreaHelpers","entity boundary","CVRHiddenAreaHelpers::GetHiddenArea","property non-void-command collaborator"
+"LockEP","empty","~LockEP","destructor"
+"HMDDriver","commander","Relativty::HMDDriver::Activate","property non-void-command collaborator"
+"HMDDriver","commander","Relativty::HMDDriver::Deactivate","command"
+"HMDDriver","commander","Relativty::HMDDriver::update_pose_threaded","command"
+"HMDDriver","commander","Relativty::HMDDriver::calibrate_quaternion","command"
+"HMDDriver","commander","Relativty::HMDDriver::retrieve_device_quaternion_packet_threaded","command collaborator"
+"HMDDriver","commander","Relativty::HMDDriver::retrieve_client_vector_packet_threaded","command"
+"HMDDriver","commander","Relativty::HMDDriver::HMDDriver","constructor"
+"HMDDriver","commander","Relativty::HMDDriver::setProperties","wrapper"
+"Client","pure-controller degenerate small-class","rawIPAddress","controller stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers","constructor"
+"CVRPropertyHelpers","boundary","TrackedDeviceToPropertyContainer","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetProperty","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetStringProperty","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetStringProperty","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetPropertyHelper","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetBoolProperty","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetFloatProperty","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetDoubleProperty","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetInt32Property","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetUint64Property","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetVec2Property","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetVec3Property","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetVec4Property","wrapper stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetBoolProperty","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetFloatProperty","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetDoubleProperty","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetInt32Property","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetUint64Property","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetVec2Property","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetVec3Property","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetVec4Property","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetPropertyError","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::EraseProperty","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::SetPropertyVector","property non-void-command collaborator"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::GetPropertyVector","controller stateless"
+"CVRPropertyHelpers","boundary","CVRPropertyHelpers::IsPropertySet","wrapper stateless"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"StringSumHelper","empty","StringSumHelper","constructor"
+"UARTClass","unclassified","operatorbool","incidental"
+"UARTClass","unclassified","UARTClass::UARTClass","constructor"
+"UARTClass","unclassified","UARTClass::begin","command"
+"UARTClass","unclassified","UARTClass::begin","command collaborator"
+"UARTClass","unclassified","UARTClass::init","command"
+"UARTClass","unclassified","UARTClass::end","set"
+"UARTClass","unclassified","UARTClass::setInterruptPriority","wrapper"
+"UARTClass","unclassified","UARTClass::getInterruptPriority","property wrapper"
+"UARTClass","unclassified","UARTClass::available","property"
+"UARTClass","unclassified","UARTClass::availableForWrite","property"
+"UARTClass","unclassified","UARTClass::peek","property"
+"UARTClass","unclassified","UARTClass::read","property set"
+"UARTClass","unclassified","UARTClass::flush","unclassified"
+"UARTClass","unclassified","UARTClass::write","property non-void-command"
+"UARTClass","unclassified","UARTClass::IrqHandler","command"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::MPU9250_DMP","constructor"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::begin","property non-void-command collaborator"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::enableInterrupt","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setIntLevel","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setIntLatched","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getIntStatus","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::lowPowerAccel","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setGyroFSR","property set collaborator"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setAccelFSR","property set collaborator"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getGyroFSR","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getAccelFSR","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getMagFSR","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setLPF","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getLPF","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setSampleRate","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getSampleRate","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setCompassSampleRate","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getCompassSampleRate","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getGyroSens","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getAccelSens","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getMagSens","incidental"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getFifoConfig","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::configureFifo","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::resetFifo","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::fifoAvailable","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateFifo","property non-void-command collaborator"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::setSensors","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dataReady","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::update","property non-void-command collaborator"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateAccel","property non-void-command"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateGyro","property non-void-command"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateCompass","property non-void-command"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::updateTemperature","property wrapper"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::selfTest","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpBegin","property non-void-command collaborator"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpLoad","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetFifoRate","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetFifoRate","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpUpdateFifo","property non-void-command collaborator"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpEnableFeatures","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetEnabledFeatures","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetTap","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getTapDir","incidental"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::getTapCount","incidental"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::tapAvailable","incidental"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetOrientation","property non-void-command collaborator"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetOrientation","incidental"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpEnable3Quat","property non-void-command collaborator"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetPedometerSteps","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetPedometerSteps","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpGetPedometerTime","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::dmpSetPedometerTime","wrapper stateless"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::calcAccel","property"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::calcGyro","property"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::calcMag","property"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::calcQuat","property non-void-command"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::qToFloat","incidental"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::computeEulerAngles","command"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::computeCompassHeading","get set"
+"MPU9250_DMP","entity boundary degenerate","MPU9250_DMP::orientation_row_2_scale","incidental"
+"Print","unclassified","setWriteError","set"
+"Print","unclassified","Print","constructor"
+"Print","unclassified","getWriteError","get"
+"Print","unclassified","clearWriteError","command"
+"Print","unclassified","write","property non-void-command"
+"Print","unclassified","write","property non-void-command"
+"Print","unclassified","Print::write","property non-void-command"
+"Print","unclassified","Print::print","property non-void-command collaborator"
+"Print","unclassified","Print::print","property non-void-command collaborator"
+"Print","unclassified","Print::print","property non-void-command"
+"Print","unclassified","Print::print","property non-void-command"
+"Print","unclassified","Print::print","property non-void-command"
+"Print","unclassified","Print::print","property non-void-command"
+"Print","unclassified","Print::print","property non-void-command"
+"Print","unclassified","Print::print","property non-void-command"
+"Print","unclassified","Print::print","property non-void-command"
+"Print","unclassified","Print::print","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command collaborator"
+"Print","unclassified","Print::print","property controller"
+"Print","unclassified","Print::println","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command collaborator"
+"Print","unclassified","Print::println","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command"
+"Print","unclassified","Print::println","property non-void-command collaborator"
+"Print","unclassified","Print::printNumber","property non-void-command"
+"Print","unclassified","Print::printFloat","property non-void-command"
+"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::Init","property set collaborator"
+"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::Cleanup","set"
+"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::GetInterfaceVersions","incidental"
+"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::RunFrame","empty"
+"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::ShouldBlockStandbyMode","incidental"
+"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::EnterStandby","empty"
+"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::LeaveStandby","empty"
+"ServerDriver","commander lazy-class degenerate","Relativty::ServerDriver::Log","command"
+"TwoWire","unclassified","write","property non-void-command"
+"TwoWire","unclassified","write","property non-void-command"
+"TwoWire","unclassified","write","property non-void-command"
+"TwoWire","unclassified","write","property non-void-command"
+"TwoWire","unclassified","TwoWire::TwoWire","constructor"
+"TwoWire","unclassified","TwoWire::begin","command"
+"TwoWire","unclassified","TwoWire::beginTransmission","command"
+"TwoWire","unclassified","TwoWire::endTransmission","property non-void-command"
+"TwoWire","unclassified","TwoWire::nbendTransmission","wrapper"
+"TwoWire","unclassified","TwoWire::send","command"
+"TwoWire","unclassified","TwoWire::receive","property set"
+"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command"
+"TwoWire","unclassified","TwoWire::nbrequestFrom","command"
+"TwoWire","unclassified","TwoWire::available","property"
+"TwoWire","unclassified","TwoWire::TwoWire","constructor"
+"TwoWire","unclassified","TwoWire::begin","command"
+"TwoWire","unclassified","TwoWire::begin","command"
+"TwoWire","unclassified","TwoWire::begin","command"
+"TwoWire","unclassified","TwoWire::end","set"
+"TwoWire","unclassified","TwoWire::setClock","set"
+"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command"
+"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command"
+"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command"
+"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command"
+"TwoWire","unclassified","TwoWire::requestFrom","property non-void-command"
+"TwoWire","unclassified","TwoWire::beginTransmission","command"
+"TwoWire","unclassified","TwoWire::beginTransmission","command"
+"TwoWire","unclassified","TwoWire::endTransmission","property non-void-command"
+"TwoWire","unclassified","TwoWire::endTransmission","property non-void-command"
+"TwoWire","unclassified","TwoWire::write","property non-void-command"
+"TwoWire","unclassified","TwoWire::write","property non-void-command"
+"TwoWire","unclassified","TwoWire::available","property"
+"TwoWire","unclassified","TwoWire::read","get property set"
+"TwoWire","unclassified","TwoWire::peek","get property"
+"TwoWire","unclassified","TwoWire::flush","empty"
+"TwoWire","unclassified","TwoWire::onReceive","incidental"
+"TwoWire","unclassified","TwoWire::onRequest","incidental"
+"TwoWire","unclassified","TwoWire::onService","command"
+"RelativtyDevice","unclassified","RelativtyDevice","constructor"
+"RelativtyDevice","unclassified","~RelativtyDevice","destructor"
+"RelativtyDevice","unclassified","Activate","property non-void-command collaborator"
+"RelativtyDevice","unclassified","Deactivate","set"
+"RelativtyDevice","unclassified","EnterStandby","empty"
+"RelativtyDevice","unclassified","PowerOff","empty"
+"RelativtyDevice","unclassified","DebugRequest","void-accessor command"
+"RelativtyDevice","unclassified","GetPose","get collaborator"
+"RelativtyDevice","unclassified","GetComponent","property command collaborator"
+"RelativtyDevice","unclassified","GetSerialNumber","get"
+"RelativtyDevice","unclassified","ProcessEvent","wrapper"
+"VectorInt16","unclassified","VectorInt16","constructor"
+"VectorInt16","unclassified","VectorInt16","constructor"
+"VectorInt16","unclassified","getMagnitude","property wrapper"
+"VectorInt16","unclassified","normalize","command"
+"VectorInt16","unclassified","getNormalized","property controller"
+"VectorInt16","unclassified","rotate","command collaborator"
+"VectorInt16","unclassified","getRotated","property controller"
+"Serial_","degenerate","Serial_::begin","incidental"
+"Serial_","degenerate","Serial_::begin","incidental"
+"Serial_","degenerate","Serial_::end","empty"
+"Serial_","degenerate","Serial_::accept","wrapper stateless"
+"Serial_","degenerate","Serial_::available","collaborator incidental"
+"Serial_","degenerate","Serial_::availableForWrite","incidental"
+"Serial_","degenerate","Serial_::peek","collaborator incidental"
+"Serial_","degenerate","Serial_::read","property non-void-command"
+"Serial_","degenerate","Serial_::flush","wrapper stateless"
+"Serial_","degenerate","Serial_::write","property non-void-command"
+"Serial_","degenerate","Serial_::write","property non-void-command"
+"Serial_","degenerate","Serial_::operatorbool","wrapper stateless"
+"Serial_","degenerate","Serial_::readBreak","wrapper stateless"
+"Serial_","degenerate","Serial_::baud","incidental"
+"Serial_","degenerate","Serial_::stopbits","incidental"
+"Serial_","degenerate","Serial_::paritytype","incidental"
+"Serial_","degenerate","Serial_::numbits","incidental"
+"Serial_","degenerate","Serial_::dtr","incidental"
+"Serial_","degenerate","Serial_::rts","incidental"
+"Quaternion","unclassified","Quaternion","constructor"
+"Quaternion","unclassified","Quaternion","constructor"
+"Quaternion","unclassified","getProduct","property non-void-command"
+"Quaternion","unclassified","getConjugate","property non-void-command"
+"Quaternion","unclassified","getMagnitude","property wrapper"
+"Quaternion","unclassified","normalize","command"
+"Quaternion","unclassified","getNormalized","property controller"
+"RelativtyExtendedDisplayComponent","data-provider","RelativtyExtendedDisplayComponent","constructor"
+"RelativtyExtendedDisplayComponent","data-provider","GetWindowBounds","void-accessor"
+"RelativtyExtendedDisplayComponent","data-provider","IsDisplayOnDesktop","get"
+"RelativtyExtendedDisplayComponent","data-provider","IsDisplayRealDisplay","get"
+"RelativtyExtendedDisplayComponent","data-provider","GetRecommendedRenderTargetSize","void-accessor"
+"RelativtyExtendedDisplayComponent","data-provider","GetEyeOutputViewport","void-accessor"
+"RelativtyExtendedDisplayComponent","data-provider","GetProjectionRaw","void-accessor wrapper"
+"RelativtyExtendedDisplayComponent","data-provider","ComputeDistortion","property wrapper"
+"RelativtyExtendedDisplayComponent","data-provider","GetComponentNameAndVersion","incidental"

@@ -1,214 +1,212 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"TreeEditor","pure-controller degenerate small-class","OnInspectorGUI","controller stateless",
-"ModuleDataEditor","pure-controller degenerate small-class","OnInspectorGUI","controller stateless",
-"MapBehaviourEditor","commander boundary small-class","OnInspectorGUI","command collaborator",
-"TilingMap","entity data-provider boundary","TilingMap","constructor",
-"TilingMap","entity data-provider boundary","GetSlot","get property collaborator",
-"TilingMap","entity data-provider boundary","GetAllSlots","get collaborator",
-"TilingMap","entity data-provider boundary","ApplyBoundaryConstraints","command collaborator",
-"Slot","boundary","Slot","constructor",
-"Slot","boundary","Slot","copy-constructor",
-"Slot","boundary","GetNeighbor","property non-void-command",
-"Slot","boundary","Collapse","command collaborator",
-"Slot","boundary","checkConsistency","command collaborator",
-"Slot","boundary","CollapseRandom","command collaborator",
-"Slot","boundary","RemoveModules","command collaborator",
-"Slot","boundary","AddModules","command collaborator",
-"Slot","boundary","EnforceConnector","command collaborator",
-"Slot","boundary","ExcludeConnector","command collaborator",
-"Slot","boundary","GetHashCode","property non-void-command",
-"Slot","boundary","Forget","command",
-"Slot","boundary","get","predicate",
-"Slot","boundary","get","predicate",
-"Slot","boundary","get","predicate",
-"ModulePrototype","entity boundary","GetMesh","property non-void-command factory collaborator",
-"ModulePrototype","entity boundary","CompareRotatedVariants","wrapper stateless",
-"ModulePrototype","entity boundary","Update","empty",
-"ModulePrototype","entity boundary","Reset","command collaborator",
-"ModulePrototype","entity boundary","get","property factory collaborator",
-"Module","entity data-provider boundary","Module","constructor",
-"Module","entity data-provider boundary","Fits","predicate wrapper",
-"Module","entity data-provider boundary","Fits","predicate non-void-command collaborator",
-"Module","entity data-provider boundary","GetFace","property wrapper",
-"Module","entity data-provider boundary","ToString","get",
-"ModuleSet","unclassified","ModuleSet","constructor",
-"ModuleSet","unclassified","ModuleSet","constructor",
-"ModuleSet","unclassified","ModuleSet","copy-constructor",
-"ModuleSet","unclassified","Add","command collaborator",
-"ModuleSet","unclassified","Remove","predicate non-void-command collaborator",
-"ModuleSet","unclassified","Contains","get collaborator",
-"ModuleSet","unclassified","Contains","get",
-"ModuleSet","unclassified","Clear","command",
-"ModuleSet","unclassified","Intersect","command",
-"ModuleSet","unclassified","Add","command",
-"ModuleSet","unclassified","Remove","command",
-"ModuleSet","unclassified","CopyTo","void-accessor collaborator",
-"ModuleSet","unclassified","GetEnumerator","property collaborator",
-"ModuleSet","unclassified","IEnumerable.GetEnumerator","property non-void-command collaborator",
-"ModuleSet","unclassified","calculateEntropy","property wrapper",
-"ModuleSet","unclassified","get","get wrapper",
-"ModuleSet","unclassified","get","incidental",
-"ModuleSet","unclassified","get","get predicate",
-"ModuleSet","unclassified","get","get predicate",
-"ModuleSet","unclassified","get","get non-void-command",
-"ModuleSet","unclassified","get","incidental",
-"Portal","entity boundary","Portal","constructor",
-"Portal","entity boundary","ReplaceRoom","collaborator incidental",
-"Portal","entity boundary","Follow","collaborator incidental",
-"Portal","entity boundary","Follow","property wrapper",
-"Portal","entity boundary","FacesCamera","predicate wrapper",
-"Portal","entity boundary","FacesCamera","predicate wrapper",
-"Portal","entity boundary","getCorners","property factory collaborator",
-"Portal","entity boundary","Draw","command collaborator",
-"Portal","entity boundary","DrawFrustum","command collaborator",
-"Portal","entity boundary","GetFrustumPlanes","non-void-command factory collaborator",
-"Portal","entity boundary","get","incidental",
-"Portal","entity boundary","get","collaborator incidental",
-"OcclusionCulling","commander","OnEnable","set",
-"OcclusionCulling","commander","ShowOutside","void-accessor command",
-"OcclusionCulling","commander","ShowPortal","command",
-"OcclusionCulling","commander","Update","command collaborator",
-"OcclusionCulling","commander","OnDisable","controller",
-"GenerateMapNearPlayer","commander","Start","command",
-"GenerateMapNearPlayer","commander","OnDisable","command",
-"GenerateMapNearPlayer","commander","generate","command",
-"GenerateMapNearPlayer","commander","createChunk","command collaborator",
-"GenerateMapNearPlayer","commander","generatorThread","command",
-"GenerateMapNearPlayer","commander","Update","command",
-"GenerateMapNearPlayer","commander","RegisterMapGenerationCallbackReceiver","set collaborator",
-"GenerateMapNearPlayer","commander","UnregisterMapGenerationCallbackReceiver","command collaborator",
-"GenerateMapNearPlayer","commander","IsGenerated","predicate non-void-command collaborator",
-"ModulePrototypeEditorData","entity data-class small-class","ModulePrototypeEditorData","constructor",
-"ModulePrototypeEditorData","entity data-class small-class","getMesh","get property set collaborator",
-"ModulePrototypeEditorData","entity data-class small-class","GetConnectorHint","property non-void-command factory collaborator",
-"DistanceCulling","commander boundary","OnEnable","command",
-"DistanceCulling","commander boundary","OnDisable","set collaborator",
-"DistanceCulling","commander boundary","Update","command collaborator",
-"DistanceCulling","commander boundary","getHorizontalDistance","wrapper stateless",
-"DistanceCulling","commander boundary","UpdateChunks","command collaborator",
-"SlotInspectorEditor","boundary","showEditor","void-accessor command collaborator",
-"SlotInspectorEditor","boundary","OnInspectorGUI","command collaborator",
-"SlotInspectorEditor","boundary","OnSceneGUI","controller stateless",
-"SlotInspectorEditor","boundary","createNeighborExlusionUI","void-accessor command collaborator",
-"SlotInspectorEditor","boundary","getColor","collaborator stateless",
-"Room","small-class","Room","constructor",
-"Room","small-class","SetVisibility","command collaborator",
-"Room","small-class","DrawGizmo","controller",
-"FreeCameraController","commander small-class","OnEnable","command",
-"FreeCameraController","commander small-class","Update","command collaborator",
-"HistoryItem","empty","HistoryItem","constructor",
-"Orientations","data-provider boundary data-class small-class","get","get wrapper",
-"Orientations","data-provider boundary data-class small-class","get","get wrapper",
-"FlightController","commander boundary small-class","OnEnable","command collaborator",
-"FlightController","commander boundary small-class","Update","set collaborator",
-"MapBehaviour","commander boundary","GetWorldspacePosition","controller stateless",
-"MapBehaviour","commander boundary","GetMapPosition","wrapper stateless",
-"MapBehaviour","commander boundary","Clear","set collaborator",
-"MapBehaviour","commander boundary","Initialize","command",
-"MapBehaviour","commander boundary","Update","command collaborator",
-"MapBehaviour","commander boundary","BuildSlot","predicate non-void-command collaborator",
-"MapBehaviour","commander boundary","BuildAllSlots","command",
-"MapBehaviour","commander boundary","get","predicate",
-"Chunk","boundary","Chunk","constructor",
-"Chunk","boundary","SetInRenderRange","set collaborator",
-"Chunk","boundary","SetExteriorVisibility","set collaborator",
-"Chunk","boundary","SetRoomVisibility","controller",
-"Chunk","boundary","AddBlock","void-accessor command collaborator",
-"Chunk","boundary","RemoveBlock","void-accessor command collaborator",
-"AreaSelectorEditor","pure-controller degenerate small-class","OnInspectorGUI","controller stateless",
-"TreePlacer","boundary","prepareModulesThatGrowTrees","set collaborator",
-"TreePlacer","boundary","checkIfNearbySlotsAreBuilt","predicate non-void-command collaborator",
-"TreePlacer","boundary","OnEnable","command",
-"TreePlacer","boundary","OnDisable","command",
-"TreePlacer","boundary","OnGenerateChunk","void-accessor command collaborator",
-"TreePlacer","boundary","checkIfNeighbourChunksAreGenerated","controller stateless",
-"TreePlacer","boundary","getTreePosition","property non-void-command collaborator",
-"TreePlacer","boundary","PlantTree","property non-void-command factory collaborator",
-"TreeGenerator","entity commander boundary","calculateEnergy","command collaborator",
-"TreeGenerator","entity commander boundary","Reset","command",
-"TreeGenerator","entity commander boundary","Grow","command collaborator",
-"TreeGenerator","entity commander boundary","Prune","command",
-"TreeGenerator","entity commander boundary","Build","command collaborator",
-"TreeGenerator","entity commander boundary","BuildCoroutine","property non-void-command collaborator",
-"TreeGenerator","entity commander boundary","getBranchRadius","property wrapper",
-"TreeGenerator","entity commander boundary","CreateMesh","property non-void-command factory collaborator",
-"TreeGenerator","entity commander boundary","createBranchColliders","command",
-"TreeGenerator","entity commander boundary","generateColor","command collaborator",
-"ControlModeSwitcher","commander boundary","Start","command collaborator",
-"ControlModeSwitcher","commander boundary","Update","command",
-"ControlModeSwitcher","commander boundary","SetMode","command collaborator",
-"CullingData","boundary","Initialize","command",
-"CullingData","boundary","GetChunkAddress","property controller",
-"CullingData","boundary","GetChunkCenter","property non-void-command collaborator",
-"CullingData","boundary","getChunk","get property non-void-command factory collaborator",
-"CullingData","boundary","getChunkFromPosition","property non-void-command collaborator",
-"CullingData","boundary","GetRoom","get property non-void-command collaborator",
-"CullingData","boundary","AddSlot","void-accessor command collaborator",
-"CullingData","boundary","updatePortals","command collaborator",
-"CullingData","boundary","ClearOutdatedSlots","command collaborator",
-"CullingData","boundary","removePortal","void-accessor command collaborator",
-"CullingData","boundary","RemoveSlot","void-accessor command collaborator",
-"CullingData","boundary","removeRoom","command collaborator",
-"CullingData","boundary","mergeRooms","property set collaborator",
-"CullingData","boundary","addPortalToChunks","void-accessor command collaborator",
-"CullingData","boundary","getPortal","non-void-command factory collaborator",
-"CollapseFailedException","empty","CollapseFailedException","constructor",
-"FirstPersonController","commander","OnEnable","command",
-"FirstPersonController","commander","Update","command",
-"FirstPersonController","commander","Enable","set",
-"FirstPersonController","commander","onGround","predicate wrapper",
-"RingBuffer<T>","entity boundary","RingBuffer","constructor",
-"RingBuffer<T>","entity boundary","Push","command collaborator",
-"RingBuffer<T>","entity boundary","Peek","get collaborator",
-"RingBuffer<T>","entity boundary","Pop","property non-void-command collaborator",
-"RingBuffer<T>","entity boundary","Any","predicate",
-"InfiniteMap","entity boundary","InfiniteMap","constructor",
-"InfiniteMap","entity boundary","GetSlot","get property non-void-command collaborator",
-"InfiniteMap","entity boundary","IsOutsideOfRangeLimit","predicate collaborator",
-"InfiniteMap","entity boundary","ApplyBoundaryConstraints","command collaborator",
-"InfiniteMap","entity boundary","GetAllSlots","property collaborator",
-"InfiniteMap","entity boundary","GetDefaultSlot","property non-void-command collaborator",
-"InfiniteMap","entity boundary","IsSlotInitialized","predicate non-void-command collaborator",
-"InfiniteMap","entity boundary","OnHitRangeLimit","set collaborator",
-"ModulePrototypeEditor","pure-controller degenerate small-class","OnInspectorGUI","controller stateless",
-"TakeScreenshot","commander","Update","command",
-"TakeScreenshot","commander","getFilename","property non-void-command",
-"TakeScreenshot","commander","Capture","command collaborator",
-"ModuleData","unclassified","SimplifyNeighborData","set",
-"ModuleData","unclassified","getPrototypes","property controller",
-"ModuleData","unclassified","CreateModules","command collaborator",
-"ModuleData","unclassified","OnBeforeSerialize","empty",
-"ModuleData","unclassified","OnAfterDeserialize","set collaborator",
-"ModuleData","unclassified","SavePrototypes","controller",
-"QueueDictionary<TKey,TValue>","entity boundary","QueueDictionary","constructor",
-"QueueDictionary<TKey,TValue>","entity boundary","Peek","property non-void-command factory collaborator",
-"QueueDictionary<TKey,TValue>","entity boundary","Dequeue","non-void-command factory collaborator",
-"QueueDictionary<TKey,TValue>","entity boundary","Any","predicate",
-"QueueDictionary<TKey,TValue>","entity boundary","Clear","command",
-"QueueDictionary<TKey,TValue>","entity boundary","get","get non-void-command collaborator",
-"QueueDictionary<TKey,TValue>","entity boundary","set","non-void-command collaborator",
-"ColorGenerator","data-provider boundary small-class","GetColor","property wrapper",
-"Node","boundary","Node","constructor",
-"Node","boundary","Node","copy-constructor",
-"Node","boundary","CrateLeafCollider","command",
-"Node","boundary","RemoveLeafCollider","wrapper",
-"Node","boundary","GetTree","get property controller",
-"Node","boundary","raycast","property set collaborator",
-"Node","boundary","Branch","command collaborator",
-"Node","boundary","getGrowthDirection","property non-void-command collaborator",
-"Node","boundary","Grow","command collaborator",
-"Node","boundary","CalculateEnergy","set",
-"Node","boundary","CalculateSubtreeSize","set collaborator",
-"AreaSelector","data-provider boundary small-class","get","property wrapper",
-"AreaSelector","data-provider boundary small-class","get","property wrapper",
-"AbstractMap","entity commander boundary","AbstractMap","constructor",
-"AbstractMap","entity commander boundary","NotifySlotCollapsed","command collaborator",
-"AbstractMap","entity commander boundary","NotifySlotCollapseUndone","command collaborator",
-"AbstractMap","entity commander boundary","FinishRemovalQueue","command collaborator",
-"AbstractMap","entity commander boundary","EnforceWalkway","command collaborator",
-"AbstractMap","entity commander boundary","EnforceWalkway","command collaborator",
-"AbstractMap","entity commander boundary","Collapse","command",
-"AbstractMap","entity commander boundary","Collapse","command",
-"AbstractMap","entity commander boundary","Undo","command collaborator",
-"AbstractMap","entity commander boundary","createInitialModuleHealth","wrapper stateless",
-"AbstractMap","entity commander boundary","CopyInititalModuleHealth","property non-void-command",
+"TreeEditor","pure-controller degenerate small-class","OnInspectorGUI","controller stateless"
+"ModuleDataEditor","pure-controller degenerate small-class","OnInspectorGUI","controller stateless"
+"MapBehaviourEditor","commander boundary small-class","OnInspectorGUI","command collaborator"
+"TilingMap","entity data-provider boundary","TilingMap","constructor"
+"TilingMap","entity data-provider boundary","GetSlot","get property collaborator"
+"TilingMap","entity data-provider boundary","GetAllSlots","get collaborator"
+"TilingMap","entity data-provider boundary","ApplyBoundaryConstraints","command collaborator"
+"Slot","boundary","Slot","constructor"
+"Slot","boundary","Slot","copy-constructor"
+"Slot","boundary","GetNeighbor","property non-void-command"
+"Slot","boundary","Collapse","command collaborator"
+"Slot","boundary","checkConsistency","command collaborator"
+"Slot","boundary","CollapseRandom","command collaborator"
+"Slot","boundary","RemoveModules","command collaborator"
+"Slot","boundary","AddModules","command collaborator"
+"Slot","boundary","EnforceConnector","command collaborator"
+"Slot","boundary","ExcludeConnector","command collaborator"
+"Slot","boundary","GetHashCode","property non-void-command"
+"Slot","boundary","Forget","command"
+"Slot","boundary","get","predicate"
+"Slot","boundary","get","predicate"
+"Slot","boundary","get","predicate"
+"ModulePrototype","entity boundary","GetMesh","property non-void-command factory collaborator"
+"ModulePrototype","entity boundary","CompareRotatedVariants","wrapper stateless"
+"ModulePrototype","entity boundary","Update","empty"
+"ModulePrototype","entity boundary","Reset","command collaborator"
+"ModulePrototype","entity boundary","get","property factory collaborator"
+"ModuleSet","unclassified","ModuleSet","constructor"
+"ModuleSet","unclassified","ModuleSet","constructor"
+"ModuleSet","unclassified","ModuleSet","copy-constructor"
+"ModuleSet","unclassified","Add","command collaborator"
+"ModuleSet","unclassified","Remove","predicate non-void-command collaborator"
+"ModuleSet","unclassified","Contains","get collaborator"
+"ModuleSet","unclassified","Contains","get"
+"ModuleSet","unclassified","Clear","command"
+"ModuleSet","unclassified","Intersect","command"
+"ModuleSet","unclassified","Add","command"
+"ModuleSet","unclassified","Remove","command"
+"ModuleSet","unclassified","CopyTo","void-accessor collaborator"
+"ModuleSet","unclassified","GetEnumerator","property collaborator"
+"ModuleSet","unclassified","IEnumerable.GetEnumerator","property non-void-command collaborator"
+"ModuleSet","unclassified","calculateEntropy","property wrapper"
+"ModuleSet","unclassified","get","get wrapper"
+"ModuleSet","unclassified","get","incidental"
+"ModuleSet","unclassified","get","get predicate"
+"ModuleSet","unclassified","get","get predicate"
+"ModuleSet","unclassified","get","get non-void-command"
+"ModuleSet","unclassified","get","incidental"
+"Portal","entity boundary","Portal","constructor"
+"Portal","entity boundary","ReplaceRoom","collaborator incidental"
+"Portal","entity boundary","Follow","collaborator incidental"
+"Portal","entity boundary","Follow","property wrapper"
+"Portal","entity boundary","FacesCamera","predicate wrapper"
+"Portal","entity boundary","FacesCamera","predicate wrapper"
+"Portal","entity boundary","getCorners","property factory collaborator"
+"Portal","entity boundary","Draw","command collaborator"
+"Portal","entity boundary","DrawFrustum","command collaborator"
+"Portal","entity boundary","GetFrustumPlanes","non-void-command factory collaborator"
+"Portal","entity boundary","get","incidental"
+"Portal","entity boundary","get","collaborator incidental"
+"OcclusionCulling","commander","OnEnable","set"
+"OcclusionCulling","commander","ShowOutside","command"
+"OcclusionCulling","commander","ShowPortal","command"
+"OcclusionCulling","commander","Update","command collaborator"
+"OcclusionCulling","commander","OnDisable","controller"
+"GenerateMapNearPlayer","commander","Start","command"
+"GenerateMapNearPlayer","commander","OnDisable","command"
+"GenerateMapNearPlayer","commander","generate","command"
+"GenerateMapNearPlayer","commander","createChunk","command collaborator"
+"GenerateMapNearPlayer","commander","generatorThread","command"
+"GenerateMapNearPlayer","commander","Update","command"
+"GenerateMapNearPlayer","commander","RegisterMapGenerationCallbackReceiver","set collaborator"
+"GenerateMapNearPlayer","commander","UnregisterMapGenerationCallbackReceiver","command collaborator"
+"GenerateMapNearPlayer","commander","IsGenerated","predicate non-void-command collaborator"
+"ModulePrototypeEditorData","entity data-class small-class","ModulePrototypeEditorData","constructor"
+"ModulePrototypeEditorData","entity data-class small-class","getMesh","get property set collaborator"
+"ModulePrototypeEditorData","entity data-class small-class","GetConnectorHint","property non-void-command factory collaborator"
+"DistanceCulling","commander boundary","OnEnable","command"
+"DistanceCulling","commander boundary","OnDisable","set collaborator"
+"DistanceCulling","commander boundary","Update","command collaborator"
+"DistanceCulling","commander boundary","getHorizontalDistance","wrapper stateless"
+"DistanceCulling","commander boundary","UpdateChunks","command collaborator"
+"SlotInspectorEditor","commander boundary","showEditor","command collaborator"
+"SlotInspectorEditor","commander boundary","OnInspectorGUI","command collaborator"
+"SlotInspectorEditor","commander boundary","OnSceneGUI","controller stateless"
+"SlotInspectorEditor","commander boundary","createNeighborExlusionUI","command collaborator"
+"SlotInspectorEditor","commander boundary","getColor","collaborator stateless"
+"Room","small-class","Room","constructor"
+"Room","small-class","SetVisibility","command collaborator"
+"Room","small-class","DrawGizmo","controller"
+"FreeCameraController","commander small-class","OnEnable","command"
+"FreeCameraController","commander small-class","Update","command collaborator"
+"HistoryItem","empty","HistoryItem","constructor"
+"FlightController","commander boundary small-class","OnEnable","command collaborator"
+"FlightController","commander boundary small-class","Update","set collaborator"
+"MapBehaviour","commander boundary","GetWorldspacePosition","controller stateless"
+"MapBehaviour","commander boundary","GetMapPosition","wrapper stateless"
+"MapBehaviour","commander boundary","Clear","set collaborator"
+"MapBehaviour","commander boundary","Initialize","command"
+"MapBehaviour","commander boundary","Update","command collaborator"
+"MapBehaviour","commander boundary","BuildSlot","predicate non-void-command collaborator"
+"MapBehaviour","commander boundary","BuildAllSlots","command"
+"MapBehaviour","commander boundary","get","predicate"
+"Chunk","commander boundary","Chunk","constructor"
+"Chunk","commander boundary","SetInRenderRange","set collaborator"
+"Chunk","commander boundary","SetExteriorVisibility","set collaborator"
+"Chunk","commander boundary","SetRoomVisibility","controller"
+"Chunk","commander boundary","AddBlock","command collaborator"
+"Chunk","commander boundary","RemoveBlock","command collaborator"
+"AreaSelectorEditor","pure-controller degenerate small-class","OnInspectorGUI","controller stateless"
+"TreePlacer","commander boundary","prepareModulesThatGrowTrees","set collaborator"
+"TreePlacer","commander boundary","checkIfNearbySlotsAreBuilt","predicate non-void-command collaborator"
+"TreePlacer","commander boundary","OnEnable","command"
+"TreePlacer","commander boundary","OnDisable","command"
+"TreePlacer","commander boundary","OnGenerateChunk","command collaborator"
+"TreePlacer","commander boundary","checkIfNeighbourChunksAreGenerated","controller stateless"
+"TreePlacer","commander boundary","getTreePosition","property non-void-command collaborator"
+"TreePlacer","commander boundary","PlantTree","property non-void-command factory collaborator"
+"TreeGenerator","entity commander boundary","calculateEnergy","command collaborator"
+"TreeGenerator","entity commander boundary","Reset","command"
+"TreeGenerator","entity commander boundary","Grow","command collaborator"
+"TreeGenerator","entity commander boundary","Prune","command"
+"TreeGenerator","entity commander boundary","Build","command collaborator"
+"TreeGenerator","entity commander boundary","BuildCoroutine","property non-void-command collaborator"
+"TreeGenerator","entity commander boundary","getBranchRadius","property wrapper"
+"TreeGenerator","entity commander boundary","CreateMesh","property non-void-command factory collaborator"
+"TreeGenerator","entity commander boundary","createBranchColliders","command"
+"TreeGenerator","entity commander boundary","generateColor","command collaborator"
+"ControlModeSwitcher","commander boundary","Start","command collaborator"
+"ControlModeSwitcher","commander boundary","Update","command"
+"ControlModeSwitcher","commander boundary","SetMode","command collaborator"
+"CullingData","boundary","Initialize","command"
+"CullingData","boundary","GetChunkAddress","property controller"
+"CullingData","boundary","GetChunkCenter","property non-void-command collaborator"
+"CullingData","boundary","getChunk","get property non-void-command factory collaborator"
+"CullingData","boundary","getChunkFromPosition","property non-void-command collaborator"
+"CullingData","boundary","GetRoom","get property non-void-command collaborator"
+"CullingData","boundary","AddSlot","command collaborator"
+"CullingData","boundary","updatePortals","command collaborator"
+"CullingData","boundary","ClearOutdatedSlots","command collaborator"
+"CullingData","boundary","removePortal","command collaborator"
+"CullingData","boundary","RemoveSlot","command collaborator"
+"CullingData","boundary","removeRoom","command collaborator"
+"CullingData","boundary","mergeRooms","property set collaborator"
+"CullingData","boundary","addPortalToChunks","command collaborator"
+"CullingData","boundary","getPortal","non-void-command factory collaborator"
+"CollapseFailedException","empty","CollapseFailedException","constructor"
+"Module","entity data-provider boundary","Module","constructor"
+"Module","entity data-provider boundary","Fits","predicate wrapper"
+"Module","entity data-provider boundary","Fits","predicate non-void-command collaborator"
+"Module","entity data-provider boundary","GetFace","property wrapper"
+"Module","entity data-provider boundary","ToString","get"
+"FirstPersonController","commander","OnEnable","command"
+"FirstPersonController","commander","Update","command"
+"FirstPersonController","commander","Enable","set"
+"FirstPersonController","commander","onGround","predicate wrapper"
+"RingBuffer<T>","entity boundary","RingBuffer","constructor"
+"RingBuffer<T>","entity boundary","Push","command collaborator"
+"RingBuffer<T>","entity boundary","Peek","get collaborator"
+"RingBuffer<T>","entity boundary","Pop","property non-void-command collaborator"
+"RingBuffer<T>","entity boundary","Any","predicate"
+"InfiniteMap","entity boundary","InfiniteMap","constructor"
+"InfiniteMap","entity boundary","GetSlot","get property non-void-command collaborator"
+"InfiniteMap","entity boundary","IsOutsideOfRangeLimit","predicate collaborator"
+"InfiniteMap","entity boundary","ApplyBoundaryConstraints","command collaborator"
+"InfiniteMap","entity boundary","GetAllSlots","property collaborator"
+"InfiniteMap","entity boundary","GetDefaultSlot","property non-void-command collaborator"
+"InfiniteMap","entity boundary","IsSlotInitialized","predicate non-void-command collaborator"
+"InfiniteMap","entity boundary","OnHitRangeLimit","set collaborator"
+"ModulePrototypeEditor","pure-controller degenerate small-class","OnInspectorGUI","controller stateless"
+"TakeScreenshot","commander","Update","command"
+"TakeScreenshot","commander","getFilename","property non-void-command"
+"TakeScreenshot","commander","Capture","command collaborator"
+"ModuleData","unclassified","SimplifyNeighborData","set"
+"ModuleData","unclassified","getPrototypes","property controller"
+"ModuleData","unclassified","CreateModules","command collaborator"
+"ModuleData","unclassified","OnBeforeSerialize","empty"
+"ModuleData","unclassified","OnAfterDeserialize","set collaborator"
+"ModuleData","unclassified","SavePrototypes","controller"
+"QueueDictionary<TKey,TValue>","entity boundary","QueueDictionary","constructor"
+"QueueDictionary<TKey,TValue>","entity boundary","Peek","property non-void-command factory collaborator"
+"QueueDictionary<TKey,TValue>","entity boundary","Dequeue","non-void-command factory collaborator"
+"QueueDictionary<TKey,TValue>","entity boundary","Any","predicate"
+"QueueDictionary<TKey,TValue>","entity boundary","Clear","command"
+"QueueDictionary<TKey,TValue>","entity boundary","get","get non-void-command collaborator"
+"QueueDictionary<TKey,TValue>","entity boundary","set","non-void-command collaborator"
+"ColorGenerator","data-provider boundary small-class","GetColor","property wrapper"
+"Node","boundary","Node","constructor"
+"Node","boundary","Node","copy-constructor"
+"Node","boundary","CrateLeafCollider","command"
+"Node","boundary","RemoveLeafCollider","wrapper"
+"Node","boundary","GetTree","get property controller"
+"Node","boundary","raycast","property set collaborator"
+"Node","boundary","Branch","command collaborator"
+"Node","boundary","getGrowthDirection","property non-void-command collaborator"
+"Node","boundary","Grow","command collaborator"
+"Node","boundary","CalculateEnergy","set"
+"Node","boundary","CalculateSubtreeSize","set collaborator"
+"AreaSelector","data-provider boundary small-class","get","property wrapper"
+"AreaSelector","data-provider boundary small-class","get","property wrapper"
+"AbstractMap","entity commander boundary","AbstractMap","constructor"
+"AbstractMap","entity commander boundary","NotifySlotCollapsed","command collaborator"
+"AbstractMap","entity commander boundary","NotifySlotCollapseUndone","command collaborator"
+"AbstractMap","entity commander boundary","FinishRemovalQueue","command collaborator"
+"AbstractMap","entity commander boundary","EnforceWalkway","command collaborator"
+"AbstractMap","entity commander boundary","EnforceWalkway","command collaborator"
+"AbstractMap","entity commander boundary","Collapse","command"
+"AbstractMap","entity commander boundary","Collapse","command"
+"AbstractMap","entity commander boundary","Undo","command collaborator"
+"AbstractMap","entity commander boundary","createInitialModuleHealth","wrapper stateless"
+"AbstractMap","entity commander boundary","CopyInititalModuleHealth","property non-void-command"

@@ -1,195 +1,195 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"WebSocketProtocol","empty","WebSocketProtocol","constructor",
-"HttpRequest","unclassified","isAncient","get",
-"HttpRequest","unclassified","getYield","get",
-"HttpRequest","unclassified","begin","collaborator incidental",
-"HttpRequest","unclassified","end","collaborator incidental",
-"HttpRequest","unclassified","setYield","set",
-"HttpRequest","unclassified","getHeader","property non-void-command collaborator",
-"HttpRequest","unclassified","getUrl","property controller",
-"HttpRequest","unclassified","getFullUrl","controller stateless",
-"HttpRequest","unclassified","getCaseSensitiveMethod","controller stateless",
-"HttpRequest","unclassified","getMethod","controller stateless",
-"HttpRequest","unclassified","getQuery","property controller",
-"HttpRequest","unclassified","getQuery","property controller",
-"HttpRequest","unclassified","setParameters","set collaborator",
-"HttpRequest","unclassified","setParameterOffsets","set collaborator",
-"HttpRequest","unclassified","getParameter","property non-void-command collaborator",
-"HttpRequest","unclassified","getParameter","get property collaborator",
-"Http3Request","pure-controller degenerate small-class","getHeader","controller stateless",
-"H3App","controller","H3App","copy-constructor",
-"H3App","controller","listen","property non-void-command collaborator",
-"H3App","controller","listen","property non-void-command collaborator",
-"H3App","controller","listen","property controller",
-"H3App","controller","listen","property controller",
-"H3App","controller","get","property controller",
-"H3App","controller","post","property controller",
-"H3App","controller","options","property controller",
-"H3App","controller","del","property controller",
-"H3App","controller","patch","property controller",
-"H3App","controller","put","property controller",
-"H3App","controller","head","property controller",
-"H3App","controller","connect","property controller",
-"H3App","controller","trace","property controller",
-"H3App","controller","any","property controller",
-"H3App","controller","run","command",
-"AsyncFileStreamer","small-class","AsyncFileStreamer","constructor",
-"AsyncFileStreamer","small-class","updateRootCache","set",
-"AsyncFileStreamer","small-class","streamFile","void-accessor command collaborator",
-"BackPressure","unclassified","BackPressure","copy-constructor",
-"BackPressure","unclassified","append","void-accessor command",
-"BackPressure","unclassified","erase","command",
-"BackPressure","unclassified","length","property non-void-command",
-"BackPressure","unclassified","clear","set",
-"BackPressure","unclassified","reserve","command",
-"BackPressure","unclassified","resize","command",
-"BackPressure","unclassified","data","property non-void-command",
-"BackPressure","unclassified","size","property non-void-command",
-"BackPressure","unclassified","totalLength","property non-void-command",
-"ClientApp","data-provider small-class","ClientApp","constructor",
-"ClientApp","data-provider small-class","connect","property wrapper",
-"ClientApp","data-provider small-class","run","empty",
-"HttpContext","entity boundary","getLoop","property non-void-command collaborator",
-"HttpContext","entity boundary","getSocketContext","property collaborator",
-"HttpContext","entity boundary","getSocketContextData","property non-void-command collaborator",
-"HttpContext","entity boundary","init","property non-void-command collaborator",
-"WebSocketContext","data-provider boundary small-class","getSocketContext","property collaborator",
-"WebSocketContext","data-provider boundary small-class","getExt","property wrapper",
-"AsyncSocket","boundary","throttle_helper","command",
-"AsyncSocket","boundary","getNativeHandle","property wrapper",
-"AsyncSocket","boundary","getLoopData","property wrapper",
-"AsyncSocket","boundary","getAsyncSocketData","property wrapper",
-"AsyncSocket","boundary","timeout","wrapper",
-"AsyncSocket","boundary","shutdown","wrapper",
-"AsyncSocket","boundary","pause","property non-void-command collaborator",
-"AsyncSocket","boundary","resume","property non-void-command collaborator",
-"AsyncSocket","boundary","close","property wrapper",
-"AsyncSocket","boundary","corkUnchecked","command",
-"AsyncSocket","boundary","uncorkWithoutSending","command",
-"AsyncSocket","boundary","cork","command",
-"AsyncSocket","boundary","isCorked","predicate non-void-command",
-"AsyncSocket","boundary","canCork","predicate non-void-command",
-"AsyncSocket","boundary","getSendBuffer","property non-void-command collaborator",
-"AsyncSocket","boundary","getBufferedAmount","property non-void-command",
-"AsyncSocket","boundary","addressAsText","controller stateless",
-"AsyncSocket","boundary","getRemoteAddress","property wrapper",
-"AsyncSocket","boundary","getRemoteAddressAsText","property non-void-command collaborator",
-"AsyncSocket","boundary","write","property non-void-command",
-"AsyncSocket","boundary","uncork","property non-void-command collaborator",
-"AsyncSocketData","empty","AsyncSocketData","constructor",
-"Http3Response","boundary lazy-class","close","empty",
-"Http3Response","boundary lazy-class","endWithoutBody","empty",
-"Http3Response","boundary lazy-class","writeStatus","get controller",
-"Http3Response","boundary lazy-class","writeHeader","get non-void-command collaborator",
-"Http3Response","boundary lazy-class","tryEnd","property non-void-command collaborator",
-"Http3Response","boundary lazy-class","write","get collaborator",
-"BloomFilter","boundary","getFeatures","controller stateless",
-"BloomFilter","boundary","mightHave","get predicate non-void-command collaborator",
-"BloomFilter","boundary","add","command collaborator",
-"BloomFilter","boundary","reset","command",
-"SocketContextOptions","boundary small-class","operatorstructus_socket_context_options_t","wrapper",
-"AsyncFileReader","entity boundary small-class","AsyncFileReader","constructor",
-"AsyncFileReader","entity boundary small-class","peek","property non-void-command collaborator",
-"AsyncFileReader","entity boundary small-class","request","command collaborator",
-"HttpResponse","boundary","getHttpResponseData","property non-void-command collaborator",
-"HttpResponse","boundary","writeUnsignedHex","wrapper stateless",
-"HttpResponse","boundary","writeUnsigned64","wrapper stateless",
-"HttpResponse","boundary","writeMark","command",
-"HttpResponse","boundary","internalEnd","predicate non-void-command",
-"HttpResponse","boundary","getProxiedRemoteAddress","property non-void-command collaborator",
-"HttpResponse","boundary","getProxiedRemoteAddressAsText","property non-void-command collaborator",
-"HttpResponse","boundary","upgrade","void-accessor command collaborator",
-"HttpResponse","boundary","pause","get non-void-command",
-"HttpResponse","boundary","resume","get non-void-command",
-"HttpResponse","boundary","writeContinue","get wrapper",
-"HttpResponse","boundary","writeStatus","get non-void-command collaborator",
-"HttpResponse","boundary","writeHeader","get non-void-command collaborator",
-"HttpResponse","boundary","writeHeader","get non-void-command",
-"HttpResponse","boundary","endWithoutBody","controller stateless",
-"HttpResponseData","small-class","markDone","command",
-"HttpResponseData","small-class","callOnWritable","predicate set collaborator",
-"Loop","unclassified","init","get wrapper",
-"Loop","unclassified","free","controller",
-"Loop","unclassified","addPostHandler","void-accessor controller",
-"Loop","unclassified","removePostHandler","void-accessor controller",
-"Loop","unclassified","addPreHandler","void-accessor controller",
-"Loop","unclassified","removePreHandler","void-accessor controller",
-"Loop","unclassified","defer","void-accessor controller",
-"Loop","unclassified","run","wrapper",
-"Loop","unclassified","integrate","wrapper",
-"Loop","unclassified","setSilent","wrapper",
-"LoopData","boundary small-class","~LoopData","destructor",
-"LoopData","boundary small-class","updateDate","wrapper",
-"HttpRouter","small-class","lexicalOrder","controller stateless",
-"HttpRouter","small-class","getNode","property non-void-command collaborator",
-"any_invocable_impl","unclassified","any_invocable_impl","constructor",
-"any_invocable_impl","unclassified","any_invocable_impl","copy-constructor",
-"any_invocable_impl","unclassified","operator=","get non-void-command",
-"any_invocable_impl","unclassified","operator=","get non-void-command",
-"any_invocable_impl","unclassified","~any_invocable_impl","destructor",
-"any_invocable_impl","unclassified","swap","void-accessor command collaborator",
-"any_invocable_impl","unclassified","operatorbool","unclassified",
-"any_invocable_impl","unclassified","create","void-accessor command collaborator",
-"any_invocable_impl","unclassified","destroy","set",
-"any_invocable_impl","unclassified","call","property wrapper",
-"any_invocable_impl","unclassified","operator==","incidental",
-"any_invocable_impl","unclassified","operator==","incidental",
-"any_invocable_impl","unclassified","operator!=","incidental",
-"any_invocable_impl","unclassified","operator!=","incidental",
-"any_invocable_impl","unclassified","swap","incidental",
-"ParameterParser","entity boundary small-class","ParameterParser","constructor",
-"ParameterParser","entity boundary small-class","getKeyValue","property non-void-command collaborator",
-"ParameterParser","entity boundary small-class","getToken","property non-void-command collaborator",
-"MultipartParser","entity boundary","MultipartParser","constructor",
-"MultipartParser","entity boundary","isValid","predicate non-void-command",
-"MultipartParser","entity boundary","setBody","set collaborator",
-"MultipartParser","entity boundary","getNextPart","property non-void-command collaborator",
-"ChunkIterator","unclassified","ChunkIterator","constructor",
-"ChunkIterator","unclassified","ChunkIterator","constructor",
-"ChunkIterator","unclassified","begin","get",
-"ChunkIterator","unclassified","end","property non-void-command",
-"ChunkIterator","unclassified","operator*","property non-void-command collaborator",
-"ChunkIterator","unclassified","operator!=","predicate",
-"ChunkIterator","unclassified","operator++","get set",
-"HttpParser","boundary data-class small-class","fenceAndConsumePostPadded","property set collaborator",
-"ZlibContext","empty","ZlibContext","constructor",
-"ZlibContext","empty","~ZlibContext","destructor",
-"InflationStream","small-class","inflate","controller stateless",
-"InflationStream","small-class","InflationStream","constructor",
-"InflationStream","small-class","InflationStream","constructor",
-"InflationStream","small-class","~InflationStream","destructor",
-"InflationStream","small-class","inflate","property non-void-command collaborator",
-"DeflationStream","entity boundary small-class","deflate","collaborator incidental",
-"DeflationStream","entity boundary small-class","DeflationStream","constructor",
-"DeflationStream","entity boundary small-class","DeflationStream","constructor",
-"DeflationStream","entity boundary small-class","deflate","property non-void-command collaborator",
-"DeflationStream","entity boundary small-class","~DeflationStream","destructor",
-"WebSocketContextData","commander data-class small-class","calculateIdleTimeoutCompnents","set",
-"WebSocketContextData","commander data-class small-class","~WebSocketContextData","destructor",
-"WebSocketContextData","commander data-class small-class","WebSocketContextData","constructor",
-"ProxyParser","boundary small-class","getSourceAddress","property collaborator",
-"ProxyParser","boundary small-class","parse","property set collaborator",
-"Topic","empty","Topic","constructor",
-"Subscriber","data-provider data-class small-class","needsDrainage","get",
-"TopicTree","entity boundary","checkIteratingSubscriber","wrapper",
-"TopicTree","entity boundary","drainImpl","void-accessor wrapper",
-"TopicTree","entity boundary","unlinkDrainableSubscriber","void-accessor set collaborator",
-"TopicTree","entity boundary","TopicTree","constructor",
-"TopicTree","entity boundary","lookupTopic","property non-void-command collaborator",
-"TopicTree","entity boundary","subscribe","property non-void-command collaborator",
-"TopicTree","entity boundary","unsubscribe","property non-void-command collaborator",
-"TopicTree","entity boundary","createSubscriber","factory collaborator stateless",
-"TopicTree","entity boundary","freeSubscriber","void-accessor command collaborator",
-"TopicTree","entity boundary","drain","void-accessor command collaborator",
-"TopicTree","entity boundary","drain","command collaborator",
-"TopicTree","entity boundary","publishBig","predicate non-void-command collaborator",
-"TopicTree","entity boundary","publish","predicate non-void-command collaborator",
-"WebSocket","entity boundary","init","get wrapper",
-"WebSocket","entity boundary","getUserData","property wrapper",
-"WebSocket","entity boundary","close","property non-void-command collaborator",
-"WebSocket","entity boundary","sendFirstFragment","property non-void-command collaborator",
-"WebSocket","entity boundary","sendFragment","property non-void-command collaborator",
-"WebSocket","entity boundary","sendLastFragment","property non-void-command collaborator",
-"WebSocket","entity boundary","send","property non-void-command collaborator",
-"ExtensionsParser","boundary degenerate small-class","getToken","wrapper stateless",
-"ExtensionsParser","boundary degenerate small-class","ExtensionsParser","constructor",
+"WebSocketProtocol","empty","WebSocketProtocol","constructor"
+"HttpRequest","unclassified","isAncient","get"
+"HttpRequest","unclassified","getYield","get"
+"HttpRequest","unclassified","begin","collaborator incidental"
+"HttpRequest","unclassified","end","collaborator incidental"
+"HttpRequest","unclassified","setYield","set"
+"HttpRequest","unclassified","getHeader","property non-void-command collaborator"
+"HttpRequest","unclassified","getUrl","property controller"
+"HttpRequest","unclassified","getFullUrl","controller stateless"
+"HttpRequest","unclassified","getCaseSensitiveMethod","controller stateless"
+"HttpRequest","unclassified","getMethod","controller stateless"
+"HttpRequest","unclassified","getQuery","property controller"
+"HttpRequest","unclassified","getQuery","property controller"
+"HttpRequest","unclassified","setParameters","set collaborator"
+"HttpRequest","unclassified","setParameterOffsets","set collaborator"
+"HttpRequest","unclassified","getParameter","property non-void-command collaborator"
+"HttpRequest","unclassified","getParameter","property collaborator"
+"Http3Request","pure-controller degenerate small-class","getHeader","controller stateless"
+"H3App","controller","H3App","copy-constructor"
+"H3App","controller","listen","property non-void-command collaborator"
+"H3App","controller","listen","property non-void-command collaborator"
+"H3App","controller","listen","property controller"
+"H3App","controller","listen","property controller"
+"H3App","controller","get","property controller"
+"H3App","controller","post","property controller"
+"H3App","controller","options","property controller"
+"H3App","controller","del","property controller"
+"H3App","controller","patch","property controller"
+"H3App","controller","put","property controller"
+"H3App","controller","head","property controller"
+"H3App","controller","connect","property controller"
+"H3App","controller","trace","property controller"
+"H3App","controller","any","property controller"
+"H3App","controller","run","command"
+"AsyncFileStreamer","commander small-class","AsyncFileStreamer","constructor"
+"AsyncFileStreamer","commander small-class","updateRootCache","set"
+"AsyncFileStreamer","commander small-class","streamFile","command collaborator"
+"BackPressure","commander","BackPressure","copy-constructor"
+"BackPressure","commander","append","command"
+"BackPressure","commander","erase","command"
+"BackPressure","commander","length","property non-void-command"
+"BackPressure","commander","clear","set"
+"BackPressure","commander","reserve","command"
+"BackPressure","commander","resize","command"
+"BackPressure","commander","data","property non-void-command"
+"BackPressure","commander","size","property non-void-command"
+"BackPressure","commander","totalLength","property non-void-command"
+"ClientApp","data-provider small-class","ClientApp","constructor"
+"ClientApp","data-provider small-class","connect","property wrapper"
+"ClientApp","data-provider small-class","run","empty"
+"HttpContext","entity boundary","getLoop","property non-void-command collaborator"
+"HttpContext","entity boundary","getSocketContext","property collaborator"
+"HttpContext","entity boundary","getSocketContextData","property non-void-command collaborator"
+"HttpContext","entity boundary","init","property non-void-command collaborator"
+"WebSocketContext","data-provider boundary small-class","getSocketContext","property collaborator"
+"WebSocketContext","data-provider boundary small-class","getExt","property wrapper"
+"AsyncSocket","boundary","throttle_helper","command"
+"AsyncSocket","boundary","getNativeHandle","property wrapper"
+"AsyncSocket","boundary","getLoopData","property wrapper"
+"AsyncSocket","boundary","getAsyncSocketData","property wrapper"
+"AsyncSocket","boundary","timeout","wrapper"
+"AsyncSocket","boundary","shutdown","wrapper"
+"AsyncSocket","boundary","pause","property non-void-command collaborator"
+"AsyncSocket","boundary","resume","property non-void-command collaborator"
+"AsyncSocket","boundary","close","property wrapper"
+"AsyncSocket","boundary","corkUnchecked","command"
+"AsyncSocket","boundary","uncorkWithoutSending","command"
+"AsyncSocket","boundary","cork","command"
+"AsyncSocket","boundary","isCorked","predicate non-void-command"
+"AsyncSocket","boundary","canCork","predicate non-void-command"
+"AsyncSocket","boundary","getSendBuffer","property non-void-command collaborator"
+"AsyncSocket","boundary","getBufferedAmount","property non-void-command"
+"AsyncSocket","boundary","addressAsText","controller stateless"
+"AsyncSocket","boundary","getRemoteAddress","property wrapper"
+"AsyncSocket","boundary","getRemoteAddressAsText","property non-void-command collaborator"
+"AsyncSocket","boundary","write","property non-void-command"
+"AsyncSocket","boundary","uncork","property non-void-command collaborator"
+"AsyncSocketData","empty","AsyncSocketData","constructor"
+"Http3Response","boundary lazy-class","close","empty"
+"Http3Response","boundary lazy-class","endWithoutBody","empty"
+"Http3Response","boundary lazy-class","writeStatus","get controller"
+"Http3Response","boundary lazy-class","writeHeader","get non-void-command collaborator"
+"Http3Response","boundary lazy-class","tryEnd","property non-void-command collaborator"
+"Http3Response","boundary lazy-class","write","get collaborator"
+"BloomFilter","boundary","getFeatures","controller stateless"
+"BloomFilter","boundary","mightHave","get predicate non-void-command collaborator"
+"BloomFilter","boundary","add","command collaborator"
+"BloomFilter","boundary","reset","command"
+"SocketContextOptions","boundary small-class","operatorstructus_socket_context_options_t","wrapper"
+"AsyncFileReader","entity boundary small-class","AsyncFileReader","constructor"
+"AsyncFileReader","entity boundary small-class","peek","property non-void-command collaborator"
+"AsyncFileReader","entity boundary small-class","request","command collaborator"
+"HttpResponse","boundary","getHttpResponseData","property non-void-command collaborator"
+"HttpResponse","boundary","writeUnsignedHex","wrapper stateless"
+"HttpResponse","boundary","writeUnsigned64","wrapper stateless"
+"HttpResponse","boundary","writeMark","command"
+"HttpResponse","boundary","internalEnd","predicate non-void-command"
+"HttpResponse","boundary","getProxiedRemoteAddress","property non-void-command collaborator"
+"HttpResponse","boundary","getProxiedRemoteAddressAsText","property non-void-command collaborator"
+"HttpResponse","boundary","upgrade","command collaborator"
+"HttpResponse","boundary","pause","get non-void-command"
+"HttpResponse","boundary","resume","get non-void-command"
+"HttpResponse","boundary","writeContinue","get wrapper"
+"HttpResponse","boundary","writeStatus","get non-void-command collaborator"
+"HttpResponse","boundary","writeHeader","get non-void-command collaborator"
+"HttpResponse","boundary","writeHeader","get non-void-command"
+"HttpResponse","boundary","endWithoutBody","controller stateless"
+"HttpResponseData","small-class","markDone","command"
+"HttpResponseData","small-class","callOnWritable","predicate set collaborator"
+"Loop","unclassified","init","get wrapper"
+"Loop","unclassified","free","controller"
+"Loop","unclassified","addPostHandler","controller"
+"Loop","unclassified","removePostHandler","controller"
+"Loop","unclassified","addPreHandler","controller"
+"Loop","unclassified","removePreHandler","controller"
+"Loop","unclassified","defer","controller"
+"Loop","unclassified","run","wrapper"
+"Loop","unclassified","integrate","wrapper"
+"Loop","unclassified","setSilent","wrapper"
+"LoopData","boundary small-class","~LoopData","destructor"
+"LoopData","boundary small-class","updateDate","wrapper"
+"TopicTree","entity boundary","checkIteratingSubscriber","wrapper"
+"TopicTree","entity boundary","drainImpl","void-accessor wrapper"
+"TopicTree","entity boundary","unlinkDrainableSubscriber","void-accessor set collaborator"
+"TopicTree","entity boundary","TopicTree","constructor"
+"TopicTree","entity boundary","lookupTopic","property non-void-command collaborator"
+"TopicTree","entity boundary","subscribe","property non-void-command collaborator"
+"TopicTree","entity boundary","unsubscribe","property non-void-command collaborator"
+"TopicTree","entity boundary","createSubscriber","factory collaborator stateless"
+"TopicTree","entity boundary","freeSubscriber","command collaborator"
+"TopicTree","entity boundary","drain","command collaborator"
+"TopicTree","entity boundary","drain","command collaborator"
+"TopicTree","entity boundary","publishBig","predicate non-void-command collaborator"
+"TopicTree","entity boundary","publish","predicate non-void-command collaborator"
+"HttpRouter","small-class","lexicalOrder","controller stateless"
+"HttpRouter","small-class","getNode","property non-void-command collaborator"
+"any_invocable_impl","unclassified","any_invocable_impl","constructor"
+"any_invocable_impl","unclassified","any_invocable_impl","copy-constructor"
+"any_invocable_impl","unclassified","operator=","get non-void-command"
+"any_invocable_impl","unclassified","operator=","get non-void-command"
+"any_invocable_impl","unclassified","~any_invocable_impl","destructor"
+"any_invocable_impl","unclassified","swap","void-accessor command collaborator"
+"any_invocable_impl","unclassified","operatorbool","unclassified"
+"any_invocable_impl","unclassified","create","command collaborator"
+"any_invocable_impl","unclassified","destroy","set"
+"any_invocable_impl","unclassified","call","property wrapper"
+"any_invocable_impl","unclassified","operator==","incidental"
+"any_invocable_impl","unclassified","operator==","incidental"
+"any_invocable_impl","unclassified","operator!=","incidental"
+"any_invocable_impl","unclassified","operator!=","incidental"
+"any_invocable_impl","unclassified","swap","incidental"
+"ParameterParser","entity boundary small-class","ParameterParser","constructor"
+"ParameterParser","entity boundary small-class","getKeyValue","property non-void-command collaborator"
+"ParameterParser","entity boundary small-class","getToken","property non-void-command collaborator"
+"MultipartParser","entity boundary","MultipartParser","constructor"
+"MultipartParser","entity boundary","isValid","predicate non-void-command"
+"MultipartParser","entity boundary","setBody","set collaborator"
+"MultipartParser","entity boundary","getNextPart","property non-void-command collaborator"
+"ChunkIterator","unclassified","ChunkIterator","constructor"
+"ChunkIterator","unclassified","ChunkIterator","constructor"
+"ChunkIterator","unclassified","begin","get"
+"ChunkIterator","unclassified","end","property non-void-command"
+"ChunkIterator","unclassified","operator*","property non-void-command collaborator"
+"ChunkIterator","unclassified","operator!=","predicate"
+"ChunkIterator","unclassified","operator++","get set"
+"HttpParser","boundary data-class small-class","fenceAndConsumePostPadded","property set collaborator"
+"ZlibContext","empty","ZlibContext","constructor"
+"ZlibContext","empty","~ZlibContext","destructor"
+"InflationStream","small-class","inflate","controller stateless"
+"InflationStream","small-class","InflationStream","constructor"
+"InflationStream","small-class","InflationStream","constructor"
+"InflationStream","small-class","~InflationStream","destructor"
+"InflationStream","small-class","inflate","property non-void-command collaborator"
+"DeflationStream","entity boundary small-class","deflate","collaborator incidental"
+"DeflationStream","entity boundary small-class","DeflationStream","constructor"
+"DeflationStream","entity boundary small-class","DeflationStream","constructor"
+"DeflationStream","entity boundary small-class","deflate","property non-void-command collaborator"
+"DeflationStream","entity boundary small-class","~DeflationStream","destructor"
+"WebSocketContextData","commander data-class small-class","calculateIdleTimeoutCompnents","set"
+"WebSocketContextData","commander data-class small-class","~WebSocketContextData","destructor"
+"WebSocketContextData","commander data-class small-class","WebSocketContextData","constructor"
+"ProxyParser","boundary small-class","getSourceAddress","property collaborator"
+"ProxyParser","boundary small-class","parse","property set collaborator"
+"Topic","empty","Topic","constructor"
+"Subscriber","data-provider data-class small-class","needsDrainage","get"
+"WebSocket","entity boundary","init","get wrapper"
+"WebSocket","entity boundary","getUserData","property wrapper"
+"WebSocket","entity boundary","close","property non-void-command collaborator"
+"WebSocket","entity boundary","sendFirstFragment","property non-void-command collaborator"
+"WebSocket","entity boundary","sendFragment","property non-void-command collaborator"
+"WebSocket","entity boundary","sendLastFragment","property non-void-command collaborator"
+"WebSocket","entity boundary","send","property non-void-command collaborator"
+"ExtensionsParser","boundary degenerate small-class","getToken","wrapper stateless"
+"ExtensionsParser","boundary degenerate small-class","ExtensionsParser","constructor"

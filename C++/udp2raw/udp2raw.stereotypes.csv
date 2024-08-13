@@ -1,120 +1,122 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"conn_manager_t","entity boundary","conn_manager_t::conn_manager_t","constructor",
-"conn_manager_t","entity boundary","conn_manager_t::exist","property non-void-command collaborator",
-"conn_manager_t","entity boundary","conn_manager_t::find_insert_p","get non-void-command collaborator",
-"conn_manager_t","entity boundary","conn_manager_t::find_insert","get non-void-command collaborator",
-"conn_manager_t","entity boundary","conn_manager_t::erase","property non-void-command collaborator",
-"conn_manager_t","entity boundary","conn_manager_t::clear_inactive","property set",
-"conn_manager_t","entity boundary","conn_manager_t::clear_inactive0","property non-void-command collaborator",
-"dynamic_loop","empty","dynamic_loop","constructor",
-"dynamic_loop","empty","~dynamic_loop","destructor",
-"fd_manager_t","boundary","fd_manager_t::fd_exist","controller stateless",
-"fd_manager_t","boundary","fd_manager_t::exist","controller stateless",
-"fd_manager_t","boundary","fd_manager_t::to_fd","get non-void-command collaborator",
-"fd_manager_t","boundary","fd_manager_t::fd64_close","command collaborator",
-"fd_manager_t","boundary","fd_manager_t::reserve","command",
-"fd_manager_t","boundary","fd_manager_t::create","property non-void-command collaborator",
-"fd_manager_t","boundary","fd_manager_t::fd_manager_t","constructor",
-"fd_manager_t","boundary","fd_manager_t::get_info","get non-void-command collaborator",
-"fd_manager_t","boundary","fd_manager_t::exist_info","property non-void-command collaborator",
-"base","boundary degenerate","set","incidental",
-"base","boundary degenerate","base","constructor",
-"base","boundary degenerate","set_","wrapper",
-"base","boundary degenerate","set","wrapper stateless",
-"base","boundary degenerate","set","wrapper stateless",
-"base","boundary degenerate","set","wrapper stateless",
-"default_loop","empty","default_loop","constructor",
-"bad_loop","empty","bad_loop","constructor",
-"loop_ref","data-provider boundary degenerate","loop_ref","constructor",
-"loop_ref","data-provider boundary degenerate","operator==","incidental",
-"loop_ref","data-provider boundary degenerate","operator!=","predicate",
-"loop_ref","data-provider boundary degenerate","operator==","incidental",
-"loop_ref","data-provider boundary degenerate","operator!=","predicate",
-"loop_ref","data-provider boundary degenerate","operatorstructev_loop*","incidental",
-"loop_ref","data-provider boundary degenerate","operatorconststructev_loop*","incidental",
-"loop_ref","data-provider boundary degenerate","is_default","wrapper stateless",
-"loop_ref","data-provider boundary degenerate","loop","incidental",
-"loop_ref","data-provider boundary degenerate","unloop","collaborator incidental",
-"loop_ref","data-provider boundary degenerate","run","incidental",
-"loop_ref","data-provider boundary degenerate","break_loop","collaborator incidental",
-"loop_ref","data-provider boundary degenerate","post_fork","wrapper stateless",
-"loop_ref","data-provider boundary degenerate","backend","wrapper stateless",
-"loop_ref","data-provider boundary degenerate","now","wrapper stateless",
-"loop_ref","data-provider boundary degenerate","ref","wrapper stateless",
-"loop_ref","data-provider boundary degenerate","unref","wrapper stateless",
-"loop_ref","data-provider boundary degenerate","iteration","wrapper stateless",
-"loop_ref","data-provider boundary degenerate","depth","wrapper stateless",
-"loop_ref","data-provider boundary degenerate","set_io_collect_interval","collaborator incidental",
-"loop_ref","data-provider boundary degenerate","set_timeout_collect_interval","collaborator incidental",
-"loop_ref","data-provider boundary degenerate","once","incidental",
-"loop_ref","data-provider boundary degenerate","once","wrapper stateless",
-"loop_ref","data-provider boundary degenerate","once","wrapper stateless",
-"random_fd_t","data-provider data-class small-class","random_fd_t","constructor",
-"random_fd_t","data-provider data-class small-class","get_fd","get",
-"address_t","unclassified","clear","wrapper",
-"address_t","unclassified","from_ip_port","property non-void-command",
-"address_t","unclassified","from_ip_port_new","property non-void-command",
-"address_t","unclassified","get_type","property collaborator",
-"address_t","unclassified","get_len","property non-void-command collaborator",
-"address_t","unclassified","get_port","property non-void-command collaborator",
-"address_t","unclassified","set_port","command collaborator",
-"address_t","unclassified","operator==","predicate wrapper",
-"address_t","unclassified","address_t::from_str","property non-void-command",
-"address_t","unclassified","address_t::from_str_ip_only","property non-void-command",
-"address_t","unclassified","address_t::get_str","property non-void-command",
-"address_t","unclassified","address_t::to_str","void-accessor command",
-"address_t","unclassified","address_t::get_ip","property non-void-command",
-"address_t","unclassified","address_t::from_sockaddr","property non-void-command collaborator",
-"address_t","unclassified","address_t::new_connected_udp_fd","property non-void-command",
-"hash<address_t>","boundary degenerate small-class","operator()","wrapper stateless",
-"queue_t","unclassified","clear","command",
-"queue_t","unclassified","empty","property",
-"queue_t","unclassified","full","property",
-"queue_t","unclassified","peek_front","void-accessor command",
-"queue_t","unclassified","pop_front","set",
-"queue_t","unclassified","push_back","void-accessor command",
-"lru_collector_t","boundary","update","property non-void-command collaborator",
-"lru_collector_t","boundary","new_key","property non-void-command collaborator",
-"lru_collector_t","boundary","size","property non-void-command",
-"lru_collector_t","boundary","empty","property non-void-command",
-"lru_collector_t","boundary","clear","command",
-"lru_collector_t","boundary","ts_of","get non-void-command collaborator",
-"lru_collector_t","boundary","peek_back","property non-void-command collaborator",
-"lru_collector_t","boundary","erase","command collaborator",
-"conv_manager_t","entity minimal-entity boundary","conv_manager_t","constructor",
-"conv_manager_t","entity minimal-entity boundary","~conv_manager_t","destructor",
-"conv_manager_t","entity minimal-entity boundary","get_size","property non-void-command",
-"conv_manager_t","entity minimal-entity boundary","reserve","command",
-"conv_manager_t","entity minimal-entity boundary","clear","command collaborator",
-"conv_manager_t","entity minimal-entity boundary","get_new_conv","property non-void-command collaborator",
-"conv_manager_t","entity minimal-entity boundary","is_conv_used","property non-void-command collaborator",
-"conv_manager_t","entity minimal-entity boundary","is_data_used","property non-void-command collaborator",
-"conv_manager_t","entity minimal-entity boundary","find_conv_by_data","get collaborator",
-"conv_manager_t","entity minimal-entity boundary","find_data_by_conv","get collaborator",
-"conv_manager_t","entity minimal-entity boundary","update_active_time","property non-void-command collaborator",
-"conv_manager_t","entity minimal-entity boundary","insert_conv","property non-void-command collaborator",
-"conv_manager_t","entity minimal-entity boundary","erase_conv","property non-void-command collaborator",
-"conv_manager_t","entity minimal-entity boundary","clear_inactive","property set",
-"conv_manager_t","entity minimal-entity boundary","clear_inactive0","property non-void-command collaborator",
-"my_random_t","data-provider boundary","my_random_t","constructor",
-"my_random_t","data-provider boundary","gen64","property wrapper",
-"my_random_t","data-provider boundary","gen32","property wrapper",
-"my_random_t","data-provider boundary","gen8","property wrapper",
-"anti_replay_t","entity boundary","anti_replay_t::get_new_seq_for_send","property set collaborator",
-"anti_replay_t","entity boundary","anti_replay_t::anti_replay_t","constructor",
-"anti_replay_t","entity boundary","anti_replay_t::re_init","set",
-"anti_replay_t","entity boundary","anti_replay_t::is_vaild","property non-void-command collaborator",
-"conn_info_t","commander","conn_info_t::recover","command",
-"conn_info_t","commander","conn_info_t::re_init","command",
-"conn_info_t","commander","conn_info_t::conn_info_t","constructor",
-"conn_info_t","commander","conn_info_t::prepare","command",
-"conn_info_t","commander","conn_info_t::conn_info_t","copy-constructor",
-"conn_info_t","commander","conn_info_t::operator=","get wrapper",
-"conn_info_t","commander","conn_info_t::~conn_info_t","destructor",
-"blob_t","empty","tmp_union_t","constructor",
-"blob_t","empty","~tmp_union_t","destructor",
-"not_copy_able_t","degenerate small-class","not_copy_able_t","constructor",
-"not_copy_able_t","degenerate small-class","not_copy_able_t","copy-constructor",
-"not_copy_able_t","degenerate small-class","operator=","incidental",
-"init_pcap_t","empty","init_pcap_t","constructor",
-"packet_info_t","empty","packet_info_t::packet_info_t","constructor",
+"conn_manager_t","entity boundary","conn_manager_t::conn_manager_t","constructor"
+"conn_manager_t","entity boundary","conn_manager_t::exist","property non-void-command collaborator"
+"conn_manager_t","entity boundary","conn_manager_t::find_insert_p","get non-void-command collaborator"
+"conn_manager_t","entity boundary","conn_manager_t::find_insert","get non-void-command collaborator"
+"conn_manager_t","entity boundary","conn_manager_t::erase","property non-void-command collaborator"
+"conn_manager_t","entity boundary","conn_manager_t::clear_inactive","property set"
+"conn_manager_t","entity boundary","conn_manager_t::clear_inactive0","property non-void-command collaborator"
+"dynamic_loop","empty","dynamic_loop","constructor"
+"dynamic_loop","empty","~dynamic_loop","destructor"
+"fd_manager_t","boundary","fd_manager_t::fd_exist","controller stateless"
+"fd_manager_t","boundary","fd_manager_t::exist","controller stateless"
+"fd_manager_t","boundary","fd_manager_t::to_fd","get non-void-command collaborator"
+"fd_manager_t","boundary","fd_manager_t::fd64_close","command collaborator"
+"fd_manager_t","boundary","fd_manager_t::reserve","command"
+"fd_manager_t","boundary","fd_manager_t::create","property non-void-command collaborator"
+"fd_manager_t","boundary","fd_manager_t::fd_manager_t","constructor"
+"fd_manager_t","boundary","fd_manager_t::get_info","get non-void-command collaborator"
+"fd_manager_t","boundary","fd_manager_t::exist_info","property non-void-command collaborator"
+"base","boundary degenerate","set","incidental"
+"base","boundary degenerate","base","constructor"
+"base","boundary degenerate","set_","wrapper"
+"base","boundary degenerate","set","wrapper stateless"
+"base","boundary degenerate","set","wrapper stateless"
+"base","boundary degenerate","set","wrapper stateless"
+"default_loop","empty","default_loop","constructor"
+"bad_loop","empty","bad_loop","constructor"
+"my_ip_t","entity data-provider boundary","my_ip_t::equal","predicate wrapper"
+"my_ip_t","entity data-provider boundary","my_ip_t::get_str1","property wrapper"
+"my_ip_t","entity data-provider boundary","my_ip_t::get_str2","property wrapper"
+"my_ip_t","entity data-provider boundary","my_ip_t::from_address_t","property non-void-command collaborator"
+"loop_ref","data-provider boundary degenerate","loop_ref","constructor"
+"loop_ref","data-provider boundary degenerate","operator==","incidental"
+"loop_ref","data-provider boundary degenerate","operator!=","predicate"
+"loop_ref","data-provider boundary degenerate","operator==","incidental"
+"loop_ref","data-provider boundary degenerate","operator!=","predicate"
+"loop_ref","data-provider boundary degenerate","operatorstructev_loop*","incidental"
+"loop_ref","data-provider boundary degenerate","operatorconststructev_loop*","incidental"
+"loop_ref","data-provider boundary degenerate","is_default","wrapper stateless"
+"loop_ref","data-provider boundary degenerate","loop","incidental"
+"loop_ref","data-provider boundary degenerate","unloop","collaborator incidental"
+"loop_ref","data-provider boundary degenerate","run","incidental"
+"loop_ref","data-provider boundary degenerate","break_loop","collaborator incidental"
+"loop_ref","data-provider boundary degenerate","post_fork","wrapper stateless"
+"loop_ref","data-provider boundary degenerate","backend","wrapper stateless"
+"loop_ref","data-provider boundary degenerate","now","wrapper stateless"
+"loop_ref","data-provider boundary degenerate","ref","wrapper stateless"
+"loop_ref","data-provider boundary degenerate","unref","wrapper stateless"
+"loop_ref","data-provider boundary degenerate","iteration","wrapper stateless"
+"loop_ref","data-provider boundary degenerate","depth","wrapper stateless"
+"loop_ref","data-provider boundary degenerate","set_io_collect_interval","collaborator incidental"
+"loop_ref","data-provider boundary degenerate","set_timeout_collect_interval","collaborator incidental"
+"loop_ref","data-provider boundary degenerate","once","incidental"
+"loop_ref","data-provider boundary degenerate","once","wrapper stateless"
+"loop_ref","data-provider boundary degenerate","once","wrapper stateless"
+"random_fd_t","data-provider data-class small-class","random_fd_t","constructor"
+"random_fd_t","data-provider data-class small-class","get_fd","get"
+"address_t","unclassified","clear","wrapper"
+"address_t","unclassified","from_ip_port","property non-void-command"
+"address_t","unclassified","from_ip_port_new","property non-void-command"
+"address_t","unclassified","get_type","property collaborator"
+"address_t","unclassified","get_len","property non-void-command collaborator"
+"address_t","unclassified","get_port","property non-void-command collaborator"
+"address_t","unclassified","set_port","command collaborator"
+"address_t","unclassified","operator==","predicate wrapper"
+"address_t","unclassified","address_t::from_str","property non-void-command"
+"address_t","unclassified","address_t::from_str_ip_only","property non-void-command"
+"address_t","unclassified","address_t::get_str","property non-void-command"
+"address_t","unclassified","address_t::to_str","command"
+"address_t","unclassified","address_t::get_ip","property non-void-command"
+"address_t","unclassified","address_t::from_sockaddr","property non-void-command collaborator"
+"address_t","unclassified","address_t::new_connected_udp_fd","property non-void-command"
+"hash<address_t>","boundary degenerate small-class","operator()","wrapper stateless"
+"queue_t","unclassified","clear","command"
+"queue_t","unclassified","empty","property"
+"queue_t","unclassified","full","property"
+"queue_t","unclassified","peek_front","void-accessor command"
+"queue_t","unclassified","pop_front","set"
+"queue_t","unclassified","push_back","command"
+"lru_collector_t","boundary","update","property non-void-command collaborator"
+"lru_collector_t","boundary","new_key","property non-void-command collaborator"
+"lru_collector_t","boundary","size","property non-void-command"
+"lru_collector_t","boundary","empty","property non-void-command"
+"lru_collector_t","boundary","clear","command"
+"lru_collector_t","boundary","ts_of","get non-void-command collaborator"
+"lru_collector_t","boundary","peek_back","property non-void-command collaborator"
+"lru_collector_t","boundary","erase","command collaborator"
+"conv_manager_t","entity minimal-entity boundary","conv_manager_t","constructor"
+"conv_manager_t","entity minimal-entity boundary","~conv_manager_t","destructor"
+"conv_manager_t","entity minimal-entity boundary","get_size","property non-void-command"
+"conv_manager_t","entity minimal-entity boundary","reserve","command"
+"conv_manager_t","entity minimal-entity boundary","clear","command collaborator"
+"conv_manager_t","entity minimal-entity boundary","get_new_conv","property non-void-command collaborator"
+"conv_manager_t","entity minimal-entity boundary","is_conv_used","property non-void-command collaborator"
+"conv_manager_t","entity minimal-entity boundary","is_data_used","property non-void-command collaborator"
+"conv_manager_t","entity minimal-entity boundary","find_conv_by_data","get collaborator"
+"conv_manager_t","entity minimal-entity boundary","find_data_by_conv","get collaborator"
+"conv_manager_t","entity minimal-entity boundary","update_active_time","property non-void-command collaborator"
+"conv_manager_t","entity minimal-entity boundary","insert_conv","property non-void-command collaborator"
+"conv_manager_t","entity minimal-entity boundary","erase_conv","property non-void-command collaborator"
+"conv_manager_t","entity minimal-entity boundary","clear_inactive","property set"
+"conv_manager_t","entity minimal-entity boundary","clear_inactive0","property non-void-command collaborator"
+"anti_replay_t","entity boundary","anti_replay_t::get_new_seq_for_send","property set collaborator"
+"anti_replay_t","entity boundary","anti_replay_t::anti_replay_t","constructor"
+"anti_replay_t","entity boundary","anti_replay_t::re_init","set"
+"anti_replay_t","entity boundary","anti_replay_t::is_vaild","property non-void-command collaborator"
+"my_random_t","data-provider boundary","my_random_t","constructor"
+"my_random_t","data-provider boundary","gen64","property wrapper"
+"my_random_t","data-provider boundary","gen32","property wrapper"
+"my_random_t","data-provider boundary","gen8","property wrapper"
+"conn_info_t","commander","conn_info_t::recover","command"
+"conn_info_t","commander","conn_info_t::re_init","command"
+"conn_info_t","commander","conn_info_t::conn_info_t","constructor"
+"conn_info_t","commander","conn_info_t::prepare","command"
+"conn_info_t","commander","conn_info_t::conn_info_t","copy-constructor"
+"conn_info_t","commander","conn_info_t::operator=","get wrapper"
+"conn_info_t","commander","conn_info_t::~conn_info_t","destructor"
+"init_pcap_t","empty","init_pcap_t","constructor"
+"packet_info_t","empty","packet_info_t::packet_info_t","constructor"
+"not_copy_able_t","degenerate small-class","not_copy_able_t","constructor"
+"not_copy_able_t","degenerate small-class","not_copy_able_t","copy-constructor"
+"not_copy_able_t","degenerate small-class","operator=","incidental"

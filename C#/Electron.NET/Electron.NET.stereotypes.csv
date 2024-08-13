@@ -1,271 +1,239 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"Startup","unclassified","Startup","constructor",
-"Startup","unclassified","ConfigureServices","controller stateless",
-"Startup","unclassified","Configure","command collaborator",
-"Startup","unclassified","ElectronBootstrap","controller",
-"UpdateController","boundary degenerate small-class","Index","wrapper stateless",
-"ShellController","boundary degenerate small-class","Index","wrapper stateless",
-"PdfController","pure-controller degenerate small-class","Index","controller stateless",
-"MenusController","entity boundary small-class","Index","property non-void-command collaborator",
-"MenusController","entity boundary small-class","CreateContextMenu","wrapper stateless",
-"IpcController","boundary degenerate small-class","Index","wrapper stateless",
-"HomeController","boundary degenerate small-class","Index","wrapper stateless",
-"CrashHangController","degenerate","Index","controller stateless",
-"CrashHangController","degenerate","ProcessCrash","wrapper stateless",
-"CrashHangController","degenerate","ProcessHang","wrapper stateless",
-"AppSysInformationController","boundary degenerate small-class","Index","wrapper stateless",
-"Program","boundary degenerate small-class","get","wrapper stateless",
-"VersionCommand","boundary degenerate small-class","VersionCommand","constructor",
-"VersionCommand","boundary degenerate small-class","ExecuteAsync","wrapper stateless",
-"StartElectronCommand","controller small-class","StartElectronCommand","constructor",
-"StartElectronCommand","controller small-class","ExecuteAsync","property controller",
-"InitCommand","entity boundary small-class","InitCommand","constructor",
-"InitCommand","entity boundary small-class","ExecuteAsync","property non-void-command collaborator",
-"CommandOption","controller small-class","get","property controller",
-"AddCommand","data-provider boundary small-class","AddCommand","constructor",
-"AddCommand","data-provider boundary small-class","ExecuteAsync","property wrapper",
-"CreateInterruptedDownloadOptions","empty","CreateInterruptedDownloadOptions","constructor",
-"ClipboardController","boundary degenerate small-class","Index","wrapper stateless",
-"TrayController","data-provider boundary small-class","TrayController","constructor",
-"TrayController","data-provider boundary small-class","Index","property wrapper",
-"NotificationsController","boundary degenerate small-class","Index","wrapper stateless",
-"WindowManager","entity minimal-entity boundary","WindowManager","constructor",
-"WindowManager","entity minimal-entity boundary","CreateWindowAsync","property non-void-command collaborator",
-"WindowManager","entity minimal-entity boundary","CreateWindowAsync","property non-void-command collaborator",
-"WindowManager","entity minimal-entity boundary","IsWindows10","wrapper stateless",
-"WindowManager","entity minimal-entity boundary","CreateBrowserViewAsync","property non-void-command collaborator",
-"WindowManager","entity minimal-entity boundary","CreateBrowserViewAsync","property non-void-command collaborator",
-"WindowManager","entity minimal-entity boundary","get","get set factory",
-"WindowManager","entity minimal-entity boundary","set","set",
-"Dialog","controller","Dialog","constructor",
-"Dialog","controller","ShowOpenDialogAsync","factory controller",
-"Dialog","controller","ShowSaveDialogAsync","factory controller",
-"Dialog","controller","ShowMessageBoxAsync","property non-void-command collaborator",
-"Dialog","controller","ShowMessageBoxAsync","property non-void-command collaborator",
-"Dialog","controller","ShowMessageBoxAsync","property non-void-command collaborator",
-"Dialog","controller","ShowMessageBoxAsync","factory wrapper",
-"Dialog","controller","ShowErrorBox","wrapper stateless",
-"Dialog","controller","ShowCertificateTrustDialogAsync","property non-void-command collaborator",
-"Dialog","controller","ShowCertificateTrustDialogAsync","factory controller",
-"Dialog","controller","get","get set factory",
-"BuildCommand","small-class","BuildCommand","constructor",
-"BuildCommand","small-class","ExecuteAsync","property non-void-command collaborator",
-"BuildCommand","small-class","GetDotNetPublishFlags","controller",
-"WindowsController","degenerate","Index","controller stateless",
-"WindowsController","degenerate","UpdateReply","controller stateless",
-"WindowsController","degenerate","DemoWindow","wrapper stateless",
-"WindowsController","degenerate","Index","controller stateless",
-"WindowsController","degenerate","UpdateReply","controller stateless",
-"WindowsController","degenerate","DemoWindow","wrapper stateless",
-"SimpleCommandLineParser","unclassified","SimpleCommandLineParser","constructor",
-"SimpleCommandLineParser","unclassified","Parse","command collaborator",
-"SimpleCommandLineParser","unclassified","Contains","predicate non-void-command",
-"SimpleCommandLineParser","unclassified","TryGet","predicate non-void-command",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"Electron","boundary degenerate","get","collaborator incidental",
-"ReleaseNotes","empty","ReleaseNotes","constructor",
-"ReleaseNotes","empty","ReleaseNotes","constructor",
-"ReleaseNotes","empty","ReleaseNotes","constructor",
-"Shell","factory controller degenerate","Shell","constructor",
-"Shell","factory controller degenerate","ShowItemInFolderAsync","factory wrapper stateless",
-"Shell","factory controller degenerate","OpenPathAsync","factory controller stateless",
-"Shell","factory controller degenerate","OpenExternalAsync","property non-void-command collaborator",
-"Shell","factory controller degenerate","OpenExternalAsync","factory controller",
-"Shell","factory controller degenerate","TrashItemAsync","factory controller stateless",
-"Shell","factory controller degenerate","Beep","wrapper stateless",
-"Shell","factory controller degenerate","WriteShortcutLinkAsync","factory controller",
-"Shell","factory controller degenerate","ReadShortcutLinkAsync","factory controller stateless",
-"Shell","factory controller degenerate","get","get set factory",
-"Build","small-class","OnBuildInitialized","command collaborator",
-"Build","small-class","get","factory collaborator incidental",
-"CommandLine","boundary lazy-class degenerate","CommandLine","constructor",
-"CommandLine","boundary lazy-class degenerate","AppendSwitch","wrapper stateless",
-"CommandLine","boundary lazy-class degenerate","AppendArgument","wrapper stateless",
-"CommandLine","boundary lazy-class degenerate","HasSwitchAsync","controller stateless",
-"CommandLine","boundary lazy-class degenerate","get","get set factory",
-"GlobalShortcut","unclassified","GlobalShortcut","constructor",
-"GlobalShortcut","unclassified","Register","command collaborator",
-"GlobalShortcut","unclassified","IsRegisteredAsync","factory controller stateless",
-"GlobalShortcut","unclassified","Unregister","command",
-"GlobalShortcut","unclassified","UnregisterAll","command",
-"GlobalShortcut","unclassified","get","get set factory",
-"SemVersion","entity boundary","SemVersion","constructor",
-"SemVersion","entity boundary","SemVersion","constructor",
-"SemVersion","entity boundary","Equals","predicate wrapper",
-"SemVersion","entity boundary","CompareTo","property non-void-command",
-"SemVersion","entity boundary","CompareTo","property non-void-command collaborator",
-"SemVersion","entity boundary","Equals","predicate non-void-command collaborator",
-"SemVersion","entity boundary","GetHashCode","property wrapper",
-"SemVersion","entity boundary","ToString","property wrapper",
-"Notification","controller lazy-class","Notification","constructor",
-"Notification","controller lazy-class","Show","wrapper",
-"Notification","controller lazy-class","IsSupportedAsync","factory controller stateless",
-"Notification","controller lazy-class","get","get set factory",
-"QuitEventArgs","boundary degenerate small-class","PreventDefault","wrapper stateless",
-"FileIconOptions","empty","FileIconOptions","constructor",
-"ModifierTypeListConverter","pure-controller degenerate small-class","ReadJson","controller stateless",
-"ModifierTypeListConverter","pure-controller degenerate small-class","WriteJson","controller stateless",
-"AutoUpdater","degenerate","get","controller stateless",
-"AutoUpdater","degenerate","set","wrapper stateless",
-"AutoUpdater","degenerate","get","controller stateless",
-"AutoUpdater","degenerate","set","wrapper stateless",
-"AutoUpdater","degenerate","get","controller stateless",
-"AutoUpdater","degenerate","set","wrapper stateless",
-"AutoUpdater","degenerate","get","controller stateless",
-"AutoUpdater","degenerate","set","wrapper stateless",
-"AutoUpdater","degenerate","get","controller stateless",
-"AutoUpdater","degenerate","set","wrapper stateless",
-"AutoUpdater","degenerate","get","controller stateless",
-"AutoUpdater","degenerate","get","factory controller stateless",
-"AutoUpdater","degenerate","get","incidental",
-"AutoUpdater","degenerate","get","factory controller stateless",
-"AutoUpdater","degenerate","get","factory controller stateless",
-"AutoUpdater","degenerate","set","wrapper stateless",
-"Dock","factory controller small-class","Dock","constructor",
-"Dock","factory controller small-class","get","get set factory",
-"Cookies","empty","Cookies","constructor",
-"ChromeExtensionInfo","empty","ChromeExtensionInfo","constructor",
-"MessageBoxOptions","empty","MessageBoxOptions","constructor",
-"ReleaseNotesParser","degenerate","ReleaseNotesParser","constructor",
-"ReleaseNotesParser","degenerate","Parse","property non-void-command collaborator",
-"ReleaseNotesParser","degenerate","ParseComplexFormat","controller stateless",
-"ReleaseNotesParser","degenerate","ParseSimpleFormat","controller stateless",
-"NotificationOptions","empty","NotificationOptions","constructor",
-"ThumbarButton","empty","ThumbarButton","constructor",
-"Clipboard","controller lazy-class degenerate","Clipboard","constructor",
-"Clipboard","controller lazy-class degenerate","ReadTextAsync","factory controller stateless",
-"Clipboard","controller lazy-class degenerate","WriteText","wrapper stateless",
-"Clipboard","controller lazy-class degenerate","ReadHTMLAsync","factory controller stateless",
-"Clipboard","controller lazy-class degenerate","WriteHTML","wrapper stateless",
-"Clipboard","controller lazy-class degenerate","ReadRTFAsync","factory controller stateless",
-"Clipboard","controller lazy-class degenerate","WriteRTF","wrapper stateless",
-"Clipboard","controller lazy-class degenerate","ReadBookmarkAsync","factory controller stateless",
-"Clipboard","controller lazy-class degenerate","WriteBookmark","wrapper stateless",
-"Clipboard","controller lazy-class degenerate","ReadFindTextAsync","factory controller stateless",
-"Clipboard","controller lazy-class degenerate","WriteFindText","wrapper stateless",
-"Clipboard","controller lazy-class degenerate","Clear","wrapper stateless",
-"Clipboard","controller lazy-class degenerate","AvailableFormatsAsync","factory controller stateless",
-"Clipboard","controller lazy-class degenerate","Write","wrapper",
-"Clipboard","controller lazy-class degenerate","ReadImageAsync","factory controller stateless",
-"Clipboard","controller lazy-class degenerate","WriteImage","wrapper stateless",
-"Clipboard","controller lazy-class degenerate","get","get set factory",
-"NativeImage","boundary","NativeImage","constructor",
-"NativeImage","boundary","NativeImage","constructor",
-"NativeImage","boundary","NativeImage","constructor",
-"NativeImage","boundary","Crop","property non-void-command factory collaborator",
-"NativeImage","boundary","Resize","property non-void-command factory collaborator",
-"NativeImage","boundary","AddRepresentation","void-accessor command collaborator",
-"NativeImage","boundary","GetAspectRatio","property non-void-command collaborator",
-"NativeImage","boundary","GetBitmap","collaborator incidental",
-"NativeImage","boundary","GetNativeHandle","property non-void-command",
-"NativeImage","boundary","GetSize","property non-void-command factory collaborator",
-"NativeImage","boundary","IsEmpty","predicate",
-"NativeImage","boundary","SetTemplateImage","set",
-"NativeImage","boundary","ToBitmap","wrapper stateless",
-"NativeImage","boundary","ToDataURL","property non-void-command collaborator",
-"NativeImage","boundary","ToJPEG","property non-void-command",
-"NativeImage","boundary","ToPNG","wrapper stateless",
-"NativeImage","boundary","ImageToBytes","property non-void-command collaborator",
-"NativeImage","boundary","Resize","property non-void-command factory collaborator",
-"NativeImage","boundary","Crop","property non-void-command factory collaborator",
-"NativeImage","boundary","GetEncoder","wrapper stateless",
-"NativeImage","boundary","GetAllScaledImages","property controller",
-"NativeImage","boundary","GetScale","get property non-void-command collaborator",
-"LifetimeServiceHost","boundary degenerate small-class","LifetimeServiceHost","constructor",
-"LifetimeServiceHost","boundary degenerate small-class","StartAsync","collaborator incidental",
-"LifetimeServiceHost","boundary degenerate small-class","StopAsync","collaborator incidental",
-"BrowserView","boundary","BrowserView","constructor",
-"BrowserView","boundary","SetAutoResize","wrapper",
-"BrowserView","boundary","SetBackgroundColor","wrapper",
-"BrowserView","boundary","get","property factory controller",
-"BrowserView","boundary","set","wrapper",
-"AboutController","boundary degenerate small-class","Index","wrapper stateless",
-"NativeImageJsonConverter","pure-controller degenerate small-class","WriteJson","controller stateless",
-"NativeImageJsonConverter","pure-controller degenerate small-class","ReadJson","factory controller stateless",
-"ProxyConfig","empty","ProxyConfig","constructor",
-"HybridSupport","boundary degenerate small-class","get","wrapper stateless",
-"HostHook","controller lazy-class","HostHook","constructor",
-"HostHook","controller lazy-class","Call","void-accessor wrapper",
-"HostHook","controller lazy-class","CallAsync<T>","factory controller stateless",
-"HostHook","controller lazy-class","get","get set factory",
-"RemovePassword","empty","RemovePassword","constructor",
-"Menu","entity minimal-entity boundary","Menu","constructor",
-"Menu","entity minimal-entity boundary","SetApplicationMenu","void-accessor command collaborator",
-"Menu","entity minimal-entity boundary","SetContextMenu","void-accessor command collaborator",
-"Menu","entity minimal-entity boundary","ContextMenuPopup","wrapper stateless",
-"Menu","entity minimal-entity boundary","get","get set factory",
-"Menu","entity minimal-entity boundary","get","property non-void-command collaborator",
-"ShortcutsController","boundary degenerate small-class","Index","wrapper stateless",
-"UpdateCancellationToken","degenerate small-class","Cancel","empty",
-"UpdateCancellationToken","degenerate small-class","Dispose","empty",
-"DesktopCapturerController","boundary degenerate small-class","Index","wrapper stateless",
-"BridgeConnector","factory controller small-class","get","get set factory collaborator",
-"SocketIoFacade","commander boundary","SocketIoFacade","constructor",
-"SocketIoFacade","commander boundary","Connect","command",
-"SocketIoFacade","commander boundary","On","command collaborator",
-"SocketIoFacade","commander boundary","On<T>","command collaborator",
-"SocketIoFacade","commander boundary","On","command collaborator",
-"SocketIoFacade","commander boundary","Once<T>","command collaborator",
-"SocketIoFacade","commander boundary","Off","command",
-"SocketIoFacade","commander boundary","Emit","non-void-command collaborator",
-"HostHookController","boundary degenerate small-class","Index","wrapper stateless",
-"Events","boundary lazy-class degenerate","Events","constructor",
-"Events","boundary lazy-class degenerate","On<T>","wrapper stateless",
-"Events","boundary lazy-class degenerate","Once<T>","wrapper stateless",
-"Events","boundary lazy-class degenerate","get","get set factory",
-"Session","controller","Session","constructor",
-"Session","controller","AllowNTLMCredentialsForDomains","wrapper",
-"Session","controller","ClearAuthCacheAsync","factory controller",
-"Session","controller","ClearAuthCacheAsync","factory controller",
-"Session","controller","ClearCacheAsync","factory controller",
-"Session","controller","ClearHostResolverCacheAsync","factory controller",
-"Session","controller","ClearStorageDataAsync","factory controller",
-"Session","controller","ClearStorageDataAsync","factory controller",
-"Session","controller","CreateInterruptedDownload","wrapper",
-"Session","controller","DisableNetworkEmulation","wrapper",
-"Session","controller","EnableNetworkEmulation","wrapper",
-"Session","controller","FlushStorageData","wrapper",
-"Session","controller","GetBlobDataAsync","factory controller",
-"Session","controller","GetCacheSizeAsync","factory controller",
-"Session","controller","GetPreloadsAsync","factory controller",
-"Session","controller","GetUserAgent","factory controller",
-"Session","controller","ResolveProxyAsync","factory controller",
-"Session","controller","SetDownloadPath","wrapper",
-"Session","controller","SetPreloads","void-accessor wrapper",
-"Session","controller","SetProxyAsync","factory controller",
-"Session","controller","SetUserAgent","wrapper",
-"Session","controller","SetUserAgent","wrapper",
-"Session","controller","GetAllExtensionsAsync","factory controller",
-"Session","controller","RemoveExtension","wrapper",
-"Session","controller","LoadExtensionAsync","factory controller",
-"IpcMain","unclassified","IpcMain","constructor",
-"IpcMain","unclassified","On","non-void-command collaborator",
-"IpcMain","unclassified","FormatArguments","controller stateless",
-"IpcMain","unclassified","OnSync","command collaborator",
-"IpcMain","unclassified","Once","command collaborator",
-"IpcMain","unclassified","RemoveAllListeners","wrapper stateless",
-"IpcMain","unclassified","Send","void-accessor controller",
-"IpcMain","unclassified","Send","void-accessor controller",
-"IpcMain","unclassified","get","get set factory",
-"NativeTheme","factory controller lazy-class degenerate","NativeTheme","constructor",
-"NativeTheme","factory controller lazy-class degenerate","SetThemeSource","controller stateless",
-"NativeTheme","factory controller lazy-class degenerate","GetThemeSourceAsync","factory controller stateless",
-"NativeTheme","factory controller lazy-class degenerate","ShouldUseDarkColorsAsync","factory controller stateless",
-"NativeTheme","factory controller lazy-class degenerate","ShouldUseHighContrastColorsAsync","factory controller stateless",
-"NativeTheme","factory controller lazy-class degenerate","ShouldUseInvertedColorSchemeAsync","factory controller stateless",
-"NativeTheme","factory controller lazy-class degenerate","get","get set factory",
-"DialogsController","boundary degenerate small-class","Index","wrapper stateless",
+"Startup","unclassified","Startup","constructor"
+"Startup","unclassified","ConfigureServices","controller stateless"
+"Startup","unclassified","Configure","command collaborator"
+"Startup","unclassified","ElectronBootstrap","controller"
+"UpdateController","boundary degenerate small-class","Index","wrapper stateless"
+"ShellController","boundary degenerate small-class","Index","wrapper stateless"
+"PdfController","pure-controller degenerate small-class","Index","controller stateless"
+"TrayController","data-provider boundary small-class","TrayController","constructor"
+"TrayController","data-provider boundary small-class","Index","property wrapper"
+"NotificationsController","boundary degenerate small-class","Index","wrapper stateless"
+"MenusController","entity boundary small-class","Index","property non-void-command collaborator"
+"MenusController","entity boundary small-class","CreateContextMenu","wrapper stateless"
+"IpcController","boundary degenerate small-class","Index","wrapper stateless"
+"HomeController","boundary degenerate small-class","Index","wrapper stateless"
+"DialogsController","boundary degenerate small-class","Index","wrapper stateless"
+"CrashHangController","degenerate","Index","controller stateless"
+"CrashHangController","degenerate","ProcessCrash","wrapper stateless"
+"CrashHangController","degenerate","ProcessHang","wrapper stateless"
+"AppSysInformationController","boundary degenerate small-class","Index","wrapper stateless"
+"SimpleCommandLineParser","unclassified","SimpleCommandLineParser","constructor"
+"SimpleCommandLineParser","unclassified","Parse","command collaborator"
+"SimpleCommandLineParser","unclassified","Contains","predicate non-void-command"
+"SimpleCommandLineParser","unclassified","TryGet","predicate non-void-command"
+"VersionCommand","boundary degenerate small-class","VersionCommand","constructor"
+"VersionCommand","boundary degenerate small-class","ExecuteAsync","wrapper stateless"
+"AddCommand","data-provider boundary small-class","AddCommand","constructor"
+"AddCommand","data-provider boundary small-class","ExecuteAsync","property wrapper"
+"WindowsController","degenerate","Index","controller stateless"
+"WindowsController","degenerate","UpdateReply","controller stateless"
+"WindowsController","degenerate","DemoWindow","wrapper stateless"
+"WindowsController","degenerate","Index","controller stateless"
+"WindowsController","degenerate","UpdateReply","controller stateless"
+"WindowsController","degenerate","DemoWindow","wrapper stateless"
+"ChromeExtensionInfo","empty","ChromeExtensionInfo","constructor"
+"ClipboardController","boundary degenerate small-class","Index","wrapper stateless"
+"CreateInterruptedDownloadOptions","empty","CreateInterruptedDownloadOptions","constructor"
+"GlobalShortcut","commander","GlobalShortcut","constructor"
+"GlobalShortcut","commander","Register","command collaborator"
+"GlobalShortcut","commander","IsRegisteredAsync","controller stateless"
+"GlobalShortcut","commander","Unregister","command"
+"GlobalShortcut","commander","UnregisterAll","command"
+"CommandLine","degenerate","CommandLine","constructor"
+"CommandLine","degenerate","AppendSwitch","wrapper stateless"
+"CommandLine","degenerate","AppendArgument","wrapper stateless"
+"CommandLine","degenerate","HasSwitchAsync","controller stateless"
+"ReleaseNotes","empty","ReleaseNotes","constructor"
+"ReleaseNotes","empty","ReleaseNotes","constructor"
+"ReleaseNotes","empty","ReleaseNotes","constructor"
+"Shell","degenerate","Shell","constructor"
+"Shell","degenerate","ShowItemInFolderAsync","wrapper stateless"
+"Shell","degenerate","OpenPathAsync","controller stateless"
+"Shell","degenerate","OpenExternalAsync","property non-void-command collaborator"
+"Shell","degenerate","OpenExternalAsync","property controller"
+"Shell","degenerate","TrashItemAsync","controller stateless"
+"Shell","degenerate","Beep","wrapper stateless"
+"Shell","degenerate","WriteShortcutLinkAsync","property controller"
+"Shell","degenerate","ReadShortcutLinkAsync","controller stateless"
+"QuitEventArgs","boundary degenerate small-class","PreventDefault","wrapper stateless"
+"Notification","small-class","Notification","constructor"
+"Notification","small-class","Show","wrapper"
+"Notification","small-class","IsSupportedAsync","controller stateless"
+"Build","small-class","OnBuildInitialized","command collaborator"
+"Build","small-class","get","factory collaborator incidental"
+"Dialog","unclassified","Dialog","constructor"
+"Dialog","unclassified","ShowOpenDialogAsync","property controller"
+"Dialog","unclassified","ShowSaveDialogAsync","property controller"
+"Dialog","unclassified","ShowMessageBoxAsync","property non-void-command collaborator"
+"Dialog","unclassified","ShowMessageBoxAsync","property non-void-command collaborator"
+"Dialog","unclassified","ShowMessageBoxAsync","property non-void-command collaborator"
+"Dialog","unclassified","ShowMessageBoxAsync","property wrapper"
+"Dialog","unclassified","ShowErrorBox","wrapper stateless"
+"Dialog","unclassified","ShowCertificateTrustDialogAsync","property non-void-command collaborator"
+"Dialog","unclassified","ShowCertificateTrustDialogAsync","property controller"
+"FileIconOptions","empty","FileIconOptions","constructor"
+"ModifierTypeListConverter","pure-controller degenerate small-class","ReadJson","controller stateless"
+"ModifierTypeListConverter","pure-controller degenerate small-class","WriteJson","controller stateless"
+"Dock","empty","Dock","constructor"
+"AutoUpdater","degenerate","get","controller stateless"
+"AutoUpdater","degenerate","set","wrapper stateless"
+"AutoUpdater","degenerate","get","controller stateless"
+"AutoUpdater","degenerate","set","wrapper stateless"
+"AutoUpdater","degenerate","get","controller stateless"
+"AutoUpdater","degenerate","set","wrapper stateless"
+"AutoUpdater","degenerate","get","controller stateless"
+"AutoUpdater","degenerate","set","wrapper stateless"
+"AutoUpdater","degenerate","get","controller stateless"
+"AutoUpdater","degenerate","set","wrapper stateless"
+"AutoUpdater","degenerate","get","controller stateless"
+"AutoUpdater","degenerate","get","controller stateless"
+"AutoUpdater","degenerate","get","incidental"
+"AutoUpdater","degenerate","get","controller stateless"
+"AutoUpdater","degenerate","get","controller stateless"
+"AutoUpdater","degenerate","set","wrapper stateless"
+"Cookies","empty","Cookies","constructor"
+"MessageBoxOptions","empty","MessageBoxOptions","constructor"
+"ReleaseNotesParser","degenerate","ReleaseNotesParser","constructor"
+"ReleaseNotesParser","degenerate","Parse","property non-void-command collaborator"
+"ReleaseNotesParser","degenerate","ParseComplexFormat","controller stateless"
+"ReleaseNotesParser","degenerate","ParseSimpleFormat","controller stateless"
+"NotificationOptions","empty","NotificationOptions","constructor"
+"ThumbarButton","empty","ThumbarButton","constructor"
+"Clipboard","degenerate","Clipboard","constructor"
+"Clipboard","degenerate","ReadTextAsync","controller stateless"
+"Clipboard","degenerate","WriteText","wrapper stateless"
+"Clipboard","degenerate","ReadHTMLAsync","controller stateless"
+"Clipboard","degenerate","WriteHTML","wrapper stateless"
+"Clipboard","degenerate","ReadRTFAsync","controller stateless"
+"Clipboard","degenerate","WriteRTF","wrapper stateless"
+"Clipboard","degenerate","ReadBookmarkAsync","controller stateless"
+"Clipboard","degenerate","WriteBookmark","wrapper stateless"
+"Clipboard","degenerate","ReadFindTextAsync","controller stateless"
+"Clipboard","degenerate","WriteFindText","wrapper stateless"
+"Clipboard","degenerate","Clear","wrapper stateless"
+"Clipboard","degenerate","AvailableFormatsAsync","controller stateless"
+"Clipboard","degenerate","Write","wrapper"
+"Clipboard","degenerate","ReadImageAsync","controller stateless"
+"Clipboard","degenerate","WriteImage","wrapper stateless"
+"NativeImage","boundary","NativeImage","constructor"
+"NativeImage","boundary","NativeImage","constructor"
+"NativeImage","boundary","NativeImage","constructor"
+"NativeImage","boundary","Crop","property non-void-command factory collaborator"
+"NativeImage","boundary","Resize","property non-void-command factory collaborator"
+"NativeImage","boundary","AddRepresentation","command collaborator"
+"NativeImage","boundary","GetAspectRatio","property non-void-command collaborator"
+"NativeImage","boundary","GetBitmap","collaborator incidental"
+"NativeImage","boundary","GetNativeHandle","property non-void-command"
+"NativeImage","boundary","GetSize","property non-void-command factory collaborator"
+"NativeImage","boundary","IsEmpty","predicate"
+"NativeImage","boundary","SetTemplateImage","set"
+"NativeImage","boundary","ToBitmap","wrapper stateless"
+"NativeImage","boundary","ToDataURL","property non-void-command collaborator"
+"NativeImage","boundary","ToJPEG","property non-void-command"
+"NativeImage","boundary","ToPNG","wrapper stateless"
+"NativeImage","boundary","ImageToBytes","property non-void-command collaborator"
+"NativeImage","boundary","Resize","property non-void-command factory collaborator"
+"NativeImage","boundary","Crop","property non-void-command factory collaborator"
+"NativeImage","boundary","GetEncoder","wrapper stateless"
+"NativeImage","boundary","GetAllScaledImages","property controller"
+"NativeImage","boundary","GetScale","get property non-void-command collaborator"
+"LifetimeServiceHost","boundary degenerate small-class","LifetimeServiceHost","constructor"
+"LifetimeServiceHost","boundary degenerate small-class","StartAsync","collaborator incidental"
+"LifetimeServiceHost","boundary degenerate small-class","StopAsync","collaborator incidental"
+"CommandOption","controller small-class","get","property controller"
+"InitCommand","entity boundary small-class","InitCommand","constructor"
+"InitCommand","entity boundary small-class","ExecuteAsync","property non-void-command collaborator"
+"BrowserView","boundary","BrowserView","constructor"
+"BrowserView","boundary","SetAutoResize","wrapper"
+"BrowserView","boundary","SetBackgroundColor","wrapper"
+"BrowserView","boundary","get","property controller"
+"BrowserView","boundary","set","wrapper"
+"AboutController","boundary degenerate small-class","Index","wrapper stateless"
+"NativeImageJsonConverter","pure-controller degenerate small-class","WriteJson","controller stateless"
+"NativeImageJsonConverter","pure-controller degenerate small-class","ReadJson","factory controller stateless"
+"ProxyConfig","empty","ProxyConfig","constructor"
+"HostHook","small-class","HostHook","constructor"
+"HostHook","small-class","Call","wrapper"
+"HostHook","small-class","CallAsync<T>","controller stateless"
+"RemovePassword","empty","RemovePassword","constructor"
+"Menu","entity commander boundary","Menu","constructor"
+"Menu","entity commander boundary","SetApplicationMenu","command collaborator"
+"Menu","entity commander boundary","SetContextMenu","command collaborator"
+"Menu","entity commander boundary","ContextMenuPopup","wrapper stateless"
+"Menu","entity commander boundary","get","property non-void-command collaborator"
+"ShortcutsController","boundary degenerate small-class","Index","wrapper stateless"
+"UpdateCancellationToken","degenerate small-class","Cancel","empty"
+"UpdateCancellationToken","degenerate small-class","Dispose","empty"
+"WindowManager","entity boundary","WindowManager","constructor"
+"WindowManager","entity boundary","CreateWindowAsync","property non-void-command collaborator"
+"WindowManager","entity boundary","CreateWindowAsync","property non-void-command collaborator"
+"WindowManager","entity boundary","IsWindows10","wrapper stateless"
+"WindowManager","entity boundary","CreateBrowserViewAsync","property non-void-command collaborator"
+"WindowManager","entity boundary","CreateBrowserViewAsync","property non-void-command collaborator"
+"WindowManager","entity boundary","set","set"
+"DesktopCapturerController","boundary degenerate small-class","Index","wrapper stateless"
+"SocketIoFacade","commander boundary","SocketIoFacade","constructor"
+"SocketIoFacade","commander boundary","Connect","command"
+"SocketIoFacade","commander boundary","On","command collaborator"
+"SocketIoFacade","commander boundary","On<T>","command collaborator"
+"SocketIoFacade","commander boundary","On","command collaborator"
+"SocketIoFacade","commander boundary","Once<T>","command collaborator"
+"SocketIoFacade","commander boundary","Off","command"
+"SocketIoFacade","commander boundary","Emit","non-void-command collaborator"
+"HostHookController","boundary degenerate small-class","Index","wrapper stateless"
+"Events","boundary degenerate small-class","Events","constructor"
+"Events","boundary degenerate small-class","On<T>","wrapper stateless"
+"Events","boundary degenerate small-class","Once<T>","wrapper stateless"
+"Session","unclassified","Session","constructor"
+"Session","unclassified","AllowNTLMCredentialsForDomains","wrapper"
+"Session","unclassified","ClearAuthCacheAsync","property controller"
+"Session","unclassified","ClearAuthCacheAsync","property controller"
+"Session","unclassified","ClearCacheAsync","property controller"
+"Session","unclassified","ClearHostResolverCacheAsync","property controller"
+"Session","unclassified","ClearStorageDataAsync","property controller"
+"Session","unclassified","ClearStorageDataAsync","property controller"
+"Session","unclassified","CreateInterruptedDownload","wrapper"
+"Session","unclassified","DisableNetworkEmulation","wrapper"
+"Session","unclassified","EnableNetworkEmulation","wrapper"
+"Session","unclassified","FlushStorageData","wrapper"
+"Session","unclassified","GetBlobDataAsync","property controller"
+"Session","unclassified","GetCacheSizeAsync","property controller"
+"Session","unclassified","GetPreloadsAsync","property controller"
+"Session","unclassified","GetUserAgent","property controller"
+"Session","unclassified","ResolveProxyAsync","property controller"
+"Session","unclassified","SetDownloadPath","wrapper"
+"Session","unclassified","SetPreloads","wrapper"
+"Session","unclassified","SetProxyAsync","property controller"
+"Session","unclassified","SetUserAgent","wrapper"
+"Session","unclassified","SetUserAgent","wrapper"
+"Session","unclassified","GetAllExtensionsAsync","property controller"
+"Session","unclassified","RemoveExtension","wrapper"
+"Session","unclassified","LoadExtensionAsync","property controller"
+"IpcMain","unclassified","IpcMain","constructor"
+"IpcMain","unclassified","On","non-void-command collaborator"
+"IpcMain","unclassified","FormatArguments","controller stateless"
+"IpcMain","unclassified","OnSync","command collaborator"
+"IpcMain","unclassified","Once","command collaborator"
+"IpcMain","unclassified","RemoveAllListeners","wrapper stateless"
+"IpcMain","unclassified","Send","controller"
+"IpcMain","unclassified","Send","controller"
+"NativeTheme","pure-controller degenerate","NativeTheme","constructor"
+"NativeTheme","pure-controller degenerate","SetThemeSource","controller stateless"
+"NativeTheme","pure-controller degenerate","GetThemeSourceAsync","controller stateless"
+"NativeTheme","pure-controller degenerate","ShouldUseDarkColorsAsync","controller stateless"
+"NativeTheme","pure-controller degenerate","ShouldUseHighContrastColorsAsync","controller stateless"
+"NativeTheme","pure-controller degenerate","ShouldUseInvertedColorSchemeAsync","controller stateless"
+"SemVersion","entity boundary","SemVersion","constructor"
+"SemVersion","entity boundary","SemVersion","constructor"
+"SemVersion","entity boundary","Equals","predicate wrapper"
+"SemVersion","entity boundary","CompareTo","property non-void-command"
+"SemVersion","entity boundary","CompareTo","property non-void-command collaborator"
+"SemVersion","entity boundary","Equals","predicate non-void-command collaborator"
+"SemVersion","entity boundary","GetHashCode","property wrapper"
+"SemVersion","entity boundary","ToString","property wrapper"
+"BuildCommand","small-class","BuildCommand","constructor"
+"BuildCommand","small-class","ExecuteAsync","property non-void-command collaborator"
+"BuildCommand","small-class","GetDotNetPublishFlags","controller"
+"StartElectronCommand","controller small-class","StartElectronCommand","constructor"
+"StartElectronCommand","controller small-class","ExecuteAsync","property controller"

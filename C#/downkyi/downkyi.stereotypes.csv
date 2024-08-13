@@ -1,1470 +1,1373 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"Settings","data-provider data-class small-class","get","get",
-"Downloading","empty","Downloading","constructor",
-"AppInfo","empty","AppInfo","constructor",
-"ButtonIcon","empty","ButtonIcon","constructor",
-"GifImage","boundary","GifImage","constructor",
-"GifImage","boundary","GifImage","constructor",
-"GifImage","boundary","GetBitmapSource","get set collaborator",
-"GifImage","boundary","StartAnimate","wrapper",
-"GifImage","boundary","StopAnimate","wrapper",
-"GifImage","boundary","OnFrameChanged","command collaborator",
-"MachineCode","pure-controller degenerate","GetMainBordId","controller stateless",
-"MachineCode","pure-controller degenerate","GetCpuInfo","controller stateless",
-"MachineCode","pure-controller degenerate","GetDiskID","controller stateless",
-"MachineCode","pure-controller degenerate","GetMoAddress","controller stateless",
-"CryptoHelpException","empty","CryptoHelpException","constructor",
-"HeaderDb","entity commander boundary","HeaderDb","constructor",
-"HeaderDb","entity commander boundary","Close","command",
-"HeaderDb","entity commander boundary","Insert","command collaborator",
-"HeaderDb","entity commander boundary","Update","command collaborator",
-"HeaderDb","entity commander boundary","QueryAll","property non-void-command collaborator",
-"HeaderDb","entity commander boundary","QueryByMid","property non-void-command collaborator",
-"HeaderDb","entity commander boundary","Query","non-void-command factory collaborator",
-"HeaderDb","entity commander boundary","CreateTable","command",
-"DownloadingDb","empty","DownloadingDb","constructor",
-"CoverDb","entity commander boundary","CoverDb","constructor",
-"CoverDb","entity commander boundary","Close","command",
-"CoverDb","entity commander boundary","Insert","command collaborator",
-"CoverDb","entity commander boundary","Update","command collaborator",
-"CoverDb","entity commander boundary","QueryAll","property non-void-command collaborator",
-"CoverDb","entity commander boundary","QueryByUrl","property non-void-command collaborator",
-"CoverDb","entity commander boundary","QueryByMd5","property non-void-command collaborator",
-"CoverDb","entity commander boundary","Query","non-void-command factory collaborator",
-"CoverDb","entity commander boundary","CreateTable","command",
-"CustomPager","empty","CustomPager","constructor",
-"SettingsManager","boundary","IsReceiveBetaVersion","get property non-void-command collaborator",
-"SettingsManager","boundary","IsReceiveBetaVersion","predicate set collaborator",
-"SettingsManager","boundary","GetAutoUpdateWhenLaunch","get property non-void-command collaborator",
-"SettingsManager","boundary","SetAutoUpdateWhenLaunch","predicate set collaborator",
-"SettingsManager","boundary","GetAfterDownloadOperation","get property non-void-command collaborator",
-"SettingsManager","boundary","SetAfterDownloadOperation","predicate set collaborator",
-"SettingsManager","boundary","IsListenClipboard","get property non-void-command collaborator",
-"SettingsManager","boundary","IsListenClipboard","predicate set collaborator",
-"SettingsManager","boundary","IsAutoParseVideo","get property non-void-command collaborator",
-"SettingsManager","boundary","IsAutoParseVideo","predicate set collaborator",
-"SettingsManager","boundary","GetParseScope","get property non-void-command collaborator",
-"SettingsManager","boundary","SetParseScope","predicate set collaborator",
-"SettingsManager","boundary","IsAutoDownloadAll","get property non-void-command collaborator",
-"SettingsManager","boundary","IsAutoDownloadAll","predicate set collaborator",
-"SettingsManager","boundary","GetDownloadFinishedSort","get property non-void-command collaborator",
-"SettingsManager","boundary","SetDownloadFinishedSort","predicate set collaborator",
-"SettingsManager","boundary","GetDanmakuTopFilter","get property non-void-command collaborator",
-"SettingsManager","boundary","SetDanmakuTopFilter","predicate set collaborator",
-"SettingsManager","boundary","GetDanmakuBottomFilter","get property non-void-command collaborator",
-"SettingsManager","boundary","SetDanmakuBottomFilter","predicate set collaborator",
-"SettingsManager","boundary","GetDanmakuScrollFilter","get property non-void-command collaborator",
-"SettingsManager","boundary","SetDanmakuScrollFilter","predicate set collaborator",
-"SettingsManager","boundary","IsCustomDanmakuResolution","get property non-void-command collaborator",
-"SettingsManager","boundary","IsCustomDanmakuResolution","predicate set collaborator",
-"SettingsManager","boundary","GetDanmakuScreenWidth","get property non-void-command",
-"SettingsManager","boundary","SetDanmakuScreenWidth","predicate set",
-"SettingsManager","boundary","GetDanmakuScreenHeight","get property non-void-command",
-"SettingsManager","boundary","SetDanmakuScreenHeight","predicate set",
-"SettingsManager","boundary","GetDanmakuFontName","get property non-void-command",
-"SettingsManager","boundary","SetDanmakuFontName","predicate set",
-"SettingsManager","boundary","GetDanmakuFontSize","get property non-void-command",
-"SettingsManager","boundary","SetDanmakuFontSize","predicate set",
-"SettingsManager","boundary","GetDanmakuLineCount","get property non-void-command",
-"SettingsManager","boundary","SetDanmakuLineCount","predicate set",
-"SettingsManager","boundary","GetDanmakuLayoutAlgorithm","get property non-void-command collaborator",
-"SettingsManager","boundary","SetDanmakuLayoutAlgorithm","predicate set collaborator",
-"SettingsManager","boundary","IsLiftingOfRegion","get property non-void-command collaborator",
-"SettingsManager","boundary","IsLiftingOfRegion","predicate set collaborator",
-"SettingsManager","boundary","UseSSL","get property non-void-command collaborator",
-"SettingsManager","boundary","UseSSL","predicate set collaborator",
-"SettingsManager","boundary","GetUserAgent","get property non-void-command",
-"SettingsManager","boundary","SetUserAgent","predicate set",
-"SettingsManager","boundary","GetDownloader","get property non-void-command collaborator",
-"SettingsManager","boundary","SetDownloader","predicate set collaborator",
-"SettingsManager","boundary","GetMaxCurrentDownloads","get property non-void-command",
-"SettingsManager","boundary","SetMaxCurrentDownloads","predicate set",
-"SettingsManager","boundary","GetSplit","get property non-void-command",
-"SettingsManager","boundary","SetSplit","predicate set",
-"SettingsManager","boundary","IsHttpProxy","get property non-void-command collaborator",
-"SettingsManager","boundary","IsHttpProxy","predicate set collaborator",
-"SettingsManager","boundary","GetHttpProxy","get property non-void-command",
-"SettingsManager","boundary","SetHttpProxy","predicate set",
-"SettingsManager","boundary","GetHttpProxyListenPort","get property non-void-command",
-"SettingsManager","boundary","SetHttpProxyListenPort","predicate set",
-"SettingsManager","boundary","GetAriaToken","get property non-void-command",
-"SettingsManager","boundary","SetAriaToken","predicate set",
-"SettingsManager","boundary","GetAriaHost","get property non-void-command",
-"SettingsManager","boundary","SetAriaHost","predicate set",
-"SettingsManager","boundary","GetAriaListenPort","get property non-void-command",
-"SettingsManager","boundary","SetAriaListenPort","predicate set",
-"SettingsManager","boundary","GetAriaLogLevel","get property non-void-command collaborator",
-"SettingsManager","boundary","SetAriaLogLevel","predicate set collaborator",
-"SettingsManager","boundary","GetAriaSplit","get property non-void-command",
-"SettingsManager","boundary","SetAriaSplit","predicate set",
-"SettingsManager","boundary","GetAriaMaxOverallDownloadLimit","get property non-void-command",
-"SettingsManager","boundary","SetAriaMaxOverallDownloadLimit","predicate set",
-"SettingsManager","boundary","GetAriaMaxDownloadLimit","get property non-void-command",
-"SettingsManager","boundary","SetAriaMaxDownloadLimit","predicate set",
-"SettingsManager","boundary","GetAriaFileAllocation","get property non-void-command collaborator",
-"SettingsManager","boundary","SetAriaFileAllocation","predicate set collaborator",
-"SettingsManager","boundary","IsAriaHttpProxy","get property non-void-command collaborator",
-"SettingsManager","boundary","IsAriaHttpProxy","predicate set collaborator",
-"SettingsManager","boundary","GetAriaHttpProxy","get property non-void-command",
-"SettingsManager","boundary","SetAriaHttpProxy","predicate set",
-"SettingsManager","boundary","GetAriaHttpProxyListenPort","get property non-void-command",
-"SettingsManager","boundary","SetAriaHttpProxyListenPort","predicate set",
-"SettingsManager","boundary","GetUserInfo","get non-void-command collaborator",
-"SettingsManager","boundary","SetUserInfo","predicate set collaborator",
-"SettingsManager","boundary","GetVideoCodecs","get property non-void-command",
-"SettingsManager","boundary","SetVideoCodecs","predicate set",
-"SettingsManager","boundary","GetQuality","get property non-void-command",
-"SettingsManager","boundary","SetQuality","predicate set",
-"SettingsManager","boundary","GetAudioQuality","get property non-void-command",
-"SettingsManager","boundary","SetAudioQuality","predicate set",
-"SettingsManager","boundary","IsTranscodingFlvToMp4","get property non-void-command collaborator",
-"SettingsManager","boundary","IsTranscodingFlvToMp4","predicate set collaborator",
-"SettingsManager","boundary","GetSaveVideoRootPath","get property non-void-command",
-"SettingsManager","boundary","SetSaveVideoRootPath","predicate set",
-"SettingsManager","boundary","GetHistoryVideoRootPaths","get property non-void-command",
-"SettingsManager","boundary","SetHistoryVideoRootPaths","predicate set",
-"SettingsManager","boundary","IsUseSaveVideoRootPath","get property non-void-command collaborator",
-"SettingsManager","boundary","IsUseSaveVideoRootPath","predicate set collaborator",
-"SettingsManager","boundary","GetVideoContent","get property non-void-command collaborator",
-"SettingsManager","boundary","SetVideoContent","predicate set collaborator",
-"SettingsManager","boundary","GetFileNameParts","get property non-void-command collaborator",
-"SettingsManager","boundary","SetFileNameParts","predicate set collaborator",
-"SettingsManager","boundary","GetFileNamePartTimeFormat","get property non-void-command",
-"SettingsManager","boundary","SetFileNamePartTimeFormat","predicate set",
-"SettingsManager","boundary","GetOrderFormat","get property non-void-command collaborator",
-"SettingsManager","boundary","SetOrderFormat","predicate set collaborator",
-"SettingsManager","boundary","SettingsManager","constructor",
-"SettingsManager","boundary","GetSettings","get property factory wrapper",
-"SettingsManager","boundary","SetSettings","predicate wrapper",
-"FileName","unclassified","FileName","copy-constructor",
-"FileName","unclassified","SetOrder","get set",
-"FileName","unclassified","SetOrder","get set",
-"FileName","unclassified","SetSection","get set",
-"FileName","unclassified","SetMainTitle","get set",
-"FileName","unclassified","SetPageTitle","get set",
-"FileName","unclassified","SetVideoZone","get set",
-"FileName","unclassified","SetAudioQuality","get set",
-"FileName","unclassified","SetVideoQuality","get set",
-"FileName","unclassified","SetVideoCodec","get set",
-"FileName","unclassified","SetVideoPublishTime","get set",
-"FileName","unclassified","SetAvid","get set",
-"FileName","unclassified","SetBvid","get set",
-"FileName","unclassified","SetCid","get set",
-"FileName","unclassified","SetUpMid","get set",
-"FileName","unclassified","SetUpName","get set",
-"FileName","unclassified","RelativePath","property controller",
-"PartialDownloader","commander","PartialDownloader","constructor",
-"PartialDownloader","commander","DownloadProcedure","command collaborator",
-"PartialDownloader","commander","Start","set collaborator",
-"PartialDownloader","commander","Stop","set",
-"PartialDownloader","commander","Wait","set",
-"PartialDownloader","commander","ResumeAfterWait","set",
-"PartialDownloader","commander","set","non-void-command",
-"PartialDownloader","commander","get","property non-void-command",
-"MultiThreadDownloader","commander boundary","MultiThreadDownloader","constructor",
-"MultiThreadDownloader","commander boundary","MultiThreadDownloader","constructor",
-"MultiThreadDownloader","commander boundary","MultiThreadDownloader","constructor",
-"MultiThreadDownloader","commander boundary","temp_DownloadPartCompleted","command collaborator",
-"MultiThreadDownloader","commander boundary","temp_DownloadPartProgressChanged","command collaborator",
-"MultiThreadDownloader","commander boundary","UpdateProgress","set",
-"MultiThreadDownloader","commander boundary","CreateFirstPartitions","command collaborator",
-"MultiThreadDownloader","commander boundary","MergeParts","command",
-"MultiThreadDownloader","commander boundary","CreateNew","property factory wrapper",
-"MultiThreadDownloader","commander boundary","Configure","set collaborator",
-"MultiThreadDownloader","commander boundary","GetContentLength","property non-void-command collaborator",
-"MultiThreadDownloader","commander boundary","Pause","command collaborator",
-"MultiThreadDownloader","commander boundary","Start","controller stateless",
-"MultiThreadDownloader","commander boundary","Resume","command collaborator",
-"MultiThreadDownloader","commander boundary","get","property non-void-command",
-"MultiThreadDownloader","commander boundary","get","property non-void-command",
-"ScrollFilter","factory pure-controller degenerate small-class","DoFilter","factory controller stateless",
-"TopFilter","factory pure-controller degenerate small-class","DoFilter","factory controller stateless",
-"Filter","boundary degenerate small-class","DoFilter","collaborator stateless",
-"ScrollDisplay","data-provider","ScrollDisplay","constructor",
-"ScrollDisplay","data-provider","SetHorizontal","property wrapper",
-"ScrollDisplay","data-provider","SetVertical","property wrapper",
-"ScrollDisplay","data-provider","SetDistance","property",
-"ScrollDisplay","data-provider","SetSpeed","property wrapper",
-"ScrollDisplay","data-provider","SyncDuration","property",
-"ScrollDisplay","data-provider","AsyncDuration","property",
-"ScrollDisplay","data-provider","SetDuration","property non-void-command collaborator",
-"ScrollDisplay","data-provider","SetLeave","property",
-"Creater","controller small-class","Creater","constructor",
-"Creater","controller small-class","SetSubtitles","factory controller",
-"Creater","controller small-class","SetText","property non-void-command collaborator",
-"Config","data-class small-class","get","get",
-"Config","data-class small-class","set","set",
-"Collision","unclassified","Collision","constructor",
-"Collision","unclassified","Leaves","property controller",
-"Collision","unclassified","Detect","property controller",
-"Collision","unclassified","Update","set",
-"PlayerDanmakuSpeed","entity boundary","PlayerDanmakuSpeed","constructor",
-"PlayerDanmakuSpeed","entity boundary","PlayerDanmakuSpeed","copy-constructor",
-"PlayerDanmakuSpeed","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuSpeed","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuSpeed","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuSpeed","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuSpeed","entity boundary","ToString","property wrapper",
-"PlayerDanmakuSpeed","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuSpeed","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuSpeed","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuSpeed","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuSpeed","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuSpeed","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuSpeed","entity boundary","get","get collaborator",
-"PlayerDanmakuSpeed","entity boundary","get","collaborator incidental",
-"PlayerDanmakuSpeed","entity boundary","get","collaborator incidental",
-"PlayerDanmakuSpeed","entity boundary","get","get",
-"PlayerDanmakuSpeed","entity boundary","set","set",
-"PlayerDanmakuDomain","entity boundary","PlayerDanmakuDomain","constructor",
-"PlayerDanmakuDomain","entity boundary","PlayerDanmakuDomain","copy-constructor",
-"PlayerDanmakuDomain","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuDomain","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuDomain","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuDomain","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuDomain","entity boundary","ToString","property wrapper",
-"PlayerDanmakuDomain","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuDomain","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuDomain","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuDomain","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuDomain","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuDomain","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuDomain","entity boundary","get","get collaborator",
-"PlayerDanmakuDomain","entity boundary","get","collaborator incidental",
-"PlayerDanmakuDomain","entity boundary","get","collaborator incidental",
-"PlayerDanmakuDomain","entity boundary","get","get",
-"PlayerDanmakuDomain","entity boundary","set","set",
-"PlayerDanmakuScalingfactor","entity boundary","PlayerDanmakuScalingfactor","constructor",
-"PlayerDanmakuScalingfactor","entity boundary","PlayerDanmakuScalingfactor","copy-constructor",
-"PlayerDanmakuScalingfactor","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuScalingfactor","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuScalingfactor","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuScalingfactor","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuScalingfactor","entity boundary","ToString","property wrapper",
-"PlayerDanmakuScalingfactor","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuScalingfactor","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuScalingfactor","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuScalingfactor","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuScalingfactor","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuScalingfactor","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuScalingfactor","entity boundary","get","get collaborator",
-"PlayerDanmakuScalingfactor","entity boundary","get","collaborator incidental",
-"PlayerDanmakuScalingfactor","entity boundary","get","collaborator incidental",
-"PlayerDanmakuScalingfactor","entity boundary","get","get",
-"PlayerDanmakuScalingfactor","entity boundary","set","set",
-"PlayerDanmakuOpacity","entity boundary","PlayerDanmakuOpacity","constructor",
-"PlayerDanmakuOpacity","entity boundary","PlayerDanmakuOpacity","copy-constructor",
-"PlayerDanmakuOpacity","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuOpacity","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuOpacity","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuOpacity","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuOpacity","entity boundary","ToString","property wrapper",
-"PlayerDanmakuOpacity","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuOpacity","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuOpacity","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuOpacity","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuOpacity","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuOpacity","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuOpacity","entity boundary","get","get collaborator",
-"PlayerDanmakuOpacity","entity boundary","get","collaborator incidental",
-"PlayerDanmakuOpacity","entity boundary","get","collaborator incidental",
-"PlayerDanmakuOpacity","entity boundary","get","get",
-"PlayerDanmakuOpacity","entity boundary","set","set",
-"PlayerDanmakuBlockspecial","entity boundary","PlayerDanmakuBlockspecial","constructor",
-"PlayerDanmakuBlockspecial","entity boundary","PlayerDanmakuBlockspecial","copy-constructor",
-"PlayerDanmakuBlockspecial","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuBlockspecial","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuBlockspecial","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuBlockspecial","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuBlockspecial","entity boundary","ToString","property wrapper",
-"PlayerDanmakuBlockspecial","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuBlockspecial","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuBlockspecial","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuBlockspecial","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuBlockspecial","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuBlockspecial","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuBlockspecial","entity boundary","get","get collaborator",
-"PlayerDanmakuBlockspecial","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockspecial","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockspecial","entity boundary","get","get",
-"PlayerDanmakuBlockspecial","entity boundary","set","set",
-"CustomPagerViewModel","boundary","CustomPagerViewModel","constructor",
-"CustomPagerViewModel","boundary","OnCurrentChanged","wrapper stateless",
-"CustomPagerViewModel","boundary","OnCountChanged","wrapper stateless",
-"CustomPagerViewModel","boundary","PreviousExecuted","command collaborator",
-"CustomPagerViewModel","boundary","FirstExecuted","command collaborator",
-"CustomPagerViewModel","boundary","PreviousSecondExecuted","command collaborator",
-"CustomPagerViewModel","boundary","PreviousFirstExecuted","command collaborator",
-"CustomPagerViewModel","boundary","NextFirstExecuted","command collaborator",
-"CustomPagerViewModel","boundary","NextSecondExecuted","command collaborator",
-"CustomPagerViewModel","boundary","LastExecuted","command collaborator",
-"CustomPagerViewModel","boundary","NextExecuted","command collaborator",
-"CustomPagerViewModel","boundary","SetView","incidental",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get",
-"CustomPagerViewModel","boundary","set","non-void-command",
-"CustomPagerViewModel","boundary","get","get set",
-"CustomPagerViewModel","boundary","set","non-void-command",
-"CustomPagerViewModel","boundary","get","get",
-"CustomPagerViewModel","boundary","set","set",
-"CustomPagerViewModel","boundary","get","get",
-"CustomPagerViewModel","boundary","set","set",
-"CustomPagerViewModel","boundary","get","get",
-"CustomPagerViewModel","boundary","set","set",
-"CustomPagerViewModel","boundary","get","get",
-"CustomPagerViewModel","boundary","set","set",
-"CustomPagerViewModel","boundary","get","get",
-"CustomPagerViewModel","boundary","set","set",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"CustomPagerViewModel","boundary","get","get collaborator",
-"CustomPagerViewModel","boundary","set","set collaborator",
-"LogManager","commander data-class small-class","LogManager","constructor",
-"LogManager","commander data-class small-class","set","set",
-"PlayerDanmakuBlockrepeat","entity boundary","PlayerDanmakuBlockrepeat","constructor",
-"PlayerDanmakuBlockrepeat","entity boundary","PlayerDanmakuBlockrepeat","copy-constructor",
-"PlayerDanmakuBlockrepeat","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuBlockrepeat","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuBlockrepeat","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuBlockrepeat","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuBlockrepeat","entity boundary","ToString","property wrapper",
-"PlayerDanmakuBlockrepeat","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuBlockrepeat","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuBlockrepeat","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuBlockrepeat","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuBlockrepeat","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuBlockrepeat","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuBlockrepeat","entity boundary","get","get collaborator",
-"PlayerDanmakuBlockrepeat","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockrepeat","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockrepeat","entity boundary","get","get",
-"PlayerDanmakuBlockrepeat","entity boundary","set","set",
-"Producer","commander","Producer","constructor",
-"Producer","commander","StartHandle","command",
-"Producer","commander","LoadFilter","command",
-"Producer","commander","ApplyFilter","command",
-"Producer","commander","Report","property controller",
-"PlayerDanmakuBlockscroll","entity boundary","PlayerDanmakuBlockscroll","constructor",
-"PlayerDanmakuBlockscroll","entity boundary","PlayerDanmakuBlockscroll","copy-constructor",
-"PlayerDanmakuBlockscroll","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuBlockscroll","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuBlockscroll","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuBlockscroll","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuBlockscroll","entity boundary","ToString","property wrapper",
-"PlayerDanmakuBlockscroll","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuBlockscroll","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuBlockscroll","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuBlockscroll","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuBlockscroll","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuBlockscroll","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuBlockscroll","entity boundary","get","get collaborator",
-"PlayerDanmakuBlockscroll","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockscroll","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockscroll","entity boundary","get","get",
-"PlayerDanmakuBlockscroll","entity boundary","set","set",
-"StringLogicalComparer<T>","pure-controller degenerate small-class","Compare","controller stateless",
-"DanmakuSender","empty","DanmakuSender","constructor",
-"FFmpegHelper","empty","FFmpegHelper","constructor",
-"VideoZoneIcon","degenerate small-class","VideoZoneIcon","constructor",
-"VideoZoneIcon","degenerate small-class","GetZoneImageKey","incidental",
-"AriaPeer","data-provider boundary small-class","ToString","property wrapper",
-"DownloadBaseDb","empty","DownloadBaseDb","constructor",
-"AriaError","data-provider boundary small-class","ToString","property wrapper",
-"DownloadDb","commander boundary","Close","command",
-"DownloadDb","commander boundary","Insert","command collaborator",
-"DownloadDb","commander boundary","Delete","command",
-"DownloadDb","commander boundary","Update","command collaborator",
-"DownloadDb","commander boundary","QueryAll","property non-void-command collaborator",
-"DownloadDb","commander boundary","QueryById","property non-void-command collaborator",
-"DownloadDb","commander boundary","Query","non-void-command factory collaborator",
-"DownloadDb","commander boundary","CreateTable","command",
-"AriaUri","data-provider boundary small-class","ToString","property wrapper",
-"AriaTellStatusResult","data-provider boundary small-class","ToString","property wrapper",
-"DanmuPlayerViewConfig","entity boundary","DanmuPlayerViewConfig","constructor",
-"DanmuPlayerViewConfig","entity boundary","DanmuPlayerViewConfig","copy-constructor",
-"DanmuPlayerViewConfig","entity boundary","Clone","property factory wrapper",
-"DanmuPlayerViewConfig","entity boundary","Equals","predicate non-void-command collaborator",
-"DanmuPlayerViewConfig","entity boundary","Equals","get predicate non-void-command",
-"DanmuPlayerViewConfig","entity boundary","GetHashCode","property non-void-command",
-"DanmuPlayerViewConfig","entity boundary","ToString","property wrapper",
-"DanmuPlayerViewConfig","entity boundary","WriteTo","command collaborator",
-"DanmuPlayerViewConfig","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DanmuPlayerViewConfig","entity boundary","CalculateSize","property non-void-command",
-"DanmuPlayerViewConfig","entity boundary","MergeFrom","void-accessor set",
-"DanmuPlayerViewConfig","entity boundary","MergeFrom","set collaborator",
-"DanmuPlayerViewConfig","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DanmuPlayerViewConfig","entity boundary","get","get collaborator",
-"DanmuPlayerViewConfig","entity boundary","get","collaborator incidental",
-"DanmuPlayerViewConfig","entity boundary","get","collaborator incidental",
-"DanmuPlayerViewConfig","entity boundary","get","get collaborator",
-"DanmuPlayerViewConfig","entity boundary","set","set collaborator",
-"DanmuPlayerViewConfig","entity boundary","get","get collaborator",
-"DanmuPlayerViewConfig","entity boundary","set","set collaborator",
-"DanmuPlayerViewConfig","entity boundary","get","get collaborator",
-"CountConverter","data-provider boundary small-class","Convert","property collaborator",
-"CountConverter","data-provider boundary small-class","ConvertBack","collaborator stateless",
-"DmViewReq","unclassified","DmViewReq","constructor",
-"DmViewReq","unclassified","DmViewReq","copy-constructor",
-"DmViewReq","unclassified","Clone","property factory wrapper",
-"DmViewReq","unclassified","Equals","predicate non-void-command collaborator",
-"DmViewReq","unclassified","Equals","get predicate wrapper",
-"DmViewReq","unclassified","GetHashCode","property non-void-command",
-"DmViewReq","unclassified","ToString","property wrapper",
-"DmViewReq","unclassified","WriteTo","command collaborator",
-"DmViewReq","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmViewReq","unclassified","CalculateSize","property non-void-command",
-"DmViewReq","unclassified","MergeFrom","void-accessor set",
-"DmViewReq","unclassified","MergeFrom","set collaborator",
-"DmViewReq","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DmViewReq","unclassified","get","get collaborator",
-"DmViewReq","unclassified","get","collaborator incidental",
-"DmViewReq","unclassified","get","collaborator incidental",
-"DmViewReq","unclassified","get","get",
-"DmViewReq","unclassified","set","set",
-"DmViewReq","unclassified","get","get",
-"DmViewReq","unclassified","set","set",
-"DmViewReq","unclassified","get","get",
-"DmViewReq","unclassified","set","set",
-"DmViewReq","unclassified","get","get",
-"DmViewReq","unclassified","set","set",
-"DmViewReq","unclassified","get","get",
-"DmViewReq","unclassified","set","set",
-"PlayerDanmakuUseDefaultConfig","entity boundary","PlayerDanmakuUseDefaultConfig","constructor",
-"PlayerDanmakuUseDefaultConfig","entity boundary","PlayerDanmakuUseDefaultConfig","copy-constructor",
-"PlayerDanmakuUseDefaultConfig","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuUseDefaultConfig","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuUseDefaultConfig","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuUseDefaultConfig","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuUseDefaultConfig","entity boundary","ToString","property wrapper",
-"PlayerDanmakuUseDefaultConfig","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuUseDefaultConfig","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuUseDefaultConfig","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuUseDefaultConfig","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuUseDefaultConfig","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuUseDefaultConfig","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuUseDefaultConfig","entity boundary","get","get collaborator",
-"PlayerDanmakuUseDefaultConfig","entity boundary","get","collaborator incidental",
-"PlayerDanmakuUseDefaultConfig","entity boundary","get","collaborator incidental",
-"PlayerDanmakuUseDefaultConfig","entity boundary","get","get",
-"PlayerDanmakuUseDefaultConfig","entity boundary","set","set",
-"AriaAddUri","data-provider boundary small-class","ToString","property wrapper",
-"AriaSendOption","data-provider boundary small-class","ToString","property wrapper",
-"AriaOption","data-provider boundary small-class","ToString","property wrapper",
-"UserInfo","unclassified","UserInfo","constructor",
-"UserInfo","unclassified","UserInfo","copy-constructor",
-"UserInfo","unclassified","Clone","property factory wrapper",
-"UserInfo","unclassified","Equals","predicate non-void-command collaborator",
-"UserInfo","unclassified","Equals","get predicate wrapper",
-"UserInfo","unclassified","GetHashCode","property non-void-command",
-"UserInfo","unclassified","ToString","property wrapper",
-"UserInfo","unclassified","WriteTo","command collaborator",
-"UserInfo","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"UserInfo","unclassified","CalculateSize","property non-void-command",
-"UserInfo","unclassified","MergeFrom","void-accessor set",
-"UserInfo","unclassified","MergeFrom","set collaborator",
-"UserInfo","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"UserInfo","unclassified","get","get collaborator",
-"UserInfo","unclassified","get","collaborator incidental",
-"UserInfo","unclassified","get","collaborator incidental",
-"UserInfo","unclassified","get","get",
-"UserInfo","unclassified","set","set",
-"UserInfo","unclassified","get","get",
-"UserInfo","unclassified","set","set",
-"UserInfo","unclassified","get","get",
-"UserInfo","unclassified","set","set",
-"UserInfo","unclassified","get","get",
-"UserInfo","unclassified","set","set",
-"UserInfo","unclassified","get","get",
-"UserInfo","unclassified","set","set",
-"UserInfo","unclassified","get","get",
-"UserInfo","unclassified","set","set",
-"AriaResultServer","data-provider boundary small-class","ToString","property wrapper",
-"Subtitle","data-provider","Subtitle","constructor",
-"Subtitle","data-provider","SetStart","get",
-"Subtitle","data-provider","SetEnd","property",
-"Subtitle","data-provider","SetColor","property wrapper",
-"Subtitle","data-provider","SetPosition","property",
-"Subtitle","data-provider","SetStartMarkup","property wrapper",
-"Subtitle","data-provider","SetEndMarkup","property wrapper",
-"Subtitle","data-provider","SetColorMarkup","property",
-"Subtitle","data-provider","SetBorderMarkup","property wrapper",
-"Subtitle","data-provider","SetFontSizeMarkup","property",
-"Subtitle","data-provider","SetStyleMarkup","property",
-"Subtitle","data-provider","SetLayerMarkup","property",
-"Subtitle","data-provider","SetContentMarkup","property wrapper",
-"Subtitle","data-provider","SetText","incidental",
-"BvId","empty","BvId","constructor",
-"AriaGetPeers","data-provider boundary small-class","ToString","property wrapper",
-"AriaGetOption","data-provider boundary small-class","ToString","property wrapper",
-"BaseModel","entity boundary small-class","ToString","property non-void-command collaborator",
-"LogoIcon","empty","LogoIcon","constructor",
-"AriaPause","data-provider boundary small-class","ToString","property wrapper",
-"AriaGetSessionInfo","data-provider boundary small-class","ToString","property wrapper",
-"BottomFilter","factory pure-controller degenerate small-class","DoFilter","factory controller stateless",
-"AriaAddMetalink","data-provider boundary small-class","ToString","property wrapper",
-"DmWebViewReply","boundary","DmWebViewReply","constructor",
-"DmWebViewReply","boundary","DmWebViewReply","copy-constructor",
-"DmWebViewReply","boundary","Clone","property factory wrapper",
-"DmWebViewReply","boundary","Equals","predicate non-void-command collaborator",
-"DmWebViewReply","boundary","Equals","get predicate non-void-command",
-"DmWebViewReply","boundary","GetHashCode","property non-void-command",
-"DmWebViewReply","boundary","ToString","property wrapper",
-"DmWebViewReply","boundary","WriteTo","command collaborator",
-"DmWebViewReply","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmWebViewReply","boundary","CalculateSize","property non-void-command",
-"DmWebViewReply","boundary","MergeFrom","void-accessor command",
-"DmWebViewReply","boundary","MergeFrom","command collaborator",
-"DmWebViewReply","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor command collaborator",
-"DmWebViewReply","boundary","get","get collaborator",
-"DmWebViewReply","boundary","get","collaborator incidental",
-"DmWebViewReply","boundary","get","collaborator incidental",
-"DmWebViewReply","boundary","get","get",
-"DmWebViewReply","boundary","set","set",
-"DmWebViewReply","boundary","get","get",
-"DmWebViewReply","boundary","set","set",
-"DmWebViewReply","boundary","get","get",
-"DmWebViewReply","boundary","set","set",
-"DmWebViewReply","boundary","get","get collaborator",
-"DmWebViewReply","boundary","set","set collaborator",
-"DmWebViewReply","boundary","get","get collaborator",
-"DmWebViewReply","boundary","set","set collaborator",
-"DmWebViewReply","boundary","get","get collaborator",
-"DmWebViewReply","boundary","get","get",
-"DmWebViewReply","boundary","set","set",
-"DmWebViewReply","boundary","get","get",
-"DmWebViewReply","boundary","set","set",
-"DmWebViewReply","boundary","get","get collaborator",
-"DmWebViewReply","boundary","get","get collaborator",
-"DmWebViewReply","boundary","set","set collaborator",
-"DmWebViewReply","boundary","get","get collaborator",
-"PlayerDanmakuSwitchSave","entity boundary","PlayerDanmakuSwitchSave","constructor",
-"PlayerDanmakuSwitchSave","entity boundary","PlayerDanmakuSwitchSave","copy-constructor",
-"PlayerDanmakuSwitchSave","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuSwitchSave","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuSwitchSave","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuSwitchSave","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuSwitchSave","entity boundary","ToString","property wrapper",
-"PlayerDanmakuSwitchSave","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuSwitchSave","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuSwitchSave","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuSwitchSave","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuSwitchSave","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuSwitchSave","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuSwitchSave","entity boundary","get","get collaborator",
-"PlayerDanmakuSwitchSave","entity boundary","get","collaborator incidental",
-"PlayerDanmakuSwitchSave","entity boundary","get","collaborator incidental",
-"PlayerDanmakuSwitchSave","entity boundary","get","get",
-"PlayerDanmakuSwitchSave","entity boundary","set","set",
-"AriaChangeOption","data-provider boundary small-class","ToString","property wrapper",
-"AriaSendData","data-provider boundary small-class","ToString","property wrapper",
-"CustomFilter","entity boundary small-class","DoFilter","property non-void-command collaborator",
-"DmPlayerConfigReq","entity boundary","DmPlayerConfigReq","constructor",
-"DmPlayerConfigReq","entity boundary","DmPlayerConfigReq","copy-constructor",
-"DmPlayerConfigReq","entity boundary","Clone","property factory wrapper",
-"DmPlayerConfigReq","entity boundary","Equals","predicate non-void-command collaborator",
-"DmPlayerConfigReq","entity boundary","Equals","get predicate wrapper",
-"DmPlayerConfigReq","entity boundary","GetHashCode","property non-void-command",
-"DmPlayerConfigReq","entity boundary","ToString","property wrapper",
-"DmPlayerConfigReq","entity boundary","WriteTo","command collaborator",
-"DmPlayerConfigReq","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmPlayerConfigReq","entity boundary","CalculateSize","property non-void-command",
-"DmPlayerConfigReq","entity boundary","MergeFrom","void-accessor set",
-"DmPlayerConfigReq","entity boundary","MergeFrom","set collaborator",
-"DmPlayerConfigReq","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","get","collaborator incidental",
-"DmPlayerConfigReq","entity boundary","get","collaborator incidental",
-"DmPlayerConfigReq","entity boundary","get","get",
-"DmPlayerConfigReq","entity boundary","set","set",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"DmPlayerConfigReq","entity boundary","get","get collaborator",
-"DmPlayerConfigReq","entity boundary","set","set collaborator",
-"BottomDisplay","data-provider boundary small-class","BottomDisplay","constructor",
-"BottomDisplay","data-provider boundary small-class","SetVertical","property wrapper",
-"AriaChangePosition","data-provider boundary small-class","ToString","property wrapper",
-"SystemIcon","empty","SystemIcon","constructor",
-"AriaSaveSession","data-provider boundary small-class","ToString","property wrapper",
-"AriaVersionResult","data-provider boundary small-class","ToString","property wrapper",
-"AriaShutdown","data-provider boundary small-class","ToString","property wrapper",
-"Display","data-provider","Display","constructor",
-"Display","data-provider","Display","constructor",
-"Display","data-provider","SetFontSize","property wrapper",
-"Display","data-provider","SetIsScaled","predicate wrapper",
-"Display","data-provider","SetMaxLength","property non-void-command",
-"Display","data-provider","SetWidth","property wrapper",
-"Display","data-provider","SetHeight","property non-void-command",
-"Display","data-provider","SetHorizontal","property wrapper",
-"Display","data-provider","SetVertical","property wrapper",
-"Display","data-provider","SetDuration","property",
-"Display","data-provider","SetLeave","property",
-"Display","data-provider","Relayout","command",
-"DmSegSDKReq","unclassified","DmSegSDKReq","constructor",
-"DmSegSDKReq","unclassified","DmSegSDKReq","copy-constructor",
-"DmSegSDKReq","unclassified","Clone","property factory wrapper",
-"DmSegSDKReq","unclassified","Equals","predicate non-void-command collaborator",
-"DmSegSDKReq","unclassified","Equals","get predicate wrapper",
-"DmSegSDKReq","unclassified","GetHashCode","property non-void-command",
-"DmSegSDKReq","unclassified","ToString","property wrapper",
-"DmSegSDKReq","unclassified","WriteTo","command collaborator",
-"DmSegSDKReq","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmSegSDKReq","unclassified","CalculateSize","property non-void-command",
-"DmSegSDKReq","unclassified","MergeFrom","void-accessor set",
-"DmSegSDKReq","unclassified","MergeFrom","set collaborator",
-"DmSegSDKReq","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DmSegSDKReq","unclassified","get","get collaborator",
-"DmSegSDKReq","unclassified","get","collaborator incidental",
-"DmSegSDKReq","unclassified","get","collaborator incidental",
-"DmSegSDKReq","unclassified","get","get",
-"DmSegSDKReq","unclassified","set","set",
-"DmSegSDKReq","unclassified","get","get",
-"DmSegSDKReq","unclassified","set","set",
-"DmSegSDKReq","unclassified","get","get",
-"DmSegSDKReq","unclassified","set","set",
-"DmSegSDKReq","unclassified","get","get",
-"DmSegSDKReq","unclassified","set","set",
-"AriaGetGlobalStatResult","data-provider boundary small-class","ToString","property wrapper",
-"VideoSubtitle","boundary","VideoSubtitle","constructor",
-"VideoSubtitle","boundary","VideoSubtitle","copy-constructor",
-"VideoSubtitle","boundary","Clone","property factory wrapper",
-"VideoSubtitle","boundary","Equals","predicate non-void-command collaborator",
-"VideoSubtitle","boundary","Equals","get predicate non-void-command",
-"VideoSubtitle","boundary","GetHashCode","property non-void-command",
-"VideoSubtitle","boundary","ToString","property wrapper",
-"VideoSubtitle","boundary","WriteTo","command collaborator",
-"VideoSubtitle","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"VideoSubtitle","boundary","CalculateSize","property non-void-command",
-"VideoSubtitle","boundary","MergeFrom","void-accessor set",
-"VideoSubtitle","boundary","MergeFrom","set collaborator",
-"VideoSubtitle","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"VideoSubtitle","boundary","get","get collaborator",
-"VideoSubtitle","boundary","get","collaborator incidental",
-"VideoSubtitle","boundary","get","collaborator incidental",
-"VideoSubtitle","boundary","get","get",
-"VideoSubtitle","boundary","set","set",
-"VideoSubtitle","boundary","get","get",
-"VideoSubtitle","boundary","set","set",
-"VideoSubtitle","boundary","get","get collaborator",
-"BiliDanmaku","degenerate small-class","ToString","incidental",
-"AriaManager","entity boundary degenerate","OnTellStatus","wrapper stateless",
-"AriaManager","entity boundary degenerate","OnDownloadFinish","wrapper stateless",
-"AriaManager","entity boundary degenerate","OnGlobalStatus","wrapper stateless",
-"AriaManager","entity boundary degenerate","GetDownloadStatus","property non-void-command collaborator",
-"AriaManager","entity boundary degenerate","GetGlobalStatus","command",
-"DownloadedDb","empty","DownloadedDb","constructor",
-"AriaGetFilesResult","data-provider boundary small-class","ToString","property wrapper",
-"AriaGetFiles","data-provider boundary small-class","ToString","property wrapper",
-"Resources","boundary data-class","Resources","constructor",
-"Resources","boundary data-class","get","get set collaborator",
-"Resources","boundary data-class","get","get collaborator",
-"Resources","boundary data-class","set","set collaborator",
-"Resources","boundary data-class","get","property wrapper",
-"AriaTellStatus","data-provider boundary small-class","ToString","property wrapper",
-"AriaTellStatusResultFile","data-provider boundary small-class","ToString","property wrapper",
-"AriaGetServers","data-provider boundary small-class","ToString","property wrapper",
-"SystemListMethods","data-provider boundary small-class","ToString","property wrapper",
-"SystemListNotifications","data-provider boundary small-class","ToString","property wrapper",
-"PlayerDanmakuSwitch","boundary","PlayerDanmakuSwitch","constructor",
-"PlayerDanmakuSwitch","boundary","PlayerDanmakuSwitch","copy-constructor",
-"PlayerDanmakuSwitch","boundary","Clone","property factory wrapper",
-"PlayerDanmakuSwitch","boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuSwitch","boundary","Equals","get predicate wrapper",
-"PlayerDanmakuSwitch","boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuSwitch","boundary","ToString","property wrapper",
-"PlayerDanmakuSwitch","boundary","WriteTo","command collaborator",
-"PlayerDanmakuSwitch","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuSwitch","boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuSwitch","boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuSwitch","boundary","MergeFrom","set collaborator",
-"PlayerDanmakuSwitch","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuSwitch","boundary","get","get collaborator",
-"PlayerDanmakuSwitch","boundary","get","collaborator incidental",
-"PlayerDanmakuSwitch","boundary","get","collaborator incidental",
-"PlayerDanmakuSwitch","boundary","get","get",
-"PlayerDanmakuSwitch","boundary","set","set",
-"PlayerDanmakuSwitch","boundary","get","get",
-"PlayerDanmakuSwitch","boundary","set","set",
-"App","commander boundary","CreateShell","property non-void-command collaborator",
-"App","commander boundary","OnStartup","set collaborator",
-"App","commander boundary","OnExit","command collaborator",
-"App","commander boundary","RegisterTypes","controller stateless",
-"AriaGetUris","data-provider boundary small-class","ToString","property wrapper",
-"DanmakuFlag","boundary","DanmakuFlag","constructor",
-"DanmakuFlag","boundary","DanmakuFlag","copy-constructor",
-"DanmakuFlag","boundary","Clone","property factory wrapper",
-"DanmakuFlag","boundary","Equals","predicate non-void-command collaborator",
-"DanmakuFlag","boundary","Equals","get predicate wrapper",
-"DanmakuFlag","boundary","GetHashCode","property non-void-command",
-"DanmakuFlag","boundary","ToString","property wrapper",
-"DanmakuFlag","boundary","WriteTo","command collaborator",
-"DanmakuFlag","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DanmakuFlag","boundary","CalculateSize","property non-void-command",
-"DanmakuFlag","boundary","MergeFrom","void-accessor set",
-"DanmakuFlag","boundary","MergeFrom","set collaborator",
-"DanmakuFlag","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DanmakuFlag","boundary","get","get collaborator",
-"DanmakuFlag","boundary","get","collaborator incidental",
-"DanmakuFlag","boundary","get","collaborator incidental",
-"DanmakuFlag","boundary","get","get",
-"DanmakuFlag","boundary","set","set",
-"DanmakuFlag","boundary","get","get",
-"DanmakuFlag","boundary","set","set",
-"SubtitleJson","data-provider small-class","ToSubRip","property",
-"SystemMulticall","data-provider boundary small-class","ToString","property wrapper",
-"InlinePlayerDanmakuSwitch","entity boundary","InlinePlayerDanmakuSwitch","constructor",
-"InlinePlayerDanmakuSwitch","entity boundary","InlinePlayerDanmakuSwitch","copy-constructor",
-"InlinePlayerDanmakuSwitch","entity boundary","Clone","property factory wrapper",
-"InlinePlayerDanmakuSwitch","entity boundary","Equals","predicate non-void-command collaborator",
-"InlinePlayerDanmakuSwitch","entity boundary","Equals","get predicate wrapper",
-"InlinePlayerDanmakuSwitch","entity boundary","GetHashCode","property non-void-command",
-"InlinePlayerDanmakuSwitch","entity boundary","ToString","property wrapper",
-"InlinePlayerDanmakuSwitch","entity boundary","WriteTo","command collaborator",
-"InlinePlayerDanmakuSwitch","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"InlinePlayerDanmakuSwitch","entity boundary","CalculateSize","property non-void-command",
-"InlinePlayerDanmakuSwitch","entity boundary","MergeFrom","void-accessor set",
-"InlinePlayerDanmakuSwitch","entity boundary","MergeFrom","set collaborator",
-"InlinePlayerDanmakuSwitch","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"InlinePlayerDanmakuSwitch","entity boundary","get","get collaborator",
-"InlinePlayerDanmakuSwitch","entity boundary","get","collaborator incidental",
-"InlinePlayerDanmakuSwitch","entity boundary","get","collaborator incidental",
-"InlinePlayerDanmakuSwitch","entity boundary","get","get",
-"InlinePlayerDanmakuSwitch","entity boundary","set","set",
-"DanmakuFlagConfig","boundary","DanmakuFlagConfig","constructor",
-"DanmakuFlagConfig","boundary","DanmakuFlagConfig","copy-constructor",
-"DanmakuFlagConfig","boundary","Clone","property factory wrapper",
-"DanmakuFlagConfig","boundary","Equals","predicate non-void-command collaborator",
-"DanmakuFlagConfig","boundary","Equals","get predicate wrapper",
-"DanmakuFlagConfig","boundary","GetHashCode","property non-void-command",
-"DanmakuFlagConfig","boundary","ToString","property wrapper",
-"DanmakuFlagConfig","boundary","WriteTo","command collaborator",
-"DanmakuFlagConfig","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DanmakuFlagConfig","boundary","CalculateSize","property non-void-command",
-"DanmakuFlagConfig","boundary","MergeFrom","void-accessor set",
-"DanmakuFlagConfig","boundary","MergeFrom","set collaborator",
-"DanmakuFlagConfig","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DanmakuFlagConfig","boundary","get","get collaborator",
-"DanmakuFlagConfig","boundary","get","collaborator incidental",
-"DanmakuFlagConfig","boundary","get","collaborator incidental",
-"DanmakuFlagConfig","boundary","get","get",
-"DanmakuFlagConfig","boundary","set","set",
-"DanmakuFlagConfig","boundary","get","get",
-"DanmakuFlagConfig","boundary","set","set",
-"DanmakuFlagConfig","boundary","get","get",
-"DanmakuFlagConfig","boundary","set","set",
-"NavigationIcon","empty","NavigationIcon","constructor",
-"AriaAddTorrent","data-provider boundary small-class","ToString","property wrapper",
-"VideoMask","unclassified","VideoMask","constructor",
-"VideoMask","unclassified","VideoMask","copy-constructor",
-"VideoMask","unclassified","Clone","property factory wrapper",
-"VideoMask","unclassified","Equals","predicate non-void-command collaborator",
-"VideoMask","unclassified","Equals","get predicate wrapper",
-"VideoMask","unclassified","GetHashCode","property non-void-command",
-"VideoMask","unclassified","ToString","property wrapper",
-"VideoMask","unclassified","WriteTo","command collaborator",
-"VideoMask","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"VideoMask","unclassified","CalculateSize","property non-void-command",
-"VideoMask","unclassified","MergeFrom","void-accessor set",
-"VideoMask","unclassified","MergeFrom","set collaborator",
-"VideoMask","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"VideoMask","unclassified","get","get collaborator",
-"VideoMask","unclassified","get","collaborator incidental",
-"VideoMask","unclassified","get","collaborator incidental",
-"VideoMask","unclassified","get","get",
-"VideoMask","unclassified","set","set",
-"VideoMask","unclassified","get","get",
-"VideoMask","unclassified","set","set",
-"VideoMask","unclassified","get","get",
-"VideoMask","unclassified","set","set",
-"VideoMask","unclassified","get","get",
-"VideoMask","unclassified","set","set",
-"VideoMask","unclassified","get","get",
-"VideoMask","unclassified","set","set",
-"DanmakuElem","unclassified","DanmakuElem","constructor",
-"DanmakuElem","unclassified","DanmakuElem","copy-constructor",
-"DanmakuElem","unclassified","Clone","property factory wrapper",
-"DanmakuElem","unclassified","Equals","predicate non-void-command collaborator",
-"DanmakuElem","unclassified","Equals","get predicate wrapper",
-"DanmakuElem","unclassified","GetHashCode","property non-void-command",
-"DanmakuElem","unclassified","ToString","property wrapper",
-"DanmakuElem","unclassified","WriteTo","command collaborator",
-"DanmakuElem","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DanmakuElem","unclassified","CalculateSize","property non-void-command",
-"DanmakuElem","unclassified","MergeFrom","void-accessor set",
-"DanmakuElem","unclassified","MergeFrom","set collaborator",
-"DanmakuElem","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DanmakuElem","unclassified","get","get collaborator",
-"DanmakuElem","unclassified","get","collaborator incidental",
-"DanmakuElem","unclassified","get","collaborator incidental",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DanmakuElem","unclassified","get","get",
-"DanmakuElem","unclassified","set","set",
-"DmSegSDKReply","boundary","DmSegSDKReply","constructor",
-"DmSegSDKReply","boundary","DmSegSDKReply","copy-constructor",
-"DmSegSDKReply","boundary","Clone","property factory wrapper",
-"DmSegSDKReply","boundary","Equals","predicate non-void-command collaborator",
-"DmSegSDKReply","boundary","Equals","get predicate non-void-command",
-"DmSegSDKReply","boundary","GetHashCode","property non-void-command",
-"DmSegSDKReply","boundary","ToString","property wrapper",
-"DmSegSDKReply","boundary","WriteTo","command collaborator",
-"DmSegSDKReply","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmSegSDKReply","boundary","CalculateSize","property non-void-command",
-"DmSegSDKReply","boundary","MergeFrom","void-accessor set",
-"DmSegSDKReply","boundary","MergeFrom","set collaborator",
-"DmSegSDKReply","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DmSegSDKReply","boundary","get","get collaborator",
-"DmSegSDKReply","boundary","get","collaborator incidental",
-"DmSegSDKReply","boundary","get","collaborator incidental",
-"DmSegSDKReply","boundary","get","get",
-"DmSegSDKReply","boundary","set","set",
-"DmSegSDKReply","boundary","get","get collaborator",
-"TopDisplay","data-provider boundary small-class","TopDisplay","constructor",
-"TopDisplay","data-provider boundary small-class","SetVertical","property wrapper",
-"Downloaded","commander boundary small-class","Downloaded","constructor",
-"Downloaded","commander boundary small-class","SetFinishedTimestamp","command collaborator",
-"StorageHeader","boundary","GetHeaderThumbnail","property non-void-command collaborator",
-"StorageHeader","boundary","GetHeaderThumbnail","controller stateless",
-"StorageHeader","boundary","GetHeader","property non-void-command collaborator",
-"StorageHeader","boundary","DownloadImage","wrapper stateless",
-"Studio","unclassified","Studio","constructor",
-"Studio","unclassified","StartHandle","command",
-"Studio","unclassified","SetCreater","property factory collaborator",
-"Studio","unclassified","SetKeepedCount","property non-void-command",
-"Studio","unclassified","SetDropedCount","get",
-"Studio","unclassified","CreateAssFile","command",
-"Studio","unclassified","CreateFile","wrapper stateless",
-"Studio","unclassified","Report","property",
-"AriaVersion","data-provider boundary small-class","ToString","property wrapper",
-"AriaGetGlobalStat","data-provider boundary small-class","ToString","property wrapper",
-"AriaTellStatusList","data-provider boundary small-class","ToString","property wrapper",
-"PlayerDanmakuBlockcolorful","entity boundary","PlayerDanmakuBlockcolorful","constructor",
-"PlayerDanmakuBlockcolorful","entity boundary","PlayerDanmakuBlockcolorful","copy-constructor",
-"PlayerDanmakuBlockcolorful","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuBlockcolorful","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuBlockcolorful","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuBlockcolorful","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuBlockcolorful","entity boundary","ToString","property wrapper",
-"PlayerDanmakuBlockcolorful","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuBlockcolorful","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuBlockcolorful","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuBlockcolorful","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuBlockcolorful","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuBlockcolorful","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuBlockcolorful","entity boundary","get","get collaborator",
-"PlayerDanmakuBlockcolorful","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockcolorful","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockcolorful","entity boundary","get","get",
-"PlayerDanmakuBlockcolorful","entity boundary","set","set",
-"AriaGetSessionInfoResult","data-provider boundary small-class","ToString","property wrapper",
-"AriaGetServersResult","data-provider boundary small-class","ToString","property wrapper",
-"SubtitleItem","unclassified","SubtitleItem","constructor",
-"SubtitleItem","unclassified","SubtitleItem","copy-constructor",
-"SubtitleItem","unclassified","Clone","property factory wrapper",
-"SubtitleItem","unclassified","Equals","predicate non-void-command collaborator",
-"SubtitleItem","unclassified","Equals","get predicate wrapper",
-"SubtitleItem","unclassified","GetHashCode","property non-void-command",
-"SubtitleItem","unclassified","ToString","property wrapper",
-"SubtitleItem","unclassified","WriteTo","command collaborator",
-"SubtitleItem","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"SubtitleItem","unclassified","CalculateSize","property non-void-command",
-"SubtitleItem","unclassified","MergeFrom","void-accessor set",
-"SubtitleItem","unclassified","MergeFrom","set collaborator",
-"SubtitleItem","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"SubtitleItem","unclassified","get","get collaborator",
-"SubtitleItem","unclassified","get","collaborator incidental",
-"SubtitleItem","unclassified","get","collaborator incidental",
-"SubtitleItem","unclassified","get","get",
-"SubtitleItem","unclassified","set","set",
-"SubtitleItem","unclassified","get","get",
-"SubtitleItem","unclassified","set","set",
-"SubtitleItem","unclassified","get","get",
-"SubtitleItem","unclassified","set","set",
-"SubtitleItem","unclassified","get","get",
-"SubtitleItem","unclassified","set","set",
-"SubtitleItem","unclassified","get","get",
-"SubtitleItem","unclassified","set","set",
-"SubtitleItem","unclassified","get","get collaborator",
-"SubtitleItem","unclassified","set","set collaborator",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","PlayerDanmakuAiRecommendedSwitch","constructor",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","PlayerDanmakuAiRecommendedSwitch","copy-constructor",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","ToString","property wrapper",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","get","get collaborator",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","get","collaborator incidental",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","get","collaborator incidental",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","get","get",
-"PlayerDanmakuAiRecommendedSwitch","entity boundary","set","set",
-"NormalIcon","empty","NormalIcon","constructor",
-"DmReflection","data-provider boundary data-class small-class","DmReflection","constructor",
-"DmReflection","data-provider boundary data-class small-class","get","get collaborator",
-"PlayerDanmakuEnableblocklist","entity boundary","PlayerDanmakuEnableblocklist","constructor",
-"PlayerDanmakuEnableblocklist","entity boundary","PlayerDanmakuEnableblocklist","copy-constructor",
-"PlayerDanmakuEnableblocklist","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuEnableblocklist","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuEnableblocklist","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuEnableblocklist","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuEnableblocklist","entity boundary","ToString","property wrapper",
-"PlayerDanmakuEnableblocklist","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuEnableblocklist","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuEnableblocklist","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuEnableblocklist","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuEnableblocklist","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuEnableblocklist","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuEnableblocklist","entity boundary","get","get collaborator",
-"PlayerDanmakuEnableblocklist","entity boundary","get","collaborator incidental",
-"PlayerDanmakuEnableblocklist","entity boundary","get","collaborator incidental",
-"PlayerDanmakuEnableblocklist","entity boundary","get","get",
-"PlayerDanmakuEnableblocklist","entity boundary","set","set",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","PlayerDanmakuAiRecommendedLevel","constructor",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","PlayerDanmakuAiRecommendedLevel","copy-constructor",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","ToString","property wrapper",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","get","get collaborator",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","get","collaborator incidental",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","get","collaborator incidental",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","get","get",
-"PlayerDanmakuAiRecommendedLevel","entity boundary","set","set",
-"PlayerDanmakuBlocktop","entity boundary","PlayerDanmakuBlocktop","constructor",
-"PlayerDanmakuBlocktop","entity boundary","PlayerDanmakuBlocktop","copy-constructor",
-"PlayerDanmakuBlocktop","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuBlocktop","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuBlocktop","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuBlocktop","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuBlocktop","entity boundary","ToString","property wrapper",
-"PlayerDanmakuBlocktop","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuBlocktop","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuBlocktop","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuBlocktop","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuBlocktop","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuBlocktop","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuBlocktop","entity boundary","get","get collaborator",
-"PlayerDanmakuBlocktop","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlocktop","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlocktop","entity boundary","get","get",
-"PlayerDanmakuBlocktop","entity boundary","set","set",
-"DownloadBase","empty","DownloadBase","constructor",
-"DanmuWebPlayerConfig","unclassified","DanmuWebPlayerConfig","constructor",
-"DanmuWebPlayerConfig","unclassified","DanmuWebPlayerConfig","copy-constructor",
-"DanmuWebPlayerConfig","unclassified","Clone","property factory wrapper",
-"DanmuWebPlayerConfig","unclassified","Equals","predicate non-void-command collaborator",
-"DanmuWebPlayerConfig","unclassified","Equals","get predicate wrapper",
-"DanmuWebPlayerConfig","unclassified","GetHashCode","property non-void-command",
-"DanmuWebPlayerConfig","unclassified","ToString","property wrapper",
-"DanmuWebPlayerConfig","unclassified","WriteTo","command collaborator",
-"DanmuWebPlayerConfig","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DanmuWebPlayerConfig","unclassified","CalculateSize","property non-void-command",
-"DanmuWebPlayerConfig","unclassified","MergeFrom","void-accessor set",
-"DanmuWebPlayerConfig","unclassified","MergeFrom","set collaborator",
-"DanmuWebPlayerConfig","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DanmuWebPlayerConfig","unclassified","get","get collaborator",
-"DanmuWebPlayerConfig","unclassified","get","collaborator incidental",
-"DanmuWebPlayerConfig","unclassified","get","collaborator incidental",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"DanmuWebPlayerConfig","unclassified","get","get",
-"DanmuWebPlayerConfig","unclassified","set","set",
-"AriaRemove","data-provider boundary small-class","ToString","property wrapper",
-"DbHelper","commander","DbHelper","constructor",
-"DbHelper","commander","DbHelper","constructor",
-"DbHelper","commander","IsOpen","predicate",
-"DbHelper","commander","Open","command",
-"DbHelper","commander","Close","command",
-"DbHelper","commander","ExecuteNonQuery","command collaborator",
-"DbHelper","commander","ExecuteQuery","command collaborator",
-"DanmuPlayerConfig","unclassified","DanmuPlayerConfig","constructor",
-"DanmuPlayerConfig","unclassified","DanmuPlayerConfig","copy-constructor",
-"DanmuPlayerConfig","unclassified","Clone","property factory wrapper",
-"DanmuPlayerConfig","unclassified","Equals","predicate non-void-command collaborator",
-"DanmuPlayerConfig","unclassified","Equals","get predicate wrapper",
-"DanmuPlayerConfig","unclassified","GetHashCode","property non-void-command",
-"DanmuPlayerConfig","unclassified","ToString","property wrapper",
-"DanmuPlayerConfig","unclassified","WriteTo","command collaborator",
-"DanmuPlayerConfig","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DanmuPlayerConfig","unclassified","CalculateSize","property non-void-command",
-"DanmuPlayerConfig","unclassified","MergeFrom","void-accessor set",
-"DanmuPlayerConfig","unclassified","MergeFrom","set collaborator",
-"DanmuPlayerConfig","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DanmuPlayerConfig","unclassified","get","get collaborator",
-"DanmuPlayerConfig","unclassified","get","collaborator incidental",
-"DanmuPlayerConfig","unclassified","get","collaborator incidental",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"DanmuPlayerConfig","unclassified","get","get",
-"DanmuPlayerConfig","unclassified","set","set",
-"StorageCover","degenerate","GetCoverThumbnail","property non-void-command collaborator",
-"StorageCover","degenerate","GetCoverThumbnail","controller stateless",
-"StorageCover","degenerate","GetCover","property non-void-command",
-"StorageCover","degenerate","GetCover","property non-void-command collaborator",
-"StorageCover","degenerate","DownloadImage","wrapper stateless",
-"StorageCover","degenerate","IsLocal","controller stateless",
-"StorageCover","degenerate","LocalCover","controller stateless",
-"Bilibili","unclassified","Bilibili","constructor",
-"Bilibili","unclassified","SetTopFilter","get set",
-"Bilibili","unclassified","SetBottomFilter","get set",
-"Bilibili","unclassified","SetScrollFilter","get set",
-"Bilibili","unclassified","Create","controller",
-"Bilibili","unclassified","GetResolution","collaborator incidental",
-"VideoZone","data-provider boundary data-class small-class","GetZones","get collaborator",
-"VideoZone","data-provider boundary data-class small-class","VideoZone","constructor",
-"PlayerDanmakuBlockbottom","entity boundary","PlayerDanmakuBlockbottom","constructor",
-"PlayerDanmakuBlockbottom","entity boundary","PlayerDanmakuBlockbottom","copy-constructor",
-"PlayerDanmakuBlockbottom","entity boundary","Clone","property factory wrapper",
-"PlayerDanmakuBlockbottom","entity boundary","Equals","predicate non-void-command collaborator",
-"PlayerDanmakuBlockbottom","entity boundary","Equals","get predicate wrapper",
-"PlayerDanmakuBlockbottom","entity boundary","GetHashCode","property non-void-command",
-"PlayerDanmakuBlockbottom","entity boundary","ToString","property wrapper",
-"PlayerDanmakuBlockbottom","entity boundary","WriteTo","command collaborator",
-"PlayerDanmakuBlockbottom","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"PlayerDanmakuBlockbottom","entity boundary","CalculateSize","property non-void-command",
-"PlayerDanmakuBlockbottom","entity boundary","MergeFrom","void-accessor set",
-"PlayerDanmakuBlockbottom","entity boundary","MergeFrom","set collaborator",
-"PlayerDanmakuBlockbottom","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"PlayerDanmakuBlockbottom","entity boundary","get","get collaborator",
-"PlayerDanmakuBlockbottom","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockbottom","entity boundary","get","collaborator incidental",
-"PlayerDanmakuBlockbottom","entity boundary","get","get",
-"PlayerDanmakuBlockbottom","entity boundary","set","set",
-"ZoneAttr","empty","ZoneAttr","constructor",
-"DmSegOttReq","unclassified","DmSegOttReq","constructor",
-"DmSegOttReq","unclassified","DmSegOttReq","copy-constructor",
-"DmSegOttReq","unclassified","Clone","property factory wrapper",
-"DmSegOttReq","unclassified","Equals","predicate non-void-command collaborator",
-"DmSegOttReq","unclassified","Equals","get predicate wrapper",
-"DmSegOttReq","unclassified","GetHashCode","property non-void-command",
-"DmSegOttReq","unclassified","ToString","property wrapper",
-"DmSegOttReq","unclassified","WriteTo","command collaborator",
-"DmSegOttReq","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmSegOttReq","unclassified","CalculateSize","property non-void-command",
-"DmSegOttReq","unclassified","MergeFrom","void-accessor set",
-"DmSegOttReq","unclassified","MergeFrom","set collaborator",
-"DmSegOttReq","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DmSegOttReq","unclassified","get","get collaborator",
-"DmSegOttReq","unclassified","get","collaborator incidental",
-"DmSegOttReq","unclassified","get","collaborator incidental",
-"DmSegOttReq","unclassified","get","get",
-"DmSegOttReq","unclassified","set","set",
-"DmSegOttReq","unclassified","get","get",
-"DmSegOttReq","unclassified","set","set",
-"DmSegOttReq","unclassified","get","get",
-"DmSegOttReq","unclassified","set","set",
-"DmSegOttReq","unclassified","get","get",
-"DmSegOttReq","unclassified","set","set",
-"DmSegOttReply","boundary","DmSegOttReply","constructor",
-"DmSegOttReply","boundary","DmSegOttReply","copy-constructor",
-"DmSegOttReply","boundary","Clone","property factory wrapper",
-"DmSegOttReply","boundary","Equals","predicate non-void-command collaborator",
-"DmSegOttReply","boundary","Equals","get predicate non-void-command",
-"DmSegOttReply","boundary","GetHashCode","property non-void-command",
-"DmSegOttReply","boundary","ToString","property wrapper",
-"DmSegOttReply","boundary","WriteTo","command collaborator",
-"DmSegOttReply","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmSegOttReply","boundary","CalculateSize","property non-void-command",
-"DmSegOttReply","boundary","MergeFrom","void-accessor set",
-"DmSegOttReply","boundary","MergeFrom","set collaborator",
-"DmSegOttReply","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DmSegOttReply","boundary","get","get collaborator",
-"DmSegOttReply","boundary","get","collaborator incidental",
-"DmSegOttReply","boundary","get","collaborator incidental",
-"DmSegOttReply","boundary","get","get",
-"DmSegOttReply","boundary","set","set",
-"DmSegOttReply","boundary","get","get collaborator",
-"DmSegMobileReq","unclassified","DmSegMobileReq","constructor",
-"DmSegMobileReq","unclassified","DmSegMobileReq","copy-constructor",
-"DmSegMobileReq","unclassified","Clone","property factory wrapper",
-"DmSegMobileReq","unclassified","Equals","predicate non-void-command collaborator",
-"DmSegMobileReq","unclassified","Equals","get predicate wrapper",
-"DmSegMobileReq","unclassified","GetHashCode","property non-void-command",
-"DmSegMobileReq","unclassified","ToString","property wrapper",
-"DmSegMobileReq","unclassified","WriteTo","command collaborator",
-"DmSegMobileReq","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmSegMobileReq","unclassified","CalculateSize","property non-void-command",
-"DmSegMobileReq","unclassified","MergeFrom","void-accessor set",
-"DmSegMobileReq","unclassified","MergeFrom","set collaborator",
-"DmSegMobileReq","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DmSegMobileReq","unclassified","get","get collaborator",
-"DmSegMobileReq","unclassified","get","collaborator incidental",
-"DmSegMobileReq","unclassified","get","collaborator incidental",
-"DmSegMobileReq","unclassified","get","get",
-"DmSegMobileReq","unclassified","set","set",
-"DmSegMobileReq","unclassified","get","get",
-"DmSegMobileReq","unclassified","set","set",
-"DmSegMobileReq","unclassified","get","get",
-"DmSegMobileReq","unclassified","set","set",
-"DmSegMobileReq","unclassified","get","get",
-"DmSegMobileReq","unclassified","set","set",
-"DmSegMobileReq","unclassified","get","get",
-"DmSegMobileReq","unclassified","set","set",
-"AriaChangeUri","data-provider boundary small-class","ToString","property wrapper",
-"DmSegMobileReply","entity boundary","DmSegMobileReply","constructor",
-"DmSegMobileReply","entity boundary","DmSegMobileReply","copy-constructor",
-"DmSegMobileReply","entity boundary","Clone","property factory wrapper",
-"DmSegMobileReply","entity boundary","Equals","predicate non-void-command collaborator",
-"DmSegMobileReply","entity boundary","Equals","get predicate non-void-command",
-"DmSegMobileReply","entity boundary","GetHashCode","property non-void-command",
-"DmSegMobileReply","entity boundary","ToString","property wrapper",
-"DmSegMobileReply","entity boundary","WriteTo","command collaborator",
-"DmSegMobileReply","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmSegMobileReply","entity boundary","CalculateSize","property non-void-command",
-"DmSegMobileReply","entity boundary","MergeFrom","void-accessor set",
-"DmSegMobileReply","entity boundary","MergeFrom","set collaborator",
-"DmSegMobileReply","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DmSegMobileReply","entity boundary","get","get collaborator",
-"DmSegMobileReply","entity boundary","get","collaborator incidental",
-"DmSegMobileReply","entity boundary","get","collaborator incidental",
-"DmSegMobileReply","entity boundary","get","get collaborator",
-"DmSegMobileReply","entity boundary","get","get",
-"DmSegMobileReply","entity boundary","set","set",
-"DmSegMobileReply","entity boundary","get","get collaborator",
-"DmSegMobileReply","entity boundary","set","set collaborator",
-"DmViewReply","boundary","DmViewReply","constructor",
-"DmViewReply","boundary","DmViewReply","copy-constructor",
-"DmViewReply","boundary","Clone","property factory wrapper",
-"DmViewReply","boundary","Equals","predicate non-void-command collaborator",
-"DmViewReply","boundary","Equals","get predicate non-void-command",
-"DmViewReply","boundary","GetHashCode","property non-void-command",
-"DmViewReply","boundary","ToString","property wrapper",
-"DmViewReply","boundary","WriteTo","command collaborator",
-"DmViewReply","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmViewReply","boundary","CalculateSize","property non-void-command",
-"DmViewReply","boundary","MergeFrom","void-accessor command",
-"DmViewReply","boundary","MergeFrom","command collaborator",
-"DmViewReply","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor command collaborator",
-"DmViewReply","boundary","get","get collaborator",
-"DmViewReply","boundary","get","collaborator incidental",
-"DmViewReply","boundary","get","collaborator incidental",
-"DmViewReply","boundary","get","get",
-"DmViewReply","boundary","set","set",
-"DmViewReply","boundary","get","get collaborator",
-"DmViewReply","boundary","set","set collaborator",
-"DmViewReply","boundary","get","get collaborator",
-"DmViewReply","boundary","set","set collaborator",
-"DmViewReply","boundary","get","get collaborator",
-"DmViewReply","boundary","get","get collaborator",
-"DmViewReply","boundary","set","set collaborator",
-"DmViewReply","boundary","get","get collaborator",
-"DmViewReply","boundary","set","set collaborator",
-"DmViewReply","boundary","get","get",
-"DmViewReply","boundary","set","set",
-"DmViewReply","boundary","get","get",
-"DmViewReply","boundary","set","set",
-"DmViewReply","boundary","get","get",
-"DmViewReply","boundary","set","set",
-"DmViewReply","boundary","get","get",
-"DmViewReply","boundary","set","set",
-"DmViewReply","boundary","get","get",
-"DmViewReply","boundary","set","set",
-"DmViewReply","boundary","get","get",
-"DmViewReply","boundary","set","set",
-"DmViewReply","boundary","get","get collaborator",
-"CommandDm","unclassified","CommandDm","constructor",
-"CommandDm","unclassified","CommandDm","copy-constructor",
-"CommandDm","unclassified","Clone","property factory wrapper",
-"CommandDm","unclassified","Equals","predicate non-void-command collaborator",
-"CommandDm","unclassified","Equals","get predicate wrapper",
-"CommandDm","unclassified","GetHashCode","property non-void-command",
-"CommandDm","unclassified","ToString","property wrapper",
-"CommandDm","unclassified","WriteTo","command collaborator",
-"CommandDm","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"CommandDm","unclassified","CalculateSize","property non-void-command",
-"CommandDm","unclassified","MergeFrom","void-accessor set",
-"CommandDm","unclassified","MergeFrom","set collaborator",
-"CommandDm","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"CommandDm","unclassified","get","get collaborator",
-"CommandDm","unclassified","get","collaborator incidental",
-"CommandDm","unclassified","get","collaborator incidental",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"CommandDm","unclassified","get","get",
-"CommandDm","unclassified","set","set",
-"DmSegConfig","boundary","DmSegConfig","constructor",
-"DmSegConfig","boundary","DmSegConfig","copy-constructor",
-"DmSegConfig","boundary","Clone","property factory wrapper",
-"DmSegConfig","boundary","Equals","predicate non-void-command collaborator",
-"DmSegConfig","boundary","Equals","get predicate wrapper",
-"DmSegConfig","boundary","GetHashCode","property non-void-command",
-"DmSegConfig","boundary","ToString","property wrapper",
-"DmSegConfig","boundary","WriteTo","command collaborator",
-"DmSegConfig","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DmSegConfig","boundary","CalculateSize","property non-void-command",
-"DmSegConfig","boundary","MergeFrom","void-accessor set",
-"DmSegConfig","boundary","MergeFrom","set collaborator",
-"DmSegConfig","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DmSegConfig","boundary","get","get collaborator",
-"DmSegConfig","boundary","get","collaborator incidental",
-"DmSegConfig","boundary","get","collaborator incidental",
-"DmSegConfig","boundary","get","get",
-"DmSegConfig","boundary","set","set",
-"DmSegConfig","boundary","get","get",
-"DmSegConfig","boundary","set","set",
-"Response","boundary","Response","constructor",
-"Response","boundary","Response","copy-constructor",
-"Response","boundary","Clone","property factory wrapper",
-"Response","boundary","Equals","predicate non-void-command collaborator",
-"Response","boundary","Equals","get predicate wrapper",
-"Response","boundary","GetHashCode","property non-void-command",
-"Response","boundary","ToString","property wrapper",
-"Response","boundary","WriteTo","command collaborator",
-"Response","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"Response","boundary","CalculateSize","property non-void-command",
-"Response","boundary","MergeFrom","void-accessor set",
-"Response","boundary","MergeFrom","set collaborator",
-"Response","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"Response","boundary","get","get collaborator",
-"Response","boundary","get","collaborator incidental",
-"Response","boundary","get","collaborator incidental",
-"Response","boundary","get","get",
-"Response","boundary","set","set",
-"Response","boundary","get","get",
-"Response","boundary","set","set",
-"DanmakuAIFlag","entity boundary","DanmakuAIFlag","constructor",
-"DanmakuAIFlag","entity boundary","DanmakuAIFlag","copy-constructor",
-"DanmakuAIFlag","entity boundary","Clone","property factory wrapper",
-"DanmakuAIFlag","entity boundary","Equals","predicate non-void-command collaborator",
-"DanmakuAIFlag","entity boundary","Equals","get predicate non-void-command",
-"DanmakuAIFlag","entity boundary","GetHashCode","property non-void-command",
-"DanmakuAIFlag","entity boundary","ToString","property wrapper",
-"DanmakuAIFlag","entity boundary","WriteTo","command collaborator",
-"DanmakuAIFlag","entity boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DanmakuAIFlag","entity boundary","CalculateSize","property non-void-command",
-"DanmakuAIFlag","entity boundary","MergeFrom","void-accessor set",
-"DanmakuAIFlag","entity boundary","MergeFrom","set collaborator",
-"DanmakuAIFlag","entity boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DanmakuAIFlag","entity boundary","get","get collaborator",
-"DanmakuAIFlag","entity boundary","get","collaborator incidental",
-"DanmakuAIFlag","entity boundary","get","collaborator incidental",
-"DanmakuAIFlag","entity boundary","get","get collaborator",
-"DanmuDefaultPlayerConfig","unclassified","DanmuDefaultPlayerConfig","constructor",
-"DanmuDefaultPlayerConfig","unclassified","DanmuDefaultPlayerConfig","copy-constructor",
-"DanmuDefaultPlayerConfig","unclassified","Clone","property factory wrapper",
-"DanmuDefaultPlayerConfig","unclassified","Equals","predicate non-void-command collaborator",
-"DanmuDefaultPlayerConfig","unclassified","Equals","get predicate wrapper",
-"DanmuDefaultPlayerConfig","unclassified","GetHashCode","property non-void-command",
-"DanmuDefaultPlayerConfig","unclassified","ToString","property wrapper",
-"DanmuDefaultPlayerConfig","unclassified","WriteTo","command collaborator",
-"DanmuDefaultPlayerConfig","unclassified","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DanmuDefaultPlayerConfig","unclassified","CalculateSize","property non-void-command",
-"DanmuDefaultPlayerConfig","unclassified","MergeFrom","void-accessor set",
-"DanmuDefaultPlayerConfig","unclassified","MergeFrom","set collaborator",
-"DanmuDefaultPlayerConfig","unclassified","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DanmuDefaultPlayerConfig","unclassified","get","get collaborator",
-"DanmuDefaultPlayerConfig","unclassified","get","collaborator incidental",
-"DanmuDefaultPlayerConfig","unclassified","get","collaborator incidental",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuDefaultPlayerConfig","unclassified","get","get",
-"DanmuDefaultPlayerConfig","unclassified","set","set",
-"DanmuPlayerDynamicConfig","boundary","DanmuPlayerDynamicConfig","constructor",
-"DanmuPlayerDynamicConfig","boundary","DanmuPlayerDynamicConfig","copy-constructor",
-"DanmuPlayerDynamicConfig","boundary","Clone","property factory wrapper",
-"DanmuPlayerDynamicConfig","boundary","Equals","predicate non-void-command collaborator",
-"DanmuPlayerDynamicConfig","boundary","Equals","get predicate wrapper",
-"DanmuPlayerDynamicConfig","boundary","GetHashCode","property non-void-command",
-"DanmuPlayerDynamicConfig","boundary","ToString","property wrapper",
-"DanmuPlayerDynamicConfig","boundary","WriteTo","command collaborator",
-"DanmuPlayerDynamicConfig","boundary","pb::IBufferMessage.InternalWriteTo","void-accessor command collaborator",
-"DanmuPlayerDynamicConfig","boundary","CalculateSize","property non-void-command",
-"DanmuPlayerDynamicConfig","boundary","MergeFrom","void-accessor set",
-"DanmuPlayerDynamicConfig","boundary","MergeFrom","set collaborator",
-"DanmuPlayerDynamicConfig","boundary","pb::IBufferMessage.InternalMergeFrom","void-accessor set collaborator",
-"DanmuPlayerDynamicConfig","boundary","get","get collaborator",
-"DanmuPlayerDynamicConfig","boundary","get","collaborator incidental",
-"DanmuPlayerDynamicConfig","boundary","get","collaborator incidental",
-"DanmuPlayerDynamicConfig","boundary","get","get",
-"DanmuPlayerDynamicConfig","boundary","set","set",
-"DanmuPlayerDynamicConfig","boundary","get","get",
-"DanmuPlayerDynamicConfig","boundary","set","set",
+"Downloading","empty","Downloading","constructor"
+"AppInfo","empty","AppInfo","constructor"
+"ButtonIcon","empty","ButtonIcon","constructor"
+"GifImage","boundary","GifImage","constructor"
+"GifImage","boundary","GifImage","constructor"
+"GifImage","boundary","GetBitmapSource","get set collaborator"
+"GifImage","boundary","StartAnimate","wrapper"
+"GifImage","boundary","StopAnimate","wrapper"
+"GifImage","boundary","OnFrameChanged","command collaborator"
+"MachineCode","pure-controller degenerate","GetMainBordId","controller stateless"
+"MachineCode","pure-controller degenerate","GetCpuInfo","controller stateless"
+"MachineCode","pure-controller degenerate","GetDiskID","controller stateless"
+"MachineCode","pure-controller degenerate","GetMoAddress","controller stateless"
+"CryptoHelpException","empty","CryptoHelpException","constructor"
+"HeaderDb","entity commander boundary","HeaderDb","constructor"
+"HeaderDb","entity commander boundary","Close","command"
+"HeaderDb","entity commander boundary","Insert","command collaborator"
+"HeaderDb","entity commander boundary","Update","command collaborator"
+"HeaderDb","entity commander boundary","QueryAll","property non-void-command collaborator"
+"HeaderDb","entity commander boundary","QueryByMid","property non-void-command collaborator"
+"HeaderDb","entity commander boundary","Query","non-void-command factory collaborator"
+"HeaderDb","entity commander boundary","CreateTable","command"
+"DownloadingDb","empty","DownloadingDb","constructor"
+"CoverDb","entity commander boundary","CoverDb","constructor"
+"CoverDb","entity commander boundary","Close","command"
+"CoverDb","entity commander boundary","Insert","command collaborator"
+"CoverDb","entity commander boundary","Update","command collaborator"
+"CoverDb","entity commander boundary","QueryAll","property non-void-command collaborator"
+"CoverDb","entity commander boundary","QueryByUrl","property non-void-command collaborator"
+"CoverDb","entity commander boundary","QueryByMd5","property non-void-command collaborator"
+"CoverDb","entity commander boundary","Query","non-void-command factory collaborator"
+"CoverDb","entity commander boundary","CreateTable","command"
+"CustomPager","empty","CustomPager","constructor"
+"SettingsManager","boundary","IsReceiveBetaVersion","get property non-void-command collaborator"
+"SettingsManager","boundary","IsReceiveBetaVersion","predicate set collaborator"
+"SettingsManager","boundary","GetAutoUpdateWhenLaunch","get property non-void-command collaborator"
+"SettingsManager","boundary","SetAutoUpdateWhenLaunch","predicate set collaborator"
+"SettingsManager","boundary","GetAfterDownloadOperation","get property non-void-command collaborator"
+"SettingsManager","boundary","SetAfterDownloadOperation","predicate set collaborator"
+"SettingsManager","boundary","IsListenClipboard","get property non-void-command collaborator"
+"SettingsManager","boundary","IsListenClipboard","predicate set collaborator"
+"SettingsManager","boundary","IsAutoParseVideo","get property non-void-command collaborator"
+"SettingsManager","boundary","IsAutoParseVideo","predicate set collaborator"
+"SettingsManager","boundary","GetParseScope","get property non-void-command collaborator"
+"SettingsManager","boundary","SetParseScope","predicate set collaborator"
+"SettingsManager","boundary","IsAutoDownloadAll","get property non-void-command collaborator"
+"SettingsManager","boundary","IsAutoDownloadAll","predicate set collaborator"
+"SettingsManager","boundary","GetDownloadFinishedSort","get property non-void-command collaborator"
+"SettingsManager","boundary","SetDownloadFinishedSort","predicate set collaborator"
+"SettingsManager","boundary","GetDanmakuTopFilter","get property non-void-command collaborator"
+"SettingsManager","boundary","SetDanmakuTopFilter","predicate set collaborator"
+"SettingsManager","boundary","GetDanmakuBottomFilter","get property non-void-command collaborator"
+"SettingsManager","boundary","SetDanmakuBottomFilter","predicate set collaborator"
+"SettingsManager","boundary","GetDanmakuScrollFilter","get property non-void-command collaborator"
+"SettingsManager","boundary","SetDanmakuScrollFilter","predicate set collaborator"
+"SettingsManager","boundary","IsCustomDanmakuResolution","get property non-void-command collaborator"
+"SettingsManager","boundary","IsCustomDanmakuResolution","predicate set collaborator"
+"SettingsManager","boundary","GetDanmakuScreenWidth","get property non-void-command"
+"SettingsManager","boundary","SetDanmakuScreenWidth","predicate set"
+"SettingsManager","boundary","GetDanmakuScreenHeight","get property non-void-command"
+"SettingsManager","boundary","SetDanmakuScreenHeight","predicate set"
+"SettingsManager","boundary","GetDanmakuFontName","get property non-void-command"
+"SettingsManager","boundary","SetDanmakuFontName","predicate set"
+"SettingsManager","boundary","GetDanmakuFontSize","get property non-void-command"
+"SettingsManager","boundary","SetDanmakuFontSize","predicate set"
+"SettingsManager","boundary","GetDanmakuLineCount","get property non-void-command"
+"SettingsManager","boundary","SetDanmakuLineCount","predicate set"
+"SettingsManager","boundary","GetDanmakuLayoutAlgorithm","get property non-void-command collaborator"
+"SettingsManager","boundary","SetDanmakuLayoutAlgorithm","predicate set collaborator"
+"SettingsManager","boundary","IsLiftingOfRegion","get property non-void-command collaborator"
+"SettingsManager","boundary","IsLiftingOfRegion","predicate set collaborator"
+"SettingsManager","boundary","UseSSL","get property non-void-command collaborator"
+"SettingsManager","boundary","UseSSL","predicate set collaborator"
+"SettingsManager","boundary","GetUserAgent","get property non-void-command"
+"SettingsManager","boundary","SetUserAgent","predicate set"
+"SettingsManager","boundary","GetDownloader","get property non-void-command collaborator"
+"SettingsManager","boundary","SetDownloader","predicate set collaborator"
+"SettingsManager","boundary","GetMaxCurrentDownloads","get property non-void-command"
+"SettingsManager","boundary","SetMaxCurrentDownloads","predicate set"
+"SettingsManager","boundary","GetSplit","get property non-void-command"
+"SettingsManager","boundary","SetSplit","predicate set"
+"SettingsManager","boundary","IsHttpProxy","get property non-void-command collaborator"
+"SettingsManager","boundary","IsHttpProxy","predicate set collaborator"
+"SettingsManager","boundary","GetHttpProxy","get property non-void-command"
+"SettingsManager","boundary","SetHttpProxy","predicate set"
+"SettingsManager","boundary","GetHttpProxyListenPort","get property non-void-command"
+"SettingsManager","boundary","SetHttpProxyListenPort","predicate set"
+"SettingsManager","boundary","GetAriaToken","get property non-void-command"
+"SettingsManager","boundary","SetAriaToken","predicate set"
+"SettingsManager","boundary","GetAriaHost","get property non-void-command"
+"SettingsManager","boundary","SetAriaHost","predicate set"
+"SettingsManager","boundary","GetAriaListenPort","get property non-void-command"
+"SettingsManager","boundary","SetAriaListenPort","predicate set"
+"SettingsManager","boundary","GetAriaLogLevel","get property non-void-command collaborator"
+"SettingsManager","boundary","SetAriaLogLevel","predicate set collaborator"
+"SettingsManager","boundary","GetAriaSplit","get property non-void-command"
+"SettingsManager","boundary","SetAriaSplit","predicate set"
+"SettingsManager","boundary","GetAriaMaxOverallDownloadLimit","get property non-void-command"
+"SettingsManager","boundary","SetAriaMaxOverallDownloadLimit","predicate set"
+"SettingsManager","boundary","GetAriaMaxDownloadLimit","get property non-void-command"
+"SettingsManager","boundary","SetAriaMaxDownloadLimit","predicate set"
+"SettingsManager","boundary","GetAriaFileAllocation","get property non-void-command collaborator"
+"SettingsManager","boundary","SetAriaFileAllocation","predicate set collaborator"
+"SettingsManager","boundary","IsAriaHttpProxy","get property non-void-command collaborator"
+"SettingsManager","boundary","IsAriaHttpProxy","predicate set collaborator"
+"SettingsManager","boundary","GetAriaHttpProxy","get property non-void-command"
+"SettingsManager","boundary","SetAriaHttpProxy","predicate set"
+"SettingsManager","boundary","GetAriaHttpProxyListenPort","get property non-void-command"
+"SettingsManager","boundary","SetAriaHttpProxyListenPort","predicate set"
+"SettingsManager","boundary","GetUserInfo","get property non-void-command collaborator"
+"SettingsManager","boundary","SetUserInfo","predicate set collaborator"
+"SettingsManager","boundary","GetVideoCodecs","get property non-void-command"
+"SettingsManager","boundary","SetVideoCodecs","predicate set"
+"SettingsManager","boundary","GetQuality","get property non-void-command"
+"SettingsManager","boundary","SetQuality","predicate set"
+"SettingsManager","boundary","GetAudioQuality","get property non-void-command"
+"SettingsManager","boundary","SetAudioQuality","predicate set"
+"SettingsManager","boundary","IsTranscodingFlvToMp4","get property non-void-command collaborator"
+"SettingsManager","boundary","IsTranscodingFlvToMp4","predicate set collaborator"
+"SettingsManager","boundary","GetSaveVideoRootPath","get property non-void-command"
+"SettingsManager","boundary","SetSaveVideoRootPath","predicate set"
+"SettingsManager","boundary","GetHistoryVideoRootPaths","get property non-void-command"
+"SettingsManager","boundary","SetHistoryVideoRootPaths","predicate set"
+"SettingsManager","boundary","IsUseSaveVideoRootPath","get property non-void-command collaborator"
+"SettingsManager","boundary","IsUseSaveVideoRootPath","predicate set collaborator"
+"SettingsManager","boundary","GetVideoContent","get property non-void-command collaborator"
+"SettingsManager","boundary","SetVideoContent","predicate set collaborator"
+"SettingsManager","boundary","GetFileNameParts","get property non-void-command collaborator"
+"SettingsManager","boundary","SetFileNameParts","predicate set collaborator"
+"SettingsManager","boundary","GetFileNamePartTimeFormat","get property non-void-command"
+"SettingsManager","boundary","SetFileNamePartTimeFormat","predicate set"
+"SettingsManager","boundary","GetOrderFormat","get property non-void-command collaborator"
+"SettingsManager","boundary","SetOrderFormat","predicate set collaborator"
+"SettingsManager","boundary","SettingsManager","constructor"
+"SettingsManager","boundary","GetSettings","get property factory wrapper"
+"SettingsManager","boundary","SetSettings","predicate wrapper"
+"StringLogicalComparer<T>","pure-controller degenerate small-class","Compare","controller stateless"
+"FileName","unclassified","FileName","copy-constructor"
+"FileName","unclassified","SetOrder","get set"
+"FileName","unclassified","SetOrder","get set"
+"FileName","unclassified","SetSection","get set"
+"FileName","unclassified","SetMainTitle","get set"
+"FileName","unclassified","SetPageTitle","get set"
+"FileName","unclassified","SetVideoZone","get set"
+"FileName","unclassified","SetAudioQuality","get set"
+"FileName","unclassified","SetVideoQuality","get set"
+"FileName","unclassified","SetVideoCodec","get set"
+"FileName","unclassified","SetVideoPublishTime","get set"
+"FileName","unclassified","SetAvid","get set"
+"FileName","unclassified","SetBvid","get set"
+"FileName","unclassified","SetCid","get set"
+"FileName","unclassified","SetUpMid","get set"
+"FileName","unclassified","SetUpName","get set"
+"FileName","unclassified","RelativePath","property controller"
+"PartialDownloader","commander","PartialDownloader","constructor"
+"PartialDownloader","commander","DownloadProcedure","command collaborator"
+"PartialDownloader","commander","Start","set collaborator"
+"PartialDownloader","commander","Stop","set"
+"PartialDownloader","commander","Wait","set"
+"PartialDownloader","commander","ResumeAfterWait","set"
+"PartialDownloader","commander","set","non-void-command"
+"PartialDownloader","commander","get","property non-void-command"
+"MultiThreadDownloader","commander boundary","MultiThreadDownloader","constructor"
+"MultiThreadDownloader","commander boundary","MultiThreadDownloader","constructor"
+"MultiThreadDownloader","commander boundary","MultiThreadDownloader","constructor"
+"MultiThreadDownloader","commander boundary","temp_DownloadPartCompleted","command collaborator"
+"MultiThreadDownloader","commander boundary","temp_DownloadPartProgressChanged","command collaborator"
+"MultiThreadDownloader","commander boundary","UpdateProgress","set"
+"MultiThreadDownloader","commander boundary","CreateFirstPartitions","command collaborator"
+"MultiThreadDownloader","commander boundary","MergeParts","command"
+"MultiThreadDownloader","commander boundary","CreateNew","property factory wrapper"
+"MultiThreadDownloader","commander boundary","Configure","set collaborator"
+"MultiThreadDownloader","commander boundary","GetContentLength","property non-void-command collaborator"
+"MultiThreadDownloader","commander boundary","Pause","command collaborator"
+"MultiThreadDownloader","commander boundary","Start","controller stateless"
+"MultiThreadDownloader","commander boundary","Resume","command collaborator"
+"MultiThreadDownloader","commander boundary","get","property non-void-command"
+"MultiThreadDownloader","commander boundary","get","property non-void-command"
+"DmSegSDKReply","boundary","DmSegSDKReply","constructor"
+"DmSegSDKReply","boundary","DmSegSDKReply","copy-constructor"
+"DmSegSDKReply","boundary","Clone","property factory wrapper"
+"DmSegSDKReply","boundary","Equals","predicate non-void-command collaborator"
+"DmSegSDKReply","boundary","Equals","get predicate non-void-command"
+"DmSegSDKReply","boundary","GetHashCode","property non-void-command"
+"DmSegSDKReply","boundary","ToString","property wrapper"
+"DmSegSDKReply","boundary","WriteTo","command collaborator"
+"DmSegSDKReply","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmSegSDKReply","boundary","CalculateSize","property non-void-command"
+"DmSegSDKReply","boundary","MergeFrom","set"
+"DmSegSDKReply","boundary","MergeFrom","set collaborator"
+"DmSegSDKReply","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DmSegSDKReply","boundary","get","collaborator incidental"
+"DmSegSDKReply","boundary","get","get"
+"DmSegSDKReply","boundary","set","set"
+"DmSegSDKReply","boundary","get","get collaborator"
+"AriaPeer","data-provider boundary small-class","ToString","property wrapper"
+"DownloadBase","empty","DownloadBase","constructor"
+"Config","data-class small-class","get","get"
+"Config","data-class small-class","set","set"
+"PlayerDanmakuUseDefaultConfig","boundary","PlayerDanmakuUseDefaultConfig","constructor"
+"PlayerDanmakuUseDefaultConfig","boundary","PlayerDanmakuUseDefaultConfig","copy-constructor"
+"PlayerDanmakuUseDefaultConfig","boundary","Clone","property factory wrapper"
+"PlayerDanmakuUseDefaultConfig","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuUseDefaultConfig","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuUseDefaultConfig","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuUseDefaultConfig","boundary","ToString","property wrapper"
+"PlayerDanmakuUseDefaultConfig","boundary","WriteTo","command collaborator"
+"PlayerDanmakuUseDefaultConfig","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuUseDefaultConfig","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuUseDefaultConfig","boundary","MergeFrom","set"
+"PlayerDanmakuUseDefaultConfig","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuUseDefaultConfig","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuUseDefaultConfig","boundary","get","collaborator incidental"
+"PlayerDanmakuUseDefaultConfig","boundary","get","get"
+"PlayerDanmakuUseDefaultConfig","boundary","set","set"
+"DownloadBaseDb","empty","DownloadBaseDb","constructor"
+"AriaError","data-provider boundary small-class","ToString","property wrapper"
+"DownloadDb","commander boundary","Close","command"
+"DownloadDb","commander boundary","Insert","command collaborator"
+"DownloadDb","commander boundary","Delete","command"
+"DownloadDb","commander boundary","Update","command collaborator"
+"DownloadDb","commander boundary","QueryAll","property non-void-command collaborator"
+"DownloadDb","commander boundary","QueryById","property non-void-command collaborator"
+"DownloadDb","commander boundary","Query","non-void-command factory collaborator"
+"DownloadDb","commander boundary","CreateTable","command"
+"AriaUri","data-provider boundary small-class","ToString","property wrapper"
+"VideoMask","unclassified","VideoMask","constructor"
+"VideoMask","unclassified","VideoMask","copy-constructor"
+"VideoMask","unclassified","Clone","property factory wrapper"
+"VideoMask","unclassified","Equals","predicate non-void-command collaborator"
+"VideoMask","unclassified","Equals","get predicate wrapper"
+"VideoMask","unclassified","GetHashCode","property non-void-command"
+"VideoMask","unclassified","ToString","property wrapper"
+"VideoMask","unclassified","WriteTo","command collaborator"
+"VideoMask","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"VideoMask","unclassified","CalculateSize","property non-void-command"
+"VideoMask","unclassified","MergeFrom","set"
+"VideoMask","unclassified","MergeFrom","set collaborator"
+"VideoMask","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"VideoMask","unclassified","get","collaborator incidental"
+"VideoMask","unclassified","get","get"
+"VideoMask","unclassified","set","set"
+"VideoMask","unclassified","get","get"
+"VideoMask","unclassified","set","set"
+"VideoMask","unclassified","get","get"
+"VideoMask","unclassified","set","set"
+"VideoMask","unclassified","get","get"
+"VideoMask","unclassified","set","set"
+"VideoMask","unclassified","get","get"
+"VideoMask","unclassified","set","set"
+"AriaTellStatusResult","data-provider boundary small-class","ToString","property wrapper"
+"DanmuPlayerViewConfig","entity boundary","DanmuPlayerViewConfig","constructor"
+"DanmuPlayerViewConfig","entity boundary","DanmuPlayerViewConfig","copy-constructor"
+"DanmuPlayerViewConfig","entity boundary","Clone","property factory wrapper"
+"DanmuPlayerViewConfig","entity boundary","Equals","predicate non-void-command collaborator"
+"DanmuPlayerViewConfig","entity boundary","Equals","get predicate non-void-command"
+"DanmuPlayerViewConfig","entity boundary","GetHashCode","property non-void-command"
+"DanmuPlayerViewConfig","entity boundary","ToString","property wrapper"
+"DanmuPlayerViewConfig","entity boundary","WriteTo","command collaborator"
+"DanmuPlayerViewConfig","entity boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DanmuPlayerViewConfig","entity boundary","CalculateSize","property non-void-command"
+"DanmuPlayerViewConfig","entity boundary","MergeFrom","set"
+"DanmuPlayerViewConfig","entity boundary","MergeFrom","set collaborator"
+"DanmuPlayerViewConfig","entity boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DanmuPlayerViewConfig","entity boundary","get","collaborator incidental"
+"DanmuPlayerViewConfig","entity boundary","get","get collaborator"
+"DanmuPlayerViewConfig","entity boundary","set","set collaborator"
+"DanmuPlayerViewConfig","entity boundary","get","get collaborator"
+"DanmuPlayerViewConfig","entity boundary","set","set collaborator"
+"DanmuPlayerViewConfig","entity boundary","get","get collaborator"
+"SystemMulticall","data-provider boundary small-class","ToString","property wrapper"
+"AriaOption","data-provider boundary small-class","ToString","property wrapper"
+"CustomPagerViewModel","boundary","CustomPagerViewModel","constructor"
+"CustomPagerViewModel","boundary","OnCurrentChanged","wrapper stateless"
+"CustomPagerViewModel","boundary","OnCountChanged","wrapper stateless"
+"CustomPagerViewModel","boundary","PreviousExecuted","command collaborator"
+"CustomPagerViewModel","boundary","FirstExecuted","command collaborator"
+"CustomPagerViewModel","boundary","PreviousSecondExecuted","command collaborator"
+"CustomPagerViewModel","boundary","PreviousFirstExecuted","command collaborator"
+"CustomPagerViewModel","boundary","NextFirstExecuted","command collaborator"
+"CustomPagerViewModel","boundary","NextSecondExecuted","command collaborator"
+"CustomPagerViewModel","boundary","LastExecuted","command collaborator"
+"CustomPagerViewModel","boundary","NextExecuted","command collaborator"
+"CustomPagerViewModel","boundary","SetView","incidental"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get"
+"CustomPagerViewModel","boundary","set","non-void-command"
+"CustomPagerViewModel","boundary","get","get set"
+"CustomPagerViewModel","boundary","set","non-void-command"
+"CustomPagerViewModel","boundary","get","get"
+"CustomPagerViewModel","boundary","set","set"
+"CustomPagerViewModel","boundary","get","get"
+"CustomPagerViewModel","boundary","set","set"
+"CustomPagerViewModel","boundary","get","get"
+"CustomPagerViewModel","boundary","set","set"
+"CustomPagerViewModel","boundary","get","get"
+"CustomPagerViewModel","boundary","set","set"
+"CustomPagerViewModel","boundary","get","get"
+"CustomPagerViewModel","boundary","set","set"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"CustomPagerViewModel","boundary","get","get collaborator"
+"CustomPagerViewModel","boundary","set","set collaborator"
+"LogManager","empty","LogManager","constructor"
+"PlayerDanmakuBlockrepeat","boundary","PlayerDanmakuBlockrepeat","constructor"
+"PlayerDanmakuBlockrepeat","boundary","PlayerDanmakuBlockrepeat","copy-constructor"
+"PlayerDanmakuBlockrepeat","boundary","Clone","property factory wrapper"
+"PlayerDanmakuBlockrepeat","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuBlockrepeat","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuBlockrepeat","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuBlockrepeat","boundary","ToString","property wrapper"
+"PlayerDanmakuBlockrepeat","boundary","WriteTo","command collaborator"
+"PlayerDanmakuBlockrepeat","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuBlockrepeat","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuBlockrepeat","boundary","MergeFrom","set"
+"PlayerDanmakuBlockrepeat","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuBlockrepeat","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuBlockrepeat","boundary","get","collaborator incidental"
+"PlayerDanmakuBlockrepeat","boundary","get","get"
+"PlayerDanmakuBlockrepeat","boundary","set","set"
+"Collision","unclassified","Collision","constructor"
+"Collision","unclassified","Leaves","property controller"
+"Collision","unclassified","Detect","property controller"
+"Collision","unclassified","Update","set"
+"AriaSendOption","data-provider boundary small-class","ToString","property wrapper"
+"LogoIcon","empty","LogoIcon","constructor"
+"AriaPause","data-provider boundary small-class","ToString","property wrapper"
+"UserInfo","unclassified","UserInfo","constructor"
+"UserInfo","unclassified","UserInfo","copy-constructor"
+"UserInfo","unclassified","Clone","property factory wrapper"
+"UserInfo","unclassified","Equals","predicate non-void-command collaborator"
+"UserInfo","unclassified","Equals","get predicate wrapper"
+"UserInfo","unclassified","GetHashCode","property non-void-command"
+"UserInfo","unclassified","ToString","property wrapper"
+"UserInfo","unclassified","WriteTo","command collaborator"
+"UserInfo","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"UserInfo","unclassified","CalculateSize","property non-void-command"
+"UserInfo","unclassified","MergeFrom","set"
+"UserInfo","unclassified","MergeFrom","set collaborator"
+"UserInfo","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"UserInfo","unclassified","get","collaborator incidental"
+"UserInfo","unclassified","get","get"
+"UserInfo","unclassified","set","set"
+"UserInfo","unclassified","get","get"
+"UserInfo","unclassified","set","set"
+"UserInfo","unclassified","get","get"
+"UserInfo","unclassified","set","set"
+"UserInfo","unclassified","get","get"
+"UserInfo","unclassified","set","set"
+"UserInfo","unclassified","get","get"
+"UserInfo","unclassified","set","set"
+"UserInfo","unclassified","get","get"
+"UserInfo","unclassified","set","set"
+"TopFilter","factory pure-controller degenerate small-class","DoFilter","factory controller stateless"
+"PlayerDanmakuSpeed","boundary","PlayerDanmakuSpeed","constructor"
+"PlayerDanmakuSpeed","boundary","PlayerDanmakuSpeed","copy-constructor"
+"PlayerDanmakuSpeed","boundary","Clone","property factory wrapper"
+"PlayerDanmakuSpeed","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuSpeed","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuSpeed","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuSpeed","boundary","ToString","property wrapper"
+"PlayerDanmakuSpeed","boundary","WriteTo","command collaborator"
+"PlayerDanmakuSpeed","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuSpeed","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuSpeed","boundary","MergeFrom","set"
+"PlayerDanmakuSpeed","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuSpeed","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuSpeed","boundary","get","collaborator incidental"
+"PlayerDanmakuSpeed","boundary","get","get"
+"PlayerDanmakuSpeed","boundary","set","set"
+"AriaResultServer","data-provider boundary small-class","ToString","property wrapper"
+"Subtitle","data-provider","Subtitle","constructor"
+"Subtitle","data-provider","SetStart","property"
+"Subtitle","data-provider","SetEnd","property"
+"Subtitle","data-provider","SetColor","property wrapper"
+"Subtitle","data-provider","SetPosition","property"
+"Subtitle","data-provider","SetStartMarkup","property wrapper"
+"Subtitle","data-provider","SetEndMarkup","property wrapper"
+"Subtitle","data-provider","SetColorMarkup","property"
+"Subtitle","data-provider","SetBorderMarkup","property wrapper"
+"Subtitle","data-provider","SetFontSizeMarkup","property"
+"Subtitle","data-provider","SetStyleMarkup","property"
+"Subtitle","data-provider","SetLayerMarkup","property"
+"Subtitle","data-provider","SetContentMarkup","property wrapper"
+"Subtitle","data-provider","SetText","incidental"
+"AriaGetPeers","data-provider boundary small-class","ToString","property wrapper"
+"AriaAddTorrent","data-provider boundary small-class","ToString","property wrapper"
+"AriaAddUri","data-provider boundary small-class","ToString","property wrapper"
+"VideoZoneIcon","degenerate small-class","VideoZoneIcon","constructor"
+"VideoZoneIcon","degenerate small-class","GetZoneImageKey","incidental"
+"AriaGetSessionInfo","data-provider boundary small-class","ToString","property wrapper"
+"BottomFilter","factory pure-controller degenerate small-class","DoFilter","factory controller stateless"
+"AriaAddMetalink","data-provider boundary small-class","ToString","property wrapper"
+"DmWebViewReply","boundary","DmWebViewReply","constructor"
+"DmWebViewReply","boundary","DmWebViewReply","copy-constructor"
+"DmWebViewReply","boundary","Clone","property factory wrapper"
+"DmWebViewReply","boundary","Equals","predicate non-void-command collaborator"
+"DmWebViewReply","boundary","Equals","get predicate non-void-command"
+"DmWebViewReply","boundary","GetHashCode","property non-void-command"
+"DmWebViewReply","boundary","ToString","property wrapper"
+"DmWebViewReply","boundary","WriteTo","command collaborator"
+"DmWebViewReply","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmWebViewReply","boundary","CalculateSize","property non-void-command"
+"DmWebViewReply","boundary","MergeFrom","command"
+"DmWebViewReply","boundary","MergeFrom","command collaborator"
+"DmWebViewReply","boundary","pb::IBufferMessage.InternalMergeFrom","command collaborator"
+"DmWebViewReply","boundary","get","collaborator incidental"
+"DmWebViewReply","boundary","get","get"
+"DmWebViewReply","boundary","set","set"
+"DmWebViewReply","boundary","get","get"
+"DmWebViewReply","boundary","set","set"
+"DmWebViewReply","boundary","get","get"
+"DmWebViewReply","boundary","set","set"
+"DmWebViewReply","boundary","get","get collaborator"
+"DmWebViewReply","boundary","set","set collaborator"
+"DmWebViewReply","boundary","get","get collaborator"
+"DmWebViewReply","boundary","set","set collaborator"
+"DmWebViewReply","boundary","get","get collaborator"
+"DmWebViewReply","boundary","get","get"
+"DmWebViewReply","boundary","set","set"
+"DmWebViewReply","boundary","get","get"
+"DmWebViewReply","boundary","set","set"
+"DmWebViewReply","boundary","get","get collaborator"
+"DmWebViewReply","boundary","get","get collaborator"
+"DmWebViewReply","boundary","set","set collaborator"
+"DmWebViewReply","boundary","get","get collaborator"
+"AriaSendData","data-provider boundary small-class","ToString","property wrapper"
+"SystemIcon","empty","SystemIcon","constructor"
+"AriaSaveSession","data-provider boundary small-class","ToString","property wrapper"
+"BaseModel","entity boundary small-class","ToString","property non-void-command collaborator"
+"AriaGetOption","data-provider boundary small-class","ToString","property wrapper"
+"CountConverter","data-provider boundary small-class","Convert","property collaborator"
+"CountConverter","data-provider boundary small-class","ConvertBack","collaborator stateless"
+"DmViewReq","unclassified","DmViewReq","constructor"
+"DmViewReq","unclassified","DmViewReq","copy-constructor"
+"DmViewReq","unclassified","Clone","property factory wrapper"
+"DmViewReq","unclassified","Equals","predicate non-void-command collaborator"
+"DmViewReq","unclassified","Equals","get predicate wrapper"
+"DmViewReq","unclassified","GetHashCode","property non-void-command"
+"DmViewReq","unclassified","ToString","property wrapper"
+"DmViewReq","unclassified","WriteTo","command collaborator"
+"DmViewReq","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmViewReq","unclassified","CalculateSize","property non-void-command"
+"DmViewReq","unclassified","MergeFrom","set"
+"DmViewReq","unclassified","MergeFrom","set collaborator"
+"DmViewReq","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DmViewReq","unclassified","get","collaborator incidental"
+"DmViewReq","unclassified","get","get"
+"DmViewReq","unclassified","set","set"
+"DmViewReq","unclassified","get","get"
+"DmViewReq","unclassified","set","set"
+"DmViewReq","unclassified","get","get"
+"DmViewReq","unclassified","set","set"
+"DmViewReq","unclassified","get","get"
+"DmViewReq","unclassified","set","set"
+"DmViewReq","unclassified","get","get"
+"DmViewReq","unclassified","set","set"
+"AriaVersionResult","data-provider boundary small-class","ToString","property wrapper"
+"AriaShutdown","data-provider boundary small-class","ToString","property wrapper"
+"DmSegSDKReq","unclassified","DmSegSDKReq","constructor"
+"DmSegSDKReq","unclassified","DmSegSDKReq","copy-constructor"
+"DmSegSDKReq","unclassified","Clone","property factory wrapper"
+"DmSegSDKReq","unclassified","Equals","predicate non-void-command collaborator"
+"DmSegSDKReq","unclassified","Equals","get predicate wrapper"
+"DmSegSDKReq","unclassified","GetHashCode","property non-void-command"
+"DmSegSDKReq","unclassified","ToString","property wrapper"
+"DmSegSDKReq","unclassified","WriteTo","command collaborator"
+"DmSegSDKReq","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmSegSDKReq","unclassified","CalculateSize","property non-void-command"
+"DmSegSDKReq","unclassified","MergeFrom","set"
+"DmSegSDKReq","unclassified","MergeFrom","set collaborator"
+"DmSegSDKReq","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DmSegSDKReq","unclassified","get","collaborator incidental"
+"DmSegSDKReq","unclassified","get","get"
+"DmSegSDKReq","unclassified","set","set"
+"DmSegSDKReq","unclassified","get","get"
+"DmSegSDKReq","unclassified","set","set"
+"DmSegSDKReq","unclassified","get","get"
+"DmSegSDKReq","unclassified","set","set"
+"DmSegSDKReq","unclassified","get","get"
+"DmSegSDKReq","unclassified","set","set"
+"PlayerDanmakuDomain","boundary","PlayerDanmakuDomain","constructor"
+"PlayerDanmakuDomain","boundary","PlayerDanmakuDomain","copy-constructor"
+"PlayerDanmakuDomain","boundary","Clone","property factory wrapper"
+"PlayerDanmakuDomain","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuDomain","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuDomain","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuDomain","boundary","ToString","property wrapper"
+"PlayerDanmakuDomain","boundary","WriteTo","command collaborator"
+"PlayerDanmakuDomain","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuDomain","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuDomain","boundary","MergeFrom","set"
+"PlayerDanmakuDomain","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuDomain","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuDomain","boundary","get","collaborator incidental"
+"PlayerDanmakuDomain","boundary","get","get"
+"PlayerDanmakuDomain","boundary","set","set"
+"AriaGetGlobalStatResult","data-provider boundary small-class","ToString","property wrapper"
+"NavigationIcon","empty","NavigationIcon","constructor"
+"VideoSubtitle","boundary","VideoSubtitle","constructor"
+"VideoSubtitle","boundary","VideoSubtitle","copy-constructor"
+"VideoSubtitle","boundary","Clone","property factory wrapper"
+"VideoSubtitle","boundary","Equals","predicate non-void-command collaborator"
+"VideoSubtitle","boundary","Equals","get predicate non-void-command"
+"VideoSubtitle","boundary","GetHashCode","property non-void-command"
+"VideoSubtitle","boundary","ToString","property wrapper"
+"VideoSubtitle","boundary","WriteTo","command collaborator"
+"VideoSubtitle","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"VideoSubtitle","boundary","CalculateSize","property non-void-command"
+"VideoSubtitle","boundary","MergeFrom","set"
+"VideoSubtitle","boundary","MergeFrom","set collaborator"
+"VideoSubtitle","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"VideoSubtitle","boundary","get","collaborator incidental"
+"VideoSubtitle","boundary","get","get"
+"VideoSubtitle","boundary","set","set"
+"VideoSubtitle","boundary","get","get"
+"VideoSubtitle","boundary","set","set"
+"VideoSubtitle","boundary","get","get collaborator"
+"BiliDanmaku","degenerate small-class","ToString","incidental"
+"AriaManager","entity boundary degenerate","OnTellStatus","wrapper stateless"
+"AriaManager","entity boundary degenerate","OnDownloadFinish","wrapper stateless"
+"AriaManager","entity boundary degenerate","OnGlobalStatus","wrapper stateless"
+"AriaManager","entity boundary degenerate","GetDownloadStatus","property non-void-command collaborator"
+"AriaManager","entity boundary degenerate","GetGlobalStatus","command"
+"Resources","empty","Resources","constructor"
+"AriaTellStatus","data-provider boundary small-class","ToString","property wrapper"
+"AriaGetFiles","data-provider boundary small-class","ToString","property wrapper"
+"AriaChangePosition","data-provider boundary small-class","ToString","property wrapper"
+"BottomDisplay","data-provider boundary small-class","BottomDisplay","constructor"
+"BottomDisplay","data-provider boundary small-class","SetVertical","property wrapper"
+"DmPlayerConfigReq","entity boundary","DmPlayerConfigReq","constructor"
+"DmPlayerConfigReq","entity boundary","DmPlayerConfigReq","copy-constructor"
+"DmPlayerConfigReq","entity boundary","Clone","property factory wrapper"
+"DmPlayerConfigReq","entity boundary","Equals","predicate non-void-command collaborator"
+"DmPlayerConfigReq","entity boundary","Equals","get predicate wrapper"
+"DmPlayerConfigReq","entity boundary","GetHashCode","property non-void-command"
+"DmPlayerConfigReq","entity boundary","ToString","property wrapper"
+"DmPlayerConfigReq","entity boundary","WriteTo","command collaborator"
+"DmPlayerConfigReq","entity boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmPlayerConfigReq","entity boundary","CalculateSize","property non-void-command"
+"DmPlayerConfigReq","entity boundary","MergeFrom","set"
+"DmPlayerConfigReq","entity boundary","MergeFrom","set collaborator"
+"DmPlayerConfigReq","entity boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","collaborator incidental"
+"DmPlayerConfigReq","entity boundary","get","get"
+"DmPlayerConfigReq","entity boundary","set","set"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"DmPlayerConfigReq","entity boundary","get","get collaborator"
+"DmPlayerConfigReq","entity boundary","set","set collaborator"
+"CustomFilter","entity boundary small-class","DoFilter","property non-void-command collaborator"
+"DownloadedDb","empty","DownloadedDb","constructor"
+"AriaGetFilesResult","data-provider boundary small-class","ToString","property wrapper"
+"AriaTellStatusResultFile","data-provider boundary small-class","ToString","property wrapper"
+"AriaGetServers","data-provider boundary small-class","ToString","property wrapper"
+"PlayerDanmakuSwitch","boundary","PlayerDanmakuSwitch","constructor"
+"PlayerDanmakuSwitch","boundary","PlayerDanmakuSwitch","copy-constructor"
+"PlayerDanmakuSwitch","boundary","Clone","property factory wrapper"
+"PlayerDanmakuSwitch","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuSwitch","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuSwitch","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuSwitch","boundary","ToString","property wrapper"
+"PlayerDanmakuSwitch","boundary","WriteTo","command collaborator"
+"PlayerDanmakuSwitch","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuSwitch","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuSwitch","boundary","MergeFrom","set"
+"PlayerDanmakuSwitch","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuSwitch","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuSwitch","boundary","get","collaborator incidental"
+"PlayerDanmakuSwitch","boundary","get","get"
+"PlayerDanmakuSwitch","boundary","set","set"
+"PlayerDanmakuSwitch","boundary","get","get"
+"PlayerDanmakuSwitch","boundary","set","set"
+"SystemListMethods","data-provider boundary small-class","ToString","property wrapper"
+"SystemListNotifications","data-provider boundary small-class","ToString","property wrapper"
+"AriaChangeOption","data-provider boundary small-class","ToString","property wrapper"
+"PlayerDanmakuSwitchSave","boundary","PlayerDanmakuSwitchSave","constructor"
+"PlayerDanmakuSwitchSave","boundary","PlayerDanmakuSwitchSave","copy-constructor"
+"PlayerDanmakuSwitchSave","boundary","Clone","property factory wrapper"
+"PlayerDanmakuSwitchSave","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuSwitchSave","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuSwitchSave","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuSwitchSave","boundary","ToString","property wrapper"
+"PlayerDanmakuSwitchSave","boundary","WriteTo","command collaborator"
+"PlayerDanmakuSwitchSave","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuSwitchSave","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuSwitchSave","boundary","MergeFrom","set"
+"PlayerDanmakuSwitchSave","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuSwitchSave","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuSwitchSave","boundary","get","collaborator incidental"
+"PlayerDanmakuSwitchSave","boundary","get","get"
+"PlayerDanmakuSwitchSave","boundary","set","set"
+"App","commander boundary","CreateShell","property non-void-command collaborator"
+"App","commander boundary","OnStartup","set collaborator"
+"App","commander boundary","OnExit","command collaborator"
+"App","commander boundary","RegisterTypes","controller stateless"
+"AriaGetUris","data-provider boundary small-class","ToString","property wrapper"
+"DanmakuFlag","boundary","DanmakuFlag","constructor"
+"DanmakuFlag","boundary","DanmakuFlag","copy-constructor"
+"DanmakuFlag","boundary","Clone","property factory wrapper"
+"DanmakuFlag","boundary","Equals","predicate non-void-command collaborator"
+"DanmakuFlag","boundary","Equals","get predicate wrapper"
+"DanmakuFlag","boundary","GetHashCode","property non-void-command"
+"DanmakuFlag","boundary","ToString","property wrapper"
+"DanmakuFlag","boundary","WriteTo","command collaborator"
+"DanmakuFlag","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DanmakuFlag","boundary","CalculateSize","property non-void-command"
+"DanmakuFlag","boundary","MergeFrom","set"
+"DanmakuFlag","boundary","MergeFrom","set collaborator"
+"DanmakuFlag","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DanmakuFlag","boundary","get","collaborator incidental"
+"DanmakuFlag","boundary","get","get"
+"DanmakuFlag","boundary","set","set"
+"DanmakuFlag","boundary","get","get"
+"DanmakuFlag","boundary","set","set"
+"Filter","boundary degenerate small-class","DoFilter","collaborator stateless"
+"SubtitleJson","data-provider small-class","ToSubRip","property"
+"InlinePlayerDanmakuSwitch","boundary","InlinePlayerDanmakuSwitch","constructor"
+"InlinePlayerDanmakuSwitch","boundary","InlinePlayerDanmakuSwitch","copy-constructor"
+"InlinePlayerDanmakuSwitch","boundary","Clone","property factory wrapper"
+"InlinePlayerDanmakuSwitch","boundary","Equals","predicate non-void-command collaborator"
+"InlinePlayerDanmakuSwitch","boundary","Equals","get predicate wrapper"
+"InlinePlayerDanmakuSwitch","boundary","GetHashCode","property non-void-command"
+"InlinePlayerDanmakuSwitch","boundary","ToString","property wrapper"
+"InlinePlayerDanmakuSwitch","boundary","WriteTo","command collaborator"
+"InlinePlayerDanmakuSwitch","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"InlinePlayerDanmakuSwitch","boundary","CalculateSize","property non-void-command"
+"InlinePlayerDanmakuSwitch","boundary","MergeFrom","set"
+"InlinePlayerDanmakuSwitch","boundary","MergeFrom","set collaborator"
+"InlinePlayerDanmakuSwitch","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"InlinePlayerDanmakuSwitch","boundary","get","collaborator incidental"
+"InlinePlayerDanmakuSwitch","boundary","get","get"
+"InlinePlayerDanmakuSwitch","boundary","set","set"
+"DanmakuFlagConfig","unclassified","DanmakuFlagConfig","constructor"
+"DanmakuFlagConfig","unclassified","DanmakuFlagConfig","copy-constructor"
+"DanmakuFlagConfig","unclassified","Clone","property factory wrapper"
+"DanmakuFlagConfig","unclassified","Equals","predicate non-void-command collaborator"
+"DanmakuFlagConfig","unclassified","Equals","get predicate wrapper"
+"DanmakuFlagConfig","unclassified","GetHashCode","property non-void-command"
+"DanmakuFlagConfig","unclassified","ToString","property wrapper"
+"DanmakuFlagConfig","unclassified","WriteTo","command collaborator"
+"DanmakuFlagConfig","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DanmakuFlagConfig","unclassified","CalculateSize","property non-void-command"
+"DanmakuFlagConfig","unclassified","MergeFrom","set"
+"DanmakuFlagConfig","unclassified","MergeFrom","set collaborator"
+"DanmakuFlagConfig","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DanmakuFlagConfig","unclassified","get","collaborator incidental"
+"DanmakuFlagConfig","unclassified","get","get"
+"DanmakuFlagConfig","unclassified","set","set"
+"DanmakuFlagConfig","unclassified","get","get"
+"DanmakuFlagConfig","unclassified","set","set"
+"DanmakuFlagConfig","unclassified","get","get"
+"DanmakuFlagConfig","unclassified","set","set"
+"Downloaded","commander boundary small-class","Downloaded","constructor"
+"Downloaded","commander boundary small-class","SetFinishedTimestamp","command collaborator"
+"StorageHeader","boundary","GetHeaderThumbnail","property non-void-command collaborator"
+"StorageHeader","boundary","GetHeaderThumbnail","controller stateless"
+"StorageHeader","boundary","GetHeader","property non-void-command collaborator"
+"StorageHeader","boundary","DownloadImage","wrapper stateless"
+"Studio","unclassified","Studio","constructor"
+"Studio","unclassified","StartHandle","command"
+"Studio","unclassified","SetCreater","property factory collaborator"
+"Studio","unclassified","SetKeepedCount","property non-void-command"
+"Studio","unclassified","SetDropedCount","property"
+"Studio","unclassified","CreateAssFile","command"
+"Studio","unclassified","CreateFile","wrapper stateless"
+"Studio","unclassified","Report","property"
+"AriaVersion","data-provider boundary small-class","ToString","property wrapper"
+"Creater","controller small-class","Creater","constructor"
+"Creater","controller small-class","SetSubtitles","factory controller"
+"Creater","controller small-class","SetText","property non-void-command collaborator"
+"AriaGetGlobalStat","data-provider boundary small-class","ToString","property wrapper"
+"AriaTellStatusList","data-provider boundary small-class","ToString","property wrapper"
+"AriaGetSessionInfoResult","data-provider boundary small-class","ToString","property wrapper"
+"PlayerDanmakuBlockspecial","boundary","PlayerDanmakuBlockspecial","constructor"
+"PlayerDanmakuBlockspecial","boundary","PlayerDanmakuBlockspecial","copy-constructor"
+"PlayerDanmakuBlockspecial","boundary","Clone","property factory wrapper"
+"PlayerDanmakuBlockspecial","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuBlockspecial","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuBlockspecial","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuBlockspecial","boundary","ToString","property wrapper"
+"PlayerDanmakuBlockspecial","boundary","WriteTo","command collaborator"
+"PlayerDanmakuBlockspecial","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuBlockspecial","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuBlockspecial","boundary","MergeFrom","set"
+"PlayerDanmakuBlockspecial","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuBlockspecial","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuBlockspecial","boundary","get","collaborator incidental"
+"PlayerDanmakuBlockspecial","boundary","get","get"
+"PlayerDanmakuBlockspecial","boundary","set","set"
+"PlayerDanmakuBlockcolorful","boundary","PlayerDanmakuBlockcolorful","constructor"
+"PlayerDanmakuBlockcolorful","boundary","PlayerDanmakuBlockcolorful","copy-constructor"
+"PlayerDanmakuBlockcolorful","boundary","Clone","property factory wrapper"
+"PlayerDanmakuBlockcolorful","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuBlockcolorful","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuBlockcolorful","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuBlockcolorful","boundary","ToString","property wrapper"
+"PlayerDanmakuBlockcolorful","boundary","WriteTo","command collaborator"
+"PlayerDanmakuBlockcolorful","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuBlockcolorful","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuBlockcolorful","boundary","MergeFrom","set"
+"PlayerDanmakuBlockcolorful","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuBlockcolorful","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuBlockcolorful","boundary","get","collaborator incidental"
+"PlayerDanmakuBlockcolorful","boundary","get","get"
+"PlayerDanmakuBlockcolorful","boundary","set","set"
+"AriaGetServersResult","data-provider boundary small-class","ToString","property wrapper"
+"SubtitleItem","unclassified","SubtitleItem","constructor"
+"SubtitleItem","unclassified","SubtitleItem","copy-constructor"
+"SubtitleItem","unclassified","Clone","property factory wrapper"
+"SubtitleItem","unclassified","Equals","predicate non-void-command collaborator"
+"SubtitleItem","unclassified","Equals","get predicate wrapper"
+"SubtitleItem","unclassified","GetHashCode","property non-void-command"
+"SubtitleItem","unclassified","ToString","property wrapper"
+"SubtitleItem","unclassified","WriteTo","command collaborator"
+"SubtitleItem","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"SubtitleItem","unclassified","CalculateSize","property non-void-command"
+"SubtitleItem","unclassified","MergeFrom","set"
+"SubtitleItem","unclassified","MergeFrom","set collaborator"
+"SubtitleItem","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"SubtitleItem","unclassified","get","collaborator incidental"
+"SubtitleItem","unclassified","get","get"
+"SubtitleItem","unclassified","set","set"
+"SubtitleItem","unclassified","get","get"
+"SubtitleItem","unclassified","set","set"
+"SubtitleItem","unclassified","get","get"
+"SubtitleItem","unclassified","set","set"
+"SubtitleItem","unclassified","get","get"
+"SubtitleItem","unclassified","set","set"
+"SubtitleItem","unclassified","get","get"
+"SubtitleItem","unclassified","set","set"
+"SubtitleItem","unclassified","get","get collaborator"
+"SubtitleItem","unclassified","set","set collaborator"
+"PlayerDanmakuOpacity","boundary","PlayerDanmakuOpacity","constructor"
+"PlayerDanmakuOpacity","boundary","PlayerDanmakuOpacity","copy-constructor"
+"PlayerDanmakuOpacity","boundary","Clone","property factory wrapper"
+"PlayerDanmakuOpacity","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuOpacity","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuOpacity","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuOpacity","boundary","ToString","property wrapper"
+"PlayerDanmakuOpacity","boundary","WriteTo","command collaborator"
+"PlayerDanmakuOpacity","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuOpacity","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuOpacity","boundary","MergeFrom","set"
+"PlayerDanmakuOpacity","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuOpacity","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuOpacity","boundary","get","collaborator incidental"
+"PlayerDanmakuOpacity","boundary","get","get"
+"PlayerDanmakuOpacity","boundary","set","set"
+"PlayerDanmakuAiRecommendedSwitch","boundary","PlayerDanmakuAiRecommendedSwitch","constructor"
+"PlayerDanmakuAiRecommendedSwitch","boundary","PlayerDanmakuAiRecommendedSwitch","copy-constructor"
+"PlayerDanmakuAiRecommendedSwitch","boundary","Clone","property factory wrapper"
+"PlayerDanmakuAiRecommendedSwitch","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuAiRecommendedSwitch","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuAiRecommendedSwitch","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuAiRecommendedSwitch","boundary","ToString","property wrapper"
+"PlayerDanmakuAiRecommendedSwitch","boundary","WriteTo","command collaborator"
+"PlayerDanmakuAiRecommendedSwitch","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuAiRecommendedSwitch","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuAiRecommendedSwitch","boundary","MergeFrom","set"
+"PlayerDanmakuAiRecommendedSwitch","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuAiRecommendedSwitch","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuAiRecommendedSwitch","boundary","get","collaborator incidental"
+"PlayerDanmakuAiRecommendedSwitch","boundary","get","get"
+"PlayerDanmakuAiRecommendedSwitch","boundary","set","set"
+"NormalIcon","empty","NormalIcon","constructor"
+"PlayerDanmakuEnableblocklist","boundary","PlayerDanmakuEnableblocklist","constructor"
+"PlayerDanmakuEnableblocklist","boundary","PlayerDanmakuEnableblocklist","copy-constructor"
+"PlayerDanmakuEnableblocklist","boundary","Clone","property factory wrapper"
+"PlayerDanmakuEnableblocklist","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuEnableblocklist","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuEnableblocklist","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuEnableblocklist","boundary","ToString","property wrapper"
+"PlayerDanmakuEnableblocklist","boundary","WriteTo","command collaborator"
+"PlayerDanmakuEnableblocklist","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuEnableblocklist","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuEnableblocklist","boundary","MergeFrom","set"
+"PlayerDanmakuEnableblocklist","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuEnableblocklist","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuEnableblocklist","boundary","get","collaborator incidental"
+"PlayerDanmakuEnableblocklist","boundary","get","get"
+"PlayerDanmakuEnableblocklist","boundary","set","set"
+"PlayerDanmakuAiRecommendedLevel","boundary","PlayerDanmakuAiRecommendedLevel","constructor"
+"PlayerDanmakuAiRecommendedLevel","boundary","PlayerDanmakuAiRecommendedLevel","copy-constructor"
+"PlayerDanmakuAiRecommendedLevel","boundary","Clone","property factory wrapper"
+"PlayerDanmakuAiRecommendedLevel","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuAiRecommendedLevel","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuAiRecommendedLevel","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuAiRecommendedLevel","boundary","ToString","property wrapper"
+"PlayerDanmakuAiRecommendedLevel","boundary","WriteTo","command collaborator"
+"PlayerDanmakuAiRecommendedLevel","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuAiRecommendedLevel","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuAiRecommendedLevel","boundary","MergeFrom","set"
+"PlayerDanmakuAiRecommendedLevel","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuAiRecommendedLevel","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuAiRecommendedLevel","boundary","get","collaborator incidental"
+"PlayerDanmakuAiRecommendedLevel","boundary","get","get"
+"PlayerDanmakuAiRecommendedLevel","boundary","set","set"
+"PlayerDanmakuBlocktop","boundary","PlayerDanmakuBlocktop","constructor"
+"PlayerDanmakuBlocktop","boundary","PlayerDanmakuBlocktop","copy-constructor"
+"PlayerDanmakuBlocktop","boundary","Clone","property factory wrapper"
+"PlayerDanmakuBlocktop","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuBlocktop","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuBlocktop","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuBlocktop","boundary","ToString","property wrapper"
+"PlayerDanmakuBlocktop","boundary","WriteTo","command collaborator"
+"PlayerDanmakuBlocktop","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuBlocktop","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuBlocktop","boundary","MergeFrom","set"
+"PlayerDanmakuBlocktop","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuBlocktop","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuBlocktop","boundary","get","collaborator incidental"
+"PlayerDanmakuBlocktop","boundary","get","get"
+"PlayerDanmakuBlocktop","boundary","set","set"
+"AriaRemove","data-provider boundary small-class","ToString","property wrapper"
+"DbHelper","commander","DbHelper","constructor"
+"DbHelper","commander","DbHelper","constructor"
+"DbHelper","commander","IsOpen","predicate"
+"DbHelper","commander","Open","command"
+"DbHelper","commander","Close","command"
+"DbHelper","commander","ExecuteNonQuery","command collaborator"
+"DbHelper","commander","ExecuteQuery","command collaborator"
+"DanmuPlayerConfig","unclassified","DanmuPlayerConfig","constructor"
+"DanmuPlayerConfig","unclassified","DanmuPlayerConfig","copy-constructor"
+"DanmuPlayerConfig","unclassified","Clone","property factory wrapper"
+"DanmuPlayerConfig","unclassified","Equals","predicate non-void-command collaborator"
+"DanmuPlayerConfig","unclassified","Equals","get predicate wrapper"
+"DanmuPlayerConfig","unclassified","GetHashCode","property non-void-command"
+"DanmuPlayerConfig","unclassified","ToString","property wrapper"
+"DanmuPlayerConfig","unclassified","WriteTo","command collaborator"
+"DanmuPlayerConfig","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DanmuPlayerConfig","unclassified","CalculateSize","property non-void-command"
+"DanmuPlayerConfig","unclassified","MergeFrom","set"
+"DanmuPlayerConfig","unclassified","MergeFrom","set collaborator"
+"DanmuPlayerConfig","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DanmuPlayerConfig","unclassified","get","collaborator incidental"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmuPlayerConfig","unclassified","get","get"
+"DanmuPlayerConfig","unclassified","set","set"
+"DanmakuElem","unclassified","DanmakuElem","constructor"
+"DanmakuElem","unclassified","DanmakuElem","copy-constructor"
+"DanmakuElem","unclassified","Clone","property factory wrapper"
+"DanmakuElem","unclassified","Equals","predicate non-void-command collaborator"
+"DanmakuElem","unclassified","Equals","get predicate wrapper"
+"DanmakuElem","unclassified","GetHashCode","property non-void-command"
+"DanmakuElem","unclassified","ToString","property wrapper"
+"DanmakuElem","unclassified","WriteTo","command collaborator"
+"DanmakuElem","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DanmakuElem","unclassified","CalculateSize","property non-void-command"
+"DanmakuElem","unclassified","MergeFrom","set"
+"DanmakuElem","unclassified","MergeFrom","set collaborator"
+"DanmakuElem","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DanmakuElem","unclassified","get","collaborator incidental"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"DanmakuElem","unclassified","get","get"
+"DanmakuElem","unclassified","set","set"
+"PlayerDanmakuBlockbottom","boundary","PlayerDanmakuBlockbottom","constructor"
+"PlayerDanmakuBlockbottom","boundary","PlayerDanmakuBlockbottom","copy-constructor"
+"PlayerDanmakuBlockbottom","boundary","Clone","property factory wrapper"
+"PlayerDanmakuBlockbottom","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuBlockbottom","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuBlockbottom","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuBlockbottom","boundary","ToString","property wrapper"
+"PlayerDanmakuBlockbottom","boundary","WriteTo","command collaborator"
+"PlayerDanmakuBlockbottom","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuBlockbottom","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuBlockbottom","boundary","MergeFrom","set"
+"PlayerDanmakuBlockbottom","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuBlockbottom","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuBlockbottom","boundary","get","collaborator incidental"
+"PlayerDanmakuBlockbottom","boundary","get","get"
+"PlayerDanmakuBlockbottom","boundary","set","set"
+"ZoneAttr","empty","ZoneAttr","constructor"
+"DmSegOttReq","unclassified","DmSegOttReq","constructor"
+"DmSegOttReq","unclassified","DmSegOttReq","copy-constructor"
+"DmSegOttReq","unclassified","Clone","property factory wrapper"
+"DmSegOttReq","unclassified","Equals","predicate non-void-command collaborator"
+"DmSegOttReq","unclassified","Equals","get predicate wrapper"
+"DmSegOttReq","unclassified","GetHashCode","property non-void-command"
+"DmSegOttReq","unclassified","ToString","property wrapper"
+"DmSegOttReq","unclassified","WriteTo","command collaborator"
+"DmSegOttReq","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmSegOttReq","unclassified","CalculateSize","property non-void-command"
+"DmSegOttReq","unclassified","MergeFrom","set"
+"DmSegOttReq","unclassified","MergeFrom","set collaborator"
+"DmSegOttReq","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DmSegOttReq","unclassified","get","collaborator incidental"
+"DmSegOttReq","unclassified","get","get"
+"DmSegOttReq","unclassified","set","set"
+"DmSegOttReq","unclassified","get","get"
+"DmSegOttReq","unclassified","set","set"
+"DmSegOttReq","unclassified","get","get"
+"DmSegOttReq","unclassified","set","set"
+"DmSegOttReq","unclassified","get","get"
+"DmSegOttReq","unclassified","set","set"
+"DmSegOttReply","boundary","DmSegOttReply","constructor"
+"DmSegOttReply","boundary","DmSegOttReply","copy-constructor"
+"DmSegOttReply","boundary","Clone","property factory wrapper"
+"DmSegOttReply","boundary","Equals","predicate non-void-command collaborator"
+"DmSegOttReply","boundary","Equals","get predicate non-void-command"
+"DmSegOttReply","boundary","GetHashCode","property non-void-command"
+"DmSegOttReply","boundary","ToString","property wrapper"
+"DmSegOttReply","boundary","WriteTo","command collaborator"
+"DmSegOttReply","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmSegOttReply","boundary","CalculateSize","property non-void-command"
+"DmSegOttReply","boundary","MergeFrom","set"
+"DmSegOttReply","boundary","MergeFrom","set collaborator"
+"DmSegOttReply","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DmSegOttReply","boundary","get","collaborator incidental"
+"DmSegOttReply","boundary","get","get"
+"DmSegOttReply","boundary","set","set"
+"DmSegOttReply","boundary","get","get collaborator"
+"ScrollFilter","factory pure-controller degenerate small-class","DoFilter","factory controller stateless"
+"DmSegMobileReq","unclassified","DmSegMobileReq","constructor"
+"DmSegMobileReq","unclassified","DmSegMobileReq","copy-constructor"
+"DmSegMobileReq","unclassified","Clone","property factory wrapper"
+"DmSegMobileReq","unclassified","Equals","predicate non-void-command collaborator"
+"DmSegMobileReq","unclassified","Equals","get predicate wrapper"
+"DmSegMobileReq","unclassified","GetHashCode","property non-void-command"
+"DmSegMobileReq","unclassified","ToString","property wrapper"
+"DmSegMobileReq","unclassified","WriteTo","command collaborator"
+"DmSegMobileReq","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmSegMobileReq","unclassified","CalculateSize","property non-void-command"
+"DmSegMobileReq","unclassified","MergeFrom","set"
+"DmSegMobileReq","unclassified","MergeFrom","set collaborator"
+"DmSegMobileReq","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DmSegMobileReq","unclassified","get","collaborator incidental"
+"DmSegMobileReq","unclassified","get","get"
+"DmSegMobileReq","unclassified","set","set"
+"DmSegMobileReq","unclassified","get","get"
+"DmSegMobileReq","unclassified","set","set"
+"DmSegMobileReq","unclassified","get","get"
+"DmSegMobileReq","unclassified","set","set"
+"DmSegMobileReq","unclassified","get","get"
+"DmSegMobileReq","unclassified","set","set"
+"DmSegMobileReq","unclassified","get","get"
+"DmSegMobileReq","unclassified","set","set"
+"AriaChangeUri","data-provider boundary small-class","ToString","property wrapper"
+"DmSegMobileReply","boundary","DmSegMobileReply","constructor"
+"DmSegMobileReply","boundary","DmSegMobileReply","copy-constructor"
+"DmSegMobileReply","boundary","Clone","property factory wrapper"
+"DmSegMobileReply","boundary","Equals","predicate non-void-command collaborator"
+"DmSegMobileReply","boundary","Equals","get predicate non-void-command"
+"DmSegMobileReply","boundary","GetHashCode","property non-void-command"
+"DmSegMobileReply","boundary","ToString","property wrapper"
+"DmSegMobileReply","boundary","WriteTo","command collaborator"
+"DmSegMobileReply","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmSegMobileReply","boundary","CalculateSize","property non-void-command"
+"DmSegMobileReply","boundary","MergeFrom","set"
+"DmSegMobileReply","boundary","MergeFrom","set collaborator"
+"DmSegMobileReply","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DmSegMobileReply","boundary","get","collaborator incidental"
+"DmSegMobileReply","boundary","get","get collaborator"
+"DmSegMobileReply","boundary","get","get"
+"DmSegMobileReply","boundary","set","set"
+"DmSegMobileReply","boundary","get","get collaborator"
+"DmSegMobileReply","boundary","set","set collaborator"
+"DmViewReply","unclassified","DmViewReply","constructor"
+"DmViewReply","unclassified","DmViewReply","copy-constructor"
+"DmViewReply","unclassified","Clone","property factory wrapper"
+"DmViewReply","unclassified","Equals","predicate non-void-command collaborator"
+"DmViewReply","unclassified","Equals","get predicate non-void-command"
+"DmViewReply","unclassified","GetHashCode","property non-void-command"
+"DmViewReply","unclassified","ToString","property wrapper"
+"DmViewReply","unclassified","WriteTo","command collaborator"
+"DmViewReply","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmViewReply","unclassified","CalculateSize","property non-void-command"
+"DmViewReply","unclassified","MergeFrom","command"
+"DmViewReply","unclassified","MergeFrom","command collaborator"
+"DmViewReply","unclassified","pb::IBufferMessage.InternalMergeFrom","command collaborator"
+"DmViewReply","unclassified","get","collaborator incidental"
+"DmViewReply","unclassified","get","get"
+"DmViewReply","unclassified","set","set"
+"DmViewReply","unclassified","get","get collaborator"
+"DmViewReply","unclassified","set","set collaborator"
+"DmViewReply","unclassified","get","get collaborator"
+"DmViewReply","unclassified","set","set collaborator"
+"DmViewReply","unclassified","get","get collaborator"
+"DmViewReply","unclassified","get","get collaborator"
+"DmViewReply","unclassified","set","set collaborator"
+"DmViewReply","unclassified","get","get collaborator"
+"DmViewReply","unclassified","set","set collaborator"
+"DmViewReply","unclassified","get","get"
+"DmViewReply","unclassified","set","set"
+"DmViewReply","unclassified","get","get"
+"DmViewReply","unclassified","set","set"
+"DmViewReply","unclassified","get","get"
+"DmViewReply","unclassified","set","set"
+"DmViewReply","unclassified","get","get"
+"DmViewReply","unclassified","set","set"
+"DmViewReply","unclassified","get","get"
+"DmViewReply","unclassified","set","set"
+"DmViewReply","unclassified","get","get"
+"DmViewReply","unclassified","set","set"
+"DmViewReply","unclassified","get","get collaborator"
+"CommandDm","unclassified","CommandDm","constructor"
+"CommandDm","unclassified","CommandDm","copy-constructor"
+"CommandDm","unclassified","Clone","property factory wrapper"
+"CommandDm","unclassified","Equals","predicate non-void-command collaborator"
+"CommandDm","unclassified","Equals","get predicate wrapper"
+"CommandDm","unclassified","GetHashCode","property non-void-command"
+"CommandDm","unclassified","ToString","property wrapper"
+"CommandDm","unclassified","WriteTo","command collaborator"
+"CommandDm","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"CommandDm","unclassified","CalculateSize","property non-void-command"
+"CommandDm","unclassified","MergeFrom","set"
+"CommandDm","unclassified","MergeFrom","set collaborator"
+"CommandDm","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"CommandDm","unclassified","get","collaborator incidental"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"CommandDm","unclassified","get","get"
+"CommandDm","unclassified","set","set"
+"DmSegConfig","boundary","DmSegConfig","constructor"
+"DmSegConfig","boundary","DmSegConfig","copy-constructor"
+"DmSegConfig","boundary","Clone","property factory wrapper"
+"DmSegConfig","boundary","Equals","predicate non-void-command collaborator"
+"DmSegConfig","boundary","Equals","get predicate wrapper"
+"DmSegConfig","boundary","GetHashCode","property non-void-command"
+"DmSegConfig","boundary","ToString","property wrapper"
+"DmSegConfig","boundary","WriteTo","command collaborator"
+"DmSegConfig","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DmSegConfig","boundary","CalculateSize","property non-void-command"
+"DmSegConfig","boundary","MergeFrom","set"
+"DmSegConfig","boundary","MergeFrom","set collaborator"
+"DmSegConfig","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DmSegConfig","boundary","get","collaborator incidental"
+"DmSegConfig","boundary","get","get"
+"DmSegConfig","boundary","set","set"
+"DmSegConfig","boundary","get","get"
+"DmSegConfig","boundary","set","set"
+"DanmuWebPlayerConfig","unclassified","DanmuWebPlayerConfig","constructor"
+"DanmuWebPlayerConfig","unclassified","DanmuWebPlayerConfig","copy-constructor"
+"DanmuWebPlayerConfig","unclassified","Clone","property factory wrapper"
+"DanmuWebPlayerConfig","unclassified","Equals","predicate non-void-command collaborator"
+"DanmuWebPlayerConfig","unclassified","Equals","get predicate wrapper"
+"DanmuWebPlayerConfig","unclassified","GetHashCode","property non-void-command"
+"DanmuWebPlayerConfig","unclassified","ToString","property wrapper"
+"DanmuWebPlayerConfig","unclassified","WriteTo","command collaborator"
+"DanmuWebPlayerConfig","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DanmuWebPlayerConfig","unclassified","CalculateSize","property non-void-command"
+"DanmuWebPlayerConfig","unclassified","MergeFrom","set"
+"DanmuWebPlayerConfig","unclassified","MergeFrom","set collaborator"
+"DanmuWebPlayerConfig","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DanmuWebPlayerConfig","unclassified","get","collaborator incidental"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"DanmuWebPlayerConfig","unclassified","get","get"
+"DanmuWebPlayerConfig","unclassified","set","set"
+"Response","boundary","Response","constructor"
+"Response","boundary","Response","copy-constructor"
+"Response","boundary","Clone","property factory wrapper"
+"Response","boundary","Equals","predicate non-void-command collaborator"
+"Response","boundary","Equals","get predicate wrapper"
+"Response","boundary","GetHashCode","property non-void-command"
+"Response","boundary","ToString","property wrapper"
+"Response","boundary","WriteTo","command collaborator"
+"Response","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"Response","boundary","CalculateSize","property non-void-command"
+"Response","boundary","MergeFrom","set"
+"Response","boundary","MergeFrom","set collaborator"
+"Response","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"Response","boundary","get","collaborator incidental"
+"Response","boundary","get","get"
+"Response","boundary","set","set"
+"Response","boundary","get","get"
+"Response","boundary","set","set"
+"DanmakuAIFlag","entity boundary","DanmakuAIFlag","constructor"
+"DanmakuAIFlag","entity boundary","DanmakuAIFlag","copy-constructor"
+"DanmakuAIFlag","entity boundary","Clone","property factory wrapper"
+"DanmakuAIFlag","entity boundary","Equals","predicate non-void-command collaborator"
+"DanmakuAIFlag","entity boundary","Equals","get predicate non-void-command"
+"DanmakuAIFlag","entity boundary","GetHashCode","property non-void-command"
+"DanmakuAIFlag","entity boundary","ToString","property wrapper"
+"DanmakuAIFlag","entity boundary","WriteTo","command collaborator"
+"DanmakuAIFlag","entity boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DanmakuAIFlag","entity boundary","CalculateSize","property non-void-command"
+"DanmakuAIFlag","entity boundary","MergeFrom","set"
+"DanmakuAIFlag","entity boundary","MergeFrom","set collaborator"
+"DanmakuAIFlag","entity boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DanmakuAIFlag","entity boundary","get","collaborator incidental"
+"DanmakuAIFlag","entity boundary","get","get collaborator"
+"DanmuDefaultPlayerConfig","unclassified","DanmuDefaultPlayerConfig","constructor"
+"DanmuDefaultPlayerConfig","unclassified","DanmuDefaultPlayerConfig","copy-constructor"
+"DanmuDefaultPlayerConfig","unclassified","Clone","property factory wrapper"
+"DanmuDefaultPlayerConfig","unclassified","Equals","predicate non-void-command collaborator"
+"DanmuDefaultPlayerConfig","unclassified","Equals","get predicate wrapper"
+"DanmuDefaultPlayerConfig","unclassified","GetHashCode","property non-void-command"
+"DanmuDefaultPlayerConfig","unclassified","ToString","property wrapper"
+"DanmuDefaultPlayerConfig","unclassified","WriteTo","command collaborator"
+"DanmuDefaultPlayerConfig","unclassified","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DanmuDefaultPlayerConfig","unclassified","CalculateSize","property non-void-command"
+"DanmuDefaultPlayerConfig","unclassified","MergeFrom","set"
+"DanmuDefaultPlayerConfig","unclassified","MergeFrom","set collaborator"
+"DanmuDefaultPlayerConfig","unclassified","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DanmuDefaultPlayerConfig","unclassified","get","collaborator incidental"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuDefaultPlayerConfig","unclassified","get","get"
+"DanmuDefaultPlayerConfig","unclassified","set","set"
+"DanmuPlayerDynamicConfig","boundary","DanmuPlayerDynamicConfig","constructor"
+"DanmuPlayerDynamicConfig","boundary","DanmuPlayerDynamicConfig","copy-constructor"
+"DanmuPlayerDynamicConfig","boundary","Clone","property factory wrapper"
+"DanmuPlayerDynamicConfig","boundary","Equals","predicate non-void-command collaborator"
+"DanmuPlayerDynamicConfig","boundary","Equals","get predicate wrapper"
+"DanmuPlayerDynamicConfig","boundary","GetHashCode","property non-void-command"
+"DanmuPlayerDynamicConfig","boundary","ToString","property wrapper"
+"DanmuPlayerDynamicConfig","boundary","WriteTo","command collaborator"
+"DanmuPlayerDynamicConfig","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"DanmuPlayerDynamicConfig","boundary","CalculateSize","property non-void-command"
+"DanmuPlayerDynamicConfig","boundary","MergeFrom","set"
+"DanmuPlayerDynamicConfig","boundary","MergeFrom","set collaborator"
+"DanmuPlayerDynamicConfig","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"DanmuPlayerDynamicConfig","boundary","get","collaborator incidental"
+"DanmuPlayerDynamicConfig","boundary","get","get"
+"DanmuPlayerDynamicConfig","boundary","set","set"
+"DanmuPlayerDynamicConfig","boundary","get","get"
+"DanmuPlayerDynamicConfig","boundary","set","set"
+"PlayerDanmakuScalingfactor","boundary","PlayerDanmakuScalingfactor","constructor"
+"PlayerDanmakuScalingfactor","boundary","PlayerDanmakuScalingfactor","copy-constructor"
+"PlayerDanmakuScalingfactor","boundary","Clone","property factory wrapper"
+"PlayerDanmakuScalingfactor","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuScalingfactor","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuScalingfactor","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuScalingfactor","boundary","ToString","property wrapper"
+"PlayerDanmakuScalingfactor","boundary","WriteTo","command collaborator"
+"PlayerDanmakuScalingfactor","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuScalingfactor","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuScalingfactor","boundary","MergeFrom","set"
+"PlayerDanmakuScalingfactor","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuScalingfactor","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuScalingfactor","boundary","get","collaborator incidental"
+"PlayerDanmakuScalingfactor","boundary","get","get"
+"PlayerDanmakuScalingfactor","boundary","set","set"
+"StorageCover","degenerate","GetCoverThumbnail","property non-void-command collaborator"
+"StorageCover","degenerate","GetCoverThumbnail","controller stateless"
+"StorageCover","degenerate","GetCover","property non-void-command"
+"StorageCover","degenerate","GetCover","property non-void-command collaborator"
+"StorageCover","degenerate","DownloadImage","wrapper stateless"
+"StorageCover","degenerate","IsLocal","controller stateless"
+"StorageCover","degenerate","LocalCover","controller stateless"
+"VideoZone","data-provider boundary data-class small-class","GetZones","get collaborator"
+"VideoZone","data-provider boundary data-class small-class","VideoZone","constructor"
+"Bilibili","unclassified","Bilibili","constructor"
+"Bilibili","unclassified","SetTopFilter","get set"
+"Bilibili","unclassified","SetBottomFilter","get set"
+"Bilibili","unclassified","SetScrollFilter","get set"
+"Bilibili","unclassified","Create","controller"
+"Bilibili","unclassified","GetResolution","collaborator incidental"
+"Display","data-provider","Display","constructor"
+"Display","data-provider","Display","constructor"
+"Display","data-provider","SetFontSize","property wrapper"
+"Display","data-provider","SetIsScaled","predicate wrapper"
+"Display","data-provider","SetMaxLength","property non-void-command"
+"Display","data-provider","SetWidth","property wrapper"
+"Display","data-provider","SetHeight","property non-void-command"
+"Display","data-provider","SetHorizontal","property wrapper"
+"Display","data-provider","SetVertical","property wrapper"
+"Display","data-provider","SetDuration","property"
+"Display","data-provider","SetLeave","property"
+"Display","data-provider","Relayout","command"
+"TopDisplay","data-provider boundary small-class","TopDisplay","constructor"
+"TopDisplay","data-provider boundary small-class","SetVertical","property wrapper"
+"ScrollDisplay","data-provider","ScrollDisplay","constructor"
+"ScrollDisplay","data-provider","SetHorizontal","property wrapper"
+"ScrollDisplay","data-provider","SetVertical","property wrapper"
+"ScrollDisplay","data-provider","SetDistance","property"
+"ScrollDisplay","data-provider","SetSpeed","property wrapper"
+"ScrollDisplay","data-provider","SyncDuration","property"
+"ScrollDisplay","data-provider","AsyncDuration","property"
+"ScrollDisplay","data-provider","SetDuration","property non-void-command collaborator"
+"ScrollDisplay","data-provider","SetLeave","property"
+"PlayerDanmakuBlockscroll","boundary","PlayerDanmakuBlockscroll","constructor"
+"PlayerDanmakuBlockscroll","boundary","PlayerDanmakuBlockscroll","copy-constructor"
+"PlayerDanmakuBlockscroll","boundary","Clone","property factory wrapper"
+"PlayerDanmakuBlockscroll","boundary","Equals","predicate non-void-command collaborator"
+"PlayerDanmakuBlockscroll","boundary","Equals","get predicate wrapper"
+"PlayerDanmakuBlockscroll","boundary","GetHashCode","property non-void-command"
+"PlayerDanmakuBlockscroll","boundary","ToString","property wrapper"
+"PlayerDanmakuBlockscroll","boundary","WriteTo","command collaborator"
+"PlayerDanmakuBlockscroll","boundary","pb::IBufferMessage.InternalWriteTo","command collaborator"
+"PlayerDanmakuBlockscroll","boundary","CalculateSize","property non-void-command"
+"PlayerDanmakuBlockscroll","boundary","MergeFrom","set"
+"PlayerDanmakuBlockscroll","boundary","MergeFrom","set collaborator"
+"PlayerDanmakuBlockscroll","boundary","pb::IBufferMessage.InternalMergeFrom","set collaborator"
+"PlayerDanmakuBlockscroll","boundary","get","collaborator incidental"
+"PlayerDanmakuBlockscroll","boundary","get","get"
+"PlayerDanmakuBlockscroll","boundary","set","set"
+"Producer","commander","Producer","constructor"
+"Producer","commander","StartHandle","command"
+"Producer","commander","LoadFilter","command"
+"Producer","commander","ApplyFilter","command"
+"Producer","commander","Report","property controller"

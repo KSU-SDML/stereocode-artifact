@@ -1,910 +1,910 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"TestModel","boundary small-class","TestModel::testLoadImplementation","wrapper",
-"TestDatabaseItem","pure-controller degenerate small-class","TestDatabaseItem::TestDatabaseItem","constructor",
-"TestDatabaseItem","pure-controller degenerate small-class","TestDatabaseItem::testLoadKeys","controller stateless",
-"TestTreeOperations","commander boundary","TestTreeOperations::testCreation","command collaborator",
-"TestTreeOperations","commander boundary","TestTreeOperations::testGetDatabases","command collaborator",
-"TestTreeOperations","commander boundary","TestTreeOperations::testLoadNamespaceItems","command collaborator",
-"TestTreeOperations","commander boundary","TestTreeOperations::testLoadNamespaceItems_data","wrapper stateless",
-"TestTreeOperations","commander boundary","TestTreeOperations::testFlushDb","command collaborator",
-"TestTreeOperations","commander boundary","TestTreeOperations::testFlushDbCommandError","command collaborator",
-"TestConnectionsManager","degenerate","TestConnectionsManager::TestConnectionsManager","constructor",
-"TestConnectionsManager","degenerate","TestConnectionsManager::loadConnectionsConfigFromFile","controller stateless",
-"TestConnectionsManager","degenerate","TestConnectionsManager::saveConnectionsConfigToFile_data","wrapper stateless",
-"TestConnectionsManager","degenerate","TestConnectionsManager::saveConnectionsConfigToFile","command collaborator",
-"TestUtils","pure-controller degenerate small-class","TestUtils::removeAppSetting","controller stateless",
-"TabsModel","entity boundary","ValueEditor::TabsModel::TabsModel","constructor",
-"TabsModel","entity boundary","ValueEditor::TabsModel::~TabsModel","destructor",
-"TabsModel","entity boundary","ValueEditor::TabsModel::openTab","command collaborator",
-"TabsModel","entity boundary","ValueEditor::TabsModel::closeDbKeys","void-accessor command collaborator",
-"TabsModel","entity boundary","ValueEditor::TabsModel::index","wrapper stateless",
-"TabsModel","entity boundary","ValueEditor::TabsModel::rowCount","property",
-"TabsModel","entity boundary","ValueEditor::TabsModel::data","property collaborator",
-"TabsModel","entity boundary","ValueEditor::TabsModel::roleNames","collaborator incidental",
-"TabsModel","entity boundary","ValueEditor::TabsModel::closeTab","command collaborator",
-"TabsModel","entity boundary","ValueEditor::TabsModel::setCurrentTab","set",
-"TabsModel","entity boundary","ValueEditor::TabsModel::isIndexValid","predicate collaborator",
-"TabsModel","entity boundary","ValueEditor::TabsModel::tabChanged","command collaborator",
-"TabsModel","entity boundary","ValueEditor::TabsModel::tabRemoved","command collaborator",
-"TabsModel","entity boundary","ValueEditor::TabsModel::createViewModel","property non-void-command collaborator",
-"ModelSignals","empty","ModelSignals","constructor",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::DataFormattersManager","constructor",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::loadFormatters","command collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::rowCount","property",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::data","property collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::roleNames","collaborator incidental",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::setUrl","set collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::decode","void-accessor command collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::isValid","controller stateless",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::encode","void-accessor command collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::getPlainList","property controller",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::extServerUrl","get property non-void-command collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::isInstalled","predicate non-void-command collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onLoaded","set collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onLoadingError","wrapper stateless",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onDecoded","void-accessor command collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onEncoded","void-accessor command collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onDecodeError","command collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onEncodeError","command collaborator",
-"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::fillMapping","set collaborator",
-"EmbeddedFormattersManager","entity commander boundary","ValueEditor::EmbeddedFormattersManager::EmbeddedFormattersManager","constructor",
-"EmbeddedFormattersManager","entity commander boundary","ValueEditor::EmbeddedFormattersManager::init","set collaborator",
-"EmbeddedFormattersManager","entity commander boundary","ValueEditor::EmbeddedFormattersManager::loadFormattersModule","command collaborator",
-"EmbeddedFormattersManager","entity commander boundary","ValueEditor::EmbeddedFormattersManager::loadFormatters","command collaborator",
-"EmbeddedFormattersManager","entity commander boundary","ValueEditor::EmbeddedFormattersManager::decode","wrapper stateless",
-"EmbeddedFormattersManager","entity commander boundary","ValueEditor::EmbeddedFormattersManager::isValid","wrapper stateless",
-"EmbeddedFormattersManager","entity commander boundary","ValueEditor::EmbeddedFormattersManager::encode","wrapper stateless",
-"EmbeddedFormattersManager","entity commander boundary","ValueEditor::EmbeddedFormattersManager::pythonCall","void-accessor command collaborator",
-"OAIObject","boundary lazy-class","OAIObject","constructor",
-"OAIObject","boundary lazy-class","OAIObject","constructor",
-"OAIObject","boundary lazy-class","~OAIObject","destructor",
-"OAIObject","boundary lazy-class","asJsonObject","get collaborator",
-"OAIObject","boundary lazy-class","asJson","property controller",
-"OAIObject","boundary lazy-class","fromJson","set collaborator",
-"OAIObject","boundary lazy-class","fromJsonObject","set collaborator",
-"OAIObject","boundary lazy-class","isSet","incidental",
-"OAIObject","boundary lazy-class","isValid","incidental",
-"OauthPassword","commander boundary","OauthPassword::OauthPassword","constructor",
-"OauthPassword","commander boundary","OauthPassword::link","command",
-"OauthPassword","commander boundary","OauthPassword::unlink","wrapper",
-"OauthPassword","commander boundary","OauthPassword::setVariables","command collaborator",
-"OauthPassword","commander boundary","OauthPassword::authenticationNeededCallback","command collaborator",
-"OauthCredentials","commander boundary","OauthCredentials::OauthCredentials","constructor",
-"OauthCredentials","commander boundary","OauthCredentials::link","command",
-"OauthCredentials","commander boundary","OauthCredentials::unlink","wrapper",
-"OauthCredentials","commander boundary","OauthCredentials::setVariables","command collaborator",
-"OauthCredentials","commander boundary","OauthCredentials::authenticationNeededCallback","command collaborator",
-"TestAppUtils","boundary degenerate small-class","TestAppUtils::testHumanReadableSize","wrapper stateless",
-"OauthImplicit","commander","OauthImplicit::OauthImplicit","constructor",
-"OauthImplicit","commander","OauthImplicit::link","command",
-"OauthImplicit","commander","OauthImplicit::unlink","set",
-"OauthImplicit","commander","OauthImplicit::setVariables","command collaborator",
-"OauthImplicit","commander","OauthImplicit::authenticationNeededCallback","command",
-"OauthImplicit","commander","OauthImplicit::ImplicitTokenReceived","controller stateless",
-"OauthCode","commander boundary","OauthCode::OauthCode","constructor",
-"OauthCode","commander boundary","OauthCode::link","command",
-"OauthCode","commander boundary","OauthCode::unlink","wrapper",
-"OauthCode","commander boundary","OauthCode::setVariables","command collaborator",
-"OauthCode","commander boundary","OauthCode::authenticationNeededCallback","command",
-"OauthCode","commander boundary","OauthCode::onVerificationReceived","command collaborator",
-"OauthBase","boundary","OauthBase","constructor",
-"OauthBase","boundary","linked","get",
-"OauthBase","boundary","OauthBase::onFinish","controller stateless",
-"OauthBase","boundary","OauthBase::getToken","property non-void-command collaborator",
-"OauthBase","boundary","OauthBase::addToken","command collaborator",
-"OauthBase","boundary","OauthBase::removeToken","command collaborator",
-"ReplyServer","boundary lazy-class degenerate","setReply","set collaborator",
-"ReplyServer","boundary lazy-class degenerate","ReplyServer::ReplyServer","constructor",
-"ReplyServer","boundary lazy-class degenerate","ReplyServer::start","wrapper stateless",
-"ReplyServer","boundary lazy-class degenerate","ReplyServer::stop","wrapper stateless",
-"ReplyServer","boundary lazy-class degenerate","ReplyServer::onConnected","command collaborator",
-"ReplyServer","boundary lazy-class degenerate","ReplyServer::read","controller stateless",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::LargeTextWrappingModel","constructor",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::~LargeTextWrappingModel","destructor",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::roleNames","collaborator incidental",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::rowCount","property",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::data","get property collaborator",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::setText","command collaborator",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::cleanUp","command",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::getText","property non-void-command collaborator",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::setTextChunk","set collaborator",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::searchText","property non-void-command collaborator",
-"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::isIndexValid","predicate collaborator",
-"oauthToken","data-provider boundary","oauthToken","constructor",
-"oauthToken","data-provider boundary","oauthToken","constructor",
-"oauthToken","data-provider boundary","getToken","get collaborator",
-"oauthToken","data-provider boundary","getScope","get collaborator",
-"oauthToken","data-provider boundary","getType","get collaborator",
-"oauthToken","data-provider boundary","isValid","predicate wrapper",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::OAIHttpRequestWorker","constructor",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::~OAIHttpRequestWorker","destructor",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::getResponseHeaders","get collaborator",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::getHttpFileElement","get property non-void-command collaborator",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::getMultiPartField","get property non-void-command collaborator",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::setTimeOut","command",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::setWorkingDirectory","set collaborator",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::setResponseCompressionEnabled","set",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::setRequestCompressionEnabled","set",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::getHttpResponseCode","get",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::http_attribute_encode","controller stateless",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::execute","void-accessor command collaborator",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::on_reply_finished","void-accessor command collaborator",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::on_reply_timeout","void-accessor command collaborator",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::process_response","command collaborator",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::decompress","wrapper stateless",
-"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::compress","wrapper stateless",
-"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::OAIHttpRequestInput","constructor",
-"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::OAIHttpRequestInput","constructor",
-"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::initialize","command",
-"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::add_var","set collaborator",
-"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::add_file","command collaborator",
-"TestKeyModels","boundary degenerate","TestKeyModels::testKeyFactory","command collaborator",
-"TestKeyModels","boundary degenerate","TestKeyModels::testKeyFactory_data","wrapper stateless",
-"TestKeyModels","boundary degenerate","TestKeyModels::testKeyFactoryAddKey","controller stateless",
-"TestKeyModels","boundary degenerate","TestKeyModels::testKeyFactoryAddKey_data","wrapper stateless",
-"TestKeyModels","boundary degenerate","TestKeyModels::testValueLoading","command collaborator",
-"TestKeyModels","boundary degenerate","TestKeyModels::testValueLoading_data","wrapper stateless",
-"TestKeyModels","boundary degenerate","TestKeyModels::testKeyModelModifyRows","command collaborator",
-"TestKeyModels","boundary degenerate","TestKeyModels::testKeyModelModifyRows_data","wrapper stateless",
-"TestKeyModels","boundary degenerate","TestKeyModels::getKeyModel","controller stateless",
-"CopyOperation","unclassified","getTypeName","wrapper stateless",
-"CopyOperation","unclassified","multiConnectionOperation","incidental",
-"CopyOperation","unclassified","isMetadataValid","predicate",
-"CopyOperation","unclassified","BulkOperations::CopyOperation::CopyOperation","constructor",
-"CopyOperation","unclassified","BulkOperations::CopyOperation::performOperation","command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::TreeOperations","constructor",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::loadDatabases","void-accessor command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::recursiveSelectScan","void-accessor command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::connect","predicate non-void-command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::requestBulkOperation","command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::getReadyConnection","command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::getDatabases","property set collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::loadNamespaceItems","command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::disconnect","command",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::resetConnection","command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::getNamespaceSeparator","property non-void-command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::defaultFilter","property non-void-command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::getFilterHistory","get set collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::connectionName","property collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::openKeyTab","command",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::openConsoleTab","command",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::openNewKeyDialog","command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::openServerStats","command",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::duplicateConnection","wrapper",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::notifyDbWasUnloaded","command",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::deleteDbKey","command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::openKeyIfExists","void-accessor command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::connection","get collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::setConnection","set collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::config","get non-void-command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::setConfig","command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::proceedWithSecret","command collaborator",
-"TreeOperations","entity minimal-entity boundary","TreeOperations::iconColor","property non-void-command collaborator",
-"QmlUtils","large-class degenerate","QmlUtils::isBinaryString","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::binaryStringLength","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::b64toByteArray","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::minifyJSON","property non-void-command collaborator",
-"QmlUtils","large-class degenerate","QmlUtils::prettyPrintJSON","property non-void-command collaborator",
-"QmlUtils","large-class degenerate","QmlUtils::isJSON","predicate non-void-command collaborator",
-"QmlUtils","large-class degenerate","QmlUtils::decompress","property non-void-command collaborator",
-"QmlUtils","large-class degenerate","QmlUtils::compress","property non-void-command collaborator",
-"QmlUtils","large-class degenerate","QmlUtils::isCompressed","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::compressionAlgName","wrapper stateless",
-"QmlUtils","large-class degenerate","QmlUtils::compressionMethodsNoMagic","collaborator incidental",
-"QmlUtils","large-class degenerate","QmlUtils::humanSize","wrapper stateless",
-"QmlUtils","large-class degenerate","QmlUtils::valueToBinary","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::binaryListToValue","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::printable","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::printableToValue","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::toUtf","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::getNativePath","wrapper stateless",
-"QmlUtils","large-class degenerate","QmlUtils::getPathFromUrl","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::getUrlFromPath","wrapper stateless",
-"QmlUtils","large-class degenerate","QmlUtils::getDir","wrapper stateless",
-"QmlUtils","large-class degenerate","QmlUtils::fileExists","wrapper stateless",
-"QmlUtils","large-class degenerate","QmlUtils::replaceColorsInSvg","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::changeColorAlpha","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::copyToClipboard","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::saveToFile","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::addNewValueToDynamicChart","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::wrapLargeText","factory controller",
-"QmlUtils","large-class degenerate","QmlUtils::deleteTextWrapper","controller",
-"QmlUtils","large-class degenerate","QmlUtils::escapeHtmlEntities","controller stateless",
-"QmlUtils","large-class degenerate","QmlUtils::standardKeyToString","wrapper stateless",
-"QmlUtils","large-class degenerate","QmlUtils::getScreenScaleFactor","wrapper stateless",
-"QmlUtils","large-class degenerate","QmlUtils::isAppStoreBuild","incidental",
-"UnknownKeyModel","data-provider boundary lazy-class degenerate","type","get collaborator",
-"UnknownKeyModel","data-provider boundary lazy-class degenerate","getColumnNames","wrapper stateless",
-"UnknownKeyModel","data-provider boundary lazy-class degenerate","getRoles","wrapper stateless",
-"UnknownKeyModel","data-provider boundary lazy-class degenerate","getData","wrapper stateless",
-"UnknownKeyModel","data-provider boundary lazy-class degenerate","UnknownKeyModel::UnknownKeyModel","constructor",
-"StreamKeyModel","boundary degenerate","StreamKeyModel::StreamKeyModel","constructor",
-"StreamKeyModel","boundary degenerate","StreamKeyModel::type","collaborator incidental",
-"StreamKeyModel","boundary degenerate","StreamKeyModel::getColumnNames","wrapper stateless",
-"StreamKeyModel","boundary degenerate","StreamKeyModel::getRoles","collaborator incidental",
-"StreamKeyModel","boundary degenerate","StreamKeyModel::getData","property non-void-command collaborator",
-"StreamKeyModel","boundary degenerate","StreamKeyModel::addRow","controller stateless",
-"StreamKeyModel","boundary degenerate","StreamKeyModel::updateRow","empty",
-"StreamKeyModel","boundary degenerate","StreamKeyModel::removeRow","command collaborator",
-"StreamKeyModel","boundary degenerate","StreamKeyModel::loadRowsCount","controller stateless",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::SortedSetKeyModel","constructor",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::type","collaborator incidental",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::getColumnNames","wrapper stateless",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::getRoles","collaborator incidental",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::getData","property non-void-command collaborator",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::updateRow","void-accessor command collaborator",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::addRow","controller stateless",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::removeRow","command collaborator",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::addSortedSetRow","wrapper stateless",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::deleteSortedSetRow","wrapper stateless",
-"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::addLoadedRowsToCache","controller stateless",
-"CacheRange","degenerate small-class","CacheRange","constructor",
-"CacheRange","degenerate small-class","isEmpty","incidental",
-"SyntaxHighlighter","entity minimal-entity boundary","SyntaxHighlighter::SyntaxHighlighter","constructor",
-"SyntaxHighlighter","entity minimal-entity boundary","SyntaxHighlighter::highlightBlock","void-accessor command collaborator",
-"SyntaxHighlighter","entity minimal-entity boundary","SyntaxHighlighter::textDocument","get collaborator",
-"SyntaxHighlighter","entity minimal-entity boundary","SyntaxHighlighter::setTextDocument","set collaborator",
-"SyntaxHighlighter","entity minimal-entity boundary","SyntaxHighlighter::setFormat","void-accessor command collaborator",
-"KeyFactory","pure-controller","KeyFactory::KeyFactory","constructor",
-"KeyFactory","pure-controller","KeyFactory::loadKey","controller",
-"KeyFactory","pure-controller","KeyFactory::createNewKeyRequest","controller stateless",
-"KeyFactory","pure-controller","KeyFactory::submitNewKeyRequest","controller",
-"ServerGroup","boundary","type","collaborator incidental",
-"ServerGroup","boundary","ServerGroup::ServerGroup","constructor",
-"ServerGroup","boundary","ServerGroup::getDisplayName","get collaborator",
-"ServerGroup","boundary","ServerGroup::getAllChilds","get collaborator",
-"ServerGroup","boundary","ServerGroup::childCount","property collaborator",
-"ServerGroup","boundary","ServerGroup::child","property non-void-command collaborator",
-"ServerGroup","boundary","ServerGroup::takeChild","property non-void-command collaborator",
-"ServerGroup","boundary","ServerGroup::insertChildAt","command collaborator",
-"ServerGroup","boundary","ServerGroup::removeConnection","command collaborator",
-"ServerGroup","boundary","ServerGroup::eventHandlers","property non-void-command collaborator",
-"ServerGroup","boundary","ServerGroup::setName","set collaborator",
-"ServerGroup","boundary","ServerGroup::addServer","command collaborator",
-"ServerGroup","boundary","ServerGroup::isExpanded","incidental",
-"ServerGroup","boundary","ServerGroup::unload","controller",
-"AbstractKeyFactory","empty","~AbstractKeyFactory","destructor",
-"BaseListModel","degenerate","~BaseListModel","destructor",
-"BaseListModel","degenerate","isIndexValid","controller stateless",
-"BaseListModel","degenerate","isRowIndexValid","wrapper stateless",
-"BaseListModel","degenerate","BaseListModel::BaseListModel","constructor",
-"BaseListModel","degenerate","BaseListModel::getRowRaw","controller stateless",
-"OAIInline_response_400","boundary","OAIInline_response_400::OAIInline_response_400","constructor",
-"OAIInline_response_400","boundary","OAIInline_response_400::OAIInline_response_400","constructor",
-"OAIInline_response_400","boundary","OAIInline_response_400::~OAIInline_response_400","destructor",
-"OAIInline_response_400","boundary","OAIInline_response_400::initializeModel","command",
-"OAIInline_response_400","boundary","OAIInline_response_400::fromJson","command collaborator",
-"OAIInline_response_400","boundary","OAIInline_response_400::fromJsonObject","command collaborator",
-"OAIInline_response_400","boundary","OAIInline_response_400::asJson","controller stateless",
-"OAIInline_response_400","boundary","OAIInline_response_400::asJsonObject","property controller",
-"OAIInline_response_400","boundary","OAIInline_response_400::getError","get collaborator",
-"OAIInline_response_400","boundary","OAIInline_response_400::setError","command collaborator",
-"OAIInline_response_400","boundary","OAIInline_response_400::is_error_Set","get",
-"OAIInline_response_400","boundary","OAIInline_response_400::is_error_Valid","get",
-"OAIInline_response_400","boundary","OAIInline_response_400::isSet","predicate",
-"OAIInline_response_400","boundary","OAIInline_response_400::isValid","incidental",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::setMimeType","set collaborator",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::setFileName","set collaborator",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::setVariableName","set collaborator",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::setRequestFileName","set collaborator",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::isSet","predicate",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::asJson","property controller",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::asJsonValue","property controller",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::fromStringValue","predicate controller",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::fromJsonValue","predicate controller",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::asByteArray","property controller",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::fromByteArray","predicate controller",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::saveToFile","predicate non-void-command collaborator",
-"OAIHttpFileElement","unclassified","OAIHttpFileElement::loadFromFile","property non-void-command collaborator",
-"RESPBaseTestCase","pure-controller degenerate small-class","getDummyConfig","controller stateless",
-"OAIServerVariable","data-provider boundary data-class","OAIServerVariable","constructor",
-"OAIServerVariable","data-provider boundary data-class","OAIServerVariable","constructor",
-"OAIServerVariable","data-provider boundary data-class","~OAIServerVariable","destructor",
-"OAIServerVariable","data-provider boundary data-class","setDefaultValue","property set collaborator",
-"OAIServerVariable","data-provider boundary data-class","getDefaultValue","get collaborator",
-"OAIServerVariable","data-provider boundary data-class","getEnumValues","get collaborator",
-"ConfigManager","boundary","ConfigManager::ConfigManager","constructor",
-"ConfigManager","boundary","ConfigManager::getApplicationConfigPath","property non-void-command collaborator",
-"ConfigManager","boundary","ConfigManager::chechPath","predicate non-void-command collaborator",
-"ConfigManager","boundary","ConfigManager::setPermissions","controller stateless",
-"ConfigManager","boundary","ConfigManager::getConfigPath","wrapper stateless",
-"HashKeyModel","boundary degenerate","HashKeyModel::HashKeyModel","constructor",
-"HashKeyModel","boundary degenerate","HashKeyModel::type","collaborator incidental",
-"HashKeyModel","boundary degenerate","HashKeyModel::getColumnNames","wrapper stateless",
-"HashKeyModel","boundary degenerate","HashKeyModel::getRoles","collaborator incidental",
-"HashKeyModel","boundary degenerate","HashKeyModel::getData","property non-void-command collaborator",
-"HashKeyModel","boundary degenerate","HashKeyModel::updateRow","void-accessor command collaborator",
-"HashKeyModel","boundary degenerate","HashKeyModel::addRow","controller stateless",
-"HashKeyModel","boundary degenerate","HashKeyModel::removeRow","command collaborator",
-"HashKeyModel","boundary degenerate","HashKeyModel::setHashRow","controller stateless",
-"HashKeyModel","boundary degenerate","HashKeyModel::deleteHashRow","wrapper stateless",
-"HashKeyModel","boundary degenerate","HashKeyModel::addLoadedRowsToCache","controller stateless",
-"KeyModel","boundary","KeyModel","constructor",
-"KeyModel","boundary","getKeyName","wrapper stateless",
-"KeyModel","boundary","getKeyTitle","property non-void-command collaborator",
-"KeyModel","boundary","getTTL","incidental",
-"KeyModel","boundary","isMultiRow","incidental",
-"KeyModel","boundary","isRowLoaded","controller stateless",
-"KeyModel","boundary","rowsCount","property non-void-command",
-"KeyModel","boundary","setKeyName","void-accessor command collaborator",
-"KeyModel","boundary","setTTL","command collaborator",
-"KeyModel","boundary","persistKey","command collaborator",
-"KeyModel","boundary","removeKey","controller stateless",
-"KeyModel","boundary","loadRows","command collaborator",
-"DatabaseItem","entity boundary","type","collaborator incidental",
-"DatabaseItem","entity boundary","DatabaseItem::DatabaseItem","constructor",
-"DatabaseItem","entity boundary","DatabaseItem::~DatabaseItem","destructor",
-"DatabaseItem","entity boundary","DatabaseItem::getName","wrapper stateless",
-"DatabaseItem","entity boundary","DatabaseItem::getFullPath","wrapper stateless",
-"DatabaseItem","entity boundary","DatabaseItem::getDisplayName","property collaborator",
-"DatabaseItem","entity boundary","DatabaseItem::isEnabled","incidental",
-"DatabaseItem","entity boundary","DatabaseItem::loadKeys","command collaborator",
-"DatabaseItem","entity boundary","DatabaseItem::metadata","property collaborator",
-"DatabaseItem","entity boundary","DatabaseItem::setMetadata","command collaborator",
-"DatabaseItem","entity boundary","DatabaseItem::getMemoryUsage","command collaborator",
-"DatabaseItem","entity boundary","DatabaseItem::unload","command",
-"DatabaseItem","entity boundary","DatabaseItem::reload","command collaborator",
-"DatabaseItem","entity boundary","DatabaseItem::filterHistoryTop10","property collaborator",
-"OAIServerConfiguration","entity boundary small-class","OAIServerConfiguration","constructor",
-"OAIServerConfiguration","entity boundary small-class","OAIServerConfiguration","constructor",
-"OAIServerConfiguration","entity boundary small-class","~OAIServerConfiguration","destructor",
-"OAIServerConfiguration","entity boundary small-class","URL","property non-void-command collaborator",
-"OAIServerConfiguration","entity boundary small-class","setDefaultValue","get property non-void-command collaborator",
-"Application","commander boundary","Application::Application","constructor",
-"Application","commander boundary","Application::initModels","command collaborator",
-"Application","commander boundary","Application::initAppInfo","wrapper stateless",
-"Application","commander boundary","Application::initAppFonts","controller stateless",
-"Application","commander boundary","Application::initProxySettings","controller stateless",
-"Application","commander boundary","Application::registerQmlTypes","wrapper stateless",
-"Application","commander boundary","Application::registerQmlRootObjects","command",
-"Application","commander boundary","Application::initQml","command",
-"Application","commander boundary","Application::initPython","command",
-"Application","commander boundary","Application::installTranslator","command collaborator",
-"Application","commander boundary","Application::processCmdArgs","command collaborator",
-"Application","commander boundary","Application::updatePalette","command collaborator",
-"MemoryUsage","data-provider boundary data-class small-class","MemoryUsage","constructor",
-"MemoryUsage","data-provider boundary data-class small-class","~MemoryUsage","destructor",
-"MemoryUsage","data-provider boundary data-class small-class","usedMemory","get collaborator",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::ServerConfig","constructor",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::ServerConfig","constructor",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::keysPattern","property wrapper",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setKeysPattern","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::namespaceSeparator","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setNamespaceSeparator","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::databaseScanLimit","property wrapper",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setDatabaseScanLimit","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::useSshTunnel","predicate",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::owner","get collaborator",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setOwner","set collaborator",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::filterHistory","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setFilterHistory","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::askForSshPassword","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setAskForSshPassword","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::defaultFormatter","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setDefaultFormatter","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::iconColor","wrapper stateless",
-"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setIconColor","wrapper stateless",
-"TestServerItem","degenerate","TestServerItem::TestServerItem","constructor",
-"TestServerItem","degenerate","TestServerItem::testLoad","controller stateless",
-"TestServerItem","degenerate","TestServerItem::testLoad_data","wrapper stateless",
-"TestServerItem","degenerate","TestServerItem::testBasicMethods","controller stateless",
-"TestServerItem","degenerate","TestServerItem::testLoad_invalid","controller stateless",
-"TestServerItem","degenerate","TestServerItem::testUnload","controller stateless",
-"SetKeyModel","boundary degenerate","SetKeyModel::SetKeyModel","constructor",
-"SetKeyModel","boundary degenerate","SetKeyModel::type","collaborator incidental",
-"SetKeyModel","boundary degenerate","SetKeyModel::updateRow","void-accessor command collaborator",
-"SetKeyModel","boundary degenerate","SetKeyModel::addRow","controller stateless",
-"SetKeyModel","boundary degenerate","SetKeyModel::removeRow","command collaborator",
-"SetKeyModel","boundary degenerate","SetKeyModel::addSetRow","wrapper stateless",
-"SetKeyModel","boundary degenerate","SetKeyModel::deleteSetRow","wrapper stateless",
-"TabModel","boundary small-class","TabModel::TabModel","constructor",
-"TabModel","boundary small-class","TabModel::~TabModel","destructor",
-"TabModel","boundary small-class","TabModel::init","command collaborator",
-"TabModel","boundary small-class","TabModel::getConnection","get collaborator",
-"AbstractOperation","boundary","~AbstractOperation","destructor",
-"AbstractOperation","boundary","isMetadataValid","incidental",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::AbstractOperation","constructor",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::getAffectedKeys","command collaborator",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::run","command",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::isRunning","predicate",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::getConnection","get collaborator",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::getDbIndex","get",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::getKeyPattern","get collaborator",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::setKeyPattern","set collaborator",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::currentProgress","get",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::setMetadata","set collaborator",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::incrementProgress","command collaborator",
-"AbstractOperation","boundary","BulkOperations::AbstractOperation::processError","void-accessor command collaborator",
-"ListKeyModel","boundary degenerate","ListKeyModel::ListKeyModel","constructor",
-"ListKeyModel","boundary degenerate","ListKeyModel::type","collaborator incidental",
-"ListKeyModel","boundary degenerate","ListKeyModel::updateRow","void-accessor command collaborator",
-"ListKeyModel","boundary degenerate","ListKeyModel::addRow","controller stateless",
-"ListKeyModel","boundary degenerate","ListKeyModel::removeRow","command collaborator",
-"ListKeyModel","boundary degenerate","ListKeyModel::getRangeCmd","property non-void-command collaborator",
-"ListKeyModel","boundary degenerate","ListKeyModel::addLoadedRowsToCache","property non-void-command collaborator",
-"ListKeyModel","boundary degenerate","ListKeyModel::verifyListItemPosition","command collaborator",
-"ListKeyModel","boundary degenerate","ListKeyModel::addListRow","wrapper stateless",
-"ListKeyModel","boundary degenerate","ListKeyModel::setListRow","wrapper stateless",
-"ListKeyModel","boundary degenerate","ListKeyModel::deleteListRow","wrapper stateless",
-"ListKeyModel","boundary degenerate","ListKeyModel::isReverseOrder","controller stateless",
-"MappedCache","boundary","MappedCache","constructor",
-"MappedCache","boundary","isValid","get",
-"MappedCache","boundary","addLoadedRange","command collaborator",
-"MappedCache","boundary","isRowLoaded","predicate non-void-command collaborator",
-"MappedCache","boundary","getRow","get property non-void-command collaborator",
-"MappedCache","boundary","operator[]","property non-void-command collaborator",
-"MappedCache","boundary","replace","get command collaborator",
-"MappedCache","boundary","removeAt","command collaborator",
-"MappedCache","boundary","push_back","void-accessor command collaborator",
-"MappedCache","boundary","size","property controller",
-"MappedCache","boundary","clear","set",
-"MappedCache","boundary","findTargetRange","property non-void-command collaborator",
-"MappedCache","boundary","replaceRangeInMapping","command collaborator",
-"ReJSONKeyModel","boundary degenerate","addLoadedRowsToCache","incidental",
-"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::ReJSONKeyModel","constructor",
-"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::type","collaborator incidental",
-"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::getColumnNames","wrapper stateless",
-"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::getRoles","collaborator incidental",
-"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::getData","property non-void-command collaborator",
-"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::updateRow","controller stateless",
-"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::addRow","void-accessor command collaborator",
-"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::loadRows","controller stateless",
-"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::removeRow","wrapper stateless",
-"Events","controller small-class","Events::registerLoggerForConnection","void-accessor controller",
-"ConnectionsManager","boundary","ConnectionsManager::ConnectionsManager","constructor",
-"ConnectionsManager","boundary","ConnectionsManager::loadConnections","command",
-"ConnectionsManager","boundary","ConnectionsManager::addNewConnection","void-accessor command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::addNewGroup","void-accessor command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::updateGroup","command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::updateConnection","void-accessor command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::importConnections","predicate non-void-command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::loadConnectionsConfigFromFile","predicate non-void-command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::tryToConnect","command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::saveConfig","command",
-"ConnectionsManager","boundary","ConnectionsManager::saveConnectionsConfigToFile","predicate controller",
-"ConnectionsManager","boundary","ConnectionsManager::testConnectionSettings","void-accessor set collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::proceedWithConnectionSecret","void-accessor command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::createEmptyConfig","wrapper stateless",
-"ConnectionsManager","boundary","ConnectionsManager::parseConfigFromRedisConnectionString","controller stateless",
-"ConnectionsManager","boundary","ConnectionsManager::isRedisConnectionStringValid","controller stateless",
-"ConnectionsManager","boundary","ConnectionsManager::size","property controller",
-"ConnectionsManager","boundary","ConnectionsManager::getByIndex","property non-void-command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::getConnections","property non-void-command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::applyGroupChanges","command",
-"ConnectionsManager","boundary","ConnectionsManager::createServerItemForConnection","void-accessor command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::addGroup","command collaborator",
-"ConnectionsManager","boundary","ConnectionsManager::buildConnectionsCache","command collaborator",
-"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::ListLikeKeyModel","constructor",
-"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::getColumnNames","wrapper stateless",
-"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::getRoles","collaborator incidental",
-"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::getData","property non-void-command collaborator",
-"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::addLoadedRowsToCache","controller stateless",
-"NewKeyRequest","entity boundary","NewKeyRequest","constructor",
-"NewKeyRequest","entity boundary","dbIdString","property non-void-command collaborator",
-"NewKeyRequest","entity boundary","dbIndex","get",
-"NewKeyRequest","entity boundary","keyName","get collaborator",
-"NewKeyRequest","entity boundary","setKeyName","set collaborator",
-"NewKeyRequest","entity boundary","keyType","get collaborator",
-"NewKeyRequest","entity boundary","setKeyType","set collaborator",
-"NewKeyRequest","entity boundary","value","get collaborator",
-"NewKeyRequest","entity boundary","setValue","set collaborator",
-"NewKeyRequest","entity boundary","valueFilePath","get collaborator",
-"NewKeyRequest","entity boundary","setValueFilePath","set collaborator",
-"NewKeyRequest","entity boundary","connection","get collaborator",
-"NewKeyRequest","entity boundary","callback","unclassified",
-"NewKeyRequest","entity boundary","NewKeyRequest::NewKeyRequest","constructor",
-"NewKeyRequest","entity boundary","NewKeyRequest::loadAdditionalKeyTypesInfo","command collaborator",
-"Setup","commander boundary small-class","Setup","constructor",
-"Setup","commander boundary small-class","Setup::qmlEngineAvailable","command collaborator",
-"SortableTreeItem","data-class small-class","SortableTreeItem","constructor",
-"SortableTreeItem","data-class small-class","row","get",
-"SortableTreeItem","data-class small-class","setRow","set",
-"Model","boundary","columnCount","wrapper stateless",
-"Model","boundary","getItemFromIndex","property collaborator",
-"Model","boundary","Model","constructor",
-"Model","boundary","~Model","destructor",
-"Model","boundary","Model::Model","constructor",
-"Model","boundary","Model::data","property collaborator",
-"Model","boundary","Model::roleNames","collaborator incidental",
-"Model","boundary","Model::flags","property collaborator",
-"Model","boundary","Model::index","property collaborator",
-"Model","boundary","Model::parent","property collaborator",
-"Model","boundary","Model::rowCount","property collaborator",
-"Model","boundary","Model::hasChildren","predicate collaborator",
-"Model","boundary","Model::getIndexFromItem","property non-void-command collaborator",
-"Model","boundary","Model::onItemChanged","command collaborator",
-"Model","boundary","Model::beforeItemChildsUnloaded","command collaborator",
-"Model","boundary","Model::beforeChildLoadedAtPos","command collaborator",
-"Model","boundary","Model::beforeChildLoaded","command collaborator",
-"Model","boundary","Model::childLoaded","command collaborator",
-"Model","boundary","Model::beforeItemChildRemoved","command collaborator",
-"Model","boundary","Model::itemChildRemoved","wrapper stateless",
-"Model","boundary","Model::expandItem","command collaborator",
-"Model","boundary","Model::iterateAllChilds","void-accessor command collaborator",
-"Model","boundary","Model::beforeItemLayoutChanged","command collaborator",
-"Model","boundary","Model::itemLayoutChanged","command collaborator",
-"Model","boundary","Model::setMetadata","void-accessor command collaborator",
-"Model","boundary","Model::sendEvent","void-accessor command collaborator",
-"Model","boundary","Model::size","property non-void-command",
-"Model","boundary","Model::setExpanded","void-accessor command collaborator",
-"Model","boundary","Model::setCollapsed","void-accessor command collaborator",
-"Model","boundary","Model::collapseRootItems","controller",
-"Model","boundary","Model::dropItemAt","void-accessor command collaborator",
-"Model","boundary","Model::applyGroupChanges","wrapper stateless",
-"Model","boundary","Model::addRootItem","command collaborator",
-"Model","boundary","Model::removeRootItem","command collaborator",
-"Model","boundary","Model::Model","constructor",
-"Model","boundary","Model::getName","property collaborator",
-"Model","boundary","Model::executeCommand","void-accessor command collaborator",
-"Model","boundary","Model::updatePrompt","command",
-"Model","boundary","Model::execCmd","command collaborator",
-"Model","boundary","ServerStats::Model::Model","constructor",
-"Model","boundary","ServerStats::Model::~Model","destructor",
-"Model","boundary","ServerStats::Model::getName","property collaborator",
-"Model","boundary","ServerStats::Model::serverInfo","get collaborator",
-"Model","boundary","ServerStats::Model::slowLog","get collaborator",
-"Model","boundary","ServerStats::Model::clients","get collaborator",
-"Model","boundary","ServerStats::Model::pubSubChannels","property controller",
-"Model","boundary","ServerStats::Model::refreshSlowLog","predicate",
-"Model","boundary","ServerStats::Model::setRefreshSlowLog","command",
-"Model","boundary","ServerStats::Model::refreshClients","predicate",
-"Model","boundary","ServerStats::Model::setRefreshClients","command",
-"Model","boundary","ServerStats::Model::refreshPubSubMonitor","predicate",
-"Model","boundary","ServerStats::Model::setRefreshPubSubMonitor","command",
-"Model","boundary","ServerStats::Model::subscribeToChannel","wrapper",
-"DeleteOperation","entity boundary","getTypeName","wrapper stateless",
-"DeleteOperation","entity boundary","multiConnectionOperation","incidental",
-"DeleteOperation","entity boundary","BulkOperations::DeleteOperation::DeleteOperation","constructor",
-"DeleteOperation","entity boundary","BulkOperations::DeleteOperation::performOperation","command collaborator",
-"DeleteOperation","entity boundary","BulkOperations::DeleteOperation::deleteKeys","void-accessor command collaborator",
-"OAIDecodePayload","boundary","OAIDecodePayload::OAIDecodePayload","constructor",
-"OAIDecodePayload","boundary","OAIDecodePayload::OAIDecodePayload","constructor",
-"OAIDecodePayload","boundary","OAIDecodePayload::~OAIDecodePayload","destructor",
-"OAIDecodePayload","boundary","OAIDecodePayload::initializeModel","command",
-"OAIDecodePayload","boundary","OAIDecodePayload::fromJson","command collaborator",
-"OAIDecodePayload","boundary","OAIDecodePayload::fromJsonObject","command collaborator",
-"OAIDecodePayload","boundary","OAIDecodePayload::asJson","controller stateless",
-"OAIDecodePayload","boundary","OAIDecodePayload::asJsonObject","property controller",
-"OAIDecodePayload","boundary","OAIDecodePayload::getData","get collaborator",
-"OAIDecodePayload","boundary","OAIDecodePayload::setData","command collaborator",
-"OAIDecodePayload","boundary","OAIDecodePayload::is_data_Set","get",
-"OAIDecodePayload","boundary","OAIDecodePayload::is_data_Valid","get",
-"OAIDecodePayload","boundary","OAIDecodePayload::getRedisKeyName","get collaborator",
-"OAIDecodePayload","boundary","OAIDecodePayload::setRedisKeyName","command collaborator",
-"OAIDecodePayload","boundary","OAIDecodePayload::is_redis_key_name_Set","get",
-"OAIDecodePayload","boundary","OAIDecodePayload::is_redis_key_name_Valid","get",
-"OAIDecodePayload","boundary","OAIDecodePayload::getRedisKeyType","get collaborator",
-"OAIDecodePayload","boundary","OAIDecodePayload::setRedisKeyType","command collaborator",
-"OAIDecodePayload","boundary","OAIDecodePayload::is_redis_key_type_Set","get",
-"OAIDecodePayload","boundary","OAIDecodePayload::is_redis_key_type_Valid","get",
-"OAIDecodePayload","boundary","OAIDecodePayload::isSet","predicate",
-"OAIDecodePayload","boundary","OAIDecodePayload::isValid","incidental",
-"TtlOperation","boundary","getTypeName","wrapper stateless",
-"TtlOperation","boundary","multiConnectionOperation","incidental",
-"TtlOperation","boundary","isMetadataValid","predicate",
-"TtlOperation","boundary","BulkOperations::TtlOperation::TtlOperation","constructor",
-"TtlOperation","boundary","BulkOperations::TtlOperation::performOperation","command collaborator",
-"TtlOperation","boundary","BulkOperations::TtlOperation::setTtl","void-accessor command collaborator",
-"ServerItem","entity data-provider boundary","type","collaborator incidental",
-"ServerItem","entity data-provider boundary","ServerItem::ServerItem","constructor",
-"ServerItem","entity data-provider boundary","ServerItem::~ServerItem","destructor",
-"ServerItem","entity data-provider boundary","ServerItem::getDisplayName","property collaborator",
-"ServerItem","entity data-provider boundary","ServerItem::getAllChilds","get collaborator",
-"ServerItem","entity data-provider boundary","ServerItem::childCount","property collaborator",
-"ServerItem","entity data-provider boundary","ServerItem::child","property non-void-command collaborator",
-"ServerItem","entity data-provider boundary","ServerItem::parent","get collaborator",
-"ServerItem","entity data-provider boundary","ServerItem::setParent","set collaborator",
-"ServerItem","entity data-provider boundary","ServerItem::isDatabaseListLoaded","predicate",
-"ServerItem","entity data-provider boundary","ServerItem::getOperations","get collaborator",
-"ServerItem","entity data-provider boundary","ServerItem::row","get property",
-"ServerItem","entity data-provider boundary","ServerItem::load","command collaborator",
-"CallbackWithOwner","entity boundary","CallbackWithOwner","constructor",
-"CallbackWithOwner","entity boundary","call","command collaborator",
-"CallbackWithOwner","entity boundary","isValid","predicate non-void-command collaborator",
-"CallbackWithOwner","entity boundary","rawCallback","get collaborator",
-"OAIEnum","boundary lazy-class","OAIEnum","constructor",
-"OAIEnum","boundary lazy-class","OAIEnum","constructor",
-"OAIEnum","boundary lazy-class","~OAIEnum","destructor",
-"OAIEnum","boundary lazy-class","asJsonValue","property wrapper",
-"OAIEnum","boundary lazy-class","asJson","get collaborator",
-"OAIEnum","boundary lazy-class","fromJson","set collaborator",
-"OAIEnum","boundary lazy-class","fromJsonValue","set collaborator",
-"OAIEnum","boundary lazy-class","isSet","incidental",
-"OAIEnum","boundary lazy-class","isValid","incidental",
-"TestConsoleOperations","pure-controller degenerate small-class","TestConsoleOperations::init_invalid","controller stateless",
-"RDBImportOperation","commander","getTypeName","wrapper stateless",
-"RDBImportOperation","commander","multiConnectionOperation","incidental",
-"RDBImportOperation","commander","BulkOperations::RDBImportOperation::RDBImportOperation","constructor",
-"RDBImportOperation","commander","BulkOperations::RDBImportOperation::getAffectedKeys","command collaborator",
-"RDBImportOperation","commander","BulkOperations::RDBImportOperation::performOperation","command",
-"AbstractNamespaceItem","boundary","~AbstractNamespaceItem","destructor",
-"AbstractNamespaceItem","boundary","findChildNamespace","get property non-void-command collaborator",
-"AbstractNamespaceItem","boundary","getDbIndex","get collaborator",
-"AbstractNamespaceItem","boundary","operations","get collaborator",
-"AbstractNamespaceItem","boundary","getFilter","get collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::AbstractNamespaceItem","constructor",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::getAllChilds","get collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::getAllChildNamespaces","property collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::child","property non-void-command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::parent","get collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::append","command",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::insertChild","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::appendKeyToIndex","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::removeNamespacedKeysFromIndex","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::getKeysIndex","get collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::removeObsoleteKeys","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::removeChild","command",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::appendRawKey","void-accessor command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::appendNamespace","set collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::childCount","property collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::keysCount","property collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::keysRenderingLimit","controller stateless",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::keysShortNameRendering","controller stateless",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::clear","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::clearLoader","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::showLoadingError","void-accessor command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::cancelCurrentOperation","command",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::sortChilds","command",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::renderRawKeys","void-accessor command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::ensureLoaderIsCreated","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::eventHandlers","property non-void-command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::getMemoryUsage","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::fetchMore","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::calculateUsedMemory","command collaborator",
-"AbstractNamespaceItem","boundary","AbstractNamespaceItem::restoreOpenedNamespaces","command collaborator",
-"TextCharFormat","entity boundary","TextCharFormat::TextCharFormat","constructor",
-"TextCharFormat","entity boundary","TextCharFormat::setFont","void-accessor command collaborator",
-"TextCharFormat","entity boundary","TextCharFormat::font","property collaborator",
-"TextCharFormat","entity boundary","TextCharFormat::foreground","property collaborator",
-"TextCharFormat","entity boundary","TextCharFormat::setForeground","command collaborator",
-"KeysTreeRenderer","entity boundary small-class","KeysTreeRenderer::renderKeys","void-accessor command collaborator",
-"KeysTreeRenderer","entity boundary small-class","KeysTreeRenderer::renderLazily","void-accessor command collaborator",
-"TestConfigManager","pure-controller degenerate small-class","TestConfigManager::testGetApplicationConfigPath","controller stateless",
-"TabViewModel","entity boundary","TabViewModel::TabViewModel","constructor",
-"TabViewModel","entity boundary","TabViewModel::index","wrapper stateless",
-"TabViewModel","entity boundary","TabViewModel::rowCount","property collaborator",
-"TabViewModel","entity boundary","TabViewModel::data","property collaborator",
-"TabViewModel","entity boundary","TabViewModel::roleNames","collaborator incidental",
-"TabViewModel","entity boundary","TabViewModel::closeTab","command",
-"TabViewModel","entity boundary","TabViewModel::tabsCount","property",
-"TabViewModel","entity boundary","TabViewModel::openTab","command collaborator",
-"TabViewModel","entity boundary","TabViewModel::closeAllTabsWithConnection","command collaborator",
-"TabViewModel","entity boundary","TabViewModel::isIndexValid","predicate collaborator",
-"LoadMoreItem","entity boundary lazy-class degenerate","type","collaborator incidental",
-"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::LoadMoreItem","constructor",
-"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::getDisplayName","wrapper stateless",
-"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::getAllChilds","collaborator incidental",
-"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::supportChildItems","incidental",
-"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::childCount","collaborator incidental",
-"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::child","wrapper stateless",
-"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::parent","get collaborator",
-"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::isEnabled","incidental",
-"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::eventHandlers","property non-void-command collaborator",
-"NamespaceItem","entity boundary","type","collaborator incidental",
-"NamespaceItem","entity boundary","NamespaceItem::NamespaceItem","constructor",
-"NamespaceItem","entity boundary","NamespaceItem::getDisplayName","property collaborator",
-"NamespaceItem","entity boundary","NamespaceItem::getName","get property collaborator",
-"NamespaceItem","entity boundary","NamespaceItem::isEnabled","predicate",
-"NamespaceItem","entity boundary","NamespaceItem::getFullPath","get collaborator",
-"NamespaceItem","entity boundary","NamespaceItem::setRemoved","command",
-"NamespaceItem","entity boundary","NamespaceItem::metadata","property collaborator",
-"NamespaceItem","entity boundary","NamespaceItem::load","command collaborator",
-"NamespaceItem","entity boundary","NamespaceItem::reload","command",
-"NamespaceItem","entity boundary","NamespaceItem::eventHandlers","property non-void-command collaborator",
-"TreeItem","unclassified","~TreeItem","destructor",
-"TreeItem","unclassified","getName","wrapper stateless",
-"TreeItem","unclassified","getFullPath","wrapper stateless",
-"TreeItem","unclassified","removeChild","empty",
-"TreeItem","unclassified","parent","wrapper stateless",
-"TreeItem","unclassified","supportChildItems","incidental",
-"TreeItem","unclassified","setMetadata","empty",
-"TreeItem","unclassified","isLocked","get",
-"TreeItem","unclassified","isEnabled","incidental",
-"TreeItem","unclassified","isExpanded","get",
-"TreeItem","unclassified","setExpanded","set",
-"TreeItem","unclassified","fetchMore","empty",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::TreeItem","constructor",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::metadata","property collaborator",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::row","property collaborator",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::getSelf","get property non-void-command collaborator",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::model","get collaborator",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::lock","command",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::unlock","command",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::eventHandlers","property non-void-command collaborator",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::handleEvent","command collaborator",
-"TreeItem","unclassified","ConnectionsTree::TreeItem::cancelCurrentOperation","command",
-"StringKeyModel","boundary lazy-class degenerate","rowsCount","incidental",
-"StringKeyModel","boundary lazy-class degenerate","addLoadedRowsToCache","incidental",
-"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::StringKeyModel","constructor",
-"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::type","get collaborator",
-"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::getColumnNames","wrapper stateless",
-"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::getRoles","collaborator incidental",
-"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::getData","property non-void-command collaborator",
-"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::updateRow","controller stateless",
-"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::addRow","void-accessor command collaborator",
-"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::loadRows","set collaborator",
-"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::removeRow","wrapper stateless",
-"Operations","empty","~Operations","destructor",
-"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::AutocompleteModel","constructor",
-"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::index","wrapper stateless",
-"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::rowCount","property collaborator",
-"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::data","property collaborator",
-"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::roleNames","collaborator incidental",
-"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::getRow","property non-void-command collaborator",
-"ValueViewModel","boundary","~ValueViewModel","destructor",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::ValueViewModel","constructor",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::rowCount","get property collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::columnCount","property collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::tabLoadingTitle","get collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::setTabError","set collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::isModelLoaded","predicate",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::data","property collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::roleNames","property collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::model","get collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::setModel","set collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::setConnection","set collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::renameKey","void-accessor command collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::setTTL","command collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::persistKey","command",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::removeKey","command",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::close","wrapper stateless",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::columnNames","property non-void-command collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::reload","command",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::setSinglePageMode","set",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::singlePageMode","get",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::isRowLoaded","predicate non-void-command",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::loadRows","command collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::addRow","void-accessor command collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::updateRow","void-accessor command collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::deleteRow","command",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::totalRowCount","property non-void-command",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::pageSize","controller stateless",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::getRow","property non-void-command collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::loadRowsCount","command",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::filter","property collaborator",
-"ValueViewModel","boundary","ValueEditor::ValueViewModel::setFilter","void-accessor command collaborator",
-"Manager","boundary","BulkOperations::Manager::Manager","constructor",
-"Manager","boundary","BulkOperations::Manager::setPython","set collaborator",
-"Manager","boundary","BulkOperations::Manager::hasOperation","predicate",
-"Manager","boundary","BulkOperations::Manager::multiConnectionOperation","predicate",
-"Manager","boundary","BulkOperations::Manager::clearOperation","predicate non-void-command",
-"Manager","boundary","BulkOperations::Manager::runOperation","command",
-"Manager","boundary","BulkOperations::Manager::getAffectedKeys","command",
-"Manager","boundary","BulkOperations::Manager::getTargetConnections","property non-void-command collaborator",
-"Manager","boundary","BulkOperations::Manager::setOperationMetadata","void-accessor command collaborator",
-"Manager","boundary","BulkOperations::Manager::operationName","property collaborator",
-"Manager","boundary","BulkOperations::Manager::connectionName","property collaborator",
-"Manager","boundary","BulkOperations::Manager::dbIndex","property",
-"Manager","boundary","BulkOperations::Manager::keyPattern","property collaborator",
-"Manager","boundary","BulkOperations::Manager::setKeyPattern","void-accessor command collaborator",
-"Manager","boundary","BulkOperations::Manager::operationProgress","property",
-"Manager","boundary","BulkOperations::Manager::requestBulkOperation","command collaborator",
-"KeyItem","boundary","type","collaborator incidental",
-"KeyItem","boundary","KeyItem::KeyItem","constructor",
-"KeyItem","boundary","KeyItem::getDisplayName","property collaborator",
-"KeyItem","boundary","KeyItem::getName","property collaborator",
-"KeyItem","boundary","KeyItem::getAllChilds","wrapper stateless",
-"KeyItem","boundary","KeyItem::supportChildItems","incidental",
-"KeyItem","boundary","KeyItem::childCount","collaborator incidental",
-"KeyItem","boundary","KeyItem::child","wrapper stateless",
-"KeyItem","boundary","KeyItem::parent","get collaborator",
-"KeyItem","boundary","KeyItem::isEnabled","predicate",
-"KeyItem","boundary","KeyItem::getFullPath","get collaborator",
-"KeyItem","boundary","KeyItem::getDbIndex","property controller",
-"KeyItem","boundary","KeyItem::setRemoved","command",
-"KeyItem","boundary","KeyItem::getMemoryUsage","command collaborator",
-"KeyItem","boundary","KeyItem::setFullPath","command collaborator",
-"KeyItem","boundary","KeyItem::eventHandlers","property non-void-command collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::OAIDataFormatter","constructor",
-"OAIDataFormatter","data-provider","OAIDataFormatter::OAIDataFormatter","constructor",
-"OAIDataFormatter","data-provider","OAIDataFormatter::~OAIDataFormatter","destructor",
-"OAIDataFormatter","data-provider","OAIDataFormatter::initializeModel","command",
-"OAIDataFormatter","data-provider","OAIDataFormatter::fromJson","command collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::fromJsonObject","command collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::asJson","controller stateless",
-"OAIDataFormatter","data-provider","OAIDataFormatter::asJsonObject","property controller",
-"OAIDataFormatter","data-provider","OAIDataFormatter::getId","get collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::setId","command collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_id_Set","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_id_Valid","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::getName","get collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::setName","command collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_name_Set","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_name_Valid","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::getKeyTypes","get collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::setKeyTypes","command collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_key_types_Set","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_key_types_Valid","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::getMagicHeader","get collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::setMagicHeader","command collaborator",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_magic_header_Set","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_magic_header_Valid","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::isReadOnly","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::setReadOnly","command",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_read_only_Set","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::is_read_only_Valid","get",
-"OAIDataFormatter","data-provider","OAIDataFormatter::isSet","predicate",
-"OAIDataFormatter","data-provider","OAIDataFormatter::isValid","predicate",
-"OptionalParam","data-provider data-class small-class","OptionalParam","constructor",
-"OptionalParam","data-provider data-class small-class","OptionalParam","constructor",
-"OptionalParam","data-provider data-class small-class","hasValue","get",
-"OptionalParam","data-provider data-class small-class","value","get collaborator",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::SortFilterProxyModel","constructor",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::source","wrapper stateless",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::setSource","wrapper stateless",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::sortRole","get collaborator",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::setSortRole","void-accessor command collaborator",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::setSortOrder","wrapper stateless",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::filterRole","get collaborator",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::setFilterRole","void-accessor command collaborator",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::filterString","wrapper stateless",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::setFilterString","void-accessor command collaborator",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::filterSyntax","wrapper stateless",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::setFilterSyntax","command collaborator",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::classBegin","empty",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::componentComplete","command",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::getOriginalRowIndex","wrapper stateless",
-"SortFilterProxyModel","boundary degenerate","SortFilterProxyModel::roleKey","controller stateless",
-"OAIDefaultApi","boundary","OAIDefaultApi::OAIDefaultApi","constructor",
-"OAIDefaultApi","boundary","OAIDefaultApi::~OAIDefaultApi","destructor",
-"OAIDefaultApi","boundary","OAIDefaultApi::initializeServerConfigs","command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::setDefaultServerValue","get property non-void-command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::setServerIndex","void-accessor command",
-"OAIDefaultApi","boundary","OAIDefaultApi::setApiKey","void-accessor command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::setBearerToken","set collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::setUsername","set collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::setPassword","set collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::setTimeOut","set",
-"OAIDefaultApi","boundary","OAIDefaultApi::setWorkingDirectory","set collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::setNetworkAccessManager","set collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::addServerConfiguration","get property non-void-command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::setNewServerForAllOperations","void-accessor command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::setNewServer","void-accessor command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::addHeaders","void-accessor command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::enableRequestCompression","set",
-"OAIDefaultApi","boundary","OAIDefaultApi::enableResponseCompression","set",
-"OAIDefaultApi","boundary","OAIDefaultApi::abortRequests","wrapper stateless",
-"OAIDefaultApi","boundary","OAIDefaultApi::getParamStylePrefix","collaborator incidental",
-"OAIDefaultApi","boundary","OAIDefaultApi::getParamStyleSuffix","collaborator incidental",
-"OAIDefaultApi","boundary","OAIDefaultApi::getParamStyleDelimiter","collaborator incidental",
-"OAIDefaultApi","boundary","OAIDefaultApi::dataFormattersGet","command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::dataFormattersGetCallback","controller stateless",
-"OAIDefaultApi","boundary","OAIDefaultApi::dataFormattersIdDecodePost","void-accessor command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::dataFormattersIdDecodePostCallback","controller stateless",
-"OAIDefaultApi","boundary","OAIDefaultApi::dataFormattersIdEncodePost","void-accessor command collaborator",
-"OAIDefaultApi","boundary","OAIDefaultApi::dataFormattersIdEncodePostCallback","controller stateless",
-"OAIDefaultApi","boundary","OAIDefaultApi::tokenAvailable","command collaborator",
-"BloomFilterKeyModel","boundary degenerate","updateRow","empty",
-"BloomFilterKeyModel","boundary degenerate","removeRow","empty",
-"BloomFilterKeyModel","boundary degenerate","rowsCount","incidental",
-"BloomFilterKeyModel","boundary degenerate","addLoadedRowsToCache","incidental",
-"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::BloomFilterKeyModel","constructor",
-"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::type","get collaborator",
-"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::getColumnNames","wrapper stateless",
-"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::getRoles","collaborator incidental",
-"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::getData","property non-void-command collaborator",
-"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::addRow","controller",
-"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::loadRows","controller",
-"OAIEncodePayload","boundary","OAIEncodePayload::OAIEncodePayload","constructor",
-"OAIEncodePayload","boundary","OAIEncodePayload::OAIEncodePayload","constructor",
-"OAIEncodePayload","boundary","OAIEncodePayload::~OAIEncodePayload","destructor",
-"OAIEncodePayload","boundary","OAIEncodePayload::initializeModel","command",
-"OAIEncodePayload","boundary","OAIEncodePayload::fromJson","command collaborator",
-"OAIEncodePayload","boundary","OAIEncodePayload::fromJsonObject","command collaborator",
-"OAIEncodePayload","boundary","OAIEncodePayload::asJson","controller stateless",
-"OAIEncodePayload","boundary","OAIEncodePayload::asJsonObject","property controller",
-"OAIEncodePayload","boundary","OAIEncodePayload::getData","get collaborator",
-"OAIEncodePayload","boundary","OAIEncodePayload::setData","command collaborator",
-"OAIEncodePayload","boundary","OAIEncodePayload::is_data_Set","get",
-"OAIEncodePayload","boundary","OAIEncodePayload::is_data_Valid","get",
-"OAIEncodePayload","boundary","OAIEncodePayload::getMetadata","get collaborator",
-"OAIEncodePayload","boundary","OAIEncodePayload::setMetadata","command collaborator",
-"OAIEncodePayload","boundary","OAIEncodePayload::is_metadata_Set","get",
-"OAIEncodePayload","boundary","OAIEncodePayload::is_metadata_Valid","get",
-"OAIEncodePayload","boundary","OAIEncodePayload::isSet","predicate",
-"OAIEncodePayload","boundary","OAIEncodePayload::isValid","incidental",
-"ConnectionGroup","entity data-provider boundary","ConnectionGroup::ConnectionGroup","constructor",
-"ConnectionGroup","entity data-provider boundary","ConnectionGroup::ConnectionGroup","constructor",
-"ConnectionGroup","entity data-provider boundary","ConnectionGroup::name","property collaborator",
-"ConnectionGroup","entity data-provider boundary","ConnectionGroup::setName","void-accessor command collaborator",
-"ConnectionGroup","entity data-provider boundary","ConnectionGroup::serverGroup","get collaborator",
+"TestModel","boundary small-class","TestModel::testLoadImplementation","wrapper"
+"TestDatabaseItem","pure-controller degenerate small-class","TestDatabaseItem::TestDatabaseItem","constructor"
+"TestDatabaseItem","pure-controller degenerate small-class","TestDatabaseItem::testLoadKeys","controller stateless"
+"TestTreeOperations","commander boundary","TestTreeOperations::testCreation","command collaborator"
+"TestTreeOperations","commander boundary","TestTreeOperations::testGetDatabases","command collaborator"
+"TestTreeOperations","commander boundary","TestTreeOperations::testLoadNamespaceItems","command collaborator"
+"TestTreeOperations","commander boundary","TestTreeOperations::testLoadNamespaceItems_data","wrapper stateless"
+"TestTreeOperations","commander boundary","TestTreeOperations::testFlushDb","command collaborator"
+"TestTreeOperations","commander boundary","TestTreeOperations::testFlushDbCommandError","command collaborator"
+"TestConnectionsManager","degenerate","TestConnectionsManager::TestConnectionsManager","constructor"
+"TestConnectionsManager","degenerate","TestConnectionsManager::loadConnectionsConfigFromFile","controller stateless"
+"TestConnectionsManager","degenerate","TestConnectionsManager::saveConnectionsConfigToFile_data","wrapper stateless"
+"TestConnectionsManager","degenerate","TestConnectionsManager::saveConnectionsConfigToFile","command collaborator"
+"TestUtils","pure-controller degenerate small-class","TestUtils::removeAppSetting","controller stateless"
+"TabsModel","entity boundary","ValueEditor::TabsModel::TabsModel","constructor"
+"TabsModel","entity boundary","ValueEditor::TabsModel::~TabsModel","destructor"
+"TabsModel","entity boundary","ValueEditor::TabsModel::openTab","command collaborator"
+"TabsModel","entity boundary","ValueEditor::TabsModel::closeDbKeys","command collaborator"
+"TabsModel","entity boundary","ValueEditor::TabsModel::index","wrapper stateless"
+"TabsModel","entity boundary","ValueEditor::TabsModel::rowCount","property"
+"TabsModel","entity boundary","ValueEditor::TabsModel::data","property collaborator"
+"TabsModel","entity boundary","ValueEditor::TabsModel::roleNames","collaborator incidental"
+"TabsModel","entity boundary","ValueEditor::TabsModel::closeTab","command collaborator"
+"TabsModel","entity boundary","ValueEditor::TabsModel::setCurrentTab","set"
+"TabsModel","entity boundary","ValueEditor::TabsModel::isIndexValid","predicate collaborator"
+"TabsModel","entity boundary","ValueEditor::TabsModel::tabChanged","command collaborator"
+"TabsModel","entity boundary","ValueEditor::TabsModel::tabRemoved","command collaborator"
+"TabsModel","entity boundary","ValueEditor::TabsModel::createViewModel","property non-void-command collaborator"
+"ModelSignals","empty","ModelSignals","constructor"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::DataFormattersManager","constructor"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::loadFormatters","command collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::rowCount","property"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::data","property collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::roleNames","collaborator incidental"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::setUrl","set collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::decode","command collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::isValid","controller stateless"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::encode","command collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::getPlainList","property controller"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::extServerUrl","get property non-void-command collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::isInstalled","predicate non-void-command collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onLoaded","set collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onLoadingError","wrapper stateless"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onDecoded","command collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onEncoded","command collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onDecodeError","command collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::onEncodeError","command collaborator"
+"DataFormattersManager","boundary","RespExtServer::DataFormattersManager::fillMapping","set collaborator"
+"EmbeddedFormattersManager","commander boundary","ValueEditor::EmbeddedFormattersManager::EmbeddedFormattersManager","constructor"
+"EmbeddedFormattersManager","commander boundary","ValueEditor::EmbeddedFormattersManager::init","set collaborator"
+"EmbeddedFormattersManager","commander boundary","ValueEditor::EmbeddedFormattersManager::loadFormattersModule","command collaborator"
+"EmbeddedFormattersManager","commander boundary","ValueEditor::EmbeddedFormattersManager::loadFormatters","command collaborator"
+"EmbeddedFormattersManager","commander boundary","ValueEditor::EmbeddedFormattersManager::decode","wrapper stateless"
+"EmbeddedFormattersManager","commander boundary","ValueEditor::EmbeddedFormattersManager::isValid","wrapper stateless"
+"EmbeddedFormattersManager","commander boundary","ValueEditor::EmbeddedFormattersManager::encode","wrapper stateless"
+"EmbeddedFormattersManager","commander boundary","ValueEditor::EmbeddedFormattersManager::pythonCall","command collaborator"
+"OAIObject","boundary lazy-class","OAIObject","constructor"
+"OAIObject","boundary lazy-class","OAIObject","constructor"
+"OAIObject","boundary lazy-class","~OAIObject","destructor"
+"OAIObject","boundary lazy-class","asJsonObject","get collaborator"
+"OAIObject","boundary lazy-class","asJson","property controller"
+"OAIObject","boundary lazy-class","fromJson","set collaborator"
+"OAIObject","boundary lazy-class","fromJsonObject","set collaborator"
+"OAIObject","boundary lazy-class","isSet","incidental"
+"OAIObject","boundary lazy-class","isValid","incidental"
+"OauthPassword","commander boundary","OauthPassword::OauthPassword","constructor"
+"OauthPassword","commander boundary","OauthPassword::link","command"
+"OauthPassword","commander boundary","OauthPassword::unlink","wrapper"
+"OauthPassword","commander boundary","OauthPassword::setVariables","command collaborator"
+"OauthPassword","commander boundary","OauthPassword::authenticationNeededCallback","command collaborator"
+"OauthCredentials","commander boundary","OauthCredentials::OauthCredentials","constructor"
+"OauthCredentials","commander boundary","OauthCredentials::link","command"
+"OauthCredentials","commander boundary","OauthCredentials::unlink","wrapper"
+"OauthCredentials","commander boundary","OauthCredentials::setVariables","command collaborator"
+"OauthCredentials","commander boundary","OauthCredentials::authenticationNeededCallback","command collaborator"
+"TestAppUtils","boundary degenerate small-class","TestAppUtils::testHumanReadableSize","wrapper stateless"
+"OauthImplicit","commander","OauthImplicit::OauthImplicit","constructor"
+"OauthImplicit","commander","OauthImplicit::link","command"
+"OauthImplicit","commander","OauthImplicit::unlink","set"
+"OauthImplicit","commander","OauthImplicit::setVariables","command collaborator"
+"OauthImplicit","commander","OauthImplicit::authenticationNeededCallback","command"
+"OauthImplicit","commander","OauthImplicit::ImplicitTokenReceived","controller stateless"
+"OauthCode","commander boundary","OauthCode::OauthCode","constructor"
+"OauthCode","commander boundary","OauthCode::link","command"
+"OauthCode","commander boundary","OauthCode::unlink","wrapper"
+"OauthCode","commander boundary","OauthCode::setVariables","command collaborator"
+"OauthCode","commander boundary","OauthCode::authenticationNeededCallback","command"
+"OauthCode","commander boundary","OauthCode::onVerificationReceived","command collaborator"
+"OauthBase","boundary","OauthBase","constructor"
+"OauthBase","boundary","linked","get"
+"OauthBase","boundary","OauthBase::onFinish","controller stateless"
+"OauthBase","boundary","OauthBase::getToken","property non-void-command collaborator"
+"OauthBase","boundary","OauthBase::addToken","command collaborator"
+"OauthBase","boundary","OauthBase::removeToken","command collaborator"
+"ReplyServer","boundary lazy-class degenerate","setReply","set collaborator"
+"ReplyServer","boundary lazy-class degenerate","ReplyServer::ReplyServer","constructor"
+"ReplyServer","boundary lazy-class degenerate","ReplyServer::start","wrapper stateless"
+"ReplyServer","boundary lazy-class degenerate","ReplyServer::stop","wrapper stateless"
+"ReplyServer","boundary lazy-class degenerate","ReplyServer::onConnected","command collaborator"
+"ReplyServer","boundary lazy-class degenerate","ReplyServer::read","controller stateless"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::LargeTextWrappingModel","constructor"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::~LargeTextWrappingModel","destructor"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::roleNames","collaborator incidental"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::rowCount","property"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::data","get property collaborator"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::setText","command collaborator"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::cleanUp","command"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::getText","property non-void-command collaborator"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::setTextChunk","set collaborator"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::searchText","property non-void-command collaborator"
+"LargeTextWrappingModel","entity boundary","ValueEditor::LargeTextWrappingModel::isIndexValid","predicate collaborator"
+"oauthToken","data-provider boundary","oauthToken","constructor"
+"oauthToken","data-provider boundary","oauthToken","constructor"
+"oauthToken","data-provider boundary","getToken","get collaborator"
+"oauthToken","data-provider boundary","getScope","get collaborator"
+"oauthToken","data-provider boundary","getType","get collaborator"
+"oauthToken","data-provider boundary","isValid","predicate wrapper"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::OAIHttpRequestWorker","constructor"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::~OAIHttpRequestWorker","destructor"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::getResponseHeaders","get collaborator"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::getHttpFileElement","get property non-void-command collaborator"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::getMultiPartField","get property non-void-command collaborator"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::setTimeOut","command"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::setWorkingDirectory","set collaborator"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::setResponseCompressionEnabled","set"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::setRequestCompressionEnabled","set"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::getHttpResponseCode","get"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::http_attribute_encode","controller stateless"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::execute","void-accessor command collaborator"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::on_reply_finished","command collaborator"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::on_reply_timeout","command collaborator"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::process_response","command collaborator"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::decompress","wrapper stateless"
+"OAIHttpRequestWorker","boundary","OAIHttpRequestWorker::compress","wrapper stateless"
+"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::OAIHttpRequestInput","constructor"
+"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::OAIHttpRequestInput","constructor"
+"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::initialize","command"
+"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::add_var","set collaborator"
+"OAIHttpRequestInput","commander boundary","OAIHttpRequestInput::add_file","command collaborator"
+"TestKeyModels","boundary degenerate","TestKeyModels::testKeyFactory","command collaborator"
+"TestKeyModels","boundary degenerate","TestKeyModels::testKeyFactory_data","wrapper stateless"
+"TestKeyModels","boundary degenerate","TestKeyModels::testKeyFactoryAddKey","controller stateless"
+"TestKeyModels","boundary degenerate","TestKeyModels::testKeyFactoryAddKey_data","wrapper stateless"
+"TestKeyModels","boundary degenerate","TestKeyModels::testValueLoading","command collaborator"
+"TestKeyModels","boundary degenerate","TestKeyModels::testValueLoading_data","wrapper stateless"
+"TestKeyModels","boundary degenerate","TestKeyModels::testKeyModelModifyRows","command collaborator"
+"TestKeyModels","boundary degenerate","TestKeyModels::testKeyModelModifyRows_data","wrapper stateless"
+"TestKeyModels","boundary degenerate","TestKeyModels::getKeyModel","controller stateless"
+"CopyOperation","unclassified","getTypeName","wrapper stateless"
+"CopyOperation","unclassified","multiConnectionOperation","incidental"
+"CopyOperation","unclassified","isMetadataValid","predicate"
+"CopyOperation","unclassified","BulkOperations::CopyOperation::CopyOperation","constructor"
+"CopyOperation","unclassified","BulkOperations::CopyOperation::performOperation","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::TreeOperations","constructor"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::loadDatabases","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::recursiveSelectScan","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::connect","predicate non-void-command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::requestBulkOperation","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::getReadyConnection","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::getDatabases","property set collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::loadNamespaceItems","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::disconnect","command"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::resetConnection","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::getNamespaceSeparator","property non-void-command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::defaultFilter","property non-void-command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::getFilterHistory","get set collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::connectionName","property collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::openKeyTab","command"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::openConsoleTab","command"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::openNewKeyDialog","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::openServerStats","command"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::duplicateConnection","wrapper"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::notifyDbWasUnloaded","command"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::deleteDbKey","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::openKeyIfExists","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::connection","get collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::setConnection","set collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::config","get non-void-command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::setConfig","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::proceedWithSecret","command collaborator"
+"TreeOperations","entity minimal-entity commander boundary","TreeOperations::iconColor","property non-void-command collaborator"
+"QmlUtils","large-class degenerate","QmlUtils::isBinaryString","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::binaryStringLength","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::b64toByteArray","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::minifyJSON","property non-void-command collaborator"
+"QmlUtils","large-class degenerate","QmlUtils::prettyPrintJSON","property non-void-command collaborator"
+"QmlUtils","large-class degenerate","QmlUtils::isJSON","predicate non-void-command collaborator"
+"QmlUtils","large-class degenerate","QmlUtils::decompress","property non-void-command collaborator"
+"QmlUtils","large-class degenerate","QmlUtils::compress","property non-void-command collaborator"
+"QmlUtils","large-class degenerate","QmlUtils::isCompressed","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::compressionAlgName","wrapper stateless"
+"QmlUtils","large-class degenerate","QmlUtils::compressionMethodsNoMagic","collaborator incidental"
+"QmlUtils","large-class degenerate","QmlUtils::humanSize","wrapper stateless"
+"QmlUtils","large-class degenerate","QmlUtils::valueToBinary","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::binaryListToValue","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::printable","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::printableToValue","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::toUtf","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::getNativePath","wrapper stateless"
+"QmlUtils","large-class degenerate","QmlUtils::getPathFromUrl","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::getUrlFromPath","wrapper stateless"
+"QmlUtils","large-class degenerate","QmlUtils::getDir","wrapper stateless"
+"QmlUtils","large-class degenerate","QmlUtils::fileExists","wrapper stateless"
+"QmlUtils","large-class degenerate","QmlUtils::replaceColorsInSvg","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::changeColorAlpha","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::copyToClipboard","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::saveToFile","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::addNewValueToDynamicChart","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::wrapLargeText","factory controller"
+"QmlUtils","large-class degenerate","QmlUtils::deleteTextWrapper","controller"
+"QmlUtils","large-class degenerate","QmlUtils::escapeHtmlEntities","controller stateless"
+"QmlUtils","large-class degenerate","QmlUtils::standardKeyToString","wrapper stateless"
+"QmlUtils","large-class degenerate","QmlUtils::getScreenScaleFactor","wrapper stateless"
+"QmlUtils","large-class degenerate","QmlUtils::isAppStoreBuild","incidental"
+"UnknownKeyModel","data-provider boundary lazy-class degenerate","type","get collaborator"
+"UnknownKeyModel","data-provider boundary lazy-class degenerate","getColumnNames","wrapper stateless"
+"UnknownKeyModel","data-provider boundary lazy-class degenerate","getRoles","wrapper stateless"
+"UnknownKeyModel","data-provider boundary lazy-class degenerate","getData","wrapper stateless"
+"UnknownKeyModel","data-provider boundary lazy-class degenerate","UnknownKeyModel::UnknownKeyModel","constructor"
+"StreamKeyModel","boundary degenerate","StreamKeyModel::StreamKeyModel","constructor"
+"StreamKeyModel","boundary degenerate","StreamKeyModel::type","collaborator incidental"
+"StreamKeyModel","boundary degenerate","StreamKeyModel::getColumnNames","wrapper stateless"
+"StreamKeyModel","boundary degenerate","StreamKeyModel::getRoles","collaborator incidental"
+"StreamKeyModel","boundary degenerate","StreamKeyModel::getData","property non-void-command collaborator"
+"StreamKeyModel","boundary degenerate","StreamKeyModel::addRow","controller stateless"
+"StreamKeyModel","boundary degenerate","StreamKeyModel::updateRow","empty"
+"StreamKeyModel","boundary degenerate","StreamKeyModel::removeRow","command collaborator"
+"StreamKeyModel","boundary degenerate","StreamKeyModel::loadRowsCount","controller stateless"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::SortedSetKeyModel","constructor"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::type","collaborator incidental"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::getColumnNames","wrapper stateless"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::getRoles","collaborator incidental"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::getData","property non-void-command collaborator"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::updateRow","command collaborator"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::addRow","controller stateless"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::removeRow","command collaborator"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::addSortedSetRow","wrapper stateless"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::deleteSortedSetRow","wrapper stateless"
+"SortedSetKeyModel","boundary degenerate","SortedSetKeyModel::addLoadedRowsToCache","controller stateless"
+"CacheRange","degenerate small-class","CacheRange","constructor"
+"CacheRange","degenerate small-class","isEmpty","incidental"
+"SyntaxHighlighter","minimal-entity commander boundary","SyntaxHighlighter::SyntaxHighlighter","constructor"
+"SyntaxHighlighter","minimal-entity commander boundary","SyntaxHighlighter::highlightBlock","command collaborator"
+"SyntaxHighlighter","minimal-entity commander boundary","SyntaxHighlighter::textDocument","get collaborator"
+"SyntaxHighlighter","minimal-entity commander boundary","SyntaxHighlighter::setTextDocument","set collaborator"
+"SyntaxHighlighter","minimal-entity commander boundary","SyntaxHighlighter::setFormat","command collaborator"
+"KeyFactory","pure-controller","KeyFactory::KeyFactory","constructor"
+"KeyFactory","pure-controller","KeyFactory::loadKey","controller"
+"KeyFactory","pure-controller","KeyFactory::createNewKeyRequest","controller stateless"
+"KeyFactory","pure-controller","KeyFactory::submitNewKeyRequest","controller"
+"ServerGroup","boundary","type","collaborator incidental"
+"ServerGroup","boundary","ServerGroup::ServerGroup","constructor"
+"ServerGroup","boundary","ServerGroup::getDisplayName","get collaborator"
+"ServerGroup","boundary","ServerGroup::getAllChilds","get collaborator"
+"ServerGroup","boundary","ServerGroup::childCount","property collaborator"
+"ServerGroup","boundary","ServerGroup::child","property non-void-command collaborator"
+"ServerGroup","boundary","ServerGroup::takeChild","property non-void-command collaborator"
+"ServerGroup","boundary","ServerGroup::insertChildAt","command collaborator"
+"ServerGroup","boundary","ServerGroup::removeConnection","command collaborator"
+"ServerGroup","boundary","ServerGroup::eventHandlers","property non-void-command collaborator"
+"ServerGroup","boundary","ServerGroup::setName","set collaborator"
+"ServerGroup","boundary","ServerGroup::addServer","command collaborator"
+"ServerGroup","boundary","ServerGroup::isExpanded","incidental"
+"ServerGroup","boundary","ServerGroup::unload","controller"
+"AbstractKeyFactory","empty","~AbstractKeyFactory","destructor"
+"BaseListModel","degenerate","~BaseListModel","destructor"
+"BaseListModel","degenerate","isIndexValid","controller stateless"
+"BaseListModel","degenerate","isRowIndexValid","wrapper stateless"
+"BaseListModel","degenerate","BaseListModel::BaseListModel","constructor"
+"BaseListModel","degenerate","BaseListModel::getRowRaw","controller stateless"
+"OAIInline_response_400","boundary","OAIInline_response_400::OAIInline_response_400","constructor"
+"OAIInline_response_400","boundary","OAIInline_response_400::OAIInline_response_400","constructor"
+"OAIInline_response_400","boundary","OAIInline_response_400::~OAIInline_response_400","destructor"
+"OAIInline_response_400","boundary","OAIInline_response_400::initializeModel","command"
+"OAIInline_response_400","boundary","OAIInline_response_400::fromJson","command collaborator"
+"OAIInline_response_400","boundary","OAIInline_response_400::fromJsonObject","command collaborator"
+"OAIInline_response_400","boundary","OAIInline_response_400::asJson","controller stateless"
+"OAIInline_response_400","boundary","OAIInline_response_400::asJsonObject","property controller"
+"OAIInline_response_400","boundary","OAIInline_response_400::getError","get collaborator"
+"OAIInline_response_400","boundary","OAIInline_response_400::setError","command collaborator"
+"OAIInline_response_400","boundary","OAIInline_response_400::is_error_Set","get"
+"OAIInline_response_400","boundary","OAIInline_response_400::is_error_Valid","get"
+"OAIInline_response_400","boundary","OAIInline_response_400::isSet","predicate"
+"OAIInline_response_400","boundary","OAIInline_response_400::isValid","incidental"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::setMimeType","set collaborator"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::setFileName","set collaborator"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::setVariableName","set collaborator"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::setRequestFileName","set collaborator"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::isSet","predicate"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::asJson","property controller"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::asJsonValue","property controller"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::fromStringValue","predicate controller"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::fromJsonValue","predicate controller"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::asByteArray","property controller"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::fromByteArray","predicate controller"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::saveToFile","predicate non-void-command collaborator"
+"OAIHttpFileElement","unclassified","OAIHttpFileElement::loadFromFile","property non-void-command collaborator"
+"RESPBaseTestCase","pure-controller degenerate small-class","getDummyConfig","controller stateless"
+"OAIServerVariable","data-provider boundary data-class","OAIServerVariable","constructor"
+"OAIServerVariable","data-provider boundary data-class","OAIServerVariable","constructor"
+"OAIServerVariable","data-provider boundary data-class","~OAIServerVariable","destructor"
+"OAIServerVariable","data-provider boundary data-class","setDefaultValue","property set collaborator"
+"OAIServerVariable","data-provider boundary data-class","getDefaultValue","get collaborator"
+"OAIServerVariable","data-provider boundary data-class","getEnumValues","get collaborator"
+"ConfigManager","boundary","ConfigManager::ConfigManager","constructor"
+"ConfigManager","boundary","ConfigManager::getApplicationConfigPath","property non-void-command collaborator"
+"ConfigManager","boundary","ConfigManager::chechPath","predicate non-void-command collaborator"
+"ConfigManager","boundary","ConfigManager::setPermissions","controller stateless"
+"ConfigManager","boundary","ConfigManager::getConfigPath","wrapper stateless"
+"HashKeyModel","boundary degenerate","HashKeyModel::HashKeyModel","constructor"
+"HashKeyModel","boundary degenerate","HashKeyModel::type","collaborator incidental"
+"HashKeyModel","boundary degenerate","HashKeyModel::getColumnNames","wrapper stateless"
+"HashKeyModel","boundary degenerate","HashKeyModel::getRoles","collaborator incidental"
+"HashKeyModel","boundary degenerate","HashKeyModel::getData","property non-void-command collaborator"
+"HashKeyModel","boundary degenerate","HashKeyModel::updateRow","command collaborator"
+"HashKeyModel","boundary degenerate","HashKeyModel::addRow","controller stateless"
+"HashKeyModel","boundary degenerate","HashKeyModel::removeRow","command collaborator"
+"HashKeyModel","boundary degenerate","HashKeyModel::setHashRow","controller stateless"
+"HashKeyModel","boundary degenerate","HashKeyModel::deleteHashRow","wrapper stateless"
+"HashKeyModel","boundary degenerate","HashKeyModel::addLoadedRowsToCache","controller stateless"
+"KeyModel","commander boundary","KeyModel","constructor"
+"KeyModel","commander boundary","getKeyName","wrapper stateless"
+"KeyModel","commander boundary","getKeyTitle","property non-void-command collaborator"
+"KeyModel","commander boundary","getTTL","incidental"
+"KeyModel","commander boundary","isMultiRow","incidental"
+"KeyModel","commander boundary","isRowLoaded","controller stateless"
+"KeyModel","commander boundary","rowsCount","property non-void-command"
+"KeyModel","commander boundary","setKeyName","command collaborator"
+"KeyModel","commander boundary","setTTL","command collaborator"
+"KeyModel","commander boundary","persistKey","command collaborator"
+"KeyModel","commander boundary","removeKey","controller stateless"
+"KeyModel","commander boundary","loadRows","command collaborator"
+"DatabaseItem","entity boundary","type","collaborator incidental"
+"DatabaseItem","entity boundary","DatabaseItem::DatabaseItem","constructor"
+"DatabaseItem","entity boundary","DatabaseItem::~DatabaseItem","destructor"
+"DatabaseItem","entity boundary","DatabaseItem::getName","wrapper stateless"
+"DatabaseItem","entity boundary","DatabaseItem::getFullPath","wrapper stateless"
+"DatabaseItem","entity boundary","DatabaseItem::getDisplayName","property collaborator"
+"DatabaseItem","entity boundary","DatabaseItem::isEnabled","incidental"
+"DatabaseItem","entity boundary","DatabaseItem::loadKeys","command collaborator"
+"DatabaseItem","entity boundary","DatabaseItem::metadata","property collaborator"
+"DatabaseItem","entity boundary","DatabaseItem::setMetadata","command collaborator"
+"DatabaseItem","entity boundary","DatabaseItem::getMemoryUsage","command collaborator"
+"DatabaseItem","entity boundary","DatabaseItem::unload","command"
+"DatabaseItem","entity boundary","DatabaseItem::reload","command collaborator"
+"DatabaseItem","entity boundary","DatabaseItem::filterHistoryTop10","property collaborator"
+"OAIServerConfiguration","entity boundary small-class","OAIServerConfiguration","constructor"
+"OAIServerConfiguration","entity boundary small-class","OAIServerConfiguration","constructor"
+"OAIServerConfiguration","entity boundary small-class","~OAIServerConfiguration","destructor"
+"OAIServerConfiguration","entity boundary small-class","URL","property non-void-command collaborator"
+"OAIServerConfiguration","entity boundary small-class","setDefaultValue","get property non-void-command collaborator"
+"Application","commander boundary","Application::Application","constructor"
+"Application","commander boundary","Application::initModels","command collaborator"
+"Application","commander boundary","Application::initAppInfo","wrapper stateless"
+"Application","commander boundary","Application::initAppFonts","controller stateless"
+"Application","commander boundary","Application::initProxySettings","controller stateless"
+"Application","commander boundary","Application::registerQmlTypes","wrapper stateless"
+"Application","commander boundary","Application::registerQmlRootObjects","command"
+"Application","commander boundary","Application::initQml","command"
+"Application","commander boundary","Application::initPython","command"
+"Application","commander boundary","Application::installTranslator","command collaborator"
+"Application","commander boundary","Application::processCmdArgs","command collaborator"
+"Application","commander boundary","Application::updatePalette","command collaborator"
+"MemoryUsage","data-provider boundary data-class small-class","MemoryUsage","constructor"
+"MemoryUsage","data-provider boundary data-class small-class","~MemoryUsage","destructor"
+"MemoryUsage","data-provider boundary data-class small-class","usedMemory","get collaborator"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::ServerConfig","constructor"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::ServerConfig","constructor"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::keysPattern","property wrapper"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setKeysPattern","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::namespaceSeparator","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setNamespaceSeparator","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::databaseScanLimit","property wrapper"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setDatabaseScanLimit","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::useSshTunnel","predicate"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::owner","get collaborator"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setOwner","set collaborator"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::filterHistory","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setFilterHistory","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::askForSshPassword","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setAskForSshPassword","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::defaultFormatter","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setDefaultFormatter","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::iconColor","wrapper stateless"
+"ServerConfig","data-provider boundary lazy-class degenerate","ServerConfig::setIconColor","wrapper stateless"
+"TestServerItem","degenerate","TestServerItem::TestServerItem","constructor"
+"TestServerItem","degenerate","TestServerItem::testLoad","controller stateless"
+"TestServerItem","degenerate","TestServerItem::testLoad_data","wrapper stateless"
+"TestServerItem","degenerate","TestServerItem::testBasicMethods","controller stateless"
+"TestServerItem","degenerate","TestServerItem::testLoad_invalid","controller stateless"
+"TestServerItem","degenerate","TestServerItem::testUnload","controller stateless"
+"SetKeyModel","boundary degenerate","SetKeyModel::SetKeyModel","constructor"
+"SetKeyModel","boundary degenerate","SetKeyModel::type","collaborator incidental"
+"SetKeyModel","boundary degenerate","SetKeyModel::updateRow","command collaborator"
+"SetKeyModel","boundary degenerate","SetKeyModel::addRow","controller stateless"
+"SetKeyModel","boundary degenerate","SetKeyModel::removeRow","command collaborator"
+"SetKeyModel","boundary degenerate","SetKeyModel::addSetRow","wrapper stateless"
+"SetKeyModel","boundary degenerate","SetKeyModel::deleteSetRow","wrapper stateless"
+"TabModel","boundary small-class","TabModel::TabModel","constructor"
+"TabModel","boundary small-class","TabModel::~TabModel","destructor"
+"TabModel","boundary small-class","TabModel::init","command collaborator"
+"TabModel","boundary small-class","TabModel::getConnection","get collaborator"
+"AbstractOperation","boundary","~AbstractOperation","destructor"
+"AbstractOperation","boundary","isMetadataValid","incidental"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::AbstractOperation","constructor"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::getAffectedKeys","command collaborator"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::run","command"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::isRunning","predicate"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::getConnection","get collaborator"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::getDbIndex","get"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::getKeyPattern","get collaborator"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::setKeyPattern","set collaborator"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::currentProgress","get"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::setMetadata","set collaborator"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::incrementProgress","command collaborator"
+"AbstractOperation","boundary","BulkOperations::AbstractOperation::processError","command collaborator"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::ListKeyModel","constructor"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::type","collaborator incidental"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::updateRow","command collaborator"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::addRow","controller stateless"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::removeRow","command collaborator"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::getRangeCmd","property non-void-command collaborator"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::addLoadedRowsToCache","property non-void-command collaborator"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::verifyListItemPosition","command collaborator"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::addListRow","wrapper stateless"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::setListRow","wrapper stateless"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::deleteListRow","wrapper stateless"
+"ListKeyModel","commander boundary degenerate","ListKeyModel::isReverseOrder","controller stateless"
+"MappedCache","boundary","MappedCache","constructor"
+"MappedCache","boundary","isValid","get"
+"MappedCache","boundary","addLoadedRange","command collaborator"
+"MappedCache","boundary","isRowLoaded","predicate non-void-command collaborator"
+"MappedCache","boundary","getRow","get property non-void-command collaborator"
+"MappedCache","boundary","operator[]","property non-void-command collaborator"
+"MappedCache","boundary","replace","get command collaborator"
+"MappedCache","boundary","removeAt","command collaborator"
+"MappedCache","boundary","push_back","command collaborator"
+"MappedCache","boundary","size","property controller"
+"MappedCache","boundary","clear","set"
+"MappedCache","boundary","findTargetRange","property non-void-command collaborator"
+"MappedCache","boundary","replaceRangeInMapping","command collaborator"
+"ReJSONKeyModel","boundary degenerate","addLoadedRowsToCache","incidental"
+"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::ReJSONKeyModel","constructor"
+"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::type","collaborator incidental"
+"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::getColumnNames","wrapper stateless"
+"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::getRoles","collaborator incidental"
+"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::getData","property non-void-command collaborator"
+"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::updateRow","controller stateless"
+"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::addRow","command collaborator"
+"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::loadRows","controller stateless"
+"ReJSONKeyModel","boundary degenerate","ReJSONKeyModel::removeRow","wrapper stateless"
+"Events","pure-controller small-class","Events::registerLoggerForConnection","controller"
+"ConnectionsManager","commander boundary","ConnectionsManager::ConnectionsManager","constructor"
+"ConnectionsManager","commander boundary","ConnectionsManager::loadConnections","command"
+"ConnectionsManager","commander boundary","ConnectionsManager::addNewConnection","command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::addNewGroup","command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::updateGroup","command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::updateConnection","command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::importConnections","predicate non-void-command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::loadConnectionsConfigFromFile","predicate non-void-command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::tryToConnect","command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::saveConfig","command"
+"ConnectionsManager","commander boundary","ConnectionsManager::saveConnectionsConfigToFile","predicate controller"
+"ConnectionsManager","commander boundary","ConnectionsManager::testConnectionSettings","set collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::proceedWithConnectionSecret","command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::createEmptyConfig","wrapper stateless"
+"ConnectionsManager","commander boundary","ConnectionsManager::parseConfigFromRedisConnectionString","controller stateless"
+"ConnectionsManager","commander boundary","ConnectionsManager::isRedisConnectionStringValid","controller stateless"
+"ConnectionsManager","commander boundary","ConnectionsManager::size","property controller"
+"ConnectionsManager","commander boundary","ConnectionsManager::getByIndex","property non-void-command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::getConnections","property non-void-command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::applyGroupChanges","command"
+"ConnectionsManager","commander boundary","ConnectionsManager::createServerItemForConnection","command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::addGroup","command collaborator"
+"ConnectionsManager","commander boundary","ConnectionsManager::buildConnectionsCache","command collaborator"
+"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::ListLikeKeyModel","constructor"
+"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::getColumnNames","wrapper stateless"
+"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::getRoles","collaborator incidental"
+"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::getData","property non-void-command collaborator"
+"ListLikeKeyModel","boundary degenerate","ListLikeKeyModel::addLoadedRowsToCache","controller stateless"
+"NewKeyRequest","entity boundary","NewKeyRequest","constructor"
+"NewKeyRequest","entity boundary","dbIdString","property non-void-command collaborator"
+"NewKeyRequest","entity boundary","dbIndex","get"
+"NewKeyRequest","entity boundary","keyName","get collaborator"
+"NewKeyRequest","entity boundary","setKeyName","set collaborator"
+"NewKeyRequest","entity boundary","keyType","get collaborator"
+"NewKeyRequest","entity boundary","setKeyType","set collaborator"
+"NewKeyRequest","entity boundary","value","get collaborator"
+"NewKeyRequest","entity boundary","setValue","set collaborator"
+"NewKeyRequest","entity boundary","valueFilePath","get collaborator"
+"NewKeyRequest","entity boundary","setValueFilePath","set collaborator"
+"NewKeyRequest","entity boundary","connection","get collaborator"
+"NewKeyRequest","entity boundary","callback","unclassified"
+"NewKeyRequest","entity boundary","NewKeyRequest::NewKeyRequest","constructor"
+"NewKeyRequest","entity boundary","NewKeyRequest::loadAdditionalKeyTypesInfo","command collaborator"
+"Setup","commander boundary small-class","Setup","constructor"
+"Setup","commander boundary small-class","Setup::qmlEngineAvailable","command collaborator"
+"SortableTreeItem","data-class small-class","SortableTreeItem","constructor"
+"SortableTreeItem","data-class small-class","row","get"
+"SortableTreeItem","data-class small-class","setRow","set"
+"Model","boundary","columnCount","wrapper stateless"
+"Model","boundary","getItemFromIndex","property collaborator"
+"Model","boundary","Model","constructor"
+"Model","boundary","~Model","destructor"
+"Model","boundary","Model::Model","constructor"
+"Model","boundary","Model::data","property collaborator"
+"Model","boundary","Model::roleNames","collaborator incidental"
+"Model","boundary","Model::flags","property collaborator"
+"Model","boundary","Model::index","property collaborator"
+"Model","boundary","Model::parent","property collaborator"
+"Model","boundary","Model::rowCount","property collaborator"
+"Model","boundary","Model::hasChildren","predicate collaborator"
+"Model","boundary","Model::getIndexFromItem","property non-void-command collaborator"
+"Model","boundary","Model::onItemChanged","command collaborator"
+"Model","boundary","Model::beforeItemChildsUnloaded","command collaborator"
+"Model","boundary","Model::beforeChildLoadedAtPos","command collaborator"
+"Model","boundary","Model::beforeChildLoaded","command collaborator"
+"Model","boundary","Model::childLoaded","command collaborator"
+"Model","boundary","Model::beforeItemChildRemoved","command collaborator"
+"Model","boundary","Model::itemChildRemoved","wrapper stateless"
+"Model","boundary","Model::expandItem","command collaborator"
+"Model","boundary","Model::iterateAllChilds","command collaborator"
+"Model","boundary","Model::beforeItemLayoutChanged","command collaborator"
+"Model","boundary","Model::itemLayoutChanged","command collaborator"
+"Model","boundary","Model::setMetadata","command collaborator"
+"Model","boundary","Model::sendEvent","command collaborator"
+"Model","boundary","Model::size","property non-void-command"
+"Model","boundary","Model::setExpanded","command collaborator"
+"Model","boundary","Model::setCollapsed","command collaborator"
+"Model","boundary","Model::collapseRootItems","controller"
+"Model","boundary","Model::dropItemAt","command collaborator"
+"Model","boundary","Model::applyGroupChanges","wrapper stateless"
+"Model","boundary","Model::addRootItem","command collaborator"
+"Model","boundary","Model::removeRootItem","command collaborator"
+"Model","boundary","Model::Model","constructor"
+"Model","boundary","Model::getName","property collaborator"
+"Model","boundary","Model::executeCommand","command collaborator"
+"Model","boundary","Model::updatePrompt","command"
+"Model","boundary","Model::execCmd","command collaborator"
+"Model","boundary","ServerStats::Model::Model","constructor"
+"Model","boundary","ServerStats::Model::~Model","destructor"
+"Model","boundary","ServerStats::Model::getName","property collaborator"
+"Model","boundary","ServerStats::Model::serverInfo","get collaborator"
+"Model","boundary","ServerStats::Model::slowLog","get collaborator"
+"Model","boundary","ServerStats::Model::clients","get collaborator"
+"Model","boundary","ServerStats::Model::pubSubChannels","property controller"
+"Model","boundary","ServerStats::Model::refreshSlowLog","predicate"
+"Model","boundary","ServerStats::Model::setRefreshSlowLog","command"
+"Model","boundary","ServerStats::Model::refreshClients","predicate"
+"Model","boundary","ServerStats::Model::setRefreshClients","command"
+"Model","boundary","ServerStats::Model::refreshPubSubMonitor","predicate"
+"Model","boundary","ServerStats::Model::setRefreshPubSubMonitor","command"
+"Model","boundary","ServerStats::Model::subscribeToChannel","wrapper"
+"DeleteOperation","commander boundary","getTypeName","wrapper stateless"
+"DeleteOperation","commander boundary","multiConnectionOperation","incidental"
+"DeleteOperation","commander boundary","BulkOperations::DeleteOperation::DeleteOperation","constructor"
+"DeleteOperation","commander boundary","BulkOperations::DeleteOperation::performOperation","command collaborator"
+"DeleteOperation","commander boundary","BulkOperations::DeleteOperation::deleteKeys","command collaborator"
+"OAIDecodePayload","boundary","OAIDecodePayload::OAIDecodePayload","constructor"
+"OAIDecodePayload","boundary","OAIDecodePayload::OAIDecodePayload","constructor"
+"OAIDecodePayload","boundary","OAIDecodePayload::~OAIDecodePayload","destructor"
+"OAIDecodePayload","boundary","OAIDecodePayload::initializeModel","command"
+"OAIDecodePayload","boundary","OAIDecodePayload::fromJson","command collaborator"
+"OAIDecodePayload","boundary","OAIDecodePayload::fromJsonObject","command collaborator"
+"OAIDecodePayload","boundary","OAIDecodePayload::asJson","controller stateless"
+"OAIDecodePayload","boundary","OAIDecodePayload::asJsonObject","property controller"
+"OAIDecodePayload","boundary","OAIDecodePayload::getData","get collaborator"
+"OAIDecodePayload","boundary","OAIDecodePayload::setData","command collaborator"
+"OAIDecodePayload","boundary","OAIDecodePayload::is_data_Set","get"
+"OAIDecodePayload","boundary","OAIDecodePayload::is_data_Valid","get"
+"OAIDecodePayload","boundary","OAIDecodePayload::getRedisKeyName","get collaborator"
+"OAIDecodePayload","boundary","OAIDecodePayload::setRedisKeyName","command collaborator"
+"OAIDecodePayload","boundary","OAIDecodePayload::is_redis_key_name_Set","get"
+"OAIDecodePayload","boundary","OAIDecodePayload::is_redis_key_name_Valid","get"
+"OAIDecodePayload","boundary","OAIDecodePayload::getRedisKeyType","get collaborator"
+"OAIDecodePayload","boundary","OAIDecodePayload::setRedisKeyType","command collaborator"
+"OAIDecodePayload","boundary","OAIDecodePayload::is_redis_key_type_Set","get"
+"OAIDecodePayload","boundary","OAIDecodePayload::is_redis_key_type_Valid","get"
+"OAIDecodePayload","boundary","OAIDecodePayload::isSet","predicate"
+"OAIDecodePayload","boundary","OAIDecodePayload::isValid","incidental"
+"TtlOperation","boundary","getTypeName","wrapper stateless"
+"TtlOperation","boundary","multiConnectionOperation","incidental"
+"TtlOperation","boundary","isMetadataValid","predicate"
+"TtlOperation","boundary","BulkOperations::TtlOperation::TtlOperation","constructor"
+"TtlOperation","boundary","BulkOperations::TtlOperation::performOperation","command collaborator"
+"TtlOperation","boundary","BulkOperations::TtlOperation::setTtl","command collaborator"
+"ServerItem","entity data-provider boundary","type","collaborator incidental"
+"ServerItem","entity data-provider boundary","ServerItem::ServerItem","constructor"
+"ServerItem","entity data-provider boundary","ServerItem::~ServerItem","destructor"
+"ServerItem","entity data-provider boundary","ServerItem::getDisplayName","property collaborator"
+"ServerItem","entity data-provider boundary","ServerItem::getAllChilds","get collaborator"
+"ServerItem","entity data-provider boundary","ServerItem::childCount","property collaborator"
+"ServerItem","entity data-provider boundary","ServerItem::child","property non-void-command collaborator"
+"ServerItem","entity data-provider boundary","ServerItem::parent","get collaborator"
+"ServerItem","entity data-provider boundary","ServerItem::setParent","set collaborator"
+"ServerItem","entity data-provider boundary","ServerItem::isDatabaseListLoaded","predicate"
+"ServerItem","entity data-provider boundary","ServerItem::getOperations","get collaborator"
+"ServerItem","entity data-provider boundary","ServerItem::row","get property"
+"ServerItem","entity data-provider boundary","ServerItem::load","command collaborator"
+"CallbackWithOwner","entity boundary","CallbackWithOwner","constructor"
+"CallbackWithOwner","entity boundary","call","command collaborator"
+"CallbackWithOwner","entity boundary","isValid","predicate non-void-command collaborator"
+"CallbackWithOwner","entity boundary","rawCallback","get collaborator"
+"OAIEnum","boundary lazy-class","OAIEnum","constructor"
+"OAIEnum","boundary lazy-class","OAIEnum","constructor"
+"OAIEnum","boundary lazy-class","~OAIEnum","destructor"
+"OAIEnum","boundary lazy-class","asJsonValue","property wrapper"
+"OAIEnum","boundary lazy-class","asJson","get collaborator"
+"OAIEnum","boundary lazy-class","fromJson","set collaborator"
+"OAIEnum","boundary lazy-class","fromJsonValue","set collaborator"
+"OAIEnum","boundary lazy-class","isSet","incidental"
+"OAIEnum","boundary lazy-class","isValid","incidental"
+"TestConsoleOperations","pure-controller degenerate small-class","TestConsoleOperations::init_invalid","controller stateless"
+"RDBImportOperation","commander","getTypeName","wrapper stateless"
+"RDBImportOperation","commander","multiConnectionOperation","incidental"
+"RDBImportOperation","commander","BulkOperations::RDBImportOperation::RDBImportOperation","constructor"
+"RDBImportOperation","commander","BulkOperations::RDBImportOperation::getAffectedKeys","command collaborator"
+"RDBImportOperation","commander","BulkOperations::RDBImportOperation::performOperation","command"
+"AbstractNamespaceItem","boundary","~AbstractNamespaceItem","destructor"
+"AbstractNamespaceItem","boundary","findChildNamespace","get property non-void-command collaborator"
+"AbstractNamespaceItem","boundary","getDbIndex","get collaborator"
+"AbstractNamespaceItem","boundary","operations","get collaborator"
+"AbstractNamespaceItem","boundary","getFilter","get collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::AbstractNamespaceItem","constructor"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::getAllChilds","get collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::getAllChildNamespaces","property collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::child","property non-void-command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::parent","get collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::append","command"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::insertChild","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::appendKeyToIndex","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::removeNamespacedKeysFromIndex","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::getKeysIndex","get collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::removeObsoleteKeys","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::removeChild","command"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::appendRawKey","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::appendNamespace","set collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::childCount","property collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::keysCount","property collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::keysRenderingLimit","controller stateless"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::keysShortNameRendering","controller stateless"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::clear","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::clearLoader","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::showLoadingError","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::cancelCurrentOperation","command"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::sortChilds","command"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::renderRawKeys","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::ensureLoaderIsCreated","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::eventHandlers","property non-void-command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::getMemoryUsage","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::fetchMore","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::calculateUsedMemory","command collaborator"
+"AbstractNamespaceItem","boundary","AbstractNamespaceItem::restoreOpenedNamespaces","command collaborator"
+"TextCharFormat","entity boundary","TextCharFormat::TextCharFormat","constructor"
+"TextCharFormat","entity boundary","TextCharFormat::setFont","command collaborator"
+"TextCharFormat","entity boundary","TextCharFormat::font","property collaborator"
+"TextCharFormat","entity boundary","TextCharFormat::foreground","property collaborator"
+"TextCharFormat","entity boundary","TextCharFormat::setForeground","command collaborator"
+"KeysTreeRenderer","commander boundary small-class","KeysTreeRenderer::renderKeys","command collaborator"
+"KeysTreeRenderer","commander boundary small-class","KeysTreeRenderer::renderLazily","command collaborator"
+"TestConfigManager","pure-controller degenerate small-class","TestConfigManager::testGetApplicationConfigPath","controller stateless"
+"TabViewModel","entity boundary","TabViewModel::TabViewModel","constructor"
+"TabViewModel","entity boundary","TabViewModel::index","wrapper stateless"
+"TabViewModel","entity boundary","TabViewModel::rowCount","property collaborator"
+"TabViewModel","entity boundary","TabViewModel::data","property collaborator"
+"TabViewModel","entity boundary","TabViewModel::roleNames","collaborator incidental"
+"TabViewModel","entity boundary","TabViewModel::closeTab","command"
+"TabViewModel","entity boundary","TabViewModel::tabsCount","property"
+"TabViewModel","entity boundary","TabViewModel::openTab","command collaborator"
+"TabViewModel","entity boundary","TabViewModel::closeAllTabsWithConnection","command collaborator"
+"TabViewModel","entity boundary","TabViewModel::isIndexValid","predicate collaborator"
+"LoadMoreItem","entity boundary lazy-class degenerate","type","collaborator incidental"
+"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::LoadMoreItem","constructor"
+"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::getDisplayName","wrapper stateless"
+"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::getAllChilds","collaborator incidental"
+"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::supportChildItems","incidental"
+"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::childCount","collaborator incidental"
+"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::child","wrapper stateless"
+"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::parent","get collaborator"
+"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::isEnabled","incidental"
+"LoadMoreItem","entity boundary lazy-class degenerate","ConnectionsTree::LoadMoreItem::eventHandlers","property non-void-command collaborator"
+"NamespaceItem","entity boundary","type","collaborator incidental"
+"NamespaceItem","entity boundary","NamespaceItem::NamespaceItem","constructor"
+"NamespaceItem","entity boundary","NamespaceItem::getDisplayName","property collaborator"
+"NamespaceItem","entity boundary","NamespaceItem::getName","get property collaborator"
+"NamespaceItem","entity boundary","NamespaceItem::isEnabled","predicate"
+"NamespaceItem","entity boundary","NamespaceItem::getFullPath","get collaborator"
+"NamespaceItem","entity boundary","NamespaceItem::setRemoved","command"
+"NamespaceItem","entity boundary","NamespaceItem::metadata","property collaborator"
+"NamespaceItem","entity boundary","NamespaceItem::load","command collaborator"
+"NamespaceItem","entity boundary","NamespaceItem::reload","command"
+"NamespaceItem","entity boundary","NamespaceItem::eventHandlers","property non-void-command collaborator"
+"TreeItem","unclassified","~TreeItem","destructor"
+"TreeItem","unclassified","getName","wrapper stateless"
+"TreeItem","unclassified","getFullPath","wrapper stateless"
+"TreeItem","unclassified","removeChild","empty"
+"TreeItem","unclassified","parent","wrapper stateless"
+"TreeItem","unclassified","supportChildItems","incidental"
+"TreeItem","unclassified","setMetadata","empty"
+"TreeItem","unclassified","isLocked","get"
+"TreeItem","unclassified","isEnabled","incidental"
+"TreeItem","unclassified","isExpanded","get"
+"TreeItem","unclassified","setExpanded","set"
+"TreeItem","unclassified","fetchMore","empty"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::TreeItem","constructor"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::metadata","property collaborator"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::row","property collaborator"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::getSelf","get property non-void-command collaborator"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::model","get collaborator"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::lock","command"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::unlock","command"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::eventHandlers","property non-void-command collaborator"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::handleEvent","command collaborator"
+"TreeItem","unclassified","ConnectionsTree::TreeItem::cancelCurrentOperation","command"
+"StringKeyModel","boundary lazy-class degenerate","rowsCount","incidental"
+"StringKeyModel","boundary lazy-class degenerate","addLoadedRowsToCache","incidental"
+"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::StringKeyModel","constructor"
+"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::type","get collaborator"
+"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::getColumnNames","wrapper stateless"
+"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::getRoles","collaborator incidental"
+"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::getData","property non-void-command collaborator"
+"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::updateRow","controller stateless"
+"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::addRow","command collaborator"
+"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::loadRows","set collaborator"
+"StringKeyModel","boundary lazy-class degenerate","StringKeyModel::removeRow","wrapper stateless"
+"Operations","empty","~Operations","destructor"
+"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::AutocompleteModel","constructor"
+"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::index","wrapper stateless"
+"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::rowCount","property collaborator"
+"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::data","property collaborator"
+"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::roleNames","collaborator incidental"
+"AutocompleteModel","entity data-provider boundary","Console::AutocompleteModel::getRow","property non-void-command collaborator"
+"ValueViewModel","boundary","~ValueViewModel","destructor"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::ValueViewModel","constructor"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::rowCount","get property collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::columnCount","property collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::tabLoadingTitle","get collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::setTabError","set collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::isModelLoaded","predicate"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::data","property collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::roleNames","property collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::model","get collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::setModel","set collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::setConnection","set collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::renameKey","command collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::setTTL","command collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::persistKey","command"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::removeKey","command"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::close","wrapper stateless"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::columnNames","property non-void-command collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::reload","command"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::setSinglePageMode","set"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::singlePageMode","get"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::isRowLoaded","predicate non-void-command"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::loadRows","command collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::addRow","command collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::updateRow","command collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::deleteRow","command"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::totalRowCount","property non-void-command"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::pageSize","controller stateless"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::getRow","property non-void-command collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::loadRowsCount","command"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::filter","property collaborator"
+"ValueViewModel","boundary","ValueEditor::ValueViewModel::setFilter","command collaborator"
+"Manager","boundary","BulkOperations::Manager::Manager","constructor"
+"Manager","boundary","BulkOperations::Manager::setPython","set collaborator"
+"Manager","boundary","BulkOperations::Manager::hasOperation","predicate"
+"Manager","boundary","BulkOperations::Manager::multiConnectionOperation","predicate"
+"Manager","boundary","BulkOperations::Manager::clearOperation","predicate non-void-command"
+"Manager","boundary","BulkOperations::Manager::runOperation","command"
+"Manager","boundary","BulkOperations::Manager::getAffectedKeys","command"
+"Manager","boundary","BulkOperations::Manager::getTargetConnections","property non-void-command collaborator"
+"Manager","boundary","BulkOperations::Manager::setOperationMetadata","command collaborator"
+"Manager","boundary","BulkOperations::Manager::operationName","property collaborator"
+"Manager","boundary","BulkOperations::Manager::connectionName","property collaborator"
+"Manager","boundary","BulkOperations::Manager::dbIndex","property"
+"Manager","boundary","BulkOperations::Manager::keyPattern","property collaborator"
+"Manager","boundary","BulkOperations::Manager::setKeyPattern","command collaborator"
+"Manager","boundary","BulkOperations::Manager::operationProgress","property"
+"Manager","boundary","BulkOperations::Manager::requestBulkOperation","command collaborator"
+"KeyItem","boundary","type","collaborator incidental"
+"KeyItem","boundary","KeyItem::KeyItem","constructor"
+"KeyItem","boundary","KeyItem::getDisplayName","property collaborator"
+"KeyItem","boundary","KeyItem::getName","property collaborator"
+"KeyItem","boundary","KeyItem::getAllChilds","wrapper stateless"
+"KeyItem","boundary","KeyItem::supportChildItems","incidental"
+"KeyItem","boundary","KeyItem::childCount","collaborator incidental"
+"KeyItem","boundary","KeyItem::child","wrapper stateless"
+"KeyItem","boundary","KeyItem::parent","get collaborator"
+"KeyItem","boundary","KeyItem::isEnabled","predicate"
+"KeyItem","boundary","KeyItem::getFullPath","get collaborator"
+"KeyItem","boundary","KeyItem::getDbIndex","property controller"
+"KeyItem","boundary","KeyItem::setRemoved","command"
+"KeyItem","boundary","KeyItem::getMemoryUsage","command collaborator"
+"KeyItem","boundary","KeyItem::setFullPath","command collaborator"
+"KeyItem","boundary","KeyItem::eventHandlers","property non-void-command collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::OAIDataFormatter","constructor"
+"OAIDataFormatter","data-provider","OAIDataFormatter::OAIDataFormatter","constructor"
+"OAIDataFormatter","data-provider","OAIDataFormatter::~OAIDataFormatter","destructor"
+"OAIDataFormatter","data-provider","OAIDataFormatter::initializeModel","command"
+"OAIDataFormatter","data-provider","OAIDataFormatter::fromJson","command collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::fromJsonObject","command collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::asJson","controller stateless"
+"OAIDataFormatter","data-provider","OAIDataFormatter::asJsonObject","property controller"
+"OAIDataFormatter","data-provider","OAIDataFormatter::getId","get collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::setId","command collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_id_Set","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_id_Valid","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::getName","get collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::setName","command collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_name_Set","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_name_Valid","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::getKeyTypes","get collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::setKeyTypes","command collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_key_types_Set","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_key_types_Valid","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::getMagicHeader","get collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::setMagicHeader","command collaborator"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_magic_header_Set","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_magic_header_Valid","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::isReadOnly","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::setReadOnly","command"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_read_only_Set","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::is_read_only_Valid","get"
+"OAIDataFormatter","data-provider","OAIDataFormatter::isSet","predicate"
+"OAIDataFormatter","data-provider","OAIDataFormatter::isValid","predicate"
+"OptionalParam","data-provider data-class small-class","OptionalParam","constructor"
+"OptionalParam","data-provider data-class small-class","OptionalParam","constructor"
+"OptionalParam","data-provider data-class small-class","hasValue","get"
+"OptionalParam","data-provider data-class small-class","value","get collaborator"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::SortFilterProxyModel","constructor"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::source","wrapper stateless"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::setSource","wrapper stateless"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::sortRole","get collaborator"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::setSortRole","command collaborator"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::setSortOrder","wrapper stateless"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::filterRole","get collaborator"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::setFilterRole","command collaborator"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::filterString","wrapper stateless"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::setFilterString","command collaborator"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::filterSyntax","wrapper stateless"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::setFilterSyntax","command collaborator"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::classBegin","empty"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::componentComplete","command"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::getOriginalRowIndex","wrapper stateless"
+"SortFilterProxyModel","commander boundary degenerate","SortFilterProxyModel::roleKey","controller stateless"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::OAIDefaultApi","constructor"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::~OAIDefaultApi","destructor"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::initializeServerConfigs","command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setDefaultServerValue","get property non-void-command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setServerIndex","command"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setApiKey","command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setBearerToken","set collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setUsername","set collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setPassword","set collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setTimeOut","set"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setWorkingDirectory","set collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setNetworkAccessManager","set collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::addServerConfiguration","get property non-void-command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setNewServerForAllOperations","command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::setNewServer","command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::addHeaders","command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::enableRequestCompression","set"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::enableResponseCompression","set"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::abortRequests","wrapper stateless"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::getParamStylePrefix","collaborator incidental"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::getParamStyleSuffix","collaborator incidental"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::getParamStyleDelimiter","collaborator incidental"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::dataFormattersGet","command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::dataFormattersGetCallback","controller stateless"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::dataFormattersIdDecodePost","command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::dataFormattersIdDecodePostCallback","controller stateless"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::dataFormattersIdEncodePost","command collaborator"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::dataFormattersIdEncodePostCallback","controller stateless"
+"OAIDefaultApi","commander boundary","OAIDefaultApi::tokenAvailable","command collaborator"
+"BloomFilterKeyModel","boundary degenerate","updateRow","empty"
+"BloomFilterKeyModel","boundary degenerate","removeRow","empty"
+"BloomFilterKeyModel","boundary degenerate","rowsCount","incidental"
+"BloomFilterKeyModel","boundary degenerate","addLoadedRowsToCache","incidental"
+"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::BloomFilterKeyModel","constructor"
+"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::type","get collaborator"
+"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::getColumnNames","wrapper stateless"
+"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::getRoles","collaborator incidental"
+"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::getData","property non-void-command collaborator"
+"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::addRow","controller"
+"BloomFilterKeyModel","boundary degenerate","BloomFilterKeyModel::loadRows","controller"
+"OAIEncodePayload","boundary","OAIEncodePayload::OAIEncodePayload","constructor"
+"OAIEncodePayload","boundary","OAIEncodePayload::OAIEncodePayload","constructor"
+"OAIEncodePayload","boundary","OAIEncodePayload::~OAIEncodePayload","destructor"
+"OAIEncodePayload","boundary","OAIEncodePayload::initializeModel","command"
+"OAIEncodePayload","boundary","OAIEncodePayload::fromJson","command collaborator"
+"OAIEncodePayload","boundary","OAIEncodePayload::fromJsonObject","command collaborator"
+"OAIEncodePayload","boundary","OAIEncodePayload::asJson","controller stateless"
+"OAIEncodePayload","boundary","OAIEncodePayload::asJsonObject","property controller"
+"OAIEncodePayload","boundary","OAIEncodePayload::getData","get collaborator"
+"OAIEncodePayload","boundary","OAIEncodePayload::setData","command collaborator"
+"OAIEncodePayload","boundary","OAIEncodePayload::is_data_Set","get"
+"OAIEncodePayload","boundary","OAIEncodePayload::is_data_Valid","get"
+"OAIEncodePayload","boundary","OAIEncodePayload::getMetadata","get collaborator"
+"OAIEncodePayload","boundary","OAIEncodePayload::setMetadata","command collaborator"
+"OAIEncodePayload","boundary","OAIEncodePayload::is_metadata_Set","get"
+"OAIEncodePayload","boundary","OAIEncodePayload::is_metadata_Valid","get"
+"OAIEncodePayload","boundary","OAIEncodePayload::isSet","predicate"
+"OAIEncodePayload","boundary","OAIEncodePayload::isValid","incidental"
+"ConnectionGroup","entity boundary","ConnectionGroup::ConnectionGroup","constructor"
+"ConnectionGroup","entity boundary","ConnectionGroup::ConnectionGroup","constructor"
+"ConnectionGroup","entity boundary","ConnectionGroup::name","property collaborator"
+"ConnectionGroup","entity boundary","ConnectionGroup::setName","command collaborator"
+"ConnectionGroup","entity boundary","ConnectionGroup::serverGroup","get collaborator"

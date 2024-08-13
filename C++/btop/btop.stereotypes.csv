@@ -1,597 +1,595 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"SMCConnection","unclassified","SMCConnection::SMCConnection","constructor",
-"SMCConnection","unclassified","SMCConnection::~SMCConnection","destructor",
-"SMCConnection","unclassified","SMCConnection::getSMCTemp","property non-void-command",
-"SMCConnection","unclassified","SMCConnection::getTemp","property non-void-command",
-"SMCConnection","unclassified","SMCConnection::SMCReadKey","property non-void-command collaborator",
-"SMCConnection","unclassified","SMCConnection::SMCCall","property wrapper",
-"getifaddr_wrapper","data-provider boundary data-class small-class","getifaddr_wrapper","constructor",
-"getifaddr_wrapper","data-provider boundary data-class small-class","~getifaddr_wrapper","destructor",
-"getifaddr_wrapper","data-provider boundary data-class small-class","operator()","get collaborator",
-"IOObject","empty","IOObject","constructor",
-"IOObject","empty","~IOObject","destructor",
-"IOPSInfo_Wrap","data-provider boundary data-class small-class","IOPSInfo_Wrap","constructor",
-"IOPSInfo_Wrap","data-provider boundary data-class small-class","operator()","get collaborator",
-"IOPSInfo_Wrap","data-provider boundary data-class small-class","~IOPSInfo_Wrap","destructor",
-"DebugTimer","unclassified","DebugTimer::DebugTimer","constructor",
-"DebugTimer","unclassified","DebugTimer::~DebugTimer","destructor",
-"DebugTimer","unclassified","DebugTimer::start","command",
-"DebugTimer","unclassified","DebugTimer::stop","command",
-"DebugTimer","unclassified","DebugTimer::reset","command",
-"DebugTimer","unclassified","DebugTimer::stop_rename_reset","set",
-"DebugTimer","unclassified","DebugTimer::report","command",
-"DebugTimer","unclassified","DebugTimer::force_report","command collaborator",
-"DebugTimer","unclassified","DebugTimer::elapsed","get property wrapper",
-"DebugTimer","unclassified","DebugTimer::is_running","get",
-"lose_priv","empty","lose_priv","constructor",
-"lose_priv","empty","~lose_priv","destructor",
-"IfAddrsPtr","data-provider boundary data-class","IfAddrsPtr","constructor",
-"IfAddrsPtr","data-provider boundary data-class","~IfAddrsPtr","destructor",
-"IfAddrsPtr","data-provider boundary data-class","operator()","get collaborator",
-"IfAddrsPtr","data-provider boundary data-class","get","get collaborator",
-"IfAddrsPtr","data-provider boundary data-class","get_status","get collaborator",
-"KvmDeleter","boundary degenerate small-class","operator()","wrapper stateless",
-"msgBox","unclassified","msgBox::msgBox","constructor",
-"msgBox","unclassified","msgBox::msgBox","constructor",
-"msgBox","unclassified","msgBox::operator()","property wrapper",
-"msgBox","unclassified","msgBox::input","property set",
-"msgBox","unclassified","msgBox::clear","command",
-"Graph","unclassified","Graph::_create","command",
-"Graph","unclassified","Graph::Graph","constructor",
-"Graph","unclassified","Graph::Graph","constructor",
-"Graph","unclassified","Graph::operator()","get non-void-command",
-"Graph","unclassified","Graph::operator()","get",
-"TextEdit","unclassified","TextEdit::TextEdit","constructor",
-"TextEdit","unclassified","TextEdit::TextEdit","constructor",
-"TextEdit","unclassified","TextEdit::command","predicate non-void-command",
-"TextEdit","unclassified","TextEdit::operator()","property non-void-command",
-"TextEdit","unclassified","TextEdit::clear","command",
-"MyNumPunct","degenerate","do_thousands_sep","incidental",
-"MyNumPunct","degenerate","do_grouping","incidental",
-"MyNumPunct","degenerate","do_thousands_sep","incidental",
-"MyNumPunct","degenerate","do_grouping","incidental",
-"thread_lock","empty","thread_lock","constructor",
-"thread_lock","empty","~thread_lock","destructor",
-"formatter<T,Char,typenamestd::enable_if<std::is_base_of<std::exception,T>::value>::type>","small-class","parse","property set collaborator",
-"formatter<T,Char,typenamestd::enable_if<std::is_base_of<std::exception,T>::value>::type>","small-class","format","property controller",
-"formatter<std::error_code,Char>","pure-controller degenerate small-class","parse","controller stateless",
-"formatter<std::error_code,Char>","pure-controller degenerate small-class","format","controller stateless",
-"formatter<Variant,Char,std::enable_if_t<std::conjunction_v<is_variant_like<Variant>,is_variant_formattable<Variant,Char>>>>","pure-controller degenerate small-class","parse","controller stateless",
-"formatter<Variant,Char,std::enable_if_t<std::conjunction_v<is_variant_like<Variant>,is_variant_formattable<Variant,Char>>>>","pure-controller degenerate small-class","format","controller stateless",
-"formatter<std::optional<T>,Char,std::enable_if_t<is_formattable<T,Char>::value>>","entity boundary small-class","parse","property non-void-command collaborator",
-"formatter<std::optional<T>,Char,std::enable_if_t<is_formattable<T,Char>::value>>","entity boundary small-class","format","property collaborator",
-"gain_priv","empty","gain_priv","constructor",
-"gain_priv","empty","~gain_priv","destructor",
-"formatter<T,Char,enable_if_t<detail::is_container_adaptor_like<T>::value>>","data-provider boundary small-class","format","property collaborator",
-"range_default_formatter<K,R,Char,enable_if_t<(K==range_format::sequence||K==range_format::map||K==range_format::set)>>","commander boundary","range_default_formatter","non-void-command collaborator",
-"range_default_formatter<K,R,Char,enable_if_t<(K==range_format::sequence||K==range_format::map||K==range_format::set)>>","commander boundary","init","non-void-command collaborator",
-"range_default_formatter<K,R,Char,enable_if_t<(K==range_format::sequence||K==range_format::map||K==range_format::set)>>","commander boundary","init","non-void-command collaborator",
-"writer","entity boundary small-class","operator()","property non-void-command collaborator",
-"locale_ref","data-provider small-class","operatorbool","unclassified",
-"locale_ref","data-provider small-class","locale_ref::locale_ref","constructor",
-"locale_ref","data-provider small-class","locale_ref::get","property wrapper",
-"text_style","entity data-provider boundary","text_style","constructor",
-"text_style","entity data-provider boundary","operator|=","get non-void-command collaborator",
-"text_style","entity data-provider boundary","operator|","collaborator incidental",
-"text_style","entity data-provider boundary","has_foreground","get collaborator",
-"text_style","entity data-provider boundary","has_background","get collaborator",
-"text_style","entity data-provider boundary","has_emphasis","property collaborator",
-"text_style","entity data-provider boundary","get_foreground","get collaborator",
-"text_style","entity data-provider boundary","get_background","get collaborator",
-"text_style","entity data-provider boundary","get_emphasis","get collaborator",
-"text_style","entity data-provider boundary","text_style","constructor",
-"formatter<group_digits_view<T>>","controller small-class","parse","property controller",
-"formatter<group_digits_view<T>>","controller small-class","format","property controller",
-"dynamic_arg_list","boundary data-class small-class","push","property set collaborator",
-"value","commander boundary small-class","value","non-void-command collaborator",
-"value","commander boundary small-class","value","constructor",
-"value","commander boundary small-class","value","constructor",
-"value","commander boundary small-class","value","non-void-command collaborator",
-"gen_digits_handler","entity boundary small-class","on_digit","property non-void-command collaborator",
-"dynamic_spec_id_handler","commander boundary","on_auto","non-void-command collaborator",
-"dynamic_spec_id_handler","commander boundary","on_index","non-void-command collaborator",
-"dynamic_spec_id_handler","commander boundary","on_name","set collaborator",
-"formatbuf","entity boundary small-class","formatbuf","constructor",
-"formatbuf","entity boundary small-class","overflow","property non-void-command collaborator",
-"formatbuf","entity boundary small-class","xsputn","property non-void-command collaborator",
-"iterator_buffer","entity minimal-entity boundary","grow","non-void-command collaborator",
-"iterator_buffer","entity minimal-entity boundary","flush","set collaborator",
-"iterator_buffer","entity minimal-entity boundary","iterator_buffer","constructor",
-"iterator_buffer","entity minimal-entity boundary","iterator_buffer","copy-constructor",
-"iterator_buffer","entity minimal-entity boundary","~iterator_buffer","destructor",
-"iterator_buffer","entity minimal-entity boundary","out","get non-void-command collaborator",
-"iterator_buffer","entity minimal-entity boundary","count","property collaborator",
-"fallback_digit_grouping","degenerate","fallback_digit_grouping","constructor",
-"fallback_digit_grouping","degenerate","has_separator","incidental",
-"fallback_digit_grouping","degenerate","count_separators","incidental",
-"fallback_digit_grouping","degenerate","apply","collaborator incidental",
-"basic_format_args","data-provider boundary","is_packed","property collaborator",
-"basic_format_args","data-provider boundary","has_named_args","property collaborator",
-"basic_format_args","data-provider boundary","type","property collaborator",
-"basic_format_args","data-provider boundary","basic_format_args","constructor",
-"basic_format_args","data-provider boundary","basic_format_args","constructor",
-"basic_format_args","data-provider boundary","basic_format_args","constructor",
-"basic_format_args","data-provider boundary","get","property collaborator",
-"basic_format_args","data-provider boundary","get","property collaborator",
-"basic_format_args","data-provider boundary","get_id","property collaborator",
-"basic_format_args","data-provider boundary","max_size","property collaborator",
-"appender","data-provider boundary data-class small-class","appender","constructor",
-"appender","data-provider boundary data-class small-class","operator++","get collaborator",
-"appender","data-provider boundary data-class small-class","operator++","get collaborator",
-"basic_format_parse_context","entity boundary","basic_format_parse_context","constructor",
-"basic_format_parse_context","entity boundary","begin","property collaborator",
-"basic_format_parse_context","entity boundary","end","property collaborator",
-"basic_format_parse_context","entity boundary","advance_to","non-void-command collaborator",
-"basic_format_parse_context","entity boundary","next_arg_id","property set collaborator",
-"basic_format_parse_context","entity boundary","check_arg_id","set collaborator",
-"basic_format_parse_context","entity boundary","check_arg_id","empty",
-"","boundary data-class small-class","operator()","set collaborator",
-"","boundary data-class small-class","operator()","property set collaborator",
-"uint128_fallback","data-provider data-class small-class","uint128_fallback","constructor",
-"uint128_fallback","data-provider data-class small-class","uint128_fallback","constructor",
-"uint128_fallback","data-provider data-class small-class","high","get",
-"uint128_fallback","data-provider data-class small-class","low","get",
-"formatter<std::tm,Char>","unclassified","do_parse","property set collaborator",
-"formatter<std::tm,Char>","unclassified","do_format","property collaborator",
-"formatter<std::tm,Char>","unclassified","parse","controller stateless",
-"formatter<std::tm,Char>","unclassified","format","controller stateless",
-"buffered_file","entity boundary","get","get collaborator",
-"buffered_file","entity boundary","vprint","wrapper",
-"buffered_file","entity boundary","print","void-accessor command collaborator",
-"all","data-provider boundary small-class","begin","property collaborator",
-"all","data-provider boundary small-class","end","property collaborator",
-"arg_ref","boundary data-class small-class","arg_ref","constructor",
-"arg_ref","boundary data-class small-class","arg_ref","constructor",
-"arg_ref","boundary data-class small-class","arg_ref","constructor",
-"arg_ref","boundary data-class small-class","operator=","get non-void-command collaborator",
-"arg_ref","boundary data-class small-class","value","constructor",
-"arg_ref","boundary data-class small-class","value","constructor",
-"text","data-provider boundary small-class","format","property wrapper",
-"arg_id_handler","boundary lazy-class","on_auto","wrapper stateless",
-"arg_id_handler","boundary lazy-class","on_index","property set",
-"arg_id_handler","boundary lazy-class","on_name","property set collaborator",
-"formatter<std::chrono::duration<Rep,Period>,Char>","boundary","do_parse","property set collaborator",
-"formatter<std::chrono::duration<Rep,Period>,Char>","boundary","parse","property set collaborator",
-"formatter<std::chrono::duration<Rep,Period>,Char>","boundary","format","property collaborator",
-"formatter<weekday,Char>","small-class","parse","property set collaborator",
-"formatter<weekday,Char>","small-class","format","property controller",
-"chrono_formatter","degenerate","chrono_formatter","constructor",
-"chrono_formatter","degenerate","handle_nan_inf","predicate non-void-command",
-"chrono_formatter","degenerate","hour","property collaborator",
-"chrono_formatter","degenerate","hour12","property collaborator",
-"chrono_formatter","degenerate","minute","property collaborator",
-"chrono_formatter","degenerate","second","property collaborator",
-"chrono_formatter","degenerate","time","property collaborator",
-"chrono_formatter","degenerate","write_sign","command",
-"chrono_formatter","degenerate","write","command collaborator",
-"chrono_formatter","degenerate","write_nan","wrapper",
-"chrono_formatter","degenerate","write_pinf","wrapper",
-"chrono_formatter","degenerate","write_ninf","wrapper",
-"chrono_formatter","degenerate","format_tm","void-accessor command collaborator",
-"chrono_formatter","degenerate","on_text","void-accessor wrapper",
-"chrono_formatter","degenerate","on_abbr_weekday","empty",
-"chrono_formatter","degenerate","on_full_weekday","empty",
-"chrono_formatter","degenerate","on_dec0_weekday","empty",
-"chrono_formatter","degenerate","on_dec1_weekday","empty",
-"chrono_formatter","degenerate","on_abbr_month","empty",
-"chrono_formatter","degenerate","on_full_month","empty",
-"chrono_formatter","degenerate","on_datetime","empty",
-"chrono_formatter","degenerate","on_loc_date","empty",
-"chrono_formatter","degenerate","on_loc_time","empty",
-"chrono_formatter","degenerate","on_us_date","empty",
-"chrono_formatter","degenerate","on_iso_date","empty",
-"chrono_formatter","degenerate","on_utc_offset","empty",
-"chrono_formatter","degenerate","on_tz_name","empty",
-"chrono_formatter","degenerate","on_year","empty",
-"chrono_formatter","degenerate","on_short_year","empty",
-"chrono_formatter","degenerate","on_offset_year","empty",
-"chrono_formatter","degenerate","on_century","empty",
-"chrono_formatter","degenerate","on_iso_week_based_year","empty",
-"chrono_formatter","degenerate","on_iso_week_based_short_year","empty",
-"chrono_formatter","degenerate","on_dec_month","empty",
-"chrono_formatter","degenerate","on_dec0_week_of_year","empty",
-"chrono_formatter","degenerate","on_dec1_week_of_year","empty",
-"chrono_formatter","degenerate","on_iso_week_of_year","empty",
-"chrono_formatter","degenerate","on_day_of_year","empty",
-"chrono_formatter","degenerate","on_day_of_month","empty",
-"chrono_formatter","degenerate","on_day_of_month_space","empty",
-"chrono_formatter","degenerate","on_24_hour","command collaborator",
-"chrono_formatter","degenerate","on_12_hour","command collaborator",
-"chrono_formatter","degenerate","on_minute","command collaborator",
-"chrono_formatter","degenerate","on_second","command collaborator",
-"chrono_formatter","degenerate","on_12_hour_time","command",
-"chrono_formatter","degenerate","on_24_hour_time","command",
-"chrono_formatter","degenerate","on_iso_time","command",
-"chrono_formatter","degenerate","on_am_pm","command",
-"chrono_formatter","degenerate","on_duration_value","command",
-"chrono_formatter","degenerate","on_duration_unit","set",
-"concat","data-provider boundary small-class","format","property collaborator",
-"basic_string_view","empty","basic_string_view","constructor",
-"basic_string_view","empty","basic_string_view","constructor",
-"basic_string_view","empty","basic_string_view","constructor",
-"chrono_format_checker","degenerate","unsupported","wrapper stateless",
-"chrono_format_checker","degenerate","on_text","empty",
-"chrono_format_checker","degenerate","on_24_hour","empty",
-"chrono_format_checker","degenerate","on_12_hour","empty",
-"chrono_format_checker","degenerate","on_minute","empty",
-"chrono_format_checker","degenerate","on_second","empty",
-"chrono_format_checker","degenerate","on_12_hour_time","empty",
-"chrono_format_checker","degenerate","on_24_hour_time","empty",
-"chrono_format_checker","degenerate","on_iso_time","empty",
-"chrono_format_checker","degenerate","on_am_pm","empty",
-"chrono_format_checker","degenerate","on_duration_value","wrapper",
-"chrono_format_checker","degenerate","on_duration_unit","empty",
-"buffer_traits","boundary degenerate small-class","buffer_traits","constructor",
-"buffer_traits","boundary degenerate small-class","count","collaborator incidental",
-"buffer_traits","boundary degenerate small-class","limit","collaborator incidental",
-"field","boundary degenerate small-class","format","wrapper stateless",
-"formatter<std::filesystem::path,Char>","small-class","parse","property non-void-command collaborator",
-"formatter<std::filesystem::path,Char>","small-class","format","controller stateless",
-"arg_data<T,Char,NUM_ARGS,0>","boundary degenerate small-class","named_args","collaborator incidental",
-"string_literal","small-class","operatorbasic_string_view<CharT>","unclassified",
-"tm_writer","entity data-provider boundary","tm_sec","get wrapper",
-"tm_writer","entity data-provider boundary","tm_min","get wrapper",
-"tm_writer","entity data-provider boundary","tm_hour","get wrapper",
-"tm_writer","entity data-provider boundary","tm_mday","get wrapper",
-"tm_writer","entity data-provider boundary","tm_mon","get wrapper",
-"tm_writer","entity data-provider boundary","tm_year","property collaborator",
-"tm_writer","entity data-provider boundary","tm_wday","get wrapper",
-"tm_writer","entity data-provider boundary","tm_yday","get wrapper",
-"tm_writer","entity data-provider boundary","tm_hour12","property collaborator",
-"tm_writer","entity data-provider boundary","split_year_lower","collaborator incidental",
-"tm_writer","entity data-provider boundary","iso_year_weeks","property collaborator",
-"tm_writer","entity data-provider boundary","iso_week_num","property collaborator",
-"tm_writer","entity data-provider boundary","tm_iso_week_year","property collaborator",
-"tm_writer","entity data-provider boundary","tm_iso_week_of_year","property collaborator",
-"tm_writer","entity data-provider boundary","write1","set",
-"tm_writer","entity data-provider boundary","write2","set",
-"tm_writer","entity data-provider boundary","write2","set collaborator",
-"tm_writer","entity data-provider boundary","write_year_extended","set",
-"tm_writer","entity data-provider boundary","write_year","command",
-"tm_writer","entity data-provider boundary","write_utc_offset","command collaborator",
-"monostate","empty","monostate","constructor",
-"accessor","empty","accessor","constructor",
-"join_view","empty","join_view","constructor",
-"counting_buffer","small-class","grow","set collaborator",
-"counting_buffer","small-class","counting_buffer","constructor",
-"counting_buffer","small-class","count","property controller",
-"fixed_buffer_traits","boundary data-class small-class","fixed_buffer_traits","constructor",
-"fixed_buffer_traits","boundary data-class small-class","count","get collaborator",
-"fixed_buffer_traits","boundary data-class small-class","limit","property set collaborator",
-"formatter<void*,Char>","data-provider boundary small-class","format","property collaborator",
-"truncating_iterator_base","data-provider data-class small-class","truncating_iterator_base","constructor",
-"truncating_iterator_base","data-provider data-class small-class","truncating_iterator_base","constructor",
-"truncating_iterator_base","data-provider data-class small-class","base","get collaborator",
-"truncating_iterator_base","data-provider data-class small-class","count","get",
-"IOPSList_Wrap","data-provider boundary data-class small-class","IOPSList_Wrap","constructor",
-"IOPSList_Wrap","data-provider boundary data-class small-class","operator()","get collaborator",
-"IOPSList_Wrap","data-provider boundary data-class small-class","~IOPSList_Wrap","destructor",
-"atomic_lock","empty","atomic_lock::atomic_lock","constructor",
-"atomic_lock","empty","atomic_lock::~atomic_lock","destructor",
-"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","grow","non-void-command collaborator",
-"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","flush","set",
-"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","iterator_buffer","constructor",
-"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","iterator_buffer","copy-constructor",
-"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","~iterator_buffer","destructor",
-"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","out","get non-void-command collaborator",
-"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","count","property collaborator",
-"weekday","data-provider data-class small-class","weekday","constructor",
-"weekday","data-provider data-class small-class","c_encoding","get",
-"formatter<std::chrono::time_point<std::chrono::system_clock,Duration>,Char>","boundary small-class","formatter","set collaborator",
-"formatter<std::chrono::time_point<std::chrono::system_clock,Duration>,Char>","boundary small-class","format","property collaborator",
-"tm_format_checker","degenerate","unsupported","wrapper stateless",
-"tm_format_checker","degenerate","on_text","empty",
-"tm_format_checker","degenerate","on_year","empty",
-"tm_format_checker","degenerate","on_short_year","empty",
-"tm_format_checker","degenerate","on_offset_year","empty",
-"tm_format_checker","degenerate","on_century","empty",
-"tm_format_checker","degenerate","on_iso_week_based_year","empty",
-"tm_format_checker","degenerate","on_iso_week_based_short_year","empty",
-"tm_format_checker","degenerate","on_abbr_weekday","empty",
-"tm_format_checker","degenerate","on_full_weekday","empty",
-"tm_format_checker","degenerate","on_dec0_weekday","empty",
-"tm_format_checker","degenerate","on_dec1_weekday","empty",
-"tm_format_checker","degenerate","on_abbr_month","empty",
-"tm_format_checker","degenerate","on_full_month","empty",
-"tm_format_checker","degenerate","on_dec_month","empty",
-"tm_format_checker","degenerate","on_dec0_week_of_year","empty",
-"tm_format_checker","degenerate","on_dec1_week_of_year","empty",
-"tm_format_checker","degenerate","on_iso_week_of_year","empty",
-"tm_format_checker","degenerate","on_day_of_year","empty",
-"tm_format_checker","degenerate","on_day_of_month","empty",
-"tm_format_checker","degenerate","on_day_of_month_space","empty",
-"tm_format_checker","degenerate","on_24_hour","empty",
-"tm_format_checker","degenerate","on_12_hour","empty",
-"tm_format_checker","degenerate","on_minute","empty",
-"tm_format_checker","degenerate","on_second","empty",
-"tm_format_checker","degenerate","on_datetime","empty",
-"tm_format_checker","degenerate","on_loc_date","empty",
-"tm_format_checker","degenerate","on_loc_time","empty",
-"tm_format_checker","degenerate","on_us_date","empty",
-"tm_format_checker","degenerate","on_iso_date","empty",
-"tm_format_checker","degenerate","on_12_hour_time","empty",
-"tm_format_checker","degenerate","on_24_hour_time","empty",
-"tm_format_checker","degenerate","on_iso_time","empty",
-"tm_format_checker","degenerate","on_am_pm","empty",
-"tm_format_checker","degenerate","on_utc_offset","empty",
-"tm_format_checker","degenerate","on_tz_name","empty",
-"ostream_params","empty","ostream_params","constructor",
-"ostream_params","empty","ostream_params","constructor",
-"ostream_params","empty","ostream_params","constructor",
-"ostream_params","empty","ostream_params","constructor",
-"ostream_params","empty","ostream_params","constructor",
-"dynamic_format_arg_store","entity boundary","get_types","property",
-"dynamic_format_arg_store","entity boundary","data","property collaborator",
-"dynamic_format_arg_store","entity boundary","emplace_arg","void-accessor command collaborator",
-"dynamic_format_arg_store","entity boundary","emplace_arg","command collaborator",
-"formatter<Char[N],Char>","data-provider boundary small-class","format","property collaborator",
-"color_type","empty","color_type","constructor",
-"color_type","empty","color_type","constructor",
-"color_type","empty","color_type","constructor",
-"color_type","empty","color_type","constructor",
-"arg_data","data-provider boundary small-class","arg_data","constructor",
-"arg_data","data-provider boundary small-class","args","property collaborator",
-"arg_data","data-provider boundary small-class","named_args","get collaborator",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"arg_mapper","boundary degenerate","map","collaborator incidental",
-"formatter<std::chrono::local_time<Duration>,Char>","boundary small-class","formatter","set collaborator",
-"formatter<std::chrono::local_time<Duration>,Char>","boundary small-class","format","property collaborator",
-"dispatcher","data-provider boundary","dispatcher","constructor",
-"dispatcher","data-provider boundary","run","predicate wrapper",
-"dispatcher","data-provider boundary","handle","collaborator incidental",
-"dispatcher","data-provider boundary","handle","predicate wrapper",
-"dispatcher","data-provider boundary","fallback","incidental",
-"dispatcher","data-provider boundary","fallback","predicate set collaborator",
-"dispatcher","data-provider boundary","dispatcher","constructor",
-"dispatcher","data-provider boundary","run","predicate wrapper",
-"dispatcher","data-provider boundary","handle","collaborator incidental",
-"dispatcher","data-provider boundary","handle","predicate wrapper",
-"dispatcher","data-provider boundary","fallback","incidental",
-"dispatcher","data-provider boundary","fallback","predicate set collaborator",
-"id_adapter","commander boundary data-class","on_auto","set collaborator",
-"id_adapter","commander boundary data-class","on_index","set collaborator",
-"id_adapter","commander boundary data-class","on_name","set collaborator",
-"fill_t","data-provider boundary","operator=","non-void-command collaborator",
-"fill_t","data-provider boundary","size","get collaborator",
-"fill_t","data-provider boundary","data","get collaborator",
-"fill_t","data-provider boundary","operator[]","get collaborator",
-"fill_t","data-provider boundary","operator[]","get collaborator",
-"basic_format_arg","data-provider boundary","operatorbool","unclassified",
-"basic_format_arg","data-provider boundary","type","get collaborator",
-"basic_format_arg","data-provider boundary","is_integral","property wrapper",
-"basic_format_arg","data-provider boundary","is_arithmetic","property wrapper",
-"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","truncating_iterator","constructor",
-"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","operator=","get non-void-command collaborator",
-"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","operator++","get",
-"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","operator++","get",
-"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","operator*","get",
-"bigint","boundary","operator[]","get wrapper",
-"bigint","boundary","operator[]","get wrapper",
-"bigint","boundary","subtract_bigits","collaborator",
-"bigint","boundary","remove_leading_zeros","non-void-command collaborator",
-"bigint","boundary","subtract_aligned","non-void-command collaborator",
-"bigint","boundary","multiply","non-void-command collaborator",
-"ThermalSensors","pure-controller degenerate small-class","Cpu::ThermalSensors::getSensors","controller stateless",
-"formatter<detail::styled_arg<T>,Char>","data-provider boundary small-class","format","property collaborator",
-"formatter<join_view<It,Sentinel,Char>,Char>","entity boundary small-class","parse","property non-void-command collaborator",
-"formatter<join_view<It,Sentinel,Char>,Char>","entity boundary small-class","format","property collaborator",
-"get_locale","boundary small-class","get_locale","constructor",
-"get_locale","boundary small-class","~get_locale","destructor",
-"get_locale","boundary small-class","operatorconststd::locale&","wrapper",
-"named_arg","empty","named_arg","constructor",
-"formatter<std::chrono::time_point<std::chrono::utc_clock,Duration>,Char>","data-provider boundary small-class","format","property collaborator",
-"compile_parse_context","entity boundary","num_args","get collaborator",
-"compile_parse_context","entity boundary","arg_type","get collaborator",
-"compile_parse_context","entity boundary","next_arg_id","property non-void-command collaborator",
-"compile_parse_context","entity boundary","check_arg_id","non-void-command collaborator",
-"compile_parse_context","entity boundary","check_dynamic_spec","wrapper",
-"error_handler","boundary degenerate small-class","on_error","wrapper stateless",
-"formatter<T,Char,enable_if_t<detail::type_constant<T,Char>::value!=detail::type::custom_type>>","small-class","parse","property controller",
-"formatter<T,Char,enable_if_t<detail::type_constant<T,Char>::value!=detail::type::custom_type>>","small-class","set_debug_format","set collaborator",
-"basic_printf_context","entity boundary","basic_printf_context","copy-constructor",
-"basic_printf_context","entity boundary","out","get collaborator",
-"basic_printf_context","entity boundary","advance_to","empty",
-"basic_printf_context","entity boundary","locale","collaborator incidental",
-"basic_printf_context","entity boundary","arg","property collaborator",
-"basic_printf_context","entity boundary","on_error","non-void-command collaborator",
-"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","range_formatter","empty",
-"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","underlying","get collaborator",
-"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","set_separator","set collaborator",
-"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","set_brackets","non-void-command collaborator",
-"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","parse","controller stateless",
-"null_chrono_spec_handler","commander boundary","unsupported","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_year","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_short_year","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_offset_year","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_century","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_iso_week_based_year","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_iso_week_based_short_year","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_abbr_weekday","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_full_weekday","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_dec0_weekday","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_dec1_weekday","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_abbr_month","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_full_month","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_dec_month","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_dec0_week_of_year","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_dec1_week_of_year","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_iso_week_of_year","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_day_of_year","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_day_of_month","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_day_of_month_space","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_24_hour","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_12_hour","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_minute","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_second","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_datetime","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_loc_date","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_loc_time","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_us_date","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_iso_date","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_12_hour_time","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_24_hour_time","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_iso_time","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_am_pm","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_duration_value","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_duration_unit","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_utc_offset","non-void-command collaborator",
-"null_chrono_spec_handler","commander boundary","on_tz_name","non-void-command collaborator",
-"rgb","empty","rgb","constructor",
-"rgb","empty","rgb","constructor",
-"rgb","empty","rgb","constructor",
-"rgb","empty","rgb","constructor",
-"iterator_buffer<T*,T>","pure-controller degenerate small-class","grow","empty",
-"iterator_buffer<T*,T>","pure-controller degenerate small-class","iterator_buffer","constructor",
-"iterator_buffer<T*,T>","pure-controller degenerate small-class","out","controller stateless",
-"formatter<bytes>","controller small-class","parse","property controller",
-"formatter<bytes>","controller small-class","format","property controller",
-"PipeWrapper","data-provider boundary data-class small-class","PipeWrapper","constructor",
-"PipeWrapper","data-provider boundary data-class small-class","~PipeWrapper","destructor",
-"PipeWrapper","data-provider boundary data-class small-class","operator()","get collaborator",
-"utf8_to_utf16","entity data-provider boundary","operatorbasic_string_view<wchar_t>","unclassified",
-"utf8_to_utf16","entity data-provider boundary","size","property collaborator",
-"utf8_to_utf16","entity data-provider boundary","c_str","property collaborator",
-"utf8_to_utf16","entity data-provider boundary","str","property collaborator",
-"utf8_to_utf16","entity data-provider boundary","detail::utf8_to_utf16::utf8_to_utf16","property non-void-command collaborator",
-"ansi_color_escape","entity boundary","ansi_color_escape","non-void-command collaborator",
-"ansi_color_escape","entity boundary","ansi_color_escape","set collaborator",
-"ansi_color_escape","entity boundary","operatorconstChar*","get collaborator",
-"ansi_color_escape","entity boundary","begin","get collaborator",
-"ansi_color_escape","entity boundary","end","property wrapper",
-"basic_cstring_view","data-provider boundary data-class small-class","basic_cstring_view","constructor",
-"basic_cstring_view","data-provider boundary data-class small-class","basic_cstring_view","constructor",
-"basic_cstring_view","data-provider boundary data-class small-class","c_str","get collaborator",
-"truncating_iterator<OutputIt,std::false_type>","entity data-provider boundary","truncating_iterator","constructor",
-"truncating_iterator<OutputIt,std::false_type>","entity data-provider boundary","operator++","get non-void-command",
-"truncating_iterator<OutputIt,std::false_type>","entity data-provider boundary","operator++","property collaborator",
-"truncating_iterator<OutputIt,std::false_type>","entity data-provider boundary","operator*","property collaborator",
-"format_string_checker","entity boundary","on_arg_id","property non-void-command collaborator",
-"format_string_checker","entity boundary","on_arg_id","property non-void-command collaborator",
-"format_string_checker","entity boundary","on_replacement_field","empty",
-"format_string_checker","entity boundary","on_format_specs","property non-void-command collaborator",
-"format_string_checker","entity boundary","on_error","wrapper stateless",
-"iterator_buffer<std::back_insert_iterator<Container>,enable_if_t<is_contiguous<Container>::value,typenameContainer::value_type>>","entity boundary small-class","grow","non-void-command collaborator",
-"iterator_buffer<std::back_insert_iterator<Container>,enable_if_t<is_contiguous<Container>::value,typenameContainer::value_type>>","entity boundary small-class","iterator_buffer","constructor",
-"iterator_buffer<std::back_insert_iterator<Container>,enable_if_t<is_contiguous<Container>::value,typenameContainer::value_type>>","entity boundary small-class","iterator_buffer","constructor",
-"iterator_buffer<std::back_insert_iterator<Container>,enable_if_t<is_contiguous<Container>::value,typenameContainer::value_type>>","entity boundary small-class","out","property wrapper",
-"MachProcessorInfo","empty","MachProcessorInfo","constructor",
-"MachProcessorInfo","empty","~MachProcessorInfo","destructor",
-"Meter","small-class","Meter::Meter","constructor",
-"Meter","small-class","Meter::Meter","constructor",
-"Meter","small-class","Meter::operator()","property non-void-command",
-"formatter<tuple_join_view<Char,T...>,Char>","unclassified","parse","property non-void-command collaborator",
-"formatter<tuple_join_view<Char,T...>,Char>","unclassified","format","property collaborator",
-"formatter<tuple_join_view<Char,T...>,Char>","unclassified","do_parse","controller stateless",
-"formatter<tuple_join_view<Char,T...>,Char>","unclassified","do_parse","property non-void-command collaborator",
-"formatter<tuple_join_view<Char,T...>,Char>","unclassified","do_format","controller stateless",
-"formatter<tuple_join_view<Char,T...>,Char>","unclassified","do_format","property collaborator",
-"arg_converter","small-class","arg_converter","constructor",
-"arg_converter","small-class","operator()","unclassified",
-"udl_compiled_string","degenerate small-class","operatorbasic_string_view<char_type>","incidental",
-"formatter<std::monostate,Char>","pure-controller degenerate small-class","parse","controller stateless",
-"formatter<std::monostate,Char>","pure-controller degenerate small-class","format","controller stateless",
-"arg_formatter","data-provider boundary small-class","operator()","property wrapper",
-"arg_formatter","data-provider boundary small-class","operator()","get collaborator",
-"count_code_points","boundary data-class small-class","operator()","property set collaborator",
-"code_unit","data-provider boundary small-class","format","property wrapper",
-"basic_memory_buffer","unclassified","deallocate","non-void-command collaborator",
-"basic_memory_buffer","unclassified","grow","non-void-command collaborator",
-"basic_memory_buffer","unclassified","basic_memory_buffer","constructor",
-"basic_memory_buffer","unclassified","~basic_memory_buffer","destructor",
-"basic_memory_buffer","unclassified","move","set collaborator",
-"basic_memory_buffer","unclassified","basic_memory_buffer","non-void-command collaborator",
-"basic_memory_buffer","unclassified","operator=","get non-void-command collaborator",
-"basic_memory_buffer","unclassified","get_allocator","get collaborator",
-"basic_memory_buffer","unclassified","resize","controller stateless",
-"basic_memory_buffer","unclassified","reserve","controller stateless",
-"basic_memory_buffer","unclassified","append","controller stateless",
-"printf_width_handler","empty","printf_width_handler","constructor",
-"to_utf8","data-provider","to_utf8","constructor",
-"to_utf8","data-provider","to_utf8","constructor",
-"to_utf8","data-provider","operatorstring_view","unclassified",
-"to_utf8","data-provider","size","property",
-"to_utf8","data-provider","c_str","property",
-"to_utf8","data-provider","str","property",
-"to_utf8","data-provider","convert","predicate non-void-command collaborator",
-"basic_fp","boundary degenerate small-class","basic_fp","constructor",
-"basic_fp","boundary degenerate small-class","basic_fp","constructor",
-"basic_fp","boundary degenerate small-class","basic_fp","wrapper stateless",
-"digit_grouping","data-provider boundary small-class","initial_state","property collaborator",
-"digit_grouping","data-provider boundary small-class","next","property collaborator",
-"spec_field","data-provider boundary small-class","format","property collaborator",
-"formatter<detail::bigint>","pure-controller degenerate small-class","parse","controller stateless",
-"formatter<detail::bigint>","pure-controller degenerate small-class","format","controller stateless",
-"value_type","degenerate small-class","operator=","empty",
-"basic_ostream_formatter","pure-controller degenerate small-class","format","controller stateless",
-"file_access","boundary degenerate small-class","get_file","collaborator incidental",
-"default_arg_formatter","small-class","operator()","property wrapper",
-"default_arg_formatter","small-class","operator()","property controller",
-"custom_formatter","pure-controller small-class","operator()","controller",
-"custom_formatter","pure-controller small-class","operator()","empty",
-"format_tuple_element","entity boundary small-class","operator()","void-accessor command collaborator",
-"format_facet","boundary degenerate small-class","put","wrapper stateless",
-"format_facet","boundary degenerate small-class","format_facet<Locale>::format_facet","constructor",
-"udl_formatter","data-provider boundary small-class","operator()","property wrapper",
-"statically_named_arg","empty","statically_named_arg","constructor",
-"udl_arg","data-provider boundary small-class","operator=","wrapper stateless",
-"udl_arg","data-provider boundary small-class","operator=","property collaborator",
-"format_int","entity data-provider boundary","format_unsigned","property wrapper",
-"format_int","entity data-provider boundary","format_signed","property non-void-command collaborator",
-"format_int","entity data-provider boundary","format_int","constructor",
-"format_int","entity data-provider boundary","format_int","constructor",
-"format_int","entity data-provider boundary","format_int","constructor",
-"format_int","entity data-provider boundary","format_int","constructor",
-"format_int","entity data-provider boundary","format_int","constructor",
-"format_int","entity data-provider boundary","format_int","constructor",
-"format_int","entity data-provider boundary","size","property wrapper",
-"format_int","entity data-provider boundary","data","get collaborator",
-"format_int","entity data-provider boundary","c_str","get set collaborator",
-"format_int","entity data-provider boundary","str","property",
-"formatter<T,Char,enable_if_t<detail::has_format_as<T>::value>>","data-provider boundary small-class","format","property collaborator",
-"printf_arg_formatter","boundary small-class","write_null_pointer","wrapper",
-"printf_arg_formatter","boundary small-class","printf_arg_formatter","constructor",
-"printf_arg_formatter","boundary small-class","operator()","collaborator incidental",
-"format_handler","entity boundary","format_handler","constructor",
-"format_handler","entity boundary","on_text","void-accessor command collaborator",
-"format_handler","entity boundary","on_arg_id","property non-void-command collaborator",
-"format_handler","entity boundary","on_arg_id","property non-void-command collaborator",
-"format_handler","entity boundary","on_arg_id","property non-void-command collaborator",
-"format_handler","entity boundary","on_replacement_field","non-void-command collaborator",
-"format_handler","entity boundary","on_format_specs","property non-void-command collaborator",
-"file","small-class","file","constructor",
-"file","small-class","file","constructor",
-"file","small-class","file","copy-constructor",
-"file","small-class","operator=","get set",
-"file","small-class","descriptor","get",
-"buffer_size","boundary degenerate small-class","operator=","wrapper stateless",
-"file_buffer","commander small-class","flush","command",
-"file_buffer","commander small-class","close","command",
-"formatter<detail::streamed_view<T>,Char>","data-provider boundary small-class","format","property collaborator",
-"ostream","unclassified","ostream","copy-constructor",
-"ostream","unclassified","ostream","copy-constructor",
-"ostream","unclassified","flush","command",
-"ostream","unclassified","close","command",
-"ostream","unclassified","print","void-accessor wrapper",
-"char_converter","empty","char_converter","constructor",
-"get_cstring","boundary degenerate small-class","operator()","collaborator incidental",
-"get_cstring","boundary degenerate small-class","operator()","collaborator incidental",
-"format_specs","empty","format_specs","constructor",
-"tuple_join_view","empty","tuple_join_view","constructor",
-"parse_empty_specs","pure-controller small-class","operator()","controller",
-"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","formatter","empty",
-"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","set_separator","set collaborator",
-"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","set_brackets","non-void-command collaborator",
-"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","parse","property controller",
-"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","format","property controller",
-"runtime_named_field","data-provider boundary small-class","format","property wrapper",
+"SMCConnection","unclassified","SMCConnection::SMCConnection","constructor"
+"SMCConnection","unclassified","SMCConnection::~SMCConnection","destructor"
+"SMCConnection","unclassified","SMCConnection::getSMCTemp","property non-void-command"
+"SMCConnection","unclassified","SMCConnection::getTemp","property non-void-command"
+"SMCConnection","unclassified","SMCConnection::SMCReadKey","property non-void-command collaborator"
+"SMCConnection","unclassified","SMCConnection::SMCCall","property wrapper"
+"getifaddr_wrapper","data-provider boundary data-class small-class","getifaddr_wrapper","constructor"
+"getifaddr_wrapper","data-provider boundary data-class small-class","~getifaddr_wrapper","destructor"
+"getifaddr_wrapper","data-provider boundary data-class small-class","operator()","get collaborator"
+"IOObject","empty","IOObject","constructor"
+"IOObject","empty","~IOObject","destructor"
+"IOPSInfo_Wrap","data-provider boundary data-class small-class","IOPSInfo_Wrap","constructor"
+"IOPSInfo_Wrap","data-provider boundary data-class small-class","operator()","get collaborator"
+"IOPSInfo_Wrap","data-provider boundary data-class small-class","~IOPSInfo_Wrap","destructor"
+"DebugTimer","unclassified","DebugTimer::DebugTimer","constructor"
+"DebugTimer","unclassified","DebugTimer::~DebugTimer","destructor"
+"DebugTimer","unclassified","DebugTimer::start","command"
+"DebugTimer","unclassified","DebugTimer::stop","command"
+"DebugTimer","unclassified","DebugTimer::reset","command"
+"DebugTimer","unclassified","DebugTimer::stop_rename_reset","set"
+"DebugTimer","unclassified","DebugTimer::report","command"
+"DebugTimer","unclassified","DebugTimer::force_report","command collaborator"
+"DebugTimer","unclassified","DebugTimer::elapsed","get property wrapper"
+"DebugTimer","unclassified","DebugTimer::is_running","get"
+"lose_priv","empty","lose_priv","constructor"
+"lose_priv","empty","~lose_priv","destructor"
+"IfAddrsPtr","data-provider boundary data-class","IfAddrsPtr","constructor"
+"IfAddrsPtr","data-provider boundary data-class","~IfAddrsPtr","destructor"
+"IfAddrsPtr","data-provider boundary data-class","operator()","get collaborator"
+"IfAddrsPtr","data-provider boundary data-class","get","get collaborator"
+"IfAddrsPtr","data-provider boundary data-class","get_status","get collaborator"
+"KvmDeleter","boundary degenerate small-class","operator()","wrapper stateless"
+"msgBox","unclassified","msgBox::msgBox","constructor"
+"msgBox","unclassified","msgBox::msgBox","constructor"
+"msgBox","unclassified","msgBox::operator()","property wrapper"
+"msgBox","unclassified","msgBox::input","property set"
+"msgBox","unclassified","msgBox::clear","command"
+"Graph","unclassified","Graph::_create","command"
+"Graph","unclassified","Graph::Graph","constructor"
+"Graph","unclassified","Graph::Graph","constructor"
+"Graph","unclassified","Graph::operator()","get non-void-command"
+"Graph","unclassified","Graph::operator()","get"
+"TextEdit","unclassified","TextEdit::TextEdit","constructor"
+"TextEdit","unclassified","TextEdit::TextEdit","constructor"
+"TextEdit","unclassified","TextEdit::command","predicate non-void-command"
+"TextEdit","unclassified","TextEdit::operator()","property non-void-command"
+"TextEdit","unclassified","TextEdit::clear","command"
+"MyNumPunct","degenerate","do_thousands_sep","incidental"
+"MyNumPunct","degenerate","do_grouping","incidental"
+"MyNumPunct","degenerate","do_thousands_sep","incidental"
+"MyNumPunct","degenerate","do_grouping","incidental"
+"thread_lock","empty","thread_lock","constructor"
+"thread_lock","empty","~thread_lock","destructor"
+"formatter<T,Char,typenamestd::enable_if<std::is_base_of<std::exception,T>::value>::type>","small-class","parse","property set collaborator"
+"formatter<T,Char,typenamestd::enable_if<std::is_base_of<std::exception,T>::value>::type>","small-class","format","property controller"
+"formatter<std::error_code,Char>","pure-controller degenerate small-class","parse","controller stateless"
+"formatter<std::error_code,Char>","pure-controller degenerate small-class","format","controller stateless"
+"formatter<Variant,Char,std::enable_if_t<std::conjunction_v<is_variant_like<Variant>,is_variant_formattable<Variant,Char>>>>","pure-controller degenerate small-class","parse","controller stateless"
+"formatter<Variant,Char,std::enable_if_t<std::conjunction_v<is_variant_like<Variant>,is_variant_formattable<Variant,Char>>>>","pure-controller degenerate small-class","format","controller stateless"
+"formatter<std::optional<T>,Char,std::enable_if_t<is_formattable<T,Char>::value>>","entity boundary small-class","parse","property non-void-command collaborator"
+"formatter<std::optional<T>,Char,std::enable_if_t<is_formattable<T,Char>::value>>","entity boundary small-class","format","property collaborator"
+"gain_priv","empty","gain_priv","constructor"
+"gain_priv","empty","~gain_priv","destructor"
+"formatter<T,Char,enable_if_t<detail::is_container_adaptor_like<T>::value>>","data-provider boundary small-class","format","property collaborator"
+"range_default_formatter<K,R,Char,enable_if_t<(K==range_format::sequence||K==range_format::map||K==range_format::set)>>","commander boundary","range_default_formatter","non-void-command collaborator"
+"range_default_formatter<K,R,Char,enable_if_t<(K==range_format::sequence||K==range_format::map||K==range_format::set)>>","commander boundary","init","non-void-command collaborator"
+"range_default_formatter<K,R,Char,enable_if_t<(K==range_format::sequence||K==range_format::map||K==range_format::set)>>","commander boundary","init","non-void-command collaborator"
+"writer","entity boundary small-class","operator()","property non-void-command collaborator"
+"locale_ref","data-provider small-class","operatorbool","unclassified"
+"locale_ref","data-provider small-class","locale_ref::locale_ref","constructor"
+"locale_ref","data-provider small-class","locale_ref::get","property wrapper"
+"text_style","entity data-provider boundary","text_style","constructor"
+"text_style","entity data-provider boundary","operator|=","get non-void-command collaborator"
+"text_style","entity data-provider boundary","operator|","collaborator incidental"
+"text_style","entity data-provider boundary","has_foreground","get collaborator"
+"text_style","entity data-provider boundary","has_background","get collaborator"
+"text_style","entity data-provider boundary","has_emphasis","property collaborator"
+"text_style","entity data-provider boundary","get_foreground","get collaborator"
+"text_style","entity data-provider boundary","get_background","get collaborator"
+"text_style","entity data-provider boundary","get_emphasis","get collaborator"
+"text_style","entity data-provider boundary","text_style","constructor"
+"formatter<group_digits_view<T>>","controller small-class","parse","property controller"
+"formatter<group_digits_view<T>>","controller small-class","format","property controller"
+"dynamic_arg_list","boundary data-class small-class","push","property set collaborator"
+"value","commander boundary small-class","value","non-void-command collaborator"
+"value","commander boundary small-class","value","constructor"
+"value","commander boundary small-class","value","constructor"
+"value","commander boundary small-class","value","non-void-command collaborator"
+"gen_digits_handler","entity boundary small-class","on_digit","property non-void-command collaborator"
+"dynamic_spec_id_handler","commander boundary","on_auto","non-void-command collaborator"
+"dynamic_spec_id_handler","commander boundary","on_index","non-void-command collaborator"
+"dynamic_spec_id_handler","commander boundary","on_name","set collaborator"
+"formatbuf","entity boundary small-class","formatbuf","constructor"
+"formatbuf","entity boundary small-class","overflow","property non-void-command collaborator"
+"formatbuf","entity boundary small-class","xsputn","property non-void-command collaborator"
+"iterator_buffer","entity minimal-entity boundary","grow","non-void-command collaborator"
+"iterator_buffer","entity minimal-entity boundary","flush","set collaborator"
+"iterator_buffer","entity minimal-entity boundary","iterator_buffer","constructor"
+"iterator_buffer","entity minimal-entity boundary","iterator_buffer","copy-constructor"
+"iterator_buffer","entity minimal-entity boundary","~iterator_buffer","destructor"
+"iterator_buffer","entity minimal-entity boundary","out","get non-void-command collaborator"
+"iterator_buffer","entity minimal-entity boundary","count","property collaborator"
+"fallback_digit_grouping","degenerate","fallback_digit_grouping","constructor"
+"fallback_digit_grouping","degenerate","has_separator","incidental"
+"fallback_digit_grouping","degenerate","count_separators","incidental"
+"fallback_digit_grouping","degenerate","apply","collaborator incidental"
+"basic_format_args","data-provider boundary","is_packed","property collaborator"
+"basic_format_args","data-provider boundary","has_named_args","property collaborator"
+"basic_format_args","data-provider boundary","type","property collaborator"
+"basic_format_args","data-provider boundary","basic_format_args","constructor"
+"basic_format_args","data-provider boundary","basic_format_args","constructor"
+"basic_format_args","data-provider boundary","basic_format_args","constructor"
+"basic_format_args","data-provider boundary","get","property collaborator"
+"basic_format_args","data-provider boundary","get","property collaborator"
+"basic_format_args","data-provider boundary","get_id","property collaborator"
+"basic_format_args","data-provider boundary","max_size","property collaborator"
+"appender","data-provider boundary data-class small-class","appender","constructor"
+"appender","data-provider boundary data-class small-class","operator++","get collaborator"
+"appender","data-provider boundary data-class small-class","operator++","get collaborator"
+"basic_format_parse_context","entity boundary","basic_format_parse_context","constructor"
+"basic_format_parse_context","entity boundary","begin","property collaborator"
+"basic_format_parse_context","entity boundary","end","property collaborator"
+"basic_format_parse_context","entity boundary","advance_to","non-void-command collaborator"
+"basic_format_parse_context","entity boundary","next_arg_id","property set collaborator"
+"basic_format_parse_context","entity boundary","check_arg_id","set collaborator"
+"basic_format_parse_context","entity boundary","check_arg_id","empty"
+"","boundary data-class small-class","operator()","set collaborator"
+"","boundary data-class small-class","operator()","property set collaborator"
+"uint128_fallback","data-provider data-class small-class","uint128_fallback","constructor"
+"uint128_fallback","data-provider data-class small-class","uint128_fallback","constructor"
+"uint128_fallback","data-provider data-class small-class","high","get"
+"uint128_fallback","data-provider data-class small-class","low","get"
+"formatter<std::tm,Char>","unclassified","do_parse","property set collaborator"
+"formatter<std::tm,Char>","unclassified","do_format","property collaborator"
+"formatter<std::tm,Char>","unclassified","parse","controller stateless"
+"formatter<std::tm,Char>","unclassified","format","controller stateless"
+"buffered_file","boundary","get","get collaborator"
+"buffered_file","boundary","vprint","wrapper"
+"buffered_file","boundary","print","command collaborator"
+"all","data-provider boundary small-class","begin","property collaborator"
+"all","data-provider boundary small-class","end","property collaborator"
+"arg_ref","boundary small-class","arg_ref","constructor"
+"arg_ref","boundary small-class","arg_ref","constructor"
+"arg_ref","boundary small-class","arg_ref","constructor"
+"arg_ref","boundary small-class","operator=","get set collaborator"
+"text","data-provider boundary small-class","format","property wrapper"
+"arg_id_handler","boundary lazy-class","on_auto","wrapper stateless"
+"arg_id_handler","boundary lazy-class","on_index","property set"
+"arg_id_handler","boundary lazy-class","on_name","property set collaborator"
+"formatter<std::chrono::duration<Rep,Period>,Char>","boundary","do_parse","property set collaborator"
+"formatter<std::chrono::duration<Rep,Period>,Char>","boundary","parse","property set collaborator"
+"formatter<std::chrono::duration<Rep,Period>,Char>","boundary","format","property collaborator"
+"formatter<weekday,Char>","small-class","parse","property set collaborator"
+"formatter<weekday,Char>","small-class","format","property controller"
+"chrono_formatter","commander degenerate","chrono_formatter","constructor"
+"chrono_formatter","commander degenerate","handle_nan_inf","predicate non-void-command"
+"chrono_formatter","commander degenerate","hour","property collaborator"
+"chrono_formatter","commander degenerate","hour12","property collaborator"
+"chrono_formatter","commander degenerate","minute","property collaborator"
+"chrono_formatter","commander degenerate","second","property collaborator"
+"chrono_formatter","commander degenerate","time","property collaborator"
+"chrono_formatter","commander degenerate","write_sign","command"
+"chrono_formatter","commander degenerate","write","command collaborator"
+"chrono_formatter","commander degenerate","write_nan","wrapper"
+"chrono_formatter","commander degenerate","write_pinf","wrapper"
+"chrono_formatter","commander degenerate","write_ninf","wrapper"
+"chrono_formatter","commander degenerate","format_tm","command collaborator"
+"chrono_formatter","commander degenerate","on_text","wrapper"
+"chrono_formatter","commander degenerate","on_abbr_weekday","empty"
+"chrono_formatter","commander degenerate","on_full_weekday","empty"
+"chrono_formatter","commander degenerate","on_dec0_weekday","empty"
+"chrono_formatter","commander degenerate","on_dec1_weekday","empty"
+"chrono_formatter","commander degenerate","on_abbr_month","empty"
+"chrono_formatter","commander degenerate","on_full_month","empty"
+"chrono_formatter","commander degenerate","on_datetime","empty"
+"chrono_formatter","commander degenerate","on_loc_date","empty"
+"chrono_formatter","commander degenerate","on_loc_time","empty"
+"chrono_formatter","commander degenerate","on_us_date","empty"
+"chrono_formatter","commander degenerate","on_iso_date","empty"
+"chrono_formatter","commander degenerate","on_utc_offset","empty"
+"chrono_formatter","commander degenerate","on_tz_name","empty"
+"chrono_formatter","commander degenerate","on_year","empty"
+"chrono_formatter","commander degenerate","on_short_year","empty"
+"chrono_formatter","commander degenerate","on_offset_year","empty"
+"chrono_formatter","commander degenerate","on_century","empty"
+"chrono_formatter","commander degenerate","on_iso_week_based_year","empty"
+"chrono_formatter","commander degenerate","on_iso_week_based_short_year","empty"
+"chrono_formatter","commander degenerate","on_dec_month","empty"
+"chrono_formatter","commander degenerate","on_dec0_week_of_year","empty"
+"chrono_formatter","commander degenerate","on_dec1_week_of_year","empty"
+"chrono_formatter","commander degenerate","on_iso_week_of_year","empty"
+"chrono_formatter","commander degenerate","on_day_of_year","empty"
+"chrono_formatter","commander degenerate","on_day_of_month","empty"
+"chrono_formatter","commander degenerate","on_day_of_month_space","empty"
+"chrono_formatter","commander degenerate","on_24_hour","command collaborator"
+"chrono_formatter","commander degenerate","on_12_hour","command collaborator"
+"chrono_formatter","commander degenerate","on_minute","command collaborator"
+"chrono_formatter","commander degenerate","on_second","command collaborator"
+"chrono_formatter","commander degenerate","on_12_hour_time","command"
+"chrono_formatter","commander degenerate","on_24_hour_time","command"
+"chrono_formatter","commander degenerate","on_iso_time","command"
+"chrono_formatter","commander degenerate","on_am_pm","command"
+"chrono_formatter","commander degenerate","on_duration_value","command"
+"chrono_formatter","commander degenerate","on_duration_unit","set"
+"concat","data-provider boundary small-class","format","property collaborator"
+"basic_string_view","empty","basic_string_view","constructor"
+"basic_string_view","empty","basic_string_view","constructor"
+"basic_string_view","empty","basic_string_view","constructor"
+"chrono_format_checker","degenerate","unsupported","wrapper stateless"
+"chrono_format_checker","degenerate","on_text","empty"
+"chrono_format_checker","degenerate","on_24_hour","empty"
+"chrono_format_checker","degenerate","on_12_hour","empty"
+"chrono_format_checker","degenerate","on_minute","empty"
+"chrono_format_checker","degenerate","on_second","empty"
+"chrono_format_checker","degenerate","on_12_hour_time","empty"
+"chrono_format_checker","degenerate","on_24_hour_time","empty"
+"chrono_format_checker","degenerate","on_iso_time","empty"
+"chrono_format_checker","degenerate","on_am_pm","empty"
+"chrono_format_checker","degenerate","on_duration_value","wrapper"
+"chrono_format_checker","degenerate","on_duration_unit","empty"
+"buffer_traits","boundary degenerate small-class","buffer_traits","constructor"
+"buffer_traits","boundary degenerate small-class","count","collaborator incidental"
+"buffer_traits","boundary degenerate small-class","limit","collaborator incidental"
+"field","boundary degenerate small-class","format","wrapper stateless"
+"formatter<std::filesystem::path,Char>","small-class","parse","property non-void-command collaborator"
+"formatter<std::filesystem::path,Char>","small-class","format","controller stateless"
+"arg_data<T,Char,NUM_ARGS,0>","boundary degenerate small-class","named_args","collaborator incidental"
+"string_literal","small-class","operatorbasic_string_view<CharT>","unclassified"
+"tm_writer","entity data-provider boundary","tm_sec","property wrapper"
+"tm_writer","entity data-provider boundary","tm_min","property wrapper"
+"tm_writer","entity data-provider boundary","tm_hour","property wrapper"
+"tm_writer","entity data-provider boundary","tm_mday","property wrapper"
+"tm_writer","entity data-provider boundary","tm_mon","property wrapper"
+"tm_writer","entity data-provider boundary","tm_year","property collaborator"
+"tm_writer","entity data-provider boundary","tm_wday","property wrapper"
+"tm_writer","entity data-provider boundary","tm_yday","property wrapper"
+"tm_writer","entity data-provider boundary","tm_hour12","property collaborator"
+"tm_writer","entity data-provider boundary","split_year_lower","collaborator incidental"
+"tm_writer","entity data-provider boundary","iso_year_weeks","property collaborator"
+"tm_writer","entity data-provider boundary","iso_week_num","property collaborator"
+"tm_writer","entity data-provider boundary","tm_iso_week_year","property collaborator"
+"tm_writer","entity data-provider boundary","tm_iso_week_of_year","property collaborator"
+"tm_writer","entity data-provider boundary","write1","set"
+"tm_writer","entity data-provider boundary","write2","set"
+"tm_writer","entity data-provider boundary","write2","set collaborator"
+"tm_writer","entity data-provider boundary","write_year_extended","set"
+"tm_writer","entity data-provider boundary","write_year","command"
+"tm_writer","entity data-provider boundary","write_utc_offset","command collaborator"
+"monostate","empty","monostate","constructor"
+"accessor","empty","accessor","constructor"
+"join_view","empty","join_view","constructor"
+"counting_buffer","small-class","grow","set collaborator"
+"counting_buffer","small-class","counting_buffer","constructor"
+"counting_buffer","small-class","count","property controller"
+"fixed_buffer_traits","boundary data-class small-class","fixed_buffer_traits","constructor"
+"fixed_buffer_traits","boundary data-class small-class","count","get collaborator"
+"fixed_buffer_traits","boundary data-class small-class","limit","property set collaborator"
+"formatter<void*,Char>","data-provider boundary small-class","format","property collaborator"
+"truncating_iterator_base","data-provider data-class small-class","truncating_iterator_base","constructor"
+"truncating_iterator_base","data-provider data-class small-class","truncating_iterator_base","constructor"
+"truncating_iterator_base","data-provider data-class small-class","base","get collaborator"
+"truncating_iterator_base","data-provider data-class small-class","count","get"
+"IOPSList_Wrap","data-provider boundary data-class small-class","IOPSList_Wrap","constructor"
+"IOPSList_Wrap","data-provider boundary data-class small-class","operator()","get collaborator"
+"IOPSList_Wrap","data-provider boundary data-class small-class","~IOPSList_Wrap","destructor"
+"atomic_lock","empty","atomic_lock::atomic_lock","constructor"
+"atomic_lock","empty","atomic_lock::~atomic_lock","destructor"
+"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","grow","non-void-command collaborator"
+"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","flush","set"
+"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","iterator_buffer","constructor"
+"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","iterator_buffer","copy-constructor"
+"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","~iterator_buffer","destructor"
+"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","out","get non-void-command collaborator"
+"iterator_buffer<T*,T,fixed_buffer_traits>","entity minimal-entity boundary","count","property collaborator"
+"weekday","data-provider data-class small-class","weekday","constructor"
+"weekday","data-provider data-class small-class","c_encoding","get"
+"formatter<std::chrono::time_point<std::chrono::system_clock,Duration>,Char>","boundary small-class","formatter","set collaborator"
+"formatter<std::chrono::time_point<std::chrono::system_clock,Duration>,Char>","boundary small-class","format","property collaborator"
+"tm_format_checker","degenerate","unsupported","wrapper stateless"
+"tm_format_checker","degenerate","on_text","empty"
+"tm_format_checker","degenerate","on_year","empty"
+"tm_format_checker","degenerate","on_short_year","empty"
+"tm_format_checker","degenerate","on_offset_year","empty"
+"tm_format_checker","degenerate","on_century","empty"
+"tm_format_checker","degenerate","on_iso_week_based_year","empty"
+"tm_format_checker","degenerate","on_iso_week_based_short_year","empty"
+"tm_format_checker","degenerate","on_abbr_weekday","empty"
+"tm_format_checker","degenerate","on_full_weekday","empty"
+"tm_format_checker","degenerate","on_dec0_weekday","empty"
+"tm_format_checker","degenerate","on_dec1_weekday","empty"
+"tm_format_checker","degenerate","on_abbr_month","empty"
+"tm_format_checker","degenerate","on_full_month","empty"
+"tm_format_checker","degenerate","on_dec_month","empty"
+"tm_format_checker","degenerate","on_dec0_week_of_year","empty"
+"tm_format_checker","degenerate","on_dec1_week_of_year","empty"
+"tm_format_checker","degenerate","on_iso_week_of_year","empty"
+"tm_format_checker","degenerate","on_day_of_year","empty"
+"tm_format_checker","degenerate","on_day_of_month","empty"
+"tm_format_checker","degenerate","on_day_of_month_space","empty"
+"tm_format_checker","degenerate","on_24_hour","empty"
+"tm_format_checker","degenerate","on_12_hour","empty"
+"tm_format_checker","degenerate","on_minute","empty"
+"tm_format_checker","degenerate","on_second","empty"
+"tm_format_checker","degenerate","on_datetime","empty"
+"tm_format_checker","degenerate","on_loc_date","empty"
+"tm_format_checker","degenerate","on_loc_time","empty"
+"tm_format_checker","degenerate","on_us_date","empty"
+"tm_format_checker","degenerate","on_iso_date","empty"
+"tm_format_checker","degenerate","on_12_hour_time","empty"
+"tm_format_checker","degenerate","on_24_hour_time","empty"
+"tm_format_checker","degenerate","on_iso_time","empty"
+"tm_format_checker","degenerate","on_am_pm","empty"
+"tm_format_checker","degenerate","on_utc_offset","empty"
+"tm_format_checker","degenerate","on_tz_name","empty"
+"ostream_params","empty","ostream_params","constructor"
+"ostream_params","empty","ostream_params","constructor"
+"ostream_params","empty","ostream_params","constructor"
+"ostream_params","empty","ostream_params","constructor"
+"ostream_params","empty","ostream_params","constructor"
+"dynamic_format_arg_store","entity boundary","get_types","property"
+"dynamic_format_arg_store","entity boundary","data","property collaborator"
+"dynamic_format_arg_store","entity boundary","emplace_arg","command collaborator"
+"dynamic_format_arg_store","entity boundary","emplace_arg","command collaborator"
+"formatter<Char[N],Char>","data-provider boundary small-class","format","property collaborator"
+"color_type","empty","color_type","constructor"
+"color_type","empty","color_type","constructor"
+"color_type","empty","color_type","constructor"
+"color_type","empty","color_type","constructor"
+"arg_data","data-provider boundary small-class","arg_data","constructor"
+"arg_data","data-provider boundary small-class","args","property collaborator"
+"arg_data","data-provider boundary small-class","named_args","get collaborator"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"arg_mapper","boundary degenerate","map","collaborator incidental"
+"formatter<std::chrono::local_time<Duration>,Char>","boundary small-class","formatter","set collaborator"
+"formatter<std::chrono::local_time<Duration>,Char>","boundary small-class","format","property collaborator"
+"dispatcher","data-provider boundary","dispatcher","constructor"
+"dispatcher","data-provider boundary","run","predicate wrapper"
+"dispatcher","data-provider boundary","handle","collaborator incidental"
+"dispatcher","data-provider boundary","handle","predicate wrapper"
+"dispatcher","data-provider boundary","fallback","incidental"
+"dispatcher","data-provider boundary","fallback","predicate set collaborator"
+"dispatcher","data-provider boundary","dispatcher","constructor"
+"dispatcher","data-provider boundary","run","predicate wrapper"
+"dispatcher","data-provider boundary","handle","collaborator incidental"
+"dispatcher","data-provider boundary","handle","predicate wrapper"
+"dispatcher","data-provider boundary","fallback","incidental"
+"dispatcher","data-provider boundary","fallback","predicate set collaborator"
+"id_adapter","commander boundary data-class","on_auto","set collaborator"
+"id_adapter","commander boundary data-class","on_index","set collaborator"
+"id_adapter","commander boundary data-class","on_name","set collaborator"
+"fill_t","data-provider boundary","operator=","non-void-command collaborator"
+"fill_t","data-provider boundary","size","get collaborator"
+"fill_t","data-provider boundary","data","get collaborator"
+"fill_t","data-provider boundary","operator[]","get collaborator"
+"fill_t","data-provider boundary","operator[]","get collaborator"
+"basic_format_arg","data-provider boundary","operatorbool","unclassified"
+"basic_format_arg","data-provider boundary","type","get collaborator"
+"basic_format_arg","data-provider boundary","is_integral","property wrapper"
+"basic_format_arg","data-provider boundary","is_arithmetic","property wrapper"
+"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","truncating_iterator","constructor"
+"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","operator=","get non-void-command collaborator"
+"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","operator++","get"
+"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","operator++","get"
+"truncating_iterator<OutputIt,std::true_type>","data-provider data-class","operator*","get"
+"bigint","boundary","operator[]","get wrapper"
+"bigint","boundary","operator[]","get wrapper"
+"bigint","boundary","subtract_bigits","collaborator"
+"bigint","boundary","remove_leading_zeros","non-void-command collaborator"
+"bigint","boundary","subtract_aligned","non-void-command collaborator"
+"bigint","boundary","multiply","non-void-command collaborator"
+"ThermalSensors","pure-controller degenerate small-class","Cpu::ThermalSensors::getSensors","controller stateless"
+"formatter<detail::styled_arg<T>,Char>","data-provider boundary small-class","format","property collaborator"
+"formatter<join_view<It,Sentinel,Char>,Char>","entity boundary small-class","parse","property non-void-command collaborator"
+"formatter<join_view<It,Sentinel,Char>,Char>","entity boundary small-class","format","property collaborator"
+"get_locale","boundary small-class","get_locale","constructor"
+"get_locale","boundary small-class","~get_locale","destructor"
+"get_locale","boundary small-class","operatorconststd::locale&","wrapper"
+"named_arg","empty","named_arg","constructor"
+"formatter<std::chrono::time_point<std::chrono::utc_clock,Duration>,Char>","data-provider boundary small-class","format","property collaborator"
+"compile_parse_context","entity boundary","num_args","get collaborator"
+"compile_parse_context","entity boundary","arg_type","get collaborator"
+"compile_parse_context","entity boundary","next_arg_id","property non-void-command collaborator"
+"compile_parse_context","entity boundary","check_arg_id","non-void-command collaborator"
+"compile_parse_context","entity boundary","check_dynamic_spec","wrapper"
+"error_handler","boundary degenerate small-class","on_error","wrapper stateless"
+"formatter<T,Char,enable_if_t<detail::type_constant<T,Char>::value!=detail::type::custom_type>>","small-class","parse","property controller"
+"formatter<T,Char,enable_if_t<detail::type_constant<T,Char>::value!=detail::type::custom_type>>","small-class","set_debug_format","set collaborator"
+"basic_printf_context","entity boundary","basic_printf_context","copy-constructor"
+"basic_printf_context","entity boundary","out","get collaborator"
+"basic_printf_context","entity boundary","advance_to","empty"
+"basic_printf_context","entity boundary","locale","collaborator incidental"
+"basic_printf_context","entity boundary","arg","property collaborator"
+"basic_printf_context","entity boundary","on_error","non-void-command collaborator"
+"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","range_formatter","empty"
+"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","underlying","get collaborator"
+"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","set_separator","set collaborator"
+"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","set_brackets","non-void-command collaborator"
+"range_formatter<T,Char,enable_if_t<conjunction<std::is_same<T,remove_cvref_t<T>>,is_formattable<T,Char>>::value>>","boundary lazy-class","parse","controller stateless"
+"null_chrono_spec_handler","commander boundary","unsupported","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_year","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_short_year","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_offset_year","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_century","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_iso_week_based_year","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_iso_week_based_short_year","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_abbr_weekday","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_full_weekday","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_dec0_weekday","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_dec1_weekday","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_abbr_month","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_full_month","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_dec_month","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_dec0_week_of_year","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_dec1_week_of_year","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_iso_week_of_year","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_day_of_year","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_day_of_month","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_day_of_month_space","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_24_hour","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_12_hour","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_minute","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_second","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_datetime","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_loc_date","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_loc_time","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_us_date","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_iso_date","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_12_hour_time","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_24_hour_time","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_iso_time","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_am_pm","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_duration_value","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_duration_unit","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_utc_offset","non-void-command collaborator"
+"null_chrono_spec_handler","commander boundary","on_tz_name","non-void-command collaborator"
+"rgb","empty","rgb","constructor"
+"rgb","empty","rgb","constructor"
+"rgb","empty","rgb","constructor"
+"rgb","empty","rgb","constructor"
+"iterator_buffer<T*,T>","pure-controller degenerate small-class","grow","empty"
+"iterator_buffer<T*,T>","pure-controller degenerate small-class","iterator_buffer","constructor"
+"iterator_buffer<T*,T>","pure-controller degenerate small-class","out","controller stateless"
+"formatter<bytes>","controller small-class","parse","property controller"
+"formatter<bytes>","controller small-class","format","property controller"
+"PipeWrapper","data-provider boundary data-class small-class","PipeWrapper","constructor"
+"PipeWrapper","data-provider boundary data-class small-class","~PipeWrapper","destructor"
+"PipeWrapper","data-provider boundary data-class small-class","operator()","get collaborator"
+"utf8_to_utf16","entity data-provider boundary","operatorbasic_string_view<wchar_t>","unclassified"
+"utf8_to_utf16","entity data-provider boundary","size","property collaborator"
+"utf8_to_utf16","entity data-provider boundary","c_str","property collaborator"
+"utf8_to_utf16","entity data-provider boundary","str","property collaborator"
+"utf8_to_utf16","entity data-provider boundary","detail::utf8_to_utf16::utf8_to_utf16","property non-void-command collaborator"
+"ansi_color_escape","entity boundary","ansi_color_escape","non-void-command collaborator"
+"ansi_color_escape","entity boundary","ansi_color_escape","set collaborator"
+"ansi_color_escape","entity boundary","operatorconstChar*","get collaborator"
+"ansi_color_escape","entity boundary","begin","get collaborator"
+"ansi_color_escape","entity boundary","end","property wrapper"
+"basic_cstring_view","data-provider boundary data-class small-class","basic_cstring_view","constructor"
+"basic_cstring_view","data-provider boundary data-class small-class","basic_cstring_view","constructor"
+"basic_cstring_view","data-provider boundary data-class small-class","c_str","get collaborator"
+"truncating_iterator<OutputIt,std::false_type>","entity data-provider boundary","truncating_iterator","constructor"
+"truncating_iterator<OutputIt,std::false_type>","entity data-provider boundary","operator++","get non-void-command"
+"truncating_iterator<OutputIt,std::false_type>","entity data-provider boundary","operator++","property collaborator"
+"truncating_iterator<OutputIt,std::false_type>","entity data-provider boundary","operator*","property collaborator"
+"format_string_checker","entity boundary","on_arg_id","property non-void-command collaborator"
+"format_string_checker","entity boundary","on_arg_id","property non-void-command collaborator"
+"format_string_checker","entity boundary","on_replacement_field","empty"
+"format_string_checker","entity boundary","on_format_specs","property non-void-command collaborator"
+"format_string_checker","entity boundary","on_error","wrapper stateless"
+"iterator_buffer<std::back_insert_iterator<Container>,enable_if_t<is_contiguous<Container>::value,typenameContainer::value_type>>","entity boundary small-class","grow","non-void-command collaborator"
+"iterator_buffer<std::back_insert_iterator<Container>,enable_if_t<is_contiguous<Container>::value,typenameContainer::value_type>>","entity boundary small-class","iterator_buffer","constructor"
+"iterator_buffer<std::back_insert_iterator<Container>,enable_if_t<is_contiguous<Container>::value,typenameContainer::value_type>>","entity boundary small-class","iterator_buffer","constructor"
+"iterator_buffer<std::back_insert_iterator<Container>,enable_if_t<is_contiguous<Container>::value,typenameContainer::value_type>>","entity boundary small-class","out","property wrapper"
+"MachProcessorInfo","empty","MachProcessorInfo","constructor"
+"MachProcessorInfo","empty","~MachProcessorInfo","destructor"
+"Meter","small-class","Meter::Meter","constructor"
+"Meter","small-class","Meter::Meter","constructor"
+"Meter","small-class","Meter::operator()","property non-void-command"
+"formatter<tuple_join_view<Char,T...>,Char>","unclassified","parse","property non-void-command collaborator"
+"formatter<tuple_join_view<Char,T...>,Char>","unclassified","format","property collaborator"
+"formatter<tuple_join_view<Char,T...>,Char>","unclassified","do_parse","controller stateless"
+"formatter<tuple_join_view<Char,T...>,Char>","unclassified","do_parse","property non-void-command collaborator"
+"formatter<tuple_join_view<Char,T...>,Char>","unclassified","do_format","controller stateless"
+"formatter<tuple_join_view<Char,T...>,Char>","unclassified","do_format","property collaborator"
+"arg_converter","small-class","arg_converter","constructor"
+"arg_converter","small-class","operator()","unclassified"
+"udl_compiled_string","degenerate small-class","operatorbasic_string_view<char_type>","incidental"
+"formatter<std::monostate,Char>","pure-controller degenerate small-class","parse","controller stateless"
+"formatter<std::monostate,Char>","pure-controller degenerate small-class","format","controller stateless"
+"arg_formatter","data-provider boundary small-class","operator()","property wrapper"
+"arg_formatter","data-provider boundary small-class","operator()","get collaborator"
+"count_code_points","boundary data-class small-class","operator()","property set collaborator"
+"code_unit","data-provider boundary small-class","format","property wrapper"
+"basic_memory_buffer","unclassified","deallocate","non-void-command collaborator"
+"basic_memory_buffer","unclassified","grow","non-void-command collaborator"
+"basic_memory_buffer","unclassified","basic_memory_buffer","constructor"
+"basic_memory_buffer","unclassified","~basic_memory_buffer","destructor"
+"basic_memory_buffer","unclassified","move","set collaborator"
+"basic_memory_buffer","unclassified","basic_memory_buffer","non-void-command collaborator"
+"basic_memory_buffer","unclassified","operator=","get non-void-command collaborator"
+"basic_memory_buffer","unclassified","get_allocator","get collaborator"
+"basic_memory_buffer","unclassified","resize","controller stateless"
+"basic_memory_buffer","unclassified","reserve","controller stateless"
+"basic_memory_buffer","unclassified","append","controller stateless"
+"printf_width_handler","empty","printf_width_handler","constructor"
+"to_utf8","data-provider","to_utf8","constructor"
+"to_utf8","data-provider","to_utf8","constructor"
+"to_utf8","data-provider","operatorstring_view","unclassified"
+"to_utf8","data-provider","size","property"
+"to_utf8","data-provider","c_str","property"
+"to_utf8","data-provider","str","property"
+"to_utf8","data-provider","convert","predicate non-void-command collaborator"
+"basic_fp","boundary degenerate small-class","basic_fp","constructor"
+"basic_fp","boundary degenerate small-class","basic_fp","constructor"
+"basic_fp","boundary degenerate small-class","basic_fp","wrapper stateless"
+"digit_grouping","data-provider boundary small-class","initial_state","property collaborator"
+"digit_grouping","data-provider boundary small-class","next","property collaborator"
+"spec_field","data-provider boundary small-class","format","property collaborator"
+"formatter<detail::bigint>","pure-controller degenerate small-class","parse","controller stateless"
+"formatter<detail::bigint>","pure-controller degenerate small-class","format","controller stateless"
+"value_type","degenerate small-class","operator=","empty"
+"basic_ostream_formatter","pure-controller degenerate small-class","format","controller stateless"
+"file_access","boundary degenerate small-class","get_file","collaborator incidental"
+"default_arg_formatter","small-class","operator()","property wrapper"
+"default_arg_formatter","small-class","operator()","property controller"
+"custom_formatter","pure-controller small-class","operator()","controller"
+"custom_formatter","pure-controller small-class","operator()","empty"
+"format_tuple_element","commander boundary small-class","operator()","command collaborator"
+"format_facet","boundary degenerate small-class","put","wrapper stateless"
+"format_facet","boundary degenerate small-class","format_facet<Locale>::format_facet","constructor"
+"udl_formatter","data-provider boundary small-class","operator()","property wrapper"
+"statically_named_arg","empty","statically_named_arg","constructor"
+"udl_arg","data-provider boundary small-class","operator=","wrapper stateless"
+"udl_arg","data-provider boundary small-class","operator=","property collaborator"
+"format_int","entity data-provider boundary","format_unsigned","property wrapper"
+"format_int","entity data-provider boundary","format_signed","property non-void-command collaborator"
+"format_int","entity data-provider boundary","format_int","constructor"
+"format_int","entity data-provider boundary","format_int","constructor"
+"format_int","entity data-provider boundary","format_int","constructor"
+"format_int","entity data-provider boundary","format_int","constructor"
+"format_int","entity data-provider boundary","format_int","constructor"
+"format_int","entity data-provider boundary","format_int","constructor"
+"format_int","entity data-provider boundary","size","property wrapper"
+"format_int","entity data-provider boundary","data","get collaborator"
+"format_int","entity data-provider boundary","c_str","get set collaborator"
+"format_int","entity data-provider boundary","str","property"
+"formatter<T,Char,enable_if_t<detail::has_format_as<T>::value>>","data-provider boundary small-class","format","property collaborator"
+"printf_arg_formatter","boundary small-class","write_null_pointer","wrapper"
+"printf_arg_formatter","boundary small-class","printf_arg_formatter","constructor"
+"printf_arg_formatter","boundary small-class","operator()","collaborator incidental"
+"format_handler","entity boundary","format_handler","constructor"
+"format_handler","entity boundary","on_text","command collaborator"
+"format_handler","entity boundary","on_arg_id","property non-void-command collaborator"
+"format_handler","entity boundary","on_arg_id","property non-void-command collaborator"
+"format_handler","entity boundary","on_arg_id","property non-void-command collaborator"
+"format_handler","entity boundary","on_replacement_field","non-void-command collaborator"
+"format_handler","entity boundary","on_format_specs","property non-void-command collaborator"
+"file","small-class","file","constructor"
+"file","small-class","file","constructor"
+"file","small-class","file","copy-constructor"
+"file","small-class","operator=","get set"
+"file","small-class","descriptor","get"
+"buffer_size","boundary degenerate small-class","operator=","wrapper stateless"
+"file_buffer","commander small-class","flush","command"
+"file_buffer","commander small-class","close","command"
+"formatter<detail::streamed_view<T>,Char>","data-provider boundary small-class","format","property collaborator"
+"ostream","commander","ostream","copy-constructor"
+"ostream","commander","ostream","copy-constructor"
+"ostream","commander","flush","command"
+"ostream","commander","close","command"
+"ostream","commander","print","wrapper"
+"char_converter","empty","char_converter","constructor"
+"get_cstring","boundary degenerate small-class","operator()","collaborator incidental"
+"get_cstring","boundary degenerate small-class","operator()","collaborator incidental"
+"format_specs","empty","format_specs","constructor"
+"tuple_join_view","empty","tuple_join_view","constructor"
+"parse_empty_specs","pure-controller small-class","operator()","controller"
+"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","formatter","empty"
+"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","set_separator","set collaborator"
+"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","set_brackets","non-void-command collaborator"
+"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","parse","property controller"
+"formatter<Tuple,Char,enable_if_t<fmt::is_tuple_like<Tuple>::value&&fmt::is_tuple_formattable<Tuple,Char>::value>>","unclassified","format","property controller"
+"runtime_named_field","data-provider boundary small-class","format","property wrapper"

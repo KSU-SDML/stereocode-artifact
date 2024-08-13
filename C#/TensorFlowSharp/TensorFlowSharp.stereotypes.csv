@@ -1,496 +1,492 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"ShapeTests","boundary degenerate small-class","Should_ShapeAutomaticallyConvertToTensor","wrapper stateless",
-"SessionTests","pure-controller degenerate small-class","Should_ListDeviceReturnDevices","controller stateless",
-"SessionTests","pure-controller degenerate small-class","ParseOutput_ThrowsForMissingOp","controller stateless",
-"PaddingFIFOQueueTests","pure-controller degenerate small-class","Should_EnqueueAndDequeue_ScalarValues","controller stateless",
-"MathTests","boundary degenerate","Should_CalculateTanhGrad_Correctly","wrapper stateless",
-"MathTests","boundary degenerate","Should_ReduceMean","wrapper stateless",
-"MathTests","boundary degenerate","Should_SigmoidCrossEntropyWithLogits","wrapper stateless",
-"MathTests","boundary degenerate","Should_ReduceProd","wrapper stateless",
-"MathTests","boundary degenerate","Should_ReduceProd2","wrapper stateless",
-"GradientTests","boundary small-class","ShouldAddGradients","wrapper stateless",
-"GradientTests","boundary small-class","ComputeGradientMSE","wrapper",
-"PartialRunTests","boundary degenerate small-class","Should_RunPartialRun","wrapper stateless",
-"ClipTests","boundary degenerate","Should_ClipByValue","wrapper stateless",
-"ClipTests","boundary degenerate","Should_ClipByNorm","wrapper stateless",
-"ClipTests","boundary degenerate","Should_ClipByAverageNorm","wrapper stateless",
-"ArrayTests","degenerate","BasicConstantZerosAndOnes","wrapper stateless",
-"ArrayTests","degenerate","BasicConstantsOnSymmetricalShapes","wrapper stateless",
-"ArrayTests","degenerate","BasicConstantsUnSymmetrical","controller stateless",
-"ArrayTests","degenerate","Should_Stack","wrapper stateless",
-"ArrayTests","degenerate","Should_Range","controller stateless",
-"ArrayTests","degenerate","nShould_Transpose","controller stateless",
-"ImageEditor","commander small-class","ImageEditor","constructor",
-"ImageEditor","commander small-class","AddBox","command collaborator",
-"ImageEditor","commander small-class","Dispose","command",
-"AdaptiveOptimizer","empty","AdaptiveOptimizer","constructor",
-"TFStatus","entity boundary degenerate","TFStatus","constructor",
-"TFStatus","entity boundary degenerate","NativeDispose","wrapper stateless",
-"TFStatus","entity boundary degenerate","SetStatusCode","wrapper stateless",
-"TFStatus","entity boundary degenerate","ToString","wrapper stateless",
-"TFStatus","entity boundary degenerate","Raise","wrapper stateless",
-"TFStatus","entity boundary degenerate","CheckMaybeRaise","predicate non-void-command collaborator",
-"TFStatus","entity boundary degenerate","get","wrapper stateless",
-"TFGraph","boundary","Abort","property non-void-command collaborator",
-"TFGraph","boundary","Abs","non-void-command factory collaborator",
-"TFGraph","boundary","AccumulateNV2","non-void-command factory collaborator",
-"TFGraph","boundary","AccumulatorApplyGradient","property non-void-command collaborator",
-"TFGraph","boundary","AccumulatorNumAccumulated","non-void-command factory collaborator",
-"TFGraph","boundary","AccumulatorSetGlobalStep","property non-void-command collaborator",
-"TFGraph","boundary","AccumulatorTakeGradient","non-void-command factory collaborator",
-"TFGraph","boundary","Acos","non-void-command factory collaborator",
-"TFGraph","boundary","Acosh","non-void-command factory collaborator",
-"TFGraph","boundary","Add","non-void-command factory collaborator",
-"TFGraph","boundary","AddManySparseToTensorsMap","non-void-command factory collaborator",
-"TFGraph","boundary","AddN","non-void-command factory collaborator",
-"TFGraph","boundary","AddSparseToTensorsMap","non-void-command factory collaborator",
-"TFGraph","boundary","AddV2","non-void-command factory collaborator",
-"TFGraph","boundary","AdjustContrast","non-void-command factory collaborator",
-"TFGraph","boundary","AdjustContrastv2","non-void-command factory collaborator",
-"TFGraph","boundary","AdjustHue","non-void-command factory collaborator",
-"TFGraph","boundary","AdjustSaturation","non-void-command factory collaborator",
-"TFGraph","boundary","All","non-void-command factory collaborator",
-"TFGraph","boundary","Const","wrapper stateless",
-"TFGraph","boundary","ReduceDims","property non-void-command collaborator",
-"TFGraph","boundary","ReduceSum","property non-void-command collaborator",
-"TFGraph","boundary","ReduceProd","property non-void-command collaborator",
-"TFGraph","boundary","ReduceMean","property non-void-command collaborator",
-"TFGraph","boundary","MakeVariable","non-void-command factory collaborator",
-"TFGraph","boundary","Variable","property non-void-command collaborator",
-"TFGraph","boundary","AddInitVariable","set collaborator",
-"TFGraph","boundary","AddTrainableVariable","set collaborator",
-"TFGraph","boundary","GetGlobalVariablesInitializer","property non-void-command collaborator",
-"TFGraph","boundary","Variable","property non-void-command collaborator",
-"TFGraph","boundary","Variable","property non-void-command collaborator",
-"TFGraph","boundary","ShapeTensorOutput","property non-void-command collaborator",
-"TFGraph","boundary","GetRandomSeeds","void-accessor",
-"TFGraph","boundary","Dropout","property non-void-command collaborator",
-"TFGraph","boundary","Dropout","property non-void-command collaborator",
-"TFGraph","boundary","ClipByNorm","property non-void-command collaborator",
-"TFGraph","boundary","GlobalNorm","property non-void-command collaborator",
-"TFGraph","boundary","ClipByAverageNorm","property non-void-command collaborator",
-"TFGraph","boundary","SigmoidCrossEntropyWithLogits","property non-void-command collaborator",
-"TFGraph","boundary","Transpose","wrapper stateless",
-"TFGraph","boundary","Cond","property non-void-command collaborator",
-"TFGraph","boundary","Where","property non-void-command collaborator",
-"TFGraph","boundary","Stack","wrapper stateless",
-"TFGraph","boundary","Range","property non-void-command collaborator",
-"TFGraph","boundary","Zeros","property non-void-command collaborator",
-"TFGraph","boundary","Ones","property non-void-command collaborator",
-"TFGraph","boundary","Constant","controller stateless",
-"TFGraph","boundary","RandomNormal","property non-void-command collaborator",
-"TFGraph","boundary","RandomUniform","property non-void-command collaborator",
-"TFGraph","boundary","RandomUniform","property non-void-command collaborator",
-"TFGraph","boundary","TFGraph","constructor",
-"TFGraph","boundary","TFGraph","constructor",
-"TFGraph","boundary","NativeDispose","wrapper stateless",
-"TFGraph","boundary","SetTensorShape","controller stateless",
-"TFGraph","boundary","GetTensorNumDims","controller stateless",
-"TFGraph","boundary","GetTensorShape","factory controller stateless",
-"TFGraph","boundary","ToGraphDef","controller stateless",
-"TFGraph","boundary","Import","command collaborator",
-"TFGraph","boundary","Import","controller stateless",
-"TFGraph","boundary","Import","void-accessor command collaborator",
-"TFGraph","boundary","Import","void-accessor command collaborator",
-"TFGraph","boundary","GetEnumerator","property factory wrapper",
-"TFGraph","boundary","GetShape","controller stateless",
-"TFGraph","boundary","WithScope","set factory collaborator",
-"TFGraph","boundary","WithDevice","set factory collaborator",
-"TFGraph","boundary","WithDependencies","property factory collaborator",
-"TFGraph","boundary","MakeName","property non-void-command collaborator",
-"TFGraph","boundary","MakeUnique","property set",
-"TFGraph","boundary","GetNextId","property set",
-"TFGraph","boundary","ImportGraphDef","wrapper stateless",
-"TFGraph","boundary","While","property non-void-command factory collaborator",
-"TFGraph","boundary","AddGradients","factory controller stateless",
-"TFGraph","boundary","AddGradients","factory controller stateless",
-"TFGraph","boundary","ToFunction","property factory controller",
-"TFGraph","boundary","Versions","controller stateless",
-"TFGraph","boundary","TryEvaluateConstant","controller stateless",
-"TFGraph","boundary","ToString","wrapper stateless",
-"TFGraph","boundary","get","property factory wrapper",
-"TFGraph","boundary","get","factory wrapper stateless",
-"BitwiseOperationTests","boundary degenerate small-class","Should_EvaluateBitwiseAnd","wrapper stateless",
-"OptimizerTests","pure-controller","OptimizerTests","constructor",
-"OptimizerTests","pure-controller","LinearRegresionTrainingTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingSGDWithDecayTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingMomentumTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingMomentumWithDecayTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingMomentumNesterovTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingMomentumNesterovWithTimeDecayTest","controller",
-"OptimizerTests","pure-controller","MNISTTwoHiddenLayerNetworkTest","controller",
-"OptimizerTests","pure-controller","GetVariable","controller stateless",
-"OptimizerTests","pure-controller","MNISTTwoHiddenLayerNetworkGPUTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingWithAdagradTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingWithAdagradDecayTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingWithRMSPropTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingWithRMSPropDecayTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingWithAdamOptimizerTest","controller",
-"OptimizerTests","pure-controller","LinearRegresionTrainingWithAdamOptimizerDecayTest","controller",
-"RMSPropOptimizer","empty","RMSPropOptimizer","copy-constructor",
-"MonoPInvokeCallbackAttribute","empty","MonoPInvokeCallbackAttribute","constructor",
-"TensorShapeProto","data-provider","TensorShapeProto","constructor",
-"TensorShapeProto","data-provider","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper",
-"TensorShapeProto","data-provider","get","get collaborator",
-"TensorShapeProto","data-provider","get","get",
-"TensorShapeProto","data-provider","set","set",
-"Optimizer","entity boundary small-class","Optimizer","constructor",
-"Optimizer","entity boundary small-class","CreateDecayOps","property non-void-command collaborator",
-"TFOperation","controller","TFOperation","constructor",
-"TFOperation","controller","OutputListLength","property controller",
-"TFOperation","controller","InputListLength","property controller",
-"TFOperation","controller","GetAttributeMetadata","property controller",
-"TFOperation","controller","GetAttributeType","factory controller",
-"TFOperation","controller","GetAttributeShape","property factory controller",
-"TFOperation","controller","ToNodeDef","property factory controller",
-"TFOperation","controller","get","factory wrapper",
-"TFOperation","controller","get","property factory collaborator",
-"OpDef","unclassified","OpDef","constructor",
-"OpDef","unclassified","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper",
-"OpDef","unclassified","get","get",
-"OpDef","unclassified","set","set",
-"OpDef","unclassified","get","get collaborator",
-"OpDef","unclassified","get","get collaborator",
-"OpDef","unclassified","get","get collaborator",
-"OpDef","unclassified","get","get collaborator",
-"OpDef","unclassified","set","set collaborator",
-"OpDef","unclassified","get","get",
-"OpDef","unclassified","set","set",
-"OpDef","unclassified","get","get",
-"OpDef","unclassified","set","set",
-"OpDef","unclassified","get","get",
-"OpDef","unclassified","set","set",
-"OpDef","unclassified","get","get",
-"OpDef","unclassified","set","set",
-"OpDef","unclassified","get","get",
-"OpDef","unclassified","set","set",
-"OpDef","unclassified","get","get",
-"OpDef","unclassified","set","set",
-"NameAttrList","data-provider","NameAttrList","constructor",
-"NameAttrList","data-provider","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper",
-"NameAttrList","data-provider","get","get",
-"NameAttrList","data-provider","set","set",
-"NameAttrList","data-provider","get","get collaborator",
-"TFDisposable","commander","TFDisposable","constructor",
-"TFDisposable","commander","TFDisposable","constructor",
-"TFDisposable","commander","TFDisposable","constructor",
-"TFDisposable","commander","Dispose","command",
-"TFDisposable","commander","~TFDisposable","destructor",
-"TFDisposable","commander","Dispose","set",
-"TFDisposable","commander","get","get",
-"TFDisposable","commander","set","set",
-"TensorTests","boundary degenerate","Should_MultidimensionalAndJaggedBeEqual","wrapper stateless",
-"TensorTests","boundary degenerate","StringTestWithMultiDimStringTensorAsInputOutput","wrapper stateless",
-"TensorTests","boundary degenerate","StringTestWithMultiDimStringTensorAsInputAndScalarStringAsOutput","wrapper stateless",
-"TensorTests","boundary degenerate","DevicePlacementTest","controller stateless",
-"TensorTests","boundary degenerate","ConstructBoolTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructByteTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructSignedByteTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructShortTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructUnsignedShortTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructIntTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructLongTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructComplexTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructFloatTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructDoubleTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructBoolArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructByteArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructSignedByteArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructShortArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructUnsignedShortArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructIntArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructMultiDimIntArrayTensor","controller stateless",
-"TensorTests","boundary degenerate","ConstructJaggedIntArrayTensor","controller stateless",
-"TensorTests","boundary degenerate","ConstructLongArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstrucComplexArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructFloatArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","ConstructDoubleArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetMultiDimArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetMultiDimArrayTensorWithJagged","wrapper stateless",
-"TensorTests","boundary degenerate","SetJaggedArrayTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetBoolTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetByteTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetSignedByteTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetShortTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetUnsignedShortTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetIntTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetLongTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetComplexTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetFloatTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetDoubleTensor","wrapper stateless",
-"TensorTests","boundary degenerate","SetTensorWithWrongType","wrapper stateless",
-"TensorTests","boundary degenerate","SetArrayTensorWithSimple","wrapper stateless",
-"TensorTests","boundary degenerate","SetArrayTensorWithWrongDimensions","wrapper stateless",
-"TensorTests","boundary degenerate","SetArrayTensorWithWrongLength","wrapper stateless",
-"TensorTests","boundary degenerate","SetJaggedArrayTensorWithWrongDimensions","wrapper stateless",
-"TensorTests","boundary degenerate","SetJaggedArrayTensorWithWrongLength","wrapper stateless",
-"TFOutput","small-class","TFOutput","constructor",
-"TFOutput","small-class","TFOutput","copy-constructor",
-"TFOutput","small-class","ToString","property wrapper",
-"TFOutput","small-class","get","factory wrapper",
-"OpList","data-provider boundary small-class","OpList","constructor",
-"OpList","data-provider boundary small-class","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper",
-"OpList","data-provider boundary small-class","get","get collaborator",
-"AdaGradOptimizer","empty","AdaGradOptimizer","copy-constructor",
-"DataConverter","data-provider boundary lazy-class degenerate","GetBytes","wrapper stateless",
-"DataConverter","data-provider boundary lazy-class degenerate","GetBytes","wrapper stateless",
-"DataConverter","data-provider boundary lazy-class degenerate","GetBytes","wrapper stateless",
-"DataConverter","data-provider boundary lazy-class degenerate","GetBytes","wrapper stateless",
-"DataConverter","data-provider boundary lazy-class degenerate","GetBytes","wrapper stateless",
-"DataConverter","data-provider boundary lazy-class degenerate","GetBytes","wrapper stateless",
-"DataConverter","data-provider boundary lazy-class degenerate","GetBytes","wrapper stateless",
-"DataConverter","data-provider boundary lazy-class degenerate","GetBytes","wrapper stateless",
-"DataConverter","data-provider boundary lazy-class degenerate","Check","stateless",
-"DataConverter","data-provider boundary lazy-class degenerate","get","property",
-"DataConverter","data-provider boundary lazy-class degenerate","get","property",
-"DataConverter","data-provider boundary lazy-class degenerate","get","get",
-"TFLibrary","degenerate small-class","TFLibrary","constructor",
-"TFLibrary","degenerate small-class","GetOpList","factory wrapper stateless",
-"TFLibrary","degenerate small-class","NativeDispose","wrapper stateless",
-"AttrValue","boundary","AttrValue","constructor",
-"AttrValue","boundary","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper",
-"AttrValue","boundary","get","get",
-"AttrValue","boundary","set","set",
-"AttrValue","boundary","get","get",
-"AttrValue","boundary","set","set",
-"AttrValue","boundary","get","get",
-"AttrValue","boundary","set","set",
-"AttrValue","boundary","get","get",
-"AttrValue","boundary","set","set",
-"AttrValue","boundary","get","get collaborator",
-"AttrValue","boundary","set","set collaborator",
-"AttrValue","boundary","get","get collaborator",
-"AttrValue","boundary","set","set collaborator",
-"AttrValue","boundary","get","get collaborator",
-"AttrValue","boundary","set","set collaborator",
-"AttrValue","boundary","get","get collaborator",
-"AttrValue","boundary","set","set collaborator",
-"AttrValue","boundary","get","get collaborator",
-"AttrValue","boundary","set","set collaborator",
-"AttrValue","boundary","get","get",
-"AttrValue","boundary","set","set",
-"GettingStartedTests","degenerate","Version","wrapper stateless",
-"GettingStartedTests","degenerate","Basic","controller stateless",
-"GettingStartedTests","degenerate","Variables","controller stateless",
-"GettingStartedTests","degenerate","BasicConstantOps","controller stateless",
-"GettingStartedTests","degenerate","BasicConstantZerosAndOnes","wrapper stateless",
-"GettingStartedTests","degenerate","BasicConstantsOnSymmetricalShapes","wrapper stateless",
-"GettingStartedTests","degenerate","BasicConstantsUnSymmetrical","controller stateless",
-"GettingStartedTests","degenerate","BasicMultidimensionalArray","controller stateless",
-"GettingStartedTests","degenerate","BasicMatrix","controller stateless",
-"SGD","empty","SGD","copy-constructor",
-"MainClass","controller degenerate","Placeholder","controller stateless",
-"MainClass","controller degenerate","ScalarConst","controller stateless",
-"MainClass","controller degenerate","Add","controller stateless",
-"MainClass","controller degenerate","TestImportGraphDef","command collaborator",
-"MainClass","controller degenerate","TestSession","command collaborator",
-"MainClass","controller degenerate","TestOperationOutputListSize","controller stateless",
-"MainClass","controller degenerate","TestOutputShape","wrapper stateless",
-"MainClass","controller degenerate","WhileTest","wrapper stateless",
-"MainClass","controller degenerate","ExpectMeta","controller stateless",
-"MainClass","controller degenerate","AttributesTest","command collaborator",
-"MainClass","controller degenerate","GetAttributesTest","controller stateless",
-"MainClass","controller degenerate","AddControlInput","command collaborator",
-"MainClass","controller degenerate","TestParametersWithIndexes","controller stateless",
-"MainClass","controller degenerate","BasicConstantOps","controller stateless",
-"MainClass","controller degenerate","BasicVariables","controller stateless",
-"MainClass","controller degenerate","TestVariable","controller stateless",
-"MainClass","controller degenerate","BasicMultidimensionalArray","controller stateless",
-"MainClass","controller degenerate","BasicMatrix","controller stateless",
-"MainClass","controller degenerate","ArgMax","controller stateless",
-"MainClass","controller degenerate","Extract","controller stateless",
-"MainClass","controller degenerate","NearestNeighbor","controller stateless",
-"MainClass","controller degenerate","LinearRegression","controller stateless",
-"ApiDefMap","unclassified","ApiDefMap","constructor",
-"ApiDefMap","unclassified","IDisposable.Dispose","command",
-"ApiDefMap","unclassified","~ApiDefMap","destructor",
-"ApiDefMap","unclassified","Dispose","set",
-"ApiDefMap","unclassified","Get","property wrapper",
-"ApiDefMap","unclassified","Put","predicate wrapper",
-"OpDeprecation","unclassified","OpDeprecation","constructor",
-"OpDeprecation","unclassified","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper",
-"OpDeprecation","unclassified","get","get",
-"OpDeprecation","unclassified","set","set",
-"OpDeprecation","unclassified","get","get",
-"OpDeprecation","unclassified","set","set",
-"MnistImage","empty","MnistImage","constructor",
-"TensorProto","data-provider","TensorProto","constructor",
-"TensorProto","data-provider","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper",
-"TensorProto","data-provider","get","get collaborator",
-"TensorProto","data-provider","set","set collaborator",
-"TensorProto","data-provider","get","get collaborator",
-"TensorProto","data-provider","set","set collaborator",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","set","set",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","set","set",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","get","get",
-"TensorProto","data-provider","get","get collaborator",
-"TFException","empty","TFException","constructor",
-"TFBuffer","boundary degenerate small-class","TFBuffer","constructor",
-"TFBuffer","boundary degenerate small-class","TFBuffer","constructor",
-"TFBuffer","boundary degenerate small-class","TFBuffer","constructor",
-"TFBuffer","boundary degenerate small-class","TFBuffer","constructor",
-"TFBuffer","boundary degenerate small-class","TFBuffer","constructor",
-"TFBuffer","boundary degenerate small-class","TFBuffer","constructor",
-"TFBuffer","boundary degenerate small-class","NativeDispose","wrapper stateless",
-"TFBuffer","boundary degenerate small-class","ToArray","wrapper stateless",
-"TFCore","empty","TFCore","constructor",
-"ResourceHandle","unclassified","ResourceHandle","constructor",
-"ResourceHandle","unclassified","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper",
-"ResourceHandle","unclassified","get","get",
-"ResourceHandle","unclassified","set","set",
-"ResourceHandle","unclassified","get","get",
-"ResourceHandle","unclassified","set","set",
-"ResourceHandle","unclassified","get","get",
-"ResourceHandle","unclassified","set","set",
-"ResourceHandle","unclassified","get","get",
-"ResourceHandle","unclassified","set","set",
-"ResourceHandle","unclassified","get","get",
-"ResourceHandle","unclassified","set","set",
-"QueueBase","empty","QueueBase","constructor",
-"TFAttributeMetadata","boundary degenerate small-class","ToString","wrapper stateless",
-"OpGenerator","boundary","CSharpType","controller stateless",
-"OpGenerator","boundary","IsReferenceType","controller stateless",
-"OpGenerator","boundary","ParamMap","incidental",
-"OpGenerator","boundary","IsListArg","collaborator incidental",
-"OpGenerator","boundary","SetupArguments","command collaborator",
-"OpGenerator","boundary","FillArguments","property non-void-command collaborator",
-"OpGenerator","boundary","Comment","controller stateless",
-"OpGenerator","boundary","GenDocs","void-accessor command collaborator",
-"OpGenerator","boundary","SetAttribute","command collaborator",
-"OpGenerator","boundary","Generate","command collaborator",
-"OpGenerator","boundary","GetOpsList","property set factory collaborator",
-"OpGenerator","boundary","UpdateApis","command collaborator",
-"OpGenerator","boundary","Run","void-accessor command collaborator",
-"AdamOptimizer","empty","AdamOptimizer","copy-constructor",
-"TFDisposableThreadSafe","commander data-class small-class","TFDisposableThreadSafe","constructor",
-"TFDisposableThreadSafe","commander data-class small-class","TFDisposableThreadSafe","constructor",
-"TFDisposableThreadSafe","commander data-class small-class","Dispose","set",
-"TFSessionOptions","degenerate","TFSessionOptions","constructor",
-"TFSessionOptions","degenerate","NativeDispose","wrapper stateless",
-"TFSessionOptions","degenerate","SetTarget","wrapper stateless",
-"TFSessionOptions","degenerate","SetConfig","controller stateless",
-"TFScope","commander data-class small-class","TFScope","constructor",
-"TFScope","commander data-class small-class","Dispose","set",
-"PaddingFIFOQueue","entity boundary","PaddingFIFOQueue","constructor",
-"PaddingFIFOQueue","entity boundary","Enqueue","property non-void-command collaborator",
-"PaddingFIFOQueue","entity boundary","EnqueueExecute","property non-void-command collaborator",
-"PaddingFIFOQueue","entity boundary","Dequeue","property non-void-command collaborator",
-"PaddingFIFOQueue","entity boundary","DequeueExecute","property non-void-command collaborator",
-"PaddingFIFOQueue","entity boundary","DequeueExecute<T>","property non-void-command collaborator",
-"PaddingFIFOQueue","entity boundary","GetSize","property non-void-command collaborator",
-"PaddingFIFOQueue","entity boundary","GetSizeExecute","property non-void-command collaborator",
-"TFDevice","commander data-class small-class","TFDevice","constructor",
-"TFDevice","commander data-class small-class","Dispose","set",
-"TFGraphUnowned","degenerate small-class","TFGraphUnowned","constructor",
-"TFGraphUnowned","degenerate small-class","NativeDispose","empty",
-"TFFunction","degenerate","TFFunction","constructor",
-"TFFunction","degenerate","ToFunctionDef","controller stateless",
-"TFFunction","degenerate","NativeDispose","wrapper stateless",
-"TFFunction","degenerate","ImportFunctionDef","factory controller stateless",
-"TFDependencies","commander data-class small-class","TFDependencies","constructor",
-"TFDependencies","commander data-class small-class","Dispose","set",
-"TFOperationDesc","data-provider boundary","TFOperationDesc","constructor",
-"TFOperationDesc","data-provider boundary","NativeDispose","incidental",
-"TFOperationDesc","data-provider boundary","SetDevice","get wrapper",
-"TFOperationDesc","data-provider boundary","AddInput","get wrapper",
-"TFOperationDesc","data-provider boundary","AddInputs","get wrapper",
-"TFOperationDesc","data-provider boundary","AddControlInput","get wrapper",
-"TFOperationDesc","data-provider boundary","ColocateWith","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttr","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttr","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttr","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttr","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttr","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttr","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttr","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttr","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttrType","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttrType","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttrShape","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttrShape","get wrapper",
-"TFOperationDesc","data-provider boundary","SetAttrTensorShapeProto","get controller",
-"TFOperationDesc","data-provider boundary","SetAttr","get controller",
-"TFOperationDesc","data-provider boundary","SetAttr","get controller",
-"TFOperationDesc","data-provider boundary","FinishOperation","property set factory collaborator",
-"TFOperationDesc","data-provider boundary","SetAttribute","wrapper stateless",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","createFromMultidimensionalArrays","controller stateless",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","NativeDispose","wrapper stateless",
-"TFTensor","boundary lazy-class degenerate","TFTensor","constructor",
-"TFTensor","boundary lazy-class degenerate","GetTensorDimension","wrapper stateless",
-"TFTensor","boundary lazy-class degenerate","GetShape","wrapper stateless",
-"TFTensor","boundary lazy-class degenerate","get","get set",
-"DeviceAttributes","empty","DeviceAttributes","constructor",
-"TFImportGraphDefOptions","boundary degenerate","TFImportGraphDefOptions","constructor",
-"TFImportGraphDefOptions","boundary degenerate","NativeDispose","wrapper stateless",
-"TFImportGraphDefOptions","boundary degenerate","SetPrefix","wrapper stateless",
-"TFImportGraphDefOptions","boundary degenerate","AddInputMapping","wrapper stateless",
-"TFImportGraphDefOptions","boundary degenerate","AddControlDependency","wrapper stateless",
-"TFImportGraphDefOptions","boundary degenerate","AddReturnOutput","wrapper stateless",
-"TFImportGraphDefOptions","boundary degenerate","RemapControlDependency","wrapper stateless",
-"TFImportGraphDefOptions","boundary degenerate","SetUniquifyNames","wrapper stateless",
-"TFImportGraphDefOptions","boundary degenerate","SetUniquifyPrefix","wrapper stateless",
-"TFImportGraphDefOptions","boundary degenerate","get","wrapper stateless",
-"CondTests","boundary degenerate small-class","Should_ExecuteOnlyOne","wrapper stateless",
-"TFSession","controller","TFSession","constructor",
-"TFSession","controller","TFSession","copy-constructor",
-"TFSession","controller","TFSession","constructor",
-"TFSession","controller","TFSession","constructor",
-"TFSession","controller","ListDevices","factory controller stateless",
-"TFSession","controller","CloseSession","controller stateless",
-"TFSession","controller","DeleteSession","controller stateless",
-"TFSession","controller","NativeDispose","wrapper stateless",
-"TFSession","controller","GetRunner","property factory collaborator",
-"TFSession","controller","Run","factory controller",
-"TFSession","controller","Run","controller stateless",
-"TFSession","controller","PartialRunSetup","property factory controller",
-"TFSession","controller","PartialRun","factory controller",
-"TFSession","controller","RestoreTensor","property non-void-command collaborator",
-"TFSession","controller","SaveTensors","property non-void-command collaborator",
-"TFInput","boundary degenerate small-class","GetOutput","wrapper stateless",
-"TFShape","entity boundary","TFShape","constructor",
-"TFShape","entity boundary","ToArray","property non-void-command collaborator",
-"TFShape","entity boundary","ToIntArray","property",
-"TFShape","entity boundary","ToString","property non-void-command",
-"TFShape","entity boundary","AsTensor","property non-void-command factory collaborator",
-"TFShape","entity boundary","get","predicate collaborator",
-"TFShape","entity boundary","get","predicate collaborator",
-"VariableTests","boundary degenerate","ShouldNotShareVariablesSameTypeNoName","wrapper stateless",
-"VariableTests","boundary degenerate","ShouldNotShareVariablesSameType","wrapper stateless",
-"VariableTests","boundary degenerate","ShouldNotShareVariablesDifferentTypeNoName","wrapper stateless",
-"VariableTests","boundary degenerate","ShouldNotShareVariablesDifferentType","wrapper stateless",
-"Variable","controller data-class small-class","ReadAfter","get property controller",
-"Variable","controller data-class small-class","Variable","constructor",
+"ShapeTests","boundary degenerate small-class","Should_ShapeAutomaticallyConvertToTensor","wrapper stateless"
+"SessionTests","pure-controller degenerate small-class","Should_ListDeviceReturnDevices","controller stateless"
+"SessionTests","pure-controller degenerate small-class","ParseOutput_ThrowsForMissingOp","controller stateless"
+"PaddingFIFOQueueTests","pure-controller degenerate small-class","Should_EnqueueAndDequeue_ScalarValues","controller stateless"
+"MathTests","boundary degenerate","Should_CalculateTanhGrad_Correctly","wrapper stateless"
+"MathTests","boundary degenerate","Should_ReduceMean","wrapper stateless"
+"MathTests","boundary degenerate","Should_SigmoidCrossEntropyWithLogits","wrapper stateless"
+"MathTests","boundary degenerate","Should_ReduceProd","wrapper stateless"
+"MathTests","boundary degenerate","Should_ReduceProd2","wrapper stateless"
+"GradientTests","boundary small-class","ShouldAddGradients","wrapper stateless"
+"GradientTests","boundary small-class","ComputeGradientMSE","wrapper"
+"ImageEditor","commander small-class","ImageEditor","constructor"
+"ImageEditor","commander small-class","AddBox","command collaborator"
+"ImageEditor","commander small-class","Dispose","command"
+"AdaptiveOptimizer","empty","AdaptiveOptimizer","constructor"
+"TFStatus","entity boundary degenerate","TFStatus","constructor"
+"TFStatus","entity boundary degenerate","NativeDispose","wrapper stateless"
+"TFStatus","entity boundary degenerate","SetStatusCode","wrapper stateless"
+"TFStatus","entity boundary degenerate","ToString","wrapper stateless"
+"TFStatus","entity boundary degenerate","Raise","wrapper stateless"
+"TFStatus","entity boundary degenerate","CheckMaybeRaise","predicate non-void-command collaborator"
+"TFStatus","entity boundary degenerate","get","wrapper stateless"
+"TFDisposable","commander","TFDisposable","constructor"
+"TFDisposable","commander","TFDisposable","constructor"
+"TFDisposable","commander","TFDisposable","constructor"
+"TFDisposable","commander","Dispose","command"
+"TFDisposable","commander","~TFDisposable","destructor"
+"TFDisposable","commander","Dispose","set"
+"TFDisposable","commander","get","get"
+"TFDisposable","commander","set","set"
+"TensorTests","boundary degenerate","Should_MultidimensionalAndJaggedBeEqual","wrapper stateless"
+"TensorTests","boundary degenerate","StringTestWithMultiDimStringTensorAsInputOutput","wrapper stateless"
+"TensorTests","boundary degenerate","StringTestWithMultiDimStringTensorAsInputAndScalarStringAsOutput","wrapper stateless"
+"TensorTests","boundary degenerate","DevicePlacementTest","controller stateless"
+"TensorTests","boundary degenerate","ConstructBoolTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructByteTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructSignedByteTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructShortTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructUnsignedShortTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructIntTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructLongTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructComplexTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructFloatTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructDoubleTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructBoolArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructByteArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructSignedByteArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructShortArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructUnsignedShortArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructIntArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructMultiDimIntArrayTensor","controller stateless"
+"TensorTests","boundary degenerate","ConstructJaggedIntArrayTensor","controller stateless"
+"TensorTests","boundary degenerate","ConstructLongArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstrucComplexArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructFloatArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","ConstructDoubleArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetMultiDimArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetMultiDimArrayTensorWithJagged","wrapper stateless"
+"TensorTests","boundary degenerate","SetJaggedArrayTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetBoolTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetByteTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetSignedByteTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetShortTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetUnsignedShortTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetIntTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetLongTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetComplexTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetFloatTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetDoubleTensor","wrapper stateless"
+"TensorTests","boundary degenerate","SetTensorWithWrongType","wrapper stateless"
+"TensorTests","boundary degenerate","SetArrayTensorWithSimple","wrapper stateless"
+"TensorTests","boundary degenerate","SetArrayTensorWithWrongDimensions","wrapper stateless"
+"TensorTests","boundary degenerate","SetArrayTensorWithWrongLength","wrapper stateless"
+"TensorTests","boundary degenerate","SetJaggedArrayTensorWithWrongDimensions","wrapper stateless"
+"TensorTests","boundary degenerate","SetJaggedArrayTensorWithWrongLength","wrapper stateless"
+"TFOutput","small-class","TFOutput","constructor"
+"TFOutput","small-class","TFOutput","copy-constructor"
+"TFOutput","small-class","ToString","property wrapper"
+"TFOutput","small-class","get","factory wrapper"
+"TFGraph","boundary","Abort","property non-void-command collaborator"
+"TFGraph","boundary","Abs","non-void-command factory collaborator"
+"TFGraph","boundary","AccumulateNV2","non-void-command factory collaborator"
+"TFGraph","boundary","AccumulatorApplyGradient","property non-void-command collaborator"
+"TFGraph","boundary","AccumulatorNumAccumulated","non-void-command factory collaborator"
+"TFGraph","boundary","AccumulatorSetGlobalStep","property non-void-command collaborator"
+"TFGraph","boundary","AccumulatorTakeGradient","non-void-command factory collaborator"
+"TFGraph","boundary","Acos","non-void-command factory collaborator"
+"TFGraph","boundary","Acosh","non-void-command factory collaborator"
+"TFGraph","boundary","Add","non-void-command factory collaborator"
+"TFGraph","boundary","AddManySparseToTensorsMap","non-void-command factory collaborator"
+"TFGraph","boundary","AddN","non-void-command factory collaborator"
+"TFGraph","boundary","AddSparseToTensorsMap","non-void-command factory collaborator"
+"TFGraph","boundary","AddV2","non-void-command factory collaborator"
+"TFGraph","boundary","AdjustContrast","non-void-command factory collaborator"
+"TFGraph","boundary","AdjustContrastv2","non-void-command factory collaborator"
+"TFGraph","boundary","AdjustHue","non-void-command factory collaborator"
+"TFGraph","boundary","AdjustSaturation","non-void-command factory collaborator"
+"TFGraph","boundary","All","non-void-command factory collaborator"
+"TFGraph","boundary","Const","wrapper stateless"
+"TFGraph","boundary","ReduceDims","property non-void-command collaborator"
+"TFGraph","boundary","ReduceSum","property non-void-command collaborator"
+"TFGraph","boundary","ReduceProd","property non-void-command collaborator"
+"TFGraph","boundary","ReduceMean","property non-void-command collaborator"
+"TFGraph","boundary","MakeVariable","non-void-command factory collaborator"
+"TFGraph","boundary","Variable","property non-void-command collaborator"
+"TFGraph","boundary","AddInitVariable","set collaborator"
+"TFGraph","boundary","AddTrainableVariable","set collaborator"
+"TFGraph","boundary","GetGlobalVariablesInitializer","property non-void-command collaborator"
+"TFGraph","boundary","Variable","property non-void-command collaborator"
+"TFGraph","boundary","Variable","property non-void-command collaborator"
+"TFGraph","boundary","ShapeTensorOutput","property non-void-command collaborator"
+"TFGraph","boundary","GetRandomSeeds","void-accessor"
+"TFGraph","boundary","Dropout","property non-void-command collaborator"
+"TFGraph","boundary","Dropout","property non-void-command collaborator"
+"TFGraph","boundary","ClipByNorm","property non-void-command collaborator"
+"TFGraph","boundary","GlobalNorm","property non-void-command collaborator"
+"TFGraph","boundary","ClipByAverageNorm","property non-void-command collaborator"
+"TFGraph","boundary","SigmoidCrossEntropyWithLogits","property non-void-command collaborator"
+"TFGraph","boundary","Transpose","wrapper stateless"
+"TFGraph","boundary","Cond","property non-void-command collaborator"
+"TFGraph","boundary","Where","property non-void-command collaborator"
+"TFGraph","boundary","Stack","wrapper stateless"
+"TFGraph","boundary","Range","property non-void-command collaborator"
+"TFGraph","boundary","Zeros","property non-void-command collaborator"
+"TFGraph","boundary","Ones","property non-void-command collaborator"
+"TFGraph","boundary","Constant","controller stateless"
+"TFGraph","boundary","RandomNormal","property non-void-command collaborator"
+"TFGraph","boundary","RandomUniform","property non-void-command collaborator"
+"TFGraph","boundary","RandomUniform","property non-void-command collaborator"
+"TFGraph","boundary","TFGraph","constructor"
+"TFGraph","boundary","TFGraph","constructor"
+"TFGraph","boundary","NativeDispose","wrapper stateless"
+"TFGraph","boundary","SetTensorShape","controller stateless"
+"TFGraph","boundary","GetTensorNumDims","controller stateless"
+"TFGraph","boundary","GetTensorShape","factory controller stateless"
+"TFGraph","boundary","ToGraphDef","controller stateless"
+"TFGraph","boundary","Import","command collaborator"
+"TFGraph","boundary","Import","controller stateless"
+"TFGraph","boundary","Import","command collaborator"
+"TFGraph","boundary","Import","command collaborator"
+"TFGraph","boundary","GetEnumerator","property factory wrapper"
+"TFGraph","boundary","GetShape","controller stateless"
+"TFGraph","boundary","WithScope","set factory collaborator"
+"TFGraph","boundary","WithDevice","set factory collaborator"
+"TFGraph","boundary","WithDependencies","property factory collaborator"
+"TFGraph","boundary","MakeName","property non-void-command collaborator"
+"TFGraph","boundary","MakeUnique","property set"
+"TFGraph","boundary","GetNextId","property set"
+"TFGraph","boundary","ImportGraphDef","wrapper stateless"
+"TFGraph","boundary","While","property non-void-command factory collaborator"
+"TFGraph","boundary","AddGradients","factory controller stateless"
+"TFGraph","boundary","AddGradients","factory controller stateless"
+"TFGraph","boundary","ToFunction","property factory controller"
+"TFGraph","boundary","Versions","controller stateless"
+"TFGraph","boundary","TryEvaluateConstant","controller stateless"
+"TFGraph","boundary","ToString","wrapper stateless"
+"TFGraph","boundary","get","property factory wrapper"
+"TFGraph","boundary","get","factory wrapper stateless"
+"OptimizerTests","pure-controller","OptimizerTests","constructor"
+"OptimizerTests","pure-controller","LinearRegresionTrainingTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingSGDWithDecayTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingMomentumTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingMomentumWithDecayTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingMomentumNesterovTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingMomentumNesterovWithTimeDecayTest","controller"
+"OptimizerTests","pure-controller","MNISTTwoHiddenLayerNetworkTest","controller"
+"OptimizerTests","pure-controller","GetVariable","controller stateless"
+"OptimizerTests","pure-controller","MNISTTwoHiddenLayerNetworkGPUTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingWithAdagradTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingWithAdagradDecayTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingWithRMSPropTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingWithRMSPropDecayTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingWithAdamOptimizerTest","controller"
+"OptimizerTests","pure-controller","LinearRegresionTrainingWithAdamOptimizerDecayTest","controller"
+"RMSPropOptimizer","empty","RMSPropOptimizer","copy-constructor"
+"MonoPInvokeCallbackAttribute","empty","MonoPInvokeCallbackAttribute","constructor"
+"TensorShapeProto","data-provider","TensorShapeProto","constructor"
+"TensorShapeProto","data-provider","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper"
+"TensorShapeProto","data-provider","get","get collaborator"
+"TensorShapeProto","data-provider","get","get"
+"TensorShapeProto","data-provider","set","set"
+"Optimizer","entity boundary small-class","Optimizer","constructor"
+"Optimizer","entity boundary small-class","CreateDecayOps","property non-void-command collaborator"
+"TFOperation","controller","TFOperation","constructor"
+"TFOperation","controller","OutputListLength","property controller"
+"TFOperation","controller","InputListLength","property controller"
+"TFOperation","controller","GetAttributeMetadata","property controller"
+"TFOperation","controller","GetAttributeType","factory controller"
+"TFOperation","controller","GetAttributeShape","property factory controller"
+"TFOperation","controller","ToNodeDef","property factory controller"
+"TFOperation","controller","get","factory wrapper"
+"TFOperation","controller","get","property factory collaborator"
+"OpDef","unclassified","OpDef","constructor"
+"OpDef","unclassified","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper"
+"OpDef","unclassified","get","get"
+"OpDef","unclassified","set","set"
+"OpDef","unclassified","get","get collaborator"
+"OpDef","unclassified","get","get collaborator"
+"OpDef","unclassified","get","get collaborator"
+"OpDef","unclassified","get","get collaborator"
+"OpDef","unclassified","set","set collaborator"
+"OpDef","unclassified","get","get"
+"OpDef","unclassified","set","set"
+"OpDef","unclassified","get","get"
+"OpDef","unclassified","set","set"
+"OpDef","unclassified","get","get"
+"OpDef","unclassified","set","set"
+"OpDef","unclassified","get","get"
+"OpDef","unclassified","set","set"
+"OpDef","unclassified","get","get"
+"OpDef","unclassified","set","set"
+"OpDef","unclassified","get","get"
+"OpDef","unclassified","set","set"
+"NameAttrList","data-provider","NameAttrList","constructor"
+"NameAttrList","data-provider","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper"
+"NameAttrList","data-provider","get","get"
+"NameAttrList","data-provider","set","set"
+"NameAttrList","data-provider","get","get collaborator"
+"OpList","data-provider boundary small-class","OpList","constructor"
+"OpList","data-provider boundary small-class","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper"
+"OpList","data-provider boundary small-class","get","get collaborator"
+"AdaGradOptimizer","empty","AdaGradOptimizer","copy-constructor"
+"DataConverter","boundary degenerate","GetBytes","wrapper stateless"
+"DataConverter","boundary degenerate","GetBytes","wrapper stateless"
+"DataConverter","boundary degenerate","GetBytes","wrapper stateless"
+"DataConverter","boundary degenerate","GetBytes","wrapper stateless"
+"DataConverter","boundary degenerate","GetBytes","wrapper stateless"
+"DataConverter","boundary degenerate","GetBytes","wrapper stateless"
+"DataConverter","boundary degenerate","GetBytes","wrapper stateless"
+"DataConverter","boundary degenerate","GetBytes","wrapper stateless"
+"DataConverter","boundary degenerate","Check","stateless"
+"TFLibrary","degenerate small-class","TFLibrary","constructor"
+"TFLibrary","degenerate small-class","GetOpList","factory wrapper stateless"
+"TFLibrary","degenerate small-class","NativeDispose","wrapper stateless"
+"AttrValue","boundary","AttrValue","constructor"
+"AttrValue","boundary","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper"
+"AttrValue","boundary","get","get"
+"AttrValue","boundary","set","set"
+"AttrValue","boundary","get","get"
+"AttrValue","boundary","set","set"
+"AttrValue","boundary","get","get"
+"AttrValue","boundary","set","set"
+"AttrValue","boundary","get","get"
+"AttrValue","boundary","set","set"
+"AttrValue","boundary","get","get collaborator"
+"AttrValue","boundary","set","set collaborator"
+"AttrValue","boundary","get","get collaborator"
+"AttrValue","boundary","set","set collaborator"
+"AttrValue","boundary","get","get collaborator"
+"AttrValue","boundary","set","set collaborator"
+"AttrValue","boundary","get","get collaborator"
+"AttrValue","boundary","set","set collaborator"
+"AttrValue","boundary","get","get collaborator"
+"AttrValue","boundary","set","set collaborator"
+"AttrValue","boundary","get","get"
+"AttrValue","boundary","set","set"
+"GettingStartedTests","degenerate","Version","wrapper stateless"
+"GettingStartedTests","degenerate","Basic","controller stateless"
+"GettingStartedTests","degenerate","Variables","controller stateless"
+"GettingStartedTests","degenerate","BasicConstantOps","controller stateless"
+"GettingStartedTests","degenerate","BasicConstantZerosAndOnes","wrapper stateless"
+"GettingStartedTests","degenerate","BasicConstantsOnSymmetricalShapes","wrapper stateless"
+"GettingStartedTests","degenerate","BasicConstantsUnSymmetrical","controller stateless"
+"GettingStartedTests","degenerate","BasicMultidimensionalArray","controller stateless"
+"GettingStartedTests","degenerate","BasicMatrix","controller stateless"
+"SGD","empty","SGD","copy-constructor"
+"MainClass","controller degenerate","Placeholder","controller stateless"
+"MainClass","controller degenerate","ScalarConst","controller stateless"
+"MainClass","controller degenerate","Add","controller stateless"
+"MainClass","controller degenerate","TestImportGraphDef","command collaborator"
+"MainClass","controller degenerate","TestSession","command collaborator"
+"MainClass","controller degenerate","TestOperationOutputListSize","controller stateless"
+"MainClass","controller degenerate","TestOutputShape","wrapper stateless"
+"MainClass","controller degenerate","WhileTest","wrapper stateless"
+"MainClass","controller degenerate","ExpectMeta","controller stateless"
+"MainClass","controller degenerate","AttributesTest","command collaborator"
+"MainClass","controller degenerate","GetAttributesTest","controller stateless"
+"MainClass","controller degenerate","AddControlInput","command collaborator"
+"MainClass","controller degenerate","TestParametersWithIndexes","controller stateless"
+"MainClass","controller degenerate","BasicConstantOps","controller stateless"
+"MainClass","controller degenerate","BasicVariables","controller stateless"
+"MainClass","controller degenerate","TestVariable","controller stateless"
+"MainClass","controller degenerate","BasicMultidimensionalArray","controller stateless"
+"MainClass","controller degenerate","BasicMatrix","controller stateless"
+"MainClass","controller degenerate","ArgMax","controller stateless"
+"MainClass","controller degenerate","Extract","controller stateless"
+"MainClass","controller degenerate","NearestNeighbor","controller stateless"
+"MainClass","controller degenerate","LinearRegression","controller stateless"
+"ApiDefMap","unclassified","ApiDefMap","constructor"
+"ApiDefMap","unclassified","IDisposable.Dispose","command"
+"ApiDefMap","unclassified","~ApiDefMap","destructor"
+"ApiDefMap","unclassified","Dispose","set"
+"ApiDefMap","unclassified","Get","property wrapper"
+"ApiDefMap","unclassified","Put","predicate wrapper"
+"OpDeprecation","unclassified","OpDeprecation","constructor"
+"OpDeprecation","unclassified","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper"
+"OpDeprecation","unclassified","get","get"
+"OpDeprecation","unclassified","set","set"
+"OpDeprecation","unclassified","get","get"
+"OpDeprecation","unclassified","set","set"
+"MnistImage","empty","MnistImage","constructor"
+"TensorProto","data-provider","TensorProto","constructor"
+"TensorProto","data-provider","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper"
+"TensorProto","data-provider","get","get collaborator"
+"TensorProto","data-provider","set","set collaborator"
+"TensorProto","data-provider","get","get collaborator"
+"TensorProto","data-provider","set","set collaborator"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","set","set"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","set","set"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","get","get"
+"TensorProto","data-provider","get","get collaborator"
+"TFException","empty","TFException","constructor"
+"TFBuffer","boundary degenerate small-class","TFBuffer","constructor"
+"TFBuffer","boundary degenerate small-class","TFBuffer","constructor"
+"TFBuffer","boundary degenerate small-class","TFBuffer","constructor"
+"TFBuffer","boundary degenerate small-class","TFBuffer","constructor"
+"TFBuffer","boundary degenerate small-class","TFBuffer","constructor"
+"TFBuffer","boundary degenerate small-class","TFBuffer","constructor"
+"TFBuffer","boundary degenerate small-class","NativeDispose","wrapper stateless"
+"TFBuffer","boundary degenerate small-class","ToArray","wrapper stateless"
+"ResourceHandle","unclassified","ResourceHandle","constructor"
+"ResourceHandle","unclassified","global::ProtoBuf.IExtensible.GetExtensionObject","property wrapper"
+"ResourceHandle","unclassified","get","get"
+"ResourceHandle","unclassified","set","set"
+"ResourceHandle","unclassified","get","get"
+"ResourceHandle","unclassified","set","set"
+"ResourceHandle","unclassified","get","get"
+"ResourceHandle","unclassified","set","set"
+"ResourceHandle","unclassified","get","get"
+"ResourceHandle","unclassified","set","set"
+"ResourceHandle","unclassified","get","get"
+"ResourceHandle","unclassified","set","set"
+"QueueBase","empty","QueueBase","constructor"
+"TFAttributeMetadata","boundary degenerate small-class","ToString","wrapper stateless"
+"ArrayTests","degenerate","BasicConstantZerosAndOnes","wrapper stateless"
+"ArrayTests","degenerate","BasicConstantsOnSymmetricalShapes","wrapper stateless"
+"ArrayTests","degenerate","BasicConstantsUnSymmetrical","controller stateless"
+"ArrayTests","degenerate","Should_Stack","wrapper stateless"
+"ArrayTests","degenerate","Should_Range","controller stateless"
+"ArrayTests","degenerate","nShould_Transpose","controller stateless"
+"OpGenerator","boundary","CSharpType","controller stateless"
+"OpGenerator","boundary","IsReferenceType","controller stateless"
+"OpGenerator","boundary","ParamMap","incidental"
+"OpGenerator","boundary","IsListArg","collaborator incidental"
+"OpGenerator","boundary","SetupArguments","command collaborator"
+"OpGenerator","boundary","FillArguments","property non-void-command collaborator"
+"OpGenerator","boundary","Comment","controller stateless"
+"OpGenerator","boundary","GenDocs","command collaborator"
+"OpGenerator","boundary","SetAttribute","command collaborator"
+"OpGenerator","boundary","Generate","command collaborator"
+"OpGenerator","boundary","GetOpsList","property set factory collaborator"
+"OpGenerator","boundary","UpdateApis","command collaborator"
+"OpGenerator","boundary","Run","command collaborator"
+"AdamOptimizer","empty","AdamOptimizer","copy-constructor"
+"PartialRunTests","boundary degenerate small-class","Should_RunPartialRun","wrapper stateless"
+"ClipTests","boundary degenerate","Should_ClipByValue","wrapper stateless"
+"ClipTests","boundary degenerate","Should_ClipByNorm","wrapper stateless"
+"ClipTests","boundary degenerate","Should_ClipByAverageNorm","wrapper stateless"
+"TFDisposableThreadSafe","commander data-class small-class","TFDisposableThreadSafe","constructor"
+"TFDisposableThreadSafe","commander data-class small-class","TFDisposableThreadSafe","constructor"
+"TFDisposableThreadSafe","commander data-class small-class","Dispose","set"
+"TFSessionOptions","degenerate","TFSessionOptions","constructor"
+"TFSessionOptions","degenerate","NativeDispose","wrapper stateless"
+"TFSessionOptions","degenerate","SetTarget","wrapper stateless"
+"TFSessionOptions","degenerate","SetConfig","controller stateless"
+"TFScope","commander data-class small-class","TFScope","constructor"
+"TFScope","commander data-class small-class","Dispose","set"
+"PaddingFIFOQueue","entity boundary","PaddingFIFOQueue","constructor"
+"PaddingFIFOQueue","entity boundary","Enqueue","property non-void-command collaborator"
+"PaddingFIFOQueue","entity boundary","EnqueueExecute","property non-void-command collaborator"
+"PaddingFIFOQueue","entity boundary","Dequeue","property non-void-command collaborator"
+"PaddingFIFOQueue","entity boundary","DequeueExecute","property non-void-command collaborator"
+"PaddingFIFOQueue","entity boundary","DequeueExecute<T>","property non-void-command collaborator"
+"PaddingFIFOQueue","entity boundary","GetSize","property non-void-command collaborator"
+"PaddingFIFOQueue","entity boundary","GetSizeExecute","property non-void-command collaborator"
+"TFDevice","commander data-class small-class","TFDevice","constructor"
+"TFDevice","commander data-class small-class","Dispose","set"
+"TFGraphUnowned","degenerate small-class","TFGraphUnowned","constructor"
+"TFGraphUnowned","degenerate small-class","NativeDispose","empty"
+"TFFunction","degenerate","TFFunction","constructor"
+"TFFunction","degenerate","ToFunctionDef","controller stateless"
+"TFFunction","degenerate","NativeDispose","wrapper stateless"
+"TFFunction","degenerate","ImportFunctionDef","factory controller stateless"
+"TFDependencies","commander data-class small-class","TFDependencies","constructor"
+"TFDependencies","commander data-class small-class","Dispose","set"
+"TFOperationDesc","data-provider boundary","TFOperationDesc","constructor"
+"TFOperationDesc","data-provider boundary","NativeDispose","incidental"
+"TFOperationDesc","data-provider boundary","SetDevice","get wrapper"
+"TFOperationDesc","data-provider boundary","AddInput","get wrapper"
+"TFOperationDesc","data-provider boundary","AddInputs","get wrapper"
+"TFOperationDesc","data-provider boundary","AddControlInput","get wrapper"
+"TFOperationDesc","data-provider boundary","ColocateWith","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttr","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttr","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttr","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttr","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttr","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttr","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttr","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttr","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttrType","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttrType","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttrShape","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttrShape","get wrapper"
+"TFOperationDesc","data-provider boundary","SetAttrTensorShapeProto","get controller"
+"TFOperationDesc","data-provider boundary","SetAttr","get controller"
+"TFOperationDesc","data-provider boundary","SetAttr","get controller"
+"TFOperationDesc","data-provider boundary","FinishOperation","property set factory collaborator"
+"TFOperationDesc","data-provider boundary","SetAttribute","wrapper stateless"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","createFromMultidimensionalArrays","controller stateless"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","NativeDispose","wrapper stateless"
+"TFTensor","boundary lazy-class degenerate","TFTensor","constructor"
+"TFTensor","boundary lazy-class degenerate","GetTensorDimension","wrapper stateless"
+"TFTensor","boundary lazy-class degenerate","GetShape","wrapper stateless"
+"TFTensor","boundary lazy-class degenerate","get","get set"
+"DeviceAttributes","empty","DeviceAttributes","constructor"
+"TFImportGraphDefOptions","boundary degenerate","TFImportGraphDefOptions","constructor"
+"TFImportGraphDefOptions","boundary degenerate","NativeDispose","wrapper stateless"
+"TFImportGraphDefOptions","boundary degenerate","SetPrefix","wrapper stateless"
+"TFImportGraphDefOptions","boundary degenerate","AddInputMapping","wrapper stateless"
+"TFImportGraphDefOptions","boundary degenerate","AddControlDependency","wrapper stateless"
+"TFImportGraphDefOptions","boundary degenerate","AddReturnOutput","wrapper stateless"
+"TFImportGraphDefOptions","boundary degenerate","RemapControlDependency","wrapper stateless"
+"TFImportGraphDefOptions","boundary degenerate","SetUniquifyNames","wrapper stateless"
+"TFImportGraphDefOptions","boundary degenerate","SetUniquifyPrefix","wrapper stateless"
+"TFImportGraphDefOptions","boundary degenerate","get","wrapper stateless"
+"CondTests","boundary degenerate small-class","Should_ExecuteOnlyOne","wrapper stateless"
+"TFSession","controller","TFSession","constructor"
+"TFSession","controller","TFSession","copy-constructor"
+"TFSession","controller","TFSession","constructor"
+"TFSession","controller","TFSession","constructor"
+"TFSession","controller","ListDevices","factory controller stateless"
+"TFSession","controller","CloseSession","controller stateless"
+"TFSession","controller","DeleteSession","controller stateless"
+"TFSession","controller","NativeDispose","wrapper stateless"
+"TFSession","controller","GetRunner","property factory collaborator"
+"TFSession","controller","Run","factory controller"
+"TFSession","controller","Run","controller stateless"
+"TFSession","controller","PartialRunSetup","property factory controller"
+"TFSession","controller","PartialRun","factory controller"
+"TFSession","controller","RestoreTensor","property non-void-command collaborator"
+"TFSession","controller","SaveTensors","property non-void-command collaborator"
+"TFInput","boundary degenerate small-class","GetOutput","wrapper stateless"
+"TFShape","entity boundary","TFShape","constructor"
+"TFShape","entity boundary","ToArray","property non-void-command collaborator"
+"TFShape","entity boundary","ToIntArray","property"
+"TFShape","entity boundary","ToString","property non-void-command"
+"TFShape","entity boundary","AsTensor","property non-void-command factory collaborator"
+"TFShape","entity boundary","get","predicate collaborator"
+"TFShape","entity boundary","get","predicate collaborator"
+"VariableTests","boundary degenerate","ShouldNotShareVariablesSameTypeNoName","wrapper stateless"
+"VariableTests","boundary degenerate","ShouldNotShareVariablesSameType","wrapper stateless"
+"VariableTests","boundary degenerate","ShouldNotShareVariablesDifferentTypeNoName","wrapper stateless"
+"VariableTests","boundary degenerate","ShouldNotShareVariablesDifferentType","wrapper stateless"
+"Variable","controller data-class small-class","ReadAfter","get property controller"
+"Variable","controller data-class small-class","Variable","constructor"
+"BitwiseOperationTests","boundary degenerate small-class","Should_EvaluateBitwiseAnd","wrapper stateless"

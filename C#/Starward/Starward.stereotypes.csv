@@ -1,1248 +1,777 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"AppConfig","commander data-class","AppConfig","constructor",
-"AppConfig","commander data-class","set","set",
-"AppConfig","commander data-class","set","set",
-"AppConfig","commander data-class","set","set",
-"ForgottenHallPage","commander boundary","ForgottenHallPage","constructor",
-"ForgottenHallPage","commander boundary","OnNavigatedTo","set collaborator",
-"ForgottenHallPage","commander boundary","OnLoaded","command",
-"ForgottenHallPage","commander boundary","InitializeForgottenHallData","command collaborator",
-"ForgottenHallPage","commander boundary","RefreshDataAsync","non-void-command collaborator",
-"ForgottenHallPage","commander boundary","ListView_ForgottenHall_SelectionChanged","command collaborator",
-"ForgottenHallPage","commander boundary","TextBlock_Deepest_IsTextTrimmedChanged","wrapper stateless",
-"miHoYoApiException","empty","miHoYoApiException","constructor",
-"MainPage","commander boundary","MainPage","constructor",
-"MainPage","commander boundary","OnLoaded","command",
-"MainPage","commander boundary","OnUnloaded","wrapper",
-"MainPage","commander boundary","RegisterMessage","command",
-"MainPage","commander boundary","CheckUpdateAsync","non-void-command collaborator",
-"MainPage","commander boundary","OnLanguageChanged","command collaborator",
-"MainPage","commander boundary","ShowRecentUpdateContentAsync","wrapper stateless",
-"MainPage","commander boundary","OnCurrentGameBizChanged","controller stateless",
-"MainPage","commander boundary","InitializeGameBiz","command",
-"MainPage","commander boundary","ChangeGameBiz","command collaborator",
-"MainPage","commander boundary","UpdateGameIcon","wrapper",
-"MainPage","commander boundary","Grid_SelectGame_SizeChanged","command collaborator",
-"MainPage","commander boundary","UpdateDragRectangles","wrapper",
-"MainPage","commander boundary","OnVideoBgVolumeChanged","set",
-"MainPage","commander boundary","InitializeBackgroundImage","command collaborator",
-"MainPage","commander boundary","UpdateBackgroundImageAsync","non-void-command collaborator",
-"MainPage","commander boundary","MediaPlayer_VideoFrameAvailable","void-accessor command collaborator",
-"MainPage","commander boundary","PlayVideo","wrapper",
-"MainPage","commander boundary","PauseVideo","set",
-"MainPage","commander boundary","InitializeNavigationViewPaneDisplayMode","collaborator stateless",
-"MainPage","commander boundary","UpdateNavigationViewItemsText","command",
-"MainPage","commander boundary","NavigationView_ItemInvoked","wrapper stateless",
-"MainPage","commander boundary","NavigateTo","command",
-"MainPage","commander boundary","GetNavigationTransitionInfo","property non-void-command factory collaborator",
-"MainPage","commander boundary","MainPage_KeyDown","void-accessor command collaborator",
-"GameAccountService","pure-controller degenerate small-class","GameAccountService","copy-constructor",
-"GameAccountService","pure-controller degenerate small-class","GetGameAccountsFromRegistry","controller stateless",
-"GenshinGachaClient","controller small-class","GenshinGachaClient","constructor",
-"GenshinGachaClient","controller small-class","GetGachaUrlPrefix","property controller",
-"SystemBackdropHelper","commander boundary","SystemBackdropHelper","constructor",
-"SystemBackdropHelper","commander boundary","ResetBackdrop","command",
-"SystemBackdropHelper","commander boundary","SetBackdropProperty","set collaborator",
-"SystemBackdropHelper","commander boundary","TrySetMica","predicate non-void-command",
-"SystemBackdropHelper","commander boundary","TrySetAcrylic","predicate non-void-command",
-"SystemBackdropHelper","commander boundary","Window_Activated","set collaborator",
-"SystemBackdropHelper","commander boundary","Window_ThemeChanged","command collaborator",
-"SystemBackdropHelper","commander boundary","Window_Closed","command collaborator",
-"SystemBackdropHelper","commander boundary","SetConfigurationSourceTheme","set",
-"SystemBackdropHelper","commander boundary","SetControllerProperties","command collaborator",
-"WindowEx","boundary degenerate","WindowEx","constructor",
-"WindowEx","boundary degenerate","WindowSubclassProc","wrapper stateless",
-"WindowEx","boundary degenerate","BridgeSubclassProc","wrapper stateless",
-"WindowEx","boundary degenerate","Show","wrapper",
-"WindowEx","boundary degenerate","Hide","wrapper stateless",
-"WindowEx","boundary degenerate","Minimize","wrapper",
-"WindowEx","boundary degenerate","CenterInScreen","wrapper stateless",
-"WindowEx","boundary degenerate","AdaptTitleBarButtonColorToActuallTheme","wrapper stateless",
-"WindowEx","boundary degenerate","SetDragRectangles","wrapper stateless",
-"WindowEx","boundary degenerate","ChangeAccentColor","wrapper stateless",
-"WindowEx","boundary degenerate","get","predicate controller",
-"WindowEx","boundary degenerate","set","wrapper",
-"InstallGameService","commander boundary","InstallGameService","copy-constructor",
-"InstallGameService","commander boundary","Cancel","set",
-"InstallGameService","commander boundary","InvokeStateOrProgressChanged","set collaborator",
-"InstallGameService","commander boundary","Initialize","command",
-"InstallGameService","commander boundary","StartAsync","non-void-command collaborator",
-"InstallGameService","commander boundary","SetAllFileWriteable","wrapper",
-"InstallGameService","commander boundary","PrepareForDownloadAsync","non-void-command collaborator",
-"InstallGameService","commander boundary","set","non-void-command collaborator",
-"SelfQueryStatsNumberConverter","degenerate small-class","Convert","controller stateless",
-"SelfQueryStatsNumberConverter","degenerate small-class","ConvertBack","collaborator stateless",
-"LauncherClient","empty","LauncherClient","constructor",
-"TitleBarGameIconZZZ","empty","TitleBarGameIconZZZ","constructor",
-"ObjectToBoolConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"ObjectToBoolConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"RarityToSRBgConverter","data-provider boundary small-class","Convert","property collaborator",
-"RarityToSRBgConverter","data-provider boundary small-class","ConvertBack","collaborator stateless",
-"Honkai3rdInstallGameService","commander boundary small-class","Honkai3rdInstallGameService","copy-constructor",
-"Honkai3rdInstallGameService","commander boundary small-class","StartAsync","non-void-command collaborator",
-"Honkai3rdInstallGameService","commander boundary small-class","DownloadBH3BaseAsync","non-void-command collaborator",
-"InMemoryStorage<T>","commander","Clear","command",
-"InMemoryStorage<T>","commander","Clear","command collaborator",
-"InMemoryStorage<T>","commander","Remove","command collaborator",
-"InMemoryStorage<T>","commander","SetItem","command collaborator",
-"InMemoryStorage<T>","commander","GetItem","property non-void-command collaborator",
-"InMemoryStorage<T>","commander","EnsureStorageBounds","command",
-"InMemoryStorage<T>","commander","get","get",
-"InMemoryStorage<T>","commander","set","set",
-"TrailblazeCalendarDetail","boundary small-class","OnDeserialized","collaborator",
-"GachaLogClient","controller small-class","GachaLogClient","constructor",
-"GachaLogClient","controller small-class","GetUidByGachaUrlAsync","property controller",
-"SelfQueryService","boundary","SelfQueryService","copy-constructor",
-"SelfQueryService","boundary","InitializeAsync","property non-void-command collaborator",
-"SelfQueryService","boundary","EnsureInitialized","command",
-"SelfQueryService","boundary","Reset","command",
-"SelfQueryService","boundary","GetGenshinUids","property non-void-command",
-"SelfQueryService","boundary","GetGenshinLastId","property non-void-command collaborator",
-"SelfQueryService","boundary","InsertGenshinQueryItems","property non-void-command collaborator",
-"SelfQueryService","boundary","GetStarRailUids","property non-void-command",
-"SelfQueryService","boundary","GetStarRailLastTime","property non-void-command collaborator",
-"SelfQueryService","boundary","InsertStarRailQueryItems","property non-void-command collaborator",
-"SimulatedUniverseBuffBgConverter","data-provider boundary small-class","Convert","property collaborator",
-"SimulatedUniverseBuffBgConverter","data-provider boundary small-class","ConvertBack","collaborator stateless",
-"GameRecordClient","degenerate","CreateSecret","wrapper stateless",
-"GameRecordClient","degenerate","CreateSecret2","controller stateless",
-"GameRecordClient","degenerate","CreateSecret2<T>","controller stateless",
-"GameRecordClient","degenerate","GameRecordClient","constructor",
-"ReleaseVersion","boundary small-class","OnDeserialized","wrapper",
-"TravelersDiaryDateTimeJsonConverter","pure-controller degenerate small-class","Read","controller stateless",
-"TravelersDiaryDateTimeJsonConverter","pure-controller degenerate small-class","Write","controller stateless",
-"CheckSumFailedException","empty","CheckSumFailedException","constructor",
-"DatabaseService","boundary","DatabaseService","constructor",
-"DatabaseService","boundary","DatabaseService","copy-constructor",
-"DatabaseService","boundary","CreateConnection","factory controller",
-"DatabaseService","boundary","SetDatabase","command",
-"DatabaseService","boundary","InitializeDatabase","command collaborator",
-"DatabaseService","boundary","BackupDatabase","property non-void-command collaborator",
-"DatabaseService","boundary","SetValue<T>","command collaborator",
-"JsResult","data-provider boundary small-class","ToString","property wrapper",
-"ImageViewPage","commander boundary","ImageViewPage","constructor",
-"ImageViewPage","commander boundary","OnNavigatedTo","command collaborator",
-"ImageViewPage","commander boundary","OnLoaded","incidental",
-"ImageViewPage","commander boundary","OnUnloaded","incidental",
-"ImageViewPage","commander boundary","ImageViewPage_KeyDown","void-accessor command collaborator",
-"ImageViewPage","commander boundary","OnCurrentImageChanged","collaborator incidental",
-"ImageViewPage","commander boundary","OnImageCollectionChanged","wrapper stateless",
-"ImageViewPage","commander boundary","Zoom","wrapper",
-"ImageViewPage","commander boundary","ZoomOut","command collaborator",
-"ImageViewPage","commander boundary","ZoomIn","command collaborator",
-"ImageViewPage","commander boundary","Rotate","incidental",
-"ImageViewPage","commander boundary","CopyImageAsync","non-void-command collaborator",
-"ImageViewPage","commander boundary","OpenFileAsync","non-void-command collaborator",
-"ImageViewPage","commander boundary","Close","wrapper stateless",
-"ImageViewPage","commander boundary","_ScrollViewer_Image_ViewChanged","wrapper",
-"ImageViewPage","commander boundary","_Image_ImageOpened","command collaborator",
-"ImageViewPage","commander boundary","_Image_SizeChanged","command collaborator",
-"ImageViewPage","commander boundary","GetFitZoomFactor","property wrapper",
-"ImageViewPage","commander boundary","_ScrollViewer_Image_Tapped","command collaborator",
-"ImageViewPage","commander boundary","ChangeToolBarVisibility","incidental",
-"ImageViewPage","commander boundary","_ScrollViewer_Image_DoubleTapped","command collaborator",
-"ImageViewPage","commander boundary","_ScrollViewer_Image_PointerWheelChanged","controller stateless",
-"ImageViewPage","commander boundary","_ScrollViewer_Image_PointerPressed","command collaborator",
-"ImageViewPage","commander boundary","_ScrollViewer_Image_PointerMoved","set collaborator",
-"ImageViewPage","commander boundary","_ScrollViewer_Image_PointerReleased","set collaborator",
-"ImageViewPage","commander boundary","FullScreen","wrapper stateless",
-"DateTimeJsonConverter","pure-controller degenerate small-class","Read","controller stateless",
-"DateTimeJsonConverter","pure-controller degenerate small-class","Write","controller stateless",
-"App","commander boundary","App","constructor",
-"App","commander boundary","App_UnhandledException","controller stateless",
-"App","commander boundary","OnLaunched","command collaborator",
-"App","commander boundary","SwitchMainWindow","set collaborator",
-"App","commander boundary","EnsureMainWindow","command",
-"App","commander boundary","CloseMainWindow","set",
-"App","commander boundary","InitializeSystemTray","unclassified",
-"App","commander boundary","CloseSystemTray","set",
-"App","commander boundary","AppInstance_Activated","command collaborator",
-"App","commander boundary","InitializeLanguage","wrapper stateless",
-"MetadataClient","commander lazy-class small-class","MetadataClient","constructor",
-"MetadataClient","commander lazy-class small-class","SetApiPrefix","set",
-"MetadataClient","commander lazy-class small-class","GetUrl","incidental",
-"CloseWindowDialog","commander boundary data-class small-class","CloseWindowDialog","constructor",
-"CloseWindowDialog","commander boundary data-class small-class","RadioButton_Click","set collaborator",
-"StarRailGachaClient","controller small-class","StarRailGachaClient","constructor",
-"StarRailGachaClient","controller small-class","GetGachaUrlPrefix","property controller",
-"TestUrlProtocolWindow","small-class","TestUrlProtocolWindow","constructor",
-"TestUrlProtocolWindow","small-class","InitializeWindow","command",
-"TestUrlProtocolWindow","small-class","WindowSubclassProc","property non-void-command collaborator",
-"FileSettingPage","commander boundary","FileSettingPage","constructor",
-"FileSettingPage","commander boundary","OnLoaded","command",
-"FileSettingPage","commander boundary","OpenDataFolderAsync","non-void-command collaborator",
-"FileSettingPage","commander boundary","ChangeDataFolderAsync","non-void-command collaborator",
-"FileSettingPage","commander boundary","DeleteAllSettingAsync","non-void-command collaborator",
-"FileSettingPage","commander boundary","GetLastBackupTime","command",
-"FileSettingPage","commander boundary","BackupDatabaseAsync","non-void-command collaborator",
-"FileSettingPage","commander boundary","OpenLastBackupDatabaseAsync","non-void-command collaborator",
-"FileSettingPage","commander boundary","OpenLogFileAsync","non-void-command collaborator",
-"FileSettingPage","commander boundary","OpenLogFolderAsync","non-void-command collaborator",
-"FileSettingPage","commander boundary","UpdateCacheSizeAsync","non-void-command collaborator",
-"FileSettingPage","commander boundary","ClearCacheAsync","non-void-command collaborator",
-"NotificationBehavior","commander","NotificationBehavior","constructor",
-"NotificationBehavior","commander","_dismissTimer_Tick","wrapper stateless",
-"NotificationBehavior","commander","Show","wrapper stateless",
-"NotificationBehavior","commander","AddInfoBar","wrapper stateless",
-"NotificationBehavior","commander","Information","command",
-"NotificationBehavior","commander","Success","command",
-"NotificationBehavior","commander","Warning","command",
-"NotificationBehavior","commander","Error","command",
-"NotificationBehavior","commander","Error","void-accessor command",
-"NotificationBehavior","commander","ShowWithButton","command collaborator",
-"NotificationBehavior","commander","Create","factory wrapper stateless",
-"ItemIdJsonConverter","pure-controller degenerate small-class","Read","controller stateless",
-"ItemIdJsonConverter","pure-controller degenerate small-class","Write","controller stateless",
-"HoyolabClient","empty","HoyolabClient","constructor",
-"CollectionToVisibilityConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"CollectionToVisibilityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"GachaPityProgressBackgroundBrushConverter","degenerate small-class","Convert","factory collaborator stateless",
-"GachaPityProgressBackgroundBrushConverter","degenerate small-class","ConvertBack","collaborator stateless",
-"TravelersDiaryDetail","boundary small-class","OnDeserialized","wrapper",
-"GachaLogQuery","degenerate small-class","GachaLogQuery","constructor",
-"GachaLogQuery","degenerate small-class","ToString","incidental",
-"TravelersDiarySummary","commander boundary small-class","OnDeserialized","command collaborator",
-"StarRailGachaInfo","commander data-class small-class","OnDeserialized","set",
-"SpiralAbyssTimeJsonConverter","pure-controller degenerate small-class","Read","controller stateless",
-"SpiralAbyssTimeJsonConverter","pure-controller degenerate small-class","Write","controller stateless",
-"BBSWebBridge","commander boundary","BBSWebBridge","constructor",
-"BBSWebBridge","commander boundary","OnGameRecordRoleChanged","wrapper",
-"BBSWebBridge","commander boundary","InitializeWebViewAsync","non-void-command collaborator",
-"BBSWebBridge","commander boundary","LoadPageAsync","non-void-command collaborator",
-"CoreLang","data-provider boundary","CoreLang","constructor",
-"CoreLang","data-provider boundary","get","get set collaborator",
-"CoreLang","data-provider boundary","get","get collaborator",
-"CoreLang","data-provider boundary","set","set collaborator",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"CoreLang","data-provider boundary","get","property wrapper",
-"GachaLogService","empty","GachaLogService","copy-constructor",
-"MemoryCache","entity boundary small-class","GetItem<T>","property non-void-command collaborator",
-"MemoryCache","entity boundary small-class","SetItem<T>","command collaborator",
-"SelfQueryStatsNumberBrushConverter","data-provider boundary small-class","Convert","property collaborator",
-"SelfQueryStatsNumberBrushConverter","data-provider boundary small-class","ConvertBack","collaborator stateless",
-"TravelersDiaryDateJsonConverter","pure-controller degenerate small-class","Read","controller stateless",
-"TravelersDiaryDateJsonConverter","pure-controller degenerate small-class","Write","controller stateless",
-"SelectDirectoryPage","commander degenerate","SelectDirectoryPage","constructor",
-"SelectDirectoryPage","commander degenerate","SelectDirectoryAsync","non-void-command collaborator",
-"SelectDirectoryPage","commander degenerate","Preview","incidental",
-"SelectDirectoryPage","commander degenerate","Next","incidental",
-"InMemoryStorageItem<T>","empty","InMemoryStorageItem","constructor",
-"Lang","data-provider boundary","Lang","constructor",
-"Lang","data-provider boundary","get","get set collaborator",
-"Lang","data-provider boundary","get","get collaborator",
-"Lang","data-provider boundary","set","set collaborator",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"Lang","data-provider boundary","get","property wrapper",
-"LoginPage","boundary","LoginPage","constructor",
-"LoginPage","boundary","GetGameBizUrl","get property non-void-command",
-"LoginPage","boundary","OnLoaded","command",
-"LoginPage","boundary","InitializeCoreWebView","non-void-command collaborator",
-"LoginPage","boundary","CoreWebView2_NavigationStarting","collaborator",
-"LoginPage","boundary","CoreWebView2_NavigationCompleted","collaborator",
-"LoginPage","boundary","CoreWebView2_SourceChanged","collaborator incidental",
-"LoginPage","boundary","TextBox_Uri_KeyDown","controller stateless",
-"LoginPage","boundary","CoreWebView2_HistoryChanged","collaborator incidental",
-"LoginPage","boundary","Button_GoBack_Click","wrapper stateless",
-"LoginPage","boundary","Button_GoForward_Click","wrapper stateless",
-"LoginPage","boundary","Button_RefreshOrCancel_Click","wrapper",
-"LoginPage","boundary","Button_Finish_Click","command collaborator",
-"SimulatedUniverseTimeJsonConverter","degenerate small-class","Read","factory wrapper stateless",
-"SimulatedUniverseTimeJsonConverter","degenerate small-class","Write","controller stateless",
-"FileSliceStream","unclassified","FileSliceStream","constructor",
-"FileSliceStream","unclassified","Flush","command",
-"FileSliceStream","unclassified","Read","property non-void-command",
-"FileSliceStream","unclassified","Seek","property non-void-command collaborator",
-"FileSliceStream","unclassified","SetLength","stateless",
-"FileSliceStream","unclassified","Write","stateless",
-"FileSliceStream","unclassified","Dispose","set collaborator",
-"FileSliceStream","unclassified","~FileSliceStream","destructor",
-"FileSliceStream","unclassified","DisposeAsync","controller",
-"FileSliceStream","unclassified","get","property",
-"FileSliceStream","unclassified","set","non-void-command",
-"TransparentBackdrop","entity boundary","OnTargetConnected","void-accessor command collaborator",
-"TransparentBackdrop","entity boundary","OnDefaultSystemBackdropConfigurationChanged","empty",
-"TransparentBackdrop","entity boundary","OnTargetDisconnected","void-accessor command collaborator",
-"TransparentBackdrop","entity boundary","WndProc","wrapper stateless",
-"TitleBarGameIconSR","empty","TitleBarGameIconSR","constructor",
-"PlayTimeService","degenerate","PlayTimeService","copy-constructor",
-"PlayTimeService","degenerate","LogPlayTimeAsync","non-void-command collaborator",
-"PlayTimeService","degenerate","Log","command collaborator",
-"PlayTimeService","degenerate","GetPlayTimeTotal","wrapper stateless",
-"PlayTimeService","degenerate","GetPlayCurrentMonth","controller stateless",
-"PlayTimeService","degenerate","GetPlayCurrentWeek","controller stateless",
-"PlayTimeService","degenerate","GetPlayCurrentDay","controller stateless",
-"PlayTimeService","degenerate","GetStartUpCount","property non-void-command collaborator",
-"DownloadGameDialog","commander","DownloadGameDialog","constructor",
-"DownloadGameDialog","commander","OnEnableRepairModeChanged","command",
-"DownloadGameDialog","commander","UserControl_Loaded","command collaborator",
-"DownloadGameDialog","commander","UpdateSizeText","command",
-"DownloadGameDialog","commander","set","set",
-"DownloadGameDialog","commander","set","set",
-"DownloadGameDialog","commander","set","set",
-"DownloadGameDialog","commander","set","set",
-"BlankPage","empty","BlankPage","constructor",
-"BoolToVisibilityReversedConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"BoolToVisibilityReversedConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"CacheBase<T>","boundary","CacheBase","constructor",
-"CacheBase<T>","boundary","Initialize","set collaborator",
-"CacheBase<T>","boundary","InitializeAsync","non-void-command collaborator",
-"CacheBase<T>","boundary","ClearAsync","non-void-command collaborator",
-"CacheBase<T>","boundary","ClearAsync","property non-void-command collaborator",
-"CacheBase<T>","boundary","RemoveExpiredAsync","non-void-command collaborator",
-"CacheBase<T>","boundary","RemoveAsync","non-void-command collaborator",
-"CacheBase<T>","boundary","GetFileFromCacheAsync","property non-void-command collaborator",
-"CacheBase<T>","boundary","GetFromMemoryCache","property non-void-command collaborator",
-"CacheBase<T>","boundary","GetProgress","property non-void-command collaborator",
-"CacheBase<T>","boundary","IsFileOutOfDateAsync","controller stateless",
-"CacheBase<T>","boundary","GetCacheFileName","controller stateless",
-"CacheBase<T>","boundary","GetItemAsync","property non-void-command collaborator",
-"CacheBase<T>","boundary","GetFromCacheOrDownloadAsync","property non-void-command collaborator",
-"CacheBase<T>","boundary","DownloadFileAsync","property non-void-command collaborator",
-"CacheBase<T>","boundary","GetHttpRequestMessage","factory collaborator stateless",
-"CacheBase<T>","boundary","ForceInitialiseAsync","non-void-command collaborator",
-"CacheBase<T>","boundary","GetCacheFolderAsync","property non-void-command collaborator",
-"CacheBase<T>","boundary","GetCacheFilePath","property non-void-command collaborator",
-"CacheBase<T>","boundary","get","get",
-"CacheBase<T>","boundary","set","set",
-"GachaLogUrl","empty","GachaLogUrl","constructor",
-"GachaLogUrl","empty","GachaLogUrl","constructor",
-"InstallGameWindow","small-class","InstallGameWindow","constructor",
-"InstallGameWindow","small-class","InitializeWindow","command",
-"InstallGameWindow","small-class","WindowSubclassProc","property non-void-command collaborator",
-"LauncherPage","commander boundary","LauncherPage","constructor",
-"LauncherPage","commander boundary","OnLoaded","command",
-"LauncherPage","commander boundary","OnUnloaded","command",
-"LauncherPage","commander boundary","RegisterMessageHandler","command",
-"LauncherPage","commander boundary","InitializeCurrentGameBiz","wrapper",
-"LauncherPage","commander boundary","OnEnableBannerAndPostChanged","command",
-"LauncherPage","commander boundary","InitializeBannerTimer","command",
-"LauncherPage","commander boundary","InitializeBannerSize","stateless",
-"LauncherPage","commander boundary","UpdateLauncherContentAsync","non-void-command collaborator",
-"LauncherPage","commander boundary","_bannerTimer_Tick","collaborator incidental",
-"LauncherPage","commander boundary","Image_Banner_Tapped","command collaborator",
-"LauncherPage","commander boundary","FlipView_Banner_Loaded","wrapper stateless",
-"LauncherPage","commander boundary","Grid_BannerContainer_PointerEntered","command collaborator",
-"LauncherPage","commander boundary","Grid_BannerContainer_PointerExited","command collaborator",
-"LauncherPage","commander boundary","UpdateGameNoticesAlertAsync","non-void-command collaborator",
-"LauncherPage","commander boundary","NavigateToGameNoticesPage","wrapper stateless",
-"LauncherPage","commander boundary","OpenGameNoticesInBrowser","non-void-command collaborator",
-"LauncherPage","commander boundary","UpdateGameButtonStyle","incidental",
-"LauncherPage","commander boundary","OnIsGameRunningChanged","command",
-"LauncherPage","commander boundary","OnCanStartGameChanged","command",
-"LauncherPage","commander boundary","OnGameProcessChanged","command collaborator",
-"LauncherPage","commander boundary","CheckGameVersion","command",
-"LauncherPage","commander boundary","UpdateGameState","command",
-"LauncherPage","commander boundary","CheckGameExited","wrapper stateless",
-"LauncherPage","commander boundary","StartGameAsync","non-void-command collaborator",
-"LauncherPage","commander boundary","InitializePlayTime","command",
-"LauncherPage","commander boundary","UpdatePlayTime","command",
-"LauncherPage","commander boundary","OnSelectGameAccountChanged","collaborator incidental",
-"LauncherPage","commander boundary","GetGameAccount","command",
-"LauncherPage","commander boundary","ChangeGameAccount","command collaborator",
-"LauncherPage","commander boundary","SaveGameAccountAsync","non-void-command collaborator",
-"GenshinGachaService","commander boundary","GenshinGachaService","copy-constructor",
-"GenshinGachaService","commander boundary","GetGroupGachaLogItems","controller stateless",
-"GenshinGachaService","commander boundary","GetGachaLogItemEx","non-void-command factory collaborator",
-"GenshinGachaService","commander boundary","InsertGachaLogItems","property non-void-command collaborator",
-"GenshinGachaService","commander boundary","ExportGachaLogAsync","non-void-command collaborator",
-"GenshinGachaService","commander boundary","ExportAsJsonAsync","non-void-command collaborator",
-"GenshinGachaService","commander boundary","ExportAsExcelAsync","non-void-command collaborator",
-"GenshinGachaService","commander boundary","ImportGachaLog","property non-void-command collaborator",
-"GenshinGachaService","commander boundary","UpdateGachaItemId","command",
-"HyperionClient","empty","HyperionClient","constructor",
-"ByteLengthToStringConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"GachaTypeJsonConverter","pure-controller degenerate small-class","Read","controller stateless",
-"GachaTypeJsonConverter","pure-controller degenerate small-class","Write","controller stateless",
-"TrailblazeCalendarSummary","commander small-class","OnDeserialized","command",
-"TitleBarGameIconBH3","empty","TitleBarGameIconBH3","constructor",
-"GameAccountUidStringConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"CachedImage","boundary","ProvideCachedResourceAsync","property set factory collaborator",
-"CachedImage","boundary","get","predicate wrapper",
-"CachedImage","boundary","set","wrapper",
-"ColorRectChart","commander boundary small-class","ColorRectChart","constructor",
-"ColorRectChart","commander boundary small-class","ApplySeries","command collaborator",
-"ColorRectChart","commander boundary small-class","set","set collaborator",
-"GachaStatsCard","data-provider boundary degenerate","GachaStatsCard","constructor",
-"GachaStatsCard","data-provider boundary degenerate","Grid_Rarity5Item_PointerEntered","wrapper stateless",
-"GachaStatsCard","data-provider boundary degenerate","Grid_Rarity5Item_PointerExited","wrapper stateless",
-"GachaStatsCard","data-provider boundary degenerate","Grid_Rarity4Item_PointerEntered","wrapper stateless",
-"GachaStatsCard","data-provider boundary degenerate","Grid_Rarity4Item_PointerExited","wrapper stateless",
-"GachaStatsCard","data-provider boundary degenerate","TextBlock_GachaTypeText_IsTextTrimmedChanged","empty",
-"GachaStatsCard","data-provider boundary degenerate","ResetGachaTypeTextFontSize","incidental",
-"GachaStatsCard","data-provider boundary degenerate","get","property wrapper",
-"GachaStatsCard","data-provider boundary degenerate","set","wrapper",
-"HandCursorGrid","empty","HandCursorGrid","constructor",
-"AboutSettingPage","commander","AboutSettingPage","constructor",
-"AboutSettingPage","commander","OnEnablePreviewReleaseChanged","incidental",
-"AboutSettingPage","commander","CheckUpdateAsync","non-void-command collaborator",
-"AboutSettingPage","commander","VerifyFileAsync","non-void-command collaborator",
-"AboutSettingPage","commander","StartToRepair","command",
-"SystemTrayControl","commander boundary","SystemTrayControl","constructor",
-"SystemTrayControl","commander boundary","SystemTrayControl_Loaded","command collaborator",
-"SystemTrayControl","commander boundary","UpdateContent","command",
-"SystemTrayControl","commander boundary","Button_StartGame_Click","command collaborator",
-"SystemTrayControl","commander boundary","OpenLauncher","wrapper stateless",
-"SystemTrayControl","commander boundary","Exit","incidental",
-"TitleBarGameIconBase","commander boundary","TitleBarGameIconBase","constructor",
-"TitleBarGameIconBase","commander boundary","Select","controller",
-"TitleBarGameIconBase","commander boundary","Click","wrapper stateless",
-"TitleBarGameIconBase","commander boundary","Button_Click","command collaborator",
-"TitleBarGameIconBase","commander boundary","Button_DoubleTapped","command collaborator",
-"TitleBarGameIconBase","commander boundary","Button_PointerEntered","command collaborator",
-"TitleBarGameIconBase","commander boundary","Button_PointerExited","command collaborator",
-"TitleBarGameIconBase","commander boundary","Button_RightTapped","set collaborator",
-"TitleBarGameIconBase","commander boundary","MenuFlyout_Closed","set collaborator",
-"TitleBarGameIconBase","commander boundary","UpdateCornerRadius","command collaborator",
-"TitleBarGameIconBase","commander boundary","get","property wrapper",
-"TitleBarGameIconBase","commander boundary","set","wrapper",
-"TitleBarGameIconBase","commander boundary","set","set",
-"TitleBarGameIconYS","empty","TitleBarGameIconYS","constructor",
-"ColorToSolidColorBrushConverter","degenerate small-class","Convert","factory collaborator stateless",
-"ColorToSolidColorBrushConverter","degenerate small-class","ConvertBack","collaborator stateless",
-"BoolToVisibilityConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"BoolToVisibilityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"ObjectToVisibilityConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"ObjectToVisibilityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"GameRecordService","entity boundary","GameRecordService","copy-constructor",
-"GameRecordService","entity boundary","UpdateDeviceFpAsync","non-void-command collaborator",
-"GameRecordService","entity boundary","GetRecordUsers","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetGameRoles","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetLastSelectGameRecordRole","property non-void-command collaborator",
-"GameRecordService","entity boundary","SetLastSelectGameRecordRole","command collaborator",
-"GameRecordService","entity boundary","GetGameRecordUser","property non-void-command collaborator",
-"GameRecordService","entity boundary","RefreshAllGameRolesInfoAsync","non-void-command collaborator",
-"GameRecordService","entity boundary","RefreshGameRoleInfoAsync","wrapper stateless",
-"GameRecordService","entity boundary","DeleteGameRole","predicate non-void-command collaborator",
-"GameRecordService","entity boundary","GetSpiralAbyssInfoList","property non-void-command factory collaborator",
-"GameRecordService","entity boundary","GetSpiralAbyssInfo","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetTravelersDiarySummaryAsync","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetTravelersDiaryMonthDataList","property non-void-command factory collaborator",
-"GameRecordService","entity boundary","GetTravelersDiaryDetailAsync","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetTravelersDiaryDetailItems","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetSimulatedUniverseInfoAsync","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetSimulatedUniverseRecordBasics","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetSimulatedUniverseRecord","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetForgottenHallInfoList","property non-void-command factory collaborator",
-"GameRecordService","entity boundary","GetForgottenHallInfo","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetPureFictionInfoList","property non-void-command factory collaborator",
-"GameRecordService","entity boundary","GetPureFictionInfo","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetTrailblazeCalendarSummaryAsync","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetTrailblazeCalendarMonthDataList","property non-void-command factory collaborator",
-"GameRecordService","entity boundary","GetTrailblazeCalendarDetailAsync","property non-void-command collaborator",
-"GameRecordService","entity boundary","GetTrailblazeCalendarDetailItems","property non-void-command collaborator",
-"GameRecordService","entity boundary","set","non-void-command",
-"ObjectToVisibilityReversedConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"ObjectToVisibilityReversedConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"SimulatedUniverseBuffIconConverter","data-provider boundary small-class","Convert","property collaborator",
-"SimulatedUniverseBuffIconConverter","data-provider boundary small-class","ConvertBack","collaborator stateless",
-"SimulatedUniverseRomanNumberConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"SimulatedUniverseRomanNumberConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"BoolReversedConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"BoolReversedConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"SimulatedUniverseWorldIconConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"SimulatedUniverseWorldIconConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"SelectLanguagePage","commander boundary","SelectLanguagePage","constructor",
-"SelectLanguagePage","commander boundary","Page_Loaded","command collaborator",
-"SelectLanguagePage","commander boundary","Next","incidental",
-"SelectLanguagePage","commander boundary","InitializeLanguageComboBox","set",
-"SelectLanguagePage","commander boundary","ComboBox_Language_SelectionChanged","command collaborator",
-"SelectLanguagePage","commander boundary","IntializeWindowSize","incidental",
-"SelectLanguagePage","commander boundary","RadioButton_WindowSize_Click","wrapper stateless",
-"SelectLanguagePage","commander boundary","TestSpeedAsync","non-void-command collaborator",
-"SpiralAbyssBattleAvatarsSelectConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"SpiralAbyssBattleAvatarsSelectConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"TimeSpanToStringConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"TimeSpanToStringConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"PureFictionInfo","data-provider boundary small-class","get","property wrapper",
-"GachaLogExportFile<T>","empty","GachaLogExportFile","constructor",
-"SettingPage","entity boundary","SettingPage","constructor",
-"SettingPage","entity boundary","OnLoaded","incidental",
-"SettingPage","entity boundary","OnUnloaded","wrapper",
-"SettingPage","entity boundary","SettingPage_KeyDown","void-accessor command collaborator",
-"SettingPage","entity boundary","ClosePage","wrapper stateless",
-"SettingPage","entity boundary","NavigationView_ItemInvoked","set collaborator",
-"UninstallGameDialog","commander data-class","UninstallGameDialog","constructor",
-"UninstallGameDialog","commander data-class","set","set",
-"UninstallGameDialog","commander data-class","set","set",
-"UninstallGameDialog","commander data-class","set","set",
-"UninstallGameDialog","commander data-class","set","set",
-"GameResourceService","entity boundary","GameResourceService","copy-constructor",
-"GameResourceService","entity boundary","GetGameInstallPath","wrapper stateless",
-"GameResourceService","entity boundary","IsGameExeExists","predicate non-void-command collaborator",
-"GameResourceService","entity boundary","GetLocalGameVersionAndBizAsync","property non-void-command collaborator",
-"GameResourceService","entity boundary","GetLocalGameBiz","property non-void-command collaborator",
-"GameResourceService","entity boundary","GetGameResourceAsync","property non-void-command collaborator",
-"GameResourceService","entity boundary","GetGameResourceVersionAsync","property non-void-command collaborator",
-"GameResourceService","entity boundary","CheckPreDownloadIsOKAsync","property non-void-command collaborator",
-"LauncherPostGroup","empty","LauncherPostGroup","constructor",
-"ScreenshotItem","empty","ScreenshotItem","constructor",
-"ScreenshotItemGroup","empty","ScreenshotItemGroup","constructor",
-"ScreenshotWatcher","entity boundary","ScreenshotWatcher","constructor",
-"ScreenshotWatcher","entity boundary","FileSystemWatcher_Created","void-accessor command collaborator",
-"ScreenshotWatcher","entity boundary","FileSystemWatcher_Deleted","void-accessor command collaborator",
-"ScreenshotWatcher","entity boundary","Dispose","command",
-"CloudGameGachaWindow","commander boundary small-class","CloudGameGachaWindow","constructor",
-"CloudGameGachaWindow","commander boundary small-class","RootGrid_Loaded","command collaborator",
-"CloudGameGachaWindow","commander boundary small-class","Button_Click","wrapper",
-"DownloadProgress","empty","DownloadProgress","constructor",
-"GameSettingService","entity factory controller small-class","GameSettingService","copy-constructor",
-"GameSettingService","entity factory controller small-class","GetGameResolutionSetting","property non-void-command factory collaborator",
-"SystemTrayWindow","commander boundary","SystemTrayWindow","constructor",
-"SystemTrayWindow","commander boundary","InitializeWindow","command collaborator",
-"SystemTrayWindow","commander boundary","SystemTrayWindow_Activated","command collaborator",
-"SystemTrayWindow","commander boundary","Show","command collaborator",
-"SystemTrayWindow","commander boundary","Hide","command",
-"SystemTrayWindow","commander boundary","ShowMainWindow","command",
-"SystemTrayWindow","commander boundary","WindowEx_Closed","set collaborator",
-"UpdateContentWindow","commander boundary degenerate","UpdateContentWindow","constructor",
-"UpdateContentWindow","commander boundary degenerate","CenterInScreen","wrapper stateless",
-"UpdateContentWindow","commander boundary degenerate","RootGrid_Loaded","command collaborator",
-"UpdateContentWindow","commander boundary degenerate","LoadPageAsync","non-void-command collaborator",
-"UpdateContentWindow","commander boundary degenerate","CoreWebView2_DOMContentLoaded","wrapper stateless",
-"UpdateContentWindow","commander boundary degenerate","CoreWebView2_NewWindowRequested","wrapper stateless",
-"UpdateContentWindow","commander boundary degenerate","Button_Retry_Click","command collaborator",
-"UpdateContentWindow","commander boundary degenerate","Button_RemindLatter_Click","wrapper stateless",
-"UpdateContentWindow","commander boundary degenerate","Button_Ignore_Click","wrapper stateless",
-"WelcomeWindow","commander","WelcomeWindow","constructor",
-"WelcomeWindow","commander","InitializeWindow","command",
-"WelcomeWindow","commander","WindowEx_Closed","set collaborator",
-"WelcomeWindow","commander","NavigateTo","wrapper stateless",
-"WelcomeWindow","commander","ChangeWindowSize","command",
-"WelcomeWindow","commander","Reset","command",
-"WelcomeWindow","commander","ApplySetting","command",
-"WelcomeWindow","commander","OpenMainWindow","command",
-"WelcomeWindow","commander","WindowSubclassProc","property non-void-command collaborator",
-"DownloadGamePage","commander boundary","DownloadGamePage","constructor",
-"DownloadGamePage","commander boundary","AppWindow_Closing","void-accessor controller",
-"DownloadGamePage","commander boundary","Exit","wrapper stateless",
-"DownloadGamePage","commander boundary","OnLoaded","command",
-"DownloadGamePage","commander boundary","OnUnloaded","set",
-"DownloadGamePage","commander boundary","CheckAvailableAsync","non-void-command collaborator",
-"DownloadGamePage","commander boundary","GetBgAsync","non-void-command collaborator",
-"DownloadGamePage","commander boundary","ProgressBar_Download_Loaded","command collaborator",
-"DownloadGamePage","commander boundary","StartProgressAnimation","wrapper",
-"DownloadGamePage","commander boundary","StopProgressAnimation","set",
-"DownloadGamePage","commander boundary","_timer_Tick","command collaborator",
-"DownloadGamePage","commander boundary","_installGameService_StateChanged","command collaborator",
-"DownloadGamePage","commander boundary","OnStateOrProgressChanged","void-accessor command collaborator",
-"DownloadGamePage","commander boundary","ShowErrorMessage","command collaborator",
-"DownloadGamePage","commander boundary","UpdateDownloadProgress","void-accessor command collaborator",
-"DownloadGamePage","commander boundary","FinishTask","set",
-"DownloadGamePage","commander boundary","StartInstallGame","command",
-"DownloadGamePage","commander boundary","ClickActionButtonAsync","non-void-command collaborator",
-"DownloadGamePage","commander boundary","ShowVerifyFailedDialogAsync","non-void-command collaborator",
-"GachaLogPage","entity commander boundary","GachaLogPage","constructor",
-"GachaLogPage","entity commander boundary","OnNavigatedTo","set collaborator",
-"GachaLogPage","entity commander boundary","OnSelectUidChanged","command",
-"GachaLogPage","entity commander boundary","OnShowNoviceGachaChanged","wrapper",
-"GachaLogPage","entity commander boundary","OnShowChronicledWishChanged","wrapper",
-"GachaLogPage","entity commander boundary","OnGachaLanguageChanged","incidental",
-"GachaLogPage","entity commander boundary","OnLoaded","command",
-"GachaLogPage","entity commander boundary","OnUnloaded","wrapper",
-"GachaLogPage","entity commander boundary","Initialize","command collaborator",
-"GachaLogPage","entity commander boundary","UpdateGachaTypeStats","void-accessor command",
-"GachaLogPage","entity commander boundary","UpdateWikiDataAsync","non-void-command collaborator",
-"GachaLogPage","entity commander boundary","OpenItemStatsPane","incidental",
-"GachaLogPage","entity commander boundary","UpdateGachaLogAsync","non-void-command collaborator",
-"GachaLogPage","entity commander boundary","UpdateGachaLogInternalAsync","non-void-command collaborator",
-"GachaLogPage","entity commander boundary","InputUrlAsync","non-void-command collaborator",
-"GachaLogPage","entity commander boundary","OpenCloudGameWindow","wrapper",
-"GachaLogPage","entity commander boundary","CopyUrlAsync","non-void-command collaborator",
-"GachaLogPage","entity commander boundary","ChangeGachaItemNameAsync","non-void-command collaborator",
-"GachaLogPage","entity commander boundary","DeleteUidAsync","non-void-command collaborator",
-"GachaLogPage","entity commander boundary","DeleteGachaCacheFileAsync","non-void-command collaborator",
-"GachaLogPage","entity commander boundary","IsGachaCacheFileExists","predicate non-void-command collaborator",
-"GachaLogPage","entity commander boundary","ExportGachaLogAsync","non-void-command collaborator",
-"ForgottenHallInfo","data-provider boundary small-class","get","property wrapper",
-"GameNoticesPage","commander boundary","GameNoticesPage","constructor",
-"GameNoticesPage","commander boundary","OnNavigatedTo","set collaborator",
-"GameNoticesPage","commander boundary","Page_Loaded","command collaborator",
-"GameNoticesPage","commander boundary","InitializeBgAsync","command",
-"GameNoticesPage","commander boundary","InitializeWebAsync","non-void-command collaborator",
-"GameNoticesPage","commander boundary","InsertBgAsync","non-void-command collaborator",
-"GameResourcePage","boundary degenerate","GameResourcePage","constructor",
-"GameResourcePage","boundary degenerate","OnLoaded","command collaborator",
-"GameResourcePage","boundary degenerate","GetGameResourcePackageGroups","factory controller stateless",
-"GameResourcePage","boundary degenerate","Button_CopyUrl_Click","command collaborator",
-"GameResourcePage","boundary degenerate","CopySuccessAsync","wrapper stateless",
-"GameResourcePage","boundary degenerate","Close","wrapper stateless",
-"GameSettingPage","commander","GameSettingPage","constructor",
-"GameSettingPage","commander","OnNavigatedTo","set collaborator",
-"GameSettingPage","commander","Page_Loaded","command collaborator",
-"GameSettingPage","commander","OnStartArgumentChanged","wrapper",
-"GameSettingPage","commander","OnEnableFullScreenChanged","incidental",
-"GameSettingPage","commander","OnResolutionWidthChanged","incidental",
-"GameSettingPage","commander","OnResolutionHeightChanged","incidental",
-"GameSettingPage","commander","OnLanguageIndexChanged","incidental",
-"GameSettingPage","commander","OnGraphicsQualityIndexChanged","command",
-"GameSettingPage","commander","OnRenderScaleChanged","command",
-"GameSettingPage","commander","OnFpsIndexChanged","command",
-"GameSettingPage","commander","OnVSyncIndexChanged","command",
-"GameSettingPage","commander","OnAAModeIndexChanged","command",
-"GameSettingPage","commander","OnShadowQualityIndexChanged","command",
-"GameSettingPage","commander","OnReflectionQualityIndexChanged","command",
-"GameSettingPage","commander","OnCharacterQualityIndexChanged","command",
-"GameSettingPage","commander","OnEnvDetailQualityIndexChanged","command",
-"GameSettingPage","commander","OnBloomQualityIndexChanged","command",
-"GameSettingPage","commander","OnLightQualityIndexChanged","command",
-"GameSettingPage","commander","InitializeGameSettingAsync","non-void-command collaborator",
-"GameSettingPage","commander","UpdateGraphicsQuality","collaborator incidental",
-"GameSettingPage","commander","UpdateGraphicsSetting","wrapper stateless",
-"GameSettingPage","commander","GraphicsSettingToSettingModel","factory collaborator stateless",
-"GameSettingPage","commander","GraphicsQualityChanged","command collaborator",
-"GameSettingPage","commander","GraphicsSettingChanged","command collaborator",
-"GameSettingPage","commander","InitializeResolutionItem","command collaborator",
-"GameSettingPage","commander","ComboBox_Resolution_SelectionChanged","controller stateless",
-"GameSettingPage","commander","UpdateResolutionComboBoxSelection","wrapper stateless",
-"GameSettingPage","commander","ApplySetting","command collaborator",
-"HoyolabToolboxPage","commander boundary small-class","HoyolabToolboxPage","constructor",
-"HoyolabToolboxPage","commander boundary small-class","OnNavigatedTo","command collaborator",
-"HoyolabToolboxPage","commander boundary small-class","MenuFlyoutItem_DeleteGameRole_Click","command collaborator",
-"ForgottenHallFloorDetail","data-provider small-class","get","predicate",
-"PureFictionPage","commander boundary","PureFictionPage","constructor",
-"PureFictionPage","commander boundary","OnNavigatedTo","set collaborator",
-"PureFictionPage","commander boundary","OnLoaded","command",
-"PureFictionPage","commander boundary","InitializePureFictionInfoData","command collaborator",
-"PureFictionPage","commander boundary","RefreshDataAsync","non-void-command collaborator",
-"PureFictionPage","commander boundary","ListView_ForgottenHall_SelectionChanged","command collaborator",
-"PureFictionPage","commander boundary","TextBlock_Deepest_IsTextTrimmedChanged","wrapper stateless",
-"SimulatedUniversePage","entity commander boundary","SimulatedUniversePage","constructor",
-"SimulatedUniversePage","entity commander boundary","OnNavigatedTo","set collaborator",
-"SimulatedUniversePage","entity commander boundary","OnLoaded","command",
-"SimulatedUniversePage","entity commander boundary","InitializeSimulatedUniverseRecord","command collaborator",
-"SimulatedUniversePage","entity commander boundary","GetSimulatedUniverseDetailAsync","non-void-command collaborator",
-"SimulatedUniversePage","entity commander boundary","GetSimulatedUniverseInfoBasicAsync","non-void-command collaborator",
-"SimulatedUniversePage","entity commander boundary","ListView_SimulatedUniverse_SelectionChanged","command collaborator",
-"SimulatedUniversePage","entity commander boundary","GetSimulatedUniverseRecord","void-accessor command collaborator",
-"RarityToGIBgConverter","data-provider boundary small-class","Convert","property collaborator",
-"RarityToGIBgConverter","data-provider boundary small-class","ConvertBack","collaborator stateless",
-"AdvancedSettingPage","commander boundary","AdvancedSettingPage","constructor",
-"AdvancedSettingPage","commander boundary","OnEnableUrlProtocolChanged","command",
-"AdvancedSettingPage","commander boundary","CheckUrlProtocol","set collaborator",
-"AdvancedSettingPage","commander boundary","TestUrlProtocolAsync","non-void-command collaborator",
-"UpdateService","entity commander boundary","UpdateService","copy-constructor",
-"UpdateService","entity commander boundary","CheckUpdateAsync","property non-void-command collaborator",
-"UpdateService","entity commander boundary","PrepareForUpdateAsync","non-void-command collaborator",
-"UpdateService","entity commander boundary","GetLocalFilesHash","set collaborator",
-"UpdateService","entity commander boundary","GetExistFiles","command collaborator",
-"UpdateService","entity commander boundary","GetDownloadFiles","command collaborator",
-"UpdateService","entity commander boundary","Start","command",
-"UpdateService","entity commander boundary","Stop","command",
-"UpdateService","entity commander boundary","UpdateAsync","non-void-command collaborator",
-"UpdateService","entity commander boundary","CheckDownloadFiles","predicate wrapper",
-"UpdateService","entity commander boundary","MovingFiles","wrapper",
-"SpiralAbyssPage","commander boundary","SpiralAbyssPage","constructor",
-"SpiralAbyssPage","commander boundary","OnNavigatedTo","set collaborator",
-"SpiralAbyssPage","commander boundary","OnLoaded","command",
-"SpiralAbyssPage","commander boundary","InitializeAbyssData","command collaborator",
-"SpiralAbyssPage","commander boundary","RefreshDataAsync","non-void-command collaborator",
-"SpiralAbyssPage","commander boundary","ListView_AbyssList_SelectionChanged","command collaborator",
-"SpiralAbyssPage","commander boundary","UserControl_AbyssLevel_SizeChanged","wrapper stateless",
-"EnumStringJsonConverter<T>","degenerate small-class","Read","collaborator incidental",
-"EnumStringJsonConverter<T>","degenerate small-class","Write","controller stateless",
-"TrailblazeCalendarPage","entity commander boundary","TrailblazeCalendarPage","constructor",
-"TrailblazeCalendarPage","entity commander boundary","OnNavigatedTo","set collaborator",
-"TrailblazeCalendarPage","entity commander boundary","OnLoaded","command",
-"TrailblazeCalendarPage","entity commander boundary","InitializeDataAsync","non-void-command collaborator",
-"TrailblazeCalendarPage","entity commander boundary","GetCurrentSummaryAsync","non-void-command collaborator",
-"TrailblazeCalendarPage","entity commander boundary","GetMonthDataList","command",
-"TrailblazeCalendarPage","entity commander boundary","GetDataDetailsAsync","non-void-command collaborator",
-"TrailblazeCalendarPage","entity commander boundary","ListView_MonthDataList_SelectionChanged","command collaborator",
-"TrailblazeCalendarPage","entity commander boundary","RefreshDailyDataPlot","void-accessor command collaborator",
-"SelfQueryClient","commander small-class","SelfQueryClient","constructor",
-"SelfQueryClient","commander small-class","Reset","command",
-"SelfQueryClient","commander small-class","EnsureInitialized","wrapper",
-"GenshinGachaInfo","boundary small-class","OnDeserialized","wrapper",
-"GenshinGachaInfo","boundary small-class","OnSerializing","wrapper",
-"LauncherContentService","entity boundary","LauncherContentService","copy-constructor",
-"LauncherContentService","entity boundary","GetCachedBackgroundImage","property non-void-command",
-"LauncherContentService","entity boundary","GetBackgroundImageAsync","property non-void-command collaborator",
-"LauncherContentService","entity boundary","GetFallbackBackgroundImage","wrapper stateless",
-"LauncherContentService","entity boundary","ChangeCustomBgAsync","property non-void-command collaborator",
-"LauncherContentService","entity boundary","OpenCustomBgAsync","non-void-command collaborator",
-"TravelersDiaryPage","entity commander boundary","TravelersDiaryPage","constructor",
-"TravelersDiaryPage","entity commander boundary","OnNavigatedTo","set collaborator",
-"TravelersDiaryPage","entity commander boundary","OnLoaded","command",
-"TravelersDiaryPage","entity commander boundary","InitializeDataAsync","non-void-command collaborator",
-"TravelersDiaryPage","entity commander boundary","GetCurrentSummaryAsync","non-void-command collaborator",
-"TravelersDiaryPage","entity commander boundary","GetMonthDataList","command",
-"TravelersDiaryPage","entity commander boundary","GetDataDetailsAsync","non-void-command collaborator",
-"TravelersDiaryPage","entity commander boundary","ListView_MonthDataList_SelectionChanged","command collaborator",
-"TravelersDiaryPage","entity commander boundary","RefreshDailyDataPlot","void-accessor command collaborator",
-"PageBase","commander boundary","PageBase","constructor",
-"PageBase","commander boundary","PageEx_Loaded","command collaborator",
-"PageBase","commander boundary","PageEx_Unloaded","command collaborator",
-"PageBase","commander boundary","OnNavigatedTo","set collaborator",
-"PageBase","commander boundary","OnLoaded","empty",
-"PageBase","commander boundary","OnUnloaded","empty",
-"ScreenshotPage","entity commander boundary","ScreenshotPage","constructor",
-"ScreenshotPage","entity commander boundary","OnNavigatedTo","set collaborator",
-"ScreenshotPage","entity commander boundary","OnLoaded","command",
-"ScreenshotPage","entity commander boundary","OnUnloaded","wrapper stateless",
-"ScreenshotPage","entity commander boundary","Initialize","command collaborator",
-"ScreenshotPage","entity commander boundary","Button_CopyImage_Click","command collaborator",
-"ScreenshotPage","entity commander boundary","OpenScreenshotFolderAsync","non-void-command collaborator",
-"ScreenshotPage","entity commander boundary","BackupScreenshots","command collaborator",
-"ScreenshotPage","entity commander boundary","OpenBackupFolderAsync","non-void-command collaborator",
-"ScreenshotPage","entity commander boundary","GridView_Images_ItemClick","wrapper stateless",
-"ScreenshotPage","entity commander boundary","Grid_ImageItem_Tapped","wrapper stateless",
-"ScreenshotPage","entity commander boundary","Grid_ImageItem_DragStarting","void-accessor command collaborator",
-"SelfQueryPage","entity commander boundary","SelfQueryPage","constructor",
-"SelfQueryPage","entity commander boundary","OnNavigatedTo","set collaborator",
-"SelfQueryPage","entity commander boundary","OnSelectUidChanged","command",
-"SelfQueryPage","entity commander boundary","OnSelectTypeStatsChanged","void-accessor command collaborator",
-"SelfQueryPage","entity commander boundary","OnSelectTypeStatsMonthChanged","wrapper stateless",
-"SelfQueryPage","entity commander boundary","Page_Loaded","set collaborator",
-"SelfQueryPage","entity commander boundary","Page_Unloaded","wrapper",
-"SelfQueryPage","entity commander boundary","LoadUidList","command collaborator",
-"SelfQueryPage","entity commander boundary","LoadQueryTypeStats","command collaborator",
-"SelfQueryPage","entity commander boundary","InputURLAsync","non-void-command collaborator",
-"SelfQueryPage","entity commander boundary","Button_UpdateSelfQueryItems_Click","command collaborator",
-"SelfQueryPage","entity commander boundary","UpdateGenshinQueryItemsAsync","non-void-command collaborator",
-"SelfQueryPage","entity commander boundary","UpdateStarRailQueryItemsAsync","non-void-command collaborator",
-"SelfQueryPage","entity commander boundary","TypeStatsChanged","command",
-"ForgottenHallTimeJsonConverter","degenerate small-class","Read","factory wrapper stateless",
-"ForgottenHallTimeJsonConverter","degenerate small-class","Write","controller stateless",
-"AppearanceSettingPage","commander boundary lazy-class degenerate","AppearanceSettingPage","constructor",
-"AppearanceSettingPage","commander boundary lazy-class degenerate","InitializeLanguage","set collaborator",
-"AppearanceSettingPage","commander boundary lazy-class degenerate","ComboBox_Language_SelectionChanged","command collaborator",
-"AppearanceSettingPage","commander boundary lazy-class degenerate","InitializeWinowSize","collaborator incidental",
-"AppearanceSettingPage","commander boundary lazy-class degenerate","RadioButton_WindowSize_Click","wrapper stateless",
-"AppearanceSettingPage","commander boundary lazy-class degenerate","OnUseSystemThemeColorChanged","wrapper stateless",
-"AppearanceSettingPage","commander boundary lazy-class degenerate","OnEnableNavigationViewLeftCompactChanged","wrapper stateless",
-"AppearanceSettingPage","commander boundary lazy-class degenerate","UpdateExperienceDesc","wrapper stateless",
-"VisibilityToBoolConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"VisibilityToBoolConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"ExperienceSettingPage","commander boundary degenerate","ExperienceSettingPage","constructor",
-"ExperienceSettingPage","commander boundary degenerate","OnLoaded","incidental",
-"ExperienceSettingPage","commander boundary degenerate","OnUnloaded","incidental",
-"ExperienceSettingPage","commander boundary degenerate","InitializeCloseWindowOption","collaborator incidental",
-"ExperienceSettingPage","commander boundary degenerate","ComboBox_CloseWindowOption_SelectionChanged","command collaborator",
-"ExperienceSettingPage","commander boundary degenerate","InitializeAfterStartGameAction","collaborator incidental",
-"ExperienceSettingPage","commander boundary degenerate","ComboBox_AfterStartGameAction_SelectionChanged","command collaborator",
-"ExperienceSettingPage","commander boundary degenerate","OnDisableGameAccountSwitcherChanged","wrapper stateless",
-"ExperienceSettingPage","commander boundary degenerate","OnDisableGameNoticeRedHotChanged","wrapper stateless",
-"SwitchClientPage","commander boundary","SwitchClientPage","constructor",
-"SwitchClientPage","commander boundary","OnLoaded","command",
-"SwitchClientPage","commander boundary","OnUnloaded","set",
-"SwitchClientPage","commander boundary","_timer_Tick","command collaborator",
-"SwitchClientPage","commander boundary","StarTimer","command",
-"SwitchClientPage","commander boundary","StopTimer","command",
-"SwitchClientPage","commander boundary","InitializeAsync","non-void-command collaborator",
-"SwitchClientPage","commander boundary","UpdateTargetGameBizs","controller stateless",
-"SwitchClientPage","commander boundary","PrepareForSwitchClientAsync","non-void-command collaborator",
-"SwitchClientPage","commander boundary","GetDownloadFilesAsync","non-void-command collaborator",
-"SwitchClientPage","commander boundary","MoveExistFilesAsync","wrapper",
-"SwitchClientPage","commander boundary","DownloadFilesAsync","non-void-command collaborator",
-"SwitchClientPage","commander boundary","VerifyDownloadFilesAsync","non-void-command collaborator",
-"SwitchClientPage","commander boundary","VerifyMovedFilesAsync","non-void-command collaborator",
-"SwitchClientPage","commander boundary","WriteConfigFileAsync","wrapper",
-"SwitchClientPage","commander boundary","StartSwitchClientAsync","non-void-command collaborator",
-"SwitchClientPage","commander boundary","Close","command",
-"SwitchClientPage","commander boundary","GetPkgVersionsAsync","non-void-command factory collaborator",
-"SwitchClientPage","commander boundary","GetContentLengthAndMd5Async","property non-void-command collaborator",
-"UpdatePage","commander boundary","UpdatePage","constructor",
-"UpdatePage","commander boundary","OnNavigatedTo","command collaborator",
-"UpdatePage","commander boundary","Page_Loaded","command collaborator",
-"UpdatePage","commander boundary","Page_Unloaded","command collaborator",
-"UpdatePage","commander boundary","GetReleaseAsync","non-void-command collaborator",
-"UpdatePage","commander boundary","ShowGithubReleaseAsync","non-void-command collaborator",
-"UpdatePage","commander boundary","HyperlinkButton_Click","command collaborator",
-"UpdatePage","commander boundary","RemindMeLatter","wrapper stateless",
-"UpdatePage","commander boundary","IgnoreThisVersion","wrapper stateless",
-"UpdatePage","commander boundary","UpdateNowAsync","non-void-command collaborator",
-"UpdatePage","commander boundary","UpdateProgressState","command",
-"UpdatePage","commander boundary","UpdateProgressValue","collaborator",
-"UpdatePage","commander boundary","_timer_Tick","command collaborator",
-"UpdatePage","commander boundary","Restart","command collaborator",
-"UpdatePage","commander boundary","Button_RemindLatter_PointerEntered","collaborator incidental",
-"UpdatePage","commander boundary","Button_RemindLatter_PointerExited","collaborator incidental",
-"StarRailInstallGameService","commander boundary small-class","StarRailInstallGameService","copy-constructor",
-"StarRailInstallGameService","commander boundary small-class","VerifySeparateFilesAsync","non-void-command collaborator",
-"SelectGamePage","commander boundary","SelectGamePage","constructor",
-"SelectGamePage","commander boundary","InitializeSomeGame","wrapper stateless",
-"SelectGamePage","commander boundary","OnLoaded","command",
-"SelectGamePage","commander boundary","LoadGameInfoAsync","set collaborator",
-"SelectGamePage","commander boundary","Preview","incidental",
-"SelectGamePage","commander boundary","NextAsync","non-void-command collaborator",
-"SelectGamePage","commander boundary","InitializeGameComboBox","wrapper stateless",
-"SelectGamePage","commander boundary","ComboBox_Game_SelectionChanged","controller stateless",
-"SelectGamePage","commander boundary","ComboBox_GameServer_SelectionChanged","command collaborator",
-"SelectGamePage","commander boundary","ChangeGameBiz","command",
-"SelectGamePage","commander boundary","ChangeGameInfo","command collaborator",
-"StarRailGachaService","commander boundary","StarRailGachaService","copy-constructor",
-"StarRailGachaService","commander boundary","GetGroupGachaLogItems","controller stateless",
-"StarRailGachaService","commander boundary","GetGachaLogItemEx","non-void-command factory collaborator",
-"StarRailGachaService","commander boundary","InsertGachaLogItems","property non-void-command collaborator",
-"StarRailGachaService","commander boundary","ExportGachaLogAsync","non-void-command collaborator",
-"StarRailGachaService","commander boundary","ExportAsJsonAsync","non-void-command collaborator",
-"StarRailGachaService","commander boundary","ExportAsExcelAsync","non-void-command collaborator",
-"StarRailGachaService","commander boundary","ImportGachaLog","property non-void-command collaborator",
-"StarRailGachaService","commander boundary","UpdateGachaItemId","command",
-"GameService","entity boundary","GameService","copy-constructor",
-"GameService","entity boundary","GetGameScreenshotPath","property non-void-command collaborator",
-"GameService","entity boundary","GetGameProcess","wrapper stateless",
-"GameService","entity boundary","StartGame","property non-void-command collaborator",
-"GameService","entity boundary","UninstallGame","property non-void-command collaborator",
-"GameService","entity boundary","DeleteFolderAndParent","command",
-"GenshinInstallGameService","commander boundary","GenshinInstallGameService","copy-constructor",
-"GenshinInstallGameService","commander boundary","PrepareForRepairAsync","non-void-command collaborator",
-"GenshinInstallGameService","commander boundary","MoveAudioAssetsFromPersistentToStreamAssetsAsync","non-void-command collaborator",
-"GenshinInstallGameService","commander boundary","VerifySeparateFilesAsync","non-void-command collaborator",
+"GenshinInstallGameService","commander boundary","GenshinInstallGameService","copy-constructor"
+"GenshinInstallGameService","commander boundary","PrepareForRepairAsync","non-void-command collaborator"
+"GenshinInstallGameService","commander boundary","MoveAudioAssetsFromPersistentToStreamAssetsAsync","non-void-command collaborator"
+"GenshinInstallGameService","commander boundary","VerifySeparateFilesAsync","non-void-command collaborator"
+"GameService","entity boundary","GameService","copy-constructor"
+"GameService","entity boundary","GetGameScreenshotPath","property non-void-command collaborator"
+"GameService","entity boundary","GetGameProcess","wrapper stateless"
+"GameService","entity boundary","StartGame","property non-void-command collaborator"
+"GameService","entity boundary","UninstallGame","property non-void-command collaborator"
+"GameService","entity boundary","DeleteFolderAndParent","command"
+"StarRailGachaService","commander boundary","StarRailGachaService","copy-constructor"
+"StarRailGachaService","commander boundary","GetGroupGachaLogItems","controller stateless"
+"StarRailGachaService","commander boundary","GetGachaLogItemEx","non-void-command factory collaborator"
+"StarRailGachaService","commander boundary","InsertGachaLogItems","property non-void-command collaborator"
+"StarRailGachaService","commander boundary","ExportGachaLogAsync","non-void-command collaborator"
+"StarRailGachaService","commander boundary","ExportAsJsonAsync","non-void-command collaborator"
+"StarRailGachaService","commander boundary","ExportAsExcelAsync","non-void-command collaborator"
+"StarRailGachaService","commander boundary","ImportGachaLog","property non-void-command collaborator"
+"StarRailGachaService","commander boundary","UpdateGachaItemId","command"
+"SelectGamePage","commander boundary","SelectGamePage","constructor"
+"SelectGamePage","commander boundary","InitializeSomeGame","wrapper stateless"
+"SelectGamePage","commander boundary","OnLoaded","command"
+"SelectGamePage","commander boundary","LoadGameInfoAsync","set collaborator"
+"SelectGamePage","commander boundary","Preview","incidental"
+"SelectGamePage","commander boundary","NextAsync","non-void-command collaborator"
+"SelectGamePage","commander boundary","InitializeGameComboBox","wrapper stateless"
+"SelectGamePage","commander boundary","ComboBox_Game_SelectionChanged","controller stateless"
+"SelectGamePage","commander boundary","ComboBox_GameServer_SelectionChanged","command collaborator"
+"SelectGamePage","commander boundary","ChangeGameBiz","command"
+"SelectGamePage","commander boundary","ChangeGameInfo","command collaborator"
+"StarRailInstallGameService","commander boundary small-class","StarRailInstallGameService","copy-constructor"
+"StarRailInstallGameService","commander boundary small-class","VerifySeparateFilesAsync","non-void-command collaborator"
+"UpdatePage","commander boundary","UpdatePage","constructor"
+"UpdatePage","commander boundary","OnNavigatedTo","command collaborator"
+"UpdatePage","commander boundary","Page_Loaded","command collaborator"
+"UpdatePage","commander boundary","Page_Unloaded","command collaborator"
+"UpdatePage","commander boundary","GetReleaseAsync","non-void-command collaborator"
+"UpdatePage","commander boundary","ShowGithubReleaseAsync","non-void-command collaborator"
+"UpdatePage","commander boundary","HyperlinkButton_Click","command collaborator"
+"UpdatePage","commander boundary","RemindMeLatter","wrapper stateless"
+"UpdatePage","commander boundary","IgnoreThisVersion","wrapper stateless"
+"UpdatePage","commander boundary","UpdateNowAsync","non-void-command collaborator"
+"UpdatePage","commander boundary","UpdateProgressState","command"
+"UpdatePage","commander boundary","UpdateProgressValue","collaborator"
+"UpdatePage","commander boundary","_timer_Tick","command collaborator"
+"UpdatePage","commander boundary","Restart","command collaborator"
+"UpdatePage","commander boundary","Button_RemindLatter_PointerEntered","collaborator incidental"
+"UpdatePage","commander boundary","Button_RemindLatter_PointerExited","collaborator incidental"
+"SwitchClientPage","commander boundary","SwitchClientPage","constructor"
+"SwitchClientPage","commander boundary","OnLoaded","command"
+"SwitchClientPage","commander boundary","OnUnloaded","set"
+"SwitchClientPage","commander boundary","_timer_Tick","command collaborator"
+"SwitchClientPage","commander boundary","StarTimer","command"
+"SwitchClientPage","commander boundary","StopTimer","command"
+"SwitchClientPage","commander boundary","InitializeAsync","non-void-command collaborator"
+"SwitchClientPage","commander boundary","UpdateTargetGameBizs","controller stateless"
+"SwitchClientPage","commander boundary","PrepareForSwitchClientAsync","non-void-command collaborator"
+"SwitchClientPage","commander boundary","GetDownloadFilesAsync","non-void-command collaborator"
+"SwitchClientPage","commander boundary","MoveExistFilesAsync","wrapper"
+"SwitchClientPage","commander boundary","DownloadFilesAsync","non-void-command collaborator"
+"SwitchClientPage","commander boundary","VerifyDownloadFilesAsync","non-void-command collaborator"
+"SwitchClientPage","commander boundary","VerifyMovedFilesAsync","non-void-command collaborator"
+"SwitchClientPage","commander boundary","WriteConfigFileAsync","wrapper"
+"SwitchClientPage","commander boundary","StartSwitchClientAsync","non-void-command collaborator"
+"SwitchClientPage","commander boundary","Close","command"
+"SwitchClientPage","commander boundary","GetPkgVersionsAsync","non-void-command factory collaborator"
+"SwitchClientPage","commander boundary","GetContentLengthAndMd5Async","property non-void-command collaborator"
+"ExperienceSettingPage","commander boundary degenerate","ExperienceSettingPage","constructor"
+"ExperienceSettingPage","commander boundary degenerate","OnLoaded","incidental"
+"ExperienceSettingPage","commander boundary degenerate","OnUnloaded","incidental"
+"ExperienceSettingPage","commander boundary degenerate","InitializeCloseWindowOption","collaborator incidental"
+"ExperienceSettingPage","commander boundary degenerate","ComboBox_CloseWindowOption_SelectionChanged","command collaborator"
+"ExperienceSettingPage","commander boundary degenerate","InitializeAfterStartGameAction","collaborator incidental"
+"ExperienceSettingPage","commander boundary degenerate","ComboBox_AfterStartGameAction_SelectionChanged","command collaborator"
+"ExperienceSettingPage","commander boundary degenerate","OnDisableGameAccountSwitcherChanged","wrapper stateless"
+"ExperienceSettingPage","commander boundary degenerate","OnDisableGameNoticeRedHotChanged","wrapper stateless"
+"AppearanceSettingPage","commander boundary lazy-class degenerate","AppearanceSettingPage","constructor"
+"AppearanceSettingPage","commander boundary lazy-class degenerate","InitializeLanguage","set collaborator"
+"AppearanceSettingPage","commander boundary lazy-class degenerate","ComboBox_Language_SelectionChanged","command collaborator"
+"AppearanceSettingPage","commander boundary lazy-class degenerate","InitializeWinowSize","collaborator incidental"
+"AppearanceSettingPage","commander boundary lazy-class degenerate","RadioButton_WindowSize_Click","wrapper stateless"
+"AppearanceSettingPage","commander boundary lazy-class degenerate","OnUseSystemThemeColorChanged","wrapper stateless"
+"AppearanceSettingPage","commander boundary lazy-class degenerate","OnEnableNavigationViewLeftCompactChanged","wrapper stateless"
+"AppearanceSettingPage","commander boundary lazy-class degenerate","UpdateExperienceDesc","wrapper stateless"
+"SelfQueryPage","commander boundary","SelfQueryPage","constructor"
+"SelfQueryPage","commander boundary","OnNavigatedTo","set collaborator"
+"SelfQueryPage","commander boundary","OnSelectUidChanged","command"
+"SelfQueryPage","commander boundary","OnSelectTypeStatsChanged","command collaborator"
+"SelfQueryPage","commander boundary","OnSelectTypeStatsMonthChanged","wrapper stateless"
+"SelfQueryPage","commander boundary","Page_Loaded","set collaborator"
+"SelfQueryPage","commander boundary","Page_Unloaded","wrapper"
+"SelfQueryPage","commander boundary","LoadUidList","command collaborator"
+"SelfQueryPage","commander boundary","LoadQueryTypeStats","command collaborator"
+"SelfQueryPage","commander boundary","InputURLAsync","non-void-command collaborator"
+"SelfQueryPage","commander boundary","Button_UpdateSelfQueryItems_Click","command collaborator"
+"SelfQueryPage","commander boundary","UpdateGenshinQueryItemsAsync","non-void-command collaborator"
+"SelfQueryPage","commander boundary","UpdateStarRailQueryItemsAsync","non-void-command collaborator"
+"SelfQueryPage","commander boundary","TypeStatsChanged","command"
+"ScreenshotPage","entity commander boundary","ScreenshotPage","constructor"
+"ScreenshotPage","entity commander boundary","OnNavigatedTo","set collaborator"
+"ScreenshotPage","entity commander boundary","OnLoaded","command"
+"ScreenshotPage","entity commander boundary","OnUnloaded","wrapper stateless"
+"ScreenshotPage","entity commander boundary","Initialize","command collaborator"
+"ScreenshotPage","entity commander boundary","Button_CopyImage_Click","command collaborator"
+"ScreenshotPage","entity commander boundary","OpenScreenshotFolderAsync","non-void-command collaborator"
+"ScreenshotPage","entity commander boundary","BackupScreenshots","command collaborator"
+"ScreenshotPage","entity commander boundary","OpenBackupFolderAsync","non-void-command collaborator"
+"ScreenshotPage","entity commander boundary","GridView_Images_ItemClick","wrapper stateless"
+"ScreenshotPage","entity commander boundary","Grid_ImageItem_Tapped","wrapper stateless"
+"ScreenshotPage","entity commander boundary","Grid_ImageItem_DragStarting","void-accessor command collaborator"
+"PageBase","commander boundary","PageBase","constructor"
+"PageBase","commander boundary","PageEx_Loaded","command collaborator"
+"PageBase","commander boundary","PageEx_Unloaded","command collaborator"
+"PageBase","commander boundary","OnNavigatedTo","set collaborator"
+"PageBase","commander boundary","OnLoaded","empty"
+"PageBase","commander boundary","OnUnloaded","empty"
+"TravelersDiaryPage","commander boundary","TravelersDiaryPage","constructor"
+"TravelersDiaryPage","commander boundary","OnNavigatedTo","set collaborator"
+"TravelersDiaryPage","commander boundary","OnLoaded","command"
+"TravelersDiaryPage","commander boundary","InitializeDataAsync","non-void-command collaborator"
+"TravelersDiaryPage","commander boundary","GetCurrentSummaryAsync","non-void-command collaborator"
+"TravelersDiaryPage","commander boundary","GetMonthDataList","command"
+"TravelersDiaryPage","commander boundary","GetDataDetailsAsync","non-void-command collaborator"
+"TravelersDiaryPage","commander boundary","ListView_MonthDataList_SelectionChanged","command collaborator"
+"TravelersDiaryPage","commander boundary","RefreshDailyDataPlot","command collaborator"
+"LauncherContentService","entity boundary","LauncherContentService","copy-constructor"
+"LauncherContentService","entity boundary","GetCachedBackgroundImage","property non-void-command"
+"LauncherContentService","entity boundary","GetBackgroundImageAsync","property non-void-command collaborator"
+"LauncherContentService","entity boundary","GetFallbackBackgroundImage","wrapper stateless"
+"LauncherContentService","entity boundary","ChangeCustomBgAsync","property non-void-command collaborator"
+"LauncherContentService","entity boundary","OpenCustomBgAsync","non-void-command collaborator"
+"TrailblazeCalendarPage","commander boundary","TrailblazeCalendarPage","constructor"
+"TrailblazeCalendarPage","commander boundary","OnNavigatedTo","set collaborator"
+"TrailblazeCalendarPage","commander boundary","OnLoaded","command"
+"TrailblazeCalendarPage","commander boundary","InitializeDataAsync","non-void-command collaborator"
+"TrailblazeCalendarPage","commander boundary","GetCurrentSummaryAsync","non-void-command collaborator"
+"TrailblazeCalendarPage","commander boundary","GetMonthDataList","command"
+"TrailblazeCalendarPage","commander boundary","GetDataDetailsAsync","non-void-command collaborator"
+"TrailblazeCalendarPage","commander boundary","ListView_MonthDataList_SelectionChanged","command collaborator"
+"TrailblazeCalendarPage","commander boundary","RefreshDailyDataPlot","command collaborator"
+"SpiralAbyssPage","commander boundary","SpiralAbyssPage","constructor"
+"SpiralAbyssPage","commander boundary","OnNavigatedTo","set collaborator"
+"SpiralAbyssPage","commander boundary","OnLoaded","command"
+"SpiralAbyssPage","commander boundary","InitializeAbyssData","command collaborator"
+"SpiralAbyssPage","commander boundary","RefreshDataAsync","non-void-command collaborator"
+"SpiralAbyssPage","commander boundary","ListView_AbyssList_SelectionChanged","command collaborator"
+"SpiralAbyssPage","commander boundary","UserControl_AbyssLevel_SizeChanged","wrapper stateless"
+"UpdateService","entity commander boundary","UpdateService","copy-constructor"
+"UpdateService","entity commander boundary","CheckUpdateAsync","property non-void-command collaborator"
+"UpdateService","entity commander boundary","PrepareForUpdateAsync","non-void-command collaborator"
+"UpdateService","entity commander boundary","GetLocalFilesHash","set collaborator"
+"UpdateService","entity commander boundary","GetExistFiles","command collaborator"
+"UpdateService","entity commander boundary","GetDownloadFiles","command collaborator"
+"UpdateService","entity commander boundary","Start","command"
+"UpdateService","entity commander boundary","Stop","command"
+"UpdateService","entity commander boundary","UpdateAsync","non-void-command collaborator"
+"UpdateService","entity commander boundary","CheckDownloadFiles","predicate wrapper"
+"UpdateService","entity commander boundary","MovingFiles","wrapper"
+"AdvancedSettingPage","commander boundary","AdvancedSettingPage","constructor"
+"AdvancedSettingPage","commander boundary","OnEnableUrlProtocolChanged","command"
+"AdvancedSettingPage","commander boundary","CheckUrlProtocol","set collaborator"
+"AdvancedSettingPage","commander boundary","TestUrlProtocolAsync","non-void-command collaborator"
+"SimulatedUniversePage","commander boundary","SimulatedUniversePage","constructor"
+"SimulatedUniversePage","commander boundary","OnNavigatedTo","set collaborator"
+"SimulatedUniversePage","commander boundary","OnLoaded","command"
+"SimulatedUniversePage","commander boundary","InitializeSimulatedUniverseRecord","command collaborator"
+"SimulatedUniversePage","commander boundary","GetSimulatedUniverseDetailAsync","non-void-command collaborator"
+"SimulatedUniversePage","commander boundary","GetSimulatedUniverseInfoBasicAsync","non-void-command collaborator"
+"SimulatedUniversePage","commander boundary","ListView_SimulatedUniverse_SelectionChanged","command collaborator"
+"SimulatedUniversePage","commander boundary","GetSimulatedUniverseRecord","command collaborator"
+"PureFictionPage","commander boundary","PureFictionPage","constructor"
+"PureFictionPage","commander boundary","OnNavigatedTo","set collaborator"
+"PureFictionPage","commander boundary","OnLoaded","command"
+"PureFictionPage","commander boundary","InitializePureFictionInfoData","command collaborator"
+"PureFictionPage","commander boundary","RefreshDataAsync","non-void-command collaborator"
+"PureFictionPage","commander boundary","ListView_ForgottenHall_SelectionChanged","command collaborator"
+"PureFictionPage","commander boundary","TextBlock_Deepest_IsTextTrimmedChanged","wrapper stateless"
+"HoyolabToolboxPage","commander boundary small-class","HoyolabToolboxPage","constructor"
+"HoyolabToolboxPage","commander boundary small-class","OnNavigatedTo","command collaborator"
+"HoyolabToolboxPage","commander boundary small-class","MenuFlyoutItem_DeleteGameRole_Click","command collaborator"
+"GameSettingPage","commander","GameSettingPage","constructor"
+"GameSettingPage","commander","OnNavigatedTo","set collaborator"
+"GameSettingPage","commander","Page_Loaded","command collaborator"
+"GameSettingPage","commander","OnStartArgumentChanged","wrapper"
+"GameSettingPage","commander","OnEnableFullScreenChanged","incidental"
+"GameSettingPage","commander","OnResolutionWidthChanged","incidental"
+"GameSettingPage","commander","OnResolutionHeightChanged","incidental"
+"GameSettingPage","commander","OnLanguageIndexChanged","incidental"
+"GameSettingPage","commander","OnGraphicsQualityIndexChanged","command"
+"GameSettingPage","commander","OnRenderScaleChanged","command"
+"GameSettingPage","commander","OnFpsIndexChanged","command"
+"GameSettingPage","commander","OnVSyncIndexChanged","command"
+"GameSettingPage","commander","OnAAModeIndexChanged","command"
+"GameSettingPage","commander","OnShadowQualityIndexChanged","command"
+"GameSettingPage","commander","OnReflectionQualityIndexChanged","command"
+"GameSettingPage","commander","OnCharacterQualityIndexChanged","command"
+"GameSettingPage","commander","OnEnvDetailQualityIndexChanged","command"
+"GameSettingPage","commander","OnBloomQualityIndexChanged","command"
+"GameSettingPage","commander","OnLightQualityIndexChanged","command"
+"GameSettingPage","commander","InitializeGameSettingAsync","non-void-command collaborator"
+"GameSettingPage","commander","UpdateGraphicsQuality","collaborator incidental"
+"GameSettingPage","commander","UpdateGraphicsSetting","wrapper stateless"
+"GameSettingPage","commander","GraphicsSettingToSettingModel","factory collaborator stateless"
+"GameSettingPage","commander","GraphicsQualityChanged","command collaborator"
+"GameSettingPage","commander","GraphicsSettingChanged","command collaborator"
+"GameSettingPage","commander","InitializeResolutionItem","command collaborator"
+"GameSettingPage","commander","ComboBox_Resolution_SelectionChanged","controller stateless"
+"GameSettingPage","commander","UpdateResolutionComboBoxSelection","wrapper stateless"
+"GameSettingPage","commander","ApplySetting","command collaborator"
+"GameResourcePage","boundary degenerate","GameResourcePage","constructor"
+"GameResourcePage","boundary degenerate","OnLoaded","command collaborator"
+"GameResourcePage","boundary degenerate","GetGameResourcePackageGroups","factory controller stateless"
+"GameResourcePage","boundary degenerate","Button_CopyUrl_Click","command collaborator"
+"GameResourcePage","boundary degenerate","CopySuccessAsync","wrapper stateless"
+"GameResourcePage","boundary degenerate","Close","wrapper stateless"
+"GameNoticesPage","commander boundary","GameNoticesPage","constructor"
+"GameNoticesPage","commander boundary","OnNavigatedTo","set collaborator"
+"GameNoticesPage","commander boundary","Page_Loaded","command collaborator"
+"GameNoticesPage","commander boundary","InitializeBgAsync","command"
+"GameNoticesPage","commander boundary","InitializeWebAsync","non-void-command collaborator"
+"GameNoticesPage","commander boundary","InsertBgAsync","non-void-command collaborator"
+"GachaLogPage","entity commander boundary","GachaLogPage","constructor"
+"GachaLogPage","entity commander boundary","OnNavigatedTo","set collaborator"
+"GachaLogPage","entity commander boundary","OnSelectUidChanged","command"
+"GachaLogPage","entity commander boundary","OnShowNoviceGachaChanged","wrapper"
+"GachaLogPage","entity commander boundary","OnShowChronicledWishChanged","wrapper"
+"GachaLogPage","entity commander boundary","OnGachaLanguageChanged","incidental"
+"GachaLogPage","entity commander boundary","OnLoaded","command"
+"GachaLogPage","entity commander boundary","OnUnloaded","wrapper"
+"GachaLogPage","entity commander boundary","Initialize","command collaborator"
+"GachaLogPage","entity commander boundary","UpdateGachaTypeStats","command"
+"GachaLogPage","entity commander boundary","UpdateWikiDataAsync","non-void-command collaborator"
+"GachaLogPage","entity commander boundary","OpenItemStatsPane","incidental"
+"GachaLogPage","entity commander boundary","UpdateGachaLogAsync","non-void-command collaborator"
+"GachaLogPage","entity commander boundary","UpdateGachaLogInternalAsync","non-void-command collaborator"
+"GachaLogPage","entity commander boundary","InputUrlAsync","non-void-command collaborator"
+"GachaLogPage","entity commander boundary","OpenCloudGameWindow","wrapper"
+"GachaLogPage","entity commander boundary","CopyUrlAsync","non-void-command collaborator"
+"GachaLogPage","entity commander boundary","ChangeGachaItemNameAsync","non-void-command collaborator"
+"GachaLogPage","entity commander boundary","DeleteUidAsync","non-void-command collaborator"
+"GachaLogPage","entity commander boundary","DeleteGachaCacheFileAsync","non-void-command collaborator"
+"GachaLogPage","entity commander boundary","IsGachaCacheFileExists","predicate non-void-command collaborator"
+"GachaLogPage","entity commander boundary","ExportGachaLogAsync","non-void-command collaborator"
+"DownloadGamePage","commander boundary","DownloadGamePage","constructor"
+"DownloadGamePage","commander boundary","AppWindow_Closing","void-accessor controller"
+"DownloadGamePage","commander boundary","Exit","wrapper stateless"
+"DownloadGamePage","commander boundary","OnLoaded","command"
+"DownloadGamePage","commander boundary","OnUnloaded","set"
+"DownloadGamePage","commander boundary","CheckAvailableAsync","non-void-command collaborator"
+"DownloadGamePage","commander boundary","GetBgAsync","non-void-command collaborator"
+"DownloadGamePage","commander boundary","ProgressBar_Download_Loaded","command collaborator"
+"DownloadGamePage","commander boundary","StartProgressAnimation","wrapper"
+"DownloadGamePage","commander boundary","StopProgressAnimation","set"
+"DownloadGamePage","commander boundary","_timer_Tick","command collaborator"
+"DownloadGamePage","commander boundary","_installGameService_StateChanged","command collaborator"
+"DownloadGamePage","commander boundary","OnStateOrProgressChanged","command collaborator"
+"DownloadGamePage","commander boundary","ShowErrorMessage","command collaborator"
+"DownloadGamePage","commander boundary","UpdateDownloadProgress","command collaborator"
+"DownloadGamePage","commander boundary","FinishTask","set"
+"DownloadGamePage","commander boundary","StartInstallGame","command"
+"DownloadGamePage","commander boundary","ClickActionButtonAsync","non-void-command collaborator"
+"DownloadGamePage","commander boundary","ShowVerifyFailedDialogAsync","non-void-command collaborator"
+"WelcomeWindow","commander","WelcomeWindow","constructor"
+"WelcomeWindow","commander","InitializeWindow","command"
+"WelcomeWindow","commander","WindowEx_Closed","set collaborator"
+"WelcomeWindow","commander","NavigateTo","wrapper stateless"
+"WelcomeWindow","commander","ChangeWindowSize","command"
+"WelcomeWindow","commander","Reset","command"
+"WelcomeWindow","commander","ApplySetting","command"
+"WelcomeWindow","commander","OpenMainWindow","command"
+"WelcomeWindow","commander","WindowSubclassProc","property non-void-command collaborator"
+"UpdateContentWindow","commander boundary degenerate","UpdateContentWindow","constructor"
+"UpdateContentWindow","commander boundary degenerate","CenterInScreen","wrapper stateless"
+"UpdateContentWindow","commander boundary degenerate","RootGrid_Loaded","command collaborator"
+"UpdateContentWindow","commander boundary degenerate","LoadPageAsync","non-void-command collaborator"
+"UpdateContentWindow","commander boundary degenerate","CoreWebView2_DOMContentLoaded","wrapper stateless"
+"UpdateContentWindow","commander boundary degenerate","CoreWebView2_NewWindowRequested","wrapper stateless"
+"UpdateContentWindow","commander boundary degenerate","Button_Retry_Click","command collaborator"
+"UpdateContentWindow","commander boundary degenerate","Button_RemindLatter_Click","wrapper stateless"
+"UpdateContentWindow","commander boundary degenerate","Button_Ignore_Click","wrapper stateless"
+"SystemTrayWindow","commander boundary","SystemTrayWindow","constructor"
+"SystemTrayWindow","commander boundary","InitializeWindow","command collaborator"
+"SystemTrayWindow","commander boundary","SystemTrayWindow_Activated","command collaborator"
+"SystemTrayWindow","commander boundary","Show","command collaborator"
+"SystemTrayWindow","commander boundary","Hide","command"
+"SystemTrayWindow","commander boundary","ShowMainWindow","command"
+"SystemTrayWindow","commander boundary","WindowEx_Closed","set collaborator"
+"DownloadProgress","empty","DownloadProgress","constructor"
+"CloudGameGachaWindow","commander boundary small-class","CloudGameGachaWindow","constructor"
+"CloudGameGachaWindow","commander boundary small-class","RootGrid_Loaded","command collaborator"
+"CloudGameGachaWindow","commander boundary small-class","Button_Click","wrapper"
+"ScreenshotWatcher","commander boundary","ScreenshotWatcher","constructor"
+"ScreenshotWatcher","commander boundary","FileSystemWatcher_Created","command collaborator"
+"ScreenshotWatcher","commander boundary","FileSystemWatcher_Deleted","command collaborator"
+"ScreenshotWatcher","commander boundary","Dispose","command"
+"ScreenshotItemGroup","empty","ScreenshotItemGroup","constructor"
+"ScreenshotItem","empty","ScreenshotItem","constructor"
+"LauncherPostGroup","empty","LauncherPostGroup","constructor"
+"GameResourceService","entity boundary","GameResourceService","copy-constructor"
+"GameResourceService","entity boundary","GetGameInstallPath","wrapper stateless"
+"GameResourceService","entity boundary","IsGameExeExists","predicate non-void-command collaborator"
+"GameResourceService","entity boundary","GetLocalGameVersionAndBizAsync","property non-void-command collaborator"
+"GameResourceService","entity boundary","GetLocalGameBiz","property non-void-command collaborator"
+"GameResourceService","entity boundary","GetGameResourceAsync","property non-void-command collaborator"
+"GameResourceService","entity boundary","GetGameResourceVersionAsync","property non-void-command collaborator"
+"GameResourceService","entity boundary","CheckPreDownloadIsOKAsync","property non-void-command collaborator"
+"SettingPage","entity boundary","SettingPage","constructor"
+"SettingPage","entity boundary","OnLoaded","incidental"
+"SettingPage","entity boundary","OnUnloaded","wrapper"
+"SettingPage","entity boundary","SettingPage_KeyDown","void-accessor command collaborator"
+"SettingPage","entity boundary","ClosePage","wrapper stateless"
+"SettingPage","entity boundary","NavigationView_ItemInvoked","set collaborator"
+"GachaLogExportFile<T>","empty","GachaLogExportFile","constructor"
+"CacheBase<T>","boundary","CacheBase","constructor"
+"CacheBase<T>","boundary","Initialize","set collaborator"
+"CacheBase<T>","boundary","InitializeAsync","non-void-command collaborator"
+"CacheBase<T>","boundary","ClearAsync","non-void-command collaborator"
+"CacheBase<T>","boundary","ClearAsync","property non-void-command collaborator"
+"CacheBase<T>","boundary","RemoveExpiredAsync","non-void-command collaborator"
+"CacheBase<T>","boundary","RemoveAsync","non-void-command collaborator"
+"CacheBase<T>","boundary","GetFileFromCacheAsync","property non-void-command collaborator"
+"CacheBase<T>","boundary","GetFromMemoryCache","property non-void-command collaborator"
+"CacheBase<T>","boundary","GetProgress","property non-void-command collaborator"
+"CacheBase<T>","boundary","IsFileOutOfDateAsync","controller stateless"
+"CacheBase<T>","boundary","GetCacheFileName","controller stateless"
+"CacheBase<T>","boundary","GetItemAsync","property non-void-command collaborator"
+"CacheBase<T>","boundary","GetFromCacheOrDownloadAsync","property non-void-command collaborator"
+"CacheBase<T>","boundary","DownloadFileAsync","property non-void-command collaborator"
+"CacheBase<T>","boundary","GetHttpRequestMessage","factory collaborator stateless"
+"CacheBase<T>","boundary","ForceInitialiseAsync","non-void-command collaborator"
+"CacheBase<T>","boundary","GetCacheFolderAsync","property non-void-command collaborator"
+"CacheBase<T>","boundary","GetCacheFilePath","property non-void-command collaborator"
+"CacheBase<T>","boundary","get","property"
+"CacheBase<T>","boundary","set","set"
+"TimeSpanToStringConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"TimeSpanToStringConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"SpiralAbyssBattleAvatarsSelectConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"SpiralAbyssBattleAvatarsSelectConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"SimulatedUniverseWorldIconConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"SimulatedUniverseWorldIconConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"SimulatedUniverseRomanNumberConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"SimulatedUniverseRomanNumberConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"SimulatedUniverseBuffIconConverter","data-provider boundary small-class","Convert","property collaborator"
+"SimulatedUniverseBuffIconConverter","data-provider boundary small-class","ConvertBack","collaborator stateless"
+"RarityToGIBgConverter","data-provider boundary small-class","Convert","property collaborator"
+"RarityToGIBgConverter","data-provider boundary small-class","ConvertBack","collaborator stateless"
+"ObjectToVisibilityReversedConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"ObjectToVisibilityReversedConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"ObjectToVisibilityConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"ObjectToVisibilityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"BoolToVisibilityConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"BoolToVisibilityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"UninstallGameDialog","commander data-class","UninstallGameDialog","constructor"
+"UninstallGameDialog","commander data-class","set","set"
+"UninstallGameDialog","commander data-class","set","set"
+"UninstallGameDialog","commander data-class","set","set"
+"UninstallGameDialog","commander data-class","set","set"
+"ColorToSolidColorBrushConverter","degenerate small-class","Convert","factory collaborator stateless"
+"ColorToSolidColorBrushConverter","degenerate small-class","ConvertBack","collaborator stateless"
+"TitleBarGameIconYS","empty","TitleBarGameIconYS","constructor"
+"TitleBarGameIconBase","commander boundary","TitleBarGameIconBase","constructor"
+"TitleBarGameIconBase","commander boundary","Select","controller"
+"TitleBarGameIconBase","commander boundary","Click","wrapper stateless"
+"TitleBarGameIconBase","commander boundary","Button_Click","command collaborator"
+"TitleBarGameIconBase","commander boundary","Button_DoubleTapped","command collaborator"
+"TitleBarGameIconBase","commander boundary","Button_PointerEntered","command collaborator"
+"TitleBarGameIconBase","commander boundary","Button_PointerExited","command collaborator"
+"TitleBarGameIconBase","commander boundary","Button_RightTapped","set collaborator"
+"TitleBarGameIconBase","commander boundary","MenuFlyout_Closed","set collaborator"
+"TitleBarGameIconBase","commander boundary","UpdateCornerRadius","command collaborator"
+"TitleBarGameIconBase","commander boundary","get","property wrapper"
+"TitleBarGameIconBase","commander boundary","set","wrapper"
+"TitleBarGameIconBase","commander boundary","set","set"
+"SystemTrayControl","commander boundary","SystemTrayControl","constructor"
+"SystemTrayControl","commander boundary","SystemTrayControl_Loaded","command collaborator"
+"SystemTrayControl","commander boundary","UpdateContent","command"
+"SystemTrayControl","commander boundary","Button_StartGame_Click","command collaborator"
+"SystemTrayControl","commander boundary","OpenLauncher","wrapper stateless"
+"SystemTrayControl","commander boundary","Exit","incidental"
+"AboutSettingPage","commander","AboutSettingPage","constructor"
+"AboutSettingPage","commander","OnEnablePreviewReleaseChanged","incidental"
+"AboutSettingPage","commander","CheckUpdateAsync","non-void-command collaborator"
+"AboutSettingPage","commander","VerifyFileAsync","non-void-command collaborator"
+"AboutSettingPage","commander","StartToRepair","command"
+"HandCursorGrid","empty","HandCursorGrid","constructor"
+"GachaStatsCard","data-provider boundary degenerate","GachaStatsCard","constructor"
+"GachaStatsCard","data-provider boundary degenerate","Grid_Rarity5Item_PointerEntered","wrapper stateless"
+"GachaStatsCard","data-provider boundary degenerate","Grid_Rarity5Item_PointerExited","wrapper stateless"
+"GachaStatsCard","data-provider boundary degenerate","Grid_Rarity4Item_PointerEntered","wrapper stateless"
+"GachaStatsCard","data-provider boundary degenerate","Grid_Rarity4Item_PointerExited","wrapper stateless"
+"GachaStatsCard","data-provider boundary degenerate","TextBlock_GachaTypeText_IsTextTrimmedChanged","empty"
+"GachaStatsCard","data-provider boundary degenerate","ResetGachaTypeTextFontSize","incidental"
+"GachaStatsCard","data-provider boundary degenerate","get","property wrapper"
+"GachaStatsCard","data-provider boundary degenerate","set","wrapper"
+"GameAccountUidStringConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"TitleBarGameIconBH3","empty","TitleBarGameIconBH3","constructor"
+"GachaTypeJsonConverter","pure-controller degenerate small-class","Read","controller stateless"
+"GachaTypeJsonConverter","pure-controller degenerate small-class","Write","controller stateless"
+"PureFictionInfo","data-provider boundary small-class","get","property wrapper"
+"ByteLengthToStringConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"HyperionClient","empty","HyperionClient","constructor"
+"GenshinGachaService","commander boundary","GenshinGachaService","copy-constructor"
+"GenshinGachaService","commander boundary","GetGroupGachaLogItems","controller stateless"
+"GenshinGachaService","commander boundary","GetGachaLogItemEx","non-void-command factory collaborator"
+"GenshinGachaService","commander boundary","InsertGachaLogItems","property non-void-command collaborator"
+"GenshinGachaService","commander boundary","ExportGachaLogAsync","non-void-command collaborator"
+"GenshinGachaService","commander boundary","ExportAsJsonAsync","non-void-command collaborator"
+"GenshinGachaService","commander boundary","ExportAsExcelAsync","non-void-command collaborator"
+"GenshinGachaService","commander boundary","ImportGachaLog","property non-void-command collaborator"
+"GenshinGachaService","commander boundary","UpdateGachaItemId","command"
+"LauncherPage","commander boundary","LauncherPage","constructor"
+"LauncherPage","commander boundary","OnLoaded","command"
+"LauncherPage","commander boundary","OnUnloaded","command"
+"LauncherPage","commander boundary","RegisterMessageHandler","command"
+"LauncherPage","commander boundary","InitializeCurrentGameBiz","wrapper"
+"LauncherPage","commander boundary","OnEnableBannerAndPostChanged","command"
+"LauncherPage","commander boundary","InitializeBannerTimer","command"
+"LauncherPage","commander boundary","InitializeBannerSize","stateless"
+"LauncherPage","commander boundary","UpdateLauncherContentAsync","non-void-command collaborator"
+"LauncherPage","commander boundary","_bannerTimer_Tick","collaborator incidental"
+"LauncherPage","commander boundary","Image_Banner_Tapped","command collaborator"
+"LauncherPage","commander boundary","FlipView_Banner_Loaded","wrapper stateless"
+"LauncherPage","commander boundary","Grid_BannerContainer_PointerEntered","command collaborator"
+"LauncherPage","commander boundary","Grid_BannerContainer_PointerExited","command collaborator"
+"LauncherPage","commander boundary","UpdateGameNoticesAlertAsync","non-void-command collaborator"
+"LauncherPage","commander boundary","NavigateToGameNoticesPage","wrapper stateless"
+"LauncherPage","commander boundary","OpenGameNoticesInBrowser","non-void-command collaborator"
+"LauncherPage","commander boundary","UpdateGameButtonStyle","incidental"
+"LauncherPage","commander boundary","OnIsGameRunningChanged","command"
+"LauncherPage","commander boundary","OnCanStartGameChanged","command"
+"LauncherPage","commander boundary","OnGameProcessChanged","command collaborator"
+"LauncherPage","commander boundary","CheckGameVersion","command"
+"LauncherPage","commander boundary","UpdateGameState","command"
+"LauncherPage","commander boundary","CheckGameExited","wrapper stateless"
+"LauncherPage","commander boundary","StartGameAsync","non-void-command collaborator"
+"LauncherPage","commander boundary","InitializePlayTime","command"
+"LauncherPage","commander boundary","UpdatePlayTime","command"
+"LauncherPage","commander boundary","OnSelectGameAccountChanged","collaborator incidental"
+"LauncherPage","commander boundary","GetGameAccount","command"
+"LauncherPage","commander boundary","ChangeGameAccount","command collaborator"
+"LauncherPage","commander boundary","SaveGameAccountAsync","non-void-command collaborator"
+"InstallGameWindow","small-class","InstallGameWindow","constructor"
+"InstallGameWindow","small-class","InitializeWindow","command"
+"InstallGameWindow","small-class","WindowSubclassProc","property non-void-command collaborator"
+"EnumStringJsonConverter<T>","degenerate small-class","Read","collaborator incidental"
+"EnumStringJsonConverter<T>","degenerate small-class","Write","controller stateless"
+"ForgottenHallTimeJsonConverter","degenerate small-class","Read","factory wrapper stateless"
+"ForgottenHallTimeJsonConverter","degenerate small-class","Write","controller stateless"
+"GachaLogUrl","empty","GachaLogUrl","constructor"
+"GachaLogUrl","empty","GachaLogUrl","constructor"
+"BlankPage","empty","BlankPage","constructor"
+"PlayTimeService","degenerate","PlayTimeService","copy-constructor"
+"PlayTimeService","degenerate","LogPlayTimeAsync","non-void-command collaborator"
+"PlayTimeService","degenerate","Log","command collaborator"
+"PlayTimeService","degenerate","GetPlayTimeTotal","wrapper stateless"
+"PlayTimeService","degenerate","GetPlayCurrentMonth","controller stateless"
+"PlayTimeService","degenerate","GetPlayCurrentWeek","controller stateless"
+"PlayTimeService","degenerate","GetPlayCurrentDay","controller stateless"
+"PlayTimeService","degenerate","GetStartUpCount","property non-void-command collaborator"
+"TransparentBackdrop","entity boundary","OnTargetConnected","void-accessor command collaborator"
+"TransparentBackdrop","entity boundary","OnDefaultSystemBackdropConfigurationChanged","empty"
+"TransparentBackdrop","entity boundary","OnTargetDisconnected","void-accessor command collaborator"
+"TransparentBackdrop","entity boundary","WndProc","wrapper stateless"
+"GenshinGachaInfo","boundary small-class","OnDeserialized","wrapper"
+"GenshinGachaInfo","boundary small-class","OnSerializing","wrapper"
+"FileSliceStream","unclassified","FileSliceStream","constructor"
+"FileSliceStream","unclassified","Flush","command"
+"FileSliceStream","unclassified","Read","property non-void-command"
+"FileSliceStream","unclassified","Seek","property non-void-command collaborator"
+"FileSliceStream","unclassified","SetLength","stateless"
+"FileSliceStream","unclassified","Write","stateless"
+"FileSliceStream","unclassified","Dispose","set collaborator"
+"FileSliceStream","unclassified","~FileSliceStream","destructor"
+"FileSliceStream","unclassified","DisposeAsync","controller"
+"FileSliceStream","unclassified","get","property"
+"FileSliceStream","unclassified","set","non-void-command"
+"SimulatedUniverseTimeJsonConverter","degenerate small-class","Read","factory wrapper stateless"
+"SimulatedUniverseTimeJsonConverter","degenerate small-class","Write","controller stateless"
+"LoginPage","boundary","LoginPage","constructor"
+"LoginPage","boundary","GetGameBizUrl","get property non-void-command"
+"LoginPage","boundary","OnLoaded","command"
+"LoginPage","boundary","InitializeCoreWebView","non-void-command collaborator"
+"LoginPage","boundary","CoreWebView2_NavigationStarting","collaborator"
+"LoginPage","boundary","CoreWebView2_NavigationCompleted","collaborator"
+"LoginPage","boundary","CoreWebView2_SourceChanged","collaborator incidental"
+"LoginPage","boundary","TextBox_Uri_KeyDown","controller stateless"
+"LoginPage","boundary","CoreWebView2_HistoryChanged","collaborator incidental"
+"LoginPage","boundary","Button_GoBack_Click","wrapper stateless"
+"LoginPage","boundary","Button_GoForward_Click","wrapper stateless"
+"LoginPage","boundary","Button_RefreshOrCancel_Click","wrapper"
+"LoginPage","boundary","Button_Finish_Click","command collaborator"
+"InMemoryStorageItem<T>","empty","InMemoryStorageItem","constructor"
+"SelectDirectoryPage","commander degenerate","SelectDirectoryPage","constructor"
+"SelectDirectoryPage","commander degenerate","SelectDirectoryAsync","non-void-command collaborator"
+"SelectDirectoryPage","commander degenerate","Preview","incidental"
+"SelectDirectoryPage","commander degenerate","Next","incidental"
+"TravelersDiaryDateJsonConverter","pure-controller degenerate small-class","Read","controller stateless"
+"TravelersDiaryDateJsonConverter","pure-controller degenerate small-class","Write","controller stateless"
+"DownloadGameDialog","commander","DownloadGameDialog","constructor"
+"DownloadGameDialog","commander","OnEnableRepairModeChanged","command"
+"DownloadGameDialog","commander","UserControl_Loaded","command collaborator"
+"DownloadGameDialog","commander","UpdateSizeText","command"
+"DownloadGameDialog","commander","set","set"
+"DownloadGameDialog","commander","set","set"
+"DownloadGameDialog","commander","set","set"
+"DownloadGameDialog","commander","set","set"
+"SelfQueryStatsNumberBrushConverter","data-provider boundary small-class","Convert","property collaborator"
+"SelfQueryStatsNumberBrushConverter","data-provider boundary small-class","ConvertBack","collaborator stateless"
+"GachaLogService","empty","GachaLogService","copy-constructor"
+"BoolReversedConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"BoolReversedConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"BBSWebBridge","commander boundary","BBSWebBridge","constructor"
+"BBSWebBridge","commander boundary","OnGameRecordRoleChanged","wrapper"
+"BBSWebBridge","commander boundary","InitializeWebViewAsync","non-void-command collaborator"
+"BBSWebBridge","commander boundary","LoadPageAsync","non-void-command collaborator"
+"SpiralAbyssTimeJsonConverter","pure-controller degenerate small-class","Read","controller stateless"
+"SpiralAbyssTimeJsonConverter","pure-controller degenerate small-class","Write","controller stateless"
+"CachedImage","boundary","ProvideCachedResourceAsync","property set factory collaborator"
+"CachedImage","boundary","get","predicate wrapper"
+"CachedImage","boundary","set","wrapper"
+"StarRailGachaInfo","commander data-class small-class","OnDeserialized","set"
+"TravelersDiarySummary","commander boundary small-class","OnDeserialized","command collaborator"
+"GachaLogQuery","degenerate small-class","GachaLogQuery","constructor"
+"GachaLogQuery","degenerate small-class","ToString","incidental"
+"TravelersDiaryDetail","boundary small-class","OnDeserialized","wrapper"
+"GameRecordService","entity boundary","GameRecordService","copy-constructor"
+"GameRecordService","entity boundary","UpdateDeviceFpAsync","non-void-command collaborator"
+"GameRecordService","entity boundary","GetRecordUsers","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetGameRoles","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetLastSelectGameRecordRole","property non-void-command collaborator"
+"GameRecordService","entity boundary","SetLastSelectGameRecordRole","command collaborator"
+"GameRecordService","entity boundary","GetGameRecordUser","property non-void-command collaborator"
+"GameRecordService","entity boundary","RefreshAllGameRolesInfoAsync","non-void-command collaborator"
+"GameRecordService","entity boundary","RefreshGameRoleInfoAsync","wrapper stateless"
+"GameRecordService","entity boundary","DeleteGameRole","predicate non-void-command collaborator"
+"GameRecordService","entity boundary","GetSpiralAbyssInfoList","property non-void-command factory collaborator"
+"GameRecordService","entity boundary","GetSpiralAbyssInfo","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetTravelersDiarySummaryAsync","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetTravelersDiaryMonthDataList","property non-void-command factory collaborator"
+"GameRecordService","entity boundary","GetTravelersDiaryDetailAsync","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetTravelersDiaryDetailItems","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetSimulatedUniverseInfoAsync","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetSimulatedUniverseRecordBasics","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetSimulatedUniverseRecord","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetForgottenHallInfoList","property non-void-command factory collaborator"
+"GameRecordService","entity boundary","GetForgottenHallInfo","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetPureFictionInfoList","property non-void-command factory collaborator"
+"GameRecordService","entity boundary","GetPureFictionInfo","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetTrailblazeCalendarSummaryAsync","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetTrailblazeCalendarMonthDataList","property non-void-command factory collaborator"
+"GameRecordService","entity boundary","GetTrailblazeCalendarDetailAsync","property non-void-command collaborator"
+"GameRecordService","entity boundary","GetTrailblazeCalendarDetailItems","property non-void-command collaborator"
+"GameRecordService","entity boundary","set","non-void-command"
+"SelectLanguagePage","commander boundary","SelectLanguagePage","constructor"
+"SelectLanguagePage","commander boundary","Page_Loaded","command collaborator"
+"SelectLanguagePage","commander boundary","Next","incidental"
+"SelectLanguagePage","commander boundary","InitializeLanguageComboBox","set"
+"SelectLanguagePage","commander boundary","ComboBox_Language_SelectionChanged","command collaborator"
+"SelectLanguagePage","commander boundary","IntializeWindowSize","incidental"
+"SelectLanguagePage","commander boundary","RadioButton_WindowSize_Click","wrapper stateless"
+"SelectLanguagePage","commander boundary","TestSpeedAsync","non-void-command collaborator"
+"VisibilityToBoolConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"VisibilityToBoolConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"GachaPityProgressBackgroundBrushConverter","degenerate small-class","Convert","factory collaborator stateless"
+"GachaPityProgressBackgroundBrushConverter","degenerate small-class","ConvertBack","collaborator stateless"
+"CollectionToVisibilityConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"CollectionToVisibilityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"HoyolabClient","empty","HoyolabClient","constructor"
+"ItemIdJsonConverter","pure-controller degenerate small-class","Read","controller stateless"
+"ItemIdJsonConverter","pure-controller degenerate small-class","Write","controller stateless"
+"NotificationBehavior","commander","NotificationBehavior","constructor"
+"NotificationBehavior","commander","_dismissTimer_Tick","wrapper stateless"
+"NotificationBehavior","commander","Show","wrapper stateless"
+"NotificationBehavior","commander","AddInfoBar","wrapper stateless"
+"NotificationBehavior","commander","Information","command"
+"NotificationBehavior","commander","Success","command"
+"NotificationBehavior","commander","Warning","command"
+"NotificationBehavior","commander","Error","command"
+"NotificationBehavior","commander","Error","command"
+"NotificationBehavior","commander","ShowWithButton","command collaborator"
+"NotificationBehavior","commander","Create","factory wrapper stateless"
+"FileSettingPage","commander boundary","FileSettingPage","constructor"
+"FileSettingPage","commander boundary","OnLoaded","command"
+"FileSettingPage","commander boundary","OpenDataFolderAsync","non-void-command collaborator"
+"FileSettingPage","commander boundary","ChangeDataFolderAsync","non-void-command collaborator"
+"FileSettingPage","commander boundary","DeleteAllSettingAsync","non-void-command collaborator"
+"FileSettingPage","commander boundary","GetLastBackupTime","command"
+"FileSettingPage","commander boundary","BackupDatabaseAsync","non-void-command collaborator"
+"FileSettingPage","commander boundary","OpenLastBackupDatabaseAsync","non-void-command collaborator"
+"FileSettingPage","commander boundary","OpenLogFileAsync","non-void-command collaborator"
+"FileSettingPage","commander boundary","OpenLogFolderAsync","non-void-command collaborator"
+"FileSettingPage","commander boundary","UpdateCacheSizeAsync","non-void-command collaborator"
+"FileSettingPage","commander boundary","ClearCacheAsync","non-void-command collaborator"
+"TestUrlProtocolWindow","small-class","TestUrlProtocolWindow","constructor"
+"TestUrlProtocolWindow","small-class","InitializeWindow","command"
+"TestUrlProtocolWindow","small-class","WindowSubclassProc","property non-void-command collaborator"
+"StarRailGachaClient","controller small-class","StarRailGachaClient","constructor"
+"StarRailGachaClient","controller small-class","GetGachaUrlPrefix","property controller"
+"App","commander boundary","App","constructor"
+"App","commander boundary","App_UnhandledException","controller stateless"
+"App","commander boundary","OnLaunched","command collaborator"
+"App","commander boundary","SwitchMainWindow","set collaborator"
+"App","commander boundary","EnsureMainWindow","command"
+"App","commander boundary","CloseMainWindow","set"
+"App","commander boundary","InitializeSystemTray","unclassified"
+"App","commander boundary","CloseSystemTray","set"
+"App","commander boundary","AppInstance_Activated","command collaborator"
+"App","commander boundary","InitializeLanguage","wrapper stateless"
+"DateTimeJsonConverter","pure-controller degenerate small-class","Read","controller stateless"
+"DateTimeJsonConverter","pure-controller degenerate small-class","Write","controller stateless"
+"ImageViewPage","commander boundary","ImageViewPage","constructor"
+"ImageViewPage","commander boundary","OnNavigatedTo","command collaborator"
+"ImageViewPage","commander boundary","OnLoaded","incidental"
+"ImageViewPage","commander boundary","OnUnloaded","incidental"
+"ImageViewPage","commander boundary","ImageViewPage_KeyDown","void-accessor command collaborator"
+"ImageViewPage","commander boundary","OnCurrentImageChanged","collaborator incidental"
+"ImageViewPage","commander boundary","OnImageCollectionChanged","wrapper stateless"
+"ImageViewPage","commander boundary","Zoom","wrapper"
+"ImageViewPage","commander boundary","ZoomOut","command collaborator"
+"ImageViewPage","commander boundary","ZoomIn","command collaborator"
+"ImageViewPage","commander boundary","Rotate","incidental"
+"ImageViewPage","commander boundary","CopyImageAsync","non-void-command collaborator"
+"ImageViewPage","commander boundary","OpenFileAsync","non-void-command collaborator"
+"ImageViewPage","commander boundary","Close","wrapper stateless"
+"ImageViewPage","commander boundary","_ScrollViewer_Image_ViewChanged","wrapper"
+"ImageViewPage","commander boundary","_Image_ImageOpened","command collaborator"
+"ImageViewPage","commander boundary","_Image_SizeChanged","command collaborator"
+"ImageViewPage","commander boundary","GetFitZoomFactor","property wrapper"
+"ImageViewPage","commander boundary","_ScrollViewer_Image_Tapped","command collaborator"
+"ImageViewPage","commander boundary","ChangeToolBarVisibility","incidental"
+"ImageViewPage","commander boundary","_ScrollViewer_Image_DoubleTapped","command collaborator"
+"ImageViewPage","commander boundary","_ScrollViewer_Image_PointerWheelChanged","controller stateless"
+"ImageViewPage","commander boundary","_ScrollViewer_Image_PointerPressed","command collaborator"
+"ImageViewPage","commander boundary","_ScrollViewer_Image_PointerMoved","set collaborator"
+"ImageViewPage","commander boundary","_ScrollViewer_Image_PointerReleased","set collaborator"
+"ImageViewPage","commander boundary","FullScreen","wrapper stateless"
+"JsResult","data-provider boundary small-class","ToString","property wrapper"
+"GameSettingService","entity factory controller small-class","GameSettingService","copy-constructor"
+"GameSettingService","entity factory controller small-class","GetGameResolutionSetting","property non-void-command factory collaborator"
+"DatabaseService","boundary","DatabaseService","constructor"
+"DatabaseService","boundary","DatabaseService","copy-constructor"
+"DatabaseService","boundary","CreateConnection","factory controller"
+"DatabaseService","boundary","SetDatabase","command"
+"DatabaseService","boundary","InitializeDatabase","command collaborator"
+"DatabaseService","boundary","BackupDatabase","property non-void-command collaborator"
+"DatabaseService","boundary","SetValue<T>","command collaborator"
+"TravelersDiaryDateTimeJsonConverter","pure-controller degenerate small-class","Read","controller stateless"
+"TravelersDiaryDateTimeJsonConverter","pure-controller degenerate small-class","Write","controller stateless"
+"ReleaseVersion","boundary small-class","OnDeserialized","wrapper"
+"GameRecordClient","degenerate","CreateSecret","wrapper stateless"
+"GameRecordClient","degenerate","CreateSecret2","controller stateless"
+"GameRecordClient","degenerate","CreateSecret2<T>","controller stateless"
+"GameRecordClient","degenerate","GameRecordClient","constructor"
+"MemoryCache","entity boundary small-class","GetItem<T>","property non-void-command collaborator"
+"MemoryCache","entity boundary small-class","SetItem<T>","command collaborator"
+"SelfQueryService","boundary","SelfQueryService","copy-constructor"
+"SelfQueryService","boundary","InitializeAsync","property non-void-command collaborator"
+"SelfQueryService","boundary","EnsureInitialized","command"
+"SelfQueryService","boundary","Reset","command"
+"SelfQueryService","boundary","GetGenshinUids","property non-void-command"
+"SelfQueryService","boundary","GetGenshinLastId","property non-void-command collaborator"
+"SelfQueryService","boundary","InsertGenshinQueryItems","property non-void-command collaborator"
+"SelfQueryService","boundary","GetStarRailUids","property non-void-command"
+"SelfQueryService","boundary","GetStarRailLastTime","property non-void-command collaborator"
+"SelfQueryService","boundary","InsertStarRailQueryItems","property non-void-command collaborator"
+"GachaLogClient","controller small-class","GachaLogClient","constructor"
+"GachaLogClient","controller small-class","GetUidByGachaUrlAsync","property controller"
+"CheckSumFailedException","empty","CheckSumFailedException","constructor"
+"InMemoryStorage<T>","commander","Clear","command"
+"InMemoryStorage<T>","commander","Clear","command collaborator"
+"InMemoryStorage<T>","commander","Remove","command collaborator"
+"InMemoryStorage<T>","commander","SetItem","command collaborator"
+"InMemoryStorage<T>","commander","GetItem","property non-void-command collaborator"
+"InMemoryStorage<T>","commander","EnsureStorageBounds","command"
+"InMemoryStorage<T>","commander","get","get"
+"InMemoryStorage<T>","commander","set","set"
+"RarityToSRBgConverter","data-provider boundary small-class","Convert","property collaborator"
+"RarityToSRBgConverter","data-provider boundary small-class","ConvertBack","collaborator stateless"
+"ObjectToBoolConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"ObjectToBoolConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"TrailblazeCalendarDetail","boundary small-class","OnDeserialized","collaborator"
+"TitleBarGameIconZZZ","empty","TitleBarGameIconZZZ","constructor"
+"ForgottenHallFloorDetail","data-provider small-class","get","predicate"
+"MetadataClient","commander lazy-class small-class","MetadataClient","constructor"
+"MetadataClient","commander lazy-class small-class","SetApiPrefix","set"
+"MetadataClient","commander lazy-class small-class","GetUrl","incidental"
+"BoolToVisibilityReversedConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"BoolToVisibilityReversedConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"LauncherClient","empty","LauncherClient","constructor"
+"InstallGameService","commander boundary","InstallGameService","copy-constructor"
+"InstallGameService","commander boundary","Cancel","set"
+"InstallGameService","commander boundary","InvokeStateOrProgressChanged","set collaborator"
+"InstallGameService","commander boundary","Initialize","command"
+"InstallGameService","commander boundary","StartAsync","non-void-command collaborator"
+"InstallGameService","commander boundary","SetAllFileWriteable","wrapper"
+"InstallGameService","commander boundary","PrepareForDownloadAsync","non-void-command collaborator"
+"InstallGameService","commander boundary","set","non-void-command collaborator"
+"WindowEx","boundary degenerate","WindowEx","constructor"
+"WindowEx","boundary degenerate","WindowSubclassProc","wrapper stateless"
+"WindowEx","boundary degenerate","BridgeSubclassProc","wrapper stateless"
+"WindowEx","boundary degenerate","Show","wrapper"
+"WindowEx","boundary degenerate","Hide","wrapper stateless"
+"WindowEx","boundary degenerate","Minimize","wrapper"
+"WindowEx","boundary degenerate","CenterInScreen","wrapper stateless"
+"WindowEx","boundary degenerate","AdaptTitleBarButtonColorToActuallTheme","wrapper stateless"
+"WindowEx","boundary degenerate","SetDragRectangles","wrapper stateless"
+"WindowEx","boundary degenerate","ChangeAccentColor","wrapper stateless"
+"WindowEx","boundary degenerate","get","predicate controller"
+"WindowEx","boundary degenerate","set","wrapper"
+"SelfQueryStatsNumberConverter","degenerate small-class","Convert","controller stateless"
+"SelfQueryStatsNumberConverter","degenerate small-class","ConvertBack","collaborator stateless"
+"Honkai3rdInstallGameService","commander boundary small-class","Honkai3rdInstallGameService","copy-constructor"
+"Honkai3rdInstallGameService","commander boundary small-class","StartAsync","non-void-command collaborator"
+"Honkai3rdInstallGameService","commander boundary small-class","DownloadBH3BaseAsync","non-void-command collaborator"
+"SystemBackdropHelper","commander boundary","SystemBackdropHelper","constructor"
+"SystemBackdropHelper","commander boundary","ResetBackdrop","command"
+"SystemBackdropHelper","commander boundary","SetBackdropProperty","set collaborator"
+"SystemBackdropHelper","commander boundary","TrySetMica","predicate non-void-command"
+"SystemBackdropHelper","commander boundary","TrySetAcrylic","predicate non-void-command"
+"SystemBackdropHelper","commander boundary","Window_Activated","set collaborator"
+"SystemBackdropHelper","commander boundary","Window_ThemeChanged","command collaborator"
+"SystemBackdropHelper","commander boundary","Window_Closed","command collaborator"
+"SystemBackdropHelper","commander boundary","SetConfigurationSourceTheme","set"
+"SystemBackdropHelper","commander boundary","SetControllerProperties","command collaborator"
+"TitleBarGameIconSR","empty","TitleBarGameIconSR","constructor"
+"GenshinGachaClient","controller small-class","GenshinGachaClient","constructor"
+"GenshinGachaClient","controller small-class","GetGachaUrlPrefix","property controller"
+"SimulatedUniverseBuffBgConverter","data-provider boundary small-class","Convert","property collaborator"
+"SimulatedUniverseBuffBgConverter","data-provider boundary small-class","ConvertBack","collaborator stateless"
+"CoreLang","empty","CoreLang","constructor"
+"ColorRectChart","commander boundary small-class","ColorRectChart","constructor"
+"ColorRectChart","commander boundary small-class","ApplySeries","command collaborator"
+"ColorRectChart","commander boundary small-class","set","set collaborator"
+"GameAccountService","pure-controller degenerate small-class","GameAccountService","copy-constructor"
+"GameAccountService","pure-controller degenerate small-class","GetGameAccountsFromRegistry","controller stateless"
+"MainPage","commander boundary","MainPage","constructor"
+"MainPage","commander boundary","OnLoaded","command"
+"MainPage","commander boundary","OnUnloaded","wrapper"
+"MainPage","commander boundary","RegisterMessage","command"
+"MainPage","commander boundary","CheckUpdateAsync","non-void-command collaborator"
+"MainPage","commander boundary","OnLanguageChanged","command collaborator"
+"MainPage","commander boundary","ShowRecentUpdateContentAsync","wrapper stateless"
+"MainPage","commander boundary","OnCurrentGameBizChanged","controller stateless"
+"MainPage","commander boundary","InitializeGameBiz","command"
+"MainPage","commander boundary","ChangeGameBiz","command collaborator"
+"MainPage","commander boundary","UpdateGameIcon","wrapper"
+"MainPage","commander boundary","Grid_SelectGame_SizeChanged","command collaborator"
+"MainPage","commander boundary","UpdateDragRectangles","wrapper"
+"MainPage","commander boundary","OnVideoBgVolumeChanged","set"
+"MainPage","commander boundary","InitializeBackgroundImage","command collaborator"
+"MainPage","commander boundary","UpdateBackgroundImageAsync","non-void-command collaborator"
+"MainPage","commander boundary","MediaPlayer_VideoFrameAvailable","void-accessor command collaborator"
+"MainPage","commander boundary","PlayVideo","wrapper"
+"MainPage","commander boundary","PauseVideo","set"
+"MainPage","commander boundary","InitializeNavigationViewPaneDisplayMode","collaborator stateless"
+"MainPage","commander boundary","UpdateNavigationViewItemsText","command"
+"MainPage","commander boundary","NavigationView_ItemInvoked","wrapper stateless"
+"MainPage","commander boundary","NavigateTo","command"
+"MainPage","commander boundary","GetNavigationTransitionInfo","property non-void-command factory collaborator"
+"MainPage","commander boundary","MainPage_KeyDown","void-accessor command collaborator"
+"miHoYoApiException","empty","miHoYoApiException","constructor"
+"TrailblazeCalendarSummary","commander small-class","OnDeserialized","command"
+"ForgottenHallInfo","data-provider boundary small-class","get","property wrapper"
+"SelfQueryClient","commander small-class","SelfQueryClient","constructor"
+"SelfQueryClient","commander small-class","Reset","command"
+"SelfQueryClient","commander small-class","EnsureInitialized","wrapper"
+"ForgottenHallPage","commander boundary","ForgottenHallPage","constructor"
+"ForgottenHallPage","commander boundary","OnNavigatedTo","set collaborator"
+"ForgottenHallPage","commander boundary","OnLoaded","command"
+"ForgottenHallPage","commander boundary","InitializeForgottenHallData","command collaborator"
+"ForgottenHallPage","commander boundary","RefreshDataAsync","non-void-command collaborator"
+"ForgottenHallPage","commander boundary","ListView_ForgottenHall_SelectionChanged","command collaborator"
+"ForgottenHallPage","commander boundary","TextBlock_Deepest_IsTextTrimmedChanged","wrapper stateless"
+"Lang","empty","Lang","constructor"
+"CloseWindowDialog","commander boundary data-class small-class","CloseWindowDialog","constructor"
+"CloseWindowDialog","commander boundary data-class small-class","RadioButton_Click","set collaborator"

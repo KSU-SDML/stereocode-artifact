@@ -1,115 +1,115 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"SummaryViewComponent","boundary degenerate small-class","Invoke","wrapper stateless",
-"CreateIdentitySchema","pure-controller degenerate","BuildTargetModel","controller stateless",
-"CreateIdentitySchema","pure-controller degenerate","Up","controller stateless",
-"CreateIdentitySchema","pure-controller degenerate","Down","controller stateless",
-"ApplicationDbContext","empty","ApplicationDbContext","copy-constructor",
-"HomeController","boundary degenerate small-class","Index","wrapper stateless",
-"HomeController","boundary degenerate small-class","Errors","wrapper stateless",
-"BaseController","unclassified","ResponseHasErrors","wrapper stateless",
-"BaseController","unclassified","AddProcessError","command",
-"BaseController","unclassified","IsValidOperation","predicate non-void-command",
-"RegisterModel","entity boundary small-class","RegisterModel","copy-constructor",
-"RegisterModel","entity boundary small-class","OnGetAsync","non-void-command collaborator",
-"RegisterModel","entity boundary small-class","OnPostAsync","property non-void-command collaborator",
-"IdentityHostingStartup","pure-controller degenerate small-class","Configure","controller stateless",
-"AccountController","entity boundary","AccountController","constructor",
-"AccountController","entity boundary","Register","property non-void-command collaborator",
-"AccountController","entity boundary","Login","property non-void-command collaborator",
-"AccountController","entity boundary","GetFullJwt","property wrapper",
-"CustomerRepository","entity commander boundary","CustomerRepository","constructor",
-"CustomerRepository","entity commander boundary","GetById","property non-void-command collaborator",
-"CustomerRepository","entity commander boundary","GetAll","property non-void-command collaborator",
-"CustomerRepository","entity commander boundary","GetByEmail","property non-void-command collaborator",
-"CustomerRepository","entity commander boundary","Add","command collaborator",
-"CustomerRepository","entity commander boundary","Update","command collaborator",
-"CustomerRepository","entity commander boundary","Remove","command collaborator",
-"CustomerRepository","entity commander boundary","Dispose","command",
-"EquinoxContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"EventStoreSQLContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"Initial","degenerate","BuildTargetModel","controller stateless",
-"Initial","degenerate","Up","collaborator incidental",
-"Initial","degenerate","Down","controller stateless",
-"Initial","degenerate","BuildTargetModel","controller stateless",
-"Initial","degenerate","Up","collaborator incidental",
-"Initial","degenerate","Down","controller stateless",
-"EventStoreSqlRepository","entity boundary","EventStoreSqlRepository","constructor",
-"EventStoreSqlRepository","entity boundary","All","property wrapper",
-"EventStoreSqlRepository","entity boundary","Store","command collaborator",
-"EventStoreSqlRepository","entity boundary","Dispose","command",
-"StoredEventMap","pure-controller degenerate small-class","Configure","controller stateless",
-"SqlEventStore","commander boundary small-class","SqlEventStore","constructor",
-"SqlEventStore","commander boundary small-class","Save<T>","command collaborator",
-"EventStoreSqlContext","commander boundary small-class","EventStoreSqlContext","copy-constructor",
-"EventStoreSqlContext","commander boundary small-class","OnModelCreating","command collaborator",
-"EquinoxContext","entity boundary small-class","EquinoxContext","copy-constructor",
-"EquinoxContext","entity boundary small-class","OnModelCreating","command collaborator",
-"EquinoxContext","entity boundary small-class","Commit","property non-void-command collaborator",
-"RegisterNewCustomerCommand","data-provider boundary small-class","RegisterNewCustomerCommand","constructor",
-"RegisterNewCustomerCommand","data-provider boundary small-class","IsValid","predicate wrapper",
-"CustomerAppService","entity boundary","CustomerAppService","constructor",
-"CustomerAppService","entity boundary","GetAll","property non-void-command collaborator",
-"CustomerAppService","entity boundary","GetById","property non-void-command collaborator",
-"CustomerAppService","entity boundary","Register","property non-void-command collaborator",
-"CustomerAppService","entity boundary","Update","property non-void-command collaborator",
-"CustomerAppService","entity boundary","Remove","property non-void-command collaborator",
-"CustomerAppService","entity boundary","GetAllHistory","property non-void-command collaborator",
-"CustomerAppService","entity boundary","Dispose","wrapper",
-"ApplicationDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless",
-"CustomerMap","pure-controller degenerate small-class","Configure","controller stateless",
-"CustomerRegisteredEvent","empty","CustomerRegisteredEvent","constructor",
-"CustomerCommandHandler","entity boundary","CustomerCommandHandler","constructor",
-"CustomerCommandHandler","entity boundary","Handle","property non-void-command collaborator",
-"CustomerCommandHandler","entity boundary","Handle","property non-void-command collaborator",
-"CustomerCommandHandler","entity boundary","Handle","property non-void-command collaborator",
-"CustomerCommandHandler","entity boundary","Dispose","command",
-"ValueObject<T>","boundary degenerate small-class","Equals","wrapper stateless",
-"ValueObject<T>","boundary degenerate small-class","GetHashCode","wrapper stateless",
-"StoredEvent","empty","StoredEvent","constructor",
-"StoredEvent","empty","StoredEvent","constructor",
-"UpdateCustomerCommandValidation","empty","UpdateCustomerCommandValidation","constructor",
-"Customer","empty","Customer","constructor",
-"Customer","empty","Customer","constructor",
-"ViewModelToDomainMappingProfile","empty","ViewModelToDomainMappingProfile","constructor",
-"DomainToViewModelMappingProfile","empty","DomainToViewModelMappingProfile","constructor",
-"CustomerController","entity boundary","CustomerController","constructor",
-"CustomerController","entity boundary","Get","property non-void-command collaborator",
-"CustomerController","entity boundary","Get","property non-void-command collaborator",
-"CustomerController","entity boundary","Post","property non-void-command collaborator",
-"CustomerController","entity boundary","Put","property non-void-command collaborator",
-"CustomerController","entity boundary","Delete","property non-void-command collaborator",
-"CustomerController","entity boundary","History","property non-void-command collaborator",
-"CustomerController","entity boundary","CustomerController","constructor",
-"CustomerController","entity boundary","Index","property non-void-command collaborator",
-"CustomerController","entity boundary","Details","property non-void-command collaborator",
-"CustomerController","entity boundary","Create","wrapper stateless",
-"CustomerController","entity boundary","Create","property non-void-command collaborator",
-"CustomerController","entity boundary","Edit","property non-void-command collaborator",
-"CustomerController","entity boundary","Edit","property non-void-command collaborator",
-"CustomerController","entity boundary","Delete","property non-void-command collaborator",
-"CustomerController","entity boundary","DeleteConfirmed","property non-void-command collaborator",
-"CustomerController","entity boundary","History","property non-void-command collaborator",
-"RemoveCustomerCommand","data-provider boundary small-class","RemoveCustomerCommand","constructor",
-"RemoveCustomerCommand","data-provider boundary small-class","IsValid","predicate wrapper",
-"RegisterNewCustomerCommandValidation","empty","RegisterNewCustomerCommandValidation","constructor",
-"UpdateCustomerCommand","data-provider boundary small-class","UpdateCustomerCommand","constructor",
-"UpdateCustomerCommand","data-provider boundary small-class","IsValid","predicate wrapper",
-"CustomerValidation<T>","boundary degenerate","ValidateName","wrapper stateless",
-"CustomerValidation<T>","boundary degenerate","ValidateBirthDate","wrapper stateless",
-"CustomerValidation<T>","boundary degenerate","ValidateEmail","wrapper stateless",
-"CustomerValidation<T>","boundary degenerate","ValidateId","wrapper stateless",
-"RemoveCustomerCommandValidation","empty","RemoveCustomerCommandValidation","constructor",
-"CustomerEventHandler","boundary degenerate","Handle","collaborator incidental",
-"CustomerEventHandler","boundary degenerate","Handle","collaborator incidental",
-"CustomerEventHandler","boundary degenerate","Handle","collaborator incidental",
-"ApiController","unclassified","CustomResponse","property non-void-command collaborator",
-"ApiController","unclassified","CustomResponse","property non-void-command collaborator",
-"ApiController","unclassified","CustomResponse","property non-void-command collaborator",
-"ApiController","unclassified","IsOperationValid","predicate non-void-command",
-"ApiController","unclassified","AddError","command",
-"ApiController","unclassified","ClearErrors","command",
-"CustomerRemovedEvent","empty","CustomerRemovedEvent","constructor",
-"CustomerUpdatedEvent","empty","CustomerUpdatedEvent","constructor",
-"InMemoryBus","entity boundary small-class","InMemoryBus","constructor",
-"InMemoryBus","entity boundary small-class","PublishEvent<T>","non-void-command collaborator",
-"InMemoryBus","entity boundary small-class","SendCommand<T>","property non-void-command collaborator",
+"SummaryViewComponent","boundary degenerate small-class","Invoke","wrapper stateless"
+"CreateIdentitySchema","pure-controller degenerate","BuildTargetModel","controller stateless"
+"CreateIdentitySchema","pure-controller degenerate","Up","controller stateless"
+"CreateIdentitySchema","pure-controller degenerate","Down","controller stateless"
+"ApplicationDbContext","empty","ApplicationDbContext","copy-constructor"
+"HomeController","boundary degenerate small-class","Index","wrapper stateless"
+"HomeController","boundary degenerate small-class","Errors","wrapper stateless"
+"BaseController","unclassified","ResponseHasErrors","wrapper stateless"
+"BaseController","unclassified","AddProcessError","command"
+"BaseController","unclassified","IsValidOperation","predicate non-void-command"
+"RegisterModel","entity boundary small-class","RegisterModel","copy-constructor"
+"RegisterModel","entity boundary small-class","OnGetAsync","non-void-command collaborator"
+"RegisterModel","entity boundary small-class","OnPostAsync","property non-void-command collaborator"
+"IdentityHostingStartup","pure-controller degenerate small-class","Configure","controller stateless"
+"AccountController","entity boundary","AccountController","constructor"
+"AccountController","entity boundary","Register","property non-void-command collaborator"
+"AccountController","entity boundary","Login","property non-void-command collaborator"
+"AccountController","entity boundary","GetFullJwt","property wrapper"
+"CustomerRepository","entity commander boundary","CustomerRepository","constructor"
+"CustomerRepository","entity commander boundary","GetById","property non-void-command collaborator"
+"CustomerRepository","entity commander boundary","GetAll","property non-void-command collaborator"
+"CustomerRepository","entity commander boundary","GetByEmail","property non-void-command collaborator"
+"CustomerRepository","entity commander boundary","Add","command collaborator"
+"CustomerRepository","entity commander boundary","Update","command collaborator"
+"CustomerRepository","entity commander boundary","Remove","command collaborator"
+"CustomerRepository","entity commander boundary","Dispose","command"
+"EquinoxContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"EventStoreSQLContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"Initial","degenerate","BuildTargetModel","controller stateless"
+"Initial","degenerate","Up","collaborator incidental"
+"Initial","degenerate","Down","controller stateless"
+"Initial","degenerate","BuildTargetModel","controller stateless"
+"Initial","degenerate","Up","collaborator incidental"
+"Initial","degenerate","Down","controller stateless"
+"EventStoreSqlRepository","entity boundary","EventStoreSqlRepository","constructor"
+"EventStoreSqlRepository","entity boundary","All","property wrapper"
+"EventStoreSqlRepository","entity boundary","Store","command collaborator"
+"EventStoreSqlRepository","entity boundary","Dispose","command"
+"StoredEventMap","pure-controller degenerate small-class","Configure","controller stateless"
+"EquinoxContext","entity boundary small-class","EquinoxContext","copy-constructor"
+"EquinoxContext","entity boundary small-class","OnModelCreating","command collaborator"
+"EquinoxContext","entity boundary small-class","Commit","property non-void-command collaborator"
+"RegisterNewCustomerCommand","data-provider boundary small-class","RegisterNewCustomerCommand","constructor"
+"RegisterNewCustomerCommand","data-provider boundary small-class","IsValid","predicate wrapper"
+"CustomerAppService","entity boundary","CustomerAppService","constructor"
+"CustomerAppService","entity boundary","GetAll","property non-void-command collaborator"
+"CustomerAppService","entity boundary","GetById","property non-void-command collaborator"
+"CustomerAppService","entity boundary","Register","property non-void-command collaborator"
+"CustomerAppService","entity boundary","Update","property non-void-command collaborator"
+"CustomerAppService","entity boundary","Remove","property non-void-command collaborator"
+"CustomerAppService","entity boundary","GetAllHistory","property non-void-command collaborator"
+"CustomerAppService","entity boundary","Dispose","wrapper"
+"ValueObject<T>","boundary degenerate small-class","Equals","wrapper stateless"
+"ValueObject<T>","boundary degenerate small-class","GetHashCode","wrapper stateless"
+"StoredEvent","empty","StoredEvent","constructor"
+"StoredEvent","empty","StoredEvent","constructor"
+"UpdateCustomerCommandValidation","empty","UpdateCustomerCommandValidation","constructor"
+"CustomerController","entity boundary","CustomerController","constructor"
+"CustomerController","entity boundary","Get","property non-void-command collaborator"
+"CustomerController","entity boundary","Get","property non-void-command collaborator"
+"CustomerController","entity boundary","Post","property non-void-command collaborator"
+"CustomerController","entity boundary","Put","property non-void-command collaborator"
+"CustomerController","entity boundary","Delete","property non-void-command collaborator"
+"CustomerController","entity boundary","History","property non-void-command collaborator"
+"CustomerController","entity boundary","CustomerController","constructor"
+"CustomerController","entity boundary","Index","property non-void-command collaborator"
+"CustomerController","entity boundary","Details","property non-void-command collaborator"
+"CustomerController","entity boundary","Create","wrapper stateless"
+"CustomerController","entity boundary","Create","property non-void-command collaborator"
+"CustomerController","entity boundary","Edit","property non-void-command collaborator"
+"CustomerController","entity boundary","Edit","property non-void-command collaborator"
+"CustomerController","entity boundary","Delete","property non-void-command collaborator"
+"CustomerController","entity boundary","DeleteConfirmed","property non-void-command collaborator"
+"CustomerController","entity boundary","History","property non-void-command collaborator"
+"RemoveCustomerCommand","data-provider boundary small-class","RemoveCustomerCommand","constructor"
+"RemoveCustomerCommand","data-provider boundary small-class","IsValid","predicate wrapper"
+"RegisterNewCustomerCommandValidation","empty","RegisterNewCustomerCommandValidation","constructor"
+"Customer","empty","Customer","constructor"
+"Customer","empty","Customer","constructor"
+"ViewModelToDomainMappingProfile","empty","ViewModelToDomainMappingProfile","constructor"
+"DomainToViewModelMappingProfile","empty","DomainToViewModelMappingProfile","constructor"
+"ApplicationDbContextModelSnapshot","pure-controller degenerate small-class","BuildModel","controller stateless"
+"CustomerRegisteredEvent","empty","CustomerRegisteredEvent","constructor"
+"CustomerCommandHandler","entity boundary","CustomerCommandHandler","constructor"
+"CustomerCommandHandler","entity boundary","Handle","property non-void-command collaborator"
+"CustomerCommandHandler","entity boundary","Handle","property non-void-command collaborator"
+"CustomerCommandHandler","entity boundary","Handle","property non-void-command collaborator"
+"CustomerCommandHandler","entity boundary","Dispose","command"
+"CustomerMap","pure-controller degenerate small-class","Configure","controller stateless"
+"UpdateCustomerCommand","data-provider boundary small-class","UpdateCustomerCommand","constructor"
+"UpdateCustomerCommand","data-provider boundary small-class","IsValid","predicate wrapper"
+"CustomerValidation<T>","boundary degenerate","ValidateName","wrapper stateless"
+"CustomerValidation<T>","boundary degenerate","ValidateBirthDate","wrapper stateless"
+"CustomerValidation<T>","boundary degenerate","ValidateEmail","wrapper stateless"
+"CustomerValidation<T>","boundary degenerate","ValidateId","wrapper stateless"
+"RemoveCustomerCommandValidation","empty","RemoveCustomerCommandValidation","constructor"
+"CustomerEventHandler","boundary degenerate","Handle","collaborator incidental"
+"CustomerEventHandler","boundary degenerate","Handle","collaborator incidental"
+"CustomerEventHandler","boundary degenerate","Handle","collaborator incidental"
+"ApiController","unclassified","CustomResponse","property non-void-command collaborator"
+"ApiController","unclassified","CustomResponse","property non-void-command collaborator"
+"ApiController","unclassified","CustomResponse","property non-void-command collaborator"
+"ApiController","unclassified","IsOperationValid","predicate non-void-command"
+"ApiController","unclassified","AddError","command"
+"ApiController","unclassified","ClearErrors","command"
+"CustomerRemovedEvent","empty","CustomerRemovedEvent","constructor"
+"CustomerUpdatedEvent","empty","CustomerUpdatedEvent","constructor"
+"InMemoryBus","entity boundary small-class","InMemoryBus","constructor"
+"InMemoryBus","entity boundary small-class","PublishEvent<T>","non-void-command collaborator"
+"InMemoryBus","entity boundary small-class","SendCommand<T>","property non-void-command collaborator"
+"EventStoreSqlContext","commander boundary small-class","EventStoreSqlContext","copy-constructor"
+"EventStoreSqlContext","commander boundary small-class","OnModelCreating","command collaborator"
+"SqlEventStore","commander boundary small-class","SqlEventStore","constructor"
+"SqlEventStore","commander boundary small-class","Save<T>","command collaborator"

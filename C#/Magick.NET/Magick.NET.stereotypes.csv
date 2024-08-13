@@ -1,1080 +1,1078 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"ExceptionHelperTests","degenerate","Test_CreateException","command",
-"ExceptionHelperTests","degenerate","Test_Description","controller stateless",
-"ExceptionHelperTests","degenerate","AssertCreateException","controller stateless",
-"PathsTests","degenerate","Test_Draw_Drawables","wrapper stateless",
-"PathsTests","degenerate","Test_Draw_Paths","wrapper stateless",
-"PathsTests","degenerate","Test_Paths","controller stateless",
-"PathTests","boundary degenerate","Test_Paths","wrapper stateless",
-"PathTests","boundary degenerate","Test_Paths_Draw","wrapper stateless",
-"PathTests","boundary degenerate","Test_Path_Exceptions","wrapper stateless",
-"DrawableTests","degenerate","Test_Drawables","controller stateless",
-"DrawableTests","degenerate","Test_Drawables_Draw","wrapper stateless",
-"DrawableTests","degenerate","Test_Drawables_Exceptions","wrapper stateless",
-"TheWebPCoder","boundary small-class","ShouldReadAndWriteTheXmpProfile","wrapper",
-"TheWebPCoder","boundary small-class","ShouldUseTheUpdatedXmpProfile","wrapper",
-"TheVideoCoder","degenerate small-class","ShouldUseWebPAsTheDefaultIntermediateFormat","wrapper stateless",
-"TheVideoCoder","degenerate small-class","ShouldUsePamAsTheIntermediateFormatWhenReadModeIsByFrame","controller stateless",
-"TheTiffCoder","boundary degenerate","ShouldIgnoreTheSpecifiedTags","wrapper stateless",
-"TheTiffCoder","boundary degenerate","ShouldBeAbleToReadAndWriteIptcValues","controller stateless",
-"TheTiffCoder","boundary degenerate","ShouldBeAbleToWriteLzwPTiffToStream","stateless",
-"TheTiffCoder","boundary degenerate","ShouldBeAbleToUseTheSpecifiedCompression","wrapper stateless",
-"TheTiffCoder","boundary degenerate","ShouldBeAbleToReadImageWithInfiniteRowsPerStrip","wrapper stateless",
-"TheTiffCoder","boundary degenerate","ShouldBeAbleToReadImageWithLargeScanLine","wrapper stateless",
-"TheTiffCoder","boundary degenerate","ShouldReadImageWithAlphaCorrectly","wrapper stateless",
-"TheRgbCoder","commander boundary data-class small-class","ShouldSetTheCorrectValueForTheAlphaChannel","set collaborator",
-"TheRgbCoder","commander boundary data-class small-class","ShouldSetTheCorrectValueForTheOpacityChannel","set collaborator",
-"ThePsdCoder","boundary degenerate","ShouldReadTheCorrectColors","wrapper stateless",
-"ThePsdCoder","boundary degenerate","ShouldReadTheProfileForAllLayers","controller stateless",
-"ThePsdCoder","boundary degenerate","ShouldCorrectlyWriteGrayscaleImage","wrapper stateless",
-"ThePsdCoder","boundary degenerate","ShouldCorrectlyWriteGrayscaleAlphaImage","wrapper stateless",
-"ThePnmCoder","boundary degenerate small-class","ShouldCreateWhiteImage","wrapper stateless",
-"ThePnmCoder","boundary degenerate small-class","ShouldCreateBlackImage","wrapper stateless",
-"ThePngCoder","boundary degenerate","ShouldThrowExceptionAndNotChangeTheOriginalImageWhenTheImageIsCorrupt","wrapper stateless",
-"ThePngCoder","boundary degenerate","ShouldBeAbleToReadPngWithLargeIDAT","wrapper stateless",
-"ThePngCoder","boundary degenerate","ShouldNotRaiseWarningForValidModificationDateThatBecomes24Hours","wrapper",
-"ThePngCoder","boundary degenerate","ShouldNotRaiseWarningForValidModificationDateThatBecomes60Minutes","wrapper",
-"ThePngCoder","boundary degenerate","ShouldReadTheExifChunk","controller stateless",
-"ThePngCoder","boundary degenerate","ShouldSetTheAnimationProperties","wrapper stateless",
-"ThePngCoder","boundary degenerate","ShouldWritePng00Correctly","wrapper",
-"ThePngCoder","boundary degenerate","ShouldNotWriteJpegAndPngProperties","wrapper stateless",
-"ThePngCoder","boundary degenerate","ShouldWriteDateProperties","command collaborator",
-"ThePngCoder","boundary degenerate","ShouldNotWriteDatePropertiesWhenDateShouldBeExcluded","wrapper stateless",
-"ThePngCoder","boundary degenerate","ShouldIgnoreTiffAndExifPropertiesWhenWritingPHYsChunk","wrapper stateless",
-"ThePngCoder","boundary degenerate","ShouldUseExifPropertiesWhenIgnoringPHYsChunk","wrapper stateless",
-"ThePngCoder","boundary degenerate","ShouldUseTiffPropertiesWhenIgnoringPHYsChunk","wrapper stateless",
-"ThePngCoder","boundary degenerate","GetTimestamp","controller stateless",
-"ThePdfCoder","boundary degenerate","ShouldReadFileMultithreadedCorrectly","wrapper stateless",
-"ThePdfCoder","boundary degenerate","ShouldWriteTiffImageInCorrectColor","wrapper stateless",
-"ThePdfCoder","boundary degenerate","ShouldReturnTheCorrectFormatForAiFile","wrapper stateless",
-"ThePcxCoder","boundary degenerate small-class","ShouldBeAbleToWriteOneBitImages","wrapper stateless",
-"ThePangoCoder","boundary degenerate","ShouldUseInterlineSpacingSetting","wrapper stateless",
-"ThePangoCoder","boundary degenerate","ShouldUseTextAntiAliasSetting","wrapper stateless",
-"ThePangoCoder","boundary degenerate","IsThreadSafe","wrapper stateless",
-"ThePangoCoder","boundary degenerate","CanReadFromLargePangoFile","collaborator stateless",
-"TheMvgCoder","boundary degenerate small-class","ShouldBeDisabled","wrapper stateless",
-"TheMslCoder","boundary degenerate small-class","ShouldBeDisabled","wrapper stateless",
-"TheJpegXlCoder","degenerate small-class","ShouldWriteCorrectOutputImage","wrapper stateless",
-"TheJpegXlCoder","degenerate small-class","ShouldSupportReadingAndWritingImageProfiles","controller stateless",
-"TheJpegCoder","degenerate","ShouldDecodeCorrectly","wrapper stateless",
-"TheJpegCoder","degenerate","ShouldReadImageProfile","wrapper stateless",
-"TheJpegCoder","degenerate","ShouldWriteTheXmpProfileToTheImage","controller stateless",
-"TheJp2Coder","boundary degenerate small-class","ShouldReadTheImageWithCorrectDimensions","wrapper stateless",
-"TheJp2Coder","boundary degenerate small-class","ShouldCheckTheAlphaValue","wrapper stateless",
-"TheGifCoder","boundary degenerate small-class","ShouldReturnTheCorrectNumberOfAnimationIterations","wrapper stateless",
-"TheDngCoder","degenerate small-class","ShouldNotReadTheThumbnailByDefault","wrapper stateless",
-"TheDngCoder","degenerate small-class","ShouldReadTheThumbnail","controller stateless",
-"TheCaptionCoder","boundary degenerate","ShouldNotReplaceNonBreakingSpaceWithNewline","wrapper stateless",
-"TheCaptionCoder","boundary degenerate","ShouldReplaceOghamSpaceMarkWithNewline","wrapper stateless",
-"TheCaptionCoder","boundary degenerate","ShouldAddNewlineWhenTextDoesNotContainNewline","wrapper stateless",
-"TheCaptionCoder","boundary degenerate","ShouldJoinFontLigatures","wrapper stateless",
-"ConfigurationFilesTests","boundary degenerate small-class","ShouldBeInitialized","wrapper stateless",
-"TheBgrCoder","commander boundary data-class small-class","ShouldSetTheCorrectValueForTheAlphaChannel","set collaborator",
-"TheBgrCoder","commander boundary data-class small-class","ShouldSetTheCorrectValueForTheOpacityChannel","set collaborator",
-"BigRational","data-provider","BigRational","constructor",
-"BigRational","data-provider","BigRational","constructor",
-"BigRational","data-provider","BigRational","constructor",
-"BigRational","data-provider","Equals","predicate non-void-command collaborator",
-"BigRational","data-provider","Equals","predicate",
-"BigRational","data-provider","ToString","property non-void-command collaborator",
-"BigRational","data-provider","Simplify","command collaborator",
-"BigRational","data-provider","get","predicate",
-"BigRational","data-provider","get","predicate",
-"BigRational","data-provider","get","predicate",
-"BigRational","data-provider","get","predicate",
-"ExifDoubleArray","empty","ExifDoubleArray","constructor",
-"ExifDoubleArray","empty","ExifDoubleArray","constructor",
-"MagickConfigureErrorException","empty","MagickConfigureErrorException","constructor",
-"IptcValue","unclassified","IptcValue","constructor",
-"IptcValue","unclassified","IptcValue","constructor",
-"IptcValue","unclassified","Equals","predicate controller",
-"IptcValue","unclassified","ToByteArray","property non-void-command collaborator",
-"IptcValue","unclassified","GetData","property non-void-command",
-"TheEpsCoder","degenerate small-class","ShouldReadTwoImages","wrapper stateless",
-"TheEpsCoder","degenerate small-class","ShouldReadClipPathsInTiffPreview","controller stateless",
-"IptcProfile","boundary","IptcProfile","constructor",
-"IptcProfile","boundary","IptcProfile","constructor",
-"IptcProfile","boundary","IptcProfile","constructor",
-"IptcProfile","boundary","IptcProfile","constructor",
-"IptcProfile","boundary","GetValue","property collaborator",
-"IptcProfile","boundary","GetAllValues","property collaborator",
-"IptcProfile","boundary","RemoveValue","predicate non-void-command collaborator",
-"IptcProfile","boundary","RemoveValue","predicate non-void-command collaborator",
-"IptcProfile","boundary","SetValue","command collaborator",
-"IptcProfile","boundary","SetValue","command collaborator",
-"IptcProfile","boundary","UpdateData","controller",
-"IptcProfile","boundary","Initialize","set collaborator",
-"IptcProfile","boundary","get","get non-void-command collaborator",
-"ByteArrayWrapper","boundary","GetBytes","get wrapper",
-"ByteArrayWrapper","boundary","Read","property set collaborator",
-"ByteArrayWrapper","boundary","Seek","collaborator",
-"ExifValue","entity boundary small-class","Equals","predicate non-void-command collaborator",
-"ExifValue","entity boundary small-class","GetHashCode","property non-void-command collaborator",
-"MagickCacheErrorException","empty","MagickCacheErrorException","constructor",
-"ExifSignedShortArray","empty","ExifSignedShortArray","constructor",
-"JpegWriteDefines","factory controller small-class","get","property factory wrapper",
-"ExifSignedLongArray","empty","ExifSignedLongArray","constructor",
-"ExifSignedLong","empty","ExifSignedLong","constructor",
-"MagickCorruptImageWarningException","empty","MagickCorruptImageWarningException","constructor",
-"ExifLongArray","empty","ExifLongArray","constructor",
-"ExifLongArray","empty","ExifLongArray","constructor",
-"ExifLong","boundary data-class small-class","ExifLong","constructor",
-"ExifLong","boundary data-class small-class","ExifLong","constructor",
-"ExifLong","boundary data-class small-class","SetValue","predicate set collaborator",
-"ExifDouble","boundary data-class small-class","ExifDouble","constructor",
-"ExifDouble","boundary data-class small-class","ExifDouble","constructor",
-"ExifDouble","boundary data-class small-class","SetValue","predicate set collaborator",
-"ExifByteArray","empty","ExifByteArray","constructor",
-"UnknownExifTag","empty","UnknownExifTag","constructor",
-"ExifTag<TValueType>","empty","ExifTag","copy-constructor",
-"ConvolveMatrix","empty","ConvolveMatrix","constructor",
-"ConvolveMatrix","empty","ConvolveMatrix","constructor",
-"ExifWriter","controller small-class","Write","property non-void-command collaborator",
-"ExifWriter","controller small-class","GetPartValues","factory controller",
-"MagickRegistryWarningException","empty","MagickRegistryWarningException","constructor",
-"MagickColorsGenerator","pure-controller small-class","Initialize","controller",
-"ExifReader","entity boundary","ExifReader","constructor",
-"ExifReader","entity boundary","Read","command collaborator",
-"ExifReader","entity boundary","AddValues","command collaborator",
-"ExifReader","entity boundary","CreateValue","property non-void-command collaborator",
-"ExifReader","entity boundary","CreateValue","property non-void-command collaborator",
-"ExifReader","entity boundary","ReadValue","property non-void-command collaborator",
-"ExifReader","entity boundary","ReadRational","property non-void-command factory collaborator",
-"ExifReader","entity boundary","ReadSignedRational","property non-void-command factory collaborator",
-"ExifReader","entity boundary","ReadSignedByte","wrapper stateless",
-"ExifReader","entity boundary","ReadSignedLong","wrapper stateless",
-"ExifReader","entity boundary","ReadSignedShort","wrapper stateless",
-"ExifReader","entity boundary","ReadThumbnail","command collaborator",
-"Percentage","entity boundary small-class","Percentage","constructor",
-"Percentage","entity boundary small-class","Percentage","constructor",
-"Percentage","entity boundary small-class","Equals","predicate non-void-command collaborator",
-"ExifRationalArray","empty","ExifRationalArray","constructor",
-"ExifRationalArray","empty","ExifRationalArray","constructor",
-"MagickColorMatrix","empty","MagickColorMatrix","constructor",
-"MagickColorMatrix","empty","MagickColorMatrix","constructor",
-"DrawableText","empty","DrawableText","constructor",
-"EightBimValue","unclassified","EightBimValue","constructor",
-"EightBimValue","unclassified","Equals","predicate controller",
-"EightBimValue","unclassified","ToByteArray","property wrapper",
-"EightBimValue","unclassified","ToString","property controller",
-"ExifSignedShort","boundary data-class small-class","ExifSignedShort","constructor",
-"ExifSignedShort","boundary data-class small-class","SetValue","predicate set collaborator",
-"MagickResourceLimitWarningException","empty","MagickResourceLimitWarningException","constructor",
-"ImageProfile","unclassified","ToReadOnlySpan","property non-void-command collaborator",
-"ImageProfile","unclassified","ImageProfile","constructor",
-"ImageProfile","unclassified","ImageProfile","constructor",
-"ImageProfile","unclassified","ImageProfile","constructor",
-"ImageProfile","unclassified","ImageProfile","constructor",
-"ImageProfile","unclassified","Equals","predicate non-void-command collaborator",
-"ImageProfile","unclassified","GetHashCode","property non-void-command",
-"ImageProfile","unclassified","ToByteArray","property non-void-command",
-"ImageProfile","unclassified","UpdateData","empty",
-"ExifSignedByteArray","empty","ExifSignedByteArray","constructor",
-"ExifTagDescriptionInfo","empty","ExifTagDescriptionInfo","constructor",
-"PointDCoordinates","empty","PointDCoordinates","constructor",
-"PointDCoordinates","empty","PointDCoordinates","constructor",
-"PointDCoordinates","empty","PointDCoordinates","constructor",
-"ExifByte","empty","ExifByte","constructor",
-"MagickFileOpenWarningException","empty","MagickFileOpenWarningException","constructor",
-"PixelReadSettings","empty","PixelReadSettings","constructor",
-"PixelReadSettings","empty","PixelReadSettings","constructor",
-"ClipPath","empty","ClipPath","constructor",
-"ExifSignedRationalArray","empty","ExifSignedRationalArray","constructor",
-"ExifSignedRationalArray","empty","ExifSignedRationalArray","constructor",
-"OffsetInfo","factory pure-controller small-class","OffsetInfo","constructor",
-"OffsetInfo","factory pure-controller small-class","CreateNativeInstance","factory controller",
-"MagickTypeWarningException","empty","MagickTypeWarningException","constructor",
-"SparseColorArg","empty","SparseColorArg","constructor",
-"ExifValue<TValueType>","data-provider boundary data-class small-class","ExifValue","constructor",
-"ExifValue<TValueType>","data-provider boundary data-class small-class","ExifValue","constructor",
-"ExifValue<TValueType>","data-provider boundary data-class small-class","SetValue","predicate set collaborator",
-"ExifValue<TValueType>","data-provider boundary data-class small-class","ToString","get property wrapper",
-"TiffWriteDefines","factory controller small-class","get","property factory collaborator",
-"ExifArrayValue<TValueType>","boundary data-class small-class","ExifArrayValue","constructor",
-"ExifArrayValue<TValueType>","boundary data-class small-class","ExifArrayValue","constructor",
-"ExifArrayValue<TValueType>","boundary data-class small-class","SetValue","predicate set collaborator",
-"HeicReadDefines","small-class","GetChromaUpsampling","get property non-void-command",
-"HeicReadDefines","small-class","get","property non-void-command factory collaborator",
-"DrawableAffine","commander small-class","DrawableAffine","constructor",
-"DrawableAffine","commander small-class","Reset","command",
-"DrawableAffine","commander small-class","Transform","command collaborator",
-"ConstNativeInstance","data-provider data-class small-class","get","get",
-"UnsafePixelCollection","unclassified","GetReadOnlyArea","property non-void-command collaborator",
-"UnsafePixelCollection","unclassified","SetArea","command collaborator",
-"UnsafePixelCollection","unclassified","UnsafePixelCollection","constructor",
-"UnsafePixelCollection","unclassified","GetArea","property non-void-command collaborator",
-"UnsafePixelCollection","unclassified","GetAreaPointer","property non-void-command collaborator",
-"UnsafePixelCollection","unclassified","SetArea","void-accessor command collaborator",
-"UnsafePixelCollection","unclassified","SetArea","void-accessor command collaborator",
-"UnsafePixelCollection","unclassified","SetByteArea","void-accessor command",
-"UnsafePixelCollection","unclassified","SetByteArea","void-accessor command",
-"UnsafePixelCollection","unclassified","SetBytePixels","void-accessor command",
-"UnsafePixelCollection","unclassified","SetDoubleArea","void-accessor command",
-"UnsafePixelCollection","unclassified","SetDoubleArea","void-accessor command",
-"UnsafePixelCollection","unclassified","SetDoublePixels","void-accessor command",
-"UnsafePixelCollection","unclassified","SetIntArea","void-accessor command",
-"UnsafePixelCollection","unclassified","SetIntArea","void-accessor command",
-"UnsafePixelCollection","unclassified","SetIntPixels","void-accessor command",
-"UnsafePixelCollection","unclassified","SetPixel","command collaborator",
-"UnsafePixelCollection","unclassified","SetPixel","void-accessor command collaborator",
-"UnsafePixelCollection","unclassified","SetPixels","void-accessor command collaborator",
-"UnsafePixelCollection","unclassified","ToByteArray","property non-void-command",
-"UnsafePixelCollection","unclassified","ToByteArray","property non-void-command",
-"UnsafePixelCollection","unclassified","ToShortArray","property non-void-command",
-"UnsafePixelCollection","unclassified","ToShortArray","property non-void-command",
-"MagickCoderErrorException","empty","MagickCoderErrorException","constructor",
-"ExifFloat","boundary data-class small-class","ExifFloat","constructor",
-"ExifFloat","boundary data-class small-class","SetValue","predicate set collaborator",
-"MagickRegistryErrorException","empty","MagickRegistryErrorException","constructor",
-"MagickOptionWarningException","empty","MagickOptionWarningException","constructor",
-"MagickFileOpenErrorException","empty","MagickFileOpenErrorException","constructor",
-"MagickException","factory controller data-class small-class","MagickException","constructor",
-"MagickException","factory controller data-class small-class","get","get property factory collaborator",
-"EightBimProfile","entity boundary","EightBimProfile","constructor",
-"EightBimProfile","entity boundary","EightBimProfile","constructor",
-"EightBimProfile","entity boundary","EightBimProfile","constructor",
-"EightBimProfile","entity boundary","EightBimProfile","constructor",
-"EightBimProfile","entity boundary","GetExifProfile","property non-void-command factory collaborator",
-"EightBimProfile","entity boundary","GetIptcProfile","property non-void-command factory collaborator",
-"EightBimProfile","entity boundary","GetXmpProfile","property non-void-command factory collaborator",
-"EightBimProfile","entity boundary","SetExifProfile","command collaborator",
-"EightBimProfile","entity boundary","SetIptcProfile","command collaborator",
-"EightBimProfile","entity boundary","SetXmpProfile","command collaborator",
-"EightBimProfile","entity boundary","UpdateData","wrapper",
-"EightBimProfile","entity boundary","CreateClipPath","property non-void-command factory collaborator",
-"EightBimProfile","entity boundary","FindValue","property non-void-command collaborator",
-"EightBimProfile","entity boundary","GetClipPath","property wrapper",
-"EightBimProfile","entity boundary","Initialize","set",
-"EightBimProfile","entity boundary","get","non-void-command factory collaborator",
-"EightBimProfile","entity boundary","get","get non-void-command collaborator",
-"OpenCL","controller lazy-class data-class small-class","get","get set",
-"OpenCL","controller lazy-class data-class small-class","get","factory controller stateless",
-"DrawablePopGraphicContext","empty","DrawablePopGraphicContext","constructor",
-"MagickTypeErrorException","empty","MagickTypeErrorException","constructor",
-"DrawablePopClipPath","empty","DrawablePopClipPath","constructor",
-"PixelImportSettings","empty","PixelImportSettings","constructor",
-"PixelImportSettings","empty","PixelImportSettings","constructor",
-"PixelImportSettings","empty","PixelImportSettings","constructor",
-"PixelImportSettings","empty","PixelImportSettings","constructor",
-"Density","entity data-provider boundary","Density","constructor",
-"Density","entity data-provider boundary","Density","copy-constructor",
-"Density","entity data-provider boundary","Density","constructor",
-"Density","entity data-provider boundary","Density","copy-constructor",
-"Density","entity data-provider boundary","ChangeUnits","property factory collaborator",
-"Density","entity data-provider boundary","Equals","predicate wrapper",
-"Density","entity data-provider boundary","ToString","property wrapper",
-"Density","entity data-provider boundary","Initialize","command",
-"PointInfoCollection","empty","PointInfoCollection","constructor",
-"PointInfoCollection","empty","PointInfoCollection","constructor",
-"PointInfoCollection","empty","PointInfoCollection","constructor",
-"ExifSignedRational","empty","ExifSignedRational","constructor",
-"ExifSignedRational","empty","ExifSignedRational","constructor",
-"TheXcCoder","boundary degenerate","ShouldHandleSrgbaColor","wrapper stateless",
-"TheXcCoder","boundary degenerate","ShouldHandleRgbColor","wrapper stateless",
-"TheXcCoder","boundary degenerate","ShouldHandleHslaColor","wrapper stateless",
-"MagickResourceLimitErrorException","empty","MagickResourceLimitErrorException","constructor",
-"DrawableEllipse","empty","DrawableEllipse","constructor",
-"PropertyInfo","empty","PropertyInfo","constructor",
-"TheSvgCoder","boundary degenerate","ShouldDetectFormatFromXmlDeclaration","wrapper stateless",
-"TheSvgCoder","boundary degenerate","ShouldDetectFormatFromSvgTag","wrapper stateless",
-"TheSvgCoder","boundary degenerate","ShouldUseWidthFromReadSettings","wrapper stateless",
-"TheSvgCoder","boundary degenerate","ShouldUseHeightFromReadSettings","wrapper stateless",
-"TheSvgCoder","boundary degenerate","ShouldUseWidthAndHeightFromReadSettings","wrapper stateless",
-"TheSvgCoder","boundary degenerate","ShouldReadFontsWithQuotes","wrapper stateless",
-"TheSvgCoder","boundary degenerate","IsThreadSafe","wrapper stateless",
-"XmpProfile","entity boundary","XmpProfile","constructor",
-"XmpProfile","entity boundary","XmpProfile","constructor",
-"XmpProfile","entity boundary","XmpProfile","constructor",
-"XmpProfile","entity boundary","XmpProfile","constructor",
-"XmpProfile","entity boundary","XmpProfile","constructor",
-"XmpProfile","entity boundary","CreateReader","wrapper stateless",
-"XmpProfile","entity boundary","ToIXPathNavigable","property non-void-command collaborator",
-"XmpProfile","entity boundary","ToXDocument","property non-void-command collaborator",
-"ExifString","boundary data-class small-class","ExifString","constructor",
-"ExifString","boundary data-class small-class","ExifString","constructor",
-"ExifString","boundary data-class small-class","SetValue","predicate set collaborator",
-"DrawableTranslation","empty","DrawableTranslation","constructor",
-"JpegOptimizer","boundary","Compress","predicate non-void-command",
-"JpegOptimizer","boundary","Compress","predicate non-void-command collaborator",
-"JpegOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator",
-"JpegOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator",
-"JpegOptimizer","boundary","DoCompress","predicate wrapper",
-"JpegOptimizer","boundary","DoCompress","predicate controller",
-"ColorProfile","data-provider boundary data-class","ColorProfile","constructor",
-"ColorProfile","data-provider boundary data-class","ColorProfile","constructor",
-"ColorProfile","data-provider boundary data-class","ColorProfile","constructor",
-"ColorProfile","data-provider boundary data-class","ColorProfile","constructor",
-"ColorProfile","data-provider boundary data-class","get","get wrapper",
-"ColorProfile","data-provider boundary data-class","get","get wrapper",
-"ColorProfile","data-provider boundary data-class","get","get wrapper",
-"ColorProfile","data-provider boundary data-class","get","get wrapper",
-"ColorProfile","data-provider boundary data-class","get","get wrapper",
-"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"TypeInfo","empty","TypeInfo","constructor",
-"PsdReadDefines","entity factory controller small-class","get","property non-void-command factory collaborator",
-"DrawableStrokeColor","empty","DrawableStrokeColor","constructor",
-"DrawableBorderColor","empty","DrawableBorderColor","constructor",
-"MagickMissingDelegateWarningException","empty","MagickMissingDelegateWarningException","constructor",
-"ConfigurationFiles","data-provider boundary data-class small-class","ConfigurationFiles","constructor",
-"ConfigurationFiles","data-provider boundary data-class small-class","get","get collaborator",
-"PathLineToHorizontalAbs","empty","PathLineToHorizontalAbs","constructor",
-"PathArc","empty","PathArc","constructor",
-"PathArc","empty","PathArc","constructor",
-"MagickOptionErrorException","empty","MagickOptionErrorException","constructor",
-"DrawableStrokePatternUrl","empty","DrawableStrokePatternUrl","constructor",
-"PointInfo","empty","PointInfo","constructor",
-"MagickPolicyErrorException","empty","MagickPolicyErrorException","constructor",
-"MagickPolicyWarningException","empty","MagickPolicyWarningException","constructor",
-"MagickBlobErrorException","empty","MagickBlobErrorException","constructor",
-"ExifFloatArray","empty","ExifFloatArray","constructor",
-"VideoReadDefines","factory controller small-class","VideoReadDefines","constructor",
-"VideoReadDefines","factory controller small-class","get","property factory collaborator",
-"DrawableTextKerning","empty","DrawableTextKerning","constructor",
-"TheDdsCoder","boundary degenerate small-class","ShouldUseDxt1AsTheDefaultCompression","wrapper stateless",
-"TheDdsCoder","boundary degenerate small-class","ShouldUseDxt5AsTheDefaultCompressionForImagesWithAnAlphaChannel","wrapper stateless",
-"MagickWarningException","empty","MagickWarningException","constructor",
-"PdfInfo","empty","PdfInfo","constructor",
-"DrawableTextAlignment","empty","DrawableTextAlignment","constructor",
-"DrawableSkewY","empty","DrawableSkewY","constructor",
-"PathCurveToAbs","empty","PathCurveToAbs","constructor",
-"PathCurveToAbs","empty","PathCurveToAbs","constructor",
-"DdsReadDefines","factory controller small-class","get","property factory collaborator",
-"EndianReader","unclassified","EndianReader","constructor",
-"EndianReader","unclassified","CanRead","predicate",
-"EndianReader","unclassified","Seek","predicate set",
-"EndianReader","unclassified","Skip","predicate set",
-"EndianReader","unclassified","ReadByte","property set collaborator",
-"EndianReader","unclassified","ReadDouble","property non-void-command",
-"EndianReader","unclassified","ReadLong","property non-void-command",
-"EndianReader","unclassified","ReadShort","property non-void-command",
-"EndianReader","unclassified","ReadFloat","property non-void-command collaborator",
-"EndianReader","unclassified","ReadString","property set collaborator",
-"EndianReader","unclassified","ReadDoubleLSB","property set",
-"EndianReader","unclassified","ReadDoubleMSB","property set collaborator",
-"EndianReader","unclassified","ReadLongLSB","property set",
-"EndianReader","unclassified","ReadLongMSB","property set collaborator",
-"EndianReader","unclassified","ReadShortLSB","property set",
-"EndianReader","unclassified","ReadShortMSB","property set collaborator",
-"ClipPathReader","boundary","ClipPathReader","constructor",
-"ClipPathReader","boundary","Read","property non-void-command collaborator",
-"ClipPathReader","boundary","AddPath","void-accessor command collaborator",
-"ClipPathReader","boundary","ClosePath","command",
-"ClipPathReader","boundary","CreatePoint","factory wrapper",
-"ClipPathReader","boundary","SetKnotCount","void-accessor command",
-"DrawableStrokeMiterLimit","empty","DrawableStrokeMiterLimit","constructor",
-"NativeInstance","commander","Dispose","set",
-"NativeInstance","commander","CheckException","command collaborator",
-"NativeInstance","commander","get","get",
-"NativeInstance","commander","set","set",
-"DrawableGravity","empty","DrawableGravity","constructor",
-"MagickSearchResult","empty","MagickSearchResult","constructor",
-"ExifNumber","boundary small-class","ExifNumber","constructor",
-"ExifNumber","boundary small-class","SetValue","predicate set collaborator",
-"ExifNumber","boundary small-class","get","property collaborator",
-"ExifSignedByte","boundary data-class small-class","ExifSignedByte","constructor",
-"ExifSignedByte","boundary data-class small-class","SetValue","predicate set collaborator",
-"TemporaryMagickFormat","small-class","TemporaryMagickFormat","constructor",
-"TemporaryMagickFormat","small-class","Dispose","controller",
-"TemporaryMagickFormat","small-class","AddImage","void-accessor command collaborator",
-"ColorMono","commander boundary small-class","ColorMono","constructor",
-"ColorMono","commander boundary small-class","ColorMono","constructor",
-"ColorMono","commander boundary small-class","UpdateColor","command collaborator",
-"MagickStreamWarningException","empty","MagickStreamWarningException","constructor",
-"MagickCacheWarningException","empty","MagickCacheWarningException","constructor",
-"DrawableScaling","empty","DrawableScaling","constructor",
-"ArtifactEventArgs","empty","ArtifactEventArgs","constructor",
-"TheLabelCoder","boundary degenerate small-class","ShouldUseTheCorrectFontSize","wrapper stateless",
-"TheLabelCoder","boundary degenerate small-class","ShouldUseTheCorrectOffset","wrapper stateless",
-"Pixel","minimal-entity boundary","Pixel","constructor",
-"Pixel","minimal-entity boundary","Pixel","constructor",
-"Pixel","minimal-entity boundary","Pixel","copy-constructor",
-"Pixel","minimal-entity boundary","Equals","predicate non-void-command collaborator",
-"Pixel","minimal-entity boundary","Equals","predicate non-void-command collaborator",
-"Pixel","minimal-entity boundary","Equals","predicate controller",
-"Pixel","minimal-entity boundary","GetChannel","get property collaborator",
-"Pixel","minimal-entity boundary","SetChannel","set collaborator",
-"Pixel","minimal-entity boundary","SetValues","void-accessor command collaborator",
-"Pixel","minimal-entity boundary","ToColor","property non-void-command factory collaborator",
-"Pixel","minimal-entity boundary","GetValueWithoutIndexChannel","get property non-void-command factory collaborator",
-"Pixel","minimal-entity boundary","UpdateCollection","command",
-"DrawableAlpha","empty","DrawableAlpha","constructor",
-"MagickCoderWarningException","empty","MagickCoderWarningException","constructor",
-"DngReadDefines","factory controller small-class","get","property factory collaborator",
-"Bytes","empty","Bytes","constructor",
-"SignedRational","controller","SignedRational","constructor",
-"SignedRational","controller","SignedRational","constructor",
-"SignedRational","controller","SignedRational","constructor",
-"SignedRational","controller","SignedRational","constructor",
-"SignedRational","controller","SignedRational","constructor",
-"SignedRational","controller","Equals","predicate non-void-command collaborator",
-"SignedRational","controller","Equals","predicate controller",
-"SignedRational","controller","GetHashCode","property controller",
-"SignedRational","controller","ToString","property controller",
-"ExifTagDescriptionAttribute","empty","ExifTagDescriptionAttribute","constructor",
-"DrawableFillOpacity","empty","DrawableFillOpacity","constructor",
-"MagickCorruptImageErrorException","empty","MagickCorruptImageErrorException","constructor",
-"MagickImageErrorException","empty","MagickImageErrorException","constructor",
-"MagickMissingDelegateErrorException","empty","MagickMissingDelegateErrorException","constructor",
-"MagickModuleErrorException","empty","MagickModuleErrorException","constructor",
-"DrawableStrokeWidth","empty","DrawableStrokeWidth","constructor",
-"TheAvifCoder","boundary degenerate small-class","ShouldEncodeAndDecodeAlphaChannel","wrapper stateless",
-"TheAvifCoder","boundary degenerate small-class","ShouldIgnoreEmptyExifProfile","wrapper stateless",
-"EightBimReader","commander boundary small-class","Read","command collaborator",
-"MagickBlobWarningException","empty","MagickBlobWarningException","constructor",
-"MagickErrorException","empty","MagickErrorException","constructor",
-"Number","entity boundary small-class","Equals","predicate non-void-command collaborator",
-"PointD","small-class","PointD","constructor",
-"PointD","small-class","PointD","constructor",
-"PointD","small-class","PointD","constructor",
-"PointD","small-class","Equals","predicate non-void-command collaborator",
-"PointD","small-class","Initialize","command",
-"DrawingSettings","controller","DrawingSettings","constructor",
-"DrawingSettings","controller","Clone","property non-void-command factory",
-"DrawingSettings","controller","CreateNativeInstance","factory controller",
-"DrawingSettings","controller","set","set collaborator",
-"Rational","controller","Rational","constructor",
-"Rational","controller","Rational","constructor",
-"Rational","controller","Rational","constructor",
-"Rational","controller","Rational","constructor",
-"Rational","controller","Rational","constructor",
-"Rational","controller","Equals","predicate non-void-command collaborator",
-"Rational","controller","Equals","predicate controller",
-"Rational","controller","GetHashCode","property controller",
-"Rational","controller","ToString","property controller",
-"Threshold","small-class","Threshold","constructor",
-"Threshold","small-class","Threshold","constructor",
-"Threshold","small-class","Equals","predicate non-void-command collaborator",
-"Threshold","small-class","ToString","property non-void-command",
-"DrawablesGenerator","pure-controller small-class","Initialize","controller",
-"DrawableColor","empty","DrawableColor","constructor",
-"ColorHSL","commander boundary small-class","ColorHSL","constructor",
-"ColorHSL","commander boundary small-class","ColorHSL","constructor",
-"ColorHSL","commander boundary small-class","UpdateColor","command collaborator",
-"ColorHSL","commander boundary small-class","Initialize","command collaborator",
-"ExifTagDescriptionGenerator","pure-controller small-class","Initialize","controller",
-"ExifTagDescriptionGenerator","pure-controller small-class","GenerateCode","controller stateless",
-"ExifProfile","boundary","ExifProfile","constructor",
-"ExifProfile","boundary","ExifProfile","constructor",
-"ExifProfile","boundary","ExifProfile","constructor",
-"ExifProfile","boundary","ExifProfile","constructor",
-"ExifProfile","boundary","GetValue<TValueType>","property collaborator",
-"ExifProfile","boundary","RemoveThumbnail","command",
-"ExifProfile","boundary","RemoveValue","predicate non-void-command collaborator",
-"ExifProfile","boundary","Rewrite","command",
-"ExifProfile","boundary","SetValue<TValueType>","command collaborator",
-"ExifProfile","boundary","UpdateData","wrapper",
-"ExifProfile","boundary","InitializeValues","set collaborator",
-"ExifProfile","boundary","get","get non-void-command collaborator",
-"ExifProfile","boundary","get","get non-void-command",
-"ExifProfile","boundary","get","get non-void-command",
-"ExifProfile","boundary","get","get non-void-command collaborator",
-"CleanupInfo","empty","CleanupInfo","constructor",
-"DrawableStrokeLineJoin","empty","DrawableStrokeLineJoin","constructor",
-"PngOptimizer","unclassified","Compress","predicate non-void-command collaborator",
-"PngOptimizer","unclassified","LosslessCompress","predicate non-void-command collaborator",
-"PngOptimizer","unclassified","LosslessCompress","predicate non-void-command collaborator",
-"PngOptimizer","unclassified","DoCompress","predicate controller",
-"PngOptimizer","unclassified","DoCompress","predicate controller",
-"CodeBuilder","commander","Append","command",
-"CodeBuilder","commander","Append","command collaborator",
-"CodeBuilder","commander","AppendCloseBrace","set",
-"CodeBuilder","commander","AppendComment","command collaborator",
-"CodeBuilder","commander","AppendOpenBrace","set",
-"CodeBuilder","commander","AppendParameterComment","command",
-"CodeBuilder","commander","AppendReturnsComment","command",
-"CodeBuilder","commander","AppendLine","command collaborator",
-"CodeBuilder","commander","AppendQuantumType","command",
-"CodeBuilder","commander","AppendIndentation","set collaborator",
-"PdfWriteDefines","entity factory controller small-class","get","property non-void-command factory collaborator",
-"TemporaryImageAttacher","boundary small-class","TemporaryImageAttacher","constructor",
-"TemporaryImageAttacher","boundary small-class","AttachImages","wrapper",
-"TemporaryImageAttacher","boundary small-class","DetachImages","wrapper",
-"MorphologySettings","empty","MorphologySettings","constructor",
-"MethodInfo","empty","MethodInfo","constructor",
-"ParameterInfo","empty","ParameterInfo","constructor",
-"SystemDrawingColor","empty","SystemDrawingColor","constructor",
-"SystemDrawingColor","empty","SystemDrawingColor","constructor",
-"DrawableTextDecoration","empty","DrawableTextDecoration","constructor",
-"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","Add","command collaborator",
-"MagickImageCollection","commander boundary","AddRange","wrapper stateless",
-"MagickImageCollection","commander boundary","AddRange","command collaborator",
-"MagickImageCollection","commander boundary","AppendHorizontally","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","AppendVertically","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","Coalesce","command collaborator",
-"MagickImageCollection","commander boundary","Clear","command collaborator",
-"MagickImageCollection","commander boundary","Clone","factory controller",
-"MagickImageCollection","commander boundary","Combine","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","Complex","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","CopyTo","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","Deconstruct","command collaborator",
-"MagickImageCollection","commander boundary","Dispose","command",
-"MagickImageCollection","commander boundary","Evaluate","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","Flatten","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","Insert","command collaborator",
-"MagickImageCollection","commander boundary","Map","command collaborator",
-"MagickImageCollection","commander boundary","Montage","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","Morph","command collaborator",
-"MagickImageCollection","commander boundary","Optimize","command collaborator",
-"MagickImageCollection","commander boundary","OptimizePlus","command collaborator",
-"MagickImageCollection","commander boundary","OptimizeTransparency","command",
-"MagickImageCollection","commander boundary","Ping","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","Ping","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","Ping","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","Ping","command collaborator",
-"MagickImageCollection","commander boundary","Ping","command collaborator",
-"MagickImageCollection","commander boundary","Polynomial","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","Quantize","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","Read","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","Read","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","Read","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","Read","command collaborator",
-"MagickImageCollection","commander boundary","Read","command collaborator",
-"MagickImageCollection","commander boundary","ReadAsync","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","ReadAsync","non-void-command collaborator",
-"MagickImageCollection","commander boundary","ReadAsync","non-void-command collaborator",
-"MagickImageCollection","commander boundary","RePage","controller",
-"MagickImageCollection","commander boundary","ToByteArray","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","ToByteArray","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","ToByteArray","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","ToBase64","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","ToBase64","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","ToBase64","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","TrimBounds","command",
-"MagickImageCollection","commander boundary","Write","controller stateless",
-"MagickImageCollection","commander boundary","Write","command collaborator",
-"MagickImageCollection","commander boundary","Write","collaborator",
-"MagickImageCollection","commander boundary","Write","command collaborator",
-"MagickImageCollection","commander boundary","Write","command collaborator",
-"MagickImageCollection","commander boundary","Write","collaborator",
-"MagickImageCollection","commander boundary","Write","command collaborator",
-"MagickImageCollection","commander boundary","Write","command collaborator",
-"MagickImageCollection","commander boundary","Write","collaborator",
-"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","WriteAsync","non-void-command collaborator",
-"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","WriteAsync","non-void-command collaborator",
-"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","AddImages","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","AddImages","command collaborator",
-"MagickImageCollection","commander boundary","AddImages","command collaborator",
-"MagickImageCollection","commander boundary","AddImages","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","CheckDuplicate","wrapper",
-"MagickImageCollection","commander boundary","Dispose","set",
-"MagickImageCollection","commander boundary","Merge","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","ReplaceImages","command collaborator",
-"MagickImageCollection","commander boundary","SetDefines","controller",
-"MagickImageCollection","commander boundary","Smush","property non-void-command collaborator",
-"MagickImageCollection","commander boundary","ThrowIfCountLowerThan","unclassified",
-"MagickImageCollection","commander boundary","WriteAsyncInternal","non-void-command collaborator",
-"MagickImageCollection","commander boundary","set","set collaborator",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","MagickImageCollection","constructor",
-"MagickImageCollection","commander boundary","Ping","command collaborator",
-"MagickImageCollection","commander boundary","Ping","command collaborator",
-"MagickImageCollection","commander boundary","Read","command collaborator",
-"MagickImageCollection","commander boundary","Read","command collaborator",
-"MagickImageCollection","commander boundary","Write","command collaborator",
-"MagickImageCollection","commander boundary","Write","command collaborator",
-"MagickImageCollection","commander boundary","Write","collaborator",
-"MagickImageCollection","commander boundary","AddImages","void-accessor command collaborator",
-"MagickImageCollection","commander boundary","AddImages","void-accessor command collaborator",
-"NativeInteropGenerator","pure-controller small-class","Initialize","controller",
-"MagickReadSettings","commander boundary","MagickReadSettings","constructor",
-"MagickReadSettings","commander boundary","MagickReadSettings","copy-constructor",
-"MagickReadSettings","commander boundary","ForceSingleFrame","set",
-"MagickReadSettings","commander boundary","GetScenes","property non-void-command collaborator",
-"MagickReadSettings","commander boundary","ApplyDefines","wrapper",
-"MagickReadSettings","commander boundary","ApplyDimensions","set",
-"MagickReadSettings","commander boundary","ApplyFrame","command",
-"MagickReadSettings","commander boundary","Copy","command collaborator",
-"MagickReadSettings","commander boundary","get","predicate non-void-command collaborator",
-"MagickReadSettings","commander boundary","get","predicate non-void-command collaborator",
-"NativeInteropInfo","empty","NativeInteropInfo","constructor",
-"PathsGenerator","pure-controller small-class","Initialize","controller",
-"DrawablePopPattern","empty","DrawablePopPattern","constructor",
-"TheBmpCoder","boundary degenerate small-class","ShouldBeAbleToReadBmp3Format","wrapper stateless",
-"ColorCMYK","boundary data-class","ColorCMYK","constructor",
-"ColorCMYK","boundary data-class","ColorCMYK","constructor",
-"ColorCMYK","boundary data-class","ColorCMYK","constructor",
-"ColorCMYK","boundary data-class","ColorCMYK","constructor",
-"ColorCMYK","boundary data-class","ColorCMYK","constructor",
-"ColorCMYK","boundary data-class","ColorCMYK","constructor",
-"ColorCMYK","boundary data-class","get","get collaborator",
-"ColorCMYK","boundary data-class","set","set collaborator",
-"ColorCMYK","boundary data-class","get","get collaborator",
-"ColorCMYK","boundary data-class","set","set collaborator",
-"ColorCMYK","boundary data-class","get","get collaborator",
-"ColorCMYK","boundary data-class","set","set collaborator",
-"ColorCMYK","boundary data-class","get","get collaborator",
-"ColorCMYK","boundary data-class","set","set collaborator",
-"ColorCMYK","boundary data-class","get","get collaborator",
-"ColorCMYK","boundary data-class","set","set collaborator",
-"DrawableCircle","empty","DrawableCircle","constructor",
-"PathLineToVerticalAbs","empty","PathLineToVerticalAbs","constructor",
-"ColorHSV","commander boundary","ColorHSV","constructor",
-"ColorHSV","commander boundary","ColorHSV","constructor",
-"ColorHSV","commander boundary","HueShift","set",
-"ColorHSV","commander boundary","UpdateColor","command collaborator",
-"ColorHSV","commander boundary","Initialize","command collaborator",
-"ColorRGB","entity factory controller small-class","ColorRGB","constructor",
-"ColorRGB","entity factory controller small-class","ColorRGB","constructor",
-"ColorRGB","entity factory controller small-class","ComplementaryColor","property non-void-command factory collaborator",
-"ColorYUV","commander small-class","ColorYUV","constructor",
-"ColorYUV","commander small-class","ColorYUV","constructor",
-"ColorYUV","commander small-class","UpdateColor","command",
-"NotNullAttribute","empty","NotNullAttribute","constructor",
-"MagickConfigureWarningException","empty","MagickConfigureWarningException","constructor",
-"DrawableFillRule","empty","DrawableFillRule","constructor",
-"MagickDrawWarningException","empty","MagickDrawWarningException","constructor",
-"DrawableStrokeDashOffset","empty","DrawableStrokeDashOffset","constructor",
-"VideoWriteDefines","factory controller small-class","VideoWriteDefines","constructor",
-"VideoWriteDefines","factory controller small-class","get","property factory collaborator",
-"PathLineToHorizontalRel","empty","PathLineToHorizontalRel","constructor",
-"MagickColor","entity boundary","MagickColor","constructor",
-"MagickColor","entity boundary","MagickColor","copy-constructor",
-"MagickColor","entity boundary","MagickColor","constructor",
-"MagickColor","entity boundary","MagickColor","constructor",
-"MagickColor","entity boundary","MagickColor","constructor",
-"MagickColor","entity boundary","MagickColor","constructor",
-"MagickColor","entity boundary","CompareTo","property collaborator",
-"MagickColor","entity boundary","Equals","predicate wrapper",
-"MagickColor","entity boundary","FuzzyEquals","predicate wrapper",
-"MagickColor","entity boundary","GetHashCode","property non-void-command",
-"MagickColor","entity boundary","SetFromBytes","command",
-"MagickColor","entity boundary","ToByteArray","property wrapper",
-"MagickColor","entity boundary","ToHexString","property wrapper",
-"MagickColor","entity boundary","ToShortString","property non-void-command collaborator",
-"MagickColor","entity boundary","ToString","property wrapper",
-"MagickColor","entity boundary","Initialize","command collaborator",
-"MagickColor","entity boundary","Initialize","command collaborator",
-"MagickColor","entity boundary","ParseHexColor","command",
-"ConfigurationFile","small-class","ConfigurationFile","constructor",
-"ConfigurationFile","small-class","LoadData","property non-void-command collaborator",
-"ConfigurationFile","small-class","UpdateDelegatesXml","property controller",
-"MagickDrawErrorException","empty","MagickDrawErrorException","constructor",
-"PathCurveToRel","empty","PathCurveToRel","constructor",
-"PathCurveToRel","empty","PathCurveToRel","constructor",
-"DrawableCoordinates<TCoordinateType>","empty","DrawableCoordinates","constructor",
-"DrawableTextAntialias","empty","DrawableTextAntialias","constructor",
-"PathArcCoordinates","empty","PathArcCoordinates","constructor",
-"DrawableArc","empty","DrawableArc","constructor",
-"DrawableClipPath","empty","DrawableClipPath","constructor",
-"DrawableClipUnits","empty","DrawableClipUnits","constructor",
-"Jp2WriteDefines","factory controller small-class","get","property factory wrapper",
-"DrawableComposite","empty","DrawableComposite","constructor",
-"DrawableComposite","empty","DrawableComposite","constructor",
-"DrawableComposite","empty","DrawableComposite","constructor",
-"DrawableComposite","empty","DrawableComposite","constructor",
-"DrawableComposite","empty","DrawableComposite","constructor",
-"DrawableComposite","empty","DrawableComposite","constructor",
-"DrawableFillColor","empty","DrawableFillColor","constructor",
-"DrawableFont","commander boundary small-class","DrawableFont","constructor",
-"DrawableFont","commander boundary small-class","DrawableFont","constructor",
-"DrawableFont","commander boundary small-class","IDrawingWand.Draw","command collaborator",
-"DrawableFontPointSize","empty","DrawableFontPointSize","constructor",
-"ExifShort","boundary data-class small-class","ExifShort","constructor",
-"ExifShort","boundary data-class small-class","ExifShort","constructor",
-"ExifShort","boundary data-class small-class","SetValue","predicate set collaborator",
-"DrawableLine","empty","DrawableLine","constructor",
-"DrawablePath","commander boundary small-class","IDrawingWand.Draw","command collaborator",
-"DrawablePoint","empty","DrawablePoint","constructor",
-"DrawablePushClipPath","empty","DrawablePushClipPath","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","copy-constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","copy-constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","MagickImage","constructor",
-"MagickImage","entity boundary","ImportPixels","void-accessor command collaborator",
-"MagickImage","entity boundary","ImportPixels","void-accessor command collaborator",
-"MagickImage","entity boundary","Ping","command collaborator",
-"MagickImage","entity boundary","Ping","command collaborator",
-"MagickImage","entity boundary","Read","command collaborator",
-"MagickImage","entity boundary","Read","command collaborator",
-"MagickImage","entity boundary","ReadPixels","void-accessor command collaborator",
-"MagickImage","entity boundary","ReadPixels","void-accessor command collaborator",
-"MagickImage","entity boundary","Write","set collaborator",
-"MagickImage","entity boundary","Write","command collaborator",
-"MagickImage","entity boundary","Write","collaborator",
-"MagickImage","entity boundary","Read","void-accessor command collaborator",
-"MagickImage","entity boundary","Read","void-accessor command collaborator",
-"DrawablePushGraphicContext","empty","DrawablePushGraphicContext","constructor",
-"DrawablePushPattern","empty","DrawablePushPattern","constructor",
-"DrawableRotation","empty","DrawableRotation","constructor",
-"DrawableRoundRectangle","empty","DrawableRoundRectangle","constructor",
-"DrawableSkewX","empty","DrawableSkewX","constructor",
-"OpenCLKernelProfileRecord","data-provider small-class","OpenCLKernelProfileRecord","copy-constructor",
-"OpenCLKernelProfileRecord","data-provider small-class","get","property",
-"DrawableStrokeDashArray","empty","DrawableStrokeDashArray","constructor",
-"DrawableStrokeDashArray","empty","DrawableStrokeDashArray","constructor",
-"DrawableStrokeLineCap","empty","DrawableStrokeLineCap","constructor",
-"DrawableStrokeOpacity","empty","DrawableStrokeOpacity","constructor",
-"DrawableClipRule","empty","DrawableClipRule","constructor",
-"DrawableTextDirection","empty","DrawableTextDirection","constructor",
-"DrawableTextEncoding","empty","DrawableTextEncoding","constructor",
-"PixelCollectionEnumerator","unclassified","PixelCollectionEnumerator","constructor",
-"PixelCollectionEnumerator","unclassified","Dispose","empty",
-"PixelCollectionEnumerator","unclassified","MoveNext","predicate non-void-command",
-"PixelCollectionEnumerator","unclassified","Reset","command",
-"PixelCollectionEnumerator","unclassified","SetRow","set",
-"PixelCollectionEnumerator","unclassified","get","property wrapper",
-"DrawableTextInterlineSpacing","empty","DrawableTextInterlineSpacing","constructor",
-"Quantum","empty","Quantum","constructor",
-"TemporaryFile","unclassified","CopyTo","void-accessor command collaborator",
-"TemporaryFile","unclassified","Dispose","command",
-"TemporaryFile","unclassified","get","get non-void-command",
-"MagickDelegateErrorException","empty","MagickDelegateErrorException","constructor",
-"DrawableTextUnderColor","empty","DrawableTextUnderColor","constructor",
-"PixelCollection","boundary","GetReadOnlyArea","property factory wrapper",
-"PixelCollection","boundary","Dispose","command",
-"PixelCollection","boundary","SetByteArea","wrapper stateless",
-"PixelCollection","boundary","SetBytePixels","void-accessor wrapper",
-"PixelCollection","boundary","SetDoubleArea","wrapper stateless",
-"PixelCollection","boundary","SetDoublePixels","void-accessor wrapper",
-"PixelCollection","boundary","SetIntArea","wrapper stateless",
-"PixelCollection","boundary","SetIntPixels","void-accessor wrapper",
-"PixelCollection","boundary","SetPixel","controller stateless",
-"PixelCollection","boundary","SetPixel","command collaborator",
-"PixelCollection","boundary","ToByteArray","property non-void-command",
-"PixelCollection","boundary","ToShortArray","property non-void-command collaborator",
-"PixelCollection","boundary","GetAreaUnchecked","property non-void-command collaborator",
-"PixelCollection","boundary","get","get factory collaborator",
-"ExifRational","empty","ExifRational","constructor",
-"ExifRational","empty","ExifRational","constructor",
-"Drawables","boundary","Drawables","constructor",
-"Drawables","boundary","Composite","get non-void-command collaborator",
-"Drawables","boundary","Composite","get non-void-command collaborator",
-"Drawables","boundary","Composite","get non-void-command collaborator",
-"Drawables","boundary","Composite","get non-void-command collaborator",
-"Drawables","boundary","Density","get non-void-command collaborator",
-"Drawables","boundary","Draw","get controller",
-"Drawables","boundary","Font","get non-void-command collaborator",
-"Drawables","boundary","FontTypeMetrics","property non-void-command collaborator",
-"DrawingWand","commander boundary degenerate","Draw","command collaborator",
-"DrawingWand","commander boundary degenerate","Bezier","wrapper stateless",
-"DrawingWand","commander boundary degenerate","FontTypeMetrics","wrapper stateless",
-"DrawingWand","commander boundary degenerate","PathArcAbs","wrapper stateless",
-"DrawingWand","commander boundary degenerate","PathArcRel","wrapper stateless",
-"DrawingWand","commander boundary degenerate","PathLineToAbs","wrapper stateless",
-"DrawingWand","commander boundary degenerate","PathLineToRel","wrapper stateless",
-"DrawingWand","commander boundary degenerate","Polygon","wrapper stateless",
-"DrawingWand","commander boundary degenerate","Polyline","wrapper stateless",
-"DrawingWand","commander boundary degenerate","TextEncoding","wrapper stateless",
-"MagickGeometry","entity boundary","MagickGeometry","constructor",
-"MagickGeometry","entity boundary","CompareTo","property collaborator",
-"MagickGeometry","entity boundary","Equals","predicate wrapper",
-"MagickGeometry","entity boundary","GetHashCode","property non-void-command",
-"MagickGeometry","entity boundary","Initialize","command",
-"MagickGeometry","entity boundary","ToString","property collaborator",
-"MagickGeometry","entity boundary","InitializeFromPercentage","set collaborator",
-"MagickGeometry","entity boundary","Initialize","command collaborator",
-"MagickGeometry","entity boundary","Initialize","command collaborator",
-"MagickGeometry","entity boundary","InitializeFromAspectRation","command collaborator",
-"ColorGray","commander small-class","ColorGray","constructor",
-"ColorGray","commander small-class","ColorGray","constructor",
-"ColorGray","commander small-class","UpdateColor","command collaborator",
-"ColorGray","commander small-class","set","set",
-"NativeMagickImage","commander","ImportPixels","command",
-"NativeMagickImage","commander","ImportPixels","command",
-"NativeMagickImage","commander","ReadPixels","command",
-"NativeMagickImage","commander","ReadPixels","command",
-"PathClose","empty","PathClose","constructor",
-"PsdWriteDefines","factory controller small-class","get","property factory collaborator",
-"MagickDefine","empty","MagickDefine","constructor",
-"MagickDefine","empty","MagickDefine","constructor",
-"MagickDefine","empty","MagickDefine","constructor",
-"MagickDefine","empty","MagickDefine","constructor",
-"MagickDefine","empty","MagickDefine","constructor",
-"MagickDefine","empty","MagickDefine","constructor",
-"MagickDefine","empty","MagickDefine","constructor",
-"MagickDefine","empty","MagickDefine","constructor",
-"MagickDefine","empty","MagickDefine","constructor",
-"PathLineToAbs","empty","PathLineToAbs","constructor",
-"PathLineToRel","empty","PathLineToRel","constructor",
-"PathLineToVerticalRel","empty","PathLineToVerticalRel","constructor",
-"PathMoveToAbs","empty","PathMoveToAbs","constructor",
-"PathMoveToRel","empty","PathMoveToRel","constructor",
-"PathQuadraticCurveToAbs","empty","PathQuadraticCurveToAbs","constructor",
-"PathQuadraticCurveToAbs","empty","PathQuadraticCurveToAbs","constructor",
-"PathQuadraticCurveToRel","empty","PathQuadraticCurveToRel","constructor",
-"PathQuadraticCurveToRel","empty","PathQuadraticCurveToRel","constructor",
-"PathSmoothCurveToAbs","empty","PathSmoothCurveToAbs","constructor",
-"PathSmoothCurveToAbs","empty","PathSmoothCurveToAbs","constructor",
-"PathSmoothQuadraticCurveToAbs","empty","PathSmoothQuadraticCurveToAbs","constructor",
-"PathSmoothQuadraticCurveToRel","empty","PathSmoothQuadraticCurveToRel","constructor",
-"Paths","empty","Paths","constructor",
-"JxlWriteDefines","factory controller small-class","get","property factory collaborator",
-"ChannelPerceptualHash","boundary","ChannelPerceptualHash","constructor",
-"ChannelPerceptualHash","boundary","ChannelPerceptualHash","constructor",
-"ChannelPerceptualHash","boundary","ChannelPerceptualHash","constructor",
-"ChannelPerceptualHash","boundary","HuPhash","property non-void-command collaborator",
-"ChannelPerceptualHash","boundary","SumSquaredDistance","property controller",
-"ChannelPerceptualHash","boundary","ToString","get non-void-command",
-"ChannelPerceptualHash","boundary","GetHuPhashListByColorSpace","collaborator incidental",
-"ChannelPerceptualHash","boundary","ParseHash","command collaborator",
-"ChannelPerceptualHash","boundary","SetHash","set collaborator",
-"ChannelPerceptualHash","boundary","AddHuPhash","set collaborator",
-"DrawableFillPatternUrl","empty","DrawableFillPatternUrl","constructor",
-"BmpReadDefines","factory controller small-class","get","property factory collaborator",
-"BmpWriteDefines","factory controller small-class","get","property factory collaborator",
-"CaptionReadDefines","factory controller small-class","get","property factory collaborator",
-"DdsWriteDefines","factory controller small-class","get","property factory collaborator",
-"MagickImageWarningException","empty","MagickImageWarningException","constructor",
-"Jp2ReadDefines","factory controller small-class","get","property factory collaborator",
-"JpegReadDefines","factory controller small-class","get","property factory wrapper",
-"PdfReadDefines","factory controller small-class","get","property factory collaborator",
-"PngReadDefines","factory controller small-class","get","property factory wrapper",
-"PsdAdditionalInfo","empty","PsdAdditionalInfo","constructor",
-"TiffReadDefines","entity factory controller small-class","get","property non-void-command factory collaborator",
-"WebPWriteDefines","factory controller small-class","get","property factory collaborator",
-"ExifNumberArray","data-provider boundary small-class","ExifNumberArray","constructor",
-"ExifNumberArray","data-provider boundary small-class","get","property collaborator",
-"StreamWrapper","entity data-provider boundary","StreamWrapper","constructor",
-"StreamWrapper","entity data-provider boundary","Read","property non-void-command collaborator",
-"StreamWrapper","entity data-provider boundary","Seek","property non-void-command",
-"StreamWrapper","entity data-provider boundary","Tell","get property",
-"StreamWrapper","entity data-provider boundary","Write","property non-void-command collaborator",
-"StreamWrapper","entity data-provider boundary","FillBuffer","property wrapper",
-"StreamWrapper","entity data-provider boundary","ReadBuffer","property wrapper",
-"TemporaryDefines","commander","TemporaryDefines","constructor",
-"TemporaryDefines","commander","Dispose","command collaborator",
-"TemporaryDefines","commander","SetArtifact","command",
-"TemporaryDefines","commander","SetArtifact","command",
-"TemporaryDefines","commander","SetArtifact<TValue>","command collaborator",
-"UTF8Marshaler","commander data-class small-class","UTF8Marshaler","constructor",
-"UTF8Marshaler","commander data-class small-class","Dispose","set",
-"ColorProfileReader","entity boundary","ColorProfileReader","constructor",
-"ColorProfileReader","entity boundary","ReadColorSpace","command collaborator",
-"ColorProfileReader","entity boundary","ReadTagTable","command collaborator",
-"ColorProfileReader","entity boundary","ReadTag","property non-void-command collaborator",
-"ColorProfileReader","entity boundary","ReadTextDescriptionTypeValue","property non-void-command collaborator",
-"ColorProfileReader","entity boundary","ReadTextTypeValue","property non-void-command",
-"IcoOptimizer","boundary","Compress","predicate non-void-command collaborator",
-"IcoOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator",
-"IcoOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator",
-"IcoOptimizer","boundary","DoCompress","predicate set collaborator",
-"IcoOptimizer","boundary","DoCompress","predicate controller",
-"PngHelper","entity boundary","PngHelper","constructor",
-"PngHelper","entity boundary","FindBestFileQuality","property non-void-command collaborator",
-"PngHelper","entity boundary","FindBestStreamQuality","property non-void-command collaborator",
-"PngHelper","entity boundary","GetQualityList","property",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","MagickImageInfo","constructor",
-"MagickImageInfo","entity commander boundary","Read","void-accessor command collaborator",
-"MagickImageInfo","entity commander boundary","Read","void-accessor command collaborator",
-"MagickImageInfo","entity commander boundary","Read","command collaborator",
-"MagickImageInfo","entity commander boundary","Read","command collaborator",
-"MagickImageInfo","entity commander boundary","Read","command collaborator",
-"MagickImageInfo","entity commander boundary","Initialize","command collaborator",
-"MagickImageInfo","entity commander boundary","Read","command collaborator",
-"MagickImageInfo","entity commander boundary","Read","command collaborator",
-"DoubleMatrix","data-provider boundary","DoubleMatrix","constructor",
-"DoubleMatrix","data-provider boundary","SetColumn","void-accessor wrapper",
-"DoubleMatrix","data-provider boundary","SetRow","void-accessor wrapper",
-"DoubleMatrix","data-provider boundary","GetIndex","property wrapper",
-"DrawableViewbox","empty","DrawableViewbox","constructor",
-"OpenCLDevice","controller lazy-class small-class","OpenCLDevice","constructor",
-"OpenCLDevice","controller lazy-class small-class","get","factory controller stateless",
-"OpenCLDevice","controller lazy-class small-class","set","set",
-"MagickModuleWarningException","empty","MagickModuleWarningException","constructor",
-"ReadOnlySequenceWrapper","entity boundary small-class","ReadOnlySequenceWrapper","constructor",
-"ReadOnlySequenceWrapper","entity boundary small-class","Read","property non-void-command collaborator",
-"ReadOnlySequenceWrapper","entity boundary small-class","Seek","get property non-void-command collaborator",
-"MagickStreamErrorException","empty","MagickStreamErrorException","constructor",
-"MagickSettings","commander boundary","MagickSettings","constructor",
-"MagickSettings","commander boundary","GetDefine","wrapper stateless",
-"MagickSettings","commander boundary","GetDefine","property non-void-command",
-"MagickSettings","commander boundary","RemoveDefine","command collaborator",
-"MagickSettings","commander boundary","RemoveDefine","command",
-"MagickSettings","commander boundary","SetDefine","wrapper stateless",
-"MagickSettings","commander boundary","SetDefine","wrapper stateless",
-"MagickSettings","commander boundary","SetDefines","command collaborator",
-"MagickSettings","commander boundary","Clone","factory controller",
-"MagickSettings","commander boundary","CopyFrom","void-accessor command collaborator",
-"MagickSettings","commander boundary","GetOption","wrapper stateless",
-"MagickSettings","commander boundary","SetOptionAndArtifact","wrapper",
-"MagickSettings","commander boundary","set","set collaborator",
-"MagickSettings","commander boundary","set","set",
-"MagickSettings","commander boundary","set","set",
-"MagickSettings","commander boundary","set","non-void-command",
-"MagickSettings","commander boundary","set","set collaborator",
-"MagickSettings","commander boundary","set","set collaborator",
-"MagickSettings","commander boundary","set","set collaborator",
-"MagickSettings","commander boundary","set","set",
-"MagickSettings","commander boundary","set","set collaborator",
-"MagickSettings","commander boundary","set","set",
-"MagickSettings","commander boundary","set","set",
-"MagickSettings","commander boundary","set","set",
-"MagickSettings","commander boundary","set","set collaborator",
-"ColorBase","unclassified","ColorBase","constructor",
-"ColorBase","unclassified","CompareTo","property non-void-command",
-"ColorBase","unclassified","Equals","predicate non-void-command",
-"ColorBase","unclassified","FuzzyEquals","predicate non-void-command collaborator",
-"ColorBase","unclassified","GetHashCode","property non-void-command",
-"ColorBase","unclassified","ToMagickColor","property non-void-command factory collaborator",
-"ColorBase","unclassified","UpdateColor","empty",
-"QuantizeSettings","empty","QuantizeSettings","constructor",
-"ChannelMoments","data-provider boundary data-class small-class","ChannelMoments","constructor",
-"ChannelMoments","data-provider boundary data-class small-class","HuInvariants","get wrapper",
-"ChannelStatistics","empty","ChannelStatistics","constructor",
-"Moments","commander boundary small-class","Moments","constructor",
-"Moments","commander boundary small-class","GetChannel","collaborator incidental",
-"Moments","commander boundary small-class","AddChannel","command collaborator",
-"PerceptualHash","entity boundary","PerceptualHash","constructor",
-"PerceptualHash","entity boundary","PerceptualHash","constructor",
-"PerceptualHash","entity boundary","PerceptualHash","constructor",
-"PerceptualHash","entity boundary","GetChannel","collaborator incidental",
-"PerceptualHash","entity boundary","SumSquaredDistance","get non-void-command collaborator",
-"PerceptualHash","entity boundary","AddChannel","void-accessor command collaborator",
-"Statistics","commander boundary small-class","Statistics","constructor",
-"Statistics","commander boundary small-class","GetChannel","collaborator incidental",
-"Statistics","commander boundary small-class","AddChannel","command collaborator",
-"ConnectedComponent","factory controller small-class","ConnectedComponent","constructor",
-"ConnectedComponent","factory controller small-class","ToGeometry","property factory collaborator",
-"MagickRectangle","empty","MagickRectangle","constructor",
-"MagickRectangle","empty","MagickRectangle","copy-constructor",
-"PrimaryInfo","small-class","PrimaryInfo","constructor",
-"PrimaryInfo","small-class","PrimaryInfo","copy-constructor",
-"PrimaryInfo","small-class","Equals","predicate wrapper",
-"PrimaryInfo","small-class","GetHashCode","property non-void-command",
-"StringInfo","empty","StringInfo","constructor",
-"TypeMetric","empty","TypeMetric","copy-constructor",
-"BufferWriterWrapper","entity boundary small-class","BufferWriterWrapper","constructor",
-"BufferWriterWrapper","entity boundary small-class","Write","property non-void-command collaborator",
-"DrawableTextInterwordSpacing","empty","DrawableTextInterwordSpacing","constructor",
-"SafePixelCollection","boundary","GetReadOnlyArea","property non-void-command collaborator",
-"SafePixelCollection","boundary","GetReadOnlyArea","property non-void-command collaborator",
-"SafePixelCollection","boundary","SetArea","command collaborator",
-"SafePixelCollection","boundary","SetArea","command collaborator",
-"SafePixelCollection","boundary","SetPixels","command collaborator",
-"SafePixelCollection","boundary","CheckValues<T>","void-accessor command collaborator",
-"SafePixelCollection","boundary","SafePixelCollection","constructor",
-"SafePixelCollection","boundary","GetArea","property non-void-command collaborator",
-"SafePixelCollection","boundary","GetArea","property non-void-command collaborator",
-"SafePixelCollection","boundary","GetPixel","property non-void-command collaborator",
-"SafePixelCollection","boundary","GetValue","property non-void-command collaborator",
-"SafePixelCollection","boundary","SetArea","void-accessor command collaborator",
-"SafePixelCollection","boundary","SetArea","void-accessor command collaborator",
-"SafePixelCollection","boundary","SetByteArea","void-accessor command",
-"SafePixelCollection","boundary","SetByteArea","void-accessor command",
-"SafePixelCollection","boundary","SetBytePixels","void-accessor command",
-"SafePixelCollection","boundary","SetDoubleArea","void-accessor command",
-"SafePixelCollection","boundary","SetDoubleArea","void-accessor command",
-"SafePixelCollection","boundary","SetDoublePixels","void-accessor command",
-"SafePixelCollection","boundary","SetIntArea","void-accessor command",
-"SafePixelCollection","boundary","SetIntArea","void-accessor command",
-"SafePixelCollection","boundary","SetIntPixels","void-accessor command",
-"SafePixelCollection","boundary","SetPixel","void-accessor command collaborator",
-"SafePixelCollection","boundary","SetPixel","void-accessor command collaborator",
-"SafePixelCollection","boundary","SetPixel","command collaborator",
-"SafePixelCollection","boundary","SetPixels","void-accessor command collaborator",
-"SafePixelCollection","boundary","ToByteArray","property non-void-command",
-"SafePixelCollection","boundary","ToByteArray","property non-void-command collaborator",
-"SafePixelCollection","boundary","ToByteArray","property non-void-command",
-"SafePixelCollection","boundary","ToShortArray","property non-void-command",
-"SafePixelCollection","boundary","ToShortArray","property non-void-command",
-"SafePixelCollection","boundary","CheckArea","command",
-"SafePixelCollection","boundary","CheckIndex","wrapper",
-"SafePixelCollection","boundary","CheckValues<T>","void-accessor command collaborator",
-"SafePixelCollection","boundary","SetPixelPrivate","void-accessor command collaborator",
-"ImageOptimizer","boundary","Compress","predicate non-void-command collaborator",
-"ImageOptimizer","boundary","Compress","predicate non-void-command collaborator",
-"ImageOptimizer","boundary","Compress","predicate non-void-command collaborator",
-"ImageOptimizer","boundary","IsSupported","predicate collaborator",
-"ImageOptimizer","boundary","IsSupported","predicate non-void-command collaborator",
-"ImageOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator",
-"ImageOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator",
-"ImageOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator",
-"ImageOptimizer","boundary","DoLosslessCompress","predicate non-void-command collaborator",
-"ImageOptimizer","boundary","DoCompress","predicate non-void-command collaborator",
-"ImageOptimizer","boundary","GetOptimizer","property non-void-command collaborator",
-"ImageOptimizer","boundary","GetOptimizer","property non-void-command collaborator",
-"ImageOptimizer","boundary","GetOptimizer","property collaborator",
-"ImageOptimizer","boundary","get","property controller",
-"PathSmoothCurveToRel","empty","PathSmoothCurveToRel","constructor",
-"PathSmoothCurveToRel","empty","PathSmoothCurveToRel","constructor",
-"ChromaticityInfo","empty","ChromaticityInfo","constructor",
-"DrawableRectangle","empty","DrawableRectangle","constructor",
-"MagickErrorInfo","empty","MagickErrorInfo","constructor",
-"MagickErrorInfo","empty","MagickErrorInfo","constructor",
-"MagickFormatInfo","data-provider boundary small-class","MagickFormatInfo","copy-constructor",
-"MagickFormatInfo","data-provider boundary small-class","Equals","predicate wrapper",
-"TheMapCoder","boundary degenerate","CanBeReadFromFileWithMapExtensions","wrapper stateless",
-"TheMapCoder","boundary degenerate","ShouldThrowExceptionWhenDimensionsNotSpecified","wrapper stateless",
-"TheMapCoder","boundary degenerate","ShouldThrowExceptionWhenDepthNotSpecified","wrapper stateless",
-"TheMapCoder","boundary degenerate","CannotBeReadFromFileWithoutMapExtensions","wrapper stateless",
-"ExifShortArray","empty","ExifShortArray","constructor",
-"ExifShortArray","empty","ExifShortArray","constructor",
-"MagickDelegateWarningException","empty","MagickDelegateWarningException","constructor",
-"GifOptimizer","boundary degenerate","LosslessCompress","wrapper stateless",
-"GifOptimizer","boundary degenerate","LosslessCompress","wrapper stateless",
-"GifOptimizer","boundary degenerate","LosslessCompress","wrapper stateless",
+"ExceptionHelperTests","degenerate","Test_CreateException","command"
+"ExceptionHelperTests","degenerate","Test_Description","controller stateless"
+"ExceptionHelperTests","degenerate","AssertCreateException","controller stateless"
+"CodeBuilder","commander","Append","command"
+"CodeBuilder","commander","Append","command collaborator"
+"CodeBuilder","commander","AppendCloseBrace","set"
+"CodeBuilder","commander","AppendComment","command collaborator"
+"CodeBuilder","commander","AppendOpenBrace","set"
+"CodeBuilder","commander","AppendParameterComment","command"
+"CodeBuilder","commander","AppendReturnsComment","command"
+"CodeBuilder","commander","AppendLine","command collaborator"
+"CodeBuilder","commander","AppendQuantumType","command"
+"CodeBuilder","commander","AppendIndentation","set collaborator"
+"PdfWriteDefines","entity factory controller small-class","get","property non-void-command factory collaborator"
+"DrawablesGenerator","pure-controller small-class","Initialize","controller"
+"TheWebPCoder","boundary small-class","ShouldReadAndWriteTheXmpProfile","wrapper"
+"TheWebPCoder","boundary small-class","ShouldUseTheUpdatedXmpProfile","wrapper"
+"SignedRational","controller","SignedRational","constructor"
+"SignedRational","controller","SignedRational","constructor"
+"SignedRational","controller","SignedRational","constructor"
+"SignedRational","controller","SignedRational","constructor"
+"SignedRational","controller","SignedRational","constructor"
+"SignedRational","controller","Equals","predicate non-void-command collaborator"
+"SignedRational","controller","Equals","predicate controller"
+"SignedRational","controller","GetHashCode","property controller"
+"SignedRational","controller","ToString","property controller"
+"PointD","small-class","PointD","constructor"
+"PointD","small-class","PointD","constructor"
+"PointD","small-class","PointD","constructor"
+"PointD","small-class","Equals","predicate non-void-command collaborator"
+"PointD","small-class","Initialize","command"
+"DrawingSettings","controller","DrawingSettings","constructor"
+"DrawingSettings","controller","Clone","property non-void-command factory"
+"DrawingSettings","controller","CreateNativeInstance","factory controller"
+"DrawingSettings","controller","set","set collaborator"
+"ExifValue<TValueType>","data-provider boundary data-class small-class","ExifValue","constructor"
+"ExifValue<TValueType>","data-provider boundary data-class small-class","ExifValue","constructor"
+"ExifValue<TValueType>","data-provider boundary data-class small-class","SetValue","predicate set collaborator"
+"ExifValue<TValueType>","data-provider boundary data-class small-class","ToString","get property wrapper"
+"TiffWriteDefines","factory controller small-class","get","property factory collaborator"
+"PathsTests","degenerate","Test_Draw_Drawables","wrapper stateless"
+"PathsTests","degenerate","Test_Draw_Paths","wrapper stateless"
+"PathsTests","degenerate","Test_Paths","controller stateless"
+"Number","entity boundary small-class","Equals","predicate non-void-command collaborator"
+"TypeInfo","empty","TypeInfo","constructor"
+"BigRational","data-provider","BigRational","constructor"
+"BigRational","data-provider","BigRational","constructor"
+"BigRational","data-provider","BigRational","constructor"
+"BigRational","data-provider","Equals","predicate non-void-command collaborator"
+"BigRational","data-provider","Equals","predicate"
+"BigRational","data-provider","ToString","property non-void-command collaborator"
+"BigRational","data-provider","Simplify","command collaborator"
+"BigRational","data-provider","get","predicate"
+"BigRational","data-provider","get","predicate"
+"BigRational","data-provider","get","predicate"
+"BigRational","data-provider","get","predicate"
+"ExifDoubleArray","empty","ExifDoubleArray","constructor"
+"ExifDoubleArray","empty","ExifDoubleArray","constructor"
+"MagickConfigureErrorException","empty","MagickConfigureErrorException","constructor"
+"Percentage","entity boundary small-class","Percentage","constructor"
+"Percentage","entity boundary small-class","Percentage","constructor"
+"Percentage","entity boundary small-class","Equals","predicate non-void-command collaborator"
+"Rational","controller","Rational","constructor"
+"Rational","controller","Rational","constructor"
+"Rational","controller","Rational","constructor"
+"Rational","controller","Rational","constructor"
+"Rational","controller","Rational","constructor"
+"Rational","controller","Equals","predicate non-void-command collaborator"
+"Rational","controller","Equals","predicate controller"
+"Rational","controller","GetHashCode","property controller"
+"Rational","controller","ToString","property controller"
+"ExifRationalArray","empty","ExifRationalArray","constructor"
+"ExifRationalArray","empty","ExifRationalArray","constructor"
+"MagickColorMatrix","empty","MagickColorMatrix","constructor"
+"MagickColorMatrix","empty","MagickColorMatrix","constructor"
+"IptcValue","unclassified","IptcValue","constructor"
+"IptcValue","unclassified","IptcValue","constructor"
+"IptcValue","unclassified","Equals","predicate controller"
+"IptcValue","unclassified","ToByteArray","property non-void-command collaborator"
+"IptcValue","unclassified","GetData","property non-void-command"
+"ByteArrayWrapper","boundary","GetBytes","get wrapper"
+"ByteArrayWrapper","boundary","Read","property set collaborator"
+"ByteArrayWrapper","boundary","Seek","collaborator"
+"ExifValue","entity boundary small-class","Equals","predicate non-void-command collaborator"
+"ExifValue","entity boundary small-class","GetHashCode","property non-void-command collaborator"
+"MagickCacheErrorException","empty","MagickCacheErrorException","constructor"
+"ExifSignedShortArray","empty","ExifSignedShortArray","constructor"
+"JpegWriteDefines","factory controller small-class","get","property factory wrapper"
+"ExifSignedLongArray","empty","ExifSignedLongArray","constructor"
+"ExifSignedLong","empty","ExifSignedLong","constructor"
+"TheRgbCoder","commander boundary data-class small-class","ShouldSetTheCorrectValueForTheAlphaChannel","set collaborator"
+"TheRgbCoder","commander boundary data-class small-class","ShouldSetTheCorrectValueForTheOpacityChannel","set collaborator"
+"MagickCorruptImageWarningException","empty","MagickCorruptImageWarningException","constructor"
+"ExifLongArray","empty","ExifLongArray","constructor"
+"ExifLongArray","empty","ExifLongArray","constructor"
+"ExifLong","boundary data-class small-class","ExifLong","constructor"
+"ExifLong","boundary data-class small-class","ExifLong","constructor"
+"ExifLong","boundary data-class small-class","SetValue","predicate set collaborator"
+"ExifDouble","boundary data-class small-class","ExifDouble","constructor"
+"ExifDouble","boundary data-class small-class","ExifDouble","constructor"
+"ExifDouble","boundary data-class small-class","SetValue","predicate set collaborator"
+"ExifByteArray","empty","ExifByteArray","constructor"
+"UnknownExifTag","empty","UnknownExifTag","constructor"
+"ExifTag<TValueType>","empty","ExifTag","copy-constructor"
+"ConvolveMatrix","empty","ConvolveMatrix","constructor"
+"ConvolveMatrix","empty","ConvolveMatrix","constructor"
+"ExifWriter","controller small-class","Write","property non-void-command collaborator"
+"ExifWriter","controller small-class","GetPartValues","factory controller"
+"ExifTagDescriptionInfo","empty","ExifTagDescriptionInfo","constructor"
+"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageCollectionFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"DrawableText","empty","DrawableText","constructor"
+"EightBimValue","unclassified","EightBimValue","constructor"
+"EightBimValue","unclassified","Equals","predicate controller"
+"EightBimValue","unclassified","ToByteArray","property wrapper"
+"EightBimValue","unclassified","ToString","property controller"
+"ExifSignedShort","boundary data-class small-class","ExifSignedShort","constructor"
+"ExifSignedShort","boundary data-class small-class","SetValue","predicate set collaborator"
+"MagickResourceLimitWarningException","empty","MagickResourceLimitWarningException","constructor"
+"ImageProfile","unclassified","ToReadOnlySpan","property non-void-command collaborator"
+"ImageProfile","unclassified","ImageProfile","constructor"
+"ImageProfile","unclassified","ImageProfile","constructor"
+"ImageProfile","unclassified","ImageProfile","constructor"
+"ImageProfile","unclassified","ImageProfile","constructor"
+"ImageProfile","unclassified","Equals","predicate non-void-command collaborator"
+"ImageProfile","unclassified","GetHashCode","property non-void-command"
+"ImageProfile","unclassified","ToByteArray","property non-void-command"
+"ImageProfile","unclassified","UpdateData","empty"
+"ExifSignedByteArray","empty","ExifSignedByteArray","constructor"
+"PointDCoordinates","empty","PointDCoordinates","constructor"
+"PointDCoordinates","empty","PointDCoordinates","constructor"
+"PointDCoordinates","empty","PointDCoordinates","constructor"
+"ExifByte","empty","ExifByte","constructor"
+"MagickFileOpenWarningException","empty","MagickFileOpenWarningException","constructor"
+"PixelReadSettings","empty","PixelReadSettings","constructor"
+"PixelReadSettings","empty","PixelReadSettings","constructor"
+"TheTiffCoder","boundary degenerate","ShouldIgnoreTheSpecifiedTags","wrapper stateless"
+"TheTiffCoder","boundary degenerate","ShouldBeAbleToReadAndWriteIptcValues","controller stateless"
+"TheTiffCoder","boundary degenerate","ShouldBeAbleToWriteLzwPTiffToStream","stateless"
+"TheTiffCoder","boundary degenerate","ShouldBeAbleToUseTheSpecifiedCompression","wrapper stateless"
+"TheTiffCoder","boundary degenerate","ShouldBeAbleToReadImageWithInfiniteRowsPerStrip","wrapper stateless"
+"TheTiffCoder","boundary degenerate","ShouldBeAbleToReadImageWithLargeScanLine","wrapper stateless"
+"TheTiffCoder","boundary degenerate","ShouldReadImageWithAlphaCorrectly","wrapper stateless"
+"TheGifCoder","boundary degenerate small-class","ShouldReturnTheCorrectNumberOfAnimationIterations","wrapper stateless"
+"ClipPath","empty","ClipPath","constructor"
+"ExifFloatArray","empty","ExifFloatArray","constructor"
+"VideoReadDefines","factory controller small-class","VideoReadDefines","constructor"
+"VideoReadDefines","factory controller small-class","get","property factory collaborator"
+"MagickOptionErrorException","empty","MagickOptionErrorException","constructor"
+"DrawableStrokePatternUrl","empty","DrawableStrokePatternUrl","constructor"
+"EightBimProfile","entity boundary","EightBimProfile","constructor"
+"EightBimProfile","entity boundary","EightBimProfile","constructor"
+"EightBimProfile","entity boundary","EightBimProfile","constructor"
+"EightBimProfile","entity boundary","EightBimProfile","constructor"
+"EightBimProfile","entity boundary","GetExifProfile","property non-void-command factory collaborator"
+"EightBimProfile","entity boundary","GetIptcProfile","property non-void-command factory collaborator"
+"EightBimProfile","entity boundary","GetXmpProfile","property non-void-command factory collaborator"
+"EightBimProfile","entity boundary","SetExifProfile","command collaborator"
+"EightBimProfile","entity boundary","SetIptcProfile","command collaborator"
+"EightBimProfile","entity boundary","SetXmpProfile","command collaborator"
+"EightBimProfile","entity boundary","UpdateData","wrapper"
+"EightBimProfile","entity boundary","CreateClipPath","property non-void-command factory collaborator"
+"EightBimProfile","entity boundary","FindValue","property non-void-command collaborator"
+"EightBimProfile","entity boundary","GetClipPath","property wrapper"
+"EightBimProfile","entity boundary","Initialize","set"
+"EightBimProfile","entity boundary","get","non-void-command factory collaborator"
+"EightBimProfile","entity boundary","get","get non-void-command collaborator"
+"Threshold","small-class","Threshold","constructor"
+"Threshold","small-class","Threshold","constructor"
+"Threshold","small-class","Equals","predicate non-void-command collaborator"
+"Threshold","small-class","ToString","property non-void-command"
+"DrawableAffine","commander small-class","DrawableAffine","constructor"
+"DrawableAffine","commander small-class","Reset","command"
+"DrawableAffine","commander small-class","Transform","command collaborator"
+"ConstNativeInstance","data-provider data-class small-class","get","get"
+"UnsafePixelCollection","commander","GetReadOnlyArea","property non-void-command collaborator"
+"UnsafePixelCollection","commander","SetArea","command collaborator"
+"UnsafePixelCollection","commander","UnsafePixelCollection","constructor"
+"UnsafePixelCollection","commander","GetArea","property non-void-command collaborator"
+"UnsafePixelCollection","commander","GetAreaPointer","property non-void-command collaborator"
+"UnsafePixelCollection","commander","SetArea","command collaborator"
+"UnsafePixelCollection","commander","SetArea","command collaborator"
+"UnsafePixelCollection","commander","SetByteArea","command"
+"UnsafePixelCollection","commander","SetByteArea","command"
+"UnsafePixelCollection","commander","SetBytePixels","command"
+"UnsafePixelCollection","commander","SetDoubleArea","command"
+"UnsafePixelCollection","commander","SetDoubleArea","command"
+"UnsafePixelCollection","commander","SetDoublePixels","command"
+"UnsafePixelCollection","commander","SetIntArea","command"
+"UnsafePixelCollection","commander","SetIntArea","command"
+"UnsafePixelCollection","commander","SetIntPixels","command"
+"UnsafePixelCollection","commander","SetPixel","command collaborator"
+"UnsafePixelCollection","commander","SetPixel","command collaborator"
+"UnsafePixelCollection","commander","SetPixels","command collaborator"
+"UnsafePixelCollection","commander","ToByteArray","property non-void-command"
+"UnsafePixelCollection","commander","ToByteArray","property non-void-command"
+"UnsafePixelCollection","commander","ToShortArray","property non-void-command"
+"UnsafePixelCollection","commander","ToShortArray","property non-void-command"
+"DrawableTextKerning","empty","DrawableTextKerning","constructor"
+"ParameterInfo","empty","ParameterInfo","constructor"
+"ColorProfile","data-provider boundary data-class","ColorProfile","constructor"
+"ColorProfile","data-provider boundary data-class","ColorProfile","constructor"
+"ColorProfile","data-provider boundary data-class","ColorProfile","constructor"
+"ColorProfile","data-provider boundary data-class","ColorProfile","constructor"
+"ColorProfile","data-provider boundary data-class","get","get wrapper"
+"ColorProfile","data-provider boundary data-class","get","get wrapper"
+"ColorProfile","data-provider boundary data-class","get","get wrapper"
+"ColorProfile","data-provider boundary data-class","get","get wrapper"
+"ColorProfile","data-provider boundary data-class","get","get wrapper"
+"MagickCoderErrorException","empty","MagickCoderErrorException","constructor"
+"DdsReadDefines","factory controller small-class","get","property factory collaborator"
+"ExifFloat","boundary data-class small-class","ExifFloat","constructor"
+"ExifFloat","boundary data-class small-class","SetValue","predicate set collaborator"
+"ExifSignedRational","empty","ExifSignedRational","constructor"
+"ExifSignedRational","empty","ExifSignedRational","constructor"
+"TheXcCoder","boundary degenerate","ShouldHandleSrgbaColor","wrapper stateless"
+"TheXcCoder","boundary degenerate","ShouldHandleRgbColor","wrapper stateless"
+"TheXcCoder","boundary degenerate","ShouldHandleHslaColor","wrapper stateless"
+"MagickResourceLimitErrorException","empty","MagickResourceLimitErrorException","constructor"
+"PathArc","empty","PathArc","constructor"
+"PathArc","empty","PathArc","constructor"
+"ConfigurationFiles","data-provider boundary data-class small-class","ConfigurationFiles","constructor"
+"ConfigurationFiles","data-provider boundary data-class small-class","get","get collaborator"
+"TheBmpCoder","boundary degenerate small-class","ShouldBeAbleToReadBmp3Format","wrapper stateless"
+"ExifString","boundary data-class small-class","ExifString","constructor"
+"ExifString","boundary data-class small-class","ExifString","constructor"
+"ExifString","boundary data-class small-class","SetValue","predicate set collaborator"
+"DrawableTranslation","empty","DrawableTranslation","constructor"
+"JpegOptimizer","boundary","Compress","predicate non-void-command"
+"JpegOptimizer","boundary","Compress","predicate non-void-command collaborator"
+"JpegOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator"
+"JpegOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator"
+"JpegOptimizer","boundary","DoCompress","predicate wrapper"
+"JpegOptimizer","boundary","DoCompress","predicate controller"
+"MagickErrorException","empty","MagickErrorException","constructor"
+"DrawableStrokeColor","empty","DrawableStrokeColor","constructor"
+"DrawableBorderColor","empty","DrawableBorderColor","constructor"
+"MagickMissingDelegateWarningException","empty","MagickMissingDelegateWarningException","constructor"
+"DrawableSkewY","empty","DrawableSkewY","constructor"
+"PathCurveToAbs","empty","PathCurveToAbs","constructor"
+"PathCurveToAbs","empty","PathCurveToAbs","constructor"
+"PsdReadDefines","entity factory controller small-class","get","property non-void-command factory collaborator"
+"SystemDrawingColor","empty","SystemDrawingColor","constructor"
+"SystemDrawingColor","empty","SystemDrawingColor","constructor"
+"TheJpegXlCoder","degenerate small-class","ShouldWriteCorrectOutputImage","wrapper stateless"
+"TheJpegXlCoder","degenerate small-class","ShouldSupportReadingAndWritingImageProfiles","controller stateless"
+"DrawablePopGraphicContext","empty","DrawablePopGraphicContext","constructor"
+"ExifProfile","boundary","ExifProfile","constructor"
+"ExifProfile","boundary","ExifProfile","constructor"
+"ExifProfile","boundary","ExifProfile","constructor"
+"ExifProfile","boundary","ExifProfile","constructor"
+"ExifProfile","boundary","GetValue<TValueType>","property collaborator"
+"ExifProfile","boundary","RemoveThumbnail","command"
+"ExifProfile","boundary","RemoveValue","predicate non-void-command collaborator"
+"ExifProfile","boundary","Rewrite","command"
+"ExifProfile","boundary","SetValue<TValueType>","command collaborator"
+"ExifProfile","boundary","UpdateData","wrapper"
+"ExifProfile","boundary","InitializeValues","set collaborator"
+"ExifProfile","boundary","get","get non-void-command collaborator"
+"ExifProfile","boundary","get","get non-void-command"
+"ExifProfile","boundary","get","get non-void-command"
+"ExifProfile","boundary","get","get non-void-command collaborator"
+"CleanupInfo","empty","CleanupInfo","constructor"
+"PngOptimizer","unclassified","Compress","predicate non-void-command collaborator"
+"PngOptimizer","unclassified","LosslessCompress","predicate non-void-command collaborator"
+"PngOptimizer","unclassified","LosslessCompress","predicate non-void-command collaborator"
+"PngOptimizer","unclassified","DoCompress","predicate controller"
+"PngOptimizer","unclassified","DoCompress","predicate controller"
+"OffsetInfo","factory pure-controller small-class","OffsetInfo","constructor"
+"OffsetInfo","factory pure-controller small-class","CreateNativeInstance","factory controller"
+"MagickColorsGenerator","pure-controller small-class","Initialize","controller"
+"MagickRegistryWarningException","empty","MagickRegistryWarningException","constructor"
+"PointInfoCollection","empty","PointInfoCollection","constructor"
+"PointInfoCollection","empty","PointInfoCollection","constructor"
+"PointInfoCollection","empty","PointInfoCollection","constructor"
+"MagickTypeErrorException","empty","MagickTypeErrorException","constructor"
+"DrawablePopClipPath","empty","DrawablePopClipPath","constructor"
+"PixelImportSettings","empty","PixelImportSettings","constructor"
+"PixelImportSettings","empty","PixelImportSettings","constructor"
+"PixelImportSettings","empty","PixelImportSettings","constructor"
+"PixelImportSettings","empty","PixelImportSettings","constructor"
+"PointInfo","empty","PointInfo","constructor"
+"DrawableColor","empty","DrawableColor","constructor"
+"ColorHSL","commander boundary small-class","ColorHSL","constructor"
+"ColorHSL","commander boundary small-class","ColorHSL","constructor"
+"ColorHSL","commander boundary small-class","UpdateColor","command collaborator"
+"ColorHSL","commander boundary small-class","Initialize","command collaborator"
+"ExifTagDescriptionGenerator","pure-controller small-class","Initialize","controller"
+"ExifTagDescriptionGenerator","pure-controller small-class","GenerateCode","controller stateless"
+"DrawableStrokeLineJoin","empty","DrawableStrokeLineJoin","constructor"
+"XmpProfile","entity boundary","XmpProfile","constructor"
+"XmpProfile","entity boundary","XmpProfile","constructor"
+"XmpProfile","entity boundary","XmpProfile","constructor"
+"XmpProfile","entity boundary","XmpProfile","constructor"
+"XmpProfile","entity boundary","XmpProfile","constructor"
+"XmpProfile","entity boundary","CreateReader","wrapper stateless"
+"XmpProfile","entity boundary","ToIXPathNavigable","property non-void-command collaborator"
+"XmpProfile","entity boundary","ToXDocument","property non-void-command collaborator"
+"PathLineToHorizontalAbs","empty","PathLineToHorizontalAbs","constructor"
+"ExifSignedRationalArray","empty","ExifSignedRationalArray","constructor"
+"ExifSignedRationalArray","empty","ExifSignedRationalArray","constructor"
+"PropertyInfo","empty","PropertyInfo","constructor"
+"DrawableEllipse","empty","DrawableEllipse","constructor"
+"DrawableTextAlignment","empty","DrawableTextAlignment","constructor"
+"PdfInfo","empty","PdfInfo","constructor"
+"MagickRegistryErrorException","empty","MagickRegistryErrorException","constructor"
+"TheCaptionCoder","boundary degenerate","ShouldNotReplaceNonBreakingSpaceWithNewline","wrapper stateless"
+"TheCaptionCoder","boundary degenerate","ShouldReplaceOghamSpaceMarkWithNewline","wrapper stateless"
+"TheCaptionCoder","boundary degenerate","ShouldAddNewlineWhenTextDoesNotContainNewline","wrapper stateless"
+"TheCaptionCoder","boundary degenerate","ShouldJoinFontLigatures","wrapper stateless"
+"DrawableGravity","empty","DrawableGravity","constructor"
+"MagickSearchResult","empty","MagickSearchResult","constructor"
+"ExifNumber","boundary small-class","ExifNumber","constructor"
+"ExifNumber","boundary small-class","SetValue","predicate set collaborator"
+"ExifNumber","boundary small-class","get","property collaborator"
+"MagickFileOpenErrorException","empty","MagickFileOpenErrorException","constructor"
+"MagickOptionWarningException","empty","MagickOptionWarningException","constructor"
+"ExifSignedByte","boundary data-class small-class","ExifSignedByte","constructor"
+"ExifSignedByte","boundary data-class small-class","SetValue","predicate set collaborator"
+"TemporaryMagickFormat","small-class","TemporaryMagickFormat","constructor"
+"TemporaryMagickFormat","small-class","Dispose","controller"
+"TemporaryMagickFormat","small-class","AddImage","void-accessor command collaborator"
+"TheJp2Coder","boundary degenerate small-class","ShouldReadTheImageWithCorrectDimensions","wrapper stateless"
+"TheJp2Coder","boundary degenerate small-class","ShouldCheckTheAlphaValue","wrapper stateless"
+"ColorMono","commander boundary small-class","ColorMono","constructor"
+"ColorMono","commander boundary small-class","ColorMono","constructor"
+"ColorMono","commander boundary small-class","UpdateColor","command collaborator"
+"MagickStreamWarningException","empty","MagickStreamWarningException","constructor"
+"MagickCacheWarningException","empty","MagickCacheWarningException","constructor"
+"DrawableScaling","empty","DrawableScaling","constructor"
+"TheLabelCoder","boundary degenerate small-class","ShouldUseTheCorrectFontSize","wrapper stateless"
+"TheLabelCoder","boundary degenerate small-class","ShouldUseTheCorrectOffset","wrapper stateless"
+"Pixel","minimal-entity boundary","Pixel","constructor"
+"Pixel","minimal-entity boundary","Pixel","constructor"
+"Pixel","minimal-entity boundary","Pixel","copy-constructor"
+"Pixel","minimal-entity boundary","Equals","predicate non-void-command collaborator"
+"Pixel","minimal-entity boundary","Equals","predicate non-void-command collaborator"
+"Pixel","minimal-entity boundary","Equals","predicate controller"
+"Pixel","minimal-entity boundary","GetChannel","get property collaborator"
+"Pixel","minimal-entity boundary","SetChannel","set collaborator"
+"Pixel","minimal-entity boundary","SetValues","command collaborator"
+"Pixel","minimal-entity boundary","ToColor","property non-void-command factory collaborator"
+"Pixel","minimal-entity boundary","GetValueWithoutIndexChannel","get property non-void-command factory collaborator"
+"Pixel","minimal-entity boundary","UpdateCollection","command"
+"DrawableAlpha","empty","DrawableAlpha","constructor"
+"MagickBlobErrorException","empty","MagickBlobErrorException","constructor"
+"MagickPolicyErrorException","empty","MagickPolicyErrorException","constructor"
+"MagickPolicyWarningException","empty","MagickPolicyWarningException","constructor"
+"DngReadDefines","factory controller small-class","get","property factory collaborator"
+"Bytes","empty","Bytes","constructor"
+"ExifTagDescriptionAttribute","empty","ExifTagDescriptionAttribute","constructor"
+"ThePnmCoder","boundary degenerate small-class","ShouldCreateWhiteImage","wrapper stateless"
+"ThePnmCoder","boundary degenerate small-class","ShouldCreateBlackImage","wrapper stateless"
+"MagickTypeWarningException","empty","MagickTypeWarningException","constructor"
+"ArtifactEventArgs","empty","ArtifactEventArgs","constructor"
+"Density","entity data-provider boundary","Density","constructor"
+"Density","entity data-provider boundary","Density","copy-constructor"
+"Density","entity data-provider boundary","Density","constructor"
+"Density","entity data-provider boundary","Density","copy-constructor"
+"Density","entity data-provider boundary","ChangeUnits","property factory collaborator"
+"Density","entity data-provider boundary","Equals","predicate wrapper"
+"Density","entity data-provider boundary","ToString","property wrapper"
+"Density","entity data-provider boundary","Initialize","command"
+"DrawableFillOpacity","empty","DrawableFillOpacity","constructor"
+"MagickCorruptImageErrorException","empty","MagickCorruptImageErrorException","constructor"
+"MagickImageErrorException","empty","MagickImageErrorException","constructor"
+"MagickMissingDelegateErrorException","empty","MagickMissingDelegateErrorException","constructor"
+"MagickModuleErrorException","empty","MagickModuleErrorException","constructor"
+"DrawableStrokeWidth","empty","DrawableStrokeWidth","constructor"
+"MagickException","factory controller data-class small-class","MagickException","constructor"
+"MagickException","factory controller data-class small-class","get","get property factory collaborator"
+"MagickBlobWarningException","empty","MagickBlobWarningException","constructor"
+"ThePngCoder","boundary degenerate","ShouldThrowExceptionAndNotChangeTheOriginalImageWhenTheImageIsCorrupt","wrapper stateless"
+"ThePngCoder","boundary degenerate","ShouldBeAbleToReadPngWithLargeIDAT","wrapper stateless"
+"ThePngCoder","boundary degenerate","ShouldNotRaiseWarningForValidModificationDateThatBecomes24Hours","wrapper"
+"ThePngCoder","boundary degenerate","ShouldNotRaiseWarningForValidModificationDateThatBecomes60Minutes","wrapper"
+"ThePngCoder","boundary degenerate","ShouldReadTheExifChunk","controller stateless"
+"ThePngCoder","boundary degenerate","ShouldSetTheAnimationProperties","wrapper stateless"
+"ThePngCoder","boundary degenerate","ShouldWritePng00Correctly","wrapper"
+"ThePngCoder","boundary degenerate","ShouldNotWriteJpegAndPngProperties","wrapper stateless"
+"ThePngCoder","boundary degenerate","ShouldWriteDateProperties","command collaborator"
+"ThePngCoder","boundary degenerate","ShouldNotWriteDatePropertiesWhenDateShouldBeExcluded","wrapper stateless"
+"ThePngCoder","boundary degenerate","ShouldIgnoreTiffAndExifPropertiesWhenWritingPHYsChunk","wrapper stateless"
+"ThePngCoder","boundary degenerate","ShouldUseExifPropertiesWhenIgnoringPHYsChunk","wrapper stateless"
+"ThePngCoder","boundary degenerate","ShouldUseTiffPropertiesWhenIgnoringPHYsChunk","wrapper stateless"
+"ThePngCoder","boundary degenerate","GetTimestamp","controller stateless"
+"MagickCoderWarningException","empty","MagickCoderWarningException","constructor"
+"MagickConfigureWarningException","empty","MagickConfigureWarningException","constructor"
+"ExifArrayValue<TValueType>","boundary data-class small-class","ExifArrayValue","constructor"
+"ExifArrayValue<TValueType>","boundary data-class small-class","ExifArrayValue","constructor"
+"ExifArrayValue<TValueType>","boundary data-class small-class","SetValue","predicate set collaborator"
+"HeicReadDefines","small-class","GetChromaUpsampling","property non-void-command"
+"HeicReadDefines","small-class","get","property non-void-command factory collaborator"
+"SparseColorArg","empty","SparseColorArg","constructor"
+"EndianReader","unclassified","EndianReader","constructor"
+"EndianReader","unclassified","CanRead","predicate"
+"EndianReader","unclassified","Seek","predicate set"
+"EndianReader","unclassified","Skip","predicate set"
+"EndianReader","unclassified","ReadByte","property set collaborator"
+"EndianReader","unclassified","ReadDouble","property non-void-command"
+"EndianReader","unclassified","ReadLong","property non-void-command"
+"EndianReader","unclassified","ReadShort","property non-void-command"
+"EndianReader","unclassified","ReadFloat","property non-void-command collaborator"
+"EndianReader","unclassified","ReadString","property set collaborator"
+"EndianReader","unclassified","ReadDoubleLSB","property set"
+"EndianReader","unclassified","ReadDoubleMSB","property set collaborator"
+"EndianReader","unclassified","ReadLongLSB","property set"
+"EndianReader","unclassified","ReadLongMSB","property set collaborator"
+"EndianReader","unclassified","ReadShortLSB","property set"
+"EndianReader","unclassified","ReadShortMSB","property set collaborator"
+"ClipPathReader","commander boundary","ClipPathReader","constructor"
+"ClipPathReader","commander boundary","Read","property non-void-command collaborator"
+"ClipPathReader","commander boundary","AddPath","command collaborator"
+"ClipPathReader","commander boundary","ClosePath","command"
+"ClipPathReader","commander boundary","CreatePoint","factory wrapper"
+"ClipPathReader","commander boundary","SetKnotCount","command"
+"DrawableStrokeMiterLimit","empty","DrawableStrokeMiterLimit","constructor"
+"NativeInstance","commander","Dispose","set"
+"NativeInstance","commander","CheckException","command collaborator"
+"NativeInstance","commander","get","get"
+"NativeInstance","commander","set","set"
+"DrawableTextDecoration","empty","DrawableTextDecoration","constructor"
+"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageFactory","factory pure-controller degenerate","CreateAsync","factory controller stateless"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","Add","command collaborator"
+"MagickImageCollection","commander boundary","AddRange","wrapper stateless"
+"MagickImageCollection","commander boundary","AddRange","command collaborator"
+"MagickImageCollection","commander boundary","AppendHorizontally","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","AppendVertically","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","Coalesce","command collaborator"
+"MagickImageCollection","commander boundary","Clear","command collaborator"
+"MagickImageCollection","commander boundary","Clone","factory controller"
+"MagickImageCollection","commander boundary","Combine","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","Complex","command collaborator"
+"MagickImageCollection","commander boundary","CopyTo","void-accessor command collaborator"
+"MagickImageCollection","commander boundary","Deconstruct","command collaborator"
+"MagickImageCollection","commander boundary","Dispose","command"
+"MagickImageCollection","commander boundary","Evaluate","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","Flatten","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","Insert","command collaborator"
+"MagickImageCollection","commander boundary","Map","command collaborator"
+"MagickImageCollection","commander boundary","Montage","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","Morph","command collaborator"
+"MagickImageCollection","commander boundary","Optimize","command collaborator"
+"MagickImageCollection","commander boundary","OptimizePlus","command collaborator"
+"MagickImageCollection","commander boundary","OptimizeTransparency","command"
+"MagickImageCollection","commander boundary","Ping","command collaborator"
+"MagickImageCollection","commander boundary","Ping","command collaborator"
+"MagickImageCollection","commander boundary","Ping","command collaborator"
+"MagickImageCollection","commander boundary","Ping","command collaborator"
+"MagickImageCollection","commander boundary","Ping","command collaborator"
+"MagickImageCollection","commander boundary","Polynomial","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","Quantize","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","Read","command collaborator"
+"MagickImageCollection","commander boundary","Read","command collaborator"
+"MagickImageCollection","commander boundary","Read","command collaborator"
+"MagickImageCollection","commander boundary","Read","command collaborator"
+"MagickImageCollection","commander boundary","Read","command collaborator"
+"MagickImageCollection","commander boundary","ReadAsync","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","ReadAsync","non-void-command collaborator"
+"MagickImageCollection","commander boundary","ReadAsync","non-void-command collaborator"
+"MagickImageCollection","commander boundary","RePage","controller"
+"MagickImageCollection","commander boundary","ToByteArray","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","ToByteArray","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","ToByteArray","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","ToBase64","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","ToBase64","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","ToBase64","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","TrimBounds","command"
+"MagickImageCollection","commander boundary","Write","controller stateless"
+"MagickImageCollection","commander boundary","Write","command collaborator"
+"MagickImageCollection","commander boundary","Write","collaborator"
+"MagickImageCollection","commander boundary","Write","command collaborator"
+"MagickImageCollection","commander boundary","Write","command collaborator"
+"MagickImageCollection","commander boundary","Write","collaborator"
+"MagickImageCollection","commander boundary","Write","command collaborator"
+"MagickImageCollection","commander boundary","Write","command collaborator"
+"MagickImageCollection","commander boundary","Write","collaborator"
+"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","WriteAsync","non-void-command collaborator"
+"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","WriteAsync","non-void-command collaborator"
+"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","WriteAsync","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","AddImages","command collaborator"
+"MagickImageCollection","commander boundary","AddImages","command collaborator"
+"MagickImageCollection","commander boundary","AddImages","command collaborator"
+"MagickImageCollection","commander boundary","AddImages","void-accessor command collaborator"
+"MagickImageCollection","commander boundary","CheckDuplicate","wrapper"
+"MagickImageCollection","commander boundary","Dispose","set"
+"MagickImageCollection","commander boundary","Merge","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","ReplaceImages","command collaborator"
+"MagickImageCollection","commander boundary","SetDefines","controller"
+"MagickImageCollection","commander boundary","Smush","property non-void-command collaborator"
+"MagickImageCollection","commander boundary","ThrowIfCountLowerThan","unclassified"
+"MagickImageCollection","commander boundary","WriteAsyncInternal","non-void-command collaborator"
+"MagickImageCollection","commander boundary","set","set collaborator"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","MagickImageCollection","constructor"
+"MagickImageCollection","commander boundary","Ping","command collaborator"
+"MagickImageCollection","commander boundary","Ping","command collaborator"
+"MagickImageCollection","commander boundary","Read","command collaborator"
+"MagickImageCollection","commander boundary","Read","command collaborator"
+"MagickImageCollection","commander boundary","Write","command collaborator"
+"MagickImageCollection","commander boundary","Write","command collaborator"
+"MagickImageCollection","commander boundary","Write","collaborator"
+"MagickImageCollection","commander boundary","AddImages","command collaborator"
+"MagickImageCollection","commander boundary","AddImages","command collaborator"
+"NativeInteropGenerator","pure-controller small-class","Initialize","controller"
+"PathsGenerator","pure-controller small-class","Initialize","controller"
+"ThePangoCoder","boundary degenerate","ShouldUseInterlineSpacingSetting","wrapper stateless"
+"ThePangoCoder","boundary degenerate","ShouldUseTextAntiAliasSetting","wrapper stateless"
+"ThePangoCoder","boundary degenerate","IsThreadSafe","wrapper stateless"
+"ThePangoCoder","boundary degenerate","CanReadFromLargePangoFile","collaborator stateless"
+"ColorCMYK","boundary","ColorCMYK","constructor"
+"ColorCMYK","boundary","ColorCMYK","constructor"
+"ColorCMYK","boundary","ColorCMYK","constructor"
+"ColorCMYK","boundary","ColorCMYK","constructor"
+"ColorCMYK","boundary","ColorCMYK","constructor"
+"ColorCMYK","boundary","ColorCMYK","constructor"
+"ColorCMYK","boundary","get","property collaborator"
+"ColorCMYK","boundary","set","set collaborator"
+"ColorCMYK","boundary","get","property collaborator"
+"ColorCMYK","boundary","set","set collaborator"
+"ColorCMYK","boundary","get","property collaborator"
+"ColorCMYK","boundary","set","set collaborator"
+"ColorCMYK","boundary","get","property collaborator"
+"ColorCMYK","boundary","set","set collaborator"
+"ColorCMYK","boundary","get","property collaborator"
+"ColorCMYK","boundary","set","set collaborator"
+"DrawableCircle","empty","DrawableCircle","constructor"
+"PathLineToVerticalAbs","empty","PathLineToVerticalAbs","constructor"
+"ColorHSV","commander boundary","ColorHSV","constructor"
+"ColorHSV","commander boundary","ColorHSV","constructor"
+"ColorHSV","commander boundary","HueShift","set"
+"ColorHSV","commander boundary","UpdateColor","command collaborator"
+"ColorHSV","commander boundary","Initialize","command collaborator"
+"ColorRGB","entity factory controller small-class","ColorRGB","constructor"
+"ColorRGB","entity factory controller small-class","ColorRGB","constructor"
+"ColorRGB","entity factory controller small-class","ComplementaryColor","property non-void-command factory collaborator"
+"ColorYUV","commander small-class","ColorYUV","constructor"
+"ColorYUV","commander small-class","ColorYUV","constructor"
+"ColorYUV","commander small-class","UpdateColor","command"
+"NotNullAttribute","empty","NotNullAttribute","constructor"
+"MagickColor","entity boundary","MagickColor","constructor"
+"MagickColor","entity boundary","MagickColor","copy-constructor"
+"MagickColor","entity boundary","MagickColor","constructor"
+"MagickColor","entity boundary","MagickColor","constructor"
+"MagickColor","entity boundary","MagickColor","constructor"
+"MagickColor","entity boundary","MagickColor","constructor"
+"MagickColor","entity boundary","CompareTo","property collaborator"
+"MagickColor","entity boundary","Equals","predicate wrapper"
+"MagickColor","entity boundary","FuzzyEquals","predicate wrapper"
+"MagickColor","entity boundary","GetHashCode","property non-void-command"
+"MagickColor","entity boundary","SetFromBytes","command"
+"MagickColor","entity boundary","ToByteArray","property wrapper"
+"MagickColor","entity boundary","ToHexString","property wrapper"
+"MagickColor","entity boundary","ToShortString","property non-void-command collaborator"
+"MagickColor","entity boundary","ToString","property wrapper"
+"MagickColor","entity boundary","Initialize","command collaborator"
+"MagickColor","entity boundary","Initialize","command collaborator"
+"MagickColor","entity boundary","ParseHexColor","command"
+"ConfigurationFile","small-class","ConfigurationFile","constructor"
+"ConfigurationFile","small-class","LoadData","property non-void-command collaborator"
+"ConfigurationFile","small-class","UpdateDelegatesXml","property controller"
+"MagickDrawErrorException","empty","MagickDrawErrorException","constructor"
+"PathCurveToRel","empty","PathCurveToRel","constructor"
+"PathCurveToRel","empty","PathCurveToRel","constructor"
+"DrawableCoordinates<TCoordinateType>","empty","DrawableCoordinates","constructor"
+"DrawableTextAntialias","empty","DrawableTextAntialias","constructor"
+"PathArcCoordinates","empty","PathArcCoordinates","constructor"
+"DrawableArc","empty","DrawableArc","constructor"
+"DrawableClipPath","empty","DrawableClipPath","constructor"
+"DrawableClipUnits","empty","DrawableClipUnits","constructor"
+"Jp2WriteDefines","factory controller small-class","get","property factory wrapper"
+"DrawableComposite","empty","DrawableComposite","constructor"
+"DrawableComposite","empty","DrawableComposite","constructor"
+"DrawableComposite","empty","DrawableComposite","constructor"
+"DrawableComposite","empty","DrawableComposite","constructor"
+"DrawableComposite","empty","DrawableComposite","constructor"
+"DrawableComposite","empty","DrawableComposite","constructor"
+"DrawableFillColor","empty","DrawableFillColor","constructor"
+"TheMslCoder","boundary degenerate small-class","ShouldBeDisabled","wrapper stateless"
+"DrawableFillRule","empty","DrawableFillRule","constructor"
+"MagickDrawWarningException","empty","MagickDrawWarningException","constructor"
+"DrawableStrokeDashOffset","empty","DrawableStrokeDashOffset","constructor"
+"VideoWriteDefines","factory controller small-class","VideoWriteDefines","constructor"
+"VideoWriteDefines","factory controller small-class","get","property factory collaborator"
+"DrawableFont","commander boundary small-class","DrawableFont","constructor"
+"DrawableFont","commander boundary small-class","DrawableFont","constructor"
+"DrawableFont","commander boundary small-class","IDrawingWand.Draw","command collaborator"
+"DrawableFontPointSize","empty","DrawableFontPointSize","constructor"
+"ExifShort","boundary data-class small-class","ExifShort","constructor"
+"ExifShort","boundary data-class small-class","ExifShort","constructor"
+"ExifShort","boundary data-class small-class","SetValue","predicate set collaborator"
+"DrawableLine","empty","DrawableLine","constructor"
+"DrawablePath","commander boundary small-class","IDrawingWand.Draw","command collaborator"
+"DrawablePoint","empty","DrawablePoint","constructor"
+"DrawablePopPattern","empty","DrawablePopPattern","constructor"
+"DrawablePushClipPath","empty","DrawablePushClipPath","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","copy-constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","copy-constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","MagickImage","constructor"
+"MagickImage","commander boundary","ImportPixels","command collaborator"
+"MagickImage","commander boundary","ImportPixels","command collaborator"
+"MagickImage","commander boundary","Ping","command collaborator"
+"MagickImage","commander boundary","Ping","command collaborator"
+"MagickImage","commander boundary","Read","command collaborator"
+"MagickImage","commander boundary","Read","command collaborator"
+"MagickImage","commander boundary","ReadPixels","command collaborator"
+"MagickImage","commander boundary","ReadPixels","command collaborator"
+"MagickImage","commander boundary","Write","set collaborator"
+"MagickImage","commander boundary","Write","command collaborator"
+"MagickImage","commander boundary","Write","collaborator"
+"MagickImage","commander boundary","Read","command collaborator"
+"MagickImage","commander boundary","Read","command collaborator"
+"DrawablePushGraphicContext","empty","DrawablePushGraphicContext","constructor"
+"DrawablePushPattern","empty","DrawablePushPattern","constructor"
+"DrawableRotation","empty","DrawableRotation","constructor"
+"DrawableRoundRectangle","empty","DrawableRoundRectangle","constructor"
+"DrawableSkewX","empty","DrawableSkewX","constructor"
+"OpenCLKernelProfileRecord","data-provider small-class","OpenCLKernelProfileRecord","copy-constructor"
+"OpenCLKernelProfileRecord","data-provider small-class","get","property"
+"DrawableStrokeDashArray","empty","DrawableStrokeDashArray","constructor"
+"DrawableStrokeDashArray","empty","DrawableStrokeDashArray","constructor"
+"DrawableStrokeLineCap","empty","DrawableStrokeLineCap","constructor"
+"DrawableStrokeOpacity","empty","DrawableStrokeOpacity","constructor"
+"DrawableClipRule","empty","DrawableClipRule","constructor"
+"DrawableTextDirection","empty","DrawableTextDirection","constructor"
+"DrawableTextEncoding","empty","DrawableTextEncoding","constructor"
+"PixelCollectionEnumerator","unclassified","PixelCollectionEnumerator","constructor"
+"PixelCollectionEnumerator","unclassified","Dispose","empty"
+"PixelCollectionEnumerator","unclassified","MoveNext","predicate non-void-command"
+"PixelCollectionEnumerator","unclassified","Reset","command"
+"PixelCollectionEnumerator","unclassified","SetRow","set"
+"PixelCollectionEnumerator","unclassified","get","property wrapper"
+"DrawableTextInterlineSpacing","empty","DrawableTextInterlineSpacing","constructor"
+"Quantum","empty","Quantum","constructor"
+"TemporaryFile","commander","CopyTo","command collaborator"
+"TemporaryFile","commander","Dispose","command"
+"TemporaryFile","commander","get","property non-void-command"
+"MagickDelegateErrorException","empty","MagickDelegateErrorException","constructor"
+"DrawableTextUnderColor","empty","DrawableTextUnderColor","constructor"
+"PixelCollection","boundary","GetReadOnlyArea","property factory wrapper"
+"PixelCollection","boundary","Dispose","command"
+"PixelCollection","boundary","SetByteArea","wrapper stateless"
+"PixelCollection","boundary","SetBytePixels","wrapper"
+"PixelCollection","boundary","SetDoubleArea","wrapper stateless"
+"PixelCollection","boundary","SetDoublePixels","wrapper"
+"PixelCollection","boundary","SetIntArea","wrapper stateless"
+"PixelCollection","boundary","SetIntPixels","wrapper"
+"PixelCollection","boundary","SetPixel","controller stateless"
+"PixelCollection","boundary","SetPixel","command collaborator"
+"PixelCollection","boundary","ToByteArray","property non-void-command"
+"PixelCollection","boundary","ToShortArray","property non-void-command collaborator"
+"PixelCollection","boundary","GetAreaUnchecked","property non-void-command collaborator"
+"PixelCollection","boundary","get","get factory collaborator"
+"ExifRational","empty","ExifRational","constructor"
+"ExifRational","empty","ExifRational","constructor"
+"Drawables","boundary","Drawables","constructor"
+"Drawables","boundary","Composite","get non-void-command collaborator"
+"Drawables","boundary","Composite","get non-void-command collaborator"
+"Drawables","boundary","Composite","get non-void-command collaborator"
+"Drawables","boundary","Composite","get non-void-command collaborator"
+"Drawables","boundary","Density","get non-void-command collaborator"
+"Drawables","boundary","Draw","get controller"
+"Drawables","boundary","Font","get non-void-command collaborator"
+"Drawables","boundary","FontTypeMetrics","property non-void-command collaborator"
+"DrawingWand","commander boundary degenerate","Draw","command collaborator"
+"DrawingWand","commander boundary degenerate","Bezier","wrapper stateless"
+"DrawingWand","commander boundary degenerate","FontTypeMetrics","wrapper stateless"
+"DrawingWand","commander boundary degenerate","PathArcAbs","wrapper stateless"
+"DrawingWand","commander boundary degenerate","PathArcRel","wrapper stateless"
+"DrawingWand","commander boundary degenerate","PathLineToAbs","wrapper stateless"
+"DrawingWand","commander boundary degenerate","PathLineToRel","wrapper stateless"
+"DrawingWand","commander boundary degenerate","Polygon","wrapper stateless"
+"DrawingWand","commander boundary degenerate","Polyline","wrapper stateless"
+"DrawingWand","commander boundary degenerate","TextEncoding","wrapper stateless"
+"MagickGeometry","entity boundary","MagickGeometry","constructor"
+"MagickGeometry","entity boundary","CompareTo","property collaborator"
+"MagickGeometry","entity boundary","Equals","predicate wrapper"
+"MagickGeometry","entity boundary","GetHashCode","property non-void-command"
+"MagickGeometry","entity boundary","Initialize","command"
+"MagickGeometry","entity boundary","ToString","property collaborator"
+"MagickGeometry","entity boundary","InitializeFromPercentage","set collaborator"
+"MagickGeometry","entity boundary","Initialize","command collaborator"
+"MagickGeometry","entity boundary","Initialize","command collaborator"
+"MagickGeometry","entity boundary","InitializeFromAspectRation","command collaborator"
+"ThePdfCoder","boundary degenerate","ShouldReadFileMultithreadedCorrectly","wrapper stateless"
+"ThePdfCoder","boundary degenerate","ShouldWriteTiffImageInCorrectColor","wrapper stateless"
+"ThePdfCoder","boundary degenerate","ShouldReturnTheCorrectFormatForAiFile","wrapper stateless"
+"ColorGray","commander small-class","ColorGray","constructor"
+"ColorGray","commander small-class","ColorGray","constructor"
+"ColorGray","commander small-class","UpdateColor","command collaborator"
+"ColorGray","commander small-class","set","set"
+"NativeMagickImage","commander","ImportPixels","command"
+"NativeMagickImage","commander","ImportPixels","command"
+"NativeMagickImage","commander","ReadPixels","command"
+"NativeMagickImage","commander","ReadPixels","command"
+"PathClose","empty","PathClose","constructor"
+"PsdWriteDefines","factory controller small-class","get","property factory collaborator"
+"MagickDefine","empty","MagickDefine","constructor"
+"MagickDefine","empty","MagickDefine","constructor"
+"MagickDefine","empty","MagickDefine","constructor"
+"MagickDefine","empty","MagickDefine","constructor"
+"MagickDefine","empty","MagickDefine","constructor"
+"MagickDefine","empty","MagickDefine","constructor"
+"MagickDefine","empty","MagickDefine","constructor"
+"MagickDefine","empty","MagickDefine","constructor"
+"MagickDefine","empty","MagickDefine","constructor"
+"PathLineToAbs","empty","PathLineToAbs","constructor"
+"PathLineToHorizontalRel","empty","PathLineToHorizontalRel","constructor"
+"PathLineToRel","empty","PathLineToRel","constructor"
+"PathLineToVerticalRel","empty","PathLineToVerticalRel","constructor"
+"PathMoveToAbs","empty","PathMoveToAbs","constructor"
+"PathMoveToRel","empty","PathMoveToRel","constructor"
+"PathQuadraticCurveToAbs","empty","PathQuadraticCurveToAbs","constructor"
+"PathQuadraticCurveToAbs","empty","PathQuadraticCurveToAbs","constructor"
+"PathQuadraticCurveToRel","empty","PathQuadraticCurveToRel","constructor"
+"PathQuadraticCurveToRel","empty","PathQuadraticCurveToRel","constructor"
+"PathSmoothCurveToAbs","empty","PathSmoothCurveToAbs","constructor"
+"PathSmoothCurveToAbs","empty","PathSmoothCurveToAbs","constructor"
+"PathSmoothQuadraticCurveToAbs","empty","PathSmoothQuadraticCurveToAbs","constructor"
+"PathSmoothQuadraticCurveToRel","empty","PathSmoothQuadraticCurveToRel","constructor"
+"Paths","empty","Paths","constructor"
+"ChannelPerceptualHash","boundary","ChannelPerceptualHash","constructor"
+"ChannelPerceptualHash","boundary","ChannelPerceptualHash","constructor"
+"ChannelPerceptualHash","boundary","ChannelPerceptualHash","constructor"
+"ChannelPerceptualHash","boundary","HuPhash","property non-void-command collaborator"
+"ChannelPerceptualHash","boundary","SumSquaredDistance","property controller"
+"ChannelPerceptualHash","boundary","ToString","get non-void-command"
+"ChannelPerceptualHash","boundary","GetHuPhashListByColorSpace","collaborator incidental"
+"ChannelPerceptualHash","boundary","ParseHash","command collaborator"
+"ChannelPerceptualHash","boundary","SetHash","set collaborator"
+"ChannelPerceptualHash","boundary","AddHuPhash","set collaborator"
+"DrawableFillPatternUrl","empty","DrawableFillPatternUrl","constructor"
+"BmpReadDefines","factory controller small-class","get","property factory collaborator"
+"BmpWriteDefines","factory controller small-class","get","property factory collaborator"
+"CaptionReadDefines","factory controller small-class","get","property factory collaborator"
+"DdsWriteDefines","factory controller small-class","get","property factory collaborator"
+"MagickImageWarningException","empty","MagickImageWarningException","constructor"
+"Jp2ReadDefines","factory controller small-class","get","property factory collaborator"
+"JpegReadDefines","factory controller small-class","get","property factory wrapper"
+"JxlWriteDefines","factory controller small-class","get","property factory collaborator"
+"PdfReadDefines","factory controller small-class","get","property factory collaborator"
+"PngReadDefines","factory controller small-class","get","property factory wrapper"
+"ExifReader","entity boundary","ExifReader","constructor"
+"ExifReader","entity boundary","Read","command collaborator"
+"ExifReader","entity boundary","AddValues","command collaborator"
+"ExifReader","entity boundary","CreateValue","property non-void-command collaborator"
+"ExifReader","entity boundary","CreateValue","property non-void-command collaborator"
+"ExifReader","entity boundary","ReadValue","property non-void-command collaborator"
+"ExifReader","entity boundary","ReadRational","property non-void-command factory collaborator"
+"ExifReader","entity boundary","ReadSignedRational","property non-void-command factory collaborator"
+"ExifReader","entity boundary","ReadSignedByte","wrapper stateless"
+"ExifReader","entity boundary","ReadSignedLong","wrapper stateless"
+"ExifReader","entity boundary","ReadSignedShort","wrapper stateless"
+"ExifReader","entity boundary","ReadThumbnail","command collaborator"
+"PsdAdditionalInfo","empty","PsdAdditionalInfo","constructor"
+"TiffReadDefines","entity factory controller small-class","get","property non-void-command factory collaborator"
+"WebPWriteDefines","factory controller small-class","get","property factory collaborator"
+"ExifNumberArray","data-provider boundary small-class","ExifNumberArray","constructor"
+"ExifNumberArray","data-provider boundary small-class","get","property collaborator"
+"StreamWrapper","entity boundary","StreamWrapper","constructor"
+"StreamWrapper","entity boundary","Read","property non-void-command collaborator"
+"StreamWrapper","entity boundary","Seek","property non-void-command"
+"StreamWrapper","entity boundary","Tell","property"
+"StreamWrapper","entity boundary","Write","property non-void-command collaborator"
+"StreamWrapper","entity boundary","FillBuffer","property wrapper"
+"StreamWrapper","entity boundary","ReadBuffer","property wrapper"
+"TemporaryDefines","commander","TemporaryDefines","constructor"
+"TemporaryDefines","commander","Dispose","command collaborator"
+"TemporaryDefines","commander","SetArtifact","command"
+"TemporaryDefines","commander","SetArtifact","command"
+"TemporaryDefines","commander","SetArtifact<TValue>","command collaborator"
+"TemporaryImageAttacher","boundary small-class","TemporaryImageAttacher","constructor"
+"TemporaryImageAttacher","boundary small-class","AttachImages","wrapper"
+"TemporaryImageAttacher","boundary small-class","DetachImages","wrapper"
+"UTF8Marshaler","commander data-class small-class","UTF8Marshaler","constructor"
+"UTF8Marshaler","commander data-class small-class","Dispose","set"
+"ColorProfileReader","entity boundary","ColorProfileReader","constructor"
+"ColorProfileReader","entity boundary","ReadColorSpace","command collaborator"
+"ColorProfileReader","entity boundary","ReadTagTable","command collaborator"
+"ColorProfileReader","entity boundary","ReadTag","property non-void-command collaborator"
+"ColorProfileReader","entity boundary","ReadTextDescriptionTypeValue","property non-void-command collaborator"
+"ColorProfileReader","entity boundary","ReadTextTypeValue","property non-void-command"
+"IcoOptimizer","boundary","Compress","predicate non-void-command collaborator"
+"IcoOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator"
+"IcoOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator"
+"IcoOptimizer","boundary","DoCompress","predicate set collaborator"
+"IcoOptimizer","boundary","DoCompress","predicate controller"
+"PngHelper","entity boundary","PngHelper","constructor"
+"PngHelper","entity boundary","FindBestFileQuality","property non-void-command collaborator"
+"PngHelper","entity boundary","FindBestStreamQuality","property non-void-command collaborator"
+"PngHelper","entity boundary","GetQualityList","property"
+"MagickFormatInfo","data-provider boundary small-class","MagickFormatInfo","copy-constructor"
+"MagickFormatInfo","data-provider boundary small-class","Equals","predicate wrapper"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","MagickImageInfo","constructor"
+"MagickImageInfo","commander boundary","Read","command collaborator"
+"MagickImageInfo","commander boundary","Read","command collaborator"
+"MagickImageInfo","commander boundary","Read","command collaborator"
+"MagickImageInfo","commander boundary","Read","command collaborator"
+"MagickImageInfo","commander boundary","Read","command collaborator"
+"MagickImageInfo","commander boundary","Initialize","command collaborator"
+"MagickImageInfo","commander boundary","Read","command collaborator"
+"MagickImageInfo","commander boundary","Read","command collaborator"
+"DoubleMatrix","data-provider boundary","DoubleMatrix","constructor"
+"DoubleMatrix","data-provider boundary","SetColumn","wrapper"
+"DoubleMatrix","data-provider boundary","SetRow","wrapper"
+"DoubleMatrix","data-provider boundary","GetIndex","property wrapper"
+"DrawableViewbox","empty","DrawableViewbox","constructor"
+"OpenCLDevice","controller lazy-class small-class","OpenCLDevice","constructor"
+"OpenCLDevice","controller lazy-class small-class","get","factory controller stateless"
+"OpenCLDevice","controller lazy-class small-class","set","set"
+"MagickModuleWarningException","empty","MagickModuleWarningException","constructor"
+"ReadOnlySequenceWrapper","entity boundary small-class","ReadOnlySequenceWrapper","constructor"
+"ReadOnlySequenceWrapper","entity boundary small-class","Read","property non-void-command collaborator"
+"ReadOnlySequenceWrapper","entity boundary small-class","Seek","get property non-void-command collaborator"
+"MagickStreamErrorException","empty","MagickStreamErrorException","constructor"
+"MagickSettings","commander boundary","MagickSettings","constructor"
+"MagickSettings","commander boundary","GetDefine","wrapper stateless"
+"MagickSettings","commander boundary","GetDefine","property non-void-command"
+"MagickSettings","commander boundary","RemoveDefine","command collaborator"
+"MagickSettings","commander boundary","RemoveDefine","command"
+"MagickSettings","commander boundary","SetDefine","wrapper stateless"
+"MagickSettings","commander boundary","SetDefine","wrapper stateless"
+"MagickSettings","commander boundary","SetDefines","command collaborator"
+"MagickSettings","commander boundary","Clone","factory controller"
+"MagickSettings","commander boundary","CopyFrom","command collaborator"
+"MagickSettings","commander boundary","GetOption","wrapper stateless"
+"MagickSettings","commander boundary","SetOptionAndArtifact","wrapper"
+"MagickSettings","commander boundary","set","set collaborator"
+"MagickSettings","commander boundary","set","set"
+"MagickSettings","commander boundary","set","set"
+"MagickSettings","commander boundary","set","non-void-command"
+"MagickSettings","commander boundary","set","set collaborator"
+"MagickSettings","commander boundary","set","set collaborator"
+"MagickSettings","commander boundary","set","set collaborator"
+"MagickSettings","commander boundary","set","set"
+"MagickSettings","commander boundary","set","set collaborator"
+"MagickSettings","commander boundary","set","set"
+"MagickSettings","commander boundary","set","set"
+"MagickSettings","commander boundary","set","set"
+"MagickSettings","commander boundary","set","set collaborator"
+"ColorBase","unclassified","ColorBase","constructor"
+"ColorBase","unclassified","CompareTo","property non-void-command"
+"ColorBase","unclassified","Equals","predicate non-void-command"
+"ColorBase","unclassified","FuzzyEquals","predicate non-void-command collaborator"
+"ColorBase","unclassified","GetHashCode","property non-void-command"
+"ColorBase","unclassified","ToMagickColor","property non-void-command factory collaborator"
+"ColorBase","unclassified","UpdateColor","empty"
+"QuantizeSettings","empty","QuantizeSettings","constructor"
+"ChannelMoments","data-provider boundary data-class small-class","ChannelMoments","constructor"
+"ChannelMoments","data-provider boundary data-class small-class","HuInvariants","get wrapper"
+"ChannelStatistics","empty","ChannelStatistics","constructor"
+"Moments","commander boundary small-class","Moments","constructor"
+"Moments","commander boundary small-class","GetChannel","collaborator incidental"
+"Moments","commander boundary small-class","AddChannel","command collaborator"
+"PerceptualHash","boundary","PerceptualHash","constructor"
+"PerceptualHash","boundary","PerceptualHash","constructor"
+"PerceptualHash","boundary","PerceptualHash","constructor"
+"PerceptualHash","boundary","GetChannel","collaborator incidental"
+"PerceptualHash","boundary","SumSquaredDistance","get non-void-command collaborator"
+"PerceptualHash","boundary","AddChannel","command collaborator"
+"Statistics","commander boundary small-class","Statistics","constructor"
+"Statistics","commander boundary small-class","GetChannel","collaborator incidental"
+"Statistics","commander boundary small-class","AddChannel","command collaborator"
+"ConnectedComponent","factory controller small-class","ConnectedComponent","constructor"
+"ConnectedComponent","factory controller small-class","ToGeometry","property factory collaborator"
+"MagickRectangle","empty","MagickRectangle","constructor"
+"MagickRectangle","empty","MagickRectangle","copy-constructor"
+"PrimaryInfo","small-class","PrimaryInfo","constructor"
+"PrimaryInfo","small-class","PrimaryInfo","copy-constructor"
+"PrimaryInfo","small-class","Equals","predicate wrapper"
+"PrimaryInfo","small-class","GetHashCode","property non-void-command"
+"StringInfo","empty","StringInfo","constructor"
+"TypeMetric","empty","TypeMetric","copy-constructor"
+"BufferWriterWrapper","entity boundary small-class","BufferWriterWrapper","constructor"
+"BufferWriterWrapper","entity boundary small-class","Write","property non-void-command collaborator"
+"DrawableTextInterwordSpacing","empty","DrawableTextInterwordSpacing","constructor"
+"SafePixelCollection","commander boundary","GetReadOnlyArea","property non-void-command collaborator"
+"SafePixelCollection","commander boundary","GetReadOnlyArea","property non-void-command collaborator"
+"SafePixelCollection","commander boundary","SetArea","command collaborator"
+"SafePixelCollection","commander boundary","SetArea","command collaborator"
+"SafePixelCollection","commander boundary","SetPixels","command collaborator"
+"SafePixelCollection","commander boundary","CheckValues<T>","command collaborator"
+"SafePixelCollection","commander boundary","SafePixelCollection","constructor"
+"SafePixelCollection","commander boundary","GetArea","property non-void-command collaborator"
+"SafePixelCollection","commander boundary","GetArea","property non-void-command collaborator"
+"SafePixelCollection","commander boundary","GetPixel","property non-void-command collaborator"
+"SafePixelCollection","commander boundary","GetValue","property non-void-command collaborator"
+"SafePixelCollection","commander boundary","SetArea","command collaborator"
+"SafePixelCollection","commander boundary","SetArea","command collaborator"
+"SafePixelCollection","commander boundary","SetByteArea","command"
+"SafePixelCollection","commander boundary","SetByteArea","command"
+"SafePixelCollection","commander boundary","SetBytePixels","command"
+"SafePixelCollection","commander boundary","SetDoubleArea","command"
+"SafePixelCollection","commander boundary","SetDoubleArea","command"
+"SafePixelCollection","commander boundary","SetDoublePixels","command"
+"SafePixelCollection","commander boundary","SetIntArea","command"
+"SafePixelCollection","commander boundary","SetIntArea","command"
+"SafePixelCollection","commander boundary","SetIntPixels","command"
+"SafePixelCollection","commander boundary","SetPixel","command collaborator"
+"SafePixelCollection","commander boundary","SetPixel","command collaborator"
+"SafePixelCollection","commander boundary","SetPixel","command collaborator"
+"SafePixelCollection","commander boundary","SetPixels","command collaborator"
+"SafePixelCollection","commander boundary","ToByteArray","property non-void-command"
+"SafePixelCollection","commander boundary","ToByteArray","property non-void-command collaborator"
+"SafePixelCollection","commander boundary","ToByteArray","property non-void-command"
+"SafePixelCollection","commander boundary","ToShortArray","property non-void-command"
+"SafePixelCollection","commander boundary","ToShortArray","property non-void-command"
+"SafePixelCollection","commander boundary","CheckArea","command"
+"SafePixelCollection","commander boundary","CheckIndex","wrapper"
+"SafePixelCollection","commander boundary","CheckValues<T>","command collaborator"
+"SafePixelCollection","commander boundary","SetPixelPrivate","command collaborator"
+"PathTests","boundary degenerate","Test_Paths","wrapper stateless"
+"PathTests","boundary degenerate","Test_Paths_Draw","wrapper stateless"
+"PathTests","boundary degenerate","Test_Path_Exceptions","wrapper stateless"
+"ImageOptimizer","boundary","Compress","predicate non-void-command collaborator"
+"ImageOptimizer","boundary","Compress","predicate non-void-command collaborator"
+"ImageOptimizer","boundary","Compress","predicate non-void-command collaborator"
+"ImageOptimizer","boundary","IsSupported","predicate collaborator"
+"ImageOptimizer","boundary","IsSupported","predicate non-void-command collaborator"
+"ImageOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator"
+"ImageOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator"
+"ImageOptimizer","boundary","LosslessCompress","predicate non-void-command collaborator"
+"ImageOptimizer","boundary","DoLosslessCompress","predicate non-void-command collaborator"
+"ImageOptimizer","boundary","DoCompress","predicate non-void-command collaborator"
+"ImageOptimizer","boundary","GetOptimizer","property non-void-command collaborator"
+"ImageOptimizer","boundary","GetOptimizer","property non-void-command collaborator"
+"ImageOptimizer","boundary","GetOptimizer","property collaborator"
+"ImageOptimizer","boundary","get","property controller"
+"PathSmoothCurveToRel","empty","PathSmoothCurveToRel","constructor"
+"PathSmoothCurveToRel","empty","PathSmoothCurveToRel","constructor"
+"NativeInteropInfo","empty","NativeInteropInfo","constructor"
+"MagickReadSettings","commander boundary","MagickReadSettings","constructor"
+"MagickReadSettings","commander boundary","MagickReadSettings","copy-constructor"
+"MagickReadSettings","commander boundary","ForceSingleFrame","set"
+"MagickReadSettings","commander boundary","GetScenes","property non-void-command collaborator"
+"MagickReadSettings","commander boundary","ApplyDefines","wrapper"
+"MagickReadSettings","commander boundary","ApplyDimensions","set"
+"MagickReadSettings","commander boundary","ApplyFrame","command"
+"MagickReadSettings","commander boundary","Copy","command collaborator"
+"MagickReadSettings","commander boundary","get","predicate non-void-command collaborator"
+"MagickReadSettings","commander boundary","get","predicate non-void-command collaborator"
+"MorphologySettings","empty","MorphologySettings","constructor"
+"ChromaticityInfo","empty","ChromaticityInfo","constructor"
+"DrawableRectangle","empty","DrawableRectangle","constructor"
+"MagickErrorInfo","empty","MagickErrorInfo","constructor"
+"MagickErrorInfo","empty","MagickErrorInfo","constructor"
+"MagickWarningException","empty","MagickWarningException","constructor"
+"TheDdsCoder","boundary degenerate small-class","ShouldUseDxt1AsTheDefaultCompression","wrapper stateless"
+"TheDdsCoder","boundary degenerate small-class","ShouldUseDxt5AsTheDefaultCompressionForImagesWithAnAlphaChannel","wrapper stateless"
+"TheBgrCoder","commander boundary data-class small-class","ShouldSetTheCorrectValueForTheAlphaChannel","set collaborator"
+"TheBgrCoder","commander boundary data-class small-class","ShouldSetTheCorrectValueForTheOpacityChannel","set collaborator"
+"ConfigurationFilesTests","boundary degenerate small-class","ShouldBeInitialized","wrapper stateless"
+"MagickDelegateWarningException","empty","MagickDelegateWarningException","constructor"
+"GifOptimizer","boundary degenerate","LosslessCompress","wrapper stateless"
+"GifOptimizer","boundary degenerate","LosslessCompress","wrapper stateless"
+"GifOptimizer","boundary degenerate","LosslessCompress","wrapper stateless"
+"EightBimReader","commander boundary small-class","Read","command collaborator"
+"TheAvifCoder","boundary degenerate small-class","ShouldEncodeAndDecodeAlphaChannel","wrapper stateless"
+"TheAvifCoder","boundary degenerate small-class","ShouldIgnoreEmptyExifProfile","wrapper stateless"
+"TheDngCoder","degenerate small-class","ShouldNotReadTheThumbnailByDefault","wrapper stateless"
+"TheDngCoder","degenerate small-class","ShouldReadTheThumbnail","controller stateless"
+"IptcProfile","boundary","IptcProfile","constructor"
+"IptcProfile","boundary","IptcProfile","constructor"
+"IptcProfile","boundary","IptcProfile","constructor"
+"IptcProfile","boundary","IptcProfile","constructor"
+"IptcProfile","boundary","GetValue","property collaborator"
+"IptcProfile","boundary","GetAllValues","property collaborator"
+"IptcProfile","boundary","RemoveValue","predicate non-void-command collaborator"
+"IptcProfile","boundary","RemoveValue","predicate non-void-command collaborator"
+"IptcProfile","boundary","SetValue","command collaborator"
+"IptcProfile","boundary","SetValue","command collaborator"
+"IptcProfile","boundary","UpdateData","controller"
+"IptcProfile","boundary","Initialize","set collaborator"
+"IptcProfile","boundary","get","get non-void-command collaborator"
+"TheEpsCoder","degenerate small-class","ShouldReadTwoImages","wrapper stateless"
+"TheEpsCoder","degenerate small-class","ShouldReadClipPathsInTiffPreview","controller stateless"
+"TheJpegCoder","degenerate","ShouldDecodeCorrectly","wrapper stateless"
+"TheJpegCoder","degenerate","ShouldReadImageProfile","wrapper stateless"
+"TheJpegCoder","degenerate","ShouldWriteTheXmpProfileToTheImage","controller stateless"
+"ExifShortArray","empty","ExifShortArray","constructor"
+"ExifShortArray","empty","ExifShortArray","constructor"
+"TheMapCoder","boundary degenerate","CanBeReadFromFileWithMapExtensions","wrapper stateless"
+"TheMapCoder","boundary degenerate","ShouldThrowExceptionWhenDimensionsNotSpecified","wrapper stateless"
+"TheMapCoder","boundary degenerate","ShouldThrowExceptionWhenDepthNotSpecified","wrapper stateless"
+"TheMapCoder","boundary degenerate","CannotBeReadFromFileWithoutMapExtensions","wrapper stateless"
+"TheMvgCoder","boundary degenerate small-class","ShouldBeDisabled","wrapper stateless"
+"ThePcxCoder","boundary degenerate small-class","ShouldBeAbleToWriteOneBitImages","wrapper stateless"
+"ThePsdCoder","boundary degenerate","ShouldReadTheCorrectColors","wrapper stateless"
+"ThePsdCoder","boundary degenerate","ShouldReadTheProfileForAllLayers","controller stateless"
+"ThePsdCoder","boundary degenerate","ShouldCorrectlyWriteGrayscaleImage","wrapper stateless"
+"ThePsdCoder","boundary degenerate","ShouldCorrectlyWriteGrayscaleAlphaImage","wrapper stateless"
+"TheSvgCoder","boundary degenerate","ShouldDetectFormatFromXmlDeclaration","wrapper stateless"
+"TheSvgCoder","boundary degenerate","ShouldDetectFormatFromSvgTag","wrapper stateless"
+"TheSvgCoder","boundary degenerate","ShouldUseWidthFromReadSettings","wrapper stateless"
+"TheSvgCoder","boundary degenerate","ShouldUseHeightFromReadSettings","wrapper stateless"
+"TheSvgCoder","boundary degenerate","ShouldUseWidthAndHeightFromReadSettings","wrapper stateless"
+"TheSvgCoder","boundary degenerate","ShouldReadFontsWithQuotes","wrapper stateless"
+"TheSvgCoder","boundary degenerate","IsThreadSafe","wrapper stateless"
+"TheVideoCoder","degenerate small-class","ShouldUseWebPAsTheDefaultIntermediateFormat","wrapper stateless"
+"TheVideoCoder","degenerate small-class","ShouldUsePamAsTheIntermediateFormatWhenReadModeIsByFrame","controller stateless"
+"DrawableTests","degenerate","Test_Drawables","controller stateless"
+"DrawableTests","degenerate","Test_Drawables_Draw","wrapper stateless"
+"DrawableTests","degenerate","Test_Drawables_Exceptions","wrapper stateless"
+"MethodInfo","empty","MethodInfo","constructor"

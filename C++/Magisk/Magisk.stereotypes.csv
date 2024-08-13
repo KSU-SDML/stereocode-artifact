@@ -1,361 +1,361 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"sepolicy","boundary degenerate","sepolicy::exists","wrapper stateless",
-"sepolicy","boundary degenerate","sepolicy::load_rule_file","void-accessor wrapper",
-"sepolicy","boundary degenerate","sepolicy::parse_statement","void-accessor wrapper",
-"sepolicy","boundary degenerate","sepolicy::magisk_rules","command",
-"sepolicy","boundary degenerate","sepolicy::load_rules","void-accessor wrapper",
-"sepolicy","boundary degenerate","sepolicy::allow","controller stateless",
-"sepolicy","boundary degenerate","sepolicy::from_data","factory wrapper stateless",
-"sepolicy","boundary degenerate","sepolicy::from_file","factory controller stateless",
-"sepolicy","boundary degenerate","sepolicy::compile_split","factory wrapper stateless",
-"sepolicy","boundary degenerate","sepolicy::from_split","property non-void-command",
-"sepolicy","boundary degenerate","sepolicy::to_file","controller stateless",
-"sepolicy","boundary degenerate","sepolicy::strip_dontaudit","wrapper stateless",
-"sepolicy","boundary degenerate","sepolicy::print_rules","controller stateless",
-"LegacySARInit","unclassified","LegacySARInit","constructor",
-"LegacySARInit","unclassified","start","command",
-"LegacySARInit","unclassified","LegacySARInit::mount_system_root","predicate controller",
-"LegacySARInit","unclassified","LegacySARInit::first_stage_prep","controller stateless",
-"MagiskInit","unclassified","MagiskInit::setup_tmp","void-accessor wrapper",
-"MagiskInit","unclassified","MagiskInit::parse_config_file","set",
-"MagiskInit","unclassified","MagiskInit::patch_ro_root","command",
-"MagiskInit","unclassified","MagiskInit::patch_rw_root","command collaborator",
-"MagiskInit","unclassified","MagiskInit::patch_sepolicy","controller stateless",
-"MagiskInit","unclassified","MagiskInit::hijack_sepolicy","predicate controller",
-"BaseInit","small-class","BaseInit","constructor",
-"BaseInit","small-class","BaseInit::exec_init","controller",
-"BaseInit","small-class","BaseInit::prepare_data","wrapper stateless",
-"RecoveryInit","commander small-class","start","command",
-"ZygiskContext","commander","is_child","predicate",
-"ZygiskContext","commander","ZygiskContext::ZygiskContext","constructor",
-"ZygiskContext","commander","ZygiskContext::~ZygiskContext","destructor",
-"ZygiskContext","commander","ZygiskContext::plt_hook_register","void-accessor command collaborator",
-"ZygiskContext","commander","ZygiskContext::plt_hook_exclude","void-accessor command collaborator",
-"ZygiskContext","commander","ZygiskContext::plt_hook_process_regex","command",
-"ZygiskContext","commander","ZygiskContext::plt_hook_commit","predicate non-void-command collaborator",
-"ZygiskContext","commander","ZygiskContext::sanitize_fds","command",
-"ZygiskContext","commander","ZygiskContext::exempt_fd","predicate non-void-command",
-"ZygiskContext","commander","ZygiskContext::can_exempt_fd","predicate",
-"ZygiskContext","commander","ZygiskContext::fork_pre","command",
-"ZygiskContext","commander","ZygiskContext::fork_post","wrapper stateless",
-"ZygiskContext","commander","ZygiskContext::run_modules_pre","void-accessor command collaborator",
-"ZygiskContext","commander","ZygiskContext::run_modules_post","set collaborator",
-"ZygiskContext","commander","ZygiskContext::app_specialize_pre","set",
-"ZygiskContext","commander","ZygiskContext::app_specialize_post","command",
-"ZygiskContext","commander","ZygiskContext::server_specialize_pre","command collaborator",
-"ZygiskContext","commander","ZygiskContext::server_specialize_post","command",
-"ZygiskContext","commander","ZygiskContext::nativeSpecializeAppProcess_pre","command",
-"ZygiskContext","commander","ZygiskContext::nativeSpecializeAppProcess_post","command",
-"ZygiskContext","commander","ZygiskContext::nativeForkSystemServer_pre","command",
-"ZygiskContext","commander","ZygiskContext::nativeForkSystemServer_post","command",
-"ZygiskContext","commander","ZygiskContext::nativeForkAndSpecialize_pre","command",
-"ZygiskContext","commander","ZygiskContext::nativeForkAndSpecialize_post","command",
-"ServerSpecializeArgs_v1","empty","ServerSpecializeArgs_v1","constructor",
-"sepol_impl","entity boundary","sepol_impl","constructor",
-"sepol_impl","entity boundary","sepol_impl::~sepol_impl","destructor",
-"sepol_impl","entity boundary","sepol_impl::find_avtab_node","property wrapper",
-"sepol_impl","entity boundary","sepol_impl::insert_avtab_node","property wrapper",
-"sepol_impl","entity boundary","sepol_impl::get_avtab_node","property non-void-command collaborator",
-"sepol_impl","entity boundary","sepol_impl::add_rule","void-accessor command collaborator",
-"sepol_impl","entity boundary","sepol_impl::add_rule","predicate non-void-command collaborator",
-"sepol_impl","entity boundary","sepol_impl::add_xperm_rule","void-accessor command",
-"sepol_impl","entity boundary","sepol_impl::add_xperm_rule","predicate non-void-command collaborator",
-"sepol_impl","entity boundary","sepol_impl::add_type_rule","predicate non-void-command collaborator",
-"sepol_impl","entity boundary","sepol_impl::add_filename_trans","predicate set collaborator",
-"sepol_impl","entity boundary","sepol_impl::add_genfscon","predicate set collaborator",
-"sepol_impl","entity boundary","sepol_impl::add_type","predicate non-void-command",
-"sepol_impl","entity boundary","sepol_impl::set_type_state","predicate wrapper",
-"sepol_impl","entity boundary","sepol_impl::add_typeattribute","void-accessor wrapper",
-"sepol_impl","entity boundary","sepol_impl::add_typeattribute","predicate non-void-command collaborator",
-"sepol_impl","entity boundary","sepol_impl::print_type","void-accessor wrapper",
-"sepol_impl","entity boundary","sepol_impl::print_avtab","void-accessor command collaborator",
-"sepol_impl","entity boundary","sepol_impl::print_filename_trans","void-accessor wrapper",
-"AppSpecializeArgs_v1","empty","AppSpecializeArgs_v1","constructor",
-"dyn_img_hdr_vendor","degenerate small-class","is_vendor","incidental",
-"LZ4F_decoder","entity boundary small-class","LZ4F_decoder","constructor",
-"LZ4F_decoder","entity boundary small-class","~LZ4F_decoder","destructor",
-"LZ4F_decoder","entity boundary small-class","write","predicate non-void-command collaborator",
-"BootConfig","commander boundary small-class","BootConfig::set","command collaborator",
-"BootConfig","commander boundary small-class","BootConfig::print","wrapper",
-"dyn_img_hdr","boundary lazy-class degenerate","~dyn_img_hdr","destructor",
-"dyn_img_hdr","boundary lazy-class degenerate","hdr_space","wrapper stateless",
-"dyn_img_hdr","boundary lazy-class degenerate","raw_hdr","get collaborator",
-"dyn_img_hdr","boundary lazy-class degenerate","dyn_img_hdr::print","wrapper stateless",
-"dyn_img_hdr","boundary lazy-class degenerate","dyn_img_hdr::dump_hdr_file","wrapper stateless",
-"dyn_img_hdr","boundary lazy-class degenerate","dyn_img_hdr::load_hdr_file","controller stateless",
-"bz_decoder","empty","bz_decoder","constructor",
-"dyn_img_v3","degenerate","page_size","incidental",
-"dyn_img_v3","degenerate","extra_cmdline","incidental",
-"dyn_img_v3","degenerate","extra_cmdline","incidental",
-"RootFSInit","commander small-class","RootFSInit","constructor",
-"RootFSInit","commander small-class","start","command",
-"RootFSInit","commander small-class","RootFSInit::prepare","command",
-"chunk_out_stream","unclassified","chunk_out_stream","constructor",
-"chunk_out_stream","unclassified","chunk_out_stream","constructor",
-"chunk_out_stream","unclassified","chunk_out_stream::write","predicate non-void-command collaborator",
-"chunk_out_stream","unclassified","chunk_out_stream::write_chunk","predicate non-void-command",
-"chunk_out_stream","unclassified","chunk_out_stream::finalize","command",
-"HookContext","small-class","HookContext::hook_jni_env","command collaborator",
-"HookContext","small-class","HookContext::restore_jni_hook","controller",
-"ZygiskModule","boundary","onLoad","void-accessor controller",
-"ZygiskModule","boundary","clearApi","wrapper",
-"ZygiskModule","boundary","getId","get",
-"ZygiskModule","boundary","ZygiskModule::ZygiskModule","constructor",
-"ZygiskModule","boundary","ZygiskModule::RegisterModuleImpl","predicate non-void-command",
-"ZygiskModule","boundary","ZygiskModule::valid","predicate",
-"ZygiskModule","boundary","ZygiskModule::connectCompanion","property wrapper",
-"ZygiskModule","boundary","ZygiskModule::getModuleDir","property wrapper",
-"ZygiskModule","boundary","ZygiskModule::setOption","set collaborator",
-"ZygiskModule","boundary","ZygiskModule::getFlags","incidental",
-"ZygiskModule","boundary","ZygiskModule::tryUnload","wrapper",
-"ZygiskModule","boundary","ZygiskModule::preAppSpecialize","collaborator incidental",
-"ZygiskModule","boundary","ZygiskModule::postAppSpecialize","collaborator incidental",
-"ZygiskModule","boundary","ZygiskModule::preServerSpecialize","controller stateless",
-"ZygiskModule","boundary","ZygiskModule::postServerSpecialize","controller stateless",
-"tmpfs_node","commander small-class","tmpfs_node::tmpfs_node","constructor",
-"tmpfs_node","commander small-class","tmpfs_node::mount","command",
-"magisk_node","commander small-class","magisk_node","constructor",
-"magisk_node","commander small-class","mount","command",
-"StringCmp","boundary degenerate small-class","operator()","collaborator incidental",
-"zopfli_encoder","entity boundary small-class","zopfli_encoder","constructor",
-"zopfli_encoder","entity boundary small-class","~zopfli_encoder","destructor",
-"zopfli_encoder","entity boundary small-class","write_chunk","predicate non-void-command collaborator",
-"auto_cast_wrapper","small-class","auto_cast_wrapper","constructor",
-"auto_cast_wrapper","small-class","operatorU*","unclassified",
-"PropFlags","unclassified","setSkipSvc","set",
-"PropFlags","unclassified","setPersist","set",
-"PropFlags","unclassified","setContext","set",
-"PropFlags","unclassified","setPersistOnly","set",
-"PropFlags","unclassified","setWait","set",
-"PropFlags","unclassified","isSkipSvc","predicate",
-"PropFlags","unclassified","isPersist","predicate",
-"PropFlags","unclassified","isContext","predicate",
-"PropFlags","unclassified","isPersistOnly","predicate",
-"PropFlags","unclassified","isWait","predicate",
-"lzma_decoder","empty","lzma_decoder","constructor",
-"node_entry","data-provider","is_dir","predicate",
-"node_entry","data-provider","is_lnk","predicate",
-"node_entry","data-provider","is_reg","predicate",
-"node_entry","data-provider","name","get",
-"node_entry","data-provider","parent","get collaborator",
-"node_entry","data-provider","node_entry","constructor",
-"node_entry","data-provider","node_entry","constructor",
-"node_entry","data-provider","consume","void-accessor command",
-"node_entry","data-provider","exist","predicate",
-"node_entry","data-provider","set_exist","set",
-"node_entry","data-provider","file_type","property",
-"node_entry","data-provider","node_entry::create_and_mount","void-accessor command",
-"node_entry","data-provider","node_entry::node_path","get non-void-command",
-"node_entry","data-provider","node_entry::worker_path","property non-void-command",
-"rust_vec_stream","unclassified","rust_vec_stream","constructor",
-"rust_vec_stream","unclassified","rust_vec_stream::read","property non-void-command collaborator",
-"rust_vec_stream","unclassified","rust_vec_stream::write","predicate set",
-"rust_vec_stream","unclassified","rust_vec_stream::ensure_size","command",
-"gz_encoder","empty","gz_encoder","constructor",
-"dynamic_bitset_impl","boundary","slots","property",
-"dynamic_bitset_impl","boundary","get_slot","property collaborator",
-"dynamic_bitset_impl","boundary","emplace_back","command collaborator",
-"dynamic_bitset_impl","boundary","get","get non-void-command collaborator",
-"dynamic_bitset_impl","boundary","get","predicate",
-"reversed_container","entity data-provider boundary","reversed_container","constructor",
-"reversed_container","entity data-provider boundary","begin","property non-void-command collaborator",
-"reversed_container","entity data-provider boundary","begin","property collaborator",
-"reversed_container","entity data-provider boundary","cbegin","property collaborator",
-"reversed_container","entity data-provider boundary","end","property non-void-command collaborator",
-"reversed_container","entity data-provider boundary","end","property collaborator",
-"reversed_container","entity data-provider boundary","cend","property collaborator",
-"in_stream","entity boundary small-class","in_stream::readFully","wrapper stateless",
-"in_stream","entity boundary small-class","in_stream::readv","property non-void-command collaborator",
-"dynamic_bitset","small-class","operator[]","property non-void-command collaborator",
-"dynamic_bitset","small-class","operator[]","predicate",
-"mutex_guard","commander data-class small-class","mutex_guard","constructor",
-"mutex_guard","commander data-class small-class","unlock","set",
-"mutex_guard","commander data-class small-class","~mutex_guard","destructor",
-"byte_data","data-provider boundary","byte_data","constructor",
-"byte_data","data-provider boundary","byte_data","copy-constructor",
-"byte_data","data-provider boundary","byte_data","constructor",
-"byte_data","data-provider boundary","byte_data","constructor",
-"byte_data","data-provider boundary","byte_data","constructor",
-"byte_data","data-provider boundary","operatorrust::Slice<uint8_t>","wrapper",
-"byte_data","data-provider boundary","buf","get",
-"byte_data","data-provider boundary","byte_data::swap","void-accessor wrapper",
-"byte_data","data-provider boundary","byte_data::patch","property controller",
-"db_strings","boundary degenerate small-class","db_strings::get_idx","collaborator incidental",
-"Extra","commander boundary small-class","Extra","constructor",
-"Extra","commander boundary small-class","Extra","constructor",
-"Extra","commander boundary small-class","Extra","constructor",
-"Extra","commander boundary small-class","Extra","constructor",
-"Extra","commander boundary small-class","add_intent","command collaborator",
-"Extra","commander boundary small-class","add_bind","command collaborator",
-"Initialize","empty","Initialize","constructor",
-"owned_fd","data-provider","owned_fd","constructor",
-"owned_fd","data-provider","owned_fd","constructor",
-"owned_fd","data-provider","~owned_fd","destructor",
-"owned_fd","data-provider","operatorint","get",
-"owned_fd","data-provider","release","property set",
-"owned_fd","data-provider","swap","void-accessor wrapper",
-"ModuleBase","degenerate","onLoad","empty",
-"ModuleBase","degenerate","preAppSpecialize","empty",
-"ModuleBase","degenerate","postAppSpecialize","empty",
-"ModuleBase","degenerate","preServerSpecialize","empty",
-"ModuleBase","degenerate","postServerSpecialize","empty",
-"mmap_data","empty","mmap_data::mmap_data","constructor",
-"mmap_data","empty","mmap_data::mmap_data","constructor",
-"mmap_data","empty","mmap_data::~mmap_data","destructor",
-"dyn_img_hdr_boot","degenerate small-class","is_vendor","incidental",
-"fd_stream","data-provider boundary","fd_stream","constructor",
-"fd_stream","data-provider boundary","fd_stream::read","property wrapper",
-"fd_stream","data-provider boundary","fd_stream::do_write","property wrapper",
-"fd_stream","data-provider boundary","fd_stream::readv","property wrapper",
-"fd_stream","data-provider boundary","fd_stream::writev","property wrapper",
-"Utf8CStr","unclassified","Utf8CStr","constructor",
-"Utf8CStr","unclassified","Utf8CStr","constructor",
-"Utf8CStr","unclassified","Utf8CStr","constructor",
-"Utf8CStr","unclassified","Utf8CStr","constructor",
-"Utf8CStr","unclassified","c_str","controller stateless",
-"Utf8CStr","unclassified","size","controller stateless",
-"Utf8CStr","unclassified","empty","controller stateless",
-"Utf8CStr","unclassified","operatorstd::string_view","non-void-command",
-"Utf8CStr","unclassified","rust::Utf8CStr::Utf8CStr","constructor",
-"Utf8CStr","unclassified","rust::Utf8CStr::data","property wrapper",
-"Utf8CStr","unclassified","rust::Utf8CStr::length","property wrapper",
-"AppSpecializeArgs_v3","empty","AppSpecializeArgs_v3","constructor",
-"Fmt2Ext","boundary degenerate small-class","Fmt2Ext::operator[]","collaborator incidental",
-"filter_out_stream","small-class","filter_out_stream","constructor",
-"filter_out_stream","small-class","filter_out_stream::write","predicate non-void-command",
-"file_stream","boundary degenerate small-class","file_stream::write","wrapper stateless",
-"run_finally","empty","run_finally","constructor",
-"run_finally","empty","~run_finally","destructor",
-"prop_collector","small-class","prop_collector","constructor",
-"prop_collector","small-class","exec","void-accessor command",
-"byte_array","empty","byte_array","constructor",
-"dyn_img_v1","degenerate small-class","extra_size","wrapper stateless",
-"dyn_img_v1","degenerate small-class","extra_size","incidental",
-"heap_data","empty","heap_data","constructor",
-"heap_data","empty","~heap_data","destructor",
-"out_stream","boundary degenerate small-class","out_stream::writev","wrapper stateless",
-"gz_strm","small-class","write","predicate non-void-command",
-"gz_strm","small-class","~gz_strm","destructor",
-"gz_strm","small-class","gz_strm","constructor",
-"gz_strm","small-class","do_write","predicate non-void-command",
-"gz_decoder","empty","gz_decoder","constructor",
-"FirstStageInit","commander small-class","FirstStageInit","constructor",
-"FirstStageInit","commander small-class","start","command",
-"FirstStageInit","commander small-class","FirstStageInit::prepare","command",
-"bz_strm","small-class","write","predicate non-void-command",
-"bz_strm","small-class","~bz_strm","destructor",
-"bz_strm","small-class","bz_strm","constructor",
-"bz_strm","small-class","do_write","predicate non-void-command",
-"db_settings","boundary degenerate small-class","db_settings::db_settings","constructor",
-"db_settings","boundary degenerate small-class","db_settings::get_idx","collaborator incidental",
-"bz_encoder","empty","bz_encoder","constructor",
-"SecondStageInit","small-class","SecondStageInit","constructor",
-"SecondStageInit","small-class","start","command",
-"SecondStageInit","small-class","SecondStageInit::prepare","predicate set",
-"lzma_strm","small-class","write","predicate non-void-command",
-"lzma_strm","small-class","~lzma_strm","destructor",
-"lzma_strm","small-class","lzma_strm","constructor",
-"lzma_strm","small-class","do_write","predicate non-void-command collaborator",
-"dyn_img_vnd_v3","degenerate","hdr_space","wrapper stateless",
-"dyn_img_vnd_v3","degenerate","extra_cmdline","incidental",
-"dyn_img_vnd_v3","degenerate","extra_cmdline","incidental",
-"xz_encoder","empty","xz_encoder","constructor",
-"lzma_encoder","empty","lzma_encoder","constructor",
-"LZ4F_encoder","small-class","LZ4F_encoder","constructor",
-"LZ4F_encoder","small-class","write","predicate non-void-command",
-"LZ4F_encoder","small-class","~LZ4F_encoder","destructor",
-"boot_img","entity data-provider boundary","get_payload","get collaborator",
-"boot_img","entity data-provider boundary","get_tail","get collaborator",
-"boot_img","entity data-provider boundary","boot_img::create_hdr","property non-void-command factory collaborator",
-"boot_img","entity data-provider boundary","boot_img::parse_image","predicate non-void-command collaborator",
-"boot_img","entity data-provider boundary","boot_img::verify","predicate wrapper",
-"LZ4_decoder","small-class","LZ4_decoder","constructor",
-"LZ4_decoder","small-class","~LZ4_decoder","destructor",
-"LZ4_decoder","small-class","write_chunk","predicate non-void-command",
-"LZ4_encoder","data-class small-class","LZ4_encoder","constructor",
-"LZ4_encoder","data-class small-class","~LZ4_encoder","destructor",
-"LZ4_encoder","data-class small-class","write_chunk","predicate set",
-"Fmt2Name","boundary degenerate small-class","Fmt2Name::operator[]","collaborator incidental",
-"root_node","empty","root_node","constructor",
-"root_node","empty","root_node","constructor",
-"Name2Fmt","boundary degenerate small-class","Name2Fmt::operator[]","collaborator incidental",
-"zygisk_node","commander small-class","zygisk_node","constructor",
-"zygisk_node","commander small-class","mount","command",
-"MagiskD","data-provider","MagiskD::post_fs_data","predicate collaborator",
-"MagiskD","data-provider","MagiskD::late_start","unclassified",
-"MagiskD","data-provider","MagiskD::boot_complete","unclassified",
-"MagiskD","data-provider","MagiskD::get","wrapper stateless",
-"MagiskD","data-provider","MagiskD::operator->","property",
-"MagiskD","data-provider","MagiskD::as_rust","property",
-"MagiskD","data-provider","MagiskD::reboot","unclassified",
-"dir_node","boundary","~dir_node","destructor",
-"dir_node","boundary","mount","controller",
-"dir_node","boundary","is_empty","predicate non-void-command",
-"dir_node","boundary","get_child","property non-void-command collaborator",
-"dir_node","boundary","root","get set collaborator",
-"dir_node","boundary","extract","property non-void-command collaborator",
-"dir_node","boundary","insert","predicate non-void-command collaborator",
-"dir_node","boundary","emplace","property non-void-command factory collaborator",
-"dir_node","boundary","upgrade","property non-void-command collaborator",
-"dir_node","boundary","dir_node","constructor",
-"dir_node","boundary","dir_node","constructor",
-"dir_node","boundary","dir_node","constructor",
-"dir_node","boundary","consume","void-accessor command collaborator",
-"dir_node","boundary","replace","incidental",
-"dir_node","boundary","set_replace","incidental",
-"dir_node","boundary","iterator_to_node","property non-void-command collaborator",
-"dir_node","boundary","insert","property non-void-command collaborator",
-"dir_node","boundary","insert_at","property non-void-command collaborator",
-"dir_node","boundary","upgrade","wrapper stateless",
-"dir_node","boundary","dir_node::prepare","predicate non-void-command",
-"dir_node","boundary","dir_node::collect_module_files","void-accessor command collaborator",
-"inter_node","empty","inter_node","constructor",
-"inter_node","empty","inter_node","constructor",
-"module_node","commander small-class","module_node","constructor",
-"module_node","commander small-class","module_node","constructor",
-"module_node","commander small-class","module_node::mount","command",
-"prop_to_string","commander small-class","exec","command",
-"su_info","entity boundary","su_info::su_info","constructor",
-"su_info","entity boundary","su_info::~su_info","destructor",
-"su_info","entity boundary","su_info::lock","property wrapper",
-"su_info","entity boundary","su_info::is_fresh","predicate wrapper",
-"su_info","entity boundary","su_info::refresh","set collaborator",
-"su_info","entity boundary","su_info::check_db","command",
-"byte_view","data-provider boundary","byte_view","constructor",
-"byte_view","data-provider boundary","byte_view","constructor",
-"byte_view","data-provider boundary","byte_view","copy-constructor",
-"byte_view","data-provider boundary","byte_view","constructor",
-"byte_view","data-provider boundary","operatorrust::Slice<constuint8_t>","wrapper",
-"byte_view","data-provider boundary","byte_view","constructor",
-"byte_view","data-provider boundary","byte_view","constructor",
-"byte_view","data-provider boundary","byte_view","constructor",
-"byte_view","data-provider boundary","byte_view","constructor",
-"byte_view","data-provider boundary","buf","get",
-"byte_view","data-provider boundary","sz","get",
-"byte_view","data-provider boundary","byte_view","constructor",
-"byte_view","data-provider boundary","byte_view::contains","predicate wrapper",
-"byte_view","data-provider boundary","byte_view::equals","predicate wrapper",
-"byte_view","data-provider boundary","byte_view::clone","property wrapper",
-"stateless_allocator","unclassified","allocate","property non-void-command collaborator",
-"stateless_allocator","unclassified","deallocate","void-accessor command",
-"stateless_allocator","unclassified","stateless_allocator","copy-constructor",
-"stateless_allocator","unclassified","operator==","incidental",
-"stateless_allocator","unclassified","operator!=","incidental",
-"db_dict","data-provider boundary data-class","operator[]","get wrapper",
-"db_dict","data-provider boundary data-class","operator[]","get wrapper",
-"db_dict","data-provider boundary data-class","operator[]","get collaborator",
-"db_dict","data-provider boundary data-class","operator[]","get collaborator",
-"Api","unclassified","Api::connectCompanion","property non-void-command",
-"Api","unclassified","Api::getModuleDir","property non-void-command",
-"Api","unclassified","Api::setOption","command collaborator",
-"Api","unclassified","Api::getFlags","property non-void-command",
-"Api","unclassified","Api::exemptFd","predicate non-void-command",
-"Api","unclassified","Api::hookJniNativeMethods","void-accessor command",
-"Api","unclassified","Api::pltHookRegister","void-accessor command",
-"Api","unclassified","Api::pltHookCommit","predicate non-void-command",
-"module_abi","empty","module_abi","constructor",
-"byte_stream","unclassified","byte_stream","constructor",
-"byte_stream","unclassified","byte_stream::read","property set collaborator",
-"byte_stream","unclassified","byte_stream::write","predicate non-void-command",
-"byte_stream","unclassified","byte_stream::resize","command",
-"AppSpecializeArgs_v5","empty","AppSpecializeArgs_v5","constructor",
+"sepolicy","boundary degenerate","sepolicy::exists","wrapper stateless"
+"sepolicy","boundary degenerate","sepolicy::load_rule_file","wrapper"
+"sepolicy","boundary degenerate","sepolicy::parse_statement","wrapper"
+"sepolicy","boundary degenerate","sepolicy::magisk_rules","command"
+"sepolicy","boundary degenerate","sepolicy::load_rules","wrapper"
+"sepolicy","boundary degenerate","sepolicy::allow","controller stateless"
+"sepolicy","boundary degenerate","sepolicy::from_data","factory wrapper stateless"
+"sepolicy","boundary degenerate","sepolicy::from_file","factory controller stateless"
+"sepolicy","boundary degenerate","sepolicy::compile_split","factory wrapper stateless"
+"sepolicy","boundary degenerate","sepolicy::from_split","property non-void-command"
+"sepolicy","boundary degenerate","sepolicy::to_file","controller stateless"
+"sepolicy","boundary degenerate","sepolicy::strip_dontaudit","wrapper stateless"
+"sepolicy","boundary degenerate","sepolicy::print_rules","controller stateless"
+"LegacySARInit","unclassified","LegacySARInit","constructor"
+"LegacySARInit","unclassified","start","command"
+"LegacySARInit","unclassified","LegacySARInit::mount_system_root","predicate controller"
+"LegacySARInit","unclassified","LegacySARInit::first_stage_prep","controller stateless"
+"MagiskInit","unclassified","MagiskInit::setup_tmp","wrapper"
+"MagiskInit","unclassified","MagiskInit::parse_config_file","set"
+"MagiskInit","unclassified","MagiskInit::patch_ro_root","command"
+"MagiskInit","unclassified","MagiskInit::patch_rw_root","command collaborator"
+"MagiskInit","unclassified","MagiskInit::patch_sepolicy","controller stateless"
+"MagiskInit","unclassified","MagiskInit::hijack_sepolicy","predicate controller"
+"BaseInit","small-class","BaseInit","constructor"
+"BaseInit","small-class","BaseInit::exec_init","controller"
+"BaseInit","small-class","BaseInit::prepare_data","wrapper stateless"
+"RecoveryInit","commander small-class","start","command"
+"ZygiskContext","commander","is_child","predicate"
+"ZygiskContext","commander","ZygiskContext::ZygiskContext","constructor"
+"ZygiskContext","commander","ZygiskContext::~ZygiskContext","destructor"
+"ZygiskContext","commander","ZygiskContext::plt_hook_register","command collaborator"
+"ZygiskContext","commander","ZygiskContext::plt_hook_exclude","command collaborator"
+"ZygiskContext","commander","ZygiskContext::plt_hook_process_regex","command"
+"ZygiskContext","commander","ZygiskContext::plt_hook_commit","predicate non-void-command collaborator"
+"ZygiskContext","commander","ZygiskContext::sanitize_fds","command"
+"ZygiskContext","commander","ZygiskContext::exempt_fd","predicate non-void-command"
+"ZygiskContext","commander","ZygiskContext::can_exempt_fd","predicate"
+"ZygiskContext","commander","ZygiskContext::fork_pre","command"
+"ZygiskContext","commander","ZygiskContext::fork_post","wrapper stateless"
+"ZygiskContext","commander","ZygiskContext::run_modules_pre","command collaborator"
+"ZygiskContext","commander","ZygiskContext::run_modules_post","set collaborator"
+"ZygiskContext","commander","ZygiskContext::app_specialize_pre","set"
+"ZygiskContext","commander","ZygiskContext::app_specialize_post","command"
+"ZygiskContext","commander","ZygiskContext::server_specialize_pre","command collaborator"
+"ZygiskContext","commander","ZygiskContext::server_specialize_post","command"
+"ZygiskContext","commander","ZygiskContext::nativeSpecializeAppProcess_pre","command"
+"ZygiskContext","commander","ZygiskContext::nativeSpecializeAppProcess_post","command"
+"ZygiskContext","commander","ZygiskContext::nativeForkSystemServer_pre","command"
+"ZygiskContext","commander","ZygiskContext::nativeForkSystemServer_post","command"
+"ZygiskContext","commander","ZygiskContext::nativeForkAndSpecialize_pre","command"
+"ZygiskContext","commander","ZygiskContext::nativeForkAndSpecialize_post","command"
+"ServerSpecializeArgs_v1","empty","ServerSpecializeArgs_v1","constructor"
+"sepol_impl","entity boundary","sepol_impl","constructor"
+"sepol_impl","entity boundary","sepol_impl::~sepol_impl","destructor"
+"sepol_impl","entity boundary","sepol_impl::find_avtab_node","property wrapper"
+"sepol_impl","entity boundary","sepol_impl::insert_avtab_node","property wrapper"
+"sepol_impl","entity boundary","sepol_impl::get_avtab_node","property non-void-command collaborator"
+"sepol_impl","entity boundary","sepol_impl::add_rule","command collaborator"
+"sepol_impl","entity boundary","sepol_impl::add_rule","predicate non-void-command collaborator"
+"sepol_impl","entity boundary","sepol_impl::add_xperm_rule","command"
+"sepol_impl","entity boundary","sepol_impl::add_xperm_rule","predicate non-void-command collaborator"
+"sepol_impl","entity boundary","sepol_impl::add_type_rule","predicate non-void-command collaborator"
+"sepol_impl","entity boundary","sepol_impl::add_filename_trans","predicate set collaborator"
+"sepol_impl","entity boundary","sepol_impl::add_genfscon","predicate set collaborator"
+"sepol_impl","entity boundary","sepol_impl::add_type","predicate non-void-command"
+"sepol_impl","entity boundary","sepol_impl::set_type_state","predicate wrapper"
+"sepol_impl","entity boundary","sepol_impl::add_typeattribute","wrapper"
+"sepol_impl","entity boundary","sepol_impl::add_typeattribute","predicate non-void-command collaborator"
+"sepol_impl","entity boundary","sepol_impl::print_type","wrapper"
+"sepol_impl","entity boundary","sepol_impl::print_avtab","command collaborator"
+"sepol_impl","entity boundary","sepol_impl::print_filename_trans","wrapper"
+"AppSpecializeArgs_v1","empty","AppSpecializeArgs_v1","constructor"
+"dyn_img_hdr_vendor","degenerate small-class","is_vendor","incidental"
+"LZ4F_decoder","entity boundary small-class","LZ4F_decoder","constructor"
+"LZ4F_decoder","entity boundary small-class","~LZ4F_decoder","destructor"
+"LZ4F_decoder","entity boundary small-class","write","predicate non-void-command collaborator"
+"BootConfig","commander boundary small-class","BootConfig::set","command collaborator"
+"BootConfig","commander boundary small-class","BootConfig::print","wrapper"
+"dyn_img_hdr","boundary lazy-class degenerate","~dyn_img_hdr","destructor"
+"dyn_img_hdr","boundary lazy-class degenerate","hdr_space","wrapper stateless"
+"dyn_img_hdr","boundary lazy-class degenerate","raw_hdr","get collaborator"
+"dyn_img_hdr","boundary lazy-class degenerate","dyn_img_hdr::print","wrapper stateless"
+"dyn_img_hdr","boundary lazy-class degenerate","dyn_img_hdr::dump_hdr_file","wrapper stateless"
+"dyn_img_hdr","boundary lazy-class degenerate","dyn_img_hdr::load_hdr_file","controller stateless"
+"bz_decoder","empty","bz_decoder","constructor"
+"dyn_img_v3","degenerate","page_size","incidental"
+"dyn_img_v3","degenerate","extra_cmdline","incidental"
+"dyn_img_v3","degenerate","extra_cmdline","incidental"
+"RootFSInit","commander small-class","RootFSInit","constructor"
+"RootFSInit","commander small-class","start","command"
+"RootFSInit","commander small-class","RootFSInit::prepare","command"
+"chunk_out_stream","unclassified","chunk_out_stream","constructor"
+"chunk_out_stream","unclassified","chunk_out_stream","constructor"
+"chunk_out_stream","unclassified","chunk_out_stream::write","predicate non-void-command collaborator"
+"chunk_out_stream","unclassified","chunk_out_stream::write_chunk","predicate non-void-command"
+"chunk_out_stream","unclassified","chunk_out_stream::finalize","command"
+"HookContext","small-class","HookContext::hook_jni_env","command collaborator"
+"HookContext","small-class","HookContext::restore_jni_hook","controller"
+"ZygiskModule","boundary","onLoad","controller"
+"ZygiskModule","boundary","clearApi","wrapper"
+"ZygiskModule","boundary","getId","get"
+"ZygiskModule","boundary","ZygiskModule::ZygiskModule","constructor"
+"ZygiskModule","boundary","ZygiskModule::RegisterModuleImpl","predicate non-void-command"
+"ZygiskModule","boundary","ZygiskModule::valid","predicate"
+"ZygiskModule","boundary","ZygiskModule::connectCompanion","property wrapper"
+"ZygiskModule","boundary","ZygiskModule::getModuleDir","property wrapper"
+"ZygiskModule","boundary","ZygiskModule::setOption","set collaborator"
+"ZygiskModule","boundary","ZygiskModule::getFlags","incidental"
+"ZygiskModule","boundary","ZygiskModule::tryUnload","wrapper"
+"ZygiskModule","boundary","ZygiskModule::preAppSpecialize","collaborator incidental"
+"ZygiskModule","boundary","ZygiskModule::postAppSpecialize","collaborator incidental"
+"ZygiskModule","boundary","ZygiskModule::preServerSpecialize","controller stateless"
+"ZygiskModule","boundary","ZygiskModule::postServerSpecialize","controller stateless"
+"tmpfs_node","commander small-class","tmpfs_node::tmpfs_node","constructor"
+"tmpfs_node","commander small-class","tmpfs_node::mount","command"
+"magisk_node","commander small-class","magisk_node","constructor"
+"magisk_node","commander small-class","mount","command"
+"StringCmp","boundary degenerate small-class","operator()","collaborator incidental"
+"zopfli_encoder","entity boundary small-class","zopfli_encoder","constructor"
+"zopfli_encoder","entity boundary small-class","~zopfli_encoder","destructor"
+"zopfli_encoder","entity boundary small-class","write_chunk","predicate non-void-command collaborator"
+"auto_cast_wrapper","small-class","auto_cast_wrapper","constructor"
+"auto_cast_wrapper","small-class","operatorU*","unclassified"
+"PropFlags","unclassified","setSkipSvc","set"
+"PropFlags","unclassified","setPersist","set"
+"PropFlags","unclassified","setContext","set"
+"PropFlags","unclassified","setPersistOnly","set"
+"PropFlags","unclassified","setWait","set"
+"PropFlags","unclassified","isSkipSvc","predicate"
+"PropFlags","unclassified","isPersist","predicate"
+"PropFlags","unclassified","isContext","predicate"
+"PropFlags","unclassified","isPersistOnly","predicate"
+"PropFlags","unclassified","isWait","predicate"
+"lzma_decoder","empty","lzma_decoder","constructor"
+"node_entry","unclassified","is_dir","predicate"
+"node_entry","unclassified","is_lnk","predicate"
+"node_entry","unclassified","is_reg","predicate"
+"node_entry","unclassified","name","get"
+"node_entry","unclassified","parent","get collaborator"
+"node_entry","unclassified","node_entry","constructor"
+"node_entry","unclassified","node_entry","constructor"
+"node_entry","unclassified","consume","command"
+"node_entry","unclassified","exist","predicate"
+"node_entry","unclassified","set_exist","set"
+"node_entry","unclassified","file_type","property"
+"node_entry","unclassified","node_entry::create_and_mount","command"
+"node_entry","unclassified","node_entry::node_path","get non-void-command"
+"node_entry","unclassified","node_entry::worker_path","property non-void-command"
+"rust_vec_stream","unclassified","rust_vec_stream","constructor"
+"rust_vec_stream","unclassified","rust_vec_stream::read","property non-void-command collaborator"
+"rust_vec_stream","unclassified","rust_vec_stream::write","predicate set"
+"rust_vec_stream","unclassified","rust_vec_stream::ensure_size","command"
+"gz_encoder","empty","gz_encoder","constructor"
+"dynamic_bitset_impl","boundary","slots","property"
+"dynamic_bitset_impl","boundary","get_slot","property collaborator"
+"dynamic_bitset_impl","boundary","emplace_back","command collaborator"
+"dynamic_bitset_impl","boundary","get","get non-void-command collaborator"
+"dynamic_bitset_impl","boundary","get","predicate"
+"reversed_container","entity data-provider boundary","reversed_container","constructor"
+"reversed_container","entity data-provider boundary","begin","property non-void-command collaborator"
+"reversed_container","entity data-provider boundary","begin","property collaborator"
+"reversed_container","entity data-provider boundary","cbegin","property collaborator"
+"reversed_container","entity data-provider boundary","end","property non-void-command collaborator"
+"reversed_container","entity data-provider boundary","end","property collaborator"
+"reversed_container","entity data-provider boundary","cend","property collaborator"
+"in_stream","entity boundary small-class","in_stream::readFully","wrapper stateless"
+"in_stream","entity boundary small-class","in_stream::readv","property non-void-command collaborator"
+"dynamic_bitset","small-class","operator[]","property non-void-command collaborator"
+"dynamic_bitset","small-class","operator[]","predicate"
+"mutex_guard","commander data-class small-class","mutex_guard","constructor"
+"mutex_guard","commander data-class small-class","unlock","set"
+"mutex_guard","commander data-class small-class","~mutex_guard","destructor"
+"byte_data","boundary","byte_data","constructor"
+"byte_data","boundary","byte_data","copy-constructor"
+"byte_data","boundary","byte_data","constructor"
+"byte_data","boundary","byte_data","constructor"
+"byte_data","boundary","byte_data","constructor"
+"byte_data","boundary","operatorrust::Slice<uint8_t>","wrapper"
+"byte_data","boundary","buf","get"
+"byte_data","boundary","byte_data::swap","wrapper"
+"byte_data","boundary","byte_data::patch","property controller"
+"db_strings","boundary degenerate small-class","db_strings::get_idx","collaborator incidental"
+"Extra","commander boundary small-class","Extra","constructor"
+"Extra","commander boundary small-class","Extra","constructor"
+"Extra","commander boundary small-class","Extra","constructor"
+"Extra","commander boundary small-class","Extra","constructor"
+"Extra","commander boundary small-class","add_intent","command collaborator"
+"Extra","commander boundary small-class","add_bind","command collaborator"
+"Initialize","empty","Initialize","constructor"
+"owned_fd","unclassified","owned_fd","constructor"
+"owned_fd","unclassified","owned_fd","constructor"
+"owned_fd","unclassified","~owned_fd","destructor"
+"owned_fd","unclassified","operatorint","get"
+"owned_fd","unclassified","release","property set"
+"owned_fd","unclassified","swap","wrapper"
+"ModuleBase","degenerate","onLoad","empty"
+"ModuleBase","degenerate","preAppSpecialize","empty"
+"ModuleBase","degenerate","postAppSpecialize","empty"
+"ModuleBase","degenerate","preServerSpecialize","empty"
+"ModuleBase","degenerate","postServerSpecialize","empty"
+"mmap_data","empty","mmap_data::mmap_data","constructor"
+"mmap_data","empty","mmap_data::mmap_data","constructor"
+"mmap_data","empty","mmap_data::~mmap_data","destructor"
+"dyn_img_hdr_boot","degenerate small-class","is_vendor","incidental"
+"fd_stream","data-provider boundary","fd_stream","constructor"
+"fd_stream","data-provider boundary","fd_stream::read","property wrapper"
+"fd_stream","data-provider boundary","fd_stream::do_write","property wrapper"
+"fd_stream","data-provider boundary","fd_stream::readv","property wrapper"
+"fd_stream","data-provider boundary","fd_stream::writev","property wrapper"
+"Utf8CStr","unclassified","Utf8CStr","constructor"
+"Utf8CStr","unclassified","Utf8CStr","constructor"
+"Utf8CStr","unclassified","Utf8CStr","constructor"
+"Utf8CStr","unclassified","Utf8CStr","constructor"
+"Utf8CStr","unclassified","c_str","controller stateless"
+"Utf8CStr","unclassified","size","controller stateless"
+"Utf8CStr","unclassified","empty","controller stateless"
+"Utf8CStr","unclassified","operatorstd::string_view","non-void-command"
+"Utf8CStr","unclassified","rust::Utf8CStr::Utf8CStr","constructor"
+"Utf8CStr","unclassified","rust::Utf8CStr::data","property wrapper"
+"Utf8CStr","unclassified","rust::Utf8CStr::length","property wrapper"
+"AppSpecializeArgs_v3","empty","AppSpecializeArgs_v3","constructor"
+"Fmt2Ext","boundary degenerate small-class","Fmt2Ext::operator[]","collaborator incidental"
+"filter_out_stream","small-class","filter_out_stream","constructor"
+"filter_out_stream","small-class","filter_out_stream::write","predicate non-void-command"
+"file_stream","boundary degenerate small-class","file_stream::write","wrapper stateless"
+"run_finally","empty","run_finally","constructor"
+"run_finally","empty","~run_finally","destructor"
+"prop_collector","commander small-class","prop_collector","constructor"
+"prop_collector","commander small-class","exec","command"
+"byte_array","empty","byte_array","constructor"
+"dyn_img_v1","degenerate small-class","extra_size","wrapper stateless"
+"dyn_img_v1","degenerate small-class","extra_size","incidental"
+"heap_data","empty","heap_data","constructor"
+"heap_data","empty","~heap_data","destructor"
+"out_stream","boundary degenerate small-class","out_stream::writev","wrapper stateless"
+"gz_strm","small-class","write","predicate non-void-command"
+"gz_strm","small-class","~gz_strm","destructor"
+"gz_strm","small-class","gz_strm","constructor"
+"gz_strm","small-class","do_write","predicate non-void-command"
+"gz_decoder","empty","gz_decoder","constructor"
+"FirstStageInit","commander small-class","FirstStageInit","constructor"
+"FirstStageInit","commander small-class","start","command"
+"FirstStageInit","commander small-class","FirstStageInit::prepare","command"
+"bz_strm","small-class","write","predicate non-void-command"
+"bz_strm","small-class","~bz_strm","destructor"
+"bz_strm","small-class","bz_strm","constructor"
+"bz_strm","small-class","do_write","predicate non-void-command"
+"db_settings","boundary degenerate small-class","db_settings::db_settings","constructor"
+"db_settings","boundary degenerate small-class","db_settings::get_idx","collaborator incidental"
+"bz_encoder","empty","bz_encoder","constructor"
+"SecondStageInit","small-class","SecondStageInit","constructor"
+"SecondStageInit","small-class","start","command"
+"SecondStageInit","small-class","SecondStageInit::prepare","predicate set"
+"lzma_strm","small-class","write","predicate non-void-command"
+"lzma_strm","small-class","~lzma_strm","destructor"
+"lzma_strm","small-class","lzma_strm","constructor"
+"lzma_strm","small-class","do_write","predicate non-void-command collaborator"
+"dyn_img_vnd_v3","degenerate","hdr_space","wrapper stateless"
+"dyn_img_vnd_v3","degenerate","extra_cmdline","incidental"
+"dyn_img_vnd_v3","degenerate","extra_cmdline","incidental"
+"xz_encoder","empty","xz_encoder","constructor"
+"lzma_encoder","empty","lzma_encoder","constructor"
+"LZ4F_encoder","small-class","LZ4F_encoder","constructor"
+"LZ4F_encoder","small-class","write","predicate non-void-command"
+"LZ4F_encoder","small-class","~LZ4F_encoder","destructor"
+"boot_img","entity data-provider boundary","get_payload","get collaborator"
+"boot_img","entity data-provider boundary","get_tail","get collaborator"
+"boot_img","entity data-provider boundary","boot_img::create_hdr","property non-void-command factory collaborator"
+"boot_img","entity data-provider boundary","boot_img::parse_image","predicate non-void-command collaborator"
+"boot_img","entity data-provider boundary","boot_img::verify","predicate wrapper"
+"LZ4_decoder","small-class","LZ4_decoder","constructor"
+"LZ4_decoder","small-class","~LZ4_decoder","destructor"
+"LZ4_decoder","small-class","write_chunk","predicate non-void-command"
+"LZ4_encoder","data-class small-class","LZ4_encoder","constructor"
+"LZ4_encoder","data-class small-class","~LZ4_encoder","destructor"
+"LZ4_encoder","data-class small-class","write_chunk","predicate set"
+"Fmt2Name","boundary degenerate small-class","Fmt2Name::operator[]","collaborator incidental"
+"root_node","empty","root_node","constructor"
+"root_node","empty","root_node","constructor"
+"Name2Fmt","boundary degenerate small-class","Name2Fmt::operator[]","collaborator incidental"
+"zygisk_node","commander small-class","zygisk_node","constructor"
+"zygisk_node","commander small-class","mount","command"
+"MagiskD","data-provider","MagiskD::post_fs_data","predicate collaborator"
+"MagiskD","data-provider","MagiskD::late_start","unclassified"
+"MagiskD","data-provider","MagiskD::boot_complete","unclassified"
+"MagiskD","data-provider","MagiskD::get","wrapper stateless"
+"MagiskD","data-provider","MagiskD::operator->","property"
+"MagiskD","data-provider","MagiskD::as_rust","property"
+"MagiskD","data-provider","MagiskD::reboot","unclassified"
+"dir_node","boundary","~dir_node","destructor"
+"dir_node","boundary","mount","controller"
+"dir_node","boundary","is_empty","predicate non-void-command"
+"dir_node","boundary","get_child","property non-void-command collaborator"
+"dir_node","boundary","root","get set collaborator"
+"dir_node","boundary","extract","property non-void-command collaborator"
+"dir_node","boundary","insert","predicate non-void-command collaborator"
+"dir_node","boundary","emplace","property non-void-command factory collaborator"
+"dir_node","boundary","upgrade","property non-void-command collaborator"
+"dir_node","boundary","dir_node","constructor"
+"dir_node","boundary","dir_node","constructor"
+"dir_node","boundary","dir_node","constructor"
+"dir_node","boundary","consume","command collaborator"
+"dir_node","boundary","replace","incidental"
+"dir_node","boundary","set_replace","incidental"
+"dir_node","boundary","iterator_to_node","property non-void-command collaborator"
+"dir_node","boundary","insert","property non-void-command collaborator"
+"dir_node","boundary","insert_at","property non-void-command collaborator"
+"dir_node","boundary","upgrade","wrapper stateless"
+"dir_node","boundary","dir_node::prepare","predicate non-void-command"
+"dir_node","boundary","dir_node::collect_module_files","command collaborator"
+"inter_node","empty","inter_node","constructor"
+"inter_node","empty","inter_node","constructor"
+"module_node","commander small-class","module_node","constructor"
+"module_node","commander small-class","module_node","constructor"
+"module_node","commander small-class","module_node::mount","command"
+"prop_to_string","commander small-class","exec","command"
+"su_info","entity boundary","su_info::su_info","constructor"
+"su_info","entity boundary","su_info::~su_info","destructor"
+"su_info","entity boundary","su_info::lock","property wrapper"
+"su_info","entity boundary","su_info::is_fresh","predicate wrapper"
+"su_info","entity boundary","su_info::refresh","set collaborator"
+"su_info","entity boundary","su_info::check_db","command"
+"byte_view","data-provider boundary","byte_view","constructor"
+"byte_view","data-provider boundary","byte_view","constructor"
+"byte_view","data-provider boundary","byte_view","copy-constructor"
+"byte_view","data-provider boundary","byte_view","constructor"
+"byte_view","data-provider boundary","operatorrust::Slice<constuint8_t>","wrapper"
+"byte_view","data-provider boundary","byte_view","constructor"
+"byte_view","data-provider boundary","byte_view","constructor"
+"byte_view","data-provider boundary","byte_view","constructor"
+"byte_view","data-provider boundary","byte_view","constructor"
+"byte_view","data-provider boundary","buf","get"
+"byte_view","data-provider boundary","sz","get"
+"byte_view","data-provider boundary","byte_view","constructor"
+"byte_view","data-provider boundary","byte_view::contains","predicate wrapper"
+"byte_view","data-provider boundary","byte_view::equals","predicate wrapper"
+"byte_view","data-provider boundary","byte_view::clone","property wrapper"
+"stateless_allocator","unclassified","allocate","property non-void-command collaborator"
+"stateless_allocator","unclassified","deallocate","command"
+"stateless_allocator","unclassified","stateless_allocator","copy-constructor"
+"stateless_allocator","unclassified","operator==","incidental"
+"stateless_allocator","unclassified","operator!=","incidental"
+"db_dict","data-provider boundary data-class","operator[]","get wrapper"
+"db_dict","data-provider boundary data-class","operator[]","get wrapper"
+"db_dict","data-provider boundary data-class","operator[]","get collaborator"
+"db_dict","data-provider boundary data-class","operator[]","get collaborator"
+"Api","unclassified","Api::connectCompanion","property non-void-command"
+"Api","unclassified","Api::getModuleDir","property non-void-command"
+"Api","unclassified","Api::setOption","command collaborator"
+"Api","unclassified","Api::getFlags","property non-void-command"
+"Api","unclassified","Api::exemptFd","predicate non-void-command"
+"Api","unclassified","Api::hookJniNativeMethods","command"
+"Api","unclassified","Api::pltHookRegister","command"
+"Api","unclassified","Api::pltHookCommit","predicate non-void-command"
+"module_abi","empty","module_abi","constructor"
+"byte_stream","unclassified","byte_stream","constructor"
+"byte_stream","unclassified","byte_stream::read","property set collaborator"
+"byte_stream","unclassified","byte_stream::write","predicate non-void-command"
+"byte_stream","unclassified","byte_stream::resize","command"
+"AppSpecializeArgs_v5","empty","AppSpecializeArgs_v5","constructor"

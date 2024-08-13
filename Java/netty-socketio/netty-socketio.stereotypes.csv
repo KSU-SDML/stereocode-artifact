@@ -1,667 +1,675 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"WebSocketTransportTest","small-class","testCloseFrame","command collaborator",
-"WebSocketTransportTest","small-class","createChannel","factory collaborator stateless",
-"HttpTransportTest","commander","createTestServer","command collaborator",
-"HttpTransportTest","commander","cleanupTestServer","command",
-"HttpTransportTest","commander","createTestServerUri","property non-void-command factory collaborator",
-"HttpTransportTest","commander","makeSocketIoRequest","property non-void-command",
-"HttpTransportTest","commander","postMessage","command",
-"HttpTransportTest","commander","pollForListOfResponses","property non-void-command",
-"HttpTransportTest","commander","connectForSessionId","property non-void-command collaborator",
-"HttpTransportTest","commander","testConnect","command",
-"HttpTransportTest","commander","testMultipleMessages","command",
-"PayloadTest","unclassified","testPayloadDecode","command collaborator",
-"PayloadTest","unclassified","testPayloadEncode","controller stateless",
-"PayloadTest","unclassified","testDecodingNewline","command collaborator",
-"EncoderEventPacketTest","pure-controller degenerate","testEncode","controller stateless",
-"EncoderEventPacketTest","pure-controller degenerate","testEncodeWithMessageIdAndAck","controller stateless",
-"EncoderEventPacketTest","pure-controller degenerate","testEncodeWithData","controller stateless",
-"DecoderMessagePacketTest","commander boundary","testDecodeId","command collaborator",
-"DecoderMessagePacketTest","commander boundary","testDecode","command collaborator",
-"DecoderMessagePacketTest","commander boundary","testDecodeWithIdAndEndpoint","command collaborator",
-"DecoderJsonPacketTest","commander boundary","testUTF8Decode","command collaborator",
-"DecoderJsonPacketTest","commander boundary","testDecode","command collaborator",
-"DecoderJsonPacketTest","commander boundary","testDecodeWithMessageIdAndAckData","command",
-"DecoderConnectionPacketTest","commander boundary","testDecodeHeartbeat","command collaborator",
-"DecoderConnectionPacketTest","commander boundary","testDecode","command collaborator",
-"DecoderConnectionPacketTest","commander boundary","testDecodeWithQueryString","command collaborator",
-"DecoderConnectionPacketTest","commander boundary","testDecodeDisconnection","command collaborator",
-"EncoderAckPacketTest","pure-controller degenerate small-class","testEncode","controller stateless",
-"EncoderAckPacketTest","pure-controller degenerate small-class","testEncodeWithArgs","controller stateless",
-"DecoderBaseTest","commander data-class small-class","before","set",
-"DecoderAckPacketTest","commander","testDecode","command collaborator",
-"DecoderAckPacketTest","commander","testDecodeWithArgs","command collaborator",
-"DecoderAckPacketTest","commander","initExpectations","command",
-"DecoderAckPacketTest","commander","testDecodeWithBadJson","command",
-"EncoderConnectionPacketTest","pure-controller degenerate","testEncodeHeartbeat","empty",
-"EncoderConnectionPacketTest","pure-controller degenerate","testEncodeDisconnection","controller stateless",
-"EncoderConnectionPacketTest","pure-controller degenerate","testEncode","controller stateless",
-"EncoderConnectionPacketTest","pure-controller degenerate","testEncodePacketWithQueryString","controller stateless",
-"JoinIteratorsTest","pure-controller degenerate small-class","testIterator","controller stateless",
-"WebSocketTransport","commander boundary","WebSocketTransport","constructor",
-"WebSocketTransport","commander boundary","channelRead","command collaborator",
-"WebSocketTransport","commander boundary","channelReadComplete","command collaborator",
-"WebSocketTransport","commander boundary","channelInactive","command collaborator",
-"WebSocketTransport","commander boundary","handshake","command collaborator",
-"WebSocketTransport","commander boundary","connectClient","command collaborator",
-"WebSocketTransport","commander boundary","getWebSocketLocation","property controller",
-"PollingTransport","commander boundary","PollingTransport","constructor",
-"PollingTransport","commander boundary","channelRead","command collaborator",
-"PollingTransport","commander boundary","handleMessage","command collaborator",
-"PollingTransport","commander boundary","onOptions","command collaborator",
-"PollingTransport","commander boundary","onPost","command collaborator",
-"PollingTransport","commander boundary","onGet","command collaborator",
-"PollingTransport","commander boundary","sendError","controller stateless",
-"PollingTransport","commander boundary","channelInactive","command collaborator",
-"NamespaceClient","boundary","NamespaceClient","constructor",
-"NamespaceClient","boundary","getBaseClient","get collaborator",
-"NamespaceClient","boundary","getTransport","property non-void-command collaborator",
-"NamespaceClient","boundary","getEngineIOVersion","property non-void-command collaborator",
-"NamespaceClient","boundary","isChannelOpen","predicate non-void-command",
-"NamespaceClient","boundary","getNamespace","get collaborator",
-"NamespaceClient","boundary","sendEvent","command collaborator",
-"NamespaceClient","boundary","sendEvent","command collaborator",
-"NamespaceClient","boundary","isConnected","predicate non-void-command",
-"NamespaceClient","boundary","isWritable","predicate non-void-command",
-"NamespaceClient","boundary","send","command collaborator",
-"NamespaceClient","boundary","send","command collaborator",
-"NamespaceClient","boundary","onDisconnect","command",
-"NamespaceClient","boundary","disconnect","command collaborator",
-"NamespaceClient","boundary","getSessionId","property non-void-command collaborator",
-"NamespaceClient","boundary","getRemoteAddress","property non-void-command collaborator",
-"NamespaceClient","boundary","hashCode","property non-void-command",
-"NamespaceClient","boundary","equals","predicate non-void-command collaborator",
-"NamespaceClient","boundary","joinRoom","command",
-"NamespaceClient","boundary","joinRooms","command",
-"NamespaceClient","boundary","leaveRoom","command",
-"NamespaceClient","boundary","leaveRooms","command",
-"NamespaceClient","boundary","set","command collaborator",
-"NamespaceClient","boundary","get","property non-void-command collaborator",
-"NamespaceClient","boundary","has","predicate non-void-command",
-"NamespaceClient","boundary","del","command",
-"NamespaceClient","boundary","getAllRooms","property non-void-command",
-"NamespaceClient","boundary","getCurrentRoomSize","property non-void-command",
-"NamespaceClient","boundary","getHandshakeData","property non-void-command collaborator",
-"ConnectMessage","data-provider boundary data-class small-class","ConnectMessage","constructor",
-"ConnectMessage","data-provider boundary data-class small-class","ConnectMessage","constructor",
-"ConnectMessage","data-provider boundary data-class small-class","getSessionId","get collaborator",
-"MemoryPubSubStore","degenerate","publish","empty",
-"MemoryPubSubStore","degenerate","subscribe","empty",
-"MemoryPubSubStore","degenerate","unsubscribe","empty",
-"MemoryPubSubStore","degenerate","shutdown","empty",
-"HazelcastStoreFactory","entity boundary","HazelcastStoreFactory","constructor",
-"HazelcastStoreFactory","entity boundary","HazelcastStoreFactory","constructor",
-"HazelcastStoreFactory","entity boundary","HazelcastStoreFactory","constructor",
-"HazelcastStoreFactory","entity boundary","createStore","property factory collaborator",
-"HazelcastStoreFactory","entity boundary","shutdown","command",
-"HazelcastStoreFactory","entity boundary","pubSubStore","get collaborator",
-"HazelcastStoreFactory","entity boundary","createMap","property non-void-command collaborator",
-"HazelcastStore","unclassified","HazelcastStore","constructor",
-"HazelcastStore","unclassified","set","command collaborator",
-"HazelcastStore","unclassified","get","property non-void-command collaborator",
-"HazelcastStore","unclassified","has","predicate non-void-command",
-"HazelcastStore","unclassified","del","command",
-"HazelcastPubSubStore","commander boundary","HazelcastPubSubStore","constructor",
-"HazelcastPubSubStore","commander boundary","publish","command collaborator",
-"HazelcastPubSubStore","commander boundary","subscribe","command collaborator",
-"HazelcastPubSubStore","commander boundary","unsubscribe","command collaborator",
-"HazelcastPubSubStore","commander boundary","shutdown","empty",
-"HashedWheelTimeoutScheduler","commander boundary","HashedWheelTimeoutScheduler","constructor",
-"HashedWheelTimeoutScheduler","commander boundary","HashedWheelTimeoutScheduler","constructor",
-"HashedWheelTimeoutScheduler","commander boundary","update","set collaborator",
-"HashedWheelTimeoutScheduler","commander boundary","cancel","command collaborator",
-"HashedWheelTimeoutScheduler","commander boundary","schedule","command collaborator",
-"HashedWheelTimeoutScheduler","commander boundary","scheduleCallback","command collaborator",
-"HashedWheelTimeoutScheduler","commander boundary","schedule","command collaborator",
-"HashedWheelTimeoutScheduler","commander boundary","shutdown","command",
-"HashedWheelTimeoutScheduler","commander boundary","replaceScheduledFuture","command collaborator",
-"Packet","boundary","Packet","constructor",
-"Packet","boundary","Packet","copy-constructor",
-"Packet","boundary","Packet","copy-constructor",
-"Packet","boundary","getSubType","get collaborator",
-"Packet","boundary","setSubType","set collaborator",
-"Packet","boundary","getType","get collaborator",
-"Packet","boundary","setData","set collaborator",
-"Packet","boundary","getData","property collaborator",
-"Packet","boundary","withNsp","get property non-void-command factory collaborator",
-"Packet","boundary","setNsp","set",
-"Packet","boundary","getNsp","get",
-"Packet","boundary","getName","get",
-"Packet","boundary","setName","set",
-"Packet","boundary","getAckId","get",
-"Packet","boundary","setAckId","set",
-"Packet","boundary","isAckRequested","predicate non-void-command",
-"Packet","boundary","initAttachments","command",
-"Packet","boundary","addAttachment","command collaborator",
-"Packet","boundary","getAttachments","get collaborator",
-"Packet","boundary","hasAttachments","predicate",
-"Packet","boundary","isAttachmentsLoaded","predicate non-void-command",
-"Packet","boundary","getDataSource","get collaborator",
-"Packet","boundary","setDataSource","set collaborator",
-"Packet","boundary","getEngineIOVersion","get collaborator",
-"Packet","boundary","setEngineIOVersion","set collaborator",
-"Packet","boundary","toString","property",
-"JacksonJsonSupport","boundary","JacksonJsonSupport","constructor",
-"JacksonJsonSupport","boundary","JacksonJsonSupport","constructor",
-"JacksonJsonSupport","boundary","init","controller",
-"JacksonJsonSupport","boundary","addEventMapping","command collaborator",
-"JacksonJsonSupport","boundary","removeEventMapping","command",
-"JacksonJsonSupport","boundary","readValue","property non-void-command collaborator",
-"JacksonJsonSupport","boundary","readAckArgs","property non-void-command collaborator",
-"JacksonJsonSupport","boundary","writeValue","command collaborator",
-"JacksonJsonSupport","boundary","getArrays","property non-void-command",
-"NamespacesHub","entity boundary","NamespacesHub","constructor",
-"NamespacesHub","entity boundary","create","non-void-command factory collaborator",
-"NamespacesHub","entity boundary","getRoomClients","property non-void-command factory collaborator",
-"NamespacesHub","entity boundary","get","property non-void-command collaborator",
-"NamespacesHub","entity boundary","remove","command collaborator",
-"NamespacesHub","entity boundary","getAllNamespaces","property non-void-command collaborator",
-"EncoderMessagePacketTest","pure-controller degenerate small-class","testEncode","controller stateless",
-"EncoderMessagePacketTest","pure-controller degenerate small-class","testEncodeWithIdAndEndpoint","controller stateless",
-"Namespace","commander boundary","Namespace","constructor",
-"Namespace","commander boundary","addClient","command collaborator",
-"Namespace","commander boundary","getName","get",
-"Namespace","commander boundary","addMultiTypeEventListener","command collaborator",
-"Namespace","commander boundary","removeAllListeners","command collaborator",
-"Namespace","commander boundary","addEventListener","command collaborator",
-"Namespace","commander boundary","addEventInterceptor","command collaborator",
-"Namespace","commander boundary","onEvent","command collaborator",
-"Namespace","commander boundary","sendAck","controller",
-"Namespace","commander boundary","getEventData","factory controller stateless",
-"Namespace","commander boundary","addDisconnectListener","command collaborator",
-"Namespace","commander boundary","onDisconnect","command collaborator",
-"Namespace","commander boundary","addConnectListener","command collaborator",
-"Namespace","commander boundary","onConnect","command collaborator",
-"Namespace","commander boundary","addPingListener","command collaborator",
-"Namespace","commander boundary","addPongListener","command collaborator",
-"Namespace","commander boundary","onPing","command collaborator",
-"Namespace","commander boundary","onPong","command collaborator",
-"Namespace","commander boundary","getBroadcastOperations","property non-void-command factory collaborator",
-"Namespace","commander boundary","getRoomOperations","property non-void-command factory collaborator",
-"Namespace","commander boundary","getRoomOperations","property non-void-command factory collaborator",
-"Namespace","commander boundary","hashCode","property non-void-command",
-"Namespace","commander boundary","equals","predicate non-void-command collaborator",
-"Namespace","commander boundary","addListeners","command collaborator",
-"Namespace","commander boundary","addListeners","command collaborator",
-"Namespace","commander boundary","addListeners","command collaborator",
-"Namespace","commander boundary","joinRoom","command collaborator",
-"Namespace","commander boundary","joinRooms","command collaborator",
-"Namespace","commander boundary","dispatch","command collaborator",
-"Namespace","commander boundary","join","command collaborator",
-"Namespace","commander boundary","join","command collaborator",
-"Namespace","commander boundary","leaveRoom","command collaborator",
-"Namespace","commander boundary","leaveRooms","command collaborator",
-"Namespace","commander boundary","leave","controller stateless",
-"Namespace","commander boundary","leave","command collaborator",
-"Namespace","commander boundary","getRooms","property non-void-command collaborator",
-"Namespace","commander boundary","getRooms","property non-void-command",
-"Namespace","commander boundary","getRoomClients","property non-void-command factory collaborator",
-"Namespace","commander boundary","getRoomClientsInCluster","property non-void-command collaborator",
-"Namespace","commander boundary","getAllClients","property non-void-command collaborator",
-"Namespace","commander boundary","getJsonSupport","get collaborator",
-"Namespace","commander boundary","getClient","property non-void-command collaborator",
-"Namespace","commander boundary","addAuthTokenListener","command collaborator",
-"Namespace","commander boundary","onAuthData","property non-void-command factory collaborator",
-"DisconnectMessage","data-provider boundary data-class small-class","DisconnectMessage","constructor",
-"DisconnectMessage","data-provider boundary data-class small-class","DisconnectMessage","constructor",
-"DisconnectMessage","data-provider boundary data-class small-class","getSessionId","get collaborator",
-"EventEntry<T>","boundary small-class","EventEntry","constructor",
-"EventEntry<T>","boundary small-class","addListener","command collaborator",
-"EventEntry<T>","boundary small-class","getListeners","get collaborator",
-"IterableCollection<T>","small-class","IterableCollection","constructor",
-"IterableCollection<T>","small-class","IterableCollection","constructor",
-"IterableCollection<T>","small-class","iterator","property non-void-command factory collaborator",
-"IterableCollection<T>","small-class","size","property non-void-command",
-"DispatchMessage","data-provider data-class","DispatchMessage","constructor",
-"DispatchMessage","data-provider data-class","DispatchMessage","constructor",
-"DispatchMessage","data-provider data-class","getNamespace","get",
-"DispatchMessage","data-provider data-class","getPacket","get collaborator",
-"DispatchMessage","data-provider data-class","getRoom","get",
-"CompositeIterator<T>","entity boundary","CompositeIterator","constructor",
-"CompositeIterator<T>","entity boundary","hasNext","predicate non-void-command collaborator",
-"CompositeIterator<T>","entity boundary","next","property non-void-command collaborator",
-"CompositeIterator<T>","entity boundary","remove","command",
-"SingleRoomBroadcastOperations","unclassified","SingleRoomBroadcastOperations","constructor",
-"SingleRoomBroadcastOperations","unclassified","dispatch","command collaborator",
-"SingleRoomBroadcastOperations","unclassified","getClients","property factory collaborator",
-"SingleRoomBroadcastOperations","unclassified","send","command collaborator",
-"SingleRoomBroadcastOperations","unclassified","send","controller",
-"SingleRoomBroadcastOperations","unclassified","disconnect","controller",
-"SingleRoomBroadcastOperations","unclassified","sendEvent","command collaborator",
-"SingleRoomBroadcastOperations","unclassified","sendEvent","command collaborator",
-"SingleRoomBroadcastOperations","unclassified","sendEvent","command collaborator",
-"SingleRoomBroadcastOperations","unclassified","sendEvent","controller",
-"SingleRoomBroadcastOperations","unclassified","sendEvent","command collaborator",
-"SingleRoomBroadcastOperations","unclassified","sendEvent","controller",
-"RedissonStore","unclassified","RedissonStore","constructor",
-"RedissonStore","unclassified","set","command collaborator",
-"RedissonStore","unclassified","get","property non-void-command collaborator",
-"RedissonStore","unclassified","has","predicate non-void-command",
-"RedissonStore","unclassified","del","command",
-"RedissonPubSubStore","commander boundary","RedissonPubSubStore","constructor",
-"RedissonPubSubStore","commander boundary","publish","command collaborator",
-"RedissonPubSubStore","commander boundary","subscribe","command collaborator",
-"RedissonPubSubStore","commander boundary","unsubscribe","command collaborator",
-"RedissonPubSubStore","commander boundary","shutdown","empty",
-"UTF8CharsScanner","small-class","getCharTailIndex","property controller",
-"UTF8CharsScanner","small-class","getActualLength","property non-void-command",
-"RedissonStoreFactory","entity boundary","RedissonStoreFactory","constructor",
-"RedissonStoreFactory","entity boundary","RedissonStoreFactory","constructor",
-"RedissonStoreFactory","entity boundary","RedissonStoreFactory","constructor",
-"RedissonStoreFactory","entity boundary","createStore","property factory collaborator",
-"RedissonStoreFactory","entity boundary","pubSubStore","get collaborator",
-"RedissonStoreFactory","entity boundary","shutdown","command",
-"RedissonStoreFactory","entity boundary","createMap","property non-void-command collaborator",
-"AckSchedulerKey","unclassified","AckSchedulerKey","constructor",
-"AckSchedulerKey","unclassified","getIndex","get",
-"AckSchedulerKey","unclassified","hashCode","property non-void-command",
-"AckSchedulerKey","unclassified","equals","predicate non-void-command collaborator",
-"BaseStoreFactory","unclassified","getNodeId","get",
-"BaseStoreFactory","unclassified","init","command collaborator",
-"BaseStoreFactory","unclassified","onDisconnect","empty",
-"BaseStoreFactory","unclassified","toString","wrapper stateless",
-"AuthPacket","data-provider data-class","AuthPacket","constructor",
-"AuthPacket","data-provider data-class","getPingInterval","get",
-"AuthPacket","data-provider data-class","getPingTimeout","get",
-"AuthPacket","data-provider data-class","getSid","get collaborator",
-"AuthPacket","data-provider data-class","getUpgrades","get",
-"AckManager","entity boundary","AckManager","constructor",
-"AckManager","entity boundary","initAckIndex","command collaborator",
-"AckManager","entity boundary","getAckEntry","non-void-command factory collaborator",
-"AckManager","entity boundary","onAck","void-accessor command collaborator",
-"AckManager","entity boundary","removeCallback","property non-void-command collaborator",
-"AckManager","entity boundary","getCallback","property non-void-command collaborator",
-"AckManager","entity boundary","registerAck","property non-void-command collaborator",
-"AckManager","entity boundary","scheduleTimeout","command collaborator",
-"AckManager","entity boundary","onDisconnect","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","SocketIOServer","constructor",
-"SocketIOServer","entity minimal-entity commander boundary","setPipelineFactory","set collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","getAllClients","property non-void-command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","getClient","property non-void-command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","getAllNamespaces","property non-void-command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","getBroadcastOperations","property non-void-command factory collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","getRoomOperations","property non-void-command factory collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","start","command",
-"SocketIOServer","entity minimal-entity commander boundary","startAsync","property non-void-command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","applyConnectionOptions","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","initGroups","command",
-"SocketIOServer","entity minimal-entity commander boundary","stop","command",
-"SocketIOServer","entity minimal-entity commander boundary","addNamespace","property non-void-command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","getNamespace","property non-void-command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","removeNamespace","command",
-"SocketIOServer","entity minimal-entity commander boundary","getConfiguration","get collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","addMultiTypeEventListener","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","addEventListener","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","addEventInterceptor","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","removeAllListeners","command",
-"SocketIOServer","entity minimal-entity commander boundary","addDisconnectListener","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","addConnectListener","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","addPingListener","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","addPongListener","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","addListeners","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","addListeners","command collaborator",
-"SocketIOServer","entity minimal-entity commander boundary","addListeners","command collaborator",
-"SocketConfig","data-class","isTcpNoDelay","get",
-"SocketConfig","data-class","setTcpNoDelay","set",
-"SocketConfig","data-class","getTcpSendBufferSize","get",
-"SocketConfig","data-class","setTcpSendBufferSize","set",
-"SocketConfig","data-class","getTcpReceiveBufferSize","get",
-"SocketConfig","data-class","setTcpReceiveBufferSize","set",
-"SocketConfig","data-class","isTcpKeepAlive","get",
-"SocketConfig","data-class","setTcpKeepAlive","set",
-"SocketConfig","data-class","getSoLinger","get",
-"SocketConfig","data-class","setSoLinger","set",
-"SocketConfig","data-class","isReuseAddress","get",
-"SocketConfig","data-class","setReuseAddress","set",
-"SocketConfig","data-class","getAcceptBackLog","get",
-"SocketConfig","data-class","setAcceptBackLog","set",
-"SocketConfig","data-class","getWriteBufferWaterMarkLow","get",
-"SocketConfig","data-class","setWriteBufferWaterMarkLow","set",
-"SocketConfig","data-class","getWriteBufferWaterMarkHigh","get",
-"SocketConfig","data-class","setWriteBufferWaterMarkHigh","set",
-"WrongUrlHandler","commander boundary small-class","channelRead","command collaborator",
-"MultiTypeAckCallback","data-provider boundary data-class small-class","MultiTypeAckCallback","constructor",
-"MultiTypeAckCallback","data-provider boundary data-class small-class","getResultClasses","get collaborator",
-"MemoryStore","unclassified","set","command collaborator",
-"MemoryStore","unclassified","get","property non-void-command collaborator",
-"MemoryStore","unclassified","has","predicate non-void-command",
-"MemoryStore","unclassified","del","command",
-"SchedulerKey","small-class","SchedulerKey","constructor",
-"SchedulerKey","small-class","hashCode","property non-void-command",
-"SchedulerKey","small-class","equals","predicate non-void-command collaborator",
-"TransportState","boundary data-class","setPacketsQueue","set collaborator",
-"TransportState","boundary data-class","getPacketsQueue","get collaborator",
-"TransportState","boundary data-class","getChannel","get collaborator",
-"TransportState","boundary data-class","update","property set collaborator",
-"AckCallback<T>","data-provider lazy-class","AckCallback","constructor",
-"AckCallback<T>","data-provider lazy-class","AckCallback","constructor",
-"AckCallback<T>","data-provider lazy-class","getTimeout","get",
-"AckCallback<T>","data-provider lazy-class","onTimeout","empty",
-"AckCallback<T>","data-provider lazy-class","getResultClass","get collaborator",
-"MemoryStoreFactory","boundary lazy-class degenerate","createStore","factory collaborator stateless",
-"MemoryStoreFactory","boundary lazy-class degenerate","pubSubStore","get collaborator",
-"MemoryStoreFactory","boundary lazy-class degenerate","shutdown","empty",
-"MemoryStoreFactory","boundary lazy-class degenerate","toString","wrapper stateless",
-"MemoryStoreFactory","boundary lazy-class degenerate","createMap","wrapper stateless",
-"SocketIOChannelInitializer","commander boundary","handlerAdded","command collaborator",
-"SocketIOChannelInitializer","commander boundary","start","command collaborator",
-"SocketIOChannelInitializer","commander boundary","initChannel","command collaborator",
-"SocketIOChannelInitializer","commander boundary","addSslHandler","command collaborator",
-"SocketIOChannelInitializer","commander boundary","addSocketioHandlers","command collaborator",
-"SocketIOChannelInitializer","commander boundary","createSSLContext","controller stateless",
-"SocketIOChannelInitializer","commander boundary","onDisconnect","command collaborator",
-"SocketIOChannelInitializer","commander boundary","stop","command collaborator",
-"AckRequest","entity commander boundary","AckRequest","constructor",
-"AckRequest","entity commander boundary","isAckRequested","predicate non-void-command",
-"AckRequest","entity commander boundary","sendAckData","command collaborator",
-"AckRequest","entity commander boundary","sendAckData","command collaborator",
-"OnDisconnectScanner","degenerate","getScanAnnotation","collaborator incidental",
-"OnDisconnectScanner","degenerate","addListener","controller stateless",
-"OnDisconnectScanner","degenerate","validate","controller stateless",
-"Configuration","unclassified","Configuration","constructor",
-"Configuration","unclassified","Configuration","copy-constructor",
-"Configuration","unclassified","getJsonSupport","get collaborator",
-"Configuration","unclassified","setJsonSupport","set collaborator",
-"Configuration","unclassified","getHostname","get",
-"Configuration","unclassified","setHostname","set",
-"Configuration","unclassified","getPort","get",
-"Configuration","unclassified","setPort","set",
-"Configuration","unclassified","getBossThreads","get",
-"Configuration","unclassified","setBossThreads","set",
-"Configuration","unclassified","getWorkerThreads","get",
-"Configuration","unclassified","setWorkerThreads","set",
-"Configuration","unclassified","setPingInterval","set",
-"Configuration","unclassified","getPingInterval","get",
-"Configuration","unclassified","setPingTimeout","set",
-"Configuration","unclassified","getPingTimeout","get",
-"Configuration","unclassified","isHeartbeatsEnabled","predicate",
-"Configuration","unclassified","getContext","get",
-"Configuration","unclassified","setContext","set",
-"Configuration","unclassified","isAllowCustomRequests","get",
-"Configuration","unclassified","setAllowCustomRequests","set",
-"Configuration","unclassified","setKeyStorePassword","set",
-"Configuration","unclassified","getKeyStorePassword","get",
-"Configuration","unclassified","setKeyStore","set collaborator",
-"Configuration","unclassified","getKeyStore","get collaborator",
-"Configuration","unclassified","setKeyStoreFormat","set",
-"Configuration","unclassified","getKeyStoreFormat","get",
-"Configuration","unclassified","setMaxHttpContentLength","set",
-"Configuration","unclassified","getMaxHttpContentLength","get",
-"Configuration","unclassified","setTransports","set collaborator",
-"Configuration","unclassified","getTransports","get collaborator",
-"Configuration","unclassified","setPackagePrefix","set",
-"Configuration","unclassified","getPackagePrefix","get",
-"Configuration","unclassified","setPreferDirectBuffer","set",
-"Configuration","unclassified","isPreferDirectBuffer","get",
-"Configuration","unclassified","setStoreFactory","set collaborator",
-"Configuration","unclassified","getStoreFactory","get collaborator",
-"Configuration","unclassified","setAuthorizationListener","set collaborator",
-"Configuration","unclassified","getAuthorizationListener","get collaborator",
-"Configuration","unclassified","setExceptionListener","set collaborator",
-"Configuration","unclassified","getExceptionListener","get collaborator",
-"Configuration","unclassified","getSocketConfig","get collaborator",
-"Configuration","unclassified","setSocketConfig","set collaborator",
-"Configuration","unclassified","setAckMode","set collaborator",
-"Configuration","unclassified","getAckMode","get collaborator",
-"Configuration","unclassified","getTrustStoreFormat","get",
-"Configuration","unclassified","setTrustStoreFormat","set",
-"Configuration","unclassified","getTrustStore","get collaborator",
-"Configuration","unclassified","setTrustStore","set collaborator",
-"Configuration","unclassified","getTrustStorePassword","get",
-"Configuration","unclassified","setTrustStorePassword","set",
-"Configuration","unclassified","getKeyManagerFactoryAlgorithm","get",
-"Configuration","unclassified","setKeyManagerFactoryAlgorithm","set",
-"Configuration","unclassified","setMaxFramePayloadLength","set",
-"Configuration","unclassified","getMaxFramePayloadLength","get",
-"Configuration","unclassified","setUpgradeTimeout","set",
-"Configuration","unclassified","getUpgradeTimeout","get",
-"Configuration","unclassified","setAddVersionHeader","set",
-"Configuration","unclassified","isAddVersionHeader","get",
-"Configuration","unclassified","setOrigin","set",
-"Configuration","unclassified","getOrigin","get",
-"Configuration","unclassified","isUseLinuxNativeEpoll","get",
-"Configuration","unclassified","setUseLinuxNativeEpoll","set",
-"Configuration","unclassified","setSSLProtocol","set",
-"Configuration","unclassified","getSSLProtocol","get",
-"Configuration","unclassified","setAllowHeaders","set",
-"Configuration","unclassified","getAllowHeaders","get",
-"Configuration","unclassified","setFirstDataTimeout","set",
-"Configuration","unclassified","getFirstDataTimeout","get",
-"Configuration","unclassified","setHttpCompression","set",
-"Configuration","unclassified","isHttpCompression","get",
-"Configuration","unclassified","setWebsocketCompression","set",
-"Configuration","unclassified","isWebsocketCompression","get",
-"Configuration","unclassified","isRandomSession","get",
-"Configuration","unclassified","setRandomSession","set",
-"Configuration","unclassified","setNeedClientAuth","set",
-"Configuration","unclassified","isNeedClientAuth","get",
-"CompositeIterable<T>","factory controller small-class","CompositeIterable","constructor",
-"CompositeIterable<T>","factory controller small-class","CompositeIterable","constructor",
-"CompositeIterable<T>","factory controller small-class","CompositeIterable","copy-constructor",
-"CompositeIterable<T>","factory controller small-class","iterator","property factory controller",
-"ScannerEngine","unclassified","findSimilarMethod","property non-void-command collaborator",
-"ScannerEngine","unclassified","scan","command collaborator",
-"ScannerEngine","unclassified","isEquals","controller stateless",
-"ScannerEngine","unclassified","makeAccessible","controller stateless",
-"JoinLeaveMessage","data-provider data-class","JoinLeaveMessage","constructor",
-"JoinLeaveMessage","data-provider data-class","JoinLeaveMessage","constructor",
-"JoinLeaveMessage","data-provider data-class","getNamespace","get",
-"JoinLeaveMessage","data-provider data-class","getSessionId","get collaborator",
-"JoinLeaveMessage","data-provider data-class","getRoom","get",
-"BulkJoinLeaveMessage","data-provider data-class","BulkJoinLeaveMessage","constructor",
-"BulkJoinLeaveMessage","data-provider data-class","BulkJoinLeaveMessage","constructor",
-"BulkJoinLeaveMessage","data-provider data-class","getNamespace","get",
-"BulkJoinLeaveMessage","data-provider data-class","getSessionId","get collaborator",
-"BulkJoinLeaveMessage","data-provider data-class","getRooms","get",
-"OnConnectScanner","degenerate","getScanAnnotation","collaborator incidental",
-"OnConnectScanner","degenerate","addListener","controller stateless",
-"OnConnectScanner","degenerate","validate","controller stateless",
-"AuthTokenResult","data-provider data-class small-class","AuthTokenResult","constructor",
-"AuthTokenResult","data-provider data-class small-class","isSuccess","get",
-"AuthTokenResult","data-provider data-class small-class","getErrorData","get collaborator",
-"HashedWheelScheduler","commander boundary","HashedWheelScheduler","constructor",
-"HashedWheelScheduler","commander boundary","HashedWheelScheduler","constructor",
-"HashedWheelScheduler","commander boundary","update","set collaborator",
-"HashedWheelScheduler","commander boundary","cancel","command collaborator",
-"HashedWheelScheduler","commander boundary","schedule","command collaborator",
-"HashedWheelScheduler","commander boundary","scheduleCallback","command collaborator",
-"HashedWheelScheduler","commander boundary","schedule","command collaborator",
-"HashedWheelScheduler","commander boundary","shutdown","command",
-"HandshakeData","data-provider boundary","HandshakeData","constructor",
-"HandshakeData","data-provider boundary","HandshakeData","constructor",
-"HandshakeData","data-provider boundary","HandshakeData","constructor",
-"HandshakeData","data-provider boundary","getAddress","get collaborator",
-"HandshakeData","data-provider boundary","getLocal","get collaborator",
-"HandshakeData","data-provider boundary","getHttpHeaders","get collaborator",
-"HandshakeData","data-provider boundary","getTime","get collaborator",
-"HandshakeData","data-provider boundary","getUrl","get",
-"HandshakeData","data-provider boundary","isXdomain","get",
-"HandshakeData","data-provider boundary","getUrlParams","get",
-"HandshakeData","data-provider boundary","getSingleUrlParam","property non-void-command",
-"HandshakeData","data-provider boundary","setAuthToken","set collaborator",
-"HandshakeData","data-provider boundary","getAuthToken","get collaborator",
-"MultiRoomBroadcastOperations","commander boundary","MultiRoomBroadcastOperations","constructor",
-"MultiRoomBroadcastOperations","commander boundary","getClients","non-void-command factory collaborator",
-"MultiRoomBroadcastOperations","commander boundary","send","command collaborator",
-"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator",
-"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator",
-"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator",
-"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator",
-"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator",
-"MultiRoomBroadcastOperations","commander boundary","send","command collaborator",
-"MultiRoomBroadcastOperations","commander boundary","disconnect","command collaborator",
-"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator",
-"AckArgs","data-provider boundary data-class small-class","AckArgs","constructor",
-"AckArgs","data-provider boundary data-class small-class","getArgs","get collaborator",
-"BroadcastAckCallback<T>","commander","BroadcastAckCallback","constructor",
-"BroadcastAckCallback<T>","commander","BroadcastAckCallback","constructor",
-"BroadcastAckCallback<T>","commander","createClientCallback","property non-void-command factory collaborator",
-"BroadcastAckCallback<T>","commander","onClientTimeout","empty",
-"BroadcastAckCallback<T>","commander","onClientSuccess","empty",
-"BroadcastAckCallback<T>","commander","onAllSuccess","empty",
-"BroadcastAckCallback<T>","commander","executeSuccess","command",
-"BroadcastAckCallback<T>","commander","loopFinished","command",
-"PacketEncoder","boundary","PacketEncoder","constructor",
-"PacketEncoder","boundary","getJsonSupport","get collaborator",
-"PacketEncoder","boundary","allocateBuffer","property non-void-command collaborator",
-"PacketEncoder","boundary","encodeJsonP","command collaborator",
-"PacketEncoder","boundary","processUtf8","controller stateless",
-"PacketEncoder","boundary","encodePackets","command collaborator",
-"PacketEncoder","boundary","toChar","incidental",
-"PacketEncoder","boundary","encodePacket","command",
-"MultiTypeArgs","entity boundary","MultiTypeArgs","constructor",
-"MultiTypeArgs","entity boundary","isEmpty","predicate non-void-command",
-"MultiTypeArgs","entity boundary","size","property non-void-command",
-"MultiTypeArgs","entity boundary","getArgs","get collaborator",
-"MultiTypeArgs","entity boundary","first","property non-void-command collaborator",
-"MultiTypeArgs","entity boundary","second","property non-void-command collaborator",
-"MultiTypeArgs","entity boundary","get","property non-void-command collaborator",
-"MultiTypeArgs","entity boundary","iterator","property non-void-command collaborator",
-"PacketDecoder","unclassified","PacketDecoder","constructor",
-"PacketDecoder","unclassified","isStringPacket","controller stateless",
-"PacketDecoder","unclassified","preprocessJson","controller stateless",
-"PacketDecoder","unclassified","readLong","controller stateless",
-"PacketDecoder","unclassified","readType","controller stateless",
-"PacketDecoder","unclassified","readInnerType","controller stateless",
-"PacketDecoder","unclassified","hasLengthHeader","controller stateless",
-"PacketDecoder","unclassified","decodePackets","property non-void-command collaborator",
-"PacketDecoder","unclassified","readString","property non-void-command collaborator",
-"PacketDecoder","unclassified","readString","controller stateless",
-"PacketDecoder","unclassified","decode","property non-void-command factory collaborator",
-"PacketDecoder","unclassified","parseHeader","command collaborator",
-"PacketDecoder","unclassified","parseBinary","property non-void-command factory collaborator",
-"PacketDecoder","unclassified","parseBody","command collaborator",
-"PacketDecoder","unclassified","readNamespace","property non-void-command",
-"PacketsMessage","data-provider boundary data-class","PacketsMessage","constructor",
-"PacketsMessage","data-provider boundary data-class","getTransport","get collaborator",
-"PacketsMessage","data-provider boundary data-class","getClient","get collaborator",
-"PacketsMessage","data-provider boundary data-class","getContent","get collaborator",
-"SuccessAuthorizationListener","boundary degenerate small-class","getAuthorizationResult","collaborator incidental",
-"PacketTest","controller degenerate","packetCopyIsCreatedWhenNamespaceDiffers","command collaborator",
-"PacketTest","controller degenerate","packetCopyIsCreatedWhenNewNamespaceDiffersAndIsNull","command collaborator",
-"PacketTest","controller degenerate","originalPacketReturnedIfNamespaceIsTheSame","controller stateless",
-"PacketTest","controller degenerate","assertPacketCopied","controller stateless",
-"PacketTest","controller degenerate","createPacket","factory controller stateless",
-"PacketListener","commander boundary small-class","PacketListener","constructor",
-"PacketListener","commander boundary small-class","onPacket","command collaborator",
-"XHRPostMessage","empty","XHRPostMessage","constructor",
-"ExceptionListenerAdapter","degenerate","onEventException","empty",
-"ExceptionListenerAdapter","degenerate","onDisconnectException","empty",
-"ExceptionListenerAdapter","degenerate","onConnectException","empty",
-"ExceptionListenerAdapter","degenerate","exceptionCaught","collaborator incidental",
-"ExceptionListenerAdapter","degenerate","onPingException","empty",
-"ExceptionListenerAdapter","degenerate","onPongException","empty",
-"VoidAckCallback","commander small-class","VoidAckCallback","constructor",
-"VoidAckCallback","commander small-class","VoidAckCallback","constructor",
-"VoidAckCallback","commander small-class","onSuccess","command",
-"OnEventScanner","degenerate","getScanAnnotation","collaborator incidental",
-"OnEventScanner","degenerate","addListener","command collaborator",
-"OnEventScanner","degenerate","dataIndexes","controller stateless",
-"OnEventScanner","degenerate","paramIndex","controller stateless",
-"OnEventScanner","degenerate","validate","command collaborator",
-"SpringAnnotationScanner","entity boundary small-class","SpringAnnotationScanner","constructor",
-"SpringAnnotationScanner","entity boundary small-class","postProcessAfterInitialization","property non-void-command collaborator",
-"SpringAnnotationScanner","entity boundary small-class","postProcessBeforeInitialization","property non-void-command collaborator",
-"PubSubMessage","data-class small-class","getNodeId","get",
-"PubSubMessage","data-class small-class","setNodeId","set",
-"OutPacketMessage","data-provider boundary data-class small-class","OutPacketMessage","constructor",
-"OutPacketMessage","data-provider boundary data-class small-class","getTransport","get collaborator",
-"OutPacketMessage","data-provider boundary data-class small-class","getClientHead","get collaborator",
-"AuthorizationResult","data-provider data-class small-class","AuthorizationResult","constructor",
-"AuthorizationResult","data-provider data-class small-class","AuthorizationResult","constructor",
-"AuthorizationResult","data-provider data-class small-class","isAuthorized","get",
-"AuthorizationResult","data-provider data-class small-class","getStoreParams","get collaborator",
-"AuthorizeHandler","commander boundary","AuthorizeHandler","constructor",
-"AuthorizeHandler","commander boundary","channelActive","command collaborator",
-"AuthorizeHandler","commander boundary","channelRead","command collaborator",
-"AuthorizeHandler","commander boundary","authorize","predicate non-void-command collaborator",
-"AuthorizeHandler","commander boundary","writeAndFlushTransportError","controller stateless",
-"AuthorizeHandler","commander boundary","generateOrGetSessionIdFromRequest","property non-void-command collaborator",
-"AuthorizeHandler","commander boundary","connect","command collaborator",
-"AuthorizeHandler","commander boundary","connect","command collaborator",
-"AuthorizeHandler","commander boundary","onDisconnect","command collaborator",
-"Event","data-provider data-class small-class","Event","constructor",
-"Event","data-provider data-class small-class","Event","constructor",
-"Event","data-provider data-class small-class","getArgs","get collaborator",
-"Event","data-provider data-class small-class","getName","get",
-"ConnPacket","data-provider boundary data-class small-class","ConnPacket","constructor",
-"ConnPacket","data-provider boundary data-class small-class","getSid","get collaborator",
-"DefaultExceptionListener","entity commander boundary","onEventException","command collaborator",
-"DefaultExceptionListener","entity commander boundary","onDisconnectException","command collaborator",
-"DefaultExceptionListener","entity commander boundary","onConnectException","command collaborator",
-"DefaultExceptionListener","entity commander boundary","onPingException","command collaborator",
-"DefaultExceptionListener","entity commander boundary","onPongException","command collaborator",
-"DefaultExceptionListener","entity commander boundary","exceptionCaught","predicate non-void-command collaborator",
-"DefaultExceptionListener","entity commander boundary","onAuthException","command collaborator",
-"ClientHead","boundary","ClientHead","constructor",
-"ClientHead","boundary","bindChannel","command collaborator",
-"ClientHead","boundary","releasePollingChannel","command collaborator",
-"ClientHead","boundary","getOrigin","property non-void-command",
-"ClientHead","boundary","send","property non-void-command collaborator",
-"ClientHead","boundary","cancelPing","command collaborator",
-"ClientHead","boundary","cancelPingTimeout","command collaborator",
-"ClientHead","boundary","schedulePing","command collaborator",
-"ClientHead","boundary","schedulePingTimeout","command",
-"ClientHead","boundary","send","property non-void-command collaborator",
-"ClientHead","boundary","sendPackets","property controller",
-"ClientHead","boundary","removeNamespaceClient","command collaborator",
-"ClientHead","boundary","getChildClient","property non-void-command collaborator",
-"ClientHead","boundary","addNamespaceClient","non-void-command factory collaborator",
-"ClientHead","boundary","getNamespaces","property non-void-command collaborator",
-"ClientHead","boundary","isConnected","predicate non-void-command",
-"ClientHead","boundary","onChannelDisconnect","command collaborator",
-"ClientHead","boundary","getHandshakeData","get collaborator",
-"ClientHead","boundary","getAckManager","get collaborator",
-"ClientHead","boundary","getSessionId","get collaborator",
-"ClientHead","boundary","getRemoteAddress","property non-void-command collaborator",
-"ClientHead","boundary","disconnect","command collaborator",
-"ClientHead","boundary","isChannelOpen","predicate non-void-command collaborator",
-"ClientHead","boundary","getStore","get collaborator",
-"ClientHead","boundary","isTransportChannel","predicate non-void-command collaborator",
-"ClientHead","boundary","upgradeCurrentTransport","command collaborator",
-"ClientHead","boundary","getCurrentTransport","get collaborator",
-"ClientHead","boundary","getPacketsQueue","property non-void-command collaborator",
-"ClientHead","boundary","setLastBinaryPacket","set collaborator",
-"ClientHead","boundary","getLastBinaryPacket","get collaborator",
-"ClientHead","boundary","getEngineIOVersion","get collaborator",
-"ClientHead","boundary","isWritable","predicate non-void-command collaborator",
-"JsonSupportWrapper","entity boundary","JsonSupportWrapper","constructor",
-"JsonSupportWrapper","entity boundary","readAckArgs","property non-void-command collaborator",
-"JsonSupportWrapper","entity boundary","readValue","property non-void-command collaborator",
-"JsonSupportWrapper","entity boundary","writeValue","command collaborator",
-"JsonSupportWrapper","entity boundary","addEventMapping","command collaborator",
-"JsonSupportWrapper","entity boundary","removeEventMapping","command",
-"JsonSupportWrapper","entity boundary","getArrays","property non-void-command",
-"ClientsBox","entity commander boundary","getHandshakeData","property non-void-command collaborator",
-"ClientsBox","entity commander boundary","addClient","command collaborator",
-"ClientsBox","entity commander boundary","removeClient","command collaborator",
-"ClientsBox","entity commander boundary","get","property non-void-command collaborator",
-"ClientsBox","entity commander boundary","add","command collaborator",
-"ClientsBox","entity commander boundary","remove","command collaborator",
-"ClientsBox","entity commander boundary","get","property non-void-command collaborator",
-"EncoderHandler","commander boundary","EncoderHandler","constructor",
-"EncoderHandler","commander boundary","readVersion","set",
-"EncoderHandler","commander boundary","write","command collaborator",
-"EncoderHandler","commander boundary","write","command collaborator",
-"EncoderHandler","commander boundary","sendMessage","command collaborator",
-"EncoderHandler","commander boundary","sendMessage","command collaborator",
-"EncoderHandler","commander boundary","sendError","command collaborator",
-"EncoderHandler","commander boundary","addOriginHeaders","command collaborator",
-"EncoderHandler","commander boundary","write","command collaborator",
-"EncoderHandler","commander boundary","handleWebsocket","command collaborator",
-"EncoderHandler","commander boundary","handleHTTP","command collaborator",
-"InPacketHandler","commander boundary small-class","InPacketHandler","constructor",
-"InPacketHandler","commander boundary small-class","channelRead0","command collaborator",
-"InPacketHandler","commander boundary small-class","exceptionCaught","command collaborator",
-"SocketIOException","empty","SocketIOException","constructor",
-"SocketIOException","empty","SocketIOException","constructor",
-"SocketIOException","empty","SocketIOException","constructor",
-"DecoderEventPacketTest","unclassified","testDecode","command collaborator",
-"DecoderEventPacketTest","unclassified","testDecodeWithMessageIdAndAck","command collaborator",
-"DecoderEventPacketTest","unclassified","testDecodeWithData","controller",
-"HttpErrorMessage","data-provider boundary data-class small-class","HttpErrorMessage","constructor",
-"HttpErrorMessage","data-provider boundary data-class small-class","getData","get collaborator",
-"HttpMessage","data-provider data-class small-class","HttpMessage","constructor",
-"HttpMessage","data-provider data-class small-class","getOrigin","get",
-"HttpMessage","data-provider data-class small-class","getSessionId","get collaborator",
-"XHROptionsMessage","empty","XHROptionsMessage","constructor",
+"WebSocketTransportTest","small-class","testCloseFrame","command collaborator"
+"WebSocketTransportTest","small-class","createChannel","factory collaborator stateless"
+"HttpTransportTest","commander","createTestServer","command collaborator"
+"HttpTransportTest","commander","cleanupTestServer","command"
+"HttpTransportTest","commander","createTestServerUri","property non-void-command factory collaborator"
+"HttpTransportTest","commander","makeSocketIoRequest","property non-void-command"
+"HttpTransportTest","commander","postMessage","command"
+"HttpTransportTest","commander","pollForListOfResponses","property non-void-command"
+"HttpTransportTest","commander","connectForSessionId","property non-void-command collaborator"
+"HttpTransportTest","commander","testConnect","command"
+"HttpTransportTest","commander","testMultipleMessages","command"
+"PayloadTest","unclassified","testPayloadDecode","command collaborator"
+"PayloadTest","unclassified","testPayloadEncode","controller stateless"
+"PayloadTest","unclassified","testDecodingNewline","command collaborator"
+"EncoderEventPacketTest","pure-controller degenerate","testEncode","controller stateless"
+"EncoderEventPacketTest","pure-controller degenerate","testEncodeWithMessageIdAndAck","controller stateless"
+"EncoderEventPacketTest","pure-controller degenerate","testEncodeWithData","controller stateless"
+"DecoderMessagePacketTest","commander boundary","testDecodeId","command collaborator"
+"DecoderMessagePacketTest","commander boundary","testDecode","command collaborator"
+"DecoderMessagePacketTest","commander boundary","testDecodeWithIdAndEndpoint","command collaborator"
+"DecoderJsonPacketTest","commander boundary","testUTF8Decode","command collaborator"
+"DecoderJsonPacketTest","commander boundary","testDecode","command collaborator"
+"DecoderJsonPacketTest","commander boundary","testDecodeWithMessageIdAndAckData","command"
+"DecoderConnectionPacketTest","commander boundary","testDecodeHeartbeat","command collaborator"
+"DecoderConnectionPacketTest","commander boundary","testDecode","command collaborator"
+"DecoderConnectionPacketTest","commander boundary","testDecodeWithQueryString","command collaborator"
+"DecoderConnectionPacketTest","commander boundary","testDecodeDisconnection","command collaborator"
+"EncoderAckPacketTest","pure-controller degenerate small-class","testEncode","controller stateless"
+"EncoderAckPacketTest","pure-controller degenerate small-class","testEncodeWithArgs","controller stateless"
+"DecoderBaseTest","commander data-class small-class","before","set"
+"DecoderAckPacketTest","commander","testDecode","command collaborator"
+"DecoderAckPacketTest","commander","testDecodeWithArgs","command collaborator"
+"DecoderAckPacketTest","commander","initExpectations","command"
+"DecoderAckPacketTest","commander","testDecodeWithBadJson","command"
+"EncoderConnectionPacketTest","pure-controller degenerate","testEncodeHeartbeat","empty"
+"EncoderConnectionPacketTest","pure-controller degenerate","testEncodeDisconnection","controller stateless"
+"EncoderConnectionPacketTest","pure-controller degenerate","testEncode","controller stateless"
+"EncoderConnectionPacketTest","pure-controller degenerate","testEncodePacketWithQueryString","controller stateless"
+"JoinIteratorsTest","pure-controller degenerate small-class","testIterator","controller stateless"
+"WebSocketTransport","commander boundary","WebSocketTransport","constructor"
+"WebSocketTransport","commander boundary","channelRead","command collaborator"
+"WebSocketTransport","commander boundary","channelReadComplete","command collaborator"
+"WebSocketTransport","commander boundary","channelInactive","command collaborator"
+"WebSocketTransport","commander boundary","handshake","command collaborator"
+"WebSocketTransport","commander boundary","connectClient","command collaborator"
+"WebSocketTransport","commander boundary","getWebSocketLocation","property controller"
+"PollingTransport","commander boundary","PollingTransport","constructor"
+"PollingTransport","commander boundary","channelRead","command collaborator"
+"PollingTransport","commander boundary","handleMessage","command collaborator"
+"PollingTransport","commander boundary","onOptions","command collaborator"
+"PollingTransport","commander boundary","onPost","command collaborator"
+"PollingTransport","commander boundary","onGet","command collaborator"
+"PollingTransport","commander boundary","sendError","controller stateless"
+"PollingTransport","commander boundary","channelInactive","command collaborator"
+"NamespaceClient","boundary","NamespaceClient","constructor"
+"NamespaceClient","boundary","getBaseClient","get collaborator"
+"NamespaceClient","boundary","getTransport","property non-void-command collaborator"
+"NamespaceClient","boundary","getEngineIOVersion","property non-void-command collaborator"
+"NamespaceClient","boundary","isChannelOpen","predicate non-void-command"
+"NamespaceClient","boundary","getNamespace","get collaborator"
+"NamespaceClient","boundary","sendEvent","command collaborator"
+"NamespaceClient","boundary","sendEvent","command collaborator"
+"NamespaceClient","boundary","isConnected","predicate non-void-command"
+"NamespaceClient","boundary","isWritable","predicate non-void-command"
+"NamespaceClient","boundary","send","command collaborator"
+"NamespaceClient","boundary","send","command collaborator"
+"NamespaceClient","boundary","onDisconnect","command"
+"NamespaceClient","boundary","disconnect","command collaborator"
+"NamespaceClient","boundary","getSessionId","property non-void-command collaborator"
+"NamespaceClient","boundary","getRemoteAddress","property non-void-command collaborator"
+"NamespaceClient","boundary","hashCode","property non-void-command"
+"NamespaceClient","boundary","equals","predicate non-void-command collaborator"
+"NamespaceClient","boundary","joinRoom","command"
+"NamespaceClient","boundary","joinRooms","command"
+"NamespaceClient","boundary","leaveRoom","command"
+"NamespaceClient","boundary","leaveRooms","command"
+"NamespaceClient","boundary","set","command collaborator"
+"NamespaceClient","boundary","get","property non-void-command collaborator"
+"NamespaceClient","boundary","has","predicate non-void-command"
+"NamespaceClient","boundary","del","command"
+"NamespaceClient","boundary","getAllRooms","property non-void-command"
+"NamespaceClient","boundary","getCurrentRoomSize","property non-void-command"
+"NamespaceClient","boundary","getHandshakeData","property non-void-command collaborator"
+"ConnectMessage","data-provider boundary data-class small-class","ConnectMessage","constructor"
+"ConnectMessage","data-provider boundary data-class small-class","ConnectMessage","constructor"
+"ConnectMessage","data-provider boundary data-class small-class","getSessionId","get collaborator"
+"MemoryPubSubStore","degenerate","publish","empty"
+"MemoryPubSubStore","degenerate","subscribe","empty"
+"MemoryPubSubStore","degenerate","unsubscribe","empty"
+"MemoryPubSubStore","degenerate","shutdown","empty"
+"HazelcastStoreFactory","entity boundary","HazelcastStoreFactory","constructor"
+"HazelcastStoreFactory","entity boundary","HazelcastStoreFactory","constructor"
+"HazelcastStoreFactory","entity boundary","HazelcastStoreFactory","constructor"
+"HazelcastStoreFactory","entity boundary","createStore","property factory collaborator"
+"HazelcastStoreFactory","entity boundary","shutdown","command"
+"HazelcastStoreFactory","entity boundary","pubSubStore","get collaborator"
+"HazelcastStoreFactory","entity boundary","createMap","property non-void-command collaborator"
+"HazelcastStore","unclassified","HazelcastStore","constructor"
+"HazelcastStore","unclassified","set","command collaborator"
+"HazelcastStore","unclassified","get","property non-void-command collaborator"
+"HazelcastStore","unclassified","has","predicate non-void-command"
+"HazelcastStore","unclassified","del","command"
+"HazelcastPubSubStore","commander boundary","HazelcastPubSubStore","constructor"
+"HazelcastPubSubStore","commander boundary","publish","command collaborator"
+"HazelcastPubSubStore","commander boundary","subscribe","command collaborator"
+"HazelcastPubSubStore","commander boundary","unsubscribe","command collaborator"
+"HazelcastPubSubStore","commander boundary","shutdown","empty"
+"HashedWheelTimeoutScheduler","commander boundary","HashedWheelTimeoutScheduler","constructor"
+"HashedWheelTimeoutScheduler","commander boundary","HashedWheelTimeoutScheduler","constructor"
+"HashedWheelTimeoutScheduler","commander boundary","update","set collaborator"
+"HashedWheelTimeoutScheduler","commander boundary","cancel","command collaborator"
+"HashedWheelTimeoutScheduler","commander boundary","schedule","command collaborator"
+"HashedWheelTimeoutScheduler","commander boundary","scheduleCallback","command collaborator"
+"HashedWheelTimeoutScheduler","commander boundary","schedule","command collaborator"
+"HashedWheelTimeoutScheduler","commander boundary","shutdown","command"
+"HashedWheelTimeoutScheduler","commander boundary","replaceScheduledFuture","command collaborator"
+"JacksonJsonSupport","boundary","JacksonJsonSupport","constructor"
+"JacksonJsonSupport","boundary","JacksonJsonSupport","constructor"
+"JacksonJsonSupport","boundary","init","controller"
+"JacksonJsonSupport","boundary","addEventMapping","command collaborator"
+"JacksonJsonSupport","boundary","removeEventMapping","command"
+"JacksonJsonSupport","boundary","readValue","property non-void-command collaborator"
+"JacksonJsonSupport","boundary","readAckArgs","property non-void-command collaborator"
+"JacksonJsonSupport","boundary","writeValue","command collaborator"
+"JacksonJsonSupport","boundary","getArrays","property non-void-command"
+"NamespacesHub","entity boundary","NamespacesHub","constructor"
+"NamespacesHub","entity boundary","create","non-void-command factory collaborator"
+"NamespacesHub","entity boundary","getRoomClients","property non-void-command factory collaborator"
+"NamespacesHub","entity boundary","get","property non-void-command collaborator"
+"NamespacesHub","entity boundary","remove","command collaborator"
+"NamespacesHub","entity boundary","getAllNamespaces","property non-void-command collaborator"
+"EncoderMessagePacketTest","pure-controller degenerate small-class","testEncode","controller stateless"
+"EncoderMessagePacketTest","pure-controller degenerate small-class","testEncodeWithIdAndEndpoint","controller stateless"
+"Namespace","commander boundary","Namespace","constructor"
+"Namespace","commander boundary","addClient","command collaborator"
+"Namespace","commander boundary","getName","get"
+"Namespace","commander boundary","addMultiTypeEventListener","command collaborator"
+"Namespace","commander boundary","removeAllListeners","command collaborator"
+"Namespace","commander boundary","addEventListener","command collaborator"
+"Namespace","commander boundary","addEventInterceptor","command collaborator"
+"Namespace","commander boundary","onEvent","command collaborator"
+"Namespace","commander boundary","sendAck","controller"
+"Namespace","commander boundary","getEventData","factory controller stateless"
+"Namespace","commander boundary","addDisconnectListener","command collaborator"
+"Namespace","commander boundary","onDisconnect","command collaborator"
+"Namespace","commander boundary","addConnectListener","command collaborator"
+"Namespace","commander boundary","onConnect","command collaborator"
+"Namespace","commander boundary","addPingListener","command collaborator"
+"Namespace","commander boundary","addPongListener","command collaborator"
+"Namespace","commander boundary","onPing","command collaborator"
+"Namespace","commander boundary","onPong","command collaborator"
+"Namespace","commander boundary","getBroadcastOperations","property non-void-command factory collaborator"
+"Namespace","commander boundary","getRoomOperations","property non-void-command factory collaborator"
+"Namespace","commander boundary","getRoomOperations","property non-void-command factory collaborator"
+"Namespace","commander boundary","hashCode","property non-void-command"
+"Namespace","commander boundary","equals","predicate non-void-command collaborator"
+"Namespace","commander boundary","addListeners","command collaborator"
+"Namespace","commander boundary","addListeners","command collaborator"
+"Namespace","commander boundary","addListeners","command collaborator"
+"Namespace","commander boundary","joinRoom","command collaborator"
+"Namespace","commander boundary","joinRooms","command collaborator"
+"Namespace","commander boundary","dispatch","command collaborator"
+"Namespace","commander boundary","join","command collaborator"
+"Namespace","commander boundary","join","command collaborator"
+"Namespace","commander boundary","leaveRoom","command collaborator"
+"Namespace","commander boundary","leaveRooms","command collaborator"
+"Namespace","commander boundary","leave","controller stateless"
+"Namespace","commander boundary","leave","command collaborator"
+"Namespace","commander boundary","getRooms","property non-void-command collaborator"
+"Namespace","commander boundary","getRooms","property non-void-command"
+"Namespace","commander boundary","getRoomClients","property non-void-command factory collaborator"
+"Namespace","commander boundary","getRoomClientsInCluster","property non-void-command collaborator"
+"Namespace","commander boundary","getAllClients","property non-void-command collaborator"
+"Namespace","commander boundary","getJsonSupport","get collaborator"
+"Namespace","commander boundary","getClient","property non-void-command collaborator"
+"Namespace","commander boundary","addAuthTokenListener","command collaborator"
+"Namespace","commander boundary","onAuthData","property non-void-command factory collaborator"
+"DisconnectMessage","data-provider boundary data-class small-class","DisconnectMessage","constructor"
+"DisconnectMessage","data-provider boundary data-class small-class","DisconnectMessage","constructor"
+"DisconnectMessage","data-provider boundary data-class small-class","getSessionId","get collaborator"
+"EventEntry<T>","boundary small-class","EventEntry","constructor"
+"EventEntry<T>","boundary small-class","addListener","command collaborator"
+"EventEntry<T>","boundary small-class","getListeners","get collaborator"
+"IterableCollection<T>","small-class","IterableCollection","constructor"
+"IterableCollection<T>","small-class","IterableCollection","constructor"
+"IterableCollection<T>","small-class","iterator","property non-void-command factory collaborator"
+"IterableCollection<T>","small-class","size","property non-void-command"
+"DispatchMessage","data-provider data-class","DispatchMessage","constructor"
+"DispatchMessage","data-provider data-class","DispatchMessage","constructor"
+"DispatchMessage","data-provider data-class","getNamespace","get"
+"DispatchMessage","data-provider data-class","getPacket","get collaborator"
+"DispatchMessage","data-provider data-class","getRoom","get"
+"CompositeIterator<T>","entity boundary","CompositeIterator","constructor"
+"CompositeIterator<T>","entity boundary","hasNext","predicate non-void-command collaborator"
+"CompositeIterator<T>","entity boundary","next","property non-void-command collaborator"
+"CompositeIterator<T>","entity boundary","remove","command"
+"XHROptionsMessage","empty","XHROptionsMessage","constructor"
+"RedissonStore","unclassified","RedissonStore","constructor"
+"RedissonStore","unclassified","set","command collaborator"
+"RedissonStore","unclassified","get","property non-void-command collaborator"
+"RedissonStore","unclassified","has","predicate non-void-command"
+"RedissonStore","unclassified","del","command"
+"RedissonPubSubStore","commander boundary","RedissonPubSubStore","constructor"
+"RedissonPubSubStore","commander boundary","publish","command collaborator"
+"RedissonPubSubStore","commander boundary","subscribe","command collaborator"
+"RedissonPubSubStore","commander boundary","unsubscribe","command collaborator"
+"RedissonPubSubStore","commander boundary","shutdown","empty"
+"UTF8CharsScanner","small-class","getCharTailIndex","property controller"
+"UTF8CharsScanner","small-class","getActualLength","property non-void-command"
+"RedissonStoreFactory","entity boundary","RedissonStoreFactory","constructor"
+"RedissonStoreFactory","entity boundary","RedissonStoreFactory","constructor"
+"RedissonStoreFactory","entity boundary","RedissonStoreFactory","constructor"
+"RedissonStoreFactory","entity boundary","createStore","property factory collaborator"
+"RedissonStoreFactory","entity boundary","pubSubStore","get collaborator"
+"RedissonStoreFactory","entity boundary","shutdown","command"
+"RedissonStoreFactory","entity boundary","createMap","property non-void-command collaborator"
+"AckSchedulerKey","unclassified","AckSchedulerKey","constructor"
+"AckSchedulerKey","unclassified","getIndex","get"
+"AckSchedulerKey","unclassified","hashCode","property non-void-command"
+"AckSchedulerKey","unclassified","equals","predicate non-void-command collaborator"
+"BaseStoreFactory","unclassified","getNodeId","get"
+"BaseStoreFactory","unclassified","init","command collaborator"
+"BaseStoreFactory","unclassified","onDisconnect","empty"
+"BaseStoreFactory","unclassified","toString","wrapper stateless"
+"AuthPacket","data-provider data-class","AuthPacket","constructor"
+"AuthPacket","data-provider data-class","getPingInterval","get"
+"AuthPacket","data-provider data-class","getPingTimeout","get"
+"AuthPacket","data-provider data-class","getSid","get collaborator"
+"AuthPacket","data-provider data-class","getUpgrades","get"
+"AckManager","entity commander boundary","AckManager","constructor"
+"AckManager","entity commander boundary","initAckIndex","command collaborator"
+"AckManager","entity commander boundary","getAckEntry","non-void-command factory collaborator"
+"AckManager","entity commander boundary","onAck","command collaborator"
+"AckManager","entity commander boundary","removeCallback","property non-void-command collaborator"
+"AckManager","entity commander boundary","getCallback","property non-void-command collaborator"
+"AckManager","entity commander boundary","registerAck","property non-void-command collaborator"
+"AckManager","entity commander boundary","scheduleTimeout","command collaborator"
+"AckManager","entity commander boundary","onDisconnect","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","SocketIOServer","constructor"
+"SocketIOServer","entity minimal-entity commander boundary","setPipelineFactory","set collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","getAllClients","property non-void-command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","getClient","property non-void-command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","getAllNamespaces","property non-void-command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","getBroadcastOperations","property non-void-command factory collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","getRoomOperations","property non-void-command factory collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","start","command"
+"SocketIOServer","entity minimal-entity commander boundary","startAsync","property non-void-command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","applyConnectionOptions","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","initGroups","command"
+"SocketIOServer","entity minimal-entity commander boundary","stop","command"
+"SocketIOServer","entity minimal-entity commander boundary","addNamespace","property non-void-command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","getNamespace","property non-void-command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","removeNamespace","command"
+"SocketIOServer","entity minimal-entity commander boundary","getConfiguration","get collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","addMultiTypeEventListener","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","addEventListener","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","addEventInterceptor","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","removeAllListeners","command"
+"SocketIOServer","entity minimal-entity commander boundary","addDisconnectListener","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","addConnectListener","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","addPingListener","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","addPongListener","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","addListeners","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","addListeners","command collaborator"
+"SocketIOServer","entity minimal-entity commander boundary","addListeners","command collaborator"
+"SocketConfig","data-class","isTcpNoDelay","get"
+"SocketConfig","data-class","setTcpNoDelay","set"
+"SocketConfig","data-class","getTcpSendBufferSize","get"
+"SocketConfig","data-class","setTcpSendBufferSize","set"
+"SocketConfig","data-class","getTcpReceiveBufferSize","get"
+"SocketConfig","data-class","setTcpReceiveBufferSize","set"
+"SocketConfig","data-class","isTcpKeepAlive","get"
+"SocketConfig","data-class","setTcpKeepAlive","set"
+"SocketConfig","data-class","getSoLinger","get"
+"SocketConfig","data-class","setSoLinger","set"
+"SocketConfig","data-class","isReuseAddress","get"
+"SocketConfig","data-class","setReuseAddress","set"
+"SocketConfig","data-class","getAcceptBackLog","get"
+"SocketConfig","data-class","setAcceptBackLog","set"
+"SocketConfig","data-class","getWriteBufferWaterMarkLow","get"
+"SocketConfig","data-class","setWriteBufferWaterMarkLow","set"
+"SocketConfig","data-class","getWriteBufferWaterMarkHigh","get"
+"SocketConfig","data-class","setWriteBufferWaterMarkHigh","set"
+"SingleRoomBroadcastOperations","unclassified","SingleRoomBroadcastOperations","constructor"
+"SingleRoomBroadcastOperations","unclassified","dispatch","command collaborator"
+"SingleRoomBroadcastOperations","unclassified","getClients","property factory collaborator"
+"SingleRoomBroadcastOperations","unclassified","send","command collaborator"
+"SingleRoomBroadcastOperations","unclassified","send","controller"
+"SingleRoomBroadcastOperations","unclassified","disconnect","controller"
+"SingleRoomBroadcastOperations","unclassified","sendEvent","command collaborator"
+"SingleRoomBroadcastOperations","unclassified","sendEvent","command collaborator"
+"SingleRoomBroadcastOperations","unclassified","sendEvent","command collaborator"
+"SingleRoomBroadcastOperations","unclassified","sendEvent","controller"
+"SingleRoomBroadcastOperations","unclassified","sendEvent","command collaborator"
+"SingleRoomBroadcastOperations","unclassified","sendEvent","controller"
+"WrongUrlHandler","commander boundary small-class","channelRead","command collaborator"
+"MultiTypeAckCallback","data-provider boundary data-class small-class","MultiTypeAckCallback","constructor"
+"MultiTypeAckCallback","data-provider boundary data-class small-class","getResultClasses","get collaborator"
+"MemoryStore","unclassified","set","command collaborator"
+"MemoryStore","unclassified","get","property non-void-command collaborator"
+"MemoryStore","unclassified","has","predicate non-void-command"
+"MemoryStore","unclassified","del","command"
+"SchedulerKey","small-class","SchedulerKey","constructor"
+"SchedulerKey","small-class","hashCode","property non-void-command"
+"SchedulerKey","small-class","equals","predicate non-void-command collaborator"
+"EngineIOVersion","data-provider data-class small-class","EngineIOVersion","constructor"
+"EngineIOVersion","data-provider data-class small-class","getValue","get"
+"TransportState","boundary data-class","setPacketsQueue","set collaborator"
+"TransportState","boundary data-class","getPacketsQueue","get collaborator"
+"TransportState","boundary data-class","getChannel","get collaborator"
+"TransportState","boundary data-class","update","property set collaborator"
+"HashedWheelScheduler","commander boundary","HashedWheelScheduler","constructor"
+"HashedWheelScheduler","commander boundary","HashedWheelScheduler","constructor"
+"HashedWheelScheduler","commander boundary","update","set collaborator"
+"HashedWheelScheduler","commander boundary","cancel","command collaborator"
+"HashedWheelScheduler","commander boundary","schedule","command collaborator"
+"HashedWheelScheduler","commander boundary","scheduleCallback","command collaborator"
+"HashedWheelScheduler","commander boundary","schedule","command collaborator"
+"HashedWheelScheduler","commander boundary","shutdown","command"
+"HandshakeData","data-provider boundary","HandshakeData","constructor"
+"HandshakeData","data-provider boundary","HandshakeData","constructor"
+"HandshakeData","data-provider boundary","HandshakeData","constructor"
+"HandshakeData","data-provider boundary","getAddress","get collaborator"
+"HandshakeData","data-provider boundary","getLocal","get collaborator"
+"HandshakeData","data-provider boundary","getHttpHeaders","get collaborator"
+"HandshakeData","data-provider boundary","getTime","get collaborator"
+"HandshakeData","data-provider boundary","getUrl","get"
+"HandshakeData","data-provider boundary","isXdomain","get"
+"HandshakeData","data-provider boundary","getUrlParams","get"
+"HandshakeData","data-provider boundary","getSingleUrlParam","property non-void-command"
+"HandshakeData","data-provider boundary","setAuthToken","set collaborator"
+"HandshakeData","data-provider boundary","getAuthToken","get collaborator"
+"JoinLeaveMessage","data-provider data-class","JoinLeaveMessage","constructor"
+"JoinLeaveMessage","data-provider data-class","JoinLeaveMessage","constructor"
+"JoinLeaveMessage","data-provider data-class","getNamespace","get"
+"JoinLeaveMessage","data-provider data-class","getSessionId","get collaborator"
+"JoinLeaveMessage","data-provider data-class","getRoom","get"
+"BulkJoinLeaveMessage","data-provider data-class","BulkJoinLeaveMessage","constructor"
+"BulkJoinLeaveMessage","data-provider data-class","BulkJoinLeaveMessage","constructor"
+"BulkJoinLeaveMessage","data-provider data-class","getNamespace","get"
+"BulkJoinLeaveMessage","data-provider data-class","getSessionId","get collaborator"
+"BulkJoinLeaveMessage","data-provider data-class","getRooms","get"
+"OnConnectScanner","degenerate","getScanAnnotation","collaborator incidental"
+"OnConnectScanner","degenerate","addListener","controller stateless"
+"OnConnectScanner","degenerate","validate","controller stateless"
+"AuthTokenResult","data-provider data-class small-class","AuthTokenResult","constructor"
+"AuthTokenResult","data-provider data-class small-class","isSuccess","get"
+"AuthTokenResult","data-provider data-class small-class","getErrorData","get collaborator"
+"AckCallback<T>","data-provider lazy-class","AckCallback","constructor"
+"AckCallback<T>","data-provider lazy-class","AckCallback","constructor"
+"AckCallback<T>","data-provider lazy-class","getTimeout","get"
+"AckCallback<T>","data-provider lazy-class","onTimeout","empty"
+"AckCallback<T>","data-provider lazy-class","getResultClass","get collaborator"
+"MemoryStoreFactory","boundary lazy-class degenerate","createStore","factory collaborator stateless"
+"MemoryStoreFactory","boundary lazy-class degenerate","pubSubStore","get collaborator"
+"MemoryStoreFactory","boundary lazy-class degenerate","shutdown","empty"
+"MemoryStoreFactory","boundary lazy-class degenerate","toString","wrapper stateless"
+"MemoryStoreFactory","boundary lazy-class degenerate","createMap","wrapper stateless"
+"SocketIOChannelInitializer","commander boundary","handlerAdded","command collaborator"
+"SocketIOChannelInitializer","commander boundary","start","command collaborator"
+"SocketIOChannelInitializer","commander boundary","initChannel","command collaborator"
+"SocketIOChannelInitializer","commander boundary","addSslHandler","command collaborator"
+"SocketIOChannelInitializer","commander boundary","addSocketioHandlers","command collaborator"
+"SocketIOChannelInitializer","commander boundary","createSSLContext","controller stateless"
+"SocketIOChannelInitializer","commander boundary","onDisconnect","command collaborator"
+"SocketIOChannelInitializer","commander boundary","stop","command collaborator"
+"AckRequest","entity commander boundary","AckRequest","constructor"
+"AckRequest","entity commander boundary","isAckRequested","predicate non-void-command"
+"AckRequest","entity commander boundary","sendAckData","command collaborator"
+"AckRequest","entity commander boundary","sendAckData","command collaborator"
+"CompositeIterable<T>","factory controller small-class","CompositeIterable","constructor"
+"CompositeIterable<T>","factory controller small-class","CompositeIterable","constructor"
+"CompositeIterable<T>","factory controller small-class","CompositeIterable","copy-constructor"
+"CompositeIterable<T>","factory controller small-class","iterator","property factory controller"
+"ScannerEngine","unclassified","findSimilarMethod","property non-void-command collaborator"
+"ScannerEngine","unclassified","scan","command collaborator"
+"ScannerEngine","unclassified","isEquals","controller stateless"
+"ScannerEngine","unclassified","makeAccessible","controller stateless"
+"MultiRoomBroadcastOperations","commander boundary","MultiRoomBroadcastOperations","constructor"
+"MultiRoomBroadcastOperations","commander boundary","getClients","non-void-command factory collaborator"
+"MultiRoomBroadcastOperations","commander boundary","send","command collaborator"
+"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator"
+"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator"
+"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator"
+"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator"
+"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator"
+"MultiRoomBroadcastOperations","commander boundary","send","command collaborator"
+"MultiRoomBroadcastOperations","commander boundary","disconnect","command collaborator"
+"MultiRoomBroadcastOperations","commander boundary","sendEvent","command collaborator"
+"Packet","boundary","Packet","constructor"
+"Packet","boundary","Packet","copy-constructor"
+"Packet","boundary","Packet","copy-constructor"
+"Packet","boundary","getSubType","get collaborator"
+"Packet","boundary","setSubType","set collaborator"
+"Packet","boundary","getType","get collaborator"
+"Packet","boundary","setData","set collaborator"
+"Packet","boundary","getData","property collaborator"
+"Packet","boundary","withNsp","get property non-void-command factory collaborator"
+"Packet","boundary","setNsp","set"
+"Packet","boundary","getNsp","get"
+"Packet","boundary","getName","get"
+"Packet","boundary","setName","set"
+"Packet","boundary","getAckId","get"
+"Packet","boundary","setAckId","set"
+"Packet","boundary","isAckRequested","predicate non-void-command"
+"Packet","boundary","initAttachments","command"
+"Packet","boundary","addAttachment","command collaborator"
+"Packet","boundary","getAttachments","get collaborator"
+"Packet","boundary","hasAttachments","predicate"
+"Packet","boundary","isAttachmentsLoaded","predicate non-void-command"
+"Packet","boundary","getDataSource","get collaborator"
+"Packet","boundary","setDataSource","set collaborator"
+"Packet","boundary","getEngineIOVersion","get collaborator"
+"Packet","boundary","setEngineIOVersion","set collaborator"
+"Packet","boundary","toString","property"
+"Transport","data-provider data-class small-class","Transport","constructor"
+"Transport","data-provider data-class small-class","getValue","get"
+"AckArgs","data-provider boundary data-class small-class","AckArgs","constructor"
+"AckArgs","data-provider boundary data-class small-class","getArgs","get collaborator"
+"BroadcastAckCallback<T>","commander","BroadcastAckCallback","constructor"
+"BroadcastAckCallback<T>","commander","BroadcastAckCallback","constructor"
+"BroadcastAckCallback<T>","commander","createClientCallback","property non-void-command factory collaborator"
+"BroadcastAckCallback<T>","commander","onClientTimeout","empty"
+"BroadcastAckCallback<T>","commander","onClientSuccess","empty"
+"BroadcastAckCallback<T>","commander","onAllSuccess","empty"
+"BroadcastAckCallback<T>","commander","executeSuccess","command"
+"BroadcastAckCallback<T>","commander","loopFinished","command"
+"PacketEncoder","boundary","PacketEncoder","constructor"
+"PacketEncoder","boundary","getJsonSupport","get collaborator"
+"PacketEncoder","boundary","allocateBuffer","property non-void-command collaborator"
+"PacketEncoder","boundary","encodeJsonP","command collaborator"
+"PacketEncoder","boundary","processUtf8","controller stateless"
+"PacketEncoder","boundary","encodePackets","command collaborator"
+"PacketEncoder","boundary","toChar","incidental"
+"PacketEncoder","boundary","encodePacket","command"
+"MultiTypeArgs","entity boundary","MultiTypeArgs","constructor"
+"MultiTypeArgs","entity boundary","isEmpty","predicate non-void-command"
+"MultiTypeArgs","entity boundary","size","property non-void-command"
+"MultiTypeArgs","entity boundary","getArgs","get collaborator"
+"MultiTypeArgs","entity boundary","first","property non-void-command collaborator"
+"MultiTypeArgs","entity boundary","second","property non-void-command collaborator"
+"MultiTypeArgs","entity boundary","get","property non-void-command collaborator"
+"MultiTypeArgs","entity boundary","iterator","property non-void-command collaborator"
+"PacketDecoder","unclassified","PacketDecoder","constructor"
+"PacketDecoder","unclassified","isStringPacket","controller stateless"
+"PacketDecoder","unclassified","preprocessJson","controller stateless"
+"PacketDecoder","unclassified","readLong","controller stateless"
+"PacketDecoder","unclassified","readType","controller stateless"
+"PacketDecoder","unclassified","readInnerType","controller stateless"
+"PacketDecoder","unclassified","hasLengthHeader","controller stateless"
+"PacketDecoder","unclassified","decodePackets","property non-void-command collaborator"
+"PacketDecoder","unclassified","readString","property non-void-command collaborator"
+"PacketDecoder","unclassified","readString","controller stateless"
+"PacketDecoder","unclassified","decode","property non-void-command factory collaborator"
+"PacketDecoder","unclassified","parseHeader","command collaborator"
+"PacketDecoder","unclassified","parseBinary","property non-void-command factory collaborator"
+"PacketDecoder","unclassified","parseBody","command collaborator"
+"PacketDecoder","unclassified","readNamespace","property non-void-command"
+"PacketsMessage","data-provider boundary data-class","PacketsMessage","constructor"
+"PacketsMessage","data-provider boundary data-class","getTransport","get collaborator"
+"PacketsMessage","data-provider boundary data-class","getClient","get collaborator"
+"PacketsMessage","data-provider boundary data-class","getContent","get collaborator"
+"SuccessAuthorizationListener","boundary degenerate small-class","getAuthorizationResult","collaborator incidental"
+"PacketTest","controller degenerate","packetCopyIsCreatedWhenNamespaceDiffers","command collaborator"
+"PacketTest","controller degenerate","packetCopyIsCreatedWhenNewNamespaceDiffersAndIsNull","command collaborator"
+"PacketTest","controller degenerate","originalPacketReturnedIfNamespaceIsTheSame","controller stateless"
+"PacketTest","controller degenerate","assertPacketCopied","controller stateless"
+"PacketTest","controller degenerate","createPacket","factory controller stateless"
+"PacketListener","commander boundary small-class","PacketListener","constructor"
+"PacketListener","commander boundary small-class","onPacket","command collaborator"
+"XHRPostMessage","empty","XHRPostMessage","constructor"
+"ExceptionListenerAdapter","degenerate","onEventException","empty"
+"ExceptionListenerAdapter","degenerate","onDisconnectException","empty"
+"ExceptionListenerAdapter","degenerate","onConnectException","empty"
+"ExceptionListenerAdapter","degenerate","exceptionCaught","collaborator incidental"
+"ExceptionListenerAdapter","degenerate","onPingException","empty"
+"ExceptionListenerAdapter","degenerate","onPongException","empty"
+"PubSubType","boundary degenerate small-class","toString","wrapper stateless"
+"Configuration","unclassified","Configuration","constructor"
+"Configuration","unclassified","Configuration","copy-constructor"
+"Configuration","unclassified","getJsonSupport","get collaborator"
+"Configuration","unclassified","setJsonSupport","set collaborator"
+"Configuration","unclassified","getHostname","get"
+"Configuration","unclassified","setHostname","set"
+"Configuration","unclassified","getPort","get"
+"Configuration","unclassified","setPort","set"
+"Configuration","unclassified","getBossThreads","get"
+"Configuration","unclassified","setBossThreads","set"
+"Configuration","unclassified","getWorkerThreads","get"
+"Configuration","unclassified","setWorkerThreads","set"
+"Configuration","unclassified","setPingInterval","set"
+"Configuration","unclassified","getPingInterval","get"
+"Configuration","unclassified","setPingTimeout","set"
+"Configuration","unclassified","getPingTimeout","get"
+"Configuration","unclassified","isHeartbeatsEnabled","predicate"
+"Configuration","unclassified","getContext","get"
+"Configuration","unclassified","setContext","set"
+"Configuration","unclassified","isAllowCustomRequests","get"
+"Configuration","unclassified","setAllowCustomRequests","set"
+"Configuration","unclassified","setKeyStorePassword","set"
+"Configuration","unclassified","getKeyStorePassword","get"
+"Configuration","unclassified","setKeyStore","set collaborator"
+"Configuration","unclassified","getKeyStore","get collaborator"
+"Configuration","unclassified","setKeyStoreFormat","set"
+"Configuration","unclassified","getKeyStoreFormat","get"
+"Configuration","unclassified","setMaxHttpContentLength","set"
+"Configuration","unclassified","getMaxHttpContentLength","get"
+"Configuration","unclassified","setTransports","set collaborator"
+"Configuration","unclassified","getTransports","get collaborator"
+"Configuration","unclassified","setPackagePrefix","set"
+"Configuration","unclassified","getPackagePrefix","get"
+"Configuration","unclassified","setPreferDirectBuffer","set"
+"Configuration","unclassified","isPreferDirectBuffer","get"
+"Configuration","unclassified","setStoreFactory","set collaborator"
+"Configuration","unclassified","getStoreFactory","get collaborator"
+"Configuration","unclassified","setAuthorizationListener","set collaborator"
+"Configuration","unclassified","getAuthorizationListener","get collaborator"
+"Configuration","unclassified","setExceptionListener","set collaborator"
+"Configuration","unclassified","getExceptionListener","get collaborator"
+"Configuration","unclassified","getSocketConfig","get collaborator"
+"Configuration","unclassified","setSocketConfig","set collaborator"
+"Configuration","unclassified","setAckMode","set collaborator"
+"Configuration","unclassified","getAckMode","get collaborator"
+"Configuration","unclassified","getTrustStoreFormat","get"
+"Configuration","unclassified","setTrustStoreFormat","set"
+"Configuration","unclassified","getTrustStore","get collaborator"
+"Configuration","unclassified","setTrustStore","set collaborator"
+"Configuration","unclassified","getTrustStorePassword","get"
+"Configuration","unclassified","setTrustStorePassword","set"
+"Configuration","unclassified","getKeyManagerFactoryAlgorithm","get"
+"Configuration","unclassified","setKeyManagerFactoryAlgorithm","set"
+"Configuration","unclassified","setMaxFramePayloadLength","set"
+"Configuration","unclassified","getMaxFramePayloadLength","get"
+"Configuration","unclassified","setUpgradeTimeout","set"
+"Configuration","unclassified","getUpgradeTimeout","get"
+"Configuration","unclassified","setAddVersionHeader","set"
+"Configuration","unclassified","isAddVersionHeader","get"
+"Configuration","unclassified","setOrigin","set"
+"Configuration","unclassified","getOrigin","get"
+"Configuration","unclassified","isUseLinuxNativeEpoll","get"
+"Configuration","unclassified","setUseLinuxNativeEpoll","set"
+"Configuration","unclassified","setSSLProtocol","set"
+"Configuration","unclassified","getSSLProtocol","get"
+"Configuration","unclassified","setAllowHeaders","set"
+"Configuration","unclassified","getAllowHeaders","get"
+"Configuration","unclassified","setFirstDataTimeout","set"
+"Configuration","unclassified","getFirstDataTimeout","get"
+"Configuration","unclassified","setHttpCompression","set"
+"Configuration","unclassified","isHttpCompression","get"
+"Configuration","unclassified","setWebsocketCompression","set"
+"Configuration","unclassified","isWebsocketCompression","get"
+"Configuration","unclassified","isRandomSession","get"
+"Configuration","unclassified","setRandomSession","set"
+"Configuration","unclassified","setNeedClientAuth","set"
+"Configuration","unclassified","isNeedClientAuth","get"
+"OnDisconnectScanner","degenerate","getScanAnnotation","collaborator incidental"
+"OnDisconnectScanner","degenerate","addListener","controller stateless"
+"OnDisconnectScanner","degenerate","validate","controller stateless"
+"PacketType","data-provider data-class small-class","PacketType","constructor"
+"PacketType","data-provider data-class small-class","PacketType","constructor"
+"PacketType","data-provider data-class small-class","getValue","get"
+"VoidAckCallback","commander small-class","VoidAckCallback","constructor"
+"VoidAckCallback","commander small-class","VoidAckCallback","constructor"
+"VoidAckCallback","commander small-class","onSuccess","command"
+"OnEventScanner","degenerate","getScanAnnotation","collaborator incidental"
+"OnEventScanner","degenerate","addListener","command collaborator"
+"OnEventScanner","degenerate","dataIndexes","controller stateless"
+"OnEventScanner","degenerate","paramIndex","controller stateless"
+"OnEventScanner","degenerate","validate","command collaborator"
+"SpringAnnotationScanner","entity boundary small-class","SpringAnnotationScanner","constructor"
+"SpringAnnotationScanner","entity boundary small-class","postProcessAfterInitialization","property non-void-command collaborator"
+"SpringAnnotationScanner","entity boundary small-class","postProcessBeforeInitialization","property non-void-command collaborator"
+"PubSubMessage","data-class small-class","getNodeId","get"
+"PubSubMessage","data-class small-class","setNodeId","set"
+"OutPacketMessage","data-provider boundary data-class small-class","OutPacketMessage","constructor"
+"OutPacketMessage","data-provider boundary data-class small-class","getTransport","get collaborator"
+"OutPacketMessage","data-provider boundary data-class small-class","getClientHead","get collaborator"
+"AuthorizationResult","data-provider data-class small-class","AuthorizationResult","constructor"
+"AuthorizationResult","data-provider data-class small-class","AuthorizationResult","constructor"
+"AuthorizationResult","data-provider data-class small-class","isAuthorized","get"
+"AuthorizationResult","data-provider data-class small-class","getStoreParams","get collaborator"
+"AuthorizeHandler","commander boundary","AuthorizeHandler","constructor"
+"AuthorizeHandler","commander boundary","channelActive","command collaborator"
+"AuthorizeHandler","commander boundary","channelRead","command collaborator"
+"AuthorizeHandler","commander boundary","authorize","predicate non-void-command collaborator"
+"AuthorizeHandler","commander boundary","writeAndFlushTransportError","controller stateless"
+"AuthorizeHandler","commander boundary","generateOrGetSessionIdFromRequest","property non-void-command collaborator"
+"AuthorizeHandler","commander boundary","connect","command collaborator"
+"AuthorizeHandler","commander boundary","connect","command collaborator"
+"AuthorizeHandler","commander boundary","onDisconnect","command collaborator"
+"Event","data-provider data-class small-class","Event","constructor"
+"Event","data-provider data-class small-class","Event","constructor"
+"Event","data-provider data-class small-class","getArgs","get collaborator"
+"Event","data-provider data-class small-class","getName","get"
+"ConnPacket","data-provider boundary data-class small-class","ConnPacket","constructor"
+"ConnPacket","data-provider boundary data-class small-class","getSid","get collaborator"
+"DefaultExceptionListener","entity commander boundary","onEventException","command collaborator"
+"DefaultExceptionListener","entity commander boundary","onDisconnectException","command collaborator"
+"DefaultExceptionListener","entity commander boundary","onConnectException","command collaborator"
+"DefaultExceptionListener","entity commander boundary","onPingException","command collaborator"
+"DefaultExceptionListener","entity commander boundary","onPongException","command collaborator"
+"DefaultExceptionListener","entity commander boundary","exceptionCaught","predicate non-void-command collaborator"
+"DefaultExceptionListener","entity commander boundary","onAuthException","command collaborator"
+"ClientHead","boundary","ClientHead","constructor"
+"ClientHead","boundary","bindChannel","command collaborator"
+"ClientHead","boundary","releasePollingChannel","command collaborator"
+"ClientHead","boundary","getOrigin","property non-void-command"
+"ClientHead","boundary","send","property non-void-command collaborator"
+"ClientHead","boundary","cancelPing","command collaborator"
+"ClientHead","boundary","cancelPingTimeout","command collaborator"
+"ClientHead","boundary","schedulePing","command collaborator"
+"ClientHead","boundary","schedulePingTimeout","command"
+"ClientHead","boundary","send","property non-void-command collaborator"
+"ClientHead","boundary","sendPackets","property controller"
+"ClientHead","boundary","removeNamespaceClient","command collaborator"
+"ClientHead","boundary","getChildClient","property non-void-command collaborator"
+"ClientHead","boundary","addNamespaceClient","non-void-command factory collaborator"
+"ClientHead","boundary","getNamespaces","property non-void-command collaborator"
+"ClientHead","boundary","isConnected","predicate non-void-command"
+"ClientHead","boundary","onChannelDisconnect","command collaborator"
+"ClientHead","boundary","getHandshakeData","get collaborator"
+"ClientHead","boundary","getAckManager","get collaborator"
+"ClientHead","boundary","getSessionId","get collaborator"
+"ClientHead","boundary","getRemoteAddress","property non-void-command collaborator"
+"ClientHead","boundary","disconnect","command collaborator"
+"ClientHead","boundary","isChannelOpen","predicate non-void-command collaborator"
+"ClientHead","boundary","getStore","get collaborator"
+"ClientHead","boundary","isTransportChannel","predicate non-void-command collaborator"
+"ClientHead","boundary","upgradeCurrentTransport","command collaborator"
+"ClientHead","boundary","getCurrentTransport","get collaborator"
+"ClientHead","boundary","getPacketsQueue","property non-void-command collaborator"
+"ClientHead","boundary","setLastBinaryPacket","set collaborator"
+"ClientHead","boundary","getLastBinaryPacket","get collaborator"
+"ClientHead","boundary","getEngineIOVersion","get collaborator"
+"ClientHead","boundary","isWritable","predicate non-void-command collaborator"
+"JsonSupportWrapper","entity boundary","JsonSupportWrapper","constructor"
+"JsonSupportWrapper","entity boundary","readAckArgs","property non-void-command collaborator"
+"JsonSupportWrapper","entity boundary","readValue","property non-void-command collaborator"
+"JsonSupportWrapper","entity boundary","writeValue","command collaborator"
+"JsonSupportWrapper","entity boundary","addEventMapping","command collaborator"
+"JsonSupportWrapper","entity boundary","removeEventMapping","command"
+"JsonSupportWrapper","entity boundary","getArrays","property non-void-command"
+"ClientsBox","entity commander boundary","getHandshakeData","property non-void-command collaborator"
+"ClientsBox","entity commander boundary","addClient","command collaborator"
+"ClientsBox","entity commander boundary","removeClient","command collaborator"
+"ClientsBox","entity commander boundary","get","property non-void-command collaborator"
+"ClientsBox","entity commander boundary","add","command collaborator"
+"ClientsBox","entity commander boundary","remove","command collaborator"
+"ClientsBox","entity commander boundary","get","property non-void-command collaborator"
+"EncoderHandler","commander boundary","EncoderHandler","constructor"
+"EncoderHandler","commander boundary","readVersion","set"
+"EncoderHandler","commander boundary","write","command collaborator"
+"EncoderHandler","commander boundary","write","command collaborator"
+"EncoderHandler","commander boundary","sendMessage","command collaborator"
+"EncoderHandler","commander boundary","sendMessage","command collaborator"
+"EncoderHandler","commander boundary","sendError","command collaborator"
+"EncoderHandler","commander boundary","addOriginHeaders","command collaborator"
+"EncoderHandler","commander boundary","write","command collaborator"
+"EncoderHandler","commander boundary","handleWebsocket","command collaborator"
+"EncoderHandler","commander boundary","handleHTTP","command collaborator"
+"InPacketHandler","commander boundary small-class","InPacketHandler","constructor"
+"InPacketHandler","commander boundary small-class","channelRead0","command collaborator"
+"InPacketHandler","commander boundary small-class","exceptionCaught","command collaborator"
+"SocketIOException","empty","SocketIOException","constructor"
+"SocketIOException","empty","SocketIOException","constructor"
+"SocketIOException","empty","SocketIOException","constructor"
+"DecoderEventPacketTest","unclassified","testDecode","command collaborator"
+"DecoderEventPacketTest","unclassified","testDecodeWithMessageIdAndAck","command collaborator"
+"DecoderEventPacketTest","unclassified","testDecodeWithData","controller"
+"HttpErrorMessage","data-provider boundary data-class small-class","HttpErrorMessage","constructor"
+"HttpErrorMessage","data-provider boundary data-class small-class","getData","get collaborator"
+"HttpMessage","data-provider data-class small-class","HttpMessage","constructor"
+"HttpMessage","data-provider data-class small-class","getOrigin","get"
+"HttpMessage","data-provider data-class small-class","getSessionId","get collaborator"

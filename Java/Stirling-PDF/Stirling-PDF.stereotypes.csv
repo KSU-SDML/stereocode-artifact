@@ -1,653 +1,658 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"PropertyConfigsTest","boundary degenerate","testGetBooleanValue_WithKeys","wrapper stateless",
-"PropertyConfigsTest","boundary degenerate","testGetStringValue_WithKeys","wrapper stateless",
-"PropertyConfigsTest","boundary degenerate","testGetBooleanValue_WithKey","wrapper stateless",
-"PropertyConfigsTest","boundary degenerate","testGetStringValue_WithKey","wrapper stateless",
-"ProcessExecutorTest","commander","setUp","set",
-"ProcessExecutorTest","commander","testRunCommandWithOutputHandling","command collaborator",
-"ProcessExecutorTest","commander","testRunCommandWithOutputHandling_Error","command",
-"PdfUtilsTest","degenerate","testTextToPageSize","wrapper stateless",
-"PdfUtilsTest","degenerate","testHasImagesOnPage","controller stateless",
-"PdfUtilsTest","degenerate","testExtractMetadataFromPdf","controller stateless",
-"ImageProcessingUtilsTest","commander boundary","testConvertColorTypeToGreyscale","command collaborator",
-"ImageProcessingUtilsTest","commander boundary","testConvertColorTypeToBlackWhite","command",
-"ImageProcessingUtilsTest","commander boundary","testConvertColorTypeToFullColor","command collaborator",
-"ImageProcessingUtilsTest","commander boundary","testConvertColorTypeInvalid","command collaborator",
-"ImageProcessingUtilsTest","commander boundary","fillImageWithColor","controller stateless",
-"GeneralUtilsTest","boundary degenerate","testParsePageListWithAll","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","testParsePageListWithAllOneBased","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","nFunc","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","nFuncAdvanced","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","nFuncAdvancedZero","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","nFuncAdvanced2","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","nFuncAdvanced3","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","nFuncAdvanced4","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","nFuncAdvancedZerobased","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","nFuncAdvanced2Zerobased","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeOneBasedOutput","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeZeroBaseOutput","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeOneBasedOutputFull","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeOneBasedOutputFullOutOfRange","wrapper stateless",
-"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeZeroBaseOutputFull","wrapper stateless",
-"FileToPdfTest","boundary degenerate small-class","testConvertHtmlToPdf","wrapper stateless",
-"FileToPdfTest","boundary degenerate small-class","testConvertBookTypeToPdf","wrapper stateless",
-"ProcessExecutor","entity small-class","ProcessExecutor","constructor",
-"ProcessExecutor","entity small-class","runCommandWithOutputHandling","property non-void-command collaborator",
-"ProcessExecutor","entity small-class","runCommandWithOutputHandling","property non-void-command factory collaborator",
-"PDFToFile","entity factory controller small-class","processPdfToHtml","property non-void-command factory collaborator",
-"PDFToFile","entity factory controller small-class","processPdfToOfficeFormat","property non-void-command factory collaborator",
-"TextFinder","unclassified","TextFinder","constructor",
-"TextFinder","unclassified","findOccurrencesInText","factory controller",
-"TextFinder","unclassified","writeString","command collaborator",
-"TextFinder","unclassified","getTextLocations","get non-void-command collaborator",
-"KeycloakProvider","unclassified","getIssuer","get",
-"KeycloakProvider","unclassified","setIssuer","set",
-"KeycloakProvider","unclassified","getClientId","get",
-"KeycloakProvider","unclassified","setClientId","set",
-"KeycloakProvider","unclassified","getClientSecret","get",
-"KeycloakProvider","unclassified","setClientSecret","set",
-"KeycloakProvider","unclassified","getScopes","get non-void-command factory collaborator",
-"KeycloakProvider","unclassified","setScopes","set",
-"KeycloakProvider","unclassified","getUseAsUsername","get",
-"KeycloakProvider","unclassified","setUseAsUsername","set",
-"KeycloakProvider","unclassified","toString","property non-void-command",
-"KeycloakProvider","unclassified","getName","incidental",
-"KeycloakProvider","unclassified","getClientName","incidental",
-"KeycloakProvider","unclassified","isSettingsValid","predicate non-void-command",
-"GoogleProvider","unclassified","getAuthorizationuri","get",
-"GoogleProvider","unclassified","getTokenuri","get",
-"GoogleProvider","unclassified","getUserinfouri","get",
-"GoogleProvider","unclassified","getClientId","get",
-"GoogleProvider","unclassified","setClientId","set",
-"GoogleProvider","unclassified","getClientSecret","get",
-"GoogleProvider","unclassified","setClientSecret","set",
-"GoogleProvider","unclassified","getScopes","get non-void-command factory collaborator",
-"GoogleProvider","unclassified","setScopes","set",
-"GoogleProvider","unclassified","getUseAsUsername","get",
-"GoogleProvider","unclassified","setUseAsUsername","set",
-"GoogleProvider","unclassified","toString","property non-void-command",
-"GoogleProvider","unclassified","getName","incidental",
-"GoogleProvider","unclassified","getClientName","incidental",
-"GoogleProvider","unclassified","isSettingsValid","predicate non-void-command",
-"WebResponseUtilsTest","pure-controller degenerate","testBoasToWebResponse","controller stateless",
-"WebResponseUtilsTest","pure-controller degenerate","testMultiPartFileToWebResponse","controller stateless",
-"WebResponseUtilsTest","pure-controller degenerate","testBytesToWebResponse","controller stateless",
-"WebResponseUtilsTest","pure-controller degenerate","testPdfDocToWebResponse","controller stateless",
-"UnsupportedProviderException","empty","UnsupportedProviderException","constructor",
-"UrlUtils","empty","UrlUtils","constructor",
-"WebMvcConfig","pure-controller small-class","addInterceptors","controller",
-"WebMvcConfig","pure-controller small-class","addResourceHandlers","controller stateless",
-"StartupApplicationListener","commander boundary data-class small-class","onApplicationEvent","set collaborator",
-"UserController","entity","register","property non-void-command collaborator",
-"UserController","entity","changeUsername","property non-void-command factory collaborator",
-"UserController","entity","changePasswordOnLogin","property non-void-command factory collaborator",
-"UserController","entity","changePassword","property non-void-command factory collaborator",
-"UserController","entity","updateUserSettings","property non-void-command collaborator",
-"UserController","entity","saveUser","property non-void-command factory collaborator",
-"UserController","entity","changeRole","property non-void-command factory collaborator",
-"UserController","entity","deleteUser","property non-void-command factory collaborator",
-"UserController","entity","invalidateUserSessions","command collaborator",
-"UserController","entity","getApiKey","property non-void-command collaborator",
-"UserController","entity","updateApiKey","property non-void-command collaborator",
-"CMSProcessableInputStream","boundary","CMSProcessableInputStream","constructor",
-"CMSProcessableInputStream","boundary","CMSProcessableInputStream","constructor",
-"CMSProcessableInputStream","boundary","getContent","get collaborator",
-"CMSProcessableInputStream","boundary","write","command collaborator",
-"CMSProcessableInputStream","boundary","getContentType","get collaborator",
-"AttemptCounter","unclassified","AttemptCounter","constructor",
-"AttemptCounter","unclassified","increment","command",
-"AttemptCounter","unclassified","getAttemptCount","get",
-"AttemptCounter","unclassified","getLastAttemptTime","get",
-"AttemptCounter","unclassified","shouldReset","predicate wrapper",
-"AttemptCounter","unclassified","reset","command",
-"SplitPdfBySectionsController","controller small-class","splitPdf","property non-void-command collaborator",
-"SplitPdfBySectionsController","controller small-class","splitPdfPages","factory controller stateless",
-"PipelineController","entity boundary small-class","handleData","property non-void-command collaborator",
-"CustomOAuth2UserService","entity factory controller small-class","CustomOAuth2UserService","constructor",
-"CustomOAuth2UserService","entity factory controller small-class","loadUser","property non-void-command factory collaborator",
-"CropController","pure-controller degenerate small-class","cropPdf","controller stateless",
-"UserBasedRateLimitingFilter","boundary","doFilterInternal","command collaborator",
-"UserBasedRateLimitingFilter","boundary","getRoleFromAuthentication","controller stateless",
-"UserBasedRateLimitingFilter","boundary","processRequest","command collaborator",
-"UserBasedRateLimitingFilter","boundary","createUserBucket","wrapper stateless",
-"StampController","unclassified","addStamp","property non-void-command collaborator",
-"StampController","unclassified","addTextStamp","command",
-"StampController","unclassified","addImageStamp","command",
-"StampController","unclassified","calculatePositionX","property non-void-command",
-"StampController","unclassified","calculatePositionY","controller stateless",
-"StampController","unclassified","calculateTextWidth","controller stateless",
-"StampController","unclassified","calculateTextCapHeight","controller stateless",
-"UserService","boundary","processOAuth2PostLogin","predicate non-void-command collaborator",
-"UserService","boundary","getAuthentication","property non-void-command factory collaborator",
-"UserService","boundary","getAuthorities","controller stateless",
-"UserService","boundary","generateApiKey","property non-void-command",
-"UserService","boundary","addApiKeyToUser","property non-void-command collaborator",
-"UserService","boundary","refreshApiKeyForUser","property non-void-command collaborator",
-"UserService","boundary","getApiKeyForUser","property non-void-command collaborator",
-"UserService","boundary","isValidApiKey","predicate non-void-command",
-"UserService","boundary","getUserByApiKey","property non-void-command collaborator",
-"UserService","boundary","loadUserByApiKey","property non-void-command factory collaborator",
-"UserService","boundary","validateApiKeyForUser","predicate non-void-command collaborator",
-"UserService","boundary","saveUser","command collaborator",
-"UserService","boundary","saveUser","command collaborator",
-"UserService","boundary","saveUser","command collaborator",
-"UserService","boundary","saveUser","command",
-"UserService","boundary","deleteUser","command collaborator",
-"UserService","boundary","usernameExists","predicate non-void-command",
-"UserService","boundary","usernameExistsIgnoreCase","predicate non-void-command",
-"UserService","boundary","hasUsers","predicate non-void-command",
-"UserService","boundary","updateUserSettings","command",
-"UserService","boundary","findByUsername","property non-void-command collaborator",
-"UserService","boundary","findByUsernameIgnoreCase","property non-void-command collaborator",
-"UserService","boundary","findRole","property non-void-command collaborator",
-"UserService","boundary","changeUsername","command",
-"UserService","boundary","changePassword","command",
-"UserService","boundary","changeFirstUse","command",
-"UserService","boundary","changeRole","command collaborator",
-"UserService","boundary","isPasswordCorrect","predicate non-void-command",
-"UserService","boundary","isUsernameValid","controller stateless",
-"UserService","boundary","getInvalidUsernameMessage","property non-void-command",
-"UserService","boundary","hasPassword","predicate non-void-command collaborator",
-"UserService","boundary","isAuthenticationTypeByUsername","predicate non-void-command collaborator",
-"SecurityConfiguration","entity degenerate","passwordEncoder","factory collaborator stateless",
-"SecurityConfiguration","entity degenerate","sessionRegistry","factory collaborator stateless",
-"SecurityConfiguration","entity degenerate","filterChain","property non-void-command collaborator",
-"MergeController","controller degenerate","mergeDocuments","factory controller stateless",
-"MergeController","controller degenerate","getSortComparator","controller stateless",
-"MergeController","controller degenerate","mergePdfs","property non-void-command collaborator",
-"InitialSecuritySetup","commander","init","command",
-"InitialSecuritySetup","commander","initSecretKey","command",
-"InitialSecuritySetup","commander","initializeAdminUser","command",
-"InitialSecuritySetup","commander","createDefaultAdminUser","command",
-"InitialSecuritySetup","commander","initializeInternalApiUser","command",
-"InitialSecuritySetup","commander","saveKeyToConfig","controller stateless",
-"InitialSecuritySetup","commander","isValidUUID","wrapper stateless",
-"IPRateLimitingFilter","commander small-class","IPRateLimitingFilter","constructor",
-"IPRateLimitingFilter","commander small-class","doFilter","command collaborator",
-"IPRateLimitingFilter","commander small-class","resetRequestCounts","command",
-"Beans","controller","addInterceptors","command collaborator",
-"Beans","controller","localeChangeInterceptor","factory controller stateless",
-"Beans","controller","localeResolver","non-void-command factory collaborator",
-"Authority","data-class","Authority","constructor",
-"Authority","data-class","Authority","constructor",
-"Authority","data-class","getId","get",
-"Authority","data-class","setId","set",
-"Authority","data-class","getAuthority","get",
-"Authority","data-class","setAuthority","set",
-"Authority","data-class","getUser","get collaborator",
-"Authority","data-class","setUser","set collaborator",
-"ScalePagesController","pure-controller degenerate small-class","scalePages","controller stateless",
-"CustomLogoutSuccessHandler","commander boundary small-class","onLogoutSuccess","command collaborator",
-"TableAttributeProvider","pure-controller degenerate small-class","setAttributes","controller stateless",
-"PageNumbersController","pure-controller degenerate small-class","addPageNumbers","controller stateless",
-"ConvertPDFToHtml","pure-controller degenerate small-class","processPdfToHTML","controller stateless",
-"SPdfApplication","unclassified","setServerPortStatic","set",
-"SPdfApplication","unclassified","init","command collaborator",
-"SPdfApplication","unclassified","getNonStaticPort","get",
-"LibreOfficeListener","commander","LibreOfficeListener","constructor",
-"LibreOfficeListener","commander","isListenerRunning","wrapper stateless",
-"LibreOfficeListener","commander","start","command",
-"LibreOfficeListener","commander","stop","command",
-"ValidationTimeStamp","entity boundary","ValidationTimeStamp","constructor",
-"ValidationTimeStamp","entity boundary","getTimeStampToken","property non-void-command collaborator",
-"ValidationTimeStamp","entity boundary","addSignedTimeStamp","property non-void-command collaborator",
-"ValidationTimeStamp","entity boundary","signTimeStamp","property non-void-command collaborator",
-"CustomUserDetailsService","controller small-class","loadUserByUsername","property non-void-command factory collaborator",
-"CustomUserDetailsService","controller small-class","getAuthorities","controller stateless",
-"ConfigInitializer","commander boundary","initialize","command collaborator",
-"ConfigInitializer","commander boundary","ensureConfigExists","command collaborator",
-"ConfigInitializer","commander boundary","changeConfigItemFromCommentToKeyValue","command",
-"AppUpdateAuthService","entity boundary small-class","getShowUpdateOnlyAdmins","predicate non-void-command collaborator",
-"SplitPDFController","entity boundary small-class","splitPdf","property non-void-command collaborator",
-"ConnectedInputStream","unclassified","ConnectedInputStream","constructor",
-"ConnectedInputStream","unclassified","read","property non-void-command",
-"ConnectedInputStream","unclassified","read","property non-void-command",
-"ConnectedInputStream","unclassified","read","property non-void-command",
-"ConnectedInputStream","unclassified","skip","property non-void-command",
-"ConnectedInputStream","unclassified","available","property non-void-command",
-"ConnectedInputStream","unclassified","mark","command",
-"ConnectedInputStream","unclassified","reset","command",
-"ConnectedInputStream","unclassified","markSupported","predicate non-void-command",
-"ConnectedInputStream","unclassified","close","command",
-"AppUpdateService","small-class","shouldShow","predicate non-void-command",
-"UserAuthenticationFilter","small-class","doFilterInternal","command collaborator",
-"UserAuthenticationFilter","small-class","shouldNotFilter","controller stateless",
-"RequestUriUtilsTest","boundary degenerate small-class","testIsStaticResource","wrapper stateless",
-"PipelineProcessor","boundary","getApiKeyForUser","property non-void-command",
-"PipelineProcessor","boundary","getBaseUrl","property non-void-command",
-"PipelineProcessor","boundary","runPipelineAgainstFiles","property non-void-command collaborator",
-"PipelineProcessor","boundary","sendWebRequest","property non-void-command collaborator",
-"PipelineProcessor","boundary","processOutputFiles","property non-void-command factory collaborator",
-"PipelineProcessor","boundary","extractFilename","controller stateless",
-"PipelineProcessor","boundary","generateInputFiles","property non-void-command factory collaborator",
-"PipelineProcessor","boundary","generateInputFiles","property non-void-command factory collaborator",
-"PipelineProcessor","boundary","isZip","incidental",
-"PipelineProcessor","boundary","unzip","property non-void-command factory collaborator",
-"TSAClient","small-class","TSAClient","constructor",
-"TSAClient","small-class","getTimeStampToken","property non-void-command collaborator",
-"TSAClient","small-class","getTSAResponse","property non-void-command",
-"CleanUrlInterceptor","degenerate","preHandle","predicate non-void-command collaborator",
-"CleanUrlInterceptor","degenerate","postHandle","empty",
-"CleanUrlInterceptor","degenerate","afterCompletion","empty",
-"PersistentLogin","data-class","getSeries","get",
-"PersistentLogin","data-class","setSeries","set",
-"PersistentLogin","data-class","getUsername","get",
-"PersistentLogin","data-class","setUsername","set",
-"PersistentLogin","data-class","getToken","get",
-"PersistentLogin","data-class","setToken","set",
-"PersistentLogin","data-class","getLastUsed","get collaborator",
-"PersistentLogin","data-class","setLastUsed","set collaborator",
-"MetricsFilter","pure-controller small-class","MetricsFilter","constructor",
-"MetricsFilter","pure-controller small-class","doFilterInternal","controller",
-"SPdfApplicationTest","commander","setUp","set",
-"SPdfApplicationTest","commander","testSetServerPortStatic","command",
-"SPdfApplicationTest","commander","testMainApplicationStartup","wrapper stateless",
-"SPdfApplicationTest","commander","testGetStaticPort","wrapper stateless",
-"SPdfApplicationTest","commander","testGetNonStaticPort","command",
-"CertSignController","degenerate","signPDFWithCert","property non-void-command collaborator",
-"CertSignController","degenerate","getPrivateKeyFromPEM","controller stateless",
-"CertSignController","degenerate","getCertificateFromPEM","wrapper stateless",
-"ConvertWebsiteToPDF","small-class","urlToPdf","property non-void-command collaborator",
-"ConvertWebsiteToPDF","small-class","convertURLToFileName","controller stateless",
-"MetricsController","boundary","init","set collaborator",
-"MetricsController","boundary","MetricsController","constructor",
-"MetricsController","boundary","getStatus","property controller",
-"MetricsController","boundary","getPageLoads","property non-void-command collaborator",
-"MetricsController","boundary","getAllEndpointLoads","property non-void-command collaborator",
-"MetricsController","boundary","getTotalRequests","property non-void-command collaborator",
-"MetricsController","boundary","getAllPostRequests","property non-void-command collaborator",
-"MetricsController","boundary","getUptime","property non-void-command collaborator",
-"MetricsController","boundary","formatDuration","controller stateless",
-"ToSinglePageController","pure-controller degenerate small-class","pdfToSinglePage","controller stateless",
-"RearrangePagesPDFControllerTest","pure-controller degenerate","oddEvenMerge_noPages","controller stateless",
-"RearrangePagesPDFControllerTest","pure-controller degenerate","oddEvenMerge_oddTotalPageNumber","controller stateless",
-"RearrangePagesPDFControllerTest","pure-controller degenerate","oddEvenMerge_evenTotalPageNumber","controller stateless",
-"RearrangePagesPDFControllerTest","pure-controller degenerate","oddEvenMerge_multi_test","controller stateless",
-"ExtractImageScansController","entity boundary small-class","extractImageScans","property non-void-command collaborator",
-"SplitPdfBySizeController","commander boundary","autoSplitPdf","property non-void-command collaborator",
-"SplitPdfBySizeController","commander boundary","handleSplitBySize","command collaborator",
-"SplitPdfBySizeController","commander boundary","handleSplitByPageCount","command collaborator",
-"SplitPdfBySizeController","commander boundary","handleSplitByDocCount","command",
-"SplitPdfBySizeController","commander boundary","saveDocumentToZip","controller stateless",
-"ConvertImgPDFController","degenerate","convertToImage","property non-void-command collaborator",
-"ConvertImgPDFController","degenerate","convertToPdf","controller stateless",
-"ConvertImgPDFController","degenerate","getMediaType","wrapper stateless",
-"ConvertHtmlToPDF","controller small-class","HtmlToPdf","property controller",
-"PdfUtils","pure-controller degenerate","containsTextInFile","controller stateless",
-"PdfUtils","pure-controller degenerate","pageCount","controller stateless",
-"PdfUtils","pure-controller degenerate","pageSize","controller stateless",
-"PdfUtils","pure-controller degenerate","PdfRenderSettingsKey","empty",
-"PdfUtils","pure-controller degenerate","PdfImageDimensionValue","empty",
-"ApiKeyAuthenticationToken","unclassified","ApiKeyAuthenticationToken","constructor",
-"ApiKeyAuthenticationToken","unclassified","ApiKeyAuthenticationToken","constructor",
-"ApiKeyAuthenticationToken","unclassified","getCredentials","get collaborator",
-"ApiKeyAuthenticationToken","unclassified","getPrincipal","get collaborator",
-"ApiKeyAuthenticationToken","unclassified","setAuthenticated","command",
-"ApiKeyAuthenticationToken","unclassified","eraseCredentials","set",
-"PdfOverlayController","unclassified","overlayPdfs","property non-void-command collaborator",
-"PdfOverlayController","unclassified","prepareOverlayGuide","property non-void-command collaborator",
-"PdfOverlayController","unclassified","sequentialOverlay","void-accessor command collaborator",
-"PdfOverlayController","unclassified","getNumberOfPages","wrapper stateless",
-"PdfOverlayController","unclassified","interleavedOverlay","controller stateless",
-"PdfOverlayController","unclassified","fixedRepeatOverlay","controller stateless",
-"SecurityWebController","pure-controller degenerate","autoRedactForm","controller stateless",
-"SecurityWebController","pure-controller degenerate","addPasswordForm","controller stateless",
-"SecurityWebController","pure-controller degenerate","permissionsForm","controller stateless",
-"SecurityWebController","pure-controller degenerate","removePasswordForm","controller stateless",
-"SecurityWebController","pure-controller degenerate","addWatermarkForm","controller stateless",
-"SecurityWebController","pure-controller degenerate","certSignForm","controller stateless",
-"SecurityWebController","pure-controller degenerate","certUnSignForm","controller stateless",
-"SecurityWebController","pure-controller degenerate","sanitizeForm","controller stateless",
-"SecurityWebController","pure-controller degenerate","getInfo","controller stateless",
-"FileFallbackTemplateResolver","entity factory controller small-class","FileFallbackTemplateResolver","constructor",
-"FileFallbackTemplateResolver","entity factory controller small-class","computeTemplateResource","property non-void-command factory collaborator",
-"PDFText","data-provider data-class","PDFText","constructor",
-"PDFText","data-provider data-class","getPageIndex","get",
-"PDFText","data-provider data-class","getX1","get",
-"PDFText","data-provider data-class","getY1","get",
-"PDFText","data-provider data-class","getX2","get",
-"PDFText","data-provider data-class","getY2","get",
-"PDFText","data-provider data-class","getText","get",
-"ConvertOfficeController","unclassified","convertToPdf","property non-void-command collaborator",
-"ConvertOfficeController","unclassified","isValidFileExtension","controller stateless",
-"ConvertOfficeController","unclassified","processFileToPDF","property non-void-command collaborator",
-"EndpointConfiguration","commander","EndpointConfiguration","constructor",
-"EndpointConfiguration","commander","enableEndpoint","command",
-"EndpointConfiguration","commander","disableEndpoint","command",
-"EndpointConfiguration","commander","isEndpointEnabled","predicate non-void-command",
-"EndpointConfiguration","commander","addEndpointToGroup","command",
-"EndpointConfiguration","commander","enableGroup","command",
-"EndpointConfiguration","commander","disableGroup","command",
-"EndpointConfiguration","commander","init","command",
-"EndpointConfiguration","commander","processEnvironmentConfigs","command",
-"ConvertBookToPDFController","controller small-class","HtmlToPdf","property controller",
-"BlankPageController","entity factory controller small-class","removeBlankPages","property non-void-command factory collaborator",
-"AppConfig","degenerate","templateEngine","factory controller stateless",
-"AppConfig","degenerate","loginEnabled","predicate non-void-command",
-"AppConfig","degenerate","appName","property non-void-command",
-"AppConfig","degenerate","appVersion","property non-void-command collaborator",
-"AppConfig","degenerate","homeText","property non-void-command",
-"AppConfig","degenerate","navBarText","property non-void-command",
-"AppConfig","degenerate","enableAlphaFunctionality","predicate non-void-command",
-"AppConfig","degenerate","rateLimit","wrapper stateless",
-"AppConfig","degenerate","runningInDocker","wrapper stateless",
-"AppConfig","degenerate","bookAndHtmlFormatsInstalled","wrapper stateless",
-"AppConfig","degenerate","missingActivSecurity","incidental",
-"AppConfig","degenerate","watchedFoldersDir","incidental",
-"AppConfig","degenerate","finishedFoldersDir","incidental",
-"AppConfig","degenerate","processPDFOnlyFilter","controller stateless",
-"CreateSignatureBase","boundary","CreateSignatureBase","constructor",
-"CreateSignatureBase","boundary","setPrivateKey","set collaborator",
-"CreateSignatureBase","boundary","setCertificateChain","set collaborator",
-"CreateSignatureBase","boundary","getCertificateChain","get collaborator",
-"CreateSignatureBase","boundary","setTsaUrl","set",
-"CreateSignatureBase","boundary","sign","property non-void-command collaborator",
-"CreateSignatureBase","boundary","setExternalSigning","set",
-"CreateSignatureBase","boundary","isExternalSigning","get",
-"WatermarkController","degenerate","addWatermark","property non-void-command collaborator",
-"WatermarkController","degenerate","addTextWatermark","controller stateless",
-"WatermarkController","degenerate","addImageWatermark","controller stateless",
-"MetricsConfig","factory degenerate small-class","meterFilter","factory wrapper stateless",
-"InputStreamTemplateResource","degenerate","InputStreamTemplateResource","constructor",
-"InputStreamTemplateResource","degenerate","reader","property factory collaborator",
-"InputStreamTemplateResource","degenerate","relative","collaborator stateless",
-"InputStreamTemplateResource","degenerate","getDescription","incidental",
-"InputStreamTemplateResource","degenerate","getBaseName","incidental",
-"InputStreamTemplateResource","degenerate","exists","incidental",
-"YamlPropertySourceFactory","factory pure-controller degenerate small-class","createPropertySource","factory controller stateless",
-"CustomOAuth2AuthenticationSuccessHandler","commander boundary small-class","CustomOAuth2AuthenticationSuccessHandler","constructor",
-"CustomOAuth2AuthenticationSuccessHandler","commander boundary small-class","onAuthenticationSuccess","command collaborator",
-"OpenApiConfig","entity factory controller small-class","customOpenAPI","property non-void-command factory collaborator",
-"RotationController","pure-controller degenerate small-class","rotatePDF","controller stateless",
-"RateLimitResetScheduler","commander small-class","RateLimitResetScheduler","constructor",
-"RateLimitResetScheduler","commander small-class","resetRateLimit","command",
-"RearrangePagesPDFController","controller degenerate","deletePages","controller stateless",
-"RearrangePagesPDFController","controller degenerate","removeFirst","controller stateless",
-"RearrangePagesPDFController","controller degenerate","removeLast","controller stateless",
-"RearrangePagesPDFController","controller degenerate","removeFirstAndLast","controller stateless",
-"RearrangePagesPDFController","controller degenerate","reverseOrder","controller stateless",
-"RearrangePagesPDFController","controller degenerate","duplexSort","controller stateless",
-"RearrangePagesPDFController","controller degenerate","bookletSort","controller stateless",
-"RearrangePagesPDFController","controller degenerate","sideStitchBooklet","controller stateless",
-"RearrangePagesPDFController","controller degenerate","oddEvenSplit","controller stateless",
-"RearrangePagesPDFController","controller degenerate","oddEvenMerge","controller stateless",
-"RearrangePagesPDFController","controller degenerate","processSortTypes","property non-void-command collaborator",
-"RearrangePagesPDFController","controller degenerate","rearrangePages","property non-void-command collaborator",
-"FirstLoginFilter","commander boundary small-class","doFilterInternal","command collaborator",
-"ShowAdminInterface","degenerate small-class","getShowUpdateOnlyAdmins","incidental",
-"ConvertPDFToBookController","controller small-class","HtmlToPdf","property controller",
-"ConvertPDFToOffice","pure-controller degenerate","processPdfToPresentation","controller stateless",
-"ConvertPDFToOffice","pure-controller degenerate","processPdfToRTForTXT","controller stateless",
-"ConvertPDFToOffice","pure-controller degenerate","processPdfToWord","controller stateless",
-"ConvertPDFToOffice","pure-controller degenerate","processPdfToXML","controller stateless",
-"AutoRenameController","entity boundary small-class","extractHeader","property non-void-command collaborator",
-"ConvertPDFToPDFA","pure-controller degenerate small-class","pdfToPdfA","controller stateless",
-"ExtractController","degenerate","PdfToCsv","property non-void-command collaborator",
-"ExtractController","degenerate","getRecordsList","controller stateless",
-"ExtractController","degenerate","getTableHeaders","controller stateless",
-"AutoSplitPdfController","entity boundary small-class","autoSplitPdf","property non-void-command collaborator",
-"CompressController","entity boundary small-class","optimizePdf","property non-void-command collaborator",
-"ExtractImagesController","pure-controller degenerate small-class","extractImages","controller stateless",
-"LoginAttemptService","boundary","init","command",
-"LoginAttemptService","boundary","loginSucceeded","command",
-"LoginAttemptService","boundary","loginFailed","command collaborator",
-"LoginAttemptService","boundary","isBlocked","predicate non-void-command collaborator",
-"LoginAttemptService","boundary","getRemainingAttempts","get property non-void-command collaborator",
-"FakeScanControllerWIP","controller degenerate","fakeScan","property non-void-command collaborator",
-"FakeScanControllerWIP","controller degenerate","processImage","property non-void-command collaborator",
-"FakeScanControllerWIP","controller degenerate","rotate","controller stateless",
-"FakeScanControllerWIP","controller degenerate","applyGaussianBlur","controller stateless",
-"FakeScanControllerWIP","controller degenerate","softenEdges","factory controller stateless",
-"FakeScanControllerWIP","controller degenerate","addDustAndHairs","controller stateless",
-"FakeScanControllerWIP","controller degenerate","addGaussianNoise","controller stateless",
-"FakeScanControllerWIP","controller degenerate","linearStretch","controller stateless",
-"FlattenController","entity boundary small-class","flatten","property non-void-command collaborator",
-"MetadataController","entity boundary small-class","checkUndefined","wrapper stateless",
-"MetadataController","entity boundary small-class","metadata","property non-void-command collaborator",
-"OCRController","entity boundary small-class","getAvailableTesseractLanguages","wrapper stateless",
-"OCRController","entity boundary small-class","processPdfWithOCR","property non-void-command collaborator",
-"OverlayImageController","entity factory controller small-class","overlayImage","property non-void-command factory collaborator",
-"RepairController","pure-controller degenerate small-class","repairPdf","controller stateless",
-"PasswordController","pure-controller degenerate small-class","removePassword","controller stateless",
-"PasswordController","pure-controller degenerate small-class","addPassword","controller stateless",
-"ShowJavascript","pure-controller degenerate small-class","extractHeader","controller stateless",
-"ApiDocService","unclassified","getApiDocsUrl","property non-void-command",
-"ApiDocService","unclassified","getExtensionTypes","non-void-command",
-"ApiDocService","unclassified","getApiKeyForUser","property non-void-command",
-"ApiDocService","unclassified","loadApiDocumentation","command collaborator",
-"ApiDocService","unclassified","isValidOperation","predicate non-void-command collaborator",
-"ApiDocService","unclassified","isMultiInput","predicate non-void-command",
-"FilterController","pure-controller degenerate","containsText","controller stateless",
-"FilterController","pure-controller degenerate","containsImage","controller stateless",
-"FilterController","pure-controller degenerate","pageCount","controller stateless",
-"FilterController","pure-controller degenerate","pageSize","controller stateless",
-"FilterController","pure-controller degenerate","fileSize","controller stateless",
-"FilterController","pure-controller degenerate","pageRotation","controller stateless",
-"PDFWithPageNums","small-class","getPageNumbersList","property non-void-command",
-"PDFWithPageNums","small-class","getPageNumbersList","property controller",
-"PipelineDirectoryProcessor","commander boundary","PipelineDirectoryProcessor","constructor",
-"PipelineDirectoryProcessor","commander boundary","scanFolders","command collaborator",
-"PipelineDirectoryProcessor","commander boundary","handleDirectory","command collaborator",
-"PipelineDirectoryProcessor","commander boundary","createProcessingDirectory","property non-void-command collaborator",
-"PipelineDirectoryProcessor","commander boundary","findJsonFile","wrapper stateless",
-"PipelineDirectoryProcessor","commander boundary","readAndParseJson","property non-void-command collaborator",
-"PipelineDirectoryProcessor","commander boundary","processPipelineOperations","command collaborator",
-"PipelineDirectoryProcessor","commander boundary","validateOperation","command collaborator",
-"PipelineDirectoryProcessor","commander boundary","collectFilesForProcessing","property non-void-command factory collaborator",
-"PipelineDirectoryProcessor","commander boundary","prepareFilesForProcessing","non-void-command factory collaborator",
-"PipelineDirectoryProcessor","commander boundary","resolveUniqueFilePath","property non-void-command collaborator",
-"PipelineDirectoryProcessor","commander boundary","appendSuffixToFileName","controller stateless",
-"PipelineDirectoryProcessor","commander boundary","runPipelineAgainstFiles","command collaborator",
-"PipelineDirectoryProcessor","commander boundary","moveAndRenameFiles","command collaborator",
-"PipelineDirectoryProcessor","commander boundary","createOutputFileName","controller stateless",
-"PipelineDirectoryProcessor","commander boundary","determineOutputPath","property controller",
-"PipelineDirectoryProcessor","commander boundary","deleteOriginalFiles","command collaborator",
-"PipelineDirectoryProcessor","commander boundary","moveFilesBack","command collaborator",
-"PipelineConfig","data-class","getName","get",
-"PipelineConfig","data-class","setName","set",
-"PipelineConfig","data-class","getOperations","get collaborator",
-"PipelineConfig","data-class","setOperations","set collaborator",
-"PipelineConfig","data-class","getOutputDir","get",
-"PipelineConfig","data-class","setOutputDir","set",
-"PipelineConfig","data-class","getOutputPattern","get",
-"PipelineConfig","data-class","setOutputPattern","set",
-"EndpointInterceptor","entity boundary small-class","preHandle","predicate non-void-command collaborator",
-"GetInfoOnPDF","degenerate","getPdfInfo","property non-void-command collaborator",
-"GetInfoOnPDF","degenerate","getPageOrientation","incidental",
-"GetInfoOnPDF","degenerate","getPageSize","property non-void-command collaborator",
-"GetInfoOnPDF","degenerate","isCloseToSize","wrapper stateless",
-"GetInfoOnPDF","degenerate","getDimensionInfo","controller stateless",
-"GetInfoOnPDF","degenerate","exploreStructureTree","property non-void-command collaborator",
-"GetInfoOnPDF","degenerate","getContent","property non-void-command collaborator",
-"GetInfoOnPDF","degenerate","formatDate","controller stateless",
-"GetInfoOnPDF","degenerate","getPageModeDescription","controller stateless",
-"RedactController","small-class","redactPdf","property non-void-command collaborator",
-"RedactController","small-class","redactFoundText","controller stateless",
-"OtherWebController","controller degenerate","compressPdfForm","controller stateless",
-"OtherWebController","controller degenerate","extractImageScansForm","factory controller stateless",
-"OtherWebController","controller degenerate","extractJavascriptForm","controller stateless",
-"OtherWebController","controller degenerate","stampForm","controller stateless",
-"OtherWebController","controller degenerate","addPageNumbersForm","controller stateless",
-"OtherWebController","controller degenerate","fakeScanForm","controller stateless",
-"OtherWebController","controller degenerate","extractImagesForm","controller stateless",
-"OtherWebController","controller degenerate","flattenForm","controller stateless",
-"OtherWebController","controller degenerate","addWatermarkForm","controller stateless",
-"OtherWebController","controller degenerate","compareForm","controller stateless",
-"OtherWebController","controller degenerate","printFileForm","controller stateless",
-"OtherWebController","controller degenerate","getAvailableTesseractLanguages","wrapper stateless",
-"OtherWebController","controller degenerate","ocrPdfPage","non-void-command factory collaborator",
-"OtherWebController","controller degenerate","overlayImage","controller stateless",
-"OtherWebController","controller degenerate","contrast","controller stateless",
-"OtherWebController","controller degenerate","repairForm","controller stateless",
-"OtherWebController","controller degenerate","removeBlanksForm","controller stateless",
-"OtherWebController","controller degenerate","removeAnnotationsForm","controller stateless",
-"OtherWebController","controller degenerate","autoCropForm","controller stateless",
-"OtherWebController","controller degenerate","autoRenameForm","controller stateless",
-"RemoveCertSignController","pure-controller degenerate small-class","removeCertSignPDF","controller stateless",
-"CustomOAuth2AuthenticationFailureHandler","commander boundary small-class","onAuthenticationFailure","command collaborator",
-"SanitizeController","controller degenerate","sanitizePDF","property non-void-command collaborator",
-"SanitizeController","controller degenerate","sanitizeJavaScript","controller stateless",
-"SanitizeController","controller degenerate","sanitizeEmbeddedFiles","controller stateless",
-"SanitizeController","controller degenerate","sanitizeMetadata","controller stateless",
-"SanitizeController","controller degenerate","sanitizeLinks","controller stateless",
-"SanitizeController","controller degenerate","sanitizeFonts","controller stateless",
-"PrintFileController","factory pure-controller degenerate small-class","printFile","factory controller stateless",
-"PDFTableStripper","boundary","PDFTableStripper","constructor",
-"PDFTableStripper","boundary","setRegion","set collaborator",
-"PDFTableStripper","boundary","getRows","get",
-"PDFTableStripper","boundary","getColumns","get",
-"PDFTableStripper","boundary","getText","property non-void-command",
-"PDFTableStripper","boundary","extractTable","command collaborator",
-"PDFTableStripper","boundary","calculateTableRegions","non-void-command factory collaborator",
-"PDFTableStripper","boundary","writeString","command collaborator",
-"PDFTableStripper","boundary","setShouldSeparateByBeads","empty",
-"PDFTableStripper","boundary","processTextPosition","command collaborator",
-"AccountWebController","entity boundary","login","property non-void-command collaborator",
-"AccountWebController","entity boundary","showAddUserForm","property non-void-command collaborator",
-"AccountWebController","entity boundary","account","property non-void-command collaborator",
-"AccountWebController","entity boundary","changeCreds","property non-void-command collaborator",
-"CustomAuthenticationFailureHandler","small-class","CustomAuthenticationFailureHandler","constructor",
-"CustomAuthenticationFailureHandler","small-class","onAuthenticationFailure","command collaborator",
-"CustomAuthenticationFailureHandler","small-class","isDemoUser","controller stateless",
-"Provider","lazy-class degenerate","getName","get",
-"Provider","lazy-class degenerate","getClientName","get",
-"Provider","lazy-class degenerate","isValid","controller stateless",
-"Provider","lazy-class degenerate","isValid","controller stateless",
-"Provider","lazy-class degenerate","getScopes","collaborator stateless",
-"Provider","lazy-class degenerate","setScopes","stateless",
-"Provider","lazy-class degenerate","getUseAsUsername","stateless",
-"Provider","lazy-class degenerate","setUseAsUsername","stateless",
-"Provider","lazy-class degenerate","getIssuer","stateless",
-"Provider","lazy-class degenerate","setIssuer","stateless",
-"Provider","lazy-class degenerate","getClientSecret","stateless",
-"Provider","lazy-class degenerate","setClientSecret","stateless",
-"Provider","lazy-class degenerate","getClientId","stateless",
-"Provider","lazy-class degenerate","setClientId","stateless",
-"UrlUtilsTest","pure-controller degenerate small-class","testGetOrigin","controller stateless",
-"CustomAuthenticationSuccessHandler","commander boundary small-class","CustomAuthenticationSuccessHandler","constructor",
-"CustomAuthenticationSuccessHandler","commander boundary small-class","onAuthenticationSuccess","command collaborator",
-"ConverterWebController","pure-controller degenerate","convertBookToPdfForm","controller stateless",
-"ConverterWebController","pure-controller degenerate","convertPdfToBookForm","controller stateless",
-"ConverterWebController","pure-controller degenerate","convertImgToPdfForm","controller stateless",
-"ConverterWebController","pure-controller degenerate","convertHTMLToPdfForm","controller stateless",
-"ConverterWebController","pure-controller degenerate","convertMarkdownToPdfForm","controller stateless",
-"ConverterWebController","pure-controller degenerate","convertURLToPdfForm","controller stateless",
-"ConverterWebController","pure-controller degenerate","pdfToimgForm","controller stateless",
-"ConverterWebController","pure-controller degenerate","convertToPdfForm","controller stateless",
-"ConverterWebController","pure-controller degenerate","pdfToHTML","factory controller stateless",
-"ConverterWebController","pure-controller degenerate","pdfToPresentation","factory controller stateless",
-"ConverterWebController","pure-controller degenerate","pdfToText","factory controller stateless",
-"ConverterWebController","pure-controller degenerate","pdfToWord","factory controller stateless",
-"ConverterWebController","pure-controller degenerate","pdfToXML","factory controller stateless",
-"ConverterWebController","pure-controller degenerate","pdfToCSV","factory controller stateless",
-"ConverterWebController","pure-controller degenerate","pdfToPdfAForm","controller stateless",
-"GeneralWebController","controller degenerate","pipelineForm","property non-void-command collaborator",
-"GeneralWebController","controller degenerate","mergePdfForm","controller stateless",
-"GeneralWebController","controller degenerate","splitPdfBySections","controller stateless",
-"GeneralWebController","controller degenerate","ViewPdfForm2","controller stateless",
-"GeneralWebController","controller degenerate","multiToolForm","controller stateless",
-"GeneralWebController","controller degenerate","pageDeleter","controller stateless",
-"GeneralWebController","controller degenerate","pageOrganizer","controller stateless",
-"GeneralWebController","controller degenerate","extractPages","controller stateless",
-"GeneralWebController","controller degenerate","pdfToSinglePage","controller stateless",
-"GeneralWebController","controller degenerate","rotatePdfForm","controller stateless",
-"GeneralWebController","controller degenerate","splitPdfForm","controller stateless",
-"GeneralWebController","controller degenerate","signForm","property non-void-command collaborator",
-"GeneralWebController","controller degenerate","multiPageLayoutForm","controller stateless",
-"GeneralWebController","controller degenerate","scalePagesFrom","controller stateless",
-"GeneralWebController","controller degenerate","splitBySizeOrCount","controller stateless",
-"GeneralWebController","controller degenerate","overlayPdf","controller stateless",
-"GeneralWebController","controller degenerate","getFontNames","non-void-command factory collaborator",
-"GeneralWebController","controller degenerate","getFontNamesFromLocation","property factory controller",
-"GeneralWebController","controller degenerate","getFormatFromExtension","incidental",
-"GeneralWebController","controller degenerate","cropForm","controller stateless",
-"GeneralWebController","controller degenerate","autoSPlitPDFForm","controller stateless",
-"HomeWebController","degenerate","gameForm","controller stateless",
-"HomeWebController","degenerate","licensesForm","property non-void-command collaborator",
-"HomeWebController","degenerate","home","controller stateless",
-"HomeWebController","degenerate","root","collaborator incidental",
-"HomeWebController","degenerate","getRobotsTxt","property non-void-command collaborator",
-"ApiEndpoint","data-provider","ApiEndpoint","constructor",
-"ApiEndpoint","data-provider","areParametersValid","predicate non-void-command collaborator",
-"ApiEndpoint","data-provider","getDescription","get",
-"ApiEndpoint","data-provider","toString","property",
-"GithubProvider","unclassified","getAuthorizationuri","get",
-"GithubProvider","unclassified","getTokenuri","get",
-"GithubProvider","unclassified","getUserinfouri","get",
-"GithubProvider","unclassified","getIssuer","stateless",
-"GithubProvider","unclassified","setIssuer","empty",
-"GithubProvider","unclassified","getClientId","get",
-"GithubProvider","unclassified","setClientId","set",
-"GithubProvider","unclassified","getClientSecret","get",
-"GithubProvider","unclassified","setClientSecret","set",
-"GithubProvider","unclassified","getScopes","get non-void-command factory collaborator",
-"GithubProvider","unclassified","setScopes","set",
-"GithubProvider","unclassified","getUseAsUsername","get",
-"GithubProvider","unclassified","setUseAsUsername","set",
-"GithubProvider","unclassified","toString","property non-void-command",
-"GithubProvider","unclassified","getName","incidental",
-"GithubProvider","unclassified","getClientName","incidental",
-"GithubProvider","unclassified","isSettingsValid","predicate non-void-command",
-"ApplicationProperties","boundary","getAutoPipeline","property collaborator",
-"ApplicationProperties","boundary","setAutoPipeline","set collaborator",
-"ApplicationProperties","boundary","getSecurity","property collaborator",
-"ApplicationProperties","boundary","setSecurity","set collaborator",
-"ApplicationProperties","boundary","getSystem","property collaborator",
-"ApplicationProperties","boundary","setSystem","set collaborator",
-"ApplicationProperties","boundary","getUi","property collaborator",
-"ApplicationProperties","boundary","setUi","set collaborator",
-"ApplicationProperties","boundary","getEndpoints","property collaborator",
-"ApplicationProperties","boundary","setEndpoints","set collaborator",
-"ApplicationProperties","boundary","getMetrics","property collaborator",
-"ApplicationProperties","boundary","setMetrics","set collaborator",
-"ApplicationProperties","boundary","getAutomaticallyGenerated","property collaborator",
-"ApplicationProperties","boundary","setAutomaticallyGenerated","set collaborator",
-"ApplicationProperties","boundary","toString","property",
-"ConvertMarkdownToPdf","controller small-class","markdownToPdf","property controller",
-"CustomOAuth2LogoutSuccessHandler","small-class","CustomOAuth2LogoutSuccessHandler","constructor",
-"CustomOAuth2LogoutSuccessHandler","small-class","onLogoutSuccess","command collaborator",
-"CustomOAuth2LogoutSuccessHandler","small-class","sanitizeInput","controller stateless",
-"PipelineOperation","unclassified","getOperation","get",
-"PipelineOperation","unclassified","setOperation","set",
-"PipelineOperation","unclassified","getParameters","get collaborator",
-"PipelineOperation","unclassified","setParameters","set collaborator",
-"PipelineOperation","unclassified","toString","property",
-"ErrorUtilsTest","pure-controller degenerate small-class","testExceptionToModel","controller stateless",
-"ErrorUtilsTest","pure-controller degenerate small-class","testExceptionToModelView","controller stateless",
-"User","unclassified","getRoleName","property non-void-command",
-"User","unclassified","isFirstLogin","predicate",
-"User","unclassified","setFirstLogin","set",
-"User","unclassified","getId","get",
-"User","unclassified","setId","set",
-"User","unclassified","getApiKey","get",
-"User","unclassified","setApiKey","set",
-"User","unclassified","getSettings","get",
-"User","unclassified","setSettings","set",
-"User","unclassified","getUsername","get",
-"User","unclassified","setUsername","set",
-"User","unclassified","getPassword","get",
-"User","unclassified","setPassword","set",
-"User","unclassified","isEnabled","get",
-"User","unclassified","setEnabled","set",
-"User","unclassified","setAuthenticationType","set collaborator",
-"User","unclassified","getAuthenticationType","get",
-"User","unclassified","getAuthorities","get collaborator",
-"User","unclassified","setAuthorities","set collaborator",
-"User","unclassified","addAuthorities","command collaborator",
-"User","unclassified","addAuthority","command collaborator",
-"User","unclassified","getRolesAsString","property non-void-command",
-"User","unclassified","hasPassword","predicate non-void-command",
-"JPATokenRepositoryImpl","entity commander boundary","createNewToken","command collaborator",
-"JPATokenRepositoryImpl","entity commander boundary","updateToken","command collaborator",
-"JPATokenRepositoryImpl","entity commander boundary","getTokenForSeries","property non-void-command factory collaborator",
-"JPATokenRepositoryImpl","entity commander boundary","removeUserTokens","command collaborator",
-"FileMonitor","entity commander boundary","FileMonitor","constructor",
-"FileMonitor","entity commander boundary","shouldNotProcess","predicate non-void-command collaborator",
-"FileMonitor","entity commander boundary","recursivelyRegisterEntry","command collaborator",
-"FileMonitor","entity commander boundary","trackFiles","command",
-"FileMonitor","entity commander boundary","handleDirectoryCreation","command collaborator",
-"FileMonitor","entity commander boundary","handleFileRemoval","command collaborator",
-"FileMonitor","entity commander boundary","handleFileCreation","command collaborator",
-"FileMonitor","entity commander boundary","handleFileModification","command collaborator",
-"FileMonitor","entity commander boundary","isFileReadyForProcessing","predicate non-void-command collaborator",
-"MultiPageLayoutController","pure-controller degenerate small-class","mergeMultiplePagesIntoOne","controller stateless",
+"PropertyConfigsTest","boundary degenerate","testGetBooleanValue_WithKeys","wrapper stateless"
+"PropertyConfigsTest","boundary degenerate","testGetStringValue_WithKeys","wrapper stateless"
+"PropertyConfigsTest","boundary degenerate","testGetBooleanValue_WithKey","wrapper stateless"
+"PropertyConfigsTest","boundary degenerate","testGetStringValue_WithKey","wrapper stateless"
+"ProcessExecutorTest","commander","setUp","set"
+"ProcessExecutorTest","commander","testRunCommandWithOutputHandling","command collaborator"
+"ProcessExecutorTest","commander","testRunCommandWithOutputHandling_Error","command"
+"PdfUtilsTest","degenerate","testTextToPageSize","wrapper stateless"
+"PdfUtilsTest","degenerate","testHasImagesOnPage","controller stateless"
+"PdfUtilsTest","degenerate","testExtractMetadataFromPdf","controller stateless"
+"ImageProcessingUtilsTest","commander boundary","testConvertColorTypeToGreyscale","command collaborator"
+"ImageProcessingUtilsTest","commander boundary","testConvertColorTypeToBlackWhite","command"
+"ImageProcessingUtilsTest","commander boundary","testConvertColorTypeToFullColor","command collaborator"
+"ImageProcessingUtilsTest","commander boundary","testConvertColorTypeInvalid","command collaborator"
+"ImageProcessingUtilsTest","commander boundary","fillImageWithColor","controller stateless"
+"GeneralUtilsTest","boundary degenerate","testParsePageListWithAll","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","testParsePageListWithAllOneBased","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","nFunc","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","nFuncAdvanced","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","nFuncAdvancedZero","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","nFuncAdvanced2","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","nFuncAdvanced3","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","nFuncAdvanced4","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","nFuncAdvancedZerobased","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","nFuncAdvanced2Zerobased","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeOneBasedOutput","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeZeroBaseOutput","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeOneBasedOutputFull","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeOneBasedOutputFullOutOfRange","wrapper stateless"
+"GeneralUtilsTest","boundary degenerate","testParsePageListWithRangeZeroBaseOutputFull","wrapper stateless"
+"FileToPdfTest","boundary degenerate small-class","testConvertHtmlToPdf","wrapper stateless"
+"FileToPdfTest","boundary degenerate small-class","testConvertBookTypeToPdf","wrapper stateless"
+"ProcessExecutor","entity small-class","ProcessExecutor","constructor"
+"ProcessExecutor","entity small-class","runCommandWithOutputHandling","property non-void-command collaborator"
+"ProcessExecutor","entity small-class","runCommandWithOutputHandling","property non-void-command factory collaborator"
+"PDFToFile","entity factory controller small-class","processPdfToHtml","property non-void-command factory collaborator"
+"PDFToFile","entity factory controller small-class","processPdfToOfficeFormat","property non-void-command factory collaborator"
+"TextFinder","unclassified","TextFinder","constructor"
+"TextFinder","unclassified","findOccurrencesInText","factory controller"
+"TextFinder","unclassified","writeString","command collaborator"
+"TextFinder","unclassified","getTextLocations","get non-void-command collaborator"
+"KeycloakProvider","unclassified","getIssuer","get"
+"KeycloakProvider","unclassified","setIssuer","set"
+"KeycloakProvider","unclassified","getClientId","get"
+"KeycloakProvider","unclassified","setClientId","set"
+"KeycloakProvider","unclassified","getClientSecret","get"
+"KeycloakProvider","unclassified","setClientSecret","set"
+"KeycloakProvider","unclassified","getScopes","get non-void-command factory collaborator"
+"KeycloakProvider","unclassified","setScopes","set"
+"KeycloakProvider","unclassified","getUseAsUsername","get"
+"KeycloakProvider","unclassified","setUseAsUsername","set"
+"KeycloakProvider","unclassified","toString","property non-void-command"
+"KeycloakProvider","unclassified","getName","incidental"
+"KeycloakProvider","unclassified","getClientName","incidental"
+"KeycloakProvider","unclassified","isSettingsValid","predicate non-void-command"
+"GoogleProvider","unclassified","getAuthorizationuri","get"
+"GoogleProvider","unclassified","getTokenuri","get"
+"GoogleProvider","unclassified","getUserinfouri","get"
+"GoogleProvider","unclassified","getClientId","get"
+"GoogleProvider","unclassified","setClientId","set"
+"GoogleProvider","unclassified","getClientSecret","get"
+"GoogleProvider","unclassified","setClientSecret","set"
+"GoogleProvider","unclassified","getScopes","get non-void-command factory collaborator"
+"GoogleProvider","unclassified","setScopes","set"
+"GoogleProvider","unclassified","getUseAsUsername","get"
+"GoogleProvider","unclassified","setUseAsUsername","set"
+"GoogleProvider","unclassified","toString","property non-void-command"
+"GoogleProvider","unclassified","getName","incidental"
+"GoogleProvider","unclassified","getClientName","incidental"
+"GoogleProvider","unclassified","isSettingsValid","predicate non-void-command"
+"WebResponseUtilsTest","pure-controller degenerate","testBoasToWebResponse","controller stateless"
+"WebResponseUtilsTest","pure-controller degenerate","testMultiPartFileToWebResponse","controller stateless"
+"WebResponseUtilsTest","pure-controller degenerate","testBytesToWebResponse","controller stateless"
+"WebResponseUtilsTest","pure-controller degenerate","testPdfDocToWebResponse","controller stateless"
+"UnsupportedProviderException","empty","UnsupportedProviderException","constructor"
+"UrlUtils","empty","UrlUtils","constructor"
+"WebMvcConfig","pure-controller small-class","addInterceptors","controller"
+"WebMvcConfig","pure-controller small-class","addResourceHandlers","controller stateless"
+"StartupApplicationListener","commander boundary data-class small-class","onApplicationEvent","set collaborator"
+"UserController","entity","register","property non-void-command collaborator"
+"UserController","entity","changeUsername","property non-void-command factory collaborator"
+"UserController","entity","changePasswordOnLogin","property non-void-command factory collaborator"
+"UserController","entity","changePassword","property non-void-command factory collaborator"
+"UserController","entity","updateUserSettings","property non-void-command collaborator"
+"UserController","entity","saveUser","property non-void-command factory collaborator"
+"UserController","entity","changeRole","property non-void-command factory collaborator"
+"UserController","entity","deleteUser","property non-void-command factory collaborator"
+"UserController","entity","invalidateUserSessions","command collaborator"
+"UserController","entity","getApiKey","property non-void-command collaborator"
+"UserController","entity","updateApiKey","property non-void-command collaborator"
+"CMSProcessableInputStream","boundary","CMSProcessableInputStream","constructor"
+"CMSProcessableInputStream","boundary","CMSProcessableInputStream","constructor"
+"CMSProcessableInputStream","boundary","getContent","get collaborator"
+"CMSProcessableInputStream","boundary","write","command collaborator"
+"CMSProcessableInputStream","boundary","getContentType","get collaborator"
+"AttemptCounter","unclassified","AttemptCounter","constructor"
+"AttemptCounter","unclassified","increment","command"
+"AttemptCounter","unclassified","getAttemptCount","get"
+"AttemptCounter","unclassified","getLastAttemptTime","get"
+"AttemptCounter","unclassified","shouldReset","predicate wrapper"
+"AttemptCounter","unclassified","reset","command"
+"SplitPdfBySectionsController","controller small-class","splitPdf","property non-void-command collaborator"
+"SplitPdfBySectionsController","controller small-class","splitPdfPages","factory controller stateless"
+"PipelineController","entity boundary small-class","handleData","property non-void-command collaborator"
+"CustomOAuth2UserService","entity factory controller small-class","CustomOAuth2UserService","constructor"
+"CustomOAuth2UserService","entity factory controller small-class","loadUser","property non-void-command factory collaborator"
+"CropController","pure-controller degenerate small-class","cropPdf","controller stateless"
+"UserBasedRateLimitingFilter","boundary","doFilterInternal","command collaborator"
+"UserBasedRateLimitingFilter","boundary","getRoleFromAuthentication","controller stateless"
+"UserBasedRateLimitingFilter","boundary","processRequest","command collaborator"
+"UserBasedRateLimitingFilter","boundary","createUserBucket","wrapper stateless"
+"StampController","unclassified","addStamp","property non-void-command collaborator"
+"StampController","unclassified","addTextStamp","command"
+"StampController","unclassified","addImageStamp","command"
+"StampController","unclassified","calculatePositionX","property non-void-command"
+"StampController","unclassified","calculatePositionY","controller stateless"
+"StampController","unclassified","calculateTextWidth","controller stateless"
+"StampController","unclassified","calculateTextCapHeight","controller stateless"
+"UserService","boundary","processOAuth2PostLogin","predicate non-void-command collaborator"
+"UserService","boundary","getAuthentication","property non-void-command factory collaborator"
+"UserService","boundary","getAuthorities","controller stateless"
+"UserService","boundary","generateApiKey","property non-void-command"
+"UserService","boundary","addApiKeyToUser","property non-void-command collaborator"
+"UserService","boundary","refreshApiKeyForUser","property non-void-command collaborator"
+"UserService","boundary","getApiKeyForUser","property non-void-command collaborator"
+"UserService","boundary","isValidApiKey","predicate non-void-command"
+"UserService","boundary","getUserByApiKey","property non-void-command collaborator"
+"UserService","boundary","loadUserByApiKey","property non-void-command factory collaborator"
+"UserService","boundary","validateApiKeyForUser","predicate non-void-command collaborator"
+"UserService","boundary","saveUser","command collaborator"
+"UserService","boundary","saveUser","command collaborator"
+"UserService","boundary","saveUser","command collaborator"
+"UserService","boundary","saveUser","command"
+"UserService","boundary","deleteUser","command collaborator"
+"UserService","boundary","usernameExists","predicate non-void-command"
+"UserService","boundary","usernameExistsIgnoreCase","predicate non-void-command"
+"UserService","boundary","hasUsers","predicate non-void-command"
+"UserService","boundary","updateUserSettings","command"
+"UserService","boundary","findByUsername","property non-void-command collaborator"
+"UserService","boundary","findByUsernameIgnoreCase","property non-void-command collaborator"
+"UserService","boundary","findRole","property non-void-command collaborator"
+"UserService","boundary","changeUsername","command"
+"UserService","boundary","changePassword","command"
+"UserService","boundary","changeFirstUse","command"
+"UserService","boundary","changeRole","command collaborator"
+"UserService","boundary","isPasswordCorrect","predicate non-void-command"
+"UserService","boundary","isUsernameValid","controller stateless"
+"UserService","boundary","getInvalidUsernameMessage","property non-void-command"
+"UserService","boundary","hasPassword","predicate non-void-command collaborator"
+"UserService","boundary","isAuthenticationTypeByUsername","predicate non-void-command collaborator"
+"SecurityConfiguration","entity degenerate","passwordEncoder","factory collaborator stateless"
+"SecurityConfiguration","entity degenerate","sessionRegistry","factory collaborator stateless"
+"SecurityConfiguration","entity degenerate","filterChain","property non-void-command collaborator"
+"MergeController","controller degenerate","mergeDocuments","factory controller stateless"
+"MergeController","controller degenerate","getSortComparator","controller stateless"
+"MergeController","controller degenerate","mergePdfs","property non-void-command collaborator"
+"Role","data-provider data-class","Role","constructor"
+"Role","data-provider data-class","getRoleId","get"
+"Role","data-provider data-class","getApiCallsPerDay","get"
+"Role","data-provider data-class","getWebCallsPerDay","get"
+"Role","data-provider data-class","getRoleName","get"
+"ConvertMarkdownToPdf","controller small-class","markdownToPdf","property controller"
+"InitialSecuritySetup","commander","init","command"
+"InitialSecuritySetup","commander","initSecretKey","command"
+"InitialSecuritySetup","commander","initializeAdminUser","command"
+"InitialSecuritySetup","commander","createDefaultAdminUser","command"
+"InitialSecuritySetup","commander","initializeInternalApiUser","command"
+"InitialSecuritySetup","commander","saveKeyToConfig","controller stateless"
+"InitialSecuritySetup","commander","isValidUUID","wrapper stateless"
+"IPRateLimitingFilter","commander small-class","IPRateLimitingFilter","constructor"
+"IPRateLimitingFilter","commander small-class","doFilter","command collaborator"
+"IPRateLimitingFilter","commander small-class","resetRequestCounts","command"
+"Beans","controller","addInterceptors","command collaborator"
+"Beans","controller","localeChangeInterceptor","factory controller stateless"
+"Beans","controller","localeResolver","non-void-command factory collaborator"
+"Authority","data-class","Authority","constructor"
+"Authority","data-class","Authority","constructor"
+"Authority","data-class","getId","get"
+"Authority","data-class","setId","set"
+"Authority","data-class","getAuthority","get"
+"Authority","data-class","setAuthority","set"
+"Authority","data-class","getUser","get collaborator"
+"Authority","data-class","setUser","set collaborator"
+"ScalePagesController","pure-controller degenerate small-class","scalePages","controller stateless"
+"CustomLogoutSuccessHandler","commander boundary small-class","onLogoutSuccess","command collaborator"
+"TableAttributeProvider","pure-controller degenerate small-class","setAttributes","controller stateless"
+"PageNumbersController","pure-controller degenerate small-class","addPageNumbers","controller stateless"
+"ConvertPDFToHtml","pure-controller degenerate small-class","processPdfToHTML","controller stateless"
+"SPdfApplication","unclassified","setServerPortStatic","set"
+"SPdfApplication","unclassified","init","command collaborator"
+"SPdfApplication","unclassified","getNonStaticPort","get"
+"LibreOfficeListener","commander","LibreOfficeListener","constructor"
+"LibreOfficeListener","commander","isListenerRunning","wrapper stateless"
+"LibreOfficeListener","commander","start","command"
+"LibreOfficeListener","commander","stop","command"
+"ValidationTimeStamp","entity boundary","ValidationTimeStamp","constructor"
+"ValidationTimeStamp","entity boundary","getTimeStampToken","property non-void-command collaborator"
+"ValidationTimeStamp","entity boundary","addSignedTimeStamp","property non-void-command collaborator"
+"ValidationTimeStamp","entity boundary","signTimeStamp","property non-void-command collaborator"
+"CustomUserDetailsService","controller small-class","loadUserByUsername","property non-void-command factory collaborator"
+"CustomUserDetailsService","controller small-class","getAuthorities","controller stateless"
+"ConfigInitializer","commander boundary","initialize","command collaborator"
+"ConfigInitializer","commander boundary","ensureConfigExists","command collaborator"
+"ConfigInitializer","commander boundary","changeConfigItemFromCommentToKeyValue","command"
+"AppUpdateAuthService","entity boundary small-class","getShowUpdateOnlyAdmins","predicate non-void-command collaborator"
+"SplitPDFController","entity boundary small-class","splitPdf","property non-void-command collaborator"
+"ConnectedInputStream","unclassified","ConnectedInputStream","constructor"
+"ConnectedInputStream","unclassified","read","property non-void-command"
+"ConnectedInputStream","unclassified","read","property non-void-command"
+"ConnectedInputStream","unclassified","read","property non-void-command"
+"ConnectedInputStream","unclassified","skip","property non-void-command"
+"ConnectedInputStream","unclassified","available","property non-void-command"
+"ConnectedInputStream","unclassified","mark","command"
+"ConnectedInputStream","unclassified","reset","command"
+"ConnectedInputStream","unclassified","markSupported","predicate non-void-command"
+"ConnectedInputStream","unclassified","close","command"
+"AppUpdateService","small-class","shouldShow","predicate non-void-command"
+"UserAuthenticationFilter","small-class","doFilterInternal","command collaborator"
+"UserAuthenticationFilter","small-class","shouldNotFilter","controller stateless"
+"RequestUriUtilsTest","boundary degenerate small-class","testIsStaticResource","wrapper stateless"
+"PipelineProcessor","boundary","getApiKeyForUser","property non-void-command"
+"PipelineProcessor","boundary","getBaseUrl","property non-void-command"
+"PipelineProcessor","boundary","runPipelineAgainstFiles","property non-void-command collaborator"
+"PipelineProcessor","boundary","sendWebRequest","property non-void-command collaborator"
+"PipelineProcessor","boundary","processOutputFiles","property non-void-command factory collaborator"
+"PipelineProcessor","boundary","extractFilename","controller stateless"
+"PipelineProcessor","boundary","generateInputFiles","property non-void-command factory collaborator"
+"PipelineProcessor","boundary","generateInputFiles","property non-void-command factory collaborator"
+"PipelineProcessor","boundary","isZip","incidental"
+"PipelineProcessor","boundary","unzip","property non-void-command factory collaborator"
+"TSAClient","small-class","TSAClient","constructor"
+"TSAClient","small-class","getTimeStampToken","property non-void-command collaborator"
+"TSAClient","small-class","getTSAResponse","property non-void-command"
+"CleanUrlInterceptor","degenerate","preHandle","predicate non-void-command collaborator"
+"CleanUrlInterceptor","degenerate","postHandle","empty"
+"CleanUrlInterceptor","degenerate","afterCompletion","empty"
+"PersistentLogin","data-class","getSeries","get"
+"PersistentLogin","data-class","setSeries","set"
+"PersistentLogin","data-class","getUsername","get"
+"PersistentLogin","data-class","setUsername","set"
+"PersistentLogin","data-class","getToken","get"
+"PersistentLogin","data-class","setToken","set"
+"PersistentLogin","data-class","getLastUsed","get collaborator"
+"PersistentLogin","data-class","setLastUsed","set collaborator"
+"MetricsFilter","pure-controller small-class","MetricsFilter","constructor"
+"MetricsFilter","pure-controller small-class","doFilterInternal","controller"
+"SPdfApplicationTest","commander","setUp","set"
+"SPdfApplicationTest","commander","testSetServerPortStatic","command"
+"SPdfApplicationTest","commander","testMainApplicationStartup","wrapper stateless"
+"SPdfApplicationTest","commander","testGetStaticPort","wrapper stateless"
+"SPdfApplicationTest","commander","testGetNonStaticPort","command"
+"CertSignController","degenerate","signPDFWithCert","property non-void-command collaborator"
+"CertSignController","degenerate","getPrivateKeyFromPEM","controller stateless"
+"CertSignController","degenerate","getCertificateFromPEM","wrapper stateless"
+"ConvertWebsiteToPDF","small-class","urlToPdf","property non-void-command collaborator"
+"ConvertWebsiteToPDF","small-class","convertURLToFileName","controller stateless"
+"MetricsController","boundary","init","set collaborator"
+"MetricsController","boundary","MetricsController","constructor"
+"MetricsController","boundary","getStatus","property controller"
+"MetricsController","boundary","getPageLoads","property non-void-command collaborator"
+"MetricsController","boundary","getAllEndpointLoads","property non-void-command collaborator"
+"MetricsController","boundary","getTotalRequests","property non-void-command collaborator"
+"MetricsController","boundary","getAllPostRequests","property non-void-command collaborator"
+"MetricsController","boundary","getUptime","property non-void-command collaborator"
+"MetricsController","boundary","formatDuration","controller stateless"
+"ToSinglePageController","pure-controller degenerate small-class","pdfToSinglePage","controller stateless"
+"RearrangePagesPDFControllerTest","pure-controller degenerate","oddEvenMerge_noPages","controller stateless"
+"RearrangePagesPDFControllerTest","pure-controller degenerate","oddEvenMerge_oddTotalPageNumber","controller stateless"
+"RearrangePagesPDFControllerTest","pure-controller degenerate","oddEvenMerge_evenTotalPageNumber","controller stateless"
+"RearrangePagesPDFControllerTest","pure-controller degenerate","oddEvenMerge_multi_test","controller stateless"
+"ExtractImageScansController","entity boundary small-class","extractImageScans","property non-void-command collaborator"
+"SplitPdfBySizeController","commander boundary","autoSplitPdf","property non-void-command collaborator"
+"SplitPdfBySizeController","commander boundary","handleSplitBySize","command collaborator"
+"SplitPdfBySizeController","commander boundary","handleSplitByPageCount","command collaborator"
+"SplitPdfBySizeController","commander boundary","handleSplitByDocCount","command"
+"SplitPdfBySizeController","commander boundary","saveDocumentToZip","controller stateless"
+"ConvertImgPDFController","degenerate","convertToImage","property non-void-command collaborator"
+"ConvertImgPDFController","degenerate","convertToPdf","controller stateless"
+"ConvertImgPDFController","degenerate","getMediaType","wrapper stateless"
+"PDFWithPageNums","small-class","getPageNumbersList","property non-void-command"
+"PDFWithPageNums","small-class","getPageNumbersList","property controller"
+"FilterController","pure-controller degenerate","containsText","controller stateless"
+"FilterController","pure-controller degenerate","containsImage","controller stateless"
+"FilterController","pure-controller degenerate","pageCount","controller stateless"
+"FilterController","pure-controller degenerate","pageSize","controller stateless"
+"FilterController","pure-controller degenerate","fileSize","controller stateless"
+"FilterController","pure-controller degenerate","pageRotation","controller stateless"
+"ConvertHtmlToPDF","controller small-class","HtmlToPdf","property controller"
+"PdfUtils","pure-controller degenerate","containsTextInFile","controller stateless"
+"PdfUtils","pure-controller degenerate","pageCount","controller stateless"
+"PdfUtils","pure-controller degenerate","pageSize","controller stateless"
+"PdfUtils","pure-controller degenerate","PdfRenderSettingsKey","empty"
+"PdfUtils","pure-controller degenerate","PdfImageDimensionValue","empty"
+"ApiKeyAuthenticationToken","unclassified","ApiKeyAuthenticationToken","constructor"
+"ApiKeyAuthenticationToken","unclassified","ApiKeyAuthenticationToken","constructor"
+"ApiKeyAuthenticationToken","unclassified","getCredentials","get collaborator"
+"ApiKeyAuthenticationToken","unclassified","getPrincipal","get collaborator"
+"ApiKeyAuthenticationToken","unclassified","setAuthenticated","command"
+"ApiKeyAuthenticationToken","unclassified","eraseCredentials","set"
+"PdfOverlayController","unclassified","overlayPdfs","property non-void-command collaborator"
+"PdfOverlayController","unclassified","prepareOverlayGuide","property non-void-command collaborator"
+"PdfOverlayController","unclassified","sequentialOverlay","command collaborator"
+"PdfOverlayController","unclassified","getNumberOfPages","wrapper stateless"
+"PdfOverlayController","unclassified","interleavedOverlay","controller stateless"
+"PdfOverlayController","unclassified","fixedRepeatOverlay","controller stateless"
+"SecurityWebController","pure-controller degenerate","autoRedactForm","controller stateless"
+"SecurityWebController","pure-controller degenerate","addPasswordForm","controller stateless"
+"SecurityWebController","pure-controller degenerate","permissionsForm","controller stateless"
+"SecurityWebController","pure-controller degenerate","removePasswordForm","controller stateless"
+"SecurityWebController","pure-controller degenerate","addWatermarkForm","controller stateless"
+"SecurityWebController","pure-controller degenerate","certSignForm","controller stateless"
+"SecurityWebController","pure-controller degenerate","certUnSignForm","controller stateless"
+"SecurityWebController","pure-controller degenerate","sanitizeForm","controller stateless"
+"SecurityWebController","pure-controller degenerate","getInfo","controller stateless"
+"FileFallbackTemplateResolver","entity factory controller small-class","FileFallbackTemplateResolver","constructor"
+"FileFallbackTemplateResolver","entity factory controller small-class","computeTemplateResource","property non-void-command factory collaborator"
+"PDFText","data-provider data-class","PDFText","constructor"
+"PDFText","data-provider data-class","getPageIndex","get"
+"PDFText","data-provider data-class","getX1","get"
+"PDFText","data-provider data-class","getY1","get"
+"PDFText","data-provider data-class","getX2","get"
+"PDFText","data-provider data-class","getY2","get"
+"PDFText","data-provider data-class","getText","get"
+"ConvertOfficeController","unclassified","convertToPdf","property non-void-command collaborator"
+"ConvertOfficeController","unclassified","isValidFileExtension","controller stateless"
+"ConvertOfficeController","unclassified","processFileToPDF","property non-void-command collaborator"
+"EndpointConfiguration","commander","EndpointConfiguration","constructor"
+"EndpointConfiguration","commander","enableEndpoint","command"
+"EndpointConfiguration","commander","disableEndpoint","command"
+"EndpointConfiguration","commander","isEndpointEnabled","predicate non-void-command"
+"EndpointConfiguration","commander","addEndpointToGroup","command"
+"EndpointConfiguration","commander","enableGroup","command"
+"EndpointConfiguration","commander","disableGroup","command"
+"EndpointConfiguration","commander","init","command"
+"EndpointConfiguration","commander","processEnvironmentConfigs","command"
+"ConvertBookToPDFController","controller small-class","HtmlToPdf","property controller"
+"BlankPageController","entity factory controller small-class","removeBlankPages","property non-void-command factory collaborator"
+"AppConfig","degenerate","templateEngine","factory controller stateless"
+"AppConfig","degenerate","loginEnabled","predicate non-void-command"
+"AppConfig","degenerate","appName","property non-void-command"
+"AppConfig","degenerate","appVersion","property non-void-command collaborator"
+"AppConfig","degenerate","homeText","property non-void-command"
+"AppConfig","degenerate","navBarText","property non-void-command"
+"AppConfig","degenerate","enableAlphaFunctionality","predicate non-void-command"
+"AppConfig","degenerate","rateLimit","wrapper stateless"
+"AppConfig","degenerate","runningInDocker","wrapper stateless"
+"AppConfig","degenerate","bookAndHtmlFormatsInstalled","wrapper stateless"
+"AppConfig","degenerate","missingActivSecurity","incidental"
+"AppConfig","degenerate","watchedFoldersDir","incidental"
+"AppConfig","degenerate","finishedFoldersDir","incidental"
+"AppConfig","degenerate","processPDFOnlyFilter","controller stateless"
+"CreateSignatureBase","boundary","CreateSignatureBase","constructor"
+"CreateSignatureBase","boundary","setPrivateKey","set collaborator"
+"CreateSignatureBase","boundary","setCertificateChain","set collaborator"
+"CreateSignatureBase","boundary","getCertificateChain","get collaborator"
+"CreateSignatureBase","boundary","setTsaUrl","set"
+"CreateSignatureBase","boundary","sign","property non-void-command collaborator"
+"CreateSignatureBase","boundary","setExternalSigning","set"
+"CreateSignatureBase","boundary","isExternalSigning","get"
+"WatermarkController","degenerate","addWatermark","property non-void-command collaborator"
+"WatermarkController","degenerate","addTextWatermark","controller stateless"
+"WatermarkController","degenerate","addImageWatermark","controller stateless"
+"MetricsConfig","factory degenerate small-class","meterFilter","factory wrapper stateless"
+"InputStreamTemplateResource","degenerate","InputStreamTemplateResource","constructor"
+"InputStreamTemplateResource","degenerate","reader","property factory collaborator"
+"InputStreamTemplateResource","degenerate","relative","collaborator stateless"
+"InputStreamTemplateResource","degenerate","getDescription","incidental"
+"InputStreamTemplateResource","degenerate","getBaseName","incidental"
+"InputStreamTemplateResource","degenerate","exists","incidental"
+"YamlPropertySourceFactory","factory pure-controller degenerate small-class","createPropertySource","factory controller stateless"
+"CustomOAuth2AuthenticationSuccessHandler","commander boundary small-class","CustomOAuth2AuthenticationSuccessHandler","constructor"
+"CustomOAuth2AuthenticationSuccessHandler","commander boundary small-class","onAuthenticationSuccess","command collaborator"
+"OpenApiConfig","entity factory controller small-class","customOpenAPI","property non-void-command factory collaborator"
+"RotationController","pure-controller degenerate small-class","rotatePDF","controller stateless"
+"RateLimitResetScheduler","commander small-class","RateLimitResetScheduler","constructor"
+"RateLimitResetScheduler","commander small-class","resetRateLimit","command"
+"RearrangePagesPDFController","controller degenerate","deletePages","controller stateless"
+"RearrangePagesPDFController","controller degenerate","removeFirst","controller stateless"
+"RearrangePagesPDFController","controller degenerate","removeLast","controller stateless"
+"RearrangePagesPDFController","controller degenerate","removeFirstAndLast","controller stateless"
+"RearrangePagesPDFController","controller degenerate","reverseOrder","controller stateless"
+"RearrangePagesPDFController","controller degenerate","duplexSort","controller stateless"
+"RearrangePagesPDFController","controller degenerate","bookletSort","controller stateless"
+"RearrangePagesPDFController","controller degenerate","sideStitchBooklet","controller stateless"
+"RearrangePagesPDFController","controller degenerate","oddEvenSplit","controller stateless"
+"RearrangePagesPDFController","controller degenerate","oddEvenMerge","controller stateless"
+"RearrangePagesPDFController","controller degenerate","processSortTypes","property non-void-command collaborator"
+"RearrangePagesPDFController","controller degenerate","rearrangePages","property non-void-command collaborator"
+"FirstLoginFilter","commander boundary small-class","doFilterInternal","command collaborator"
+"ShowAdminInterface","degenerate small-class","getShowUpdateOnlyAdmins","incidental"
+"ConvertPDFToBookController","controller small-class","HtmlToPdf","property controller"
+"ConvertPDFToOffice","pure-controller degenerate","processPdfToPresentation","controller stateless"
+"ConvertPDFToOffice","pure-controller degenerate","processPdfToRTForTXT","controller stateless"
+"ConvertPDFToOffice","pure-controller degenerate","processPdfToWord","controller stateless"
+"ConvertPDFToOffice","pure-controller degenerate","processPdfToXML","controller stateless"
+"AutoRenameController","entity boundary small-class","extractHeader","property non-void-command collaborator"
+"ConvertPDFToPDFA","pure-controller degenerate small-class","pdfToPdfA","controller stateless"
+"ExtractController","degenerate","PdfToCsv","property non-void-command collaborator"
+"ExtractController","degenerate","getRecordsList","controller stateless"
+"ExtractController","degenerate","getTableHeaders","controller stateless"
+"AutoSplitPdfController","entity boundary small-class","autoSplitPdf","property non-void-command collaborator"
+"CompressController","entity boundary small-class","optimizePdf","property non-void-command collaborator"
+"ExtractImagesController","pure-controller degenerate small-class","extractImages","controller stateless"
+"LoginAttemptService","boundary","init","command"
+"LoginAttemptService","boundary","loginSucceeded","command"
+"LoginAttemptService","boundary","loginFailed","command collaborator"
+"LoginAttemptService","boundary","isBlocked","predicate non-void-command collaborator"
+"LoginAttemptService","boundary","getRemainingAttempts","get property non-void-command collaborator"
+"FakeScanControllerWIP","controller degenerate","fakeScan","property non-void-command collaborator"
+"FakeScanControllerWIP","controller degenerate","processImage","property non-void-command collaborator"
+"FakeScanControllerWIP","controller degenerate","rotate","controller stateless"
+"FakeScanControllerWIP","controller degenerate","applyGaussianBlur","controller stateless"
+"FakeScanControllerWIP","controller degenerate","softenEdges","factory controller stateless"
+"FakeScanControllerWIP","controller degenerate","addDustAndHairs","controller stateless"
+"FakeScanControllerWIP","controller degenerate","addGaussianNoise","controller stateless"
+"FakeScanControllerWIP","controller degenerate","linearStretch","controller stateless"
+"FlattenController","entity boundary small-class","flatten","property non-void-command collaborator"
+"MetadataController","entity boundary small-class","checkUndefined","wrapper stateless"
+"MetadataController","entity boundary small-class","metadata","property non-void-command collaborator"
+"OCRController","entity boundary small-class","getAvailableTesseractLanguages","wrapper stateless"
+"OCRController","entity boundary small-class","processPdfWithOCR","property non-void-command collaborator"
+"OverlayImageController","entity factory controller small-class","overlayImage","property non-void-command factory collaborator"
+"RepairController","pure-controller degenerate small-class","repairPdf","controller stateless"
+"PasswordController","pure-controller degenerate small-class","removePassword","controller stateless"
+"PasswordController","pure-controller degenerate small-class","addPassword","controller stateless"
+"ShowJavascript","pure-controller degenerate small-class","extractHeader","controller stateless"
+"ApiDocService","unclassified","getApiDocsUrl","property non-void-command"
+"ApiDocService","unclassified","getExtensionTypes","non-void-command"
+"ApiDocService","unclassified","getApiKeyForUser","property non-void-command"
+"ApiDocService","unclassified","loadApiDocumentation","command collaborator"
+"ApiDocService","unclassified","isValidOperation","predicate non-void-command collaborator"
+"ApiDocService","unclassified","isMultiInput","predicate non-void-command"
+"PipelineDirectoryProcessor","commander boundary","PipelineDirectoryProcessor","constructor"
+"PipelineDirectoryProcessor","commander boundary","scanFolders","command collaborator"
+"PipelineDirectoryProcessor","commander boundary","handleDirectory","command collaborator"
+"PipelineDirectoryProcessor","commander boundary","createProcessingDirectory","property non-void-command collaborator"
+"PipelineDirectoryProcessor","commander boundary","findJsonFile","wrapper stateless"
+"PipelineDirectoryProcessor","commander boundary","readAndParseJson","property non-void-command collaborator"
+"PipelineDirectoryProcessor","commander boundary","processPipelineOperations","command collaborator"
+"PipelineDirectoryProcessor","commander boundary","validateOperation","command collaborator"
+"PipelineDirectoryProcessor","commander boundary","collectFilesForProcessing","property non-void-command factory collaborator"
+"PipelineDirectoryProcessor","commander boundary","prepareFilesForProcessing","non-void-command factory collaborator"
+"PipelineDirectoryProcessor","commander boundary","resolveUniqueFilePath","property non-void-command collaborator"
+"PipelineDirectoryProcessor","commander boundary","appendSuffixToFileName","controller stateless"
+"PipelineDirectoryProcessor","commander boundary","runPipelineAgainstFiles","command collaborator"
+"PipelineDirectoryProcessor","commander boundary","moveAndRenameFiles","command collaborator"
+"PipelineDirectoryProcessor","commander boundary","createOutputFileName","controller stateless"
+"PipelineDirectoryProcessor","commander boundary","determineOutputPath","property controller"
+"PipelineDirectoryProcessor","commander boundary","deleteOriginalFiles","command collaborator"
+"PipelineDirectoryProcessor","commander boundary","moveFilesBack","command collaborator"
+"PipelineConfig","data-class","getName","get"
+"PipelineConfig","data-class","setName","set"
+"PipelineConfig","data-class","getOperations","get collaborator"
+"PipelineConfig","data-class","setOperations","set collaborator"
+"PipelineConfig","data-class","getOutputDir","get"
+"PipelineConfig","data-class","setOutputDir","set"
+"PipelineConfig","data-class","getOutputPattern","get"
+"PipelineConfig","data-class","setOutputPattern","set"
+"EndpointInterceptor","entity boundary small-class","preHandle","predicate non-void-command collaborator"
+"GetInfoOnPDF","degenerate","getPdfInfo","property non-void-command collaborator"
+"GetInfoOnPDF","degenerate","getPageOrientation","incidental"
+"GetInfoOnPDF","degenerate","getPageSize","property non-void-command collaborator"
+"GetInfoOnPDF","degenerate","isCloseToSize","wrapper stateless"
+"GetInfoOnPDF","degenerate","getDimensionInfo","controller stateless"
+"GetInfoOnPDF","degenerate","exploreStructureTree","property non-void-command collaborator"
+"GetInfoOnPDF","degenerate","getContent","property non-void-command collaborator"
+"GetInfoOnPDF","degenerate","formatDate","controller stateless"
+"GetInfoOnPDF","degenerate","getPageModeDescription","controller stateless"
+"RedactController","small-class","redactPdf","property non-void-command collaborator"
+"RedactController","small-class","redactFoundText","controller stateless"
+"OtherWebController","controller degenerate","compressPdfForm","controller stateless"
+"OtherWebController","controller degenerate","extractImageScansForm","factory controller stateless"
+"OtherWebController","controller degenerate","extractJavascriptForm","controller stateless"
+"OtherWebController","controller degenerate","stampForm","controller stateless"
+"OtherWebController","controller degenerate","addPageNumbersForm","controller stateless"
+"OtherWebController","controller degenerate","fakeScanForm","controller stateless"
+"OtherWebController","controller degenerate","extractImagesForm","controller stateless"
+"OtherWebController","controller degenerate","flattenForm","controller stateless"
+"OtherWebController","controller degenerate","addWatermarkForm","controller stateless"
+"OtherWebController","controller degenerate","compareForm","controller stateless"
+"OtherWebController","controller degenerate","printFileForm","controller stateless"
+"OtherWebController","controller degenerate","getAvailableTesseractLanguages","wrapper stateless"
+"OtherWebController","controller degenerate","ocrPdfPage","non-void-command factory collaborator"
+"OtherWebController","controller degenerate","overlayImage","controller stateless"
+"OtherWebController","controller degenerate","contrast","controller stateless"
+"OtherWebController","controller degenerate","repairForm","controller stateless"
+"OtherWebController","controller degenerate","removeBlanksForm","controller stateless"
+"OtherWebController","controller degenerate","removeAnnotationsForm","controller stateless"
+"OtherWebController","controller degenerate","autoCropForm","controller stateless"
+"OtherWebController","controller degenerate","autoRenameForm","controller stateless"
+"RemoveCertSignController","pure-controller degenerate small-class","removeCertSignPDF","controller stateless"
+"CustomOAuth2AuthenticationFailureHandler","commander boundary small-class","onAuthenticationFailure","command collaborator"
+"SanitizeController","controller degenerate","sanitizePDF","property non-void-command collaborator"
+"SanitizeController","controller degenerate","sanitizeJavaScript","controller stateless"
+"SanitizeController","controller degenerate","sanitizeEmbeddedFiles","controller stateless"
+"SanitizeController","controller degenerate","sanitizeMetadata","controller stateless"
+"SanitizeController","controller degenerate","sanitizeLinks","controller stateless"
+"SanitizeController","controller degenerate","sanitizeFonts","controller stateless"
+"PrintFileController","factory pure-controller degenerate small-class","printFile","factory controller stateless"
+"PDFTableStripper","boundary","PDFTableStripper","constructor"
+"PDFTableStripper","boundary","setRegion","set collaborator"
+"PDFTableStripper","boundary","getRows","get"
+"PDFTableStripper","boundary","getColumns","get"
+"PDFTableStripper","boundary","getText","property non-void-command"
+"PDFTableStripper","boundary","extractTable","command collaborator"
+"PDFTableStripper","boundary","calculateTableRegions","non-void-command factory collaborator"
+"PDFTableStripper","boundary","writeString","command collaborator"
+"PDFTableStripper","boundary","setShouldSeparateByBeads","empty"
+"PDFTableStripper","boundary","processTextPosition","command collaborator"
+"AccountWebController","entity boundary","login","property non-void-command collaborator"
+"AccountWebController","entity boundary","showAddUserForm","property non-void-command collaborator"
+"AccountWebController","entity boundary","account","property non-void-command collaborator"
+"AccountWebController","entity boundary","changeCreds","property non-void-command collaborator"
+"CustomAuthenticationFailureHandler","small-class","CustomAuthenticationFailureHandler","constructor"
+"CustomAuthenticationFailureHandler","small-class","onAuthenticationFailure","command collaborator"
+"CustomAuthenticationFailureHandler","small-class","isDemoUser","controller stateless"
+"Provider","lazy-class degenerate","getName","get"
+"Provider","lazy-class degenerate","getClientName","get"
+"Provider","lazy-class degenerate","isValid","controller stateless"
+"Provider","lazy-class degenerate","isValid","controller stateless"
+"Provider","lazy-class degenerate","getScopes","collaborator stateless"
+"Provider","lazy-class degenerate","setScopes","stateless"
+"Provider","lazy-class degenerate","getUseAsUsername","stateless"
+"Provider","lazy-class degenerate","setUseAsUsername","stateless"
+"Provider","lazy-class degenerate","getIssuer","stateless"
+"Provider","lazy-class degenerate","setIssuer","stateless"
+"Provider","lazy-class degenerate","getClientSecret","stateless"
+"Provider","lazy-class degenerate","setClientSecret","stateless"
+"Provider","lazy-class degenerate","getClientId","stateless"
+"Provider","lazy-class degenerate","setClientId","stateless"
+"UrlUtilsTest","pure-controller degenerate small-class","testGetOrigin","controller stateless"
+"CustomAuthenticationSuccessHandler","commander boundary small-class","CustomAuthenticationSuccessHandler","constructor"
+"CustomAuthenticationSuccessHandler","commander boundary small-class","onAuthenticationSuccess","command collaborator"
+"ConverterWebController","pure-controller degenerate","convertBookToPdfForm","controller stateless"
+"ConverterWebController","pure-controller degenerate","convertPdfToBookForm","controller stateless"
+"ConverterWebController","pure-controller degenerate","convertImgToPdfForm","controller stateless"
+"ConverterWebController","pure-controller degenerate","convertHTMLToPdfForm","controller stateless"
+"ConverterWebController","pure-controller degenerate","convertMarkdownToPdfForm","controller stateless"
+"ConverterWebController","pure-controller degenerate","convertURLToPdfForm","controller stateless"
+"ConverterWebController","pure-controller degenerate","pdfToimgForm","controller stateless"
+"ConverterWebController","pure-controller degenerate","convertToPdfForm","controller stateless"
+"ConverterWebController","pure-controller degenerate","pdfToHTML","factory controller stateless"
+"ConverterWebController","pure-controller degenerate","pdfToPresentation","factory controller stateless"
+"ConverterWebController","pure-controller degenerate","pdfToText","factory controller stateless"
+"ConverterWebController","pure-controller degenerate","pdfToWord","factory controller stateless"
+"ConverterWebController","pure-controller degenerate","pdfToXML","factory controller stateless"
+"ConverterWebController","pure-controller degenerate","pdfToCSV","factory controller stateless"
+"ConverterWebController","pure-controller degenerate","pdfToPdfAForm","controller stateless"
+"HomeWebController","degenerate","gameForm","controller stateless"
+"HomeWebController","degenerate","licensesForm","property non-void-command collaborator"
+"HomeWebController","degenerate","home","controller stateless"
+"HomeWebController","degenerate","root","collaborator incidental"
+"HomeWebController","degenerate","getRobotsTxt","property non-void-command collaborator"
+"ApiEndpoint","data-provider","ApiEndpoint","constructor"
+"ApiEndpoint","data-provider","areParametersValid","predicate non-void-command collaborator"
+"ApiEndpoint","data-provider","getDescription","get"
+"ApiEndpoint","data-provider","toString","property"
+"GithubProvider","unclassified","getAuthorizationuri","get"
+"GithubProvider","unclassified","getTokenuri","get"
+"GithubProvider","unclassified","getUserinfouri","get"
+"GithubProvider","unclassified","getIssuer","stateless"
+"GithubProvider","unclassified","setIssuer","empty"
+"GithubProvider","unclassified","getClientId","get"
+"GithubProvider","unclassified","setClientId","set"
+"GithubProvider","unclassified","getClientSecret","get"
+"GithubProvider","unclassified","setClientSecret","set"
+"GithubProvider","unclassified","getScopes","get non-void-command factory collaborator"
+"GithubProvider","unclassified","setScopes","set"
+"GithubProvider","unclassified","getUseAsUsername","get"
+"GithubProvider","unclassified","setUseAsUsername","set"
+"GithubProvider","unclassified","toString","property non-void-command"
+"GithubProvider","unclassified","getName","incidental"
+"GithubProvider","unclassified","getClientName","incidental"
+"GithubProvider","unclassified","isSettingsValid","predicate non-void-command"
+"ApplicationProperties","boundary","getAutoPipeline","property collaborator"
+"ApplicationProperties","boundary","setAutoPipeline","set collaborator"
+"ApplicationProperties","boundary","getSecurity","property collaborator"
+"ApplicationProperties","boundary","setSecurity","set collaborator"
+"ApplicationProperties","boundary","getSystem","property collaborator"
+"ApplicationProperties","boundary","setSystem","set collaborator"
+"ApplicationProperties","boundary","getUi","property collaborator"
+"ApplicationProperties","boundary","setUi","set collaborator"
+"ApplicationProperties","boundary","getEndpoints","property collaborator"
+"ApplicationProperties","boundary","setEndpoints","set collaborator"
+"ApplicationProperties","boundary","getMetrics","property collaborator"
+"ApplicationProperties","boundary","setMetrics","set collaborator"
+"ApplicationProperties","boundary","getAutomaticallyGenerated","property collaborator"
+"ApplicationProperties","boundary","setAutomaticallyGenerated","set collaborator"
+"ApplicationProperties","boundary","toString","property"
+"GeneralWebController","controller degenerate","pipelineForm","property non-void-command collaborator"
+"GeneralWebController","controller degenerate","mergePdfForm","controller stateless"
+"GeneralWebController","controller degenerate","splitPdfBySections","controller stateless"
+"GeneralWebController","controller degenerate","ViewPdfForm2","controller stateless"
+"GeneralWebController","controller degenerate","multiToolForm","controller stateless"
+"GeneralWebController","controller degenerate","pageDeleter","controller stateless"
+"GeneralWebController","controller degenerate","pageOrganizer","controller stateless"
+"GeneralWebController","controller degenerate","extractPages","controller stateless"
+"GeneralWebController","controller degenerate","pdfToSinglePage","controller stateless"
+"GeneralWebController","controller degenerate","rotatePdfForm","controller stateless"
+"GeneralWebController","controller degenerate","splitPdfForm","controller stateless"
+"GeneralWebController","controller degenerate","signForm","property non-void-command collaborator"
+"GeneralWebController","controller degenerate","multiPageLayoutForm","controller stateless"
+"GeneralWebController","controller degenerate","scalePagesFrom","controller stateless"
+"GeneralWebController","controller degenerate","splitBySizeOrCount","controller stateless"
+"GeneralWebController","controller degenerate","overlayPdf","controller stateless"
+"GeneralWebController","controller degenerate","getFontNames","non-void-command factory collaborator"
+"GeneralWebController","controller degenerate","getFontNamesFromLocation","property factory controller"
+"GeneralWebController","controller degenerate","getFormatFromExtension","incidental"
+"GeneralWebController","controller degenerate","cropForm","controller stateless"
+"GeneralWebController","controller degenerate","autoSPlitPDFForm","controller stateless"
+"CustomOAuth2LogoutSuccessHandler","small-class","CustomOAuth2LogoutSuccessHandler","constructor"
+"CustomOAuth2LogoutSuccessHandler","small-class","onLogoutSuccess","command collaborator"
+"CustomOAuth2LogoutSuccessHandler","small-class","sanitizeInput","controller stateless"
+"PipelineOperation","unclassified","getOperation","get"
+"PipelineOperation","unclassified","setOperation","set"
+"PipelineOperation","unclassified","getParameters","get collaborator"
+"PipelineOperation","unclassified","setParameters","set collaborator"
+"PipelineOperation","unclassified","toString","property"
+"ErrorUtilsTest","pure-controller degenerate small-class","testExceptionToModel","controller stateless"
+"ErrorUtilsTest","pure-controller degenerate small-class","testExceptionToModelView","controller stateless"
+"User","unclassified","getRoleName","property non-void-command"
+"User","unclassified","isFirstLogin","predicate"
+"User","unclassified","setFirstLogin","set"
+"User","unclassified","getId","get"
+"User","unclassified","setId","set"
+"User","unclassified","getApiKey","get"
+"User","unclassified","setApiKey","set"
+"User","unclassified","getSettings","get"
+"User","unclassified","setSettings","set"
+"User","unclassified","getUsername","get"
+"User","unclassified","setUsername","set"
+"User","unclassified","getPassword","get"
+"User","unclassified","setPassword","set"
+"User","unclassified","isEnabled","get"
+"User","unclassified","setEnabled","set"
+"User","unclassified","setAuthenticationType","set collaborator"
+"User","unclassified","getAuthenticationType","get"
+"User","unclassified","getAuthorities","get collaborator"
+"User","unclassified","setAuthorities","set collaborator"
+"User","unclassified","addAuthorities","command collaborator"
+"User","unclassified","addAuthority","command collaborator"
+"User","unclassified","getRolesAsString","property non-void-command"
+"User","unclassified","hasPassword","predicate non-void-command"
+"JPATokenRepositoryImpl","entity commander boundary","createNewToken","command collaborator"
+"JPATokenRepositoryImpl","entity commander boundary","updateToken","command collaborator"
+"JPATokenRepositoryImpl","entity commander boundary","getTokenForSeries","property non-void-command factory collaborator"
+"JPATokenRepositoryImpl","entity commander boundary","removeUserTokens","command collaborator"
+"FileMonitor","entity commander boundary","FileMonitor","constructor"
+"FileMonitor","entity commander boundary","shouldNotProcess","predicate non-void-command collaborator"
+"FileMonitor","entity commander boundary","recursivelyRegisterEntry","command collaborator"
+"FileMonitor","entity commander boundary","trackFiles","command"
+"FileMonitor","entity commander boundary","handleDirectoryCreation","command collaborator"
+"FileMonitor","entity commander boundary","handleFileRemoval","command collaborator"
+"FileMonitor","entity commander boundary","handleFileCreation","command collaborator"
+"FileMonitor","entity commander boundary","handleFileModification","command collaborator"
+"FileMonitor","entity commander boundary","isFileReadyForProcessing","predicate non-void-command collaborator"
+"MultiPageLayoutController","pure-controller degenerate small-class","mergeMultiplePagesIntoOne","controller stateless"

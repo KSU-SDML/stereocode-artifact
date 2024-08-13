@@ -1,359 +1,359 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"MonotonicClock","boundary degenerate small-class","MonotonicClock::now","wrapper stateless",
-"WallClock","entity boundary","WallClock::now","property non-void-command collaborator",
-"WallClock","entity boundary","WallClock::unixSeconds","wrapper stateless",
-"WallClock","entity boundary","WallClock::getUnixMillis","property non-void-command",
-"WallClock","entity boundary","WallClock::unixMillis","wrapper stateless",
-"WallClock","entity boundary","WallClock::getUnixMicros","property non-void-command",
-"WallClock","entity boundary","WallClock::unixMicros","wrapper stateless",
-"Random","unclassified","Random::Random","constructor",
-"Random","unclassified","Random::random64","wrapper stateless",
-"Random","unclassified","Random::hex64","property non-void-command",
-"Random","unclassified","Random::hex128","property non-void-command",
-"Random","unclassified","Random::hex256","property non-void-command",
-"Random","unclassified","Random::hex512","property non-void-command",
-"Random","unclassified","Random::alphanumericString","wrapper stateless",
-"BufferOutputStream","small-class","BufferOutputStream::fromBuffer","wrapper stateless",
-"BufferOutputStream","small-class","BufferOutputStream::BufferOutputStream","constructor",
-"BufferOutputStream","small-class","BufferOutputStream::write","property non-void-command",
-"StringOutputStream","lazy-class small-class","StringOutputStream::fromString","wrapper stateless",
-"StringOutputStream","lazy-class small-class","StringOutputStream::StringOutputStream","constructor",
-"StringOutputStream","lazy-class small-class","StringOutputStream::write","property set",
-"FileOutputStream","unclassified","FileOutputStream::openFile","controller stateless",
-"FileOutputStream","unclassified","FileOutputStream::FileOutputStream","constructor",
-"FileOutputStream","unclassified","FileOutputStream::~FileOutputStream","destructor",
-"FileOutputStream","unclassified","FileOutputStream::write","property wrapper",
-"FileOutputStream","unclassified","FileOutputStream::printf","property wrapper",
-"FileUtil","degenerate","FileUtil::mkdir","controller stateless",
-"FileUtil","degenerate","FileUtil::exists","controller stateless",
-"FileUtil","degenerate","FileUtil::isDirectory","controller stateless",
-"FileUtil","degenerate","FileUtil::size","controller stateless",
-"FileUtil","degenerate","FileUtil::mkdir_p","void-accessor command",
-"FileUtil","degenerate","FileUtil::joinPaths","wrapper stateless",
-"FileUtil","degenerate","FileUtil::ls","void-accessor command collaborator",
-"FileUtil","degenerate","FileUtil::rm","controller stateless",
-"FileUtil","degenerate","FileUtil::mv","controller stateless",
-"FileUtil","degenerate","FileUtil::truncate","command",
-"FileUtil","degenerate","FileUtil::read","controller stateless",
-"FileUtil","degenerate","FileUtil::write","controller stateless",
-"FileUtil","degenerate","FileUtil::cp","wrapper stateless",
-"FileUtil","degenerate","FileUtil::du_c","property non-void-command",
-"File","data-provider boundary","File::openFile","property non-void-command",
-"File","data-provider boundary","File::File","constructor",
-"File","data-provider boundary","File::~File","destructor",
-"File","data-provider boundary","File::File","copy-constructor",
-"File","data-provider boundary","File::fd","get",
-"File","data-provider boundary","File::isWritable","predicate",
-"File","data-provider boundary","File::size","property wrapper",
-"File","data-provider boundary","File::seekTo","wrapper",
-"File","data-provider boundary","File::read","property wrapper",
-"File","data-provider boundary","File::read","property non-void-command collaborator",
-"File","data-provider boundary","File::write","void-accessor wrapper",
-"File","data-provider boundary","File::write","command collaborator",
-"File","data-provider boundary","File::clone","property",
-"File","data-provider boundary","File::truncate","wrapper",
-"BufferUtil","degenerate","BufferUtil::stripTrailingBytes","controller stateless",
-"BufferUtil","degenerate","BufferUtil::stripTrailingSlashes","void-accessor command collaborator",
-"BufferUtil","degenerate","BufferUtil::hexPrint","controller stateless",
-"Buffer","unclassified","Buffer::Buffer","constructor",
-"Buffer","unclassified","Buffer::Buffer","constructor",
-"Buffer","unclassified","Buffer::Buffer","constructor",
-"Buffer","unclassified","Buffer::Buffer","copy-constructor",
-"Buffer","unclassified","Buffer::operator=","get non-void-command",
-"Buffer","unclassified","Buffer::Buffer","copy-constructor",
-"Buffer","unclassified","Buffer::operator=","get non-void-command",
-"Buffer","unclassified","Buffer::~Buffer","destructor",
-"Buffer","unclassified","Buffer::operator==","predicate wrapper",
-"Buffer","unclassified","Buffer::append","void-accessor set",
-"Buffer","unclassified","Buffer::append","command collaborator",
-"Buffer","unclassified","Buffer::truncate","set",
-"Buffer","unclassified","Buffer::reserve","command",
-"Buffer","unclassified","Buffer::clear","command",
-"Buffer","unclassified","Buffer::data","get collaborator",
-"Buffer","unclassified","Buffer::charAt","property wrapper",
-"Buffer","unclassified","Buffer::find","get property",
-"Buffer","unclassified","Buffer::size","get",
-"Buffer","unclassified","Buffer::allocSize","get",
-"Buffer","unclassified","Buffer::toString","property wrapper",
-"Buffer","unclassified","Buffer::setMark","set",
-"Buffer","unclassified","Buffer::mark","get",
-"numeric_limits<UnixTime>","entity boundary small-class","std::numeric_limits<UnixTime>::min","wrapper stateless",
-"numeric_limits<UnixTime>","entity boundary small-class","std::numeric_limits<UnixTime>::max","property non-void-command collaborator",
-"UnixTime","data-provider","UnixTime::UnixTime","constructor",
-"UnixTime","data-provider","UnixTime::UnixTime","constructor",
-"UnixTime","data-provider","UnixTime::operator=","get set",
-"UnixTime","data-provider","UnixTime::now","property non-void-command",
-"UnixTime","data-provider","UnixTime::daysFromNow","property non-void-command",
-"UnixTime","data-provider","UnixTime::toString","property wrapper",
-"UnixTime","data-provider","UnixTime::parseString","property non-void-command collaborator",
-"UnixTime","data-provider","UnixTime::parseString","property non-void-command collaborator",
-"UnixTime","data-provider","UnixTime::UnixTime","constructor",
-"UnixTime","data-provider","UnixTime::operator==","predicate",
-"UnixTime","data-provider","UnixTime::operator!=","predicate",
-"UnixTime","data-provider","UnixTime::operator<","predicate",
-"UnixTime","data-provider","UnixTime::operator>","predicate",
-"UnixTime","data-provider","UnixTime::operator<=","predicate",
-"UnixTime","data-provider","UnixTime::operator>=","predicate",
-"UnixTime","data-provider","UnixTime::operatoruint64_t","get",
-"UnixTime","data-provider","UnixTime::operatordouble","get",
-"UnixTime","data-provider","UnixTime::unixMicros","get",
-"UnixTime","data-provider","UnixTime::epoch","property non-void-command",
-"UnixTime","data-provider","UnixTime::operator-","property wrapper",
-"UnixTime","data-provider","UnixTime::operator+","property collaborator",
-"UnixTime","data-provider","UnixTime::operator-","property collaborator",
-"UTF8","entity boundary degenerate","UTF8::nextCodepoint","wrapper stateless",
-"UTF8","entity boundary degenerate","UTF8::isValidUTF8","predicate non-void-command collaborator",
-"UTF8","entity boundary degenerate","UTF8::isValidUTF8","collaborator incidental",
-"UTF8","entity boundary degenerate","UTF8::encodeCodepoint","collaborator incidental",
-"CivilTime","unclassified","CivilTime::parseString","property non-void-command collaborator",
-"CivilTime","unclassified","CivilTime::parseString","controller stateless",
-"CivilTime","unclassified","CivilTime::setYear","set",
-"CivilTime","unclassified","CivilTime::setMonth","set",
-"CivilTime","unclassified","CivilTime::setDay","set",
-"CivilTime","unclassified","CivilTime::setHour","set",
-"CivilTime","unclassified","CivilTime::setMinute","set",
-"CivilTime","unclassified","CivilTime::setSecond","set",
-"CivilTime","unclassified","CivilTime::setMillisecond","set",
-"CivilTime","unclassified","CivilTime::setOffset","set",
-"CivilTime","unclassified","CivilTime::CivilTime","constructor",
-"CivilTime","unclassified","CivilTime::CivilTime","constructor",
-"CivilTime","unclassified","CivilTime::year","get",
-"CivilTime","unclassified","CivilTime::month","get",
-"CivilTime","unclassified","CivilTime::day","get",
-"CivilTime","unclassified","CivilTime::hour","get",
-"CivilTime","unclassified","CivilTime::minute","get",
-"CivilTime","unclassified","CivilTime::second","get",
-"CivilTime","unclassified","CivilTime::millisecond","get",
-"CivilTime","unclassified","CivilTime::offset","get",
-"NumberT","empty","NumberT","constructor",
-"NumberT","empty","NumberT","constructor",
-"Number","data-provider small-class","Number","constructor",
-"Number","data-provider small-class","Number","constructor",
-"Number","data-provider small-class","Number::operator*","property",
-"vec3","empty","vec3::vec3","constructor",
-"vec3","empty","vec3::vec3","constructor",
-"vec3","empty","vec3::vec3","constructor",
-"Measure","data-provider data-class small-class","Measure::Measure","constructor",
-"Measure","data-provider data-class small-class","Measure::Measure","constructor",
-"Measure","data-provider data-class small-class","Measure::operatordouble","get",
-"ISO8601","degenerate","ISO8601::parse","controller stateless",
-"ISO8601","degenerate","ISO8601::isLeapYear","incidental",
-"ISO8601","degenerate","ISO8601::daysInMonth","property non-void-command",
-"Path","entity boundary","Path::Path","constructor",
-"Path","entity boundary","Path::Path","copy-constructor",
-"Path","entity boundary","Path::moveTo","command collaborator",
-"Path","entity boundary","Path::moveTo","command collaborator",
-"Path","entity boundary","Path::lineTo","command collaborator",
-"Path","entity boundary","Path::lineTo","command collaborator",
-"Path","entity boundary","Path::quadraticCurveTo","command collaborator",
-"Path","entity boundary","Path::cubicCurveTo","command collaborator",
-"Path","entity boundary","Path::closePath","command collaborator",
-"Path","entity boundary","Path::operator[]","get collaborator",
-"Path","entity boundary","Path::operator[]","get collaborator",
-"Path","entity boundary","Path::data","property collaborator",
-"Path","entity boundary","Path::data","property non-void-command collaborator",
-"Path","entity boundary","Path::begin","property collaborator",
-"Path","entity boundary","Path::begin","property non-void-command collaborator",
-"Path","entity boundary","Path::end","property collaborator",
-"Path","entity boundary","Path::end","property non-void-command collaborator",
-"Path","entity boundary","Path::size","property",
-"Path","entity boundary","Path::empty","predicate",
-"Rectangle","empty","Rectangle::Rectangle","constructor",
-"Rectangle","empty","Rectangle::Rectangle","constructor",
-"PlotAreaConfig","empty","PlotAreaConfig::PlotAreaConfig","constructor",
-"ReturnCode","small-class","ReturnCode","constructor",
-"ReturnCode","small-class","ReturnCode","constructor",
-"ReturnCode","small-class","ReturnCode","constructor",
-"ReturnCode","small-class","operatorbool","unclassified",
-"FontStorage","empty","FontStorage","constructor",
-"StringUtil","degenerate","StringUtil::toString","controller stateless",
-"StringUtil","degenerate","StringUtil::toStringVImpl","empty",
-"StringUtil","degenerate","StringUtil::toString","incidental",
-"StringUtil","degenerate","StringUtil::toString","incidental",
-"StringUtil","degenerate","StringUtil::toString","incidental",
-"StringUtil","degenerate","StringUtil::toString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toString","incidental",
-"StringUtil","degenerate","StringUtil::toString","incidental",
-"StringUtil","degenerate","StringUtil::toString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toString","incidental",
-"StringUtil","degenerate","StringUtil::ltrim","controller stateless",
-"StringUtil","degenerate","StringUtil::rtrim","controller stateless",
-"StringUtil","degenerate","StringUtil::stripTrailingSlashes","controller stateless",
-"StringUtil","degenerate","StringUtil::chomp","controller stateless",
-"StringUtil","degenerate","StringUtil::replaceAll","controller stateless",
-"StringUtil","degenerate","StringUtil::split","controller stateless",
-"StringUtil","degenerate","StringUtil::join","controller stateless",
-"StringUtil","degenerate","StringUtil::join","collaborator incidental",
-"StringUtil","degenerate","StringUtil::beginsWith","controller stateless",
-"StringUtil","degenerate","StringUtil::endsWith","controller stateless",
-"StringUtil","degenerate","StringUtil::compare","incidental",
-"StringUtil","degenerate","StringUtil::isHexString","collaborator incidental",
-"StringUtil","degenerate","StringUtil::isAlphanumeric","predicate non-void-command collaborator",
-"StringUtil","degenerate","StringUtil::isAlphanumeric","incidental",
-"StringUtil","degenerate","StringUtil::isShellSafe","predicate non-void-command collaborator",
-"StringUtil","degenerate","StringUtil::isShellSafe","incidental",
-"StringUtil","degenerate","StringUtil::isDigitString","predicate non-void-command",
-"StringUtil","degenerate","StringUtil::isDigitString","wrapper stateless",
-"StringUtil","degenerate","StringUtil::isNumber","predicate non-void-command",
-"StringUtil","degenerate","StringUtil::isNumber","wrapper stateless",
-"StringUtil","degenerate","StringUtil::toLower","controller stateless",
-"StringUtil","degenerate","StringUtil::toUpper","controller stateless",
-"StringUtil","degenerate","StringUtil::find","controller stateless",
-"StringUtil","degenerate","StringUtil::findLast","controller stateless",
-"StringUtil","degenerate","StringUtil::includes","controller stateless",
-"StringUtil","degenerate","StringUtil::includesi","predicate non-void-command collaborator",
-"StringUtil","degenerate","StringUtil::hexPrint","wrapper stateless",
-"StringUtil","degenerate","StringUtil::convertUTF8To32","controller stateless",
-"StringUtil","degenerate","StringUtil::convertUTF8To16","controller stateless",
-"StringUtil","degenerate","StringUtil::convertUTF32To8","wrapper stateless",
-"StringUtil","degenerate","StringUtil::convertUTF16To8","wrapper stateless",
-"StringUtil","degenerate","StringUtil::countUTF8CodePoints","controller stateless",
-"StringUtil","degenerate","StringUtil::stripShell","property non-void-command collaborator",
-"StringUtil","degenerate","StringUtil::toStringVImpl","void-accessor command collaborator",
-"StringUtil","degenerate","StringUtil::toStringV","wrapper stateless",
-"StringUtil","degenerate","StringUtil::formatNumberMetric","wrapper stateless",
-"Image","data-provider boundary","Image::Image","constructor",
-"Image","data-provider boundary","Image::Image","copy-constructor",
-"Image","data-provider boundary","Image::~Image","destructor",
-"Image","data-provider boundary","Image::getPixelFormat","get collaborator",
-"Image","data-provider boundary","Image::getPixelCount","property",
-"Image","data-provider boundary","Image::getPixelSize","property",
-"Image","data-provider boundary","Image::getWidth","get",
-"Image","data-provider boundary","Image::getHeight","get",
-"Image","data-provider boundary","Image::getData","get collaborator",
-"Image","data-provider boundary","Image::getData","get collaborator",
-"Image","data-provider boundary","Image::getDataSize","property",
-"Image","data-provider boundary","Image::getPixel","property non-void-command collaborator",
-"Image","data-provider boundary","Image::getPixel","property non-void-command collaborator",
-"Image","data-provider boundary","Image::setPixel","void-accessor command collaborator",
-"Image","data-provider boundary","Image::setPixel","void-accessor command collaborator",
-"Image","data-provider boundary","Image::clear","void-accessor command collaborator",
-"FillStyle","empty","FillStyle::FillStyle","constructor",
-"mat3","empty","mat3::mat3","constructor",
-"LegendConfig","empty","LegendConfig::LegendConfig","constructor",
-"Exception","entity data-provider boundary","Exception::Exception","constructor",
-"Exception","entity data-provider boundary","Exception::Exception","constructor",
-"Exception","entity data-provider boundary","Exception::Exception","constructor",
-"Exception","entity data-provider boundary","Exception::Exception","copy-constructor",
-"Exception","entity data-provider boundary","Exception::setSource","get non-void-command",
-"Exception","entity data-provider boundary","Exception::setTypeName","get set",
-"Exception","entity data-provider boundary","Exception::setErrno","get wrapper",
-"Exception","entity data-provider boundary","Exception::appendMessage","void-accessor wrapper",
-"Exception","entity data-provider boundary","Exception::ofType","predicate wrapper",
-"Exception","entity data-provider boundary","Exception::getMessage","property wrapper",
-"Exception","entity data-provider boundary","Exception::getTypeName","property wrapper",
-"Exception","entity data-provider boundary","Exception::method","property wrapper",
-"Exception","entity data-provider boundary","Exception::file","property wrapper",
-"Exception","entity data-provider boundary","Exception::line","get",
-"Color","data-provider","Color::fromRGBA","wrapper stateless",
-"Color","data-provider","Color::fromRGB","wrapper stateless",
-"Color","data-provider","Color::Color","constructor",
-"Color","data-provider","Color::Color","constructor",
-"Color","data-provider","Color::red","get",
-"Color","data-provider","Color::green","get",
-"Color","data-provider","Color::blue","get",
-"Color","data-provider","Color::alpha","get",
-"Color","data-provider","Color::component","get",
-"Color","data-provider","Color::operator[]","get",
-"Color","data-provider","Color::operator[]","get",
-"Color","data-provider","Color::parse","predicate non-void-command",
-"Color","data-provider","Color::parseHex","predicate non-void-command",
-"Color","data-provider","Color::parseHexAlpha","predicate non-void-command",
-"Color","data-provider","Color::parseHexShort","predicate non-void-command",
-"Color","data-provider","Color::to_hex_str","property controller",
-"PathData","data-provider data-class small-class","PathData::operator[]","get",
-"Duration","data-provider","Duration::Duration","constructor",
-"Duration","data-provider","Duration::Duration","constructor",
-"Duration","data-provider","Duration::operator==","predicate",
-"Duration","data-provider","Duration::operator!=","predicate",
-"Duration","data-provider","Duration::operator<","predicate",
-"Duration","data-provider","Duration::operator>","predicate",
-"Duration","data-provider","Duration::operator<=","predicate",
-"Duration","data-provider","Duration::operator>=","predicate",
-"Duration","data-provider","Duration::operator!","predicate",
-"Duration","data-provider","Duration::microseconds","get",
-"Duration","data-provider","Duration::milliseconds","property",
-"Duration","data-provider","Duration::seconds","property",
-"Duration","data-provider","Duration::operator+","get",
-"Duration","data-provider","Duration::minutes","property",
-"Duration","data-provider","Duration::hours","property",
-"Duration","data-provider","Duration::days","property",
-"Duration","data-provider","Duration::fromDays","property non-void-command",
-"Duration","data-provider","Duration::fromHours","property non-void-command",
-"Duration","data-provider","Duration::fromMinutes","property non-void-command",
-"Duration","data-provider","Duration::fromSeconds","property non-void-command",
-"Duration","data-provider","Duration::fromMilliseconds","property non-void-command",
-"Duration","data-provider","Duration::fromMicroseconds","property non-void-command",
-"Duration","data-provider","Duration::fromNanoseconds","property non-void-command",
-"Rasterizer","unclassified","Rasterizer::Rasterizer","constructor",
-"Rasterizer","unclassified","Rasterizer::~Rasterizer","destructor",
-"Rasterizer","unclassified","Rasterizer::drawShape","property controller",
-"Rasterizer","unclassified","Rasterizer::drawText","property controller",
-"Rasterizer","unclassified","Rasterizer::clear","controller",
-"Rasterizer","unclassified","Rasterizer::data","property wrapper",
-"Rasterizer","unclassified","Rasterizer::size","property",
-"Rasterizer","unclassified","Rasterizer::to_png","property wrapper",
-"Rasterizer","unclassified","Rasterizer::writeToFile","property controller",
-"Context","empty","Context::Context","constructor",
-"AxisDefinition","empty","AxisDefinition::AxisDefinition","constructor",
-"vec2","data-provider boundary data-class small-class","vec2::vec2","constructor",
-"vec2","data-provider boundary data-class small-class","vec2::vec2","constructor",
-"vec2","data-provider boundary data-class small-class","vec2::vec2","constructor",
-"vec2","data-provider boundary data-class small-class","vec2::operator[]","get property wrapper",
-"vec2","data-provider boundary data-class small-class","vec2::operator[]","get property wrapper",
-"Layer","empty","Layer::Layer","constructor",
-"PlotBarsConfig","empty","PlotBarsConfig::PlotBarsConfig","constructor",
-"TextStyle","empty","TextStyle::TextStyle","constructor",
-"fill_solid","empty","fill_solid","constructor",
-"PropertyListParser","entity boundary","PropertyListParser::PropertyListParser","constructor",
-"PropertyListParser","entity boundary","PropertyListParser::get_error","get",
-"PropertyListParser","entity boundary","PropertyListParser::parse","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::parsePropertyOrMap","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::parseProperty","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::parsePropertyValues","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::parsePropertyValueOrEnum","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::parsePropertyValue","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::parsePropertyMap","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::getToken","predicate",
-"PropertyListParser","entity boundary","PropertyListParser::getToken","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::consumeToken","predicate set",
-"PropertyListParser","entity boundary","PropertyListParser::expectAndConsumeToken","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::expectAndConsumeString","predicate non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::printToken","property non-void-command collaborator",
-"PropertyListParser","entity boundary","PropertyListParser::printToken","property non-void-command",
-"PropertyListParser","entity boundary","PropertyListParser::printToken","wrapper stateless",
-"PropertyListParser","entity boundary","PropertyListParser::setError","command",
-"Option","data-provider boundary data-class","Option<T>::Option","constructor",
-"Option","data-provider boundary data-class","Option<T>::Option","constructor",
-"Option","data-provider boundary data-class","Option<T>::Option","constructor",
-"Option","data-provider boundary data-class","Option<T>::Option","constructor",
-"Option","data-provider boundary data-class","Option<T>::Option","copy-constructor",
-"Option","data-provider boundary data-class","Option<T>::Option","copy-constructor",
-"Option","data-provider boundary data-class","Option<T>::~Option","destructor",
-"Option","data-provider boundary data-class","Option<T>::operator=","get set collaborator",
-"Option","data-provider boundary data-class","Option<T>::operator=","get set collaborator",
-"Option","data-provider boundary data-class","Option<T>::operatorbool","get",
-"Option","data-provider boundary data-class","Option<T>::operator!","predicate",
-"Option","data-provider boundary data-class","Option<T>::operator*","get collaborator",
-"Option","data-provider boundary data-class","Option<T>::operator*","get collaborator",
-"Option","data-provider boundary data-class","Option<T>::operator->","get collaborator",
-"Option","data-provider boundary data-class","Option<T>::operator->","get collaborator",
-"Option","data-provider boundary data-class","Option<T>::get","get wrapper",
-"Option","data-provider boundary data-class","Option<T>::value_or","get property collaborator",
-"Option","data-provider boundary data-class","Option<T>::isEmpty","predicate",
-"ScaleConfig","empty","ScaleConfig::ScaleConfig","constructor",
-"OutputStream","degenerate","OutputStream","constructor",
-"OutputStream","degenerate","~OutputStream","destructor",
-"OutputStream","degenerate","OutputStream::getStdout","wrapper stateless",
-"OutputStream","degenerate","OutputStream::getStderr","wrapper stateless",
-"OutputStream","degenerate","OutputStream::write","controller stateless",
-"OutputStream","degenerate","OutputStream::write","controller stateless",
-"OutputStream","degenerate","OutputStream::printf","wrapper stateless",
-"StrokeStyle","empty","StrokeStyle::StrokeStyle","constructor",
+"MonotonicClock","boundary degenerate small-class","MonotonicClock::now","wrapper stateless"
+"WallClock","entity boundary","WallClock::now","property non-void-command collaborator"
+"WallClock","entity boundary","WallClock::unixSeconds","wrapper stateless"
+"WallClock","entity boundary","WallClock::getUnixMillis","property non-void-command"
+"WallClock","entity boundary","WallClock::unixMillis","wrapper stateless"
+"WallClock","entity boundary","WallClock::getUnixMicros","property non-void-command"
+"WallClock","entity boundary","WallClock::unixMicros","wrapper stateless"
+"Random","unclassified","Random::Random","constructor"
+"Random","unclassified","Random::random64","wrapper stateless"
+"Random","unclassified","Random::hex64","property non-void-command"
+"Random","unclassified","Random::hex128","property non-void-command"
+"Random","unclassified","Random::hex256","property non-void-command"
+"Random","unclassified","Random::hex512","property non-void-command"
+"Random","unclassified","Random::alphanumericString","wrapper stateless"
+"BufferOutputStream","small-class","BufferOutputStream::fromBuffer","wrapper stateless"
+"BufferOutputStream","small-class","BufferOutputStream::BufferOutputStream","constructor"
+"BufferOutputStream","small-class","BufferOutputStream::write","property non-void-command"
+"StringOutputStream","lazy-class small-class","StringOutputStream::fromString","wrapper stateless"
+"StringOutputStream","lazy-class small-class","StringOutputStream::StringOutputStream","constructor"
+"StringOutputStream","lazy-class small-class","StringOutputStream::write","property set"
+"FileOutputStream","unclassified","FileOutputStream::openFile","controller stateless"
+"FileOutputStream","unclassified","FileOutputStream::FileOutputStream","constructor"
+"FileOutputStream","unclassified","FileOutputStream::~FileOutputStream","destructor"
+"FileOutputStream","unclassified","FileOutputStream::write","property wrapper"
+"FileOutputStream","unclassified","FileOutputStream::printf","property wrapper"
+"FileUtil","degenerate","FileUtil::mkdir","controller stateless"
+"FileUtil","degenerate","FileUtil::exists","controller stateless"
+"FileUtil","degenerate","FileUtil::isDirectory","controller stateless"
+"FileUtil","degenerate","FileUtil::size","controller stateless"
+"FileUtil","degenerate","FileUtil::mkdir_p","command"
+"FileUtil","degenerate","FileUtil::joinPaths","wrapper stateless"
+"FileUtil","degenerate","FileUtil::ls","command collaborator"
+"FileUtil","degenerate","FileUtil::rm","controller stateless"
+"FileUtil","degenerate","FileUtil::mv","controller stateless"
+"FileUtil","degenerate","FileUtil::truncate","command"
+"FileUtil","degenerate","FileUtil::read","controller stateless"
+"FileUtil","degenerate","FileUtil::write","controller stateless"
+"FileUtil","degenerate","FileUtil::cp","wrapper stateless"
+"FileUtil","degenerate","FileUtil::du_c","property non-void-command"
+"File","data-provider boundary","File::openFile","property non-void-command"
+"File","data-provider boundary","File::File","constructor"
+"File","data-provider boundary","File::~File","destructor"
+"File","data-provider boundary","File::File","copy-constructor"
+"File","data-provider boundary","File::fd","get"
+"File","data-provider boundary","File::isWritable","predicate"
+"File","data-provider boundary","File::size","property wrapper"
+"File","data-provider boundary","File::seekTo","wrapper"
+"File","data-provider boundary","File::read","property wrapper"
+"File","data-provider boundary","File::read","property non-void-command collaborator"
+"File","data-provider boundary","File::write","wrapper"
+"File","data-provider boundary","File::write","command collaborator"
+"File","data-provider boundary","File::clone","property"
+"File","data-provider boundary","File::truncate","wrapper"
+"BufferUtil","degenerate","BufferUtil::stripTrailingBytes","controller stateless"
+"BufferUtil","degenerate","BufferUtil::stripTrailingSlashes","command collaborator"
+"BufferUtil","degenerate","BufferUtil::hexPrint","controller stateless"
+"Buffer","unclassified","Buffer::Buffer","constructor"
+"Buffer","unclassified","Buffer::Buffer","constructor"
+"Buffer","unclassified","Buffer::Buffer","constructor"
+"Buffer","unclassified","Buffer::Buffer","copy-constructor"
+"Buffer","unclassified","Buffer::operator=","get non-void-command"
+"Buffer","unclassified","Buffer::Buffer","copy-constructor"
+"Buffer","unclassified","Buffer::operator=","get non-void-command"
+"Buffer","unclassified","Buffer::~Buffer","destructor"
+"Buffer","unclassified","Buffer::operator==","predicate wrapper"
+"Buffer","unclassified","Buffer::append","set"
+"Buffer","unclassified","Buffer::append","command collaborator"
+"Buffer","unclassified","Buffer::truncate","set"
+"Buffer","unclassified","Buffer::reserve","command"
+"Buffer","unclassified","Buffer::clear","command"
+"Buffer","unclassified","Buffer::data","get collaborator"
+"Buffer","unclassified","Buffer::charAt","property wrapper"
+"Buffer","unclassified","Buffer::find","get property"
+"Buffer","unclassified","Buffer::size","get"
+"Buffer","unclassified","Buffer::allocSize","get"
+"Buffer","unclassified","Buffer::toString","property wrapper"
+"Buffer","unclassified","Buffer::setMark","set"
+"Buffer","unclassified","Buffer::mark","get"
+"numeric_limits<UnixTime>","entity boundary small-class","std::numeric_limits<UnixTime>::min","wrapper stateless"
+"numeric_limits<UnixTime>","entity boundary small-class","std::numeric_limits<UnixTime>::max","property non-void-command collaborator"
+"UnixTime","data-provider","UnixTime::UnixTime","constructor"
+"UnixTime","data-provider","UnixTime::UnixTime","constructor"
+"UnixTime","data-provider","UnixTime::operator=","get set"
+"UnixTime","data-provider","UnixTime::now","property non-void-command"
+"UnixTime","data-provider","UnixTime::daysFromNow","property non-void-command"
+"UnixTime","data-provider","UnixTime::toString","property wrapper"
+"UnixTime","data-provider","UnixTime::parseString","property non-void-command collaborator"
+"UnixTime","data-provider","UnixTime::parseString","property non-void-command collaborator"
+"UnixTime","data-provider","UnixTime::UnixTime","constructor"
+"UnixTime","data-provider","UnixTime::operator==","predicate"
+"UnixTime","data-provider","UnixTime::operator!=","predicate"
+"UnixTime","data-provider","UnixTime::operator<","predicate"
+"UnixTime","data-provider","UnixTime::operator>","predicate"
+"UnixTime","data-provider","UnixTime::operator<=","predicate"
+"UnixTime","data-provider","UnixTime::operator>=","predicate"
+"UnixTime","data-provider","UnixTime::operatoruint64_t","get"
+"UnixTime","data-provider","UnixTime::operatordouble","get"
+"UnixTime","data-provider","UnixTime::unixMicros","get"
+"UnixTime","data-provider","UnixTime::epoch","property non-void-command"
+"UnixTime","data-provider","UnixTime::operator-","property wrapper"
+"UnixTime","data-provider","UnixTime::operator+","property collaborator"
+"UnixTime","data-provider","UnixTime::operator-","property collaborator"
+"UTF8","entity boundary degenerate","UTF8::nextCodepoint","wrapper stateless"
+"UTF8","entity boundary degenerate","UTF8::isValidUTF8","predicate non-void-command collaborator"
+"UTF8","entity boundary degenerate","UTF8::isValidUTF8","collaborator incidental"
+"UTF8","entity boundary degenerate","UTF8::encodeCodepoint","collaborator incidental"
+"CivilTime","unclassified","CivilTime::parseString","property non-void-command collaborator"
+"CivilTime","unclassified","CivilTime::parseString","controller stateless"
+"CivilTime","unclassified","CivilTime::setYear","set"
+"CivilTime","unclassified","CivilTime::setMonth","set"
+"CivilTime","unclassified","CivilTime::setDay","set"
+"CivilTime","unclassified","CivilTime::setHour","set"
+"CivilTime","unclassified","CivilTime::setMinute","set"
+"CivilTime","unclassified","CivilTime::setSecond","set"
+"CivilTime","unclassified","CivilTime::setMillisecond","set"
+"CivilTime","unclassified","CivilTime::setOffset","set"
+"CivilTime","unclassified","CivilTime::CivilTime","constructor"
+"CivilTime","unclassified","CivilTime::CivilTime","constructor"
+"CivilTime","unclassified","CivilTime::year","get"
+"CivilTime","unclassified","CivilTime::month","get"
+"CivilTime","unclassified","CivilTime::day","get"
+"CivilTime","unclassified","CivilTime::hour","get"
+"CivilTime","unclassified","CivilTime::minute","get"
+"CivilTime","unclassified","CivilTime::second","get"
+"CivilTime","unclassified","CivilTime::millisecond","get"
+"CivilTime","unclassified","CivilTime::offset","get"
+"NumberT","empty","NumberT","constructor"
+"NumberT","empty","NumberT","constructor"
+"Number","data-provider small-class","Number","constructor"
+"Number","data-provider small-class","Number","constructor"
+"Number","data-provider small-class","Number::operator*","property"
+"vec3","empty","vec3::vec3","constructor"
+"vec3","empty","vec3::vec3","constructor"
+"vec3","empty","vec3::vec3","constructor"
+"Measure","data-provider data-class small-class","Measure::Measure","constructor"
+"Measure","data-provider data-class small-class","Measure::Measure","constructor"
+"Measure","data-provider data-class small-class","Measure::operatordouble","get"
+"ISO8601","degenerate","ISO8601::parse","controller stateless"
+"ISO8601","degenerate","ISO8601::isLeapYear","incidental"
+"ISO8601","degenerate","ISO8601::daysInMonth","property non-void-command"
+"Path","entity boundary","Path::Path","constructor"
+"Path","entity boundary","Path::Path","copy-constructor"
+"Path","entity boundary","Path::moveTo","command collaborator"
+"Path","entity boundary","Path::moveTo","command collaborator"
+"Path","entity boundary","Path::lineTo","command collaborator"
+"Path","entity boundary","Path::lineTo","command collaborator"
+"Path","entity boundary","Path::quadraticCurveTo","command collaborator"
+"Path","entity boundary","Path::cubicCurveTo","command collaborator"
+"Path","entity boundary","Path::closePath","command collaborator"
+"Path","entity boundary","Path::operator[]","get collaborator"
+"Path","entity boundary","Path::operator[]","get collaborator"
+"Path","entity boundary","Path::data","property collaborator"
+"Path","entity boundary","Path::data","property non-void-command collaborator"
+"Path","entity boundary","Path::begin","property collaborator"
+"Path","entity boundary","Path::begin","property non-void-command collaborator"
+"Path","entity boundary","Path::end","property collaborator"
+"Path","entity boundary","Path::end","property non-void-command collaborator"
+"Path","entity boundary","Path::size","property"
+"Path","entity boundary","Path::empty","predicate"
+"Rectangle","empty","Rectangle::Rectangle","constructor"
+"Rectangle","empty","Rectangle::Rectangle","constructor"
+"PlotAreaConfig","empty","PlotAreaConfig::PlotAreaConfig","constructor"
+"ReturnCode","small-class","ReturnCode","constructor"
+"ReturnCode","small-class","ReturnCode","constructor"
+"ReturnCode","small-class","ReturnCode","constructor"
+"ReturnCode","small-class","operatorbool","unclassified"
+"FontStorage","empty","FontStorage","constructor"
+"StringUtil","degenerate","StringUtil::toString","controller stateless"
+"StringUtil","degenerate","StringUtil::toStringVImpl","empty"
+"StringUtil","degenerate","StringUtil::toString","incidental"
+"StringUtil","degenerate","StringUtil::toString","incidental"
+"StringUtil","degenerate","StringUtil::toString","incidental"
+"StringUtil","degenerate","StringUtil::toString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toString","incidental"
+"StringUtil","degenerate","StringUtil::toString","incidental"
+"StringUtil","degenerate","StringUtil::toString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toString","incidental"
+"StringUtil","degenerate","StringUtil::ltrim","controller stateless"
+"StringUtil","degenerate","StringUtil::rtrim","controller stateless"
+"StringUtil","degenerate","StringUtil::stripTrailingSlashes","controller stateless"
+"StringUtil","degenerate","StringUtil::chomp","controller stateless"
+"StringUtil","degenerate","StringUtil::replaceAll","controller stateless"
+"StringUtil","degenerate","StringUtil::split","controller stateless"
+"StringUtil","degenerate","StringUtil::join","controller stateless"
+"StringUtil","degenerate","StringUtil::join","collaborator incidental"
+"StringUtil","degenerate","StringUtil::beginsWith","controller stateless"
+"StringUtil","degenerate","StringUtil::endsWith","controller stateless"
+"StringUtil","degenerate","StringUtil::compare","incidental"
+"StringUtil","degenerate","StringUtil::isHexString","collaborator incidental"
+"StringUtil","degenerate","StringUtil::isAlphanumeric","predicate non-void-command collaborator"
+"StringUtil","degenerate","StringUtil::isAlphanumeric","incidental"
+"StringUtil","degenerate","StringUtil::isShellSafe","predicate non-void-command collaborator"
+"StringUtil","degenerate","StringUtil::isShellSafe","incidental"
+"StringUtil","degenerate","StringUtil::isDigitString","predicate non-void-command"
+"StringUtil","degenerate","StringUtil::isDigitString","wrapper stateless"
+"StringUtil","degenerate","StringUtil::isNumber","predicate non-void-command"
+"StringUtil","degenerate","StringUtil::isNumber","wrapper stateless"
+"StringUtil","degenerate","StringUtil::toLower","controller stateless"
+"StringUtil","degenerate","StringUtil::toUpper","controller stateless"
+"StringUtil","degenerate","StringUtil::find","controller stateless"
+"StringUtil","degenerate","StringUtil::findLast","controller stateless"
+"StringUtil","degenerate","StringUtil::includes","controller stateless"
+"StringUtil","degenerate","StringUtil::includesi","predicate non-void-command collaborator"
+"StringUtil","degenerate","StringUtil::hexPrint","wrapper stateless"
+"StringUtil","degenerate","StringUtil::convertUTF8To32","controller stateless"
+"StringUtil","degenerate","StringUtil::convertUTF8To16","controller stateless"
+"StringUtil","degenerate","StringUtil::convertUTF32To8","wrapper stateless"
+"StringUtil","degenerate","StringUtil::convertUTF16To8","wrapper stateless"
+"StringUtil","degenerate","StringUtil::countUTF8CodePoints","controller stateless"
+"StringUtil","degenerate","StringUtil::stripShell","property non-void-command collaborator"
+"StringUtil","degenerate","StringUtil::toStringVImpl","command collaborator"
+"StringUtil","degenerate","StringUtil::toStringV","wrapper stateless"
+"StringUtil","degenerate","StringUtil::formatNumberMetric","wrapper stateless"
+"Image","boundary","Image::Image","constructor"
+"Image","boundary","Image::Image","copy-constructor"
+"Image","boundary","Image::~Image","destructor"
+"Image","boundary","Image::getPixelFormat","get collaborator"
+"Image","boundary","Image::getPixelCount","property"
+"Image","boundary","Image::getPixelSize","property"
+"Image","boundary","Image::getWidth","get"
+"Image","boundary","Image::getHeight","get"
+"Image","boundary","Image::getData","get collaborator"
+"Image","boundary","Image::getData","get collaborator"
+"Image","boundary","Image::getDataSize","property"
+"Image","boundary","Image::getPixel","property non-void-command collaborator"
+"Image","boundary","Image::getPixel","property non-void-command collaborator"
+"Image","boundary","Image::setPixel","command collaborator"
+"Image","boundary","Image::setPixel","command collaborator"
+"Image","boundary","Image::clear","command collaborator"
+"FillStyle","empty","FillStyle::FillStyle","constructor"
+"mat3","empty","mat3::mat3","constructor"
+"LegendConfig","empty","LegendConfig::LegendConfig","constructor"
+"Exception","entity data-provider boundary","Exception::Exception","constructor"
+"Exception","entity data-provider boundary","Exception::Exception","constructor"
+"Exception","entity data-provider boundary","Exception::Exception","constructor"
+"Exception","entity data-provider boundary","Exception::Exception","copy-constructor"
+"Exception","entity data-provider boundary","Exception::setSource","get non-void-command"
+"Exception","entity data-provider boundary","Exception::setTypeName","get set"
+"Exception","entity data-provider boundary","Exception::setErrno","get wrapper"
+"Exception","entity data-provider boundary","Exception::appendMessage","wrapper"
+"Exception","entity data-provider boundary","Exception::ofType","predicate wrapper"
+"Exception","entity data-provider boundary","Exception::getMessage","property wrapper"
+"Exception","entity data-provider boundary","Exception::getTypeName","property wrapper"
+"Exception","entity data-provider boundary","Exception::method","property wrapper"
+"Exception","entity data-provider boundary","Exception::file","property wrapper"
+"Exception","entity data-provider boundary","Exception::line","get"
+"Color","data-provider","Color::fromRGBA","wrapper stateless"
+"Color","data-provider","Color::fromRGB","wrapper stateless"
+"Color","data-provider","Color::Color","constructor"
+"Color","data-provider","Color::Color","constructor"
+"Color","data-provider","Color::red","get"
+"Color","data-provider","Color::green","get"
+"Color","data-provider","Color::blue","get"
+"Color","data-provider","Color::alpha","get"
+"Color","data-provider","Color::component","get"
+"Color","data-provider","Color::operator[]","get"
+"Color","data-provider","Color::operator[]","get"
+"Color","data-provider","Color::parse","predicate non-void-command"
+"Color","data-provider","Color::parseHex","predicate non-void-command"
+"Color","data-provider","Color::parseHexAlpha","predicate non-void-command"
+"Color","data-provider","Color::parseHexShort","predicate non-void-command"
+"Color","data-provider","Color::to_hex_str","property controller"
+"PathData","data-provider data-class small-class","PathData::operator[]","get"
+"Duration","data-provider","Duration::Duration","constructor"
+"Duration","data-provider","Duration::Duration","constructor"
+"Duration","data-provider","Duration::operator==","predicate"
+"Duration","data-provider","Duration::operator!=","predicate"
+"Duration","data-provider","Duration::operator<","predicate"
+"Duration","data-provider","Duration::operator>","predicate"
+"Duration","data-provider","Duration::operator<=","predicate"
+"Duration","data-provider","Duration::operator>=","predicate"
+"Duration","data-provider","Duration::operator!","predicate"
+"Duration","data-provider","Duration::microseconds","get"
+"Duration","data-provider","Duration::milliseconds","property"
+"Duration","data-provider","Duration::seconds","property"
+"Duration","data-provider","Duration::operator+","get"
+"Duration","data-provider","Duration::minutes","property"
+"Duration","data-provider","Duration::hours","property"
+"Duration","data-provider","Duration::days","property"
+"Duration","data-provider","Duration::fromDays","property non-void-command"
+"Duration","data-provider","Duration::fromHours","property non-void-command"
+"Duration","data-provider","Duration::fromMinutes","property non-void-command"
+"Duration","data-provider","Duration::fromSeconds","property non-void-command"
+"Duration","data-provider","Duration::fromMilliseconds","property non-void-command"
+"Duration","data-provider","Duration::fromMicroseconds","property non-void-command"
+"Duration","data-provider","Duration::fromNanoseconds","property non-void-command"
+"Rasterizer","unclassified","Rasterizer::Rasterizer","constructor"
+"Rasterizer","unclassified","Rasterizer::~Rasterizer","destructor"
+"Rasterizer","unclassified","Rasterizer::drawShape","property controller"
+"Rasterizer","unclassified","Rasterizer::drawText","property controller"
+"Rasterizer","unclassified","Rasterizer::clear","controller"
+"Rasterizer","unclassified","Rasterizer::data","property wrapper"
+"Rasterizer","unclassified","Rasterizer::size","property"
+"Rasterizer","unclassified","Rasterizer::to_png","property wrapper"
+"Rasterizer","unclassified","Rasterizer::writeToFile","property controller"
+"Context","empty","Context::Context","constructor"
+"AxisDefinition","empty","AxisDefinition::AxisDefinition","constructor"
+"vec2","data-provider boundary data-class small-class","vec2::vec2","constructor"
+"vec2","data-provider boundary data-class small-class","vec2::vec2","constructor"
+"vec2","data-provider boundary data-class small-class","vec2::vec2","constructor"
+"vec2","data-provider boundary data-class small-class","vec2::operator[]","get property wrapper"
+"vec2","data-provider boundary data-class small-class","vec2::operator[]","get property wrapper"
+"Layer","empty","Layer::Layer","constructor"
+"PlotBarsConfig","empty","PlotBarsConfig::PlotBarsConfig","constructor"
+"TextStyle","empty","TextStyle::TextStyle","constructor"
+"fill_solid","empty","fill_solid","constructor"
+"PropertyListParser","entity boundary","PropertyListParser::PropertyListParser","constructor"
+"PropertyListParser","entity boundary","PropertyListParser::get_error","get"
+"PropertyListParser","entity boundary","PropertyListParser::parse","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::parsePropertyOrMap","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::parseProperty","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::parsePropertyValues","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::parsePropertyValueOrEnum","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::parsePropertyValue","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::parsePropertyMap","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::getToken","predicate"
+"PropertyListParser","entity boundary","PropertyListParser::getToken","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::consumeToken","predicate set"
+"PropertyListParser","entity boundary","PropertyListParser::expectAndConsumeToken","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::expectAndConsumeString","predicate non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::printToken","property non-void-command collaborator"
+"PropertyListParser","entity boundary","PropertyListParser::printToken","property non-void-command"
+"PropertyListParser","entity boundary","PropertyListParser::printToken","wrapper stateless"
+"PropertyListParser","entity boundary","PropertyListParser::setError","command"
+"Option","data-provider boundary data-class","Option<T>::Option","constructor"
+"Option","data-provider boundary data-class","Option<T>::Option","constructor"
+"Option","data-provider boundary data-class","Option<T>::Option","constructor"
+"Option","data-provider boundary data-class","Option<T>::Option","constructor"
+"Option","data-provider boundary data-class","Option<T>::Option","copy-constructor"
+"Option","data-provider boundary data-class","Option<T>::Option","copy-constructor"
+"Option","data-provider boundary data-class","Option<T>::~Option","destructor"
+"Option","data-provider boundary data-class","Option<T>::operator=","get set collaborator"
+"Option","data-provider boundary data-class","Option<T>::operator=","get set collaborator"
+"Option","data-provider boundary data-class","Option<T>::operatorbool","get"
+"Option","data-provider boundary data-class","Option<T>::operator!","predicate"
+"Option","data-provider boundary data-class","Option<T>::operator*","get collaborator"
+"Option","data-provider boundary data-class","Option<T>::operator*","get collaborator"
+"Option","data-provider boundary data-class","Option<T>::operator->","get collaborator"
+"Option","data-provider boundary data-class","Option<T>::operator->","get collaborator"
+"Option","data-provider boundary data-class","Option<T>::get","get wrapper"
+"Option","data-provider boundary data-class","Option<T>::value_or","get property collaborator"
+"Option","data-provider boundary data-class","Option<T>::isEmpty","predicate"
+"ScaleConfig","empty","ScaleConfig::ScaleConfig","constructor"
+"OutputStream","degenerate","OutputStream","constructor"
+"OutputStream","degenerate","~OutputStream","destructor"
+"OutputStream","degenerate","OutputStream::getStdout","wrapper stateless"
+"OutputStream","degenerate","OutputStream::getStderr","wrapper stateless"
+"OutputStream","degenerate","OutputStream::write","controller stateless"
+"OutputStream","degenerate","OutputStream::write","controller stateless"
+"OutputStream","degenerate","OutputStream::printf","wrapper stateless"
+"StrokeStyle","empty","StrokeStyle::StrokeStyle","constructor"

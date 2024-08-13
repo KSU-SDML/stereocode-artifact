@@ -1,426 +1,362 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"JsonSnakeCaseNamingPolicy","pure-controller degenerate small-class","ConvertName","controller stateless",
-"SettingsView","empty","SettingsView","constructor",
-"ServersView","empty","ServersView","constructor",
-"RoutingView","empty","RoutingView","constructor",
-"DashboardView","empty","DashboardView","constructor",
-"OnlineConfigViewModel","empty","OnlineConfigViewModel","constructor",
-"ForwardProxyViewModel","empty","ForwardProxyViewModel","constructor",
-"DashboardViewModel","empty","DashboardViewModel","constructor",
-"RequestAddUrlEventArgs","empty","RequestAddUrlEventArgs","constructor",
-"UpdateChecker","commander boundary","UpdateChecker","constructor",
-"UpdateChecker","commander boundary","CheckForVersionUpdate","non-void-command collaborator",
-"UpdateChecker","commander boundary","AskToUpdate","command collaborator",
-"UpdateChecker","commander boundary","VersionUpdatePromptWindow_Closed","set collaborator",
-"UpdateChecker","commander boundary","DoUpdate","non-void-command collaborator",
-"UpdateChecker","commander boundary","SkipUpdate","command collaborator",
-"UpdateChecker","commander boundary","CloseVersionUpdatePromptWindow","set",
-"InternetPerConnectionOptionList","commander small-class","Dispose","command",
-"InternetPerConnectionOptionList","commander small-class","Dispose","command",
-"InternetPerConnectionOptionUnion","commander small-class","Dispose","command",
-"InternetPerConnectionOptionUnion","commander small-class","Dispose","set",
-"Sip003Plugin","small-class","Sip003Plugin","constructor",
-"Sip003Plugin","small-class","StartIfNeeded","predicate non-void-command collaborator",
-"Sip003Plugin","small-class","Dispose","command",
-"PortForwarder","small-class","PortForwarder","constructor",
-"PortForwarder","small-class","Handle","predicate controller",
-"PortForwarder","small-class","Handle","predicate wrapper",
-"Group","empty","Group","constructor",
-"Group","empty","Group","constructor",
-"Group","empty","Group","constructor",
-"App","empty","App","constructor",
-"UrlTests","boundary degenerate","Utilities_Base64Url_Encode","wrapper stateless",
-"UrlTests","boundary degenerate","Utilities_Base64Url_Decode","wrapper stateless",
-"UrlTests","boundary degenerate","Server_ToUrl","controller stateless",
-"UrlTests","boundary degenerate","Server_TryParse","wrapper stateless",
-"MainWindowViewModel","empty","MainWindowViewModel","constructor",
-"TcpPipeListener","small-class","TcpPipeListener","constructor",
-"TcpPipeListener","small-class","TcpPipeListener","constructor",
-"TcpPipeListener","small-class","Start","non-void-command collaborator",
-"TcpPipeListener","small-class","RunService","controller stateless",
-"Socks5VersionIdentifierMessage","entity boundary small-class","Serialize","property non-void-command collaborator",
-"SettingsViewModel","empty","SettingsViewModel","constructor",
-"OnlineConfigService","commander boundary small-class","OnlineConfigService","constructor",
-"OnlineConfigService","commander boundary small-class","Update","non-void-command collaborator",
-"CryptoBase","degenerate small-class","CryptoBase","constructor",
-"CryptoBase","degenerate small-class","ToString","incidental",
-"ProxyException","empty","ProxyException","constructor",
-"ProxyException","empty","ProxyException","constructor",
-"ProxyException","empty","ProxyException","constructor",
-"ProxyException","empty","ProxyException","constructor",
-"ProxyException","empty","ProxyException","copy-constructor",
-"ProxyException","empty","ProxyException","copy-constructor",
-"ProxyException","empty","ProxyException","copy-constructor",
-"ProxyException","empty","ProxyException","copy-constructor",
-"StreamCipherParameter","degenerate small-class","ToString","incidental",
-"SniffingObject","empty","SniffingObject","constructor",
-"DatagramService","degenerate small-class","Stop","empty",
-"UDPListener","commander boundary","UDPListener","constructor",
-"UDPListener","commander boundary","CheckIfPortInUse","controller stateless",
-"UDPListener","commander boundary","Start","command collaborator",
-"UDPListener","commander boundary","WorkLoop","non-void-command collaborator",
-"UDPListener","commander boundary","Stop","command collaborator",
-"TcpObject","empty","TcpObject","constructor",
-"ServerSharingView","boundary degenerate small-class","ServerSharingView","constructor",
-"ServerSharingView","boundary degenerate small-class","urlTextBox_PreviewMouseDoubleClick","wrapper stateless",
-"MainWindow","empty","MainWindow","constructor",
-"GeositeList","boundary","GeositeList","constructor",
-"GeositeList","boundary","GeositeList","copy-constructor",
-"GeositeList","boundary","Clone","property factory",
-"GeositeList","boundary","Equals","predicate non-void-command collaborator",
-"GeositeList","boundary","Equals","get predicate non-void-command",
-"GeositeList","boundary","GetHashCode","property non-void-command",
-"GeositeList","boundary","ToString","property wrapper",
-"GeositeList","boundary","WriteTo","command collaborator",
-"GeositeList","boundary","CalculateSize","property non-void-command",
-"GeositeList","boundary","MergeFrom","void-accessor set",
-"GeositeList","boundary","MergeFrom","set collaborator",
-"GeositeList","boundary","get","get collaborator",
-"GeositeList","boundary","get","collaborator incidental",
-"GeositeList","boundary","get","collaborator incidental",
-"GeositeList","boundary","get","get collaborator",
-"HttpRequestObject","empty","HttpRequestObject","constructor",
-"ServerObject","empty","ServerObject","constructor",
-"ServerObject","empty","ServerObject","constructor",
-"ServerObject","empty","ServerObject","constructor",
-"ServerObject","empty","ServerObject","constructor",
-"ServerObject","empty","ServerObject","constructor",
-"ServerObject","empty","ServerObject","constructor",
-"ServerObject","empty","ServerObject","constructor",
-"ServerObject","empty","ServerObject","constructor",
-"ServerObject","empty","ServerObject","constructor",
-"DirectConnect","commander small-class","Shutdown","command collaborator",
-"DirectConnect","commander small-class","Close","command",
-"SSTCPConnectedEventArgs","empty","SSTCPConnectedEventArgs","constructor",
-"WinINet","empty","WinINet","constructor",
-"HeaderObject","empty","HeaderObject","constructor",
-"StreamCrypto","boundary","StreamCrypto","constructor",
-"StreamCrypto","boundary","InitKey","wrapper",
-"StreamCrypto","boundary","InitCipher","void-accessor set",
-"StreamCrypto","boundary","Encrypt","property non-void-command collaborator",
-"StreamCrypto","boundary","Decrypt","property non-void-command collaborator",
-"StreamCrypto","boundary","EncryptUDP","property non-void-command collaborator",
-"StreamCrypto","boundary","DecryptUDP","property controller",
-"TcpPipeClient","boundary degenerate small-class","Connect","wrapper stateless",
-"AEADCrypto","boundary","AEADCrypto","constructor",
-"AEADCrypto","boundary","InitKey","command",
-"AEADCrypto","boundary","InitCipher","void-accessor command",
-"AEADCrypto","boundary","Encrypt","property non-void-command collaborator",
-"AEADCrypto","boundary","Decrypt","property non-void-command collaborator",
-"AEADCrypto","boundary","EncryptUDP","property controller",
-"AEADCrypto","boundary","DecryptUDP","property controller",
-"AEADCrypto","boundary","ChunkEncrypt","property non-void-command collaborator",
-"AEADCrypto","boundary","ChunkDecrypt","property non-void-command collaborator",
-"OutboundObject","empty","OutboundObject","constructor",
-"ForwardProxyView","empty","ForwardProxyView","constructor",
-"CryptoErrorException","empty","CryptoErrorException","constructor",
-"CryptoErrorException","empty","CryptoErrorException","constructor",
-"CryptoErrorException","empty","CryptoErrorException","constructor",
-"VersionUpdatePromptView","empty","VersionUpdatePromptView","constructor",
-"CryptoParameter","entity boundary small-class","GetCrypto","property non-void-command collaborator",
-"DnsObject","empty","DnsObject","constructor",
-"Config","empty","Config","constructor",
-"RuleObject","empty","RuleObject","constructor",
-"ReverseObject","empty","ReverseObject","constructor",
-"AEADCipherParameter","degenerate small-class","ToString","incidental",
-"ProtocolMessagePipe","unclassified","ProtocolMessagePipe","constructor",
-"ProtocolMessagePipe","unclassified","ReadAsync<T>","property non-void-command collaborator",
-"ProtocolMessagePipe","unclassified","ReadAsync<T>","controller stateless",
-"ProtocolMessagePipe","unclassified","MakeFrame","get property non-void-command factory collaborator",
-"AllocateObject","empty","AllocateObject","constructor",
-"UnsafeNoneCrypto","pure-controller degenerate","UnsafeNoneCrypto","constructor",
-"UnsafeNoneCrypto","pure-controller degenerate","Decrypt","controller stateless",
-"UnsafeNoneCrypto","pure-controller degenerate","Encrypt","controller stateless",
-"UnsafeNoneCrypto","pure-controller degenerate","Init","empty",
-"UnsafeNoneCrypto","pure-controller degenerate","Dispose","empty",
-"DetourObject","empty","DetourObject","constructor",
-"InteropSettings","empty","InteropSettings","constructor",
-"PACDaemon","unclassified","PACDaemon","constructor",
-"PACDaemon","unclassified","TouchPACFile","get non-void-command",
-"PACDaemon","unclassified","TouchUserRuleFile","get wrapper",
-"PACDaemon","unclassified","GetPACContent","property non-void-command",
-"PACDaemon","unclassified","WatchPacFile","command",
-"PACDaemon","unclassified","WatchUserRuleFile","command",
-"PACDaemon","unclassified","PACFileWatcher_Changed","command collaborator",
-"PACDaemon","unclassified","UserRuleFileWatcher_Changed","command collaborator",
-"HttpHeaderObject","empty","HttpHeaderObject","constructor",
-"ClientObject","empty","ClientObject","constructor",
-"LRUCacheItem<K,V>","empty","LRUCacheItem","constructor",
-"DomainSocketObject","empty","DomainSocketObject","constructor",
-"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor",
-"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor",
-"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor",
-"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor",
-"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor",
-"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor",
-"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor",
-"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor",
-"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor",
-"Socks5UserPasswordResponseMessage","data-provider boundary small-class","Serialize","property wrapper",
-"Settings","empty","Settings","constructor",
-"Server","factory small-class","Server","constructor",
-"Server","factory small-class","Server","constructor",
-"Server","factory small-class","ToUrl","factory wrapper",
-"NetSettings","empty","NetSettings","constructor",
-"StreamService","degenerate small-class","Stop","empty",
-"ServerSharingViewModel","commander boundary small-class","ServerSharingViewModel","constructor",
-"ServerSharingViewModel","commander boundary small-class","UpdateUrlAndImage","command collaborator",
-"RoutingObject","empty","RoutingObject","constructor",
-"TCPRelay","unclassified","TCPRelay","constructor",
-"TCPRelay","unclassified","Handle","predicate non-void-command collaborator",
-"TCPRelay","unclassified","Handle","predicate non-void-command collaborator",
-"TCPRelay","unclassified","Stop","controller",
-"Pipelines","boundary data-class small-class","Start","property set collaborator",
-"StreamPlainNativeCrypto","lazy-class degenerate","StreamPlainNativeCrypto","constructor",
-"StreamPlainNativeCrypto","lazy-class degenerate","CipherDecrypt","controller stateless",
-"StreamPlainNativeCrypto","lazy-class degenerate","CipherEncrypt","controller stateless",
-"StreamPlainNativeCrypto","lazy-class degenerate","GetCiphers","get collaborator",
-"StreamPlainNativeCrypto","lazy-class degenerate","Dispose","empty",
-"UserObject","empty","UserObject","constructor",
-"LRUCache<K,V>","entity commander boundary","LRUCache","constructor",
-"LRUCache<K,V>","entity commander boundary","get","property non-void-command collaborator",
-"LRUCache<K,V>","entity commander boundary","add","command collaborator",
-"LRUCache<K,V>","entity commander boundary","RemoveFirst","command collaborator",
-"IPCService","boundary small-class","RunServer","wrapper",
-"CertificateObject","empty","CertificateObject","constructor",
-"FallbackObject","empty","FallbackObject","constructor",
-"Legacy","commander small-class","Start","command collaborator",
-"Legacy","commander small-class","Stop","command",
-"InboundObject","empty","InboundObject","constructor",
-"AeadAesGcmCrypto","empty","AeadAesGcmCrypto","constructor",
-"HttpResponseObject","empty","HttpResponseObject","constructor",
-"AppSettings","empty","AppSettings","constructor",
-"Geosite","boundary","Geosite","constructor",
-"Geosite","boundary","Geosite","copy-constructor",
-"Geosite","boundary","Clone","property factory",
-"Geosite","boundary","Equals","predicate non-void-command collaborator",
-"Geosite","boundary","Equals","get predicate non-void-command",
-"Geosite","boundary","GetHashCode","property non-void-command",
-"Geosite","boundary","ToString","property wrapper",
-"Geosite","boundary","WriteTo","command collaborator",
-"Geosite","boundary","CalculateSize","property non-void-command",
-"Geosite","boundary","MergeFrom","void-accessor set",
-"Geosite","boundary","MergeFrom","set collaborator",
-"Geosite","boundary","get","get collaborator",
-"Geosite","boundary","get","collaborator incidental",
-"Geosite","boundary","get","collaborator incidental",
-"Geosite","boundary","get","get",
-"Geosite","boundary","set","set",
-"Geosite","boundary","get","get collaborator",
-"MuxObject","empty","MuxObject","constructor",
-"QuicObject","empty","QuicObject","constructor",
-"AeadChaCha20Poly1305Crypto","empty","AeadChaCha20Poly1305Crypto","constructor",
-"WebSocketObject","empty","WebSocketObject","constructor",
-"CryptoFactory","empty","CryptoFactory","constructor",
-"AEADCryptoBaseCrypto","unclassified","AEADCryptoBaseCrypto","constructor",
-"AEADCryptoBaseCrypto","unclassified","GetCiphers","get collaborator",
-"AEADCryptoBaseCrypto","unclassified","InitCipher","void-accessor command",
-"AEADCryptoBaseCrypto","unclassified","CipherEncrypt","property controller",
-"AEADCryptoBaseCrypto","unclassified","CipherDecrypt","property controller",
-"AEADCryptoBaseCrypto","unclassified","Dispose","command",
-"CachedNetworkStream","boundary","CachedNetworkStream","constructor",
-"CachedNetworkStream","boundary","CachedNetworkStream","constructor",
-"CachedNetworkStream","boundary","Flush","command",
-"CachedNetworkStream","boundary","Read","property non-void-command collaborator",
-"CachedNetworkStream","boundary","Read","property non-void-command collaborator",
-"CachedNetworkStream","boundary","ReadFirstBlock","property non-void-command collaborator",
-"CachedNetworkStream","boundary","Seek","get set collaborator",
-"CachedNetworkStream","boundary","SetLength","command",
-"CachedNetworkStream","boundary","WriteAsync","property non-void-command collaborator",
-"CachedNetworkStream","boundary","Write","incidental",
-"CachedNetworkStream","boundary","Dispose","command",
-"SaltMessage","boundary data-class small-class","SaltMessage","constructor",
-"SaltMessage","boundary data-class small-class","Serialize","get non-void-command collaborator",
-"ApiObject","empty","ApiObject","constructor",
-"KcpObject","empty","KcpObject","constructor",
-"CipherInfo","small-class","CipherInfo","constructor",
-"CipherInfo","small-class","CipherInfo","constructor",
-"CipherInfo","small-class","ToString","incidental",
-"CipherInfo","small-class","ToString","property non-void-command",
-"AccountObject","empty","AccountObject","constructor",
-"TCPListener","unclassified","TCPListener","constructor",
-"TCPListener","unclassified","CheckIfPortInUse","controller stateless",
-"TCPListener","unclassified","Start","command",
-"TCPListener","unclassified","Stop","controller",
-"TCPListener","unclassified","AcceptCallback","command collaborator",
-"TCPListener","unclassified","ReceiveCallback","command collaborator",
-"BalancerObject","empty","BalancerObject","constructor",
-"GeositeUpdater","boundary","GeositeUpdater","constructor",
-"GeositeUpdater","boundary","LoadGeositeList","set collaborator",
-"GeositeUpdater","boundary","ResetEvent","incidental",
-"GeositeUpdater","boundary","UpdatePACFromGeosite","non-void-command collaborator",
-"GeositeUpdater","boundary","MergeAndWritePACFile","predicate non-void-command",
-"GeositeUpdater","boundary","SeparateAttributeFromGroupName","wrapper stateless",
-"GeositeUpdater","boundary","MergePACFile","property non-void-command collaborator",
-"GeositeUpdater","boundary","ProcessUserRules","controller stateless",
-"GeositeUpdater","boundary","GenerateRules","property non-void-command",
-"GeositeUpdater","boundary","GenerateBlockingRules","property controller",
-"VersionUpdatePromptViewModel","empty","VersionUpdatePromptViewModel","constructor",
-"ServersViewModel","empty","ServersViewModel","constructor",
-"StreamCryptoBaseCrypto","entity boundary","StreamCryptoBaseCrypto","constructor",
-"StreamCryptoBaseCrypto","entity boundary","InitCipher","void-accessor command collaborator",
-"StreamCryptoBaseCrypto","entity boundary","CipherEncrypt","property non-void-command collaborator",
-"StreamCryptoBaseCrypto","entity boundary","CipherDecrypt","property non-void-command collaborator",
-"StreamCryptoBaseCrypto","entity boundary","CipherUpdate","property wrapper",
-"StreamCryptoBaseCrypto","entity boundary","GetCiphers","get collaborator",
-"StreamCryptoBaseCrypto","entity boundary","Dispose","command",
-"TCPHandler","commander boundary","TCPHandler","constructor",
-"TCPHandler","commander boundary","CreateRemote","command collaborator",
-"TCPHandler","commander boundary","StartAsync","non-void-command collaborator",
-"TCPHandler","commander boundary","ErrorClose","command collaborator",
-"TCPHandler","commander boundary","Close","command",
-"TCPHandler","commander boundary","Socks5Handshake","property non-void-command collaborator",
-"TCPHandler","commander boundary","DrainConnection","non-void-command collaborator",
-"TCPHandler","commander boundary","ReadAddress","property non-void-command collaborator",
-"TCPHandler","commander boundary","ReadPort","incidental",
-"TCPHandler","commander boundary","GetSocks5EndPoint","property non-void-command collaborator",
-"TCPHandler","commander boundary","SendUdpAssociate","non-void-command collaborator",
-"TCPHandler","commander boundary","ConnectRemote","non-void-command collaborator",
-"TCPHandler","commander boundary","SendAddress","non-void-command collaborator",
-"TCPHandler","commander boundary","GetSocks5EndPointByte","controller stateless",
-"TCPHandler","commander boundary","Forward","non-void-command collaborator",
-"TCPHandler","commander boundary","ForwardInbound","non-void-command collaborator",
-"TCPHandler","commander boundary","ForwardOutbound","non-void-command collaborator",
-"AeadCrypto","small-class","AeadCrypto","constructor",
-"AeadCrypto","small-class","Decrypt","property wrapper",
-"AeadCrypto","small-class","Encrypt","property controller",
-"LineReader","commander boundary","LineReader","constructor",
-"LineReader","commander boundary","ReceiveCallback","command collaborator",
-"LineReader","commander boundary","OnException","command collaborator",
-"LineReader","commander boundary","OnFinish","wrapper",
-"Socks5Proxy","commander small-class","Shutdown","command collaborator",
-"Socks5Proxy","commander small-class","Close","command",
-"ForwardProxySettings","empty","ForwardProxySettings","constructor",
-"HttpProxy","entity commander boundary","Shutdown","command collaborator",
-"HttpProxy","entity commander boundary","Close","command",
-"HttpProxy","entity commander boundary","OnLineRead","predicate non-void-command collaborator",
-"SSRelayEventArgs","empty","SSRelayEventArgs","constructor",
-"LogObject","empty","LogObject","constructor",
-"InboundConfigurationObject","empty","InboundConfigurationObject","constructor",
-"InboundConfigurationObject","empty","InboundConfigurationObject","constructor",
-"InboundConfigurationObject","empty","InboundConfigurationObject","constructor",
-"Resources","data-provider boundary","Resources","constructor",
-"Resources","data-provider boundary","get","get set collaborator",
-"Resources","data-provider boundary","get","get collaborator",
-"Resources","data-provider boundary","set","set collaborator",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","Resources","constructor",
-"Resources","data-provider boundary","get","get set collaborator",
-"Resources","data-provider boundary","get","get collaborator",
-"Resources","data-provider boundary","set","set collaborator",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"SSTransmitEventArgs","empty","SSTransmitEventArgs","constructor",
-"OnlineConfigView","empty","OnlineConfigView","constructor",
-"PortalObject","empty","PortalObject","constructor",
-"HttpObject","empty","HttpObject","constructor",
-"UDPRelay","entity boundary small-class","UDPRelay","constructor",
-"UDPRelay","entity boundary small-class","Handle","property non-void-command collaborator",
-"DomainObject","boundary","DomainObject","constructor",
-"DomainObject","boundary","DomainObject","copy-constructor",
-"DomainObject","boundary","Clone","property factory",
-"DomainObject","boundary","Equals","predicate non-void-command collaborator",
-"DomainObject","boundary","Equals","get predicate non-void-command",
-"DomainObject","boundary","GetHashCode","property non-void-command",
-"DomainObject","boundary","ToString","property wrapper",
-"DomainObject","boundary","WriteTo","command collaborator",
-"DomainObject","boundary","CalculateSize","property non-void-command",
-"DomainObject","boundary","MergeFrom","void-accessor set",
-"DomainObject","boundary","MergeFrom","set collaborator",
-"DomainObject","boundary","get","get collaborator",
-"DomainObject","boundary","get","collaborator incidental",
-"DomainObject","boundary","get","collaborator incidental",
-"DomainObject","boundary","get","get collaborator",
-"DomainObject","boundary","set","set collaborator",
-"DomainObject","boundary","get","get",
-"DomainObject","boundary","set","set",
-"DomainObject","boundary","get","get collaborator",
-"GeositeResultEventArgs","empty","GeositeResultEventArgs","constructor",
-"PACServer","entity minimal-entity boundary","PACServer","copy-constructor",
-"PACServer","entity minimal-entity boundary","UpdatePACURL","command collaborator",
-"PACServer","entity minimal-entity boundary","Handle","predicate non-void-command collaborator",
-"PACServer","entity minimal-entity boundary","Handle","predicate non-void-command collaborator",
-"PACServer","entity minimal-entity boundary","SendResponse","command",
-"PACServer","entity minimal-entity boundary","SendCallback","wrapper stateless",
-"PACServer","entity minimal-entity boundary","get","get set",
-"PACSettings","empty","PACSettings","constructor",
-"BridgeObject","empty","BridgeObject","constructor",
-"GeositeReflection","data-provider boundary data-class small-class","GeositeReflection","constructor",
-"GeositeReflection","data-provider boundary data-class small-class","get","get collaborator",
-"PipePair","empty","PipePair","constructor",
-"ShadowsocksClient","entity boundary small-class","ShadowsocksClient","constructor",
-"ShadowsocksClient","entity boundary small-class","ShadowsocksClient","constructor",
-"ShadowsocksClient","entity boundary small-class","Connect","property non-void-command collaborator",
-"Socks5UserPasswordRequestMessage","entity boundary small-class","Serialize","property non-void-command collaborator",
-"PrivoxyRunner","entity commander boundary","PrivoxyRunner","constructor",
-"PrivoxyRunner","entity commander boundary","Start","command collaborator",
-"PrivoxyRunner","entity commander boundary","Stop","command",
-"PrivoxyRunner","entity commander boundary","KillProcess","command collaborator",
-"PrivoxyRunner","entity commander boundary","IsChildProcess","predicate non-void-command collaborator",
-"PrivoxyRunner","entity commander boundary","GetFreePort","property non-void-command collaborator",
-"AeadBlockMessage","entity boundary small-class","AeadBlockMessage","constructor",
-"AeadBlockMessage","entity boundary small-class","Serialize","property non-void-command collaborator",
-"AeadXChaCha20Poly1305Crypto","empty","AeadXChaCha20Poly1305Crypto","constructor",
-"ProxySettingsObject","empty","ProxySettingsObject","constructor",
-"PayloadProtocolClient","pure-controller degenerate small-class","Connect","controller stateless",
-"UnsafeClient","commander boundary small-class","UnsafeClient","constructor",
-"UnsafeClient","commander boundary small-class","ConvertUplink","non-void-command collaborator",
-"UnsafeClient","commander boundary small-class","ConvertDownlink","non-void-command collaborator",
-"Socks5Client","pure-controller small-class","Socks5Client","constructor",
-"Socks5Client","pure-controller small-class","Connect","controller",
-"Socks5UdpMessage","data-provider boundary small-class","Serialize","property wrapper",
-"Socks5MethodSelectionMessage","data-provider boundary small-class","Serialize","property wrapper",
-"RoutingViewModel","empty","RoutingViewModel","constructor",
-"Socks5RequestReplyMessageBase","data-provider boundary small-class","Serialize","property wrapper",
-"Strings","data-provider boundary","Strings","constructor",
-"Strings","data-provider boundary","get","get set collaborator",
-"Strings","data-provider boundary","get","get collaborator",
-"Strings","data-provider boundary","set","set collaborator",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"Strings","data-provider boundary","get","property wrapper",
-"ConfigConverter","factory pure-controller small-class","ToUrls","factory controller",
-"Socks5Service","controller small-class","Socks5Service","constructor",
-"Socks5Service","controller small-class","Socks5Service","constructor",
-"Socks5Service","controller small-class","IsMyClient","controller stateless",
-"Socks5Service","controller small-class","Handle","property controller",
+"JsonSnakeCaseNamingPolicy","pure-controller degenerate small-class","ConvertName","controller stateless"
+"SettingsView","empty","SettingsView","constructor"
+"ServersView","empty","ServersView","constructor"
+"RoutingView","empty","RoutingView","constructor"
+"DashboardView","empty","DashboardView","constructor"
+"VersionUpdatePromptViewModel","empty","VersionUpdatePromptViewModel","constructor"
+"ServersViewModel","empty","ServersViewModel","constructor"
+"OnlineConfigViewModel","empty","OnlineConfigViewModel","constructor"
+"ForwardProxyViewModel","empty","ForwardProxyViewModel","constructor"
+"DashboardViewModel","empty","DashboardViewModel","constructor"
+"RequestAddUrlEventArgs","empty","RequestAddUrlEventArgs","constructor"
+"UpdateChecker","commander boundary","UpdateChecker","constructor"
+"UpdateChecker","commander boundary","CheckForVersionUpdate","non-void-command collaborator"
+"UpdateChecker","commander boundary","AskToUpdate","command collaborator"
+"UpdateChecker","commander boundary","VersionUpdatePromptWindow_Closed","set collaborator"
+"UpdateChecker","commander boundary","DoUpdate","non-void-command collaborator"
+"UpdateChecker","commander boundary","SkipUpdate","command collaborator"
+"UpdateChecker","commander boundary","CloseVersionUpdatePromptWindow","set"
+"InternetPerConnectionOptionList","commander small-class","Dispose","command"
+"InternetPerConnectionOptionList","commander small-class","Dispose","command"
+"InternetPerConnectionOptionUnion","commander small-class","Dispose","command"
+"InternetPerConnectionOptionUnion","commander small-class","Dispose","set"
+"Sip003Plugin","small-class","Sip003Plugin","constructor"
+"Sip003Plugin","small-class","StartIfNeeded","predicate non-void-command collaborator"
+"Sip003Plugin","small-class","Dispose","command"
+"PortForwarder","small-class","PortForwarder","constructor"
+"PortForwarder","small-class","Handle","predicate controller"
+"PortForwarder","small-class","Handle","predicate wrapper"
+"Settings","empty","Settings","constructor"
+"Group","empty","Group","constructor"
+"Group","empty","Group","constructor"
+"Group","empty","Group","constructor"
+"SettingsViewModel","empty","SettingsViewModel","constructor"
+"OnlineConfigService","commander boundary small-class","OnlineConfigService","constructor"
+"OnlineConfigService","commander boundary small-class","Update","non-void-command collaborator"
+"CryptoBase","degenerate small-class","CryptoBase","constructor"
+"CryptoBase","degenerate small-class","ToString","incidental"
+"ProxyException","empty","ProxyException","constructor"
+"ProxyException","empty","ProxyException","constructor"
+"ProxyException","empty","ProxyException","constructor"
+"ProxyException","empty","ProxyException","constructor"
+"ProxyException","empty","ProxyException","copy-constructor"
+"ProxyException","empty","ProxyException","copy-constructor"
+"ProxyException","empty","ProxyException","copy-constructor"
+"ProxyException","empty","ProxyException","copy-constructor"
+"StreamCipherParameter","degenerate small-class","ToString","incidental"
+"SniffingObject","empty","SniffingObject","constructor"
+"ForwardProxyView","empty","ForwardProxyView","constructor"
+"CryptoErrorException","empty","CryptoErrorException","constructor"
+"CryptoErrorException","empty","CryptoErrorException","constructor"
+"CryptoErrorException","empty","CryptoErrorException","constructor"
+"OutboundObject","empty","OutboundObject","constructor"
+"VersionUpdatePromptView","empty","VersionUpdatePromptView","constructor"
+"CryptoParameter","entity boundary small-class","GetCrypto","property non-void-command collaborator"
+"DatagramService","degenerate small-class","Stop","empty"
+"UDPListener","commander boundary","UDPListener","constructor"
+"UDPListener","commander boundary","CheckIfPortInUse","controller stateless"
+"UDPListener","commander boundary","Start","command collaborator"
+"UDPListener","commander boundary","WorkLoop","non-void-command collaborator"
+"UDPListener","commander boundary","Stop","command collaborator"
+"TcpObject","empty","TcpObject","constructor"
+"ServerSharingView","boundary degenerate small-class","ServerSharingView","constructor"
+"ServerSharingView","boundary degenerate small-class","urlTextBox_PreviewMouseDoubleClick","wrapper stateless"
+"MainWindow","empty","MainWindow","constructor"
+"GeositeList","boundary","GeositeList","constructor"
+"GeositeList","boundary","GeositeList","copy-constructor"
+"GeositeList","boundary","Clone","property factory"
+"GeositeList","boundary","Equals","predicate non-void-command collaborator"
+"GeositeList","boundary","Equals","get predicate non-void-command"
+"GeositeList","boundary","GetHashCode","property non-void-command"
+"GeositeList","boundary","ToString","property wrapper"
+"GeositeList","boundary","WriteTo","command collaborator"
+"GeositeList","boundary","CalculateSize","property non-void-command"
+"GeositeList","boundary","MergeFrom","set"
+"GeositeList","boundary","MergeFrom","set collaborator"
+"GeositeList","boundary","get","collaborator incidental"
+"GeositeList","boundary","get","get collaborator"
+"HttpRequestObject","empty","HttpRequestObject","constructor"
+"ServerObject","empty","ServerObject","constructor"
+"ServerObject","empty","ServerObject","constructor"
+"ServerObject","empty","ServerObject","constructor"
+"ServerObject","empty","ServerObject","constructor"
+"ServerObject","empty","ServerObject","constructor"
+"ServerObject","empty","ServerObject","constructor"
+"ServerObject","empty","ServerObject","constructor"
+"ServerObject","empty","ServerObject","constructor"
+"ServerObject","empty","ServerObject","constructor"
+"DirectConnect","commander small-class","Shutdown","command collaborator"
+"DirectConnect","commander small-class","Close","command"
+"SSTCPConnectedEventArgs","empty","SSTCPConnectedEventArgs","constructor"
+"WinINet","empty","WinINet","constructor"
+"HeaderObject","empty","HeaderObject","constructor"
+"StreamCrypto","boundary","StreamCrypto","constructor"
+"StreamCrypto","boundary","InitKey","wrapper"
+"StreamCrypto","boundary","InitCipher","set"
+"StreamCrypto","boundary","Encrypt","property non-void-command collaborator"
+"StreamCrypto","boundary","Decrypt","property non-void-command collaborator"
+"StreamCrypto","boundary","EncryptUDP","property non-void-command collaborator"
+"StreamCrypto","boundary","DecryptUDP","property controller"
+"HttpResponseObject","empty","HttpResponseObject","constructor"
+"AppSettings","empty","AppSettings","constructor"
+"Geosite","unclassified","Geosite","constructor"
+"Geosite","unclassified","Geosite","copy-constructor"
+"Geosite","unclassified","Clone","property factory"
+"Geosite","unclassified","Equals","predicate non-void-command collaborator"
+"Geosite","unclassified","Equals","get predicate non-void-command"
+"Geosite","unclassified","GetHashCode","property non-void-command"
+"Geosite","unclassified","ToString","property wrapper"
+"Geosite","unclassified","WriteTo","command collaborator"
+"Geosite","unclassified","CalculateSize","property non-void-command"
+"Geosite","unclassified","MergeFrom","set"
+"Geosite","unclassified","MergeFrom","set collaborator"
+"Geosite","unclassified","get","collaborator incidental"
+"Geosite","unclassified","get","get"
+"Geosite","unclassified","set","set"
+"Geosite","unclassified","get","get collaborator"
+"MuxObject","empty","MuxObject","constructor"
+"QuicObject","empty","QuicObject","constructor"
+"AeadChaCha20Poly1305Crypto","empty","AeadChaCha20Poly1305Crypto","constructor"
+"WebSocketObject","empty","WebSocketObject","constructor"
+"BridgeObject","empty","BridgeObject","constructor"
+"AllocateObject","empty","AllocateObject","constructor"
+"DnsObject","empty","DnsObject","constructor"
+"Config","empty","Config","constructor"
+"RuleObject","empty","RuleObject","constructor"
+"ReverseObject","empty","ReverseObject","constructor"
+"AEADCipherParameter","degenerate small-class","ToString","incidental"
+"ProtocolMessagePipe","unclassified","ProtocolMessagePipe","constructor"
+"ProtocolMessagePipe","unclassified","ReadAsync<T>","property non-void-command collaborator"
+"ProtocolMessagePipe","unclassified","ReadAsync<T>","controller stateless"
+"ProtocolMessagePipe","unclassified","MakeFrame","get property non-void-command factory collaborator"
+"DetourObject","empty","DetourObject","constructor"
+"InteropSettings","empty","InteropSettings","constructor"
+"PACDaemon","unclassified","PACDaemon","constructor"
+"PACDaemon","unclassified","TouchPACFile","get non-void-command"
+"PACDaemon","unclassified","TouchUserRuleFile","get wrapper"
+"PACDaemon","unclassified","GetPACContent","property non-void-command"
+"PACDaemon","unclassified","WatchPacFile","command"
+"PACDaemon","unclassified","WatchUserRuleFile","command"
+"PACDaemon","unclassified","PACFileWatcher_Changed","command collaborator"
+"PACDaemon","unclassified","UserRuleFileWatcher_Changed","command collaborator"
+"AeadAesGcmCrypto","empty","AeadAesGcmCrypto","constructor"
+"ServerSharingViewModel","commander boundary small-class","ServerSharingViewModel","constructor"
+"ServerSharingViewModel","commander boundary small-class","UpdateUrlAndImage","command collaborator"
+"RoutingObject","empty","RoutingObject","constructor"
+"TCPRelay","unclassified","TCPRelay","constructor"
+"TCPRelay","unclassified","Handle","predicate non-void-command collaborator"
+"TCPRelay","unclassified","Handle","predicate non-void-command collaborator"
+"TCPRelay","unclassified","Stop","controller"
+"Pipelines","boundary data-class small-class","Start","property set collaborator"
+"StreamPlainNativeCrypto","lazy-class degenerate","StreamPlainNativeCrypto","constructor"
+"StreamPlainNativeCrypto","lazy-class degenerate","CipherDecrypt","controller stateless"
+"StreamPlainNativeCrypto","lazy-class degenerate","CipherEncrypt","controller stateless"
+"StreamPlainNativeCrypto","lazy-class degenerate","GetCiphers","get collaborator"
+"StreamPlainNativeCrypto","lazy-class degenerate","Dispose","empty"
+"UserObject","empty","UserObject","constructor"
+"LRUCache<K,V>","entity commander boundary","LRUCache","constructor"
+"LRUCache<K,V>","entity commander boundary","get","property non-void-command collaborator"
+"LRUCache<K,V>","entity commander boundary","add","command collaborator"
+"LRUCache<K,V>","entity commander boundary","RemoveFirst","command collaborator"
+"DomainSocketObject","empty","DomainSocketObject","constructor"
+"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor"
+"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor"
+"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor"
+"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor"
+"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor"
+"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor"
+"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor"
+"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor"
+"OutboundConfigurationObject","empty","OutboundConfigurationObject","constructor"
+"Server","data-provider boundary small-class","Server","constructor"
+"Server","data-provider boundary small-class","Server","constructor"
+"Server","data-provider boundary small-class","ToUrl","property wrapper"
+"NetSettings","empty","NetSettings","constructor"
+"StreamService","degenerate small-class","Stop","empty"
+"InboundObject","empty","InboundObject","constructor"
+"Legacy","commander small-class","Start","command collaborator"
+"Legacy","commander small-class","Stop","command"
+"IPCService","boundary small-class","RunServer","wrapper"
+"CertificateObject","empty","CertificateObject","constructor"
+"FallbackObject","empty","FallbackObject","constructor"
+"AEADCryptoBaseCrypto","unclassified","AEADCryptoBaseCrypto","constructor"
+"AEADCryptoBaseCrypto","unclassified","GetCiphers","get collaborator"
+"AEADCryptoBaseCrypto","unclassified","InitCipher","command"
+"AEADCryptoBaseCrypto","unclassified","CipherEncrypt","property controller"
+"AEADCryptoBaseCrypto","unclassified","CipherDecrypt","property controller"
+"AEADCryptoBaseCrypto","unclassified","Dispose","command"
+"CachedNetworkStream","boundary","CachedNetworkStream","constructor"
+"CachedNetworkStream","boundary","CachedNetworkStream","constructor"
+"CachedNetworkStream","boundary","Flush","command"
+"CachedNetworkStream","boundary","Read","property non-void-command collaborator"
+"CachedNetworkStream","boundary","Read","property non-void-command collaborator"
+"CachedNetworkStream","boundary","ReadFirstBlock","property non-void-command collaborator"
+"CachedNetworkStream","boundary","Seek","get set collaborator"
+"CachedNetworkStream","boundary","SetLength","command"
+"CachedNetworkStream","boundary","WriteAsync","property non-void-command collaborator"
+"CachedNetworkStream","boundary","Write","incidental"
+"CachedNetworkStream","boundary","Dispose","command"
+"SaltMessage","boundary data-class small-class","SaltMessage","constructor"
+"SaltMessage","boundary data-class small-class","Serialize","get non-void-command collaborator"
+"ApiObject","empty","ApiObject","constructor"
+"KcpObject","empty","KcpObject","constructor"
+"CipherInfo","small-class","CipherInfo","constructor"
+"CipherInfo","small-class","CipherInfo","constructor"
+"CipherInfo","small-class","ToString","incidental"
+"CipherInfo","small-class","ToString","property non-void-command"
+"AccountObject","empty","AccountObject","constructor"
+"TCPListener","unclassified","TCPListener","constructor"
+"TCPListener","unclassified","CheckIfPortInUse","controller stateless"
+"TCPListener","unclassified","Start","command"
+"TCPListener","unclassified","Stop","controller"
+"TCPListener","unclassified","AcceptCallback","command collaborator"
+"TCPListener","unclassified","ReceiveCallback","command collaborator"
+"HttpHeaderObject","empty","HttpHeaderObject","constructor"
+"App","empty","App","constructor"
+"ClientObject","empty","ClientObject","constructor"
+"LRUCacheItem<K,V>","empty","LRUCacheItem","constructor"
+"BalancerObject","empty","BalancerObject","constructor"
+"GeositeUpdater","boundary","GeositeUpdater","constructor"
+"GeositeUpdater","boundary","LoadGeositeList","set collaborator"
+"GeositeUpdater","boundary","ResetEvent","incidental"
+"GeositeUpdater","boundary","UpdatePACFromGeosite","non-void-command collaborator"
+"GeositeUpdater","boundary","MergeAndWritePACFile","predicate non-void-command"
+"GeositeUpdater","boundary","SeparateAttributeFromGroupName","wrapper stateless"
+"GeositeUpdater","boundary","MergePACFile","property non-void-command collaborator"
+"GeositeUpdater","boundary","ProcessUserRules","controller stateless"
+"GeositeUpdater","boundary","GenerateRules","property non-void-command"
+"GeositeUpdater","boundary","GenerateBlockingRules","property controller"
+"StreamCryptoBaseCrypto","entity boundary","StreamCryptoBaseCrypto","constructor"
+"StreamCryptoBaseCrypto","entity boundary","InitCipher","command collaborator"
+"StreamCryptoBaseCrypto","entity boundary","CipherEncrypt","property non-void-command collaborator"
+"StreamCryptoBaseCrypto","entity boundary","CipherDecrypt","property non-void-command collaborator"
+"StreamCryptoBaseCrypto","entity boundary","CipherUpdate","property wrapper"
+"StreamCryptoBaseCrypto","entity boundary","GetCiphers","get collaborator"
+"StreamCryptoBaseCrypto","entity boundary","Dispose","command"
+"TCPHandler","commander boundary","TCPHandler","constructor"
+"TCPHandler","commander boundary","CreateRemote","command collaborator"
+"TCPHandler","commander boundary","StartAsync","non-void-command collaborator"
+"TCPHandler","commander boundary","ErrorClose","command collaborator"
+"TCPHandler","commander boundary","Close","command"
+"TCPHandler","commander boundary","Socks5Handshake","property non-void-command collaborator"
+"TCPHandler","commander boundary","DrainConnection","non-void-command collaborator"
+"TCPHandler","commander boundary","ReadAddress","property non-void-command collaborator"
+"TCPHandler","commander boundary","ReadPort","incidental"
+"TCPHandler","commander boundary","GetSocks5EndPoint","property non-void-command collaborator"
+"TCPHandler","commander boundary","SendUdpAssociate","non-void-command collaborator"
+"TCPHandler","commander boundary","ConnectRemote","non-void-command collaborator"
+"TCPHandler","commander boundary","SendAddress","non-void-command collaborator"
+"TCPHandler","commander boundary","GetSocks5EndPointByte","controller stateless"
+"TCPHandler","commander boundary","Forward","non-void-command collaborator"
+"TCPHandler","commander boundary","ForwardInbound","non-void-command collaborator"
+"TCPHandler","commander boundary","ForwardOutbound","non-void-command collaborator"
+"AeadCrypto","small-class","AeadCrypto","constructor"
+"AeadCrypto","small-class","Decrypt","property wrapper"
+"AeadCrypto","small-class","Encrypt","property controller"
+"LineReader","commander boundary","LineReader","constructor"
+"LineReader","commander boundary","ReceiveCallback","command collaborator"
+"LineReader","commander boundary","OnException","command collaborator"
+"LineReader","commander boundary","OnFinish","wrapper"
+"Socks5Proxy","commander small-class","Shutdown","command collaborator"
+"Socks5Proxy","commander small-class","Close","command"
+"ForwardProxySettings","empty","ForwardProxySettings","constructor"
+"HttpProxy","entity commander boundary","Shutdown","command collaborator"
+"HttpProxy","entity commander boundary","Close","command"
+"HttpProxy","entity commander boundary","OnLineRead","predicate non-void-command collaborator"
+"Socks5VersionIdentifierMessage","entity boundary small-class","Serialize","property non-void-command collaborator"
+"SSRelayEventArgs","empty","SSRelayEventArgs","constructor"
+"InboundConfigurationObject","empty","InboundConfigurationObject","constructor"
+"InboundConfigurationObject","empty","InboundConfigurationObject","constructor"
+"InboundConfigurationObject","empty","InboundConfigurationObject","constructor"
+"LogObject","empty","LogObject","constructor"
+"Resources","empty","Resources","constructor"
+"Resources","empty","Resources","constructor"
+"SSTransmitEventArgs","empty","SSTransmitEventArgs","constructor"
+"OnlineConfigView","empty","OnlineConfigView","constructor"
+"PortalObject","empty","PortalObject","constructor"
+"HttpObject","empty","HttpObject","constructor"
+"UDPRelay","entity boundary small-class","UDPRelay","constructor"
+"UDPRelay","entity boundary small-class","Handle","property non-void-command collaborator"
+"DomainObject","boundary","DomainObject","constructor"
+"DomainObject","boundary","DomainObject","copy-constructor"
+"DomainObject","boundary","Clone","property factory"
+"DomainObject","boundary","Equals","predicate non-void-command collaborator"
+"DomainObject","boundary","Equals","get predicate non-void-command"
+"DomainObject","boundary","GetHashCode","property non-void-command"
+"DomainObject","boundary","ToString","property wrapper"
+"DomainObject","boundary","WriteTo","command collaborator"
+"DomainObject","boundary","CalculateSize","property non-void-command"
+"DomainObject","boundary","MergeFrom","set"
+"DomainObject","boundary","MergeFrom","set collaborator"
+"DomainObject","boundary","get","collaborator incidental"
+"DomainObject","boundary","get","get collaborator"
+"DomainObject","boundary","set","set collaborator"
+"DomainObject","boundary","get","get"
+"DomainObject","boundary","set","set"
+"DomainObject","boundary","get","get collaborator"
+"GeositeResultEventArgs","empty","GeositeResultEventArgs","constructor"
+"PACServer","entity minimal-entity boundary","PACServer","copy-constructor"
+"PACServer","entity minimal-entity boundary","UpdatePACURL","command collaborator"
+"PACServer","entity minimal-entity boundary","Handle","predicate non-void-command collaborator"
+"PACServer","entity minimal-entity boundary","Handle","predicate non-void-command collaborator"
+"PACServer","entity minimal-entity boundary","SendResponse","command"
+"PACServer","entity minimal-entity boundary","SendCallback","wrapper stateless"
+"PACServer","entity minimal-entity boundary","get","get set"
+"PACSettings","empty","PACSettings","constructor"
+"PipePair","empty","PipePair","constructor"
+"ShadowsocksClient","entity boundary small-class","ShadowsocksClient","constructor"
+"ShadowsocksClient","entity boundary small-class","ShadowsocksClient","constructor"
+"ShadowsocksClient","entity boundary small-class","Connect","property non-void-command collaborator"
+"Socks5UserPasswordRequestMessage","entity boundary small-class","Serialize","property non-void-command collaborator"
+"PrivoxyRunner","entity commander boundary","PrivoxyRunner","constructor"
+"PrivoxyRunner","entity commander boundary","Start","command collaborator"
+"PrivoxyRunner","entity commander boundary","Stop","command"
+"PrivoxyRunner","entity commander boundary","KillProcess","command collaborator"
+"PrivoxyRunner","entity commander boundary","IsChildProcess","predicate non-void-command collaborator"
+"PrivoxyRunner","entity commander boundary","GetFreePort","property non-void-command collaborator"
+"AeadBlockMessage","entity boundary small-class","AeadBlockMessage","constructor"
+"AeadBlockMessage","entity boundary small-class","Serialize","property non-void-command collaborator"
+"AeadXChaCha20Poly1305Crypto","empty","AeadXChaCha20Poly1305Crypto","constructor"
+"UnsafeNoneCrypto","pure-controller degenerate","UnsafeNoneCrypto","constructor"
+"UnsafeNoneCrypto","pure-controller degenerate","Decrypt","controller stateless"
+"UnsafeNoneCrypto","pure-controller degenerate","Encrypt","controller stateless"
+"UnsafeNoneCrypto","pure-controller degenerate","Init","empty"
+"UnsafeNoneCrypto","pure-controller degenerate","Dispose","empty"
+"ProxySettingsObject","empty","ProxySettingsObject","constructor"
+"PayloadProtocolClient","pure-controller degenerate small-class","Connect","controller stateless"
+"UnsafeClient","commander boundary small-class","UnsafeClient","constructor"
+"UnsafeClient","commander boundary small-class","ConvertUplink","non-void-command collaborator"
+"UnsafeClient","commander boundary small-class","ConvertDownlink","non-void-command collaborator"
+"Socks5Client","pure-controller small-class","Socks5Client","constructor"
+"Socks5Client","pure-controller small-class","Connect","controller"
+"Socks5UdpMessage","data-provider boundary small-class","Serialize","property wrapper"
+"Socks5UserPasswordResponseMessage","data-provider boundary small-class","Serialize","property wrapper"
+"Socks5MethodSelectionMessage","data-provider boundary small-class","Serialize","property wrapper"
+"RoutingViewModel","empty","RoutingViewModel","constructor"
+"Socks5RequestReplyMessageBase","data-provider boundary small-class","Serialize","property wrapper"
+"Strings","empty","Strings","constructor"
+"ConfigConverter","factory pure-controller small-class","ToUrls","factory controller"
+"Socks5Service","controller small-class","Socks5Service","constructor"
+"Socks5Service","controller small-class","Socks5Service","constructor"
+"Socks5Service","controller small-class","IsMyClient","controller stateless"
+"Socks5Service","controller small-class","Handle","property controller"
+"AEADCrypto","boundary","AEADCrypto","constructor"
+"AEADCrypto","boundary","InitKey","command"
+"AEADCrypto","boundary","InitCipher","command"
+"AEADCrypto","boundary","Encrypt","property non-void-command collaborator"
+"AEADCrypto","boundary","Decrypt","property non-void-command collaborator"
+"AEADCrypto","boundary","EncryptUDP","property controller"
+"AEADCrypto","boundary","DecryptUDP","property controller"
+"AEADCrypto","boundary","ChunkEncrypt","property non-void-command collaborator"
+"AEADCrypto","boundary","ChunkDecrypt","property non-void-command collaborator"
+"TcpPipeClient","boundary degenerate small-class","Connect","wrapper stateless"
+"MainWindowViewModel","empty","MainWindowViewModel","constructor"
+"TcpPipeListener","small-class","TcpPipeListener","constructor"
+"TcpPipeListener","small-class","TcpPipeListener","constructor"
+"TcpPipeListener","small-class","Start","non-void-command collaborator"
+"TcpPipeListener","small-class","RunService","controller stateless"
+"UrlTests","boundary degenerate","Utilities_Base64Url_Encode","wrapper stateless"
+"UrlTests","boundary degenerate","Utilities_Base64Url_Decode","wrapper stateless"
+"UrlTests","boundary degenerate","Server_ToUrl","controller stateless"
+"UrlTests","boundary degenerate","Server_TryParse","wrapper stateless"

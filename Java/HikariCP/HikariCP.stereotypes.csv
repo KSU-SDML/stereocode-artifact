@@ -1,1094 +1,1096 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"TomcatConcurrentBagLeakTest","commander boundary small-class","testConcurrentBagForLeaks","command collaborator",
-"TomcatConcurrentBagLeakTest","commander boundary small-class","testConcurrentBagForLeaks2","command collaborator",
-"PropertyElfTest","pure-controller degenerate small-class","setTargetFromProperties","controller stateless",
-"PropertyElfTest","pure-controller degenerate small-class","setTargetFromPropertiesNotAClass","controller stateless",
-"ClockSourceTest","pure-controller degenerate small-class","testClockSourceDisplay","controller stateless",
-"DriverDataSourceTest","small-class","testJdbcUrlLogging","command",
-"DriverDataSourceTest","small-class","testExceptionMessage","controller stateless",
-"UnwrapTest","pure-controller degenerate small-class","testUnwrapConnection","controller stateless",
-"UnwrapTest","pure-controller degenerate small-class","testUnwrapDataSource","controller stateless",
-"TestProxies","pure-controller degenerate","testProxyCreation","controller stateless",
-"TestProxies","pure-controller degenerate","testStatementProxy","controller stateless",
-"TestProxies","pure-controller degenerate","testStatementExceptions","controller stateless",
-"TestProxies","pure-controller degenerate","testOtherExceptions","controller stateless",
-"TestPropertySetter","unclassified","testProperty1","controller stateless",
-"TestPropertySetter","unclassified","testProperty2","command collaborator",
-"TestPropertySetter","unclassified","testObjectProperty","command collaborator",
-"TestPropertySetter","unclassified","testPropertyUpperCase","command collaborator",
-"TestPropertySetter","unclassified","testGetPropertyNames","controller stateless",
-"TestPropertySetter","unclassified","testSetNonExistantPropertyName","controller stateless",
-"TestMetrics","boundary degenerate","testMetricWait","controller stateless",
-"TestMetrics","boundary degenerate","testMetricUsage","controller stateless",
-"TestMetrics","boundary degenerate","testHealthChecks","controller stateless",
-"TestMetrics","boundary degenerate","testSetters1","wrapper stateless",
-"TestMetrics","boundary degenerate","testSetters2","wrapper stateless",
-"TestMetrics","boundary degenerate","testSetters3","wrapper stateless",
-"TestMetrics","boundary degenerate","testSetters4","wrapper stateless",
-"TestMetrics","boundary degenerate","testSetters5","wrapper stateless",
-"TestMetrics","boundary degenerate","testFakeMetricRegistryThrowsIllegalArgumentException","wrapper stateless",
-"TestMetrics","boundary degenerate","testMetricRegistrySubclassIsAllowed","command",
-"TestJNDI","pure-controller degenerate","testJndiLookup1","controller stateless",
-"TestJNDI","pure-controller degenerate","testJndiLookup2","controller stateless",
-"TestJNDI","pure-controller degenerate","testJndiLookup3","controller stateless",
-"TestJNDI","pure-controller degenerate","testJndiLookup4","controller stateless",
-"TestIsRunning","commander","testRunningNormally","command",
-"TestIsRunning","commander","testNoPool","wrapper stateless",
-"TestIsRunning","commander","testSuspendAndResume","command",
-"TestIsRunning","commander","testShutdown","command",
-"TestIsRunning","commander","basicConfig","controller stateless",
-"UtilityElfTest","boundary degenerate","shouldReturnValidTransactionIsolationLevel","wrapper stateless",
-"UtilityElfTest","boundary degenerate","shouldThrowWhenInvalidTransactionNameGiven","wrapper stateless",
-"UtilityElfTest","boundary degenerate","shouldReturnTransationIsolationLevelFromInteger","wrapper stateless",
-"UtilityElfTest","boundary degenerate","shouldThrowWhenInvalidTransactionIntegerGiven","wrapper stateless",
-"TestElf","empty","TestElf","constructor",
-"TestConnections","degenerate","before","wrapper stateless",
-"TestConnections","degenerate","after","wrapper stateless",
-"TestConnections","degenerate","testCreate","controller stateless",
-"TestConnections","degenerate","testMaxLifetime","controller stateless",
-"TestConnections","degenerate","testMaxLifetime2","controller stateless",
-"TestConnections","degenerate","testKeepalive","controller stateless",
-"TestConnections","degenerate","testKeepalive2","controller stateless",
-"TestConnections","degenerate","testDoubleClose","controller stateless",
-"TestConnections","degenerate","testEviction","controller stateless",
-"TestConnections","degenerate","testEviction2","controller stateless",
-"TestConnections","degenerate","testEviction3","controller stateless",
-"TestConnections","degenerate","testEvictAllRefill","controller stateless",
-"TestConnections","degenerate","testBackfill","controller stateless",
-"TestConnections","degenerate","testMaximumPoolLimit","controller stateless",
-"TestConnections","degenerate","testOldDriver","controller stateless",
-"TestConnections","degenerate","testSuspendResume","controller stateless",
-"TestConnections","degenerate","testSuspendResumeWithThrow","controller stateless",
-"TestConnections","degenerate","testInitializationFailure1","controller stateless",
-"TestConnections","degenerate","testInitializationFailure2","controller stateless",
-"TestConnections","degenerate","testInvalidConnectionTestQuery","controller stateless",
-"TestConnections","degenerate","testDataSourceRaisesErrorWhileInitializationTestQuery","controller stateless",
-"TestConnections","degenerate","testDataSourceRaisesErrorAfterInitializationTestQuery","controller stateless",
-"TestConnections","degenerate","testPopulationSlowAcquisition","controller stateless",
-"TestConnections","degenerate","testMinimumIdleZero","controller stateless",
-"TestConnectionTimeoutRetry","degenerate","testConnectionRetries","controller stateless",
-"TestConnectionTimeoutRetry","degenerate","testConnectionRetries2","controller stateless",
-"TestConnectionTimeoutRetry","degenerate","testConnectionRetries3","controller stateless",
-"TestConnectionTimeoutRetry","degenerate","testConnectionRetries5","controller stateless",
-"TestConnectionTimeoutRetry","degenerate","testConnectionIdleFill","controller stateless",
-"TestConnectionTimeoutRetry","degenerate","before","wrapper stateless",
-"TestConnectionTimeoutRetry","degenerate","after","wrapper stateless",
-"StatementTest","commander boundary","setup","set collaborator",
-"StatementTest","commander boundary","teardown","command",
-"StatementTest","commander boundary","testStatementClose","command collaborator",
-"StatementTest","commander boundary","testAutoStatementClose","command collaborator",
-"StatementTest","commander boundary","testStatementResultSetProxyClose","command collaborator",
-"StatementTest","commander boundary","testDoubleStatementClose","command",
-"StatementTest","commander boundary","testOutOfOrderStatementClose","command",
-"MiscTest","degenerate","testLogWriter","controller stateless",
-"MiscTest","degenerate","testInvalidIsolation","wrapper stateless",
-"MiscTest","degenerate","testCreateInstance","wrapper stateless",
-"MiscTest","degenerate","testLeakDetection","controller stateless",
-"TestMBean","pure-controller degenerate","testMBeanRegistration","controller stateless",
-"TestMBean","pure-controller degenerate","testMBeanReporting","controller stateless",
-"TestMBean","pure-controller degenerate","testMBeanChange","controller stateless",
-"TestMBean","pure-controller degenerate","testMBeanConnectionTimeoutChange","controller stateless",
-"MetricsTrackerTest","pure-controller degenerate small-class","connectionTimeoutIsRecorded","controller stateless",
-"JdbcDriverTest","commander boundary","teardown","command",
-"JdbcDriverTest","commander boundary","driverTest1","command collaborator",
-"JdbcDriverTest","commander boundary","driverTest2","set collaborator",
-"IsolationTest","boundary degenerate small-class","testIsolation","wrapper stateless",
-"IsolationTest","boundary degenerate small-class","testNonIsolation","wrapper stateless",
-"TestHibernate","pure-controller degenerate small-class","testConnectionProvider","controller stateless",
-"ConnectionStateTest","pure-controller degenerate","testAutoCommit","controller stateless",
-"ConnectionStateTest","pure-controller degenerate","testTransactionIsolation","controller stateless",
-"ConnectionStateTest","pure-controller degenerate","testIsolation","controller stateless",
-"ConnectionStateTest","pure-controller degenerate","testReadOnly","controller stateless",
-"ConnectionStateTest","pure-controller degenerate","testCatalog","controller stateless",
-"ConnectionStateTest","pure-controller degenerate","testCommitTracking","controller stateless",
-"TestConcurrentBag","commander boundary small-class","testConcurrentBag","command collaborator",
-"ExceptionTest","commander boundary","setup","set collaborator",
-"ExceptionTest","commander boundary","teardown","command",
-"ExceptionTest","commander boundary","testException1","command collaborator",
-"ExceptionTest","commander boundary","testUseAfterStatementClose","command collaborator",
-"ExceptionTest","commander boundary","testUseAfterClose","command",
-"ExceptionTest","commander boundary","testLastErrorTimeout","command collaborator",
-"ConnectionPoolSizeVsThreadsTest","commander boundary","testPoolSizeAboutSameSizeAsThreadCount","command collaborator",
-"ConnectionPoolSizeVsThreadsTest","commander boundary","testSlowConnectionTimeBurstyWork","command",
-"ConnectionPoolSizeVsThreadsTest","commander boundary","testPoolSize","non-void-command factory collaborator",
-"ConcurrentCloseConnectionTest","pure-controller degenerate small-class","testConcurrentClose","controller stateless",
-"OSGiBundleTest","commander boundary","checkInject","wrapper",
-"OSGiBundleTest","commander boundary","checkBundle","command collaborator",
-"OSGiBundleTest","commander boundary","config","wrapper stateless",
-"ConnectionRaceConditionTest","small-class","testRaceCondition","controller",
-"ConnectionRaceConditionTest","small-class","after","wrapper stateless",
-"StubResultSet","lazy-class degenerate","unwrap","collaborator incidental",
-"StubResultSet","lazy-class degenerate","isWrapperFor","collaborator incidental",
-"StubResultSet","lazy-class degenerate","next","predicate",
-"StubResultSet","lazy-class degenerate","close","set",
-"StubResultSet","lazy-class degenerate","wasNull","incidental",
-"StubResultSet","lazy-class degenerate","getString","incidental",
-"StubResultSet","lazy-class degenerate","getBoolean","incidental",
-"StubResultSet","lazy-class degenerate","getByte","incidental",
-"StubResultSet","lazy-class degenerate","getShort","incidental",
-"StubResultSet","lazy-class degenerate","getInt","property set",
-"StubResultSet","lazy-class degenerate","getLong","incidental",
-"StubResultSet","lazy-class degenerate","getFloat","stateless",
-"StubResultSet","lazy-class degenerate","getDouble","incidental",
-"StubResultSet","lazy-class degenerate","getBigDecimal","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getBytes","incidental",
-"StubResultSet","lazy-class degenerate","getDate","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getTime","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getTimestamp","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getAsciiStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getUnicodeStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getBinaryStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getString","incidental",
-"StubResultSet","lazy-class degenerate","getBoolean","incidental",
-"StubResultSet","lazy-class degenerate","getByte","incidental",
-"StubResultSet","lazy-class degenerate","getShort","incidental",
-"StubResultSet","lazy-class degenerate","getInt","incidental",
-"StubResultSet","lazy-class degenerate","getLong","incidental",
-"StubResultSet","lazy-class degenerate","getFloat","incidental",
-"StubResultSet","lazy-class degenerate","getDouble","incidental",
-"StubResultSet","lazy-class degenerate","getBigDecimal","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getBytes","incidental",
-"StubResultSet","lazy-class degenerate","getDate","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getTime","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getTimestamp","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getAsciiStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getUnicodeStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getBinaryStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getWarnings","collaborator incidental",
-"StubResultSet","lazy-class degenerate","clearWarnings","empty",
-"StubResultSet","lazy-class degenerate","getCursorName","incidental",
-"StubResultSet","lazy-class degenerate","getMetaData","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getObject","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getObject","collaborator incidental",
-"StubResultSet","lazy-class degenerate","findColumn","incidental",
-"StubResultSet","lazy-class degenerate","getCharacterStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getCharacterStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getBigDecimal","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getBigDecimal","collaborator incidental",
-"StubResultSet","lazy-class degenerate","isBeforeFirst","incidental",
-"StubResultSet","lazy-class degenerate","isAfterLast","incidental",
-"StubResultSet","lazy-class degenerate","isFirst","incidental",
-"StubResultSet","lazy-class degenerate","isLast","incidental",
-"StubResultSet","lazy-class degenerate","beforeFirst","empty",
-"StubResultSet","lazy-class degenerate","afterLast","empty",
-"StubResultSet","lazy-class degenerate","first","incidental",
-"StubResultSet","lazy-class degenerate","last","incidental",
-"StubResultSet","lazy-class degenerate","getRow","incidental",
-"StubResultSet","lazy-class degenerate","absolute","incidental",
-"StubResultSet","lazy-class degenerate","relative","incidental",
-"StubResultSet","lazy-class degenerate","previous","incidental",
-"StubResultSet","lazy-class degenerate","setFetchDirection","empty",
-"StubResultSet","lazy-class degenerate","getFetchDirection","incidental",
-"StubResultSet","lazy-class degenerate","setFetchSize","empty",
-"StubResultSet","lazy-class degenerate","getFetchSize","incidental",
-"StubResultSet","lazy-class degenerate","getType","incidental",
-"StubResultSet","lazy-class degenerate","getConcurrency","incidental",
-"StubResultSet","lazy-class degenerate","rowUpdated","incidental",
-"StubResultSet","lazy-class degenerate","rowInserted","incidental",
-"StubResultSet","lazy-class degenerate","rowDeleted","incidental",
-"StubResultSet","lazy-class degenerate","updateNull","empty",
-"StubResultSet","lazy-class degenerate","updateBoolean","empty",
-"StubResultSet","lazy-class degenerate","updateByte","empty",
-"StubResultSet","lazy-class degenerate","updateShort","empty",
-"StubResultSet","lazy-class degenerate","updateInt","empty",
-"StubResultSet","lazy-class degenerate","updateLong","empty",
-"StubResultSet","lazy-class degenerate","updateFloat","empty",
-"StubResultSet","lazy-class degenerate","updateDouble","empty",
-"StubResultSet","lazy-class degenerate","updateBigDecimal","empty",
-"StubResultSet","lazy-class degenerate","updateString","empty",
-"StubResultSet","lazy-class degenerate","updateBytes","empty",
-"StubResultSet","lazy-class degenerate","updateDate","empty",
-"StubResultSet","lazy-class degenerate","updateTime","empty",
-"StubResultSet","lazy-class degenerate","updateTimestamp","empty",
-"StubResultSet","lazy-class degenerate","updateAsciiStream","empty",
-"StubResultSet","lazy-class degenerate","updateBinaryStream","empty",
-"StubResultSet","lazy-class degenerate","updateCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateObject","empty",
-"StubResultSet","lazy-class degenerate","updateObject","empty",
-"StubResultSet","lazy-class degenerate","updateNull","empty",
-"StubResultSet","lazy-class degenerate","updateBoolean","empty",
-"StubResultSet","lazy-class degenerate","updateByte","empty",
-"StubResultSet","lazy-class degenerate","updateShort","empty",
-"StubResultSet","lazy-class degenerate","updateInt","empty",
-"StubResultSet","lazy-class degenerate","updateLong","empty",
-"StubResultSet","lazy-class degenerate","updateFloat","empty",
-"StubResultSet","lazy-class degenerate","updateDouble","empty",
-"StubResultSet","lazy-class degenerate","updateBigDecimal","empty",
-"StubResultSet","lazy-class degenerate","updateString","empty",
-"StubResultSet","lazy-class degenerate","updateBytes","empty",
-"StubResultSet","lazy-class degenerate","updateDate","empty",
-"StubResultSet","lazy-class degenerate","updateTime","empty",
-"StubResultSet","lazy-class degenerate","updateTimestamp","empty",
-"StubResultSet","lazy-class degenerate","updateAsciiStream","empty",
-"StubResultSet","lazy-class degenerate","updateBinaryStream","empty",
-"StubResultSet","lazy-class degenerate","updateCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateObject","empty",
-"StubResultSet","lazy-class degenerate","updateObject","empty",
-"StubResultSet","lazy-class degenerate","insertRow","empty",
-"StubResultSet","lazy-class degenerate","updateRow","empty",
-"StubResultSet","lazy-class degenerate","deleteRow","empty",
-"StubResultSet","lazy-class degenerate","refreshRow","empty",
-"StubResultSet","lazy-class degenerate","cancelRowUpdates","empty",
-"StubResultSet","lazy-class degenerate","moveToInsertRow","empty",
-"StubResultSet","lazy-class degenerate","moveToCurrentRow","empty",
-"StubResultSet","lazy-class degenerate","getStatement","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getObject","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getRef","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getBlob","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getClob","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getArray","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getObject","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getRef","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getBlob","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getClob","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getArray","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getDate","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getDate","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getTime","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getTime","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getTimestamp","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getTimestamp","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getURL","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getURL","collaborator incidental",
-"StubResultSet","lazy-class degenerate","updateRef","empty",
-"StubResultSet","lazy-class degenerate","updateRef","empty",
-"StubResultSet","lazy-class degenerate","updateBlob","empty",
-"StubResultSet","lazy-class degenerate","updateBlob","empty",
-"StubResultSet","lazy-class degenerate","updateClob","empty",
-"StubResultSet","lazy-class degenerate","updateClob","empty",
-"StubResultSet","lazy-class degenerate","updateArray","empty",
-"StubResultSet","lazy-class degenerate","updateArray","empty",
-"StubResultSet","lazy-class degenerate","getRowId","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getRowId","collaborator incidental",
-"StubResultSet","lazy-class degenerate","updateRowId","empty",
-"StubResultSet","lazy-class degenerate","updateRowId","empty",
-"StubResultSet","lazy-class degenerate","getHoldability","incidental",
-"StubResultSet","lazy-class degenerate","isClosed","get",
-"StubResultSet","lazy-class degenerate","updateNString","empty",
-"StubResultSet","lazy-class degenerate","updateNString","empty",
-"StubResultSet","lazy-class degenerate","updateNClob","empty",
-"StubResultSet","lazy-class degenerate","updateNClob","empty",
-"StubResultSet","lazy-class degenerate","getNClob","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getNClob","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getSQLXML","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getSQLXML","collaborator incidental",
-"StubResultSet","lazy-class degenerate","updateSQLXML","empty",
-"StubResultSet","lazy-class degenerate","updateSQLXML","empty",
-"StubResultSet","lazy-class degenerate","getNString","incidental",
-"StubResultSet","lazy-class degenerate","getNString","incidental",
-"StubResultSet","lazy-class degenerate","getNCharacterStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getNCharacterStream","collaborator incidental",
-"StubResultSet","lazy-class degenerate","updateNCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateNCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateAsciiStream","empty",
-"StubResultSet","lazy-class degenerate","updateBinaryStream","empty",
-"StubResultSet","lazy-class degenerate","updateCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateAsciiStream","empty",
-"StubResultSet","lazy-class degenerate","updateBinaryStream","empty",
-"StubResultSet","lazy-class degenerate","updateCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateBlob","empty",
-"StubResultSet","lazy-class degenerate","updateBlob","empty",
-"StubResultSet","lazy-class degenerate","updateClob","empty",
-"StubResultSet","lazy-class degenerate","updateClob","empty",
-"StubResultSet","lazy-class degenerate","updateNClob","empty",
-"StubResultSet","lazy-class degenerate","updateNClob","empty",
-"StubResultSet","lazy-class degenerate","updateNCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateNCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateAsciiStream","empty",
-"StubResultSet","lazy-class degenerate","updateBinaryStream","empty",
-"StubResultSet","lazy-class degenerate","updateCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateAsciiStream","empty",
-"StubResultSet","lazy-class degenerate","updateBinaryStream","empty",
-"StubResultSet","lazy-class degenerate","updateCharacterStream","empty",
-"StubResultSet","lazy-class degenerate","updateBlob","empty",
-"StubResultSet","lazy-class degenerate","updateBlob","empty",
-"StubResultSet","lazy-class degenerate","updateClob","empty",
-"StubResultSet","lazy-class degenerate","updateClob","empty",
-"StubResultSet","lazy-class degenerate","updateNClob","empty",
-"StubResultSet","lazy-class degenerate","updateNClob","empty",
-"StubResultSet","lazy-class degenerate","getObject","collaborator incidental",
-"StubResultSet","lazy-class degenerate","getObject","collaborator incidental",
-"ProxyFactory","empty","ProxyFactory","constructor",
-"HikariPool","commander boundary","HikariPool","constructor",
-"HikariPool","commander boundary","getConnection","property non-void-command collaborator",
-"HikariPool","commander boundary","getConnection","property non-void-command collaborator",
-"HikariPool","commander boundary","shutdown","command collaborator",
-"HikariPool","commander boundary","evictConnection","command collaborator",
-"HikariPool","commander boundary","setMetricRegistry","command collaborator",
-"HikariPool","commander boundary","setMetricsTrackerFactory","command collaborator",
-"HikariPool","commander boundary","setHealthCheckRegistry","wrapper",
-"HikariPool","commander boundary","addBagItem","command",
-"HikariPool","commander boundary","getActiveConnections","property non-void-command",
-"HikariPool","commander boundary","getIdleConnections","property non-void-command",
-"HikariPool","commander boundary","getTotalConnections","property non-void-command",
-"HikariPool","commander boundary","getThreadsAwaitingConnection","property non-void-command",
-"HikariPool","commander boundary","softEvictConnections","command",
-"HikariPool","commander boundary","suspendPool","set",
-"HikariPool","commander boundary","resumePool","command",
-"HikariPool","commander boundary","logPoolState","void-accessor command",
-"HikariPool","commander boundary","recycle","command collaborator",
-"HikariPool","commander boundary","closeConnection","command collaborator",
-"HikariPool","commander boundary","getPoolStateCounts","property non-void-command",
-"HikariPool","commander boundary","createPoolEntry","property non-void-command collaborator",
-"HikariPool","commander boundary","fillPool","command",
-"HikariPool","commander boundary","abortActiveConnections","command collaborator",
-"HikariPool","commander boundary","checkFailFast","command collaborator",
-"HikariPool","commander boundary","throwPoolInitializationException","command collaborator",
-"HikariPool","commander boundary","softEvictConnection","predicate non-void-command",
-"HikariPool","commander boundary","initializeHouseKeepingExecutorService","property non-void-command factory collaborator",
-"HikariPool","commander boundary","destroyHouseKeepingExecutorService","command",
-"HikariPool","commander boundary","getPoolStats","property non-void-command factory collaborator",
-"HikariPool","commander boundary","createTimeoutException","non-void-command factory collaborator",
-"DriverDataSource","entity boundary degenerate","DriverDataSource","constructor",
-"DriverDataSource","entity boundary degenerate","getConnection","property non-void-command collaborator",
-"DriverDataSource","entity boundary degenerate","getConnection","property non-void-command collaborator",
-"DriverDataSource","entity boundary degenerate","getLogWriter","collaborator stateless",
-"DriverDataSource","entity boundary degenerate","setLogWriter","collaborator stateless",
-"DriverDataSource","entity boundary degenerate","setLoginTimeout","wrapper stateless",
-"DriverDataSource","entity boundary degenerate","getLoginTimeout","wrapper stateless",
-"DriverDataSource","entity boundary degenerate","getParentLogger","property non-void-command collaborator",
-"DriverDataSource","entity boundary degenerate","unwrap","collaborator stateless",
-"DriverDataSource","entity boundary degenerate","isWrapperFor","collaborator incidental",
-"HikariCPCollector","entity commander boundary","collect","property non-void-command collaborator",
-"HikariCPCollector","entity commander boundary","add","command collaborator",
-"HikariCPCollector","entity commander boundary","remove","command",
-"HikariCPCollector","entity commander boundary","createGauge","non-void-command factory collaborator",
-"SQLExceptionOverride","boundary degenerate small-class","adjudicate","collaborator incidental",
-"StubPreparedStatement","degenerate","StubPreparedStatement","constructor",
-"StubPreparedStatement","degenerate","executeQuery","factory collaborator stateless",
-"StubPreparedStatement","degenerate","executeUpdate","incidental",
-"StubPreparedStatement","degenerate","getMaxFieldSize","stateless",
-"StubPreparedStatement","degenerate","setMaxFieldSize","empty",
-"StubPreparedStatement","degenerate","getMaxRows","incidental",
-"StubPreparedStatement","degenerate","setMaxRows","empty",
-"StubPreparedStatement","degenerate","setEscapeProcessing","empty",
-"StubPreparedStatement","degenerate","getQueryTimeout","incidental",
-"StubPreparedStatement","degenerate","setQueryTimeout","empty",
-"StubPreparedStatement","degenerate","cancel","empty",
-"StubPreparedStatement","degenerate","getWarnings","collaborator incidental",
-"StubPreparedStatement","degenerate","clearWarnings","empty",
-"StubPreparedStatement","degenerate","setCursorName","empty",
-"StubPreparedStatement","degenerate","execute","incidental",
-"StubPreparedStatement","degenerate","getResultSet","factory collaborator stateless",
-"StubPreparedStatement","degenerate","getUpdateCount","incidental",
-"StubPreparedStatement","degenerate","getMoreResults","predicate non-void-command",
-"StubPreparedStatement","degenerate","setFetchDirection","empty",
-"StubPreparedStatement","degenerate","getFetchDirection","incidental",
-"StubPreparedStatement","degenerate","setFetchSize","empty",
-"StubPreparedStatement","degenerate","getFetchSize","incidental",
-"StubPreparedStatement","degenerate","getResultSetConcurrency","incidental",
-"StubPreparedStatement","degenerate","getResultSetType","incidental",
-"StubPreparedStatement","degenerate","addBatch","empty",
-"StubPreparedStatement","degenerate","clearBatch","empty",
-"StubPreparedStatement","degenerate","executeBatch","incidental",
-"StubPreparedStatement","degenerate","getMoreResults","incidental",
-"StubPreparedStatement","degenerate","getGeneratedKeys","factory collaborator stateless",
-"StubPreparedStatement","degenerate","executeUpdate","incidental",
-"StubPreparedStatement","degenerate","executeUpdate","incidental",
-"StubPreparedStatement","degenerate","executeUpdate","incidental",
-"StubPreparedStatement","degenerate","execute","incidental",
-"StubPreparedStatement","degenerate","execute","incidental",
-"StubPreparedStatement","degenerate","execute","incidental",
-"StubPreparedStatement","degenerate","getResultSetHoldability","incidental",
-"StubPreparedStatement","degenerate","setPoolable","empty",
-"StubPreparedStatement","degenerate","isPoolable","incidental",
-"StubPreparedStatement","degenerate","closeOnCompletion","empty",
-"StubPreparedStatement","degenerate","isCloseOnCompletion","incidental",
-"StubPreparedStatement","degenerate","unwrap","property controller",
-"StubPreparedStatement","degenerate","isWrapperFor","collaborator incidental",
-"StubPreparedStatement","degenerate","executeQuery","factory collaborator stateless",
-"StubPreparedStatement","degenerate","executeUpdate","incidental",
-"StubPreparedStatement","degenerate","setNull","empty",
-"StubPreparedStatement","degenerate","setBoolean","empty",
-"StubPreparedStatement","degenerate","setByte","empty",
-"StubPreparedStatement","degenerate","setShort","empty",
-"StubPreparedStatement","degenerate","setInt","empty",
-"StubPreparedStatement","degenerate","setLong","empty",
-"StubPreparedStatement","degenerate","setFloat","empty",
-"StubPreparedStatement","degenerate","setDouble","empty",
-"StubPreparedStatement","degenerate","setBigDecimal","empty",
-"StubPreparedStatement","degenerate","setString","empty",
-"StubPreparedStatement","degenerate","setBytes","empty",
-"StubPreparedStatement","degenerate","setDate","empty",
-"StubPreparedStatement","degenerate","setTime","empty",
-"StubPreparedStatement","degenerate","setTimestamp","empty",
-"StubPreparedStatement","degenerate","setAsciiStream","empty",
-"StubPreparedStatement","degenerate","setUnicodeStream","empty",
-"StubPreparedStatement","degenerate","setBinaryStream","empty",
-"StubPreparedStatement","degenerate","clearParameters","empty",
-"StubPreparedStatement","degenerate","setObject","empty",
-"StubPreparedStatement","degenerate","setObject","empty",
-"StubPreparedStatement","degenerate","execute","incidental",
-"StubPreparedStatement","degenerate","addBatch","empty",
-"StubPreparedStatement","degenerate","setCharacterStream","empty",
-"StubPreparedStatement","degenerate","setRef","empty",
-"StubPreparedStatement","degenerate","setBlob","empty",
-"StubPreparedStatement","degenerate","setClob","empty",
-"StubPreparedStatement","degenerate","setArray","empty",
-"StubPreparedStatement","degenerate","getMetaData","collaborator incidental",
-"StubPreparedStatement","degenerate","setDate","empty",
-"StubPreparedStatement","degenerate","setTime","empty",
-"StubPreparedStatement","degenerate","setTimestamp","empty",
-"StubPreparedStatement","degenerate","setNull","empty",
-"StubPreparedStatement","degenerate","setURL","empty",
-"StubPreparedStatement","degenerate","getParameterMetaData","collaborator incidental",
-"StubPreparedStatement","degenerate","setRowId","empty",
-"StubPreparedStatement","degenerate","setNString","empty",
-"StubPreparedStatement","degenerate","setNCharacterStream","empty",
-"StubPreparedStatement","degenerate","setNClob","empty",
-"StubPreparedStatement","degenerate","setClob","empty",
-"StubPreparedStatement","degenerate","setBlob","empty",
-"StubPreparedStatement","degenerate","setNClob","empty",
-"StubPreparedStatement","degenerate","setSQLXML","empty",
-"StubPreparedStatement","degenerate","setObject","empty",
-"StubPreparedStatement","degenerate","setAsciiStream","empty",
-"StubPreparedStatement","degenerate","setBinaryStream","empty",
-"StubPreparedStatement","degenerate","setCharacterStream","empty",
-"StubPreparedStatement","degenerate","setAsciiStream","empty",
-"StubPreparedStatement","degenerate","setBinaryStream","empty",
-"StubPreparedStatement","degenerate","setCharacterStream","empty",
-"StubPreparedStatement","degenerate","setNCharacterStream","empty",
-"StubPreparedStatement","degenerate","setClob","empty",
-"StubPreparedStatement","degenerate","setBlob","empty",
-"StubPreparedStatement","degenerate","setNClob","empty",
-"TestSaturatedPool830","commander small-class","saturatedPoolTest","command",
-"PoolStats","unclassified","PoolStats","constructor",
-"PoolStats","unclassified","getTotalConnections","get non-void-command",
-"PoolStats","unclassified","getIdleConnections","get non-void-command",
-"PoolStats","unclassified","getActiveConnections","get non-void-command",
-"PoolStats","unclassified","getPendingThreads","get non-void-command",
-"PoolStats","unclassified","getMaxConnections","get non-void-command",
-"PoolStats","unclassified","getMinConnections","get non-void-command",
-"PoolStats","unclassified","shouldLoad","predicate non-void-command collaborator",
-"TestValidation","pure-controller degenerate","validateLoadProperties","controller stateless",
-"TestValidation","pure-controller degenerate","validateMissingProperties","controller stateless",
-"TestValidation","pure-controller degenerate","validateMissingDS","controller stateless",
-"TestValidation","pure-controller degenerate","validateMissingUrl","controller stateless",
-"TestValidation","pure-controller degenerate","validateDriverAndUrl","controller stateless",
-"TestValidation","pure-controller degenerate","validateBadDriver","controller stateless",
-"TestValidation","pure-controller degenerate","validateInvalidConnectionTimeout","controller stateless",
-"TestValidation","pure-controller degenerate","validateInvalidValidationTimeout","controller stateless",
-"TestValidation","pure-controller degenerate","validateInvalidIdleTimeout","controller stateless",
-"TestValidation","pure-controller degenerate","validateIdleTimeoutTooSmall","controller stateless",
-"TestValidation","pure-controller degenerate","validateIdleTimeoutExceedsLifetime","controller stateless",
-"TestValidation","pure-controller degenerate","validateInvalidMinIdle","controller stateless",
-"TestValidation","pure-controller degenerate","validateInvalidMaxPoolSize","controller stateless",
-"TestValidation","pure-controller degenerate","validateInvalidLifetime","controller stateless",
-"TestValidation","pure-controller degenerate","validateInvalidLeakDetection","controller stateless",
-"TestValidation","pure-controller degenerate","validateZeroConnectionTimeout","controller stateless",
-"MicrometerMetricsTrackerFactory","factory controller small-class","MicrometerMetricsTrackerFactory","constructor",
-"MicrometerMetricsTrackerFactory","factory controller small-class","create","property factory collaborator",
-"ShutdownTest","controller degenerate","beforeTest","wrapper stateless",
-"ShutdownTest","controller degenerate","afterTest","wrapper stateless",
-"ShutdownTest","controller degenerate","testShutdown1","controller stateless",
-"ShutdownTest","controller degenerate","testShutdown2","controller stateless",
-"ShutdownTest","controller degenerate","testShutdown3","controller stateless",
-"ShutdownTest","controller degenerate","testShutdown4","command",
-"ShutdownTest","controller degenerate","testShutdown5","controller stateless",
-"ShutdownTest","controller degenerate","testAfterShutdown","controller stateless",
-"ShutdownTest","controller degenerate","testShutdownDuringInit","controller stateless",
-"ShutdownTest","controller degenerate","testThreadedShutdown","controller stateless",
-"ShutdownTest","controller degenerate","threadCount","controller stateless",
-"PrometheusMetricsTrackerFactory","entity small-class","PrometheusMetricsTrackerFactory","constructor",
-"PrometheusMetricsTrackerFactory","entity small-class","PrometheusMetricsTrackerFactory","constructor",
-"PrometheusMetricsTrackerFactory","entity small-class","create","property non-void-command factory collaborator",
-"PrometheusMetricsTrackerFactory","entity small-class","registerCollector","command collaborator",
-"TestSealedConfig","pure-controller degenerate","testSealed1","controller stateless",
-"TestSealedConfig","pure-controller degenerate","testSealed2","controller stateless",
-"TestSealedConfig","pure-controller degenerate","testSealed3","controller stateless",
-"TestSealedConfig","pure-controller degenerate","testSealedAccessibleMethods","controller stateless",
-"PoolEntry","unclassified","PoolEntry","constructor",
-"PoolEntry","unclassified","recycle","set",
-"PoolEntry","unclassified","setFutureEol","set collaborator",
-"PoolEntry","unclassified","setKeepalive","set collaborator",
-"PoolEntry","unclassified","createProxyConnection","property wrapper",
-"PoolEntry","unclassified","resetConnectionState","command",
-"PoolEntry","unclassified","getPoolName","property non-void-command",
-"PoolEntry","unclassified","isMarkedEvicted","get",
-"PoolEntry","unclassified","markEvicted","set",
-"PoolEntry","unclassified","evict","command",
-"PoolEntry","unclassified","getMillisSinceBorrowed","property wrapper",
-"PoolEntry","unclassified","getPoolBase","get collaborator",
-"PoolEntry","unclassified","toString","property non-void-command collaborator",
-"PoolEntry","unclassified","getState","property non-void-command",
-"PoolEntry","unclassified","compareAndSet","predicate non-void-command",
-"PoolEntry","unclassified","setState","command",
-"PoolEntry","unclassified","close","property non-void-command collaborator",
-"PoolEntry","unclassified","stateToString","property",
-"CodahaleMetricsTrackerFactory","small-class","CodahaleMetricsTrackerFactory","constructor",
-"CodahaleMetricsTrackerFactory","small-class","getRegistry","get collaborator",
-"CodahaleMetricsTrackerFactory","small-class","create","property factory collaborator",
-"PoolBase","boundary","PoolBase","constructor",
-"PoolBase","boundary","toString","get",
-"PoolBase","boundary","quietlyCloseConnection","command",
-"PoolBase","boundary","isConnectionDead","predicate non-void-command collaborator",
-"PoolBase","boundary","getLastConnectionFailure","property non-void-command collaborator",
-"PoolBase","boundary","getUnwrappedDataSource","get collaborator",
-"PoolBase","boundary","newPoolEntry","property non-void-command factory collaborator",
-"PoolBase","boundary","resetConnectionState","command",
-"PoolBase","boundary","shutdownNetworkTimeoutExecutor","wrapper",
-"PoolBase","boundary","getLoginTimeout","property non-void-command",
-"PoolBase","boundary","handleMBeans","command collaborator",
-"PoolBase","boundary","initializeDataSource","command collaborator",
-"PoolBase","boundary","newConnection","property non-void-command collaborator",
-"PoolBase","boundary","setupConnection","command collaborator",
-"PoolBase","boundary","checkDriverSupport","command collaborator",
-"PoolBase","boundary","checkValidationSupport","command collaborator",
-"PoolBase","boundary","checkDefaultIsolation","command collaborator",
-"PoolBase","boundary","setQueryTimeout","set",
-"PoolBase","boundary","getAndSetNetworkTimeout","property non-void-command collaborator",
-"PoolBase","boundary","setNetworkTimeout","controller",
-"PoolBase","boundary","executeSql","controller",
-"PoolBase","boundary","createNetworkTimeoutExecutor","set collaborator",
-"PoolBase","boundary","setLoginTimeout","command collaborator",
-"PoolBase","boundary","stringFromResetBits","property controller",
-"HikariConfig","unclassified","HikariConfig","constructor",
-"HikariConfig","unclassified","HikariConfig","constructor",
-"HikariConfig","unclassified","HikariConfig","constructor",
-"HikariConfig","unclassified","getCatalog","get",
-"HikariConfig","unclassified","setCatalog","set",
-"HikariConfig","unclassified","getConnectionTimeout","get",
-"HikariConfig","unclassified","setConnectionTimeout","set",
-"HikariConfig","unclassified","getIdleTimeout","get",
-"HikariConfig","unclassified","setIdleTimeout","set",
-"HikariConfig","unclassified","getLeakDetectionThreshold","get",
-"HikariConfig","unclassified","setLeakDetectionThreshold","set",
-"HikariConfig","unclassified","getMaxLifetime","get",
-"HikariConfig","unclassified","setMaxLifetime","set",
-"HikariConfig","unclassified","getMaximumPoolSize","get",
-"HikariConfig","unclassified","setMaximumPoolSize","set",
-"HikariConfig","unclassified","getMinimumIdle","get",
-"HikariConfig","unclassified","setMinimumIdle","set",
-"HikariConfig","unclassified","getPassword","get",
-"HikariConfig","unclassified","setPassword","set",
-"HikariConfig","unclassified","getUsername","get",
-"HikariConfig","unclassified","setUsername","set",
-"HikariConfig","unclassified","getValidationTimeout","get",
-"HikariConfig","unclassified","setValidationTimeout","set",
-"HikariConfig","unclassified","getConnectionTestQuery","get",
-"HikariConfig","unclassified","setConnectionTestQuery","set",
-"HikariConfig","unclassified","getConnectionInitSql","get",
-"HikariConfig","unclassified","setConnectionInitSql","set",
-"HikariConfig","unclassified","getDataSource","get collaborator",
-"HikariConfig","unclassified","setDataSource","set collaborator",
-"HikariConfig","unclassified","getDataSourceClassName","get",
-"HikariConfig","unclassified","setDataSourceClassName","set",
-"HikariConfig","unclassified","addDataSourceProperty","command collaborator",
-"HikariConfig","unclassified","getDataSourceJNDI","get",
-"HikariConfig","unclassified","setDataSourceJNDI","set",
-"HikariConfig","unclassified","getDataSourceProperties","get collaborator",
-"HikariConfig","unclassified","setDataSourceProperties","command collaborator",
-"HikariConfig","unclassified","getDriverClassName","get",
-"HikariConfig","unclassified","setDriverClassName","command collaborator",
-"HikariConfig","unclassified","getJdbcUrl","get",
-"HikariConfig","unclassified","setJdbcUrl","set",
-"HikariConfig","unclassified","isAutoCommit","get",
-"HikariConfig","unclassified","setAutoCommit","set",
-"HikariConfig","unclassified","isAllowPoolSuspension","get",
-"HikariConfig","unclassified","setAllowPoolSuspension","set",
-"HikariConfig","unclassified","getInitializationFailTimeout","get",
-"HikariConfig","unclassified","setInitializationFailTimeout","set",
-"HikariConfig","unclassified","isIsolateInternalQueries","get",
-"HikariConfig","unclassified","setIsolateInternalQueries","set",
-"HikariConfig","unclassified","getMetricsTrackerFactory","get collaborator",
-"HikariConfig","unclassified","setMetricsTrackerFactory","set collaborator",
-"HikariConfig","unclassified","getMetricRegistry","get collaborator",
-"HikariConfig","unclassified","setMetricRegistry","set collaborator",
-"HikariConfig","unclassified","getHealthCheckRegistry","get collaborator",
-"HikariConfig","unclassified","setHealthCheckRegistry","command collaborator",
-"HikariConfig","unclassified","getHealthCheckProperties","get collaborator",
-"HikariConfig","unclassified","setHealthCheckProperties","command collaborator",
-"HikariConfig","unclassified","addHealthCheckProperty","command",
-"HikariConfig","unclassified","getKeepaliveTime","get",
-"HikariConfig","unclassified","setKeepaliveTime","set",
-"HikariConfig","unclassified","isReadOnly","get",
-"HikariConfig","unclassified","setReadOnly","set",
-"HikariConfig","unclassified","isRegisterMbeans","get",
-"HikariConfig","unclassified","setRegisterMbeans","set",
-"HikariConfig","unclassified","getPoolName","get",
-"HikariConfig","unclassified","setPoolName","set",
-"HikariConfig","unclassified","getScheduledExecutor","get collaborator",
-"HikariConfig","unclassified","setScheduledExecutor","set collaborator",
-"HikariConfig","unclassified","getTransactionIsolation","get",
-"HikariConfig","unclassified","getSchema","get",
-"HikariConfig","unclassified","setSchema","set",
-"HikariConfig","unclassified","getExceptionOverrideClassName","get",
-"HikariConfig","unclassified","setExceptionOverrideClassName","command collaborator",
-"HikariConfig","unclassified","setTransactionIsolation","set",
-"HikariConfig","unclassified","getThreadFactory","get collaborator",
-"HikariConfig","unclassified","setThreadFactory","set collaborator",
-"HikariConfig","unclassified","seal","set",
-"HikariConfig","unclassified","copyStateTo","void-accessor controller",
-"HikariConfig","unclassified","attemptFromContextLoader","property non-void-command collaborator",
-"HikariConfig","unclassified","validate","command",
-"HikariConfig","unclassified","validateNumerics","command",
-"HikariConfig","unclassified","checkIfSealed","unclassified",
-"HikariConfig","unclassified","logConfiguration","command collaborator",
-"HikariConfig","unclassified","loadProperties","command collaborator",
-"HikariConfig","unclassified","generatePoolName","property non-void-command collaborator",
-"HikariConfig","unclassified","getObjectOrPerformJndiLookup","controller stateless",
-"TestJavassistCodegen","small-class","testCodegen","command collaborator",
-"TestJavassistCodegen","small-class","getMethod","controller stateless",
-"HikariJNDIFactory","controller","getObjectInstance","property non-void-command collaborator",
-"HikariJNDIFactory","controller","createDataSource","property non-void-command factory collaborator",
-"HikariJNDIFactory","controller","lookupJndiDataSource","factory controller stateless",
-"CodahaleHealthChecker","empty","CodahaleHealthChecker","constructor",
-"PrometheusMetricsTracker","commander","PrometheusMetricsTracker","constructor",
-"PrometheusMetricsTracker","commander","registerMetrics","command collaborator",
-"PrometheusMetricsTracker","commander","recordConnectionAcquiredNanos","command",
-"PrometheusMetricsTracker","commander","recordConnectionUsageMillis","command",
-"PrometheusMetricsTracker","commander","recordConnectionCreatedMillis","command",
-"PrometheusMetricsTracker","commander","recordConnectionTimeout","command",
-"PrometheusMetricsTracker","commander","close","command",
-"StubStatement","unclassified","StubStatement","constructor",
-"StubStatement","unclassified","unwrap","property non-void-command collaborator",
-"StubStatement","unclassified","isWrapperFor","predicate non-void-command collaborator",
-"StubStatement","unclassified","executeQuery","non-void-command factory collaborator",
-"StubStatement","unclassified","executeUpdate","property non-void-command",
-"StubStatement","unclassified","close","set",
-"StubStatement","unclassified","getMaxFieldSize","property non-void-command",
-"StubStatement","unclassified","setMaxFieldSize","command",
-"StubStatement","unclassified","getMaxRows","property non-void-command",
-"StubStatement","unclassified","setMaxRows","command",
-"StubStatement","unclassified","setEscapeProcessing","command",
-"StubStatement","unclassified","getQueryTimeout","property non-void-command",
-"StubStatement","unclassified","setQueryTimeout","command",
-"StubStatement","unclassified","cancel","command",
-"StubStatement","unclassified","getWarnings","property non-void-command collaborator",
-"StubStatement","unclassified","clearWarnings","command",
-"StubStatement","unclassified","setCursorName","command",
-"StubStatement","unclassified","execute","predicate non-void-command",
-"StubStatement","unclassified","getResultSet","property non-void-command factory collaborator",
-"StubStatement","unclassified","getUpdateCount","property non-void-command",
-"StubStatement","unclassified","getMoreResults","predicate non-void-command",
-"StubStatement","unclassified","setFetchDirection","command",
-"StubStatement","unclassified","getFetchDirection","property non-void-command",
-"StubStatement","unclassified","setFetchSize","command",
-"StubStatement","unclassified","getFetchSize","property non-void-command",
-"StubStatement","unclassified","getResultSetConcurrency","property non-void-command",
-"StubStatement","unclassified","getResultSetType","property non-void-command",
-"StubStatement","unclassified","addBatch","command",
-"StubStatement","unclassified","clearBatch","command",
-"StubStatement","unclassified","executeBatch","property non-void-command",
-"StubStatement","unclassified","getConnection","get non-void-command collaborator",
-"StubStatement","unclassified","getMoreResults","predicate non-void-command",
-"StubStatement","unclassified","getGeneratedKeys","property non-void-command factory collaborator",
-"StubStatement","unclassified","executeUpdate","property non-void-command",
-"StubStatement","unclassified","executeUpdate","property non-void-command",
-"StubStatement","unclassified","executeUpdate","property non-void-command",
-"StubStatement","unclassified","execute","predicate non-void-command",
-"StubStatement","unclassified","execute","predicate non-void-command",
-"StubStatement","unclassified","execute","predicate non-void-command",
-"StubStatement","unclassified","getResultSetHoldability","property non-void-command",
-"StubStatement","unclassified","isClosed","get",
-"StubStatement","unclassified","setPoolable","command",
-"StubStatement","unclassified","isPoolable","predicate non-void-command",
-"StubStatement","unclassified","closeOnCompletion","command",
-"StubStatement","unclassified","isCloseOnCompletion","predicate non-void-command",
-"StubStatement","unclassified","checkClosed","unclassified",
-"ProxyDatabaseMetaData","entity boundary","ProxyDatabaseMetaData","constructor",
-"ProxyDatabaseMetaData","entity boundary","checkException","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","toString","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getConnection","get collaborator",
-"ProxyDatabaseMetaData","entity boundary","getProcedures","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getProcedureColumns","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getTables","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getSchemas","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getCatalogs","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getTableTypes","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getColumns","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getColumnPrivileges","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getTablePrivileges","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getBestRowIdentifier","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getVersionColumns","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getPrimaryKeys","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getImportedKeys","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getExportedKeys","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getCrossReference","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getTypeInfo","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getIndexInfo","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getUDTs","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getSuperTypes","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getSuperTables","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getAttributes","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getSchemas","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getClientInfoProperties","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getFunctions","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getFunctionColumns","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","getPseudoColumns","property non-void-command collaborator",
-"ProxyDatabaseMetaData","entity boundary","unwrap","property non-void-command collaborator",
-"StubConnection","data-provider","StubConnection","constructor",
-"StubConnection","data-provider","StubConnection","constructor",
-"StubConnection","data-provider","unwrap","property controller",
-"StubConnection","data-provider","isWrapperFor","predicate collaborator",
-"StubConnection","data-provider","prepareCall","property collaborator",
-"StubConnection","data-provider","nativeSQL","incidental",
-"StubConnection","data-provider","setAutoCommit","set",
-"StubConnection","data-provider","getAutoCommit","get",
-"StubConnection","data-provider","commit","command",
-"StubConnection","data-provider","refreshConnectionWaitTimeout","command",
-"StubConnection","data-provider","rollback","empty",
-"StubConnection","data-provider","close","empty",
-"StubConnection","data-provider","isClosed","get",
-"StubConnection","data-provider","getMetaData","collaborator incidental",
-"StubConnection","data-provider","setReadOnly","unclassified",
-"StubConnection","data-provider","isReadOnly","predicate",
-"StubConnection","data-provider","setCatalog","set",
-"StubConnection","data-provider","getCatalog","get",
-"StubConnection","data-provider","setTransactionIsolation","set",
-"StubConnection","data-provider","getTransactionIsolation","get",
-"StubConnection","data-provider","getWarnings","collaborator incidental",
-"StubConnection","data-provider","clearWarnings","unclassified",
-"StubConnection","data-provider","createStatement","property collaborator",
-"StubConnection","data-provider","prepareStatement","property factory collaborator",
-"StubConnection","data-provider","prepareCall","property collaborator",
-"StubConnection","data-provider","getTypeMap","collaborator incidental",
-"StubConnection","data-provider","setTypeMap","empty",
-"StubConnection","data-provider","setHoldability","empty",
-"StubConnection","data-provider","getHoldability","property",
-"StubConnection","data-provider","setSavepoint","collaborator incidental",
-"StubConnection","data-provider","setSavepoint","collaborator incidental",
-"StubConnection","data-provider","rollback","empty",
-"StubConnection","data-provider","releaseSavepoint","empty",
-"StubConnection","data-provider","createStatement","property collaborator",
-"StubConnection","data-provider","prepareStatement","property factory collaborator",
-"StubConnection","data-provider","prepareCall","property collaborator",
-"StubConnection","data-provider","prepareStatement","property factory collaborator",
-"StubConnection","data-provider","prepareStatement","property factory collaborator",
-"StubConnection","data-provider","prepareStatement","property factory collaborator",
-"StubConnection","data-provider","createClob","collaborator incidental",
-"StubConnection","data-provider","createBlob","collaborator incidental",
-"StubConnection","data-provider","createNClob","collaborator incidental",
-"StubConnection","data-provider","createSQLXML","collaborator incidental",
-"StubConnection","data-provider","isValid","predicate non-void-command",
-"StubConnection","data-provider","setClientInfo","empty",
-"StubConnection","data-provider","setClientInfo","empty",
-"StubConnection","data-provider","getClientInfo","incidental",
-"StubConnection","data-provider","getClientInfo","collaborator incidental",
-"StubConnection","data-provider","createArrayOf","collaborator incidental",
-"StubConnection","data-provider","createStruct","collaborator incidental",
-"StubConnection","data-provider","setSchema","empty",
-"StubConnection","data-provider","getSchema","incidental",
-"StubConnection","data-provider","abort","collaborator stateless",
-"StubConnection","data-provider","setNetworkTimeout","command",
-"StubConnection","data-provider","getNetworkTimeout","property",
-"HikariDataSource","boundary","HikariDataSource","constructor",
-"HikariDataSource","boundary","HikariDataSource","constructor",
-"HikariDataSource","boundary","getConnection","property non-void-command collaborator",
-"HikariDataSource","boundary","getConnection","collaborator stateless",
-"HikariDataSource","boundary","getLogWriter","property non-void-command collaborator",
-"HikariDataSource","boundary","setLogWriter","command collaborator",
-"HikariDataSource","boundary","setLoginTimeout","command collaborator",
-"HikariDataSource","boundary","getLoginTimeout","property non-void-command collaborator",
-"HikariDataSource","boundary","getParentLogger","collaborator stateless",
-"HikariDataSource","boundary","unwrap","property controller",
-"HikariDataSource","boundary","isWrapperFor","predicate controller",
-"HikariDataSource","boundary","setMetricRegistry","command collaborator",
-"HikariDataSource","boundary","setMetricsTrackerFactory","command collaborator",
-"HikariDataSource","boundary","setHealthCheckRegistry","command collaborator",
-"HikariDataSource","boundary","isRunning","predicate",
-"HikariDataSource","boundary","getHikariPoolMXBean","get collaborator",
-"HikariDataSource","boundary","getHikariConfigMXBean","get collaborator",
-"HikariDataSource","boundary","evictConnection","command collaborator",
-"HikariDataSource","boundary","close","command collaborator",
-"HikariDataSource","boundary","isClosed","predicate non-void-command",
-"HikariDataSource","boundary","toString","property",
-"ProxyCallableStatement","empty","ProxyCallableStatement","constructor",
-"HikariConnectionProvider","boundary","HikariConnectionProvider","constructor",
-"HikariConnectionProvider","boundary","configure","command",
-"HikariConnectionProvider","boundary","getConnection","property non-void-command collaborator",
-"HikariConnectionProvider","boundary","closeConnection","controller stateless",
-"HikariConnectionProvider","boundary","supportsAggressiveRelease","incidental",
-"HikariConnectionProvider","boundary","isUnwrappableAs","wrapper stateless",
-"HikariConnectionProvider","boundary","unwrap","get property wrapper",
-"HikariConnectionProvider","boundary","stop","command",
-"PostgresTest","unclassified","beforeTest","set",
-"PostgresTest","unclassified","afterTest","command",
-"PostgresTest","unclassified","testCase1","controller",
-"PostgresTest","unclassified","testCase2","controller",
-"PostgresTest","unclassified","testCase3","controller",
-"PostgresTest","unclassified","testCase4","controller",
-"PostgresTest","unclassified","before","incidental",
-"IMetricsTracker","degenerate","recordConnectionCreatedMillis","empty",
-"IMetricsTracker","degenerate","recordConnectionAcquiredNanos","empty",
-"IMetricsTracker","degenerate","recordConnectionUsageMillis","empty",
-"IMetricsTracker","degenerate","recordConnectionTimeout","empty",
-"IMetricsTracker","degenerate","close","empty",
-"PrometheusHistogramMetricsTrackerFactoryTest","boundary","registersToProvidedCollectorRegistry","command collaborator",
-"PrometheusHistogramMetricsTrackerFactoryTest","boundary","registersToDefaultCollectorRegistry","command collaborator",
-"PrometheusHistogramMetricsTrackerFactoryTest","boundary","clearCollectorRegistry","wrapper stateless",
-"PrometheusHistogramMetricsTrackerFactoryTest","boundary","assertHikariMetricsArePresent","command collaborator",
-"PrometheusHistogramMetricsTrackerFactoryTest","boundary","assertHikariMetricsAreNotPresent","command collaborator",
-"PrometheusHistogramMetricsTrackerFactoryTest","boundary","toMetricNames","controller stateless",
-"PrometheusHistogramMetricsTrackerFactoryTest","boundary","poolStats","factory collaborator incidental",
-"PrometheusMetricsTrackerFactoryTest","commander boundary","clearCollectorRegistry","wrapper stateless",
-"PrometheusMetricsTrackerFactoryTest","commander boundary","registersToProvidedCollectorRegistry","command collaborator",
-"PrometheusMetricsTrackerFactoryTest","commander boundary","registersToDefaultCollectorRegistry","command collaborator",
-"PrometheusMetricsTrackerFactoryTest","commander boundary","assertHikariMetricsArePresent","command collaborator",
-"PrometheusMetricsTrackerFactoryTest","commander boundary","assertHikariMetricsAreNotPresent","command collaborator",
-"PrometheusMetricsTrackerFactoryTest","commander boundary","toMetricNames","controller stateless",
-"PrometheusHistogramMetricsTracker","commander","PrometheusHistogramMetricsTracker","constructor",
-"PrometheusHistogramMetricsTracker","commander","registerMetrics","command collaborator",
-"PrometheusHistogramMetricsTracker","commander","recordConnectionAcquiredNanos","command",
-"PrometheusHistogramMetricsTracker","commander","recordConnectionUsageMillis","command",
-"PrometheusHistogramMetricsTracker","commander","recordConnectionCreatedMillis","command",
-"PrometheusHistogramMetricsTracker","commander","recordConnectionTimeout","command",
-"PrometheusHistogramMetricsTracker","commander","close","command",
-"PrometheusHistogramMetricsTrackerFactory","entity small-class","PrometheusHistogramMetricsTrackerFactory","constructor",
-"PrometheusHistogramMetricsTrackerFactory","entity small-class","PrometheusHistogramMetricsTrackerFactory","constructor",
-"PrometheusHistogramMetricsTrackerFactory","entity small-class","create","property non-void-command factory collaborator",
-"PrometheusHistogramMetricsTrackerFactory","entity small-class","registerCollector","command collaborator",
-"StubBaseConnection","factory controller small-class","createStatement","property factory collaborator",
-"StubBaseConnection","factory controller small-class","prepareStatement","property factory collaborator",
-"ProxyConnection","unclassified","ProxyConnection","constructor",
-"ProxyConnection","unclassified","toString","property non-void-command",
-"ProxyConnection","unclassified","getAutoCommitState","get",
-"ProxyConnection","unclassified","getCatalogState","get",
-"ProxyConnection","unclassified","getSchemaState","get",
-"ProxyConnection","unclassified","getTransactionIsolationState","get",
-"ProxyConnection","unclassified","getReadOnlyState","get",
-"ProxyConnection","unclassified","getNetworkTimeoutState","get",
-"ProxyConnection","unclassified","getPoolEntry","get collaborator",
-"ProxyConnection","unclassified","checkException","property non-void-command collaborator",
-"ProxyConnection","unclassified","untrackStatement","command collaborator",
-"ProxyConnection","unclassified","markCommitStateDirty","set",
-"ProxyConnection","unclassified","cancelLeakTask","command",
-"ProxyConnection","unclassified","trackStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","closeStatements","command",
-"ProxyConnection","unclassified","close","command",
-"ProxyConnection","unclassified","isClosed","predicate",
-"ProxyConnection","unclassified","createStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","createStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","createStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","prepareCall","property non-void-command collaborator",
-"ProxyConnection","unclassified","prepareCall","property non-void-command collaborator",
-"ProxyConnection","unclassified","prepareCall","property non-void-command collaborator",
-"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator",
-"ProxyConnection","unclassified","getMetaData","property non-void-command collaborator",
-"ProxyConnection","unclassified","commit","set",
-"ProxyConnection","unclassified","rollback","set",
-"ProxyConnection","unclassified","rollback","set collaborator",
-"ProxyConnection","unclassified","setAutoCommit","command",
-"ProxyConnection","unclassified","setReadOnly","command",
-"ProxyConnection","unclassified","setTransactionIsolation","command",
-"ProxyConnection","unclassified","setCatalog","command",
-"ProxyConnection","unclassified","setNetworkTimeout","command",
-"ProxyConnection","unclassified","setSchema","command",
-"ProxyConnection","unclassified","isWrapperFor","predicate non-void-command collaborator",
-"ProxyConnection","unclassified","unwrap","property non-void-command collaborator",
-"ProxyLeakTaskFactory","unclassified","ProxyLeakTaskFactory","constructor",
-"ProxyLeakTaskFactory","unclassified","schedule","property non-void-command collaborator",
-"ProxyLeakTaskFactory","unclassified","updateLeakDetectionThreshold","set",
-"ProxyLeakTaskFactory","unclassified","scheduleNewTask","factory controller",
-"TestObject","data-class","setTestObject","set",
-"TestObject","data-class","setString","set",
-"TestObject","data-class","getTestObject","get",
-"TestObject","data-class","getString","get",
-"TestObject","data-class","getShortRaw","get",
-"TestObject","data-class","setShortRaw","set",
-"TestObject","data-class","setCharArray","set",
-"TestObject","data-class","getCharArray","get",
-"ProxyPreparedStatement","unclassified","ProxyPreparedStatement","constructor",
-"ProxyPreparedStatement","unclassified","execute","predicate non-void-command",
-"ProxyPreparedStatement","unclassified","executeQuery","property non-void-command collaborator",
-"ProxyPreparedStatement","unclassified","executeUpdate","property non-void-command",
-"ProxyPreparedStatement","unclassified","executeLargeUpdate","property non-void-command",
-"MicrometerMetricsTracker","commander","MicrometerMetricsTracker","constructor",
-"MicrometerMetricsTracker","commander","recordConnectionAcquiredNanos","command",
-"MicrometerMetricsTracker","commander","recordConnectionUsageMillis","command",
-"MicrometerMetricsTracker","commander","recordConnectionTimeout","command",
-"MicrometerMetricsTracker","commander","recordConnectionCreatedMillis","command",
-"MicrometerMetricsTracker","commander","close","command",
-"ProxyResultSet","unclassified","ProxyResultSet","constructor",
-"ProxyResultSet","unclassified","checkException","property non-void-command collaborator",
-"ProxyResultSet","unclassified","toString","property non-void-command",
-"ProxyResultSet","unclassified","getStatement","get collaborator",
-"ProxyResultSet","unclassified","updateRow","command",
-"ProxyResultSet","unclassified","insertRow","command",
-"ProxyResultSet","unclassified","deleteRow","command",
-"ProxyResultSet","unclassified","unwrap","property non-void-command collaborator",
-"ProxyStatement","unclassified","ProxyStatement","constructor",
-"ProxyStatement","unclassified","checkException","property non-void-command collaborator",
-"ProxyStatement","unclassified","toString","property non-void-command collaborator",
-"ProxyStatement","unclassified","close","command",
-"ProxyStatement","unclassified","getConnection","get collaborator",
-"ProxyStatement","unclassified","execute","predicate non-void-command",
-"ProxyStatement","unclassified","execute","predicate non-void-command",
-"ProxyStatement","unclassified","executeQuery","property non-void-command collaborator",
-"ProxyStatement","unclassified","executeUpdate","property non-void-command",
-"ProxyStatement","unclassified","executeBatch","property non-void-command",
-"ProxyStatement","unclassified","executeUpdate","property non-void-command",
-"ProxyStatement","unclassified","executeUpdate","property non-void-command",
-"ProxyStatement","unclassified","executeUpdate","property non-void-command",
-"ProxyStatement","unclassified","execute","predicate non-void-command",
-"ProxyStatement","unclassified","execute","predicate non-void-command",
-"ProxyStatement","unclassified","executeLargeBatch","property non-void-command",
-"ProxyStatement","unclassified","executeLargeUpdate","property non-void-command",
-"ProxyStatement","unclassified","executeLargeUpdate","property non-void-command",
-"ProxyStatement","unclassified","executeLargeUpdate","property non-void-command",
-"ProxyStatement","unclassified","executeLargeUpdate","property non-void-command",
-"ProxyStatement","unclassified","getResultSet","get set collaborator",
-"ProxyStatement","unclassified","getGeneratedKeys","get set collaborator",
-"ProxyStatement","unclassified","unwrap","property non-void-command collaborator",
-"ClockSource","controller small-class","elapsedDisplayString0","property controller",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","ConcurrentBag","constructor",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","borrow","property non-void-command collaborator",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","requite","command collaborator",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","add","command collaborator",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","remove","predicate non-void-command collaborator",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","close","set",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","values","property non-void-command collaborator",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","values","property non-void-command collaborator",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","reserve","controller stateless",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","unreserve","command collaborator",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","getWaitingThreadCount","property non-void-command",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","getCount","property controller",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","getStateCounts","property non-void-command collaborator",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","size","property non-void-command",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","dumpState","command",
-"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","useWeakThreadLocals","wrapper stateless",
-"FastList<T>","entity boundary lazy-class degenerate","FastList","constructor",
-"FastList<T>","entity boundary lazy-class degenerate","FastList","constructor",
-"FastList<T>","entity boundary lazy-class degenerate","add","predicate non-void-command collaborator",
-"FastList<T>","entity boundary lazy-class degenerate","get","get collaborator",
-"FastList<T>","entity boundary lazy-class degenerate","removeLast","property non-void-command collaborator",
-"FastList<T>","entity boundary lazy-class degenerate","remove","predicate non-void-command collaborator",
-"FastList<T>","entity boundary lazy-class degenerate","clear","command collaborator",
-"FastList<T>","entity boundary lazy-class degenerate","size","get",
-"FastList<T>","entity boundary lazy-class degenerate","isEmpty","predicate",
-"FastList<T>","entity boundary lazy-class degenerate","set","property set collaborator",
-"FastList<T>","entity boundary lazy-class degenerate","remove","property non-void-command collaborator",
-"FastList<T>","entity boundary lazy-class degenerate","contains","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","iterator","get property factory collaborator",
-"FastList<T>","entity boundary lazy-class degenerate","toArray","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","toArray","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","containsAll","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","addAll","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","addAll","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","removeAll","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","retainAll","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","add","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","indexOf","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","lastIndexOf","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","listIterator","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","listIterator","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","subList","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","clone","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","forEach","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","spliterator","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","removeIf","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","replaceAll","collaborator stateless",
-"FastList<T>","entity boundary lazy-class degenerate","sort","collaborator stateless",
-"PropertyElf","empty","PropertyElf","constructor",
-"TestFastList","pure-controller degenerate","testAddRemove","controller stateless",
-"TestFastList","pure-controller degenerate","testAddRemoveTail","controller stateless",
-"TestFastList","pure-controller degenerate","testOverflow","controller stateless",
-"TestFastList","pure-controller degenerate","testIterator","controller stateless",
-"TestFastList","pure-controller degenerate","testClear","controller stateless",
-"TestFastList","pure-controller degenerate","testRemoveLast","controller stateless",
-"TestFastList","pure-controller degenerate","testPolyMorphism1","controller stateless",
-"SuspendResumeLock","commander","SuspendResumeLock","constructor",
-"SuspendResumeLock","commander","SuspendResumeLock","constructor",
-"SuspendResumeLock","commander","acquire","command",
-"SuspendResumeLock","commander","release","command",
-"SuspendResumeLock","commander","suspend","command",
-"SuspendResumeLock","commander","resume","command",
-"UtilityElf","empty","UtilityElf","constructor",
-"TestConnectionCloseBlocking","commander data-class small-class","testConnectionCloseBlocking","set",
-"RampUpDown","pure-controller degenerate small-class","rampUpDownTest","controller stateless",
-"CodaHaleMetricsTracker","unclassified","CodaHaleMetricsTracker","constructor",
-"CodaHaleMetricsTracker","unclassified","close","command",
-"CodaHaleMetricsTracker","unclassified","recordConnectionAcquiredNanos","command",
-"CodaHaleMetricsTracker","unclassified","recordConnectionUsageMillis","command",
-"CodaHaleMetricsTracker","unclassified","recordConnectionTimeout","command",
-"CodaHaleMetricsTracker","unclassified","recordConnectionCreatedMillis","command",
-"CodaHaleMetricsTracker","unclassified","getConnectionAcquisitionTimer","get collaborator",
-"CodaHaleMetricsTracker","unclassified","getConnectionDurationHistogram","get collaborator",
-"CodaHaleMetricsTracker","unclassified","getConnectionCreationHistogram","get collaborator",
-"HikariConfigTest","commander","setup","wrapper",
-"HikariConfigTest","commander","tearDown","command",
-"HikariConfigTest","commander","testJdbcUrlLogging","command",
-"HikariConfigTest","commander","testJdbcUrl","command collaborator",
-"BasicPoolTest","pure-controller degenerate","setup","controller stateless",
-"BasicPoolTest","pure-controller degenerate","testIdleTimeout","controller stateless",
-"BasicPoolTest","pure-controller degenerate","testIdleTimeout2","controller stateless",
-"CodaHaleMetricsTrackerTest","commander small-class","setup","set",
-"CodaHaleMetricsTrackerTest","commander small-class","close","command",
-"PrometheusMetricsTrackerTest","commander","setupCollectorRegistry","command",
-"PrometheusMetricsTrackerTest","commander","recordConnectionTimeout","command",
-"PrometheusMetricsTrackerTest","commander","connectionAcquisitionMetrics","command",
-"PrometheusMetricsTrackerTest","commander","connectionUsageMetrics","command",
-"PrometheusMetricsTrackerTest","commander","connectionCreationMetrics","command",
-"PrometheusMetricsTrackerTest","commander","testMultiplePoolNameWithOneCollectorRegistry","command",
-"PrometheusMetricsTrackerTest","commander","testMultiplePoolNameWithDifferentCollectorRegistries","command",
-"PrometheusMetricsTrackerTest","commander","testMetricsRemovedAfterShutDown","command",
-"PrometheusMetricsTrackerTest","commander","testCloseMethod","command collaborator",
-"PrometheusMetricsTrackerTest","commander","checkSummaryMetricFamily","command",
-"ProxyLeakTask","commander","ProxyLeakTask","constructor",
-"ProxyLeakTask","commander","ProxyLeakTask","constructor",
-"ProxyLeakTask","commander","schedule","set",
-"ProxyLeakTask","commander","run","command collaborator",
-"ProxyLeakTask","commander","cancel","command",
-"MicrometerMetricsTrackerTest","commander small-class","setup","set",
-"MicrometerMetricsTrackerTest","commander small-class","close","command",
-"HouseKeeperCleanupTest","commander boundary","before","command collaborator",
-"HouseKeeperCleanupTest","commander boundary","testHouseKeeperCleanupWithCustomExecutor","command collaborator",
-"HouseKeeperCleanupTest","commander boundary","after","command",
-"HikariCPCollectorTest","entity commander boundary","setupCollectorRegistry","set",
-"HikariCPCollectorTest","entity commander boundary","noConnection","command collaborator",
-"HikariCPCollectorTest","entity commander boundary","noConnectionWithoutPoolName","command",
-"HikariCPCollectorTest","entity commander boundary","connection1","command collaborator",
-"HikariCPCollectorTest","entity commander boundary","connectionClosed","command collaborator",
-"HikariCPCollectorTest","entity commander boundary","poolStatsRemovedAfterShutDown","command collaborator",
-"HikariCPCollectorTest","entity commander boundary","testHikariCPCollectorGaugesMetricsInitialization","command collaborator",
-"HikariCPCollectorTest","entity commander boundary","getValue","property non-void-command",
-"HikariCPCollectorTest","entity commander boundary","poolStatsWithPredefinedValues","factory collaborator incidental",
-"PrometheusHistogramMetricsTrackerTest","commander","setupCollectorRegistry","command",
-"PrometheusHistogramMetricsTrackerTest","commander","recordConnectionTimeout","command",
-"PrometheusHistogramMetricsTrackerTest","commander","connectionAcquisitionMetrics","command",
-"PrometheusHistogramMetricsTrackerTest","commander","connectionUsageMetrics","command",
-"PrometheusHistogramMetricsTrackerTest","commander","connectionCreationMetrics","command",
-"PrometheusHistogramMetricsTrackerTest","commander","testMultiplePoolNameWithOneCollectorRegistry","command",
-"PrometheusHistogramMetricsTrackerTest","commander","testMultiplePoolNameWithDifferentCollectorRegistries","command",
-"PrometheusHistogramMetricsTrackerTest","commander","checkSummaryMetricFamily","command",
-"MockDataSource","entity boundary degenerate","getConnection","wrapper stateless",
-"MockDataSource","entity boundary degenerate","getConnection","property non-void-command collaborator",
-"MockDataSource","entity boundary degenerate","getLogWriter","collaborator incidental",
-"MockDataSource","entity boundary degenerate","setLogWriter","empty",
-"MockDataSource","entity boundary degenerate","setLoginTimeout","empty",
-"MockDataSource","entity boundary degenerate","getLoginTimeout","incidental",
-"MockDataSource","entity boundary degenerate","getParentLogger","collaborator incidental",
-"MockDataSource","entity boundary degenerate","unwrap","collaborator incidental",
-"MockDataSource","entity boundary degenerate","isWrapperFor","collaborator incidental",
-"StubDataSource","unclassified","getUser","get",
-"StubDataSource","unclassified","setUser","set",
-"StubDataSource","unclassified","getPassword","get",
-"StubDataSource","unclassified","setPassword","set",
-"StubDataSource","unclassified","getWaitTimeout","get",
-"StubDataSource","unclassified","setWaitTimeout","set",
-"StubDataSource","unclassified","setURL","empty",
-"StubDataSource","unclassified","getLogWriter","get collaborator",
-"StubDataSource","unclassified","setLogWriter","set collaborator",
-"StubDataSource","unclassified","setLoginTimeout","set",
-"StubDataSource","unclassified","getLoginTimeout","get",
-"StubDataSource","unclassified","getParentLogger","collaborator incidental",
-"StubDataSource","unclassified","unwrap","property controller",
-"StubDataSource","unclassified","isWrapperFor","collaborator incidental",
-"StubDataSource","unclassified","getConnection","property factory wrapper",
-"StubDataSource","unclassified","getConnection","property factory collaborator",
-"StubDataSource","unclassified","setThrowException","set collaborator",
-"StubDataSource","unclassified","setConnectionAcquisitionTime","set",
-"StubDriver","boundary degenerate","connect","factory collaborator stateless",
-"StubDriver","boundary degenerate","acceptsURL","wrapper stateless",
-"StubDriver","boundary degenerate","getPropertyInfo","collaborator incidental",
-"StubDriver","boundary degenerate","getMajorVersion","incidental",
-"StubDriver","boundary degenerate","getMinorVersion","incidental",
-"StubDriver","boundary degenerate","jdbcCompliant","incidental",
-"StubDriver","boundary degenerate","getParentLogger","collaborator incidental",
-"StubPoolStats","degenerate small-class","StubPoolStats","constructor",
-"StubPoolStats","degenerate small-class","update","empty",
+"TomcatConcurrentBagLeakTest","commander boundary small-class","testConcurrentBagForLeaks","command collaborator"
+"TomcatConcurrentBagLeakTest","commander boundary small-class","testConcurrentBagForLeaks2","command collaborator"
+"PropertyElfTest","pure-controller degenerate small-class","setTargetFromProperties","controller stateless"
+"PropertyElfTest","pure-controller degenerate small-class","setTargetFromPropertiesNotAClass","controller stateless"
+"ClockSourceTest","pure-controller degenerate small-class","testClockSourceDisplay","controller stateless"
+"DriverDataSourceTest","small-class","testJdbcUrlLogging","command"
+"DriverDataSourceTest","small-class","testExceptionMessage","controller stateless"
+"UnwrapTest","pure-controller degenerate small-class","testUnwrapConnection","controller stateless"
+"UnwrapTest","pure-controller degenerate small-class","testUnwrapDataSource","controller stateless"
+"TestProxies","pure-controller degenerate","testProxyCreation","controller stateless"
+"TestProxies","pure-controller degenerate","testStatementProxy","controller stateless"
+"TestProxies","pure-controller degenerate","testStatementExceptions","controller stateless"
+"TestProxies","pure-controller degenerate","testOtherExceptions","controller stateless"
+"TestPropertySetter","unclassified","testProperty1","controller stateless"
+"TestPropertySetter","unclassified","testProperty2","command collaborator"
+"TestPropertySetter","unclassified","testObjectProperty","command collaborator"
+"TestPropertySetter","unclassified","testPropertyUpperCase","command collaborator"
+"TestPropertySetter","unclassified","testGetPropertyNames","controller stateless"
+"TestPropertySetter","unclassified","testSetNonExistantPropertyName","controller stateless"
+"TestMetrics","boundary degenerate","testMetricWait","controller stateless"
+"TestMetrics","boundary degenerate","testMetricUsage","controller stateless"
+"TestMetrics","boundary degenerate","testHealthChecks","controller stateless"
+"TestMetrics","boundary degenerate","testSetters1","wrapper stateless"
+"TestMetrics","boundary degenerate","testSetters2","wrapper stateless"
+"TestMetrics","boundary degenerate","testSetters3","wrapper stateless"
+"TestMetrics","boundary degenerate","testSetters4","wrapper stateless"
+"TestMetrics","boundary degenerate","testSetters5","wrapper stateless"
+"TestMetrics","boundary degenerate","testFakeMetricRegistryThrowsIllegalArgumentException","wrapper stateless"
+"TestMetrics","boundary degenerate","testMetricRegistrySubclassIsAllowed","command"
+"TestJNDI","pure-controller degenerate","testJndiLookup1","controller stateless"
+"TestJNDI","pure-controller degenerate","testJndiLookup2","controller stateless"
+"TestJNDI","pure-controller degenerate","testJndiLookup3","controller stateless"
+"TestJNDI","pure-controller degenerate","testJndiLookup4","controller stateless"
+"TestIsRunning","commander","testRunningNormally","command"
+"TestIsRunning","commander","testNoPool","wrapper stateless"
+"TestIsRunning","commander","testSuspendAndResume","command"
+"TestIsRunning","commander","testShutdown","command"
+"TestIsRunning","commander","basicConfig","controller stateless"
+"UtilityElfTest","boundary degenerate","shouldReturnValidTransactionIsolationLevel","wrapper stateless"
+"UtilityElfTest","boundary degenerate","shouldThrowWhenInvalidTransactionNameGiven","wrapper stateless"
+"UtilityElfTest","boundary degenerate","shouldReturnTransationIsolationLevelFromInteger","wrapper stateless"
+"UtilityElfTest","boundary degenerate","shouldThrowWhenInvalidTransactionIntegerGiven","wrapper stateless"
+"TestElf","empty","TestElf","constructor"
+"TestConnections","degenerate","before","wrapper stateless"
+"TestConnections","degenerate","after","wrapper stateless"
+"TestConnections","degenerate","testCreate","controller stateless"
+"TestConnections","degenerate","testMaxLifetime","controller stateless"
+"TestConnections","degenerate","testMaxLifetime2","controller stateless"
+"TestConnections","degenerate","testKeepalive","controller stateless"
+"TestConnections","degenerate","testKeepalive2","controller stateless"
+"TestConnections","degenerate","testDoubleClose","controller stateless"
+"TestConnections","degenerate","testEviction","controller stateless"
+"TestConnections","degenerate","testEviction2","controller stateless"
+"TestConnections","degenerate","testEviction3","controller stateless"
+"TestConnections","degenerate","testEvictAllRefill","controller stateless"
+"TestConnections","degenerate","testBackfill","controller stateless"
+"TestConnections","degenerate","testMaximumPoolLimit","controller stateless"
+"TestConnections","degenerate","testOldDriver","controller stateless"
+"TestConnections","degenerate","testSuspendResume","controller stateless"
+"TestConnections","degenerate","testSuspendResumeWithThrow","controller stateless"
+"TestConnections","degenerate","testInitializationFailure1","controller stateless"
+"TestConnections","degenerate","testInitializationFailure2","controller stateless"
+"TestConnections","degenerate","testInvalidConnectionTestQuery","controller stateless"
+"TestConnections","degenerate","testDataSourceRaisesErrorWhileInitializationTestQuery","controller stateless"
+"TestConnections","degenerate","testDataSourceRaisesErrorAfterInitializationTestQuery","controller stateless"
+"TestConnections","degenerate","testPopulationSlowAcquisition","controller stateless"
+"TestConnections","degenerate","testMinimumIdleZero","controller stateless"
+"TestConnectionTimeoutRetry","degenerate","testConnectionRetries","controller stateless"
+"TestConnectionTimeoutRetry","degenerate","testConnectionRetries2","controller stateless"
+"TestConnectionTimeoutRetry","degenerate","testConnectionRetries3","controller stateless"
+"TestConnectionTimeoutRetry","degenerate","testConnectionRetries5","controller stateless"
+"TestConnectionTimeoutRetry","degenerate","testConnectionIdleFill","controller stateless"
+"TestConnectionTimeoutRetry","degenerate","before","wrapper stateless"
+"TestConnectionTimeoutRetry","degenerate","after","wrapper stateless"
+"StatementTest","commander boundary","setup","set collaborator"
+"StatementTest","commander boundary","teardown","command"
+"StatementTest","commander boundary","testStatementClose","command collaborator"
+"StatementTest","commander boundary","testAutoStatementClose","command collaborator"
+"StatementTest","commander boundary","testStatementResultSetProxyClose","command collaborator"
+"StatementTest","commander boundary","testDoubleStatementClose","command"
+"StatementTest","commander boundary","testOutOfOrderStatementClose","command"
+"MiscTest","degenerate","testLogWriter","controller stateless"
+"MiscTest","degenerate","testInvalidIsolation","wrapper stateless"
+"MiscTest","degenerate","testCreateInstance","wrapper stateless"
+"MiscTest","degenerate","testLeakDetection","controller stateless"
+"TestMBean","pure-controller degenerate","testMBeanRegistration","controller stateless"
+"TestMBean","pure-controller degenerate","testMBeanReporting","controller stateless"
+"TestMBean","pure-controller degenerate","testMBeanChange","controller stateless"
+"TestMBean","pure-controller degenerate","testMBeanConnectionTimeoutChange","controller stateless"
+"MetricsTrackerTest","pure-controller degenerate small-class","connectionTimeoutIsRecorded","controller stateless"
+"JdbcDriverTest","commander boundary","teardown","command"
+"JdbcDriverTest","commander boundary","driverTest1","command collaborator"
+"JdbcDriverTest","commander boundary","driverTest2","set collaborator"
+"IsolationTest","boundary degenerate small-class","testIsolation","wrapper stateless"
+"IsolationTest","boundary degenerate small-class","testNonIsolation","wrapper stateless"
+"TestHibernate","pure-controller degenerate small-class","testConnectionProvider","controller stateless"
+"ConnectionStateTest","pure-controller degenerate","testAutoCommit","controller stateless"
+"ConnectionStateTest","pure-controller degenerate","testTransactionIsolation","controller stateless"
+"ConnectionStateTest","pure-controller degenerate","testIsolation","controller stateless"
+"ConnectionStateTest","pure-controller degenerate","testReadOnly","controller stateless"
+"ConnectionStateTest","pure-controller degenerate","testCatalog","controller stateless"
+"ConnectionStateTest","pure-controller degenerate","testCommitTracking","controller stateless"
+"TestConcurrentBag","commander boundary small-class","testConcurrentBag","command collaborator"
+"ExceptionTest","commander boundary","setup","set collaborator"
+"ExceptionTest","commander boundary","teardown","command"
+"ExceptionTest","commander boundary","testException1","command collaborator"
+"ExceptionTest","commander boundary","testUseAfterStatementClose","command collaborator"
+"ExceptionTest","commander boundary","testUseAfterClose","command"
+"ExceptionTest","commander boundary","testLastErrorTimeout","command collaborator"
+"ConnectionPoolSizeVsThreadsTest","commander boundary","testPoolSizeAboutSameSizeAsThreadCount","command collaborator"
+"ConnectionPoolSizeVsThreadsTest","commander boundary","testSlowConnectionTimeBurstyWork","command"
+"ConnectionPoolSizeVsThreadsTest","commander boundary","testPoolSize","non-void-command factory collaborator"
+"ConcurrentCloseConnectionTest","pure-controller degenerate small-class","testConcurrentClose","controller stateless"
+"OSGiBundleTest","commander boundary","checkInject","wrapper"
+"OSGiBundleTest","commander boundary","checkBundle","command collaborator"
+"OSGiBundleTest","commander boundary","config","wrapper stateless"
+"ConnectionRaceConditionTest","small-class","testRaceCondition","controller"
+"ConnectionRaceConditionTest","small-class","after","wrapper stateless"
+"StubResultSet","lazy-class degenerate","unwrap","collaborator incidental"
+"StubResultSet","lazy-class degenerate","isWrapperFor","collaborator incidental"
+"StubResultSet","lazy-class degenerate","next","predicate"
+"StubResultSet","lazy-class degenerate","close","set"
+"StubResultSet","lazy-class degenerate","wasNull","incidental"
+"StubResultSet","lazy-class degenerate","getString","incidental"
+"StubResultSet","lazy-class degenerate","getBoolean","incidental"
+"StubResultSet","lazy-class degenerate","getByte","incidental"
+"StubResultSet","lazy-class degenerate","getShort","incidental"
+"StubResultSet","lazy-class degenerate","getInt","property set"
+"StubResultSet","lazy-class degenerate","getLong","incidental"
+"StubResultSet","lazy-class degenerate","getFloat","stateless"
+"StubResultSet","lazy-class degenerate","getDouble","incidental"
+"StubResultSet","lazy-class degenerate","getBigDecimal","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getBytes","incidental"
+"StubResultSet","lazy-class degenerate","getDate","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getTime","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getTimestamp","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getAsciiStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getUnicodeStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getBinaryStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getString","incidental"
+"StubResultSet","lazy-class degenerate","getBoolean","incidental"
+"StubResultSet","lazy-class degenerate","getByte","incidental"
+"StubResultSet","lazy-class degenerate","getShort","incidental"
+"StubResultSet","lazy-class degenerate","getInt","incidental"
+"StubResultSet","lazy-class degenerate","getLong","incidental"
+"StubResultSet","lazy-class degenerate","getFloat","incidental"
+"StubResultSet","lazy-class degenerate","getDouble","incidental"
+"StubResultSet","lazy-class degenerate","getBigDecimal","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getBytes","incidental"
+"StubResultSet","lazy-class degenerate","getDate","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getTime","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getTimestamp","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getAsciiStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getUnicodeStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getBinaryStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getWarnings","collaborator incidental"
+"StubResultSet","lazy-class degenerate","clearWarnings","empty"
+"StubResultSet","lazy-class degenerate","getCursorName","incidental"
+"StubResultSet","lazy-class degenerate","getMetaData","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getObject","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getObject","collaborator incidental"
+"StubResultSet","lazy-class degenerate","findColumn","incidental"
+"StubResultSet","lazy-class degenerate","getCharacterStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getCharacterStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getBigDecimal","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getBigDecimal","collaborator incidental"
+"StubResultSet","lazy-class degenerate","isBeforeFirst","incidental"
+"StubResultSet","lazy-class degenerate","isAfterLast","incidental"
+"StubResultSet","lazy-class degenerate","isFirst","incidental"
+"StubResultSet","lazy-class degenerate","isLast","incidental"
+"StubResultSet","lazy-class degenerate","beforeFirst","empty"
+"StubResultSet","lazy-class degenerate","afterLast","empty"
+"StubResultSet","lazy-class degenerate","first","incidental"
+"StubResultSet","lazy-class degenerate","last","incidental"
+"StubResultSet","lazy-class degenerate","getRow","incidental"
+"StubResultSet","lazy-class degenerate","absolute","incidental"
+"StubResultSet","lazy-class degenerate","relative","incidental"
+"StubResultSet","lazy-class degenerate","previous","incidental"
+"StubResultSet","lazy-class degenerate","setFetchDirection","empty"
+"StubResultSet","lazy-class degenerate","getFetchDirection","incidental"
+"StubResultSet","lazy-class degenerate","setFetchSize","empty"
+"StubResultSet","lazy-class degenerate","getFetchSize","incidental"
+"StubResultSet","lazy-class degenerate","getType","incidental"
+"StubResultSet","lazy-class degenerate","getConcurrency","incidental"
+"StubResultSet","lazy-class degenerate","rowUpdated","incidental"
+"StubResultSet","lazy-class degenerate","rowInserted","incidental"
+"StubResultSet","lazy-class degenerate","rowDeleted","incidental"
+"StubResultSet","lazy-class degenerate","updateNull","empty"
+"StubResultSet","lazy-class degenerate","updateBoolean","empty"
+"StubResultSet","lazy-class degenerate","updateByte","empty"
+"StubResultSet","lazy-class degenerate","updateShort","empty"
+"StubResultSet","lazy-class degenerate","updateInt","empty"
+"StubResultSet","lazy-class degenerate","updateLong","empty"
+"StubResultSet","lazy-class degenerate","updateFloat","empty"
+"StubResultSet","lazy-class degenerate","updateDouble","empty"
+"StubResultSet","lazy-class degenerate","updateBigDecimal","empty"
+"StubResultSet","lazy-class degenerate","updateString","empty"
+"StubResultSet","lazy-class degenerate","updateBytes","empty"
+"StubResultSet","lazy-class degenerate","updateDate","empty"
+"StubResultSet","lazy-class degenerate","updateTime","empty"
+"StubResultSet","lazy-class degenerate","updateTimestamp","empty"
+"StubResultSet","lazy-class degenerate","updateAsciiStream","empty"
+"StubResultSet","lazy-class degenerate","updateBinaryStream","empty"
+"StubResultSet","lazy-class degenerate","updateCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateObject","empty"
+"StubResultSet","lazy-class degenerate","updateObject","empty"
+"StubResultSet","lazy-class degenerate","updateNull","empty"
+"StubResultSet","lazy-class degenerate","updateBoolean","empty"
+"StubResultSet","lazy-class degenerate","updateByte","empty"
+"StubResultSet","lazy-class degenerate","updateShort","empty"
+"StubResultSet","lazy-class degenerate","updateInt","empty"
+"StubResultSet","lazy-class degenerate","updateLong","empty"
+"StubResultSet","lazy-class degenerate","updateFloat","empty"
+"StubResultSet","lazy-class degenerate","updateDouble","empty"
+"StubResultSet","lazy-class degenerate","updateBigDecimal","empty"
+"StubResultSet","lazy-class degenerate","updateString","empty"
+"StubResultSet","lazy-class degenerate","updateBytes","empty"
+"StubResultSet","lazy-class degenerate","updateDate","empty"
+"StubResultSet","lazy-class degenerate","updateTime","empty"
+"StubResultSet","lazy-class degenerate","updateTimestamp","empty"
+"StubResultSet","lazy-class degenerate","updateAsciiStream","empty"
+"StubResultSet","lazy-class degenerate","updateBinaryStream","empty"
+"StubResultSet","lazy-class degenerate","updateCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateObject","empty"
+"StubResultSet","lazy-class degenerate","updateObject","empty"
+"StubResultSet","lazy-class degenerate","insertRow","empty"
+"StubResultSet","lazy-class degenerate","updateRow","empty"
+"StubResultSet","lazy-class degenerate","deleteRow","empty"
+"StubResultSet","lazy-class degenerate","refreshRow","empty"
+"StubResultSet","lazy-class degenerate","cancelRowUpdates","empty"
+"StubResultSet","lazy-class degenerate","moveToInsertRow","empty"
+"StubResultSet","lazy-class degenerate","moveToCurrentRow","empty"
+"StubResultSet","lazy-class degenerate","getStatement","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getObject","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getRef","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getBlob","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getClob","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getArray","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getObject","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getRef","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getBlob","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getClob","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getArray","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getDate","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getDate","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getTime","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getTime","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getTimestamp","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getTimestamp","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getURL","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getURL","collaborator incidental"
+"StubResultSet","lazy-class degenerate","updateRef","empty"
+"StubResultSet","lazy-class degenerate","updateRef","empty"
+"StubResultSet","lazy-class degenerate","updateBlob","empty"
+"StubResultSet","lazy-class degenerate","updateBlob","empty"
+"StubResultSet","lazy-class degenerate","updateClob","empty"
+"StubResultSet","lazy-class degenerate","updateClob","empty"
+"StubResultSet","lazy-class degenerate","updateArray","empty"
+"StubResultSet","lazy-class degenerate","updateArray","empty"
+"StubResultSet","lazy-class degenerate","getRowId","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getRowId","collaborator incidental"
+"StubResultSet","lazy-class degenerate","updateRowId","empty"
+"StubResultSet","lazy-class degenerate","updateRowId","empty"
+"StubResultSet","lazy-class degenerate","getHoldability","incidental"
+"StubResultSet","lazy-class degenerate","isClosed","get"
+"StubResultSet","lazy-class degenerate","updateNString","empty"
+"StubResultSet","lazy-class degenerate","updateNString","empty"
+"StubResultSet","lazy-class degenerate","updateNClob","empty"
+"StubResultSet","lazy-class degenerate","updateNClob","empty"
+"StubResultSet","lazy-class degenerate","getNClob","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getNClob","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getSQLXML","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getSQLXML","collaborator incidental"
+"StubResultSet","lazy-class degenerate","updateSQLXML","empty"
+"StubResultSet","lazy-class degenerate","updateSQLXML","empty"
+"StubResultSet","lazy-class degenerate","getNString","incidental"
+"StubResultSet","lazy-class degenerate","getNString","incidental"
+"StubResultSet","lazy-class degenerate","getNCharacterStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getNCharacterStream","collaborator incidental"
+"StubResultSet","lazy-class degenerate","updateNCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateNCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateAsciiStream","empty"
+"StubResultSet","lazy-class degenerate","updateBinaryStream","empty"
+"StubResultSet","lazy-class degenerate","updateCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateAsciiStream","empty"
+"StubResultSet","lazy-class degenerate","updateBinaryStream","empty"
+"StubResultSet","lazy-class degenerate","updateCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateBlob","empty"
+"StubResultSet","lazy-class degenerate","updateBlob","empty"
+"StubResultSet","lazy-class degenerate","updateClob","empty"
+"StubResultSet","lazy-class degenerate","updateClob","empty"
+"StubResultSet","lazy-class degenerate","updateNClob","empty"
+"StubResultSet","lazy-class degenerate","updateNClob","empty"
+"StubResultSet","lazy-class degenerate","updateNCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateNCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateAsciiStream","empty"
+"StubResultSet","lazy-class degenerate","updateBinaryStream","empty"
+"StubResultSet","lazy-class degenerate","updateCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateAsciiStream","empty"
+"StubResultSet","lazy-class degenerate","updateBinaryStream","empty"
+"StubResultSet","lazy-class degenerate","updateCharacterStream","empty"
+"StubResultSet","lazy-class degenerate","updateBlob","empty"
+"StubResultSet","lazy-class degenerate","updateBlob","empty"
+"StubResultSet","lazy-class degenerate","updateClob","empty"
+"StubResultSet","lazy-class degenerate","updateClob","empty"
+"StubResultSet","lazy-class degenerate","updateNClob","empty"
+"StubResultSet","lazy-class degenerate","updateNClob","empty"
+"StubResultSet","lazy-class degenerate","getObject","collaborator incidental"
+"StubResultSet","lazy-class degenerate","getObject","collaborator incidental"
+"ProxyFactory","empty","ProxyFactory","constructor"
+"HikariPool","commander boundary","HikariPool","constructor"
+"HikariPool","commander boundary","getConnection","property non-void-command collaborator"
+"HikariPool","commander boundary","getConnection","property non-void-command collaborator"
+"HikariPool","commander boundary","shutdown","command collaborator"
+"HikariPool","commander boundary","evictConnection","command collaborator"
+"HikariPool","commander boundary","setMetricRegistry","command collaborator"
+"HikariPool","commander boundary","setMetricsTrackerFactory","command collaborator"
+"HikariPool","commander boundary","setHealthCheckRegistry","wrapper"
+"HikariPool","commander boundary","addBagItem","command"
+"HikariPool","commander boundary","getActiveConnections","property non-void-command"
+"HikariPool","commander boundary","getIdleConnections","property non-void-command"
+"HikariPool","commander boundary","getTotalConnections","property non-void-command"
+"HikariPool","commander boundary","getThreadsAwaitingConnection","property non-void-command"
+"HikariPool","commander boundary","softEvictConnections","command"
+"HikariPool","commander boundary","suspendPool","set"
+"HikariPool","commander boundary","resumePool","command"
+"HikariPool","commander boundary","logPoolState","command"
+"HikariPool","commander boundary","recycle","command collaborator"
+"HikariPool","commander boundary","closeConnection","command collaborator"
+"HikariPool","commander boundary","getPoolStateCounts","property non-void-command"
+"HikariPool","commander boundary","createPoolEntry","property non-void-command collaborator"
+"HikariPool","commander boundary","fillPool","command"
+"HikariPool","commander boundary","abortActiveConnections","command collaborator"
+"HikariPool","commander boundary","checkFailFast","command collaborator"
+"HikariPool","commander boundary","throwPoolInitializationException","command collaborator"
+"HikariPool","commander boundary","softEvictConnection","predicate non-void-command"
+"HikariPool","commander boundary","initializeHouseKeepingExecutorService","property non-void-command factory collaborator"
+"HikariPool","commander boundary","destroyHouseKeepingExecutorService","command"
+"HikariPool","commander boundary","getPoolStats","property non-void-command factory collaborator"
+"HikariPool","commander boundary","createTimeoutException","non-void-command factory collaborator"
+"StubPreparedStatement","degenerate","StubPreparedStatement","constructor"
+"StubPreparedStatement","degenerate","executeQuery","factory collaborator stateless"
+"StubPreparedStatement","degenerate","executeUpdate","incidental"
+"StubPreparedStatement","degenerate","getMaxFieldSize","stateless"
+"StubPreparedStatement","degenerate","setMaxFieldSize","empty"
+"StubPreparedStatement","degenerate","getMaxRows","incidental"
+"StubPreparedStatement","degenerate","setMaxRows","empty"
+"StubPreparedStatement","degenerate","setEscapeProcessing","empty"
+"StubPreparedStatement","degenerate","getQueryTimeout","incidental"
+"StubPreparedStatement","degenerate","setQueryTimeout","empty"
+"StubPreparedStatement","degenerate","cancel","empty"
+"StubPreparedStatement","degenerate","getWarnings","collaborator incidental"
+"StubPreparedStatement","degenerate","clearWarnings","empty"
+"StubPreparedStatement","degenerate","setCursorName","empty"
+"StubPreparedStatement","degenerate","execute","incidental"
+"StubPreparedStatement","degenerate","getResultSet","factory collaborator stateless"
+"StubPreparedStatement","degenerate","getUpdateCount","incidental"
+"StubPreparedStatement","degenerate","getMoreResults","predicate non-void-command"
+"StubPreparedStatement","degenerate","setFetchDirection","empty"
+"StubPreparedStatement","degenerate","getFetchDirection","incidental"
+"StubPreparedStatement","degenerate","setFetchSize","empty"
+"StubPreparedStatement","degenerate","getFetchSize","incidental"
+"StubPreparedStatement","degenerate","getResultSetConcurrency","incidental"
+"StubPreparedStatement","degenerate","getResultSetType","incidental"
+"StubPreparedStatement","degenerate","addBatch","empty"
+"StubPreparedStatement","degenerate","clearBatch","empty"
+"StubPreparedStatement","degenerate","executeBatch","incidental"
+"StubPreparedStatement","degenerate","getMoreResults","incidental"
+"StubPreparedStatement","degenerate","getGeneratedKeys","factory collaborator stateless"
+"StubPreparedStatement","degenerate","executeUpdate","incidental"
+"StubPreparedStatement","degenerate","executeUpdate","incidental"
+"StubPreparedStatement","degenerate","executeUpdate","incidental"
+"StubPreparedStatement","degenerate","execute","incidental"
+"StubPreparedStatement","degenerate","execute","incidental"
+"StubPreparedStatement","degenerate","execute","incidental"
+"StubPreparedStatement","degenerate","getResultSetHoldability","incidental"
+"StubPreparedStatement","degenerate","setPoolable","empty"
+"StubPreparedStatement","degenerate","isPoolable","incidental"
+"StubPreparedStatement","degenerate","closeOnCompletion","empty"
+"StubPreparedStatement","degenerate","isCloseOnCompletion","incidental"
+"StubPreparedStatement","degenerate","unwrap","property controller"
+"StubPreparedStatement","degenerate","isWrapperFor","collaborator incidental"
+"StubPreparedStatement","degenerate","executeQuery","factory collaborator stateless"
+"StubPreparedStatement","degenerate","executeUpdate","incidental"
+"StubPreparedStatement","degenerate","setNull","empty"
+"StubPreparedStatement","degenerate","setBoolean","empty"
+"StubPreparedStatement","degenerate","setByte","empty"
+"StubPreparedStatement","degenerate","setShort","empty"
+"StubPreparedStatement","degenerate","setInt","empty"
+"StubPreparedStatement","degenerate","setLong","empty"
+"StubPreparedStatement","degenerate","setFloat","empty"
+"StubPreparedStatement","degenerate","setDouble","empty"
+"StubPreparedStatement","degenerate","setBigDecimal","empty"
+"StubPreparedStatement","degenerate","setString","empty"
+"StubPreparedStatement","degenerate","setBytes","empty"
+"StubPreparedStatement","degenerate","setDate","empty"
+"StubPreparedStatement","degenerate","setTime","empty"
+"StubPreparedStatement","degenerate","setTimestamp","empty"
+"StubPreparedStatement","degenerate","setAsciiStream","empty"
+"StubPreparedStatement","degenerate","setUnicodeStream","empty"
+"StubPreparedStatement","degenerate","setBinaryStream","empty"
+"StubPreparedStatement","degenerate","clearParameters","empty"
+"StubPreparedStatement","degenerate","setObject","empty"
+"StubPreparedStatement","degenerate","setObject","empty"
+"StubPreparedStatement","degenerate","execute","incidental"
+"StubPreparedStatement","degenerate","addBatch","empty"
+"StubPreparedStatement","degenerate","setCharacterStream","empty"
+"StubPreparedStatement","degenerate","setRef","empty"
+"StubPreparedStatement","degenerate","setBlob","empty"
+"StubPreparedStatement","degenerate","setClob","empty"
+"StubPreparedStatement","degenerate","setArray","empty"
+"StubPreparedStatement","degenerate","getMetaData","collaborator incidental"
+"StubPreparedStatement","degenerate","setDate","empty"
+"StubPreparedStatement","degenerate","setTime","empty"
+"StubPreparedStatement","degenerate","setTimestamp","empty"
+"StubPreparedStatement","degenerate","setNull","empty"
+"StubPreparedStatement","degenerate","setURL","empty"
+"StubPreparedStatement","degenerate","getParameterMetaData","collaborator incidental"
+"StubPreparedStatement","degenerate","setRowId","empty"
+"StubPreparedStatement","degenerate","setNString","empty"
+"StubPreparedStatement","degenerate","setNCharacterStream","empty"
+"StubPreparedStatement","degenerate","setNClob","empty"
+"StubPreparedStatement","degenerate","setClob","empty"
+"StubPreparedStatement","degenerate","setBlob","empty"
+"StubPreparedStatement","degenerate","setNClob","empty"
+"StubPreparedStatement","degenerate","setSQLXML","empty"
+"StubPreparedStatement","degenerate","setObject","empty"
+"StubPreparedStatement","degenerate","setAsciiStream","empty"
+"StubPreparedStatement","degenerate","setBinaryStream","empty"
+"StubPreparedStatement","degenerate","setCharacterStream","empty"
+"StubPreparedStatement","degenerate","setAsciiStream","empty"
+"StubPreparedStatement","degenerate","setBinaryStream","empty"
+"StubPreparedStatement","degenerate","setCharacterStream","empty"
+"StubPreparedStatement","degenerate","setNCharacterStream","empty"
+"StubPreparedStatement","degenerate","setClob","empty"
+"StubPreparedStatement","degenerate","setBlob","empty"
+"StubPreparedStatement","degenerate","setNClob","empty"
+"SQLExceptionOverride","boundary degenerate small-class","adjudicate","collaborator incidental"
+"DriverDataSource","entity boundary degenerate","DriverDataSource","constructor"
+"DriverDataSource","entity boundary degenerate","getConnection","property non-void-command collaborator"
+"DriverDataSource","entity boundary degenerate","getConnection","property non-void-command collaborator"
+"DriverDataSource","entity boundary degenerate","getLogWriter","collaborator stateless"
+"DriverDataSource","entity boundary degenerate","setLogWriter","collaborator stateless"
+"DriverDataSource","entity boundary degenerate","setLoginTimeout","wrapper stateless"
+"DriverDataSource","entity boundary degenerate","getLoginTimeout","wrapper stateless"
+"DriverDataSource","entity boundary degenerate","getParentLogger","property non-void-command collaborator"
+"DriverDataSource","entity boundary degenerate","unwrap","collaborator stateless"
+"DriverDataSource","entity boundary degenerate","isWrapperFor","collaborator incidental"
+"HikariCPCollector","entity commander boundary","collect","property non-void-command collaborator"
+"HikariCPCollector","entity commander boundary","add","command collaborator"
+"HikariCPCollector","entity commander boundary","remove","command"
+"HikariCPCollector","entity commander boundary","createGauge","non-void-command factory collaborator"
+"TestSaturatedPool830","commander small-class","saturatedPoolTest","command"
+"PoolStats","unclassified","PoolStats","constructor"
+"PoolStats","unclassified","getTotalConnections","get non-void-command"
+"PoolStats","unclassified","getIdleConnections","get non-void-command"
+"PoolStats","unclassified","getActiveConnections","get non-void-command"
+"PoolStats","unclassified","getPendingThreads","get non-void-command"
+"PoolStats","unclassified","getMaxConnections","get non-void-command"
+"PoolStats","unclassified","getMinConnections","get non-void-command"
+"PoolStats","unclassified","shouldLoad","predicate non-void-command collaborator"
+"TestValidation","pure-controller degenerate","validateLoadProperties","controller stateless"
+"TestValidation","pure-controller degenerate","validateMissingProperties","controller stateless"
+"TestValidation","pure-controller degenerate","validateMissingDS","controller stateless"
+"TestValidation","pure-controller degenerate","validateMissingUrl","controller stateless"
+"TestValidation","pure-controller degenerate","validateDriverAndUrl","controller stateless"
+"TestValidation","pure-controller degenerate","validateBadDriver","controller stateless"
+"TestValidation","pure-controller degenerate","validateInvalidConnectionTimeout","controller stateless"
+"TestValidation","pure-controller degenerate","validateInvalidValidationTimeout","controller stateless"
+"TestValidation","pure-controller degenerate","validateInvalidIdleTimeout","controller stateless"
+"TestValidation","pure-controller degenerate","validateIdleTimeoutTooSmall","controller stateless"
+"TestValidation","pure-controller degenerate","validateIdleTimeoutExceedsLifetime","controller stateless"
+"TestValidation","pure-controller degenerate","validateInvalidMinIdle","controller stateless"
+"TestValidation","pure-controller degenerate","validateInvalidMaxPoolSize","controller stateless"
+"TestValidation","pure-controller degenerate","validateInvalidLifetime","controller stateless"
+"TestValidation","pure-controller degenerate","validateInvalidLeakDetection","controller stateless"
+"TestValidation","pure-controller degenerate","validateZeroConnectionTimeout","controller stateless"
+"MicrometerMetricsTrackerFactory","factory controller small-class","MicrometerMetricsTrackerFactory","constructor"
+"MicrometerMetricsTrackerFactory","factory controller small-class","create","property factory collaborator"
+"ShutdownTest","controller degenerate","beforeTest","wrapper stateless"
+"ShutdownTest","controller degenerate","afterTest","wrapper stateless"
+"ShutdownTest","controller degenerate","testShutdown1","controller stateless"
+"ShutdownTest","controller degenerate","testShutdown2","controller stateless"
+"ShutdownTest","controller degenerate","testShutdown3","controller stateless"
+"ShutdownTest","controller degenerate","testShutdown4","command"
+"ShutdownTest","controller degenerate","testShutdown5","controller stateless"
+"ShutdownTest","controller degenerate","testAfterShutdown","controller stateless"
+"ShutdownTest","controller degenerate","testShutdownDuringInit","controller stateless"
+"ShutdownTest","controller degenerate","testThreadedShutdown","controller stateless"
+"ShutdownTest","controller degenerate","threadCount","controller stateless"
+"PrometheusMetricsTrackerFactory","entity small-class","PrometheusMetricsTrackerFactory","constructor"
+"PrometheusMetricsTrackerFactory","entity small-class","PrometheusMetricsTrackerFactory","constructor"
+"PrometheusMetricsTrackerFactory","entity small-class","create","property non-void-command factory collaborator"
+"PrometheusMetricsTrackerFactory","entity small-class","registerCollector","command collaborator"
+"TestSealedConfig","pure-controller degenerate","testSealed1","controller stateless"
+"TestSealedConfig","pure-controller degenerate","testSealed2","controller stateless"
+"TestSealedConfig","pure-controller degenerate","testSealed3","controller stateless"
+"TestSealedConfig","pure-controller degenerate","testSealedAccessibleMethods","controller stateless"
+"PoolEntry","unclassified","PoolEntry","constructor"
+"PoolEntry","unclassified","recycle","set"
+"PoolEntry","unclassified","setFutureEol","set collaborator"
+"PoolEntry","unclassified","setKeepalive","set collaborator"
+"PoolEntry","unclassified","createProxyConnection","property wrapper"
+"PoolEntry","unclassified","resetConnectionState","command"
+"PoolEntry","unclassified","getPoolName","property non-void-command"
+"PoolEntry","unclassified","isMarkedEvicted","get"
+"PoolEntry","unclassified","markEvicted","set"
+"PoolEntry","unclassified","evict","command"
+"PoolEntry","unclassified","getMillisSinceBorrowed","property wrapper"
+"PoolEntry","unclassified","getPoolBase","get collaborator"
+"PoolEntry","unclassified","toString","property non-void-command collaborator"
+"PoolEntry","unclassified","getState","property non-void-command"
+"PoolEntry","unclassified","compareAndSet","predicate non-void-command"
+"PoolEntry","unclassified","setState","command"
+"PoolEntry","unclassified","close","property non-void-command collaborator"
+"PoolEntry","unclassified","stateToString","property"
+"CodahaleMetricsTrackerFactory","small-class","CodahaleMetricsTrackerFactory","constructor"
+"CodahaleMetricsTrackerFactory","small-class","getRegistry","get collaborator"
+"CodahaleMetricsTrackerFactory","small-class","create","property factory collaborator"
+"PoolBase","boundary","PoolBase","constructor"
+"PoolBase","boundary","toString","get"
+"PoolBase","boundary","quietlyCloseConnection","command"
+"PoolBase","boundary","isConnectionDead","predicate non-void-command collaborator"
+"PoolBase","boundary","getLastConnectionFailure","property non-void-command collaborator"
+"PoolBase","boundary","getUnwrappedDataSource","get collaborator"
+"PoolBase","boundary","newPoolEntry","property non-void-command factory collaborator"
+"PoolBase","boundary","resetConnectionState","command"
+"PoolBase","boundary","shutdownNetworkTimeoutExecutor","wrapper"
+"PoolBase","boundary","getLoginTimeout","property non-void-command"
+"PoolBase","boundary","handleMBeans","command collaborator"
+"PoolBase","boundary","initializeDataSource","command collaborator"
+"PoolBase","boundary","newConnection","property non-void-command collaborator"
+"PoolBase","boundary","setupConnection","command collaborator"
+"PoolBase","boundary","checkDriverSupport","command collaborator"
+"PoolBase","boundary","checkValidationSupport","command collaborator"
+"PoolBase","boundary","checkDefaultIsolation","command collaborator"
+"PoolBase","boundary","setQueryTimeout","set"
+"PoolBase","boundary","getAndSetNetworkTimeout","property non-void-command collaborator"
+"PoolBase","boundary","setNetworkTimeout","controller"
+"PoolBase","boundary","executeSql","controller"
+"PoolBase","boundary","createNetworkTimeoutExecutor","set collaborator"
+"PoolBase","boundary","setLoginTimeout","command collaborator"
+"PoolBase","boundary","stringFromResetBits","property controller"
+"HikariConfig","unclassified","HikariConfig","constructor"
+"HikariConfig","unclassified","HikariConfig","constructor"
+"HikariConfig","unclassified","HikariConfig","constructor"
+"HikariConfig","unclassified","getCatalog","get"
+"HikariConfig","unclassified","setCatalog","set"
+"HikariConfig","unclassified","getConnectionTimeout","get"
+"HikariConfig","unclassified","setConnectionTimeout","set"
+"HikariConfig","unclassified","getIdleTimeout","get"
+"HikariConfig","unclassified","setIdleTimeout","set"
+"HikariConfig","unclassified","getLeakDetectionThreshold","get"
+"HikariConfig","unclassified","setLeakDetectionThreshold","set"
+"HikariConfig","unclassified","getMaxLifetime","get"
+"HikariConfig","unclassified","setMaxLifetime","set"
+"HikariConfig","unclassified","getMaximumPoolSize","get"
+"HikariConfig","unclassified","setMaximumPoolSize","set"
+"HikariConfig","unclassified","getMinimumIdle","get"
+"HikariConfig","unclassified","setMinimumIdle","set"
+"HikariConfig","unclassified","getPassword","get"
+"HikariConfig","unclassified","setPassword","set"
+"HikariConfig","unclassified","getUsername","get"
+"HikariConfig","unclassified","setUsername","set"
+"HikariConfig","unclassified","getValidationTimeout","get"
+"HikariConfig","unclassified","setValidationTimeout","set"
+"HikariConfig","unclassified","getConnectionTestQuery","get"
+"HikariConfig","unclassified","setConnectionTestQuery","set"
+"HikariConfig","unclassified","getConnectionInitSql","get"
+"HikariConfig","unclassified","setConnectionInitSql","set"
+"HikariConfig","unclassified","getDataSource","get collaborator"
+"HikariConfig","unclassified","setDataSource","set collaborator"
+"HikariConfig","unclassified","getDataSourceClassName","get"
+"HikariConfig","unclassified","setDataSourceClassName","set"
+"HikariConfig","unclassified","addDataSourceProperty","command collaborator"
+"HikariConfig","unclassified","getDataSourceJNDI","get"
+"HikariConfig","unclassified","setDataSourceJNDI","set"
+"HikariConfig","unclassified","getDataSourceProperties","get collaborator"
+"HikariConfig","unclassified","setDataSourceProperties","command collaborator"
+"HikariConfig","unclassified","getDriverClassName","get"
+"HikariConfig","unclassified","setDriverClassName","command collaborator"
+"HikariConfig","unclassified","getJdbcUrl","get"
+"HikariConfig","unclassified","setJdbcUrl","set"
+"HikariConfig","unclassified","isAutoCommit","get"
+"HikariConfig","unclassified","setAutoCommit","set"
+"HikariConfig","unclassified","isAllowPoolSuspension","get"
+"HikariConfig","unclassified","setAllowPoolSuspension","set"
+"HikariConfig","unclassified","getInitializationFailTimeout","get"
+"HikariConfig","unclassified","setInitializationFailTimeout","set"
+"HikariConfig","unclassified","isIsolateInternalQueries","get"
+"HikariConfig","unclassified","setIsolateInternalQueries","set"
+"HikariConfig","unclassified","getMetricsTrackerFactory","get collaborator"
+"HikariConfig","unclassified","setMetricsTrackerFactory","set collaborator"
+"HikariConfig","unclassified","getMetricRegistry","get collaborator"
+"HikariConfig","unclassified","setMetricRegistry","set collaborator"
+"HikariConfig","unclassified","getHealthCheckRegistry","get collaborator"
+"HikariConfig","unclassified","setHealthCheckRegistry","command collaborator"
+"HikariConfig","unclassified","getHealthCheckProperties","get collaborator"
+"HikariConfig","unclassified","setHealthCheckProperties","command collaborator"
+"HikariConfig","unclassified","addHealthCheckProperty","command"
+"HikariConfig","unclassified","getKeepaliveTime","get"
+"HikariConfig","unclassified","setKeepaliveTime","set"
+"HikariConfig","unclassified","isReadOnly","get"
+"HikariConfig","unclassified","setReadOnly","set"
+"HikariConfig","unclassified","isRegisterMbeans","get"
+"HikariConfig","unclassified","setRegisterMbeans","set"
+"HikariConfig","unclassified","getPoolName","get"
+"HikariConfig","unclassified","setPoolName","set"
+"HikariConfig","unclassified","getScheduledExecutor","get collaborator"
+"HikariConfig","unclassified","setScheduledExecutor","set collaborator"
+"HikariConfig","unclassified","getTransactionIsolation","get"
+"HikariConfig","unclassified","getSchema","get"
+"HikariConfig","unclassified","setSchema","set"
+"HikariConfig","unclassified","getExceptionOverrideClassName","get"
+"HikariConfig","unclassified","setExceptionOverrideClassName","command collaborator"
+"HikariConfig","unclassified","setTransactionIsolation","set"
+"HikariConfig","unclassified","getThreadFactory","get collaborator"
+"HikariConfig","unclassified","setThreadFactory","set collaborator"
+"HikariConfig","unclassified","seal","set"
+"HikariConfig","unclassified","copyStateTo","void-accessor controller"
+"HikariConfig","unclassified","attemptFromContextLoader","property non-void-command collaborator"
+"HikariConfig","unclassified","validate","command"
+"HikariConfig","unclassified","validateNumerics","command"
+"HikariConfig","unclassified","checkIfSealed","unclassified"
+"HikariConfig","unclassified","logConfiguration","command collaborator"
+"HikariConfig","unclassified","loadProperties","command collaborator"
+"HikariConfig","unclassified","generatePoolName","property non-void-command collaborator"
+"HikariConfig","unclassified","getObjectOrPerformJndiLookup","controller stateless"
+"TestJavassistCodegen","small-class","testCodegen","command collaborator"
+"TestJavassistCodegen","small-class","getMethod","controller stateless"
+"HikariJNDIFactory","controller","getObjectInstance","property non-void-command collaborator"
+"HikariJNDIFactory","controller","createDataSource","property non-void-command factory collaborator"
+"HikariJNDIFactory","controller","lookupJndiDataSource","factory controller stateless"
+"CodahaleHealthChecker","empty","CodahaleHealthChecker","constructor"
+"PrometheusMetricsTracker","commander","PrometheusMetricsTracker","constructor"
+"PrometheusMetricsTracker","commander","registerMetrics","command collaborator"
+"PrometheusMetricsTracker","commander","recordConnectionAcquiredNanos","command"
+"PrometheusMetricsTracker","commander","recordConnectionUsageMillis","command"
+"PrometheusMetricsTracker","commander","recordConnectionCreatedMillis","command"
+"PrometheusMetricsTracker","commander","recordConnectionTimeout","command"
+"PrometheusMetricsTracker","commander","close","command"
+"StubStatement","unclassified","StubStatement","constructor"
+"StubStatement","unclassified","unwrap","property non-void-command collaborator"
+"StubStatement","unclassified","isWrapperFor","predicate non-void-command collaborator"
+"StubStatement","unclassified","executeQuery","non-void-command factory collaborator"
+"StubStatement","unclassified","executeUpdate","property non-void-command"
+"StubStatement","unclassified","close","set"
+"StubStatement","unclassified","getMaxFieldSize","property non-void-command"
+"StubStatement","unclassified","setMaxFieldSize","command"
+"StubStatement","unclassified","getMaxRows","property non-void-command"
+"StubStatement","unclassified","setMaxRows","command"
+"StubStatement","unclassified","setEscapeProcessing","command"
+"StubStatement","unclassified","getQueryTimeout","property non-void-command"
+"StubStatement","unclassified","setQueryTimeout","command"
+"StubStatement","unclassified","cancel","command"
+"StubStatement","unclassified","getWarnings","property non-void-command collaborator"
+"StubStatement","unclassified","clearWarnings","command"
+"StubStatement","unclassified","setCursorName","command"
+"StubStatement","unclassified","execute","predicate non-void-command"
+"StubStatement","unclassified","getResultSet","property non-void-command factory collaborator"
+"StubStatement","unclassified","getUpdateCount","property non-void-command"
+"StubStatement","unclassified","getMoreResults","predicate non-void-command"
+"StubStatement","unclassified","setFetchDirection","command"
+"StubStatement","unclassified","getFetchDirection","property non-void-command"
+"StubStatement","unclassified","setFetchSize","command"
+"StubStatement","unclassified","getFetchSize","property non-void-command"
+"StubStatement","unclassified","getResultSetConcurrency","property non-void-command"
+"StubStatement","unclassified","getResultSetType","property non-void-command"
+"StubStatement","unclassified","addBatch","command"
+"StubStatement","unclassified","clearBatch","command"
+"StubStatement","unclassified","executeBatch","property non-void-command"
+"StubStatement","unclassified","getConnection","get non-void-command collaborator"
+"StubStatement","unclassified","getMoreResults","predicate non-void-command"
+"StubStatement","unclassified","getGeneratedKeys","property non-void-command factory collaborator"
+"StubStatement","unclassified","executeUpdate","property non-void-command"
+"StubStatement","unclassified","executeUpdate","property non-void-command"
+"StubStatement","unclassified","executeUpdate","property non-void-command"
+"StubStatement","unclassified","execute","predicate non-void-command"
+"StubStatement","unclassified","execute","predicate non-void-command"
+"StubStatement","unclassified","execute","predicate non-void-command"
+"StubStatement","unclassified","getResultSetHoldability","property non-void-command"
+"StubStatement","unclassified","isClosed","get"
+"StubStatement","unclassified","setPoolable","command"
+"StubStatement","unclassified","isPoolable","predicate non-void-command"
+"StubStatement","unclassified","closeOnCompletion","command"
+"StubStatement","unclassified","isCloseOnCompletion","predicate non-void-command"
+"StubStatement","unclassified","checkClosed","unclassified"
+"ProxyDatabaseMetaData","entity boundary","ProxyDatabaseMetaData","constructor"
+"ProxyDatabaseMetaData","entity boundary","checkException","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","toString","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getConnection","get collaborator"
+"ProxyDatabaseMetaData","entity boundary","getProcedures","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getProcedureColumns","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getTables","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getSchemas","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getCatalogs","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getTableTypes","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getColumns","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getColumnPrivileges","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getTablePrivileges","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getBestRowIdentifier","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getVersionColumns","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getPrimaryKeys","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getImportedKeys","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getExportedKeys","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getCrossReference","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getTypeInfo","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getIndexInfo","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getUDTs","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getSuperTypes","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getSuperTables","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getAttributes","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getSchemas","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getClientInfoProperties","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getFunctions","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getFunctionColumns","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","getPseudoColumns","property non-void-command collaborator"
+"ProxyDatabaseMetaData","entity boundary","unwrap","property non-void-command collaborator"
+"StubConnection","data-provider","StubConnection","constructor"
+"StubConnection","data-provider","StubConnection","constructor"
+"StubConnection","data-provider","unwrap","property controller"
+"StubConnection","data-provider","isWrapperFor","predicate collaborator"
+"StubConnection","data-provider","prepareCall","property collaborator"
+"StubConnection","data-provider","nativeSQL","incidental"
+"StubConnection","data-provider","setAutoCommit","set"
+"StubConnection","data-provider","getAutoCommit","get"
+"StubConnection","data-provider","commit","command"
+"StubConnection","data-provider","refreshConnectionWaitTimeout","command"
+"StubConnection","data-provider","rollback","empty"
+"StubConnection","data-provider","close","empty"
+"StubConnection","data-provider","isClosed","get"
+"StubConnection","data-provider","getMetaData","collaborator incidental"
+"StubConnection","data-provider","setReadOnly","unclassified"
+"StubConnection","data-provider","isReadOnly","predicate"
+"StubConnection","data-provider","setCatalog","set"
+"StubConnection","data-provider","getCatalog","get"
+"StubConnection","data-provider","setTransactionIsolation","set"
+"StubConnection","data-provider","getTransactionIsolation","get"
+"StubConnection","data-provider","getWarnings","collaborator incidental"
+"StubConnection","data-provider","clearWarnings","unclassified"
+"StubConnection","data-provider","createStatement","property collaborator"
+"StubConnection","data-provider","prepareStatement","property factory collaborator"
+"StubConnection","data-provider","prepareCall","property collaborator"
+"StubConnection","data-provider","getTypeMap","collaborator incidental"
+"StubConnection","data-provider","setTypeMap","empty"
+"StubConnection","data-provider","setHoldability","empty"
+"StubConnection","data-provider","getHoldability","property"
+"StubConnection","data-provider","setSavepoint","collaborator incidental"
+"StubConnection","data-provider","setSavepoint","collaborator incidental"
+"StubConnection","data-provider","rollback","empty"
+"StubConnection","data-provider","releaseSavepoint","empty"
+"StubConnection","data-provider","createStatement","property collaborator"
+"StubConnection","data-provider","prepareStatement","property factory collaborator"
+"StubConnection","data-provider","prepareCall","property collaborator"
+"StubConnection","data-provider","prepareStatement","property factory collaborator"
+"StubConnection","data-provider","prepareStatement","property factory collaborator"
+"StubConnection","data-provider","prepareStatement","property factory collaborator"
+"StubConnection","data-provider","createClob","collaborator incidental"
+"StubConnection","data-provider","createBlob","collaborator incidental"
+"StubConnection","data-provider","createNClob","collaborator incidental"
+"StubConnection","data-provider","createSQLXML","collaborator incidental"
+"StubConnection","data-provider","isValid","predicate non-void-command"
+"StubConnection","data-provider","setClientInfo","empty"
+"StubConnection","data-provider","setClientInfo","empty"
+"StubConnection","data-provider","getClientInfo","incidental"
+"StubConnection","data-provider","getClientInfo","collaborator incidental"
+"StubConnection","data-provider","createArrayOf","collaborator incidental"
+"StubConnection","data-provider","createStruct","collaborator incidental"
+"StubConnection","data-provider","setSchema","empty"
+"StubConnection","data-provider","getSchema","incidental"
+"StubConnection","data-provider","abort","collaborator stateless"
+"StubConnection","data-provider","setNetworkTimeout","command"
+"StubConnection","data-provider","getNetworkTimeout","property"
+"ProxyCallableStatement","empty","ProxyCallableStatement","constructor"
+"HikariConnectionProvider","boundary","HikariConnectionProvider","constructor"
+"HikariConnectionProvider","boundary","configure","command"
+"HikariConnectionProvider","boundary","getConnection","property non-void-command collaborator"
+"HikariConnectionProvider","boundary","closeConnection","controller stateless"
+"HikariConnectionProvider","boundary","supportsAggressiveRelease","incidental"
+"HikariConnectionProvider","boundary","isUnwrappableAs","wrapper stateless"
+"HikariConnectionProvider","boundary","unwrap","get property wrapper"
+"HikariConnectionProvider","boundary","stop","command"
+"PostgresTest","unclassified","beforeTest","set"
+"PostgresTest","unclassified","afterTest","command"
+"PostgresTest","unclassified","testCase1","controller"
+"PostgresTest","unclassified","testCase2","controller"
+"PostgresTest","unclassified","testCase3","controller"
+"PostgresTest","unclassified","testCase4","controller"
+"PostgresTest","unclassified","before","incidental"
+"IMetricsTracker","degenerate","recordConnectionCreatedMillis","empty"
+"IMetricsTracker","degenerate","recordConnectionAcquiredNanos","empty"
+"IMetricsTracker","degenerate","recordConnectionUsageMillis","empty"
+"IMetricsTracker","degenerate","recordConnectionTimeout","empty"
+"IMetricsTracker","degenerate","close","empty"
+"PrometheusHistogramMetricsTrackerFactoryTest","boundary","registersToProvidedCollectorRegistry","command collaborator"
+"PrometheusHistogramMetricsTrackerFactoryTest","boundary","registersToDefaultCollectorRegistry","command collaborator"
+"PrometheusHistogramMetricsTrackerFactoryTest","boundary","clearCollectorRegistry","wrapper stateless"
+"PrometheusHistogramMetricsTrackerFactoryTest","boundary","assertHikariMetricsArePresent","command collaborator"
+"PrometheusHistogramMetricsTrackerFactoryTest","boundary","assertHikariMetricsAreNotPresent","command collaborator"
+"PrometheusHistogramMetricsTrackerFactoryTest","boundary","toMetricNames","controller stateless"
+"PrometheusHistogramMetricsTrackerFactoryTest","boundary","poolStats","factory collaborator incidental"
+"PrometheusMetricsTrackerFactoryTest","commander boundary","clearCollectorRegistry","wrapper stateless"
+"PrometheusMetricsTrackerFactoryTest","commander boundary","registersToProvidedCollectorRegistry","command collaborator"
+"PrometheusMetricsTrackerFactoryTest","commander boundary","registersToDefaultCollectorRegistry","command collaborator"
+"PrometheusMetricsTrackerFactoryTest","commander boundary","assertHikariMetricsArePresent","command collaborator"
+"PrometheusMetricsTrackerFactoryTest","commander boundary","assertHikariMetricsAreNotPresent","command collaborator"
+"PrometheusMetricsTrackerFactoryTest","commander boundary","toMetricNames","controller stateless"
+"PrometheusHistogramMetricsTracker","commander","PrometheusHistogramMetricsTracker","constructor"
+"PrometheusHistogramMetricsTracker","commander","registerMetrics","command collaborator"
+"PrometheusHistogramMetricsTracker","commander","recordConnectionAcquiredNanos","command"
+"PrometheusHistogramMetricsTracker","commander","recordConnectionUsageMillis","command"
+"PrometheusHistogramMetricsTracker","commander","recordConnectionCreatedMillis","command"
+"PrometheusHistogramMetricsTracker","commander","recordConnectionTimeout","command"
+"PrometheusHistogramMetricsTracker","commander","close","command"
+"PrometheusHistogramMetricsTrackerFactory","entity small-class","PrometheusHistogramMetricsTrackerFactory","constructor"
+"PrometheusHistogramMetricsTrackerFactory","entity small-class","PrometheusHistogramMetricsTrackerFactory","constructor"
+"PrometheusHistogramMetricsTrackerFactory","entity small-class","create","property non-void-command factory collaborator"
+"PrometheusHistogramMetricsTrackerFactory","entity small-class","registerCollector","command collaborator"
+"StubBaseConnection","factory controller small-class","createStatement","property factory collaborator"
+"StubBaseConnection","factory controller small-class","prepareStatement","property factory collaborator"
+"ProxyConnection","unclassified","ProxyConnection","constructor"
+"ProxyConnection","unclassified","toString","property non-void-command"
+"ProxyConnection","unclassified","getAutoCommitState","get"
+"ProxyConnection","unclassified","getCatalogState","get"
+"ProxyConnection","unclassified","getSchemaState","get"
+"ProxyConnection","unclassified","getTransactionIsolationState","get"
+"ProxyConnection","unclassified","getReadOnlyState","get"
+"ProxyConnection","unclassified","getNetworkTimeoutState","get"
+"ProxyConnection","unclassified","getPoolEntry","get collaborator"
+"ProxyConnection","unclassified","checkException","property non-void-command collaborator"
+"ProxyConnection","unclassified","untrackStatement","command collaborator"
+"ProxyConnection","unclassified","markCommitStateDirty","set"
+"ProxyConnection","unclassified","cancelLeakTask","command"
+"ProxyConnection","unclassified","trackStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","closeStatements","command"
+"ProxyConnection","unclassified","close","command"
+"ProxyConnection","unclassified","isClosed","predicate"
+"ProxyConnection","unclassified","createStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","createStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","createStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","prepareCall","property non-void-command collaborator"
+"ProxyConnection","unclassified","prepareCall","property non-void-command collaborator"
+"ProxyConnection","unclassified","prepareCall","property non-void-command collaborator"
+"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","prepareStatement","property non-void-command collaborator"
+"ProxyConnection","unclassified","getMetaData","property non-void-command collaborator"
+"ProxyConnection","unclassified","commit","set"
+"ProxyConnection","unclassified","rollback","set"
+"ProxyConnection","unclassified","rollback","set collaborator"
+"ProxyConnection","unclassified","setAutoCommit","command"
+"ProxyConnection","unclassified","setReadOnly","command"
+"ProxyConnection","unclassified","setTransactionIsolation","command"
+"ProxyConnection","unclassified","setCatalog","command"
+"ProxyConnection","unclassified","setNetworkTimeout","command"
+"ProxyConnection","unclassified","setSchema","command"
+"ProxyConnection","unclassified","isWrapperFor","predicate non-void-command collaborator"
+"ProxyConnection","unclassified","unwrap","property non-void-command collaborator"
+"ProxyLeakTaskFactory","unclassified","ProxyLeakTaskFactory","constructor"
+"ProxyLeakTaskFactory","unclassified","schedule","property non-void-command collaborator"
+"ProxyLeakTaskFactory","unclassified","updateLeakDetectionThreshold","set"
+"ProxyLeakTaskFactory","unclassified","scheduleNewTask","factory controller"
+"TestObject","data-class","setTestObject","set"
+"TestObject","data-class","setString","set"
+"TestObject","data-class","getTestObject","get"
+"TestObject","data-class","getString","get"
+"TestObject","data-class","getShortRaw","get"
+"TestObject","data-class","setShortRaw","set"
+"TestObject","data-class","setCharArray","set"
+"TestObject","data-class","getCharArray","get"
+"ProxyPreparedStatement","unclassified","ProxyPreparedStatement","constructor"
+"ProxyPreparedStatement","unclassified","execute","predicate non-void-command"
+"ProxyPreparedStatement","unclassified","executeQuery","property non-void-command collaborator"
+"ProxyPreparedStatement","unclassified","executeUpdate","property non-void-command"
+"ProxyPreparedStatement","unclassified","executeLargeUpdate","property non-void-command"
+"MicrometerMetricsTracker","commander","MicrometerMetricsTracker","constructor"
+"MicrometerMetricsTracker","commander","recordConnectionAcquiredNanos","command"
+"MicrometerMetricsTracker","commander","recordConnectionUsageMillis","command"
+"MicrometerMetricsTracker","commander","recordConnectionTimeout","command"
+"MicrometerMetricsTracker","commander","recordConnectionCreatedMillis","command"
+"MicrometerMetricsTracker","commander","close","command"
+"ProxyResultSet","unclassified","ProxyResultSet","constructor"
+"ProxyResultSet","unclassified","checkException","property non-void-command collaborator"
+"ProxyResultSet","unclassified","toString","property non-void-command"
+"ProxyResultSet","unclassified","getStatement","get collaborator"
+"ProxyResultSet","unclassified","updateRow","command"
+"ProxyResultSet","unclassified","insertRow","command"
+"ProxyResultSet","unclassified","deleteRow","command"
+"ProxyResultSet","unclassified","unwrap","property non-void-command collaborator"
+"ProxyStatement","unclassified","ProxyStatement","constructor"
+"ProxyStatement","unclassified","checkException","property non-void-command collaborator"
+"ProxyStatement","unclassified","toString","property non-void-command collaborator"
+"ProxyStatement","unclassified","close","command"
+"ProxyStatement","unclassified","getConnection","get collaborator"
+"ProxyStatement","unclassified","execute","predicate non-void-command"
+"ProxyStatement","unclassified","execute","predicate non-void-command"
+"ProxyStatement","unclassified","executeQuery","property non-void-command collaborator"
+"ProxyStatement","unclassified","executeUpdate","property non-void-command"
+"ProxyStatement","unclassified","executeBatch","property non-void-command"
+"ProxyStatement","unclassified","executeUpdate","property non-void-command"
+"ProxyStatement","unclassified","executeUpdate","property non-void-command"
+"ProxyStatement","unclassified","executeUpdate","property non-void-command"
+"ProxyStatement","unclassified","execute","predicate non-void-command"
+"ProxyStatement","unclassified","execute","predicate non-void-command"
+"ProxyStatement","unclassified","executeLargeBatch","property non-void-command"
+"ProxyStatement","unclassified","executeLargeUpdate","property non-void-command"
+"ProxyStatement","unclassified","executeLargeUpdate","property non-void-command"
+"ProxyStatement","unclassified","executeLargeUpdate","property non-void-command"
+"ProxyStatement","unclassified","executeLargeUpdate","property non-void-command"
+"ProxyStatement","unclassified","getResultSet","get set collaborator"
+"ProxyStatement","unclassified","getGeneratedKeys","get set collaborator"
+"ProxyStatement","unclassified","unwrap","property non-void-command collaborator"
+"ClockSource","controller small-class","elapsedDisplayString0","property controller"
+"HikariDataSource","boundary","HikariDataSource","constructor"
+"HikariDataSource","boundary","HikariDataSource","constructor"
+"HikariDataSource","boundary","getConnection","property non-void-command collaborator"
+"HikariDataSource","boundary","getConnection","collaborator stateless"
+"HikariDataSource","boundary","getLogWriter","property non-void-command collaborator"
+"HikariDataSource","boundary","setLogWriter","command collaborator"
+"HikariDataSource","boundary","setLoginTimeout","command collaborator"
+"HikariDataSource","boundary","getLoginTimeout","property non-void-command collaborator"
+"HikariDataSource","boundary","getParentLogger","collaborator stateless"
+"HikariDataSource","boundary","unwrap","property controller"
+"HikariDataSource","boundary","isWrapperFor","predicate controller"
+"HikariDataSource","boundary","setMetricRegistry","command collaborator"
+"HikariDataSource","boundary","setMetricsTrackerFactory","command collaborator"
+"HikariDataSource","boundary","setHealthCheckRegistry","command collaborator"
+"HikariDataSource","boundary","isRunning","predicate"
+"HikariDataSource","boundary","getHikariPoolMXBean","get collaborator"
+"HikariDataSource","boundary","getHikariConfigMXBean","get collaborator"
+"HikariDataSource","boundary","evictConnection","command collaborator"
+"HikariDataSource","boundary","close","command collaborator"
+"HikariDataSource","boundary","isClosed","predicate non-void-command"
+"HikariDataSource","boundary","toString","property"
+"IsolationLevel","data-provider data-class small-class","IsolationLevel","constructor"
+"IsolationLevel","data-provider data-class small-class","getLevelId","get"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","ConcurrentBag","constructor"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","borrow","property non-void-command collaborator"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","requite","command collaborator"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","add","command collaborator"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","remove","predicate non-void-command collaborator"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","close","set"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","values","property non-void-command collaborator"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","values","property non-void-command collaborator"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","reserve","controller stateless"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","unreserve","command collaborator"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","getWaitingThreadCount","property non-void-command"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","getCount","property controller"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","getStateCounts","property non-void-command collaborator"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","size","property non-void-command"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","dumpState","command"
+"ConcurrentBag<TextendsIConcurrentBagEntry>","boundary","useWeakThreadLocals","wrapper stateless"
+"FastList<T>","entity boundary lazy-class degenerate","FastList","constructor"
+"FastList<T>","entity boundary lazy-class degenerate","FastList","constructor"
+"FastList<T>","entity boundary lazy-class degenerate","add","predicate non-void-command collaborator"
+"FastList<T>","entity boundary lazy-class degenerate","get","get collaborator"
+"FastList<T>","entity boundary lazy-class degenerate","removeLast","property non-void-command collaborator"
+"FastList<T>","entity boundary lazy-class degenerate","remove","predicate non-void-command collaborator"
+"FastList<T>","entity boundary lazy-class degenerate","clear","command collaborator"
+"FastList<T>","entity boundary lazy-class degenerate","size","get"
+"FastList<T>","entity boundary lazy-class degenerate","isEmpty","predicate"
+"FastList<T>","entity boundary lazy-class degenerate","set","property set collaborator"
+"FastList<T>","entity boundary lazy-class degenerate","remove","property non-void-command collaborator"
+"FastList<T>","entity boundary lazy-class degenerate","contains","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","iterator","get property factory collaborator"
+"FastList<T>","entity boundary lazy-class degenerate","toArray","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","toArray","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","containsAll","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","addAll","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","addAll","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","removeAll","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","retainAll","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","add","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","indexOf","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","lastIndexOf","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","listIterator","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","listIterator","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","subList","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","clone","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","forEach","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","spliterator","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","removeIf","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","replaceAll","collaborator stateless"
+"FastList<T>","entity boundary lazy-class degenerate","sort","collaborator stateless"
+"PropertyElf","empty","PropertyElf","constructor"
+"TestFastList","pure-controller degenerate","testAddRemove","controller stateless"
+"TestFastList","pure-controller degenerate","testAddRemoveTail","controller stateless"
+"TestFastList","pure-controller degenerate","testOverflow","controller stateless"
+"TestFastList","pure-controller degenerate","testIterator","controller stateless"
+"TestFastList","pure-controller degenerate","testClear","controller stateless"
+"TestFastList","pure-controller degenerate","testRemoveLast","controller stateless"
+"TestFastList","pure-controller degenerate","testPolyMorphism1","controller stateless"
+"SuspendResumeLock","commander","SuspendResumeLock","constructor"
+"SuspendResumeLock","commander","SuspendResumeLock","constructor"
+"SuspendResumeLock","commander","acquire","command"
+"SuspendResumeLock","commander","release","command"
+"SuspendResumeLock","commander","suspend","command"
+"SuspendResumeLock","commander","resume","command"
+"UtilityElf","empty","UtilityElf","constructor"
+"TestConnectionCloseBlocking","commander data-class small-class","testConnectionCloseBlocking","set"
+"RampUpDown","pure-controller degenerate small-class","rampUpDownTest","controller stateless"
+"CodaHaleMetricsTracker","unclassified","CodaHaleMetricsTracker","constructor"
+"CodaHaleMetricsTracker","unclassified","close","command"
+"CodaHaleMetricsTracker","unclassified","recordConnectionAcquiredNanos","command"
+"CodaHaleMetricsTracker","unclassified","recordConnectionUsageMillis","command"
+"CodaHaleMetricsTracker","unclassified","recordConnectionTimeout","command"
+"CodaHaleMetricsTracker","unclassified","recordConnectionCreatedMillis","command"
+"CodaHaleMetricsTracker","unclassified","getConnectionAcquisitionTimer","get collaborator"
+"CodaHaleMetricsTracker","unclassified","getConnectionDurationHistogram","get collaborator"
+"CodaHaleMetricsTracker","unclassified","getConnectionCreationHistogram","get collaborator"
+"HikariConfigTest","commander","setup","wrapper"
+"HikariConfigTest","commander","tearDown","command"
+"HikariConfigTest","commander","testJdbcUrlLogging","command"
+"HikariConfigTest","commander","testJdbcUrl","command collaborator"
+"BasicPoolTest","pure-controller degenerate","setup","controller stateless"
+"BasicPoolTest","pure-controller degenerate","testIdleTimeout","controller stateless"
+"BasicPoolTest","pure-controller degenerate","testIdleTimeout2","controller stateless"
+"CodaHaleMetricsTrackerTest","commander small-class","setup","set"
+"CodaHaleMetricsTrackerTest","commander small-class","close","command"
+"PrometheusMetricsTrackerTest","commander","setupCollectorRegistry","command"
+"PrometheusMetricsTrackerTest","commander","recordConnectionTimeout","command"
+"PrometheusMetricsTrackerTest","commander","connectionAcquisitionMetrics","command"
+"PrometheusMetricsTrackerTest","commander","connectionUsageMetrics","command"
+"PrometheusMetricsTrackerTest","commander","connectionCreationMetrics","command"
+"PrometheusMetricsTrackerTest","commander","testMultiplePoolNameWithOneCollectorRegistry","command"
+"PrometheusMetricsTrackerTest","commander","testMultiplePoolNameWithDifferentCollectorRegistries","command"
+"PrometheusMetricsTrackerTest","commander","testMetricsRemovedAfterShutDown","command"
+"PrometheusMetricsTrackerTest","commander","testCloseMethod","command collaborator"
+"PrometheusMetricsTrackerTest","commander","checkSummaryMetricFamily","command"
+"ProxyLeakTask","commander","ProxyLeakTask","constructor"
+"ProxyLeakTask","commander","ProxyLeakTask","constructor"
+"ProxyLeakTask","commander","schedule","set"
+"ProxyLeakTask","commander","run","command collaborator"
+"ProxyLeakTask","commander","cancel","command"
+"MicrometerMetricsTrackerTest","commander small-class","setup","set"
+"MicrometerMetricsTrackerTest","commander small-class","close","command"
+"HouseKeeperCleanupTest","commander boundary","before","command collaborator"
+"HouseKeeperCleanupTest","commander boundary","testHouseKeeperCleanupWithCustomExecutor","command collaborator"
+"HouseKeeperCleanupTest","commander boundary","after","command"
+"HikariCPCollectorTest","entity commander boundary","setupCollectorRegistry","set"
+"HikariCPCollectorTest","entity commander boundary","noConnection","command collaborator"
+"HikariCPCollectorTest","entity commander boundary","noConnectionWithoutPoolName","command"
+"HikariCPCollectorTest","entity commander boundary","connection1","command collaborator"
+"HikariCPCollectorTest","entity commander boundary","connectionClosed","command collaborator"
+"HikariCPCollectorTest","entity commander boundary","poolStatsRemovedAfterShutDown","command collaborator"
+"HikariCPCollectorTest","entity commander boundary","testHikariCPCollectorGaugesMetricsInitialization","command collaborator"
+"HikariCPCollectorTest","entity commander boundary","getValue","property non-void-command"
+"HikariCPCollectorTest","entity commander boundary","poolStatsWithPredefinedValues","factory collaborator incidental"
+"PrometheusHistogramMetricsTrackerTest","commander","setupCollectorRegistry","command"
+"PrometheusHistogramMetricsTrackerTest","commander","recordConnectionTimeout","command"
+"PrometheusHistogramMetricsTrackerTest","commander","connectionAcquisitionMetrics","command"
+"PrometheusHistogramMetricsTrackerTest","commander","connectionUsageMetrics","command"
+"PrometheusHistogramMetricsTrackerTest","commander","connectionCreationMetrics","command"
+"PrometheusHistogramMetricsTrackerTest","commander","testMultiplePoolNameWithOneCollectorRegistry","command"
+"PrometheusHistogramMetricsTrackerTest","commander","testMultiplePoolNameWithDifferentCollectorRegistries","command"
+"PrometheusHistogramMetricsTrackerTest","commander","checkSummaryMetricFamily","command"
+"MockDataSource","entity boundary degenerate","getConnection","wrapper stateless"
+"MockDataSource","entity boundary degenerate","getConnection","property non-void-command collaborator"
+"MockDataSource","entity boundary degenerate","getLogWriter","collaborator incidental"
+"MockDataSource","entity boundary degenerate","setLogWriter","empty"
+"MockDataSource","entity boundary degenerate","setLoginTimeout","empty"
+"MockDataSource","entity boundary degenerate","getLoginTimeout","incidental"
+"MockDataSource","entity boundary degenerate","getParentLogger","collaborator incidental"
+"MockDataSource","entity boundary degenerate","unwrap","collaborator incidental"
+"MockDataSource","entity boundary degenerate","isWrapperFor","collaborator incidental"
+"StubDataSource","unclassified","getUser","get"
+"StubDataSource","unclassified","setUser","set"
+"StubDataSource","unclassified","getPassword","get"
+"StubDataSource","unclassified","setPassword","set"
+"StubDataSource","unclassified","getWaitTimeout","get"
+"StubDataSource","unclassified","setWaitTimeout","set"
+"StubDataSource","unclassified","setURL","empty"
+"StubDataSource","unclassified","getLogWriter","get collaborator"
+"StubDataSource","unclassified","setLogWriter","set collaborator"
+"StubDataSource","unclassified","setLoginTimeout","set"
+"StubDataSource","unclassified","getLoginTimeout","get"
+"StubDataSource","unclassified","getParentLogger","collaborator incidental"
+"StubDataSource","unclassified","unwrap","property controller"
+"StubDataSource","unclassified","isWrapperFor","collaborator incidental"
+"StubDataSource","unclassified","getConnection","property factory wrapper"
+"StubDataSource","unclassified","getConnection","property factory collaborator"
+"StubDataSource","unclassified","setThrowException","set collaborator"
+"StubDataSource","unclassified","setConnectionAcquisitionTime","set"
+"StubDriver","boundary degenerate","connect","factory collaborator stateless"
+"StubDriver","boundary degenerate","acceptsURL","wrapper stateless"
+"StubDriver","boundary degenerate","getPropertyInfo","collaborator incidental"
+"StubDriver","boundary degenerate","getMajorVersion","incidental"
+"StubDriver","boundary degenerate","getMinorVersion","incidental"
+"StubDriver","boundary degenerate","jdbcCompliant","incidental"
+"StubDriver","boundary degenerate","getParentLogger","collaborator incidental"
+"StubPoolStats","degenerate small-class","StubPoolStats","constructor"
+"StubPoolStats","degenerate small-class","update","empty"

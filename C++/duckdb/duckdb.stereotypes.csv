@@ -1,64 +1,64 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"InterpretedBenchmark","boundary","InMemory","get",
-"InterpretedBenchmark","boundary","RequireReinit","get",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::InterpretedBenchmark","constructor",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::ReadResultFromFile","void-accessor set collaborator",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::ReadResultFromReader","set collaborator",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::LoadBenchmark","command collaborator",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::Initialize","property non-void-command collaborator",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::GetQuery","get non-void-command",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::Run","controller",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::Cleanup","command collaborator",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::GetDatabasePath","property non-void-command collaborator",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::VerifyInternal","property non-void-command collaborator",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::Verify","property non-void-command collaborator",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::Interrupt","controller stateless",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::BenchmarkInfo","wrapper stateless",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::GetLogOutput","controller stateless",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::DisplayName","property non-void-command",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::Group","property non-void-command",
-"InterpretedBenchmark","boundary","InterpretedBenchmark::Subgroup","get non-void-command",
-"DuckDBBenchmarkState","empty","DuckDBBenchmarkState","constructor",
-"DuckDBBenchmarkState","empty","~DuckDBBenchmarkState","destructor",
-"DuckDBBenchmark","boundary degenerate","DuckDBBenchmark","constructor",
-"DuckDBBenchmark","boundary degenerate","~DuckDBBenchmark","destructor",
-"DuckDBBenchmark","boundary degenerate","RunBenchmark","empty",
-"DuckDBBenchmark","boundary degenerate","Cleanup","empty",
-"DuckDBBenchmark","boundary degenerate","InMemory","incidental",
-"DuckDBBenchmark","boundary degenerate","GetDatabasePath","property non-void-command",
-"DuckDBBenchmark","boundary degenerate","CreateBenchmarkState","property non-void-command collaborator",
-"DuckDBBenchmark","boundary degenerate","Initialize","property non-void-command collaborator",
-"DuckDBBenchmark","boundary degenerate","Run","command collaborator",
-"DuckDBBenchmark","boundary degenerate","Cleanup","command collaborator",
-"DuckDBBenchmark","boundary degenerate","Verify","controller stateless",
-"DuckDBBenchmark","boundary degenerate","GetLogOutput","controller stateless",
-"DuckDBBenchmark","boundary degenerate","Interrupt","controller stateless",
-"BenchmarkRunner","unclassified","BenchmarkRunner::RegisterBenchmark","void-accessor command collaborator",
-"BenchmarkRunner","unclassified","BenchmarkRunner::BenchmarkRunner","constructor",
-"BenchmarkRunner","unclassified","BenchmarkRunner::InitializeBenchmarkDirectory","controller",
-"BenchmarkRunner","unclassified","BenchmarkRunner::Log","controller stateless",
-"BenchmarkRunner","unclassified","BenchmarkRunner::LogLine","controller stateless",
-"BenchmarkRunner","unclassified","BenchmarkRunner::LogResult","command",
-"BenchmarkRunner","unclassified","BenchmarkRunner::LogOutput","command",
-"BenchmarkRunner","unclassified","BenchmarkRunner::RunBenchmark","void-accessor command collaborator",
-"BenchmarkRunner","unclassified","BenchmarkRunner::RunBenchmarks","command",
-"BenchmarkFileReader","data-provider","BenchmarkFileReader","constructor",
-"BenchmarkFileReader","data-provider","ReadLine","predicate set",
-"BenchmarkFileReader","data-provider","LineNumber","get",
-"BenchmarkFileReader","data-provider","FormatException","property wrapper",
-"InterpretedBenchmarkState","boundary degenerate small-class","InterpretedBenchmarkState","constructor",
-"InterpretedBenchmarkState","boundary degenerate small-class","GetBenchmarkConfig","wrapper stateless",
-"Benchmark","data-provider lazy-class","Initialize","collaborator incidental",
-"Benchmark","data-provider lazy-class","Finalize","empty",
-"Benchmark","data-provider lazy-class","GetQuery","wrapper stateless",
-"Benchmark","data-provider lazy-class","DisplayName","get",
-"Benchmark","data-provider lazy-class","Group","get",
-"Benchmark","data-provider lazy-class","Subgroup","wrapper stateless",
-"Benchmark","data-provider lazy-class","GetInfo","property wrapper",
-"Benchmark","data-provider lazy-class","RequireReinit","incidental",
-"Benchmark","data-provider lazy-class","NRuns","get",
-"Benchmark","data-provider lazy-class","Timeout","get",
-"Benchmark","data-provider lazy-class","Benchmark::Benchmark","constructor",
-"DuckDBPreparedState","empty","DuckDBPreparedState","constructor",
-"DuckDBPreparedState","empty","~DuckDBPreparedState","destructor",
-"BenchmarkState","empty","~BenchmarkState","destructor",
+"InterpretedBenchmark","boundary","InMemory","get"
+"InterpretedBenchmark","boundary","RequireReinit","get"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::InterpretedBenchmark","constructor"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::ReadResultFromFile","set collaborator"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::ReadResultFromReader","set collaborator"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::LoadBenchmark","command collaborator"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::Initialize","property non-void-command collaborator"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::GetQuery","get non-void-command"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::Run","controller"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::Cleanup","command collaborator"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::GetDatabasePath","property non-void-command collaborator"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::VerifyInternal","property non-void-command collaborator"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::Verify","property non-void-command collaborator"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::Interrupt","controller stateless"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::BenchmarkInfo","wrapper stateless"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::GetLogOutput","controller stateless"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::DisplayName","property non-void-command"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::Group","property non-void-command"
+"InterpretedBenchmark","boundary","InterpretedBenchmark::Subgroup","get non-void-command"
+"DuckDBBenchmarkState","empty","DuckDBBenchmarkState","constructor"
+"DuckDBBenchmarkState","empty","~DuckDBBenchmarkState","destructor"
+"DuckDBBenchmark","boundary degenerate","DuckDBBenchmark","constructor"
+"DuckDBBenchmark","boundary degenerate","~DuckDBBenchmark","destructor"
+"DuckDBBenchmark","boundary degenerate","RunBenchmark","empty"
+"DuckDBBenchmark","boundary degenerate","Cleanup","empty"
+"DuckDBBenchmark","boundary degenerate","InMemory","incidental"
+"DuckDBBenchmark","boundary degenerate","GetDatabasePath","property non-void-command"
+"DuckDBBenchmark","boundary degenerate","CreateBenchmarkState","property non-void-command collaborator"
+"DuckDBBenchmark","boundary degenerate","Initialize","property non-void-command collaborator"
+"DuckDBBenchmark","boundary degenerate","Run","command collaborator"
+"DuckDBBenchmark","boundary degenerate","Cleanup","command collaborator"
+"DuckDBBenchmark","boundary degenerate","Verify","controller stateless"
+"DuckDBBenchmark","boundary degenerate","GetLogOutput","controller stateless"
+"DuckDBBenchmark","boundary degenerate","Interrupt","controller stateless"
+"BenchmarkRunner","unclassified","BenchmarkRunner::RegisterBenchmark","command collaborator"
+"BenchmarkRunner","unclassified","BenchmarkRunner::BenchmarkRunner","constructor"
+"BenchmarkRunner","unclassified","BenchmarkRunner::InitializeBenchmarkDirectory","controller"
+"BenchmarkRunner","unclassified","BenchmarkRunner::Log","controller stateless"
+"BenchmarkRunner","unclassified","BenchmarkRunner::LogLine","controller stateless"
+"BenchmarkRunner","unclassified","BenchmarkRunner::LogResult","command"
+"BenchmarkRunner","unclassified","BenchmarkRunner::LogOutput","command"
+"BenchmarkRunner","unclassified","BenchmarkRunner::RunBenchmark","command collaborator"
+"BenchmarkRunner","unclassified","BenchmarkRunner::RunBenchmarks","command"
+"BenchmarkFileReader","data-provider","BenchmarkFileReader","constructor"
+"BenchmarkFileReader","data-provider","ReadLine","predicate set"
+"BenchmarkFileReader","data-provider","LineNumber","get"
+"BenchmarkFileReader","data-provider","FormatException","property wrapper"
+"InterpretedBenchmarkState","boundary degenerate small-class","InterpretedBenchmarkState","constructor"
+"InterpretedBenchmarkState","boundary degenerate small-class","GetBenchmarkConfig","wrapper stateless"
+"Benchmark","data-provider lazy-class","Initialize","collaborator incidental"
+"Benchmark","data-provider lazy-class","Finalize","empty"
+"Benchmark","data-provider lazy-class","GetQuery","wrapper stateless"
+"Benchmark","data-provider lazy-class","DisplayName","get"
+"Benchmark","data-provider lazy-class","Group","get"
+"Benchmark","data-provider lazy-class","Subgroup","wrapper stateless"
+"Benchmark","data-provider lazy-class","GetInfo","property wrapper"
+"Benchmark","data-provider lazy-class","RequireReinit","incidental"
+"Benchmark","data-provider lazy-class","NRuns","get"
+"Benchmark","data-provider lazy-class","Timeout","get"
+"Benchmark","data-provider lazy-class","Benchmark::Benchmark","constructor"
+"DuckDBPreparedState","empty","DuckDBPreparedState","constructor"
+"DuckDBPreparedState","empty","~DuckDBPreparedState","destructor"
+"BenchmarkState","empty","~BenchmarkState","destructor"

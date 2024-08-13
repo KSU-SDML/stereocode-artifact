@@ -1,301 +1,280 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"i18N","empty","i18N","constructor",
-"WebUtil","empty","WebUtil","constructor",
-"ServerHelper","empty","ServerHelper","constructor",
-"PortReservedException","empty","PortReservedException","constructor",
-"PortReservedException","empty","PortReservedException","constructor",
-"PortInUseException","empty","PortInUseException","constructor",
-"PortInUseException","empty","PortInUseException","constructor",
-"PortHelper","empty","PortHelper","constructor",
-"WireGuardUtil","boundary degenerate","Edit","wrapper stateless",
-"WireGuardUtil","boundary degenerate","Create","wrapper stateless",
-"WireGuardUtil","boundary degenerate","GetShareLink","wrapper stateless",
-"WireGuardUtil","boundary degenerate","GetController","factory collaborator stateless",
-"WireGuardUtil","boundary degenerate","ParseUri","wrapper stateless",
-"WireGuardUtil","boundary degenerate","CheckServer","collaborator incidental",
-"Server","boundary","Clone","wrapper stateless",
-"Server","boundary","ToString","property wrapper",
-"Server","boundary","PingAsync","property set collaborator",
-"Profile","empty","Profile","constructor",
-"Profile","empty","Profile","constructor",
-"TrojanServer","commander lazy-class small-class","MaskedData","incidental",
-"TrojanServer","commander lazy-class small-class","set","set",
-"Setting","unclassified","ShallowCopy","wrapper stateless",
-"Setting","unclassified","Set","controller",
-"Setting","unclassified","set","set collaborator",
-"NumberRange","data-provider small-class","NumberRange","constructor",
-"NumberRange","data-provider small-class","InRange","predicate",
-"SyncGlobalCheckBox","commander","SyncGlobalCheckBox","constructor",
-"SyncGlobalCheckBox","commander","OnClick","command collaborator",
-"SyncGlobalCheckBox","commander","OnSyncGlobalChanged","unclassified",
-"SyncGlobalCheckBox","commander","set","set",
-"SyncGlobalCheckBox","commander","set","set",
-"SyncGlobalCheckBox","commander","set","incidental",
-"GitHubRelease","empty","GitHubRelease","constructor",
-"AboutForm","commander boundary","Dispose","command",
-"AboutForm","commander boundary","InitializeComponent","command",
-"AboutForm","commander boundary","AboutForm","constructor",
-"AboutForm","commander boundary","AboutForm_Load","wrapper",
-"AboutForm","commander boundary","NetchPictureBox_Click","wrapper stateless",
-"AboutForm","commander boundary","ChannelLabel_LinkClicked","wrapper stateless",
-"AboutForm","commander boundary","SponsorPictureBox_Click","wrapper stateless",
-"WireGuardServer","degenerate small-class","MaskedData","incidental",
-"TUNController","commander boundary","StartAsync","non-void-command collaborator",
-"TUNController","commander boundary","StopAsync","non-void-command collaborator",
-"TUNController","commander boundary","CheckDriver","wrapper stateless",
-"TUNController","commander boundary","SetupRouteTable","command collaborator",
-"TUNController","commander boundary","ClearRouteTable","command",
-"SettingForm","entity commander boundary","Dispose","command",
-"SettingForm","entity commander boundary","InitializeComponent","command",
-"SettingForm","entity commander boundary","SettingForm","constructor",
-"SettingForm","entity commander boundary","SettingForm_Load","command collaborator",
-"SettingForm","entity commander boundary","BindTextBox<T>","void-accessor command collaborator",
-"SettingForm","entity commander boundary","BindComboBox","non-void-command collaborator",
-"SettingForm","entity commander boundary","TUNTAPUseCustomDNSCheckBox_CheckedChanged","set collaborator",
-"SettingForm","entity commander boundary","GlobalBypassIPsButton_Click","wrapper stateless",
-"SettingForm","entity commander boundary","ControlButton_Click","command collaborator",
-"SSHUtil","boundary degenerate","Edit","wrapper stateless",
-"SSHUtil","boundary degenerate","Create","wrapper stateless",
-"SSHUtil","boundary degenerate","GetShareLink","wrapper stateless",
-"SSHUtil","boundary degenerate","GetController","factory collaborator stateless",
-"SSHUtil","boundary degenerate","ParseUri","wrapper stateless",
-"SSHUtil","boundary degenerate","CheckServer","collaborator incidental",
-"PcapController","commander boundary","PcapController","constructor",
-"PcapController","commander boundary","StartAsync","non-void-command collaborator",
-"PcapController","commander boundary","StopAsync","non-void-command collaborator",
-"PcapController","commander boundary","~PcapController","destructor",
-"PcapController","commander boundary","OnReadNewLine","command",
-"PcapController","commander boundary","OnStarted","command",
-"PcapController","commander boundary","OnStartFailed","wrapper stateless",
-"BindingForm","boundary","BindTextBox","wrapper stateless",
-"BindingForm","boundary","BindTextBox<T>","void-accessor command collaborator",
-"BindingForm","boundary","BindCheckBox","void-accessor command",
-"BindingForm","boundary","BindSyncGlobalCheckBox","void-accessor command",
-"BindingForm","boundary","BindRadioBox","void-accessor command",
-"BindingForm","boundary","BindListComboBox<T>","void-accessor command collaborator",
-"BindingForm","boundary","BindComboBox","void-accessor command collaborator",
-"BindingForm","boundary","GetInvalidateValueControls","property non-void-command collaborator",
-"BindingForm","boundary","Validate","get non-void-command collaborator",
-"BindingForm","boundary","SaveBinds","controller",
-"DNSController","boundary degenerate small-class","StartAsync","wrapper stateless",
-"DNSController","boundary degenerate small-class","StopAsync","wrapper stateless",
-"MainForm","commander boundary","Dispose","command",
-"MainForm","commander boundary","InitializeComponent","command",
-"MainForm","commander boundary","MainForm","constructor",
-"MainForm","commander boundary","AddAddServerToolStripMenuItems","command collaborator",
-"MainForm","commander boundary","MainForm_Load","command collaborator",
-"MainForm","commander boundary","RecordSize","command",
-"MainForm","commander boundary","TranslateControls","command",
-"MainForm","commander boundary","ImportServersFromClipboardToolStripMenuItem_Click","command collaborator",
-"MainForm","commander boundary","AddServerToolStripMenuItem_Click","command collaborator",
-"MainForm","commander boundary","CreateProcessModeToolStripButton_Click","wrapper stateless",
-"MainForm","commander boundary","createRouteTableModeToolStripMenuItem_Click","wrapper stateless",
-"MainForm","commander boundary","ReloadModesToolStripMenuItem_Click","wrapper stateless",
-"MainForm","commander boundary","ManageSubscriptionLinksToolStripMenuItem_Click","command collaborator",
-"MainForm","commander boundary","UpdateServersFromSubscriptionLinksToolStripMenuItem_Click","command collaborator",
-"MainForm","commander boundary","UpdateServersFromSubscriptionAsync","non-void-command collaborator",
-"MainForm","commander boundary","CheckForUpdatesToolStripMenuItem_Click","command collaborator",
-"MainForm","commander boundary","OpenDirectoryToolStripMenuItem_Click","wrapper stateless",
-"MainForm","commander boundary","CleanDNSCacheToolStripMenuItem_Click","command collaborator",
-"MainForm","commander boundary","UninstallServiceToolStripMenuItem_Click","command collaborator",
-"MainForm","commander boundary","RemoveNetchFirewallRulesToolStripMenuItem_Click","wrapper stateless",
-"MainForm","commander boundary","ShowHideConsoleToolStripMenuItem_Click","controller stateless",
-"MainForm","commander boundary","ForceExitToolStripMenuItem_Click","collaborator incidental",
-"MainForm","commander boundary","VersionLabel_Click","wrapper stateless",
-"MainForm","commander boundary","NewVersionLabel_Click","command collaborator",
-"MainForm","commander boundary","AboutToolStripButton_Click","wrapper stateless",
-"MainForm","commander boundary","fAQToolStripMenuItem_Click","wrapper stateless",
-"MainForm","commander boundary","ControlButton_Click","command collaborator",
-"MainForm","commander boundary","SettingsButton_Click","command collaborator",
-"MainForm","commander boundary","LoadServers","command",
-"MainForm","commander boundary","SelectLastServer","set",
-"MainForm","commander boundary","ServerComboBox_SelectionChangeCommitted","collaborator",
-"MainForm","commander boundary","EditServerPictureBox_Click","command collaborator",
-"MainForm","commander boundary","SpeedPictureBox_Click","command collaborator",
-"MainForm","commander boundary","CopyLinkPictureBox_Click","wrapper",
-"MainForm","commander boundary","DeleteServerPictureBox_Click","command collaborator",
-"MainForm","commander boundary","LoadModes","command",
-"MainForm","commander boundary","SelectLastMode","set",
-"MainForm","commander boundary","ModeComboBox_SelectionChangeCommitted","wrapper",
-"MainForm","commander boundary","EditModePictureBox_Click","wrapper",
-"MainForm","commander boundary","DeleteModePictureBox_Click","command collaborator",
-"MainForm","commander boundary","LoadProfiles","command collaborator",
-"MainForm","commander boundary","ProfileButton_Click","command collaborator",
-"MainForm","commander boundary","StopAsync","non-void-command collaborator",
-"MainForm","commander boundary","StopCoreAsync","wrapper",
-"MainForm","commander boundary","StatusText","set",
-"MainForm","commander boundary","BandwidthState","set",
-"MainForm","commander boundary","UpdateNatTypeStatusLabelText","command",
-"MainForm","commander boundary","ConnectivityStatusVisible","command",
-"MainForm","commander boundary","UpdateNatTypeLight","command collaborator",
-"MainForm","commander boundary","TcpStatusLabel_Click","command collaborator",
-"MainForm","commander boundary","NatTypeStatusLabel_Click","command collaborator",
-"MainForm","commander boundary","DiscoveryNatTypeAsync","non-void-command collaborator",
-"MainForm","commander boundary","HttpConnectAsync","non-void-command collaborator",
-"MainForm","commander boundary","SystemEvents_PowerModeChanged","command collaborator",
-"MainForm","commander boundary","Minimize","set",
-"MainForm","commander boundary","Exit","command collaborator",
-"MainForm","commander boundary","MainForm_FormClosing","void-accessor command collaborator",
-"MainForm","commander boundary","CheckUpdateAsync","wrapper stateless",
-"MainForm","commander boundary","OnBandwidthUpdated","command",
-"MainForm","commander boundary","ShowMainFormToolStripButton_Click","wrapper stateless",
-"MainForm","commander boundary","ExitToolStripButton_Click","collaborator incidental",
-"MainForm","commander boundary","NotifyIcon_MouseDoubleClick","command collaborator",
-"MainForm","commander boundary","NotifyTip","command",
-"MainForm","commander boundary","ComboBox_DrawItem","void-accessor controller",
-"MainForm","commander boundary","set","non-void-command collaborator",
-"ShadowsocksRController","empty","ShadowsocksRController","constructor",
-"ModeConverterWithTypeDiscriminator","degenerate small-class","Read","controller stateless",
-"ModeConverterWithTypeDiscriminator","degenerate small-class","Write","wrapper stateless",
-"SuffixVersion","entity boundary","SuffixVersion","constructor",
-"SuffixVersion","entity boundary","SuffixVersion","constructor",
-"SuffixVersion","entity boundary","CompareTo","property non-void-command collaborator",
-"SuffixVersion","entity boundary","CompareTo","get property non-void-command collaborator",
-"SuffixVersion","entity boundary","ToString","property non-void-command collaborator",
-"Socks5Server","data-provider small-class","MaskedData","incidental",
-"Socks5Server","data-provider small-class","Socks5Server","constructor",
-"Socks5Server","data-provider small-class","Socks5Server","constructor",
-"Socks5Server","data-provider small-class","Socks5Server","constructor",
-"Socks5Server","data-provider small-class","Socks5Server","constructor",
-"Socks5Server","data-provider small-class","Auth","predicate wrapper",
-"Guard","commander boundary small-class","Guard","constructor",
-"Guard","commander boundary small-class","StartGuardAsync","non-void-command collaborator",
-"Guard","commander boundary small-class","ReadOutputAsync","non-void-command collaborator",
-"RouteForm","commander boundary","Dispose","command",
-"RouteForm","commander boundary","InitializeComponent","command",
-"RouteForm","commander boundary","RouteForm","constructor",
-"RouteForm","commander boundary","Route_Load","command collaborator",
-"RouteForm","commander boundary","ControlButton_Click","command collaborator",
-"RouteForm","commander boundary","RemarkTextBox_TextChanged","set collaborator",
-"NetRoute","boundary degenerate small-class","FillTemplate","wrapper stateless",
-"ServerForm","commander boundary","ServerForm","constructor",
-"ServerForm","commander boundary","ShowDialog","non-void-command collaborator",
-"ServerForm","commander boundary","Show","non-void-command collaborator",
-"ServerForm","commander boundary","AfterFactor","command",
-"ServerForm","commander boundary","CreateComboBox","command collaborator",
-"ServerForm","commander boundary","CreateCheckBox","command collaborator",
-"ServerForm","commander boundary","AddSaveButton","set collaborator",
-"ServerForm","commander boundary","ControlButton_Click","command collaborator",
-"ServerForm","commander boundary","Dispose","command",
-"ServerForm","commander boundary","InitializeComponent","command",
-"SubscriptionForm","entity boundary","Dispose","command",
-"SubscriptionForm","entity boundary","InitializeComponent","command",
-"SubscriptionForm","entity boundary","SubscriptionForm","constructor",
-"SubscriptionForm","entity boundary","SubscriptionLinkListView_MouseUp","void-accessor command collaborator",
-"SubscriptionForm","entity boundary","SubscriptionLinkListView_SelectedIndexChanged","wrapper stateless",
-"SubscriptionForm","entity boundary","SubscriptionLinkListView_ItemChecked","collaborator",
-"SubscriptionForm","entity boundary","SubscriptionForm_FormClosing","wrapper stateless",
-"SubscriptionForm","entity boundary","UnselectButton_Click","wrapper stateless",
-"SubscriptionForm","entity boundary","AddButton_Click","command collaborator",
-"SubscriptionForm","entity boundary","get","property",
-"Global","pure-controller degenerate small-class","Global","constructor",
-"Global","pure-controller degenerate small-class","Test","incidental",
-"Global","pure-controller degenerate small-class","VLESS_UUID5","controller stateless",
-"ProcessForm","commander boundary","Dispose","command",
-"ProcessForm","commander boundary","InitializeComponent","command",
-"ProcessForm","commander boundary","ProcessForm","constructor",
-"ProcessForm","commander boundary","InitBindings","command",
-"ProcessForm","commander boundary","ModeForm_Load","command collaborator",
-"ProcessForm","commander boundary","SelectButton_Click","controller",
-"ProcessForm","commander boundary","ControlButton_Click","command collaborator",
-"ProcessForm","commander boundary","RemarkTextBox_TextChanged","set collaborator",
-"ProcessForm","commander boundary","ScanButton_Click","command collaborator",
-"ProcessForm","commander boundary","ScanDirectory","command collaborator",
-"ProcessForm","commander boundary","ValidationButton_Click","wrapper stateless",
-"ModeHelper","empty","ModeHelper","constructor",
-"TagItem<T>","empty","TagItem","constructor",
-"ShadowsocksController","empty","ShadowsocksController","constructor",
-"Resources","data-provider boundary","Resources","constructor",
-"Resources","data-provider boundary","get","get set collaborator",
-"Resources","data-provider boundary","get","get collaborator",
-"Resources","data-provider boundary","set","set collaborator",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"ShadowsocksUtil","boundary degenerate","Edit","wrapper stateless",
-"ShadowsocksUtil","boundary degenerate","Create","wrapper stateless",
-"ShadowsocksUtil","boundary degenerate","GetShareLink","wrapper stateless",
-"ShadowsocksUtil","boundary degenerate","GetController","factory collaborator stateless",
-"ShadowsocksUtil","boundary degenerate","ParseUri","property non-void-command factory collaborator",
-"ShadowsocksUtil","boundary degenerate","CheckServer","wrapper stateless",
-"ShadowsocksUtil","boundary degenerate","ParseSsdUri","controller stateless",
-"ShadowsocksUtil","boundary degenerate","ParseSsUri","property non-void-command collaborator",
-"ShadowsocksRUtil","boundary degenerate","Edit","wrapper stateless",
-"ShadowsocksRUtil","boundary degenerate","Create","wrapper stateless",
-"ShadowsocksRUtil","boundary degenerate","GetShareLink","collaborator incidental",
-"NFController","unclassified","StartAsync","non-void-command collaborator",
-"NFController","unclassified","StopAsync","wrapper stateless",
-"NFController","unclassified","DialRule","controller",
-"SSHServer","degenerate small-class","MaskedData","incidental",
-"VMessUtil","boundary degenerate","Edit","wrapper stateless",
-"VMessUtil","boundary degenerate","Create","wrapper stateless",
-"VMessUtil","boundary degenerate","GetShareLink","wrapper stateless",
-"VMessUtil","boundary degenerate","GetController","factory collaborator stateless",
-"VMessUtil","boundary degenerate","ParseUri","factory controller stateless",
-"VMessUtil","boundary degenerate","CheckServer","collaborator incidental",
-"ShadowsocksServer","data-provider small-class","MaskedData","incidental",
-"ShadowsocksServer","data-provider small-class","HasPlugin","predicate wrapper",
-"StatusPortInfoText","controller small-class","get","property controller",
-"ShadowsocksRServer","degenerate small-class","MaskedData","incidental",
-"Socks5Controller","entity boundary small-class","StartAsync","property non-void-command collaborator",
-"Socks5Form","lazy-class small-class","AddressTextBoxOnTextChanged","set collaborator",
-"Socks5Form","lazy-class small-class","IsPrivateAddress","controller stateless",
-"TrojanController","entity factory controller small-class","TrojanController","constructor",
-"TrojanController","entity factory controller small-class","StartAsync","property non-void-command factory collaborator",
-"VMessServer","small-class","MaskedData","property collaborator",
-"VMessServer","small-class","set","set",
-"LogForm","commander boundary","Dispose","command",
-"LogForm","commander boundary","InitializeComponent","command",
-"LogForm","commander boundary","LogForm","constructor",
-"LogForm","commander boundary","OnLoad","command collaborator",
-"LogForm","commander boundary","Parent_Move","collaborator",
-"LogForm","commander boundary","Parent_Activated","wrapper stateless",
-"LogForm","commander boundary","richTextBox1_TextChanged","wrapper stateless",
-"LogForm","commander boundary","LogForm_Load","command collaborator",
-"LogForm","commander boundary","Parent_VisibleChanged","collaborator",
-"LogForm","commander boundary","OnClosing","command collaborator",
-"TrojanUtil","boundary degenerate","Edit","wrapper stateless",
-"TrojanUtil","boundary degenerate","Create","wrapper stateless",
-"TrojanUtil","boundary degenerate","GetShareLink","collaborator incidental",
-"TrojanUtil","boundary degenerate","GetController","factory collaborator stateless",
-"TrojanUtil","boundary degenerate","ParseUri","factory controller stateless",
-"TrojanUtil","boundary degenerate","CheckServer","collaborator incidental",
-"MessageException","empty","MessageException","constructor",
-"MessageException","empty","MessageException","constructor",
-"Socks5Util","boundary degenerate","Edit","wrapper stateless",
-"Socks5Util","boundary degenerate","Create","wrapper stateless",
-"Socks5Util","boundary degenerate","GetShareLink","collaborator incidental",
-"GlobalBypassIPForm","commander boundary","Dispose","command",
-"GlobalBypassIPForm","commander boundary","InitializeComponent","command collaborator",
-"GlobalBypassIPForm","commander boundary","GlobalBypassIPForm","constructor",
-"GlobalBypassIPForm","commander boundary","GlobalBypassIPForm_Load","command collaborator",
-"GlobalBypassIPForm","commander boundary","AddButton_Click","command collaborator",
-"GlobalBypassIPForm","commander boundary","DeleteButton_Click","command collaborator",
-"GlobalBypassIPForm","commander boundary","ControlButton_Click","wrapper",
-"Updater","unclassified","Updater","constructor",
-"Updater","unclassified","ApplyUpdate","command collaborator",
-"Updater","unclassified","MarkFilesOld","command collaborator",
-"Updater","unclassified","Extract","property controller",
-"V2rayController","empty","V2rayController","constructor",
-"VLESSUtil","boundary degenerate","Edit","wrapper stateless",
-"VLESSUtil","boundary degenerate","Create","wrapper stateless",
-"VLESSUtil","boundary degenerate","GetShareLink","wrapper stateless",
-"VLESSUtil","boundary degenerate","GetController","factory collaborator stateless",
-"VLESSUtil","boundary degenerate","ParseUri","wrapper stateless",
-"VLESSUtil","boundary degenerate","CheckServer","collaborator incidental",
-"ModeService","commander boundary","GetRelativePath","controller stateless",
-"ModeService","commander boundary","GetFullPath","wrapper stateless",
-"ModeService","commander boundary","Load","command",
-"ModeService","commander boundary","LoadCore","command collaborator",
-"ModeService","commander boundary","Add","command collaborator",
-"ModeService","commander boundary","Sort","wrapper stateless",
-"ServerConverterWithTypeDiscriminator","degenerate small-class","Read","controller stateless",
-"ServerConverterWithTypeDiscriminator","degenerate small-class","Write","wrapper stateless",
-"Configuration","empty","Configuration","constructor",
-"DelayTestHelper","commander data-class small-class","DelayTestHelper","constructor",
-"DelayTestHelper","commander data-class small-class","set","set",
+"ShadowsocksRServer","degenerate small-class","MaskedData","incidental"
+"ShadowsocksUtil","boundary degenerate","Edit","wrapper stateless"
+"ShadowsocksUtil","boundary degenerate","Create","wrapper stateless"
+"ShadowsocksUtil","boundary degenerate","GetShareLink","wrapper stateless"
+"ShadowsocksUtil","boundary degenerate","GetController","factory collaborator stateless"
+"ShadowsocksUtil","boundary degenerate","ParseUri","property non-void-command factory collaborator"
+"ShadowsocksUtil","boundary degenerate","CheckServer","wrapper stateless"
+"ShadowsocksUtil","boundary degenerate","ParseSsdUri","controller stateless"
+"ShadowsocksUtil","boundary degenerate","ParseSsUri","property non-void-command collaborator"
+"ShadowsocksRUtil","boundary degenerate","Edit","wrapper stateless"
+"ShadowsocksRUtil","boundary degenerate","Create","wrapper stateless"
+"ShadowsocksRUtil","boundary degenerate","GetShareLink","collaborator incidental"
+"Resources","empty","Resources","constructor"
+"ShadowsocksController","empty","ShadowsocksController","constructor"
+"DNSController","boundary degenerate small-class","StartAsync","wrapper stateless"
+"DNSController","boundary degenerate small-class","StopAsync","wrapper stateless"
+"SSHServer","degenerate small-class","MaskedData","incidental"
+"VMessUtil","boundary degenerate","Edit","wrapper stateless"
+"VMessUtil","boundary degenerate","Create","wrapper stateless"
+"VMessUtil","boundary degenerate","GetShareLink","wrapper stateless"
+"VMessUtil","boundary degenerate","GetController","factory collaborator stateless"
+"VMessUtil","boundary degenerate","ParseUri","factory controller stateless"
+"VMessUtil","boundary degenerate","CheckServer","collaborator incidental"
+"WireGuardUtil","boundary degenerate","Edit","wrapper stateless"
+"WireGuardUtil","boundary degenerate","Create","wrapper stateless"
+"WireGuardUtil","boundary degenerate","GetShareLink","wrapper stateless"
+"WireGuardUtil","boundary degenerate","GetController","factory collaborator stateless"
+"WireGuardUtil","boundary degenerate","ParseUri","wrapper stateless"
+"WireGuardUtil","boundary degenerate","CheckServer","collaborator incidental"
+"Server","boundary","Clone","wrapper stateless"
+"Server","boundary","ToString","property wrapper"
+"Server","boundary","PingAsync","property set collaborator"
+"Profile","empty","Profile","constructor"
+"Profile","empty","Profile","constructor"
+"Global","pure-controller degenerate small-class","Test","incidental"
+"Global","pure-controller degenerate small-class","VLESS_UUID5","controller stateless"
+"NumberRange","data-provider small-class","NumberRange","constructor"
+"NumberRange","data-provider small-class","InRange","predicate"
+"ProcessForm","commander boundary","Dispose","command"
+"ProcessForm","commander boundary","InitializeComponent","command"
+"ProcessForm","commander boundary","ProcessForm","constructor"
+"ProcessForm","commander boundary","InitBindings","command"
+"ProcessForm","commander boundary","ModeForm_Load","command collaborator"
+"ProcessForm","commander boundary","SelectButton_Click","controller"
+"ProcessForm","commander boundary","ControlButton_Click","command collaborator"
+"ProcessForm","commander boundary","RemarkTextBox_TextChanged","set collaborator"
+"ProcessForm","commander boundary","ScanButton_Click","command collaborator"
+"ProcessForm","commander boundary","ScanDirectory","command collaborator"
+"ProcessForm","commander boundary","ValidationButton_Click","wrapper stateless"
+"MainForm","commander boundary","Dispose","command"
+"MainForm","commander boundary","InitializeComponent","command"
+"MainForm","commander boundary","MainForm","constructor"
+"MainForm","commander boundary","AddAddServerToolStripMenuItems","command collaborator"
+"MainForm","commander boundary","MainForm_Load","command collaborator"
+"MainForm","commander boundary","RecordSize","command"
+"MainForm","commander boundary","TranslateControls","command"
+"MainForm","commander boundary","ImportServersFromClipboardToolStripMenuItem_Click","command collaborator"
+"MainForm","commander boundary","AddServerToolStripMenuItem_Click","command collaborator"
+"MainForm","commander boundary","CreateProcessModeToolStripButton_Click","wrapper stateless"
+"MainForm","commander boundary","createRouteTableModeToolStripMenuItem_Click","wrapper stateless"
+"MainForm","commander boundary","ReloadModesToolStripMenuItem_Click","wrapper stateless"
+"MainForm","commander boundary","ManageSubscriptionLinksToolStripMenuItem_Click","command collaborator"
+"MainForm","commander boundary","UpdateServersFromSubscriptionLinksToolStripMenuItem_Click","command collaborator"
+"MainForm","commander boundary","UpdateServersFromSubscriptionAsync","non-void-command collaborator"
+"MainForm","commander boundary","CheckForUpdatesToolStripMenuItem_Click","command collaborator"
+"MainForm","commander boundary","OpenDirectoryToolStripMenuItem_Click","wrapper stateless"
+"MainForm","commander boundary","CleanDNSCacheToolStripMenuItem_Click","command collaborator"
+"MainForm","commander boundary","UninstallServiceToolStripMenuItem_Click","command collaborator"
+"MainForm","commander boundary","RemoveNetchFirewallRulesToolStripMenuItem_Click","wrapper stateless"
+"MainForm","commander boundary","ShowHideConsoleToolStripMenuItem_Click","controller stateless"
+"MainForm","commander boundary","ForceExitToolStripMenuItem_Click","collaborator incidental"
+"MainForm","commander boundary","VersionLabel_Click","wrapper stateless"
+"MainForm","commander boundary","NewVersionLabel_Click","command collaborator"
+"MainForm","commander boundary","AboutToolStripButton_Click","wrapper stateless"
+"MainForm","commander boundary","fAQToolStripMenuItem_Click","wrapper stateless"
+"MainForm","commander boundary","ControlButton_Click","command collaborator"
+"MainForm","commander boundary","SettingsButton_Click","command collaborator"
+"MainForm","commander boundary","LoadServers","command"
+"MainForm","commander boundary","SelectLastServer","set"
+"MainForm","commander boundary","ServerComboBox_SelectionChangeCommitted","collaborator"
+"MainForm","commander boundary","EditServerPictureBox_Click","command collaborator"
+"MainForm","commander boundary","SpeedPictureBox_Click","command collaborator"
+"MainForm","commander boundary","CopyLinkPictureBox_Click","wrapper"
+"MainForm","commander boundary","DeleteServerPictureBox_Click","command collaborator"
+"MainForm","commander boundary","LoadModes","command"
+"MainForm","commander boundary","SelectLastMode","set"
+"MainForm","commander boundary","ModeComboBox_SelectionChangeCommitted","wrapper"
+"MainForm","commander boundary","EditModePictureBox_Click","wrapper"
+"MainForm","commander boundary","DeleteModePictureBox_Click","command collaborator"
+"MainForm","commander boundary","LoadProfiles","command collaborator"
+"MainForm","commander boundary","ProfileButton_Click","command collaborator"
+"MainForm","commander boundary","StopAsync","non-void-command collaborator"
+"MainForm","commander boundary","StopCoreAsync","wrapper"
+"MainForm","commander boundary","StatusText","set"
+"MainForm","commander boundary","BandwidthState","set"
+"MainForm","commander boundary","UpdateNatTypeStatusLabelText","command"
+"MainForm","commander boundary","ConnectivityStatusVisible","command"
+"MainForm","commander boundary","UpdateNatTypeLight","command collaborator"
+"MainForm","commander boundary","TcpStatusLabel_Click","command collaborator"
+"MainForm","commander boundary","NatTypeStatusLabel_Click","command collaborator"
+"MainForm","commander boundary","DiscoveryNatTypeAsync","non-void-command collaborator"
+"MainForm","commander boundary","HttpConnectAsync","non-void-command collaborator"
+"MainForm","commander boundary","SystemEvents_PowerModeChanged","command collaborator"
+"MainForm","commander boundary","Minimize","set"
+"MainForm","commander boundary","Exit","command collaborator"
+"MainForm","commander boundary","MainForm_FormClosing","void-accessor command collaborator"
+"MainForm","commander boundary","CheckUpdateAsync","wrapper stateless"
+"MainForm","commander boundary","OnBandwidthUpdated","command"
+"MainForm","commander boundary","ShowMainFormToolStripButton_Click","wrapper stateless"
+"MainForm","commander boundary","ExitToolStripButton_Click","collaborator incidental"
+"MainForm","commander boundary","NotifyIcon_MouseDoubleClick","command collaborator"
+"MainForm","commander boundary","NotifyTip","command"
+"MainForm","commander boundary","ComboBox_DrawItem","controller"
+"MainForm","commander boundary","set","non-void-command collaborator"
+"TagItem<T>","empty","TagItem","constructor"
+"ServerForm","commander boundary","ServerForm","constructor"
+"ServerForm","commander boundary","ShowDialog","non-void-command collaborator"
+"ServerForm","commander boundary","Show","non-void-command collaborator"
+"ServerForm","commander boundary","AfterFactor","command"
+"ServerForm","commander boundary","CreateComboBox","command collaborator"
+"ServerForm","commander boundary","CreateCheckBox","command collaborator"
+"ServerForm","commander boundary","AddSaveButton","set collaborator"
+"ServerForm","commander boundary","ControlButton_Click","command collaborator"
+"ServerForm","commander boundary","Dispose","command"
+"ServerForm","commander boundary","InitializeComponent","command"
+"AboutForm","commander boundary","Dispose","command"
+"AboutForm","commander boundary","InitializeComponent","command"
+"AboutForm","commander boundary","AboutForm","constructor"
+"AboutForm","commander boundary","AboutForm_Load","wrapper"
+"AboutForm","commander boundary","NetchPictureBox_Click","wrapper stateless"
+"AboutForm","commander boundary","ChannelLabel_LinkClicked","wrapper stateless"
+"AboutForm","commander boundary","SponsorPictureBox_Click","wrapper stateless"
+"TUNController","commander boundary","StartAsync","non-void-command collaborator"
+"TUNController","commander boundary","StopAsync","non-void-command collaborator"
+"TUNController","commander boundary","CheckDriver","wrapper stateless"
+"TUNController","commander boundary","SetupRouteTable","command collaborator"
+"TUNController","commander boundary","ClearRouteTable","command"
+"SettingForm","entity commander boundary","Dispose","command"
+"SettingForm","entity commander boundary","InitializeComponent","command"
+"SettingForm","entity commander boundary","SettingForm","constructor"
+"SettingForm","entity commander boundary","SettingForm_Load","command collaborator"
+"SettingForm","entity commander boundary","BindTextBox<T>","void-accessor command collaborator"
+"SettingForm","entity commander boundary","BindComboBox","non-void-command collaborator"
+"SettingForm","entity commander boundary","TUNTAPUseCustomDNSCheckBox_CheckedChanged","set collaborator"
+"SettingForm","entity commander boundary","GlobalBypassIPsButton_Click","wrapper stateless"
+"SettingForm","entity commander boundary","ControlButton_Click","command collaborator"
+"PcapController","commander boundary","PcapController","constructor"
+"PcapController","commander boundary","StartAsync","non-void-command collaborator"
+"PcapController","commander boundary","StopAsync","non-void-command collaborator"
+"PcapController","commander boundary","~PcapController","destructor"
+"PcapController","commander boundary","OnReadNewLine","command"
+"PcapController","commander boundary","OnStarted","command"
+"PcapController","commander boundary","OnStartFailed","wrapper stateless"
+"Setting","unclassified","ShallowCopy","wrapper stateless"
+"Setting","unclassified","Set","controller"
+"Setting","unclassified","set","set collaborator"
+"ShadowsocksRController","empty","ShadowsocksRController","constructor"
+"PortReservedException","empty","PortReservedException","constructor"
+"PortReservedException","empty","PortReservedException","constructor"
+"SyncGlobalCheckBox","commander","SyncGlobalCheckBox","constructor"
+"SyncGlobalCheckBox","commander","OnClick","command collaborator"
+"SyncGlobalCheckBox","commander","OnSyncGlobalChanged","unclassified"
+"SyncGlobalCheckBox","commander","set","set"
+"SyncGlobalCheckBox","commander","set","set"
+"SyncGlobalCheckBox","commander","set","incidental"
+"RouteForm","commander boundary","Dispose","command"
+"RouteForm","commander boundary","InitializeComponent","command"
+"RouteForm","commander boundary","RouteForm","constructor"
+"RouteForm","commander boundary","Route_Load","command collaborator"
+"RouteForm","commander boundary","ControlButton_Click","command collaborator"
+"RouteForm","commander boundary","RemarkTextBox_TextChanged","set collaborator"
+"NetRoute","boundary degenerate small-class","FillTemplate","wrapper stateless"
+"Socks5Server","data-provider small-class","MaskedData","incidental"
+"Socks5Server","data-provider small-class","Socks5Server","constructor"
+"Socks5Server","data-provider small-class","Socks5Server","constructor"
+"Socks5Server","data-provider small-class","Socks5Server","constructor"
+"Socks5Server","data-provider small-class","Socks5Server","constructor"
+"Socks5Server","data-provider small-class","Auth","predicate wrapper"
+"Guard","commander boundary small-class","Guard","constructor"
+"Guard","commander boundary small-class","StartGuardAsync","non-void-command collaborator"
+"Guard","commander boundary small-class","ReadOutputAsync","non-void-command collaborator"
+"BindingForm","boundary","BindTextBox","wrapper stateless"
+"BindingForm","boundary","BindTextBox<T>","void-accessor command collaborator"
+"BindingForm","boundary","BindCheckBox","void-accessor command"
+"BindingForm","boundary","BindSyncGlobalCheckBox","void-accessor command"
+"BindingForm","boundary","BindRadioBox","void-accessor command"
+"BindingForm","boundary","BindListComboBox<T>","void-accessor command collaborator"
+"BindingForm","boundary","BindComboBox","void-accessor command collaborator"
+"BindingForm","boundary","GetInvalidateValueControls","property non-void-command collaborator"
+"BindingForm","boundary","Validate","get non-void-command collaborator"
+"BindingForm","boundary","SaveBinds","controller"
+"SubscriptionForm","entity commander boundary","Dispose","command"
+"SubscriptionForm","entity commander boundary","InitializeComponent","command"
+"SubscriptionForm","entity commander boundary","SubscriptionForm","constructor"
+"SubscriptionForm","entity commander boundary","SubscriptionLinkListView_MouseUp","command collaborator"
+"SubscriptionForm","entity commander boundary","SubscriptionLinkListView_SelectedIndexChanged","wrapper stateless"
+"SubscriptionForm","entity commander boundary","SubscriptionLinkListView_ItemChecked","collaborator"
+"SubscriptionForm","entity commander boundary","SubscriptionForm_FormClosing","wrapper stateless"
+"SubscriptionForm","entity commander boundary","UnselectButton_Click","wrapper stateless"
+"SubscriptionForm","entity commander boundary","AddButton_Click","command collaborator"
+"SubscriptionForm","entity commander boundary","get","property"
+"ShadowsocksServer","data-provider small-class","MaskedData","incidental"
+"ShadowsocksServer","data-provider small-class","HasPlugin","predicate wrapper"
+"ModeConverterWithTypeDiscriminator","degenerate small-class","Read","controller stateless"
+"ModeConverterWithTypeDiscriminator","degenerate small-class","Write","wrapper stateless"
+"PortInUseException","empty","PortInUseException","constructor"
+"PortInUseException","empty","PortInUseException","constructor"
+"ServerConverterWithTypeDiscriminator","degenerate small-class","Read","controller stateless"
+"ServerConverterWithTypeDiscriminator","degenerate small-class","Write","wrapper stateless"
+"SSHUtil","boundary degenerate","Edit","wrapper stateless"
+"SSHUtil","boundary degenerate","Create","wrapper stateless"
+"SSHUtil","boundary degenerate","GetShareLink","wrapper stateless"
+"SSHUtil","boundary degenerate","GetController","factory collaborator stateless"
+"SSHUtil","boundary degenerate","ParseUri","wrapper stateless"
+"SSHUtil","boundary degenerate","CheckServer","collaborator incidental"
+"WireGuardServer","degenerate small-class","MaskedData","incidental"
+"GitHubRelease","empty","GitHubRelease","constructor"
+"TrojanServer","commander lazy-class small-class","MaskedData","incidental"
+"TrojanServer","commander lazy-class small-class","set","set"
+"Socks5Controller","entity boundary small-class","StartAsync","property non-void-command collaborator"
+"Socks5Form","lazy-class small-class","AddressTextBoxOnTextChanged","set collaborator"
+"Socks5Form","lazy-class small-class","IsPrivateAddress","controller stateless"
+"Socks5Util","boundary degenerate","Edit","wrapper stateless"
+"Socks5Util","boundary degenerate","Create","wrapper stateless"
+"Socks5Util","boundary degenerate","GetShareLink","collaborator incidental"
+"TrojanController","entity factory controller small-class","TrojanController","constructor"
+"TrojanController","entity factory controller small-class","StartAsync","property non-void-command factory collaborator"
+"VMessServer","small-class","MaskedData","property collaborator"
+"VMessServer","small-class","set","set"
+"LogForm","commander boundary","Dispose","command"
+"LogForm","commander boundary","InitializeComponent","command"
+"LogForm","commander boundary","LogForm","constructor"
+"LogForm","commander boundary","OnLoad","command collaborator"
+"LogForm","commander boundary","Parent_Move","collaborator"
+"LogForm","commander boundary","Parent_Activated","wrapper stateless"
+"LogForm","commander boundary","richTextBox1_TextChanged","wrapper stateless"
+"LogForm","commander boundary","LogForm_Load","command collaborator"
+"LogForm","commander boundary","Parent_VisibleChanged","collaborator"
+"LogForm","commander boundary","OnClosing","command collaborator"
+"TrojanUtil","boundary degenerate","Edit","wrapper stateless"
+"TrojanUtil","boundary degenerate","Create","wrapper stateless"
+"TrojanUtil","boundary degenerate","GetShareLink","collaborator incidental"
+"TrojanUtil","boundary degenerate","GetController","factory collaborator stateless"
+"TrojanUtil","boundary degenerate","ParseUri","factory controller stateless"
+"TrojanUtil","boundary degenerate","CheckServer","collaborator incidental"
+"MessageException","empty","MessageException","constructor"
+"MessageException","empty","MessageException","constructor"
+"GlobalBypassIPForm","commander boundary","Dispose","command"
+"GlobalBypassIPForm","commander boundary","InitializeComponent","command collaborator"
+"GlobalBypassIPForm","commander boundary","GlobalBypassIPForm","constructor"
+"GlobalBypassIPForm","commander boundary","GlobalBypassIPForm_Load","command collaborator"
+"GlobalBypassIPForm","commander boundary","AddButton_Click","command collaborator"
+"GlobalBypassIPForm","commander boundary","DeleteButton_Click","command collaborator"
+"GlobalBypassIPForm","commander boundary","ControlButton_Click","wrapper"
+"Updater","unclassified","Updater","constructor"
+"Updater","unclassified","ApplyUpdate","command collaborator"
+"Updater","unclassified","MarkFilesOld","command collaborator"
+"Updater","unclassified","Extract","property controller"
+"V2rayController","empty","V2rayController","constructor"
+"VLESSUtil","boundary degenerate","Edit","wrapper stateless"
+"VLESSUtil","boundary degenerate","Create","wrapper stateless"
+"VLESSUtil","boundary degenerate","GetShareLink","wrapper stateless"
+"VLESSUtil","boundary degenerate","GetController","factory collaborator stateless"
+"VLESSUtil","boundary degenerate","ParseUri","wrapper stateless"
+"VLESSUtil","boundary degenerate","CheckServer","collaborator incidental"
+"ModeService","commander boundary","GetRelativePath","controller stateless"
+"ModeService","commander boundary","GetFullPath","wrapper stateless"
+"ModeService","commander boundary","Load","command"
+"ModeService","commander boundary","LoadCore","command collaborator"
+"ModeService","commander boundary","Add","command collaborator"
+"ModeService","commander boundary","Sort","wrapper stateless"
+"SuffixVersion","entity boundary","SuffixVersion","constructor"
+"SuffixVersion","entity boundary","SuffixVersion","constructor"
+"SuffixVersion","entity boundary","CompareTo","property non-void-command collaborator"
+"SuffixVersion","entity boundary","CompareTo","get property non-void-command collaborator"
+"SuffixVersion","entity boundary","ToString","property non-void-command collaborator"
+"NFController","unclassified","StartAsync","non-void-command collaborator"
+"NFController","unclassified","StopAsync","wrapper stateless"
+"NFController","unclassified","DialRule","controller"

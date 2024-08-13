@@ -1,261 +1,245 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"WalksBase","empty","WalksBase","constructor",
-"TaskView","unclassified","TaskView","constructor",
-"TaskView","unclassified","ID","incidental",
-"TaskView","unclassified","CheckFeature","predicate wrapper",
-"TaskView","unclassified","DoFeature","predicate non-void-command",
-"TaskView","unclassified","UndoFeature","predicate non-void-command",
-"MostUsedApps","unclassified","MostUsedApps","constructor",
-"MostUsedApps","unclassified","ID","incidental",
-"MostUsedApps","unclassified","CheckFeature","predicate wrapper",
-"MostUsedApps","unclassified","DoFeature","predicate non-void-command",
-"MostUsedApps","unclassified","UndoFeature","predicate non-void-command collaborator",
-"XPSWriter","boundary","XPSWriter","constructor",
-"XPSWriter","boundary","ID","incidental",
-"XPSWriter","boundary","CheckFeature","controller stateless",
-"XPSWriter","boundary","DoFeature","predicate non-void-command collaborator",
-"XPSWriter","boundary","UndoFeature","predicate non-void-command collaborator",
-"LockScreen","unclassified","LockScreen","constructor",
-"LockScreen","unclassified","ID","incidental",
-"LockScreen","unclassified","CheckFeature","predicate wrapper",
-"LockScreen","unclassified","DoFeature","predicate non-void-command",
-"LockScreen","unclassified","UndoFeature","predicate non-void-command",
-"FullContextMenus","unclassified","FullContextMenus","constructor",
-"FullContextMenus","unclassified","ID","incidental",
-"FullContextMenus","unclassified","CheckFeature","predicate non-void-command collaborator",
-"FullContextMenus","unclassified","DoFeature","predicate non-void-command",
-"FullContextMenus","unclassified","UndoFeature","predicate non-void-command",
-"FaxPrinter","pure-controller degenerate","FaxPrinter","constructor",
-"FaxPrinter","pure-controller degenerate","ID","incidental",
-"FaxPrinter","pure-controller degenerate","CheckFeature","incidental",
-"FaxPrinter","pure-controller degenerate","DoFeature","controller stateless",
-"FaxPrinter","pure-controller degenerate","UndoFeature","incidental",
-"Telemetry","unclassified","Telemetry","constructor",
-"Telemetry","unclassified","CheckFeature","predicate wrapper",
-"Telemetry","unclassified","DoFeature","predicate non-void-command",
-"Telemetry","unclassified","UndoFeature","predicate non-void-command",
-"PrivacyExperience","unclassified","PrivacyExperience","constructor",
-"PrivacyExperience","unclassified","CheckFeature","predicate wrapper",
-"PrivacyExperience","unclassified","DoFeature","predicate non-void-command",
-"PrivacyExperience","unclassified","UndoFeature","predicate non-void-command",
-"FindMyDevice","unclassified","FindMyDevice","constructor",
-"FindMyDevice","unclassified","ID","incidental",
-"FindMyDevice","unclassified","CheckFeature","predicate wrapper",
-"FindMyDevice","unclassified","DoFeature","predicate non-void-command",
-"FindMyDevice","unclassified","UndoFeature","predicate non-void-command",
-"DiagnosticData","unclassified","DiagnosticData","constructor",
-"DiagnosticData","unclassified","ID","incidental",
-"DiagnosticData","unclassified","CheckFeature","predicate wrapper",
-"DiagnosticData","unclassified","DoFeature","predicate non-void-command",
-"DiagnosticData","unclassified","UndoFeature","predicate non-void-command",
-"CAppxPackages","commander","CAppxPackages","constructor",
-"CAppxPackages","commander","ID","incidental",
-"CAppxPackages","commander","LoadAppsFromJson","non-void-command factory collaborator",
-"CAppxPackages","commander","ExecutePowerShellCommand","non-void-command collaborator",
-"CAppxPackages","commander","CheckFeature","predicate non-void-command",
-"CAppxPackages","commander","DoFeature","predicate non-void-command",
-"CAppxPackages","commander","RemoveApps","non-void-command collaborator",
-"CAppxPackages","commander","UndoFeature","incidental",
-"TipsAndSuggestions","unclassified","TipsAndSuggestions","constructor",
-"TipsAndSuggestions","unclassified","CheckFeature","predicate wrapper",
-"TipsAndSuggestions","unclassified","DoFeature","predicate non-void-command",
-"TipsAndSuggestions","unclassified","UndoFeature","predicate non-void-command",
-"TailoredExperiences","unclassified","TailoredExperiences","constructor",
-"TailoredExperiences","unclassified","ID","incidental",
-"TailoredExperiences","unclassified","CheckFeature","predicate wrapper",
-"TailoredExperiences","unclassified","DoFeature","predicate non-void-command",
-"TailoredExperiences","unclassified","UndoFeature","predicate non-void-command",
-"StartmenuAds","unclassified","StartmenuAds","constructor",
-"StartmenuAds","unclassified","ID","incidental",
-"StartmenuAds","unclassified","CheckFeature","predicate wrapper",
-"StartmenuAds","unclassified","DoFeature","predicate non-void-command",
-"StartmenuAds","unclassified","UndoFeature","predicate non-void-command",
-"SettingsAds","unclassified","SettingsAds","constructor",
-"SettingsAds","unclassified","CheckFeature","predicate wrapper",
-"SettingsAds","unclassified","DoFeature","predicate non-void-command",
-"SettingsAds","unclassified","UndoFeature","predicate non-void-command",
-"AppxPackages","boundary","AppxPackages","constructor",
-"AppxPackages","boundary","Execute","empty",
-"AppxPackages","boundary","LoadInstalledAppPackages","non-void-command collaborator",
-"AppxPackages","boundary","GetPinnedAppPackages","property non-void-command collaborator",
-"AppxPackages","boundary","GetInstalledAppPackages","property non-void-command factory collaborator",
-"AppxPackages","boundary","HandleRemoveSelectedPackages","command",
-"AppxPackages","boundary","BuildToggleSwitchesHtml","controller stateless",
-"AppxPackages","boundary","RemoveSelectedPackages","command",
-"AppxPackages","boundary","IsPackageRemoved","property non-void-command collaborator",
-"AppxPackages","boundary","ExecutePowerShellCommand","wrapper stateless",
-"ClippyConversationHandler","commander small-class","ClippyConversationHandler","constructor",
-"ClippyConversationHandler","commander small-class","Execute","command",
-"ClippyConversationHandler","commander small-class","ShowPseudoAISayings","command",
-"VisualFX","unclassified","VisualFX","constructor",
-"VisualFX","unclassified","CheckFeature","predicate wrapper",
-"VisualFX","unclassified","DoFeature","predicate non-void-command",
-"VisualFX","unclassified","UndoFeature","predicate non-void-command",
-"AppPackages","commander boundary small-class","AppPackages","constructor",
-"AppPackages","commander boundary small-class","AppPackages","constructor",
-"AppPackages","commander boundary small-class","Execute","command collaborator",
-"BingSearch","unclassified","BingSearch","constructor",
-"BingSearch","unclassified","ID","incidental",
-"BingSearch","unclassified","CheckFeature","predicate wrapper",
-"BingSearch","unclassified","DoFeature","predicate non-void-command",
-"BingSearch","unclassified","UndoFeature","predicate non-void-command",
-"AIFeaturesHandler","unclassified","AIFeaturesHandler","constructor",
-"AIFeaturesHandler","unclassified","IsWindowsAIFeatureEnabled","predicate non-void-command collaborator",
-"AIFeaturesHandler","unclassified","IsCopilotInEdgeEnabled","predicate non-void-command",
-"AIFeaturesHandler","unclassified","IsCopilotInTaskbarEnabled","predicate non-void-command",
-"AIFeaturesHandler","unclassified","GetColorForAIFeature","collaborator incidental",
-"AIFeaturesHandler","unclassified","CheckAIFeatures","command",
-"Logger","commander boundary","Logger","constructor",
-"Logger","commander boundary","Log","command collaborator",
-"Logger","commander boundary","LogToWebView","command collaborator",
-"Logger","commander boundary","ColorToHex","collaborator incidental",
-"CopilotTaskbar","unclassified","CopilotTaskbar","constructor",
-"CopilotTaskbar","unclassified","CheckFeature","predicate wrapper",
-"CopilotTaskbar","unclassified","DoFeature","predicate non-void-command",
-"CopilotTaskbar","unclassified","UndoFeature","predicate non-void-command",
-"MainForm","commander boundary","Dispose","command",
-"MainForm","commander boundary","InitializeComponent","command",
-"MainForm","commander boundary","MainForm","constructor",
-"MainForm","commander boundary","MainForm_Shown","command collaborator",
-"MainForm","commander boundary","InitializeWebView","non-void-command collaborator",
-"MainForm","commander boundary","LoadHtmlContent","set collaborator",
-"MainForm","commander boundary","ToggleDarkLightMode","controller stateless",
-"MainForm","commander boundary","WebView_NavigationCompleted","command collaborator",
-"MainForm","commander boundary","CoreWebView2_NewWindowRequested","collaborator incidental",
-"MainForm","commander boundary","InitializeCotweaker","set collaborator",
-"MainForm","commander boundary","UpdateCheckboxState","command collaborator",
-"MainForm","commander boundary","HandleNonJsonMessage","command",
-"MainForm","commander boundary","RunPowerShellScript","controller",
-"MainForm","commander boundary","InstallWingetAppsAction","controller",
-"MainForm","commander boundary","SearchAction","command collaborator",
-"MainForm","commander boundary","UpdateCheckboxStatus","command collaborator",
-"MainForm","commander boundary","WebView_KeyDown","void-accessor command collaborator",
-"ClippyLogicHandler","commander boundary","ClippyLogicHandler","constructor",
-"ClippyLogicHandler","commander boundary","Execute","empty",
-"ClippyLogicHandler","commander boundary","LoadAnswersFromJson","property set collaborator",
-"ClippyLogicHandler","commander boundary","LoadChatboxQuestions","non-void-command collaborator",
-"ClippyLogicHandler","commander boundary","LoadButtonsFromJson","non-void-command collaborator",
-"ClippyLogicHandler","commander boundary","GetQuestionsFromJson","property controller",
-"ClippyLogicHandler","commander boundary","ShowAnswerForChatbox","command collaborator",
-"ClippyLogicHandler","commander boundary","ShowAnswerForButtons","wrapper",
-"ClippyLogicHandler","commander boundary","LoadExtensions","non-void-command collaborator",
-"ClippyDataHandler","commander boundary","ClippyDataHandler","constructor",
-"ClippyDataHandler","commander boundary","Tiny11Maker","command",
-"ClippyDataHandler","commander boundary","OpenAppFromPackagesFolder","wrapper stateless",
-"ClippyDataHandler","commander boundary","SwitchToAutostartTab","command",
-"ClippyDataHandler","commander boundary","TakeScreenshot","command",
-"ClippyDataHandler","commander boundary","ShowDiskSpace","command",
-"ClippyDataHandler","commander boundary","ShowWindowsVersion","non-void-command collaborator",
-"ClippyDataHandler","commander boundary","ShowProcessesWithHighRamUsage","command collaborator",
-"ClippyDataHandler","commander boundary","CheckIPAddress","non-void-command collaborator",
-"ClippyDataHandler","commander boundary","RunWindowsDefenderScan","non-void-command collaborator",
-"Resources","boundary","Resources","constructor",
-"Resources","boundary","get","get set collaborator",
-"Resources","boundary","get","get collaborator",
-"Resources","boundary","set","set collaborator",
-"Resources","boundary","get","property wrapper",
-"Resources","boundary","get","property wrapper",
-"Resources","boundary","Resources","constructor",
-"Resources","boundary","get","get set collaborator",
-"Resources","boundary","get","get collaborator",
-"Resources","boundary","set","set collaborator",
-"Resources","boundary","get","property wrapper",
-"Resources","boundary","get","property wrapper",
-"Resources","boundary","Resources","constructor",
-"Resources","boundary","get","get set collaborator",
-"Resources","boundary","get","get collaborator",
-"Resources","boundary","set","set collaborator",
-"VerboseMessages","unclassified","VerboseMessages","constructor",
-"VerboseMessages","unclassified","CheckFeature","predicate wrapper",
-"VerboseMessages","unclassified","DoFeature","predicate non-void-command",
-"VerboseMessages","unclassified","UndoFeature","predicate non-void-command",
-"GameDVR","unclassified","GameDVR","constructor",
-"GameDVR","unclassified","CheckFeature","predicate wrapper",
-"GameDVR","unclassified","DoFeature","predicate non-void-command",
-"GameDVR","unclassified","UndoFeature","predicate non-void-command",
-"InteropBase","empty","InteropBase","constructor",
-"FinishSetupAds","unclassified","FinishSetupAds","constructor",
-"FinishSetupAds","unclassified","CheckFeature","predicate wrapper",
-"FinishSetupAds","unclassified","DoFeature","predicate non-void-command",
-"FinishSetupAds","unclassified","UndoFeature","predicate non-void-command",
-"BackgroundApps","unclassified","BackgroundApps","constructor",
-"BackgroundApps","unclassified","ID","incidental",
-"BackgroundApps","unclassified","CheckFeature","predicate wrapper",
-"BackgroundApps","unclassified","DoFeature","predicate non-void-command",
-"BackgroundApps","unclassified","UndoFeature","predicate non-void-command",
-"DownloadHandler","commander boundary small-class","DownloadHandler","constructor",
-"DownloadHandler","commander boundary small-class","DownloadFiles","non-void-command collaborator",
-"UpdateSettings","unclassified","UpdateSettings","constructor",
-"UpdateSettings","unclassified","Execute","command",
-"UpdateSettings","unclassified","RunWUpdateCheck","command",
-"UpdateSettings","unclassified","CheckForWindowsUpdates","predicate non-void-command collaborator",
-"UpdateSettings","unclassified","CheckForAppUpdates","predicate non-void-command collaborator",
-"LockScreenAds","unclassified","LockScreenAds","constructor",
-"LockScreenAds","unclassified","CheckFeature","predicate wrapper",
-"LockScreenAds","unclassified","DoFeature","predicate non-void-command",
-"LockScreenAds","unclassified","UndoFeature","predicate non-void-command",
-"SettingsPageView","commander","Dispose","command",
-"SettingsPageView","commander","InitializeComponent","command",
-"SettingsPageView","commander","SettingsPageView","constructor",
-"SettingsPageView","commander","SettingsPageView_Load","command collaborator",
-"WallpaperSettings","commander boundary small-class","WallpaperSettings","constructor",
-"WallpaperSettings","commander boundary small-class","Execute","command collaborator",
-"PowerThrottling","unclassified","PowerThrottling","constructor",
-"PowerThrottling","unclassified","CheckFeature","predicate wrapper",
-"PowerThrottling","unclassified","DoFeature","predicate non-void-command",
-"PowerThrottling","unclassified","UndoFeature","predicate non-void-command",
-"ThemeSettings","unclassified","ThemeSettings","constructor",
-"ThemeSettings","unclassified","ToggleThemeMode","command",
-"ThemeSettings","unclassified","Execute","command",
-"ThemeSettings","unclassified","RestartExplorer","controller stateless",
-"Settings","data-provider data-class","get","get",
-"Settings","data-provider data-class","get","get",
-"Settings","data-provider data-class","get","get",
-"CommandsHandler","commander boundary","CommandsHandler","constructor",
-"CommandsHandler","commander boundary","StartProcess","command collaborator",
-"CommandsHandler","commander boundary","ExecutePowerShellCommand","command",
-"CommandsHandler","commander boundary","ExecuteSettingsURI","wrapper stateless",
-"CommandsHandler","commander boundary","ExecuteShellCommand","controller stateless",
-"CommandsHandler","commander boundary","RunPowerShellScript","non-void-command collaborator",
-"CommandsHandler","commander boundary","RunPowerShellCommand","non-void-command collaborator",
-"FileExplorerAds","unclassified","FileExplorerAds","constructor",
-"FileExplorerAds","unclassified","ID","incidental",
-"FileExplorerAds","unclassified","CheckFeature","predicate wrapper",
-"FileExplorerAds","unclassified","DoFeature","predicate non-void-command",
-"FileExplorerAds","unclassified","UndoFeature","predicate non-void-command",
-"TaskbarChat","unclassified","TaskbarChat","constructor",
-"TaskbarChat","unclassified","ID","incidental",
-"TaskbarChat","unclassified","CheckFeature","predicate wrapper",
-"TaskbarChat","unclassified","DoFeature","predicate non-void-command",
-"TaskbarChat","unclassified","UndoFeature","predicate non-void-command",
-"StartmenuLayout","unclassified","StartmenuLayout","constructor",
-"StartmenuLayout","unclassified","ID","incidental",
-"StartmenuLayout","unclassified","CheckFeature","predicate wrapper",
-"StartmenuLayout","unclassified","DoFeature","predicate non-void-command",
-"StartmenuLayout","unclassified","UndoFeature","predicate non-void-command",
-"CopilotMSEdge","unclassified","CopilotMSEdge","constructor",
-"CopilotMSEdge","unclassified","CheckFeature","predicate wrapper",
-"CopilotMSEdge","unclassified","DoFeature","predicate non-void-command",
-"CopilotMSEdge","unclassified","UndoFeature","predicate non-void-command",
-"WelcomeExperienceAds","unclassified","WelcomeExperienceAds","constructor",
-"WelcomeExperienceAds","unclassified","CheckFeature","predicate wrapper",
-"WelcomeExperienceAds","unclassified","DoFeature","predicate non-void-command",
-"WelcomeExperienceAds","unclassified","UndoFeature","predicate non-void-command",
-"StorageSettings","boundary","StorageSettings","constructor",
-"StorageSettings","boundary","RunStorageSense","non-void-command collaborator",
-"StorageSettings","boundary","GetAvailableDiskSpace","wrapper stateless",
-"StorageSettings","boundary","FormatSize","incidental",
-"StorageSettings","boundary","CleanTemporaryFiles","property non-void-command collaborator",
-"StorageSettings","boundary","CleanWindowsDefenderProtectionHistory","property non-void-command collaborator",
-"StorageSettings","boundary","CleanDeliveryOptimizationCache","property non-void-command collaborator",
-"StorageSettings","boundary","CleanWindowsErrorReportingFiles","property non-void-command collaborator",
-"StorageSettings","boundary","CleanWindowsUpdateFiles","property non-void-command collaborator",
-"StorageSettings","boundary","CleanEdgeBrowserCache","property non-void-command collaborator",
-"StorageSettings","boundary","CleanDirectory","property non-void-command collaborator",
-"StorageSettings","boundary","RunCommand","non-void-command collaborator",
-"StorageSettings","boundary","Log","command collaborator",
-"StorageSettings","boundary","GetPseudoAISaying","controller stateless",
-"PersonalizedAds","unclassified","PersonalizedAds","constructor",
-"PersonalizedAds","unclassified","CheckFeature","predicate wrapper",
-"PersonalizedAds","unclassified","DoFeature","predicate non-void-command",
-"PersonalizedAds","unclassified","UndoFeature","predicate non-void-command",
+"WalksBase","empty","WalksBase","constructor"
+"TaskView","unclassified","TaskView","constructor"
+"TaskView","unclassified","ID","incidental"
+"TaskView","unclassified","CheckFeature","predicate wrapper"
+"TaskView","unclassified","DoFeature","predicate non-void-command"
+"TaskView","unclassified","UndoFeature","predicate non-void-command"
+"TaskbarChat","unclassified","TaskbarChat","constructor"
+"TaskbarChat","unclassified","ID","incidental"
+"TaskbarChat","unclassified","CheckFeature","predicate wrapper"
+"TaskbarChat","unclassified","DoFeature","predicate non-void-command"
+"TaskbarChat","unclassified","UndoFeature","predicate non-void-command"
+"StartmenuLayout","unclassified","StartmenuLayout","constructor"
+"StartmenuLayout","unclassified","ID","incidental"
+"StartmenuLayout","unclassified","CheckFeature","predicate wrapper"
+"StartmenuLayout","unclassified","DoFeature","predicate non-void-command"
+"StartmenuLayout","unclassified","UndoFeature","predicate non-void-command"
+"MostUsedApps","unclassified","MostUsedApps","constructor"
+"MostUsedApps","unclassified","ID","incidental"
+"MostUsedApps","unclassified","CheckFeature","predicate wrapper"
+"MostUsedApps","unclassified","DoFeature","predicate non-void-command"
+"MostUsedApps","unclassified","UndoFeature","predicate non-void-command collaborator"
+"XPSWriter","boundary","XPSWriter","constructor"
+"XPSWriter","boundary","ID","incidental"
+"XPSWriter","boundary","CheckFeature","controller stateless"
+"XPSWriter","boundary","DoFeature","predicate non-void-command collaborator"
+"XPSWriter","boundary","UndoFeature","predicate non-void-command collaborator"
+"LockScreen","unclassified","LockScreen","constructor"
+"LockScreen","unclassified","ID","incidental"
+"LockScreen","unclassified","CheckFeature","predicate wrapper"
+"LockScreen","unclassified","DoFeature","predicate non-void-command"
+"LockScreen","unclassified","UndoFeature","predicate non-void-command"
+"FullContextMenus","unclassified","FullContextMenus","constructor"
+"FullContextMenus","unclassified","ID","incidental"
+"FullContextMenus","unclassified","CheckFeature","predicate non-void-command collaborator"
+"FullContextMenus","unclassified","DoFeature","predicate non-void-command"
+"FullContextMenus","unclassified","UndoFeature","predicate non-void-command"
+"FaxPrinter","pure-controller degenerate","FaxPrinter","constructor"
+"FaxPrinter","pure-controller degenerate","ID","incidental"
+"FaxPrinter","pure-controller degenerate","CheckFeature","incidental"
+"FaxPrinter","pure-controller degenerate","DoFeature","controller stateless"
+"FaxPrinter","pure-controller degenerate","UndoFeature","incidental"
+"Telemetry","unclassified","Telemetry","constructor"
+"Telemetry","unclassified","CheckFeature","predicate wrapper"
+"Telemetry","unclassified","DoFeature","predicate non-void-command"
+"Telemetry","unclassified","UndoFeature","predicate non-void-command"
+"PrivacyExperience","unclassified","PrivacyExperience","constructor"
+"PrivacyExperience","unclassified","CheckFeature","predicate wrapper"
+"PrivacyExperience","unclassified","DoFeature","predicate non-void-command"
+"PrivacyExperience","unclassified","UndoFeature","predicate non-void-command"
+"FindMyDevice","unclassified","FindMyDevice","constructor"
+"FindMyDevice","unclassified","ID","incidental"
+"FindMyDevice","unclassified","CheckFeature","predicate wrapper"
+"FindMyDevice","unclassified","DoFeature","predicate non-void-command"
+"FindMyDevice","unclassified","UndoFeature","predicate non-void-command"
+"DiagnosticData","unclassified","DiagnosticData","constructor"
+"DiagnosticData","unclassified","ID","incidental"
+"DiagnosticData","unclassified","CheckFeature","predicate wrapper"
+"DiagnosticData","unclassified","DoFeature","predicate non-void-command"
+"DiagnosticData","unclassified","UndoFeature","predicate non-void-command"
+"VisualFX","unclassified","VisualFX","constructor"
+"VisualFX","unclassified","CheckFeature","predicate wrapper"
+"VisualFX","unclassified","DoFeature","predicate non-void-command"
+"VisualFX","unclassified","UndoFeature","predicate non-void-command"
+"CAppxPackages","commander","CAppxPackages","constructor"
+"CAppxPackages","commander","ID","incidental"
+"CAppxPackages","commander","LoadAppsFromJson","non-void-command factory collaborator"
+"CAppxPackages","commander","ExecutePowerShellCommand","non-void-command collaborator"
+"CAppxPackages","commander","CheckFeature","predicate non-void-command"
+"CAppxPackages","commander","DoFeature","predicate non-void-command"
+"CAppxPackages","commander","RemoveApps","non-void-command collaborator"
+"CAppxPackages","commander","UndoFeature","incidental"
+"TipsAndSuggestions","unclassified","TipsAndSuggestions","constructor"
+"TipsAndSuggestions","unclassified","CheckFeature","predicate wrapper"
+"TipsAndSuggestions","unclassified","DoFeature","predicate non-void-command"
+"TipsAndSuggestions","unclassified","UndoFeature","predicate non-void-command"
+"ClippyConversationHandler","commander small-class","ClippyConversationHandler","constructor"
+"ClippyConversationHandler","commander small-class","Execute","command"
+"ClippyConversationHandler","commander small-class","ShowPseudoAISayings","command"
+"AppxPackages","boundary","AppxPackages","constructor"
+"AppxPackages","boundary","Execute","empty"
+"AppxPackages","boundary","LoadInstalledAppPackages","non-void-command collaborator"
+"AppxPackages","boundary","GetPinnedAppPackages","property non-void-command collaborator"
+"AppxPackages","boundary","GetInstalledAppPackages","property non-void-command factory collaborator"
+"AppxPackages","boundary","HandleRemoveSelectedPackages","command"
+"AppxPackages","boundary","BuildToggleSwitchesHtml","controller stateless"
+"AppxPackages","boundary","RemoveSelectedPackages","command"
+"AppxPackages","boundary","IsPackageRemoved","property non-void-command collaborator"
+"AppxPackages","boundary","ExecutePowerShellCommand","wrapper stateless"
+"TailoredExperiences","unclassified","TailoredExperiences","constructor"
+"TailoredExperiences","unclassified","ID","incidental"
+"TailoredExperiences","unclassified","CheckFeature","predicate wrapper"
+"TailoredExperiences","unclassified","DoFeature","predicate non-void-command"
+"TailoredExperiences","unclassified","UndoFeature","predicate non-void-command"
+"AppPackages","commander boundary small-class","AppPackages","constructor"
+"AppPackages","commander boundary small-class","AppPackages","constructor"
+"AppPackages","commander boundary small-class","Execute","command collaborator"
+"BingSearch","unclassified","BingSearch","constructor"
+"BingSearch","unclassified","ID","incidental"
+"BingSearch","unclassified","CheckFeature","predicate wrapper"
+"BingSearch","unclassified","DoFeature","predicate non-void-command"
+"BingSearch","unclassified","UndoFeature","predicate non-void-command"
+"AIFeaturesHandler","unclassified","AIFeaturesHandler","constructor"
+"AIFeaturesHandler","unclassified","IsWindowsAIFeatureEnabled","predicate non-void-command collaborator"
+"AIFeaturesHandler","unclassified","IsCopilotInEdgeEnabled","predicate non-void-command"
+"AIFeaturesHandler","unclassified","IsCopilotInTaskbarEnabled","predicate non-void-command"
+"AIFeaturesHandler","unclassified","GetColorForAIFeature","collaborator incidental"
+"AIFeaturesHandler","unclassified","CheckAIFeatures","command"
+"Logger","commander boundary","Logger","constructor"
+"Logger","commander boundary","Log","command collaborator"
+"Logger","commander boundary","LogToWebView","command collaborator"
+"Logger","commander boundary","ColorToHex","collaborator incidental"
+"CopilotTaskbar","unclassified","CopilotTaskbar","constructor"
+"CopilotTaskbar","unclassified","CheckFeature","predicate wrapper"
+"CopilotTaskbar","unclassified","DoFeature","predicate non-void-command"
+"CopilotTaskbar","unclassified","UndoFeature","predicate non-void-command"
+"BackgroundApps","unclassified","BackgroundApps","constructor"
+"BackgroundApps","unclassified","ID","incidental"
+"BackgroundApps","unclassified","CheckFeature","predicate wrapper"
+"BackgroundApps","unclassified","DoFeature","predicate non-void-command"
+"BackgroundApps","unclassified","UndoFeature","predicate non-void-command"
+"DownloadHandler","commander boundary small-class","DownloadHandler","constructor"
+"DownloadHandler","commander boundary small-class","DownloadFiles","non-void-command collaborator"
+"MainForm","commander boundary","Dispose","command"
+"MainForm","commander boundary","InitializeComponent","command"
+"MainForm","commander boundary","MainForm","constructor"
+"MainForm","commander boundary","MainForm_Shown","command collaborator"
+"MainForm","commander boundary","InitializeWebView","non-void-command collaborator"
+"MainForm","commander boundary","LoadHtmlContent","set collaborator"
+"MainForm","commander boundary","ToggleDarkLightMode","controller stateless"
+"MainForm","commander boundary","WebView_NavigationCompleted","command collaborator"
+"MainForm","commander boundary","CoreWebView2_NewWindowRequested","collaborator incidental"
+"MainForm","commander boundary","InitializeCotweaker","set collaborator"
+"MainForm","commander boundary","UpdateCheckboxState","command collaborator"
+"MainForm","commander boundary","HandleNonJsonMessage","command"
+"MainForm","commander boundary","RunPowerShellScript","controller"
+"MainForm","commander boundary","InstallWingetAppsAction","controller"
+"MainForm","commander boundary","SearchAction","command collaborator"
+"MainForm","commander boundary","UpdateCheckboxStatus","command collaborator"
+"MainForm","commander boundary","WebView_KeyDown","void-accessor command collaborator"
+"ClippyLogicHandler","commander boundary","ClippyLogicHandler","constructor"
+"ClippyLogicHandler","commander boundary","Execute","empty"
+"ClippyLogicHandler","commander boundary","LoadAnswersFromJson","property set collaborator"
+"ClippyLogicHandler","commander boundary","LoadChatboxQuestions","non-void-command collaborator"
+"ClippyLogicHandler","commander boundary","LoadButtonsFromJson","non-void-command collaborator"
+"ClippyLogicHandler","commander boundary","GetQuestionsFromJson","property controller"
+"ClippyLogicHandler","commander boundary","ShowAnswerForChatbox","command collaborator"
+"ClippyLogicHandler","commander boundary","ShowAnswerForButtons","wrapper"
+"ClippyLogicHandler","commander boundary","LoadExtensions","non-void-command collaborator"
+"ClippyDataHandler","commander boundary","ClippyDataHandler","constructor"
+"ClippyDataHandler","commander boundary","Tiny11Maker","command"
+"ClippyDataHandler","commander boundary","OpenAppFromPackagesFolder","wrapper stateless"
+"ClippyDataHandler","commander boundary","SwitchToAutostartTab","command"
+"ClippyDataHandler","commander boundary","TakeScreenshot","command"
+"ClippyDataHandler","commander boundary","ShowDiskSpace","command"
+"ClippyDataHandler","commander boundary","ShowWindowsVersion","non-void-command collaborator"
+"ClippyDataHandler","commander boundary","ShowProcessesWithHighRamUsage","command collaborator"
+"ClippyDataHandler","commander boundary","CheckIPAddress","non-void-command collaborator"
+"ClippyDataHandler","commander boundary","RunWindowsDefenderScan","non-void-command collaborator"
+"Resources","empty","Resources","constructor"
+"Resources","empty","Resources","constructor"
+"Resources","empty","Resources","constructor"
+"VerboseMessages","unclassified","VerboseMessages","constructor"
+"VerboseMessages","unclassified","CheckFeature","predicate wrapper"
+"VerboseMessages","unclassified","DoFeature","predicate non-void-command"
+"VerboseMessages","unclassified","UndoFeature","predicate non-void-command"
+"GameDVR","unclassified","GameDVR","constructor"
+"GameDVR","unclassified","CheckFeature","predicate wrapper"
+"GameDVR","unclassified","DoFeature","predicate non-void-command"
+"GameDVR","unclassified","UndoFeature","predicate non-void-command"
+"InteropBase","empty","InteropBase","constructor"
+"FinishSetupAds","unclassified","FinishSetupAds","constructor"
+"FinishSetupAds","unclassified","CheckFeature","predicate wrapper"
+"FinishSetupAds","unclassified","DoFeature","predicate non-void-command"
+"FinishSetupAds","unclassified","UndoFeature","predicate non-void-command"
+"UpdateSettings","unclassified","UpdateSettings","constructor"
+"UpdateSettings","unclassified","Execute","command"
+"UpdateSettings","unclassified","RunWUpdateCheck","command"
+"UpdateSettings","unclassified","CheckForWindowsUpdates","predicate non-void-command collaborator"
+"UpdateSettings","unclassified","CheckForAppUpdates","predicate non-void-command collaborator"
+"LockScreenAds","unclassified","LockScreenAds","constructor"
+"LockScreenAds","unclassified","CheckFeature","predicate wrapper"
+"LockScreenAds","unclassified","DoFeature","predicate non-void-command"
+"LockScreenAds","unclassified","UndoFeature","predicate non-void-command"
+"SettingsPageView","commander","Dispose","command"
+"SettingsPageView","commander","InitializeComponent","command"
+"SettingsPageView","commander","SettingsPageView","constructor"
+"SettingsPageView","commander","SettingsPageView_Load","command collaborator"
+"WallpaperSettings","commander boundary small-class","WallpaperSettings","constructor"
+"WallpaperSettings","commander boundary small-class","Execute","command collaborator"
+"PowerThrottling","unclassified","PowerThrottling","constructor"
+"PowerThrottling","unclassified","CheckFeature","predicate wrapper"
+"PowerThrottling","unclassified","DoFeature","predicate non-void-command"
+"PowerThrottling","unclassified","UndoFeature","predicate non-void-command"
+"CommandsHandler","commander boundary","CommandsHandler","constructor"
+"CommandsHandler","commander boundary","StartProcess","command collaborator"
+"CommandsHandler","commander boundary","ExecutePowerShellCommand","command"
+"CommandsHandler","commander boundary","ExecuteSettingsURI","wrapper stateless"
+"CommandsHandler","commander boundary","ExecuteShellCommand","controller stateless"
+"CommandsHandler","commander boundary","RunPowerShellScript","non-void-command collaborator"
+"CommandsHandler","commander boundary","RunPowerShellCommand","non-void-command collaborator"
+"ThemeSettings","unclassified","ThemeSettings","constructor"
+"ThemeSettings","unclassified","ToggleThemeMode","command"
+"ThemeSettings","unclassified","Execute","command"
+"ThemeSettings","unclassified","RestartExplorer","controller stateless"
+"FileExplorerAds","unclassified","FileExplorerAds","constructor"
+"FileExplorerAds","unclassified","ID","incidental"
+"FileExplorerAds","unclassified","CheckFeature","predicate wrapper"
+"FileExplorerAds","unclassified","DoFeature","predicate non-void-command"
+"FileExplorerAds","unclassified","UndoFeature","predicate non-void-command"
+"CopilotMSEdge","unclassified","CopilotMSEdge","constructor"
+"CopilotMSEdge","unclassified","CheckFeature","predicate wrapper"
+"CopilotMSEdge","unclassified","DoFeature","predicate non-void-command"
+"CopilotMSEdge","unclassified","UndoFeature","predicate non-void-command"
+"WelcomeExperienceAds","unclassified","WelcomeExperienceAds","constructor"
+"WelcomeExperienceAds","unclassified","CheckFeature","predicate wrapper"
+"WelcomeExperienceAds","unclassified","DoFeature","predicate non-void-command"
+"WelcomeExperienceAds","unclassified","UndoFeature","predicate non-void-command"
+"StorageSettings","boundary","StorageSettings","constructor"
+"StorageSettings","boundary","RunStorageSense","non-void-command collaborator"
+"StorageSettings","boundary","GetAvailableDiskSpace","wrapper stateless"
+"StorageSettings","boundary","FormatSize","incidental"
+"StorageSettings","boundary","CleanTemporaryFiles","property non-void-command collaborator"
+"StorageSettings","boundary","CleanWindowsDefenderProtectionHistory","property non-void-command collaborator"
+"StorageSettings","boundary","CleanDeliveryOptimizationCache","property non-void-command collaborator"
+"StorageSettings","boundary","CleanWindowsErrorReportingFiles","property non-void-command collaborator"
+"StorageSettings","boundary","CleanWindowsUpdateFiles","property non-void-command collaborator"
+"StorageSettings","boundary","CleanEdgeBrowserCache","property non-void-command collaborator"
+"StorageSettings","boundary","CleanDirectory","property non-void-command collaborator"
+"StorageSettings","boundary","RunCommand","non-void-command collaborator"
+"StorageSettings","boundary","Log","command collaborator"
+"StorageSettings","boundary","GetPseudoAISaying","controller stateless"
+"PersonalizedAds","unclassified","PersonalizedAds","constructor"
+"PersonalizedAds","unclassified","CheckFeature","predicate wrapper"
+"PersonalizedAds","unclassified","DoFeature","predicate non-void-command"
+"PersonalizedAds","unclassified","UndoFeature","predicate non-void-command"
+"SettingsAds","unclassified","SettingsAds","constructor"
+"SettingsAds","unclassified","CheckFeature","predicate wrapper"
+"SettingsAds","unclassified","DoFeature","predicate non-void-command"
+"SettingsAds","unclassified","UndoFeature","predicate non-void-command"
+"StartmenuAds","unclassified","StartmenuAds","constructor"
+"StartmenuAds","unclassified","ID","incidental"
+"StartmenuAds","unclassified","CheckFeature","predicate wrapper"
+"StartmenuAds","unclassified","DoFeature","predicate non-void-command"
+"StartmenuAds","unclassified","UndoFeature","predicate non-void-command"

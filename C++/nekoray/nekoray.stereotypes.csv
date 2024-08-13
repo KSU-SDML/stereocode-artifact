@@ -1,491 +1,491 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"ProxyItem","unclassified","ProxyItem::ProxyItem","constructor",
-"ProxyItem","unclassified","ProxyItem::~ProxyItem","destructor",
-"ProxyItem","unclassified","ProxyItem::refresh_data","command",
-"ProxyItem","unclassified","ProxyItem::on_remove_clicked","command",
-"ProxyItem","unclassified","ProxyItem::get_change_button","get collaborator",
-"MyTableWidget","commander boundary","MyTableWidget","constructor",
-"MyTableWidget","commander boundary","_save_order","command collaborator",
-"MyTableWidget","commander boundary","update_order","command",
-"MyTableWidget","commander boundary","dropEvent","command collaborator",
-"MessageBoxTimer","commander small-class","MessageBoxTimer","constructor",
-"MessageBoxTimer","commander small-class","cancel","command",
-"MessageBoxTimer","commander small-class","timeoutFunc","command",
-"GroupItem","unclassified","GroupItem::GroupItem","constructor",
-"GroupItem","unclassified","GroupItem::~GroupItem","destructor",
-"GroupItem","unclassified","GroupItem::refresh_data","command collaborator",
-"GroupItem","unclassified","GroupItem::on_update_sub_clicked","controller",
-"GroupItem","unclassified","GroupItem::on_edit_clicked","command collaborator",
-"GroupItem","unclassified","GroupItem::on_remove_clicked","controller",
-"FloatCheckBox","entity boundary small-class","refresh","command collaborator",
-"FloatCheckBox","entity boundary small-class","eventFilter","predicate non-void-command collaborator",
-"FloatCheckBox","entity boundary small-class","FloatCheckBox","constructor",
-"ProfileEditor","boundary degenerate small-class","get_editor_cached","collaborator incidental",
-"EditTrojanVLESS","entity boundary small-class","EditTrojanVLESS::EditTrojanVLESS","constructor",
-"EditTrojanVLESS","entity boundary small-class","EditTrojanVLESS::~EditTrojanVLESS","destructor",
-"EditTrojanVLESS","entity boundary small-class","EditTrojanVLESS::onStart","command collaborator",
-"EditTrojanVLESS","entity boundary small-class","EditTrojanVLESS::onEnd","predicate non-void-command collaborator",
-"EditShadowSocks","entity boundary small-class","EditShadowSocks::EditShadowSocks","constructor",
-"EditShadowSocks","entity boundary small-class","EditShadowSocks::~EditShadowSocks","destructor",
-"EditShadowSocks","entity boundary small-class","EditShadowSocks::onStart","command collaborator",
-"EditShadowSocks","entity boundary small-class","EditShadowSocks::onEnd","predicate non-void-command collaborator",
-"EditChain","commander boundary","EditChain::EditChain","constructor",
-"EditChain","commander boundary","EditChain::~EditChain","destructor",
-"EditChain","commander boundary","EditChain::onStart","set collaborator",
-"EditChain","commander boundary","EditChain::onEnd","predicate non-void-command",
-"EditChain","commander boundary","EditChain::on_select_profile_clicked","command",
-"EditChain","commander boundary","EditChain::AddProfileToListIfExist","command collaborator",
-"EditChain","commander boundary","EditChain::ReplaceProfile","controller stateless",
-"EditCustom","commander boundary small-class","EditCustom::EditCustom","constructor",
-"EditCustom","commander boundary small-class","EditCustom::~EditCustom","destructor",
-"EditCustom","commander boundary small-class","EditCustom::onStart","command collaborator",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::DialogEditProfile","constructor",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::typeSelected","void-accessor command collaborator",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::onEnd","predicate non-void-command collaborator",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::accept","command collaborator",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::editor_cache_updated_impl","command collaborator",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::on_custom_outbound_edit_clicked","command",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::on_custom_config_edit_clicked","command",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::on_certificate_edit_clicked","command collaborator",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::on_apply_to_group_clicked","command collaborator",
-"DialogEditProfile","entity commander boundary","DialogEditProfile::do_apply_to_group","command collaborator",
-"DialogManageRoutes","unclassified","DialogManageRoutes::DialogManageRoutes","constructor",
-"DialogManageRoutes","unclassified","DialogManageRoutes::accept","command collaborator",
-"DialogManageRoutes","unclassified","DialogManageRoutes::getBuiltInSchemes","property controller",
-"DialogManageRoutes","unclassified","DialogManageRoutes::schemeToAction","property controller",
-"DialogManageRoutes","unclassified","DialogManageRoutes::UpdateDisplayRouting","void-accessor command",
-"DialogManageRoutes","unclassified","DialogManageRoutes::SaveDisplayRouting","void-accessor command collaborator",
-"DialogManageRoutes","unclassified","DialogManageRoutes::on_load_save_clicked","command collaborator",
-"DialogHotkey","empty","DialogHotkey::DialogHotkey","constructor",
-"DialogHotkey","empty","DialogHotkey::~DialogHotkey","destructor",
-"DialogFirstSetup","boundary small-class","DialogFirstSetup::DialogFirstSetup","constructor",
-"DialogFirstSetup","boundary small-class","DialogFirstSetup::~DialogFirstSetup","destructor",
-"DialogFirstSetup","boundary small-class","DialogFirstSetup::onButtonClicked","wrapper",
-"TrafficLooper","controller","TrafficLooper::update_stats","factory controller stateless",
-"TrafficLooper","controller","TrafficLooper::get_connection_list","controller stateless",
-"TrafficLooper","controller","TrafficLooper::UpdateAll","command collaborator",
-"TrafficLooper","controller","TrafficLooper::Loop","command collaborator",
-"TrafficData","entity boundary","TrafficData","constructor",
-"TrafficData","entity boundary","Reset","command",
-"TrafficData","entity boundary","DisplaySpeed","property wrapper",
-"TrafficData","entity boundary","DisplayTraffic","property wrapper",
-"ProxyEntity","data-provider boundary","ChainBean","property collaborator",
-"ProxyEntity","data-provider boundary","SocksHTTPBean","property collaborator",
-"ProxyEntity","data-provider boundary","ShadowSocksBean","property collaborator",
-"ProxyEntity","data-provider boundary","VMessBean","property collaborator",
-"ProxyEntity","data-provider boundary","TrojanVLESSBean","property collaborator",
-"ProxyEntity","data-provider boundary","NaiveBean","property collaborator",
-"ProxyEntity","data-provider boundary","QUICBean","property collaborator",
-"ProxyEntity","data-provider boundary","CustomBean","property collaborator",
-"ProxyEntity","data-provider boundary","ProxyEntity::ProxyEntity","constructor",
-"ProxyEntity","data-provider boundary","ProxyEntity::DisplayLatency","property wrapper",
-"ProxyEntity","data-provider boundary","ProxyEntity::DisplayLatencyColor","property controller",
-"ExtraCoreWidget","empty","ExtraCoreWidget","constructor",
-"GroupUpdater","small-class","GroupUpdater::AsyncUpdate","void-accessor command collaborator",
-"GroupUpdater","small-class","GroupUpdater::Update","controller stateless",
-"Field","empty","Field::Field","copy-constructor",
-"Field","empty","Field::Field","copy-constructor",
-"Field","empty","Field::~Field","destructor",
-"MyLineEdit","entity boundary small-class","MyLineEdit","constructor",
-"MyLineEdit","entity boundary small-class","setText","void-accessor command collaborator",
-"DialogVPNSettings","commander boundary small-class","DialogVPNSettings::DialogVPNSettings","constructor",
-"DialogVPNSettings","commander boundary small-class","DialogVPNSettings::~DialogVPNSettings","destructor",
-"DialogVPNSettings","commander boundary small-class","DialogVPNSettings::accept","command collaborator",
-"DialogVPNSettings","commander boundary small-class","DialogVPNSettings::on_troubleshooting_clicked","wrapper",
-"CoreProcess","empty","CoreProcess::CoreProcess","constructor",
-"Result","data-provider boundary","Result","copy-constructor",
-"Result","data-provider boundary","format","property collaborator",
-"Result","data-provider boundary","contentType","property collaborator",
-"Result","data-provider boundary","formatName","property collaborator",
-"Result","data-provider boundary","text","collaborator incidental",
-"Result","data-provider boundary","bytes","get collaborator",
-"Result","data-provider boundary","position","get collaborator",
-"ThemeManager","entity boundary small-class","ThemeManager::ApplyTheme","void-accessor command collaborator",
-"QJsonModel","boundary","QJsonModel::QJsonModel","constructor",
-"QJsonModel","boundary","QJsonModel::QJsonModel","constructor",
-"QJsonModel","boundary","QJsonModel::QJsonModel","constructor",
-"QJsonModel","boundary","QJsonModel::QJsonModel","constructor",
-"QJsonModel","boundary","QJsonModel::~QJsonModel","destructor",
-"QJsonModel","boundary","QJsonModel::load","predicate non-void-command collaborator",
-"QJsonModel","boundary","QJsonModel::load","predicate non-void-command collaborator",
-"QJsonModel","boundary","QJsonModel::loadJson","predicate non-void-command collaborator",
-"QJsonModel","boundary","QJsonModel::data","controller stateless",
-"QJsonModel","boundary","QJsonModel::setData","controller stateless",
-"QJsonModel","boundary","QJsonModel::flags","property collaborator",
-"QJsonModel","boundary","QJsonModel::json","property collaborator",
-"QJsonModel","boundary","QJsonModel::genJson","property collaborator",
-"W","commander boundary","show_qr","collaborator",
-"W","commander boundary","refresh","command",
-"W","commander boundary","W","constructor",
-"W","commander boundary","resizeEvent","command collaborator",
-"EditQUIC","boundary","EditQUIC::EditQUIC","constructor",
-"EditQUIC","boundary","EditQUIC::~EditQUIC","destructor",
-"EditQUIC","boundary","EditQUIC::onStart","command collaborator",
-"EditQUIC","boundary","EditQUIC::onEnd","controller stateless",
-"EditQUIC","boundary","EditQUIC::get_editor_cached","property collaborator",
-"EditQUIC","boundary","EditQUIC::on_certificate_clicked","wrapper",
-"ProfileFilter","pure-controller degenerate","ProfileFilter::Uniq","controller stateless",
-"ProfileFilter","pure-controller degenerate","ProfileFilter::Common","controller stateless",
-"ProfileFilter","pure-controller degenerate","ProfileFilter::OnlyInSrc","controller stateless",
-"ProfileFilter","pure-controller degenerate","ProfileFilter::OnlyInSrc_ByPointer","controller stateless",
-"QJsonTreeItem","unclassified","QJsonTreeItem::QJsonTreeItem","copy-constructor",
-"QJsonTreeItem","unclassified","QJsonTreeItem::~QJsonTreeItem","destructor",
-"QJsonTreeItem","unclassified","QJsonTreeItem::appendChild","void-accessor command",
-"QJsonTreeItem","unclassified","QJsonTreeItem::child","property non-void-command",
-"QJsonTreeItem","unclassified","QJsonTreeItem::parent","get",
-"QJsonTreeItem","unclassified","QJsonTreeItem::childCount","property",
-"QJsonTreeItem","unclassified","QJsonTreeItem::row","property",
-"QJsonTreeItem","unclassified","QJsonTreeItem::setKey","set collaborator",
-"QJsonTreeItem","unclassified","QJsonTreeItem::setValue","set collaborator",
-"QJsonTreeItem","unclassified","QJsonTreeItem::setType","set collaborator",
-"QJsonTreeItem","unclassified","QJsonTreeItem::key","get collaborator",
-"QJsonTreeItem","unclassified","QJsonTreeItem::value","get collaborator",
-"QJsonTreeItem","unclassified","QJsonTreeItem::type","get collaborator",
-"QJsonTreeItem","unclassified","QJsonTreeItem::load","non-void-command factory",
-"MainWindow","commander boundary","MainWindow::MainWindow","constructor",
-"MainWindow","commander boundary","MainWindow::on_tabWidget_currentChanged","command",
-"MainWindow","commander boundary","MainWindow::show_group","command collaborator",
-"MainWindow","commander boundary","MainWindow::dialog_message_impl","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_basic_settings_triggered","incidental",
-"MainWindow","commander boundary","MainWindow::on_menu_manage_groups_triggered","incidental",
-"MainWindow","commander boundary","MainWindow::on_menu_routing_settings_triggered","incidental",
-"MainWindow","commander boundary","MainWindow::on_menu_vpn_settings_triggered","incidental",
-"MainWindow","commander boundary","MainWindow::on_menu_hotkey_settings_triggered","incidental",
-"MainWindow","commander boundary","MainWindow::on_commitDataRequest","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_exit_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::neko_set_spmode_system_proxy","command collaborator",
-"MainWindow","commander boundary","MainWindow::neko_set_spmode_vpn","command collaborator",
-"MainWindow","commander boundary","MainWindow::refresh_status","command collaborator",
-"MainWindow","commander boundary","MainWindow::refresh_groups","command collaborator",
-"MainWindow","commander boundary","MainWindow::refresh_proxy_list","wrapper stateless",
-"MainWindow","commander boundary","MainWindow::on_proxyListTable_itemDoubleClicked","set collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_add_from_input_triggered","wrapper",
-"MainWindow","commander boundary","MainWindow::on_menu_add_from_clipboard_triggered","controller stateless",
-"MainWindow","commander boundary","MainWindow::on_menu_clone_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_move_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_delete_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_reset_traffic_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_profile_debug_info_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_copy_links_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_copy_links_nkr_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_export_config_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::display_qr_link","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_scan_qr_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_clear_test_result_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_select_all_triggered","command",
-"MainWindow","commander boundary","MainWindow::on_menu_delete_repeat_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_update_subscription_triggered","controller stateless",
-"MainWindow","commander boundary","MainWindow::on_menu_remove_unavailable_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_menu_resolve_domain_triggered","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_proxyListTable_customContextMenuRequested","void-accessor command collaborator",
-"MainWindow","commander boundary","MainWindow::get_now_selected_list","property non-void-command collaborator",
-"MainWindow","commander boundary","MainWindow::get_selected_or_group","property non-void-command collaborator",
-"MainWindow","commander boundary","MainWindow::keyPressEvent","void-accessor command collaborator",
-"MainWindow","commander boundary","MainWindow::show_log_impl","command collaborator",
-"MainWindow","commander boundary","MainWindow::on_masterLogBrowser_customContextMenuRequested","command collaborator",
-"MainWindow","commander boundary","MainWindow::refresh_connection_list","command collaborator",
-"MainWindow","commander boundary","MainWindow::RegisterHotkey","command collaborator",
-"MainWindow","commander boundary","MainWindow::HotkeyEvent","void-accessor command collaborator",
-"MainWindow","commander boundary","MainWindow::RegisterHotkey","empty",
-"MainWindow","commander boundary","MainWindow::HotkeyEvent","empty",
-"MainWindow","commander boundary","MainWindow::StartVPNProcess","predicate set collaborator",
-"MainWindow","commander boundary","MainWindow::setup_grpc","controller stateless",
-"MainWindow","commander boundary","MainWindow::speedtest_current_group","command collaborator",
-"MainWindow","commander boundary","MainWindow::speedtest_current","command",
-"MainWindow","commander boundary","MainWindow::stop_core_daemon","controller stateless",
-"MainWindow","commander boundary","MainWindow::neko_start","command collaborator",
-"MainWindow","commander boundary","MainWindow::neko_stop","command collaborator",
-"MainWindow","commander boundary","MainWindow::CheckUpdate","set collaborator",
-"NaiveBean","entity boundary","NaiveBean","constructor",
-"NaiveBean","entity boundary","DisplayCoreType","collaborator incidental",
-"NaiveBean","entity boundary","DisplayType","collaborator incidental",
-"NaiveBean","entity boundary","NaiveBean::NeedExternal","incidental",
-"NaiveBean","entity boundary","NaiveBean::BuildExternal","property non-void-command collaborator",
-"NaiveBean","entity boundary","NaiveBean::ToShareLink","property non-void-command collaborator",
-"NaiveBean","entity boundary","NaiveBean::TryParseLink","predicate non-void-command collaborator",
-"DialogBasicSettings","commander boundary","DialogBasicSettings::DialogBasicSettings","constructor",
-"DialogBasicSettings","commander boundary","DialogBasicSettings::accept","command collaborator",
-"DialogBasicSettings","commander boundary","DialogBasicSettings::refresh_auth","command",
-"DialogBasicSettings","commander boundary","DialogBasicSettings::on_set_custom_icon_clicked","command collaborator",
-"DialogBasicSettings","commander boundary","DialogBasicSettings::on_inbound_auth_clicked","command collaborator",
-"DialogBasicSettings","commander boundary","DialogBasicSettings::on_core_settings_clicked","command collaborator",
-"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::AutoCompleteTextEdit","constructor",
-"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::~AutoCompleteTextEdit","destructor",
-"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::insertCompletion","command collaborator",
-"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::lineUnderCursor","controller stateless",
-"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::wordUnderCursor","controller stateless",
-"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::focusInEvent","void-accessor command collaborator",
-"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::keyPressEvent","void-accessor command collaborator",
-"EditNaive","boundary","EditNaive::EditNaive","constructor",
-"EditNaive","boundary","EditNaive::~EditNaive","destructor",
-"EditNaive","boundary","EditNaive::onStart","set collaborator",
-"EditNaive","boundary","EditNaive::onEnd","controller stateless",
-"EditNaive","boundary","EditNaive::get_editor_cached","property collaborator",
-"EditNaive","boundary","EditNaive::on_certificate_clicked","wrapper",
-"EditNaive","boundary","EditNaive::on_extra_headers_clicked","wrapper",
-"SyntaxHighlighter","controller small-class","SyntaxHighlighter::SyntaxHighlighter","constructor",
-"SyntaxHighlighter","controller small-class","SyntaxHighlighter::highlightBlock","void-accessor controller",
-"QtExtKeySequenceEdit","entity boundary small-class","QtExtKeySequenceEdit::QtExtKeySequenceEdit","constructor",
-"QtExtKeySequenceEdit","entity boundary small-class","QtExtKeySequenceEdit::~QtExtKeySequenceEdit","destructor",
-"QtExtKeySequenceEdit","entity boundary small-class","QtExtKeySequenceEdit::keyPressEvent","void-accessor command collaborator",
-"ChainBean","boundary degenerate small-class","ChainBean","constructor",
-"ChainBean","boundary degenerate small-class","DisplayType","wrapper stateless",
-"ChainBean","boundary degenerate small-class","DisplayAddress","collaborator incidental",
-"ExternalProcess","commander small-class","ExternalProcess::ExternalProcess","constructor",
-"ExternalProcess","commander small-class","ExternalProcess::~ExternalProcess","destructor",
-"ExternalProcess","commander small-class","ExternalProcess::Start","command",
-"ExternalProcess","commander small-class","ExternalProcess::Kill","set",
-"EditSocksHttp","entity boundary small-class","EditSocksHttp::EditSocksHttp","constructor",
-"EditSocksHttp","entity boundary small-class","EditSocksHttp::~EditSocksHttp","destructor",
-"EditSocksHttp","entity boundary small-class","EditSocksHttp::onStart","command collaborator",
-"EditSocksHttp","entity boundary small-class","EditSocksHttp::onEnd","predicate non-void-command collaborator",
-"RunGuard","entity boundary","RunGuard::RunGuard","constructor",
-"RunGuard","entity boundary","RunGuard::~RunGuard","destructor",
-"RunGuard","entity boundary","RunGuard::isAnotherRunning","predicate non-void-command collaborator",
-"RunGuard","entity boundary","RunGuard::tryToRun","predicate non-void-command collaborator",
-"RunGuard","entity boundary","RunGuard::release","command",
-"V2rayStreamSettings","entity boundary small-class","V2rayStreamSettings","constructor",
-"V2rayStreamSettings","entity boundary small-class","V2rayStreamSettings::BuildStreamSettingsSingBox","command collaborator",
-"V2rayStreamSettings","entity boundary small-class","V2rayStreamSettings::BuildStreamSettingsV2Ray","property non-void-command collaborator",
-"Group","data-provider boundary small-class","Group::Group","constructor",
-"Group","data-provider boundary small-class","Group::Profiles","property collaborator",
-"Group","data-provider boundary small-class","Group::ProfilesWithOrder","property collaborator",
-"DialogEditGroup","commander boundary","DialogEditGroup::DialogEditGroup","constructor",
-"DialogEditGroup","commander boundary","DialogEditGroup::~DialogEditGroup","destructor",
-"DialogEditGroup","commander boundary","DialogEditGroup::accept","command",
-"DialogEditGroup","commander boundary","DialogEditGroup::refresh_front_proxy","command collaborator",
-"DialogEditGroup","commander boundary","DialogEditGroup::on_front_proxy_clicked","command collaborator",
-"WinCommander","pure-controller degenerate small-class","WinCommander::runProcessElevated","controller stateless",
-"DialogManageGroups","small-class","DialogManageGroups::DialogManageGroups","constructor",
-"DialogManageGroups","small-class","DialogManageGroups::on_add_clicked","controller",
-"DialogManageGroups","small-class","DialogManageGroups::on_update_all_clicked","wrapper",
-"QUICBean","entity boundary","QUICBean","constructor",
-"QUICBean","entity boundary","DisplayAddress","property non-void-command collaborator",
-"QUICBean","entity boundary","DisplayCoreType","property non-void-command collaborator",
-"QUICBean","entity boundary","DisplayType","property collaborator",
-"QUICBean","entity boundary","QUICBean::BuildCoreObjSingBox","property non-void-command collaborator",
-"QUICBean","entity boundary","QUICBean::NeedExternal","property non-void-command collaborator",
-"QUICBean","entity boundary","QUICBean::BuildExternal","property non-void-command collaborator",
-"QUICBean","entity boundary","QUICBean::ToShareLink","property non-void-command collaborator",
-"QUICBean","entity boundary","QUICBean::TryParseLink","predicate non-void-command collaborator",
-"VideoFilterRunnable","entity boundary small-class","VideoFilterRunnable","constructor",
-"VideoFilterRunnable","entity boundary small-class","run","property non-void-command collaborator",
-"InboundAuthorization","data-provider small-class","InboundAuthorization::InboundAuthorization","constructor",
-"InboundAuthorization","data-provider small-class","InboundAuthorization::NeedAuth","predicate",
-"AbstractBean","entity boundary degenerate","DisplayCoreType","collaborator incidental",
-"AbstractBean","entity boundary degenerate","DisplayType","collaborator incidental",
-"AbstractBean","entity boundary degenerate","NeedExternal","incidental",
-"AbstractBean","entity boundary degenerate","BuildCoreObjV2Ray","collaborator incidental",
-"AbstractBean","entity boundary degenerate","BuildCoreObjSingBox","collaborator incidental",
-"AbstractBean","entity boundary degenerate","BuildExternal","collaborator incidental",
-"AbstractBean","entity boundary degenerate","ToShareLink","collaborator incidental",
-"AbstractBean","entity boundary degenerate","AbstractBean::AbstractBean","constructor",
-"AbstractBean","entity boundary degenerate","AbstractBean::ToNekorayShareLink","property non-void-command collaborator",
-"AbstractBean","entity boundary degenerate","AbstractBean::DisplayAddress","property wrapper",
-"AbstractBean","entity boundary degenerate","AbstractBean::DisplayName","get property non-void-command collaborator",
-"AbstractBean","entity boundary degenerate","AbstractBean::DisplayTypeAndName","property non-void-command collaborator",
-"AbstractBean","entity boundary degenerate","AbstractBean::ResolveDomainToIP","set collaborator",
-"QThreadCreateThread","commander small-class","QThreadCreateThread","constructor",
-"QThreadCreateThread","commander small-class","run","command",
-"data_too_long","empty","data_too_long::data_too_long","constructor",
-"JsonEditor","unclassified","JsonEditor::JsonEditor","constructor",
-"JsonEditor","unclassified","JsonEditor::OpenEditor","property controller",
-"JsonEditor","unclassified","JsonEditor::~JsonEditor","destructor",
-"JsonEditor","unclassified","JsonEditor::on_jsonEditor_textChanged","command collaborator",
-"JsonEditor","unclassified","JsonEditor::on_formatJsonBtn_clicked","command collaborator",
-"JsonEditor","unclassified","JsonEditor::on_removeCommentsBtn_clicked","controller stateless",
-"ProfileManager","boundary","ProfileManager::ProfileManager","constructor",
-"ProfileManager","boundary","ProfileManager::LoadManager","command collaborator",
-"ProfileManager","boundary","ProfileManager::SaveManager","command",
-"ProfileManager","boundary","ProfileManager::LoadProxyEntity","property non-void-command collaborator",
-"ProfileManager","boundary","ProfileManager::NewProxyEntity","wrapper stateless",
-"ProfileManager","boundary","ProfileManager::NewGroup","wrapper stateless",
-"ProfileManager","boundary","ProfileManager::NewProfileID","property",
-"ProfileManager","boundary","ProfileManager::AddProfile","predicate non-void-command",
-"ProfileManager","boundary","ProfileManager::DeleteProfile","command",
-"ProfileManager","boundary","ProfileManager::MoveProfile","void-accessor command collaborator",
-"ProfileManager","boundary","ProfileManager::GetProfile","property non-void-command collaborator",
-"ProfileManager","boundary","ProfileManager::LoadGroup","controller stateless",
-"ProfileManager","boundary","ProfileManager::NewGroupID","property",
-"ProfileManager","boundary","ProfileManager::AddGroup","predicate non-void-command collaborator",
-"ProfileManager","boundary","ProfileManager::DeleteGroup","command collaborator",
-"ProfileManager","boundary","ProfileManager::GetGroup","property non-void-command collaborator",
-"ProfileManager","boundary","ProfileManager::CurrentGroup","property non-void-command collaborator",
-"FromBase64Result","data-provider boundary","swap","void-accessor wrapper",
-"FromBase64Result","data-provider boundary","operatorbool","unclassified",
-"FromBase64Result","data-provider boundary","operator*","get collaborator",
-"FromBase64Result","data-provider boundary","operator*","get collaborator",
-"FromBase64Result","data-provider boundary","operator*","property wrapper",
-"FromBase64Result","data-provider boundary","operator*","get collaborator",
-"FromBase64Result","data-provider boundary","operator*","get collaborator",
-"QrCode","unclassified","QrCode::getFormatBits","wrapper stateless",
-"QrCode","unclassified","QrCode::encodeText","wrapper stateless",
-"QrCode","unclassified","QrCode::encodeBinary","wrapper stateless",
-"QrCode","unclassified","QrCode::encodeSegments","property non-void-command",
-"QrCode","unclassified","QrCode::QrCode","constructor",
-"QrCode","unclassified","QrCode::getVersion","get",
-"QrCode","unclassified","QrCode::getSize","get",
-"QrCode","unclassified","QrCode::getErrorCorrectionLevel","get collaborator",
-"QrCode","unclassified","QrCode::getMask","get",
-"QrCode","unclassified","QrCode::getModule","predicate",
-"QrCode","unclassified","QrCode::drawFunctionPatterns","command",
-"QrCode","unclassified","QrCode::drawFormatBits","command",
-"QrCode","unclassified","QrCode::drawVersion","command",
-"QrCode","unclassified","QrCode::drawFinderPattern","command",
-"QrCode","unclassified","QrCode::drawAlignmentPattern","wrapper stateless",
-"QrCode","unclassified","QrCode::setFunctionModule","command",
-"QrCode","unclassified","QrCode::module","predicate",
-"QrCode","unclassified","QrCode::addEccAndInterleave","property",
-"QrCode","unclassified","QrCode::drawCodewords","command",
-"QrCode","unclassified","QrCode::applyMask","command",
-"QrCode","unclassified","QrCode::getPenaltyScore","property",
-"QrCode","unclassified","QrCode::getAlignmentPatternPositions","property controller",
-"QrCode","unclassified","QrCode::getNumRawDataModules","property wrapper",
-"QrCode","unclassified","QrCode::getNumDataCodewords","property non-void-command collaborator",
-"QrCode","unclassified","QrCode::reedSolomonComputeDivisor","property non-void-command",
-"QrCode","unclassified","QrCode::reedSolomonComputeRemainder","property non-void-command",
-"QrCode","unclassified","QrCode::reedSolomonMultiply","incidental",
-"QrCode","unclassified","QrCode::finderPenaltyCountPatterns","controller stateless",
-"QrCode","unclassified","QrCode::finderPenaltyTerminateAndCount","property collaborator",
-"QrCode","unclassified","QrCode::finderPenaltyAddHistory","controller",
-"QrCode","unclassified","QrCode::getBit","incidental",
-"Message","unclassified","Message::Message","constructor",
-"Message","unclassified","Message::Message","constructor",
-"Message","unclassified","Message::Message","copy-constructor",
-"Message","unclassified","Message::~Message","destructor",
-"Message","unclassified","Message::ParseFromBytes","predicate non-void-command",
-"Message","unclassified","Message::AddField","property non-void-command collaborator",
-"Message","unclassified","Message::GetField","property non-void-command collaborator",
-"Message","unclassified","Message::GetFieldAndCheckType","property non-void-command collaborator",
-"Message","unclassified","Message::GetInt32","property non-void-command",
-"Message","unclassified","Message::GetInt64","property non-void-command",
-"Message","unclassified","Message::GetUInt32","property non-void-command",
-"Message","unclassified","Message::GetUInt64","property non-void-command",
-"Message","unclassified","Message::GetInt","property non-void-command collaborator",
-"Message","unclassified","Message::GetBool","predicate non-void-command",
-"Message","unclassified","Message::GetFloat","property non-void-command",
-"Message","unclassified","Message::GetDouble","property non-void-command",
-"Message","unclassified","Message::GetBytes","property non-void-command",
-"Message","unclassified","Message::GetString","property non-void-command",
-"Message","unclassified","Message::GetMessage","non-void-command factory",
-"Message","unclassified","Message::GetInt32Array","property non-void-command",
-"Message","unclassified","Message::GetInt64Array","property non-void-command",
-"Message","unclassified","Message::GetUInt32Array","property non-void-command",
-"Message","unclassified","Message::GetUInt64Array","property non-void-command",
-"Message","unclassified","Message::GetBoolArray","property non-void-command",
-"Message","unclassified","Message::GetFloatArray","property non-void-command",
-"Message","unclassified","Message::GetDoubleArray","property non-void-command",
-"Message","unclassified","Message::GetByteArray","property non-void-command",
-"Message","unclassified","Message::GetStringArray","property non-void-command",
-"Message","unclassified","Message::GetMessageArray","property non-void-command",
-"BitBuffer","pure-controller degenerate small-class","BitBuffer::BitBuffer","constructor",
-"BitBuffer","pure-controller degenerate small-class","BitBuffer::appendBits","controller stateless",
-"CustomBean","entity data-provider boundary","CustomBean","constructor",
-"CustomBean","entity data-provider boundary","DisplayType","get property wrapper",
-"CustomBean","entity data-provider boundary","DisplayCoreType","property non-void-command collaborator",
-"CustomBean","entity data-provider boundary","DisplayAddress","property non-void-command collaborator",
-"CustomBean","entity data-provider boundary","CustomBean::BuildCoreObjSingBox","property wrapper",
-"CustomBean","entity data-provider boundary","CustomBean::BuildCoreObjV2Ray","property wrapper",
-"CustomBean","entity data-provider boundary","CustomBean::NeedExternal","property",
-"CustomBean","entity data-provider boundary","CustomBean::BuildExternal","property non-void-command collaborator",
-"ShadowSocksBean","entity boundary","ShadowSocksBean","constructor",
-"ShadowSocksBean","entity boundary","DisplayType","collaborator incidental",
-"ShadowSocksBean","entity boundary","ShadowSocksBean::BuildCoreObjSingBox","property non-void-command collaborator",
-"ShadowSocksBean","entity boundary","ShadowSocksBean::BuildCoreObjV2Ray","property non-void-command collaborator",
-"ShadowSocksBean","entity boundary","ShadowSocksBean::ToShareLink","property non-void-command collaborator",
-"ShadowSocksBean","entity boundary","ShadowSocksBean::TryParseLink","predicate non-void-command collaborator",
-"QrSegment","unclassified","QrSegment::makeBytes","property non-void-command",
-"QrSegment","unclassified","QrSegment::makeNumeric","property non-void-command",
-"QrSegment","unclassified","QrSegment::makeAlphanumeric","property non-void-command",
-"QrSegment","unclassified","QrSegment::makeSegments","property non-void-command",
-"QrSegment","unclassified","QrSegment::makeEci","property non-void-command collaborator",
-"QrSegment","unclassified","QrSegment::QrSegment","constructor",
-"QrSegment","unclassified","QrSegment::QrSegment","constructor",
-"QrSegment","unclassified","QrSegment::getTotalBits","controller stateless",
-"QrSegment","unclassified","QrSegment::isNumeric","incidental",
-"QrSegment","unclassified","QrSegment::isAlphanumeric","predicate wrapper",
-"QrSegment","unclassified","QrSegment::getMode","get collaborator",
-"QrSegment","unclassified","QrSegment::getNumChars","get",
-"QrSegment","unclassified","QrSegment::getData","get",
-"SocksHttpBean","entity boundary","SocksHttpBean","constructor",
-"SocksHttpBean","entity boundary","DisplayType","property collaborator",
-"SocksHttpBean","entity boundary","SocksHttpBean::BuildCoreObjSingBox","property non-void-command collaborator",
-"SocksHttpBean","entity boundary","SocksHttpBean::BuildCoreObjV2Ray","property non-void-command collaborator",
-"SocksHttpBean","entity boundary","SocksHttpBean::ToShareLink","property non-void-command collaborator",
-"SocksHttpBean","entity boundary","SocksHttpBean::TryParseLink","predicate non-void-command collaborator",
-"EditVMess","entity boundary small-class","EditVMess::EditVMess","constructor",
-"EditVMess","entity boundary small-class","EditVMess::~EditVMess","destructor",
-"EditVMess","entity boundary small-class","EditVMess::onStart","command collaborator",
-"EditVMess","entity boundary small-class","EditVMess::onEnd","predicate non-void-command collaborator",
-"configItem","empty","configItem","constructor",
-"Http2GrpcChannelPrivate","entity boundary","post","property non-void-command collaborator",
-"Http2GrpcChannelPrivate","entity boundary","call","property non-void-command collaborator",
-"Http2GrpcChannelPrivate","entity boundary","Http2GrpcChannelPrivate","constructor",
-"Http2GrpcChannelPrivate","entity boundary","~Http2GrpcChannelPrivate","destructor",
-"Http2GrpcChannelPrivate","entity boundary","Call","property non-void-command collaborator",
-"VMessBean","entity boundary","VMessBean","constructor",
-"VMessBean","entity boundary","DisplayType","collaborator incidental",
-"VMessBean","entity boundary","VMessBean::BuildCoreObjSingBox","property non-void-command collaborator",
-"VMessBean","entity boundary","VMessBean::BuildCoreObjV2Ray","property collaborator",
-"VMessBean","entity boundary","VMessBean::ToShareLink","property non-void-command collaborator",
-"VMessBean","entity boundary","VMessBean::TryParseLink","predicate non-void-command collaborator",
-"NetworkRequestHelper","pure-controller degenerate small-class","NetworkRequestHelper","constructor",
-"NetworkRequestHelper","pure-controller degenerate small-class","NetworkRequestHelper::HttpGet","controller stateless",
-"NetworkRequestHelper","pure-controller degenerate small-class","NetworkRequestHelper::GetHeader","controller stateless",
-"JsonStore","entity minimal-entity boundary","JsonStore","constructor",
-"JsonStore","entity minimal-entity boundary","JsonStore::_add","void-accessor command collaborator",
-"JsonStore","entity minimal-entity boundary","JsonStore::_name","property collaborator",
-"JsonStore","entity minimal-entity boundary","JsonStore::_get","get property non-void-command collaborator",
-"JsonStore","entity minimal-entity boundary","JsonStore::_setValue","void-accessor command collaborator",
-"JsonStore","entity minimal-entity boundary","JsonStore::ToJson","property non-void-command collaborator",
-"JsonStore","entity minimal-entity boundary","JsonStore::ToJsonBytes","property non-void-command collaborator",
-"JsonStore","entity minimal-entity boundary","JsonStore::FromJson","command collaborator",
-"JsonStore","entity minimal-entity boundary","JsonStore::FromJsonBytes","void-accessor command collaborator",
-"JsonStore","entity minimal-entity boundary","JsonStore::Save","predicate set collaborator",
-"JsonStore","entity minimal-entity boundary","JsonStore::Load","predicate set",
-"TrojanVLESSBean","entity boundary","TrojanVLESSBean","constructor",
-"TrojanVLESSBean","entity boundary","DisplayType","property collaborator",
-"TrojanVLESSBean","entity boundary","TrojanVLESSBean::BuildCoreObjSingBox","property non-void-command collaborator",
-"TrojanVLESSBean","entity boundary","TrojanVLESSBean::BuildCoreObjV2Ray","property set collaborator",
-"TrojanVLESSBean","entity boundary","TrojanVLESSBean::ToShareLink","property non-void-command collaborator",
-"TrojanVLESSBean","entity boundary","TrojanVLESSBean::TryParseLink","predicate non-void-command collaborator",
-"Routing","degenerate","Routing::Routing","constructor",
-"Routing","degenerate","Routing::DisplayRouting","property wrapper",
-"Routing","degenerate","Routing::List","controller stateless",
-"Routing","degenerate","Routing::SetToActive","controller stateless",
-"ExtraCore","unclassified","ExtraCore::ExtraCore","constructor",
-"ExtraCore","unclassified","ExtraCore::Get","property controller",
-"ExtraCore","unclassified","ExtraCore::Set","set collaborator",
-"ExtraCore","unclassified","ExtraCore::Delete","void-accessor set collaborator",
-"DataStore","small-class","DataStore::DataStore","constructor",
-"DataStore","small-class","DataStore::UpdateStartedId","command",
-"DataStore","small-class","DataStore::GetUserAgent","get property collaborator",
-"QJS","pure-controller degenerate","QJS::QJS","constructor",
-"QJS","pure-controller degenerate","QJS::QJS","constructor",
-"QJS","pure-controller degenerate","QJS::~QJS","destructor",
-"QJS","pure-controller degenerate","QJS::Eval","controller stateless",
-"QJS","pure-controller degenerate","QJS::Eval","controller stateless",
-"QJS","pure-controller degenerate","QJS::EvalFile","controller stateless",
-"QJS","pure-controller degenerate","QJS::EvalFunction","controller stateless",
-"NoCache","boundary degenerate","metaData","collaborator incidental",
-"NoCache","boundary degenerate","updateMetaData","empty",
-"NoCache","boundary degenerate","data","collaborator incidental",
-"NoCache","boundary degenerate","remove","collaborator incidental",
-"NoCache","boundary degenerate","cacheSize","collaborator incidental",
-"NoCache","boundary degenerate","prepare","collaborator incidental",
-"NoCache","boundary degenerate","insert","empty",
-"NoCache","boundary degenerate","clear","empty",
-"Client","entity boundary","Client::Client","constructor",
-"Client","entity boundary","Client::Exit","command collaborator",
-"Client","entity boundary","Client::Start","property non-void-command collaborator",
-"Client","entity boundary","Client::Stop","property non-void-command collaborator",
-"Client","entity boundary","Client::QueryStats","property non-void-command collaborator",
-"Client","entity boundary","Client::ListConnections","property non-void-command collaborator",
-"Client","entity boundary","Client::Test","wrapper stateless",
-"Client","entity boundary","Client::Update","property non-void-command collaborator",
-"QScopeGuard","commander data-class small-class","QScopeGuard","copy-constructor",
-"QScopeGuard","commander data-class small-class","~QScopeGuard","destructor",
-"QScopeGuard","commander data-class small-class","dismiss","set",
-"QScopeGuard","commander data-class small-class","QScopeGuard","constructor",
-"RawUpdater","entity boundary small-class","RawUpdater::update","void-accessor command collaborator",
-"RawUpdater","entity boundary small-class","RawUpdater::updateClash","set collaborator",
+"ProxyItem","unclassified","ProxyItem::ProxyItem","constructor"
+"ProxyItem","unclassified","ProxyItem::~ProxyItem","destructor"
+"ProxyItem","unclassified","ProxyItem::refresh_data","command"
+"ProxyItem","unclassified","ProxyItem::on_remove_clicked","command"
+"ProxyItem","unclassified","ProxyItem::get_change_button","property collaborator"
+"MyTableWidget","commander boundary","MyTableWidget","constructor"
+"MyTableWidget","commander boundary","_save_order","command collaborator"
+"MyTableWidget","commander boundary","update_order","command"
+"MyTableWidget","commander boundary","dropEvent","command collaborator"
+"MessageBoxTimer","commander small-class","MessageBoxTimer","constructor"
+"MessageBoxTimer","commander small-class","cancel","command"
+"MessageBoxTimer","commander small-class","timeoutFunc","command"
+"GroupItem","unclassified","GroupItem::GroupItem","constructor"
+"GroupItem","unclassified","GroupItem::~GroupItem","destructor"
+"GroupItem","unclassified","GroupItem::refresh_data","command collaborator"
+"GroupItem","unclassified","GroupItem::on_update_sub_clicked","controller"
+"GroupItem","unclassified","GroupItem::on_edit_clicked","command collaborator"
+"GroupItem","unclassified","GroupItem::on_remove_clicked","controller"
+"FloatCheckBox","entity boundary small-class","refresh","command collaborator"
+"FloatCheckBox","entity boundary small-class","eventFilter","predicate non-void-command collaborator"
+"FloatCheckBox","entity boundary small-class","FloatCheckBox","constructor"
+"ProfileEditor","boundary degenerate small-class","get_editor_cached","collaborator incidental"
+"EditTrojanVLESS","entity boundary small-class","EditTrojanVLESS::EditTrojanVLESS","constructor"
+"EditTrojanVLESS","entity boundary small-class","EditTrojanVLESS::~EditTrojanVLESS","destructor"
+"EditTrojanVLESS","entity boundary small-class","EditTrojanVLESS::onStart","command collaborator"
+"EditTrojanVLESS","entity boundary small-class","EditTrojanVLESS::onEnd","predicate non-void-command collaborator"
+"EditShadowSocks","entity boundary small-class","EditShadowSocks::EditShadowSocks","constructor"
+"EditShadowSocks","entity boundary small-class","EditShadowSocks::~EditShadowSocks","destructor"
+"EditShadowSocks","entity boundary small-class","EditShadowSocks::onStart","command collaborator"
+"EditShadowSocks","entity boundary small-class","EditShadowSocks::onEnd","predicate non-void-command collaborator"
+"EditChain","commander boundary","EditChain::EditChain","constructor"
+"EditChain","commander boundary","EditChain::~EditChain","destructor"
+"EditChain","commander boundary","EditChain::onStart","set collaborator"
+"EditChain","commander boundary","EditChain::onEnd","predicate non-void-command"
+"EditChain","commander boundary","EditChain::on_select_profile_clicked","command"
+"EditChain","commander boundary","EditChain::AddProfileToListIfExist","command collaborator"
+"EditChain","commander boundary","EditChain::ReplaceProfile","controller stateless"
+"EditCustom","commander boundary small-class","EditCustom::EditCustom","constructor"
+"EditCustom","commander boundary small-class","EditCustom::~EditCustom","destructor"
+"EditCustom","commander boundary small-class","EditCustom::onStart","command collaborator"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::DialogEditProfile","constructor"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::typeSelected","command collaborator"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::onEnd","predicate non-void-command collaborator"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::accept","command collaborator"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::editor_cache_updated_impl","command collaborator"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::on_custom_outbound_edit_clicked","command"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::on_custom_config_edit_clicked","command"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::on_certificate_edit_clicked","command collaborator"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::on_apply_to_group_clicked","command collaborator"
+"DialogEditProfile","entity commander boundary","DialogEditProfile::do_apply_to_group","command collaborator"
+"DialogManageRoutes","unclassified","DialogManageRoutes::DialogManageRoutes","constructor"
+"DialogManageRoutes","unclassified","DialogManageRoutes::accept","command collaborator"
+"DialogManageRoutes","unclassified","DialogManageRoutes::getBuiltInSchemes","property controller"
+"DialogManageRoutes","unclassified","DialogManageRoutes::schemeToAction","property controller"
+"DialogManageRoutes","unclassified","DialogManageRoutes::UpdateDisplayRouting","command"
+"DialogManageRoutes","unclassified","DialogManageRoutes::SaveDisplayRouting","void-accessor command collaborator"
+"DialogManageRoutes","unclassified","DialogManageRoutes::on_load_save_clicked","command collaborator"
+"DialogHotkey","empty","DialogHotkey::DialogHotkey","constructor"
+"DialogHotkey","empty","DialogHotkey::~DialogHotkey","destructor"
+"DialogFirstSetup","boundary small-class","DialogFirstSetup::DialogFirstSetup","constructor"
+"DialogFirstSetup","boundary small-class","DialogFirstSetup::~DialogFirstSetup","destructor"
+"DialogFirstSetup","boundary small-class","DialogFirstSetup::onButtonClicked","wrapper"
+"TrafficLooper","controller","TrafficLooper::update_stats","factory controller stateless"
+"TrafficLooper","controller","TrafficLooper::get_connection_list","controller stateless"
+"TrafficLooper","controller","TrafficLooper::UpdateAll","command collaborator"
+"TrafficLooper","controller","TrafficLooper::Loop","command collaborator"
+"TrafficData","entity boundary","TrafficData","constructor"
+"TrafficData","entity boundary","Reset","command"
+"TrafficData","entity boundary","DisplaySpeed","property wrapper"
+"TrafficData","entity boundary","DisplayTraffic","property wrapper"
+"ProxyEntity","data-provider boundary","ChainBean","property collaborator"
+"ProxyEntity","data-provider boundary","SocksHTTPBean","property collaborator"
+"ProxyEntity","data-provider boundary","ShadowSocksBean","property collaborator"
+"ProxyEntity","data-provider boundary","VMessBean","property collaborator"
+"ProxyEntity","data-provider boundary","TrojanVLESSBean","property collaborator"
+"ProxyEntity","data-provider boundary","NaiveBean","property collaborator"
+"ProxyEntity","data-provider boundary","QUICBean","property collaborator"
+"ProxyEntity","data-provider boundary","CustomBean","property collaborator"
+"ProxyEntity","data-provider boundary","ProxyEntity::ProxyEntity","constructor"
+"ProxyEntity","data-provider boundary","ProxyEntity::DisplayLatency","property wrapper"
+"ProxyEntity","data-provider boundary","ProxyEntity::DisplayLatencyColor","property controller"
+"ExtraCoreWidget","empty","ExtraCoreWidget","constructor"
+"GroupUpdater","small-class","GroupUpdater::AsyncUpdate","command collaborator"
+"GroupUpdater","small-class","GroupUpdater::Update","controller stateless"
+"Field","empty","Field::Field","copy-constructor"
+"Field","empty","Field::Field","copy-constructor"
+"Field","empty","Field::~Field","destructor"
+"MyLineEdit","commander boundary small-class","MyLineEdit","constructor"
+"MyLineEdit","commander boundary small-class","setText","command collaborator"
+"DialogVPNSettings","commander boundary small-class","DialogVPNSettings::DialogVPNSettings","constructor"
+"DialogVPNSettings","commander boundary small-class","DialogVPNSettings::~DialogVPNSettings","destructor"
+"DialogVPNSettings","commander boundary small-class","DialogVPNSettings::accept","command collaborator"
+"DialogVPNSettings","commander boundary small-class","DialogVPNSettings::on_troubleshooting_clicked","wrapper"
+"CoreProcess","empty","CoreProcess::CoreProcess","constructor"
+"Result","data-provider boundary","Result","copy-constructor"
+"Result","data-provider boundary","format","property collaborator"
+"Result","data-provider boundary","contentType","property collaborator"
+"Result","data-provider boundary","formatName","property collaborator"
+"Result","data-provider boundary","text","collaborator incidental"
+"Result","data-provider boundary","bytes","get collaborator"
+"Result","data-provider boundary","position","get collaborator"
+"ThemeManager","commander boundary small-class","ThemeManager::ApplyTheme","command collaborator"
+"QJsonModel","boundary","QJsonModel::QJsonModel","constructor"
+"QJsonModel","boundary","QJsonModel::QJsonModel","constructor"
+"QJsonModel","boundary","QJsonModel::QJsonModel","constructor"
+"QJsonModel","boundary","QJsonModel::QJsonModel","constructor"
+"QJsonModel","boundary","QJsonModel::~QJsonModel","destructor"
+"QJsonModel","boundary","QJsonModel::load","predicate non-void-command collaborator"
+"QJsonModel","boundary","QJsonModel::load","predicate non-void-command collaborator"
+"QJsonModel","boundary","QJsonModel::loadJson","predicate non-void-command collaborator"
+"QJsonModel","boundary","QJsonModel::data","controller stateless"
+"QJsonModel","boundary","QJsonModel::setData","controller stateless"
+"QJsonModel","boundary","QJsonModel::flags","property collaborator"
+"QJsonModel","boundary","QJsonModel::json","property collaborator"
+"QJsonModel","boundary","QJsonModel::genJson","property collaborator"
+"W","commander boundary","show_qr","collaborator"
+"W","commander boundary","refresh","command"
+"W","commander boundary","W","constructor"
+"W","commander boundary","resizeEvent","command collaborator"
+"EditQUIC","boundary","EditQUIC::EditQUIC","constructor"
+"EditQUIC","boundary","EditQUIC::~EditQUIC","destructor"
+"EditQUIC","boundary","EditQUIC::onStart","command collaborator"
+"EditQUIC","boundary","EditQUIC::onEnd","controller stateless"
+"EditQUIC","boundary","EditQUIC::get_editor_cached","property collaborator"
+"EditQUIC","boundary","EditQUIC::on_certificate_clicked","wrapper"
+"ProfileFilter","pure-controller degenerate","ProfileFilter::Uniq","controller stateless"
+"ProfileFilter","pure-controller degenerate","ProfileFilter::Common","controller stateless"
+"ProfileFilter","pure-controller degenerate","ProfileFilter::OnlyInSrc","controller stateless"
+"ProfileFilter","pure-controller degenerate","ProfileFilter::OnlyInSrc_ByPointer","controller stateless"
+"QJsonTreeItem","unclassified","QJsonTreeItem::QJsonTreeItem","copy-constructor"
+"QJsonTreeItem","unclassified","QJsonTreeItem::~QJsonTreeItem","destructor"
+"QJsonTreeItem","unclassified","QJsonTreeItem::appendChild","command"
+"QJsonTreeItem","unclassified","QJsonTreeItem::child","property non-void-command"
+"QJsonTreeItem","unclassified","QJsonTreeItem::parent","get"
+"QJsonTreeItem","unclassified","QJsonTreeItem::childCount","property"
+"QJsonTreeItem","unclassified","QJsonTreeItem::row","property"
+"QJsonTreeItem","unclassified","QJsonTreeItem::setKey","set collaborator"
+"QJsonTreeItem","unclassified","QJsonTreeItem::setValue","set collaborator"
+"QJsonTreeItem","unclassified","QJsonTreeItem::setType","set collaborator"
+"QJsonTreeItem","unclassified","QJsonTreeItem::key","get collaborator"
+"QJsonTreeItem","unclassified","QJsonTreeItem::value","get collaborator"
+"QJsonTreeItem","unclassified","QJsonTreeItem::type","get collaborator"
+"QJsonTreeItem","unclassified","QJsonTreeItem::load","non-void-command factory"
+"MainWindow","commander boundary","MainWindow::MainWindow","constructor"
+"MainWindow","commander boundary","MainWindow::on_tabWidget_currentChanged","command"
+"MainWindow","commander boundary","MainWindow::show_group","command collaborator"
+"MainWindow","commander boundary","MainWindow::dialog_message_impl","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_basic_settings_triggered","incidental"
+"MainWindow","commander boundary","MainWindow::on_menu_manage_groups_triggered","incidental"
+"MainWindow","commander boundary","MainWindow::on_menu_routing_settings_triggered","incidental"
+"MainWindow","commander boundary","MainWindow::on_menu_vpn_settings_triggered","incidental"
+"MainWindow","commander boundary","MainWindow::on_menu_hotkey_settings_triggered","incidental"
+"MainWindow","commander boundary","MainWindow::on_commitDataRequest","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_exit_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::neko_set_spmode_system_proxy","command collaborator"
+"MainWindow","commander boundary","MainWindow::neko_set_spmode_vpn","command collaborator"
+"MainWindow","commander boundary","MainWindow::refresh_status","command collaborator"
+"MainWindow","commander boundary","MainWindow::refresh_groups","command collaborator"
+"MainWindow","commander boundary","MainWindow::refresh_proxy_list","wrapper stateless"
+"MainWindow","commander boundary","MainWindow::on_proxyListTable_itemDoubleClicked","set collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_add_from_input_triggered","wrapper"
+"MainWindow","commander boundary","MainWindow::on_menu_add_from_clipboard_triggered","controller stateless"
+"MainWindow","commander boundary","MainWindow::on_menu_clone_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_move_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_delete_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_reset_traffic_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_profile_debug_info_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_copy_links_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_copy_links_nkr_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_export_config_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::display_qr_link","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_scan_qr_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_clear_test_result_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_select_all_triggered","command"
+"MainWindow","commander boundary","MainWindow::on_menu_delete_repeat_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_update_subscription_triggered","controller stateless"
+"MainWindow","commander boundary","MainWindow::on_menu_remove_unavailable_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_menu_resolve_domain_triggered","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_proxyListTable_customContextMenuRequested","command collaborator"
+"MainWindow","commander boundary","MainWindow::get_now_selected_list","property non-void-command collaborator"
+"MainWindow","commander boundary","MainWindow::get_selected_or_group","property non-void-command collaborator"
+"MainWindow","commander boundary","MainWindow::keyPressEvent","command collaborator"
+"MainWindow","commander boundary","MainWindow::show_log_impl","command collaborator"
+"MainWindow","commander boundary","MainWindow::on_masterLogBrowser_customContextMenuRequested","command collaborator"
+"MainWindow","commander boundary","MainWindow::refresh_connection_list","command collaborator"
+"MainWindow","commander boundary","MainWindow::RegisterHotkey","command collaborator"
+"MainWindow","commander boundary","MainWindow::HotkeyEvent","command collaborator"
+"MainWindow","commander boundary","MainWindow::RegisterHotkey","empty"
+"MainWindow","commander boundary","MainWindow::HotkeyEvent","empty"
+"MainWindow","commander boundary","MainWindow::StartVPNProcess","predicate set collaborator"
+"MainWindow","commander boundary","MainWindow::setup_grpc","controller stateless"
+"MainWindow","commander boundary","MainWindow::speedtest_current_group","command collaborator"
+"MainWindow","commander boundary","MainWindow::speedtest_current","command"
+"MainWindow","commander boundary","MainWindow::stop_core_daemon","controller stateless"
+"MainWindow","commander boundary","MainWindow::neko_start","command collaborator"
+"MainWindow","commander boundary","MainWindow::neko_stop","command collaborator"
+"MainWindow","commander boundary","MainWindow::CheckUpdate","set collaborator"
+"NaiveBean","entity boundary","NaiveBean","constructor"
+"NaiveBean","entity boundary","DisplayCoreType","collaborator incidental"
+"NaiveBean","entity boundary","DisplayType","collaborator incidental"
+"NaiveBean","entity boundary","NaiveBean::NeedExternal","incidental"
+"NaiveBean","entity boundary","NaiveBean::BuildExternal","property non-void-command collaborator"
+"NaiveBean","entity boundary","NaiveBean::ToShareLink","property non-void-command collaborator"
+"NaiveBean","entity boundary","NaiveBean::TryParseLink","predicate non-void-command collaborator"
+"DialogBasicSettings","commander boundary","DialogBasicSettings::DialogBasicSettings","constructor"
+"DialogBasicSettings","commander boundary","DialogBasicSettings::accept","command collaborator"
+"DialogBasicSettings","commander boundary","DialogBasicSettings::refresh_auth","command"
+"DialogBasicSettings","commander boundary","DialogBasicSettings::on_set_custom_icon_clicked","command collaborator"
+"DialogBasicSettings","commander boundary","DialogBasicSettings::on_inbound_auth_clicked","command collaborator"
+"DialogBasicSettings","commander boundary","DialogBasicSettings::on_core_settings_clicked","command collaborator"
+"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::AutoCompleteTextEdit","constructor"
+"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::~AutoCompleteTextEdit","destructor"
+"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::insertCompletion","command collaborator"
+"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::lineUnderCursor","controller stateless"
+"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::wordUnderCursor","controller stateless"
+"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::focusInEvent","command collaborator"
+"AutoCompleteTextEdit","unclassified","AutoCompleteTextEdit::keyPressEvent","command collaborator"
+"EditNaive","boundary","EditNaive::EditNaive","constructor"
+"EditNaive","boundary","EditNaive::~EditNaive","destructor"
+"EditNaive","boundary","EditNaive::onStart","set collaborator"
+"EditNaive","boundary","EditNaive::onEnd","controller stateless"
+"EditNaive","boundary","EditNaive::get_editor_cached","property collaborator"
+"EditNaive","boundary","EditNaive::on_certificate_clicked","wrapper"
+"EditNaive","boundary","EditNaive::on_extra_headers_clicked","wrapper"
+"SyntaxHighlighter","pure-controller small-class","SyntaxHighlighter::SyntaxHighlighter","constructor"
+"SyntaxHighlighter","pure-controller small-class","SyntaxHighlighter::highlightBlock","controller"
+"QtExtKeySequenceEdit","commander boundary small-class","QtExtKeySequenceEdit::QtExtKeySequenceEdit","constructor"
+"QtExtKeySequenceEdit","commander boundary small-class","QtExtKeySequenceEdit::~QtExtKeySequenceEdit","destructor"
+"QtExtKeySequenceEdit","commander boundary small-class","QtExtKeySequenceEdit::keyPressEvent","command collaborator"
+"ChainBean","boundary degenerate small-class","ChainBean","constructor"
+"ChainBean","boundary degenerate small-class","DisplayType","wrapper stateless"
+"ChainBean","boundary degenerate small-class","DisplayAddress","collaborator incidental"
+"ExternalProcess","commander small-class","ExternalProcess::ExternalProcess","constructor"
+"ExternalProcess","commander small-class","ExternalProcess::~ExternalProcess","destructor"
+"ExternalProcess","commander small-class","ExternalProcess::Start","command"
+"ExternalProcess","commander small-class","ExternalProcess::Kill","set"
+"EditSocksHttp","entity boundary small-class","EditSocksHttp::EditSocksHttp","constructor"
+"EditSocksHttp","entity boundary small-class","EditSocksHttp::~EditSocksHttp","destructor"
+"EditSocksHttp","entity boundary small-class","EditSocksHttp::onStart","command collaborator"
+"EditSocksHttp","entity boundary small-class","EditSocksHttp::onEnd","predicate non-void-command collaborator"
+"RunGuard","entity boundary","RunGuard::RunGuard","constructor"
+"RunGuard","entity boundary","RunGuard::~RunGuard","destructor"
+"RunGuard","entity boundary","RunGuard::isAnotherRunning","predicate non-void-command collaborator"
+"RunGuard","entity boundary","RunGuard::tryToRun","predicate non-void-command collaborator"
+"RunGuard","entity boundary","RunGuard::release","command"
+"V2rayStreamSettings","entity boundary small-class","V2rayStreamSettings","constructor"
+"V2rayStreamSettings","entity boundary small-class","V2rayStreamSettings::BuildStreamSettingsSingBox","command collaborator"
+"V2rayStreamSettings","entity boundary small-class","V2rayStreamSettings::BuildStreamSettingsV2Ray","property non-void-command collaborator"
+"Group","data-provider boundary small-class","Group::Group","constructor"
+"Group","data-provider boundary small-class","Group::Profiles","property collaborator"
+"Group","data-provider boundary small-class","Group::ProfilesWithOrder","property collaborator"
+"DialogEditGroup","commander boundary","DialogEditGroup::DialogEditGroup","constructor"
+"DialogEditGroup","commander boundary","DialogEditGroup::~DialogEditGroup","destructor"
+"DialogEditGroup","commander boundary","DialogEditGroup::accept","command"
+"DialogEditGroup","commander boundary","DialogEditGroup::refresh_front_proxy","command collaborator"
+"DialogEditGroup","commander boundary","DialogEditGroup::on_front_proxy_clicked","command collaborator"
+"WinCommander","pure-controller degenerate small-class","WinCommander::runProcessElevated","controller stateless"
+"DialogManageGroups","small-class","DialogManageGroups::DialogManageGroups","constructor"
+"DialogManageGroups","small-class","DialogManageGroups::on_add_clicked","controller"
+"DialogManageGroups","small-class","DialogManageGroups::on_update_all_clicked","wrapper"
+"QUICBean","entity boundary","QUICBean","constructor"
+"QUICBean","entity boundary","DisplayAddress","property non-void-command collaborator"
+"QUICBean","entity boundary","DisplayCoreType","property non-void-command collaborator"
+"QUICBean","entity boundary","DisplayType","property collaborator"
+"QUICBean","entity boundary","QUICBean::BuildCoreObjSingBox","property non-void-command collaborator"
+"QUICBean","entity boundary","QUICBean::NeedExternal","property non-void-command collaborator"
+"QUICBean","entity boundary","QUICBean::BuildExternal","property non-void-command collaborator"
+"QUICBean","entity boundary","QUICBean::ToShareLink","property non-void-command collaborator"
+"QUICBean","entity boundary","QUICBean::TryParseLink","predicate non-void-command collaborator"
+"VideoFilterRunnable","entity boundary small-class","VideoFilterRunnable","constructor"
+"VideoFilterRunnable","entity boundary small-class","run","property non-void-command collaborator"
+"InboundAuthorization","data-provider small-class","InboundAuthorization::InboundAuthorization","constructor"
+"InboundAuthorization","data-provider small-class","InboundAuthorization::NeedAuth","predicate"
+"AbstractBean","entity boundary degenerate","DisplayCoreType","collaborator incidental"
+"AbstractBean","entity boundary degenerate","DisplayType","collaborator incidental"
+"AbstractBean","entity boundary degenerate","NeedExternal","incidental"
+"AbstractBean","entity boundary degenerate","BuildCoreObjV2Ray","collaborator incidental"
+"AbstractBean","entity boundary degenerate","BuildCoreObjSingBox","collaborator incidental"
+"AbstractBean","entity boundary degenerate","BuildExternal","collaborator incidental"
+"AbstractBean","entity boundary degenerate","ToShareLink","collaborator incidental"
+"AbstractBean","entity boundary degenerate","AbstractBean::AbstractBean","constructor"
+"AbstractBean","entity boundary degenerate","AbstractBean::ToNekorayShareLink","property non-void-command collaborator"
+"AbstractBean","entity boundary degenerate","AbstractBean::DisplayAddress","property wrapper"
+"AbstractBean","entity boundary degenerate","AbstractBean::DisplayName","get property non-void-command collaborator"
+"AbstractBean","entity boundary degenerate","AbstractBean::DisplayTypeAndName","property non-void-command collaborator"
+"AbstractBean","entity boundary degenerate","AbstractBean::ResolveDomainToIP","set collaborator"
+"QThreadCreateThread","commander small-class","QThreadCreateThread","constructor"
+"QThreadCreateThread","commander small-class","run","command"
+"data_too_long","empty","data_too_long::data_too_long","constructor"
+"JsonEditor","unclassified","JsonEditor::JsonEditor","constructor"
+"JsonEditor","unclassified","JsonEditor::OpenEditor","property controller"
+"JsonEditor","unclassified","JsonEditor::~JsonEditor","destructor"
+"JsonEditor","unclassified","JsonEditor::on_jsonEditor_textChanged","command collaborator"
+"JsonEditor","unclassified","JsonEditor::on_formatJsonBtn_clicked","command collaborator"
+"JsonEditor","unclassified","JsonEditor::on_removeCommentsBtn_clicked","controller stateless"
+"ProfileManager","boundary","ProfileManager::ProfileManager","constructor"
+"ProfileManager","boundary","ProfileManager::LoadManager","command collaborator"
+"ProfileManager","boundary","ProfileManager::SaveManager","command"
+"ProfileManager","boundary","ProfileManager::LoadProxyEntity","property non-void-command collaborator"
+"ProfileManager","boundary","ProfileManager::NewProxyEntity","wrapper stateless"
+"ProfileManager","boundary","ProfileManager::NewGroup","wrapper stateless"
+"ProfileManager","boundary","ProfileManager::NewProfileID","property"
+"ProfileManager","boundary","ProfileManager::AddProfile","predicate non-void-command"
+"ProfileManager","boundary","ProfileManager::DeleteProfile","command"
+"ProfileManager","boundary","ProfileManager::MoveProfile","void-accessor command collaborator"
+"ProfileManager","boundary","ProfileManager::GetProfile","property non-void-command collaborator"
+"ProfileManager","boundary","ProfileManager::LoadGroup","controller stateless"
+"ProfileManager","boundary","ProfileManager::NewGroupID","property"
+"ProfileManager","boundary","ProfileManager::AddGroup","predicate non-void-command collaborator"
+"ProfileManager","boundary","ProfileManager::DeleteGroup","command collaborator"
+"ProfileManager","boundary","ProfileManager::GetGroup","property non-void-command collaborator"
+"ProfileManager","boundary","ProfileManager::CurrentGroup","property non-void-command collaborator"
+"FromBase64Result","data-provider boundary","swap","wrapper"
+"FromBase64Result","data-provider boundary","operatorbool","unclassified"
+"FromBase64Result","data-provider boundary","operator*","get collaborator"
+"FromBase64Result","data-provider boundary","operator*","get collaborator"
+"FromBase64Result","data-provider boundary","operator*","property wrapper"
+"FromBase64Result","data-provider boundary","operator*","get collaborator"
+"FromBase64Result","data-provider boundary","operator*","get collaborator"
+"QrCode","unclassified","QrCode::getFormatBits","wrapper stateless"
+"QrCode","unclassified","QrCode::encodeText","wrapper stateless"
+"QrCode","unclassified","QrCode::encodeBinary","wrapper stateless"
+"QrCode","unclassified","QrCode::encodeSegments","property non-void-command"
+"QrCode","unclassified","QrCode::QrCode","constructor"
+"QrCode","unclassified","QrCode::getVersion","get"
+"QrCode","unclassified","QrCode::getSize","get"
+"QrCode","unclassified","QrCode::getErrorCorrectionLevel","get collaborator"
+"QrCode","unclassified","QrCode::getMask","get"
+"QrCode","unclassified","QrCode::getModule","predicate"
+"QrCode","unclassified","QrCode::drawFunctionPatterns","command"
+"QrCode","unclassified","QrCode::drawFormatBits","command"
+"QrCode","unclassified","QrCode::drawVersion","command"
+"QrCode","unclassified","QrCode::drawFinderPattern","command"
+"QrCode","unclassified","QrCode::drawAlignmentPattern","wrapper stateless"
+"QrCode","unclassified","QrCode::setFunctionModule","command"
+"QrCode","unclassified","QrCode::module","predicate"
+"QrCode","unclassified","QrCode::addEccAndInterleave","property"
+"QrCode","unclassified","QrCode::drawCodewords","command"
+"QrCode","unclassified","QrCode::applyMask","command"
+"QrCode","unclassified","QrCode::getPenaltyScore","property"
+"QrCode","unclassified","QrCode::getAlignmentPatternPositions","property controller"
+"QrCode","unclassified","QrCode::getNumRawDataModules","property wrapper"
+"QrCode","unclassified","QrCode::getNumDataCodewords","property non-void-command collaborator"
+"QrCode","unclassified","QrCode::reedSolomonComputeDivisor","property non-void-command"
+"QrCode","unclassified","QrCode::reedSolomonComputeRemainder","property non-void-command"
+"QrCode","unclassified","QrCode::reedSolomonMultiply","incidental"
+"QrCode","unclassified","QrCode::finderPenaltyCountPatterns","property controller"
+"QrCode","unclassified","QrCode::finderPenaltyTerminateAndCount","property collaborator"
+"QrCode","unclassified","QrCode::finderPenaltyAddHistory","controller"
+"QrCode","unclassified","QrCode::getBit","incidental"
+"Message","unclassified","Message::Message","constructor"
+"Message","unclassified","Message::Message","constructor"
+"Message","unclassified","Message::Message","copy-constructor"
+"Message","unclassified","Message::~Message","destructor"
+"Message","unclassified","Message::ParseFromBytes","predicate non-void-command"
+"Message","unclassified","Message::AddField","property non-void-command collaborator"
+"Message","unclassified","Message::GetField","property non-void-command collaborator"
+"Message","unclassified","Message::GetFieldAndCheckType","property non-void-command collaborator"
+"Message","unclassified","Message::GetInt32","property non-void-command"
+"Message","unclassified","Message::GetInt64","property non-void-command"
+"Message","unclassified","Message::GetUInt32","property non-void-command"
+"Message","unclassified","Message::GetUInt64","property non-void-command"
+"Message","unclassified","Message::GetInt","property non-void-command collaborator"
+"Message","unclassified","Message::GetBool","predicate non-void-command"
+"Message","unclassified","Message::GetFloat","property non-void-command"
+"Message","unclassified","Message::GetDouble","property non-void-command"
+"Message","unclassified","Message::GetBytes","property non-void-command"
+"Message","unclassified","Message::GetString","property non-void-command"
+"Message","unclassified","Message::GetMessage","non-void-command factory"
+"Message","unclassified","Message::GetInt32Array","property non-void-command"
+"Message","unclassified","Message::GetInt64Array","property non-void-command"
+"Message","unclassified","Message::GetUInt32Array","property non-void-command"
+"Message","unclassified","Message::GetUInt64Array","property non-void-command"
+"Message","unclassified","Message::GetBoolArray","property non-void-command"
+"Message","unclassified","Message::GetFloatArray","property non-void-command"
+"Message","unclassified","Message::GetDoubleArray","property non-void-command"
+"Message","unclassified","Message::GetByteArray","property non-void-command"
+"Message","unclassified","Message::GetStringArray","property non-void-command"
+"Message","unclassified","Message::GetMessageArray","property non-void-command"
+"BitBuffer","pure-controller degenerate small-class","BitBuffer::BitBuffer","constructor"
+"BitBuffer","pure-controller degenerate small-class","BitBuffer::appendBits","controller stateless"
+"CustomBean","entity data-provider boundary","CustomBean","constructor"
+"CustomBean","entity data-provider boundary","DisplayType","get property wrapper"
+"CustomBean","entity data-provider boundary","DisplayCoreType","property non-void-command collaborator"
+"CustomBean","entity data-provider boundary","DisplayAddress","property non-void-command collaborator"
+"CustomBean","entity data-provider boundary","CustomBean::BuildCoreObjSingBox","property wrapper"
+"CustomBean","entity data-provider boundary","CustomBean::BuildCoreObjV2Ray","property wrapper"
+"CustomBean","entity data-provider boundary","CustomBean::NeedExternal","property"
+"CustomBean","entity data-provider boundary","CustomBean::BuildExternal","property non-void-command collaborator"
+"ShadowSocksBean","entity boundary","ShadowSocksBean","constructor"
+"ShadowSocksBean","entity boundary","DisplayType","collaborator incidental"
+"ShadowSocksBean","entity boundary","ShadowSocksBean::BuildCoreObjSingBox","property non-void-command collaborator"
+"ShadowSocksBean","entity boundary","ShadowSocksBean::BuildCoreObjV2Ray","property non-void-command collaborator"
+"ShadowSocksBean","entity boundary","ShadowSocksBean::ToShareLink","property non-void-command collaborator"
+"ShadowSocksBean","entity boundary","ShadowSocksBean::TryParseLink","predicate non-void-command collaborator"
+"QrSegment","unclassified","QrSegment::makeBytes","property non-void-command"
+"QrSegment","unclassified","QrSegment::makeNumeric","property non-void-command"
+"QrSegment","unclassified","QrSegment::makeAlphanumeric","property non-void-command"
+"QrSegment","unclassified","QrSegment::makeSegments","property non-void-command"
+"QrSegment","unclassified","QrSegment::makeEci","property non-void-command collaborator"
+"QrSegment","unclassified","QrSegment::QrSegment","constructor"
+"QrSegment","unclassified","QrSegment::QrSegment","constructor"
+"QrSegment","unclassified","QrSegment::getTotalBits","controller stateless"
+"QrSegment","unclassified","QrSegment::isNumeric","incidental"
+"QrSegment","unclassified","QrSegment::isAlphanumeric","predicate wrapper"
+"QrSegment","unclassified","QrSegment::getMode","get collaborator"
+"QrSegment","unclassified","QrSegment::getNumChars","get"
+"QrSegment","unclassified","QrSegment::getData","get"
+"SocksHttpBean","entity boundary","SocksHttpBean","constructor"
+"SocksHttpBean","entity boundary","DisplayType","property collaborator"
+"SocksHttpBean","entity boundary","SocksHttpBean::BuildCoreObjSingBox","property non-void-command collaborator"
+"SocksHttpBean","entity boundary","SocksHttpBean::BuildCoreObjV2Ray","property non-void-command collaborator"
+"SocksHttpBean","entity boundary","SocksHttpBean::ToShareLink","property non-void-command collaborator"
+"SocksHttpBean","entity boundary","SocksHttpBean::TryParseLink","predicate non-void-command collaborator"
+"EditVMess","entity boundary small-class","EditVMess::EditVMess","constructor"
+"EditVMess","entity boundary small-class","EditVMess::~EditVMess","destructor"
+"EditVMess","entity boundary small-class","EditVMess::onStart","command collaborator"
+"EditVMess","entity boundary small-class","EditVMess::onEnd","predicate non-void-command collaborator"
+"configItem","empty","configItem","constructor"
+"Http2GrpcChannelPrivate","entity boundary","post","property non-void-command collaborator"
+"Http2GrpcChannelPrivate","entity boundary","call","property non-void-command collaborator"
+"Http2GrpcChannelPrivate","entity boundary","Http2GrpcChannelPrivate","constructor"
+"Http2GrpcChannelPrivate","entity boundary","~Http2GrpcChannelPrivate","destructor"
+"Http2GrpcChannelPrivate","entity boundary","Call","property non-void-command collaborator"
+"VMessBean","entity boundary","VMessBean","constructor"
+"VMessBean","entity boundary","DisplayType","collaborator incidental"
+"VMessBean","entity boundary","VMessBean::BuildCoreObjSingBox","property non-void-command collaborator"
+"VMessBean","entity boundary","VMessBean::BuildCoreObjV2Ray","property collaborator"
+"VMessBean","entity boundary","VMessBean::ToShareLink","property non-void-command collaborator"
+"VMessBean","entity boundary","VMessBean::TryParseLink","predicate non-void-command collaborator"
+"NetworkRequestHelper","pure-controller degenerate small-class","NetworkRequestHelper","constructor"
+"NetworkRequestHelper","pure-controller degenerate small-class","NetworkRequestHelper::HttpGet","controller stateless"
+"NetworkRequestHelper","pure-controller degenerate small-class","NetworkRequestHelper::GetHeader","controller stateless"
+"JsonStore","entity minimal-entity boundary","JsonStore","constructor"
+"JsonStore","entity minimal-entity boundary","JsonStore::_add","command collaborator"
+"JsonStore","entity minimal-entity boundary","JsonStore::_name","property collaborator"
+"JsonStore","entity minimal-entity boundary","JsonStore::_get","get property non-void-command collaborator"
+"JsonStore","entity minimal-entity boundary","JsonStore::_setValue","command collaborator"
+"JsonStore","entity minimal-entity boundary","JsonStore::ToJson","property non-void-command collaborator"
+"JsonStore","entity minimal-entity boundary","JsonStore::ToJsonBytes","property non-void-command collaborator"
+"JsonStore","entity minimal-entity boundary","JsonStore::FromJson","command collaborator"
+"JsonStore","entity minimal-entity boundary","JsonStore::FromJsonBytes","command collaborator"
+"JsonStore","entity minimal-entity boundary","JsonStore::Save","predicate set collaborator"
+"JsonStore","entity minimal-entity boundary","JsonStore::Load","predicate set"
+"TrojanVLESSBean","entity boundary","TrojanVLESSBean","constructor"
+"TrojanVLESSBean","entity boundary","DisplayType","property collaborator"
+"TrojanVLESSBean","entity boundary","TrojanVLESSBean::BuildCoreObjSingBox","property non-void-command collaborator"
+"TrojanVLESSBean","entity boundary","TrojanVLESSBean::BuildCoreObjV2Ray","property set collaborator"
+"TrojanVLESSBean","entity boundary","TrojanVLESSBean::ToShareLink","property non-void-command collaborator"
+"TrojanVLESSBean","entity boundary","TrojanVLESSBean::TryParseLink","predicate non-void-command collaborator"
+"Routing","degenerate","Routing::Routing","constructor"
+"Routing","degenerate","Routing::DisplayRouting","property wrapper"
+"Routing","degenerate","Routing::List","controller stateless"
+"Routing","degenerate","Routing::SetToActive","controller stateless"
+"ExtraCore","unclassified","ExtraCore::ExtraCore","constructor"
+"ExtraCore","unclassified","ExtraCore::Get","property controller"
+"ExtraCore","unclassified","ExtraCore::Set","set collaborator"
+"ExtraCore","unclassified","ExtraCore::Delete","set collaborator"
+"DataStore","small-class","DataStore::DataStore","constructor"
+"DataStore","small-class","DataStore::UpdateStartedId","command"
+"DataStore","small-class","DataStore::GetUserAgent","get property collaborator"
+"QJS","pure-controller degenerate","QJS::QJS","constructor"
+"QJS","pure-controller degenerate","QJS::QJS","constructor"
+"QJS","pure-controller degenerate","QJS::~QJS","destructor"
+"QJS","pure-controller degenerate","QJS::Eval","controller stateless"
+"QJS","pure-controller degenerate","QJS::Eval","controller stateless"
+"QJS","pure-controller degenerate","QJS::EvalFile","controller stateless"
+"QJS","pure-controller degenerate","QJS::EvalFunction","controller stateless"
+"NoCache","boundary degenerate","metaData","collaborator incidental"
+"NoCache","boundary degenerate","updateMetaData","empty"
+"NoCache","boundary degenerate","data","collaborator incidental"
+"NoCache","boundary degenerate","remove","collaborator incidental"
+"NoCache","boundary degenerate","cacheSize","collaborator incidental"
+"NoCache","boundary degenerate","prepare","collaborator incidental"
+"NoCache","boundary degenerate","insert","empty"
+"NoCache","boundary degenerate","clear","empty"
+"Client","entity boundary","Client::Client","constructor"
+"Client","entity boundary","Client::Exit","command collaborator"
+"Client","entity boundary","Client::Start","property non-void-command collaborator"
+"Client","entity boundary","Client::Stop","property non-void-command collaborator"
+"Client","entity boundary","Client::QueryStats","property non-void-command collaborator"
+"Client","entity boundary","Client::ListConnections","property non-void-command collaborator"
+"Client","entity boundary","Client::Test","wrapper stateless"
+"Client","entity boundary","Client::Update","property non-void-command collaborator"
+"QScopeGuard","commander data-class small-class","QScopeGuard","copy-constructor"
+"QScopeGuard","commander data-class small-class","~QScopeGuard","destructor"
+"QScopeGuard","commander data-class small-class","dismiss","set"
+"QScopeGuard","commander data-class small-class","QScopeGuard","constructor"
+"RawUpdater","commander boundary small-class","RawUpdater::update","command collaborator"
+"RawUpdater","commander boundary small-class","RawUpdater::updateClash","set collaborator"

@@ -1,445 +1,436 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAction_WithFactoryScheduler_UsesFactoryScheduler","controller stateless",
-"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAction_WithCurrentScheduler_UsesDefaultScheduler","controller stateless",
-"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunFunc_WithFactoryScheduler_UsesFactoryScheduler","controller stateless",
-"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunFunc_WithCurrentScheduler_UsesDefaultScheduler","controller stateless",
-"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAsyncAction_WithFactoryScheduler_UsesFactoryScheduler","controller stateless",
-"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAsyncAction_WithCurrentScheduler_UsesDefaultScheduler","controller stateless",
-"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAsyncFunc_WithFactoryScheduler_UsesFactoryScheduler","controller stateless",
-"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAsyncFunc_WithCurrentScheduler_UsesDefaultScheduler","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","ConstructorWithZeroMaxCount_Throws","wrapper stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","ConstructorWithZeroMaxCountAndCollection_Throws","wrapper stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","ConstructorWithMaxCountSmallerThanCollectionCount_Throws","wrapper stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","ConstructorWithCollection_AddsItems","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_SpaceAvailable_EnqueuesItem","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_CompleteAdding_ThrowsException","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","DequeueAsync_EmptyAndComplete_ThrowsException","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","DequeueAsync_Empty_DoesNotComplete","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","DequeueAsync_Empty_ItemAdded_Completes","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","DequeueAsync_Cancelled_Throws","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_Full_DoesNotComplete","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_SpaceAvailable_Completes","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_Cancelled_Throws","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","CompleteAdding_MultipleTimes_DoesNotThrow","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","OutputAvailableAsync_NoItemsInQueue_IsNotCompleted","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","OutputAvailableAsync_ItemInQueue_ReturnsTrue","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","OutputAvailableAsync_NoItemsAndCompleted_ReturnsFalse","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","OutputAvailableAsync_ItemInQueueAndCompleted_ReturnsTrue","controller stateless",
-"AsyncProducerConsumerQueueUnitTests","degenerate","StandardAsyncSingleConsumerCode","controller stateless",
-"AwaitableDisposable<T>","entity boundary","AwaitableDisposable","constructor",
-"AwaitableDisposable<T>","entity boundary","AsTask","get collaborator",
-"AwaitableDisposable<T>","entity boundary","GetAwaiter","property non-void-command collaborator",
-"AwaitableDisposable<T>","entity boundary","ConfigureAwait","property non-void-command collaborator",
-"AsyncManualResetEvent","unclassified","AsyncManualResetEvent","constructor",
-"AsyncManualResetEvent","unclassified","AsyncManualResetEvent","constructor",
-"AsyncManualResetEvent","unclassified","WaitAsync","get collaborator",
-"AsyncManualResetEvent","unclassified","WaitAsync","property non-void-command collaborator",
-"AsyncManualResetEvent","unclassified","Wait","command",
-"AsyncManualResetEvent","unclassified","Wait","command collaborator",
-"AsyncManualResetEvent","unclassified","Set","command",
-"AsyncManualResetEvent","unclassified","Reset","set",
-"AsyncManualResetEvent","unclassified","get","predicate",
-"AsyncManualResetEvent","unclassified","get","property wrapper",
-"AsyncManualResetEvent","unclassified","get","predicate",
-"AsyncContextThreadUnitTests","degenerate","AsyncContextThread_IsAnIndependentThread","controller stateless",
-"AsyncContextThreadUnitTests","degenerate","AsyncDelegate_ResumesOnSameThread","controller stateless",
-"AsyncContextThreadUnitTests","degenerate","Join_StopsTask","controller stateless",
-"AsyncContextThreadUnitTests","degenerate","Context_IsCorrectAsyncContext","wrapper stateless",
-"DeferralManager","unclassified","DeferralManager","constructor",
-"DeferralManager","unclassified","IncrementCount","set",
-"DeferralManager","unclassified","DecrementCount","command",
-"DeferralManager","unclassified","WaitForDeferralsAsync","property non-void-command collaborator",
-"DeferralManager","unclassified","get","get collaborator",
-"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.Enqueue","property non-void-command collaborator",
-"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.Dequeue","command collaborator",
-"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.DequeueAll","command collaborator",
-"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.TryCancel","predicate non-void-command collaborator",
-"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.CancelAll","command collaborator",
-"DefaultAsyncWaitQueue<T>","entity boundary","get","get",
-"DefaultAsyncWaitQueue<T>","entity boundary","get","incidental",
-"AsyncMonitorUnitTests","degenerate","Unlocked_PermitsLock","controller stateless",
-"AsyncMonitorUnitTests","degenerate","Locked_PreventsLockUntilUnlocked","controller stateless",
-"AsyncMonitorUnitTests","degenerate","Pulse_ReleasesOneWaiter","controller stateless",
-"AsyncMonitorUnitTests","degenerate","PulseAll_ReleasesAllWaiters","controller stateless",
-"AsyncMonitorUnitTests","degenerate","Id_IsNotZero","wrapper stateless",
-"TaskExtensionsUnitTests","degenerate","WaitAsyncTResult_TokenThatCannotCancel_ReturnsSourceTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WaitAsyncTResult_AlreadyCanceledToken_ReturnsSynchronouslyCanceledTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WaitAsyncTResult_TokenCanceled_CancelsTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WaitAsync_TokenThatCannotCancel_ReturnsSourceTask","wrapper stateless",
-"TaskExtensionsUnitTests","degenerate","WaitAsync_AlreadyCanceledToken_ReturnsSynchronouslyCanceledTask","wrapper stateless",
-"TaskExtensionsUnitTests","degenerate","WaitAsync_TokenCanceled_CancelsTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAnyTResult_AlreadyCanceledToken_ReturnsSynchronouslyCanceledTask","wrapper stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAnyTResult_TaskCompletes_CompletesTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAnyTResult_TokenCanceled_CancelsTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAny_AlreadyCanceledToken_ReturnsSynchronouslyCanceledTask","wrapper stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAny_TaskCompletes_CompletesTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAny_TokenCanceled_CancelsTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAnyTResultWithoutToken_TaskCompletes_CompletesTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAnyWithoutToken_TaskCompletes_CompletesTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAllTResult_TaskCompletes_CompletesTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","WhenAll_TaskCompletes_CompletesTask","controller stateless",
-"TaskExtensionsUnitTests","degenerate","OrderByCompletion_OrdersByCompletion","controller stateless",
-"TaskExtensionsUnitTests","degenerate","OrderByCompletion_PropagatesFaultOnFirstCompletion","controller stateless",
-"TaskExtensionsUnitTests","degenerate","OrderByCompletion_PropagatesFaultOnSecondCompletion","controller stateless",
-"TaskExtensionsUnitTests","degenerate","OrderByCompletion_PropagatesCancelOnFirstCompletion","controller stateless",
-"TaskExtensionsUnitTests","degenerate","OrderByCompletion_PropagatesCancelOnSecondCompletion","controller stateless",
-"AsyncSemaphore","entity boundary","AsyncSemaphore","constructor",
-"AsyncSemaphore","entity boundary","AsyncSemaphore","constructor",
-"AsyncSemaphore","entity boundary","WaitAsync","property set collaborator",
-"AsyncSemaphore","entity boundary","WaitAsync","property non-void-command collaborator",
-"AsyncSemaphore","entity boundary","Wait","command collaborator",
-"AsyncSemaphore","entity boundary","Wait","command",
-"AsyncSemaphore","entity boundary","Release","set collaborator",
-"AsyncSemaphore","entity boundary","Release","command",
-"AsyncSemaphore","entity boundary","DoLockAsync","property non-void-command collaborator",
-"AsyncSemaphore","entity boundary","LockAsync","property non-void-command factory collaborator",
-"AsyncSemaphore","entity boundary","Lock","property non-void-command collaborator",
-"AsyncSemaphore","entity boundary","get","property wrapper",
-"AsyncSemaphore","entity boundary","get","get",
-"AsyncSemaphoreUnitTests","degenerate","WaitAsync_NoSlotsAvailable_IsNotCompleted","controller stateless",
-"AsyncSemaphoreUnitTests","degenerate","WaitAsync_SlotAvailable_IsCompleted","controller stateless",
-"AsyncSemaphoreUnitTests","degenerate","WaitAsync_PreCancelled_SlotAvailable_SucceedsSynchronously","controller stateless",
-"AsyncSemaphoreUnitTests","degenerate","WaitAsync_PreCancelled_NoSlotAvailable_CancelsSynchronously","controller stateless",
-"AsyncSemaphoreUnitTests","degenerate","WaitAsync_Cancelled_DoesNotTakeSlot","controller stateless",
-"AsyncSemaphoreUnitTests","degenerate","Release_WithoutWaiters_IncrementsCount","controller stateless",
-"AsyncSemaphoreUnitTests","degenerate","Release_WithWaiters_ReleasesWaiters","controller stateless",
-"AsyncSemaphoreUnitTests","degenerate","Release_Overflow_ThrowsException","controller stateless",
-"AsyncSemaphoreUnitTests","degenerate","Release_ZeroSlots_HasNoEffect","controller stateless",
-"AsyncSemaphoreUnitTests","degenerate","Id_IsNotZero","wrapper stateless",
-"AsyncWaitQueueUnitTests","degenerate","IsEmpty_WhenEmpty_IsTrue","wrapper stateless",
-"AsyncWaitQueueUnitTests","degenerate","IsEmpty_WithOneItem_IsFalse","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","IsEmpty_WithTwoItems_IsFalse","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","Dequeue_SynchronouslyCompletesTask","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","Dequeue_WithTwoItems_OnlyCompletesFirstItem","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","Dequeue_WithResult_SynchronouslyCompletesWithResult","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","Dequeue_WithoutResult_SynchronouslyCompletesWithDefaultResult","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","DequeueAll_SynchronouslyCompletesAllTasks","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","DequeueAll_WithoutResult_SynchronouslyCompletesAllTasksWithDefaultResult","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","DequeueAll_WithResult_CompletesAllTasksWithResult","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","TryCancel_EntryFound_SynchronouslyCancelsTask","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","TryCancel_EntryFound_RemovesTaskFromQueue","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","TryCancel_EntryNotFound_DoesNotRemoveTaskFromQueue","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","Cancelled_WhenInQueue_CancelsTask","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","Cancelled_WhenInQueue_RemovesTaskFromQueue","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","Cancelled_WhenNotInQueue_DoesNotRemoveTaskFromQueue","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","Cancelled_BeforeEnqueue_SynchronouslyCancelsTask","controller stateless",
-"AsyncWaitQueueUnitTests","degenerate","Cancelled_BeforeEnqueue_RemovesTaskFromQueue","controller stateless",
-"EventAsyncFactoryUnitTests","boundary degenerate","CompilationTest_CommonScenarios","wrapper stateless",
-"EventAsyncFactoryUnitTests","boundary degenerate","CompilationTest_LessCommonScenarios","wrapper stateless",
-"EventAsyncFactoryUnitTests","boundary degenerate","CompilationTest_RareScenarios","wrapper stateless",
-"CancellationTokenTaskSource<T>","commander small-class","CancellationTokenTaskSource","constructor",
-"CancellationTokenTaskSource<T>","commander small-class","Dispose","command",
-"PauseToken","unclassified","PauseToken","constructor",
-"PauseToken","unclassified","WaitWhilePausedAsync","property non-void-command collaborator",
-"PauseToken","unclassified","WaitWhilePausedAsync","property non-void-command collaborator",
-"PauseToken","unclassified","WaitWhilePaused","command",
-"PauseToken","unclassified","WaitWhilePaused","command collaborator",
-"PauseToken","unclassified","get","predicate",
-"PauseToken","unclassified","get","predicate",
-"AsyncConditionVariableUnitTests","degenerate","WaitAsync_WithoutNotify_IsNotCompleted","controller stateless",
-"AsyncConditionVariableUnitTests","degenerate","WaitAsync_Notified_IsCompleted","controller stateless",
-"AsyncConditionVariableUnitTests","degenerate","WaitAsync_AfterNotify_IsNotCompleted","controller stateless",
-"AsyncConditionVariableUnitTests","degenerate","MultipleWaits_NotifyAll_AllAreCompleted","controller stateless",
-"AsyncConditionVariableUnitTests","degenerate","MultipleWaits_Notify_OneIsCompleted","controller stateless",
-"AsyncConditionVariableUnitTests","degenerate","Id_IsNotZero","wrapper stateless",
-"PauseTokenSource","unclassified","get","predicate",
-"PauseTokenSource","unclassified","set","non-void-command",
-"PauseTokenSource","unclassified","get","property factory collaborator",
-"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_NeverAwaited_DoesNotCallFunc","wrapper stateless",
-"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_WithCallDirectFlag_CallsFuncDirectly","wrapper stateless",
-"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_ByDefault_CallsFuncOnThreadPool","wrapper stateless",
-"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_Start_CallsFunc","controller stateless",
-"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_Await_ReturnsFuncValue","wrapper stateless",
-"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_MultipleAwaiters_OnlyInvokeFuncOnce","controller stateless",
-"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_FailureCachedByDefault","wrapper stateless",
-"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_WithRetryOnFailure_DoesNotCacheFailure","wrapper stateless",
-"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_WithRetryOnFailure_DoesNotRetryOnSuccess","wrapper stateless",
-"AsyncLazyUnitTests","boundary degenerate","Id_IsNotZero","wrapper stateless",
-"AsyncCountdownEvent","commander","AsyncCountdownEvent","constructor",
-"AsyncCountdownEvent","commander","WaitAsync","property non-void-command collaborator",
-"AsyncCountdownEvent","commander","WaitAsync","property non-void-command collaborator",
-"AsyncCountdownEvent","commander","Wait","command",
-"AsyncCountdownEvent","commander","Wait","command collaborator",
-"AsyncCountdownEvent","commander","ModifyCount","command collaborator",
-"AsyncCountdownEvent","commander","AddCount","command",
-"AsyncCountdownEvent","commander","AddCount","command",
-"AsyncCountdownEvent","commander","Signal","command",
-"AsyncCountdownEvent","commander","Signal","command",
-"AsyncCountdownEvent","commander","get","get",
-"AsyncCountdownEvent","commander","get","get",
-"AsyncMonitor","boundary","AsyncMonitor","constructor",
-"AsyncMonitor","boundary","AsyncMonitor","constructor",
-"AsyncMonitor","boundary","EnterAsync","property non-void-command collaborator",
-"AsyncMonitor","boundary","EnterAsync","property non-void-command collaborator",
-"AsyncMonitor","boundary","Enter","property non-void-command collaborator",
-"AsyncMonitor","boundary","Enter","property non-void-command collaborator",
-"AsyncMonitor","boundary","WaitAsync","property non-void-command collaborator",
-"AsyncMonitor","boundary","WaitAsync","property non-void-command collaborator",
-"AsyncMonitor","boundary","Wait","command collaborator",
-"AsyncMonitor","boundary","Wait","command",
-"AsyncMonitor","boundary","Pulse","command",
-"AsyncMonitor","boundary","PulseAll","command",
-"AsyncMonitor","boundary","get","get",
-"AsyncContext","commander boundary","AsyncContext","constructor",
-"AsyncContext","commander boundary","OperationStarted","wrapper",
-"AsyncContext","commander boundary","OperationCompleted","command collaborator",
-"AsyncContext","commander boundary","Enqueue","command",
-"AsyncContext","commander boundary","Dispose","command",
-"AsyncContext","commander boundary","Execute","command collaborator",
-"AsyncContext","commander boundary","get","collaborator incidental",
-"AsyncReaderWriterLockUnitTests","degenerate","Unlocked_PermitsWriterLock","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","Unlocked_PermitsMultipleReaderLocks","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_PreventsAnotherWriterLock","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_PreventsReaderLock","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_Unlocked_PermitsAnotherWriterLock","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","ReadLocked_PreventsWriterLock","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","Id_IsNotZero","wrapper stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","WriterLock_PreCancelled_LockAvailable_SynchronouslyTakesLock","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","WriterLock_PreCancelled_LockNotAvailable_SynchronouslyCancels","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","ReaderLock_PreCancelled_LockAvailable_SynchronouslyTakesLock","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","ReaderLock_PreCancelled_LockNotAvailable_SynchronouslyCancels","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_WriterLockCancelled_DoesNotTakeLockWhenUnlocked","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_ReaderLockCancelled_DoesNotTakeLockWhenUnlocked","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","LockReleased_WriteTakesPriorityOverRead","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","ReaderLocked_ReaderReleased_ReaderAndWriterWaiting_DoesNotReleaseReaderOrWriter","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","LoadTest","controller stateless",
-"AsyncReaderWriterLockUnitTests","degenerate","ReadLock_WriteLockCanceled_TakesLock","controller stateless",
-"AsyncCollection<T>","entity boundary","AsyncCollection","constructor",
-"AsyncCollection<T>","entity boundary","AsyncCollection","constructor",
-"AsyncCollection<T>","entity boundary","AsyncCollection","constructor",
-"AsyncCollection<T>","entity boundary","AsyncCollection","constructor",
-"AsyncCollection<T>","entity boundary","CompleteAdding","command",
-"AsyncCollection<T>","entity boundary","DoAddAsync","non-void-command collaborator",
-"AsyncCollection<T>","entity boundary","DoOutputAvailableAsync","property non-void-command collaborator",
-"AsyncCollection<T>","entity boundary","GetConsumingEnumerable","wrapper stateless",
-"AsyncCollection<T>","entity boundary","GetConsumingEnumerable","property non-void-command collaborator",
-"AsyncCollection<T>","entity boundary","DoTakeAsync","property non-void-command collaborator",
-"AsyncLock","entity boundary","AsyncLock","constructor",
-"AsyncLock","entity boundary","AsyncLock","constructor",
-"AsyncLock","entity boundary","RequestLockAsync","property set collaborator",
-"AsyncLock","entity boundary","LockAsync","property non-void-command factory collaborator",
-"AsyncLock","entity boundary","LockAsync","property non-void-command collaborator",
-"AsyncLock","entity boundary","Lock","property non-void-command collaborator",
-"AsyncLock","entity boundary","Lock","property non-void-command collaborator",
-"AsyncLock","entity boundary","ReleaseLock","set",
-"AsyncLock","entity boundary","get","property wrapper",
-"AsyncLazy<T>","data-provider boundary","AsyncLazy","copy-constructor",
-"AsyncLazy<T>","data-provider boundary","RetryOnFailure","property set collaborator",
-"AsyncLazy<T>","data-provider boundary","GetAwaiter","wrapper stateless",
-"AsyncLazy<T>","data-provider boundary","ConfigureAwait","wrapper stateless",
-"AsyncLazy<T>","data-provider boundary","Start","collaborator incidental",
-"AsyncLazy<T>","data-provider boundary","get","property collaborator",
-"AsyncLazy<T>","data-provider boundary","get","property wrapper",
-"AsyncLazy<T>","data-provider boundary","get","get",
-"AsyncLazy<T>","data-provider boundary","get","get collaborator",
-"AsyncReaderWriterLock","entity boundary","AsyncReaderWriterLock","constructor",
-"AsyncReaderWriterLock","entity boundary","AsyncReaderWriterLock","constructor",
-"AsyncReaderWriterLock","entity boundary","ReleaseWaitersWhenCanceled","command collaborator",
-"AsyncReaderWriterLock","entity boundary","RequestReaderLockAsync","property set collaborator",
-"AsyncReaderWriterLock","entity boundary","ReaderLockAsync","property non-void-command factory collaborator",
-"AsyncReaderWriterLock","entity boundary","ReaderLockAsync","property non-void-command collaborator",
-"AsyncReaderWriterLock","entity boundary","ReaderLock","property non-void-command collaborator",
-"AsyncReaderWriterLock","entity boundary","ReaderLock","property non-void-command collaborator",
-"AsyncReaderWriterLock","entity boundary","RequestWriterLockAsync","property non-void-command collaborator",
-"AsyncReaderWriterLock","entity boundary","WriterLockAsync","property non-void-command factory collaborator",
-"AsyncReaderWriterLock","entity boundary","WriterLockAsync","property non-void-command collaborator",
-"AsyncReaderWriterLock","entity boundary","WriterLock","property non-void-command collaborator",
-"AsyncReaderWriterLock","entity boundary","WriterLock","property non-void-command collaborator",
-"AsyncReaderWriterLock","entity boundary","ReleaseWaiters","command",
-"AsyncReaderWriterLock","entity boundary","ReleaseReaderLock","set",
-"AsyncReaderWriterLock","entity boundary","ReleaseWriterLock","set",
-"AsyncReaderWriterLock","entity boundary","get","property collaborator",
-"AsyncReaderWriterLock","entity boundary","get","property",
-"AsyncReaderWriterLock","entity boundary","get","property wrapper",
-"SynchronizationContextSwitcher","boundary small-class","SynchronizationContextSwitcher","constructor",
-"SynchronizationContextSwitcher","boundary small-class","Dispose","wrapper",
-"TaskConstants","data-provider boundary lazy-class degenerate","get","get collaborator",
-"TaskConstants","data-provider boundary lazy-class degenerate","get","collaborator incidental",
-"TaskConstants","data-provider boundary lazy-class degenerate","get","collaborator incidental",
-"TaskConstants","data-provider boundary lazy-class degenerate","get","get collaborator",
-"TaskConstants","data-provider boundary lazy-class degenerate","get","collaborator incidental",
-"TaskConstants","data-provider boundary lazy-class degenerate","get","collaborator incidental",
-"AsyncAutoResetEvent","boundary","AsyncAutoResetEvent","constructor",
-"AsyncAutoResetEvent","boundary","AsyncAutoResetEvent","constructor",
-"AsyncAutoResetEvent","boundary","AsyncAutoResetEvent","constructor",
-"AsyncAutoResetEvent","boundary","WaitAsync","property set collaborator",
-"AsyncAutoResetEvent","boundary","WaitAsync","property non-void-command collaborator",
-"AsyncAutoResetEvent","boundary","Wait","command collaborator",
-"AsyncAutoResetEvent","boundary","Wait","command",
-"AsyncAutoResetEvent","boundary","Set","set",
-"AsyncAutoResetEvent","boundary","get","property wrapper",
-"AsyncAutoResetEvent","boundary","get","get",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_SignaledHandle_SynchronouslyCompletes","wrapper stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_SignaledHandleWithZeroTimeout_SynchronouslyCompletesWithTrueResult","wrapper stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_UnsignaledHandleWithZeroTimeout_SynchronouslyCompletesWithFalseResult","wrapper stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_SignaledHandleWithCanceledToken_SynchronouslyCompletes","wrapper stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_UnsignaledHandleWithCanceledToken_SynchronouslyCancels","wrapper stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_SignaledHandleWithZeroTimeoutAndCanceledToken_SynchronouslyCompletesWithTrueResult","wrapper stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_UnsignaledHandleWithZeroTimeoutAndCanceledToken_SynchronouslyCompletesWithFalseResult","wrapper stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_HandleSignalled_Completes","controller stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_HandleSignalledBeforeTimeout_CompletesWithTrueResult","controller stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_TimeoutBeforeHandleSignalled_CompletesWithFalseResult","wrapper stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_HandleSignalledBeforeCanceled_CompletesSuccessfully","controller stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_CanceledBeforeHandleSignalled_CompletesCanceled","controller stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_HandleSignalledBeforeTimeoutOrCanceled_CompletesWithTrueResult","controller stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_TimeoutBeforeHandleSignalledOrCanceled_CompletesWithFalseResult","wrapper stateless",
-"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_CanceledBeforeTimeoutOrHandleSignalled_CompletesCanceled","controller stateless",
-"TaskConstants<T>","data-provider boundary data-class small-class","get","get collaborator",
-"TaskConstants<T>","data-provider boundary data-class small-class","get","get collaborator",
-"AsyncLockUnitTests","degenerate","AsyncLock_Unlocked_SynchronouslyPermitsLock","controller stateless",
-"AsyncLockUnitTests","degenerate","AsyncLock_Locked_PreventsLockUntilUnlocked","controller stateless",
-"AsyncLockUnitTests","degenerate","AsyncLock_DoubleDispose_OnlyPermitsOneTask","controller stateless",
-"AsyncLockUnitTests","degenerate","AsyncLock_Locked_OnlyPermitsOneLockerAtATime","controller stateless",
-"AsyncLockUnitTests","degenerate","AsyncLock_PreCancelled_Unlocked_SynchronouslyTakesLock","controller stateless",
-"AsyncLockUnitTests","degenerate","AsyncLock_PreCancelled_Locked_SynchronouslyCancels","controller stateless",
-"AsyncLockUnitTests","degenerate","AsyncLock_CancelledLock_LeavesLockUnlocked","controller stateless",
-"AsyncLockUnitTests","degenerate","AsyncLock_CanceledLock_ThrowsException","controller stateless",
-"AsyncLockUnitTests","degenerate","AsyncLock_CanceledTooLate_StillTakesLock","controller stateless",
-"AsyncLockUnitTests","degenerate","Id_IsNotZero","wrapper stateless",
-"AsyncLockUnitTests","degenerate","AsyncLock_SupportsMultipleAsynchronousLocks","controller stateless",
-"AsyncContextUnitTests","boundary degenerate","AsyncContext_StaysOnSameThread","wrapper stateless",
-"AsyncContextUnitTests","boundary degenerate","Run_AsyncVoid_BlocksUntilCompletion","wrapper stateless",
-"AsyncContextUnitTests","boundary degenerate","Run_FuncThatCallsAsyncVoid_BlocksUntilCompletion","wrapper stateless",
-"AsyncContextUnitTests","boundary degenerate","Run_AsyncTask_BlocksUntilCompletion","wrapper stateless",
-"AsyncContextUnitTests","boundary degenerate","Run_AsyncTaskWithResult_BlocksUntilCompletion","wrapper stateless",
-"AsyncContextUnitTests","boundary degenerate","Current_WithoutAsyncContext_IsNull","wrapper stateless",
-"AsyncContextUnitTests","boundary degenerate","Current_FromAsyncContext_IsAsyncContext","controller stateless",
-"AsyncContextUnitTests","boundary degenerate","SynchronizationContextCurrent_FromAsyncContext_IsAsyncContextSynchronizationContext","controller stateless",
-"AsyncContextUnitTests","boundary degenerate","TaskSchedulerCurrent_FromAsyncContext_IsThreadPoolTaskScheduler","controller stateless",
-"AsyncContextUnitTests","boundary degenerate","TaskScheduler_MaximumConcurrency_IsOne","wrapper stateless",
-"AsyncContextUnitTests","boundary degenerate","Run_PropagatesException","wrapper stateless",
-"AsyncConditionVariable","boundary","AsyncConditionVariable","constructor",
-"AsyncConditionVariable","boundary","AsyncConditionVariable","constructor",
-"AsyncConditionVariable","boundary","Notify","command",
-"AsyncConditionVariable","boundary","NotifyAll","command",
-"AsyncConditionVariable","boundary","WaitAsync","property non-void-command collaborator",
-"AsyncConditionVariable","boundary","WaitAsync","property non-void-command collaborator",
-"AsyncConditionVariable","boundary","Wait","command collaborator",
-"AsyncConditionVariable","boundary","Wait","command",
-"AsyncConditionVariable","boundary","get","property wrapper",
-"AsyncCountdownEventUnitTests","degenerate","WaitAsync_Unset_IsNotCompleted","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","WaitAsync_Set_IsCompleted","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","AddCount_IncrementsCount","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","Signal_Nonzero_IsNotCompleted","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","Signal_Zero_SynchronouslyCompletesWaitTask","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","Signal_AfterSet_CountsNegativeAndResetsTask","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","AddCount_AfterSet_CountsPositiveAndResetsTask","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","Signal_PastZero_PulsesTask","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","AddCount_PastZero_PulsesTask","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","AddCount_Overflow_ThrowsException","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","Signal_Underflow_ThrowsException","controller stateless",
-"AsyncCountdownEventUnitTests","degenerate","Id_IsNotZero","wrapper stateless",
-"AsyncProducerConsumerQueue<T>","entity boundary","AsyncProducerConsumerQueue","constructor",
-"AsyncProducerConsumerQueue<T>","entity boundary","AsyncProducerConsumerQueue","constructor",
-"AsyncProducerConsumerQueue<T>","entity boundary","AsyncProducerConsumerQueue","constructor",
-"AsyncProducerConsumerQueue<T>","entity boundary","AsyncProducerConsumerQueue","constructor",
-"AsyncProducerConsumerQueue<T>","entity boundary","CompleteAdding","command",
-"AsyncProducerConsumerQueue<T>","entity boundary","DoEnqueueAsync","non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","EnqueueAsync","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","EnqueueAsync","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","Enqueue","command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","Enqueue","command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","DoOutputAvailableAsync","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","OutputAvailableAsync","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","OutputAvailableAsync","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","OutputAvailable","predicate non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","OutputAvailable","predicate non-void-command",
-"AsyncProducerConsumerQueue<T>","entity boundary","GetConsumingEnumerable","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","GetConsumingEnumerable","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","TryDoDequeueAsync","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","DoDequeueAsync","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","DequeueAsync","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","DequeueAsync","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","Dequeue","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","Dequeue","property non-void-command collaborator",
-"AsyncProducerConsumerQueue<T>","entity boundary","get","predicate",
-"AsyncProducerConsumerQueue<T>","entity boundary","get","predicate",
-"AsyncManualResetEventUnitTests","degenerate","WaitAsync_Unset_IsNotCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","Wait_Unset_IsNotCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","WaitAsync_AfterSet_IsCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","Wait_AfterSet_IsCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","WaitAsync_Set_IsCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","Wait_Set_IsCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","MultipleWaitAsync_AfterSet_IsCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","MultipleWait_AfterSet_IsCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","MultipleWaitAsync_Set_IsCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","MultipleWait_Set_IsCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","WaitAsync_AfterReset_IsNotCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","Wait_AfterReset_IsNotCompleted","controller stateless",
-"AsyncManualResetEventUnitTests","degenerate","Id_IsNotZero","wrapper stateless",
-"CancellationTokenTaskSourceUnitTests","boundary degenerate small-class","Constructor_AlreadyCanceledToken_TaskReturnsSynchronouslyCanceledTask","wrapper stateless",
-"AsyncContextThread","commander","AsyncContextThread","constructor",
-"AsyncContextThread","commander","AsyncContextThread","constructor",
-"AsyncContextThread","commander","Execute","command",
-"AsyncContextThread","commander","AllowThreadToExit","command",
-"AsyncContextThread","commander","JoinAsync","get non-void-command collaborator",
-"AsyncContextThread","commander","Join","command",
-"AsyncContextThread","commander","Dispose","command collaborator",
-"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTaskTResult_PropagatesResult","controller stateless",
-"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTaskTResult_WithDifferentTResult_PropagatesResult","controller stateless",
-"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTaskTResult_PropagatesCancellation","controller stateless",
-"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTaskTResult_PropagatesException","controller stateless",
-"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTask_PropagatesResult","controller stateless",
-"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTask_PropagatesCancellation","controller stateless",
-"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTask_PropagatesException","controller stateless",
-"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","CreateAsyncTaskSource_PermitsCompletingTask","controller stateless",
-"DeferralManagerUnitTests","pure-controller degenerate","NoDeferrals_IsCompleted","controller stateless",
-"DeferralManagerUnitTests","pure-controller degenerate","IncompleteDeferral_PreventsCompletion","controller stateless",
-"DeferralManagerUnitTests","pure-controller degenerate","DeferralCompleted_Completes","controller stateless",
-"DeferralManagerUnitTests","pure-controller degenerate","MultipleDeferralsWithOneIncomplete_PreventsCompletion","controller stateless",
-"DeferralManagerUnitTests","pure-controller degenerate","TwoDeferralsWithOneCompletedTwice_PreventsCompletion","controller stateless",
-"DeferralManagerUnitTests","pure-controller degenerate","MultipleDeferralsWithAllCompleted_Completes","controller stateless",
-"DeferralManagerUnitTests","pure-controller degenerate","CompletedDeferralFollowedByIncompleteDeferral_PreventsCompletion","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_Unset_IsNotCompleted","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_AfterSet_CompletesSynchronously","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_Set_CompletesSynchronously","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","MultipleWaitAsync_AfterSet_OnlyOneIsCompleted","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","MultipleWaitAsync_Set_OnlyOneIsCompleted","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","MultipleWaitAsync_AfterMultipleSet_OnlyOneIsCompleted","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_PreCancelled_Set_SynchronouslyCompletesWait","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_Cancelled_DoesNotAutoReset","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_PreCancelled_Unset_SynchronouslyCancels","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","WaitAsyncFromCustomSynchronizationContext_PreCancelled_Unset_SynchronouslyCancels","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_Cancelled_ThrowsException","controller stateless",
-"AsyncAutoResetEventUnitTests","degenerate","Id_IsNotZero","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapException_Completed_DoesNotBlock","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapException_Faulted_UnwrapsException","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionWithCT_Completed_DoesNotBlock","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionWithCT_Faulted_UnwrapsException","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionWithCT_CancellationTokenCancelled_Cancels","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResult_Completed_DoesNotBlock","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResult_Faulted_UnwrapsException","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResultWithCT_Completed_DoesNotBlock","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResultWithCT_Faulted_UnwrapsException","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResultWithCT_CancellationTokenCancelled_Cancels","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutException_Completed_DoesNotBlock","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutException_Canceled_DoesNotBlockOrThrow","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutException_Faulted_DoesNotBlockOrThrow","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResult_Completed_DoesNotBlock","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResult_Canceled_DoesNotBlockOrThrow","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResult_Faulted_DoesNotBlockOrThrow","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_Completed_DoesNotBlock","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_Canceled_DoesNotBlockOrThrow","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_Faulted_DoesNotBlockOrThrow","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResultWithCancellationToken_Completed_DoesNotBlock","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResultWithCancellationToken_Canceled_DoesNotBlockOrThrow","wrapper stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResultWithCancellationToken_Faulted_DoesNotBlockOrThrow","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_CanceledToken_DoesNotBlockButThrowsException","controller stateless",
-"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_TokenCanceled_ThrowsException","controller stateless",
-"TaskConstantsUnitTests","boundary degenerate","BooleanTrue_IsCompletedWithValueOfTrue","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","BooleanTrue_IsCached","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","BooleanFalse_IsCompletedWithValueOfFalse","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","BooleanFalse_IsCached","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Int32Zero_IsCompletedWithValueOfZero","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Int32Zero_IsCached","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Int32NegativeOne_IsCompletedWithValueOfNegativeOne","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Int32NegativeOne_IsCached","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Completed_IsCompleted","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Completed_IsCached","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Canceled_IsCanceled","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Canceled_IsCached","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Default_ReferenceType_IsCompletedWithValueOfNull","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Default_ValueType_IsCompletedWithValueOfZero","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","Default_IsCached","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","CanceledOfT_IsCanceled","wrapper stateless",
-"TaskConstantsUnitTests","boundary degenerate","CanceledOfT_IsCached","wrapper stateless",
+"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAction_WithFactoryScheduler_UsesFactoryScheduler","controller stateless"
+"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAction_WithCurrentScheduler_UsesDefaultScheduler","controller stateless"
+"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunFunc_WithFactoryScheduler_UsesFactoryScheduler","controller stateless"
+"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunFunc_WithCurrentScheduler_UsesDefaultScheduler","controller stateless"
+"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAsyncAction_WithFactoryScheduler_UsesFactoryScheduler","controller stateless"
+"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAsyncAction_WithCurrentScheduler_UsesDefaultScheduler","controller stateless"
+"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAsyncFunc_WithFactoryScheduler_UsesFactoryScheduler","controller stateless"
+"TaskFactoryExtensionsUnitTests","pure-controller degenerate","RunAsyncFunc_WithCurrentScheduler_UsesDefaultScheduler","controller stateless"
+"TaskConstantsUnitTests","boundary degenerate","BooleanTrue_IsCompletedWithValueOfTrue","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","BooleanTrue_IsCached","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","BooleanFalse_IsCompletedWithValueOfFalse","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","BooleanFalse_IsCached","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Int32Zero_IsCompletedWithValueOfZero","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Int32Zero_IsCached","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Int32NegativeOne_IsCompletedWithValueOfNegativeOne","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Int32NegativeOne_IsCached","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Completed_IsCompleted","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Completed_IsCached","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Canceled_IsCanceled","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Canceled_IsCached","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Default_ReferenceType_IsCompletedWithValueOfNull","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Default_ValueType_IsCompletedWithValueOfZero","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","Default_IsCached","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","CanceledOfT_IsCanceled","wrapper stateless"
+"TaskConstantsUnitTests","boundary degenerate","CanceledOfT_IsCached","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapException_Completed_DoesNotBlock","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapException_Faulted_UnwrapsException","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionWithCT_Completed_DoesNotBlock","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionWithCT_Faulted_UnwrapsException","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionWithCT_CancellationTokenCancelled_Cancels","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResult_Completed_DoesNotBlock","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResult_Faulted_UnwrapsException","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResultWithCT_Completed_DoesNotBlock","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResultWithCT_Faulted_UnwrapsException","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitAndUnwrapExceptionResultWithCT_CancellationTokenCancelled_Cancels","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutException_Completed_DoesNotBlock","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutException_Canceled_DoesNotBlockOrThrow","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutException_Faulted_DoesNotBlockOrThrow","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResult_Completed_DoesNotBlock","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResult_Canceled_DoesNotBlockOrThrow","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResult_Faulted_DoesNotBlockOrThrow","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_Completed_DoesNotBlock","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_Canceled_DoesNotBlockOrThrow","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_Faulted_DoesNotBlockOrThrow","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResultWithCancellationToken_Completed_DoesNotBlock","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResultWithCancellationToken_Canceled_DoesNotBlockOrThrow","wrapper stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionResultWithCancellationToken_Faulted_DoesNotBlockOrThrow","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_CanceledToken_DoesNotBlockButThrowsException","controller stateless"
+"SynchronousTaskExtensionsUnitTests","degenerate","WaitWithoutExceptionWithCancellationToken_TokenCanceled_ThrowsException","controller stateless"
+"DeferralManagerUnitTests","pure-controller degenerate","NoDeferrals_IsCompleted","controller stateless"
+"DeferralManagerUnitTests","pure-controller degenerate","IncompleteDeferral_PreventsCompletion","controller stateless"
+"DeferralManagerUnitTests","pure-controller degenerate","DeferralCompleted_Completes","controller stateless"
+"DeferralManagerUnitTests","pure-controller degenerate","MultipleDeferralsWithOneIncomplete_PreventsCompletion","controller stateless"
+"DeferralManagerUnitTests","pure-controller degenerate","TwoDeferralsWithOneCompletedTwice_PreventsCompletion","controller stateless"
+"DeferralManagerUnitTests","pure-controller degenerate","MultipleDeferralsWithAllCompleted_Completes","controller stateless"
+"DeferralManagerUnitTests","pure-controller degenerate","CompletedDeferralFollowedByIncompleteDeferral_PreventsCompletion","controller stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_SignaledHandle_SynchronouslyCompletes","wrapper stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_SignaledHandleWithZeroTimeout_SynchronouslyCompletesWithTrueResult","wrapper stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_UnsignaledHandleWithZeroTimeout_SynchronouslyCompletesWithFalseResult","wrapper stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_SignaledHandleWithCanceledToken_SynchronouslyCompletes","wrapper stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_UnsignaledHandleWithCanceledToken_SynchronouslyCancels","wrapper stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_SignaledHandleWithZeroTimeoutAndCanceledToken_SynchronouslyCompletesWithTrueResult","wrapper stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_UnsignaledHandleWithZeroTimeoutAndCanceledToken_SynchronouslyCompletesWithFalseResult","wrapper stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_HandleSignalled_Completes","controller stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_HandleSignalledBeforeTimeout_CompletesWithTrueResult","controller stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_TimeoutBeforeHandleSignalled_CompletesWithFalseResult","wrapper stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_HandleSignalledBeforeCanceled_CompletesSuccessfully","controller stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_CanceledBeforeHandleSignalled_CompletesCanceled","controller stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_HandleSignalledBeforeTimeoutOrCanceled_CompletesWithTrueResult","controller stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_TimeoutBeforeHandleSignalledOrCanceled_CompletesWithFalseResult","wrapper stateless"
+"WaitHandleInteropUnitTests","degenerate","FromWaitHandle_CanceledBeforeTimeoutOrHandleSignalled_CompletesCanceled","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","ConstructorWithZeroMaxCount_Throws","wrapper stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","ConstructorWithZeroMaxCountAndCollection_Throws","wrapper stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","ConstructorWithMaxCountSmallerThanCollectionCount_Throws","wrapper stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","ConstructorWithCollection_AddsItems","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_SpaceAvailable_EnqueuesItem","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_CompleteAdding_ThrowsException","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","DequeueAsync_EmptyAndComplete_ThrowsException","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","DequeueAsync_Empty_DoesNotComplete","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","DequeueAsync_Empty_ItemAdded_Completes","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","DequeueAsync_Cancelled_Throws","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_Full_DoesNotComplete","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_SpaceAvailable_Completes","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","EnqueueAsync_Cancelled_Throws","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","CompleteAdding_MultipleTimes_DoesNotThrow","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","OutputAvailableAsync_NoItemsInQueue_IsNotCompleted","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","OutputAvailableAsync_ItemInQueue_ReturnsTrue","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","OutputAvailableAsync_NoItemsAndCompleted_ReturnsFalse","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","OutputAvailableAsync_ItemInQueueAndCompleted_ReturnsTrue","controller stateless"
+"AsyncProducerConsumerQueueUnitTests","degenerate","StandardAsyncSingleConsumerCode","controller stateless"
+"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTaskTResult_PropagatesResult","controller stateless"
+"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTaskTResult_WithDifferentTResult_PropagatesResult","controller stateless"
+"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTaskTResult_PropagatesCancellation","controller stateless"
+"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTaskTResult_PropagatesException","controller stateless"
+"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTask_PropagatesResult","controller stateless"
+"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTask_PropagatesCancellation","controller stateless"
+"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","TryCompleteFromCompletedTask_PropagatesException","controller stateless"
+"TaskCompletionSourceExtensionsUnitTests","pure-controller degenerate","CreateAsyncTaskSource_PermitsCompletingTask","controller stateless"
+"CancellationTokenTaskSourceUnitTests","boundary degenerate small-class","Constructor_AlreadyCanceledToken_TaskReturnsSynchronouslyCanceledTask","wrapper stateless"
+"AsyncManualResetEventUnitTests","degenerate","WaitAsync_Unset_IsNotCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","Wait_Unset_IsNotCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","WaitAsync_AfterSet_IsCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","Wait_AfterSet_IsCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","WaitAsync_Set_IsCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","Wait_Set_IsCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","MultipleWaitAsync_AfterSet_IsCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","MultipleWait_AfterSet_IsCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","MultipleWaitAsync_Set_IsCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","MultipleWait_Set_IsCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","WaitAsync_AfterReset_IsNotCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","Wait_AfterReset_IsNotCompleted","controller stateless"
+"AsyncManualResetEventUnitTests","degenerate","Id_IsNotZero","wrapper stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_Unlocked_SynchronouslyPermitsLock","controller stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_Locked_PreventsLockUntilUnlocked","controller stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_DoubleDispose_OnlyPermitsOneTask","controller stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_Locked_OnlyPermitsOneLockerAtATime","controller stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_PreCancelled_Unlocked_SynchronouslyTakesLock","controller stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_PreCancelled_Locked_SynchronouslyCancels","controller stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_CancelledLock_LeavesLockUnlocked","controller stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_CanceledLock_ThrowsException","controller stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_CanceledTooLate_StillTakesLock","controller stateless"
+"AsyncLockUnitTests","degenerate","Id_IsNotZero","wrapper stateless"
+"AsyncLockUnitTests","degenerate","AsyncLock_SupportsMultipleAsynchronousLocks","controller stateless"
+"AsyncReaderWriterLock","entity boundary","AsyncReaderWriterLock","constructor"
+"AsyncReaderWriterLock","entity boundary","AsyncReaderWriterLock","constructor"
+"AsyncReaderWriterLock","entity boundary","ReleaseWaitersWhenCanceled","command collaborator"
+"AsyncReaderWriterLock","entity boundary","RequestReaderLockAsync","property set collaborator"
+"AsyncReaderWriterLock","entity boundary","ReaderLockAsync","property non-void-command factory collaborator"
+"AsyncReaderWriterLock","entity boundary","ReaderLockAsync","property non-void-command collaborator"
+"AsyncReaderWriterLock","entity boundary","ReaderLock","property non-void-command collaborator"
+"AsyncReaderWriterLock","entity boundary","ReaderLock","property non-void-command collaborator"
+"AsyncReaderWriterLock","entity boundary","RequestWriterLockAsync","property non-void-command collaborator"
+"AsyncReaderWriterLock","entity boundary","WriterLockAsync","property non-void-command factory collaborator"
+"AsyncReaderWriterLock","entity boundary","WriterLockAsync","property non-void-command collaborator"
+"AsyncReaderWriterLock","entity boundary","WriterLock","property non-void-command collaborator"
+"AsyncReaderWriterLock","entity boundary","WriterLock","property non-void-command collaborator"
+"AsyncReaderWriterLock","entity boundary","ReleaseWaiters","command"
+"AsyncReaderWriterLock","entity boundary","ReleaseReaderLock","set"
+"AsyncReaderWriterLock","entity boundary","ReleaseWriterLock","set"
+"AsyncReaderWriterLock","entity boundary","get","property collaborator"
+"AsyncReaderWriterLock","entity boundary","get","property"
+"AsyncReaderWriterLock","entity boundary","get","property wrapper"
+"AsyncLazy<T>","data-provider boundary","AsyncLazy","copy-constructor"
+"AsyncLazy<T>","data-provider boundary","RetryOnFailure","property set collaborator"
+"AsyncLazy<T>","data-provider boundary","GetAwaiter","wrapper stateless"
+"AsyncLazy<T>","data-provider boundary","ConfigureAwait","wrapper stateless"
+"AsyncLazy<T>","data-provider boundary","Start","collaborator incidental"
+"AsyncLazy<T>","data-provider boundary","get","property collaborator"
+"AsyncLazy<T>","data-provider boundary","get","property wrapper"
+"AsyncLazy<T>","data-provider boundary","get","predicate"
+"AsyncLazy<T>","data-provider boundary","get","property collaborator"
+"AsyncLock","entity boundary","AsyncLock","constructor"
+"AsyncLock","entity boundary","AsyncLock","constructor"
+"AsyncLock","entity boundary","RequestLockAsync","property set collaborator"
+"AsyncLock","entity boundary","LockAsync","property non-void-command factory collaborator"
+"AsyncLock","entity boundary","LockAsync","property non-void-command collaborator"
+"AsyncLock","entity boundary","Lock","property non-void-command collaborator"
+"AsyncLock","entity boundary","Lock","property non-void-command collaborator"
+"AsyncLock","entity boundary","ReleaseLock","set"
+"AsyncLock","entity boundary","get","property wrapper"
+"AsyncReaderWriterLockUnitTests","degenerate","Unlocked_PermitsWriterLock","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","Unlocked_PermitsMultipleReaderLocks","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_PreventsAnotherWriterLock","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_PreventsReaderLock","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_Unlocked_PermitsAnotherWriterLock","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","ReadLocked_PreventsWriterLock","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","Id_IsNotZero","wrapper stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","WriterLock_PreCancelled_LockAvailable_SynchronouslyTakesLock","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","WriterLock_PreCancelled_LockNotAvailable_SynchronouslyCancels","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","ReaderLock_PreCancelled_LockAvailable_SynchronouslyTakesLock","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","ReaderLock_PreCancelled_LockNotAvailable_SynchronouslyCancels","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_WriterLockCancelled_DoesNotTakeLockWhenUnlocked","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","WriteLocked_ReaderLockCancelled_DoesNotTakeLockWhenUnlocked","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","LockReleased_WriteTakesPriorityOverRead","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","ReaderLocked_ReaderReleased_ReaderAndWriterWaiting_DoesNotReleaseReaderOrWriter","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","LoadTest","controller stateless"
+"AsyncReaderWriterLockUnitTests","degenerate","ReadLock_WriteLockCanceled_TakesLock","controller stateless"
+"AsyncContext","commander boundary","AsyncContext","constructor"
+"AsyncContext","commander boundary","OperationStarted","wrapper"
+"AsyncContext","commander boundary","OperationCompleted","command collaborator"
+"AsyncContext","commander boundary","Enqueue","command"
+"AsyncContext","commander boundary","Dispose","command"
+"AsyncContext","commander boundary","Execute","command collaborator"
+"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_Unset_IsNotCompleted","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_AfterSet_CompletesSynchronously","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_Set_CompletesSynchronously","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","MultipleWaitAsync_AfterSet_OnlyOneIsCompleted","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","MultipleWaitAsync_Set_OnlyOneIsCompleted","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","MultipleWaitAsync_AfterMultipleSet_OnlyOneIsCompleted","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_PreCancelled_Set_SynchronouslyCompletesWait","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_Cancelled_DoesNotAutoReset","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_PreCancelled_Unset_SynchronouslyCancels","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","WaitAsyncFromCustomSynchronizationContext_PreCancelled_Unset_SynchronouslyCancels","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","WaitAsync_Cancelled_ThrowsException","controller stateless"
+"AsyncAutoResetEventUnitTests","degenerate","Id_IsNotZero","wrapper stateless"
+"AsyncMonitor","boundary","AsyncMonitor","constructor"
+"AsyncMonitor","boundary","AsyncMonitor","constructor"
+"AsyncMonitor","boundary","EnterAsync","property non-void-command collaborator"
+"AsyncMonitor","boundary","EnterAsync","property non-void-command collaborator"
+"AsyncMonitor","boundary","Enter","property non-void-command collaborator"
+"AsyncMonitor","boundary","Enter","property non-void-command collaborator"
+"AsyncMonitor","boundary","WaitAsync","property non-void-command collaborator"
+"AsyncMonitor","boundary","WaitAsync","property non-void-command collaborator"
+"AsyncMonitor","boundary","Wait","command collaborator"
+"AsyncMonitor","boundary","Wait","command"
+"AsyncMonitor","boundary","Pulse","command"
+"AsyncMonitor","boundary","PulseAll","command"
+"AsyncMonitor","boundary","get","property"
+"AsyncCountdownEvent","commander","AsyncCountdownEvent","constructor"
+"AsyncCountdownEvent","commander","WaitAsync","property non-void-command collaborator"
+"AsyncCountdownEvent","commander","WaitAsync","property non-void-command collaborator"
+"AsyncCountdownEvent","commander","Wait","command"
+"AsyncCountdownEvent","commander","Wait","command collaborator"
+"AsyncCountdownEvent","commander","ModifyCount","command collaborator"
+"AsyncCountdownEvent","commander","AddCount","command"
+"AsyncCountdownEvent","commander","AddCount","command"
+"AsyncCountdownEvent","commander","Signal","command"
+"AsyncCountdownEvent","commander","Signal","command"
+"AsyncCountdownEvent","commander","get","property"
+"AsyncCountdownEvent","commander","get","get"
+"AsyncProducerConsumerQueue<T>","entity boundary","AsyncProducerConsumerQueue","constructor"
+"AsyncProducerConsumerQueue<T>","entity boundary","AsyncProducerConsumerQueue","constructor"
+"AsyncProducerConsumerQueue<T>","entity boundary","AsyncProducerConsumerQueue","constructor"
+"AsyncProducerConsumerQueue<T>","entity boundary","AsyncProducerConsumerQueue","constructor"
+"AsyncProducerConsumerQueue<T>","entity boundary","CompleteAdding","command"
+"AsyncProducerConsumerQueue<T>","entity boundary","DoEnqueueAsync","non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","EnqueueAsync","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","EnqueueAsync","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","Enqueue","command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","Enqueue","command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","DoOutputAvailableAsync","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","OutputAvailableAsync","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","OutputAvailableAsync","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","OutputAvailable","predicate non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","OutputAvailable","predicate non-void-command"
+"AsyncProducerConsumerQueue<T>","entity boundary","GetConsumingEnumerable","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","GetConsumingEnumerable","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","TryDoDequeueAsync","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","DoDequeueAsync","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","DequeueAsync","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","DequeueAsync","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","Dequeue","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","Dequeue","property non-void-command collaborator"
+"AsyncProducerConsumerQueue<T>","entity boundary","get","predicate"
+"AsyncProducerConsumerQueue<T>","entity boundary","get","predicate"
+"AsyncConditionVariable","boundary","AsyncConditionVariable","constructor"
+"AsyncConditionVariable","boundary","AsyncConditionVariable","constructor"
+"AsyncConditionVariable","boundary","Notify","command"
+"AsyncConditionVariable","boundary","NotifyAll","command"
+"AsyncConditionVariable","boundary","WaitAsync","property non-void-command collaborator"
+"AsyncConditionVariable","boundary","WaitAsync","property non-void-command collaborator"
+"AsyncConditionVariable","boundary","Wait","command collaborator"
+"AsyncConditionVariable","boundary","Wait","command"
+"AsyncConditionVariable","boundary","get","property wrapper"
+"CancellationTokenTaskSource<T>","commander small-class","CancellationTokenTaskSource","constructor"
+"CancellationTokenTaskSource<T>","commander small-class","Dispose","command"
+"AsyncCollection<T>","entity boundary","AsyncCollection","constructor"
+"AsyncCollection<T>","entity boundary","AsyncCollection","constructor"
+"AsyncCollection<T>","entity boundary","AsyncCollection","constructor"
+"AsyncCollection<T>","entity boundary","AsyncCollection","constructor"
+"AsyncCollection<T>","entity boundary","CompleteAdding","command"
+"AsyncCollection<T>","entity boundary","DoAddAsync","non-void-command collaborator"
+"AsyncCollection<T>","entity boundary","DoOutputAvailableAsync","property non-void-command collaborator"
+"AsyncCollection<T>","entity boundary","GetConsumingEnumerable","wrapper stateless"
+"AsyncCollection<T>","entity boundary","GetConsumingEnumerable","property non-void-command collaborator"
+"AsyncCollection<T>","entity boundary","DoTakeAsync","property non-void-command collaborator"
+"AsyncWaitQueueUnitTests","degenerate","IsEmpty_WhenEmpty_IsTrue","wrapper stateless"
+"AsyncWaitQueueUnitTests","degenerate","IsEmpty_WithOneItem_IsFalse","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","IsEmpty_WithTwoItems_IsFalse","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","Dequeue_SynchronouslyCompletesTask","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","Dequeue_WithTwoItems_OnlyCompletesFirstItem","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","Dequeue_WithResult_SynchronouslyCompletesWithResult","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","Dequeue_WithoutResult_SynchronouslyCompletesWithDefaultResult","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","DequeueAll_SynchronouslyCompletesAllTasks","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","DequeueAll_WithoutResult_SynchronouslyCompletesAllTasksWithDefaultResult","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","DequeueAll_WithResult_CompletesAllTasksWithResult","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","TryCancel_EntryFound_SynchronouslyCancelsTask","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","TryCancel_EntryFound_RemovesTaskFromQueue","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","TryCancel_EntryNotFound_DoesNotRemoveTaskFromQueue","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","Cancelled_WhenInQueue_CancelsTask","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","Cancelled_WhenInQueue_RemovesTaskFromQueue","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","Cancelled_WhenNotInQueue_DoesNotRemoveTaskFromQueue","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","Cancelled_BeforeEnqueue_SynchronouslyCancelsTask","controller stateless"
+"AsyncWaitQueueUnitTests","degenerate","Cancelled_BeforeEnqueue_RemovesTaskFromQueue","controller stateless"
+"EventAsyncFactoryUnitTests","boundary degenerate","CompilationTest_CommonScenarios","wrapper stateless"
+"EventAsyncFactoryUnitTests","boundary degenerate","CompilationTest_LessCommonScenarios","wrapper stateless"
+"EventAsyncFactoryUnitTests","boundary degenerate","CompilationTest_RareScenarios","wrapper stateless"
+"AsyncSemaphoreUnitTests","degenerate","WaitAsync_NoSlotsAvailable_IsNotCompleted","controller stateless"
+"AsyncSemaphoreUnitTests","degenerate","WaitAsync_SlotAvailable_IsCompleted","controller stateless"
+"AsyncSemaphoreUnitTests","degenerate","WaitAsync_PreCancelled_SlotAvailable_SucceedsSynchronously","controller stateless"
+"AsyncSemaphoreUnitTests","degenerate","WaitAsync_PreCancelled_NoSlotAvailable_CancelsSynchronously","controller stateless"
+"AsyncSemaphoreUnitTests","degenerate","WaitAsync_Cancelled_DoesNotTakeSlot","controller stateless"
+"AsyncSemaphoreUnitTests","degenerate","Release_WithoutWaiters_IncrementsCount","controller stateless"
+"AsyncSemaphoreUnitTests","degenerate","Release_WithWaiters_ReleasesWaiters","controller stateless"
+"AsyncSemaphoreUnitTests","degenerate","Release_Overflow_ThrowsException","controller stateless"
+"AsyncSemaphoreUnitTests","degenerate","Release_ZeroSlots_HasNoEffect","controller stateless"
+"AsyncSemaphoreUnitTests","degenerate","Id_IsNotZero","wrapper stateless"
+"AsyncSemaphore","entity boundary","AsyncSemaphore","constructor"
+"AsyncSemaphore","entity boundary","AsyncSemaphore","constructor"
+"AsyncSemaphore","entity boundary","WaitAsync","property set collaborator"
+"AsyncSemaphore","entity boundary","WaitAsync","property non-void-command collaborator"
+"AsyncSemaphore","entity boundary","Wait","command collaborator"
+"AsyncSemaphore","entity boundary","Wait","command"
+"AsyncSemaphore","entity boundary","Release","set collaborator"
+"AsyncSemaphore","entity boundary","Release","command"
+"AsyncSemaphore","entity boundary","DoLockAsync","property non-void-command collaborator"
+"AsyncSemaphore","entity boundary","LockAsync","property non-void-command factory collaborator"
+"AsyncSemaphore","entity boundary","Lock","property non-void-command collaborator"
+"AsyncSemaphore","entity boundary","get","property wrapper"
+"AsyncSemaphore","entity boundary","get","get"
+"AsyncContextThread","commander","AsyncContextThread","constructor"
+"AsyncContextThread","commander","AsyncContextThread","constructor"
+"AsyncContextThread","commander","Execute","command"
+"AsyncContextThread","commander","AllowThreadToExit","command"
+"AsyncContextThread","commander","JoinAsync","get non-void-command collaborator"
+"AsyncContextThread","commander","Join","command"
+"AsyncContextThread","commander","Dispose","command collaborator"
+"PauseTokenSource","unclassified","get","predicate"
+"PauseTokenSource","unclassified","set","non-void-command"
+"PauseTokenSource","unclassified","get","property factory collaborator"
+"AsyncAutoResetEvent","boundary","AsyncAutoResetEvent","constructor"
+"AsyncAutoResetEvent","boundary","AsyncAutoResetEvent","constructor"
+"AsyncAutoResetEvent","boundary","AsyncAutoResetEvent","constructor"
+"AsyncAutoResetEvent","boundary","WaitAsync","property set collaborator"
+"AsyncAutoResetEvent","boundary","WaitAsync","property non-void-command collaborator"
+"AsyncAutoResetEvent","boundary","Wait","command collaborator"
+"AsyncAutoResetEvent","boundary","Wait","command"
+"AsyncAutoResetEvent","boundary","Set","set"
+"AsyncAutoResetEvent","boundary","get","property wrapper"
+"AsyncAutoResetEvent","boundary","get","get"
+"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_NeverAwaited_DoesNotCallFunc","wrapper stateless"
+"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_WithCallDirectFlag_CallsFuncDirectly","wrapper stateless"
+"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_ByDefault_CallsFuncOnThreadPool","wrapper stateless"
+"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_Start_CallsFunc","controller stateless"
+"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_Await_ReturnsFuncValue","wrapper stateless"
+"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_MultipleAwaiters_OnlyInvokeFuncOnce","controller stateless"
+"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_FailureCachedByDefault","wrapper stateless"
+"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_WithRetryOnFailure_DoesNotCacheFailure","wrapper stateless"
+"AsyncLazyUnitTests","boundary degenerate","AsyncLazy_WithRetryOnFailure_DoesNotRetryOnSuccess","wrapper stateless"
+"AsyncLazyUnitTests","boundary degenerate","Id_IsNotZero","wrapper stateless"
+"TaskExtensionsUnitTests","degenerate","WaitAsyncTResult_TokenThatCannotCancel_ReturnsSourceTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WaitAsyncTResult_AlreadyCanceledToken_ReturnsSynchronouslyCanceledTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WaitAsyncTResult_TokenCanceled_CancelsTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WaitAsync_TokenThatCannotCancel_ReturnsSourceTask","wrapper stateless"
+"TaskExtensionsUnitTests","degenerate","WaitAsync_AlreadyCanceledToken_ReturnsSynchronouslyCanceledTask","wrapper stateless"
+"TaskExtensionsUnitTests","degenerate","WaitAsync_TokenCanceled_CancelsTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAnyTResult_AlreadyCanceledToken_ReturnsSynchronouslyCanceledTask","wrapper stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAnyTResult_TaskCompletes_CompletesTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAnyTResult_TokenCanceled_CancelsTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAny_AlreadyCanceledToken_ReturnsSynchronouslyCanceledTask","wrapper stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAny_TaskCompletes_CompletesTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAny_TokenCanceled_CancelsTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAnyTResultWithoutToken_TaskCompletes_CompletesTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAnyWithoutToken_TaskCompletes_CompletesTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAllTResult_TaskCompletes_CompletesTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","WhenAll_TaskCompletes_CompletesTask","controller stateless"
+"TaskExtensionsUnitTests","degenerate","OrderByCompletion_OrdersByCompletion","controller stateless"
+"TaskExtensionsUnitTests","degenerate","OrderByCompletion_PropagatesFaultOnFirstCompletion","controller stateless"
+"TaskExtensionsUnitTests","degenerate","OrderByCompletion_PropagatesFaultOnSecondCompletion","controller stateless"
+"TaskExtensionsUnitTests","degenerate","OrderByCompletion_PropagatesCancelOnFirstCompletion","controller stateless"
+"TaskExtensionsUnitTests","degenerate","OrderByCompletion_PropagatesCancelOnSecondCompletion","controller stateless"
+"AsyncMonitorUnitTests","degenerate","Unlocked_PermitsLock","controller stateless"
+"AsyncMonitorUnitTests","degenerate","Locked_PreventsLockUntilUnlocked","controller stateless"
+"AsyncMonitorUnitTests","degenerate","Pulse_ReleasesOneWaiter","controller stateless"
+"AsyncMonitorUnitTests","degenerate","PulseAll_ReleasesAllWaiters","controller stateless"
+"AsyncMonitorUnitTests","degenerate","Id_IsNotZero","wrapper stateless"
+"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.Enqueue","property non-void-command collaborator"
+"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.Dequeue","command collaborator"
+"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.DequeueAll","command collaborator"
+"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.TryCancel","predicate non-void-command collaborator"
+"DefaultAsyncWaitQueue<T>","entity boundary","IAsyncWaitQueue<T>.CancelAll","command collaborator"
+"DefaultAsyncWaitQueue<T>","entity boundary","get","property"
+"DefaultAsyncWaitQueue<T>","entity boundary","get","incidental"
+"DeferralManager","unclassified","DeferralManager","constructor"
+"DeferralManager","unclassified","IncrementCount","set"
+"DeferralManager","unclassified","DecrementCount","command"
+"DeferralManager","unclassified","WaitForDeferralsAsync","property non-void-command collaborator"
+"DeferralManager","unclassified","get","get collaborator"
+"AsyncManualResetEvent","unclassified","AsyncManualResetEvent","constructor"
+"AsyncManualResetEvent","unclassified","AsyncManualResetEvent","constructor"
+"AsyncManualResetEvent","unclassified","WaitAsync","property collaborator"
+"AsyncManualResetEvent","unclassified","WaitAsync","property non-void-command collaborator"
+"AsyncManualResetEvent","unclassified","Wait","command"
+"AsyncManualResetEvent","unclassified","Wait","command collaborator"
+"AsyncManualResetEvent","unclassified","Set","command"
+"AsyncManualResetEvent","unclassified","Reset","set"
+"AsyncManualResetEvent","unclassified","get","predicate"
+"AsyncManualResetEvent","unclassified","get","property wrapper"
+"AsyncManualResetEvent","unclassified","get","predicate"
+"AwaitableDisposable<T>","entity boundary","AwaitableDisposable","constructor"
+"AwaitableDisposable<T>","entity boundary","AsTask","get collaborator"
+"AwaitableDisposable<T>","entity boundary","GetAwaiter","property non-void-command collaborator"
+"AwaitableDisposable<T>","entity boundary","ConfigureAwait","property non-void-command collaborator"
+"SynchronizationContextSwitcher","boundary small-class","SynchronizationContextSwitcher","constructor"
+"SynchronizationContextSwitcher","boundary small-class","Dispose","wrapper"
+"AsyncContextThreadUnitTests","degenerate","AsyncContextThread_IsAnIndependentThread","controller stateless"
+"AsyncContextThreadUnitTests","degenerate","AsyncDelegate_ResumesOnSameThread","controller stateless"
+"AsyncContextThreadUnitTests","degenerate","Join_StopsTask","controller stateless"
+"AsyncContextThreadUnitTests","degenerate","Context_IsCorrectAsyncContext","wrapper stateless"
+"AsyncContextUnitTests","boundary degenerate","AsyncContext_StaysOnSameThread","wrapper stateless"
+"AsyncContextUnitTests","boundary degenerate","Run_AsyncVoid_BlocksUntilCompletion","wrapper stateless"
+"AsyncContextUnitTests","boundary degenerate","Run_FuncThatCallsAsyncVoid_BlocksUntilCompletion","wrapper stateless"
+"AsyncContextUnitTests","boundary degenerate","Run_AsyncTask_BlocksUntilCompletion","wrapper stateless"
+"AsyncContextUnitTests","boundary degenerate","Run_AsyncTaskWithResult_BlocksUntilCompletion","wrapper stateless"
+"AsyncContextUnitTests","boundary degenerate","Current_WithoutAsyncContext_IsNull","wrapper stateless"
+"AsyncContextUnitTests","boundary degenerate","Current_FromAsyncContext_IsAsyncContext","controller stateless"
+"AsyncContextUnitTests","boundary degenerate","SynchronizationContextCurrent_FromAsyncContext_IsAsyncContextSynchronizationContext","controller stateless"
+"AsyncContextUnitTests","boundary degenerate","TaskSchedulerCurrent_FromAsyncContext_IsThreadPoolTaskScheduler","controller stateless"
+"AsyncContextUnitTests","boundary degenerate","TaskScheduler_MaximumConcurrency_IsOne","wrapper stateless"
+"AsyncContextUnitTests","boundary degenerate","Run_PropagatesException","wrapper stateless"
+"PauseToken","unclassified","PauseToken","constructor"
+"PauseToken","unclassified","WaitWhilePausedAsync","property non-void-command collaborator"
+"PauseToken","unclassified","WaitWhilePausedAsync","property non-void-command collaborator"
+"PauseToken","unclassified","WaitWhilePaused","command"
+"PauseToken","unclassified","WaitWhilePaused","command collaborator"
+"PauseToken","unclassified","get","predicate"
+"PauseToken","unclassified","get","predicate"
+"AsyncConditionVariableUnitTests","degenerate","WaitAsync_WithoutNotify_IsNotCompleted","controller stateless"
+"AsyncConditionVariableUnitTests","degenerate","WaitAsync_Notified_IsCompleted","controller stateless"
+"AsyncConditionVariableUnitTests","degenerate","WaitAsync_AfterNotify_IsNotCompleted","controller stateless"
+"AsyncConditionVariableUnitTests","degenerate","MultipleWaits_NotifyAll_AllAreCompleted","controller stateless"
+"AsyncConditionVariableUnitTests","degenerate","MultipleWaits_Notify_OneIsCompleted","controller stateless"
+"AsyncConditionVariableUnitTests","degenerate","Id_IsNotZero","wrapper stateless"
+"AsyncCountdownEventUnitTests","degenerate","WaitAsync_Unset_IsNotCompleted","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","WaitAsync_Set_IsCompleted","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","AddCount_IncrementsCount","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","Signal_Nonzero_IsNotCompleted","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","Signal_Zero_SynchronouslyCompletesWaitTask","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","Signal_AfterSet_CountsNegativeAndResetsTask","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","AddCount_AfterSet_CountsPositiveAndResetsTask","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","Signal_PastZero_PulsesTask","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","AddCount_PastZero_PulsesTask","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","AddCount_Overflow_ThrowsException","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","Signal_Underflow_ThrowsException","controller stateless"
+"AsyncCountdownEventUnitTests","degenerate","Id_IsNotZero","wrapper stateless"

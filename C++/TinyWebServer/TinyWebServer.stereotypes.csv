@@ -1,114 +1,114 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"WebServer","commander","WebServer::WebServer","constructor",
-"WebServer","commander","WebServer::~WebServer","destructor",
-"WebServer","commander","WebServer::init","command",
-"WebServer","commander","WebServer::trig_mode","command",
-"WebServer","commander","WebServer::log_write","wrapper",
-"WebServer","commander","WebServer::sql_pool","command",
-"WebServer","commander","WebServer::thread_pool","set",
-"WebServer","commander","WebServer::eventListen","command collaborator",
-"WebServer","commander","WebServer::timer","command collaborator",
-"WebServer","commander","WebServer::adjust_timer","void-accessor command collaborator",
-"WebServer","commander","WebServer::deal_timer","void-accessor command",
-"WebServer","commander","WebServer::dealclientdata","predicate non-void-command",
-"WebServer","commander","WebServer::dealwithsignal","predicate wrapper",
-"WebServer","commander","WebServer::dealwithread","command collaborator",
-"WebServer","commander","WebServer::dealwithwrite","command collaborator",
-"WebServer","commander","WebServer::eventLoop","command",
-"Utils","commander boundary","Utils","constructor",
-"Utils","commander boundary","~Utils","destructor",
-"Utils","commander boundary","Utils::init","set",
-"Utils","commander boundary","Utils::setnonblocking","wrapper stateless",
-"Utils","commander boundary","Utils::addfd","command collaborator",
-"Utils","commander boundary","Utils::sig_handler","wrapper",
-"Utils","commander boundary","Utils::addsig","wrapper stateless",
-"Utils","commander boundary","Utils::timer_handler","command",
-"Utils","commander boundary","Utils::show_error","wrapper stateless",
-"connection_pool","entity boundary","connection_pool::connection_pool","constructor",
-"connection_pool","entity boundary","connection_pool::GetInstance","incidental",
-"connection_pool","entity boundary","connection_pool::init","command collaborator",
-"connection_pool","entity boundary","connection_pool::GetConnection","property non-void-command collaborator",
-"connection_pool","entity boundary","connection_pool::ReleaseConnection","predicate non-void-command collaborator",
-"connection_pool","entity boundary","connection_pool::DestroyPool","command collaborator",
-"connection_pool","entity boundary","connection_pool::GetFreeConn","get",
-"connection_pool","entity boundary","connection_pool::~connection_pool","destructor",
-"Config","small-class","~Config","destructor",
-"Config","small-class","Config::Config","constructor",
-"Config","small-class","Config::parse_arg","void-accessor command",
-"http_conn","unclassified","http_conn","constructor",
-"http_conn","unclassified","~http_conn","destructor",
-"http_conn","unclassified","get_address","property collaborator",
-"http_conn","unclassified","get_line","property",
-"http_conn","unclassified","http_conn::initmysql_result","wrapper stateless",
-"http_conn","unclassified","http_conn::close_conn","command",
-"http_conn","unclassified","http_conn::init","command",
-"http_conn","unclassified","http_conn::init","command",
-"http_conn","unclassified","http_conn::parse_line","property non-void-command collaborator",
-"http_conn","unclassified","http_conn::read_once","predicate set",
-"http_conn","unclassified","http_conn::parse_request_line","property non-void-command collaborator",
-"http_conn","unclassified","http_conn::parse_headers","property non-void-command collaborator",
-"http_conn","unclassified","http_conn::parse_content","property set collaborator",
-"http_conn","unclassified","http_conn::process_read","property non-void-command collaborator",
-"http_conn","unclassified","http_conn::do_request","property set collaborator",
-"http_conn","unclassified","http_conn::unmap","set",
-"http_conn","unclassified","http_conn::write","predicate non-void-command",
-"http_conn","unclassified","http_conn::add_response","predicate set",
-"http_conn","unclassified","http_conn::add_status_line","wrapper stateless",
-"http_conn","unclassified","http_conn::add_headers","predicate non-void-command",
-"http_conn","unclassified","http_conn::add_content_length","predicate non-void-command",
-"http_conn","unclassified","http_conn::add_content_type","predicate non-void-command",
-"http_conn","unclassified","http_conn::add_linger","predicate non-void-command",
-"http_conn","unclassified","http_conn::add_blank_line","predicate non-void-command",
-"http_conn","unclassified","http_conn::add_content","predicate non-void-command",
-"http_conn","unclassified","http_conn::process_write","predicate non-void-command collaborator",
-"http_conn","unclassified","http_conn::process","command",
-"cond","data-provider boundary","cond","constructor",
-"cond","data-provider boundary","~cond","destructor",
-"cond","data-provider boundary","wait","predicate wrapper",
-"cond","data-provider boundary","timewait","predicate wrapper",
-"cond","data-provider boundary","signal","predicate wrapper",
-"cond","data-provider boundary","broadcast","predicate wrapper",
-"sem","data-provider boundary small-class","sem","constructor",
-"sem","data-provider boundary small-class","sem","constructor",
-"sem","data-provider boundary small-class","~sem","destructor",
-"sem","data-provider boundary small-class","wait","predicate wrapper",
-"sem","data-provider boundary small-class","post","predicate wrapper",
-"locker","data-provider boundary","locker","constructor",
-"locker","data-provider boundary","~locker","destructor",
-"locker","data-provider boundary","lock","predicate wrapper",
-"locker","data-provider boundary","unlock","predicate wrapper",
-"locker","data-provider boundary","get","property collaborator",
-"sort_timer_lst","entity boundary","sort_timer_lst::sort_timer_lst","constructor",
-"sort_timer_lst","entity boundary","sort_timer_lst::~sort_timer_lst","destructor",
-"sort_timer_lst","entity boundary","sort_timer_lst::add_timer","void-accessor command collaborator",
-"sort_timer_lst","entity boundary","sort_timer_lst::adjust_timer","void-accessor command collaborator",
-"sort_timer_lst","entity boundary","sort_timer_lst::del_timer","void-accessor command collaborator",
-"sort_timer_lst","entity boundary","sort_timer_lst::tick","command collaborator",
-"sort_timer_lst","entity boundary","sort_timer_lst::add_timer","void-accessor set collaborator",
-"threadpool","boundary","threadpool<T>::threadpool","constructor",
-"threadpool","boundary","threadpool<T>::~threadpool","destructor",
-"threadpool","boundary","threadpool<T>::append","predicate non-void-command",
-"threadpool","boundary","threadpool<T>::append_p","predicate non-void-command collaborator",
-"threadpool","boundary","threadpool<T>::worker","controller stateless",
-"threadpool","boundary","threadpool<T>::run","command collaborator",
-"block_queue","unclassified","block_queue","constructor",
-"block_queue","unclassified","clear","command",
-"block_queue","unclassified","~block_queue","destructor",
-"block_queue","unclassified","full","predicate non-void-command",
-"block_queue","unclassified","empty","predicate non-void-command",
-"block_queue","unclassified","front","predicate non-void-command collaborator",
-"block_queue","unclassified","back","predicate non-void-command collaborator",
-"block_queue","unclassified","size","property non-void-command",
-"block_queue","unclassified","max_size","property non-void-command",
-"block_queue","unclassified","push","predicate non-void-command collaborator",
-"block_queue","unclassified","pop","predicate non-void-command collaborator",
-"block_queue","unclassified","pop","predicate non-void-command collaborator",
-"Log","unclassified","async_write_log","command collaborator",
-"Log","unclassified","Log::Log","constructor",
-"Log","unclassified","Log::~Log","destructor",
-"Log","unclassified","Log::init","predicate non-void-command",
-"Log","unclassified","Log::write_log","void-accessor command",
-"Log","unclassified","Log::flush","command",
-"connectionRAII","empty","connectionRAII::connectionRAII","constructor",
-"connectionRAII","empty","connectionRAII::~connectionRAII","destructor",
-"util_timer","empty","util_timer","constructor",
+"WebServer","commander","WebServer::WebServer","constructor"
+"WebServer","commander","WebServer::~WebServer","destructor"
+"WebServer","commander","WebServer::init","command"
+"WebServer","commander","WebServer::trig_mode","command"
+"WebServer","commander","WebServer::log_write","wrapper"
+"WebServer","commander","WebServer::sql_pool","command"
+"WebServer","commander","WebServer::thread_pool","set"
+"WebServer","commander","WebServer::eventListen","command collaborator"
+"WebServer","commander","WebServer::timer","command collaborator"
+"WebServer","commander","WebServer::adjust_timer","void-accessor command collaborator"
+"WebServer","commander","WebServer::deal_timer","command"
+"WebServer","commander","WebServer::dealclientdata","predicate non-void-command"
+"WebServer","commander","WebServer::dealwithsignal","predicate wrapper"
+"WebServer","commander","WebServer::dealwithread","command collaborator"
+"WebServer","commander","WebServer::dealwithwrite","command collaborator"
+"WebServer","commander","WebServer::eventLoop","command"
+"Utils","commander boundary","Utils","constructor"
+"Utils","commander boundary","~Utils","destructor"
+"Utils","commander boundary","Utils::init","set"
+"Utils","commander boundary","Utils::setnonblocking","wrapper stateless"
+"Utils","commander boundary","Utils::addfd","command collaborator"
+"Utils","commander boundary","Utils::sig_handler","wrapper"
+"Utils","commander boundary","Utils::addsig","wrapper stateless"
+"Utils","commander boundary","Utils::timer_handler","command"
+"Utils","commander boundary","Utils::show_error","wrapper stateless"
+"connection_pool","entity boundary","connection_pool::connection_pool","constructor"
+"connection_pool","entity boundary","connection_pool::GetInstance","incidental"
+"connection_pool","entity boundary","connection_pool::init","command collaborator"
+"connection_pool","entity boundary","connection_pool::GetConnection","property non-void-command collaborator"
+"connection_pool","entity boundary","connection_pool::ReleaseConnection","predicate non-void-command collaborator"
+"connection_pool","entity boundary","connection_pool::DestroyPool","command collaborator"
+"connection_pool","entity boundary","connection_pool::GetFreeConn","get"
+"connection_pool","entity boundary","connection_pool::~connection_pool","destructor"
+"Config","commander small-class","~Config","destructor"
+"Config","commander small-class","Config::Config","constructor"
+"Config","commander small-class","Config::parse_arg","command"
+"http_conn","unclassified","http_conn","constructor"
+"http_conn","unclassified","~http_conn","destructor"
+"http_conn","unclassified","get_address","property collaborator"
+"http_conn","unclassified","get_line","property"
+"http_conn","unclassified","http_conn::initmysql_result","wrapper stateless"
+"http_conn","unclassified","http_conn::close_conn","command"
+"http_conn","unclassified","http_conn::init","command"
+"http_conn","unclassified","http_conn::init","command"
+"http_conn","unclassified","http_conn::parse_line","property non-void-command collaborator"
+"http_conn","unclassified","http_conn::read_once","predicate set"
+"http_conn","unclassified","http_conn::parse_request_line","property non-void-command collaborator"
+"http_conn","unclassified","http_conn::parse_headers","property non-void-command collaborator"
+"http_conn","unclassified","http_conn::parse_content","property set collaborator"
+"http_conn","unclassified","http_conn::process_read","property non-void-command collaborator"
+"http_conn","unclassified","http_conn::do_request","property set collaborator"
+"http_conn","unclassified","http_conn::unmap","set"
+"http_conn","unclassified","http_conn::write","predicate non-void-command"
+"http_conn","unclassified","http_conn::add_response","predicate set"
+"http_conn","unclassified","http_conn::add_status_line","wrapper stateless"
+"http_conn","unclassified","http_conn::add_headers","predicate non-void-command"
+"http_conn","unclassified","http_conn::add_content_length","predicate non-void-command"
+"http_conn","unclassified","http_conn::add_content_type","predicate non-void-command"
+"http_conn","unclassified","http_conn::add_linger","predicate non-void-command"
+"http_conn","unclassified","http_conn::add_blank_line","predicate non-void-command"
+"http_conn","unclassified","http_conn::add_content","predicate non-void-command"
+"http_conn","unclassified","http_conn::process_write","predicate non-void-command collaborator"
+"http_conn","unclassified","http_conn::process","command"
+"cond","data-provider boundary","cond","constructor"
+"cond","data-provider boundary","~cond","destructor"
+"cond","data-provider boundary","wait","predicate wrapper"
+"cond","data-provider boundary","timewait","predicate wrapper"
+"cond","data-provider boundary","signal","predicate wrapper"
+"cond","data-provider boundary","broadcast","predicate wrapper"
+"sem","data-provider boundary small-class","sem","constructor"
+"sem","data-provider boundary small-class","sem","constructor"
+"sem","data-provider boundary small-class","~sem","destructor"
+"sem","data-provider boundary small-class","wait","predicate wrapper"
+"sem","data-provider boundary small-class","post","predicate wrapper"
+"locker","data-provider boundary","locker","constructor"
+"locker","data-provider boundary","~locker","destructor"
+"locker","data-provider boundary","lock","predicate wrapper"
+"locker","data-provider boundary","unlock","predicate wrapper"
+"locker","data-provider boundary","get","property collaborator"
+"sort_timer_lst","entity boundary","sort_timer_lst::sort_timer_lst","constructor"
+"sort_timer_lst","entity boundary","sort_timer_lst::~sort_timer_lst","destructor"
+"sort_timer_lst","entity boundary","sort_timer_lst::add_timer","void-accessor command collaborator"
+"sort_timer_lst","entity boundary","sort_timer_lst::adjust_timer","void-accessor command collaborator"
+"sort_timer_lst","entity boundary","sort_timer_lst::del_timer","void-accessor command collaborator"
+"sort_timer_lst","entity boundary","sort_timer_lst::tick","command collaborator"
+"sort_timer_lst","entity boundary","sort_timer_lst::add_timer","void-accessor set collaborator"
+"threadpool","boundary","threadpool<T>::threadpool","constructor"
+"threadpool","boundary","threadpool<T>::~threadpool","destructor"
+"threadpool","boundary","threadpool<T>::append","predicate non-void-command"
+"threadpool","boundary","threadpool<T>::append_p","predicate non-void-command collaborator"
+"threadpool","boundary","threadpool<T>::worker","controller stateless"
+"threadpool","boundary","threadpool<T>::run","command collaborator"
+"block_queue","unclassified","block_queue","constructor"
+"block_queue","unclassified","clear","command"
+"block_queue","unclassified","~block_queue","destructor"
+"block_queue","unclassified","full","predicate non-void-command"
+"block_queue","unclassified","empty","predicate non-void-command"
+"block_queue","unclassified","front","predicate non-void-command collaborator"
+"block_queue","unclassified","back","predicate non-void-command collaborator"
+"block_queue","unclassified","size","property non-void-command"
+"block_queue","unclassified","max_size","property non-void-command"
+"block_queue","unclassified","push","predicate non-void-command collaborator"
+"block_queue","unclassified","pop","predicate non-void-command collaborator"
+"block_queue","unclassified","pop","predicate non-void-command collaborator"
+"Log","commander","async_write_log","command collaborator"
+"Log","commander","Log::Log","constructor"
+"Log","commander","Log::~Log","destructor"
+"Log","commander","Log::init","predicate non-void-command"
+"Log","commander","Log::write_log","command"
+"Log","commander","Log::flush","command"
+"connectionRAII","empty","connectionRAII::connectionRAII","constructor"
+"connectionRAII","empty","connectionRAII::~connectionRAII","destructor"
+"util_timer","empty","util_timer","constructor"

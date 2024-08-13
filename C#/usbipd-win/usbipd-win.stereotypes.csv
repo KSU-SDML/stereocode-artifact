@@ -1,342 +1,341 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"UnexpectedResultException","empty","UnexpectedResultException","constructor",
-"UnexpectedResultException","empty","UnexpectedResultException","constructor",
-"UnexpectedResultException","empty","UnexpectedResultException","constructor",
-"Server","commander small-class","Server","copy-constructor",
-"Server","commander small-class","Dispose","command",
-"Server","commander small-class","ExecuteAsync","non-void-command collaborator",
-"Parse_unbind_Tests","commander boundary","AllSuccess","controller stateless",
-"Parse_unbind_Tests","commander boundary","AllFailure","controller stateless",
-"Parse_unbind_Tests","commander boundary","AllCanceled","controller stateless",
-"Parse_unbind_Tests","commander boundary","BusIdSuccess","command collaborator",
-"Parse_unbind_Tests","commander boundary","BusIdFailure","command collaborator",
-"Parse_unbind_Tests","commander boundary","BusIdCanceled","command collaborator",
-"Parse_unbind_Tests","commander boundary","GuidSuccess","controller stateless",
-"Parse_unbind_Tests","commander boundary","GuidFailure","controller stateless",
-"Parse_unbind_Tests","commander boundary","GuidCanceled","command collaborator",
-"Parse_unbind_Tests","commander boundary","HardwareIdSuccess","command collaborator",
-"Parse_unbind_Tests","commander boundary","HardwareIdFailure","command collaborator",
-"Parse_unbind_Tests","commander boundary","HardwareIdCanceled","command collaborator",
-"Parse_unbind_Tests","commander boundary","Help","wrapper stateless",
-"Parse_unbind_Tests","commander boundary","OptionMissing","wrapper stateless",
-"Parse_unbind_Tests","commander boundary","AllAndBusId","command",
-"Parse_unbind_Tests","commander boundary","AllAndGuid","command",
-"Parse_unbind_Tests","commander boundary","AllAndHardwareId","command",
-"Parse_unbind_Tests","commander boundary","BusIdAndGuid","command",
-"Parse_unbind_Tests","commander boundary","BusIdAndHardwareId","command",
-"Parse_unbind_Tests","commander boundary","GuidAndHardwareId","command",
-"Parse_unbind_Tests","commander boundary","AllWithArgument","wrapper stateless",
-"Parse_unbind_Tests","commander boundary","BusIdArgumentMissing","wrapper stateless",
-"Parse_unbind_Tests","commander boundary","GuidArgumentMissing","wrapper stateless",
-"Parse_unbind_Tests","commander boundary","HardwareIdArgumentMissing","wrapper stateless",
-"Parse_unbind_Tests","commander boundary","BusIdArgumentInvalid","wrapper stateless",
-"Parse_unbind_Tests","commander boundary","GuidArgumentInvalid","wrapper stateless",
-"Parse_unbind_Tests","commander boundary","HardwareIdArgumentInvalid","wrapper stateless",
-"Parse_unbind_Tests","commander boundary","StrayArgument","command",
-"Parse_state_Tests","degenerate","Success","controller stateless",
-"Parse_state_Tests","degenerate","Failure","controller stateless",
-"Parse_state_Tests","degenerate","Canceled","controller stateless",
-"Parse_state_Tests","degenerate","Help","wrapper stateless",
-"Parse_state_Tests","degenerate","StrayArgument","wrapper stateless",
-"ConfigurationManagerException_Tests","boundary","DefaultConstructor","wrapper stateless",
-"ConfigurationManagerException_Tests","boundary","MessageConstructor","wrapper",
-"ConfigurationManagerException_Tests","boundary","MessageAndInnerConstructor","wrapper",
-"ConfigurationManagerException_Tests","boundary","CodeAndMessageConstructor","wrapper",
-"Parse_license_Tests","degenerate","Success","controller stateless",
-"Parse_license_Tests","degenerate","Failure","controller stateless",
-"Parse_license_Tests","degenerate","Canceled","controller stateless",
-"Parse_license_Tests","degenerate","Help","wrapper stateless",
-"Parse_license_Tests","degenerate","StrayArgument","wrapper stateless",
-"TemporaryFile","boundary small-class","TemporaryFile","constructor",
-"TemporaryFile","boundary small-class","Dispose","wrapper",
-"Installation","boundary degenerate small-class","get","wrapper stateless",
-"Parse_bind_Tests","commander boundary","BusIdSuccess","command collaborator",
-"Parse_bind_Tests","commander boundary","BusIdForceSuccess","command collaborator",
-"Parse_bind_Tests","commander boundary","BusIdFailure","command collaborator",
-"Parse_bind_Tests","commander boundary","BusIdCanceled","command collaborator",
-"Parse_bind_Tests","commander boundary","HardwareIdSuccess","command collaborator",
-"Parse_bind_Tests","commander boundary","HardwareIdForceSuccess","command collaborator",
-"Parse_bind_Tests","commander boundary","HardwareIdFailure","command collaborator",
-"Parse_bind_Tests","commander boundary","HardwareIdCanceled","command collaborator",
-"Parse_bind_Tests","commander boundary","Help","wrapper stateless",
-"Parse_bind_Tests","commander boundary","OptionMissing","wrapper stateless",
-"Parse_bind_Tests","commander boundary","BusIdAndHardwareId","command",
-"Parse_bind_Tests","commander boundary","BusIdArgumentMissing","wrapper stateless",
-"Parse_bind_Tests","commander boundary","HardwareIdArgumentMissing","wrapper stateless",
-"Parse_bind_Tests","commander boundary","BusIdArgumentInvalid","wrapper stateless",
-"Parse_bind_Tests","commander boundary","HardwareIdArgumentInvalid","wrapper stateless",
-"Parse_bind_Tests","commander boundary","StrayArgument","command",
-"UnexpectedResultException_Tests","unclassified","DefaultConstructor","wrapper stateless",
-"UnexpectedResultException_Tests","unclassified","MessageConstructor","controller",
-"UnexpectedResultException_Tests","unclassified","MessageAndInnerConstructor","controller",
-"UsbDevice_Tests","boundary small-class","Constructor","wrapper",
-"PcapNg_Tests","boundary","Constructor_Disabled","unclassified",
-"PcapNg_Tests","boundary","Constructor_InvalidPath","unclassified",
-"PcapNg_Tests","boundary","Constructor_Create","wrapper",
-"PcapNg_Tests","boundary","Constructor_Overwrite","wrapper",
-"PcapNg_Tests","boundary","Dispose","controller",
-"PcapNg_Tests","boundary","Dispose_Twice","controller",
-"PcapNg_Tests","boundary","ConvertType_Success","wrapper stateless",
-"PcapNg_Tests","boundary","ConvertType_Invalid","wrapper stateless",
-"PcapNg_Tests","boundary","DumpPacketNonIsoRequest_Disabled","wrapper",
-"PcapNg_Tests","boundary","DumpPacketNonIsoRequest_WithData","wrapper",
-"PcapNg_Tests","boundary","DumpPacketNonIsoRequest_NoData","wrapper",
-"PcapNg_Tests","boundary","DumpPacketNonIsoRequest_NoSetup","unclassified",
-"PcapNg_Tests","boundary","DumpPacketNonIsoReply_Disabled","wrapper",
-"PcapNg_Tests","boundary","DumpPacketNonIsoReply_WithData","wrapper",
-"PcapNg_Tests","boundary","DumpPacketNonIsoReply_NoData","wrapper",
-"PcapNg_Tests","boundary","DumpPacketIsoRequest_Disabled","wrapper",
-"PcapNg_Tests","boundary","DumpPacketIsoRequest_WithData","wrapper",
-"PcapNg_Tests","boundary","DumpPacketIsoRequest_NoData","wrapper",
-"PcapNg_Tests","boundary","DumpPacketIsoReply_Disabled","wrapper",
-"PcapNg_Tests","boundary","DumpPacketIsoReply_WithData","wrapper",
-"PcapNg_Tests","boundary","DumpPacketIsoReply_NoData","wrapper",
-"PcapNg_Tests","boundary","DumpPacketUnlink_Disabled","wrapper",
-"PcapNg_Tests","boundary","DumpPacketUnlink_Reply_Disabled","wrapper",
-"PcapNg_Tests","boundary","DumpPacketUnlink","wrapper",
-"PcapNg_Tests","boundary","DumpPacketUnlink_Reply","wrapper",
-"PcapNg_Tests","boundary","SnapLength_Normal","unclassified",
-"PcapNg_Tests","boundary","SnapLength_ClipMinimum","unclassified",
-"PcapNg_Tests","boundary","SnapLength_ClipMaximum","unclassified",
-"PcapNg_Tests","boundary","PacketWriterAsync_Flush","wrapper",
-"Parse_detach_Tests","commander boundary","AllSuccess","controller stateless",
-"Parse_detach_Tests","commander boundary","AllFailure","controller stateless",
-"Parse_detach_Tests","commander boundary","AllCanceled","controller stateless",
-"Parse_detach_Tests","commander boundary","BusIdSuccess","command collaborator",
-"Parse_detach_Tests","commander boundary","BusIdFailure","command collaborator",
-"Parse_detach_Tests","commander boundary","BusIdCanceled","command collaborator",
-"Parse_detach_Tests","commander boundary","HardwareIdSuccess","command collaborator",
-"Parse_detach_Tests","commander boundary","HardwareIdFailure","command collaborator",
-"Parse_detach_Tests","commander boundary","HardwareIdCanceled","command collaborator",
-"Parse_detach_Tests","commander boundary","Help","wrapper stateless",
-"Parse_detach_Tests","commander boundary","OptionMissing","wrapper stateless",
-"Parse_detach_Tests","commander boundary","AllAndBusId","command",
-"Parse_detach_Tests","commander boundary","AllAndHardwareId","command",
-"Parse_detach_Tests","commander boundary","BusIdAndHardwareId","command",
-"Parse_detach_Tests","commander boundary","AllWithArgument","wrapper stateless",
-"Parse_detach_Tests","commander boundary","BusIdArgumentMissing","wrapper stateless",
-"Parse_detach_Tests","commander boundary","HardwareIdArgumentMissing","wrapper stateless",
-"Parse_detach_Tests","commander boundary","BusIdArgumentInvalid","wrapper stateless",
-"Parse_detach_Tests","commander boundary","HardwareIdArgumentInvalid","wrapper stateless",
-"Parse_detach_Tests","commander boundary","StrayArgument","command",
-"TempRegistry","commander small-class","TempRegistry","constructor",
-"TempRegistry","commander small-class","Dispose","command",
-"Tools_Tests","degenerate","ReadMessageAsync_Success","controller",
-"Tools_Tests","degenerate","ReadMessageAsync_Nothing","wrapper",
-"Tools_Tests","degenerate","ReadMessageAsync_EndOfStream","wrapper",
-"Tools_Tests","degenerate","ReadMessageAsync_ProtocolViolation","wrapper",
-"Tools_Tests","degenerate","ReadMessageAsync_Parts","command collaborator",
-"Tools_Tests","degenerate","StructToBytes_Span_Success","controller",
-"Tools_Tests","degenerate","StructToBytes_Span_Short","wrapper",
-"Tools_Tests","degenerate","StructToBytes_Success","controller",
-"Tools_Tests","degenerate","BytesToStruct_out_Success","wrapper",
-"Tools_Tests","degenerate","BytesToStruct_out_Short","wrapper stateless",
-"Tools_Tests","degenerate","BytesToStruct_Success","wrapper",
-"Tools_Tests","degenerate","BytesToStruct_Short","command",
-"Tools_Tests","degenerate","MapWindowsSpeedToLinuxSpeed_Test","wrapper stateless",
-"Tools_Tests","degenerate","ConvertError_Test","wrapper stateless",
-"Tools_Tests","degenerate","ThrowOnError_Success","controller stateless",
-"Tools_Tests","degenerate","ThrowOnError_Error","controller stateless",
-"Tools_Tests","degenerate","RawEndpoint_Input","controller stateless",
-"Tools_Tests","degenerate","RawEndpoint_Output","controller stateless",
-"Tools_Tests","degenerate","EndpointType_MSG","controller stateless",
-"Tools_Tests","degenerate","EndpointType_ISOC","controller stateless",
-"Tools_Tests","degenerate","EndpointType_INTR","controller stateless",
-"Tools_Tests","degenerate","EndpointType_BULK","controller stateless",
-"Tools_Tests","degenerate","UsbIpVersionToVersion","controller stateless",
-"Program_Tests","degenerate","MainSuccess","wrapper stateless",
-"Program_Tests","degenerate","MainParseError","wrapper stateless",
-"Program_Tests","degenerate","RunInvalidExitCode","controller stateless",
-"Program_Tests","degenerate","RunException","controller stateless",
-"Program_Tests","degenerate","CompletionGuard_DoesNotThrow","controller stateless",
-"Parse_policy_Tests","commander boundary degenerate","Help","wrapper stateless",
-"Parse_policy_Tests","commander boundary degenerate","CommandMissing","wrapper stateless",
-"Parse_policy_Tests","commander boundary degenerate","CommandInvalid","wrapper stateless",
-"Parse_policy_Tests","commander boundary degenerate","OptionInvalid","wrapper stateless",
-"Parse_policy_Tests","commander boundary degenerate","list_Success","controller stateless",
-"Parse_policy_Tests","commander boundary degenerate","list_Help","wrapper stateless",
-"Parse_policy_Tests","commander boundary degenerate","list_OptionInvalid","wrapper stateless",
-"Parse_policy_Tests","commander boundary degenerate","list_StrayArgument","wrapper stateless",
-"Parse_policy_Tests","commander boundary degenerate","add_BusIdSuccess","command collaborator",
-"Parse_policy_Tests","commander boundary degenerate","add_HardwareIdSuccess","command collaborator",
-"Parse_policy_Tests","commander boundary degenerate","add_BothSuccess","command collaborator",
-"Parse_policy_Tests","commander boundary degenerate","add_MissingCondition","command",
-"Parse_policy_Tests","commander boundary degenerate","remove_GuidSuccess","command collaborator",
-"Parse_policy_Tests","commander boundary degenerate","remove_AllSuccess","controller stateless",
-"Parse_policy_Tests","commander boundary degenerate","remove_MissingOption","wrapper stateless",
-"Parse_policy_Tests","commander boundary degenerate","remove_TooManyOptions","command",
-"Parse_list_Tests","degenerate","Success","controller stateless",
-"Parse_list_Tests","degenerate","SuccessWithUsbids","controller stateless",
-"Parse_list_Tests","degenerate","Failure","controller stateless",
-"Parse_list_Tests","degenerate","Canceled","controller stateless",
-"Parse_list_Tests","degenerate","Help","wrapper stateless",
-"Parse_list_Tests","degenerate","StrayArgument","wrapper stateless",
-"ClientContext_Tests","commander boundary degenerate","DefaultConstructor","stateless",
-"ClientContext_Tests","commander boundary degenerate","ClientAddress","wrapper stateless",
-"ClientContext_Tests","commander boundary degenerate","AttachedBusId","wrapper stateless",
-"ClientContext_Tests","commander boundary degenerate","Dispose","command collaborator",
-"ClientContext_Tests","commander boundary degenerate","DisposeTwice","command collaborator",
-"Interop_UsbIp_Tests","boundary","ReadUsbIpHeaderAsync_Success","wrapper",
-"Interop_UsbIp_Tests","boundary","ReadUsbIpHeaderAsync_Empty","wrapper stateless",
-"Interop_UsbIp_Tests","boundary","ReadUsbIpHeaderAsync_Short","wrapper",
-"Interop_UsbIp_Tests","boundary","UsbIpHeader_ToBytes_Success","command collaborator",
-"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Success","wrapper",
-"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Empty","wrapper stateless",
-"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Short","wrapper",
-"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Success_Multiple","wrapper",
-"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Short_Multiple","wrapper",
-"Interop_UsbIp_Tests","boundary","UsbIpIsoPacketDescriptors_ToBytes_Success","controller",
-"ConsoleTools_Tests","pure-controller degenerate","ReportError","controller stateless",
-"ConsoleTools_Tests","pure-controller degenerate","ReportWarning","controller stateless",
-"ConsoleTools_Tests","pure-controller degenerate","ReportInfo","controller stateless",
-"ConsoleTools_Tests","pure-controller degenerate","ReportRebootRequired","controller stateless",
-"ConsoleTools_Tests","pure-controller degenerate","CheckNoStub","controller stateless",
-"DeviceFile_Tests","boundary degenerate","Constructor_Success","stateless",
-"DeviceFile_Tests","boundary degenerate","Constructor_FileNotFound","wrapper stateless",
-"DeviceFile_Tests","boundary degenerate","Dispose","controller stateless",
-"DeviceFile_Tests","boundary degenerate","Dispose_Twice","controller stateless",
-"DeviceFile_Tests","boundary degenerate","DangerousGetHandle_Success","wrapper stateless",
-"DeviceFile_Tests","boundary degenerate","IoControlAsync_Success","wrapper stateless",
-"DeviceFile_Tests","boundary degenerate","IoControlAsync_null_Output","wrapper stateless",
-"DeviceFile_Tests","boundary degenerate","IoControlAsync_ShortOutput","wrapper stateless",
-"DeviceFile_Tests","boundary degenerate","IoControlAsync_Win32Exception","wrapper stateless",
-"DeviceFile_Tests","boundary degenerate","IoControlAsync_ProtocolViolation","wrapper stateless",
-"Automation_Tests","boundary degenerate","State_Constructor","stateless",
-"Automation_Tests","boundary degenerate","State_Devices","wrapper",
-"Automation_Tests","boundary degenerate","State_DataContract_Serialize","wrapper",
-"Automation_Tests","boundary degenerate","State_JsonSerializer_Serialize","wrapper",
-"Automation_Tests","boundary degenerate","Device_Constructor","wrapper stateless",
-"Automation_Tests","boundary degenerate","Device_JsonConstructor","wrapper",
-"Automation_Tests","boundary degenerate","Device_InstanceId","wrapper",
-"Automation_Tests","boundary degenerate","Device_HardwareId","wrapper",
-"Automation_Tests","boundary degenerate","Device_Description","wrapper",
-"Automation_Tests","boundary degenerate","Device_IsForced","wrapper stateless",
-"Automation_Tests","boundary degenerate","Device_BusId","wrapper",
-"Automation_Tests","boundary degenerate","Device_BusId_Null","wrapper stateless",
-"Automation_Tests","boundary degenerate","Device_PeristedGuid","wrapper",
-"Automation_Tests","boundary degenerate","Device_StubInstanceId","wrapper",
-"Automation_Tests","boundary degenerate","Device_ClientIPAddress","wrapper",
-"Automation_Tests","boundary degenerate","Device_ClientIPAddress_Null","wrapper stateless",
-"Automation_Tests","boundary degenerate","JsonConverterBusId_Read_Valid","controller stateless",
-"Automation_Tests","boundary degenerate","JsonConverterBusId_Read_Invalid","controller stateless",
-"Automation_Tests","boundary degenerate","JsonConverterBusId_Read_Null","controller stateless",
-"Automation_Tests","boundary degenerate","JsonConverterBusId_Write_Valid","wrapper stateless",
-"Automation_Tests","boundary degenerate","JsonConverterBusId_Write_NullWriter","wrapper stateless",
-"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Read_Valid","controller stateless",
-"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Read_Invalid","controller stateless",
-"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Read_Null","controller stateless",
-"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Write_Valid","wrapper stateless",
-"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Write_NullWriter","wrapper stateless",
-"ExportedDevice_Tests","commander small-class","Serialize_NoInterfaces","command",
-"ExportedDevice_Tests","commander small-class","Serialize_WithInterfaces","command",
-"Parse_usbipd_Tests","boundary degenerate","NoCommand","wrapper stateless",
-"Parse_usbipd_Tests","boundary degenerate","Help","wrapper stateless",
-"Parse_usbipd_Tests","boundary degenerate","Version","wrapper stateless",
-"Parse_usbipd_Tests","boundary degenerate","UnknownCommand","wrapper stateless",
-"BusId_Tests","boundary degenerate","DefaultConstructor","wrapper stateless",
-"BusId_Tests","boundary degenerate","ConstructorWithInvalidBusThrows","wrapper stateless",
-"BusId_Tests","boundary degenerate","ConstructorWithInvalidPortThrows","wrapper stateless",
-"BusId_Tests","boundary degenerate","JsonConstructor","wrapper stateless",
-"BusId_Tests","boundary degenerate","ÍncompatibleHub","wrapper stateless",
-"Interop_VBoxUsb_Tests","boundary degenerate small-class","GUID_CLASS_VBOXUSB_Value","wrapper stateless",
-"Policy_Tests","pure-controller","Constructor_Success","unclassified",
-"Policy_Tests","pure-controller","Persist_AutoBind","controller stateless",
-"Policy_Tests","pure-controller","Valid_AutoBind","controller stateless",
-"Policy_Tests","pure-controller","Invalid_AutoBind","controller stateless",
-"Policy_Tests","pure-controller","Match_Invalid_AutoBind","controller",
-"Policy_Tests","pure-controller","Match_Valid_AutoBind","controller",
-"JsonConverterBusId","pure-controller degenerate small-class","Read","controller stateless",
-"JsonConverterBusId","pure-controller degenerate small-class","Write","controller stateless",
-"VidPid_Tests","boundary degenerate","DefaultConstructor","wrapper stateless",
-"VidPid_Tests","boundary degenerate","JsonConstructor","wrapper stateless",
-"VidPid_Tests","boundary degenerate","TryParseInvalid","wrapper stateless",
-"VidPid_Tests","boundary degenerate","TryParseValid","controller stateless",
-"VidPid_Tests","boundary degenerate","ParseInvalid","wrapper stateless",
-"VidPid_Tests","boundary degenerate","ParseValid","controller stateless",
-"VidPid_Tests","boundary degenerate","Compare","wrapper stateless",
-"VidPid_Tests","boundary degenerate","LessThan","wrapper stateless",
-"VidPid_Tests","boundary degenerate","LessThanOrEqual","wrapper stateless",
-"VidPid_Tests","boundary degenerate","GreaterThan","wrapper stateless",
-"VidPid_Tests","boundary degenerate","GreaterThanOrEqual","wrapper stateless",
-"VidPid_Tests","boundary degenerate","ToStringValid","controller stateless",
-"VidPid_Tests","boundary degenerate","VendorKnown","wrapper stateless",
-"VidPid_Tests","boundary degenerate","VendorUnknown","wrapper stateless",
-"VidPid_Tests","boundary degenerate","ProductKnown","wrapper stateless",
-"VidPid_Tests","boundary degenerate","ProductUnknown","wrapper stateless",
-"VidPid_Tests","boundary degenerate","FromHardwareOrInstanceIdInvalid","wrapper stateless",
-"VidPid_Tests","boundary degenerate","FromHardwareOrInstanceIdValid","controller stateless",
-"Wsl_Tests","boundary degenerate small-class","IsOnSameIPv4Network","wrapper stateless",
-"Interop_VBoxUsbMon_Tests","degenerate small-class","UsbFilter_Create","wrapper stateless",
-"Interop_VBoxUsbMon_Tests","degenerate small-class","UsbFilter_SetMatch","controller stateless",
-"Device","factory controller small-class","Device","constructor",
-"Device","factory controller small-class","get","property factory wrapper",
-"JsonConverterIPAddress","pure-controller degenerate small-class","Read","controller stateless",
-"JsonConverterIPAddress","pure-controller degenerate small-class","Write","controller stateless",
-"State","empty","State","constructor",
-"GetUsbipdDeviceCommand","commander boundary small-class","BeginProcessing","set collaborator",
-"GetUsbipdDeviceCommand","commander boundary small-class","ProcessRecord","wrapper",
-"AttachedClient","entity boundary small-class","AttachedClient","constructor",
-"AttachedClient","entity boundary small-class","GetAttachedEndpoint","property non-void-command collaborator",
-"AttachedClient","entity boundary small-class","RunAsync","non-void-command collaborator",
-"PcapNg","entity commander boundary","PcapNg","copy-constructor",
-"PcapNg","entity commander boundary","DumpPacketNonIsoRequest","command collaborator",
-"PcapNg","entity commander boundary","DumpPacketNonIsoReply","command collaborator",
-"PcapNg","entity commander boundary","DumpPacketIsoRequest","command collaborator",
-"PcapNg","entity commander boundary","DumpPacketIsoReply","command collaborator",
-"PcapNg","entity commander boundary","DumpPacketUnlink","command collaborator",
-"PcapNg","entity commander boundary","PacketWriterAsync","non-void-command collaborator",
-"PcapNg","entity commander boundary","GetTimestamp","property",
-"PcapNg","entity commander boundary","CreateInterfaceDescriptionBlockUsb","wrapper stateless",
-"PcapNg","entity commander boundary","CreateInterfaceDescriptionBlockUnlink","wrapper stateless",
-"PcapNg","entity commander boundary","CreateEnhancedPacketBlock","property non-void-command collaborator",
-"PcapNg","entity commander boundary","CreateEnhancedPacketBlock","property non-void-command collaborator",
-"PcapNg","entity commander boundary","CreateInterfaceStatisticsBlock","property non-void-command collaborator",
-"PcapNg","entity commander boundary","Dispose","command",
-"ClientContext","commander small-class","IDisposable.Dispose","command",
-"UsbIdsSourceGenerator","pure-controller degenerate small-class","Initialize","controller stateless",
-"DeviceFile","entity boundary","DeviceFile","constructor",
-"DeviceFile","entity boundary","DangerousGetHandle","property non-void-command collaborator",
-"DeviceFile","entity boundary","IoControlAsync","non-void-command factory collaborator",
-"DeviceFile","entity boundary","IoControlAsync<T>","property non-void-command collaborator",
-"DeviceFile","entity boundary","Dispose","command",
-"CommandHandlers","degenerate","ICommandHandlers.License","wrapper stateless",
-"CommandHandlers","degenerate","ICommandHandlers.List","controller stateless",
-"CommandHandlers","degenerate","ICommandHandlers.Install","controller stateless",
-"CommandHandlers","degenerate","ICommandHandlers.Uninstall","controller stateless",
-"CommandHandlers","degenerate","ICommandHandlers.Server","controller stateless",
-"Parse_attach_Tests","commander boundary","BusIdSuccess","command collaborator",
-"Parse_attach_Tests","commander boundary","BusIdSuccessWithAutoAttach","command collaborator",
-"Parse_attach_Tests","commander boundary","BusIdSuccessWithDistribution","command collaborator",
-"Parse_attach_Tests","commander boundary","BusIdFailure","command collaborator",
-"Parse_attach_Tests","commander boundary","BusIdCanceled","command collaborator",
-"Parse_attach_Tests","commander boundary","HardwareIdSuccess","command collaborator",
-"Parse_attach_Tests","commander boundary","HardwareIdFailure","command collaborator",
-"Parse_attach_Tests","commander boundary","HardwareIdCanceled","command collaborator",
-"Parse_attach_Tests","commander boundary","Help","wrapper stateless",
-"Parse_attach_Tests","commander boundary","WslMissing","wrapper stateless",
-"Parse_attach_Tests","commander boundary","DeviceMissing","wrapper stateless",
-"Parse_attach_Tests","commander boundary","BusIdAndHardwareId","command",
-"Parse_attach_Tests","commander boundary","BusIdArgumentMissing","wrapper stateless",
-"Parse_attach_Tests","commander boundary","HardwareIdArgumentMissing","wrapper stateless",
-"Parse_attach_Tests","commander boundary","BusIdArgumentInvalid","wrapper stateless",
-"Parse_attach_Tests","commander boundary","HardwareIdArgumentInvalid","wrapper stateless",
-"Parse_attach_Tests","commander boundary","StrayArgument","wrapper stateless",
-"ConfigurationManagerException","empty","ConfigurationManagerException","constructor",
-"ConfigurationManagerException","empty","ConfigurationManagerException","constructor",
-"ConfigurationManagerException","empty","ConfigurationManagerException","constructor",
-"ConfigurationManagerException","empty","ConfigurationManagerException","constructor",
-"Parse_wsl_Tests","boundary degenerate small-class","ParseError","wrapper stateless",
-"Parse_wsl_Tests","boundary degenerate small-class","Help","wrapper stateless",
-"AttachedEndpoint","entity","AttachedEndpoint","constructor",
-"AttachedEndpoint","entity","HandleSubmitIsochronousAsync","property non-void-command factory collaborator",
-"AttachedEndpoint","entity","HandleSubmitAsync","property non-void-command factory collaborator",
-"AttachedEndpoint","entity","HandleUnlinkAsync","set collaborator",
-"VBoxUsbMon","entity boundary","GetVersion","property non-void-command collaborator",
-"VBoxUsbMon","entity boundary","AddFilter","property non-void-command collaborator",
-"VBoxUsbMon","entity boundary","RemoveFilter","non-void-command collaborator",
-"VBoxUsbMon","entity boundary","Dispose","set",
-"Parse_server_Tests","degenerate","Success","controller stateless",
-"Parse_server_Tests","degenerate","SuccessWithArguments","controller stateless",
-"Parse_server_Tests","degenerate","Failure","controller stateless",
-"Parse_server_Tests","degenerate","Canceled","controller stateless",
-"Parse_server_Tests","degenerate","Help","wrapper stateless",
+"VBoxUsbMon","entity boundary","GetVersion","property non-void-command collaborator"
+"VBoxUsbMon","entity boundary","AddFilter","property non-void-command collaborator"
+"VBoxUsbMon","entity boundary","RemoveFilter","non-void-command collaborator"
+"VBoxUsbMon","entity boundary","Dispose","set"
+"UnexpectedResultException","empty","UnexpectedResultException","constructor"
+"UnexpectedResultException","empty","UnexpectedResultException","constructor"
+"UnexpectedResultException","empty","UnexpectedResultException","constructor"
+"ConfigurationManagerException","empty","ConfigurationManagerException","constructor"
+"ConfigurationManagerException","empty","ConfigurationManagerException","constructor"
+"ConfigurationManagerException","empty","ConfigurationManagerException","constructor"
+"ConfigurationManagerException","empty","ConfigurationManagerException","constructor"
+"Server","commander small-class","Server","copy-constructor"
+"Server","commander small-class","Dispose","command"
+"Server","commander small-class","ExecuteAsync","non-void-command collaborator"
+"CommandHandlers","degenerate","ICommandHandlers.License","wrapper stateless"
+"CommandHandlers","degenerate","ICommandHandlers.List","controller stateless"
+"CommandHandlers","degenerate","ICommandHandlers.Install","controller stateless"
+"CommandHandlers","degenerate","ICommandHandlers.Uninstall","controller stateless"
+"CommandHandlers","degenerate","ICommandHandlers.Server","controller stateless"
+"ClientContext","commander small-class","IDisposable.Dispose","command"
+"AttachedClient","entity boundary small-class","AttachedClient","constructor"
+"AttachedClient","entity boundary small-class","GetAttachedEndpoint","property non-void-command collaborator"
+"AttachedClient","entity boundary small-class","RunAsync","non-void-command collaborator"
+"DeviceFile","entity boundary","DeviceFile","constructor"
+"DeviceFile","entity boundary","DangerousGetHandle","property non-void-command collaborator"
+"DeviceFile","entity boundary","IoControlAsync","property non-void-command collaborator"
+"DeviceFile","entity boundary","IoControlAsync<T>","property non-void-command collaborator"
+"DeviceFile","entity boundary","Dispose","command"
+"GetUsbipdDeviceCommand","commander boundary small-class","BeginProcessing","set collaborator"
+"GetUsbipdDeviceCommand","commander boundary small-class","ProcessRecord","wrapper"
+"State","empty","State","constructor"
+"JsonConverterIPAddress","pure-controller degenerate small-class","Read","controller stateless"
+"JsonConverterIPAddress","pure-controller degenerate small-class","Write","controller stateless"
+"Device","factory controller small-class","Device","constructor"
+"Device","factory controller small-class","get","property factory wrapper"
+"AttachedEndpoint","entity","AttachedEndpoint","constructor"
+"AttachedEndpoint","entity","HandleSubmitIsochronousAsync","property non-void-command factory collaborator"
+"AttachedEndpoint","entity","HandleSubmitAsync","property non-void-command factory collaborator"
+"AttachedEndpoint","entity","HandleUnlinkAsync","set collaborator"
+"Wsl_Tests","boundary degenerate small-class","IsOnSameIPv4Network","wrapper stateless"
+"Parse_policy_Tests","commander boundary degenerate","Help","wrapper stateless"
+"Parse_policy_Tests","commander boundary degenerate","CommandMissing","wrapper stateless"
+"Parse_policy_Tests","commander boundary degenerate","CommandInvalid","wrapper stateless"
+"Parse_policy_Tests","commander boundary degenerate","OptionInvalid","wrapper stateless"
+"Parse_policy_Tests","commander boundary degenerate","list_Success","controller stateless"
+"Parse_policy_Tests","commander boundary degenerate","list_Help","wrapper stateless"
+"Parse_policy_Tests","commander boundary degenerate","list_OptionInvalid","wrapper stateless"
+"Parse_policy_Tests","commander boundary degenerate","list_StrayArgument","wrapper stateless"
+"Parse_policy_Tests","commander boundary degenerate","add_BusIdSuccess","command collaborator"
+"Parse_policy_Tests","commander boundary degenerate","add_HardwareIdSuccess","command collaborator"
+"Parse_policy_Tests","commander boundary degenerate","add_BothSuccess","command collaborator"
+"Parse_policy_Tests","commander boundary degenerate","add_MissingCondition","command"
+"Parse_policy_Tests","commander boundary degenerate","remove_GuidSuccess","command collaborator"
+"Parse_policy_Tests","commander boundary degenerate","remove_AllSuccess","controller stateless"
+"Parse_policy_Tests","commander boundary degenerate","remove_MissingOption","wrapper stateless"
+"Parse_policy_Tests","commander boundary degenerate","remove_TooManyOptions","command"
+"Program_Tests","degenerate","MainSuccess","wrapper stateless"
+"Program_Tests","degenerate","MainParseError","wrapper stateless"
+"Program_Tests","degenerate","RunInvalidExitCode","controller stateless"
+"Program_Tests","degenerate","RunException","controller stateless"
+"Program_Tests","degenerate","CompletionGuard_DoesNotThrow","controller stateless"
+"Interop_VBoxUsb_Tests","boundary degenerate small-class","GUID_CLASS_VBOXUSB_Value","wrapper stateless"
+"BusId_Tests","boundary degenerate","DefaultConstructor","wrapper stateless"
+"BusId_Tests","boundary degenerate","ConstructorWithInvalidBusThrows","wrapper stateless"
+"BusId_Tests","boundary degenerate","ConstructorWithInvalidPortThrows","wrapper stateless"
+"BusId_Tests","boundary degenerate","JsonConstructor","wrapper stateless"
+"BusId_Tests","boundary degenerate","ÍncompatibleHub","wrapper stateless"
+"Parse_usbipd_Tests","boundary degenerate","NoCommand","wrapper stateless"
+"Parse_usbipd_Tests","boundary degenerate","Help","wrapper stateless"
+"Parse_usbipd_Tests","boundary degenerate","Version","wrapper stateless"
+"Parse_usbipd_Tests","boundary degenerate","UnknownCommand","wrapper stateless"
+"VidPid_Tests","boundary degenerate","DefaultConstructor","wrapper stateless"
+"VidPid_Tests","boundary degenerate","JsonConstructor","wrapper stateless"
+"VidPid_Tests","boundary degenerate","TryParseInvalid","wrapper stateless"
+"VidPid_Tests","boundary degenerate","TryParseValid","controller stateless"
+"VidPid_Tests","boundary degenerate","ParseInvalid","wrapper stateless"
+"VidPid_Tests","boundary degenerate","ParseValid","controller stateless"
+"VidPid_Tests","boundary degenerate","Compare","wrapper stateless"
+"VidPid_Tests","boundary degenerate","LessThan","wrapper stateless"
+"VidPid_Tests","boundary degenerate","LessThanOrEqual","wrapper stateless"
+"VidPid_Tests","boundary degenerate","GreaterThan","wrapper stateless"
+"VidPid_Tests","boundary degenerate","GreaterThanOrEqual","wrapper stateless"
+"VidPid_Tests","boundary degenerate","ToStringValid","controller stateless"
+"VidPid_Tests","boundary degenerate","VendorKnown","wrapper stateless"
+"VidPid_Tests","boundary degenerate","VendorUnknown","wrapper stateless"
+"VidPid_Tests","boundary degenerate","ProductKnown","wrapper stateless"
+"VidPid_Tests","boundary degenerate","ProductUnknown","wrapper stateless"
+"VidPid_Tests","boundary degenerate","FromHardwareOrInstanceIdInvalid","wrapper stateless"
+"VidPid_Tests","boundary degenerate","FromHardwareOrInstanceIdValid","controller stateless"
+"Policy_Tests","pure-controller","Constructor_Success","unclassified"
+"Policy_Tests","pure-controller","Persist_AutoBind","controller stateless"
+"Policy_Tests","pure-controller","Valid_AutoBind","controller stateless"
+"Policy_Tests","pure-controller","Invalid_AutoBind","controller stateless"
+"Policy_Tests","pure-controller","Match_Invalid_AutoBind","controller"
+"Policy_Tests","pure-controller","Match_Valid_AutoBind","controller"
+"Parse_attach_Tests","commander boundary","BusIdSuccess","command collaborator"
+"Parse_attach_Tests","commander boundary","BusIdSuccessWithAutoAttach","command collaborator"
+"Parse_attach_Tests","commander boundary","BusIdSuccessWithDistribution","command collaborator"
+"Parse_attach_Tests","commander boundary","BusIdFailure","command collaborator"
+"Parse_attach_Tests","commander boundary","BusIdCanceled","command collaborator"
+"Parse_attach_Tests","commander boundary","HardwareIdSuccess","command collaborator"
+"Parse_attach_Tests","commander boundary","HardwareIdFailure","command collaborator"
+"Parse_attach_Tests","commander boundary","HardwareIdCanceled","command collaborator"
+"Parse_attach_Tests","commander boundary","Help","wrapper stateless"
+"Parse_attach_Tests","commander boundary","WslMissing","wrapper stateless"
+"Parse_attach_Tests","commander boundary","DeviceMissing","wrapper stateless"
+"Parse_attach_Tests","commander boundary","BusIdAndHardwareId","command"
+"Parse_attach_Tests","commander boundary","BusIdArgumentMissing","wrapper stateless"
+"Parse_attach_Tests","commander boundary","HardwareIdArgumentMissing","wrapper stateless"
+"Parse_attach_Tests","commander boundary","BusIdArgumentInvalid","wrapper stateless"
+"Parse_attach_Tests","commander boundary","HardwareIdArgumentInvalid","wrapper stateless"
+"Parse_attach_Tests","commander boundary","StrayArgument","wrapper stateless"
+"Interop_VBoxUsbMon_Tests","degenerate small-class","UsbFilter_Create","wrapper stateless"
+"Interop_VBoxUsbMon_Tests","degenerate small-class","UsbFilter_SetMatch","controller stateless"
+"ExportedDevice_Tests","commander small-class","Serialize_NoInterfaces","command"
+"ExportedDevice_Tests","commander small-class","Serialize_WithInterfaces","command"
+"Automation_Tests","boundary degenerate","State_Constructor","stateless"
+"Automation_Tests","boundary degenerate","State_Devices","wrapper"
+"Automation_Tests","boundary degenerate","State_DataContract_Serialize","wrapper"
+"Automation_Tests","boundary degenerate","State_JsonSerializer_Serialize","wrapper"
+"Automation_Tests","boundary degenerate","Device_Constructor","wrapper stateless"
+"Automation_Tests","boundary degenerate","Device_JsonConstructor","wrapper"
+"Automation_Tests","boundary degenerate","Device_InstanceId","wrapper"
+"Automation_Tests","boundary degenerate","Device_HardwareId","wrapper"
+"Automation_Tests","boundary degenerate","Device_Description","wrapper"
+"Automation_Tests","boundary degenerate","Device_IsForced","wrapper stateless"
+"Automation_Tests","boundary degenerate","Device_BusId","wrapper"
+"Automation_Tests","boundary degenerate","Device_BusId_Null","wrapper stateless"
+"Automation_Tests","boundary degenerate","Device_PeristedGuid","wrapper"
+"Automation_Tests","boundary degenerate","Device_StubInstanceId","wrapper"
+"Automation_Tests","boundary degenerate","Device_ClientIPAddress","wrapper"
+"Automation_Tests","boundary degenerate","Device_ClientIPAddress_Null","wrapper stateless"
+"Automation_Tests","boundary degenerate","JsonConverterBusId_Read_Valid","controller stateless"
+"Automation_Tests","boundary degenerate","JsonConverterBusId_Read_Invalid","controller stateless"
+"Automation_Tests","boundary degenerate","JsonConverterBusId_Read_Null","controller stateless"
+"Automation_Tests","boundary degenerate","JsonConverterBusId_Write_Valid","wrapper stateless"
+"Automation_Tests","boundary degenerate","JsonConverterBusId_Write_NullWriter","wrapper stateless"
+"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Read_Valid","controller stateless"
+"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Read_Invalid","controller stateless"
+"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Read_Null","controller stateless"
+"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Write_Valid","wrapper stateless"
+"Automation_Tests","boundary degenerate","JsonConverterIPAddress_Write_NullWriter","wrapper stateless"
+"DeviceFile_Tests","boundary degenerate","Constructor_Success","stateless"
+"DeviceFile_Tests","boundary degenerate","Constructor_FileNotFound","wrapper stateless"
+"DeviceFile_Tests","boundary degenerate","Dispose","controller stateless"
+"DeviceFile_Tests","boundary degenerate","Dispose_Twice","controller stateless"
+"DeviceFile_Tests","boundary degenerate","DangerousGetHandle_Success","wrapper stateless"
+"DeviceFile_Tests","boundary degenerate","IoControlAsync_Success","wrapper stateless"
+"DeviceFile_Tests","boundary degenerate","IoControlAsync_null_Output","wrapper stateless"
+"DeviceFile_Tests","boundary degenerate","IoControlAsync_ShortOutput","wrapper stateless"
+"DeviceFile_Tests","boundary degenerate","IoControlAsync_Win32Exception","wrapper stateless"
+"DeviceFile_Tests","boundary degenerate","IoControlAsync_ProtocolViolation","wrapper stateless"
+"ConsoleTools_Tests","pure-controller degenerate","ReportError","controller stateless"
+"ConsoleTools_Tests","pure-controller degenerate","ReportWarning","controller stateless"
+"ConsoleTools_Tests","pure-controller degenerate","ReportInfo","controller stateless"
+"ConsoleTools_Tests","pure-controller degenerate","ReportRebootRequired","controller stateless"
+"ConsoleTools_Tests","pure-controller degenerate","CheckNoStub","controller stateless"
+"Interop_UsbIp_Tests","boundary","ReadUsbIpHeaderAsync_Success","wrapper"
+"Interop_UsbIp_Tests","boundary","ReadUsbIpHeaderAsync_Empty","wrapper stateless"
+"Interop_UsbIp_Tests","boundary","ReadUsbIpHeaderAsync_Short","wrapper"
+"Interop_UsbIp_Tests","boundary","UsbIpHeader_ToBytes_Success","command collaborator"
+"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Success","wrapper"
+"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Empty","wrapper stateless"
+"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Short","wrapper"
+"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Success_Multiple","wrapper"
+"Interop_UsbIp_Tests","boundary","ReadUsbIpIsoPacketDescriptorsAsync_Short_Multiple","wrapper"
+"Interop_UsbIp_Tests","boundary","UsbIpIsoPacketDescriptors_ToBytes_Success","controller"
+"ClientContext_Tests","commander boundary degenerate","DefaultConstructor","stateless"
+"ClientContext_Tests","commander boundary degenerate","ClientAddress","wrapper stateless"
+"ClientContext_Tests","commander boundary degenerate","AttachedBusId","wrapper stateless"
+"ClientContext_Tests","commander boundary degenerate","Dispose","command collaborator"
+"ClientContext_Tests","commander boundary degenerate","DisposeTwice","command collaborator"
+"Parse_list_Tests","degenerate","Success","controller stateless"
+"Parse_list_Tests","degenerate","SuccessWithUsbids","controller stateless"
+"Parse_list_Tests","degenerate","Failure","controller stateless"
+"Parse_list_Tests","degenerate","Canceled","controller stateless"
+"Parse_list_Tests","degenerate","Help","wrapper stateless"
+"Parse_list_Tests","degenerate","StrayArgument","wrapper stateless"
+"UsbDevice_Tests","boundary small-class","Constructor","wrapper"
+"UnexpectedResultException_Tests","unclassified","DefaultConstructor","wrapper stateless"
+"UnexpectedResultException_Tests","unclassified","MessageConstructor","controller"
+"UnexpectedResultException_Tests","unclassified","MessageAndInnerConstructor","controller"
+"Parse_bind_Tests","commander boundary","BusIdSuccess","command collaborator"
+"Parse_bind_Tests","commander boundary","BusIdForceSuccess","command collaborator"
+"Parse_bind_Tests","commander boundary","BusIdFailure","command collaborator"
+"Parse_bind_Tests","commander boundary","BusIdCanceled","command collaborator"
+"Parse_bind_Tests","commander boundary","HardwareIdSuccess","command collaborator"
+"Parse_bind_Tests","commander boundary","HardwareIdForceSuccess","command collaborator"
+"Parse_bind_Tests","commander boundary","HardwareIdFailure","command collaborator"
+"Parse_bind_Tests","commander boundary","HardwareIdCanceled","command collaborator"
+"Parse_bind_Tests","commander boundary","Help","wrapper stateless"
+"Parse_bind_Tests","commander boundary","OptionMissing","wrapper stateless"
+"Parse_bind_Tests","commander boundary","BusIdAndHardwareId","command"
+"Parse_bind_Tests","commander boundary","BusIdArgumentMissing","wrapper stateless"
+"Parse_bind_Tests","commander boundary","HardwareIdArgumentMissing","wrapper stateless"
+"Parse_bind_Tests","commander boundary","BusIdArgumentInvalid","wrapper stateless"
+"Parse_bind_Tests","commander boundary","HardwareIdArgumentInvalid","wrapper stateless"
+"Parse_bind_Tests","commander boundary","StrayArgument","command"
+"UsbIdsSourceGenerator","pure-controller degenerate small-class","Initialize","controller stateless"
+"Parse_detach_Tests","commander boundary","AllSuccess","controller stateless"
+"Parse_detach_Tests","commander boundary","AllFailure","controller stateless"
+"Parse_detach_Tests","commander boundary","AllCanceled","controller stateless"
+"Parse_detach_Tests","commander boundary","BusIdSuccess","command collaborator"
+"Parse_detach_Tests","commander boundary","BusIdFailure","command collaborator"
+"Parse_detach_Tests","commander boundary","BusIdCanceled","command collaborator"
+"Parse_detach_Tests","commander boundary","HardwareIdSuccess","command collaborator"
+"Parse_detach_Tests","commander boundary","HardwareIdFailure","command collaborator"
+"Parse_detach_Tests","commander boundary","HardwareIdCanceled","command collaborator"
+"Parse_detach_Tests","commander boundary","Help","wrapper stateless"
+"Parse_detach_Tests","commander boundary","OptionMissing","wrapper stateless"
+"Parse_detach_Tests","commander boundary","AllAndBusId","command"
+"Parse_detach_Tests","commander boundary","AllAndHardwareId","command"
+"Parse_detach_Tests","commander boundary","BusIdAndHardwareId","command"
+"Parse_detach_Tests","commander boundary","AllWithArgument","wrapper stateless"
+"Parse_detach_Tests","commander boundary","BusIdArgumentMissing","wrapper stateless"
+"Parse_detach_Tests","commander boundary","HardwareIdArgumentMissing","wrapper stateless"
+"Parse_detach_Tests","commander boundary","BusIdArgumentInvalid","wrapper stateless"
+"Parse_detach_Tests","commander boundary","HardwareIdArgumentInvalid","wrapper stateless"
+"Parse_detach_Tests","commander boundary","StrayArgument","command"
+"TemporaryFile","boundary small-class","TemporaryFile","constructor"
+"TemporaryFile","boundary small-class","Dispose","wrapper"
+"Parse_license_Tests","degenerate","Success","controller stateless"
+"Parse_license_Tests","degenerate","Failure","controller stateless"
+"Parse_license_Tests","degenerate","Canceled","controller stateless"
+"Parse_license_Tests","degenerate","Help","wrapper stateless"
+"Parse_license_Tests","degenerate","StrayArgument","wrapper stateless"
+"JsonConverterBusId","pure-controller degenerate small-class","Read","controller stateless"
+"JsonConverterBusId","pure-controller degenerate small-class","Write","controller stateless"
+"ConfigurationManagerException_Tests","boundary","DefaultConstructor","wrapper stateless"
+"ConfigurationManagerException_Tests","boundary","MessageConstructor","wrapper"
+"ConfigurationManagerException_Tests","boundary","MessageAndInnerConstructor","wrapper"
+"ConfigurationManagerException_Tests","boundary","CodeAndMessageConstructor","wrapper"
+"Parse_server_Tests","degenerate","Success","controller stateless"
+"Parse_server_Tests","degenerate","SuccessWithArguments","controller stateless"
+"Parse_server_Tests","degenerate","Failure","controller stateless"
+"Parse_server_Tests","degenerate","Canceled","controller stateless"
+"Parse_server_Tests","degenerate","Help","wrapper stateless"
+"TempRegistry","commander small-class","TempRegistry","constructor"
+"TempRegistry","commander small-class","Dispose","command"
+"Tools_Tests","degenerate","ReadMessageAsync_Success","controller"
+"Tools_Tests","degenerate","ReadMessageAsync_Nothing","wrapper"
+"Tools_Tests","degenerate","ReadMessageAsync_EndOfStream","wrapper"
+"Tools_Tests","degenerate","ReadMessageAsync_ProtocolViolation","wrapper"
+"Tools_Tests","degenerate","ReadMessageAsync_Parts","command collaborator"
+"Tools_Tests","degenerate","StructToBytes_Span_Success","controller"
+"Tools_Tests","degenerate","StructToBytes_Span_Short","wrapper"
+"Tools_Tests","degenerate","StructToBytes_Success","controller"
+"Tools_Tests","degenerate","BytesToStruct_out_Success","wrapper"
+"Tools_Tests","degenerate","BytesToStruct_out_Short","wrapper stateless"
+"Tools_Tests","degenerate","BytesToStruct_Success","wrapper"
+"Tools_Tests","degenerate","BytesToStruct_Short","command"
+"Tools_Tests","degenerate","MapWindowsSpeedToLinuxSpeed_Test","wrapper stateless"
+"Tools_Tests","degenerate","ConvertError_Test","wrapper stateless"
+"Tools_Tests","degenerate","ThrowOnError_Success","controller stateless"
+"Tools_Tests","degenerate","ThrowOnError_Error","controller stateless"
+"Tools_Tests","degenerate","RawEndpoint_Input","controller stateless"
+"Tools_Tests","degenerate","RawEndpoint_Output","controller stateless"
+"Tools_Tests","degenerate","EndpointType_MSG","controller stateless"
+"Tools_Tests","degenerate","EndpointType_ISOC","controller stateless"
+"Tools_Tests","degenerate","EndpointType_INTR","controller stateless"
+"Tools_Tests","degenerate","EndpointType_BULK","controller stateless"
+"Tools_Tests","degenerate","UsbIpVersionToVersion","controller stateless"
+"Parse_state_Tests","degenerate","Success","controller stateless"
+"Parse_state_Tests","degenerate","Failure","controller stateless"
+"Parse_state_Tests","degenerate","Canceled","controller stateless"
+"Parse_state_Tests","degenerate","Help","wrapper stateless"
+"Parse_state_Tests","degenerate","StrayArgument","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","AllSuccess","controller stateless"
+"Parse_unbind_Tests","commander boundary","AllFailure","controller stateless"
+"Parse_unbind_Tests","commander boundary","AllCanceled","controller stateless"
+"Parse_unbind_Tests","commander boundary","BusIdSuccess","command collaborator"
+"Parse_unbind_Tests","commander boundary","BusIdFailure","command collaborator"
+"Parse_unbind_Tests","commander boundary","BusIdCanceled","command collaborator"
+"Parse_unbind_Tests","commander boundary","GuidSuccess","controller stateless"
+"Parse_unbind_Tests","commander boundary","GuidFailure","controller stateless"
+"Parse_unbind_Tests","commander boundary","GuidCanceled","command collaborator"
+"Parse_unbind_Tests","commander boundary","HardwareIdSuccess","command collaborator"
+"Parse_unbind_Tests","commander boundary","HardwareIdFailure","command collaborator"
+"Parse_unbind_Tests","commander boundary","HardwareIdCanceled","command collaborator"
+"Parse_unbind_Tests","commander boundary","Help","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","OptionMissing","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","AllAndBusId","command"
+"Parse_unbind_Tests","commander boundary","AllAndGuid","command"
+"Parse_unbind_Tests","commander boundary","AllAndHardwareId","command"
+"Parse_unbind_Tests","commander boundary","BusIdAndGuid","command"
+"Parse_unbind_Tests","commander boundary","BusIdAndHardwareId","command"
+"Parse_unbind_Tests","commander boundary","GuidAndHardwareId","command"
+"Parse_unbind_Tests","commander boundary","AllWithArgument","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","BusIdArgumentMissing","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","GuidArgumentMissing","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","HardwareIdArgumentMissing","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","BusIdArgumentInvalid","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","GuidArgumentInvalid","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","HardwareIdArgumentInvalid","wrapper stateless"
+"Parse_unbind_Tests","commander boundary","StrayArgument","command"
+"Parse_wsl_Tests","boundary degenerate small-class","ParseError","wrapper stateless"
+"Parse_wsl_Tests","boundary degenerate small-class","Help","wrapper stateless"
+"PcapNg","entity boundary","PcapNg","copy-constructor"
+"PcapNg","entity boundary","DumpPacketNonIsoRequest","command collaborator"
+"PcapNg","entity boundary","DumpPacketNonIsoReply","command collaborator"
+"PcapNg","entity boundary","DumpPacketIsoRequest","command collaborator"
+"PcapNg","entity boundary","DumpPacketIsoReply","command collaborator"
+"PcapNg","entity boundary","DumpPacketUnlink","command collaborator"
+"PcapNg","entity boundary","PacketWriterAsync","non-void-command collaborator"
+"PcapNg","entity boundary","GetTimestamp","property"
+"PcapNg","entity boundary","CreateInterfaceDescriptionBlockUsb","property wrapper"
+"PcapNg","entity boundary","CreateInterfaceDescriptionBlockUnlink","property wrapper"
+"PcapNg","entity boundary","CreateEnhancedPacketBlock","property non-void-command collaborator"
+"PcapNg","entity boundary","CreateEnhancedPacketBlock","property non-void-command collaborator"
+"PcapNg","entity boundary","CreateInterfaceStatisticsBlock","property non-void-command collaborator"
+"PcapNg","entity boundary","Dispose","command"
+"PcapNg_Tests","boundary","Constructor_Disabled","unclassified"
+"PcapNg_Tests","boundary","Constructor_InvalidPath","unclassified"
+"PcapNg_Tests","boundary","Constructor_Create","wrapper"
+"PcapNg_Tests","boundary","Constructor_Overwrite","wrapper"
+"PcapNg_Tests","boundary","Dispose","controller"
+"PcapNg_Tests","boundary","Dispose_Twice","controller"
+"PcapNg_Tests","boundary","ConvertType_Success","wrapper stateless"
+"PcapNg_Tests","boundary","ConvertType_Invalid","wrapper stateless"
+"PcapNg_Tests","boundary","DumpPacketNonIsoRequest_Disabled","wrapper"
+"PcapNg_Tests","boundary","DumpPacketNonIsoRequest_WithData","wrapper"
+"PcapNg_Tests","boundary","DumpPacketNonIsoRequest_NoData","wrapper"
+"PcapNg_Tests","boundary","DumpPacketNonIsoRequest_NoSetup","unclassified"
+"PcapNg_Tests","boundary","DumpPacketNonIsoReply_Disabled","wrapper"
+"PcapNg_Tests","boundary","DumpPacketNonIsoReply_WithData","wrapper"
+"PcapNg_Tests","boundary","DumpPacketNonIsoReply_NoData","wrapper"
+"PcapNg_Tests","boundary","DumpPacketIsoRequest_Disabled","wrapper"
+"PcapNg_Tests","boundary","DumpPacketIsoRequest_WithData","wrapper"
+"PcapNg_Tests","boundary","DumpPacketIsoRequest_NoData","wrapper"
+"PcapNg_Tests","boundary","DumpPacketIsoReply_Disabled","wrapper"
+"PcapNg_Tests","boundary","DumpPacketIsoReply_WithData","wrapper"
+"PcapNg_Tests","boundary","DumpPacketIsoReply_NoData","wrapper"
+"PcapNg_Tests","boundary","DumpPacketUnlink_Disabled","wrapper"
+"PcapNg_Tests","boundary","DumpPacketUnlink_Reply_Disabled","wrapper"
+"PcapNg_Tests","boundary","DumpPacketUnlink","wrapper"
+"PcapNg_Tests","boundary","DumpPacketUnlink_Reply","wrapper"
+"PcapNg_Tests","boundary","SnapLength_Normal","unclassified"
+"PcapNg_Tests","boundary","SnapLength_ClipMinimum","unclassified"
+"PcapNg_Tests","boundary","SnapLength_ClipMaximum","unclassified"
+"PcapNg_Tests","boundary","PacketWriterAsync_Flush","wrapper"

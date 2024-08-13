@@ -1,107 +1,107 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"Task","data-provider boundary small-class","Task","constructor",
-"Task","data-provider boundary small-class","~Task","destructor",
-"Task","data-provider boundary small-class","getHandle","get collaborator",
-"Task","data-provider boundary small-class","begin","wrapper",
-"SerialProtocol","commander boundary data-class small-class","SerialProtocol","constructor",
-"SerialProtocol","commander boundary data-class small-class","~SerialProtocol","destructor",
-"SerialProtocol","commander boundary data-class small-class","setProtocolChangeCallback","set collaborator",
-"SemaphoreGuard","empty","SemaphoreGuard","constructor",
-"SemaphoreGuard","empty","~SemaphoreGuard","destructor",
-"Tlv493d","unclassified","Tlv493d::Tlv493d","constructor",
-"Tlv493d","unclassified","Tlv493d::~Tlv493d","destructor",
-"Tlv493d","unclassified","Tlv493d::begin","command",
-"Tlv493d","unclassified","Tlv493d::begin","void-accessor command collaborator",
-"Tlv493d","unclassified","Tlv493d::begin","void-accessor command",
-"Tlv493d","unclassified","Tlv493d::end","command",
-"Tlv493d","unclassified","Tlv493d::setAccessMode","predicate non-void-command collaborator",
-"Tlv493d","unclassified","Tlv493d::enableInterrupt","command",
-"Tlv493d","unclassified","Tlv493d::disableInterrupt","command",
-"Tlv493d","unclassified","Tlv493d::enableTemp","command",
-"Tlv493d","unclassified","Tlv493d::disableTemp","command",
-"Tlv493d","unclassified","Tlv493d::getMeasurementDelay","property",
-"Tlv493d","unclassified","Tlv493d::updateData","property non-void-command collaborator",
-"Tlv493d","unclassified","Tlv493d::getExpectedFrameCount","get",
-"Tlv493d","unclassified","Tlv493d::getX","property",
-"Tlv493d","unclassified","Tlv493d::getY","property",
-"Tlv493d","unclassified","Tlv493d::getZ","property",
-"Tlv493d","unclassified","Tlv493d::getTemp","property",
-"Tlv493d","unclassified","Tlv493d::getAmount","property wrapper",
-"Tlv493d","unclassified","Tlv493d::getAzimuth","property wrapper",
-"Tlv493d","unclassified","Tlv493d::getPolar","property wrapper",
-"Tlv493d","unclassified","Tlv493d::resetSensor","command",
-"Tlv493d","unclassified","Tlv493d::setRegBits","wrapper",
-"Tlv493d","unclassified","Tlv493d::getRegBits","property wrapper",
-"Tlv493d","unclassified","Tlv493d::calcParity","command",
-"Tlv493d","unclassified","Tlv493d::concatResults","incidental",
-"FatGuard","empty","FatGuard","constructor",
-"FatGuard","empty","~FatGuard","destructor",
-"Configuration","boundary","Configuration::Configuration","constructor",
-"Configuration","boundary","Configuration::~Configuration","destructor",
-"Configuration","boundary","Configuration::loadFromDisk","predicate non-void-command",
-"Configuration","boundary","Configuration::saveToDisk","predicate non-void-command",
-"Configuration","boundary","Configuration::get","get property wrapper",
-"Configuration","boundary","Configuration::setMotorCalibrationAndSave","predicate non-void-command collaborator",
-"Configuration","boundary","Configuration::setStrainCalibrationAndSave","predicate non-void-command collaborator",
-"Configuration","boundary","Configuration::setLogger","set collaborator",
-"Configuration","boundary","Configuration::log","void-accessor command",
-"SerialProtocolPlaintext","unclassified","SerialProtocolPlaintext","constructor",
-"SerialProtocolPlaintext","unclassified","~SerialProtocolPlaintext","destructor",
-"SerialProtocolPlaintext","unclassified","SerialProtocolPlaintext::handleState","void-accessor set collaborator",
-"SerialProtocolPlaintext","unclassified","SerialProtocolPlaintext::log","void-accessor command",
-"SerialProtocolPlaintext","unclassified","SerialProtocolPlaintext::loop","command",
-"SerialProtocolPlaintext","unclassified","SerialProtocolPlaintext::init","command collaborator",
-"DisplayTask","entity minimal-entity boundary","DisplayTask::DisplayTask","constructor",
-"DisplayTask","entity minimal-entity boundary","DisplayTask::~DisplayTask","destructor",
-"DisplayTask","entity minimal-entity boundary","DisplayTask::run","command collaborator",
-"DisplayTask","entity minimal-entity boundary","DisplayTask::getKnobStateQueue","get collaborator",
-"DisplayTask","entity minimal-entity boundary","DisplayTask::setBrightness","set collaborator",
-"DisplayTask","entity minimal-entity boundary","DisplayTask::setLogger","set collaborator",
-"DisplayTask","entity minimal-entity boundary","DisplayTask::log","void-accessor command",
-"MT6701Sensor","entity boundary","MT6701Sensor::MT6701Sensor","constructor",
-"MT6701Sensor","entity boundary","MT6701Sensor::init","command collaborator",
-"MT6701Sensor","entity boundary","MT6701Sensor::getSensorAngle","property non-void-command",
-"MT6701Sensor","entity boundary","MT6701Sensor::getAndClearError","property set collaborator",
-"TlvSensor","unclassified","TlvSensor::TlvSensor","constructor",
-"TlvSensor","unclassified","TlvSensor::init","void-accessor command",
-"TlvSensor","unclassified","TlvSensor::getSensorAngle","property non-void-command",
-"TlvSensor","unclassified","TlvSensor::getAndClearError","predicate set",
-"InterfaceTask","commander","InterfaceTask::InterfaceTask","constructor",
-"InterfaceTask","commander","InterfaceTask::~InterfaceTask","destructor",
-"InterfaceTask","commander","InterfaceTask::run","command collaborator",
-"InterfaceTask","commander","InterfaceTask::log","void-accessor wrapper",
-"InterfaceTask","commander","InterfaceTask::changeConfig","command",
-"InterfaceTask","commander","InterfaceTask::updateHardware","command",
-"InterfaceTask","commander","InterfaceTask::setConfiguration","set collaborator",
-"InterfaceTask","commander","InterfaceTask::publishState","set",
-"InterfaceTask","commander","InterfaceTask::applyConfig","void-accessor command",
-"Logger","empty","Logger","constructor",
-"Logger","empty","~Logger","destructor",
-"UartStream","data-provider boundary","UartStream::UartStream","constructor",
-"UartStream","data-provider boundary","UartStream::begin","wrapper",
-"UartStream","data-provider boundary","UartStream::peek","incidental",
-"UartStream","data-provider boundary","UartStream::available","property wrapper",
-"UartStream","data-provider boundary","UartStream::read","property wrapper",
-"UartStream","data-provider boundary","UartStream::flush","empty",
-"UartStream","data-provider boundary","UartStream::write","property wrapper",
-"UartStream","data-provider boundary","UartStream::write","property wrapper",
-"MotorTask","entity boundary","MotorTask::MotorTask","constructor",
-"MotorTask","entity boundary","MotorTask::~MotorTask","destructor",
-"MotorTask","entity boundary","MotorTask::run","command",
-"MotorTask","entity boundary","MotorTask::setConfig","void-accessor wrapper",
-"MotorTask","entity boundary","MotorTask::playHaptic","wrapper",
-"MotorTask","entity boundary","MotorTask::runCalibration","wrapper",
-"MotorTask","entity boundary","MotorTask::addListener","command collaborator",
-"MotorTask","entity boundary","MotorTask::publish","void-accessor wrapper",
-"MotorTask","entity boundary","MotorTask::calibrate","command collaborator",
-"MotorTask","entity boundary","MotorTask::checkSensorError","command collaborator",
-"MotorTask","entity boundary","MotorTask::setLogger","set collaborator",
-"MotorTask","entity boundary","MotorTask::log","void-accessor command",
-"SerialProtocolProtobuf","commander","~SerialProtocolProtobuf","destructor",
-"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::SerialProtocolProtobuf","constructor",
-"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::handleState","set collaborator",
-"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::ack","command",
-"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::log","void-accessor command",
-"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::loop","command",
-"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::handlePacket","void-accessor command",
-"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::sendPbTxBuffer","command",
+"Task","data-provider boundary small-class","Task","constructor"
+"Task","data-provider boundary small-class","~Task","destructor"
+"Task","data-provider boundary small-class","getHandle","get collaborator"
+"Task","data-provider boundary small-class","begin","wrapper"
+"SerialProtocol","commander boundary data-class small-class","SerialProtocol","constructor"
+"SerialProtocol","commander boundary data-class small-class","~SerialProtocol","destructor"
+"SerialProtocol","commander boundary data-class small-class","setProtocolChangeCallback","set collaborator"
+"SemaphoreGuard","empty","SemaphoreGuard","constructor"
+"SemaphoreGuard","empty","~SemaphoreGuard","destructor"
+"Tlv493d","unclassified","Tlv493d::Tlv493d","constructor"
+"Tlv493d","unclassified","Tlv493d::~Tlv493d","destructor"
+"Tlv493d","unclassified","Tlv493d::begin","command"
+"Tlv493d","unclassified","Tlv493d::begin","command collaborator"
+"Tlv493d","unclassified","Tlv493d::begin","command"
+"Tlv493d","unclassified","Tlv493d::end","command"
+"Tlv493d","unclassified","Tlv493d::setAccessMode","predicate non-void-command collaborator"
+"Tlv493d","unclassified","Tlv493d::enableInterrupt","command"
+"Tlv493d","unclassified","Tlv493d::disableInterrupt","command"
+"Tlv493d","unclassified","Tlv493d::enableTemp","command"
+"Tlv493d","unclassified","Tlv493d::disableTemp","command"
+"Tlv493d","unclassified","Tlv493d::getMeasurementDelay","property"
+"Tlv493d","unclassified","Tlv493d::updateData","property non-void-command collaborator"
+"Tlv493d","unclassified","Tlv493d::getExpectedFrameCount","get"
+"Tlv493d","unclassified","Tlv493d::getX","property"
+"Tlv493d","unclassified","Tlv493d::getY","property"
+"Tlv493d","unclassified","Tlv493d::getZ","property"
+"Tlv493d","unclassified","Tlv493d::getTemp","property"
+"Tlv493d","unclassified","Tlv493d::getAmount","property wrapper"
+"Tlv493d","unclassified","Tlv493d::getAzimuth","property wrapper"
+"Tlv493d","unclassified","Tlv493d::getPolar","property wrapper"
+"Tlv493d","unclassified","Tlv493d::resetSensor","command"
+"Tlv493d","unclassified","Tlv493d::setRegBits","wrapper"
+"Tlv493d","unclassified","Tlv493d::getRegBits","property wrapper"
+"Tlv493d","unclassified","Tlv493d::calcParity","command"
+"Tlv493d","unclassified","Tlv493d::concatResults","incidental"
+"FatGuard","empty","FatGuard","constructor"
+"FatGuard","empty","~FatGuard","destructor"
+"Configuration","boundary","Configuration::Configuration","constructor"
+"Configuration","boundary","Configuration::~Configuration","destructor"
+"Configuration","boundary","Configuration::loadFromDisk","predicate non-void-command"
+"Configuration","boundary","Configuration::saveToDisk","predicate non-void-command"
+"Configuration","boundary","Configuration::get","get property wrapper"
+"Configuration","boundary","Configuration::setMotorCalibrationAndSave","predicate non-void-command collaborator"
+"Configuration","boundary","Configuration::setStrainCalibrationAndSave","predicate non-void-command collaborator"
+"Configuration","boundary","Configuration::setLogger","set collaborator"
+"Configuration","boundary","Configuration::log","command"
+"SerialProtocolPlaintext","commander","SerialProtocolPlaintext","constructor"
+"SerialProtocolPlaintext","commander","~SerialProtocolPlaintext","destructor"
+"SerialProtocolPlaintext","commander","SerialProtocolPlaintext::handleState","set collaborator"
+"SerialProtocolPlaintext","commander","SerialProtocolPlaintext::log","command"
+"SerialProtocolPlaintext","commander","SerialProtocolPlaintext::loop","command"
+"SerialProtocolPlaintext","commander","SerialProtocolPlaintext::init","command collaborator"
+"DisplayTask","minimal-entity commander boundary","DisplayTask::DisplayTask","constructor"
+"DisplayTask","minimal-entity commander boundary","DisplayTask::~DisplayTask","destructor"
+"DisplayTask","minimal-entity commander boundary","DisplayTask::run","command collaborator"
+"DisplayTask","minimal-entity commander boundary","DisplayTask::getKnobStateQueue","get collaborator"
+"DisplayTask","minimal-entity commander boundary","DisplayTask::setBrightness","set collaborator"
+"DisplayTask","minimal-entity commander boundary","DisplayTask::setLogger","set collaborator"
+"DisplayTask","minimal-entity commander boundary","DisplayTask::log","command"
+"MT6701Sensor","entity boundary","MT6701Sensor::MT6701Sensor","constructor"
+"MT6701Sensor","entity boundary","MT6701Sensor::init","command collaborator"
+"MT6701Sensor","entity boundary","MT6701Sensor::getSensorAngle","property non-void-command"
+"MT6701Sensor","entity boundary","MT6701Sensor::getAndClearError","property set collaborator"
+"TlvSensor","unclassified","TlvSensor::TlvSensor","constructor"
+"TlvSensor","unclassified","TlvSensor::init","command"
+"TlvSensor","unclassified","TlvSensor::getSensorAngle","property non-void-command"
+"TlvSensor","unclassified","TlvSensor::getAndClearError","predicate set"
+"InterfaceTask","commander","InterfaceTask::InterfaceTask","constructor"
+"InterfaceTask","commander","InterfaceTask::~InterfaceTask","destructor"
+"InterfaceTask","commander","InterfaceTask::run","command collaborator"
+"InterfaceTask","commander","InterfaceTask::log","wrapper"
+"InterfaceTask","commander","InterfaceTask::changeConfig","command"
+"InterfaceTask","commander","InterfaceTask::updateHardware","command"
+"InterfaceTask","commander","InterfaceTask::setConfiguration","set collaborator"
+"InterfaceTask","commander","InterfaceTask::publishState","set"
+"InterfaceTask","commander","InterfaceTask::applyConfig","command"
+"Logger","empty","Logger","constructor"
+"Logger","empty","~Logger","destructor"
+"UartStream","data-provider boundary","UartStream::UartStream","constructor"
+"UartStream","data-provider boundary","UartStream::begin","wrapper"
+"UartStream","data-provider boundary","UartStream::peek","incidental"
+"UartStream","data-provider boundary","UartStream::available","property wrapper"
+"UartStream","data-provider boundary","UartStream::read","property wrapper"
+"UartStream","data-provider boundary","UartStream::flush","empty"
+"UartStream","data-provider boundary","UartStream::write","property wrapper"
+"UartStream","data-provider boundary","UartStream::write","property wrapper"
+"MotorTask","entity commander boundary","MotorTask::MotorTask","constructor"
+"MotorTask","entity commander boundary","MotorTask::~MotorTask","destructor"
+"MotorTask","entity commander boundary","MotorTask::run","command"
+"MotorTask","entity commander boundary","MotorTask::setConfig","void-accessor wrapper"
+"MotorTask","entity commander boundary","MotorTask::playHaptic","wrapper"
+"MotorTask","entity commander boundary","MotorTask::runCalibration","wrapper"
+"MotorTask","entity commander boundary","MotorTask::addListener","command collaborator"
+"MotorTask","entity commander boundary","MotorTask::publish","wrapper"
+"MotorTask","entity commander boundary","MotorTask::calibrate","command collaborator"
+"MotorTask","entity commander boundary","MotorTask::checkSensorError","command collaborator"
+"MotorTask","entity commander boundary","MotorTask::setLogger","set collaborator"
+"MotorTask","entity commander boundary","MotorTask::log","command"
+"SerialProtocolProtobuf","commander","~SerialProtocolProtobuf","destructor"
+"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::SerialProtocolProtobuf","constructor"
+"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::handleState","set collaborator"
+"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::ack","command"
+"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::log","command"
+"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::loop","command"
+"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::handlePacket","command"
+"SerialProtocolProtobuf","commander","SerialProtocolProtobuf::sendPbTxBuffer","command"

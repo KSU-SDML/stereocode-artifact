@@ -1,479 +1,468 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"TestExtensions","commander boundary lazy-class degenerate","ReturnSHA256","wrapper stateless",
-"TestExtensions","commander boundary lazy-class degenerate","ReturnSHA256WithSalt","wrapper stateless",
-"TestExtensions","commander boundary lazy-class degenerate","ReturnMD5","wrapper stateless",
-"TestExtensions","commander boundary lazy-class degenerate","ReturnAESEncrypt","set",
-"TestExtensions","commander boundary lazy-class degenerate","ReturnAESDecrypt","command",
-"TestExtensions","commander boundary lazy-class degenerate","ReturnReplaceUnderScoreWithSpace","wrapper stateless",
-"TestExtensions","commander boundary lazy-class degenerate","ReturnToSize","wrapper stateless",
-"TestExtensions","commander boundary lazy-class degenerate","ReturnToPrettyDate","empty",
-"TestExtensions","commander boundary lazy-class degenerate","ReturnIsSymlink","empty",
-"TcpListener","commander","TcpListener","constructor",
-"TcpListener","commander","Connect","command",
-"TcpListener","commander","Disconnect","command",
-"TcpListener","commander","AlsoListenToInternal","command",
-"TcpListener","commander","AnnounceInternal","command collaborator",
-"TcpListener","commander","Dispose","command",
-"TcpListener","commander","CleanMessage","controller stateless",
-"TcpListener","commander","get","get",
-"TcpListener","commander","get","get",
-"SSHFetcher","unclassified","SSHFetcher","constructor",
-"SSHFetcher","unclassified","Fetch","predicate non-void-command",
-"SSHFetcher","unclassified","FetchHostKey","property controller",
-"SSHFetcher","unclassified","DeriveFingerprint","controller stateless",
-"SSHFetcher","unclassified","AcceptHostKey","command",
-"SparkleTextFieldDelegate","boundary degenerate small-class","Changed","wrapper stateless",
-"Configuration","boundary","Configuration","constructor",
-"Configuration","boundary","CreateInitialConfig","controller stateless",
-"Configuration","boundary","AddFolder","command collaborator",
-"Configuration","boundary","RemoveFolder","command collaborator",
-"Configuration","boundary","RenameFolder","command collaborator",
-"Configuration","boundary","BackendByName","property non-void-command",
-"Configuration","boundary","IdentifierByName","property non-void-command",
-"Configuration","boundary","UrlByName","property non-void-command",
-"Configuration","boundary","IdentifierExists","controller stateless",
-"Configuration","boundary","SetFolderOptionalAttribute","predicate non-void-command collaborator",
-"Configuration","boundary","GetFolderOptionalAttribute","property non-void-command collaborator",
-"Configuration","boundary","GetConfigOption","wrapper stateless",
-"Configuration","boundary","SetConfigOption","command collaborator",
-"Configuration","boundary","FolderByName","wrapper stateless",
-"Configuration","boundary","FolderValueByKey","property non-void-command collaborator",
-"Configuration","boundary","Save","command",
-"Configuration","boundary","get","get",
-"Configuration","boundary","get","wrapper stateless",
-"Configuration","boundary","get","property non-void-command",
-"Configuration","boundary","get","factory wrapper stateless",
-"Configuration","boundary","set","non-void-command collaborator",
-"Configuration","boundary","get","controller stateless",
-"InstallationInfo","lazy-class","get","get set collaborator",
-"InstallationInfo","lazy-class","get","controller stateless",
-"InstallationInfo","lazy-class","get","controller stateless",
-"InstallationInfo","lazy-class","get","predicate non-void-command",
-"SparkleDataSource","controller data-class small-class","SparkleDataSource","constructor",
-"SparkleDataSource","controller data-class small-class","numberOfRowsInTableView","get property wrapper",
-"SparkleDataSource","controller data-class small-class","objectValueForTableColumn","get property factory controller",
-"BubblesController","boundary small-class","BubblesController","constructor",
-"BubblesController","boundary small-class","BubblesController","constructor",
-"BubblesController","boundary small-class","ShowBubble","wrapper",
-"BubblesController","boundary small-class","BubbleClicked","wrapper stateless",
-"SSHAuthenticationInfo","unclassified","SSHAuthenticationInfo","constructor",
-"SSHAuthenticationInfo","unclassified","ImportKeys","command",
-"SSHAuthenticationInfo","unclassified","CreateKeyPair","predicate non-void-command collaborator",
-"SSHAuthenticationInfo","unclassified","MakeWindowsDomainAccountSafe","controller stateless",
-"SparkleEventsDelegate","boundary degenerate small-class","WillResize","wrapper stateless",
-"SparkleEventsDelegate","boundary degenerate small-class","WindowShouldClose","wrapper stateless",
-"Note","entity commander boundary","Note","constructor",
-"Note","entity commander boundary","CreateNote","command collaborator",
-"Note","entity commander boundary","Note","constructor",
-"Note","entity commander boundary","Note","constructor",
-"Note","entity commander boundary","CreateNote","command",
-"Note","entity commander boundary","OrderFrontRegardless","command",
-"Note","entity commander boundary","PerformClose","command collaborator",
-"Note","entity commander boundary","AcceptsFirstResponder","incidental",
-"Note","entity commander boundary","Note","constructor",
-"Note","entity commander boundary","CreateNote","command collaborator",
-"Note","entity commander boundary","OnClosing","void-accessor command collaborator",
-"Note","entity commander boundary","OnTextBoxGotFocus","set collaborator",
-"Note","entity commander boundary","OnTextBoxLostFocus","set collaborator",
-"GitFetcher","unclassified","GitFetcher","constructor",
-"GitFetcher","unclassified","Fetch","predicate non-void-command collaborator",
-"GitFetcher","unclassified","Stop","command",
-"GitFetcher","unclassified","Complete","property non-void-command collaborator",
-"GitFetcher","unclassified","EnableFetchedRepoCrypto","controller",
-"GitFetcher","unclassified","IsFetchedRepoPasswordCorrect","predicate controller",
-"GitFetcher","unclassified","FormatName","property controller",
-"GitFetcher","unclassified","DetermineStorageType","property set collaborator",
-"GitFetcher","unclassified","InstallConfiguration","controller",
-"GitFetcher","unclassified","InstallExcludeRules","wrapper",
-"GitFetcher","unclassified","InstallAttributeRules","controller",
-"GitFetcher","unclassified","InstallGitLFS","controller",
-"GitFetcher","unclassified","get","predicate controller",
-"SparkleTableViewDelegate","boundary degenerate small-class","SelectionDidChange","wrapper stateless",
-"AppDelegate","boundary degenerate small-class","ApplicationShouldHandleReopen","wrapper stateless",
-"UserInterface","commander boundary","UserInterface","constructor",
-"UserInterface","commander boundary","Run","void-accessor command collaborator",
-"UserInterface","commander boundary","ParseArgs","void-accessor set",
-"UserInterface","commander boundary","ApplicationActivatedDelegate","command collaborator",
-"UserInterface","commander boundary","DetectTextColors","command collaborator",
-"UserInterface","commander boundary","UserInterface","constructor",
-"UserInterface","commander boundary","Run","wrapper stateless",
-"UserInterface","commander boundary","get","incidental",
-"UserInterface","commander boundary","UserInterface","constructor",
-"UserInterface","commander boundary","UserInterface","constructor",
-"UserInterface","commander boundary","Run","command",
-"Shortcut","commander small-class","Shortcut","constructor",
-"Shortcut","commander small-class","Create","command",
-"Shortcut","commander small-class","Dispose","set",
-"Shortcut","commander small-class","~Shortcut","destructor",
-"SetupWindow","commander boundary","SetupWindow","constructor",
-"SetupWindow","commander boundary","CreateButtonBox","factory collaborator incidental",
-"SetupWindow","commander boundary","AddButton","command collaborator",
-"SetupWindow","commander boundary","AddOption","command collaborator",
-"SetupWindow","commander boundary","Add","non-void-command collaborator",
-"SetupWindow","commander boundary","Reset","command collaborator",
-"SetupWindow","commander boundary","ShowAll","non-void-command collaborator",
-"SetupWindow","commander boundary","SetupWindow","constructor",
-"SetupWindow","commander boundary","Reset","command",
-"SetupWindow","commander boundary","ShowAll","command collaborator",
-"SetupWindow","commander boundary","OrderFrontRegardless","command",
-"SetupWindow","commander boundary","PerformClose","wrapper",
-"SetupWindow","commander boundary","AcceptsFirstResponder","incidental",
-"SetupWindow","commander boundary","SetupWindow","constructor",
-"SetupWindow","commander boundary","Reset","command",
-"SetupWindow","commander boundary","ShowAll","command collaborator",
-"SetupWindow","commander boundary","Close","collaborator incidental",
-"Preset","unclassified","Preset","constructor",
-"Preset","unclassified","GetValue","wrapper stateless",
-"Preset","unclassified","get","property non-void-command collaborator",
-"Preset","unclassified","get","property non-void-command",
-"Preset","unclassified","get","property non-void-command",
-"Preset","unclassified","get","property non-void-command",
-"Preset","unclassified","get","property non-void-command",
-"Preset","unclassified","get","property non-void-command",
-"Preset","unclassified","get","property non-void-command",
-"Preset","unclassified","get","property non-void-command",
-"Preset","unclassified","get","property non-void-command",
-"Preset","unclassified","get","property non-void-command",
-"Preset","unclassified","get","predicate non-void-command",
-"Setup","unclassified","Setup","constructor",
-"Setup","unclassified","ShowPage","command collaborator",
-"Setup","unclassified","RenderServiceColumn","controller stateless",
-"Setup","unclassified","Setup","constructor",
-"Setup","unclassified","ShowPage","void-accessor command",
-"Setup","unclassified","Setup","constructor",
-"EventLogController","boundary","EventLogController","constructor",
-"EventLogController","boundary","EventLogController","constructor",
-"EventLogController","boundary","WindowClosed","command",
-"EventLogController","boundary","LinkClicked","command",
-"EventLogController","boundary","SaveDialogCompleted","set collaborator",
-"EventLogController","boundary","SaveDialogCancelled","set",
-"EventLogController","boundary","GetLog","controller stateless",
-"EventLogController","boundary","GetLog","property non-void-command factory collaborator",
-"EventLogController","boundary","GetHistoryHTMLLog","property non-void-command collaborator",
-"EventLogController","boundary","GetHTMLLog","property non-void-command collaborator",
-"EventLogController","boundary","FormatBreadCrumbs","property non-void-command",
-"EventLogController","boundary","SafeCombine","controller stateless",
-"EventLogController","boundary","GetAvatarFilePath","controller stateless",
-"EventLogController","boundary","get","get",
-"EventLogController","boundary","set","set",
-"EventLogController","boundary","get","property non-void-command",
-"EventLogController","boundary","get","wrapper stateless",
-"EventLogController","boundary","get","property non-void-command collaborator",
-"EventLogController","boundary","get","property non-void-command collaborator",
-"BaseController","commander","AddRepository","command collaborator",
-"BaseController","commander","RemoveRepository","command collaborator",
-"BaseController","commander","GetRepoByName","property controller",
-"BaseController","commander","OpenWebsite","empty",
-"BaseController","commander","BaseController","constructor",
-"BaseController","commander","Initialize","command",
-"BaseController","commander","HandleReopen","set",
-"BaseController","commander","UIHasLoaded","command",
-"BaseController","commander","ShowSetupWindow","wrapper stateless",
-"BaseController","commander","ShowAboutWindow","wrapper stateless",
-"BaseController","commander","ShowNoteWindow","wrapper stateless",
-"BaseController","commander","ShowEventLogWindow","wrapper stateless",
-"BaseController","commander","OpenSparkleShareFolder","wrapper",
-"BaseController","commander","OpenSparkleShareFolder","wrapper stateless",
-"BaseController","commander","ToggleNotifications","command",
-"BaseController","commander","CheckRepositories","command",
-"BaseController","commander","DetectRepositoryRenames","command",
-"BaseController","commander","RemoveDeletedRepositories","command",
-"BaseController","commander","AddRepository","command",
-"BaseController","commander","OnFolderActivity","command collaborator",
-"BaseController","commander","StartupInviteScan","command",
-"BaseController","commander","HandleInvite","void-accessor command collaborator",
-"BaseController","commander","HandleInvite","wrapper",
-"BaseController","commander","UpdateState","wrapper stateless",
-"BaseController","commander","StartFetcher","void-accessor command collaborator",
-"BaseController","commander","FetcherFinishedDelegate","command",
-"BaseController","commander","FetcherFailedDelegate","command",
-"BaseController","commander","FetcherProgressChangedDelgate","wrapper stateless",
-"BaseController","commander","StopFetcher","command",
-"BaseController","commander","CheckPassword","predicate non-void-command",
-"BaseController","commander","FinishFetcher","command",
-"BaseController","commander","FinishFetcher","command collaborator",
-"BaseController","commander","DetermineFolderPath","property non-void-command",
-"BaseController","commander","Quit","controller stateless",
-"BaseController","commander","ClearDirectoryAttributes","command",
-"BaseController","commander","get","property non-void-command collaborator",
-"BaseController","commander","get","predicate non-void-command",
-"BaseController","commander","get","property",
-"BaseController","commander","get","get collaborator",
-"BaseController","commander","set","set collaborator",
-"BaseController","commander","get","predicate non-void-command",
-"BaseController","commander","get","predicate non-void-command",
-"BaseController","commander","get","property non-void-command",
-"BaseController","commander","get","property collaborator",
-"ProjectInfo","data-provider","ProjectInfo","constructor",
-"ProjectInfo","data-provider","get","get",
-"ProjectInfo","data-provider","get","get",
-"ProjectInfo","data-provider","get","predicate",
-"ProjectInfo","data-provider","get","predicate",
-"ProjectInfo","data-provider","get","property non-void-command",
-"ProjectInfo","data-provider","get","property set collaborator",
-"EventLog","commander","EventLog","constructor",
-"EventLog","commander","UpdateContent","command",
-"EventLog","commander","CreateWebView","factory collaborator",
-"EventLog","commander","EventLog","constructor",
-"EventLog","commander","EventLog","constructor",
-"EventLog","commander","UpdateChooser","void-accessor command",
-"EventLog","commander","UpdateContent","command",
-"EventLog","commander","HideWindowEventDelegate","command",
-"EventLog","commander","ShowWindowEventDelegate","command",
-"EventLog","commander","UpdateChooserEventDelegate","void-accessor command",
-"EventLog","commander","UpdateChooserEnablementEventDelegate","set",
-"EventLog","commander","UpdateContentEventDelegate","command",
-"EventLog","commander","ContentLoadingEventDelegate","command",
-"EventLog","commander","UpdateSizeInfoEventDelegate","command",
-"EventLog","commander","ShowSaveDialogEventDelegate","command",
-"EventLog","commander","OrderFrontRegardless","command",
-"EventLog","commander","PerformClose","command collaborator",
-"EventLog","commander","EventLog","constructor",
-"Bubbles","small-class","Bubbles","constructor",
-"Bubbles","small-class","ShowBubbleEvent","controller",
-"Bubbles","small-class","Bubbles","constructor",
-"Bubbles","small-class","ShowBubbleEvent","command collaborator",
-"Bubbles","small-class","Bubbles","constructor",
-"NoteController","boundary","NoteController","constructor",
-"NoteController","boundary","CancelClicked","wrapper stateless",
-"NoteController","boundary","SyncClicked","command",
-"NoteController","boundary","WindowClosed","wrapper stateless",
-"NoteController","boundary","OnNoteWindowEvent","set",
-"NoteController","boundary","ResumeWithNote","controller",
-"Announcement","empty","Announcement","constructor",
-"SparkleFolder","data-provider boundary small-class","SparkleFolder","constructor",
-"SparkleFolder","data-provider boundary small-class","get","property wrapper",
-"StatusIcon","entity commander boundary","StatusIcon","constructor",
-"StatusIcon","entity commander boundary","CreateMenu","command collaborator",
-"StatusIcon","entity commander boundary","ShowMenu","command collaborator",
-"StatusIcon","entity commander boundary","SetPosition","void-accessor wrapper",
-"StatusIcon","entity commander boundary","StatusIcon","constructor",
-"StatusIcon","entity commander boundary","CreateMenu","command collaborator",
-"StatusIcon","entity commander boundary","StatusIcon","constructor",
-"StatusIcon","entity commander boundary","CreateMenu","command collaborator",
-"Controller","boundary lazy-class degenerate","Controller","constructor",
-"Controller","boundary lazy-class degenerate","CreateSparkleShareFolder","wrapper stateless",
-"Controller","boundary lazy-class degenerate","SetFolderIcon","controller",
-"Controller","boundary lazy-class degenerate","CreateStartupItem","wrapper",
-"Controller","boundary lazy-class degenerate","InstallProtocolHandler","empty",
-"Controller","boundary lazy-class degenerate","CopyToClipboard","wrapper stateless",
-"Controller","boundary lazy-class degenerate","OpenFolder","command",
-"Controller","boundary lazy-class degenerate","OpenFile","wrapper stateless",
-"Controller","boundary lazy-class degenerate","PlatformQuit","incidental",
-"Controller","boundary lazy-class degenerate","get","controller stateless",
-"Controller","boundary lazy-class degenerate","get","wrapper stateless",
-"Controller","boundary lazy-class degenerate","get","wrapper stateless",
-"Controller","boundary lazy-class degenerate","get","wrapper stateless",
-"Controller","boundary lazy-class degenerate","Controller","constructor",
-"Controller","boundary lazy-class degenerate","Initialize","command",
-"Controller","boundary lazy-class degenerate","CreateSparkleShareFolder","controller stateless",
-"Controller","boundary lazy-class degenerate","SetFolderIcon","wrapper stateless",
-"Controller","boundary lazy-class degenerate","CreateStartupItem","controller stateless",
-"Controller","boundary lazy-class degenerate","InstallProtocolHandler","empty",
-"Controller","boundary lazy-class degenerate","CopyToClipboard","wrapper stateless",
-"Controller","boundary lazy-class degenerate","OpenFolder","wrapper stateless",
-"Controller","boundary lazy-class degenerate","OpenFile","wrapper stateless",
-"Controller","boundary lazy-class degenerate","OpenWebsite","wrapper stateless",
-"Controller","boundary lazy-class degenerate","MacFileActivityTask","controller stateless",
-"Controller","boundary lazy-class degenerate","OnFilesChanged","command collaborator",
-"Controller","boundary lazy-class degenerate","Invoke","wrapper stateless",
-"Controller","boundary lazy-class degenerate","PlatformQuit","command",
-"Controller","boundary lazy-class degenerate","get","wrapper stateless",
-"Controller","boundary lazy-class degenerate","get","get set",
-"Controller","boundary lazy-class degenerate","get","get set",
-"Controller","boundary lazy-class degenerate","get","get set",
-"Controller","boundary lazy-class degenerate","Controller","constructor",
-"Controller","boundary lazy-class degenerate","Initialize","command",
-"Controller","boundary lazy-class degenerate","SetFolderIcon","wrapper",
-"Controller","boundary lazy-class degenerate","CreateStartupItem","controller stateless",
-"Controller","boundary lazy-class degenerate","InstallProtocolHandler","empty",
-"Controller","boundary lazy-class degenerate","AddToBookmarks","controller",
-"Controller","boundary lazy-class degenerate","CreateSparkleShareFolder","wrapper",
-"Controller","boundary lazy-class degenerate","OpenFile","wrapper stateless",
-"Controller","boundary lazy-class degenerate","OpenFolder","wrapper stateless",
-"Controller","boundary lazy-class degenerate","OpenWebsite","wrapper stateless",
-"Controller","boundary lazy-class degenerate","CopyToClipboard","wrapper stateless",
-"Controller","boundary lazy-class degenerate","Quit","command",
-"Controller","boundary lazy-class degenerate","get","wrapper stateless",
-"Controller","boundary lazy-class degenerate","get","controller stateless",
-"Controller","boundary lazy-class degenerate","get","wrapper stateless",
-"Controller","boundary lazy-class degenerate","get","wrapper stateless",
-"About","entity commander boundary","About","constructor",
-"About","entity commander boundary","CreateAbout","set collaborator",
-"About","entity commander boundary","About","constructor",
-"About","entity commander boundary","About","constructor",
-"About","entity commander boundary","CreateAbout","command",
-"About","entity commander boundary","OrderFrontRegardless","command",
-"About","entity commander boundary","PerformClose","command collaborator",
-"About","entity commander boundary","About","constructor",
-"About","entity commander boundary","CreateAbout","set collaborator",
-"About","entity commander boundary","Close","void-accessor command collaborator",
-"SparkleInviteOpen","empty","SparkleInviteOpen","constructor",
-"SetupController","commander","SetupController","constructor",
-"SetupController","commander","PageCancelled","command",
-"SetupController","commander","CheckSetupPage","controller stateless",
-"SetupController","commander","SetupPageCancelled","wrapper stateless",
-"SetupController","commander","SetupPageCompleted","wrapper stateless",
-"SetupController","commander","HistoryItemChanged","set",
-"SetupController","commander","SelectedPresetChanged","set",
-"SetupController","commander","CheckAddPage","command",
-"SetupController","commander","AddPageCompleted","command collaborator",
-"SetupController","commander","AddPageFetchedDelegate","void-accessor set",
-"SetupController","commander","AddPageFetchErrorDelegate","void-accessor command",
-"SetupController","commander","SyncingPageFetchingDelegate","set",
-"SetupController","commander","InvitePageCompleted","command",
-"SetupController","commander","get","property non-void-command",
-"SetupController","commander","get","get",
-"StatusIconController","entity boundary","StatusIconController","constructor",
-"StatusIconController","entity boundary","UpdateStateText","property set",
-"StatusIconController","entity boundary","GetPausedCount","property wrapper",
-"StatusIconController","entity boundary","RecentEventsClicked","wrapper stateless",
-"StatusIconController","entity boundary","AddHostedProjectClicked","wrapper stateless",
-"StatusIconController","entity boundary","CopyToClipboardClicked","wrapper stateless",
-"StatusIconController","entity boundary","AboutClicked","wrapper stateless",
-"StatusIconController","entity boundary","QuitClicked","wrapper stateless",
-"StatusIconController","entity boundary","ProjectClicked","wrapper stateless",
-"StatusIconController","entity boundary","PauseClicked","command",
-"StatusIconController","entity boundary","ResumeClicked","command",
-"StatusIconController","entity boundary","TryAgainClicked","wrapper stateless",
-"StatusIconController","entity boundary","OpenFolderDelegate","property non-void-command collaborator",
-"StatusIconController","entity boundary","TryAgainDelegate","property non-void-command collaborator",
-"StatusIconController","entity boundary","PauseDelegate","property non-void-command collaborator",
-"StatusIconController","entity boundary","ResumeDelegate","property non-void-command collaborator",
-"StatusIconController","entity boundary","UpdateFolders","set collaborator",
-"StatusIconController","entity boundary","get","incidental",
-"StatusIconController","entity boundary","get","wrapper stateless",
-"StatusIconController","entity boundary","get","predicate",
-"SparkleLabel","empty","SparkleLabel","constructor",
-"AboutController","small-class","AboutController","constructor",
-"AboutController","small-class","WindowClosed","wrapper stateless",
-"AboutController","small-class","CheckForNewVersion","controller",
-"Link","empty","Link","constructor",
-"SparkleLink","empty","SparkleLink","constructor",
-"NotifyIcon","entity boundary","NotifyIcon","constructor",
-"NotifyIcon","entity boundary","ShowBalloonTip","command",
-"NotifyIcon","entity boundary","Dispose","command",
-"NotifyIcon","entity boundary","IAddChild.AddChild","collaborator stateless",
-"NotifyIcon","entity boundary","IAddChild.AddText","stateless",
-"NotifyIcon","entity boundary","OnVisibilityChanged","collaborator incidental",
-"NotifyIcon","entity boundary","OnMouseDown","wrapper stateless",
-"NotifyIcon","entity boundary","OnMouseClick","void-accessor wrapper",
-"NotifyIcon","entity boundary","OnMouseDoubleClick","void-accessor wrapper",
-"NotifyIcon","entity boundary","OnMouseUp","void-accessor command collaborator",
-"NotifyIcon","entity boundary","set","set collaborator",
-"NotifyIcon","entity boundary","get","property wrapper",
-"NotifyIcon","entity boundary","set","wrapper",
-"Spinner","commander small-class","Spinner","constructor",
-"Spinner","commander small-class","Spinner","constructor",
-"Spinner","commander small-class","Start","command",
-"Spinner","commander small-class","Stop","command",
-"User","empty","User","constructor",
-"BaseFetcher","unclassified","BaseFetcher","constructor",
-"BaseFetcher","unclassified","Start","command",
-"BaseFetcher","unclassified","Complete","command",
-"BaseFetcher","unclassified","Complete","property set collaborator",
-"BaseFetcher","unclassified","CreateInitialChangeSet","command",
-"BaseFetcher","unclassified","OnProgressChanged","wrapper",
-"BaseFetcher","unclassified","FormatName","property wrapper",
-"BaseFetcher","unclassified","Dispose","command",
-"BaseFetcher","unclassified","get","property non-void-command",
-"BaseFetcher","unclassified","get","property non-void-command",
-"BaseListener","entity boundary","BaseListener","constructor",
-"BaseListener","entity boundary","OnTimerElapsed","command collaborator",
-"BaseListener","entity boundary","Announce","void-accessor command collaborator",
-"BaseListener","entity boundary","AlsoListenTo","command",
-"BaseListener","entity boundary","Reconnect","wrapper",
-"BaseListener","entity boundary","OnConnected","command collaborator",
-"BaseListener","entity boundary","OnDisconnected","wrapper",
-"BaseListener","entity boundary","OnAnnouncement","void-accessor command collaborator",
-"BaseListener","entity boundary","Dispose","command",
-"BaseListener","entity boundary","IsRecentAnnouncement","predicate non-void-command collaborator",
-"BaseListener","entity boundary","GetRecentAnnouncements","get set collaborator",
-"BaseListener","entity boundary","AddRecentAnnouncement","void-accessor command collaborator",
-"Watcher","unclassified","Watcher","constructor",
-"Watcher","unclassified","OnChanged","wrapper stateless",
-"Watcher","unclassified","Enable","unclassified",
-"Watcher","unclassified","Disable","unclassified",
-"Command","unclassified","Command","constructor",
-"Command","unclassified","Command","constructor",
-"Command","unclassified","Start","non-void-command collaborator",
-"Command","unclassified","StartAndWaitForExit","command",
-"Command","unclassified","StartAndReadStandardOutput","property non-void-command",
-"Command","unclassified","StartAndReadStandardError","property non-void-command",
-"Command","unclassified","SetEnvironmentVariable","wrapper stateless",
-"StorageTypeInfo","empty","StorageTypeInfo","constructor",
-"BaseRepository","commander","BaseRepository","constructor",
-"BaseRepository","commander","RemoteTimerElapsedDelegate","command collaborator",
-"BaseRepository","commander","Initialize","command",
-"BaseRepository","commander","OnFileActivity","command collaborator",
-"BaseRepository","commander","ForceRetry","command",
-"BaseRepository","commander","OnConflictResolved","wrapper stateless",
-"BaseRepository","commander","OnProgressChanged","command",
-"BaseRepository","commander","SyncUpBase","command",
-"BaseRepository","commander","SyncDownBase","command collaborator",
-"BaseRepository","commander","CreateListener","empty",
-"BaseRepository","commander","ListenerConnectedDelegate","command",
-"BaseRepository","commander","ListenerDisconnectedDelegate","command collaborator",
-"BaseRepository","commander","ListenerAnnouncementReceivedDelegate","command collaborator",
-"BaseRepository","commander","CalculateSize","property non-void-command collaborator",
-"BaseRepository","commander","Pause","set",
-"BaseRepository","commander","Resume","command",
-"BaseRepository","commander","Dispose","command",
-"BaseRepository","commander","get","get property collaborator",
-"BaseRepository","commander","get","get set",
-"BaseRepository","commander","get","predicate",
-"ChangeSet","data-provider boundary small-class","ToMessage","property wrapper",
-"SparkleMacWatcher","commander","~SparkleMacWatcher","destructor",
-"SparkleMacWatcher","commander","SparkleMacWatcher","constructor",
-"SparkleMacWatcher","commander","Dispose","command",
-"SparkleMacWatcher","commander","Dispose","set",
-"SparkleMacWatcher","commander","checkDirectory","set collaborator",
-"SparkleMacWatcher","commander","DoCallback","command collaborator",
-"GitCommand","unclassified","GitCommand","constructor",
-"GitCommand","unclassified","GitCommand","constructor",
-"GitCommand","unclassified","get","get set",
-"GitCommand","unclassified","set","set",
-"GitCommand","unclassified","get","property controller",
-"GitCommand","unclassified","get","property controller",
-"GitRepository","boundary","GitRepository","constructor",
-"GitRepository","boundary","UpdateSizes","command",
-"GitRepository","boundary","SyncUp","predicate non-void-command collaborator",
-"GitRepository","boundary","SyncDown","predicate non-void-command collaborator",
-"GitRepository","boundary","ReadStream","predicate set collaborator",
-"GitRepository","boundary","Add","predicate controller",
-"GitRepository","boundary","Commit","set",
-"GitRepository","boundary","Merge","predicate non-void-command",
-"GitRepository","boundary","ResolveConflict","command collaborator",
-"GitRepository","boundary","RestoreFile","command",
-"GitRepository","boundary","GetChangeSets","property non-void-command collaborator",
-"GitRepository","boundary","GetChangeSets","property non-void-command collaborator",
-"GitRepository","boundary","GetChangeSetsInternal","non-void-command factory collaborator",
-"GitRepository","boundary","ParseChangeSet","property factory controller",
-"GitRepository","boundary","ParseChange","factory controller stateless",
-"GitRepository","boundary","PrepareGitLFS","controller",
-"GitRepository","boundary","PrepareDirectories","command",
-"GitRepository","boundary","ParseStatus","factory controller",
-"GitRepository","boundary","FormatCommitMessage","property non-void-command collaborator",
-"GitRepository","boundary","CalculateSizes","property non-void-command collaborator",
-"GitRepository","boundary","IsSymlink","wrapper stateless",
-"GitRepository","boundary","get","get set collaborator",
-"GitRepository","boundary","get","predicate wrapper",
-"GitRepository","boundary","get","controller stateless",
-"GitRepository","boundary","get","property wrapper",
-"GitRepository","boundary","get","property wrapper",
-"GitRepository","boundary","get","property controller",
-"GitRepository","boundary","get","predicate set",
-"GitRepository","boundary","get","predicate non-void-command",
-"GitRepository","boundary","get","predicate wrapper",
-"GitRepository","boundary","set","wrapper",
-"GitRepository","boundary","get","property non-void-command collaborator",
-"SparkleWebPolicyDelegate","pure-controller degenerate small-class","DecidePolicyForNavigation","controller stateless",
-"SparkleMenuItem","empty","SparkleMenuItem","constructor",
-"SparkleMenuItem","empty","SparkleMenuItem","constructor",
-"SparkleInvite","unclassified","SparkleInvite","constructor",
-"SparkleInvite","unclassified","Accept","predicate controller",
-"SparkleInvite","unclassified","ReadField","wrapper stateless",
-"SparkleInvite","unclassified","get","predicate wrapper",
-"SSHCommand","data-provider boundary small-class","SSHCommand","constructor",
-"SSHCommand","data-provider boundary small-class","SSHCommand","constructor",
-"SSHCommand","data-provider boundary small-class","get","property wrapper",
+"Watcher","unclassified","Watcher","constructor"
+"Watcher","unclassified","OnChanged","wrapper stateless"
+"Watcher","unclassified","Enable","unclassified"
+"Watcher","unclassified","Disable","unclassified"
+"User","empty","User","constructor"
+"TestExtensions","commander boundary lazy-class degenerate","ReturnSHA256","wrapper stateless"
+"TestExtensions","commander boundary lazy-class degenerate","ReturnSHA256WithSalt","wrapper stateless"
+"TestExtensions","commander boundary lazy-class degenerate","ReturnMD5","wrapper stateless"
+"TestExtensions","commander boundary lazy-class degenerate","ReturnAESEncrypt","set"
+"TestExtensions","commander boundary lazy-class degenerate","ReturnAESDecrypt","command"
+"TestExtensions","commander boundary lazy-class degenerate","ReturnReplaceUnderScoreWithSpace","wrapper stateless"
+"TestExtensions","commander boundary lazy-class degenerate","ReturnToSize","wrapper stateless"
+"TestExtensions","commander boundary lazy-class degenerate","ReturnToPrettyDate","empty"
+"TestExtensions","commander boundary lazy-class degenerate","ReturnIsSymlink","empty"
+"SSHCommand","empty","SSHCommand","constructor"
+"SSHCommand","empty","SSHCommand","constructor"
+"SparkleInvite","unclassified","SparkleInvite","constructor"
+"SparkleInvite","unclassified","Accept","predicate controller"
+"SparkleInvite","unclassified","ReadField","wrapper stateless"
+"SparkleInvite","unclassified","get","predicate wrapper"
+"GitRepository","boundary","GitRepository","constructor"
+"GitRepository","boundary","UpdateSizes","command"
+"GitRepository","boundary","SyncUp","predicate non-void-command collaborator"
+"GitRepository","boundary","SyncDown","predicate non-void-command collaborator"
+"GitRepository","boundary","ReadStream","predicate set collaborator"
+"GitRepository","boundary","Add","predicate controller"
+"GitRepository","boundary","Commit","set"
+"GitRepository","boundary","Merge","predicate non-void-command"
+"GitRepository","boundary","ResolveConflict","command collaborator"
+"GitRepository","boundary","RestoreFile","command"
+"GitRepository","boundary","GetChangeSets","property non-void-command collaborator"
+"GitRepository","boundary","GetChangeSets","property non-void-command collaborator"
+"GitRepository","boundary","GetChangeSetsInternal","non-void-command factory collaborator"
+"GitRepository","boundary","ParseChangeSet","property factory controller"
+"GitRepository","boundary","ParseChange","factory controller stateless"
+"GitRepository","boundary","PrepareGitLFS","controller"
+"GitRepository","boundary","PrepareDirectories","command"
+"GitRepository","boundary","ParseStatus","factory controller"
+"GitRepository","boundary","FormatCommitMessage","property non-void-command collaborator"
+"GitRepository","boundary","CalculateSizes","property non-void-command collaborator"
+"GitRepository","boundary","IsSymlink","wrapper stateless"
+"GitRepository","boundary","get","get set collaborator"
+"GitRepository","boundary","get","predicate wrapper"
+"GitRepository","boundary","get","controller stateless"
+"GitRepository","boundary","get","property wrapper"
+"GitRepository","boundary","get","property wrapper"
+"GitRepository","boundary","get","property controller"
+"GitRepository","boundary","get","predicate set"
+"GitRepository","boundary","get","predicate non-void-command"
+"GitRepository","boundary","get","predicate wrapper"
+"GitRepository","boundary","set","wrapper"
+"GitRepository","boundary","get","property non-void-command collaborator"
+"TcpListener","commander","TcpListener","constructor"
+"TcpListener","commander","Connect","command"
+"TcpListener","commander","Disconnect","command"
+"TcpListener","commander","AlsoListenToInternal","command"
+"TcpListener","commander","AnnounceInternal","command collaborator"
+"TcpListener","commander","Dispose","command"
+"TcpListener","commander","CleanMessage","controller stateless"
+"TcpListener","commander","get","get"
+"TcpListener","commander","get","get"
+"GitCommand","empty","GitCommand","constructor"
+"GitCommand","empty","GitCommand","constructor"
+"ChangeSet","data-provider boundary small-class","ToMessage","property wrapper"
+"BaseRepository","commander","BaseRepository","constructor"
+"BaseRepository","commander","RemoteTimerElapsedDelegate","command collaborator"
+"BaseRepository","commander","Initialize","command"
+"BaseRepository","commander","OnFileActivity","command collaborator"
+"BaseRepository","commander","ForceRetry","command"
+"BaseRepository","commander","OnConflictResolved","wrapper stateless"
+"BaseRepository","commander","OnProgressChanged","command"
+"BaseRepository","commander","SyncUpBase","command"
+"BaseRepository","commander","SyncDownBase","command collaborator"
+"BaseRepository","commander","CreateListener","empty"
+"BaseRepository","commander","ListenerConnectedDelegate","command"
+"BaseRepository","commander","ListenerDisconnectedDelegate","command collaborator"
+"BaseRepository","commander","ListenerAnnouncementReceivedDelegate","command collaborator"
+"BaseRepository","commander","CalculateSize","property non-void-command collaborator"
+"BaseRepository","commander","Pause","set"
+"BaseRepository","commander","Resume","command"
+"BaseRepository","commander","Dispose","command"
+"BaseRepository","commander","get","get property collaborator"
+"BaseRepository","commander","get","get set"
+"BaseRepository","commander","get","predicate"
+"StorageTypeInfo","empty","StorageTypeInfo","constructor"
+"BaseListener","entity commander boundary","BaseListener","constructor"
+"BaseListener","entity commander boundary","OnTimerElapsed","command collaborator"
+"BaseListener","entity commander boundary","Announce","command collaborator"
+"BaseListener","entity commander boundary","AlsoListenTo","command"
+"BaseListener","entity commander boundary","Reconnect","wrapper"
+"BaseListener","entity commander boundary","OnConnected","command collaborator"
+"BaseListener","entity commander boundary","OnDisconnected","wrapper"
+"BaseListener","entity commander boundary","OnAnnouncement","command collaborator"
+"BaseListener","entity commander boundary","Dispose","command"
+"BaseListener","entity commander boundary","IsRecentAnnouncement","predicate non-void-command collaborator"
+"BaseListener","entity commander boundary","GetRecentAnnouncements","get set collaborator"
+"BaseListener","entity commander boundary","AddRecentAnnouncement","command collaborator"
+"BaseFetcher","unclassified","BaseFetcher","constructor"
+"BaseFetcher","unclassified","Start","command"
+"BaseFetcher","unclassified","Complete","command"
+"BaseFetcher","unclassified","Complete","property set collaborator"
+"BaseFetcher","unclassified","CreateInitialChangeSet","command"
+"BaseFetcher","unclassified","OnProgressChanged","wrapper"
+"BaseFetcher","unclassified","FormatName","property wrapper"
+"BaseFetcher","unclassified","Dispose","command"
+"BaseFetcher","unclassified","get","property non-void-command"
+"BaseFetcher","unclassified","get","property non-void-command"
+"Spinner","commander small-class","Spinner","constructor"
+"Spinner","commander small-class","Spinner","constructor"
+"Spinner","commander small-class","Start","command"
+"Spinner","commander small-class","Stop","command"
+"NotifyIcon","entity commander boundary","NotifyIcon","constructor"
+"NotifyIcon","entity commander boundary","ShowBalloonTip","command"
+"NotifyIcon","entity commander boundary","Dispose","command"
+"NotifyIcon","entity commander boundary","IAddChild.AddChild","collaborator stateless"
+"NotifyIcon","entity commander boundary","IAddChild.AddText","stateless"
+"NotifyIcon","entity commander boundary","OnVisibilityChanged","collaborator incidental"
+"NotifyIcon","entity commander boundary","OnMouseDown","wrapper stateless"
+"NotifyIcon","entity commander boundary","OnMouseClick","wrapper"
+"NotifyIcon","entity commander boundary","OnMouseDoubleClick","wrapper"
+"NotifyIcon","entity commander boundary","OnMouseUp","command collaborator"
+"NotifyIcon","entity commander boundary","set","set collaborator"
+"NotifyIcon","entity commander boundary","get","property wrapper"
+"NotifyIcon","entity commander boundary","set","wrapper"
+"SparkleLink","empty","SparkleLink","constructor"
+"Link","empty","Link","constructor"
+"SparkleLabel","empty","SparkleLabel","constructor"
+"StatusIconController","entity boundary","StatusIconController","constructor"
+"StatusIconController","entity boundary","UpdateStateText","property set"
+"StatusIconController","entity boundary","GetPausedCount","property wrapper"
+"StatusIconController","entity boundary","RecentEventsClicked","wrapper stateless"
+"StatusIconController","entity boundary","AddHostedProjectClicked","wrapper stateless"
+"StatusIconController","entity boundary","CopyToClipboardClicked","wrapper stateless"
+"StatusIconController","entity boundary","AboutClicked","wrapper stateless"
+"StatusIconController","entity boundary","QuitClicked","wrapper stateless"
+"StatusIconController","entity boundary","ProjectClicked","wrapper stateless"
+"StatusIconController","entity boundary","PauseClicked","command"
+"StatusIconController","entity boundary","ResumeClicked","command"
+"StatusIconController","entity boundary","TryAgainClicked","wrapper stateless"
+"StatusIconController","entity boundary","OpenFolderDelegate","property non-void-command collaborator"
+"StatusIconController","entity boundary","TryAgainDelegate","property non-void-command collaborator"
+"StatusIconController","entity boundary","PauseDelegate","property non-void-command collaborator"
+"StatusIconController","entity boundary","ResumeDelegate","property non-void-command collaborator"
+"StatusIconController","entity boundary","UpdateFolders","set collaborator"
+"StatusIconController","entity boundary","get","incidental"
+"StatusIconController","entity boundary","get","wrapper stateless"
+"StatusIconController","entity boundary","get","predicate"
+"SetupController","commander","SetupController","constructor"
+"SetupController","commander","PageCancelled","command"
+"SetupController","commander","CheckSetupPage","controller stateless"
+"SetupController","commander","SetupPageCancelled","wrapper stateless"
+"SetupController","commander","SetupPageCompleted","wrapper stateless"
+"SetupController","commander","HistoryItemChanged","set"
+"SetupController","commander","SelectedPresetChanged","set"
+"SetupController","commander","CheckAddPage","command"
+"SetupController","commander","AddPageCompleted","command collaborator"
+"SetupController","commander","AddPageFetchedDelegate","set"
+"SetupController","commander","AddPageFetchErrorDelegate","command"
+"SetupController","commander","SyncingPageFetchingDelegate","set"
+"SetupController","commander","InvitePageCompleted","command"
+"SetupController","commander","get","property non-void-command"
+"SetupController","commander","get","get"
+"Controller","boundary lazy-class degenerate","Controller","constructor"
+"Controller","boundary lazy-class degenerate","CreateSparkleShareFolder","wrapper stateless"
+"Controller","boundary lazy-class degenerate","SetFolderIcon","controller"
+"Controller","boundary lazy-class degenerate","CreateStartupItem","wrapper"
+"Controller","boundary lazy-class degenerate","InstallProtocolHandler","empty"
+"Controller","boundary lazy-class degenerate","CopyToClipboard","wrapper stateless"
+"Controller","boundary lazy-class degenerate","OpenFolder","command"
+"Controller","boundary lazy-class degenerate","OpenFile","wrapper stateless"
+"Controller","boundary lazy-class degenerate","PlatformQuit","incidental"
+"Controller","boundary lazy-class degenerate","get","controller stateless"
+"Controller","boundary lazy-class degenerate","get","wrapper stateless"
+"Controller","boundary lazy-class degenerate","get","wrapper stateless"
+"Controller","boundary lazy-class degenerate","get","wrapper stateless"
+"Controller","boundary lazy-class degenerate","Controller","constructor"
+"Controller","boundary lazy-class degenerate","Initialize","command"
+"Controller","boundary lazy-class degenerate","CreateSparkleShareFolder","controller stateless"
+"Controller","boundary lazy-class degenerate","SetFolderIcon","wrapper stateless"
+"Controller","boundary lazy-class degenerate","CreateStartupItem","controller stateless"
+"Controller","boundary lazy-class degenerate","InstallProtocolHandler","empty"
+"Controller","boundary lazy-class degenerate","CopyToClipboard","wrapper stateless"
+"Controller","boundary lazy-class degenerate","OpenFolder","wrapper stateless"
+"Controller","boundary lazy-class degenerate","OpenFile","wrapper stateless"
+"Controller","boundary lazy-class degenerate","OpenWebsite","wrapper stateless"
+"Controller","boundary lazy-class degenerate","MacFileActivityTask","controller stateless"
+"Controller","boundary lazy-class degenerate","OnFilesChanged","command collaborator"
+"Controller","boundary lazy-class degenerate","Invoke","wrapper stateless"
+"Controller","boundary lazy-class degenerate","PlatformQuit","command"
+"Controller","boundary lazy-class degenerate","get","wrapper stateless"
+"Controller","boundary lazy-class degenerate","get","get set"
+"Controller","boundary lazy-class degenerate","get","get set"
+"Controller","boundary lazy-class degenerate","get","get set"
+"Controller","boundary lazy-class degenerate","Controller","constructor"
+"Controller","boundary lazy-class degenerate","Initialize","command"
+"Controller","boundary lazy-class degenerate","SetFolderIcon","wrapper"
+"Controller","boundary lazy-class degenerate","CreateStartupItem","controller stateless"
+"Controller","boundary lazy-class degenerate","InstallProtocolHandler","empty"
+"Controller","boundary lazy-class degenerate","AddToBookmarks","controller"
+"Controller","boundary lazy-class degenerate","CreateSparkleShareFolder","wrapper"
+"Controller","boundary lazy-class degenerate","OpenFile","wrapper stateless"
+"Controller","boundary lazy-class degenerate","OpenFolder","wrapper stateless"
+"Controller","boundary lazy-class degenerate","OpenWebsite","wrapper stateless"
+"Controller","boundary lazy-class degenerate","CopyToClipboard","wrapper stateless"
+"Controller","boundary lazy-class degenerate","Quit","command"
+"Controller","boundary lazy-class degenerate","get","wrapper stateless"
+"Controller","boundary lazy-class degenerate","get","controller stateless"
+"Controller","boundary lazy-class degenerate","get","wrapper stateless"
+"Controller","boundary lazy-class degenerate","get","wrapper stateless"
+"StatusIcon","commander boundary","StatusIcon","constructor"
+"StatusIcon","commander boundary","CreateMenu","command collaborator"
+"StatusIcon","commander boundary","ShowMenu","command collaborator"
+"StatusIcon","commander boundary","SetPosition","wrapper"
+"StatusIcon","commander boundary","StatusIcon","constructor"
+"StatusIcon","commander boundary","CreateMenu","command collaborator"
+"StatusIcon","commander boundary","StatusIcon","constructor"
+"StatusIcon","commander boundary","CreateMenu","command collaborator"
+"Command","unclassified","Command","constructor"
+"Command","unclassified","Command","constructor"
+"Command","unclassified","Start","non-void-command collaborator"
+"Command","unclassified","StartAndWaitForExit","command"
+"Command","unclassified","StartAndReadStandardOutput","property non-void-command"
+"Command","unclassified","StartAndReadStandardError","property non-void-command"
+"Command","unclassified","SetEnvironmentVariable","wrapper stateless"
+"Announcement","empty","Announcement","constructor"
+"NoteController","boundary","NoteController","constructor"
+"NoteController","boundary","CancelClicked","wrapper stateless"
+"NoteController","boundary","SyncClicked","command"
+"NoteController","boundary","WindowClosed","wrapper stateless"
+"NoteController","boundary","OnNoteWindowEvent","set"
+"NoteController","boundary","ResumeWithNote","controller"
+"EventLogController","boundary","EventLogController","constructor"
+"EventLogController","boundary","EventLogController","constructor"
+"EventLogController","boundary","WindowClosed","command"
+"EventLogController","boundary","LinkClicked","command"
+"EventLogController","boundary","SaveDialogCompleted","set collaborator"
+"EventLogController","boundary","SaveDialogCancelled","set"
+"EventLogController","boundary","GetLog","controller stateless"
+"EventLogController","boundary","GetLog","property non-void-command factory collaborator"
+"EventLogController","boundary","GetHistoryHTMLLog","property non-void-command collaborator"
+"EventLogController","boundary","GetHTMLLog","property non-void-command collaborator"
+"EventLogController","boundary","FormatBreadCrumbs","property non-void-command"
+"EventLogController","boundary","SafeCombine","controller stateless"
+"EventLogController","boundary","GetAvatarFilePath","controller stateless"
+"EventLogController","boundary","get","get"
+"EventLogController","boundary","set","set"
+"EventLogController","boundary","get","property non-void-command"
+"EventLogController","boundary","get","wrapper stateless"
+"EventLogController","boundary","get","property non-void-command collaborator"
+"EventLogController","boundary","get","property non-void-command collaborator"
+"Bubbles","small-class","Bubbles","constructor"
+"Bubbles","small-class","ShowBubbleEvent","controller"
+"Bubbles","small-class","Bubbles","constructor"
+"Bubbles","small-class","ShowBubbleEvent","command collaborator"
+"Bubbles","small-class","Bubbles","constructor"
+"EventLog","commander","EventLog","constructor"
+"EventLog","commander","UpdateContent","command"
+"EventLog","commander","CreateWebView","factory collaborator"
+"EventLog","commander","EventLog","constructor"
+"EventLog","commander","EventLog","constructor"
+"EventLog","commander","UpdateChooser","void-accessor command"
+"EventLog","commander","UpdateContent","command"
+"EventLog","commander","HideWindowEventDelegate","command"
+"EventLog","commander","ShowWindowEventDelegate","command"
+"EventLog","commander","UpdateChooserEventDelegate","command"
+"EventLog","commander","UpdateChooserEnablementEventDelegate","set"
+"EventLog","commander","UpdateContentEventDelegate","command"
+"EventLog","commander","ContentLoadingEventDelegate","command"
+"EventLog","commander","UpdateSizeInfoEventDelegate","command"
+"EventLog","commander","ShowSaveDialogEventDelegate","command"
+"EventLog","commander","OrderFrontRegardless","command"
+"EventLog","commander","PerformClose","command collaborator"
+"EventLog","commander","EventLog","constructor"
+"BaseController","commander","AddRepository","command collaborator"
+"BaseController","commander","RemoveRepository","command collaborator"
+"BaseController","commander","GetRepoByName","property controller"
+"BaseController","commander","OpenWebsite","empty"
+"BaseController","commander","BaseController","constructor"
+"BaseController","commander","Initialize","command"
+"BaseController","commander","HandleReopen","set"
+"BaseController","commander","UIHasLoaded","command"
+"BaseController","commander","ShowSetupWindow","wrapper stateless"
+"BaseController","commander","ShowAboutWindow","wrapper stateless"
+"BaseController","commander","ShowNoteWindow","wrapper stateless"
+"BaseController","commander","ShowEventLogWindow","wrapper stateless"
+"BaseController","commander","OpenSparkleShareFolder","wrapper"
+"BaseController","commander","OpenSparkleShareFolder","wrapper stateless"
+"BaseController","commander","ToggleNotifications","command"
+"BaseController","commander","CheckRepositories","command"
+"BaseController","commander","DetectRepositoryRenames","command"
+"BaseController","commander","RemoveDeletedRepositories","command"
+"BaseController","commander","AddRepository","command"
+"BaseController","commander","OnFolderActivity","command collaborator"
+"BaseController","commander","StartupInviteScan","command"
+"BaseController","commander","HandleInvite","command collaborator"
+"BaseController","commander","HandleInvite","wrapper"
+"BaseController","commander","UpdateState","wrapper stateless"
+"BaseController","commander","StartFetcher","void-accessor command collaborator"
+"BaseController","commander","FetcherFinishedDelegate","command"
+"BaseController","commander","FetcherFailedDelegate","command"
+"BaseController","commander","FetcherProgressChangedDelgate","wrapper stateless"
+"BaseController","commander","StopFetcher","command"
+"BaseController","commander","CheckPassword","predicate non-void-command"
+"BaseController","commander","FinishFetcher","command"
+"BaseController","commander","FinishFetcher","command collaborator"
+"BaseController","commander","DetermineFolderPath","property non-void-command"
+"BaseController","commander","Quit","controller stateless"
+"BaseController","commander","ClearDirectoryAttributes","command"
+"BaseController","commander","get","property non-void-command collaborator"
+"BaseController","commander","get","predicate non-void-command"
+"BaseController","commander","get","property"
+"BaseController","commander","get","property collaborator"
+"BaseController","commander","set","set collaborator"
+"BaseController","commander","get","predicate non-void-command"
+"BaseController","commander","get","predicate non-void-command"
+"BaseController","commander","get","property non-void-command"
+"BaseController","commander","get","property collaborator"
+"Setup","unclassified","Setup","constructor"
+"Setup","unclassified","ShowPage","command collaborator"
+"Setup","unclassified","RenderServiceColumn","controller stateless"
+"Setup","unclassified","Setup","constructor"
+"Setup","unclassified","ShowPage","command"
+"Setup","unclassified","Setup","constructor"
+"Preset","unclassified","Preset","constructor"
+"Preset","unclassified","GetValue","wrapper stateless"
+"Preset","unclassified","get","property non-void-command collaborator"
+"Preset","unclassified","get","property non-void-command"
+"Preset","unclassified","get","property non-void-command"
+"Preset","unclassified","get","property non-void-command"
+"Preset","unclassified","get","property non-void-command"
+"Preset","unclassified","get","property non-void-command"
+"Preset","unclassified","get","property non-void-command"
+"Preset","unclassified","get","property non-void-command"
+"Preset","unclassified","get","property non-void-command"
+"Preset","unclassified","get","property non-void-command"
+"Preset","unclassified","get","predicate non-void-command"
+"AboutController","small-class","AboutController","constructor"
+"AboutController","small-class","WindowClosed","wrapper stateless"
+"AboutController","small-class","CheckForNewVersion","controller"
+"ProjectInfo","data-provider","ProjectInfo","constructor"
+"ProjectInfo","data-provider","get","property"
+"ProjectInfo","data-provider","get","property"
+"ProjectInfo","data-provider","get","predicate"
+"ProjectInfo","data-provider","get","predicate"
+"ProjectInfo","data-provider","get","property non-void-command"
+"ProjectInfo","data-provider","get","property set collaborator"
+"SetupWindow","commander boundary","SetupWindow","constructor"
+"SetupWindow","commander boundary","CreateButtonBox","factory collaborator incidental"
+"SetupWindow","commander boundary","AddButton","command collaborator"
+"SetupWindow","commander boundary","AddOption","command collaborator"
+"SetupWindow","commander boundary","Add","non-void-command collaborator"
+"SetupWindow","commander boundary","Reset","command collaborator"
+"SetupWindow","commander boundary","ShowAll","non-void-command collaborator"
+"SetupWindow","commander boundary","SetupWindow","constructor"
+"SetupWindow","commander boundary","Reset","command"
+"SetupWindow","commander boundary","ShowAll","command collaborator"
+"SetupWindow","commander boundary","OrderFrontRegardless","command"
+"SetupWindow","commander boundary","PerformClose","wrapper"
+"SetupWindow","commander boundary","AcceptsFirstResponder","incidental"
+"SetupWindow","commander boundary","SetupWindow","constructor"
+"SetupWindow","commander boundary","Reset","command"
+"SetupWindow","commander boundary","ShowAll","command collaborator"
+"SetupWindow","commander boundary","Close","collaborator incidental"
+"Shortcut","commander small-class","Shortcut","constructor"
+"Shortcut","commander small-class","Create","command"
+"Shortcut","commander small-class","Dispose","set"
+"Shortcut","commander small-class","~Shortcut","destructor"
+"SparkleMenuItem","empty","SparkleMenuItem","constructor"
+"SparkleMenuItem","empty","SparkleMenuItem","constructor"
+"UserInterface","commander boundary","UserInterface","constructor"
+"UserInterface","commander boundary","Run","command collaborator"
+"UserInterface","commander boundary","ParseArgs","set"
+"UserInterface","commander boundary","ApplicationActivatedDelegate","command collaborator"
+"UserInterface","commander boundary","DetectTextColors","command collaborator"
+"UserInterface","commander boundary","UserInterface","constructor"
+"UserInterface","commander boundary","Run","wrapper stateless"
+"UserInterface","commander boundary","UserInterface","constructor"
+"UserInterface","commander boundary","UserInterface","constructor"
+"UserInterface","commander boundary","Run","command"
+"GitFetcher","unclassified","GitFetcher","constructor"
+"GitFetcher","unclassified","Fetch","predicate non-void-command collaborator"
+"GitFetcher","unclassified","Stop","command"
+"GitFetcher","unclassified","Complete","property non-void-command collaborator"
+"GitFetcher","unclassified","EnableFetchedRepoCrypto","controller"
+"GitFetcher","unclassified","IsFetchedRepoPasswordCorrect","predicate controller"
+"GitFetcher","unclassified","FormatName","property controller"
+"GitFetcher","unclassified","DetermineStorageType","property set collaborator"
+"GitFetcher","unclassified","InstallConfiguration","controller"
+"GitFetcher","unclassified","InstallExcludeRules","wrapper"
+"GitFetcher","unclassified","InstallAttributeRules","controller"
+"GitFetcher","unclassified","InstallGitLFS","controller"
+"GitFetcher","unclassified","get","predicate controller"
+"SparkleFolder","data-provider boundary small-class","SparkleFolder","constructor"
+"SparkleFolder","data-provider boundary small-class","get","property wrapper"
+"Note","entity commander boundary","Note","constructor"
+"Note","entity commander boundary","CreateNote","command collaborator"
+"Note","entity commander boundary","Note","constructor"
+"Note","entity commander boundary","Note","constructor"
+"Note","entity commander boundary","CreateNote","command"
+"Note","entity commander boundary","OrderFrontRegardless","command"
+"Note","entity commander boundary","PerformClose","command collaborator"
+"Note","entity commander boundary","AcceptsFirstResponder","incidental"
+"Note","entity commander boundary","Note","constructor"
+"Note","entity commander boundary","CreateNote","command collaborator"
+"Note","entity commander boundary","OnClosing","void-accessor command collaborator"
+"Note","entity commander boundary","OnTextBoxGotFocus","set collaborator"
+"Note","entity commander boundary","OnTextBoxLostFocus","set collaborator"
+"SparkleEventsDelegate","boundary degenerate small-class","WillResize","wrapper stateless"
+"SparkleEventsDelegate","boundary degenerate small-class","WindowShouldClose","wrapper stateless"
+"SSHFetcher","unclassified","SSHFetcher","constructor"
+"SSHFetcher","unclassified","Fetch","predicate non-void-command"
+"SSHFetcher","unclassified","FetchHostKey","property controller"
+"SSHFetcher","unclassified","DeriveFingerprint","controller stateless"
+"SSHFetcher","unclassified","AcceptHostKey","command"
+"AppDelegate","boundary degenerate small-class","ApplicationShouldHandleReopen","wrapper stateless"
+"SparkleTableViewDelegate","boundary degenerate small-class","SelectionDidChange","wrapper stateless"
+"SparkleWebPolicyDelegate","pure-controller degenerate small-class","DecidePolicyForNavigation","controller stateless"
+"SSHAuthenticationInfo","unclassified","SSHAuthenticationInfo","constructor"
+"SSHAuthenticationInfo","unclassified","ImportKeys","command"
+"SSHAuthenticationInfo","unclassified","CreateKeyPair","predicate non-void-command collaborator"
+"SSHAuthenticationInfo","unclassified","MakeWindowsDomainAccountSafe","controller stateless"
+"BubblesController","boundary small-class","BubblesController","constructor"
+"BubblesController","boundary small-class","BubblesController","constructor"
+"BubblesController","boundary small-class","ShowBubble","wrapper"
+"BubblesController","boundary small-class","BubbleClicked","wrapper stateless"
+"SparkleDataSource","controller small-class","SparkleDataSource","constructor"
+"SparkleDataSource","controller small-class","numberOfRowsInTableView","property wrapper"
+"SparkleDataSource","controller small-class","objectValueForTableColumn","get property factory controller"
+"Configuration","boundary","Configuration","constructor"
+"Configuration","boundary","CreateInitialConfig","controller stateless"
+"Configuration","boundary","AddFolder","command collaborator"
+"Configuration","boundary","RemoveFolder","command collaborator"
+"Configuration","boundary","RenameFolder","command collaborator"
+"Configuration","boundary","BackendByName","property non-void-command"
+"Configuration","boundary","IdentifierByName","property non-void-command"
+"Configuration","boundary","UrlByName","property non-void-command"
+"Configuration","boundary","IdentifierExists","controller stateless"
+"Configuration","boundary","SetFolderOptionalAttribute","predicate non-void-command collaborator"
+"Configuration","boundary","GetFolderOptionalAttribute","property non-void-command collaborator"
+"Configuration","boundary","GetConfigOption","wrapper stateless"
+"Configuration","boundary","SetConfigOption","command collaborator"
+"Configuration","boundary","FolderByName","wrapper stateless"
+"Configuration","boundary","FolderValueByKey","property non-void-command collaborator"
+"Configuration","boundary","Save","command"
+"Configuration","boundary","get","wrapper stateless"
+"Configuration","boundary","get","property non-void-command"
+"Configuration","boundary","get","factory wrapper stateless"
+"Configuration","boundary","set","non-void-command collaborator"
+"Configuration","boundary","get","controller stateless"
+"SparkleTextFieldDelegate","boundary degenerate small-class","Changed","wrapper stateless"
+"SparkleMacWatcher","commander","~SparkleMacWatcher","destructor"
+"SparkleMacWatcher","commander","SparkleMacWatcher","constructor"
+"SparkleMacWatcher","commander","Dispose","command"
+"SparkleMacWatcher","commander","Dispose","set"
+"SparkleMacWatcher","commander","checkDirectory","set collaborator"
+"SparkleMacWatcher","commander","DoCallback","command collaborator"
+"About","entity commander boundary","About","constructor"
+"About","entity commander boundary","CreateAbout","set collaborator"
+"About","entity commander boundary","About","constructor"
+"About","entity commander boundary","About","constructor"
+"About","entity commander boundary","CreateAbout","command"
+"About","entity commander boundary","OrderFrontRegardless","command"
+"About","entity commander boundary","PerformClose","command collaborator"
+"About","entity commander boundary","About","constructor"
+"About","entity commander boundary","CreateAbout","set collaborator"
+"About","entity commander boundary","Close","void-accessor command collaborator"
+"SparkleInviteOpen","empty","SparkleInviteOpen","constructor"

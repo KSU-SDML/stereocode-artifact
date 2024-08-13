@@ -1,515 +1,543 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"SystemUtil","empty","SystemUtil","constructor",
-"PageResult","data-class","PageResult","constructor",
-"PageResult","data-class","getTotalCount","get",
-"PageResult","data-class","setTotalCount","set",
-"PageResult","data-class","getPageSize","get",
-"PageResult","data-class","setPageSize","set",
-"PageResult","data-class","getTotalPage","get",
-"PageResult","data-class","setTotalPage","set",
-"PageResult","data-class","getCurrPage","get",
-"PageResult","data-class","setCurrPage","set",
-"PageResult","data-class","getList","get",
-"PageResult","data-class","setList","set",
-"PageQueryUtil","unclassified","PageQueryUtil","constructor",
-"PageQueryUtil","unclassified","getPage","get",
-"PageQueryUtil","unclassified","setPage","set",
-"PageQueryUtil","unclassified","getLimit","get",
-"PageQueryUtil","unclassified","setLimit","set",
-"PageQueryUtil","unclassified","toString","property",
-"NumberUtil","empty","NumberUtil","constructor",
-"NewBeeMallUserServiceImpl","entity boundary","getNewBeeMallUsersPage","non-void-command factory collaborator",
-"NewBeeMallUserServiceImpl","entity boundary","register","property non-void-command",
-"NewBeeMallUserServiceImpl","entity boundary","login","property non-void-command collaborator",
-"NewBeeMallUserServiceImpl","entity boundary","updateUserInfo","property non-void-command factory collaborator",
-"NewBeeMallUserServiceImpl","entity boundary","lockUsers","property non-void-command collaborator",
-"NewBeeMallCategoryServiceImpl","entity boundary","getCategorisPage","non-void-command factory collaborator",
-"NewBeeMallCategoryServiceImpl","entity boundary","saveCategory","property non-void-command collaborator",
-"NewBeeMallCategoryServiceImpl","entity boundary","updateGoodsCategory","property non-void-command collaborator",
-"NewBeeMallCategoryServiceImpl","entity boundary","getGoodsCategoryById","property non-void-command collaborator",
-"NewBeeMallCategoryServiceImpl","entity boundary","deleteBatch","property non-void-command collaborator",
-"NewBeeMallCategoryServiceImpl","entity boundary","getCategoriesForIndex","property non-void-command factory collaborator",
-"NewBeeMallCategoryServiceImpl","entity boundary","getCategoriesForSearch","property non-void-command factory collaborator",
-"NewBeeMallCategoryServiceImpl","entity boundary","selectByLevelAndParentIdsAndNumber","property non-void-command collaborator",
-"NewBeeMallCarouselServiceImpl","entity boundary","getCarouselPage","non-void-command factory collaborator",
-"NewBeeMallCarouselServiceImpl","entity boundary","saveCarousel","property non-void-command collaborator",
-"NewBeeMallCarouselServiceImpl","entity boundary","updateCarousel","property non-void-command collaborator",
-"NewBeeMallCarouselServiceImpl","entity boundary","getCarouselById","property non-void-command collaborator",
-"NewBeeMallCarouselServiceImpl","entity boundary","deleteBatch","property non-void-command collaborator",
-"NewBeeMallCarouselServiceImpl","entity boundary","getCarouselsForIndex","non-void-command factory collaborator",
-"AdminUserServiceImpl","entity boundary","login","property non-void-command collaborator",
-"AdminUserServiceImpl","entity boundary","getUserDetailById","property non-void-command collaborator",
-"AdminUserServiceImpl","entity boundary","updatePassword","property non-void-command collaborator",
-"AdminUserServiceImpl","entity boundary","updateName","property non-void-command collaborator",
-"NewBeeMallOrderListVO","data-class","getOrderId","get",
-"NewBeeMallOrderListVO","data-class","setOrderId","set",
-"NewBeeMallOrderListVO","data-class","getOrderNo","get",
-"NewBeeMallOrderListVO","data-class","setOrderNo","set",
-"NewBeeMallOrderListVO","data-class","getTotalPrice","get",
-"NewBeeMallOrderListVO","data-class","setTotalPrice","set",
-"NewBeeMallOrderListVO","data-class","getPayType","get",
-"NewBeeMallOrderListVO","data-class","setPayType","set",
-"NewBeeMallOrderListVO","data-class","getOrderStatus","get",
-"NewBeeMallOrderListVO","data-class","setOrderStatus","set",
-"NewBeeMallOrderListVO","data-class","getOrderStatusString","get",
-"NewBeeMallOrderListVO","data-class","setOrderStatusString","set",
-"NewBeeMallOrderListVO","data-class","getUserAddress","get",
-"NewBeeMallOrderListVO","data-class","setUserAddress","set",
-"NewBeeMallOrderListVO","data-class","getCreateTime","get collaborator",
-"NewBeeMallOrderListVO","data-class","setCreateTime","set collaborator",
-"NewBeeMallOrderListVO","data-class","getNewBeeMallOrderItemVOS","get factory collaborator",
-"NewBeeMallOrderListVO","data-class","setNewBeeMallOrderItemVOS","set collaborator",
-"NewBeeMallShoppingCartItem","unclassified","getCartItemId","get",
-"NewBeeMallShoppingCartItem","unclassified","setCartItemId","set",
-"NewBeeMallShoppingCartItem","unclassified","getUserId","get",
-"NewBeeMallShoppingCartItem","unclassified","setUserId","set",
-"NewBeeMallShoppingCartItem","unclassified","getGoodsId","get",
-"NewBeeMallShoppingCartItem","unclassified","setGoodsId","set",
-"NewBeeMallShoppingCartItem","unclassified","getGoodsCount","get",
-"NewBeeMallShoppingCartItem","unclassified","setGoodsCount","set",
-"NewBeeMallShoppingCartItem","unclassified","getIsDeleted","get",
-"NewBeeMallShoppingCartItem","unclassified","setIsDeleted","set",
-"NewBeeMallShoppingCartItem","unclassified","getCreateTime","get collaborator",
-"NewBeeMallShoppingCartItem","unclassified","setCreateTime","set collaborator",
-"NewBeeMallShoppingCartItem","unclassified","getUpdateTime","get collaborator",
-"NewBeeMallShoppingCartItem","unclassified","setUpdateTime","set collaborator",
-"NewBeeMallShoppingCartItem","unclassified","toString","property controller",
-"NewBeeMallSearchGoodsVO","data-class","getGoodsId","get",
-"NewBeeMallSearchGoodsVO","data-class","setGoodsId","set",
-"NewBeeMallSearchGoodsVO","data-class","getGoodsName","get",
-"NewBeeMallSearchGoodsVO","data-class","setGoodsName","set",
-"NewBeeMallSearchGoodsVO","data-class","getGoodsIntro","get",
-"NewBeeMallSearchGoodsVO","data-class","setGoodsIntro","set",
-"NewBeeMallSearchGoodsVO","data-class","getGoodsCoverImg","get",
-"NewBeeMallSearchGoodsVO","data-class","setGoodsCoverImg","set",
-"NewBeeMallSearchGoodsVO","data-class","getSellingPrice","get",
-"NewBeeMallSearchGoodsVO","data-class","setSellingPrice","set",
-"NewBeeMallIndexConfigServiceImpl","entity boundary","getConfigsPage","non-void-command factory collaborator",
-"NewBeeMallIndexConfigServiceImpl","entity boundary","saveIndexConfig","property non-void-command collaborator",
-"NewBeeMallIndexConfigServiceImpl","entity boundary","updateIndexConfig","property non-void-command collaborator",
-"NewBeeMallIndexConfigServiceImpl","entity boundary","getIndexConfigById","collaborator incidental",
-"NewBeeMallIndexConfigServiceImpl","entity boundary","getConfigGoodsesForIndex","non-void-command factory collaborator",
-"NewBeeMallIndexConfigServiceImpl","entity boundary","deleteBatch","property non-void-command collaborator",
-"NewBeeMallOrderDetailVO","data-class","getOrderNo","get",
-"NewBeeMallOrderDetailVO","data-class","setOrderNo","set",
-"NewBeeMallOrderDetailVO","data-class","getTotalPrice","get",
-"NewBeeMallOrderDetailVO","data-class","setTotalPrice","set",
-"NewBeeMallOrderDetailVO","data-class","getPayStatus","get",
-"NewBeeMallOrderDetailVO","data-class","setPayStatus","set",
-"NewBeeMallOrderDetailVO","data-class","getPayType","get",
-"NewBeeMallOrderDetailVO","data-class","setPayType","set",
-"NewBeeMallOrderDetailVO","data-class","getPayTime","get collaborator",
-"NewBeeMallOrderDetailVO","data-class","setPayTime","set collaborator",
-"NewBeeMallOrderDetailVO","data-class","getOrderStatus","get",
-"NewBeeMallOrderDetailVO","data-class","setOrderStatus","set",
-"NewBeeMallOrderDetailVO","data-class","getUserAddress","get",
-"NewBeeMallOrderDetailVO","data-class","setUserAddress","set",
-"NewBeeMallOrderDetailVO","data-class","getCreateTime","get collaborator",
-"NewBeeMallOrderDetailVO","data-class","setCreateTime","set collaborator",
-"NewBeeMallOrderDetailVO","data-class","getPayStatusString","get",
-"NewBeeMallOrderDetailVO","data-class","setPayStatusString","set",
-"NewBeeMallOrderDetailVO","data-class","getPayTypeString","get",
-"NewBeeMallOrderDetailVO","data-class","setPayTypeString","set",
-"NewBeeMallOrderDetailVO","data-class","getOrderStatusString","get",
-"NewBeeMallOrderDetailVO","data-class","setOrderStatusString","set",
-"NewBeeMallOrderDetailVO","data-class","getNewBeeMallOrderItemVOS","get factory collaborator",
-"NewBeeMallOrderDetailVO","data-class","setNewBeeMallOrderItemVOS","set collaborator",
-"Result<T>","unclassified","Result","constructor",
-"Result<T>","unclassified","Result","constructor",
-"Result<T>","unclassified","getResultCode","get",
-"Result<T>","unclassified","setResultCode","set",
-"Result<T>","unclassified","getMessage","get",
-"Result<T>","unclassified","setMessage","set",
-"Result<T>","unclassified","getData","get collaborator",
-"Result<T>","unclassified","setData","set collaborator",
-"Result<T>","unclassified","toString","property",
-"NewBeeMallGoodsCategoryController","boundary","categoriesPage","controller stateless",
-"NewBeeMallGoodsCategoryController","boundary","list","property non-void-command collaborator",
-"NewBeeMallGoodsCategoryController","boundary","listForSelect","property non-void-command collaborator",
-"NewBeeMallGoodsCategoryController","boundary","save","property non-void-command collaborator",
-"NewBeeMallGoodsCategoryController","boundary","update","property non-void-command collaborator",
-"NewBeeMallGoodsCategoryController","boundary","info","property non-void-command collaborator",
-"NewBeeMallGoodsCategoryController","boundary","delete","property non-void-command collaborator",
-"NewBeeMallIndexConfigGoodsVO","data-class","getGoodsId","get",
-"NewBeeMallIndexConfigGoodsVO","data-class","setGoodsId","set",
-"NewBeeMallIndexConfigGoodsVO","data-class","getGoodsName","get",
-"NewBeeMallIndexConfigGoodsVO","data-class","setGoodsName","set",
-"NewBeeMallIndexConfigGoodsVO","data-class","getGoodsIntro","get",
-"NewBeeMallIndexConfigGoodsVO","data-class","setGoodsIntro","set",
-"NewBeeMallIndexConfigGoodsVO","data-class","getGoodsCoverImg","get",
-"NewBeeMallIndexConfigGoodsVO","data-class","setGoodsCoverImg","set",
-"NewBeeMallIndexConfigGoodsVO","data-class","getSellingPrice","get",
-"NewBeeMallIndexConfigGoodsVO","data-class","setSellingPrice","set",
-"NewBeeMallIndexConfigGoodsVO","data-class","getTag","get",
-"NewBeeMallIndexConfigGoodsVO","data-class","setTag","set",
-"ShoppingCartController","entity boundary","cartListPage","property non-void-command collaborator",
-"ShoppingCartController","entity boundary","saveNewBeeMallShoppingCartItem","property non-void-command collaborator",
-"ShoppingCartController","entity boundary","updateNewBeeMallShoppingCartItem","property non-void-command collaborator",
-"ShoppingCartController","entity boundary","updateNewBeeMallShoppingCartItem","property non-void-command collaborator",
-"ShoppingCartController","entity boundary","settlePage","property non-void-command collaborator",
-"PersonalController","boundary degenerate","personalPage","controller stateless",
-"PersonalController","boundary degenerate","logout","controller stateless",
-"PersonalController","boundary degenerate","loginPage","incidental",
-"PersonalController","boundary degenerate","registerPage","incidental",
-"PersonalController","boundary degenerate","addressesPage","incidental",
-"PersonalController","boundary degenerate","login","property non-void-command collaborator",
-"PersonalController","boundary degenerate","register","property non-void-command collaborator",
-"PersonalController","boundary degenerate","updateInfo","property non-void-command collaborator",
-"GoodsController","entity boundary small-class","searchPage","property non-void-command collaborator",
-"GoodsController","entity boundary small-class","detailPage","property non-void-command collaborator",
-"NewBeeMallCarouselController","boundary","carouselPage","controller stateless",
-"NewBeeMallCarouselController","boundary","list","property non-void-command collaborator",
-"NewBeeMallCarouselController","boundary","save","property non-void-command collaborator",
-"NewBeeMallCarouselController","boundary","update","property non-void-command collaborator",
-"NewBeeMallCarouselController","boundary","info","property non-void-command collaborator",
-"NewBeeMallCarouselController","boundary","delete","property non-void-command collaborator",
-"NewBeeMallOrderItemVO","data-class","getGoodsId","get",
-"NewBeeMallOrderItemVO","data-class","setGoodsId","set",
-"NewBeeMallOrderItemVO","data-class","getGoodsName","get",
-"NewBeeMallOrderItemVO","data-class","setGoodsName","set",
-"NewBeeMallOrderItemVO","data-class","getGoodsCoverImg","get",
-"NewBeeMallOrderItemVO","data-class","setGoodsCoverImg","set",
-"NewBeeMallOrderItemVO","data-class","getSellingPrice","get",
-"NewBeeMallOrderItemVO","data-class","setSellingPrice","set",
-"NewBeeMallOrderItemVO","data-class","getGoodsCount","get",
-"NewBeeMallOrderItemVO","data-class","setGoodsCount","set",
-"AdminUser","unclassified","getAdminUserId","get",
-"AdminUser","unclassified","setAdminUserId","set",
-"AdminUser","unclassified","getLoginUserName","get",
-"AdminUser","unclassified","setLoginUserName","set",
-"AdminUser","unclassified","getLoginPassword","get",
-"AdminUser","unclassified","setLoginPassword","set",
-"AdminUser","unclassified","getNickName","get",
-"AdminUser","unclassified","setNickName","set",
-"AdminUser","unclassified","getLocked","get",
-"AdminUser","unclassified","setLocked","set",
-"AdminUser","unclassified","toString","property controller",
-"NewBeeMallIndexCategoryVO","data-class","getCategoryId","get",
-"NewBeeMallIndexCategoryVO","data-class","setCategoryId","set",
-"NewBeeMallIndexCategoryVO","data-class","getCategoryLevel","get",
-"NewBeeMallIndexCategoryVO","data-class","setCategoryLevel","set",
-"NewBeeMallIndexCategoryVO","data-class","getCategoryName","get",
-"NewBeeMallIndexCategoryVO","data-class","setCategoryName","set",
-"NewBeeMallIndexCategoryVO","data-class","getSecondLevelCategoryVOS","get collaborator",
-"NewBeeMallIndexCategoryVO","data-class","setSecondLevelCategoryVOS","set collaborator",
-"NewBeeMallCartNumberInterceptor","degenerate","preHandle","predicate non-void-command collaborator",
-"NewBeeMallCartNumberInterceptor","degenerate","postHandle","empty",
-"NewBeeMallCartNumberInterceptor","degenerate","afterCompletion","empty",
-"NewBeeMallExceptionHandler","factory pure-controller degenerate small-class","handleException","factory controller stateless",
-"ErrorPageController","factory degenerate small-class","ErrorPageController","constructor",
-"ErrorPageController","factory degenerate small-class","ErrorPageController","constructor",
-"ErrorPageController","factory degenerate small-class","resolveErrorView","factory collaborator stateless",
-"NewBeeMallShoppingCartItemVO","data-class","getGoodsId","get",
-"NewBeeMallShoppingCartItemVO","data-class","setGoodsId","set",
-"NewBeeMallShoppingCartItemVO","data-class","getGoodsName","get",
-"NewBeeMallShoppingCartItemVO","data-class","setGoodsName","set",
-"NewBeeMallShoppingCartItemVO","data-class","getGoodsCoverImg","get",
-"NewBeeMallShoppingCartItemVO","data-class","setGoodsCoverImg","set",
-"NewBeeMallShoppingCartItemVO","data-class","getSellingPrice","get",
-"NewBeeMallShoppingCartItemVO","data-class","setSellingPrice","set",
-"NewBeeMallShoppingCartItemVO","data-class","getCartItemId","get",
-"NewBeeMallShoppingCartItemVO","data-class","setCartItemId","set",
-"NewBeeMallShoppingCartItemVO","data-class","getGoodsCount","get",
-"NewBeeMallShoppingCartItemVO","data-class","setGoodsCount","set",
-"SearchPageCategoryVO","data-class","getFirstLevelCategoryName","get",
-"SearchPageCategoryVO","data-class","setFirstLevelCategoryName","set",
-"SearchPageCategoryVO","data-class","getSecondLevelCategoryList","get collaborator",
-"SearchPageCategoryVO","data-class","setSecondLevelCategoryList","set collaborator",
-"SearchPageCategoryVO","data-class","getSecondLevelCategoryName","get",
-"SearchPageCategoryVO","data-class","setSecondLevelCategoryName","set",
-"SearchPageCategoryVO","data-class","getThirdLevelCategoryList","get collaborator",
-"SearchPageCategoryVO","data-class","setThirdLevelCategoryList","set collaborator",
-"SearchPageCategoryVO","data-class","getCurrentCategoryName","get",
-"SearchPageCategoryVO","data-class","setCurrentCategoryName","set",
-"SecondLevelCategoryVO","data-class","getCategoryId","get",
-"SecondLevelCategoryVO","data-class","setCategoryId","set",
-"SecondLevelCategoryVO","data-class","getCategoryLevel","get",
-"SecondLevelCategoryVO","data-class","setCategoryLevel","set",
-"SecondLevelCategoryVO","data-class","getCategoryName","get",
-"SecondLevelCategoryVO","data-class","setCategoryName","set",
-"SecondLevelCategoryVO","data-class","getThirdLevelCategoryVOS","get collaborator",
-"SecondLevelCategoryVO","data-class","setThirdLevelCategoryVOS","set collaborator",
-"SecondLevelCategoryVO","data-class","getParentId","get",
-"SecondLevelCategoryVO","data-class","setParentId","set",
-"NewBeeMallLoginInterceptor","pure-controller degenerate","preHandle","controller stateless",
-"NewBeeMallLoginInterceptor","pure-controller degenerate","postHandle","empty",
-"NewBeeMallLoginInterceptor","pure-controller degenerate","afterCompletion","empty",
-"NewBeeMallGoodsIndexConfigController","boundary","indexConfigsPage","controller stateless",
-"NewBeeMallGoodsIndexConfigController","boundary","list","property non-void-command collaborator",
-"NewBeeMallGoodsIndexConfigController","boundary","save","property non-void-command collaborator",
-"NewBeeMallGoodsIndexConfigController","boundary","update","property non-void-command collaborator",
-"NewBeeMallGoodsIndexConfigController","boundary","info","property non-void-command collaborator",
-"NewBeeMallGoodsIndexConfigController","boundary","delete","property non-void-command collaborator",
-"NewBeeMallShoppingCartServiceImpl","entity","saveNewBeeMallCartItem","property non-void-command collaborator",
-"NewBeeMallShoppingCartServiceImpl","entity","updateNewBeeMallCartItem","property non-void-command collaborator",
-"NewBeeMallShoppingCartServiceImpl","entity","getNewBeeMallCartItemById","property non-void-command factory collaborator",
-"NewBeeMallShoppingCartServiceImpl","entity","deleteById","property non-void-command factory collaborator",
-"NewBeeMallShoppingCartServiceImpl","entity","getMyShoppingCartItems","non-void-command factory collaborator",
-"NewBeeMallGoodsController","boundary","goodsPage","controller stateless",
-"NewBeeMallGoodsController","boundary","edit","property non-void-command collaborator",
-"NewBeeMallGoodsController","boundary","edit","property non-void-command collaborator",
-"NewBeeMallGoodsController","boundary","list","property non-void-command collaborator",
-"NewBeeMallGoodsController","boundary","save","property non-void-command collaborator",
-"NewBeeMallGoodsController","boundary","update","property non-void-command collaborator",
-"NewBeeMallGoodsController","boundary","info","property non-void-command collaborator",
-"NewBeeMallGoodsController","boundary","delete","property non-void-command collaborator",
-"OrderController","entity boundary","orderDetailPage","property non-void-command collaborator",
-"OrderController","entity boundary","orderListPage","property non-void-command collaborator",
-"OrderController","entity boundary","saveOrder","property non-void-command collaborator",
-"OrderController","entity boundary","cancelOrder","property non-void-command collaborator",
-"OrderController","entity boundary","finishOrder","property non-void-command collaborator",
-"OrderController","entity boundary","selectPayType","property non-void-command collaborator",
-"OrderController","entity boundary","payOrder","property non-void-command collaborator",
-"OrderController","entity boundary","paySuccess","property non-void-command collaborator",
-"NewBeeMallException","empty","NewBeeMallException","constructor",
-"NewBeeMallException","empty","NewBeeMallException","constructor",
-"NeeBeeMallWebMvcConfigurer","pure-controller small-class","addInterceptors","controller",
-"NeeBeeMallWebMvcConfigurer","pure-controller small-class","addResourceHandlers","controller stateless",
-"UploadController","small-class","upload","controller stateless",
-"UploadController","small-class","uploadV2","property non-void-command collaborator",
-"AdminController","boundary","login","incidental",
-"AdminController","boundary","test","incidental",
-"AdminController","boundary","index","controller stateless",
-"AdminController","boundary","login","property non-void-command collaborator",
-"AdminController","boundary","profile","property non-void-command collaborator",
-"AdminController","boundary","passwordUpdate","property non-void-command collaborator",
-"AdminController","boundary","nameUpdate","property non-void-command collaborator",
-"AdminController","boundary","logout","controller stateless",
-"NewBeeMallOrderServiceImpl","entity boundary","getNewBeeMallOrdersPage","non-void-command factory collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","updateOrderInfo","property non-void-command collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","checkDone","property non-void-command collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","checkOut","property non-void-command collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","closeOrder","property non-void-command collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","saveOrder","property non-void-command collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","getOrderDetailByOrderNo","non-void-command factory collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","getNewBeeMallOrderByOrderNo","property non-void-command factory collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","getMyOrders","non-void-command factory collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","cancelOrder","property non-void-command collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","finishOrder","property non-void-command collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","paySuccess","property non-void-command collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","getOrderItems","property non-void-command factory collaborator",
-"NewBeeMallOrderServiceImpl","entity boundary","recoverStockNum","property non-void-command collaborator",
-"IndexController","entity boundary small-class","indexPage","property non-void-command collaborator",
-"NewBeeMallOrderController","boundary","ordersPage","controller stateless",
-"NewBeeMallOrderController","boundary","list","property non-void-command collaborator",
-"NewBeeMallOrderController","boundary","update","property non-void-command collaborator",
-"NewBeeMallOrderController","boundary","info","property non-void-command collaborator",
-"NewBeeMallOrderController","boundary","checkDone","property non-void-command collaborator",
-"NewBeeMallOrderController","boundary","checkOut","property non-void-command collaborator",
-"NewBeeMallOrderController","boundary","closeOrder","property non-void-command collaborator",
-"CommonController","pure-controller degenerate small-class","defaultKaptcha","controller stateless",
-"CommonController","pure-controller degenerate small-class","mallKaptcha","controller stateless",
-"ThirdLevelCategoryVO","data-class","getCategoryId","get",
-"ThirdLevelCategoryVO","data-class","setCategoryId","set",
-"ThirdLevelCategoryVO","data-class","getCategoryLevel","get",
-"ThirdLevelCategoryVO","data-class","setCategoryLevel","set",
-"ThirdLevelCategoryVO","data-class","getCategoryName","get",
-"ThirdLevelCategoryVO","data-class","setCategoryName","set",
-"NewBeeMallGoods","unclassified","getGoodsId","get",
-"NewBeeMallGoods","unclassified","setGoodsId","set",
-"NewBeeMallGoods","unclassified","getGoodsName","get",
-"NewBeeMallGoods","unclassified","setGoodsName","set",
-"NewBeeMallGoods","unclassified","getGoodsIntro","get",
-"NewBeeMallGoods","unclassified","setGoodsIntro","set",
-"NewBeeMallGoods","unclassified","getGoodsCategoryId","get",
-"NewBeeMallGoods","unclassified","setGoodsCategoryId","set",
-"NewBeeMallGoods","unclassified","getGoodsCoverImg","get",
-"NewBeeMallGoods","unclassified","setGoodsCoverImg","set",
-"NewBeeMallGoods","unclassified","getGoodsCarousel","get",
-"NewBeeMallGoods","unclassified","setGoodsCarousel","set",
-"NewBeeMallGoods","unclassified","getOriginalPrice","get",
-"NewBeeMallGoods","unclassified","setOriginalPrice","set",
-"NewBeeMallGoods","unclassified","getSellingPrice","get",
-"NewBeeMallGoods","unclassified","setSellingPrice","set",
-"NewBeeMallGoods","unclassified","getStockNum","get",
-"NewBeeMallGoods","unclassified","setStockNum","set",
-"NewBeeMallGoods","unclassified","getTag","get",
-"NewBeeMallGoods","unclassified","setTag","set",
-"NewBeeMallGoods","unclassified","getGoodsSellStatus","get",
-"NewBeeMallGoods","unclassified","setGoodsSellStatus","set",
-"NewBeeMallGoods","unclassified","getCreateUser","get",
-"NewBeeMallGoods","unclassified","setCreateUser","set",
-"NewBeeMallGoods","unclassified","getCreateTime","get collaborator",
-"NewBeeMallGoods","unclassified","setCreateTime","set collaborator",
-"NewBeeMallGoods","unclassified","getUpdateUser","get",
-"NewBeeMallGoods","unclassified","setUpdateUser","set",
-"NewBeeMallGoods","unclassified","getUpdateTime","get collaborator",
-"NewBeeMallGoods","unclassified","setUpdateTime","set collaborator",
-"NewBeeMallGoods","unclassified","getGoodsDetailContent","get",
-"NewBeeMallGoods","unclassified","setGoodsDetailContent","set",
-"NewBeeMallGoods","unclassified","toString","property controller",
-"NewBeeMallUserController","unclassified","usersPage","controller stateless",
-"NewBeeMallUserController","unclassified","list","property non-void-command collaborator",
-"NewBeeMallUserController","unclassified","delete","property non-void-command collaborator",
-"NewBeeMallGoodsDetailVO","data-class","getGoodsId","get",
-"NewBeeMallGoodsDetailVO","data-class","setGoodsId","set",
-"NewBeeMallGoodsDetailVO","data-class","getGoodsName","get",
-"NewBeeMallGoodsDetailVO","data-class","setGoodsName","set",
-"NewBeeMallGoodsDetailVO","data-class","getGoodsIntro","get",
-"NewBeeMallGoodsDetailVO","data-class","setGoodsIntro","set",
-"NewBeeMallGoodsDetailVO","data-class","getGoodsCoverImg","get",
-"NewBeeMallGoodsDetailVO","data-class","setGoodsCoverImg","set",
-"NewBeeMallGoodsDetailVO","data-class","getSellingPrice","get",
-"NewBeeMallGoodsDetailVO","data-class","setSellingPrice","set",
-"NewBeeMallGoodsDetailVO","data-class","getOriginalPrice","get",
-"NewBeeMallGoodsDetailVO","data-class","setOriginalPrice","set",
-"NewBeeMallGoodsDetailVO","data-class","getGoodsDetailContent","get",
-"NewBeeMallGoodsDetailVO","data-class","setGoodsDetailContent","set",
-"NewBeeMallGoodsDetailVO","data-class","getGoodsCarouselList","get",
-"NewBeeMallGoodsDetailVO","data-class","setGoodsCarouselList","set",
-"GoodsCategory","unclassified","getCategoryId","get",
-"GoodsCategory","unclassified","setCategoryId","set",
-"GoodsCategory","unclassified","getCategoryLevel","get",
-"GoodsCategory","unclassified","setCategoryLevel","set",
-"GoodsCategory","unclassified","getParentId","get",
-"GoodsCategory","unclassified","setParentId","set",
-"GoodsCategory","unclassified","getCategoryName","get",
-"GoodsCategory","unclassified","setCategoryName","set",
-"GoodsCategory","unclassified","getCategoryRank","get",
-"GoodsCategory","unclassified","setCategoryRank","set",
-"GoodsCategory","unclassified","getIsDeleted","get",
-"GoodsCategory","unclassified","setIsDeleted","set",
-"GoodsCategory","unclassified","getCreateTime","get collaborator",
-"GoodsCategory","unclassified","setCreateTime","set collaborator",
-"GoodsCategory","unclassified","getCreateUser","get",
-"GoodsCategory","unclassified","setCreateUser","set",
-"GoodsCategory","unclassified","getUpdateTime","get collaborator",
-"GoodsCategory","unclassified","setUpdateTime","set collaborator",
-"GoodsCategory","unclassified","getUpdateUser","get",
-"GoodsCategory","unclassified","setUpdateUser","set",
-"GoodsCategory","unclassified","toString","property controller",
-"NewBeeMallUserVO","data-class","getUserId","get",
-"NewBeeMallUserVO","data-class","setUserId","set",
-"NewBeeMallUserVO","data-class","getNickName","get",
-"NewBeeMallUserVO","data-class","setNickName","set",
-"NewBeeMallUserVO","data-class","getLoginName","get",
-"NewBeeMallUserVO","data-class","setLoginName","set",
-"NewBeeMallUserVO","data-class","getIntroduceSign","get",
-"NewBeeMallUserVO","data-class","setIntroduceSign","set",
-"NewBeeMallUserVO","data-class","getAddress","get",
-"NewBeeMallUserVO","data-class","setAddress","set",
-"NewBeeMallUserVO","data-class","getShopCartItemCount","get",
-"NewBeeMallUserVO","data-class","setShopCartItemCount","set",
-"NewBeeMallGoodsServiceImpl","entity boundary","getNewBeeMallGoodsPage","non-void-command factory collaborator",
-"NewBeeMallGoodsServiceImpl","entity boundary","saveNewBeeMallGoods","property non-void-command collaborator",
-"NewBeeMallGoodsServiceImpl","entity boundary","batchSaveNewBeeMallGoods","command collaborator",
-"NewBeeMallGoodsServiceImpl","entity boundary","updateNewBeeMallGoods","property non-void-command collaborator",
-"NewBeeMallGoodsServiceImpl","entity boundary","getNewBeeMallGoodsById","property non-void-command factory collaborator",
-"NewBeeMallGoodsServiceImpl","entity boundary","batchUpdateSellStatus","property non-void-command collaborator",
-"NewBeeMallGoodsServiceImpl","entity boundary","searchNewBeeMallGoods","non-void-command factory collaborator",
-"IndexConfig","unclassified","getConfigId","get",
-"IndexConfig","unclassified","setConfigId","set",
-"IndexConfig","unclassified","getConfigName","get",
-"IndexConfig","unclassified","setConfigName","set",
-"IndexConfig","unclassified","getConfigType","get",
-"IndexConfig","unclassified","setConfigType","set",
-"IndexConfig","unclassified","getGoodsId","get",
-"IndexConfig","unclassified","setGoodsId","set",
-"IndexConfig","unclassified","getRedirectUrl","get",
-"IndexConfig","unclassified","setRedirectUrl","set",
-"IndexConfig","unclassified","getConfigRank","get",
-"IndexConfig","unclassified","setConfigRank","set",
-"IndexConfig","unclassified","getIsDeleted","get",
-"IndexConfig","unclassified","setIsDeleted","set",
-"IndexConfig","unclassified","getCreateTime","get collaborator",
-"IndexConfig","unclassified","setCreateTime","set collaborator",
-"IndexConfig","unclassified","getCreateUser","get",
-"IndexConfig","unclassified","setCreateUser","set",
-"IndexConfig","unclassified","getUpdateTime","get collaborator",
-"IndexConfig","unclassified","setUpdateTime","set collaborator",
-"IndexConfig","unclassified","getUpdateUser","get",
-"IndexConfig","unclassified","setUpdateUser","set",
-"IndexConfig","unclassified","toString","property controller",
-"MallUser","unclassified","getUserId","get",
-"MallUser","unclassified","setUserId","set",
-"MallUser","unclassified","getNickName","get",
-"MallUser","unclassified","setNickName","set",
-"MallUser","unclassified","getLoginName","get",
-"MallUser","unclassified","setLoginName","set",
-"MallUser","unclassified","getPasswordMd5","get",
-"MallUser","unclassified","setPasswordMd5","set",
-"MallUser","unclassified","getIntroduceSign","get",
-"MallUser","unclassified","setIntroduceSign","set",
-"MallUser","unclassified","getAddress","get",
-"MallUser","unclassified","setAddress","set",
-"MallUser","unclassified","getIsDeleted","get",
-"MallUser","unclassified","setIsDeleted","set",
-"MallUser","unclassified","getLockedFlag","get",
-"MallUser","unclassified","setLockedFlag","set",
-"MallUser","unclassified","getCreateTime","get collaborator",
-"MallUser","unclassified","setCreateTime","set collaborator",
-"MallUser","unclassified","toString","property controller",
-"NewBeeMallOrder","unclassified","getOrderId","get",
-"NewBeeMallOrder","unclassified","setOrderId","set",
-"NewBeeMallOrder","unclassified","getOrderNo","get",
-"NewBeeMallOrder","unclassified","setOrderNo","set",
-"NewBeeMallOrder","unclassified","getUserId","get",
-"NewBeeMallOrder","unclassified","setUserId","set",
-"NewBeeMallOrder","unclassified","getTotalPrice","get",
-"NewBeeMallOrder","unclassified","setTotalPrice","set",
-"NewBeeMallOrder","unclassified","getPayStatus","get",
-"NewBeeMallOrder","unclassified","setPayStatus","set",
-"NewBeeMallOrder","unclassified","getPayType","get",
-"NewBeeMallOrder","unclassified","setPayType","set",
-"NewBeeMallOrder","unclassified","getPayTime","get collaborator",
-"NewBeeMallOrder","unclassified","setPayTime","set collaborator",
-"NewBeeMallOrder","unclassified","getOrderStatus","get",
-"NewBeeMallOrder","unclassified","setOrderStatus","set",
-"NewBeeMallOrder","unclassified","getExtraInfo","get",
-"NewBeeMallOrder","unclassified","setExtraInfo","set",
-"NewBeeMallOrder","unclassified","getUserAddress","get",
-"NewBeeMallOrder","unclassified","setUserAddress","set",
-"NewBeeMallOrder","unclassified","getIsDeleted","get",
-"NewBeeMallOrder","unclassified","setIsDeleted","set",
-"NewBeeMallOrder","unclassified","getCreateTime","get collaborator",
-"NewBeeMallOrder","unclassified","setCreateTime","set collaborator",
-"NewBeeMallOrder","unclassified","getUpdateTime","get collaborator",
-"NewBeeMallOrder","unclassified","setUpdateTime","set collaborator",
-"NewBeeMallOrder","unclassified","toString","property controller",
-"NewBeeMallOrderItem","unclassified","getOrderItemId","get",
-"NewBeeMallOrderItem","unclassified","setOrderItemId","set",
-"NewBeeMallOrderItem","unclassified","getOrderId","get",
-"NewBeeMallOrderItem","unclassified","setOrderId","set",
-"NewBeeMallOrderItem","unclassified","getGoodsId","get",
-"NewBeeMallOrderItem","unclassified","setGoodsId","set",
-"NewBeeMallOrderItem","unclassified","getGoodsName","get",
-"NewBeeMallOrderItem","unclassified","setGoodsName","set",
-"NewBeeMallOrderItem","unclassified","getGoodsCoverImg","get",
-"NewBeeMallOrderItem","unclassified","setGoodsCoverImg","set",
-"NewBeeMallOrderItem","unclassified","getSellingPrice","get",
-"NewBeeMallOrderItem","unclassified","setSellingPrice","set",
-"NewBeeMallOrderItem","unclassified","getGoodsCount","get",
-"NewBeeMallOrderItem","unclassified","setGoodsCount","set",
-"NewBeeMallOrderItem","unclassified","getCreateTime","get collaborator",
-"NewBeeMallOrderItem","unclassified","setCreateTime","set collaborator",
-"NewBeeMallOrderItem","unclassified","toString","property controller",
-"StockNumDTO","data-class","getGoodsId","get",
-"StockNumDTO","data-class","setGoodsId","set",
-"StockNumDTO","data-class","getGoodsCount","get",
-"StockNumDTO","data-class","setGoodsCount","set",
-"AdminLoginInterceptor","pure-controller degenerate","preHandle","controller stateless",
-"AdminLoginInterceptor","pure-controller degenerate","postHandle","empty",
-"AdminLoginInterceptor","pure-controller degenerate","afterCompletion","empty",
-"NewBeeMallIndexCarouselVO","data-class","getCarouselUrl","get",
-"NewBeeMallIndexCarouselVO","data-class","setCarouselUrl","set",
-"NewBeeMallIndexCarouselVO","data-class","getRedirectUrl","get",
-"NewBeeMallIndexCarouselVO","data-class","setRedirectUrl","set",
-"Carousel","unclassified","getCarouselId","get",
-"Carousel","unclassified","setCarouselId","set",
-"Carousel","unclassified","getCarouselUrl","get",
-"Carousel","unclassified","setCarouselUrl","set",
-"Carousel","unclassified","getRedirectUrl","get",
-"Carousel","unclassified","setRedirectUrl","set",
-"Carousel","unclassified","getCarouselRank","get",
-"Carousel","unclassified","setCarouselRank","set",
-"Carousel","unclassified","getIsDeleted","get",
-"Carousel","unclassified","setIsDeleted","set",
-"Carousel","unclassified","getCreateTime","get collaborator",
-"Carousel","unclassified","setCreateTime","set collaborator",
-"Carousel","unclassified","getCreateUser","get",
-"Carousel","unclassified","setCreateUser","set",
-"Carousel","unclassified","getUpdateTime","get collaborator",
-"Carousel","unclassified","setUpdateTime","set collaborator",
-"Carousel","unclassified","getUpdateUser","get",
-"Carousel","unclassified","setUpdateUser","set",
-"Carousel","unclassified","toString","property controller",
+"SystemUtil","empty","SystemUtil","constructor"
+"PageResult","data-class","PageResult","constructor"
+"PageResult","data-class","getTotalCount","get"
+"PageResult","data-class","setTotalCount","set"
+"PageResult","data-class","getPageSize","get"
+"PageResult","data-class","setPageSize","set"
+"PageResult","data-class","getTotalPage","get"
+"PageResult","data-class","setTotalPage","set"
+"PageResult","data-class","getCurrPage","get"
+"PageResult","data-class","setCurrPage","set"
+"PageResult","data-class","getList","get"
+"PageResult","data-class","setList","set"
+"NumberUtil","empty","NumberUtil","constructor"
+"NewBeeMallUserServiceImpl","entity boundary","getNewBeeMallUsersPage","non-void-command factory collaborator"
+"NewBeeMallUserServiceImpl","entity boundary","register","property non-void-command"
+"NewBeeMallUserServiceImpl","entity boundary","login","property non-void-command collaborator"
+"NewBeeMallUserServiceImpl","entity boundary","updateUserInfo","property non-void-command factory collaborator"
+"NewBeeMallUserServiceImpl","entity boundary","lockUsers","property non-void-command collaborator"
+"NewBeeMallCategoryServiceImpl","entity boundary","getCategorisPage","non-void-command factory collaborator"
+"NewBeeMallCategoryServiceImpl","entity boundary","saveCategory","property non-void-command collaborator"
+"NewBeeMallCategoryServiceImpl","entity boundary","updateGoodsCategory","property non-void-command collaborator"
+"NewBeeMallCategoryServiceImpl","entity boundary","getGoodsCategoryById","property non-void-command collaborator"
+"NewBeeMallCategoryServiceImpl","entity boundary","deleteBatch","property non-void-command collaborator"
+"NewBeeMallCategoryServiceImpl","entity boundary","getCategoriesForIndex","property non-void-command factory collaborator"
+"NewBeeMallCategoryServiceImpl","entity boundary","getCategoriesForSearch","property non-void-command factory collaborator"
+"NewBeeMallCategoryServiceImpl","entity boundary","selectByLevelAndParentIdsAndNumber","property non-void-command collaborator"
+"NewBeeMallCarouselServiceImpl","entity boundary","getCarouselPage","non-void-command factory collaborator"
+"NewBeeMallCarouselServiceImpl","entity boundary","saveCarousel","property non-void-command collaborator"
+"NewBeeMallCarouselServiceImpl","entity boundary","updateCarousel","property non-void-command collaborator"
+"NewBeeMallCarouselServiceImpl","entity boundary","getCarouselById","property non-void-command collaborator"
+"NewBeeMallCarouselServiceImpl","entity boundary","deleteBatch","property non-void-command collaborator"
+"NewBeeMallCarouselServiceImpl","entity boundary","getCarouselsForIndex","non-void-command factory collaborator"
+"AdminUserServiceImpl","entity boundary","login","property non-void-command collaborator"
+"AdminUserServiceImpl","entity boundary","getUserDetailById","property non-void-command collaborator"
+"AdminUserServiceImpl","entity boundary","updatePassword","property non-void-command collaborator"
+"AdminUserServiceImpl","entity boundary","updateName","property non-void-command collaborator"
+"NewBeeMallGoodsServiceImpl","entity boundary","getNewBeeMallGoodsPage","non-void-command factory collaborator"
+"NewBeeMallGoodsServiceImpl","entity boundary","saveNewBeeMallGoods","property non-void-command collaborator"
+"NewBeeMallGoodsServiceImpl","entity boundary","batchSaveNewBeeMallGoods","command collaborator"
+"NewBeeMallGoodsServiceImpl","entity boundary","updateNewBeeMallGoods","property non-void-command collaborator"
+"NewBeeMallGoodsServiceImpl","entity boundary","getNewBeeMallGoodsById","property non-void-command factory collaborator"
+"NewBeeMallGoodsServiceImpl","entity boundary","batchUpdateSellStatus","property non-void-command collaborator"
+"NewBeeMallGoodsServiceImpl","entity boundary","searchNewBeeMallGoods","non-void-command factory collaborator"
+"NewBeeMallLoginInterceptor","pure-controller degenerate","preHandle","controller stateless"
+"NewBeeMallLoginInterceptor","pure-controller degenerate","postHandle","empty"
+"NewBeeMallLoginInterceptor","pure-controller degenerate","afterCompletion","empty"
+"ShoppingCartController","entity boundary","cartListPage","property non-void-command collaborator"
+"ShoppingCartController","entity boundary","saveNewBeeMallShoppingCartItem","property non-void-command collaborator"
+"ShoppingCartController","entity boundary","updateNewBeeMallShoppingCartItem","property non-void-command collaborator"
+"ShoppingCartController","entity boundary","updateNewBeeMallShoppingCartItem","property non-void-command collaborator"
+"ShoppingCartController","entity boundary","settlePage","property non-void-command collaborator"
+"PersonalController","boundary degenerate","personalPage","controller stateless"
+"PersonalController","boundary degenerate","logout","controller stateless"
+"PersonalController","boundary degenerate","loginPage","incidental"
+"PersonalController","boundary degenerate","registerPage","incidental"
+"PersonalController","boundary degenerate","addressesPage","incidental"
+"PersonalController","boundary degenerate","login","property non-void-command collaborator"
+"PersonalController","boundary degenerate","register","property non-void-command collaborator"
+"PersonalController","boundary degenerate","updateInfo","property non-void-command collaborator"
+"PayTypeEnum","data-class","PayTypeEnum","constructor"
+"PayTypeEnum","data-class","getPayType","get"
+"PayTypeEnum","data-class","setPayType","set"
+"PayTypeEnum","data-class","getName","get"
+"PayTypeEnum","data-class","setName","set"
+"NewBeeMallGoodsDetailVO","data-class","getGoodsId","get"
+"NewBeeMallGoodsDetailVO","data-class","setGoodsId","set"
+"NewBeeMallGoodsDetailVO","data-class","getGoodsName","get"
+"NewBeeMallGoodsDetailVO","data-class","setGoodsName","set"
+"NewBeeMallGoodsDetailVO","data-class","getGoodsIntro","get"
+"NewBeeMallGoodsDetailVO","data-class","setGoodsIntro","set"
+"NewBeeMallGoodsDetailVO","data-class","getGoodsCoverImg","get"
+"NewBeeMallGoodsDetailVO","data-class","setGoodsCoverImg","set"
+"NewBeeMallGoodsDetailVO","data-class","getSellingPrice","get"
+"NewBeeMallGoodsDetailVO","data-class","setSellingPrice","set"
+"NewBeeMallGoodsDetailVO","data-class","getOriginalPrice","get"
+"NewBeeMallGoodsDetailVO","data-class","setOriginalPrice","set"
+"NewBeeMallGoodsDetailVO","data-class","getGoodsDetailContent","get"
+"NewBeeMallGoodsDetailVO","data-class","setGoodsDetailContent","set"
+"NewBeeMallGoodsDetailVO","data-class","getGoodsCarouselList","get"
+"NewBeeMallGoodsDetailVO","data-class","setGoodsCarouselList","set"
+"ErrorPageController","factory degenerate small-class","ErrorPageController","constructor"
+"ErrorPageController","factory degenerate small-class","ErrorPageController","constructor"
+"ErrorPageController","factory degenerate small-class","resolveErrorView","factory collaborator stateless"
+"NewBeeMallCartNumberInterceptor","degenerate","preHandle","predicate non-void-command collaborator"
+"NewBeeMallCartNumberInterceptor","degenerate","postHandle","empty"
+"NewBeeMallCartNumberInterceptor","degenerate","afterCompletion","empty"
+"NewBeeMallExceptionHandler","factory pure-controller degenerate small-class","handleException","factory controller stateless"
+"NewBeeMallOrderServiceImpl","entity boundary","getNewBeeMallOrdersPage","non-void-command factory collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","updateOrderInfo","property non-void-command collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","checkDone","property non-void-command collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","checkOut","property non-void-command collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","closeOrder","property non-void-command collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","saveOrder","property non-void-command collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","getOrderDetailByOrderNo","non-void-command factory collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","getNewBeeMallOrderByOrderNo","property non-void-command factory collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","getMyOrders","non-void-command factory collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","cancelOrder","property non-void-command collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","finishOrder","property non-void-command collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","paySuccess","property non-void-command collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","getOrderItems","property non-void-command factory collaborator"
+"NewBeeMallOrderServiceImpl","entity boundary","recoverStockNum","property non-void-command collaborator"
+"IndexController","entity boundary small-class","indexPage","property non-void-command collaborator"
+"ServiceResultEnum","data-class small-class","ServiceResultEnum","constructor"
+"ServiceResultEnum","data-class small-class","getResult","get"
+"ServiceResultEnum","data-class small-class","setResult","set"
+"NewBeeMallOrderController","boundary","ordersPage","controller stateless"
+"NewBeeMallOrderController","boundary","list","property non-void-command collaborator"
+"NewBeeMallOrderController","boundary","update","property non-void-command collaborator"
+"NewBeeMallOrderController","boundary","info","property non-void-command collaborator"
+"NewBeeMallOrderController","boundary","checkDone","property non-void-command collaborator"
+"NewBeeMallOrderController","boundary","checkOut","property non-void-command collaborator"
+"NewBeeMallOrderController","boundary","closeOrder","property non-void-command collaborator"
+"NewBeeMallIndexCategoryVO","data-class","getCategoryId","get"
+"NewBeeMallIndexCategoryVO","data-class","setCategoryId","set"
+"NewBeeMallIndexCategoryVO","data-class","getCategoryLevel","get"
+"NewBeeMallIndexCategoryVO","data-class","setCategoryLevel","set"
+"NewBeeMallIndexCategoryVO","data-class","getCategoryName","get"
+"NewBeeMallIndexCategoryVO","data-class","setCategoryName","set"
+"NewBeeMallIndexCategoryVO","data-class","getSecondLevelCategoryVOS","get collaborator"
+"NewBeeMallIndexCategoryVO","data-class","setSecondLevelCategoryVOS","set collaborator"
+"PageQueryUtil","unclassified","PageQueryUtil","constructor"
+"PageQueryUtil","unclassified","getPage","get"
+"PageQueryUtil","unclassified","setPage","set"
+"PageQueryUtil","unclassified","getLimit","get"
+"PageQueryUtil","unclassified","setLimit","set"
+"PageQueryUtil","unclassified","toString","property"
+"IndexConfigTypeEnum","data-class","IndexConfigTypeEnum","constructor"
+"IndexConfigTypeEnum","data-class","getType","get"
+"IndexConfigTypeEnum","data-class","setType","set"
+"IndexConfigTypeEnum","data-class","getName","get"
+"IndexConfigTypeEnum","data-class","setName","set"
+"NewBeeMallGoodsIndexConfigController","boundary","indexConfigsPage","controller stateless"
+"NewBeeMallGoodsIndexConfigController","boundary","list","property non-void-command collaborator"
+"NewBeeMallGoodsIndexConfigController","boundary","save","property non-void-command collaborator"
+"NewBeeMallGoodsIndexConfigController","boundary","update","property non-void-command collaborator"
+"NewBeeMallGoodsIndexConfigController","boundary","info","property non-void-command collaborator"
+"NewBeeMallGoodsIndexConfigController","boundary","delete","property non-void-command collaborator"
+"NewBeeMallShoppingCartServiceImpl","entity","saveNewBeeMallCartItem","property non-void-command collaborator"
+"NewBeeMallShoppingCartServiceImpl","entity","updateNewBeeMallCartItem","property non-void-command collaborator"
+"NewBeeMallShoppingCartServiceImpl","entity","getNewBeeMallCartItemById","property non-void-command factory collaborator"
+"NewBeeMallShoppingCartServiceImpl","entity","deleteById","property non-void-command factory collaborator"
+"NewBeeMallShoppingCartServiceImpl","entity","getMyShoppingCartItems","non-void-command factory collaborator"
+"NewBeeMallGoodsController","boundary","goodsPage","controller stateless"
+"NewBeeMallGoodsController","boundary","edit","property non-void-command collaborator"
+"NewBeeMallGoodsController","boundary","edit","property non-void-command collaborator"
+"NewBeeMallGoodsController","boundary","list","property non-void-command collaborator"
+"NewBeeMallGoodsController","boundary","save","property non-void-command collaborator"
+"NewBeeMallGoodsController","boundary","update","property non-void-command collaborator"
+"NewBeeMallGoodsController","boundary","info","property non-void-command collaborator"
+"NewBeeMallGoodsController","boundary","delete","property non-void-command collaborator"
+"CommonController","pure-controller degenerate small-class","defaultKaptcha","controller stateless"
+"CommonController","pure-controller degenerate small-class","mallKaptcha","controller stateless"
+"ThirdLevelCategoryVO","data-class","getCategoryId","get"
+"ThirdLevelCategoryVO","data-class","setCategoryId","set"
+"ThirdLevelCategoryVO","data-class","getCategoryLevel","get"
+"ThirdLevelCategoryVO","data-class","setCategoryLevel","set"
+"ThirdLevelCategoryVO","data-class","getCategoryName","get"
+"ThirdLevelCategoryVO","data-class","setCategoryName","set"
+"GoodsController","entity boundary small-class","searchPage","property non-void-command collaborator"
+"GoodsController","entity boundary small-class","detailPage","property non-void-command collaborator"
+"NewBeeMallCarouselController","boundary","carouselPage","controller stateless"
+"NewBeeMallCarouselController","boundary","list","property non-void-command collaborator"
+"NewBeeMallCarouselController","boundary","save","property non-void-command collaborator"
+"NewBeeMallCarouselController","boundary","update","property non-void-command collaborator"
+"NewBeeMallCarouselController","boundary","info","property non-void-command collaborator"
+"NewBeeMallCarouselController","boundary","delete","property non-void-command collaborator"
+"IndexConfig","unclassified","getConfigId","get"
+"IndexConfig","unclassified","setConfigId","set"
+"IndexConfig","unclassified","getConfigName","get"
+"IndexConfig","unclassified","setConfigName","set"
+"IndexConfig","unclassified","getConfigType","get"
+"IndexConfig","unclassified","setConfigType","set"
+"IndexConfig","unclassified","getGoodsId","get"
+"IndexConfig","unclassified","setGoodsId","set"
+"IndexConfig","unclassified","getRedirectUrl","get"
+"IndexConfig","unclassified","setRedirectUrl","set"
+"IndexConfig","unclassified","getConfigRank","get"
+"IndexConfig","unclassified","setConfigRank","set"
+"IndexConfig","unclassified","getIsDeleted","get"
+"IndexConfig","unclassified","setIsDeleted","set"
+"IndexConfig","unclassified","getCreateTime","get collaborator"
+"IndexConfig","unclassified","setCreateTime","set collaborator"
+"IndexConfig","unclassified","getCreateUser","get"
+"IndexConfig","unclassified","setCreateUser","set"
+"IndexConfig","unclassified","getUpdateTime","get collaborator"
+"IndexConfig","unclassified","setUpdateTime","set collaborator"
+"IndexConfig","unclassified","getUpdateUser","get"
+"IndexConfig","unclassified","setUpdateUser","set"
+"IndexConfig","unclassified","toString","property controller"
+"OrderController","entity boundary","orderDetailPage","property non-void-command collaborator"
+"OrderController","entity boundary","orderListPage","property non-void-command collaborator"
+"OrderController","entity boundary","saveOrder","property non-void-command collaborator"
+"OrderController","entity boundary","cancelOrder","property non-void-command collaborator"
+"OrderController","entity boundary","finishOrder","property non-void-command collaborator"
+"OrderController","entity boundary","selectPayType","property non-void-command collaborator"
+"OrderController","entity boundary","payOrder","property non-void-command collaborator"
+"OrderController","entity boundary","paySuccess","property non-void-command collaborator"
+"NewBeeMallException","empty","NewBeeMallException","constructor"
+"NewBeeMallException","empty","NewBeeMallException","constructor"
+"NewBeeMallGoods","unclassified","getGoodsId","get"
+"NewBeeMallGoods","unclassified","setGoodsId","set"
+"NewBeeMallGoods","unclassified","getGoodsName","get"
+"NewBeeMallGoods","unclassified","setGoodsName","set"
+"NewBeeMallGoods","unclassified","getGoodsIntro","get"
+"NewBeeMallGoods","unclassified","setGoodsIntro","set"
+"NewBeeMallGoods","unclassified","getGoodsCategoryId","get"
+"NewBeeMallGoods","unclassified","setGoodsCategoryId","set"
+"NewBeeMallGoods","unclassified","getGoodsCoverImg","get"
+"NewBeeMallGoods","unclassified","setGoodsCoverImg","set"
+"NewBeeMallGoods","unclassified","getGoodsCarousel","get"
+"NewBeeMallGoods","unclassified","setGoodsCarousel","set"
+"NewBeeMallGoods","unclassified","getOriginalPrice","get"
+"NewBeeMallGoods","unclassified","setOriginalPrice","set"
+"NewBeeMallGoods","unclassified","getSellingPrice","get"
+"NewBeeMallGoods","unclassified","setSellingPrice","set"
+"NewBeeMallGoods","unclassified","getStockNum","get"
+"NewBeeMallGoods","unclassified","setStockNum","set"
+"NewBeeMallGoods","unclassified","getTag","get"
+"NewBeeMallGoods","unclassified","setTag","set"
+"NewBeeMallGoods","unclassified","getGoodsSellStatus","get"
+"NewBeeMallGoods","unclassified","setGoodsSellStatus","set"
+"NewBeeMallGoods","unclassified","getCreateUser","get"
+"NewBeeMallGoods","unclassified","setCreateUser","set"
+"NewBeeMallGoods","unclassified","getCreateTime","get collaborator"
+"NewBeeMallGoods","unclassified","setCreateTime","set collaborator"
+"NewBeeMallGoods","unclassified","getUpdateUser","get"
+"NewBeeMallGoods","unclassified","setUpdateUser","set"
+"NewBeeMallGoods","unclassified","getUpdateTime","get collaborator"
+"NewBeeMallGoods","unclassified","setUpdateTime","set collaborator"
+"NewBeeMallGoods","unclassified","getGoodsDetailContent","get"
+"NewBeeMallGoods","unclassified","setGoodsDetailContent","set"
+"NewBeeMallGoods","unclassified","toString","property controller"
+"NewBeeMallUserController","unclassified","usersPage","controller stateless"
+"NewBeeMallUserController","unclassified","list","property non-void-command collaborator"
+"NewBeeMallUserController","unclassified","delete","property non-void-command collaborator"
+"NeeBeeMallWebMvcConfigurer","pure-controller small-class","addInterceptors","controller"
+"NeeBeeMallWebMvcConfigurer","pure-controller small-class","addResourceHandlers","controller stateless"
+"PayStatusEnum","data-class","PayStatusEnum","constructor"
+"PayStatusEnum","data-class","getPayStatus","get"
+"PayStatusEnum","data-class","setPayStatus","set"
+"PayStatusEnum","data-class","getName","get"
+"PayStatusEnum","data-class","setName","set"
+"NewBeeMallOrderItemVO","data-class","getGoodsId","get"
+"NewBeeMallOrderItemVO","data-class","setGoodsId","set"
+"NewBeeMallOrderItemVO","data-class","getGoodsName","get"
+"NewBeeMallOrderItemVO","data-class","setGoodsName","set"
+"NewBeeMallOrderItemVO","data-class","getGoodsCoverImg","get"
+"NewBeeMallOrderItemVO","data-class","setGoodsCoverImg","set"
+"NewBeeMallOrderItemVO","data-class","getSellingPrice","get"
+"NewBeeMallOrderItemVO","data-class","setSellingPrice","set"
+"NewBeeMallOrderItemVO","data-class","getGoodsCount","get"
+"NewBeeMallOrderItemVO","data-class","setGoodsCount","set"
+"AdminUser","unclassified","getAdminUserId","get"
+"AdminUser","unclassified","setAdminUserId","set"
+"AdminUser","unclassified","getLoginUserName","get"
+"AdminUser","unclassified","setLoginUserName","set"
+"AdminUser","unclassified","getLoginPassword","get"
+"AdminUser","unclassified","setLoginPassword","set"
+"AdminUser","unclassified","getNickName","get"
+"AdminUser","unclassified","setNickName","set"
+"AdminUser","unclassified","getLocked","get"
+"AdminUser","unclassified","setLocked","set"
+"AdminUser","unclassified","toString","property controller"
+"UploadController","small-class","upload","controller stateless"
+"UploadController","small-class","uploadV2","property non-void-command collaborator"
+"AdminController","boundary","login","incidental"
+"AdminController","boundary","test","incidental"
+"AdminController","boundary","index","controller stateless"
+"AdminController","boundary","login","property non-void-command collaborator"
+"AdminController","boundary","profile","property non-void-command collaborator"
+"AdminController","boundary","passwordUpdate","property non-void-command collaborator"
+"AdminController","boundary","nameUpdate","property non-void-command collaborator"
+"AdminController","boundary","logout","controller stateless"
+"NewBeeMallOrderStatusEnum","data-class","NewBeeMallOrderStatusEnum","constructor"
+"NewBeeMallOrderStatusEnum","data-class","getOrderStatus","get"
+"NewBeeMallOrderStatusEnum","data-class","setOrderStatus","set"
+"NewBeeMallOrderStatusEnum","data-class","getName","get"
+"NewBeeMallOrderStatusEnum","data-class","setName","set"
+"Result<T>","unclassified","Result","constructor"
+"Result<T>","unclassified","Result","constructor"
+"Result<T>","unclassified","getResultCode","get"
+"Result<T>","unclassified","setResultCode","set"
+"Result<T>","unclassified","getMessage","get"
+"Result<T>","unclassified","setMessage","set"
+"Result<T>","unclassified","getData","get collaborator"
+"Result<T>","unclassified","setData","set collaborator"
+"Result<T>","unclassified","toString","property"
+"NewBeeMallGoodsCategoryController","boundary","categoriesPage","controller stateless"
+"NewBeeMallGoodsCategoryController","boundary","list","property non-void-command collaborator"
+"NewBeeMallGoodsCategoryController","boundary","listForSelect","property non-void-command collaborator"
+"NewBeeMallGoodsCategoryController","boundary","save","property non-void-command collaborator"
+"NewBeeMallGoodsCategoryController","boundary","update","property non-void-command collaborator"
+"NewBeeMallGoodsCategoryController","boundary","info","property non-void-command collaborator"
+"NewBeeMallGoodsCategoryController","boundary","delete","property non-void-command collaborator"
+"NewBeeMallIndexConfigServiceImpl","entity boundary","getConfigsPage","non-void-command factory collaborator"
+"NewBeeMallIndexConfigServiceImpl","entity boundary","saveIndexConfig","property non-void-command collaborator"
+"NewBeeMallIndexConfigServiceImpl","entity boundary","updateIndexConfig","property non-void-command collaborator"
+"NewBeeMallIndexConfigServiceImpl","entity boundary","getIndexConfigById","collaborator incidental"
+"NewBeeMallIndexConfigServiceImpl","entity boundary","getConfigGoodsesForIndex","non-void-command factory collaborator"
+"NewBeeMallIndexConfigServiceImpl","entity boundary","deleteBatch","property non-void-command collaborator"
+"NewBeeMallOrderDetailVO","data-class","getOrderNo","get"
+"NewBeeMallOrderDetailVO","data-class","setOrderNo","set"
+"NewBeeMallOrderDetailVO","data-class","getTotalPrice","get"
+"NewBeeMallOrderDetailVO","data-class","setTotalPrice","set"
+"NewBeeMallOrderDetailVO","data-class","getPayStatus","get"
+"NewBeeMallOrderDetailVO","data-class","setPayStatus","set"
+"NewBeeMallOrderDetailVO","data-class","getPayType","get"
+"NewBeeMallOrderDetailVO","data-class","setPayType","set"
+"NewBeeMallOrderDetailVO","data-class","getPayTime","get collaborator"
+"NewBeeMallOrderDetailVO","data-class","setPayTime","set collaborator"
+"NewBeeMallOrderDetailVO","data-class","getOrderStatus","get"
+"NewBeeMallOrderDetailVO","data-class","setOrderStatus","set"
+"NewBeeMallOrderDetailVO","data-class","getUserAddress","get"
+"NewBeeMallOrderDetailVO","data-class","setUserAddress","set"
+"NewBeeMallOrderDetailVO","data-class","getCreateTime","get collaborator"
+"NewBeeMallOrderDetailVO","data-class","setCreateTime","set collaborator"
+"NewBeeMallOrderDetailVO","data-class","getPayStatusString","get"
+"NewBeeMallOrderDetailVO","data-class","setPayStatusString","set"
+"NewBeeMallOrderDetailVO","data-class","getPayTypeString","get"
+"NewBeeMallOrderDetailVO","data-class","setPayTypeString","set"
+"NewBeeMallOrderDetailVO","data-class","getOrderStatusString","get"
+"NewBeeMallOrderDetailVO","data-class","setOrderStatusString","set"
+"NewBeeMallOrderDetailVO","data-class","getNewBeeMallOrderItemVOS","get factory collaborator"
+"NewBeeMallOrderDetailVO","data-class","setNewBeeMallOrderItemVOS","set collaborator"
+"NewBeeMallIndexConfigGoodsVO","data-class","getGoodsId","get"
+"NewBeeMallIndexConfigGoodsVO","data-class","setGoodsId","set"
+"NewBeeMallIndexConfigGoodsVO","data-class","getGoodsName","get"
+"NewBeeMallIndexConfigGoodsVO","data-class","setGoodsName","set"
+"NewBeeMallIndexConfigGoodsVO","data-class","getGoodsIntro","get"
+"NewBeeMallIndexConfigGoodsVO","data-class","setGoodsIntro","set"
+"NewBeeMallIndexConfigGoodsVO","data-class","getGoodsCoverImg","get"
+"NewBeeMallIndexConfigGoodsVO","data-class","setGoodsCoverImg","set"
+"NewBeeMallIndexConfigGoodsVO","data-class","getSellingPrice","get"
+"NewBeeMallIndexConfigGoodsVO","data-class","setSellingPrice","set"
+"NewBeeMallIndexConfigGoodsVO","data-class","getTag","get"
+"NewBeeMallIndexConfigGoodsVO","data-class","setTag","set"
+"NewBeeMallCategoryLevelEnum","data-class","NewBeeMallCategoryLevelEnum","constructor"
+"NewBeeMallCategoryLevelEnum","data-class","getLevel","get"
+"NewBeeMallCategoryLevelEnum","data-class","setLevel","set"
+"NewBeeMallCategoryLevelEnum","data-class","getName","get"
+"NewBeeMallCategoryLevelEnum","data-class","setName","set"
+"NewBeeMallOrderListVO","data-class","getOrderId","get"
+"NewBeeMallOrderListVO","data-class","setOrderId","set"
+"NewBeeMallOrderListVO","data-class","getOrderNo","get"
+"NewBeeMallOrderListVO","data-class","setOrderNo","set"
+"NewBeeMallOrderListVO","data-class","getTotalPrice","get"
+"NewBeeMallOrderListVO","data-class","setTotalPrice","set"
+"NewBeeMallOrderListVO","data-class","getPayType","get"
+"NewBeeMallOrderListVO","data-class","setPayType","set"
+"NewBeeMallOrderListVO","data-class","getOrderStatus","get"
+"NewBeeMallOrderListVO","data-class","setOrderStatus","set"
+"NewBeeMallOrderListVO","data-class","getOrderStatusString","get"
+"NewBeeMallOrderListVO","data-class","setOrderStatusString","set"
+"NewBeeMallOrderListVO","data-class","getUserAddress","get"
+"NewBeeMallOrderListVO","data-class","setUserAddress","set"
+"NewBeeMallOrderListVO","data-class","getCreateTime","get collaborator"
+"NewBeeMallOrderListVO","data-class","setCreateTime","set collaborator"
+"NewBeeMallOrderListVO","data-class","getNewBeeMallOrderItemVOS","get factory collaborator"
+"NewBeeMallOrderListVO","data-class","setNewBeeMallOrderItemVOS","set collaborator"
+"NewBeeMallShoppingCartItem","unclassified","getCartItemId","get"
+"NewBeeMallShoppingCartItem","unclassified","setCartItemId","set"
+"NewBeeMallShoppingCartItem","unclassified","getUserId","get"
+"NewBeeMallShoppingCartItem","unclassified","setUserId","set"
+"NewBeeMallShoppingCartItem","unclassified","getGoodsId","get"
+"NewBeeMallShoppingCartItem","unclassified","setGoodsId","set"
+"NewBeeMallShoppingCartItem","unclassified","getGoodsCount","get"
+"NewBeeMallShoppingCartItem","unclassified","setGoodsCount","set"
+"NewBeeMallShoppingCartItem","unclassified","getIsDeleted","get"
+"NewBeeMallShoppingCartItem","unclassified","setIsDeleted","set"
+"NewBeeMallShoppingCartItem","unclassified","getCreateTime","get collaborator"
+"NewBeeMallShoppingCartItem","unclassified","setCreateTime","set collaborator"
+"NewBeeMallShoppingCartItem","unclassified","getUpdateTime","get collaborator"
+"NewBeeMallShoppingCartItem","unclassified","setUpdateTime","set collaborator"
+"NewBeeMallShoppingCartItem","unclassified","toString","property controller"
+"NewBeeMallSearchGoodsVO","data-class","getGoodsId","get"
+"NewBeeMallSearchGoodsVO","data-class","setGoodsId","set"
+"NewBeeMallSearchGoodsVO","data-class","getGoodsName","get"
+"NewBeeMallSearchGoodsVO","data-class","setGoodsName","set"
+"NewBeeMallSearchGoodsVO","data-class","getGoodsIntro","get"
+"NewBeeMallSearchGoodsVO","data-class","setGoodsIntro","set"
+"NewBeeMallSearchGoodsVO","data-class","getGoodsCoverImg","get"
+"NewBeeMallSearchGoodsVO","data-class","setGoodsCoverImg","set"
+"NewBeeMallSearchGoodsVO","data-class","getSellingPrice","get"
+"NewBeeMallSearchGoodsVO","data-class","setSellingPrice","set"
+"SecondLevelCategoryVO","data-class","getCategoryId","get"
+"SecondLevelCategoryVO","data-class","setCategoryId","set"
+"SecondLevelCategoryVO","data-class","getCategoryLevel","get"
+"SecondLevelCategoryVO","data-class","setCategoryLevel","set"
+"SecondLevelCategoryVO","data-class","getCategoryName","get"
+"SecondLevelCategoryVO","data-class","setCategoryName","set"
+"SecondLevelCategoryVO","data-class","getThirdLevelCategoryVOS","get collaborator"
+"SecondLevelCategoryVO","data-class","setThirdLevelCategoryVOS","set collaborator"
+"SecondLevelCategoryVO","data-class","getParentId","get"
+"SecondLevelCategoryVO","data-class","setParentId","set"
+"SearchPageCategoryVO","data-class","getFirstLevelCategoryName","get"
+"SearchPageCategoryVO","data-class","setFirstLevelCategoryName","set"
+"SearchPageCategoryVO","data-class","getSecondLevelCategoryList","get collaborator"
+"SearchPageCategoryVO","data-class","setSecondLevelCategoryList","set collaborator"
+"SearchPageCategoryVO","data-class","getSecondLevelCategoryName","get"
+"SearchPageCategoryVO","data-class","setSecondLevelCategoryName","set"
+"SearchPageCategoryVO","data-class","getThirdLevelCategoryList","get collaborator"
+"SearchPageCategoryVO","data-class","setThirdLevelCategoryList","set collaborator"
+"SearchPageCategoryVO","data-class","getCurrentCategoryName","get"
+"SearchPageCategoryVO","data-class","setCurrentCategoryName","set"
+"NewBeeMallShoppingCartItemVO","data-class","getGoodsId","get"
+"NewBeeMallShoppingCartItemVO","data-class","setGoodsId","set"
+"NewBeeMallShoppingCartItemVO","data-class","getGoodsName","get"
+"NewBeeMallShoppingCartItemVO","data-class","setGoodsName","set"
+"NewBeeMallShoppingCartItemVO","data-class","getGoodsCoverImg","get"
+"NewBeeMallShoppingCartItemVO","data-class","setGoodsCoverImg","set"
+"NewBeeMallShoppingCartItemVO","data-class","getSellingPrice","get"
+"NewBeeMallShoppingCartItemVO","data-class","setSellingPrice","set"
+"NewBeeMallShoppingCartItemVO","data-class","getCartItemId","get"
+"NewBeeMallShoppingCartItemVO","data-class","setCartItemId","set"
+"NewBeeMallShoppingCartItemVO","data-class","getGoodsCount","get"
+"NewBeeMallShoppingCartItemVO","data-class","setGoodsCount","set"
+"GoodsCategory","unclassified","getCategoryId","get"
+"GoodsCategory","unclassified","setCategoryId","set"
+"GoodsCategory","unclassified","getCategoryLevel","get"
+"GoodsCategory","unclassified","setCategoryLevel","set"
+"GoodsCategory","unclassified","getParentId","get"
+"GoodsCategory","unclassified","setParentId","set"
+"GoodsCategory","unclassified","getCategoryName","get"
+"GoodsCategory","unclassified","setCategoryName","set"
+"GoodsCategory","unclassified","getCategoryRank","get"
+"GoodsCategory","unclassified","setCategoryRank","set"
+"GoodsCategory","unclassified","getIsDeleted","get"
+"GoodsCategory","unclassified","setIsDeleted","set"
+"GoodsCategory","unclassified","getCreateTime","get collaborator"
+"GoodsCategory","unclassified","setCreateTime","set collaborator"
+"GoodsCategory","unclassified","getCreateUser","get"
+"GoodsCategory","unclassified","setCreateUser","set"
+"GoodsCategory","unclassified","getUpdateTime","get collaborator"
+"GoodsCategory","unclassified","setUpdateTime","set collaborator"
+"GoodsCategory","unclassified","getUpdateUser","get"
+"GoodsCategory","unclassified","setUpdateUser","set"
+"GoodsCategory","unclassified","toString","property controller"
+"NewBeeMallUserVO","data-class","getUserId","get"
+"NewBeeMallUserVO","data-class","setUserId","set"
+"NewBeeMallUserVO","data-class","getNickName","get"
+"NewBeeMallUserVO","data-class","setNickName","set"
+"NewBeeMallUserVO","data-class","getLoginName","get"
+"NewBeeMallUserVO","data-class","setLoginName","set"
+"NewBeeMallUserVO","data-class","getIntroduceSign","get"
+"NewBeeMallUserVO","data-class","setIntroduceSign","set"
+"NewBeeMallUserVO","data-class","getAddress","get"
+"NewBeeMallUserVO","data-class","setAddress","set"
+"NewBeeMallUserVO","data-class","getShopCartItemCount","get"
+"NewBeeMallUserVO","data-class","setShopCartItemCount","set"
+"NewBeeMallIndexCarouselVO","data-class","getCarouselUrl","get"
+"NewBeeMallIndexCarouselVO","data-class","setCarouselUrl","set"
+"NewBeeMallIndexCarouselVO","data-class","getRedirectUrl","get"
+"NewBeeMallIndexCarouselVO","data-class","setRedirectUrl","set"
+"Carousel","unclassified","getCarouselId","get"
+"Carousel","unclassified","setCarouselId","set"
+"Carousel","unclassified","getCarouselUrl","get"
+"Carousel","unclassified","setCarouselUrl","set"
+"Carousel","unclassified","getRedirectUrl","get"
+"Carousel","unclassified","setRedirectUrl","set"
+"Carousel","unclassified","getCarouselRank","get"
+"Carousel","unclassified","setCarouselRank","set"
+"Carousel","unclassified","getIsDeleted","get"
+"Carousel","unclassified","setIsDeleted","set"
+"Carousel","unclassified","getCreateTime","get collaborator"
+"Carousel","unclassified","setCreateTime","set collaborator"
+"Carousel","unclassified","getCreateUser","get"
+"Carousel","unclassified","setCreateUser","set"
+"Carousel","unclassified","getUpdateTime","get collaborator"
+"Carousel","unclassified","setUpdateTime","set collaborator"
+"Carousel","unclassified","getUpdateUser","get"
+"Carousel","unclassified","setUpdateUser","set"
+"Carousel","unclassified","toString","property controller"
+"MallUser","unclassified","getUserId","get"
+"MallUser","unclassified","setUserId","set"
+"MallUser","unclassified","getNickName","get"
+"MallUser","unclassified","setNickName","set"
+"MallUser","unclassified","getLoginName","get"
+"MallUser","unclassified","setLoginName","set"
+"MallUser","unclassified","getPasswordMd5","get"
+"MallUser","unclassified","setPasswordMd5","set"
+"MallUser","unclassified","getIntroduceSign","get"
+"MallUser","unclassified","setIntroduceSign","set"
+"MallUser","unclassified","getAddress","get"
+"MallUser","unclassified","setAddress","set"
+"MallUser","unclassified","getIsDeleted","get"
+"MallUser","unclassified","setIsDeleted","set"
+"MallUser","unclassified","getLockedFlag","get"
+"MallUser","unclassified","setLockedFlag","set"
+"MallUser","unclassified","getCreateTime","get collaborator"
+"MallUser","unclassified","setCreateTime","set collaborator"
+"MallUser","unclassified","toString","property controller"
+"NewBeeMallOrder","unclassified","getOrderId","get"
+"NewBeeMallOrder","unclassified","setOrderId","set"
+"NewBeeMallOrder","unclassified","getOrderNo","get"
+"NewBeeMallOrder","unclassified","setOrderNo","set"
+"NewBeeMallOrder","unclassified","getUserId","get"
+"NewBeeMallOrder","unclassified","setUserId","set"
+"NewBeeMallOrder","unclassified","getTotalPrice","get"
+"NewBeeMallOrder","unclassified","setTotalPrice","set"
+"NewBeeMallOrder","unclassified","getPayStatus","get"
+"NewBeeMallOrder","unclassified","setPayStatus","set"
+"NewBeeMallOrder","unclassified","getPayType","get"
+"NewBeeMallOrder","unclassified","setPayType","set"
+"NewBeeMallOrder","unclassified","getPayTime","get collaborator"
+"NewBeeMallOrder","unclassified","setPayTime","set collaborator"
+"NewBeeMallOrder","unclassified","getOrderStatus","get"
+"NewBeeMallOrder","unclassified","setOrderStatus","set"
+"NewBeeMallOrder","unclassified","getExtraInfo","get"
+"NewBeeMallOrder","unclassified","setExtraInfo","set"
+"NewBeeMallOrder","unclassified","getUserAddress","get"
+"NewBeeMallOrder","unclassified","setUserAddress","set"
+"NewBeeMallOrder","unclassified","getIsDeleted","get"
+"NewBeeMallOrder","unclassified","setIsDeleted","set"
+"NewBeeMallOrder","unclassified","getCreateTime","get collaborator"
+"NewBeeMallOrder","unclassified","setCreateTime","set collaborator"
+"NewBeeMallOrder","unclassified","getUpdateTime","get collaborator"
+"NewBeeMallOrder","unclassified","setUpdateTime","set collaborator"
+"NewBeeMallOrder","unclassified","toString","property controller"
+"NewBeeMallOrderItem","unclassified","getOrderItemId","get"
+"NewBeeMallOrderItem","unclassified","setOrderItemId","set"
+"NewBeeMallOrderItem","unclassified","getOrderId","get"
+"NewBeeMallOrderItem","unclassified","setOrderId","set"
+"NewBeeMallOrderItem","unclassified","getGoodsId","get"
+"NewBeeMallOrderItem","unclassified","setGoodsId","set"
+"NewBeeMallOrderItem","unclassified","getGoodsName","get"
+"NewBeeMallOrderItem","unclassified","setGoodsName","set"
+"NewBeeMallOrderItem","unclassified","getGoodsCoverImg","get"
+"NewBeeMallOrderItem","unclassified","setGoodsCoverImg","set"
+"NewBeeMallOrderItem","unclassified","getSellingPrice","get"
+"NewBeeMallOrderItem","unclassified","setSellingPrice","set"
+"NewBeeMallOrderItem","unclassified","getGoodsCount","get"
+"NewBeeMallOrderItem","unclassified","setGoodsCount","set"
+"NewBeeMallOrderItem","unclassified","getCreateTime","get collaborator"
+"NewBeeMallOrderItem","unclassified","setCreateTime","set collaborator"
+"NewBeeMallOrderItem","unclassified","toString","property controller"
+"StockNumDTO","data-class","getGoodsId","get"
+"StockNumDTO","data-class","setGoodsId","set"
+"StockNumDTO","data-class","getGoodsCount","get"
+"StockNumDTO","data-class","setGoodsCount","set"
+"AdminLoginInterceptor","pure-controller degenerate","preHandle","controller stateless"
+"AdminLoginInterceptor","pure-controller degenerate","postHandle","empty"
+"AdminLoginInterceptor","pure-controller degenerate","afterCompletion","empty"

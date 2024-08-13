@@ -1,416 +1,411 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"TestGeneratingProcessor","boundary lazy-class small-class","TestGeneratingProcessor","constructor",
-"TestGeneratingProcessor","boundary lazy-class small-class","getSupportedAnnotationTypes","wrapper stateless",
-"TestGeneratingProcessor","boundary lazy-class small-class","process","predicate set collaborator",
-"OnTextChangedTest","boundary degenerate","textChanged","wrapper stateless",
-"OnTextChangedTest","boundary degenerate","textChangedWithParameter","wrapper stateless",
-"OnTextChangedTest","boundary degenerate","textChangedWithParameters","wrapper stateless",
-"OnTextChangedTest","boundary degenerate","textChangedWithWrongParameter","wrapper stateless",
-"OnPageChangeTest","boundary degenerate small-class","pageChange","wrapper stateless",
-"DebouncingOnClickListener","commander boundary data-class small-class","onClick","set collaborator",
-"EmptyTextWatcher","degenerate","beforeTextChanged","empty",
-"EmptyTextWatcher","degenerate","onTextChanged","empty",
-"EmptyTextWatcher","degenerate","afterTextChanged","empty",
-"CompositeUnbinder","commander boundary data-class small-class","CompositeUnbinder","constructor",
-"CompositeUnbinder","commander boundary data-class small-class","unbind","set collaborator",
-"ButterKnife","empty","ButterKnife","constructor",
-"ButterKnife","empty","ButterKnife","constructor",
-"InvalidR2UsageDetectorTest","boundary","noR2Usage","wrapper",
-"InvalidR2UsageDetectorTest","boundary","usesR2InAnnotations","wrapper",
-"InvalidR2UsageDetectorTest","boundary","usesR2OutsideAnnotations","wrapper",
-"InvalidR2UsageDetectorTest","boundary","usesR2WithSuppression","wrapper",
-"LintRegistry","degenerate small-class","getIssues","wrapper stateless",
-"LintRegistry","degenerate small-class","getApi","incidental",
-"InvalidR2UsageDetector","degenerate small-class","getApplicableUastTypes","wrapper stateless",
-"InvalidR2UsageDetector","degenerate small-class","createUastHandler","factory wrapper stateless",
-"H","empty","H","constructor",
-"H","empty","H","constructor",
-"ClasspathParentBindTest","commander boundary","parentBindingInClasspath","command collaborator",
-"ClasspathParentBindTest","commander boundary","indirectViewRequiredInConstructor","command collaborator",
-"ClasspathParentBindTest","commander boundary","viewNotRequiredInConstructor","command collaborator",
-"ClasspathParentBindTest","commander boundary","compileSources","controller stateless",
-"G","degenerate small-class","G","constructor",
-"G","degenerate small-class","onClick","empty",
-"G","degenerate small-class","G","constructor",
-"G","degenerate small-class","onClick","empty",
-"F","empty","F","constructor",
-"F","empty","F","constructor",
-"E","empty","E","constructor",
-"E","empty","E","constructor",
-"C","empty","C","constructor",
-"C","empty","C","constructor",
-"B","empty","B","constructor",
-"B","empty","B","constructor",
-"UtilsTest","boundary degenerate","finderThrowsNiceError","wrapper stateless",
-"UtilsTest","boundary degenerate","finderThrowsLessNiceErrorInEditMode","wrapper stateless",
-"UtilsTest","boundary degenerate","listOfFiltersNull","wrapper stateless",
-"UtilsTest","boundary degenerate","arrayFilteringNullRemovesNulls","wrapper stateless",
-"UtilsTest","boundary degenerate","arrayFilteringNullReturnsOriginalWhenNoNulls","wrapper stateless",
-"UtilsTest","boundary degenerate","testCastParam","wrapper stateless",
-"D","empty","D","constructor",
-"D","empty","D","constructor",
-"SimpleAdapter","data-provider","SimpleAdapter","constructor",
-"SimpleAdapter","data-provider","getCount","get",
-"SimpleAdapter","data-provider","getItem","get",
-"SimpleAdapter","data-provider","getItemId","incidental",
-"SimpleAdapter","data-provider","getView","property non-void-command collaborator",
-"SimpleAdapter","data-provider","SimpleAdapter","constructor",
-"SimpleAdapter","data-provider","getCount","get",
-"SimpleAdapter","data-provider","getItem","get",
-"SimpleAdapter","data-provider","getItemId","incidental",
-"SimpleAdapter","data-provider","getView","property non-void-command collaborator",
-"BindAnimTest","small-class","anim","controller",
-"BindAnimTest","small-class","typeMustBeAnimation","wrapper stateless",
-"ExtendDialogTest","boundary degenerate small-class","onlyResources","wrapper stateless",
-"ExtendDialogTest","boundary degenerate small-class","views","wrapper stateless",
-"BindDimenTest","commander boundary","asInt","command collaborator",
-"BindDimenTest","commander boundary","asFloat","command collaborator",
-"BindDimenTest","commander boundary","typeMustBeIntOrFloat","wrapper stateless",
-"ListenerUnbinder<VextendsView,L>","boundary small-class","ListenerUnbinder","constructor",
-"ListenerUnbinder<VextendsView,L>","boundary small-class","ListenerUnbinder","constructor",
-"ListenerUnbinder<VextendsView,L>","boundary small-class","unbind","wrapper",
-"Constants","empty","Constants","constructor",
-"BindViewTest","boundary degenerate","view","controller stateless",
-"BindViewTest","boundary degenerate","bindingViewNonDebuggable","wrapper stateless",
-"BindViewTest","boundary degenerate","bindingViewSubclassNonDebuggable","wrapper stateless",
-"BindViewTest","boundary degenerate","bindingGeneratedView","wrapper stateless",
-"BindViewTest","boundary degenerate","bindingViewFinalClass","wrapper stateless",
-"BindViewTest","boundary degenerate","bindingViewFinalClassWithBaseClass","wrapper stateless",
-"BindViewTest","boundary degenerate","bindingViewUppercasePackageName","wrapper stateless",
-"BindViewTest","boundary degenerate","bindingInterface","wrapper stateless",
-"BindViewTest","boundary degenerate","genericType","wrapper stateless",
-"BindViewTest","boundary degenerate","oneFindPerId","wrapper stateless",
-"BindViewTest","boundary degenerate","oneFindPerIdWithCast","wrapper stateless",
-"BindViewTest","boundary degenerate","fieldVisibility","wrapper stateless",
-"BindViewTest","boundary degenerate","nullable","wrapper stateless",
-"BindViewTest","boundary degenerate","superclass","wrapper stateless",
-"BindViewTest","boundary degenerate","genericSuperclass","wrapper stateless",
-"BindViewTest","boundary degenerate","failsInJavaPackage","wrapper stateless",
-"BindViewTest","boundary degenerate","failsInAndroidPackage","wrapper stateless",
-"BindViewTest","boundary degenerate","failsIfInPrivateClass","wrapper stateless",
-"BindViewTest","boundary degenerate","failsIfNotView","wrapper stateless",
-"BindViewTest","boundary degenerate","failsIfInInterface","wrapper stateless",
-"BindViewTest","boundary degenerate","failsIfPrivate","wrapper stateless",
-"BindViewTest","boundary degenerate","failsIfStatic","wrapper stateless",
-"BindViewTest","boundary degenerate","duplicateBindingFails","wrapper stateless",
-"BindViewTest","boundary degenerate","failsOptionalRootViewBinding","wrapper stateless",
-"FieldResourceBinding","entity boundary","Type","constructor",
-"FieldResourceBinding","entity boundary","Type","constructor",
-"FieldResourceBinding","entity boundary","methodForSdk","property collaborator",
-"FieldResourceBinding","entity boundary","FieldResourceBinding","constructor",
-"FieldResourceBinding","entity boundary","id","get collaborator",
-"FieldResourceBinding","entity boundary","requiresResources","predicate non-void-command",
-"FieldResourceBinding","entity boundary","render","property non-void-command collaborator",
-"BindViewsFailureTest","boundary","failsIfNoIds","wrapper",
-"BindViewsFailureTest","boundary","failsIfNoGenericType","wrapper",
-"BindViewsFailureTest","boundary","failsIfUnsupportedCollection","wrapper",
-"BindViewsFailureTest","boundary","failsIfGenericNotView","wrapper",
-"BindViewsFailureTest","boundary","failsIfArrayNotView","wrapper",
-"ButteryActivity","commander boundary small-class","onCreate","command collaborator",
-"ImmutableList<T>","data-provider boundary","ImmutableList","constructor",
-"ImmutableList<T>","data-provider boundary","get","get collaborator",
-"ImmutableList<T>","data-provider boundary","size","get",
-"ImmutableList<T>","data-provider boundary","contains","predicate collaborator",
-"OnTouchTest","degenerate","simple","controller stateless",
-"OnTouchTest","degenerate","arguments","controller stateless",
-"OnTouchTest","degenerate","returnVoid","controller stateless",
-"OnTouchTest","degenerate","visibilities","controller stateless",
-"OnTouchTest","degenerate","multipleIds","controller stateless",
-"OnTouchTest","degenerate","optionalIdPresent","controller stateless",
-"OnTouchTest","degenerate","optionalIdAbsent","controller stateless",
-"OnTouchTest","degenerate","argumentCast","controller stateless",
-"OnTouchTest","degenerate","touch","wrapper stateless",
-"OnTouchTest","degenerate","defaultReturnValue","wrapper stateless",
-"OnTouchTest","degenerate","failsMultipleListenersWithReturnValue","wrapper stateless",
-"ViewBinding","entity boundary","ViewBinding","copy-constructor",
-"ViewBinding","entity boundary","getId","get collaborator",
-"ViewBinding","entity boundary","getFieldBinding","get collaborator",
-"ViewBinding","entity boundary","getMethodBindings","get collaborator",
-"ViewBinding","entity boundary","getRequiredBindings","non-void-command factory collaborator",
-"ViewBinding","entity boundary","isSingleFieldBinding","predicate non-void-command",
-"ViewBinding","entity boundary","requiresLocal","predicate non-void-command",
-"ViewBinding","entity boundary","isBoundToRoot","predicate wrapper",
-"ExtendViewTest","boundary degenerate small-class","onlyResources","wrapper stateless",
-"ExtendViewTest","boundary degenerate small-class","views","wrapper stateless",
-"Parameter","data-provider","Parameter","constructor",
-"Parameter","data-provider","getListenerPosition","get",
-"Parameter","data-provider","getType","get collaborator",
-"Parameter","data-provider","requiresCast","predicate non-void-command",
-"Utils","empty","Utils","constructor",
-"LintRegistryTest","boundary degenerate small-class","issues","wrapper stateless",
-"BindIntFailureTest","boundary small-class","typeMustBeInt","wrapper",
-"ViewCollections","empty","ViewCollections","constructor",
-"BindFontTest","degenerate","typeface","controller",
-"BindFontTest","degenerate","style","controller",
-"BindFontTest","degenerate","simpleIntSdk26","wrapper stateless",
-"BindFontTest","degenerate","styleSdk26","wrapper stateless",
-"BindFontTest","degenerate","typeMustBeTypeface","wrapper stateless",
-"BindFontTest","degenerate","styleMustBeValid","wrapper stateless",
-"FieldViewBinding","data-provider","FieldViewBinding","constructor",
-"FieldViewBinding","data-provider","getName","get",
-"FieldViewBinding","data-provider","getType","get collaborator",
-"FieldViewBinding","data-provider","getRawType","property collaborator",
-"FieldViewBinding","data-provider","getDescription","property",
-"FieldViewBinding","data-provider","isRequired","get",
-"BindFloatTest","commander boundary small-class","asFloat","command collaborator",
-"BindFloatTest","commander boundary small-class","typeMustBeFloat","wrapper stateless",
-"BindFontFailureTest","boundary small-class","typeMustBeTypeface","wrapper",
-"BindFontFailureTest","boundary small-class","styleMustBeValid","wrapper",
-"ClasspathBindingSet","data-provider data-class small-class","ClasspathBindingSet","constructor",
-"ClasspathBindingSet","data-provider data-class small-class","getBindingClassName","get collaborator",
-"ClasspathBindingSet","data-provider data-class small-class","constructorNeedsView","get",
-"BindingSet","unclassified","BindingSet","constructor",
-"BindingSet","unclassified","getBindingClassName","get collaborator",
-"BindingSet","unclassified","brewJava","property non-void-command collaborator",
-"BindingSet","unclassified","createType","property non-void-command collaborator",
-"BindingSet","unclassified","createBindingViewDelegateConstructor","property wrapper",
-"BindingSet","unclassified","createBindingConstructorForView","property non-void-command collaborator",
-"BindingSet","unclassified","createBindingConstructorForActivity","property non-void-command collaborator",
-"BindingSet","unclassified","createBindingConstructorForDialog","property non-void-command collaborator",
-"BindingSet","unclassified","createBindingConstructor","property non-void-command collaborator",
-"BindingSet","unclassified","createBindingUnbindMethod","property non-void-command collaborator",
-"BindingSet","unclassified","addFieldAndUnbindStatement","command collaborator",
-"BindingSet","unclassified","removerOrSetter","controller stateless",
-"BindingSet","unclassified","addViewBinding","command collaborator",
-"BindingSet","unclassified","addFieldBinding","controller",
-"BindingSet","unclassified","addMethodBindings","controller",
-"BindingSet","unclassified","hasViewBindings","predicate non-void-command",
-"BindingSet","unclassified","hasUnqualifiedResourceBindings","predicate controller",
-"BindingSet","unclassified","hasResourceBindingsNeedingResource","predicate controller",
-"BindingSet","unclassified","hasMethodBindings","predicate controller",
-"BindingSet","unclassified","hasOnTouchMethodBindings","predicate controller",
-"BindingSet","unclassified","hasFieldBindings","predicate non-void-command collaborator",
-"BindingSet","unclassified","hasTargetField","predicate non-void-command",
-"BindingSet","unclassified","hasViewLocal","predicate controller",
-"BindingSet","unclassified","constructorNeedsView","predicate non-void-command",
-"BindingSet","unclassified","toString","property non-void-command",
-"FieldDrawableBinding","data-provider boundary","FieldDrawableBinding","constructor",
-"FieldDrawableBinding","data-provider boundary","id","get collaborator",
-"FieldDrawableBinding","data-provider boundary","requiresResources","incidental",
-"FieldDrawableBinding","data-provider boundary","render","property wrapper",
-"SimpleActivity","entity boundary","sayHello","wrapper",
-"SimpleActivity","entity boundary","sayGetOffMe","predicate wrapper",
-"SimpleActivity","entity boundary","onItemClick","command",
-"SimpleActivity","entity boundary","onCreate","command collaborator",
-"SimpleActivity","entity boundary","sayHello","wrapper",
-"SimpleActivity","entity boundary","sayGetOffMe","predicate wrapper",
-"SimpleActivity","entity boundary","onItemClick","command",
-"SimpleActivity","entity boundary","onCreate","command collaborator",
-"BindFloatFailureTest","boundary small-class","typeMustBeFloat","wrapper",
-"BindBitmapTest","commander boundary small-class","asBitmap","command collaborator",
-"BindBitmapTest","commander boundary small-class","typeMustBeBitmap","wrapper stateless",
-"BindingSetTest","boundary degenerate small-class","humanDescriptionJoinWorks","wrapper stateless",
-"BindDrawableTest","commander boundary degenerate","asDrawable","command collaborator",
-"BindDrawableTest","commander boundary degenerate","simpleSdk21","wrapper stateless",
-"BindDrawableTest","commander boundary degenerate","withTint","wrapper stateless",
-"BindDrawableTest","commander boundary degenerate","typeMustBeDrawable","wrapper stateless",
-"OnClickTest","commander boundary degenerate","simple","command collaborator",
-"OnClickTest","commander boundary degenerate","multipleBindings","command collaborator",
-"OnClickTest","commander boundary degenerate","visibilities","command collaborator",
-"OnClickTest","commander boundary degenerate","multipleIds","command collaborator",
-"OnClickTest","commander boundary degenerate","optionalIdPresent","command collaborator",
-"OnClickTest","commander boundary degenerate","optionalIdAbsent","command collaborator",
-"OnClickTest","commander boundary degenerate","argumentCast","command collaborator",
-"OnClickTest","commander boundary degenerate","findOnlyCalledOnce","wrapper stateless",
-"OnClickTest","commander boundary degenerate","methodCastsArgumentNonDebuggable","wrapper stateless",
-"OnClickTest","commander boundary degenerate","optionalAndRequiredSkipsNullCheck","wrapper stateless",
-"OnClickTest","commander boundary degenerate","failsInJavaPackage","wrapper stateless",
-"OnClickTest","commander boundary degenerate","failsInAndroidPackage","wrapper stateless",
-"OnClickTest","commander boundary degenerate","failsIfHasReturnType","wrapper stateless",
-"OnClickTest","commander boundary degenerate","failsIfPrivateMethod","wrapper stateless",
-"OnClickTest","commander boundary degenerate","failsIfStatic","wrapper stateless",
-"OnClickTest","commander boundary degenerate","failsIfParameterNotView","wrapper stateless",
-"OnClickTest","commander boundary degenerate","failsIfMoreThanOneParameter","wrapper stateless",
-"OnClickTest","commander boundary degenerate","failsIfInInterface","wrapper stateless",
-"OnClickTest","commander boundary degenerate","failsIfHasDuplicateIds","wrapper stateless",
-"FieldUnbinder","boundary small-class","FieldUnbinder","constructor",
-"FieldUnbinder","boundary small-class","unbind","wrapper",
-"FieldAnimationBinding","data-provider boundary","FieldAnimationBinding","constructor",
-"FieldAnimationBinding","data-provider boundary","id","get collaborator",
-"FieldAnimationBinding","data-provider boundary","requiresResources","incidental",
-"FieldAnimationBinding","data-provider boundary","render","property wrapper",
-"MethodViewBinding","data-provider","MethodViewBinding","constructor",
-"MethodViewBinding","data-provider","getName","get",
-"MethodViewBinding","data-provider","getParameters","get collaborator",
-"MethodViewBinding","data-provider","getDescription","property",
-"MethodViewBinding","data-provider","isRequired","get",
-"MethodViewBinding","data-provider","hasReturnValue","get",
-"ViewCollectionsTest","pure-controller","propertyAppliedToView","controller",
-"ViewCollectionsTest","pure-controller","propertyAppliedToEveryViewInList","controller",
-"ViewCollectionsTest","pure-controller","propertyAppliedToEveryViewInArray","controller",
-"ViewCollectionsTest","pure-controller","actionAppliedToView","controller",
-"ViewCollectionsTest","pure-controller","actionsAppliedToView","controller",
-"ViewCollectionsTest","pure-controller","actionAppliedToEveryViewInList","controller",
-"ViewCollectionsTest","pure-controller","actionAppliedToEveryViewInArray","controller",
-"ViewCollectionsTest","pure-controller","actionsAppliedToEveryViewInList","controller",
-"ViewCollectionsTest","pure-controller","actionsAppliedToEveryViewInArray","controller",
-"ViewCollectionsTest","pure-controller","setterAppliedToView","controller",
-"ViewCollectionsTest","pure-controller","setterAppliedToEveryViewInList","controller",
-"ViewCollectionsTest","pure-controller","setterAppliedToEveryViewInArray","controller",
-"SimpleApp","commander small-class","onCreate","command",
-"SimpleApp","commander small-class","onCreate","command",
-"A","empty","A","constructor",
-"A","empty","A","constructor",
-"FieldTypefaceBinding","data-provider boundary","TypefaceStyles","constructor",
-"FieldTypefaceBinding","data-provider boundary","FieldTypefaceBinding","constructor",
-"FieldTypefaceBinding","data-provider boundary","id","get collaborator",
-"FieldTypefaceBinding","data-provider boundary","requiresResources","incidental",
-"FieldTypefaceBinding","data-provider boundary","render","property wrapper",
-"OnCheckedChangedTest","pure-controller degenerate","simple","controller stateless",
-"OnCheckedChangedTest","pure-controller degenerate","multipleBindings","controller stateless",
-"OnCheckedChangedTest","pure-controller degenerate","visibilities","controller stateless",
-"OnCheckedChangedTest","pure-controller degenerate","multipleIds","controller stateless",
-"OnCheckedChangedTest","pure-controller degenerate","optionalIdPresent","controller stateless",
-"OnCheckedChangedTest","pure-controller degenerate","optionalIdAbsent","controller stateless",
-"OnCheckedChangedTest","pure-controller degenerate","argumentCast","controller stateless",
-"ButterKnifeProcessor","boundary","init","command collaborator",
-"ButterKnifeProcessor","boundary","getSupportedOptions","property controller",
-"ButterKnifeProcessor","boundary","getSupportedAnnotationTypes","property non-void-command collaborator",
-"ButterKnifeProcessor","boundary","getSupportedAnnotations","factory controller",
-"ButterKnifeProcessor","boundary","process","predicate non-void-command collaborator",
-"ButterKnifeProcessor","boundary","findAndParseTargets","non-void-command factory collaborator",
-"ButterKnifeProcessor","boundary","logParsingError","controller stateless",
-"ButterKnifeProcessor","boundary","isInaccessibleViaGeneratedCode","controller stateless",
-"ButterKnifeProcessor","boundary","isBindingInWrongPackage","controller stateless",
-"ButterKnifeProcessor","boundary","parseBindView","command collaborator",
-"ButterKnifeProcessor","boundary","parseBindViews","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceAnimation","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceBool","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceColor","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceDimen","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceBitmap","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceDrawable","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceFloat","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceFont","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceInt","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceString","command collaborator",
-"ButterKnifeProcessor","boundary","parseResourceArray","command collaborator",
-"ButterKnifeProcessor","boundary","doubleErasure","property non-void-command collaborator",
-"ButterKnifeProcessor","boundary","findAndParseListener","command collaborator",
-"ButterKnifeProcessor","boundary","parseListenerAnnotation","command collaborator",
-"ButterKnifeProcessor","boundary","isInterface","wrapper stateless",
-"ButterKnifeProcessor","boundary","getOrCreateBindingBuilder","controller stateless",
-"ButterKnifeProcessor","boundary","findParentType","property non-void-command collaborator",
-"ButterKnifeProcessor","boundary","findAllSupertypeBindings","property non-void-command collaborator",
-"ButterKnifeProcessor","boundary","findBindingInfoForType","factory controller stateless",
-"ButterKnifeProcessor","boundary","getSuperClass","controller stateless",
-"ButterKnifeProcessor","boundary","getSupportedSourceVersion","wrapper stateless",
-"ButterKnifeProcessor","boundary","error","command collaborator",
-"ButterKnifeProcessor","boundary","note","command collaborator",
-"ButterKnifeProcessor","boundary","printMessage","wrapper stateless",
-"ButterKnifeProcessor","boundary","elementToId","property non-void-command factory collaborator",
-"ButterKnifeProcessor","boundary","elementToIds","non-void-command factory collaborator",
-"OnEditorActionTest","boundary degenerate small-class","editorAction","wrapper stateless",
-"OnEditorActionTest","boundary degenerate small-class","defaultReturnValue","wrapper stateless",
-"OnItemClickTest","degenerate","simple","controller stateless",
-"OnItemClickTest","degenerate","multipleBindings","controller stateless",
-"OnItemClickTest","degenerate","visibilities","controller stateless",
-"OnItemClickTest","degenerate","multipleIds","controller stateless",
-"OnItemClickTest","degenerate","optionalIdPresent","controller stateless",
-"OnItemClickTest","degenerate","optionalIdAbsent","controller stateless",
-"OnItemClickTest","degenerate","argumentCast","controller stateless",
-"OnItemClickTest","degenerate","onItemClickBinding","wrapper stateless",
-"OnItemClickTest","degenerate","onItemClickBindingWithParameters","wrapper stateless",
-"OnItemClickTest","degenerate","onItemClickBindingWithParameterSubset","wrapper stateless",
-"OnItemClickTest","degenerate","onItemClickBindingWithParameterSubsetAndGenerics","wrapper stateless",
-"OnItemClickTest","degenerate","onClickRootViewBinding","wrapper stateless",
-"OnItemClickTest","degenerate","onClickRootViewAnyTypeBinding","wrapper stateless",
-"OnItemClickTest","degenerate","failsWithInvalidId","wrapper stateless",
-"OnItemClickTest","degenerate","failsWithInvalidParameterConfiguration","wrapper stateless",
-"RClassTest","boundary","library","wrapper",
-"RClassTest","boundary","issue779","wrapper stateless",
-"RClassTest","boundary","app","wrapper",
-"RClassTest","boundary","compiledRClass","wrapper",
-"OnLongClickTest","pure-controller degenerate","simple","controller stateless",
-"OnLongClickTest","pure-controller degenerate","returnVoid","controller stateless",
-"OnLongClickTest","pure-controller degenerate","visibilities","controller stateless",
-"OnLongClickTest","pure-controller degenerate","multipleIds","controller stateless",
-"OnLongClickTest","pure-controller degenerate","optionalIdPresent","controller stateless",
-"OnLongClickTest","pure-controller degenerate","optionalIdAbsent","controller stateless",
-"OnLongClickTest","pure-controller degenerate","argumentCast","controller stateless",
-"BindStringTest","commander boundary small-class","simpleInt","command collaborator",
-"BindStringTest","commander boundary small-class","typeMustBeString","wrapper stateless",
-"BindBoolTest","commander boundary small-class","asBoolean","command collaborator",
-"BindBoolTest","commander boundary small-class","typeMustBeBoolean","wrapper stateless",
-"BindViewsTest","boundary degenerate","array","controller stateless",
-"BindViewsTest","boundary degenerate","list","controller stateless",
-"BindViewsTest","boundary degenerate","bindingArrayWithGenerics","wrapper stateless",
-"BindViewsTest","boundary degenerate","bindingArrayWithCast","wrapper stateless",
-"BindViewsTest","boundary degenerate","bindingArrayNonDebuggable","wrapper stateless",
-"BindViewsTest","boundary degenerate","bindingArrayWithCastNonDebuggable","wrapper stateless",
-"BindViewsTest","boundary degenerate","bindingGeneratedView","wrapper stateless",
-"BindViewsTest","boundary degenerate","bindingListOfInterface","wrapper stateless",
-"BindViewsTest","boundary degenerate","bindingListWithGenerics","wrapper stateless",
-"BindViewsTest","boundary degenerate","nullableList","wrapper stateless",
-"BindViewsTest","boundary degenerate","failsIfNoIds","wrapper stateless",
-"BindViewsTest","boundary degenerate","failsIfNoGenericType","wrapper stateless",
-"BindViewsTest","boundary degenerate","failsIfUnsupportedCollection","wrapper stateless",
-"BindViewsTest","boundary degenerate","failsIfGenericNotView","wrapper stateless",
-"BindViewsTest","boundary degenerate","failsIfArrayNotView","wrapper stateless",
-"BindViewsTest","boundary degenerate","failsIfContainsDuplicateIds","wrapper stateless",
-"BindViewsTest","boundary degenerate","bindingArrayWithRScanner","wrapper stateless",
-"BindViewsTest","boundary degenerate","bindingArrayWithMixedRAndLiteral","wrapper stateless",
-"OnItemLongClickTest","degenerate","simple","controller stateless",
-"OnItemLongClickTest","degenerate","returnVoid","controller stateless",
-"OnItemLongClickTest","degenerate","visibilities","controller stateless",
-"OnItemLongClickTest","degenerate","multipleIds","controller stateless",
-"OnItemLongClickTest","degenerate","optionalIdPresent","controller stateless",
-"OnItemLongClickTest","degenerate","optionalIdAbsent","controller stateless",
-"OnItemLongClickTest","degenerate","argumentCast","controller stateless",
-"OnItemLongClickTest","degenerate","itemLongClick","wrapper stateless",
-"OnItemLongClickTest","degenerate","defaultReturnValue","wrapper stateless",
-"ButterKnifeTest","boundary","resetViewsCache","wrapper stateless",
-"ButterKnifeTest","boundary","zeroBindingsBindDoesNotThrowExceptionAndCaches","wrapper",
-"ButterKnifeTest","boundary","bindingKnownPackagesIsNoOp","wrapper",
-"OnFocusChangeTest","boundary degenerate small-class","focusChange","wrapper stateless",
-"OnItemSelectedTest","degenerate","ignoreIfReflect","wrapper stateless",
-"OnItemSelectedTest","degenerate","simple","controller stateless",
-"OnItemSelectedTest","degenerate","multipleBindings","controller stateless",
-"OnItemSelectedTest","degenerate","visibilities","controller stateless",
-"OnItemSelectedTest","degenerate","multipleIdPermutation","controller stateless",
-"OnItemSelectedTest","degenerate","optionalIdPresent","controller stateless",
-"OnItemSelectedTest","degenerate","optionalIdAbsent","controller stateless",
-"OnItemSelectedTest","degenerate","argumentCast","controller stateless",
-"OnItemSelectedTest","degenerate","defaultMethod","wrapper stateless",
-"OnItemSelectedTest","degenerate","nonDefaultMethod","wrapper stateless",
-"OnItemSelectedTest","degenerate","allMethods","wrapper stateless",
-"OnItemSelectedTest","degenerate","multipleBindingPermutation","wrapper stateless",
-"BindColorTest","commander boundary degenerate","asInt","command collaborator",
-"BindColorTest","commander boundary degenerate","asColorStateList","command collaborator",
-"BindColorTest","commander boundary degenerate","simpleIntSdk23","wrapper stateless",
-"BindColorTest","commander boundary degenerate","simpleColorStateListSdk23","wrapper stateless",
-"BindColorTest","commander boundary degenerate","typeMustBeIntOrColorStateList","wrapper stateless",
-"BindIntTest","commander boundary small-class","asInt","command collaborator",
-"BindIntTest","commander boundary small-class","typeMustBeInt","wrapper stateless",
-"SimpleAdapterTest","pure-controller degenerate small-class","verifyViewHolderViews","controller stateless",
-"BindArrayTest","commander boundary","asStringArray","command collaborator",
-"BindArrayTest","commander boundary","asIntArray","command collaborator",
-"BindArrayTest","commander boundary","asCharSequenceArray","command collaborator",
-"BindArrayTest","commander boundary","typedArray","wrapper stateless",
-"BindArrayTest","commander boundary","typeMustBeSupported","wrapper stateless",
-"SimpleActivityTest","commander boundary small-class","verifyContentViewBinding","command collaborator",
-"BindAnimFailureTest","boundary small-class","typeMustBeAnimation","wrapper",
-"BindBitmapFailureTest","boundary small-class","typeMustBeBitmap","wrapper",
-"BindBoolFailureTest","boundary small-class","typeMustBeBool","wrapper",
-"Id","data-provider lazy-class","Id","constructor",
-"Id","data-provider lazy-class","Id","constructor",
-"Id","data-provider lazy-class","equals","get collaborator",
-"Id","data-provider lazy-class","hashCode","get",
-"Id","data-provider lazy-class","toString","stateless",
-"BindColorFailureTest","boundary small-class","typeMustBeIntOrColorStateList","wrapper",
-"BindArrayFailureTest","boundary small-class","typeMustBeSupported","wrapper",
-"BindDimenFailureTest","boundary small-class","typeMustBeIntOrFloat","wrapper",
-"UnbinderTest","commander boundary degenerate","verifyContentViewBinding","command collaborator",
-"UnbinderTest","commander boundary degenerate","verifyHBound","wrapper stateless",
-"UnbinderTest","commander boundary degenerate","verifyHUnbound","wrapper stateless",
-"UnbinderTest","commander boundary degenerate","multipleBindings","wrapper stateless",
-"UnbinderTest","commander boundary degenerate","unbindingThroughAbstractChild","wrapper stateless",
-"UnbinderTest","commander boundary degenerate","fullIntegration","wrapper stateless",
-"BindDrawableFailureTest","boundary small-class","typeMustBeDrawable","wrapper",
-"BindStringFailureTest","boundary small-class","typeMustBeString","wrapper",
-"ExtendActivityTest","boundary degenerate small-class","onlyResources","wrapper stateless",
-"ExtendActivityTest","boundary degenerate small-class","views","wrapper stateless",
-"FieldCollectionViewBinding","entity boundary small-class","Kind","constructor",
-"FieldCollectionViewBinding","entity boundary small-class","FieldCollectionViewBinding","constructor",
-"FieldCollectionViewBinding","entity boundary small-class","render","property non-void-command collaborator",
-"BindViewFailureTest","boundary small-class","failsIfNotView","wrapper",
+"TestGeneratingProcessor","boundary lazy-class small-class","TestGeneratingProcessor","constructor"
+"TestGeneratingProcessor","boundary lazy-class small-class","getSupportedAnnotationTypes","wrapper stateless"
+"TestGeneratingProcessor","boundary lazy-class small-class","process","predicate set collaborator"
+"OnTextChangedTest","boundary degenerate","textChanged","wrapper stateless"
+"OnTextChangedTest","boundary degenerate","textChangedWithParameter","wrapper stateless"
+"OnTextChangedTest","boundary degenerate","textChangedWithParameters","wrapper stateless"
+"OnTextChangedTest","boundary degenerate","textChangedWithWrongParameter","wrapper stateless"
+"OnPageChangeTest","boundary degenerate small-class","pageChange","wrapper stateless"
+"DebouncingOnClickListener","commander boundary data-class small-class","onClick","set collaborator"
+"EmptyTextWatcher","degenerate","beforeTextChanged","empty"
+"EmptyTextWatcher","degenerate","onTextChanged","empty"
+"EmptyTextWatcher","degenerate","afterTextChanged","empty"
+"CompositeUnbinder","commander boundary data-class small-class","CompositeUnbinder","constructor"
+"CompositeUnbinder","commander boundary data-class small-class","unbind","set collaborator"
+"ButterKnife","empty","ButterKnife","constructor"
+"ButterKnife","empty","ButterKnife","constructor"
+"InvalidR2UsageDetectorTest","boundary","noR2Usage","wrapper"
+"InvalidR2UsageDetectorTest","boundary","usesR2InAnnotations","wrapper"
+"InvalidR2UsageDetectorTest","boundary","usesR2OutsideAnnotations","wrapper"
+"InvalidR2UsageDetectorTest","boundary","usesR2WithSuppression","wrapper"
+"LintRegistry","degenerate small-class","getIssues","wrapper stateless"
+"LintRegistry","degenerate small-class","getApi","incidental"
+"InvalidR2UsageDetector","degenerate small-class","getApplicableUastTypes","wrapper stateless"
+"InvalidR2UsageDetector","degenerate small-class","createUastHandler","factory wrapper stateless"
+"H","empty","H","constructor"
+"H","empty","H","constructor"
+"ClasspathParentBindTest","commander boundary","parentBindingInClasspath","command collaborator"
+"ClasspathParentBindTest","commander boundary","indirectViewRequiredInConstructor","command collaborator"
+"ClasspathParentBindTest","commander boundary","viewNotRequiredInConstructor","command collaborator"
+"ClasspathParentBindTest","commander boundary","compileSources","controller stateless"
+"G","degenerate small-class","G","constructor"
+"G","degenerate small-class","onClick","empty"
+"G","degenerate small-class","G","constructor"
+"G","degenerate small-class","onClick","empty"
+"F","empty","F","constructor"
+"F","empty","F","constructor"
+"E","empty","E","constructor"
+"E","empty","E","constructor"
+"C","empty","C","constructor"
+"C","empty","C","constructor"
+"B","empty","B","constructor"
+"B","empty","B","constructor"
+"UtilsTest","boundary degenerate","finderThrowsNiceError","wrapper stateless"
+"UtilsTest","boundary degenerate","finderThrowsLessNiceErrorInEditMode","wrapper stateless"
+"UtilsTest","boundary degenerate","listOfFiltersNull","wrapper stateless"
+"UtilsTest","boundary degenerate","arrayFilteringNullRemovesNulls","wrapper stateless"
+"UtilsTest","boundary degenerate","arrayFilteringNullReturnsOriginalWhenNoNulls","wrapper stateless"
+"UtilsTest","boundary degenerate","testCastParam","wrapper stateless"
+"D","empty","D","constructor"
+"D","empty","D","constructor"
+"SimpleAdapter","data-provider","SimpleAdapter","constructor"
+"SimpleAdapter","data-provider","getCount","property"
+"SimpleAdapter","data-provider","getItem","get"
+"SimpleAdapter","data-provider","getItemId","incidental"
+"SimpleAdapter","data-provider","getView","property non-void-command collaborator"
+"SimpleAdapter","data-provider","SimpleAdapter","constructor"
+"SimpleAdapter","data-provider","getCount","property"
+"SimpleAdapter","data-provider","getItem","get"
+"SimpleAdapter","data-provider","getItemId","incidental"
+"SimpleAdapter","data-provider","getView","property non-void-command collaborator"
+"ViewCollectionsTest","pure-controller","propertyAppliedToView","controller"
+"ViewCollectionsTest","pure-controller","propertyAppliedToEveryViewInList","controller"
+"ViewCollectionsTest","pure-controller","propertyAppliedToEveryViewInArray","controller"
+"ViewCollectionsTest","pure-controller","actionAppliedToView","controller"
+"ViewCollectionsTest","pure-controller","actionsAppliedToView","controller"
+"ViewCollectionsTest","pure-controller","actionAppliedToEveryViewInList","controller"
+"ViewCollectionsTest","pure-controller","actionAppliedToEveryViewInArray","controller"
+"ViewCollectionsTest","pure-controller","actionsAppliedToEveryViewInList","controller"
+"ViewCollectionsTest","pure-controller","actionsAppliedToEveryViewInArray","controller"
+"ViewCollectionsTest","pure-controller","setterAppliedToView","controller"
+"ViewCollectionsTest","pure-controller","setterAppliedToEveryViewInList","controller"
+"ViewCollectionsTest","pure-controller","setterAppliedToEveryViewInArray","controller"
+"SimpleApp","commander small-class","onCreate","command"
+"SimpleApp","commander small-class","onCreate","command"
+"BindAnimTest","small-class","anim","controller"
+"BindAnimTest","small-class","typeMustBeAnimation","wrapper stateless"
+"ExtendDialogTest","boundary degenerate small-class","onlyResources","wrapper stateless"
+"ExtendDialogTest","boundary degenerate small-class","views","wrapper stateless"
+"BindDimenTest","commander boundary","asInt","command collaborator"
+"BindDimenTest","commander boundary","asFloat","command collaborator"
+"BindDimenTest","commander boundary","typeMustBeIntOrFloat","wrapper stateless"
+"ListenerUnbinder<VextendsView,L>","boundary small-class","ListenerUnbinder","constructor"
+"ListenerUnbinder<VextendsView,L>","boundary small-class","ListenerUnbinder","constructor"
+"ListenerUnbinder<VextendsView,L>","boundary small-class","unbind","wrapper"
+"Constants","empty","Constants","constructor"
+"BindViewTest","boundary degenerate","view","controller stateless"
+"BindViewTest","boundary degenerate","bindingViewNonDebuggable","wrapper stateless"
+"BindViewTest","boundary degenerate","bindingViewSubclassNonDebuggable","wrapper stateless"
+"BindViewTest","boundary degenerate","bindingGeneratedView","wrapper stateless"
+"BindViewTest","boundary degenerate","bindingViewFinalClass","wrapper stateless"
+"BindViewTest","boundary degenerate","bindingViewFinalClassWithBaseClass","wrapper stateless"
+"BindViewTest","boundary degenerate","bindingViewUppercasePackageName","wrapper stateless"
+"BindViewTest","boundary degenerate","bindingInterface","wrapper stateless"
+"BindViewTest","boundary degenerate","genericType","wrapper stateless"
+"BindViewTest","boundary degenerate","oneFindPerId","wrapper stateless"
+"BindViewTest","boundary degenerate","oneFindPerIdWithCast","wrapper stateless"
+"BindViewTest","boundary degenerate","fieldVisibility","wrapper stateless"
+"BindViewTest","boundary degenerate","nullable","wrapper stateless"
+"BindViewTest","boundary degenerate","superclass","wrapper stateless"
+"BindViewTest","boundary degenerate","genericSuperclass","wrapper stateless"
+"BindViewTest","boundary degenerate","failsInJavaPackage","wrapper stateless"
+"BindViewTest","boundary degenerate","failsInAndroidPackage","wrapper stateless"
+"BindViewTest","boundary degenerate","failsIfInPrivateClass","wrapper stateless"
+"BindViewTest","boundary degenerate","failsIfNotView","wrapper stateless"
+"BindViewTest","boundary degenerate","failsIfInInterface","wrapper stateless"
+"BindViewTest","boundary degenerate","failsIfPrivate","wrapper stateless"
+"BindViewTest","boundary degenerate","failsIfStatic","wrapper stateless"
+"BindViewTest","boundary degenerate","duplicateBindingFails","wrapper stateless"
+"BindViewTest","boundary degenerate","failsOptionalRootViewBinding","wrapper stateless"
+"FieldResourceBinding","entity boundary","FieldResourceBinding","constructor"
+"FieldResourceBinding","entity boundary","id","get collaborator"
+"FieldResourceBinding","entity boundary","requiresResources","predicate non-void-command"
+"FieldResourceBinding","entity boundary","render","property non-void-command collaborator"
+"BindViewsFailureTest","boundary","failsIfNoIds","wrapper"
+"BindViewsFailureTest","boundary","failsIfNoGenericType","wrapper"
+"BindViewsFailureTest","boundary","failsIfUnsupportedCollection","wrapper"
+"BindViewsFailureTest","boundary","failsIfGenericNotView","wrapper"
+"BindViewsFailureTest","boundary","failsIfArrayNotView","wrapper"
+"ImmutableList<T>","data-provider boundary","ImmutableList","constructor"
+"ImmutableList<T>","data-provider boundary","get","get collaborator"
+"ImmutableList<T>","data-provider boundary","size","property"
+"ImmutableList<T>","data-provider boundary","contains","predicate collaborator"
+"OnTouchTest","degenerate","simple","controller stateless"
+"OnTouchTest","degenerate","arguments","controller stateless"
+"OnTouchTest","degenerate","returnVoid","controller stateless"
+"OnTouchTest","degenerate","visibilities","controller stateless"
+"OnTouchTest","degenerate","multipleIds","controller stateless"
+"OnTouchTest","degenerate","optionalIdPresent","controller stateless"
+"OnTouchTest","degenerate","optionalIdAbsent","controller stateless"
+"OnTouchTest","degenerate","argumentCast","controller stateless"
+"OnTouchTest","degenerate","touch","wrapper stateless"
+"OnTouchTest","degenerate","defaultReturnValue","wrapper stateless"
+"OnTouchTest","degenerate","failsMultipleListenersWithReturnValue","wrapper stateless"
+"ViewBinding","entity boundary","ViewBinding","copy-constructor"
+"ViewBinding","entity boundary","getId","get collaborator"
+"ViewBinding","entity boundary","getFieldBinding","get collaborator"
+"ViewBinding","entity boundary","getMethodBindings","get collaborator"
+"ViewBinding","entity boundary","getRequiredBindings","non-void-command factory collaborator"
+"ViewBinding","entity boundary","isSingleFieldBinding","predicate non-void-command"
+"ViewBinding","entity boundary","requiresLocal","predicate non-void-command"
+"ViewBinding","entity boundary","isBoundToRoot","predicate wrapper"
+"ExtendViewTest","boundary degenerate small-class","onlyResources","wrapper stateless"
+"ExtendViewTest","boundary degenerate small-class","views","wrapper stateless"
+"Parameter","data-provider","Parameter","constructor"
+"Parameter","data-provider","getListenerPosition","get"
+"Parameter","data-provider","getType","get collaborator"
+"Parameter","data-provider","requiresCast","predicate non-void-command"
+"Utils","empty","Utils","constructor"
+"LintRegistryTest","boundary degenerate small-class","issues","wrapper stateless"
+"BindIntFailureTest","boundary small-class","typeMustBeInt","wrapper"
+"BindFontFailureTest","boundary small-class","typeMustBeTypeface","wrapper"
+"BindFontFailureTest","boundary small-class","styleMustBeValid","wrapper"
+"ButteryActivity","commander boundary small-class","onCreate","command collaborator"
+"RClassTest","boundary","library","wrapper"
+"RClassTest","boundary","issue779","wrapper stateless"
+"RClassTest","boundary","app","wrapper"
+"RClassTest","boundary","compiledRClass","wrapper"
+"OnLongClickTest","pure-controller degenerate","simple","controller stateless"
+"OnLongClickTest","pure-controller degenerate","returnVoid","controller stateless"
+"OnLongClickTest","pure-controller degenerate","visibilities","controller stateless"
+"OnLongClickTest","pure-controller degenerate","multipleIds","controller stateless"
+"OnLongClickTest","pure-controller degenerate","optionalIdPresent","controller stateless"
+"OnLongClickTest","pure-controller degenerate","optionalIdAbsent","controller stateless"
+"OnLongClickTest","pure-controller degenerate","argumentCast","controller stateless"
+"ButterKnifeProcessor","boundary","init","command collaborator"
+"ButterKnifeProcessor","boundary","getSupportedOptions","property controller"
+"ButterKnifeProcessor","boundary","getSupportedAnnotationTypes","property non-void-command collaborator"
+"ButterKnifeProcessor","boundary","getSupportedAnnotations","factory controller"
+"ButterKnifeProcessor","boundary","process","predicate non-void-command collaborator"
+"ButterKnifeProcessor","boundary","findAndParseTargets","non-void-command factory collaborator"
+"ButterKnifeProcessor","boundary","logParsingError","controller stateless"
+"ButterKnifeProcessor","boundary","isInaccessibleViaGeneratedCode","controller stateless"
+"ButterKnifeProcessor","boundary","isBindingInWrongPackage","controller stateless"
+"ButterKnifeProcessor","boundary","parseBindView","command collaborator"
+"ButterKnifeProcessor","boundary","parseBindViews","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceAnimation","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceBool","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceColor","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceDimen","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceBitmap","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceDrawable","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceFloat","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceFont","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceInt","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceString","command collaborator"
+"ButterKnifeProcessor","boundary","parseResourceArray","command collaborator"
+"ButterKnifeProcessor","boundary","doubleErasure","property non-void-command collaborator"
+"ButterKnifeProcessor","boundary","findAndParseListener","command collaborator"
+"ButterKnifeProcessor","boundary","parseListenerAnnotation","command collaborator"
+"ButterKnifeProcessor","boundary","isInterface","wrapper stateless"
+"ButterKnifeProcessor","boundary","getOrCreateBindingBuilder","controller stateless"
+"ButterKnifeProcessor","boundary","findParentType","property non-void-command collaborator"
+"ButterKnifeProcessor","boundary","findAllSupertypeBindings","property non-void-command collaborator"
+"ButterKnifeProcessor","boundary","findBindingInfoForType","factory controller stateless"
+"ButterKnifeProcessor","boundary","getSuperClass","controller stateless"
+"ButterKnifeProcessor","boundary","getSupportedSourceVersion","wrapper stateless"
+"ButterKnifeProcessor","boundary","error","command collaborator"
+"ButterKnifeProcessor","boundary","note","command collaborator"
+"ButterKnifeProcessor","boundary","printMessage","wrapper stateless"
+"ButterKnifeProcessor","boundary","elementToId","property non-void-command factory collaborator"
+"ButterKnifeProcessor","boundary","elementToIds","non-void-command factory collaborator"
+"OnEditorActionTest","boundary degenerate small-class","editorAction","wrapper stateless"
+"OnEditorActionTest","boundary degenerate small-class","defaultReturnValue","wrapper stateless"
+"OnItemClickTest","degenerate","simple","controller stateless"
+"OnItemClickTest","degenerate","multipleBindings","controller stateless"
+"OnItemClickTest","degenerate","visibilities","controller stateless"
+"OnItemClickTest","degenerate","multipleIds","controller stateless"
+"OnItemClickTest","degenerate","optionalIdPresent","controller stateless"
+"OnItemClickTest","degenerate","optionalIdAbsent","controller stateless"
+"OnItemClickTest","degenerate","argumentCast","controller stateless"
+"OnItemClickTest","degenerate","onItemClickBinding","wrapper stateless"
+"OnItemClickTest","degenerate","onItemClickBindingWithParameters","wrapper stateless"
+"OnItemClickTest","degenerate","onItemClickBindingWithParameterSubset","wrapper stateless"
+"OnItemClickTest","degenerate","onItemClickBindingWithParameterSubsetAndGenerics","wrapper stateless"
+"OnItemClickTest","degenerate","onClickRootViewBinding","wrapper stateless"
+"OnItemClickTest","degenerate","onClickRootViewAnyTypeBinding","wrapper stateless"
+"OnItemClickTest","degenerate","failsWithInvalidId","wrapper stateless"
+"OnItemClickTest","degenerate","failsWithInvalidParameterConfiguration","wrapper stateless"
+"BindBitmapTest","commander boundary small-class","asBitmap","command collaborator"
+"BindBitmapTest","commander boundary small-class","typeMustBeBitmap","wrapper stateless"
+"BindingSetTest","boundary degenerate small-class","humanDescriptionJoinWorks","wrapper stateless"
+"BindDrawableTest","commander boundary degenerate","asDrawable","command collaborator"
+"BindDrawableTest","commander boundary degenerate","simpleSdk21","wrapper stateless"
+"BindDrawableTest","commander boundary degenerate","withTint","wrapper stateless"
+"BindDrawableTest","commander boundary degenerate","typeMustBeDrawable","wrapper stateless"
+"OnClickTest","commander boundary degenerate","simple","command collaborator"
+"OnClickTest","commander boundary degenerate","multipleBindings","command collaborator"
+"OnClickTest","commander boundary degenerate","visibilities","command collaborator"
+"OnClickTest","commander boundary degenerate","multipleIds","command collaborator"
+"OnClickTest","commander boundary degenerate","optionalIdPresent","command collaborator"
+"OnClickTest","commander boundary degenerate","optionalIdAbsent","command collaborator"
+"OnClickTest","commander boundary degenerate","argumentCast","command collaborator"
+"OnClickTest","commander boundary degenerate","findOnlyCalledOnce","wrapper stateless"
+"OnClickTest","commander boundary degenerate","methodCastsArgumentNonDebuggable","wrapper stateless"
+"OnClickTest","commander boundary degenerate","optionalAndRequiredSkipsNullCheck","wrapper stateless"
+"OnClickTest","commander boundary degenerate","failsInJavaPackage","wrapper stateless"
+"OnClickTest","commander boundary degenerate","failsInAndroidPackage","wrapper stateless"
+"OnClickTest","commander boundary degenerate","failsIfHasReturnType","wrapper stateless"
+"OnClickTest","commander boundary degenerate","failsIfPrivateMethod","wrapper stateless"
+"OnClickTest","commander boundary degenerate","failsIfStatic","wrapper stateless"
+"OnClickTest","commander boundary degenerate","failsIfParameterNotView","wrapper stateless"
+"OnClickTest","commander boundary degenerate","failsIfMoreThanOneParameter","wrapper stateless"
+"OnClickTest","commander boundary degenerate","failsIfInInterface","wrapper stateless"
+"OnClickTest","commander boundary degenerate","failsIfHasDuplicateIds","wrapper stateless"
+"FieldDrawableBinding","data-provider boundary","FieldDrawableBinding","constructor"
+"FieldDrawableBinding","data-provider boundary","id","get collaborator"
+"FieldDrawableBinding","data-provider boundary","requiresResources","incidental"
+"FieldDrawableBinding","data-provider boundary","render","property wrapper"
+"SimpleActivity","entity boundary","sayHello","wrapper"
+"SimpleActivity","entity boundary","sayGetOffMe","predicate wrapper"
+"SimpleActivity","entity boundary","onItemClick","command"
+"SimpleActivity","entity boundary","onCreate","command collaborator"
+"SimpleActivity","entity boundary","sayHello","wrapper"
+"SimpleActivity","entity boundary","sayGetOffMe","predicate wrapper"
+"SimpleActivity","entity boundary","onItemClick","command"
+"SimpleActivity","entity boundary","onCreate","command collaborator"
+"BindFloatFailureTest","boundary small-class","typeMustBeFloat","wrapper"
+"BindingSet","unclassified","BindingSet","constructor"
+"BindingSet","unclassified","getBindingClassName","get collaborator"
+"BindingSet","unclassified","brewJava","property non-void-command collaborator"
+"BindingSet","unclassified","createType","property non-void-command collaborator"
+"BindingSet","unclassified","createBindingViewDelegateConstructor","property wrapper"
+"BindingSet","unclassified","createBindingConstructorForView","property non-void-command collaborator"
+"BindingSet","unclassified","createBindingConstructorForActivity","property non-void-command collaborator"
+"BindingSet","unclassified","createBindingConstructorForDialog","property non-void-command collaborator"
+"BindingSet","unclassified","createBindingConstructor","property non-void-command collaborator"
+"BindingSet","unclassified","createBindingUnbindMethod","property non-void-command collaborator"
+"BindingSet","unclassified","addFieldAndUnbindStatement","command collaborator"
+"BindingSet","unclassified","removerOrSetter","controller stateless"
+"BindingSet","unclassified","addViewBinding","command collaborator"
+"BindingSet","unclassified","addFieldBinding","controller"
+"BindingSet","unclassified","addMethodBindings","controller"
+"BindingSet","unclassified","hasViewBindings","predicate non-void-command"
+"BindingSet","unclassified","hasUnqualifiedResourceBindings","predicate controller"
+"BindingSet","unclassified","hasResourceBindingsNeedingResource","predicate controller"
+"BindingSet","unclassified","hasMethodBindings","predicate controller"
+"BindingSet","unclassified","hasOnTouchMethodBindings","predicate controller"
+"BindingSet","unclassified","hasFieldBindings","predicate non-void-command collaborator"
+"BindingSet","unclassified","hasTargetField","predicate non-void-command"
+"BindingSet","unclassified","hasViewLocal","predicate controller"
+"BindingSet","unclassified","constructorNeedsView","predicate non-void-command"
+"BindingSet","unclassified","toString","property non-void-command"
+"ViewCollections","empty","ViewCollections","constructor"
+"BindFontTest","degenerate","typeface","controller"
+"BindFontTest","degenerate","style","controller"
+"BindFontTest","degenerate","simpleIntSdk26","wrapper stateless"
+"BindFontTest","degenerate","styleSdk26","wrapper stateless"
+"BindFontTest","degenerate","typeMustBeTypeface","wrapper stateless"
+"BindFontTest","degenerate","styleMustBeValid","wrapper stateless"
+"FieldViewBinding","data-provider","FieldViewBinding","constructor"
+"FieldViewBinding","data-provider","getName","get"
+"FieldViewBinding","data-provider","getType","get collaborator"
+"FieldViewBinding","data-provider","getRawType","property collaborator"
+"FieldViewBinding","data-provider","getDescription","property"
+"FieldViewBinding","data-provider","isRequired","get"
+"ClasspathBindingSet","data-provider data-class small-class","ClasspathBindingSet","constructor"
+"ClasspathBindingSet","data-provider data-class small-class","getBindingClassName","get collaborator"
+"ClasspathBindingSet","data-provider data-class small-class","constructorNeedsView","get"
+"FieldUnbinder","boundary small-class","FieldUnbinder","constructor"
+"FieldUnbinder","boundary small-class","unbind","wrapper"
+"FieldAnimationBinding","data-provider boundary","FieldAnimationBinding","constructor"
+"FieldAnimationBinding","data-provider boundary","id","get collaborator"
+"FieldAnimationBinding","data-provider boundary","requiresResources","incidental"
+"FieldAnimationBinding","data-provider boundary","render","property wrapper"
+"MethodViewBinding","data-provider","MethodViewBinding","constructor"
+"MethodViewBinding","data-provider","getName","get"
+"MethodViewBinding","data-provider","getParameters","get collaborator"
+"MethodViewBinding","data-provider","getDescription","property"
+"MethodViewBinding","data-provider","isRequired","get"
+"MethodViewBinding","data-provider","hasReturnValue","get"
+"A","empty","A","constructor"
+"A","empty","A","constructor"
+"FieldTypefaceBinding","data-provider boundary","FieldTypefaceBinding","constructor"
+"FieldTypefaceBinding","data-provider boundary","id","get collaborator"
+"FieldTypefaceBinding","data-provider boundary","requiresResources","incidental"
+"FieldTypefaceBinding","data-provider boundary","render","property wrapper"
+"OnCheckedChangedTest","pure-controller degenerate","simple","controller stateless"
+"OnCheckedChangedTest","pure-controller degenerate","multipleBindings","controller stateless"
+"OnCheckedChangedTest","pure-controller degenerate","visibilities","controller stateless"
+"OnCheckedChangedTest","pure-controller degenerate","multipleIds","controller stateless"
+"OnCheckedChangedTest","pure-controller degenerate","optionalIdPresent","controller stateless"
+"OnCheckedChangedTest","pure-controller degenerate","optionalIdAbsent","controller stateless"
+"OnCheckedChangedTest","pure-controller degenerate","argumentCast","controller stateless"
+"BindFloatTest","commander boundary small-class","asFloat","command collaborator"
+"BindFloatTest","commander boundary small-class","typeMustBeFloat","wrapper stateless"
+"BindStringTest","commander boundary small-class","simpleInt","command collaborator"
+"BindStringTest","commander boundary small-class","typeMustBeString","wrapper stateless"
+"BindBoolTest","commander boundary small-class","asBoolean","command collaborator"
+"BindBoolTest","commander boundary small-class","typeMustBeBoolean","wrapper stateless"
+"BindViewsTest","boundary degenerate","array","controller stateless"
+"BindViewsTest","boundary degenerate","list","controller stateless"
+"BindViewsTest","boundary degenerate","bindingArrayWithGenerics","wrapper stateless"
+"BindViewsTest","boundary degenerate","bindingArrayWithCast","wrapper stateless"
+"BindViewsTest","boundary degenerate","bindingArrayNonDebuggable","wrapper stateless"
+"BindViewsTest","boundary degenerate","bindingArrayWithCastNonDebuggable","wrapper stateless"
+"BindViewsTest","boundary degenerate","bindingGeneratedView","wrapper stateless"
+"BindViewsTest","boundary degenerate","bindingListOfInterface","wrapper stateless"
+"BindViewsTest","boundary degenerate","bindingListWithGenerics","wrapper stateless"
+"BindViewsTest","boundary degenerate","nullableList","wrapper stateless"
+"BindViewsTest","boundary degenerate","failsIfNoIds","wrapper stateless"
+"BindViewsTest","boundary degenerate","failsIfNoGenericType","wrapper stateless"
+"BindViewsTest","boundary degenerate","failsIfUnsupportedCollection","wrapper stateless"
+"BindViewsTest","boundary degenerate","failsIfGenericNotView","wrapper stateless"
+"BindViewsTest","boundary degenerate","failsIfArrayNotView","wrapper stateless"
+"BindViewsTest","boundary degenerate","failsIfContainsDuplicateIds","wrapper stateless"
+"BindViewsTest","boundary degenerate","bindingArrayWithRScanner","wrapper stateless"
+"BindViewsTest","boundary degenerate","bindingArrayWithMixedRAndLiteral","wrapper stateless"
+"OnItemLongClickTest","degenerate","simple","controller stateless"
+"OnItemLongClickTest","degenerate","returnVoid","controller stateless"
+"OnItemLongClickTest","degenerate","visibilities","controller stateless"
+"OnItemLongClickTest","degenerate","multipleIds","controller stateless"
+"OnItemLongClickTest","degenerate","optionalIdPresent","controller stateless"
+"OnItemLongClickTest","degenerate","optionalIdAbsent","controller stateless"
+"OnItemLongClickTest","degenerate","argumentCast","controller stateless"
+"OnItemLongClickTest","degenerate","itemLongClick","wrapper stateless"
+"OnItemLongClickTest","degenerate","defaultReturnValue","wrapper stateless"
+"ButterKnifeTest","boundary","resetViewsCache","wrapper stateless"
+"ButterKnifeTest","boundary","zeroBindingsBindDoesNotThrowExceptionAndCaches","wrapper"
+"ButterKnifeTest","boundary","bindingKnownPackagesIsNoOp","wrapper"
+"OnFocusChangeTest","boundary degenerate small-class","focusChange","wrapper stateless"
+"OnItemSelectedTest","degenerate","ignoreIfReflect","wrapper stateless"
+"OnItemSelectedTest","degenerate","simple","controller stateless"
+"OnItemSelectedTest","degenerate","multipleBindings","controller stateless"
+"OnItemSelectedTest","degenerate","visibilities","controller stateless"
+"OnItemSelectedTest","degenerate","multipleIdPermutation","controller stateless"
+"OnItemSelectedTest","degenerate","optionalIdPresent","controller stateless"
+"OnItemSelectedTest","degenerate","optionalIdAbsent","controller stateless"
+"OnItemSelectedTest","degenerate","argumentCast","controller stateless"
+"OnItemSelectedTest","degenerate","defaultMethod","wrapper stateless"
+"OnItemSelectedTest","degenerate","nonDefaultMethod","wrapper stateless"
+"OnItemSelectedTest","degenerate","allMethods","wrapper stateless"
+"OnItemSelectedTest","degenerate","multipleBindingPermutation","wrapper stateless"
+"BindColorTest","commander boundary degenerate","asInt","command collaborator"
+"BindColorTest","commander boundary degenerate","asColorStateList","command collaborator"
+"BindColorTest","commander boundary degenerate","simpleIntSdk23","wrapper stateless"
+"BindColorTest","commander boundary degenerate","simpleColorStateListSdk23","wrapper stateless"
+"BindColorTest","commander boundary degenerate","typeMustBeIntOrColorStateList","wrapper stateless"
+"BindIntTest","commander boundary small-class","asInt","command collaborator"
+"BindIntTest","commander boundary small-class","typeMustBeInt","wrapper stateless"
+"SimpleAdapterTest","pure-controller degenerate small-class","verifyViewHolderViews","controller stateless"
+"BindDrawableFailureTest","boundary small-class","typeMustBeDrawable","wrapper"
+"UnbinderTest","commander boundary degenerate","verifyContentViewBinding","command collaborator"
+"UnbinderTest","commander boundary degenerate","verifyHBound","wrapper stateless"
+"UnbinderTest","commander boundary degenerate","verifyHUnbound","wrapper stateless"
+"UnbinderTest","commander boundary degenerate","multipleBindings","wrapper stateless"
+"UnbinderTest","commander boundary degenerate","unbindingThroughAbstractChild","wrapper stateless"
+"UnbinderTest","commander boundary degenerate","fullIntegration","wrapper stateless"
+"BindArrayTest","commander boundary","asStringArray","command collaborator"
+"BindArrayTest","commander boundary","asIntArray","command collaborator"
+"BindArrayTest","commander boundary","asCharSequenceArray","command collaborator"
+"BindArrayTest","commander boundary","typedArray","wrapper stateless"
+"BindArrayTest","commander boundary","typeMustBeSupported","wrapper stateless"
+"SimpleActivityTest","commander boundary small-class","verifyContentViewBinding","command collaborator"
+"BindAnimFailureTest","boundary small-class","typeMustBeAnimation","wrapper"
+"BindBitmapFailureTest","boundary small-class","typeMustBeBitmap","wrapper"
+"BindBoolFailureTest","boundary small-class","typeMustBeBool","wrapper"
+"Id","data-provider lazy-class","Id","constructor"
+"Id","data-provider lazy-class","Id","constructor"
+"Id","data-provider lazy-class","equals","get collaborator"
+"Id","data-provider lazy-class","hashCode","get"
+"Id","data-provider lazy-class","toString","stateless"
+"BindColorFailureTest","boundary small-class","typeMustBeIntOrColorStateList","wrapper"
+"BindArrayFailureTest","boundary small-class","typeMustBeSupported","wrapper"
+"BindDimenFailureTest","boundary small-class","typeMustBeIntOrFloat","wrapper"
+"BindStringFailureTest","boundary small-class","typeMustBeString","wrapper"
+"ExtendActivityTest","boundary degenerate small-class","onlyResources","wrapper stateless"
+"ExtendActivityTest","boundary degenerate small-class","views","wrapper stateless"
+"FieldCollectionViewBinding","entity boundary small-class","FieldCollectionViewBinding","constructor"
+"FieldCollectionViewBinding","entity boundary small-class","render","property non-void-command collaborator"
+"BindViewFailureTest","boundary small-class","failsIfNotView","wrapper"

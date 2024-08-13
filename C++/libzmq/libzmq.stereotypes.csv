@@ -1,941 +1,948 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"test_events_t","commander","test_events_t","constructor",
-"test_events_t","commander","in_event","command",
-"test_events_t","commander","out_event","empty",
-"test_events_t","commander","timer_event","command",
-"test_events_t","commander","set_handle","set collaborator",
-"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::zap_client_common_handshake_t","constructor",
-"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::status","property collaborator",
-"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::zap_msg_available","property non-void-command",
-"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::handle_zap_status_code","set",
-"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::receive_and_process_zap_reply","property non-void-command",
-"zap_client_t","unclassified","zap_client_t::zap_client_t","constructor",
-"zap_client_t","unclassified","zap_client_t::send_zap_request","void-accessor command",
-"zap_client_t","unclassified","zap_client_t::send_zap_request","void-accessor command",
-"zap_client_t","unclassified","zap_client_t::receive_and_process_zap_reply","property non-void-command",
-"zap_client_t","unclassified","zap_client_t::handle_zap_status_code","controller",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::ip_resolver_options_t","constructor",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::bindable","get set",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_nic_name","get set",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::ipv6","get set",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::expect_port","get set",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_dns","get set",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_path","get set",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::bindable","get",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_nic_name","get",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::ipv6","get",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::expect_port","get",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_dns","get",
-"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_path","get",
-"ip_resolver_t","entity boundary degenerate","~ip_resolver_t","destructor",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::ip_resolver_t","constructor",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve","property non-void-command",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_getaddrinfo","property non-void-command",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","wrapper stateless",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","property non-void-command",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","property non-void-command",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::get_interface_name","wrapper stateless",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::wchar_to_utf8","wrapper stateless",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","property non-void-command collaborator",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","wrapper stateless",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::do_getaddrinfo","wrapper stateless",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::do_freeaddrinfo","wrapper stateless",
-"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::do_if_nametoindex","wrapper stateless",
-"wss_address_t","data-provider boundary small-class","zmq::wss_address_t::wss_address_t","constructor",
-"wss_address_t","data-provider boundary small-class","zmq::wss_address_t::wss_address_t","constructor",
-"wss_address_t","data-provider boundary small-class","zmq::wss_address_t::to_string","property collaborator",
-"io_object_t","entity commander boundary","zmq::io_object_t::io_object_t","constructor",
-"io_object_t","entity commander boundary","zmq::io_object_t::~io_object_t","destructor",
-"io_object_t","entity commander boundary","zmq::io_object_t::plug","void-accessor set collaborator",
-"io_object_t","entity commander boundary","zmq::io_object_t::unplug","set",
-"io_object_t","entity commander boundary","zmq::io_object_t::add_fd","property non-void-command collaborator",
-"io_object_t","entity commander boundary","zmq::io_object_t::rm_fd","command collaborator",
-"io_object_t","entity commander boundary","zmq::io_object_t::set_pollin","command collaborator",
-"io_object_t","entity commander boundary","zmq::io_object_t::reset_pollin","command collaborator",
-"io_object_t","entity commander boundary","zmq::io_object_t::set_pollout","command collaborator",
-"io_object_t","entity commander boundary","zmq::io_object_t::reset_pollout","command collaborator",
-"io_object_t","entity commander boundary","zmq::io_object_t::add_timer","command",
-"io_object_t","entity commander boundary","zmq::io_object_t::cancel_timer","command",
-"io_object_t","entity commander boundary","zmq::io_object_t::in_event","wrapper stateless",
-"io_object_t","entity commander boundary","zmq::io_object_t::out_event","wrapper stateless",
-"io_object_t","entity commander boundary","zmq::io_object_t::timer_event","wrapper stateless",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::gssapi_mechanism_base_t","constructor",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::~gssapi_mechanism_base_t","destructor",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::encode_message","property set collaborator",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::decode_message","property set collaborator",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::produce_initiate","controller stateless",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::process_initiate","controller stateless",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::produce_ready","property non-void-command collaborator",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::process_ready","property non-void-command collaborator",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::convert_nametype","collaborator incidental",
-"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::acquire_credentials","wrapper stateless",
-"shared_message_memory_allocator","unclassified","buffer","get",
-"shared_message_memory_allocator","unclassified","resize","set",
-"shared_message_memory_allocator","unclassified","provide_content","get collaborator",
-"shared_message_memory_allocator","unclassified","advance_content","set",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::shared_message_memory_allocator","constructor",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::shared_message_memory_allocator","constructor",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::~shared_message_memory_allocator","destructor",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::allocate","property non-void-command collaborator",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::deallocate","command collaborator",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::release","property non-void-command",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::clear","command",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::inc_ref","wrapper",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::call_dec_ref","controller stateless",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::size","get",
-"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::data","property",
-"dbuffer_t<msg_t>","entity boundary","dbuffer_t","constructor",
-"dbuffer_t<msg_t>","entity boundary","~dbuffer_t","destructor",
-"dbuffer_t<msg_t>","entity boundary","write","command collaborator",
-"dbuffer_t<msg_t>","entity boundary","read","predicate non-void-command collaborator",
-"dbuffer_t<msg_t>","entity boundary","check_read","get collaborator",
-"dbuffer_t<msg_t>","entity boundary","probe","predicate wrapper",
-"ipc_address_t","data-provider boundary","zmq::ipc_address_t::ipc_address_t","constructor",
-"ipc_address_t","data-provider boundary","zmq::ipc_address_t::ipc_address_t","constructor",
-"ipc_address_t","data-provider boundary","zmq::ipc_address_t::~ipc_address_t","destructor",
-"ipc_address_t","data-provider boundary","zmq::ipc_address_t::resolve","property non-void-command",
-"ipc_address_t","data-provider boundary","zmq::ipc_address_t::to_string","property controller",
-"ipc_address_t","data-provider boundary","zmq::ipc_address_t::addr","property collaborator",
-"ipc_address_t","data-provider boundary","zmq::ipc_address_t::addrlen","get collaborator",
-"generic_mtrie_t","unclassified","num_prefixes","property",
-"generic_mtrie_t","unclassified","generic_mtrie_t<T>::generic_mtrie_t","constructor",
-"generic_mtrie_t","unclassified","generic_mtrie_t<T>::~generic_mtrie_t","destructor",
-"generic_mtrie_t","unclassified","generic_mtrie_t<T>::add","predicate non-void-command collaborator",
-"generic_mtrie_t","unclassified","generic_mtrie_t<T>::rm","void-accessor command",
-"generic_mtrie_t","unclassified","generic_mtrie_t<T>::rm","property non-void-command collaborator",
-"generic_mtrie_t","unclassified","generic_mtrie_t<T>::match","controller",
-"generic_mtrie_t","unclassified","generic_mtrie_t<T>::is_redundant","predicate",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::dist_t","constructor",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::~dist_t","destructor",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::attach","void-accessor command collaborator",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::has_pipe","get predicate non-void-command collaborator",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::match","void-accessor command collaborator",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::reverse_match","command",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::unmatch","set",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::pipe_terminated","void-accessor command collaborator",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::activated","void-accessor command collaborator",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::send_to_all","property set collaborator",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::send_to_matching","property non-void-command collaborator",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::distribute","void-accessor command collaborator",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::has_out","incidental",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::write","predicate non-void-command collaborator",
-"dist_t","entity minimal-entity boundary","zmq::dist_t::check_hwm","predicate non-void-command",
-"c_single_allocator","data-provider lazy-class","c_single_allocator","constructor",
-"c_single_allocator","data-provider lazy-class","~c_single_allocator","destructor",
-"c_single_allocator","data-provider lazy-class","allocate","get",
-"c_single_allocator","data-provider lazy-class","deallocate","empty",
-"c_single_allocator","data-provider lazy-class","size","get",
-"c_single_allocator","data-provider lazy-class","resize","wrapper stateless",
-"curve_mechanism_base_t","entity boundary small-class","zmq::curve_mechanism_base_t::curve_mechanism_base_t","constructor",
-"curve_mechanism_base_t","entity boundary small-class","zmq::curve_mechanism_base_t::encode","property non-void-command collaborator",
-"curve_mechanism_base_t","entity boundary small-class","zmq::curve_mechanism_base_t::decode","property non-void-command collaborator",
-"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::socks_choice_decoder_t","constructor",
-"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::input","property set collaborator",
-"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::message_ready","predicate",
-"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::decode","property non-void-command collaborator",
-"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::reset","set",
-"endpoint_uri_pair_t","data-provider small-class","endpoint_uri_pair_t","constructor",
-"endpoint_uri_pair_t","data-provider small-class","endpoint_uri_pair_t","constructor",
-"endpoint_uri_pair_t","data-provider small-class","identifier","property",
-"endpoint_uri_pair_t","data-provider small-class","clash","predicate",
-"own_t","commander","zmq::own_t::own_t","constructor",
-"own_t","commander","zmq::own_t::own_t","constructor",
-"own_t","commander","zmq::own_t::~own_t","destructor",
-"own_t","commander","zmq::own_t::set_owner","set",
-"own_t","commander","zmq::own_t::inc_seqnum","command",
-"own_t","commander","zmq::own_t::process_seqnum","set",
-"own_t","commander","zmq::own_t::launch_child","void-accessor command",
-"own_t","commander","zmq::own_t::term_child","void-accessor command",
-"own_t","commander","zmq::own_t::process_term_req","void-accessor command",
-"own_t","commander","zmq::own_t::process_own","void-accessor command",
-"own_t","commander","zmq::own_t::terminate","command",
-"own_t","commander","zmq::own_t::is_terminating","get",
-"own_t","commander","zmq::own_t::process_term","command collaborator",
-"own_t","commander","zmq::own_t::register_term_acks","set",
-"own_t","commander","zmq::own_t::unregister_term_ack","set",
-"own_t","commander","zmq::own_t::process_term_ack","command",
-"own_t","commander","zmq::own_t::check_term_acks","command",
-"own_t","commander","zmq::own_t::process_destroy","unclassified",
-"lb_t","entity boundary","zmq::lb_t::lb_t","constructor",
-"lb_t","entity boundary","zmq::lb_t::~lb_t","destructor",
-"lb_t","entity boundary","zmq::lb_t::attach","void-accessor command collaborator",
-"lb_t","entity boundary","zmq::lb_t::pipe_terminated","void-accessor command collaborator",
-"lb_t","entity boundary","zmq::lb_t::activated","void-accessor command collaborator",
-"lb_t","entity boundary","zmq::lb_t::send","property non-void-command collaborator",
-"lb_t","entity boundary","zmq::lb_t::sendpipe","property non-void-command collaborator",
-"lb_t","entity boundary","zmq::lb_t::has_out","predicate non-void-command",
-"clock_t","entity boundary lazy-class degenerate","zmq::clock_t::clock_t","constructor",
-"clock_t","entity boundary lazy-class degenerate","zmq::clock_t::now_us","wrapper stateless",
-"clock_t","entity boundary lazy-class degenerate","zmq::clock_t::now_ms","get property non-void-command",
-"clock_t","entity boundary lazy-class degenerate","zmq::clock_t::rdtsc","wrapper stateless",
-"socks_response_t","empty","zmq::socks_response_t::socks_response_t","constructor",
-"thread_t","boundary","thread_t","constructor",
-"thread_t","boundary","~thread_t","destructor",
-"thread_t","boundary","zmq::thread_t::get_started","get",
-"thread_t","boundary","zmq::thread_t::start","void-accessor command",
-"thread_t","boundary","zmq::thread_t::is_current_thread","predicate wrapper",
-"thread_t","boundary","zmq::thread_t::stop","wrapper",
-"thread_t","boundary","zmq::thread_t::setSchedulingParameters","wrapper stateless",
-"thread_t","boundary","zmq::thread_t::applySchedulingParameters","empty",
-"thread_t","boundary","zmq::thread_t::applyThreadName","wrapper",
-"thread_t","boundary","zmq::thread_t::start","void-accessor command",
-"thread_t","boundary","zmq::thread_t::stop","wrapper",
-"thread_t","boundary","zmq::thread_t::is_current_thread","predicate wrapper",
-"thread_t","boundary","zmq::thread_t::setSchedulingParameters","command",
-"thread_t","boundary","zmq::thread_t::applySchedulingParameters","wrapper",
-"thread_t","boundary","zmq::thread_t::applyThreadName","empty",
-"thread_t","boundary","zmq::thread_t::start","void-accessor command",
-"thread_t","boundary","zmq::thread_t::stop","wrapper",
-"thread_t","boundary","zmq::thread_t::is_current_thread","predicate wrapper",
-"thread_t","boundary","zmq::thread_t::setSchedulingParameters","command",
-"thread_t","boundary","zmq::thread_t::applySchedulingParameters","command",
-"thread_t","boundary","zmq::thread_t::applyThreadName","wrapper",
-"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::stream_listener_base_t","constructor",
-"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::~stream_listener_base_t","destructor",
-"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::get_local_address","property controller",
-"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::process_plug","command",
-"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::process_term","command",
-"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::close","property non-void-command",
-"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::create_engine","command collaborator",
-"ZMQ_FINAL","unclassified","forked","command",
-"ZMQ_FINAL","unclassified","forked","empty",
-"ZMQ_FINAL","unclassified","has_handshake_stage","incidental",
-"ZMQ_FINAL","unclassified","zap_msg_available","empty",
-"ZMQ_FINAL","unclassified","has_handshake_stage","incidental",
-"ZMQ_FINAL","unclassified","zap_msg_available","empty",
-"ZMQ_FINAL","unclassified","has_handshake_stage","incidental",
-"ZMQ_FINAL","unclassified","zap_msg_available","empty",
-"ZMQ_FINAL","unclassified","msg","property collaborator",
-"ZMQ_FINAL","unclassified","resize_buffer","empty",
-"ZMQ_FINAL","unclassified","has_handshake_stage","incidental",
-"ZMQ_FINAL","unclassified","zap_msg_available","empty",
-"ZMQ_FINAL","unclassified","msg","property collaborator",
-"ZMQ_FINAL","unclassified","msg","property collaborator",
-"ZMQ_FINAL","unclassified","msg","property collaborator",
-"ZMQ_FINAL","unclassified","write","command",
-"ZMQ_FINAL","unclassified","unwrite","predicate non-void-command collaborator",
-"ZMQ_FINAL","unclassified","flush","predicate non-void-command",
-"ZMQ_FINAL","unclassified","check_read","predicate non-void-command",
-"ZMQ_FINAL","unclassified","read","predicate non-void-command collaborator",
-"ZMQ_FINAL","unclassified","probe","predicate non-void-command",
-"ZMQ_FINAL","unclassified","write","void-accessor command",
-"ZMQ_FINAL","unclassified","unwrite","incidental",
-"ZMQ_FINAL","unclassified","flush","get",
-"ZMQ_FINAL","unclassified","check_read","predicate set",
-"ZMQ_FINAL","unclassified","read","predicate non-void-command collaborator",
-"ZMQ_FINAL","unclassified","probe","predicate non-void-command",
-"ZMQ_FINAL","unclassified","do_getaddrinfo","property non-void-command collaborator",
-"ZMQ_FINAL","unclassified","do_if_nametoindex","wrapper stateless",
-"socks_choice_t","empty","zmq::socks_choice_t::socks_choice_t","constructor",
-"wss_engine_t","unclassified","zmq::wss_engine_t::wss_engine_t","constructor",
-"wss_engine_t","unclassified","zmq::wss_engine_t::~wss_engine_t","destructor",
-"wss_engine_t","unclassified","zmq::wss_engine_t::plug_internal","command",
-"wss_engine_t","unclassified","zmq::wss_engine_t::out_event","command",
-"wss_engine_t","unclassified","zmq::wss_engine_t::do_handshake","predicate non-void-command",
-"wss_engine_t","unclassified","zmq::wss_engine_t::handshake","predicate non-void-command",
-"wss_engine_t","unclassified","zmq::wss_engine_t::read","property wrapper",
-"wss_engine_t","unclassified","zmq::wss_engine_t::write","property wrapper",
-"dealer_t","boundary","zmq::dealer_t::dealer_t","constructor",
-"dealer_t","boundary","zmq::dealer_t::~dealer_t","destructor",
-"dealer_t","boundary","zmq::dealer_t::xattach_pipe","void-accessor command",
-"dealer_t","boundary","zmq::dealer_t::xsetsockopt","property set",
-"dealer_t","boundary","zmq::dealer_t::xsend","property non-void-command collaborator",
-"dealer_t","boundary","zmq::dealer_t::xrecv","property non-void-command collaborator",
-"dealer_t","boundary","zmq::dealer_t::xhas_in","predicate non-void-command",
-"dealer_t","boundary","zmq::dealer_t::xhas_out","predicate non-void-command",
-"dealer_t","boundary","zmq::dealer_t::xread_activated","void-accessor command collaborator",
-"dealer_t","boundary","zmq::dealer_t::xwrite_activated","void-accessor command collaborator",
-"dealer_t","boundary","zmq::dealer_t::xpipe_terminated","void-accessor command collaborator",
-"dealer_t","boundary","zmq::dealer_t::sendpipe","property non-void-command collaborator",
-"dealer_t","boundary","zmq::dealer_t::recvpipe","property non-void-command collaborator",
-"session_base_t","boundary","zmq::session_base_t::create","property non-void-command factory collaborator",
-"session_base_t","boundary","zmq::session_base_t::session_base_t","constructor",
-"session_base_t","boundary","zmq::session_base_t::get_endpoint","property collaborator",
-"session_base_t","boundary","zmq::session_base_t::~session_base_t","destructor",
-"session_base_t","boundary","zmq::session_base_t::attach_pipe","void-accessor command collaborator",
-"session_base_t","boundary","zmq::session_base_t::pull_msg","property set collaborator",
-"session_base_t","boundary","zmq::session_base_t::push_msg","property non-void-command collaborator",
-"session_base_t","boundary","zmq::session_base_t::read_zap_msg","property non-void-command collaborator",
-"session_base_t","boundary","zmq::session_base_t::write_zap_msg","property non-void-command collaborator",
-"session_base_t","boundary","zmq::session_base_t::reset","empty",
-"session_base_t","boundary","zmq::session_base_t::flush","command",
-"session_base_t","boundary","zmq::session_base_t::rollback","command",
-"session_base_t","boundary","zmq::session_base_t::clean_pipes","command",
-"session_base_t","boundary","zmq::session_base_t::pipe_terminated","void-accessor command collaborator",
-"session_base_t","boundary","zmq::session_base_t::read_activated","void-accessor command collaborator",
-"session_base_t","boundary","zmq::session_base_t::write_activated","void-accessor command collaborator",
-"session_base_t","boundary","zmq::session_base_t::hiccuped","wrapper stateless",
-"session_base_t","boundary","zmq::session_base_t::get_socket","get collaborator",
-"session_base_t","boundary","zmq::session_base_t::process_plug","command",
-"session_base_t","boundary","zmq::session_base_t::zap_connect","property non-void-command",
-"session_base_t","boundary","zmq::session_base_t::zap_enabled","predicate",
-"session_base_t","boundary","zmq::session_base_t::process_attach","void-accessor command collaborator",
-"session_base_t","boundary","zmq::session_base_t::engine_ready","command",
-"session_base_t","boundary","zmq::session_base_t::engine_error","command collaborator",
-"session_base_t","boundary","zmq::session_base_t::process_term","command",
-"session_base_t","boundary","zmq::session_base_t::timer_event","set",
-"session_base_t","boundary","zmq::session_base_t::process_conn_failed","command",
-"session_base_t","boundary","zmq::session_base_t::reconnect","command",
-"session_base_t","boundary","zmq::session_base_t::start_connecting","command",
-"address_t","data-provider boundary small-class","zmq::address_t::address_t","constructor",
-"address_t","data-provider boundary small-class","zmq::address_t::~address_t","destructor",
-"address_t","data-provider boundary small-class","zmq::address_t::to_string","property collaborator",
-"thread_ctx_t","entity boundary","zmq::thread_ctx_t::thread_ctx_t","constructor",
-"thread_ctx_t","entity boundary","zmq::thread_ctx_t::start_thread","void-accessor",
-"thread_ctx_t","entity boundary","zmq::thread_ctx_t::set","property non-void-command collaborator",
-"thread_ctx_t","entity boundary","zmq::thread_ctx_t::get","property non-void-command collaborator",
-"zmq_poll_select_fds_t_","empty","zmq_poll_select_fds_t_","constructor",
-"fq_t","entity boundary","zmq::fq_t::fq_t","constructor",
-"fq_t","entity boundary","zmq::fq_t::~fq_t","destructor",
-"fq_t","entity boundary","zmq::fq_t::attach","void-accessor command collaborator",
-"fq_t","entity boundary","zmq::fq_t::pipe_terminated","void-accessor command collaborator",
-"fq_t","entity boundary","zmq::fq_t::activated","void-accessor command collaborator",
-"fq_t","entity boundary","zmq::fq_t::recv","property non-void-command collaborator",
-"fq_t","entity boundary","zmq::fq_t::recvpipe","property non-void-command collaborator",
-"fq_t","entity boundary","zmq::fq_t::has_in","predicate non-void-command",
-"atomic_value_t","small-class","atomic_value_t","constructor",
-"atomic_value_t","small-class","atomic_value_t","copy-constructor",
-"atomic_value_t","small-class","store","command",
-"atomic_value_t","small-class","load","property",
-"socket_poller_t","boundary","size","property",
-"socket_poller_t","boundary","zmq::socket_poller_t::socket_poller_t","constructor",
-"socket_poller_t","boundary","zmq::socket_poller_t::~socket_poller_t","destructor",
-"socket_poller_t","boundary","zmq::socket_poller_t::check_tag","predicate",
-"socket_poller_t","boundary","zmq::socket_poller_t::signaler_fd","property collaborator",
-"socket_poller_t","boundary","zmq::socket_poller_t::add","property non-void-command collaborator",
-"socket_poller_t","boundary","zmq::socket_poller_t::add_fd","property non-void-command collaborator",
-"socket_poller_t","boundary","zmq::socket_poller_t::modify","property non-void-command collaborator",
-"socket_poller_t","boundary","zmq::socket_poller_t::modify_fd","property non-void-command collaborator",
-"socket_poller_t","boundary","zmq::socket_poller_t::remove","property non-void-command collaborator",
-"socket_poller_t","boundary","zmq::socket_poller_t::remove_fd","property non-void-command collaborator",
-"socket_poller_t","boundary","zmq::socket_poller_t::rebuild","property non-void-command",
-"socket_poller_t","boundary","zmq::socket_poller_t::zero_trail_events","incidental",
-"decoder_base_t","unclassified","decoder_base_t","constructor",
-"decoder_base_t","unclassified","~decoder_base_t","destructor",
-"decoder_base_t","unclassified","get_buffer","void-accessor command",
-"decoder_base_t","unclassified","decode","property non-void-command",
-"decoder_base_t","unclassified","resize_buffer","command",
-"decoder_base_t","unclassified","next_step","command collaborator",
-"decoder_base_t","unclassified","get_allocator","get collaborator",
-"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::socks_request_encoder_t","constructor",
-"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::encode","command collaborator",
-"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::output","property set collaborator",
-"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::has_pending_data","predicate",
-"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::reset","command",
-"msg_t","degenerate","is_subscribe","incidental",
-"msg_t","degenerate","is_cancel","incidental",
-"msg_t","degenerate","zmq::msg_t::check","incidental",
-"msg_t","degenerate","zmq::msg_t::init","property non-void-command collaborator",
-"msg_t","degenerate","zmq::msg_t::init","incidental",
-"msg_t","degenerate","zmq::msg_t::init_size","wrapper stateless",
-"msg_t","degenerate","zmq::msg_t::init_buffer","property non-void-command",
-"msg_t","degenerate","zmq::msg_t::init_external_storage","wrapper stateless",
-"msg_t","degenerate","zmq::msg_t::init_data","wrapper stateless",
-"msg_t","degenerate","zmq::msg_t::init_delimiter","incidental",
-"msg_t","degenerate","zmq::msg_t::init_join","incidental",
-"msg_t","degenerate","zmq::msg_t::init_leave","incidental",
-"msg_t","degenerate","zmq::msg_t::init_subscribe","property non-void-command",
-"msg_t","degenerate","zmq::msg_t::init_cancel","property non-void-command",
-"msg_t","degenerate","zmq::msg_t::close","property non-void-command",
-"msg_t","degenerate","zmq::msg_t::move","property set",
-"msg_t","degenerate","zmq::msg_t::copy","property set collaborator",
-"msg_t","degenerate","zmq::msg_t::data","property command collaborator",
-"msg_t","degenerate","zmq::msg_t::size","property",
-"msg_t","degenerate","zmq::msg_t::shrink","command",
-"msg_t","degenerate","zmq::msg_t::flags","incidental",
-"msg_t","degenerate","zmq::msg_t::set_flags","incidental",
-"msg_t","degenerate","zmq::msg_t::reset_flags","incidental",
-"msg_t","degenerate","zmq::msg_t::metadata","collaborator incidental",
-"msg_t","degenerate","zmq::msg_t::set_metadata","controller stateless",
-"msg_t","degenerate","zmq::msg_t::reset_metadata","controller stateless",
-"msg_t","degenerate","zmq::msg_t::is_routing_id","incidental",
-"msg_t","degenerate","zmq::msg_t::is_credential","incidental",
-"msg_t","degenerate","zmq::msg_t::is_delimiter","incidental",
-"msg_t","degenerate","zmq::msg_t::is_vsm","incidental",
-"msg_t","degenerate","zmq::msg_t::is_cmsg","incidental",
-"msg_t","degenerate","zmq::msg_t::is_lmsg","incidental",
-"msg_t","degenerate","zmq::msg_t::is_zcmsg","incidental",
-"msg_t","degenerate","zmq::msg_t::is_join","incidental",
-"msg_t","degenerate","zmq::msg_t::is_leave","incidental",
-"msg_t","degenerate","zmq::msg_t::is_ping","incidental",
-"msg_t","degenerate","zmq::msg_t::is_pong","incidental",
-"msg_t","degenerate","zmq::msg_t::is_close_cmd","incidental",
-"msg_t","degenerate","zmq::msg_t::command_body_size","controller stateless",
-"msg_t","degenerate","zmq::msg_t::command_body","controller stateless",
-"msg_t","degenerate","zmq::msg_t::add_refs","command",
-"msg_t","degenerate","zmq::msg_t::rm_refs","predicate non-void-command",
-"msg_t","degenerate","zmq::msg_t::get_routing_id","incidental",
-"msg_t","degenerate","zmq::msg_t::set_routing_id","incidental",
-"msg_t","degenerate","zmq::msg_t::reset_routing_id","incidental",
-"msg_t","degenerate","zmq::msg_t::group","incidental",
-"msg_t","degenerate","zmq::msg_t::set_group","property non-void-command",
-"msg_t","degenerate","zmq::msg_t::set_group","controller stateless",
-"msg_t","degenerate","zmq::msg_t::refcnt","wrapper stateless",
-"scoped_lock_t","empty","scoped_lock_t","constructor",
-"scoped_lock_t","empty","~scoped_lock_t","destructor",
-"signaler_t","data-provider boundary","zmq::signaler_t::signaler_t","constructor",
-"signaler_t","data-provider boundary","zmq::signaler_t::~signaler_t","destructor",
-"signaler_t","data-provider boundary","zmq::signaler_t::get_fd","get collaborator",
-"signaler_t","data-provider boundary","zmq::signaler_t::send","wrapper",
-"signaler_t","data-provider boundary","zmq::signaler_t::wait","property controller",
-"signaler_t","data-provider boundary","zmq::signaler_t::recv","wrapper",
-"signaler_t","data-provider boundary","zmq::signaler_t::recv_failable","property wrapper",
-"signaler_t","data-provider boundary","zmq::signaler_t::valid","predicate",
-"signaler_t","data-provider boundary","zmq::signaler_t::forked","wrapper",
-"poller_base_t","boundary","zmq::poller_base_t::~poller_base_t","destructor",
-"poller_base_t","boundary","zmq::poller_base_t::get_load","property",
-"poller_base_t","boundary","zmq::poller_base_t::adjust_load","command",
-"poller_base_t","boundary","zmq::poller_base_t::add_timer","command collaborator",
-"poller_base_t","boundary","zmq::poller_base_t::cancel_timer","command collaborator",
-"poller_base_t","boundary","zmq::poller_base_t::execute_timers","property non-void-command collaborator",
-"yqueue_t","boundary","yqueue_t","constructor",
-"yqueue_t","boundary","~yqueue_t","destructor",
-"yqueue_t","boundary","front","get collaborator",
-"yqueue_t","boundary","back","get collaborator",
-"yqueue_t","boundary","push","command collaborator",
-"yqueue_t","boundary","unpush","command",
-"yqueue_t","boundary","pop","command collaborator",
-"socks_auth_response_t","empty","zmq::socks_auth_response_t::socks_auth_response_t","constructor",
-"stream_engine_base_t","boundary","has_handshake_stage","get",
-"stream_engine_base_t","boundary","handshake","incidental",
-"stream_engine_base_t","boundary","plug_internal","empty",
-"stream_engine_base_t","boundary","process_command_message","wrapper stateless",
-"stream_engine_base_t","boundary","produce_ping_message","wrapper stateless",
-"stream_engine_base_t","boundary","process_heartbeat_message","wrapper stateless",
-"stream_engine_base_t","boundary","produce_pong_message","wrapper stateless",
-"stream_engine_base_t","boundary","reset_pollout","command",
-"stream_engine_base_t","boundary","set_pollout","command",
-"stream_engine_base_t","boundary","set_pollin","command",
-"stream_engine_base_t","boundary","session","get collaborator",
-"stream_engine_base_t","boundary","socket","get collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::stream_engine_base_t","constructor",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::~stream_engine_base_t","destructor",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::plug","void-accessor command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::unplug","command",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::terminate","command",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::in_event","command",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::in_event_internal","predicate non-void-command",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::out_event","command",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::restart_output","command",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::restart_input","predicate non-void-command",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::next_handshake_command","property non-void-command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::process_handshake_command","property non-void-command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::zap_msg_available","command",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::get_endpoint","get collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::mechanism_ready","command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::write_credential","property non-void-command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::pull_and_encode","property non-void-command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::decode_and_push","property non-void-command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::push_one_then_decode_and_push","property non-void-command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::pull_msg_from_session","property non-void-command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::push_msg_to_session","property non-void-command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::error","command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::set_handshake_timer","set",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::init_properties","predicate non-void-command collaborator",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::timer_event","command",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::read","property wrapper",
-"stream_engine_base_t","boundary","zmq::stream_engine_base_t::write","property wrapper",
-"timers_t","unclassified","zmq::timers_t::timers_t","constructor",
-"timers_t","unclassified","zmq::timers_t::~timers_t","destructor",
-"timers_t","unclassified","zmq::timers_t::check_tag","predicate",
-"timers_t","unclassified","zmq::timers_t::add","property non-void-command collaborator",
-"timers_t","unclassified","zmq::timers_t::cancel","property non-void-command",
-"timers_t","unclassified","zmq::timers_t::set_interval","property non-void-command",
-"timers_t","unclassified","zmq::timers_t::reset","property non-void-command",
-"timers_t","unclassified","zmq::timers_t::timeout","property non-void-command collaborator",
-"timers_t","unclassified","zmq::timers_t::execute","property non-void-command collaborator",
-"array_item_t","data-class small-class","array_item_t","constructor",
-"array_item_t","data-class small-class","set_array_index","set",
-"array_item_t","data-class small-class","get_array_index","get",
-"object_t","entity commander boundary","zmq::object_t::object_t","constructor",
-"object_t","entity commander boundary","zmq::object_t::object_t","copy-constructor",
-"object_t","entity commander boundary","zmq::object_t::~object_t","destructor",
-"object_t","entity commander boundary","zmq::object_t::get_tid","get",
-"object_t","entity commander boundary","zmq::object_t::set_tid","set",
-"object_t","entity commander boundary","zmq::object_t::get_ctx","get collaborator",
-"object_t","entity commander boundary","zmq::object_t::process_command","void-accessor command collaborator",
-"object_t","entity commander boundary","zmq::object_t::register_endpoint","property non-void-command collaborator",
-"object_t","entity commander boundary","zmq::object_t::unregister_endpoint","property non-void-command collaborator",
-"object_t","entity commander boundary","zmq::object_t::unregister_endpoints","void-accessor command collaborator",
-"object_t","entity commander boundary","zmq::object_t::find_endpoint","property collaborator",
-"object_t","entity commander boundary","zmq::object_t::pend_connection","void-accessor command collaborator",
-"object_t","entity commander boundary","zmq::object_t::connect_pending","void-accessor command collaborator",
-"object_t","entity commander boundary","zmq::object_t::destroy_socket","void-accessor command collaborator",
-"object_t","entity commander boundary","zmq::object_t::choose_io_thread","property collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_stop","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_plug","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_own","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_attach","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_conn_failed","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_bind","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_activate_read","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_activate_write","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_hiccup","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_pipe_peer_stats","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_pipe_stats_publish","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_pipe_term","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_pipe_term_ack","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_pipe_hwm","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_term_req","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_term","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_term_ack","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_term_endpoint","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_reap","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_reaped","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_inproc_connected","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::send_done","command collaborator",
-"object_t","entity commander boundary","zmq::object_t::process_stop","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_plug","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_own","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_attach","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_bind","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_activate_read","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_activate_write","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_hiccup","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_pipe_peer_stats","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_pipe_stats_publish","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_pipe_term","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_pipe_term_ack","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_pipe_hwm","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_term_req","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_term","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_term_ack","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_term_endpoint","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_reap","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_reaped","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_seqnum","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::process_conn_failed","wrapper stateless",
-"object_t","entity commander boundary","zmq::object_t::send_command","void-accessor command collaborator",
-"curve_client_tools_t","data-provider boundary","produce_hello","property wrapper",
-"curve_client_tools_t","data-provider boundary","process_welcome","property wrapper",
-"curve_client_tools_t","data-provider boundary","produce_initiate","property wrapper",
-"curve_encoding_t","unclassified","get_writable_precom_buffer","get",
-"curve_encoding_t","unclassified","get_precom_buffer","get",
-"curve_encoding_t","unclassified","get_and_inc_nonce","property set collaborator",
-"curve_encoding_t","unclassified","set_peer_nonce","set collaborator",
-"curve_encoding_t","unclassified","zmq::curve_encoding_t::curve_encoding_t","constructor",
-"curve_encoding_t","unclassified","zmq::curve_encoding_t::check_validity","property non-void-command",
-"curve_encoding_t","unclassified","zmq::curve_encoding_t::encode","property non-void-command collaborator",
-"curve_encoding_t","unclassified","zmq::curve_encoding_t::decode","property non-void-command",
-"mechanism_base_t","data-provider","zmq::mechanism_base_t::mechanism_base_t","constructor",
-"mechanism_base_t","data-provider","zmq::mechanism_base_t::check_basic_command_structure","property collaborator",
-"mechanism_base_t","data-provider","zmq::mechanism_base_t::handle_error_reason","void-accessor command",
-"mechanism_base_t","data-provider","zmq::mechanism_base_t::zap_required","predicate",
-"atomic_ptr_t","entity boundary","atomic_ptr_t","constructor",
-"atomic_ptr_t","entity boundary","set","set collaborator",
-"atomic_ptr_t","entity boundary","xchg","property non-void-command collaborator",
-"atomic_ptr_t","entity boundary","cas","property non-void-command collaborator",
-"mechanism_t","unclassified","encode","incidental",
-"mechanism_t","unclassified","decode","incidental",
-"mechanism_t","unclassified","zap_msg_available","incidental",
-"mechanism_t","unclassified","get_zmtp_properties","get collaborator",
-"mechanism_t","unclassified","get_zap_properties","get collaborator",
-"mechanism_t","unclassified","zmq::mechanism_t::mechanism_t","constructor",
-"mechanism_t","unclassified","zmq::mechanism_t::~mechanism_t","destructor",
-"mechanism_t","unclassified","zmq::mechanism_t::set_peer_routing_id","void-accessor command",
-"mechanism_t","unclassified","zmq::mechanism_t::peer_routing_id","command collaborator",
-"mechanism_t","unclassified","zmq::mechanism_t::set_user_id","void-accessor command",
-"mechanism_t","unclassified","zmq::mechanism_t::get_user_id","get collaborator",
-"mechanism_t","unclassified","zmq::mechanism_t::socket_type_string","wrapper stateless",
-"mechanism_t","unclassified","zmq::mechanism_t::add_property","property non-void-command",
-"mechanism_t","unclassified","zmq::mechanism_t::property_len","property non-void-command",
-"mechanism_t","unclassified","zmq::mechanism_t::add_basic_properties","property",
-"mechanism_t","unclassified","zmq::mechanism_t::basic_properties_len","property",
-"mechanism_t","unclassified","zmq::mechanism_t::make_command_with_basic_properties","void-accessor",
-"mechanism_t","unclassified","zmq::mechanism_t::parse_metadata","property non-void-command",
-"mechanism_t","unclassified","zmq::mechanism_t::property","incidental",
-"metadata_t","unclassified","zmq::metadata_t::metadata_t","constructor",
-"metadata_t","unclassified","zmq::metadata_t::get","property collaborator",
-"metadata_t","unclassified","zmq::metadata_t::add_ref","command",
-"metadata_t","unclassified","zmq::metadata_t::drop_ref","predicate non-void-command",
-"optimized_fd_set_t","data-provider boundary small-class","optimized_fd_set_t","constructor",
-"optimized_fd_set_t","data-provider boundary small-class","get","property collaborator",
-"optimized_fd_set_t","data-provider boundary small-class","optimized_fd_set_t","constructor",
-"optimized_fd_set_t","data-provider boundary small-class","get","property collaborator",
-"mutex_t","data-provider boundary","mutex_t","constructor",
-"mutex_t","data-provider boundary","~mutex_t","destructor",
-"mutex_t","data-provider boundary","lock","wrapper",
-"mutex_t","data-provider boundary","try_lock","predicate wrapper",
-"mutex_t","data-provider boundary","unlock","wrapper",
-"mutex_t","data-provider boundary","get_cs","property collaborator",
-"mutex_t","data-provider boundary","mutex_t","constructor",
-"mutex_t","data-provider boundary","~mutex_t","destructor",
-"mutex_t","data-provider boundary","lock","wrapper",
-"mutex_t","data-provider boundary","try_lock","predicate wrapper",
-"mutex_t","data-provider boundary","unlock","wrapper",
-"mutex_t","data-provider boundary","mutex_t","constructor",
-"mutex_t","data-provider boundary","~mutex_t","destructor",
-"mutex_t","data-provider boundary","lock","wrapper",
-"mutex_t","data-provider boundary","try_lock","predicate wrapper",
-"mutex_t","data-provider boundary","unlock","wrapper",
-"mutex_t","data-provider boundary","get_mutex","property collaborator",
-"server_t","boundary","zmq::server_t::server_t","constructor",
-"server_t","boundary","zmq::server_t::~server_t","destructor",
-"server_t","boundary","zmq::server_t::xattach_pipe","void-accessor command",
-"server_t","boundary","zmq::server_t::xpipe_terminated","void-accessor command collaborator",
-"server_t","boundary","zmq::server_t::xread_activated","void-accessor command collaborator",
-"server_t","boundary","zmq::server_t::xwrite_activated","command collaborator",
-"server_t","boundary","zmq::server_t::xsend","property non-void-command collaborator",
-"server_t","boundary","zmq::server_t::xrecv","property non-void-command collaborator",
-"server_t","boundary","zmq::server_t::xhas_in","predicate non-void-command",
-"server_t","boundary","zmq::server_t::xhas_out","incidental",
-"scoped_optional_lock_t","empty","scoped_optional_lock_t","constructor",
-"scoped_optional_lock_t","empty","~scoped_optional_lock_t","destructor",
-"match_result_t","empty","match_result_t::match_result_t","constructor",
-"worker_poller_base_t","unclassified","zmq::worker_poller_base_t::worker_poller_base_t","constructor",
-"worker_poller_base_t","unclassified","zmq::worker_poller_base_t::stop_worker","command",
-"worker_poller_base_t","unclassified","zmq::worker_poller_base_t::start","void-accessor command",
-"worker_poller_base_t","unclassified","zmq::worker_poller_base_t::check_thread","unclassified",
-"worker_poller_base_t","unclassified","zmq::worker_poller_base_t::worker_routine","wrapper stateless",
-"zmq::timers_t::match_by_id","data-provider boundary small-class","operator()","predicate collaborator",
-"encoder_base_t","unclassified","encoder_base_t","constructor",
-"encoder_base_t","unclassified","~encoder_base_t","destructor",
-"encoder_base_t","unclassified","encode","property non-void-command",
-"encoder_base_t","unclassified","load_msg","set collaborator",
-"encoder_base_t","unclassified","next_step","command",
-"encoder_base_t","unclassified","in_progress","get collaborator",
-"fast_vector_t","data-provider boundary data-class small-class","fast_vector_t","constructor",
-"fast_vector_t","data-provider boundary data-class small-class","operator[]","get collaborator",
-"fast_vector_t","data-provider boundary data-class small-class","~fast_vector_t","destructor",
-"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::socks_greeting_encoder_t","constructor",
-"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::encode","command collaborator",
-"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::output","property set collaborator",
-"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::has_pending_data","predicate",
-"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::reset","command",
-"options_t","unclassified","zmq::options_t::options_t","constructor",
-"options_t","unclassified","zmq::options_t::set_curve_key","property set",
-"options_t","unclassified","zmq::options_t::setsockopt","property non-void-command",
-"options_t","unclassified","zmq::options_t::getsockopt","property",
-"resizable_fast_vector_t","entity boundary","resizable_fast_vector_t","constructor",
-"resizable_fast_vector_t","entity boundary","resize","set",
-"resizable_fast_vector_t","entity boundary","get_buf","property collaborator",
-"resizable_fast_vector_t","entity boundary","operator[]","property non-void-command collaborator",
-"resizable_fast_vector_t","entity boundary","~resizable_fast_vector_t","destructor",
-"resizable_optimized_fd_set_t","unclassified","resize","command",
-"resizable_optimized_fd_set_t","unclassified","get","property collaborator",
-"resizable_optimized_fd_set_t","unclassified","resizable_optimized_fd_set_t","constructor",
-"resizable_optimized_fd_set_t","unclassified","resize","empty",
-"node_t","unclassified","node_t::node_t","constructor",
-"node_t","unclassified","node_t::refcount","property wrapper",
-"node_t","unclassified","node_t::set_refcount","wrapper",
-"node_t","unclassified","node_t::prefix_length","property wrapper",
-"node_t","unclassified","node_t::set_prefix_length","wrapper",
-"node_t","unclassified","node_t::edgecount","property wrapper",
-"node_t","unclassified","node_t::set_edgecount","wrapper",
-"node_t","unclassified","node_t::prefix","property",
-"node_t","unclassified","node_t::set_prefix","void-accessor command",
-"node_t","unclassified","node_t::first_bytes","property non-void-command",
-"node_t","unclassified","node_t::set_first_bytes","void-accessor command",
-"node_t","unclassified","node_t::first_byte_at","property non-void-command",
-"node_t","unclassified","node_t::set_first_byte_at","command",
-"node_t","unclassified","node_t::node_pointers","property non-void-command",
-"node_t","unclassified","node_t::set_node_pointers","void-accessor command",
-"node_t","unclassified","node_t::node_at","property non-void-command",
-"node_t","unclassified","node_t::set_node_at","command",
-"node_t","unclassified","node_t::set_edge_at","command",
-"node_t","unclassified","node_t::operator==","predicate",
-"node_t","unclassified","node_t::operator!=","predicate",
-"node_t","unclassified","node_t::resize","command",
-"radix_tree_t","boundary","zmq::radix_tree_t::radix_tree_t","constructor",
-"radix_tree_t","boundary","zmq::radix_tree_t::~radix_tree_t","destructor",
-"radix_tree_t","boundary","zmq::radix_tree_t::match","property controller",
-"radix_tree_t","boundary","zmq::radix_tree_t::add","predicate non-void-command collaborator",
-"radix_tree_t","boundary","zmq::radix_tree_t::rm","predicate set collaborator",
-"radix_tree_t","boundary","zmq::radix_tree_t::check","predicate non-void-command collaborator",
-"radix_tree_t","boundary","zmq::radix_tree_t::apply","void-accessor command",
-"radix_tree_t","boundary","zmq::radix_tree_t::size","property",
-"udp_address_t","data-provider","zmq::udp_address_t::udp_address_t","constructor",
-"udp_address_t","data-provider","zmq::udp_address_t::~udp_address_t","destructor",
-"udp_address_t","data-provider","zmq::udp_address_t::resolve","property non-void-command",
-"udp_address_t","data-provider","zmq::udp_address_t::family","property",
-"udp_address_t","data-provider","zmq::udp_address_t::is_mcast","get",
-"udp_address_t","data-provider","zmq::udp_address_t::bind_addr","property collaborator",
-"udp_address_t","data-provider","zmq::udp_address_t::bind_if","get",
-"udp_address_t","data-provider","zmq::udp_address_t::target_addr","property collaborator",
-"udp_address_t","data-provider","zmq::udp_address_t::to_string","property",
-"router_t","boundary","zmq::router_t::router_t","constructor",
-"router_t","boundary","zmq::router_t::~router_t","destructor",
-"router_t","boundary","zmq::router_t::xattach_pipe","void-accessor command",
-"router_t","boundary","zmq::router_t::xsetsockopt","property non-void-command",
-"router_t","boundary","zmq::router_t::xpipe_terminated","void-accessor command collaborator",
-"router_t","boundary","zmq::router_t::xread_activated","void-accessor command collaborator",
-"router_t","boundary","zmq::router_t::xsend","property non-void-command collaborator",
-"router_t","boundary","zmq::router_t::xrecv","property non-void-command collaborator",
-"router_t","boundary","zmq::router_t::rollback","property non-void-command",
-"router_t","boundary","zmq::router_t::xhas_in","predicate non-void-command collaborator",
-"router_t","boundary","zmq::router_t::xhas_out","predicate non-void-command",
-"router_t","boundary","zmq::router_t::get_peer_state","property collaborator",
-"router_t","boundary","zmq::router_t::identify_peer","predicate non-void-command collaborator",
-"secure_allocator_t","boundary degenerate","secure_allocator_t","copy-constructor",
-"secure_allocator_t","boundary degenerate","allocate","wrapper stateless",
-"secure_allocator_t","boundary degenerate","deallocate","wrapper stateless",
-"secure_allocator_t","boundary degenerate","construct","wrapper stateless",
-"secure_allocator_t","boundary degenerate","destroy","controller stateless",
-"secure_allocator_t","boundary degenerate","max_size","incidental",
-"secure_allocator_t","boundary degenerate","secure_allocator_t","copy-constructor",
-"socket_base_t","boundary","zmq::socket_base_t::check_tag","predicate",
-"socket_base_t","boundary","zmq::socket_base_t::is_thread_safe","get",
-"socket_base_t","boundary","zmq::socket_base_t::create","factory wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::socket_base_t","constructor",
-"socket_base_t","boundary","zmq::socket_base_t::get_peer_state","wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::~socket_base_t","destructor",
-"socket_base_t","boundary","zmq::socket_base_t::get_mailbox","get collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::stop","command",
-"socket_base_t","boundary","zmq::socket_base_t::parse_uri","controller stateless",
-"socket_base_t","boundary","zmq::socket_base_t::check_protocol","property",
-"socket_base_t","boundary","zmq::socket_base_t::attach_pipe","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::setsockopt","property non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::getsockopt","property non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::join","property non-void-command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::leave","property non-void-command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::add_signaler","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::remove_signaler","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::bind","get property non-void-command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::connect","property non-void-command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::connect_internal","get property non-void-command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::resolve_tcp_addr","property non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::add_endpoint","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::term_endpoint","property non-void-command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::send","property non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::recv","property non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::close","property set collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::has_in","predicate non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::has_out","predicate non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::start_reaping","command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::process_commands","property non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::process_stop","set collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::process_bind","wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::process_term","command",
-"socket_base_t","boundary","zmq::socket_base_t::process_term_endpoint","command",
-"socket_base_t","boundary","zmq::socket_base_t::process_pipe_stats_publish","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::query_pipes_stats","property non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::update_pipe_options","command",
-"socket_base_t","boundary","zmq::socket_base_t::process_destroy","set",
-"socket_base_t","boundary","zmq::socket_base_t::xsetsockopt","incidental",
-"socket_base_t","boundary","zmq::socket_base_t::xgetsockopt","incidental",
-"socket_base_t","boundary","zmq::socket_base_t::xhas_out","incidental",
-"socket_base_t","boundary","zmq::socket_base_t::xsend","incidental",
-"socket_base_t","boundary","zmq::socket_base_t::xhas_in","incidental",
-"socket_base_t","boundary","zmq::socket_base_t::xjoin","wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::xleave","wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::xrecv","incidental",
-"socket_base_t","boundary","zmq::socket_base_t::xread_activated","wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::xwrite_activated","wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::xhiccuped","wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::in_event","command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::out_event","wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::timer_event","wrapper stateless",
-"socket_base_t","boundary","zmq::socket_base_t::check_destroy","command",
-"socket_base_t","boundary","zmq::socket_base_t::read_activated","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::write_activated","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::hiccuped","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::pipe_terminated","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::extract_flags","set collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::monitor","property non-void-command",
-"socket_base_t","boundary","zmq::socket_base_t::event_connected","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::event_connect_delayed","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::event_connect_retried","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::event_listening","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::event_bind_failed","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::event_accepted","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::event_accept_failed","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::event_closed","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::event_close_failed","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::event_disconnected","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::event_handshake_failed_no_detail","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::event_handshake_failed_protocol","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::event_handshake_failed_auth","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::event_handshake_succeeded","void-accessor command",
-"socket_base_t","boundary","zmq::socket_base_t::event","void-accessor command collaborator",
-"socket_base_t","boundary","zmq::socket_base_t::monitor_event","controller",
-"socket_base_t","boundary","zmq::socket_base_t::stop_monitor","command",
-"socket_base_t","boundary","zmq::socket_base_t::is_disconnected","get",
-"routing_socket_base_t","entity boundary","any_of_out_pipes","predicate non-void-command collaborator",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::routing_socket_base_t","constructor",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::~routing_socket_base_t","destructor",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::xsetsockopt","property non-void-command",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::xwrite_activated","command collaborator",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::extract_connect_routing_id","property non-void-command",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::connect_routing_id_is_set","predicate",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::add_out_pipe","command collaborator",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::has_out_pipe","predicate collaborator",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::lookup_out_pipe","property non-void-command collaborator",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::lookup_out_pipe","property collaborator",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::erase_out_pipe","command collaborator",
-"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::try_erase_out_pipe","property non-void-command collaborator",
-"socks_greeting_t","empty","zmq::socks_greeting_t::socks_greeting_t","constructor",
-"socks_greeting_t","empty","zmq::socks_greeting_t::socks_greeting_t","constructor",
-"socks_basic_auth_request_t","empty","zmq::socks_basic_auth_request_t::socks_basic_auth_request_t","constructor",
-"tipc_address_t","data-provider","zmq::tipc_address_t::tipc_address_t","constructor",
-"tipc_address_t","data-provider","zmq::tipc_address_t::tipc_address_t","constructor",
-"tipc_address_t","data-provider","zmq::tipc_address_t::set_random","set",
-"tipc_address_t","data-provider","zmq::tipc_address_t::is_random","get",
-"tipc_address_t","data-provider","zmq::tipc_address_t::is_service","predicate",
-"tipc_address_t","data-provider","zmq::tipc_address_t::resolve","property non-void-command",
-"tipc_address_t","data-provider","zmq::tipc_address_t::to_string","property collaborator",
-"tipc_address_t","data-provider","zmq::tipc_address_t::addr","property collaborator",
-"tipc_address_t","data-provider","zmq::tipc_address_t::addrlen","collaborator incidental",
-"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::socks_auth_response_decoder_t","constructor",
-"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::input","property set collaborator",
-"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::message_ready","predicate",
-"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::decode","property non-void-command collaborator",
-"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::reset","set",
-"socks_request_t","empty","zmq::socks_request_t::socks_request_t","constructor",
-"condition_variable_t","boundary","condition_variable_t","constructor",
-"condition_variable_t","boundary","wait","wrapper stateless",
-"condition_variable_t","boundary","broadcast","wrapper stateless",
-"condition_variable_t","boundary","condition_variable_t","constructor",
-"condition_variable_t","boundary","wait","property controller",
-"condition_variable_t","boundary","broadcast","wrapper",
-"condition_variable_t","boundary","wait","property non-void-command",
-"condition_variable_t","boundary","broadcast","command",
-"condition_variable_t","boundary","~condition_variable_t","destructor",
-"condition_variable_t","boundary","wait","property non-void-command",
-"condition_variable_t","boundary","broadcast","command",
-"condition_variable_t","boundary","condition_variable_t","constructor",
-"condition_variable_t","boundary","~condition_variable_t","destructor",
-"condition_variable_t","boundary","wait","property controller",
-"condition_variable_t","boundary","broadcast","wrapper",
-"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::socks_response_decoder_t","constructor",
-"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::input","property set collaborator",
-"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::message_ready","predicate wrapper",
-"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::decode","property non-void-command collaborator",
-"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::reset","set",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::stream_connecter_base_t","constructor",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::~stream_connecter_base_t","destructor",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::process_plug","command",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::process_term","command",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::add_reconnect_timer","command",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::get_new_reconnect_ivl","get property set",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::rm_handle","set",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::close","command",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::in_event","command",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::create_engine","command collaborator",
-"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::timer_event","set",
-"xsub_t","boundary","zmq::xsub_t::xsub_t","constructor",
-"xsub_t","boundary","zmq::xsub_t::~xsub_t","destructor",
-"xsub_t","boundary","zmq::xsub_t::xattach_pipe","void-accessor command",
-"xsub_t","boundary","zmq::xsub_t::xread_activated","void-accessor command collaborator",
-"xsub_t","boundary","zmq::xsub_t::xwrite_activated","void-accessor command collaborator",
-"xsub_t","boundary","zmq::xsub_t::xpipe_terminated","void-accessor command collaborator",
-"xsub_t","boundary","zmq::xsub_t::xhiccuped","void-accessor command collaborator",
-"xsub_t","boundary","zmq::xsub_t::xsetsockopt","property non-void-command",
-"xsub_t","boundary","zmq::xsub_t::xgetsockopt","property non-void-command",
-"xsub_t","boundary","zmq::xsub_t::xsend","property non-void-command collaborator",
-"xsub_t","boundary","zmq::xsub_t::xhas_out","incidental",
-"xsub_t","boundary","zmq::xsub_t::xrecv","property non-void-command collaborator",
-"xsub_t","boundary","zmq::xsub_t::xhas_in","predicate non-void-command",
-"xsub_t","boundary","zmq::xsub_t::match","predicate non-void-command collaborator",
-"xsub_t","boundary","zmq::xsub_t::send_subscription","controller stateless",
-"ws_address_t","entity data-provider boundary","zmq::ws_address_t::ws_address_t","constructor",
-"ws_address_t","entity data-provider boundary","zmq::ws_address_t::ws_address_t","constructor",
-"ws_address_t","entity data-provider boundary","zmq::ws_address_t::resolve","property non-void-command collaborator",
-"ws_address_t","entity data-provider boundary","zmq::ws_address_t::to_string","property collaborator",
-"ws_address_t","entity data-provider boundary","zmq::ws_address_t::addr","property collaborator",
-"ws_address_t","entity data-provider boundary","zmq::ws_address_t::addrlen","property collaborator",
-"ws_address_t","entity data-provider boundary","zmq::ws_address_t::host","property",
-"ws_address_t","entity data-provider boundary","zmq::ws_address_t::path","property",
-"tcp_address_t","data-provider boundary","zmq::tcp_address_t::tcp_address_t","constructor",
-"tcp_address_t","data-provider boundary","zmq::tcp_address_t::tcp_address_t","constructor",
-"tcp_address_t","data-provider boundary","zmq::tcp_address_t::resolve","property set collaborator",
-"tcp_address_t","data-provider boundary","zmq::tcp_address_t::addr","property collaborator",
-"tcp_address_t","data-provider boundary","zmq::tcp_address_t::addrlen","property collaborator",
-"tcp_address_t","data-provider boundary","zmq::tcp_address_t::src_addr","property collaborator",
-"tcp_address_t","data-provider boundary","zmq::tcp_address_t::src_addrlen","property collaborator",
-"tcp_address_t","data-provider boundary","zmq::tcp_address_t::has_src_addr","get",
-"trie_t","data-provider","zmq::trie_t::trie_t","constructor",
-"trie_t","data-provider","zmq::trie_t::~trie_t","destructor",
-"trie_t","data-provider","zmq::trie_t::add","get predicate non-void-command",
-"trie_t","data-provider","zmq::trie_t::rm","predicate non-void-command",
-"trie_t","data-provider","zmq::trie_t::check","predicate",
-"trie_t","data-provider","zmq::trie_t::apply","wrapper stateless",
-"trie_t","data-provider","zmq::trie_t::apply_helper","void-accessor controller",
-"trie_t","data-provider","zmq::trie_t::is_redundant","predicate",
-"trie_with_size_t","unclassified","trie_with_size_t","constructor",
-"trie_with_size_t","unclassified","~trie_with_size_t","destructor",
-"trie_with_size_t","unclassified","add","predicate non-void-command",
-"trie_with_size_t","unclassified","rm","predicate non-void-command",
-"trie_with_size_t","unclassified","check","predicate",
-"trie_with_size_t","unclassified","apply","void-accessor command",
-"trie_with_size_t","unclassified","num_prefixes","property",
-"ws_engine_t","boundary","zmq::ws_engine_t::ws_engine_t","constructor",
-"ws_engine_t","boundary","zmq::ws_engine_t::~ws_engine_t","destructor",
-"ws_engine_t","boundary","zmq::ws_engine_t::start_ws_handshake","command",
-"ws_engine_t","boundary","zmq::ws_engine_t::plug_internal","command",
-"ws_engine_t","boundary","zmq::ws_engine_t::routing_id_msg","property controller",
-"ws_engine_t","boundary","zmq::ws_engine_t::process_routing_id_msg","property non-void-command collaborator",
-"ws_engine_t","boundary","zmq::ws_engine_t::select_protocol","predicate non-void-command",
-"ws_engine_t","boundary","zmq::ws_engine_t::handshake","predicate non-void-command",
-"ws_engine_t","boundary","zmq::ws_engine_t::server_handshake","predicate non-void-command",
-"ws_engine_t","boundary","zmq::ws_engine_t::client_handshake","predicate non-void-command",
-"ws_engine_t","boundary","zmq::ws_engine_t::decode_and_push","property non-void-command collaborator",
-"ws_engine_t","boundary","zmq::ws_engine_t::produce_close_message","property controller",
-"ws_engine_t","boundary","zmq::ws_engine_t::produce_no_msg_after_close","wrapper stateless",
-"ws_engine_t","boundary","zmq::ws_engine_t::close_connection_after_close","property non-void-command collaborator",
-"ws_engine_t","boundary","zmq::ws_engine_t::produce_ping_message","property set collaborator",
-"ws_engine_t","boundary","zmq::ws_engine_t::produce_pong_message","controller stateless",
-"ws_engine_t","boundary","zmq::ws_engine_t::process_command_message","property non-void-command collaborator",
-"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::vmci_address_t","constructor",
-"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::vmci_address_t","constructor",
-"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::vmci_address_t","constructor",
-"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::resolve","property non-void-command",
-"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::to_string","property collaborator",
-"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::addr","property collaborator",
-"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::addrlen","collaborator incidental",
-"blob_t","unclassified","blob_t","constructor",
-"blob_t","unclassified","blob_t","constructor",
-"blob_t","unclassified","blob_t","constructor",
-"blob_t","unclassified","blob_t","constructor",
-"blob_t","unclassified","size","get",
-"blob_t","unclassified","data","get",
-"blob_t","unclassified","data","get",
-"blob_t","unclassified","operator<","predicate wrapper",
-"blob_t","unclassified","set_deep_copy","void-accessor command",
-"blob_t","unclassified","set","void-accessor command",
-"blob_t","unclassified","clear","command",
-"blob_t","unclassified","~blob_t","destructor",
-"blob_t","unclassified","blob_t","copy-constructor",
-"blob_t","unclassified","operator=","get non-void-command",
-"blob_t","unclassified","blob_t","copy-constructor",
-"blob_t","unclassified","operator=","get non-void-command",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::pgm_socket_t","constructor",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::init_address","wrapper stateless",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::init","property non-void-command",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::~pgm_socket_t","destructor",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::get_receiver_fds","void-accessor wrapper",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::get_sender_fds","void-accessor wrapper",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::send","property set",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::get_rx_timeout","property wrapper",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::get_tx_timeout","property wrapper",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::get_max_tsdu_size","property wrapper",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::receive","property non-void-command collaborator",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::process_upstream","set",
-"pgm_socket_t","entity data-provider boundary","zmq::pgm_socket_t::compute_sqns","property wrapper",
-"array_t","unclassified","size","property non-void-command",
-"array_t","unclassified","empty","predicate non-void-command",
-"array_t","unclassified","operator[]","get collaborator",
-"array_t","unclassified","push_back","void-accessor command collaborator",
-"array_t","unclassified","erase","void-accessor command collaborator",
-"array_t","unclassified","erase","command",
-"array_t","unclassified","swap","command",
-"array_t","unclassified","clear","command",
-"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::socks_basic_auth_request_encoder_t","constructor",
-"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::encode","command collaborator",
-"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::output","property set collaborator",
-"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::has_pending_data","predicate",
-"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::reset","command",
-"xpub_t","boundary","zmq::xpub_t::xpub_t","constructor",
-"xpub_t","boundary","zmq::xpub_t::~xpub_t","destructor",
-"xpub_t","boundary","zmq::xpub_t::xattach_pipe","void-accessor command",
-"xpub_t","boundary","zmq::xpub_t::xread_activated","void-accessor command collaborator",
-"xpub_t","boundary","zmq::xpub_t::xwrite_activated","void-accessor command collaborator",
-"xpub_t","boundary","zmq::xpub_t::xsetsockopt","property non-void-command",
-"xpub_t","boundary","zmq::xpub_t::xgetsockopt","property non-void-command",
-"xpub_t","boundary","zmq::xpub_t::xpipe_terminated","void-accessor command collaborator",
-"xpub_t","boundary","zmq::xpub_t::mark_as_matching","controller stateless",
-"xpub_t","boundary","zmq::xpub_t::mark_last_pipe_as_matching","controller stateless",
-"xpub_t","boundary","zmq::xpub_t::xsend","property non-void-command collaborator",
-"xpub_t","boundary","zmq::xpub_t::xhas_out","predicate non-void-command",
-"xpub_t","boundary","zmq::xpub_t::xrecv","property non-void-command collaborator",
-"xpub_t","boundary","zmq::xpub_t::xhas_in","predicate non-void-command",
-"xpub_t","boundary","zmq::xpub_t::send_unsubscription","controller stateless",
+"test_events_t","commander","test_events_t","constructor"
+"test_events_t","commander","in_event","command"
+"test_events_t","commander","out_event","empty"
+"test_events_t","commander","timer_event","command"
+"test_events_t","commander","set_handle","set collaborator"
+"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::zap_client_common_handshake_t","constructor"
+"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::status","property collaborator"
+"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::zap_msg_available","property non-void-command"
+"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::handle_zap_status_code","set"
+"zap_client_common_handshake_t","unclassified","zap_client_common_handshake_t::receive_and_process_zap_reply","property non-void-command"
+"zap_client_t","commander","zap_client_t::zap_client_t","constructor"
+"zap_client_t","commander","zap_client_t::send_zap_request","command"
+"zap_client_t","commander","zap_client_t::send_zap_request","command"
+"zap_client_t","commander","zap_client_t::receive_and_process_zap_reply","property non-void-command"
+"zap_client_t","commander","zap_client_t::handle_zap_status_code","controller"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::ip_resolver_options_t","constructor"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::bindable","get set"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_nic_name","get set"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::ipv6","get set"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::expect_port","get set"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_dns","get set"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_path","get set"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::bindable","get"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_nic_name","get"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::ipv6","get"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::expect_port","get"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_dns","get"
+"ip_resolver_options_t","unclassified","zmq::ip_resolver_options_t::allow_path","get"
+"ip_resolver_t","entity boundary degenerate","~ip_resolver_t","destructor"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::ip_resolver_t","constructor"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve","property non-void-command"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_getaddrinfo","property non-void-command"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","wrapper stateless"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","property non-void-command"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","property non-void-command"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::get_interface_name","wrapper stateless"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::wchar_to_utf8","wrapper stateless"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","property non-void-command collaborator"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::resolve_nic_name","wrapper stateless"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::do_getaddrinfo","wrapper stateless"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::do_freeaddrinfo","wrapper stateless"
+"ip_resolver_t","entity boundary degenerate","zmq::ip_resolver_t::do_if_nametoindex","wrapper stateless"
+"wss_address_t","data-provider boundary small-class","zmq::wss_address_t::wss_address_t","constructor"
+"wss_address_t","data-provider boundary small-class","zmq::wss_address_t::wss_address_t","constructor"
+"wss_address_t","data-provider boundary small-class","zmq::wss_address_t::to_string","property collaborator"
+"io_object_t","entity commander boundary","zmq::io_object_t::io_object_t","constructor"
+"io_object_t","entity commander boundary","zmq::io_object_t::~io_object_t","destructor"
+"io_object_t","entity commander boundary","zmq::io_object_t::plug","set collaborator"
+"io_object_t","entity commander boundary","zmq::io_object_t::unplug","set"
+"io_object_t","entity commander boundary","zmq::io_object_t::add_fd","property non-void-command collaborator"
+"io_object_t","entity commander boundary","zmq::io_object_t::rm_fd","command collaborator"
+"io_object_t","entity commander boundary","zmq::io_object_t::set_pollin","command collaborator"
+"io_object_t","entity commander boundary","zmq::io_object_t::reset_pollin","command collaborator"
+"io_object_t","entity commander boundary","zmq::io_object_t::set_pollout","command collaborator"
+"io_object_t","entity commander boundary","zmq::io_object_t::reset_pollout","command collaborator"
+"io_object_t","entity commander boundary","zmq::io_object_t::add_timer","command"
+"io_object_t","entity commander boundary","zmq::io_object_t::cancel_timer","command"
+"io_object_t","entity commander boundary","zmq::io_object_t::in_event","wrapper stateless"
+"io_object_t","entity commander boundary","zmq::io_object_t::out_event","wrapper stateless"
+"io_object_t","entity commander boundary","zmq::io_object_t::timer_event","wrapper stateless"
+"generic_mtrie_t","unclassified","num_prefixes","property"
+"generic_mtrie_t","unclassified","generic_mtrie_t<T>::generic_mtrie_t","constructor"
+"generic_mtrie_t","unclassified","generic_mtrie_t<T>::~generic_mtrie_t","destructor"
+"generic_mtrie_t","unclassified","generic_mtrie_t<T>::add","predicate non-void-command collaborator"
+"generic_mtrie_t","unclassified","generic_mtrie_t<T>::rm","command"
+"generic_mtrie_t","unclassified","generic_mtrie_t<T>::rm","property non-void-command collaborator"
+"generic_mtrie_t","unclassified","generic_mtrie_t<T>::match","controller"
+"generic_mtrie_t","unclassified","generic_mtrie_t<T>::is_redundant","predicate"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::dist_t","constructor"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::~dist_t","destructor"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::attach","command collaborator"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::has_pipe","get predicate non-void-command collaborator"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::match","command collaborator"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::reverse_match","command"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::unmatch","set"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::pipe_terminated","command collaborator"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::activated","command collaborator"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::send_to_all","property set collaborator"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::send_to_matching","property non-void-command collaborator"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::distribute","command collaborator"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::has_out","incidental"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::write","predicate non-void-command collaborator"
+"dist_t","entity minimal-entity boundary","zmq::dist_t::check_hwm","predicate non-void-command"
+"wss_engine_t","unclassified","zmq::wss_engine_t::wss_engine_t","constructor"
+"wss_engine_t","unclassified","zmq::wss_engine_t::~wss_engine_t","destructor"
+"wss_engine_t","unclassified","zmq::wss_engine_t::plug_internal","command"
+"wss_engine_t","unclassified","zmq::wss_engine_t::out_event","command"
+"wss_engine_t","unclassified","zmq::wss_engine_t::do_handshake","predicate non-void-command"
+"wss_engine_t","unclassified","zmq::wss_engine_t::handshake","predicate non-void-command"
+"wss_engine_t","unclassified","zmq::wss_engine_t::read","property wrapper"
+"wss_engine_t","unclassified","zmq::wss_engine_t::write","property wrapper"
+"socks_choice_t","empty","zmq::socks_choice_t::socks_choice_t","constructor"
+"shared_message_memory_allocator","unclassified","buffer","get"
+"shared_message_memory_allocator","unclassified","resize","set"
+"shared_message_memory_allocator","unclassified","provide_content","get collaborator"
+"shared_message_memory_allocator","unclassified","advance_content","set"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::shared_message_memory_allocator","constructor"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::shared_message_memory_allocator","constructor"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::~shared_message_memory_allocator","destructor"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::allocate","property non-void-command collaborator"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::deallocate","command collaborator"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::release","property non-void-command"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::clear","command"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::inc_ref","wrapper"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::call_dec_ref","controller stateless"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::size","get"
+"shared_message_memory_allocator","unclassified","zmq::shared_message_memory_allocator::data","property"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::gssapi_mechanism_base_t","constructor"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::~gssapi_mechanism_base_t","destructor"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::encode_message","property set collaborator"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::decode_message","property set collaborator"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::produce_initiate","controller stateless"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::process_initiate","controller stateless"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::produce_ready","property non-void-command collaborator"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::process_ready","property non-void-command collaborator"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::convert_nametype","collaborator incidental"
+"gssapi_mechanism_base_t","boundary","zmq::gssapi_mechanism_base_t::acquire_credentials","wrapper stateless"
+"dbuffer_t<msg_t>","entity boundary","dbuffer_t","constructor"
+"dbuffer_t<msg_t>","entity boundary","~dbuffer_t","destructor"
+"dbuffer_t<msg_t>","entity boundary","write","command collaborator"
+"dbuffer_t<msg_t>","entity boundary","read","predicate non-void-command collaborator"
+"dbuffer_t<msg_t>","entity boundary","check_read","get collaborator"
+"dbuffer_t<msg_t>","entity boundary","probe","predicate wrapper"
+"c_single_allocator","data-provider lazy-class","c_single_allocator","constructor"
+"c_single_allocator","data-provider lazy-class","~c_single_allocator","destructor"
+"c_single_allocator","data-provider lazy-class","allocate","get"
+"c_single_allocator","data-provider lazy-class","deallocate","empty"
+"c_single_allocator","data-provider lazy-class","size","get"
+"c_single_allocator","data-provider lazy-class","resize","wrapper stateless"
+"curve_mechanism_base_t","entity boundary small-class","zmq::curve_mechanism_base_t::curve_mechanism_base_t","constructor"
+"curve_mechanism_base_t","entity boundary small-class","zmq::curve_mechanism_base_t::encode","property non-void-command collaborator"
+"curve_mechanism_base_t","entity boundary small-class","zmq::curve_mechanism_base_t::decode","property non-void-command collaborator"
+"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::socks_choice_decoder_t","constructor"
+"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::input","property set collaborator"
+"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::message_ready","predicate"
+"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::decode","property non-void-command collaborator"
+"socks_choice_decoder_t","unclassified","zmq::socks_choice_decoder_t::reset","set"
+"endpoint_uri_pair_t","data-provider small-class","endpoint_uri_pair_t","constructor"
+"endpoint_uri_pair_t","data-provider small-class","endpoint_uri_pair_t","constructor"
+"endpoint_uri_pair_t","data-provider small-class","identifier","property"
+"endpoint_uri_pair_t","data-provider small-class","clash","predicate"
+"xpub_t","boundary","zmq::xpub_t::xpub_t","constructor"
+"xpub_t","boundary","zmq::xpub_t::~xpub_t","destructor"
+"xpub_t","boundary","zmq::xpub_t::xattach_pipe","command"
+"xpub_t","boundary","zmq::xpub_t::xread_activated","command collaborator"
+"xpub_t","boundary","zmq::xpub_t::xwrite_activated","command collaborator"
+"xpub_t","boundary","zmq::xpub_t::xsetsockopt","property non-void-command"
+"xpub_t","boundary","zmq::xpub_t::xgetsockopt","property non-void-command"
+"xpub_t","boundary","zmq::xpub_t::xpipe_terminated","command collaborator"
+"xpub_t","boundary","zmq::xpub_t::mark_as_matching","controller stateless"
+"xpub_t","boundary","zmq::xpub_t::mark_last_pipe_as_matching","controller stateless"
+"xpub_t","boundary","zmq::xpub_t::xsend","property non-void-command collaborator"
+"xpub_t","boundary","zmq::xpub_t::xhas_out","predicate non-void-command"
+"xpub_t","boundary","zmq::xpub_t::xrecv","property non-void-command collaborator"
+"xpub_t","boundary","zmq::xpub_t::xhas_in","predicate non-void-command"
+"xpub_t","boundary","zmq::xpub_t::send_unsubscription","controller stateless"
+"clock_t","entity boundary lazy-class degenerate","zmq::clock_t::clock_t","constructor"
+"clock_t","entity boundary lazy-class degenerate","zmq::clock_t::now_us","wrapper stateless"
+"clock_t","entity boundary lazy-class degenerate","zmq::clock_t::now_ms","get property non-void-command"
+"clock_t","entity boundary lazy-class degenerate","zmq::clock_t::rdtsc","wrapper stateless"
+"socks_response_t","empty","zmq::socks_response_t::socks_response_t","constructor"
+"thread_t","boundary","thread_t","constructor"
+"thread_t","boundary","~thread_t","destructor"
+"thread_t","boundary","zmq::thread_t::get_started","get"
+"thread_t","boundary","zmq::thread_t::start","command"
+"thread_t","boundary","zmq::thread_t::is_current_thread","predicate wrapper"
+"thread_t","boundary","zmq::thread_t::stop","wrapper"
+"thread_t","boundary","zmq::thread_t::setSchedulingParameters","wrapper stateless"
+"thread_t","boundary","zmq::thread_t::applySchedulingParameters","empty"
+"thread_t","boundary","zmq::thread_t::applyThreadName","wrapper"
+"thread_t","boundary","zmq::thread_t::start","command"
+"thread_t","boundary","zmq::thread_t::stop","wrapper"
+"thread_t","boundary","zmq::thread_t::is_current_thread","predicate wrapper"
+"thread_t","boundary","zmq::thread_t::setSchedulingParameters","command"
+"thread_t","boundary","zmq::thread_t::applySchedulingParameters","wrapper"
+"thread_t","boundary","zmq::thread_t::applyThreadName","empty"
+"thread_t","boundary","zmq::thread_t::start","command"
+"thread_t","boundary","zmq::thread_t::stop","wrapper"
+"thread_t","boundary","zmq::thread_t::is_current_thread","predicate wrapper"
+"thread_t","boundary","zmq::thread_t::setSchedulingParameters","command"
+"thread_t","boundary","zmq::thread_t::applySchedulingParameters","command"
+"thread_t","boundary","zmq::thread_t::applyThreadName","wrapper"
+"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::stream_listener_base_t","constructor"
+"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::~stream_listener_base_t","destructor"
+"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::get_local_address","property controller"
+"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::process_plug","command"
+"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::process_term","command"
+"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::close","property non-void-command"
+"stream_listener_base_t","unclassified","zmq::stream_listener_base_t::create_engine","command collaborator"
+"ZMQ_FINAL","unclassified","forked","command"
+"ZMQ_FINAL","unclassified","forked","empty"
+"ZMQ_FINAL","unclassified","has_handshake_stage","incidental"
+"ZMQ_FINAL","unclassified","zap_msg_available","empty"
+"ZMQ_FINAL","unclassified","has_handshake_stage","incidental"
+"ZMQ_FINAL","unclassified","zap_msg_available","empty"
+"ZMQ_FINAL","unclassified","has_handshake_stage","incidental"
+"ZMQ_FINAL","unclassified","zap_msg_available","empty"
+"ZMQ_FINAL","unclassified","msg","property collaborator"
+"ZMQ_FINAL","unclassified","resize_buffer","empty"
+"ZMQ_FINAL","unclassified","has_handshake_stage","incidental"
+"ZMQ_FINAL","unclassified","zap_msg_available","empty"
+"ZMQ_FINAL","unclassified","msg","property collaborator"
+"ZMQ_FINAL","unclassified","msg","property collaborator"
+"ZMQ_FINAL","unclassified","msg","property collaborator"
+"ZMQ_FINAL","unclassified","write","command"
+"ZMQ_FINAL","unclassified","unwrite","predicate non-void-command collaborator"
+"ZMQ_FINAL","unclassified","flush","predicate non-void-command"
+"ZMQ_FINAL","unclassified","check_read","predicate non-void-command"
+"ZMQ_FINAL","unclassified","read","predicate non-void-command collaborator"
+"ZMQ_FINAL","unclassified","probe","predicate non-void-command"
+"ZMQ_FINAL","unclassified","write","command"
+"ZMQ_FINAL","unclassified","unwrite","incidental"
+"ZMQ_FINAL","unclassified","flush","get"
+"ZMQ_FINAL","unclassified","check_read","predicate set"
+"ZMQ_FINAL","unclassified","read","predicate non-void-command collaborator"
+"ZMQ_FINAL","unclassified","probe","predicate non-void-command"
+"ZMQ_FINAL","unclassified","do_getaddrinfo","property non-void-command collaborator"
+"ZMQ_FINAL","unclassified","do_if_nametoindex","wrapper stateless"
+"own_t","commander","zmq::own_t::own_t","constructor"
+"own_t","commander","zmq::own_t::own_t","constructor"
+"own_t","commander","zmq::own_t::~own_t","destructor"
+"own_t","commander","zmq::own_t::set_owner","set"
+"own_t","commander","zmq::own_t::inc_seqnum","command"
+"own_t","commander","zmq::own_t::process_seqnum","set"
+"own_t","commander","zmq::own_t::launch_child","command"
+"own_t","commander","zmq::own_t::term_child","command"
+"own_t","commander","zmq::own_t::process_term_req","command"
+"own_t","commander","zmq::own_t::process_own","command"
+"own_t","commander","zmq::own_t::terminate","command"
+"own_t","commander","zmq::own_t::is_terminating","get"
+"own_t","commander","zmq::own_t::process_term","command collaborator"
+"own_t","commander","zmq::own_t::register_term_acks","set"
+"own_t","commander","zmq::own_t::unregister_term_ack","set"
+"own_t","commander","zmq::own_t::process_term_ack","command"
+"own_t","commander","zmq::own_t::check_term_acks","command"
+"own_t","commander","zmq::own_t::process_destroy","unclassified"
+"dealer_t","boundary","zmq::dealer_t::dealer_t","constructor"
+"dealer_t","boundary","zmq::dealer_t::~dealer_t","destructor"
+"dealer_t","boundary","zmq::dealer_t::xattach_pipe","command"
+"dealer_t","boundary","zmq::dealer_t::xsetsockopt","property set"
+"dealer_t","boundary","zmq::dealer_t::xsend","property non-void-command collaborator"
+"dealer_t","boundary","zmq::dealer_t::xrecv","property non-void-command collaborator"
+"dealer_t","boundary","zmq::dealer_t::xhas_in","predicate non-void-command"
+"dealer_t","boundary","zmq::dealer_t::xhas_out","predicate non-void-command"
+"dealer_t","boundary","zmq::dealer_t::xread_activated","command collaborator"
+"dealer_t","boundary","zmq::dealer_t::xwrite_activated","command collaborator"
+"dealer_t","boundary","zmq::dealer_t::xpipe_terminated","command collaborator"
+"dealer_t","boundary","zmq::dealer_t::sendpipe","property non-void-command collaborator"
+"dealer_t","boundary","zmq::dealer_t::recvpipe","property non-void-command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::create","property non-void-command factory collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::session_base_t","constructor"
+"session_base_t","commander boundary","zmq::session_base_t::get_endpoint","property collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::~session_base_t","destructor"
+"session_base_t","commander boundary","zmq::session_base_t::attach_pipe","command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::pull_msg","property set collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::push_msg","property non-void-command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::read_zap_msg","property non-void-command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::write_zap_msg","property non-void-command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::reset","empty"
+"session_base_t","commander boundary","zmq::session_base_t::flush","command"
+"session_base_t","commander boundary","zmq::session_base_t::rollback","command"
+"session_base_t","commander boundary","zmq::session_base_t::clean_pipes","command"
+"session_base_t","commander boundary","zmq::session_base_t::pipe_terminated","command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::read_activated","command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::write_activated","command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::hiccuped","wrapper stateless"
+"session_base_t","commander boundary","zmq::session_base_t::get_socket","get collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::process_plug","command"
+"session_base_t","commander boundary","zmq::session_base_t::zap_connect","property non-void-command"
+"session_base_t","commander boundary","zmq::session_base_t::zap_enabled","predicate"
+"session_base_t","commander boundary","zmq::session_base_t::process_attach","command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::engine_ready","command"
+"session_base_t","commander boundary","zmq::session_base_t::engine_error","command collaborator"
+"session_base_t","commander boundary","zmq::session_base_t::process_term","command"
+"session_base_t","commander boundary","zmq::session_base_t::timer_event","set"
+"session_base_t","commander boundary","zmq::session_base_t::process_conn_failed","command"
+"session_base_t","commander boundary","zmq::session_base_t::reconnect","command"
+"session_base_t","commander boundary","zmq::session_base_t::start_connecting","command"
+"address_t","data-provider boundary small-class","zmq::address_t::address_t","constructor"
+"address_t","data-provider boundary small-class","zmq::address_t::~address_t","destructor"
+"address_t","data-provider boundary small-class","zmq::address_t::to_string","property collaborator"
+"thread_ctx_t","entity boundary","zmq::thread_ctx_t::thread_ctx_t","constructor"
+"thread_ctx_t","entity boundary","zmq::thread_ctx_t::start_thread","unclassified"
+"thread_ctx_t","entity boundary","zmq::thread_ctx_t::set","property non-void-command collaborator"
+"thread_ctx_t","entity boundary","zmq::thread_ctx_t::get","property non-void-command collaborator"
+"zmq_poll_select_fds_t_","empty","zmq_poll_select_fds_t_","constructor"
+"fq_t","entity boundary","zmq::fq_t::fq_t","constructor"
+"fq_t","entity boundary","zmq::fq_t::~fq_t","destructor"
+"fq_t","entity boundary","zmq::fq_t::attach","command collaborator"
+"fq_t","entity boundary","zmq::fq_t::pipe_terminated","command collaborator"
+"fq_t","entity boundary","zmq::fq_t::activated","command collaborator"
+"fq_t","entity boundary","zmq::fq_t::recv","property non-void-command collaborator"
+"fq_t","entity boundary","zmq::fq_t::recvpipe","property non-void-command collaborator"
+"fq_t","entity boundary","zmq::fq_t::has_in","predicate non-void-command"
+"atomic_value_t","small-class","atomic_value_t","constructor"
+"atomic_value_t","small-class","atomic_value_t","copy-constructor"
+"atomic_value_t","small-class","store","command"
+"atomic_value_t","small-class","load","property"
+"ip_addr_t","data-provider","zmq::ip_addr_t::family","property"
+"ip_addr_t","data-provider","zmq::ip_addr_t::is_multicast","predicate"
+"ip_addr_t","data-provider","zmq::ip_addr_t::port","property"
+"ip_addr_t","data-provider","zmq::ip_addr_t::as_sockaddr","property collaborator"
+"ip_addr_t","data-provider","zmq::ip_addr_t::sockaddr_len","property collaborator"
+"ip_addr_t","data-provider","zmq::ip_addr_t::set_port","command"
+"ip_addr_t","data-provider","zmq::ip_addr_t::any","wrapper stateless"
+"socket_poller_t","boundary","size","property"
+"socket_poller_t","boundary","zmq::socket_poller_t::socket_poller_t","constructor"
+"socket_poller_t","boundary","zmq::socket_poller_t::~socket_poller_t","destructor"
+"socket_poller_t","boundary","zmq::socket_poller_t::check_tag","predicate"
+"socket_poller_t","boundary","zmq::socket_poller_t::signaler_fd","property collaborator"
+"socket_poller_t","boundary","zmq::socket_poller_t::add","property non-void-command collaborator"
+"socket_poller_t","boundary","zmq::socket_poller_t::add_fd","property non-void-command collaborator"
+"socket_poller_t","boundary","zmq::socket_poller_t::modify","property non-void-command collaborator"
+"socket_poller_t","boundary","zmq::socket_poller_t::modify_fd","property non-void-command collaborator"
+"socket_poller_t","boundary","zmq::socket_poller_t::remove","property non-void-command collaborator"
+"socket_poller_t","boundary","zmq::socket_poller_t::remove_fd","property non-void-command collaborator"
+"socket_poller_t","boundary","zmq::socket_poller_t::rebuild","property non-void-command"
+"socket_poller_t","boundary","zmq::socket_poller_t::zero_trail_events","incidental"
+"decoder_base_t","unclassified","decoder_base_t","constructor"
+"decoder_base_t","unclassified","~decoder_base_t","destructor"
+"decoder_base_t","unclassified","get_buffer","void-accessor command"
+"decoder_base_t","unclassified","decode","property non-void-command"
+"decoder_base_t","unclassified","resize_buffer","command"
+"decoder_base_t","unclassified","next_step","command collaborator"
+"decoder_base_t","unclassified","get_allocator","get collaborator"
+"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::socks_request_encoder_t","constructor"
+"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::encode","command collaborator"
+"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::output","property set collaborator"
+"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::has_pending_data","predicate"
+"socks_request_encoder_t","unclassified","zmq::socks_request_encoder_t::reset","command"
+"msg_t","degenerate","is_subscribe","incidental"
+"msg_t","degenerate","is_cancel","incidental"
+"msg_t","degenerate","zmq::msg_t::check","incidental"
+"msg_t","degenerate","zmq::msg_t::init","property non-void-command collaborator"
+"msg_t","degenerate","zmq::msg_t::init","incidental"
+"msg_t","degenerate","zmq::msg_t::init_size","wrapper stateless"
+"msg_t","degenerate","zmq::msg_t::init_buffer","property non-void-command"
+"msg_t","degenerate","zmq::msg_t::init_external_storage","wrapper stateless"
+"msg_t","degenerate","zmq::msg_t::init_data","wrapper stateless"
+"msg_t","degenerate","zmq::msg_t::init_delimiter","incidental"
+"msg_t","degenerate","zmq::msg_t::init_join","incidental"
+"msg_t","degenerate","zmq::msg_t::init_leave","incidental"
+"msg_t","degenerate","zmq::msg_t::init_subscribe","property non-void-command"
+"msg_t","degenerate","zmq::msg_t::init_cancel","property non-void-command"
+"msg_t","degenerate","zmq::msg_t::close","property non-void-command"
+"msg_t","degenerate","zmq::msg_t::move","property set"
+"msg_t","degenerate","zmq::msg_t::copy","property set collaborator"
+"msg_t","degenerate","zmq::msg_t::data","property command collaborator"
+"msg_t","degenerate","zmq::msg_t::size","property"
+"msg_t","degenerate","zmq::msg_t::shrink","command"
+"msg_t","degenerate","zmq::msg_t::flags","incidental"
+"msg_t","degenerate","zmq::msg_t::set_flags","incidental"
+"msg_t","degenerate","zmq::msg_t::reset_flags","incidental"
+"msg_t","degenerate","zmq::msg_t::metadata","collaborator incidental"
+"msg_t","degenerate","zmq::msg_t::set_metadata","controller stateless"
+"msg_t","degenerate","zmq::msg_t::reset_metadata","controller stateless"
+"msg_t","degenerate","zmq::msg_t::is_routing_id","incidental"
+"msg_t","degenerate","zmq::msg_t::is_credential","incidental"
+"msg_t","degenerate","zmq::msg_t::is_delimiter","incidental"
+"msg_t","degenerate","zmq::msg_t::is_vsm","incidental"
+"msg_t","degenerate","zmq::msg_t::is_cmsg","incidental"
+"msg_t","degenerate","zmq::msg_t::is_lmsg","incidental"
+"msg_t","degenerate","zmq::msg_t::is_zcmsg","incidental"
+"msg_t","degenerate","zmq::msg_t::is_join","incidental"
+"msg_t","degenerate","zmq::msg_t::is_leave","incidental"
+"msg_t","degenerate","zmq::msg_t::is_ping","incidental"
+"msg_t","degenerate","zmq::msg_t::is_pong","incidental"
+"msg_t","degenerate","zmq::msg_t::is_close_cmd","incidental"
+"msg_t","degenerate","zmq::msg_t::command_body_size","controller stateless"
+"msg_t","degenerate","zmq::msg_t::command_body","controller stateless"
+"msg_t","degenerate","zmq::msg_t::add_refs","command"
+"msg_t","degenerate","zmq::msg_t::rm_refs","predicate non-void-command"
+"msg_t","degenerate","zmq::msg_t::get_routing_id","incidental"
+"msg_t","degenerate","zmq::msg_t::set_routing_id","incidental"
+"msg_t","degenerate","zmq::msg_t::reset_routing_id","incidental"
+"msg_t","degenerate","zmq::msg_t::group","incidental"
+"msg_t","degenerate","zmq::msg_t::set_group","property non-void-command"
+"msg_t","degenerate","zmq::msg_t::set_group","controller stateless"
+"msg_t","degenerate","zmq::msg_t::refcnt","wrapper stateless"
+"ipc_address_t","data-provider boundary","zmq::ipc_address_t::ipc_address_t","constructor"
+"ipc_address_t","data-provider boundary","zmq::ipc_address_t::ipc_address_t","constructor"
+"ipc_address_t","data-provider boundary","zmq::ipc_address_t::~ipc_address_t","destructor"
+"ipc_address_t","data-provider boundary","zmq::ipc_address_t::resolve","property non-void-command"
+"ipc_address_t","data-provider boundary","zmq::ipc_address_t::to_string","property controller"
+"ipc_address_t","data-provider boundary","zmq::ipc_address_t::addr","property collaborator"
+"ipc_address_t","data-provider boundary","zmq::ipc_address_t::addrlen","get collaborator"
+"scoped_lock_t","empty","scoped_lock_t","constructor"
+"scoped_lock_t","empty","~scoped_lock_t","destructor"
+"signaler_t","data-provider boundary","zmq::signaler_t::signaler_t","constructor"
+"signaler_t","data-provider boundary","zmq::signaler_t::~signaler_t","destructor"
+"signaler_t","data-provider boundary","zmq::signaler_t::get_fd","get collaborator"
+"signaler_t","data-provider boundary","zmq::signaler_t::send","wrapper"
+"signaler_t","data-provider boundary","zmq::signaler_t::wait","property controller"
+"signaler_t","data-provider boundary","zmq::signaler_t::recv","wrapper"
+"signaler_t","data-provider boundary","zmq::signaler_t::recv_failable","property wrapper"
+"signaler_t","data-provider boundary","zmq::signaler_t::valid","predicate"
+"signaler_t","data-provider boundary","zmq::signaler_t::forked","wrapper"
+"poller_base_t","boundary","zmq::poller_base_t::~poller_base_t","destructor"
+"poller_base_t","boundary","zmq::poller_base_t::get_load","property"
+"poller_base_t","boundary","zmq::poller_base_t::adjust_load","command"
+"poller_base_t","boundary","zmq::poller_base_t::add_timer","command collaborator"
+"poller_base_t","boundary","zmq::poller_base_t::cancel_timer","command collaborator"
+"poller_base_t","boundary","zmq::poller_base_t::execute_timers","property non-void-command collaborator"
+"yqueue_t","entity boundary","yqueue_t","constructor"
+"yqueue_t","entity boundary","~yqueue_t","destructor"
+"yqueue_t","entity boundary","front","property collaborator"
+"yqueue_t","entity boundary","back","property collaborator"
+"yqueue_t","entity boundary","push","command collaborator"
+"yqueue_t","entity boundary","unpush","command"
+"yqueue_t","entity boundary","pop","command collaborator"
+"socks_auth_response_t","empty","zmq::socks_auth_response_t::socks_auth_response_t","constructor"
+"stream_engine_base_t","boundary","has_handshake_stage","get"
+"stream_engine_base_t","boundary","handshake","incidental"
+"stream_engine_base_t","boundary","plug_internal","empty"
+"stream_engine_base_t","boundary","process_command_message","wrapper stateless"
+"stream_engine_base_t","boundary","produce_ping_message","wrapper stateless"
+"stream_engine_base_t","boundary","process_heartbeat_message","wrapper stateless"
+"stream_engine_base_t","boundary","produce_pong_message","wrapper stateless"
+"stream_engine_base_t","boundary","reset_pollout","command"
+"stream_engine_base_t","boundary","set_pollout","command"
+"stream_engine_base_t","boundary","set_pollin","command"
+"stream_engine_base_t","boundary","session","get collaborator"
+"stream_engine_base_t","boundary","socket","get collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::stream_engine_base_t","constructor"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::~stream_engine_base_t","destructor"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::plug","command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::unplug","command"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::terminate","command"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::in_event","command"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::in_event_internal","predicate non-void-command"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::out_event","command"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::restart_output","command"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::restart_input","predicate non-void-command"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::next_handshake_command","property non-void-command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::process_handshake_command","property non-void-command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::zap_msg_available","command"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::get_endpoint","get collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::mechanism_ready","command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::write_credential","property non-void-command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::pull_and_encode","property non-void-command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::decode_and_push","property non-void-command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::push_one_then_decode_and_push","property non-void-command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::pull_msg_from_session","property non-void-command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::push_msg_to_session","property non-void-command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::error","command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::set_handshake_timer","set"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::init_properties","predicate non-void-command collaborator"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::timer_event","command"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::read","property wrapper"
+"stream_engine_base_t","boundary","zmq::stream_engine_base_t::write","property wrapper"
+"timers_t","unclassified","zmq::timers_t::timers_t","constructor"
+"timers_t","unclassified","zmq::timers_t::~timers_t","destructor"
+"timers_t","unclassified","zmq::timers_t::check_tag","predicate"
+"timers_t","unclassified","zmq::timers_t::add","property non-void-command collaborator"
+"timers_t","unclassified","zmq::timers_t::cancel","property non-void-command"
+"timers_t","unclassified","zmq::timers_t::set_interval","property non-void-command"
+"timers_t","unclassified","zmq::timers_t::reset","property non-void-command"
+"timers_t","unclassified","zmq::timers_t::timeout","property non-void-command collaborator"
+"timers_t","unclassified","zmq::timers_t::execute","property non-void-command collaborator"
+"array_item_t","data-class small-class","array_item_t","constructor"
+"array_item_t","data-class small-class","set_array_index","set"
+"array_item_t","data-class small-class","get_array_index","get"
+"object_t","entity commander boundary","zmq::object_t::object_t","constructor"
+"object_t","entity commander boundary","zmq::object_t::object_t","copy-constructor"
+"object_t","entity commander boundary","zmq::object_t::~object_t","destructor"
+"object_t","entity commander boundary","zmq::object_t::get_tid","get"
+"object_t","entity commander boundary","zmq::object_t::set_tid","set"
+"object_t","entity commander boundary","zmq::object_t::get_ctx","get collaborator"
+"object_t","entity commander boundary","zmq::object_t::process_command","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::register_endpoint","property non-void-command collaborator"
+"object_t","entity commander boundary","zmq::object_t::unregister_endpoint","property non-void-command collaborator"
+"object_t","entity commander boundary","zmq::object_t::unregister_endpoints","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::find_endpoint","property collaborator"
+"object_t","entity commander boundary","zmq::object_t::pend_connection","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::connect_pending","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::destroy_socket","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::choose_io_thread","property collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_stop","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_plug","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_own","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_attach","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_conn_failed","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_bind","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_activate_read","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_activate_write","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_hiccup","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_pipe_peer_stats","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_pipe_stats_publish","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_pipe_term","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_pipe_term_ack","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_pipe_hwm","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_term_req","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_term","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_term_ack","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_term_endpoint","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_reap","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_reaped","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_inproc_connected","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::send_done","command collaborator"
+"object_t","entity commander boundary","zmq::object_t::process_stop","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_plug","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_own","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_attach","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_bind","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_activate_read","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_activate_write","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_hiccup","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_pipe_peer_stats","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_pipe_stats_publish","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_pipe_term","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_pipe_term_ack","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_pipe_hwm","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_term_req","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_term","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_term_ack","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_term_endpoint","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_reap","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_reaped","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_seqnum","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::process_conn_failed","wrapper stateless"
+"object_t","entity commander boundary","zmq::object_t::send_command","command collaborator"
+"curve_client_tools_t","data-provider boundary","produce_hello","property wrapper"
+"curve_client_tools_t","data-provider boundary","process_welcome","property wrapper"
+"curve_client_tools_t","data-provider boundary","produce_initiate","property wrapper"
+"curve_encoding_t","unclassified","get_writable_precom_buffer","get"
+"curve_encoding_t","unclassified","get_precom_buffer","get"
+"curve_encoding_t","unclassified","get_and_inc_nonce","property set collaborator"
+"curve_encoding_t","unclassified","set_peer_nonce","set collaborator"
+"curve_encoding_t","unclassified","zmq::curve_encoding_t::curve_encoding_t","constructor"
+"curve_encoding_t","unclassified","zmq::curve_encoding_t::check_validity","property non-void-command"
+"curve_encoding_t","unclassified","zmq::curve_encoding_t::encode","property non-void-command collaborator"
+"curve_encoding_t","unclassified","zmq::curve_encoding_t::decode","property non-void-command"
+"mechanism_base_t","unclassified","zmq::mechanism_base_t::mechanism_base_t","constructor"
+"mechanism_base_t","unclassified","zmq::mechanism_base_t::check_basic_command_structure","property collaborator"
+"mechanism_base_t","unclassified","zmq::mechanism_base_t::handle_error_reason","command"
+"mechanism_base_t","unclassified","zmq::mechanism_base_t::zap_required","predicate"
+"atomic_ptr_t","entity boundary","atomic_ptr_t","constructor"
+"atomic_ptr_t","entity boundary","set","set collaborator"
+"atomic_ptr_t","entity boundary","xchg","property non-void-command collaborator"
+"atomic_ptr_t","entity boundary","cas","property non-void-command collaborator"
+"lb_t","entity boundary","zmq::lb_t::lb_t","constructor"
+"lb_t","entity boundary","zmq::lb_t::~lb_t","destructor"
+"lb_t","entity boundary","zmq::lb_t::attach","command collaborator"
+"lb_t","entity boundary","zmq::lb_t::pipe_terminated","command collaborator"
+"lb_t","entity boundary","zmq::lb_t::activated","command collaborator"
+"lb_t","entity boundary","zmq::lb_t::send","property non-void-command collaborator"
+"lb_t","entity boundary","zmq::lb_t::sendpipe","property non-void-command collaborator"
+"lb_t","entity boundary","zmq::lb_t::has_out","predicate non-void-command"
+"mechanism_t","unclassified","encode","incidental"
+"mechanism_t","unclassified","decode","incidental"
+"mechanism_t","unclassified","zap_msg_available","incidental"
+"mechanism_t","unclassified","get_zmtp_properties","get collaborator"
+"mechanism_t","unclassified","get_zap_properties","get collaborator"
+"mechanism_t","unclassified","zmq::mechanism_t::mechanism_t","constructor"
+"mechanism_t","unclassified","zmq::mechanism_t::~mechanism_t","destructor"
+"mechanism_t","unclassified","zmq::mechanism_t::set_peer_routing_id","command"
+"mechanism_t","unclassified","zmq::mechanism_t::peer_routing_id","command collaborator"
+"mechanism_t","unclassified","zmq::mechanism_t::set_user_id","command"
+"mechanism_t","unclassified","zmq::mechanism_t::get_user_id","get collaborator"
+"mechanism_t","unclassified","zmq::mechanism_t::socket_type_string","wrapper stateless"
+"mechanism_t","unclassified","zmq::mechanism_t::add_property","property non-void-command"
+"mechanism_t","unclassified","zmq::mechanism_t::property_len","property non-void-command"
+"mechanism_t","unclassified","zmq::mechanism_t::add_basic_properties","property"
+"mechanism_t","unclassified","zmq::mechanism_t::basic_properties_len","property"
+"mechanism_t","unclassified","zmq::mechanism_t::make_command_with_basic_properties","unclassified"
+"mechanism_t","unclassified","zmq::mechanism_t::parse_metadata","property non-void-command"
+"mechanism_t","unclassified","zmq::mechanism_t::property","incidental"
+"metadata_t","unclassified","zmq::metadata_t::metadata_t","constructor"
+"metadata_t","unclassified","zmq::metadata_t::get","property collaborator"
+"metadata_t","unclassified","zmq::metadata_t::add_ref","command"
+"metadata_t","unclassified","zmq::metadata_t::drop_ref","predicate non-void-command"
+"optimized_fd_set_t","data-provider boundary small-class","optimized_fd_set_t","constructor"
+"optimized_fd_set_t","data-provider boundary small-class","get","property collaborator"
+"optimized_fd_set_t","data-provider boundary small-class","optimized_fd_set_t","constructor"
+"optimized_fd_set_t","data-provider boundary small-class","get","property collaborator"
+"mutex_t","data-provider boundary","mutex_t","constructor"
+"mutex_t","data-provider boundary","~mutex_t","destructor"
+"mutex_t","data-provider boundary","lock","wrapper"
+"mutex_t","data-provider boundary","try_lock","predicate wrapper"
+"mutex_t","data-provider boundary","unlock","wrapper"
+"mutex_t","data-provider boundary","get_cs","property collaborator"
+"mutex_t","data-provider boundary","mutex_t","constructor"
+"mutex_t","data-provider boundary","~mutex_t","destructor"
+"mutex_t","data-provider boundary","lock","wrapper"
+"mutex_t","data-provider boundary","try_lock","predicate wrapper"
+"mutex_t","data-provider boundary","unlock","wrapper"
+"mutex_t","data-provider boundary","mutex_t","constructor"
+"mutex_t","data-provider boundary","~mutex_t","destructor"
+"mutex_t","data-provider boundary","lock","wrapper"
+"mutex_t","data-provider boundary","try_lock","predicate wrapper"
+"mutex_t","data-provider boundary","unlock","wrapper"
+"mutex_t","data-provider boundary","get_mutex","property collaborator"
+"server_t","commander boundary","zmq::server_t::server_t","constructor"
+"server_t","commander boundary","zmq::server_t::~server_t","destructor"
+"server_t","commander boundary","zmq::server_t::xattach_pipe","command"
+"server_t","commander boundary","zmq::server_t::xpipe_terminated","command collaborator"
+"server_t","commander boundary","zmq::server_t::xread_activated","command collaborator"
+"server_t","commander boundary","zmq::server_t::xwrite_activated","command collaborator"
+"server_t","commander boundary","zmq::server_t::xsend","property non-void-command collaborator"
+"server_t","commander boundary","zmq::server_t::xrecv","property non-void-command collaborator"
+"server_t","commander boundary","zmq::server_t::xhas_in","predicate non-void-command"
+"server_t","commander boundary","zmq::server_t::xhas_out","incidental"
+"scoped_optional_lock_t","empty","scoped_optional_lock_t","constructor"
+"scoped_optional_lock_t","empty","~scoped_optional_lock_t","destructor"
+"match_result_t","empty","match_result_t::match_result_t","constructor"
+"worker_poller_base_t","commander","zmq::worker_poller_base_t::worker_poller_base_t","constructor"
+"worker_poller_base_t","commander","zmq::worker_poller_base_t::stop_worker","command"
+"worker_poller_base_t","commander","zmq::worker_poller_base_t::start","command"
+"worker_poller_base_t","commander","zmq::worker_poller_base_t::check_thread","unclassified"
+"worker_poller_base_t","commander","zmq::worker_poller_base_t::worker_routine","wrapper stateless"
+"zmq::timers_t::match_by_id","data-provider boundary small-class","operator()","predicate collaborator"
+"encoder_base_t","unclassified","encoder_base_t","constructor"
+"encoder_base_t","unclassified","~encoder_base_t","destructor"
+"encoder_base_t","unclassified","encode","property non-void-command"
+"encoder_base_t","unclassified","load_msg","set collaborator"
+"encoder_base_t","unclassified","next_step","command"
+"encoder_base_t","unclassified","in_progress","get collaborator"
+"fast_vector_t","data-provider boundary data-class small-class","fast_vector_t","constructor"
+"fast_vector_t","data-provider boundary data-class small-class","operator[]","get collaborator"
+"fast_vector_t","data-provider boundary data-class small-class","~fast_vector_t","destructor"
+"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::socks_greeting_encoder_t","constructor"
+"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::encode","command collaborator"
+"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::output","property set collaborator"
+"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::has_pending_data","predicate"
+"socks_greeting_encoder_t","unclassified","zmq::socks_greeting_encoder_t::reset","command"
+"options_t","unclassified","zmq::options_t::options_t","constructor"
+"options_t","unclassified","zmq::options_t::set_curve_key","property set"
+"options_t","unclassified","zmq::options_t::setsockopt","property non-void-command"
+"options_t","unclassified","zmq::options_t::getsockopt","property"
+"resizable_fast_vector_t","entity boundary","resizable_fast_vector_t","constructor"
+"resizable_fast_vector_t","entity boundary","resize","set"
+"resizable_fast_vector_t","entity boundary","get_buf","property collaborator"
+"resizable_fast_vector_t","entity boundary","operator[]","property non-void-command collaborator"
+"resizable_fast_vector_t","entity boundary","~resizable_fast_vector_t","destructor"
+"resizable_optimized_fd_set_t","unclassified","resize","command"
+"resizable_optimized_fd_set_t","unclassified","get","property collaborator"
+"resizable_optimized_fd_set_t","unclassified","resizable_optimized_fd_set_t","constructor"
+"resizable_optimized_fd_set_t","unclassified","resize","empty"
+"node_t","unclassified","node_t::node_t","constructor"
+"node_t","unclassified","node_t::refcount","property wrapper"
+"node_t","unclassified","node_t::set_refcount","wrapper"
+"node_t","unclassified","node_t::prefix_length","property wrapper"
+"node_t","unclassified","node_t::set_prefix_length","wrapper"
+"node_t","unclassified","node_t::edgecount","property wrapper"
+"node_t","unclassified","node_t::set_edgecount","wrapper"
+"node_t","unclassified","node_t::prefix","property"
+"node_t","unclassified","node_t::set_prefix","command"
+"node_t","unclassified","node_t::first_bytes","property non-void-command"
+"node_t","unclassified","node_t::set_first_bytes","command"
+"node_t","unclassified","node_t::first_byte_at","property non-void-command"
+"node_t","unclassified","node_t::set_first_byte_at","command"
+"node_t","unclassified","node_t::node_pointers","property non-void-command"
+"node_t","unclassified","node_t::set_node_pointers","command"
+"node_t","unclassified","node_t::node_at","property non-void-command"
+"node_t","unclassified","node_t::set_node_at","command"
+"node_t","unclassified","node_t::set_edge_at","command"
+"node_t","unclassified","node_t::operator==","predicate"
+"node_t","unclassified","node_t::operator!=","predicate"
+"node_t","unclassified","node_t::resize","command"
+"radix_tree_t","boundary","zmq::radix_tree_t::radix_tree_t","constructor"
+"radix_tree_t","boundary","zmq::radix_tree_t::~radix_tree_t","destructor"
+"radix_tree_t","boundary","zmq::radix_tree_t::match","property controller"
+"radix_tree_t","boundary","zmq::radix_tree_t::add","predicate non-void-command collaborator"
+"radix_tree_t","boundary","zmq::radix_tree_t::rm","predicate set collaborator"
+"radix_tree_t","boundary","zmq::radix_tree_t::check","predicate non-void-command collaborator"
+"radix_tree_t","boundary","zmq::radix_tree_t::apply","command"
+"radix_tree_t","boundary","zmq::radix_tree_t::size","property"
+"udp_address_t","data-provider","zmq::udp_address_t::udp_address_t","constructor"
+"udp_address_t","data-provider","zmq::udp_address_t::~udp_address_t","destructor"
+"udp_address_t","data-provider","zmq::udp_address_t::resolve","property non-void-command"
+"udp_address_t","data-provider","zmq::udp_address_t::family","property"
+"udp_address_t","data-provider","zmq::udp_address_t::is_mcast","get"
+"udp_address_t","data-provider","zmq::udp_address_t::bind_addr","property collaborator"
+"udp_address_t","data-provider","zmq::udp_address_t::bind_if","get"
+"udp_address_t","data-provider","zmq::udp_address_t::target_addr","property collaborator"
+"udp_address_t","data-provider","zmq::udp_address_t::to_string","property"
+"router_t","boundary","zmq::router_t::router_t","constructor"
+"router_t","boundary","zmq::router_t::~router_t","destructor"
+"router_t","boundary","zmq::router_t::xattach_pipe","command"
+"router_t","boundary","zmq::router_t::xsetsockopt","property non-void-command"
+"router_t","boundary","zmq::router_t::xpipe_terminated","command collaborator"
+"router_t","boundary","zmq::router_t::xread_activated","command collaborator"
+"router_t","boundary","zmq::router_t::xsend","property non-void-command collaborator"
+"router_t","boundary","zmq::router_t::xrecv","property non-void-command collaborator"
+"router_t","boundary","zmq::router_t::rollback","property non-void-command"
+"router_t","boundary","zmq::router_t::xhas_in","predicate non-void-command collaborator"
+"router_t","boundary","zmq::router_t::xhas_out","predicate non-void-command"
+"router_t","boundary","zmq::router_t::get_peer_state","property collaborator"
+"router_t","boundary","zmq::router_t::identify_peer","predicate non-void-command collaborator"
+"secure_allocator_t","boundary degenerate","secure_allocator_t","copy-constructor"
+"secure_allocator_t","boundary degenerate","allocate","wrapper stateless"
+"secure_allocator_t","boundary degenerate","deallocate","wrapper stateless"
+"secure_allocator_t","boundary degenerate","construct","wrapper stateless"
+"secure_allocator_t","boundary degenerate","destroy","controller stateless"
+"secure_allocator_t","boundary degenerate","max_size","incidental"
+"secure_allocator_t","boundary degenerate","secure_allocator_t","copy-constructor"
+"socket_base_t","commander boundary","zmq::socket_base_t::check_tag","predicate"
+"socket_base_t","commander boundary","zmq::socket_base_t::is_thread_safe","get"
+"socket_base_t","commander boundary","zmq::socket_base_t::create","factory wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::socket_base_t","constructor"
+"socket_base_t","commander boundary","zmq::socket_base_t::get_peer_state","wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::~socket_base_t","destructor"
+"socket_base_t","commander boundary","zmq::socket_base_t::get_mailbox","get collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::stop","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::parse_uri","controller stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::check_protocol","property"
+"socket_base_t","commander boundary","zmq::socket_base_t::attach_pipe","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::setsockopt","property non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::getsockopt","property non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::join","property non-void-command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::leave","property non-void-command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::add_signaler","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::remove_signaler","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::bind","get property non-void-command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::connect","property non-void-command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::connect_internal","get property non-void-command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::resolve_tcp_addr","property non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::add_endpoint","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::term_endpoint","property non-void-command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::send","property non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::recv","property non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::close","property set collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::has_in","predicate non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::has_out","predicate non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::start_reaping","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::process_commands","property non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::process_stop","set collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::process_bind","wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::process_term","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::process_term_endpoint","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::process_pipe_stats_publish","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::query_pipes_stats","property non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::update_pipe_options","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::process_destroy","set"
+"socket_base_t","commander boundary","zmq::socket_base_t::xsetsockopt","incidental"
+"socket_base_t","commander boundary","zmq::socket_base_t::xgetsockopt","incidental"
+"socket_base_t","commander boundary","zmq::socket_base_t::xhas_out","incidental"
+"socket_base_t","commander boundary","zmq::socket_base_t::xsend","incidental"
+"socket_base_t","commander boundary","zmq::socket_base_t::xhas_in","incidental"
+"socket_base_t","commander boundary","zmq::socket_base_t::xjoin","wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::xleave","wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::xrecv","incidental"
+"socket_base_t","commander boundary","zmq::socket_base_t::xread_activated","wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::xwrite_activated","wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::xhiccuped","wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::in_event","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::out_event","wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::timer_event","wrapper stateless"
+"socket_base_t","commander boundary","zmq::socket_base_t::check_destroy","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::read_activated","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::write_activated","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::hiccuped","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::pipe_terminated","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::extract_flags","set collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::monitor","property non-void-command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_connected","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_connect_delayed","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_connect_retried","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_listening","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_bind_failed","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_accepted","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_accept_failed","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_closed","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_close_failed","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_disconnected","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_handshake_failed_no_detail","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_handshake_failed_protocol","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_handshake_failed_auth","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event_handshake_succeeded","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::event","command collaborator"
+"socket_base_t","commander boundary","zmq::socket_base_t::monitor_event","controller"
+"socket_base_t","commander boundary","zmq::socket_base_t::stop_monitor","command"
+"socket_base_t","commander boundary","zmq::socket_base_t::is_disconnected","get"
+"routing_socket_base_t","entity boundary","any_of_out_pipes","predicate non-void-command collaborator"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::routing_socket_base_t","constructor"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::~routing_socket_base_t","destructor"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::xsetsockopt","property non-void-command"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::xwrite_activated","command collaborator"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::extract_connect_routing_id","property non-void-command"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::connect_routing_id_is_set","predicate"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::add_out_pipe","command collaborator"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::has_out_pipe","predicate collaborator"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::lookup_out_pipe","property non-void-command collaborator"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::lookup_out_pipe","property collaborator"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::erase_out_pipe","command collaborator"
+"routing_socket_base_t","entity boundary","zmq::routing_socket_base_t::try_erase_out_pipe","property non-void-command collaborator"
+"socks_greeting_t","empty","zmq::socks_greeting_t::socks_greeting_t","constructor"
+"socks_greeting_t","empty","zmq::socks_greeting_t::socks_greeting_t","constructor"
+"socks_basic_auth_request_t","empty","zmq::socks_basic_auth_request_t::socks_basic_auth_request_t","constructor"
+"tipc_address_t","data-provider","zmq::tipc_address_t::tipc_address_t","constructor"
+"tipc_address_t","data-provider","zmq::tipc_address_t::tipc_address_t","constructor"
+"tipc_address_t","data-provider","zmq::tipc_address_t::set_random","set"
+"tipc_address_t","data-provider","zmq::tipc_address_t::is_random","get"
+"tipc_address_t","data-provider","zmq::tipc_address_t::is_service","predicate"
+"tipc_address_t","data-provider","zmq::tipc_address_t::resolve","property non-void-command"
+"tipc_address_t","data-provider","zmq::tipc_address_t::to_string","property collaborator"
+"tipc_address_t","data-provider","zmq::tipc_address_t::addr","property collaborator"
+"tipc_address_t","data-provider","zmq::tipc_address_t::addrlen","collaborator incidental"
+"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::socks_auth_response_decoder_t","constructor"
+"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::input","property set collaborator"
+"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::message_ready","predicate"
+"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::decode","property non-void-command collaborator"
+"socks_auth_response_decoder_t","unclassified","zmq::socks_auth_response_decoder_t::reset","set"
+"socks_request_t","empty","zmq::socks_request_t::socks_request_t","constructor"
+"condition_variable_t","boundary","condition_variable_t","constructor"
+"condition_variable_t","boundary","wait","wrapper stateless"
+"condition_variable_t","boundary","broadcast","wrapper stateless"
+"condition_variable_t","boundary","condition_variable_t","constructor"
+"condition_variable_t","boundary","wait","property controller"
+"condition_variable_t","boundary","broadcast","wrapper"
+"condition_variable_t","boundary","wait","property non-void-command"
+"condition_variable_t","boundary","broadcast","command"
+"condition_variable_t","boundary","~condition_variable_t","destructor"
+"condition_variable_t","boundary","wait","property non-void-command"
+"condition_variable_t","boundary","broadcast","command"
+"condition_variable_t","boundary","condition_variable_t","constructor"
+"condition_variable_t","boundary","~condition_variable_t","destructor"
+"condition_variable_t","boundary","wait","property controller"
+"condition_variable_t","boundary","broadcast","wrapper"
+"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::socks_response_decoder_t","constructor"
+"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::input","property set collaborator"
+"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::message_ready","predicate wrapper"
+"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::decode","property non-void-command collaborator"
+"socks_response_decoder_t","entity boundary","zmq::socks_response_decoder_t::reset","set"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::stream_connecter_base_t","constructor"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::~stream_connecter_base_t","destructor"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::process_plug","command"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::process_term","command"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::add_reconnect_timer","command"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::get_new_reconnect_ivl","get property set"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::rm_handle","set"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::close","command"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::in_event","command"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::create_engine","command collaborator"
+"stream_connecter_base_t","commander","zmq::stream_connecter_base_t::timer_event","set"
+"xsub_t","boundary","zmq::xsub_t::xsub_t","constructor"
+"xsub_t","boundary","zmq::xsub_t::~xsub_t","destructor"
+"xsub_t","boundary","zmq::xsub_t::xattach_pipe","command"
+"xsub_t","boundary","zmq::xsub_t::xread_activated","command collaborator"
+"xsub_t","boundary","zmq::xsub_t::xwrite_activated","command collaborator"
+"xsub_t","boundary","zmq::xsub_t::xpipe_terminated","command collaborator"
+"xsub_t","boundary","zmq::xsub_t::xhiccuped","command collaborator"
+"xsub_t","boundary","zmq::xsub_t::xsetsockopt","property non-void-command"
+"xsub_t","boundary","zmq::xsub_t::xgetsockopt","property non-void-command"
+"xsub_t","boundary","zmq::xsub_t::xsend","property non-void-command collaborator"
+"xsub_t","boundary","zmq::xsub_t::xhas_out","incidental"
+"xsub_t","boundary","zmq::xsub_t::xrecv","property non-void-command collaborator"
+"xsub_t","boundary","zmq::xsub_t::xhas_in","predicate non-void-command"
+"xsub_t","boundary","zmq::xsub_t::match","predicate non-void-command collaborator"
+"xsub_t","boundary","zmq::xsub_t::send_subscription","controller stateless"
+"ws_address_t","entity data-provider boundary","zmq::ws_address_t::ws_address_t","constructor"
+"ws_address_t","entity data-provider boundary","zmq::ws_address_t::ws_address_t","constructor"
+"ws_address_t","entity data-provider boundary","zmq::ws_address_t::resolve","property non-void-command collaborator"
+"ws_address_t","entity data-provider boundary","zmq::ws_address_t::to_string","property collaborator"
+"ws_address_t","entity data-provider boundary","zmq::ws_address_t::addr","property collaborator"
+"ws_address_t","entity data-provider boundary","zmq::ws_address_t::addrlen","property collaborator"
+"ws_address_t","entity data-provider boundary","zmq::ws_address_t::host","property"
+"ws_address_t","entity data-provider boundary","zmq::ws_address_t::path","property"
+"tcp_address_t","data-provider boundary","zmq::tcp_address_t::tcp_address_t","constructor"
+"tcp_address_t","data-provider boundary","zmq::tcp_address_t::tcp_address_t","constructor"
+"tcp_address_t","data-provider boundary","zmq::tcp_address_t::resolve","property set collaborator"
+"tcp_address_t","data-provider boundary","zmq::tcp_address_t::addr","property collaborator"
+"tcp_address_t","data-provider boundary","zmq::tcp_address_t::addrlen","property collaborator"
+"tcp_address_t","data-provider boundary","zmq::tcp_address_t::src_addr","property collaborator"
+"tcp_address_t","data-provider boundary","zmq::tcp_address_t::src_addrlen","property collaborator"
+"tcp_address_t","data-provider boundary","zmq::tcp_address_t::has_src_addr","get"
+"trie_t","data-provider","zmq::trie_t::trie_t","constructor"
+"trie_t","data-provider","zmq::trie_t::~trie_t","destructor"
+"trie_t","data-provider","zmq::trie_t::add","get predicate non-void-command"
+"trie_t","data-provider","zmq::trie_t::rm","predicate non-void-command"
+"trie_t","data-provider","zmq::trie_t::check","predicate"
+"trie_t","data-provider","zmq::trie_t::apply","wrapper stateless"
+"trie_t","data-provider","zmq::trie_t::apply_helper","void-accessor controller"
+"trie_t","data-provider","zmq::trie_t::is_redundant","predicate"
+"trie_with_size_t","unclassified","trie_with_size_t","constructor"
+"trie_with_size_t","unclassified","~trie_with_size_t","destructor"
+"trie_with_size_t","unclassified","add","predicate non-void-command"
+"trie_with_size_t","unclassified","rm","predicate non-void-command"
+"trie_with_size_t","unclassified","check","predicate"
+"trie_with_size_t","unclassified","apply","command"
+"trie_with_size_t","unclassified","num_prefixes","property"
+"ws_engine_t","boundary","zmq::ws_engine_t::ws_engine_t","constructor"
+"ws_engine_t","boundary","zmq::ws_engine_t::~ws_engine_t","destructor"
+"ws_engine_t","boundary","zmq::ws_engine_t::start_ws_handshake","command"
+"ws_engine_t","boundary","zmq::ws_engine_t::plug_internal","command"
+"ws_engine_t","boundary","zmq::ws_engine_t::routing_id_msg","property controller"
+"ws_engine_t","boundary","zmq::ws_engine_t::process_routing_id_msg","property non-void-command collaborator"
+"ws_engine_t","boundary","zmq::ws_engine_t::select_protocol","predicate non-void-command"
+"ws_engine_t","boundary","zmq::ws_engine_t::handshake","predicate non-void-command"
+"ws_engine_t","boundary","zmq::ws_engine_t::server_handshake","predicate non-void-command"
+"ws_engine_t","boundary","zmq::ws_engine_t::client_handshake","predicate non-void-command"
+"ws_engine_t","boundary","zmq::ws_engine_t::decode_and_push","property non-void-command collaborator"
+"ws_engine_t","boundary","zmq::ws_engine_t::produce_close_message","property controller"
+"ws_engine_t","boundary","zmq::ws_engine_t::produce_no_msg_after_close","wrapper stateless"
+"ws_engine_t","boundary","zmq::ws_engine_t::close_connection_after_close","property non-void-command collaborator"
+"ws_engine_t","boundary","zmq::ws_engine_t::produce_ping_message","property set collaborator"
+"ws_engine_t","boundary","zmq::ws_engine_t::produce_pong_message","controller stateless"
+"ws_engine_t","boundary","zmq::ws_engine_t::process_command_message","property non-void-command collaborator"
+"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::vmci_address_t","constructor"
+"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::vmci_address_t","constructor"
+"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::vmci_address_t","constructor"
+"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::resolve","property non-void-command"
+"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::to_string","property collaborator"
+"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::addr","property collaborator"
+"vmci_address_t","entity data-provider boundary","zmq::vmci_address_t::addrlen","collaborator incidental"
+"blob_t","unclassified","blob_t","constructor"
+"blob_t","unclassified","blob_t","constructor"
+"blob_t","unclassified","blob_t","constructor"
+"blob_t","unclassified","blob_t","constructor"
+"blob_t","unclassified","size","get"
+"blob_t","unclassified","data","get"
+"blob_t","unclassified","data","get"
+"blob_t","unclassified","operator<","predicate wrapper"
+"blob_t","unclassified","set_deep_copy","command"
+"blob_t","unclassified","set","command"
+"blob_t","unclassified","clear","command"
+"blob_t","unclassified","~blob_t","destructor"
+"blob_t","unclassified","blob_t","copy-constructor"
+"blob_t","unclassified","operator=","get non-void-command"
+"blob_t","unclassified","blob_t","copy-constructor"
+"blob_t","unclassified","operator=","get non-void-command"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::pgm_socket_t","constructor"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::init_address","wrapper stateless"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::init","property non-void-command"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::~pgm_socket_t","destructor"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::get_receiver_fds","wrapper"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::get_sender_fds","wrapper"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::send","property set"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::get_rx_timeout","property wrapper"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::get_tx_timeout","property wrapper"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::get_max_tsdu_size","property wrapper"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::receive","property non-void-command collaborator"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::process_upstream","set"
+"pgm_socket_t","entity boundary","zmq::pgm_socket_t::compute_sqns","property wrapper"
+"array_t","commander","size","property non-void-command"
+"array_t","commander","empty","predicate non-void-command"
+"array_t","commander","operator[]","get collaborator"
+"array_t","commander","push_back","command collaborator"
+"array_t","commander","erase","command collaborator"
+"array_t","commander","erase","command"
+"array_t","commander","swap","command"
+"array_t","commander","clear","command"
+"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::socks_basic_auth_request_encoder_t","constructor"
+"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::encode","command collaborator"
+"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::output","property set collaborator"
+"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::has_pending_data","predicate"
+"socks_basic_auth_request_encoder_t","unclassified","zmq::socks_basic_auth_request_encoder_t::reset","command"

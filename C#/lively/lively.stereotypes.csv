@@ -1,1371 +1,1006 @@
 Class Name,Class Stereotype,Method Name,Method Stereotype
-"WndProcMsgWindow","small-class","WndProcMsgWindow","constructor",
-"WndProcMsgWindow","small-class","OnSourceInitialized","command collaborator",
-"WndProcMsgWindow","small-class","WndProc","property non-void-command",
-"RawInputMsgWindow","entity boundary","RawInputMsgWindow","constructor",
-"RawInputMsgWindow","entity boundary","UpdateDesktopHandles","command collaborator",
-"RawInputMsgWindow","entity boundary","Window_SourceInitialized","command collaborator",
-"RawInputMsgWindow","entity boundary","Window_Closing","wrapper",
-"RawInputMsgWindow","entity boundary","Hook","property non-void-command collaborator",
-"RawInputMsgWindow","entity boundary","ForwardMessageKeyboard","command",
-"RawInputMsgWindow","entity boundary","ForwardMessageMouse","command",
-"RawInputMsgWindow","entity boundary","CalculateMousePos","property non-void-command factory collaborator",
-"RawInputMsgWindow","entity boundary","IsDesktop","predicate wrapper",
-"MouseClickRawArgs","empty","MouseClickRawArgs","constructor",
-"WallpaperPreview","entity commander boundary","WallpaperPreview","constructor",
-"WallpaperPreview","entity commander boundary","LoadWallpaperAsync","non-void-command collaborator",
-"WallpaperPreview","entity commander boundary","Window_Loaded","command collaborator",
-"WallpaperPreview","entity commander boundary","Window_SizeChanged","wrapper",
-"WallpaperPreview","entity commander boundary","Window_Closing","void-accessor command collaborator",
-"TransparentWindow","empty","TransparentWindow","constructor",
-"SplashWindow","entity boundary small-class","SplashWindow","constructor",
-"SplashWindow","entity boundary small-class","SplashWindow","constructor",
-"SplashWindow","entity boundary small-class","Window_Closing","void-accessor command collaborator",
-"SplashWindow","entity boundary small-class","Window_Loaded","command collaborator",
-"LibraryPreview","entity commander boundary","LibraryPreview","constructor",
-"LibraryPreview","entity commander boundary","Window_Closing","void-accessor wrapper",
-"LibraryPreview","entity commander boundary","Window_Loaded","command collaborator",
-"LibraryPreview","entity commander boundary","CaptureLoop","set collaborator",
-"LibraryPreview","entity commander boundary","CapturePreview","set collaborator",
-"LibraryPreview","entity commander boundary","Exit","command",
-"LibraryPreview","entity commander boundary","StartCapture","command",
-"LibraryPreview","entity commander boundary","StartThumbnailCaptureLoop","command",
-"LibraryPreview","entity commander boundary","OnSourceInitialized","command collaborator",
-"LibraryPreview","entity commander boundary","WndProc","property wrapper",
-"DwmThumbnailWindow","commander boundary","DwmThumbnailWindow","constructor",
-"DwmThumbnailWindow","commander boundary","Window_Loaded","command collaborator",
-"DwmThumbnailWindow","commander boundary","Window_Closed","set collaborator",
-"DwmThumbnailWindow","commander boundary","Window_PreviewMouseMove","wrapper",
-"DwmThumbnailWindow","commander boundary","Window_PreviewMouseDown","wrapper",
-"DwmThumbnailWindow","commander boundary","Window_PreviewKeyDown","wrapper",
-"DwmThumbnailWindow","commander boundary","Window_PreviewTouchDown","wrapper",
-"DwmThumbnailWindow","commander boundary","Window_PreviewMouseWheel","wrapper",
-"DiagnosticMenu","small-class","DiagnosticMenu","constructor",
-"DiagnosticMenu","small-class","Generate_Report_Click","controller stateless",
-"DiagnosticMenu","small-class","Open_Debug_View_Click","command collaborator",
-"BlankWindow","empty","BlankWindow","constructor",
-"ToolStripRendererDark","degenerate","ToolStripRendererDark","constructor",
-"ToolStripRendererDark","degenerate","OnRenderArrow","controller stateless",
-"ToolStripRendererDark","degenerate","OnRenderItemCheck","controller stateless",
-"ToolStripRendererDark","degenerate","OnRenderMenuItemBackground","void-accessor command collaborator",
-"WallpaperPlaylistService","degenerate small-class","WallpaperPlaylistService","constructor",
-"WallpaperPlaylistService","degenerate small-class","IdleCheckTimer","empty",
-"RunnerService","commander","RunnerService","constructor",
-"RunnerService","commander","ShowUI","command",
-"RunnerService","commander","ShowAppUpdatePage","command",
-"RunnerService","commander","ShowCustomisWallpaperePanel","command collaborator",
-"RunnerService","commander","RestartUI","command",
-"RunnerService","commander","CloseUI","command",
-"RunnerService","commander","SaveRectUI","wrapper",
-"RunnerService","commander","ShowUI","command",
-"RunnerService","commander","Proc_OutputDataReceived","void-accessor command collaborator",
-"RunnerService","commander","Proc_UI_Exited","command collaborator",
-"RunnerService","commander","SetWindowRect","void-accessor command collaborator",
-"RunnerService","commander","IsOnScreen","predicate non-void-command collaborator",
-"RunnerService","commander","Dispose","set",
-"RunnerService","commander","Dispose","command",
-"WinDesktopCoreServer","boundary","WinDesktopCoreServer","constructor",
-"WinDesktopCoreServer","boundary","GetCoreStats","collaborator incidental",
-"WinDesktopCoreServer","boundary","SetWallpaper","property non-void-command collaborator",
-"WinDesktopCoreServer","boundary","GetWallpapers","controller",
-"WinDesktopCoreServer","boundary","PreviewWallpaper","property non-void-command collaborator",
-"WinDesktopCoreServer","boundary","CloseAllWallpapers","property non-void-command collaborator",
-"WinDesktopCoreServer","boundary","CloseWallpaperMonitor","property non-void-command collaborator",
-"WinDesktopCoreServer","boundary","CloseWallpaperLibrary","property non-void-command collaborator",
-"WinDesktopCoreServer","boundary","CloseWallpaperCategory","property non-void-command collaborator",
-"WinDesktopCoreServer","boundary","SubscribeWallpaperChanged","set collaborator",
-"WinDesktopCoreServer","boundary","SubscribeUpdateWallpaper","set collaborator",
-"WinDesktopCoreServer","boundary","SubscribeWallpaperError","set collaborator",
-"WinDesktopCoreServer","boundary","SendMessageWallpaper","property non-void-command collaborator",
-"WinDesktopCoreServer","boundary","TakeScreenshot","property non-void-command collaborator",
-"WallpaperPlaylistServer","boundary degenerate small-class","WallpaperPlaylistServer","constructor",
-"WallpaperPlaylistServer","boundary degenerate small-class","Start","wrapper stateless",
-"WallpaperPlaylistServer","boundary degenerate small-class","Stop","wrapper stateless",
-"DisplayManagerServer","unclassified","DisplayManagerServer","constructor",
-"DisplayManagerServer","unclassified","GetScreens","property controller",
-"DisplayManagerServer","unclassified","GetVirtualScreenBounds","property wrapper",
-"DisplayManagerServer","unclassified","SubscribeDisplayChanged","set collaborator",
-"LivelyPropertyFactory","pure-controller degenerate small-class","CreateLivelyPropertyFolder","controller stateless",
-"WebWebView2","commander","WebWebView2","constructor",
-"WebWebView2","commander","Close","command",
-"WebWebView2","commander","Pause","command",
-"WebWebView2","commander","Play","command",
-"WebWebView2","commander","SendMessage","command",
-"WebWebView2","commander","SendMessage","command collaborator",
-"WebWebView2","commander","SetVolume","empty",
-"WebWebView2","commander","SetMute","empty",
-"WebWebView2","commander","ShowAsync","non-void-command collaborator",
-"WebWebView2","commander","Proc_Exited","command collaborator",
-"WebWebView2","commander","Proc_OutputDataReceived","void-accessor command collaborator",
-"WebWebView2","commander","Stop","command",
-"WebWebView2","commander","Terminate","command",
-"WebWebView2","commander","SetPlaybackPos","command collaborator",
-"WebWebView2","commander","ScreenCapture","empty",
-"WebCefSharpProcess","commander","WebCefSharpProcess","constructor",
-"WebCefSharpProcess","commander","Pause","command",
-"WebCefSharpProcess","commander","Play","command",
-"WebCefSharpProcess","commander","ShowAsync","non-void-command collaborator",
-"WebCefSharpProcess","commander","Proc_Exited","command collaborator",
-"WebCefSharpProcess","commander","Proc_OutputDataReceived","void-accessor command collaborator",
-"WebCefSharpProcess","commander","Stop","command",
-"WebCefSharpProcess","commander","SendMessage","command",
-"WebCefSharpProcess","commander","SendMessage","command collaborator",
-"WebCefSharpProcess","commander","Terminate","command",
-"WebCefSharpProcess","commander","Close","command",
-"WebCefSharpProcess","commander","SetVolume","incidental",
-"WebCefSharpProcess","commander","SetMute","empty",
-"WebCefSharpProcess","commander","SetPlaybackPos","command collaborator",
-"WebCefSharpProcess","commander","ScreenCapture","set collaborator",
-"VideoWmfProcess","commander","VideoWmfProcess","constructor",
-"VideoWmfProcess","commander","Pause","command",
-"VideoWmfProcess","commander","Play","command",
-"VideoWmfProcess","commander","ShowAsync","non-void-command collaborator",
-"VideoWmfProcess","commander","Proc_Exited","command collaborator",
-"VideoWmfProcess","commander","Proc_OutputDataReceived","void-accessor command collaborator",
-"VideoWmfProcess","commander","Stop","command",
-"VideoWmfProcess","commander","SendMessage","command",
-"VideoWmfProcess","commander","SendMessage","command collaborator",
-"VideoWmfProcess","commander","Terminate","command",
-"VideoWmfProcess","commander","Close","command",
-"VideoWmfProcess","commander","SetVolume","incidental",
-"VideoWmfProcess","commander","SetMute","empty",
-"VideoWmfProcess","commander","SetPlaybackPos","empty",
-"VideoWmfProcess","commander","ScreenCapture","wrapper",
-"VideoVlcPlayer","commander degenerate","VideoVlcPlayer","constructor",
-"VideoVlcPlayer","commander degenerate","Close","command",
-"VideoVlcPlayer","commander degenerate","GetWallpaperType","property collaborator",
-"VideoVlcPlayer","commander degenerate","Pause","empty",
-"VideoVlcPlayer","commander degenerate","Play","empty",
-"VideoVlcPlayer","commander degenerate","SetPlaybackPos","empty",
-"VideoVlcPlayer","commander degenerate","SetVolume","empty",
-"VideoVlcPlayer","commander degenerate","SetMute","empty",
-"VideoVlcPlayer","commander degenerate","ShowAsync","non-void-command collaborator",
-"VideoVlcPlayer","commander degenerate","Proc_Exited","set collaborator",
-"VideoVlcPlayer","commander degenerate","Stop","empty",
-"VideoVlcPlayer","commander degenerate","Terminate","command",
-"VideoVlcPlayer","commander degenerate","ScreenCapture","collaborator stateless",
-"VideoVlcPlayer","commander degenerate","SendMessage","empty",
-"ExtPrograms","commander","ExtPrograms","constructor",
-"ExtPrograms","commander","Close","command",
-"ExtPrograms","commander","Pause","unclassified",
-"ExtPrograms","commander","Play","unclassified",
-"ExtPrograms","commander","Stop","command",
-"ExtPrograms","commander","ShowAsync","non-void-command collaborator",
-"ExtPrograms","commander","Proc_Exited","set collaborator",
-"ExtPrograms","commander","Terminate","command",
-"ExtPrograms","commander","SetVolume","wrapper",
-"ExtPrograms","commander","SetMute","empty",
-"ExtPrograms","commander","SetPlaybackPos","empty",
-"ExtPrograms","commander","ScreenCapture","collaborator stateless",
-"ExtPrograms","commander","SendMessage","empty",
-"DwmThumbnailPlayer","commander degenerate","DwmThumbnailPlayer","constructor",
-"DwmThumbnailPlayer","commander degenerate","ShowAsync","non-void-command collaborator",
-"DwmThumbnailPlayer","commander degenerate","Window_Loaded","command collaborator",
-"DwmThumbnailPlayer","commander degenerate","Window_Closed","set collaborator",
-"DwmThumbnailPlayer","commander degenerate","Play","empty",
-"DwmThumbnailPlayer","commander degenerate","Pause","empty",
-"DwmThumbnailPlayer","commander degenerate","Stop","empty",
-"DwmThumbnailPlayer","commander degenerate","Close","command",
-"DwmThumbnailPlayer","commander degenerate","Terminate","command",
-"DwmThumbnailPlayer","commander degenerate","ScreenCapture","collaborator stateless",
-"DwmThumbnailPlayer","commander degenerate","SendMessage","empty",
-"DwmThumbnailPlayer","commander degenerate","SetMute","empty",
-"DwmThumbnailPlayer","commander degenerate","SetPlaybackPos","empty",
-"DwmThumbnailPlayer","commander degenerate","SetVolume","empty",
-"UserSettingsServer","boundary","UserSettingsServer","constructor",
-"UserSettingsServer","boundary","GetAppRulesSettings","property wrapper",
-"UserSettingsServer","boundary","SetAppRulesSettings","property non-void-command collaborator",
-"UserSettingsServer","boundary","SetSettings","property non-void-command collaborator",
-"UserSettingsServer","boundary","GetSettings","property controller",
-"GalleryModel","empty","GalleryModel","constructor",
-"GalleryModel","empty","GalleryModel","constructor",
-"DiskCacheService","commander","DiskCacheService","constructor",
-"DiskCacheService","commander","InitializeInternal","command",
-"DiskCacheService","commander","GetFileFromCacheAsync","property non-void-command collaborator",
-"DiskCacheService","commander","RemoveExpired","command",
-"DiskCacheService","commander","InternalRemoveExpired","controller",
-"ScreensaverService","commander boundary","ScreensaverService","constructor",
-"ScreensaverService","commander boundary","StartAsync","non-void-command collaborator",
-"ScreensaverService","commander boundary","Stop","command",
-"ScreensaverService","commander boundary","StartIdleTimer","command",
-"ScreensaverService","commander boundary","StopIdleTimer","command",
-"ScreensaverService","commander boundary","DisplayManager_DisplayUpdated","command collaborator",
-"ScreensaverService","commander boundary","ShowScreensavers","non-void-command collaborator",
-"ScreensaverService","commander boundary","CloseScreensavers","command",
-"ScreensaverService","commander boundary","ShowWindowAsScreensaver","non-void-command collaborator",
-"ScreensaverService","commander boundary","ShowPreviewWindowAsScreensaver","non-void-command collaborator",
-"ScreensaverService","commander boundary","ShowPreviewWindowAsScreensaver","non-void-command collaborator",
-"ScreensaverService","commander boundary","CloseWindowAsScreensaver","command",
-"ScreensaverService","commander boundary","ShowBlankWindowAsScreensaver","void-accessor command collaborator",
-"ScreensaverService","commander boundary","ShowBlankWindowAsScreensaver","command collaborator",
-"ScreensaverService","commander boundary","CloseBlankWindowAsScreensaver","command",
-"ScreensaverService","commander boundary","ShowRunningWallpaperAsScreensaver","command collaborator",
-"ScreensaverService","commander boundary","CloseRunningWallpaperAsScreensaver","command collaborator",
-"ScreensaverService","commander boundary","ShowDwmThumbnailAsScreensaver","command",
-"ScreensaverService","commander boundary","CloseDwmThumbnailAsScreensaver","command",
-"ScreensaverService","commander boundary","IdleCheckTimer","command collaborator",
-"ScreensaverService","commander boundary","CreatePreview","command collaborator",
-"ScreensaverService","commander boundary","StartInputListener","command",
-"ScreensaverService","commander boundary","StopInputListener","command",
-"WinDesktopCoreClient","commander boundary","WinDesktopCoreClient","constructor",
-"WinDesktopCoreClient","commander boundary","SetWallpaper","non-void-command collaborator",
-"WinDesktopCoreClient","commander boundary","SetWallpaper","non-void-command collaborator",
-"WinDesktopCoreClient","commander boundary","GetWallpapers","non-void-command factory collaborator",
-"WinDesktopCoreClient","commander boundary","PreviewWallpaper","collaborator incidental",
-"WinDesktopCoreClient","commander boundary","CloseAllWallpapers","collaborator incidental",
-"WinDesktopCoreClient","commander boundary","CloseWallpaper","collaborator incidental",
-"WinDesktopCoreClient","commander boundary","CloseWallpaper","collaborator incidental",
-"WinDesktopCoreClient","commander boundary","CloseWallpaper","collaborator incidental",
-"WinDesktopCoreClient","commander boundary","SendMessageWallpaper","collaborator incidental",
-"WinDesktopCoreClient","commander boundary","SendMessageWallpaper","collaborator incidental",
-"WinDesktopCoreClient","commander boundary","TakeScreenshot","collaborator incidental",
-"WinDesktopCoreClient","commander boundary","SubscribeWallpaperChangedStream","non-void-command collaborator",
-"WinDesktopCoreClient","commander boundary","SubscribeWallpaperErrorStream","non-void-command collaborator",
-"WinDesktopCoreClient","commander boundary","SubscribeWallpaperUpdatedStream","non-void-command collaborator",
-"WinDesktopCoreClient","commander boundary","Dispose","set",
-"WinDesktopCoreClient","commander boundary","Dispose","command",
-"MultiDownloadService","entity boundary","MultiDownloadService","constructor",
-"MultiDownloadService","entity boundary","DownloadFile","non-void-command collaborator",
-"MultiDownloadService","entity boundary","Downloader_DownloadStarted","collaborator incidental",
-"MultiDownloadService","entity boundary","OnDownloadProgressChanged","void-accessor set collaborator",
-"MultiDownloadService","entity boundary","OnDownloadFileCompleted","wrapper",
-"MultiDownloadService","entity boundary","Cancel","wrapper",
-"ButtonModel","empty","ButtonModel","constructor",
-"LivelyControlTemplateSelector","data-provider boundary small-class","SelectTemplateCore","property wrapper",
-"AppMusicExclusionRuleModel","empty","AppMusicExclusionRuleModel","constructor",
-"FindMoreAppsViewModel","entity boundary small-class","FindMoreAppsViewModel","constructor",
-"FindMoreAppsViewModel","entity boundary small-class","BrowseApp","non-void-command collaborator",
-"FindMoreAppsViewModel","entity boundary small-class","IsExcluded","predicate non-void-command collaborator",
-"DisplayManagerClient","commander boundary","DisplayManagerClient","constructor",
-"DisplayManagerClient","commander boundary","GetScreens","non-void-command factory collaborator",
-"DisplayManagerClient","commander boundary","GetVirtualScreenBounds","non-void-command factory collaborator",
-"DisplayManagerClient","commander boundary","SubscribeDisplayChangedStream","non-void-command collaborator",
-"DisplayManagerClient","commander boundary","Dispose","set",
-"DisplayManagerClient","commander boundary","Dispose","command",
-"SearchQuery","empty","SearchQuery","constructor",
-"ApplicationsFactory","factory controller small-class","CreateApp","property factory controller",
-"ApplicationsFactory","factory controller small-class","CreateApp","factory wrapper",
-"App","boundary degenerate","Application_Startup","void-accessor command collaborator",
-"App","boundary degenerate","SetupUnhandledExceptionLogging","command",
-"App","boundary degenerate","LogUnhandledException","incidental",
-"App","boundary degenerate","Application_Startup","void-accessor command collaborator",
-"App","boundary degenerate","SetupUnhandledExceptionLogging","command",
-"App","boundary degenerate","LogUnhandledException","incidental",
-"App","boundary degenerate","App","constructor",
-"App","boundary degenerate","OnLaunched","set collaborator",
-"App","boundary degenerate","ConfigureServices","factory wrapper stateless",
-"App","boundary degenerate","SetAppTheme","collaborator incidental",
-"App","boundary degenerate","SetAppLanguage","wrapper stateless",
-"App","boundary degenerate","SetupUnhandledExceptionLogging","wrapper stateless",
-"App","boundary degenerate","get","property wrapper",
-"App","boundary degenerate","App","constructor",
-"App","boundary degenerate","ConfigureServices","factory wrapper stateless",
-"App","boundary degenerate","ConfigureGrpcServer","factory controller stateless",
-"App","boundary degenerate","get","property wrapper",
-"StringToInfoBarSeverityConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"StringToInfoBarSeverityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"DesktopUtil","empty","DesktopUtil","constructor",
-"ObservableObject","commander small-class","OnPropertyChanged","command",
-"ObservableObject","commander small-class","VerifyPropertyName","wrapper",
-"JsonUserSettingsService","commander boundary degenerate","JsonUserSettingsService","constructor",
-"JsonUserSettingsService","commander boundary degenerate","Save<T>","wrapper",
-"JsonUserSettingsService","commander boundary degenerate","Load<T>","command",
-"JsonUserSettingsService","commander boundary degenerate","IsVideoPlayerAvailable","wrapper stateless",
-"JsonUserSettingsService","commander boundary degenerate","IsGifPlayerAvailable","wrapper stateless",
-"JsonUserSettingsService","commander boundary degenerate","IsWebPlayerAvailable","wrapper stateless",
-"HelpView","empty","HelpView","constructor",
-"SearchQueryBuilder","unclassified","SearchQueryBuilder","constructor",
-"SearchQueryBuilder","unclassified","SortBy","get set collaborator",
-"SearchQueryBuilder","unclassified","WithTags","get non-void-command",
-"SearchQueryBuilder","unclassified","SetPage","get set",
-"SearchQueryBuilder","unclassified","SetLimit","get set",
-"SearchQueryBuilder","unclassified","WithSearchQuery","get set",
-"SearchQueryBuilder","unclassified","Build","factory collaborator",
-"WallpaperLibraryFactory","degenerate","GetMetadata","wrapper stateless",
-"WallpaperLibraryFactory","degenerate","CreateFromDirectory","non-void-command factory collaborator",
-"WallpaperLibraryFactory","degenerate","CreateFromMetadata","factory collaborator incidental",
-"ApplicationRulesModel","empty","ApplicationRulesModel","constructor",
-"StringTruncateConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"StringTruncateConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"DisplaySelector","entity boundary","DisplaySelector","constructor",
-"DisplaySelector","entity boundary","UpdateCanvas","wrapper stateless",
-"DisplaySelector","entity boundary","Displays_CollectionChanged","command collaborator",
-"DisplaySelector","entity boundary","UpdateDisplaySelection","collaborator incidental",
-"DisplaySelector","entity boundary","Grid_PointerPressed","collaborator incidental",
-"DisplaySelector","entity boundary","Grid_PointerEntered","collaborator stateless",
-"DisplaySelector","entity boundary","Grid_PointerExited","collaborator stateless",
-"DisplaySelector","entity boundary","UserControl_SizeChanged","command collaborator",
-"DisplaySelector","entity boundary","UserControl_Loaded","command collaborator",
-"DisplaySelector","entity boundary","UserControl_Unloaded","empty",
-"DisplaySelector","entity boundary","get","property wrapper",
-"DisplaySelector","entity boundary","set","non-void-command collaborator",
-"DisplaySelector","entity boundary","get","property wrapper",
-"DisplaySelector","entity boundary","set","non-void-command collaborator",
-"DisplaySelector","entity boundary","get","predicate wrapper",
-"DisplaySelector","entity boundary","set","wrapper",
-"DisplaySelector","entity boundary","get","property wrapper",
-"DisplaySelector","entity boundary","set","non-void-command collaborator",
-"ReportWallpaperViewModel","empty","ReportWallpaperViewModel","constructor",
-"Playback","commander boundary","Playback","constructor",
-"Playback","commander boundary","UpdateDesktopHandles","command collaborator",
-"Playback","commander boundary","Initialize","command",
-"Playback","commander boundary","InitializeTimer","command",
-"Playback","commander boundary","SystemEvents_SessionSwitch","command collaborator",
-"Playback","commander boundary","Start","command",
-"Playback","commander boundary","Stop","command",
-"Playback","commander boundary","ProcessMonitor","command collaborator",
-"Playback","commander boundary","GameModeAppMonitor","command",
-"Playback","commander boundary","UIAutomationMonitor","stateless",
-"Playback","commander boundary","ForegroundAppMonitor","command collaborator",
-"Playback","commander boundary","GetClassName","controller stateless",
-"Playback","commander boundary","IsWhitelistedClass","predicate non-void-command collaborator",
-"Playback","commander boundary","PauseWallpapers","controller",
-"Playback","commander boundary","PlayWallpapers","controller",
-"Playback","commander boundary","PauseWallpaper","controller",
-"Playback","commander boundary","PlayWallpaper","controller",
-"Playback","commander boundary","SetWallpaperVolume","controller",
-"Playback","commander boundary","SetWallpaperVolume","controller",
-"Playback","commander boundary","IsLivelyPlugin","predicate non-void-command",
-"Playback","commander boundary","IsZoomedCustom","predicate non-void-command collaborator",
-"Playback","commander boundary","MapWindowToMonitor","property non-void-command collaborator",
-"Playback","commander boundary","IsZoomedSpan","predicate collaborator",
-"Playback","commander boundary","IsSystemLocked","wrapper stateless",
-"Playback","commander boundary","IsDesktop","predicate wrapper",
-"Playback","commander boundary","Dispose","set",
-"Playback","commander boundary","Dispose","command",
-"Playback","commander boundary","set","set collaborator",
-"ColorPickerModel","empty","ColorPickerModel","constructor",
-"LibraryModel","boundary","set","wrapper",
-"LibraryModel","boundary","set","wrapper",
-"LibraryModel","boundary","set","wrapper",
-"AppUpdaterClient","commander boundary","AppUpdaterClient","constructor",
-"AppUpdaterClient","commander boundary","CheckUpdate","non-void-command collaborator",
-"AppUpdaterClient","commander boundary","StartUpdate","non-void-command collaborator",
-"AppUpdaterClient","commander boundary","UpdateStatusRefresh","non-void-command collaborator",
-"AppUpdaterClient","commander boundary","SubscribeUpdateCheckedStream","non-void-command collaborator",
-"AppUpdaterClient","commander boundary","Dispose","set",
-"AppUpdaterClient","commander boundary","Dispose","command",
-"AddWallpaperCreateView","empty","AddWallpaperCreateView","copy-constructor",
-"MiDaS","commander","MiDaS","constructor",
-"MiDaS","commander","LoadModel","command",
-"MiDaS","commander","Run","property non-void-command factory collaborator",
-"MiDaS","commander","Dispose","set",
-"MiDaS","commander","Dispose","command",
-"LivelyReloadCmd","empty","LivelyReloadCmd","constructor",
-"LivelyVolumeCmd","empty","LivelyVolumeCmd","constructor",
-"LivelyTextBox","empty","LivelyTextBox","constructor",
-"LivelyMessageScreenshot","empty","LivelyMessageScreenshot","constructor",
-"GalleryLoginView","empty","GalleryLoginView","constructor",
-"TranslucentTBService","commander boundary","TranslucentTBService","constructor",
-"TranslucentTBService","commander boundary","Start","command collaborator",
-"TranslucentTBService","commander boundary","Stop","command",
-"TranslucentTBService","commander boundary","SetTheme","command collaborator",
-"TranslucentTBService","commander boundary","SetAccentColor","set collaborator",
-"TranslucentTBService","commander boundary","SetTaskbarTransparent","command collaborator",
-"TranslucentTBService","commander boundary","Dispose","set",
-"TranslucentTBService","commander boundary","Dispose","command",
-"TranslucentTBService","commander boundary","GetTaskbars","controller stateless",
-"TranslucentTBService","commander boundary","ResetTaskbar","command collaborator",
-"TranslucentTBService","commander boundary","CheckIncompatiblePrograms","property non-void-command collaborator",
-"TranslucentTBService","commander boundary","GetAverageColor","wrapper stateless",
-"AddWallpaperDataViewModel","commander","AddWallpaperDataViewModel","constructor",
-"AddWallpaperDataViewModel","commander","OperationCancelled","controller",
-"AddWallpaperDataViewModel","commander","OperationProceed","wrapper",
-"AddWallpaperDataViewModel","commander","set","non-void-command",
-"AddWallpaperDataViewModel","commander","set","non-void-command",
-"AddWallpaperDataViewModel","commander","set","non-void-command",
-"AddWallpaperDataViewModel","commander","set","set",
-"WallpaperLayoutView","boundary small-class","WallpaperLayoutView","constructor",
-"WallpaperLayoutView","boundary small-class","OnNavigatedTo","collaborator",
-"CheckboxModel","empty","CheckboxModel","constructor",
-"AddWallpaperView","commander boundary degenerate","AddWallpaperView","copy-constructor",
-"AddWallpaperView","commander boundary degenerate","Page_Drop","command collaborator",
-"AddWallpaperView","commander boundary degenerate","Page_DragOver","collaborator incidental",
-"AddWallpaperView","commander boundary degenerate","Page_DragLeave","collaborator incidental",
-"GithubUpdaterService","unclassified","GithubUpdaterService","constructor",
-"GithubUpdaterService","unclassified","Start","command",
-"GithubUpdaterService","unclassified","Stop","command",
-"GithubUpdaterService","unclassified","RetryTimer_Elapsed","command collaborator",
-"GithubUpdaterService","unclassified","CheckUpdate","get property non-void-command collaborator",
-"FolderDropdown","entity boundary","FolderDropdown","constructor",
-"FolderDropdown","entity boundary","InitializeControl","command collaborator",
-"FolderDropdown","entity boundary","Delete_Button_Click","command collaborator",
-"FolderDropdown","entity boundary","OpenFile","command collaborator",
-"FolderDropdown","entity boundary","Flyout_Opened","command collaborator",
-"FolderDropdown","entity boundary","CreateModel","property non-void-command factory collaborator",
-"FolderDropdown","entity boundary","GetThumbnailTempCache","property wrapper",
-"FolderDropdown","entity boundary","DeleteThumbnailTempCache","wrapper",
-"FolderDropdown","entity boundary","get","property wrapper",
-"FolderDropdown","entity boundary","set","wrapper",
-"FolderDropdown","entity boundary","get","property wrapper",
-"FolderDropdown","entity boundary","set","wrapper",
-"FolderDropdown","entity boundary","get","property wrapper",
-"FolderDropdown","entity boundary","set","wrapper",
-"FolderDropdown","entity boundary","get","property wrapper",
-"FolderDropdown","entity boundary","set","wrapper",
-"FolderDropdown","entity boundary","get","property wrapper",
-"FolderDropdown","entity boundary","set","wrapper",
-"FolderDropdown","entity boundary","get","property wrapper",
-"FolderDropdown","entity boundary","set","wrapper",
-"FolderDropdown","entity boundary","get","property wrapper",
-"FolderDropdown","entity boundary","set","wrapper",
-"FolderDropdown","entity boundary","get","property wrapper",
-"FolderDropdown","entity boundary","set","wrapper",
-"CounterHardwareUsageService","commander","CounterHardwareUsageService","constructor",
-"CounterHardwareUsageService","commander","Start","set",
-"CounterHardwareUsageService","commander","Stop","wrapper",
-"CounterHardwareUsageService","commander","InitializePerfCounters","command",
-"CounterHardwareUsageService","commander","HWMonitorLoop","command",
-"SimpleDownloadService","commander boundary small-class","SimpleDownloadService","constructor",
-"SimpleDownloadService","commander boundary small-class","DownloadFile","non-void-command collaborator",
-"ScalerDropdownModel","empty","ScalerDropdownModel","constructor",
-"IpcMessage","empty","IpcMessage","constructor",
-"BooleanToVisibilityConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"BooleanToVisibilityConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"LivelyCheckbox","empty","LivelyCheckbox","constructor",
-"ThemeModel","empty","ThemeModel","constructor",
-"ThemeModel","empty","ThemeModel","copy-constructor",
-"ThemeModel","empty","ThemeModel","constructor",
-"WallpaperLayoutViewModel","commander boundary","WallpaperLayoutViewModel","constructor",
-"WallpaperLayoutViewModel","commander boundary","CloseWallpaper","command",
-"WallpaperLayoutViewModel","commander boundary","CloseWallpaper","void-accessor command collaborator",
-"WallpaperLayoutViewModel","commander boundary","CanCloseWallpaper","predicate wrapper",
-"WallpaperLayoutViewModel","commander boundary","CustomiseWallpaper","command",
-"WallpaperLayoutViewModel","commander boundary","CustomiseWallpaper","command collaborator",
-"WallpaperLayoutViewModel","commander boundary","CustomiseWallpaperPageOnClosed","set",
-"WallpaperLayoutViewModel","commander boundary","OnWindowClosing","set",
-"WallpaperLayoutViewModel","commander boundary","UpdateLayout","command collaborator",
-"WallpaperLayoutViewModel","commander boundary","UpdateSettingsConfigFile","command",
-"WallpaperLayoutViewModel","commander boundary","DesktopCore_WallpaperChanged","command collaborator",
-"WallpaperLayoutViewModel","commander boundary","UpdateWallpaper","non-void-command collaborator",
-"WallpaperLayoutViewModel","commander boundary","set","non-void-command collaborator",
-"WallpaperLayoutViewModel","commander boundary","set","non-void-command collaborator",
-"WallpaperLayoutViewModel","commander boundary","set","non-void-command",
-"ColorPickerButton","entity boundary","ColorPickerButton","constructor",
-"ColorPickerButton","entity boundary","OpenEyeDropper","command collaborator",
-"ColorPickerButton","entity boundary","Flyout_Opened","command collaborator",
-"ColorPickerButton","entity boundary","get","property wrapper",
-"ColorPickerButton","entity boundary","set","wrapper",
-"ColorPickerButton","entity boundary","get","property wrapper",
-"ColorPickerButton","entity boundary","set","wrapper",
-"ColorPickerButton","entity boundary","get","property wrapper",
-"ColorPickerButton","entity boundary","set","wrapper",
-"ToolStripRendererLight","degenerate","ToolStripRendererLight","constructor",
-"ToolStripRendererLight","degenerate","OnRenderArrow","controller stateless",
-"ToolStripRendererLight","degenerate","OnRenderItemCheck","controller stateless",
-"ToolStripRendererLight","degenerate","OnRenderMenuItemBackground","void-accessor command collaborator",
-"WebClientDownloadService","entity boundary","DownloadFile","property non-void-command collaborator",
-"WebClientDownloadService","entity boundary","Client_DownloadProgressChanged","void-accessor set collaborator",
-"WebClientDownloadService","entity boundary","Client_DownloadFileCompleted","wrapper",
-"WebClientDownloadService","entity boundary","Cancel","command",
-"LivelyDropdownScaler","empty","LivelyDropdownScaler","constructor",
-"GalleryFeaturedView","empty","GalleryFeaturedView","constructor",
-"MouseRawArgs","empty","MouseRawArgs","constructor",
-"RestoreWallpaperViewModel","commander boundary small-class","RestoreWallpaperViewModel","constructor",
-"RestoreWallpaperViewModel","commander boundary small-class","PopulateWallpapers","non-void-command collaborator",
-"LivelySuspendCmd","empty","LivelySuspendCmd","constructor",
-"LivelyResumeCmd","empty","LivelyResumeCmd","constructor",
-"LanguagesModel","empty","LanguagesModel","constructor",
-"ApiException","data-provider boundary small-class","ApiException","constructor",
-"ApiException","data-provider boundary small-class","ApiException","constructor",
-"ApiException","data-provider boundary small-class","ApiException","constructor",
-"ApiException","data-provider boundary small-class","ApiException","constructor",
-"ApiException","data-provider boundary small-class","ApiException","constructor",
-"ApiException","data-provider boundary small-class","ToString","property wrapper",
-"LivelyMessageWallpaperLoaded","empty","LivelyMessageWallpaperLoaded","constructor",
-"LivelySlider","empty","LivelySlider","constructor",
-"ControlPanelViewModel","commander boundary","ControlPanelViewModel","constructor",
-"ControlPanelViewModel","commander boundary","NavigateBackWallpaper","incidental",
-"ControlPanelViewModel","commander boundary","ScreensaverVm_PropertyChanged","wrapper",
-"ControlPanelViewModel","commander boundary","OnWindowClosing","command collaborator",
-"ControlPanelViewModel","commander boundary","WallpaperVm_NavigatePage","wrapper",
-"ApplicationsRulesFactory","factory degenerate small-class","CreateAppPauseRule","factory wrapper stateless",
-"ApplicationsRulesFactory","factory degenerate small-class","CreateAppMusicExclusionRule","factory wrapper stateless",
-"ControlPanelView","small-class","ControlPanelView","copy-constructor",
-"ControlPanelView","small-class","NavView_ItemInvoked","controller stateless",
-"ControlPanelView","small-class","NavigatePage","command collaborator",
-"LivelyMessageHwnd","empty","LivelyMessageHwnd","constructor",
-"CommandsClient","entity commander boundary","CommandsClient","constructor",
-"CommandsClient","entity commander boundary","ShowUI","non-void-command collaborator",
-"CommandsClient","entity commander boundary","CloseUI","non-void-command collaborator",
-"CommandsClient","entity commander boundary","RestartUI","non-void-command collaborator",
-"CommandsClient","entity commander boundary","RestartUI","collaborator incidental",
-"CommandsClient","entity commander boundary","ShowDebugger","non-void-command collaborator",
-"CommandsClient","entity commander boundary","ScreensaverShow","collaborator incidental",
-"CommandsClient","entity commander boundary","ScreensaverConfigure","collaborator incidental",
-"CommandsClient","entity commander boundary","ScreensaverPreview","collaborator incidental",
-"CommandsClient","entity commander boundary","ShutDown","non-void-command collaborator",
-"CommandsClient","entity commander boundary","AutomationCommandAsync","non-void-command collaborator",
-"CommandsClient","entity commander boundary","AutomationCommand","void-accessor command collaborator",
-"CommandsClient","entity commander boundary","SaveRectUI","command",
-"CommandsClient","entity commander boundary","SaveRectUIAsync","non-void-command collaborator",
-"SettingsWallpaperView","small-class","SettingsWallpaperView","constructor",
-"SettingsWallpaperView","small-class","ViewModel_PropertyChanged","command collaborator",
-"SettingsWallpaperView","small-class","ScrollElementIntoView","controller stateless",
-"DwmThumbnailWrapper","commander","DwmThumbnailWrapper","constructor",
-"DwmThumbnailWrapper","commander","Show","wrapper",
-"DwmThumbnailWrapper","commander","TryShow","predicate non-void-command",
-"DwmThumbnailWrapper","commander","Update","wrapper",
-"DwmThumbnailWrapper","commander","Destroy","set",
-"DwmThumbnailWrapper","commander","Dispose","set",
-"DwmThumbnailWrapper","commander","Dispose","command",
-"WinDesktopCore","empty","WinDesktopCore","constructor",
-"VideoMpvPlayer","commander boundary","VideoMpvPlayer","constructor",
-"VideoMpvPlayer","commander boundary","Close","command",
-"VideoMpvPlayer","commander boundary","Play","set",
-"VideoMpvPlayer","commander boundary","Pause","wrapper stateless",
-"VideoMpvPlayer","commander boundary","Stop","set",
-"VideoMpvPlayer","commander boundary","SetVolume","wrapper stateless",
-"VideoMpvPlayer","commander boundary","SetMute","wrapper stateless",
-"VideoMpvPlayer","commander boundary","SetPlaybackPos","wrapper",
-"VideoMpvPlayer","commander boundary","ScreenCapture","controller",
-"VideoMpvPlayer","commander boundary","SetPlaybackProperties","command collaborator",
-"VideoMpvPlayer","commander boundary","ShowAsync","non-void-command collaborator",
-"VideoMpvPlayer","commander boundary","Proc_OutputDataReceived","void-accessor command collaborator",
-"VideoMpvPlayer","commander boundary","Proc_Exited","command collaborator",
-"VideoMpvPlayer","commander boundary","Terminate","command",
-"VideoMpvPlayer","commander boundary","SendMessage","wrapper",
-"VideoMpvPlayer","commander boundary","SendMessage","command collaborator",
-"VideoMpvPlayer","commander boundary","UpdateScaler","wrapper stateless",
-"VideoMpvPlayer","commander boundary","GetMpvCommand","controller stateless",
-"VideoMpvPlayer","commander boundary","GetMpvCommandStrb","controller stateless",
-"ManageAccountViewModel","commander boundary small-class","ManageAccountViewModel","constructor",
-"ManageAccountViewModel","commander boundary small-class","DeleteAccount","non-void-command collaborator",
-"DepthEstimateWallpaperView","empty","DepthEstimateWallpaperView","copy-constructor",
-"LivelyCloseCmd","empty","LivelyCloseCmd","constructor",
-"NAudioAudioVisualizerService","boundary","NAudioAudioVisualizerService","constructor",
-"NAudioAudioVisualizerService","boundary","CreateWasapiLoopbackCapture","property non-void-command collaborator",
-"NAudioAudioVisualizerService","boundary","ProcessAudioData","void-accessor command collaborator",
-"NAudioAudioVisualizerService","boundary","BothSmooth","property non-void-command",
-"NAudioAudioVisualizerService","boundary","OnDefaultDeviceChanged","command",
-"NAudioAudioVisualizerService","boundary","OnDeviceStateChanged","collaborator incidental",
-"NAudioAudioVisualizerService","boundary","OnDeviceAdded","incidental",
-"NAudioAudioVisualizerService","boundary","OnDeviceRemoved","incidental",
-"NAudioAudioVisualizerService","boundary","OnPropertyValueChanged","collaborator incidental",
-"NAudioAudioVisualizerService","boundary","Dispose","wrapper",
-"LivelySystemNowPlaying","empty","LivelySystemNowPlaying","constructor",
-"Systray","entity commander boundary","Systray","constructor",
-"Systray","entity commander boundary","Visibility","set",
-"Systray","entity commander boundary","ShowBalloonNotification","command",
-"Systray","entity commander boundary","SetTheme","command collaborator",
-"Systray","entity commander boundary","ContextMenuStrip_Opening","command collaborator",
-"Systray","entity commander boundary","Playback_PlaybackStateChanged","set collaborator",
-"Systray","entity commander boundary","DesktopCore_WallpaperChanged","set collaborator",
-"Systray","entity commander boundary","CustomiseWallpaper","command collaborator",
-"Systray","entity commander boundary","SetUpdateMenu","command collaborator",
-"Systray","entity commander boundary","SetRandomWallpapers","non-void-command collaborator",
-"Systray","entity commander boundary","GetRandomWallpaper","property non-void-command collaborator",
-"Systray","entity commander boundary","Dispose","command",
-"Systray","entity commander boundary","Dispose","command",
-"ModelOutput","empty","ModelOutput","constructor",
-"SettingsGeneralView","empty","SettingsGeneralView","constructor",
-"LivelySystemInformation","empty","LivelySystemInformation","constructor",
-"DisplayMonitor","data-provider small-class","DisplayMonitor","constructor",
-"DisplayMonitor","data-provider small-class","DisplayMonitor","constructor",
-"DisplayMonitor","data-provider small-class","Equals","predicate",
-"NpsmNowPlayingService","commander","NpsmNowPlayingService","constructor",
-"NpsmNowPlayingService","commander","Start","set",
-"NpsmNowPlayingService","commander","Stop","set",
-"NpsmNowPlayingService","commander","SessionListChanged","command collaborator",
-"NpsmNowPlayingService","commander","SetupEvents","command",
-"NpsmNowPlayingService","commander","UpdateMedia","command collaborator",
-"Icons","data-provider boundary","Icons","constructor",
-"Icons","data-provider boundary","get","get set collaborator",
-"Icons","data-provider boundary","get","get collaborator",
-"Icons","data-provider boundary","set","set collaborator",
-"Icons","data-provider boundary","get","property wrapper",
-"Icons","data-provider boundary","get","property wrapper",
-"Icons","data-provider boundary","get","property wrapper",
-"Icons","data-provider boundary","get","property wrapper",
-"Icons","data-provider boundary","get","property wrapper",
-"Icons","data-provider boundary","get","property wrapper",
-"IpcMessageConverter","boundary degenerate","CanConvert","collaborator incidental",
-"IpcMessageConverter","boundary degenerate","ReadJson","controller stateless",
-"IpcMessageConverter","boundary degenerate","WriteJson","collaborator stateless",
-"IpcMessageConverter","boundary degenerate","get","incidental",
-"ScreenSaverPreview","empty","ScreenSaverPreview","constructor",
-"GalleryClient","boundary","GalleryClient","constructor",
-"GalleryClient","boundary","InitializeAsync","set collaborator",
-"GalleryClient","boundary","GetMeAsync","wrapper stateless",
-"GalleryClient","boundary","DeleteAccountAsync","property set collaborator",
-"GalleryClient","boundary","RequestCodeAsync","get non-void-command collaborator",
-"GalleryClient","boundary","GithubCallback","set collaborator",
-"GalleryClient","boundary","AuthenticateGoogleAsync","property non-void-command collaborator",
-"GalleryClient","boundary","AuthenticateGithubAsync","property non-void-command collaborator",
-"GalleryClient","boundary","RefreshTokensAsync","wrapper stateless",
-"GalleryClient","boundary","LogoutAsync","property set collaborator",
-"GalleryClient","boundary","DownloadWallpaperAsync","non-void-command collaborator",
-"GalleryClient","boundary","UploadWallpaperAsync","controller stateless",
-"GalleryClient","boundary","GetWallpaperInfoAsync","wrapper stateless",
-"GalleryClient","boundary","SearchWallpapers","wrapper stateless",
-"GalleryClient","boundary","GetWallpaperSubscriptions","wrapper stateless",
-"GalleryClient","boundary","SubscribeToWallpaperAsync","property wrapper",
-"GalleryClient","boundary","UnsubscribeFromWallpaperAsync","property wrapper",
-"GalleryClient","boundary","GetBackendHealthAsync","property non-void-command collaborator",
-"GalleryClient","boundary","SendAsync<T>","non-void-command factory collaborator",
-"GalleryClient","boundary","InternalSendAsync","property non-void-command collaborator",
-"GalleryClient","boundary","DownloadFile","property non-void-command factory collaborator",
-"GalleryClient","boundary","GoogleCallback","set collaborator",
-"LivelyDropdown","empty","LivelyDropdown","constructor",
-"LivelyFolderDropdown","empty","LivelyFolderDropdown","constructor",
-"ShareWallpaperViewModel","empty","ShareWallpaperViewModel","constructor",
-"AppUpdateViewModel","entity commander boundary","AppUpdateViewModel","constructor",
-"AppUpdateViewModel","entity commander boundary","CheckUpdate","non-void-command collaborator",
-"AppUpdateViewModel","entity commander boundary","OpenStorePage","wrapper stateless",
-"AppUpdateViewModel","entity commander boundary","DownloadUpdate","non-void-command collaborator",
-"AppUpdateViewModel","entity commander boundary","InstallUpdate","non-void-command collaborator",
-"AppUpdateViewModel","entity commander boundary","InstallWebView2","non-void-command collaborator",
-"AppUpdateViewModel","entity commander boundary","CancelDownload","command",
-"AppUpdateViewModel","entity commander boundary","UpdateDownload_DownloadProgressChanged","wrapper stateless",
-"AppUpdateViewModel","entity commander boundary","UpdateDownload_DownloadFileCompleted","wrapper stateless",
-"AppUpdateViewModel","entity commander boundary","AppUpdater_UpdateChecked","void-accessor command collaborator",
-"AppUpdateViewModel","entity commander boundary","UpdateState","command collaborator",
-"AppUpdateViewModel","entity commander boundary","get","property collaborator",
-"ModelInput","empty","ModelInput","constructor",
-"WallpaperPlaylistClient","degenerate small-class","Start","stateless",
-"WallpaperPlaylistClient","degenerate small-class","Stop","stateless",
-"JsonTokenStore","commander boundary","Clear","set",
-"JsonTokenStore","commander boundary","Get","get set collaborator",
-"JsonTokenStore","commander boundary","Set","set collaborator",
-"FileData","empty","FileData","constructor",
-"LivelyColorPicker","empty","LivelyColorPicker","constructor",
-"AddWallpaperViewModel","unclassified","AddWallpaperViewModel","constructor",
-"AddWallpaperViewModel","unclassified","UpdateSettingsConfigFile","command",
-"AddWallpaperViewModel","unclassified","WebBrowseAction","set",
-"AddWallpaperViewModel","unclassified","FileBrowseAction","controller stateless",
-"ControlModel","empty","ControlModel","constructor",
-"MicaCustomBackdrop","commander boundary","MicaCustomBackdrop","constructor",
-"MicaCustomBackdrop","commander boundary","OnTargetConnected","command collaborator",
-"MicaCustomBackdrop","commander boundary","OnTargetDisconnected","command collaborator",
-"MicaCustomBackdrop","commander boundary","SetControllerConfig","command collaborator",
-"DropdownModel","empty","DropdownModel","constructor",
-"AboutViewModel","boundary degenerate","OpenPersonalWebsite","wrapper stateless",
-"AboutViewModel","boundary degenerate","OpenGithub","wrapper stateless",
-"AboutViewModel","boundary degenerate","OpenTwitter","wrapper stateless",
-"AboutViewModel","boundary degenerate","OpenYoutube","wrapper stateless",
-"AboutViewModel","boundary degenerate","OpenReddit","wrapper stateless",
-"AboutViewModel","boundary degenerate","OpenEmail","wrapper stateless",
-"FolderDropdownModel","empty","FolderDropdownModel","constructor",
-"PictureWinApi","commander lazy-class degenerate","PictureWinApi","constructor",
-"PictureWinApi","commander lazy-class degenerate","Pause","empty",
-"PictureWinApi","commander lazy-class degenerate","Play","empty",
-"PictureWinApi","commander lazy-class degenerate","ScreenCapture","collaborator stateless",
-"PictureWinApi","commander lazy-class degenerate","SetPlaybackPos","empty",
-"PictureWinApi","commander lazy-class degenerate","SetScreen","set collaborator",
-"PictureWinApi","commander lazy-class degenerate","SetVolume","empty",
-"PictureWinApi","commander lazy-class degenerate","SetMute","empty",
-"PictureWinApi","commander lazy-class degenerate","ShowAsync","non-void-command collaborator",
-"PictureWinApi","commander lazy-class degenerate","Stop","empty",
-"PictureWinApi","commander lazy-class degenerate","Close","set",
-"PictureWinApi","commander lazy-class degenerate","Terminate","set",
-"PictureWinApi","commander lazy-class degenerate","RestoreWallpaper","empty",
-"PictureWinApi","commander lazy-class degenerate","SendMessage","empty",
-"LabelModel","empty","LabelModel","constructor",
-"SliderModel","empty","SliderModel","constructor",
-"LibraryPreviewViewModel","commander","LibraryPreviewViewModel","constructor",
-"LibraryPreviewViewModel","commander","OnWindowClosed","wrapper stateless",
-"LibraryPreviewViewModel","commander","WInstance_WallpaperAttached","command collaborator",
-"LibraryPreviewViewModel","commander","WInstance_CaptureProgress","set",
-"LibraryPreviewViewModel","commander","set","non-void-command",
-"LibraryPreviewViewModel","commander","set","non-void-command",
-"LibraryPreviewViewModel","commander","set","non-void-command",
-"LibraryPreviewViewModel","commander","set","set",
-"UserSettingsClient","commander boundary","UserSettingsClient","constructor",
-"UserSettingsClient","commander boundary","SetSettings","command",
-"UserSettingsClient","commander boundary","SetSettingsAsync","non-void-command collaborator",
-"UserSettingsClient","commander boundary","GetSettings","property non-void-command collaborator",
-"UserSettingsClient","commander boundary","GetSettingsAsync","property non-void-command collaborator",
-"UserSettingsClient","commander boundary","GetAppRulesSettings","non-void-command factory collaborator",
-"UserSettingsClient","commander boundary","GetAppRulesSettingsAsync","non-void-command factory collaborator",
-"UserSettingsClient","commander boundary","SetAppRulesSettings","command collaborator",
-"UserSettingsClient","commander boundary","SetAppRulesSettingsAsync","non-void-command collaborator",
-"UserSettingsClient","commander boundary","Save<T>","command",
-"UserSettingsClient","commander boundary","SaveAsync<T>","non-void-command collaborator",
-"UserSettingsClient","commander boundary","Load<T>","command",
-"UserSettingsClient","commander boundary","LoadAsync<T>","non-void-command collaborator",
-"UserSettingsClient","commander boundary","CreateGrpcSettings","property factory controller",
-"UserSettingsClient","commander boundary","CreateSettingsFromGrpc","factory collaborator stateless",
-"TaskbarProgressConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"TaskbarProgressConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"TextboxModel","empty","TextboxModel","constructor",
-"LivelyInfoModel","empty","LivelyInfoModel","constructor",
-"LivelyInfoModel","empty","LivelyInfoModel","copy-constructor",
-"RestoreWallpaperView","empty","RestoreWallpaperView","copy-constructor",
-"SettingsModel","empty","SettingsModel","constructor",
-"MainWindow","commander boundary","MainWindow","constructor",
-"MainWindow","commander boundary","HandleParseError","wrapper stateless",
-"MainWindow","commander boundary","OnContentRendered","command collaborator",
-"MainWindow","commander boundary","InitializeWebView","non-void-command collaborator",
-"MainWindow","commander boundary","WebView_NavigationCompleted","command collaborator",
-"MainWindow","commander boundary","StdInListener","set collaborator",
-"MainWindow","commander boundary","MainWindow","constructor",
-"MainWindow","commander boundary","RunOptions","void-accessor command collaborator",
-"MainWindow","commander boundary","HandleParseError","wrapper stateless",
-"MainWindow","commander boundary","MediaPlayer_Loaded","wrapper",
-"MainWindow","commander boundary","MePlayer_MediaFailed","collaborator incidental",
-"MainWindow","commander boundary","MePlayer_MediaEnded","wrapper stateless",
-"MainWindow","commander boundary","Pause","wrapper stateless",
-"MainWindow","commander boundary","Play","wrapper stateless",
-"MainWindow","commander boundary","Stop","wrapper stateless",
-"MainWindow","commander boundary","SetVolume","incidental",
-"MainWindow","commander boundary","StdInListener","non-void-command collaborator",
-"MainWindow","commander boundary","MainWindow","constructor",
-"MainWindow","commander boundary","CompactLabels","incidental",
-"MainWindow","commander boundary","DesktopCore_WallpaperError","command collaborator",
-"MainWindow","commander boundary","ShowError","wrapper stateless",
-"MainWindow","commander boundary","AppUpdater_UpdateChecked","void-accessor command collaborator",
-"MainWindow","commander boundary","DesktopCore_WallpaperChanged","command collaborator",
-"MainWindow","commander boundary","NavView_ItemInvoked","command collaborator",
-"MainWindow","commander boundary","NavViewNavigate","command collaborator",
-"MainWindow","commander boundary","NavigatePage","command collaborator",
-"MainWindow","commander boundary","NavView_BackRequested","command collaborator",
-"MainWindow","commander boundary","AddWallpaperButton_Click","void-accessor command collaborator",
-"MainWindow","commander boundary","CreateWallpaper","non-void-command collaborator",
-"MainWindow","commander boundary","AddWallpaper","property non-void-command collaborator",
-"MainWindow","commander boundary","AddWallpapers","non-void-command collaborator",
-"MainWindow","commander boundary","ControlPanelButton_Click","command collaborator",
-"MainWindow","commander boundary","UpdatedButton_Click","command collaborator",
-"MainWindow","commander boundary","AppBarCoffeeBtn_Click","command collaborator",
-"MainWindow","commander boundary","AppBarThemeButton_Click","command collaborator",
-"MainWindow","commander boundary","AppBarHelpButton_Click","command collaborator",
-"MainWindow","commander boundary","AppBarAboutButton_Click","command collaborator",
-"MainWindow","commander boundary","CreateMainMenu","wrapper stateless",
-"MainWindow","commander boundary","CreateSettingsMenu","wrapper stateless",
-"MainWindow","commander boundary","ShowMainMenu","controller stateless",
-"MainWindow","commander boundary","ShowSettingsMenu","controller stateless",
-"MainWindow","commander boundary","Window_Closed","void-accessor command collaborator",
-"MainWindow","commander boundary","StdInListener","non-void-command collaborator",
-"MainWindow","commander boundary","AppTitleBar_Loaded","command collaborator",
-"MainWindow","commander boundary","AppTitleBar_SizeChanged","command collaborator",
-"MainWindow","commander boundary","MainWindow_Activated","collaborator incidental",
-"MainWindow","commander boundary","GetScaleAdjustment","property wrapper",
-"MainWindow","commander boundary","SetDragRegionForCustomTitleBar","void-accessor command collaborator",
-"MainWindow","commander boundary","AutoSuggestBox_TextChanged","void-accessor command collaborator",
-"MainWindow","commander boundary","AutoSuggestBox_SuggestionChosen","empty",
-"MainWindow","commander boundary","Search","set",
-"MainWindow","commander boundary","UpdateSuggestBoxState","wrapper stateless",
-"MainWindow","commander boundary","InitializeGallery","command",
-"MainWindow","commander boundary","UpdateAuthState","collaborator",
-"MainWindow","commander boundary","AuthClick","command collaborator",
-"MainWindow","commander boundary","Logout","command collaborator",
-"MainWindow","commander boundary","EditProfile_Click","wrapper stateless",
-"Resources","data-provider boundary","Resources","constructor",
-"Resources","data-provider boundary","get","get set collaborator",
-"Resources","data-provider boundary","get","get collaborator",
-"Resources","data-provider boundary","set","set collaborator",
-"Resources","data-provider boundary","Resources","constructor",
-"Resources","data-provider boundary","get","get set collaborator",
-"Resources","data-provider boundary","get","get collaborator",
-"Resources","data-provider boundary","set","set collaborator",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Resources","data-provider boundary","get","property wrapper",
-"Settings","data-provider data-class small-class","get","get",
-"SettingsSystemViewModel","commander","SettingsSystemViewModel","constructor",
-"SettingsSystemViewModel","commander","ShowDebug","command",
-"SettingsSystemViewModel","commander","ExtractLog","non-void-command collaborator",
-"SettingsSystemViewModel","commander","UpdateSettingsConfigFile","command",
-"SettingsSystemViewModel","commander","set","set",
-"AppUpdateServer","entity boundary","AppUpdateServer","constructor",
-"AppUpdateServer","entity boundary","CheckUpdate","property non-void-command collaborator",
-"AppUpdateServer","entity boundary","StartUpdate","property non-void-command collaborator",
-"AppUpdateServer","entity boundary","GetUpdateStatus","collaborator incidental",
-"AppUpdateServer","entity boundary","SubscribeUpdateChecked","set collaborator",
-"AppThemeFactory","factory degenerate small-class","CreateFromFile","factory wrapper stateless",
-"AppThemeFactory","factory degenerate small-class","CreateFromDirectory","factory wrapper stateless",
-"MainViewModel","commander boundary small-class","MainViewModel","constructor",
-"MainViewModel","commander boundary small-class","UpdateTheme","non-void-command collaborator",
-"DialogService","boundary lazy-class degenerate","DialogService","constructor",
-"DialogService","boundary lazy-class degenerate","ShowDisplayChooseDialogAsync","property controller",
-"DialogService","boundary lazy-class degenerate","ShowApplicationPickerDialogAsync","wrapper stateless",
-"DialogService","boundary lazy-class degenerate","ShowDialogAsync","wrapper stateless",
-"DialogService","boundary lazy-class degenerate","ShowDialogAsync","factory wrapper stateless",
-"DialogService","boundary lazy-class degenerate","ShowTextInputDialogAsync","factory controller stateless",
-"DialogService","boundary lazy-class degenerate","ShowThemeDialogAsync","wrapper stateless",
-"DialogService","boundary lazy-class degenerate","ShowCustomiseWallpaperDialogAsync","set collaborator",
-"DialogService","boundary lazy-class degenerate","ShowDepthWallpaperDialogAsync","controller stateless",
-"DialogService","boundary lazy-class degenerate","ShowWallpaperCreateDialogAsync","property non-void-command collaborator",
-"DialogService","boundary lazy-class degenerate","ShowWallpaperCreateDialogAsync","property non-void-command collaborator",
-"DialogService","boundary lazy-class degenerate","InnerShowWallpaperCreateDialog","controller stateless",
-"DialogService","boundary lazy-class degenerate","ShowAboutDialogAsync","wrapper stateless",
-"DialogService","boundary lazy-class degenerate","ShowPatreonSupportersDialogAsync","controller stateless",
-"DialogService","boundary lazy-class degenerate","ShowControlPanelDialogAsync","controller stateless",
-"DialogService","boundary lazy-class degenerate","ShowHelpDialogAsync","wrapper stateless",
-"DialogService","boundary lazy-class degenerate","ShowShareWallpaperDialogAsync","wrapper stateless",
-"DialogService","boundary lazy-class degenerate","ShowAboutWallpaperDialogAsync","wrapper stateless",
-"DialogService","boundary lazy-class degenerate","ShowDeleteWallpaperDialogAsync","wrapper stateless",
-"DialogService","boundary lazy-class degenerate","ShowReportWallpaperDialogAsync","wrapper stateless",
-"DialogService","boundary lazy-class degenerate","DialogService","constructor",
-"DialogService","boundary lazy-class degenerate","ShowErrorDialog","wrapper stateless",
-"LivelyButton","empty","LivelyButton","constructor",
-"AudioVolumeGlyphConverter","data-provider boundary lazy-class small-class","Convert","get wrapper",
-"AudioVolumeGlyphConverter","data-provider boundary lazy-class small-class","ConvertBack","collaborator stateless",
-"FloatToBoolConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"FloatToBoolConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"WallpaperPluginFactory","entity factory controller small-class","WallpaperPluginFactory","constructor",
-"WallpaperPluginFactory","entity factory controller small-class","CreateDwmThumbnailWallpaper","factory collaborator stateless",
-"WallpaperPluginFactory","entity factory controller small-class","CreateWallpaper","property non-void-command factory collaborator",
-"ListViewSelectionModeStringToEnumConverter","degenerate small-class","Convert","controller stateless",
-"ListViewSelectionModeStringToEnumConverter","degenerate small-class","ConvertBack","collaborator stateless",
-"GalleryView","small-class","GalleryView","constructor",
-"GalleryView","small-class","navView_ItemInvoked","controller",
-"GalleryView","small-class","NavigatePage","command collaborator",
-"NullVisibilityConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"NullVisibilityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"StringToInfoBarSeverityIconConverter","boundary degenerate small-class","Convert","collaborator incidental",
-"StringToInfoBarSeverityIconConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"HexStringToColorConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"HexStringToColorConverter","boundary degenerate small-class","ConvertBack","wrapper stateless",
-"LivelyControlModelConverter","degenerate","CanConvert","collaborator incidental",
-"LivelyControlModelConverter","degenerate","ReadJson","controller stateless",
-"LivelyControlModelConverter","degenerate","WriteJson","collaborator stateless",
-"LivelyScreenshotCmd","empty","LivelyScreenshotCmd","constructor",
-"LibraryAboutView","empty","LibraryAboutView","constructor",
-"LocalizationUtil","empty","LocalizationUtil","constructor",
-"WatchdogProcess","commander","WatchdogProcess","constructor",
-"WatchdogProcess","commander","Start","command collaborator",
-"WatchdogProcess","commander","Add","command",
-"WatchdogProcess","commander","Remove","command",
-"WatchdogProcess","commander","Clear","command",
-"WatchdogProcess","commander","SendMessage","command",
-"AddWallpaperCreateViewModel","empty","AddWallpaperCreateViewModel","constructor",
-"ChooseDisplayViewModel","commander boundary","ChooseDisplayViewModel","constructor",
-"ChooseDisplayViewModel","commander boundary","UpdateLayout","command collaborator",
-"ChooseDisplayViewModel","commander boundary","SetupDesktop_WallpaperChanged","command collaborator",
-"ChooseDisplayViewModel","commander boundary","set","wrapper",
-"ScreensaverLayoutViewModel","commander boundary","ScreensaverLayoutViewModel","constructor",
-"ScreensaverLayoutViewModel","commander boundary","AddScreensaver","non-void-command collaborator",
-"ScreensaverLayoutViewModel","commander boundary","RemoveScreensaver","command collaborator",
-"ScreensaverLayoutViewModel","commander boundary","CanRemoveScreensaver","predicate non-void-command",
-"ScreensaverLayoutViewModel","commander boundary","OnWindowClosing","set",
-"ScreensaverLayoutViewModel","commander boundary","DesktopCore_WallpaperChanged","command collaborator",
-"ScreensaverLayoutViewModel","commander boundary","UpdateLayout","command collaborator",
-"ScreensaverLayoutViewModel","commander boundary","UpdateScreensaverConfigFile","wrapper",
-"ScreensaverLayoutViewModel","commander boundary","UpdateSettingsConfigFile","command",
-"ScreensaverLayoutViewModel","commander boundary","set","wrapper",
-"ScreensaverLayoutViewModel","commander boundary","set","non-void-command",
-"ScreensaverLayoutViewModel","commander boundary","set","non-void-command",
-"ScreensaverLayoutViewModel","commander boundary","get","wrapper stateless",
-"ScreensaverLayoutViewModel","commander boundary","set","set",
-"WallpaperLayoutModel","empty","WallpaperLayoutModel","constructor",
-"TrayMenuHelp","empty","TrayMenuHelp","constructor",
-"CustomiseWallpaperViewModel","commander boundary","CustomiseWallpaperViewModel","constructor",
-"CustomiseWallpaperViewModel","commander boundary","Load","set collaborator",
-"CustomiseWallpaperViewModel","commander boundary","Button","collaborator incidental",
-"CustomiseWallpaperViewModel","commander boundary","SliderValueChanged","collaborator",
-"CustomiseWallpaperViewModel","commander boundary","ColorPickerValueChanged","collaborator",
-"CustomiseWallpaperViewModel","commander boundary","TextboxValueChanged","collaborator",
-"CustomiseWallpaperViewModel","commander boundary","CheckboxValueChanged","collaborator",
-"CustomiseWallpaperViewModel","commander boundary","DropdownValueChanged","wrapper",
-"CustomiseWallpaperViewModel","commander boundary","RestoreDefault","command",
-"CustomiseWallpaperViewModel","commander boundary","OnClose","command",
-"CustomiseWallpaperViewModel","commander boundary","UpdatePropertyFile","command collaborator",
-"CustomiseWallpaperViewModel","commander boundary","WallpaperSendMsg","command collaborator",
-"SettingsPerformanceView","empty","SettingsPerformanceView","constructor",
-"LivelyMessageConsole","empty","LivelyMessageConsole","constructor",
-"DisplayManager","entity boundary","DisplayManager","constructor",
-"DisplayManager","entity boundary","OnHwndCreated","incidental",
-"DisplayManager","entity boundary","OnWndProc","property non-void-command",
-"DisplayManager","entity boundary","GetDisplayMonitorFromHWnd","property non-void-command collaborator",
-"DisplayManager","entity boundary","GetDisplayMonitorFromPoint","property non-void-command collaborator",
-"DisplayManager","entity boundary","RefreshDisplayMonitorList","command collaborator",
-"DisplayManager","entity boundary","GetDisplayMonitorFromHMonitor","non-void-command factory collaborator",
-"DisplayManager","entity boundary","GetDisplayMonitorByDeviceName","property non-void-command collaborator",
-"DisplayManager","entity boundary","CreateDisplayMonitorFromMonitorInfo","non-void-command factory collaborator",
-"DisplayManager","entity boundary","UpdateDisplayMonitor","void-accessor collaborator",
-"DisplayManager","entity boundary","GetHMonitors","property factory wrapper",
-"DisplayManager","entity boundary","ScreenExists","predicate non-void-command collaborator",
-"DisplayManager","entity boundary","IsMultiScreen","predicate",
-"DepthEstimateWallpaperViewModel","boundary small-class","DepthEstimateWallpaperViewModel","constructor",
-"DepthEstimateWallpaperViewModel","boundary small-class","set","wrapper",
-"GalleryLoginViewModel","commander boundary small-class","GalleryLoginViewModel","constructor",
-"GalleryLoginViewModel","commander boundary small-class","Authenticate","non-void-command collaborator",
-"GalleryLoginViewModel","commander boundary small-class","RestoreSubscribedWallpapers","non-void-command collaborator",
-"GallerySubscriptionViewModel","empty","GallerySubscriptionViewModel","constructor",
-"GalleryViewModel","commander boundary small-class","GalleryViewModel","constructor",
-"GalleryViewModel","commander boundary small-class","SetCacheImage","non-void-command collaborator",
-"LibraryViewModel","commander boundary","LibraryViewModel","constructor",
-"LibraryViewModel","commander boundary","LibraryClick","non-void-command collaborator",
-"LibraryViewModel","commander boundary","SelectItem","property set collaborator",
-"LibraryViewModel","commander boundary","SelectItemCancel","wrapper",
-"LibraryViewModel","commander boundary","CancelDownload","void-accessor command collaborator",
-"LibraryViewModel","commander boundary","DesktopCore_WallpaperChanged","command collaborator",
-"LibraryViewModel","commander boundary","DesktopCore_WallpaperUpdated","wrapper stateless",
-"LibraryViewModel","commander boundary","UpdateSelectedWallpaper","command collaborator",
-"LibraryViewModel","commander boundary","WallpaperDelete","non-void-command collaborator",
-"LibraryViewModel","commander boundary","WallpaperExport","controller stateless",
-"LibraryViewModel","commander boundary","WallpaperShowOnDisk","wrapper stateless",
-"LibraryViewModel","commander boundary","CancelDownload","command collaborator",
-"LibraryViewModel","commander boundary","CancelAllDownloads","wrapper",
-"LibraryViewModel","commander boundary","AddWallpaperGallery","non-void-command collaborator",
-"LibraryViewModel","commander boundary","AddWallpaperFileGallery","property non-void-command collaborator",
-"LibraryViewModel","commander boundary","AddWallpaperFile","property non-void-command collaborator",
-"LibraryViewModel","commander boundary","AddWallpaperLink","property non-void-command collaborator",
-"LibraryViewModel","commander boundary","AddWallpapers","non-void-command collaborator",
-"LibraryViewModel","commander boundary","AddWallpaperFolder","property non-void-command collaborator",
-"LibraryViewModel","commander boundary","UpdateWallpaperDirectory","command collaborator",
-"LibraryViewModel","commander boundary","UpdateAnimationSettings","collaborator incidental",
-"LibraryViewModel","commander boundary","AddWallpaper","property non-void-command collaborator",
-"LibraryViewModel","commander boundary","ScanWallpaperFolders","property non-void-command collaborator",
-"LibraryViewModel","commander boundary","BinarySearch","wrapper stateless",
-"LibraryViewModel","commander boundary","set","non-void-command collaborator",
-"LibraryViewModel","commander boundary","set","non-void-command",
-"PatreonSupportersViewModel","commander boundary small-class","PatreonSupportersViewModel","constructor",
-"PatreonSupportersViewModel","commander boundary small-class","InstallWebView2","non-void-command collaborator",
-"DebugLog","empty","DebugLog","constructor",
-"AppThemeViewModel","empty","AppThemeViewModel","constructor",
-"SettingsGeneralViewModel","commander data-class small-class","SettingsGeneralViewModel","constructor",
-"SettingsGeneralViewModel","commander data-class small-class","set","set",
-"SettingsGeneralViewModel","commander data-class small-class","set","set collaborator",
-"SettingsSystemView","empty","SettingsSystemView","constructor",
-"CommandHandler","entity boundary","CommandHandler","constructor",
-"CommandHandler","entity boundary","ParseArgs","void-accessor command",
-"CommandHandler","entity boundary","RunAppOptions","property non-void-command collaborator",
-"CommandHandler","entity boundary","RunSetWallpaperOptions","property non-void-command collaborator",
-"CommandHandler","entity boundary","RunCloseWallpaperOptions","property non-void-command collaborator",
-"CommandHandler","entity boundary","RunSeekWallpaperOptions","property non-void-command collaborator",
-"CommandHandler","entity boundary","SeekWallpaper","command collaborator",
-"CommandHandler","entity boundary","RunCustomiseWallpaperOptions","property non-void-command collaborator",
-"CommandHandler","entity boundary","RunScreenSaverOptions","property non-void-command collaborator",
-"CommandHandler","entity boundary","RunScreenshotOptions","property non-void-command collaborator",
-"CommandHandler","entity boundary","HandleParseError","property non-void-command collaborator",
-"CommandHandler","entity boundary","GetWallpapers","property non-void-command collaborator",
-"CommandHandler","entity boundary","GetRandomWallpaper","property non-void-command collaborator",
-"SettingsPerformanceViewModel","commander","SettingsPerformanceViewModel","constructor",
-"SettingsPerformanceViewModel","commander","AddAppRule","non-void-command collaborator",
-"SettingsPerformanceViewModel","commander","RemoveAppRule","command",
-"SettingsPerformanceViewModel","commander","UpdateSettingsConfigFile","command",
-"SettingsPerformanceViewModel","commander","UpdateAppRulesConfigFile","command",
-"SettingsPerformanceViewModel","commander","set","set",
-"SettingsPerformanceViewModel","commander","set","set",
-"SettingsPerformanceViewModel","commander","set","set",
-"SettingsPerformanceViewModel","commander","set","set",
-"SettingsPerformanceViewModel","commander","set","set",
-"SettingsPerformanceViewModel","commander","set","set",
-"SettingsPerformanceViewModel","commander","set","set",
-"SettingsPerformanceViewModel","commander","set","wrapper",
-"SettingsWallpaperViewModel","commander","SettingsWallpaperViewModel","constructor",
-"SettingsWallpaperViewModel","commander","AddAppMusicExclusionRule","non-void-command collaborator",
-"SettingsWallpaperViewModel","commander","RemoveAppMusicExclusionRule","command",
-"SettingsWallpaperViewModel","commander","RestartMusicWallpapers","wrapper stateless",
-"SettingsWallpaperViewModel","commander","UpdateAppMusicExclusionRule","wrapper stateless",
-"SettingsWallpaperViewModel","commander","UpdateSettingsConfigFile","command",
-"SettingsWallpaperViewModel","commander","IsVideoPlayerAvailable","predicate wrapper",
-"SettingsWallpaperViewModel","commander","IsGifPlayerAvailable","predicate wrapper",
-"SettingsWallpaperViewModel","commander","IsWebPlayerAvailable","predicate wrapper",
-"SettingsWallpaperViewModel","commander","WallpaperRestart","non-void-command collaborator",
-"SettingsWallpaperViewModel","commander","set","set",
-"SettingsWallpaperViewModel","commander","set","set",
-"SettingsWallpaperViewModel","commander","set","set collaborator",
-"SettingsWallpaperViewModel","commander","set","set",
-"SettingsWallpaperViewModel","commander","set","non-void-command",
-"SettingsWallpaperViewModel","commander","set","set",
-"SettingsWallpaperViewModel","commander","set","non-void-command",
-"SettingsWallpaperViewModel","commander","set","non-void-command",
-"SettingsWallpaperViewModel","commander","set","set",
-"SettingsWallpaperViewModel","commander","set","set",
-"SettingsWallpaperViewModel","commander","get","predicate wrapper",
-"SettingsWallpaperViewModel","commander","set","non-void-command",
-"SettingsWallpaperViewModel","commander","set","set",
-"SettingsWallpaperViewModel","commander","set","wrapper",
-"EyeDropper","commander small-class","EyeDropper","constructor",
-"EyeDropper","commander small-class","SetPreviewColor","wrapper stateless",
-"EyeDropper","commander small-class","SetPosAndForeground","command",
-"LivelyPropertiesTray","empty","LivelyPropertiesTray","constructor",
-"LivelyPropertiesView","commander boundary data-class small-class","LivelyPropertiesView","constructor",
-"LivelyPropertiesView","commander boundary data-class small-class","LivelyPropertiesView","constructor",
-"LivelyPropertiesView","commander boundary data-class small-class","OnNavigatedTo","set collaborator",
-"ScreenLayoutModel","empty","ScreenLayoutModel","constructor",
-"AddWallpaperDataView","empty","AddWallpaperDataView","copy-constructor",
-"WallpaperTypeEnumToStringConverter","boundary degenerate small-class","Convert","wrapper stateless",
-"WallpaperTypeEnumToStringConverter","boundary degenerate small-class","ConvertBack","collaborator stateless",
-"AppThemeView","empty","AppThemeView","constructor",
-"AboutView","empty","AboutView","constructor",
-"AppUpdateView","commander boundary lazy-class degenerate","AppUpdateView","constructor",
-"AppUpdateView","commander boundary lazy-class degenerate","InitializeWebView2Async","set collaborator",
-"AppUpdateView","commander boundary lazy-class degenerate","WebView_CoreWebView2Initialized","set collaborator",
-"AppUpdateView","commander boundary lazy-class degenerate","CoreWebView2_NewWindowRequested","wrapper stateless",
-"AppUpdateView","commander boundary lazy-class degenerate","WebView_NavigationStarting","collaborator incidental",
-"AppUpdateView","commander boundary lazy-class degenerate","WebView_NavigationCompleted","collaborator incidental",
-"AppUpdateView","commander boundary lazy-class degenerate","Page_Loaded","wrapper stateless",
-"AppUpdateView","commander boundary lazy-class degenerate","Page_Unloaded","wrapper stateless",
-"LibraryAboutViewModel","empty","LibraryAboutViewModel","constructor",
-"ChooseDisplayView","empty","ChooseDisplayView","copy-constructor",
-"ScreensaverLayoutView","boundary small-class","ScreensaverLayoutView","constructor",
-"ScreensaverLayoutView","boundary small-class","OnNavigatedTo","collaborator",
-"WallpaperLayoutCustomiseView","empty","WallpaperLayoutCustomiseView","constructor",
-"GalleryLibraryView","boundary degenerate small-class","GalleryLibraryView","constructor",
-"GalleryLibraryView","boundary degenerate small-class","ScrollViewer_ViewChanged","collaborator incidental",
-"AppUpdaterEventArgs","empty","AppUpdaterEventArgs","constructor",
-"ShareWallpaperView","empty","ShareWallpaperView","constructor",
-"GallerySubscriptionView","empty","GallerySubscriptionView","constructor",
-"ManageAccountView","empty","ManageAccountView","constructor",
-"CommandsServer","entity boundary","CommandsServer","constructor",
-"CommandsServer","entity boundary","ShowUI","property non-void-command collaborator",
-"CommandsServer","entity boundary","CloseUI","property non-void-command collaborator",
-"CommandsServer","entity boundary","RestartUI","property non-void-command collaborator",
-"CommandsServer","entity boundary","RestartUIWithArgs","property non-void-command collaborator",
-"CommandsServer","entity boundary","ShowDebugger","property non-void-command collaborator",
-"CommandsServer","entity boundary","Screensaver","property non-void-command collaborator",
-"CommandsServer","entity boundary","ShutDown","wrapper stateless",
-"CommandsServer","entity boundary","AutomationCommand","property non-void-command collaborator",
-"CommandsServer","entity boundary","SaveRectUI","property non-void-command collaborator",
-"ReportWallpaperView","empty","ReportWallpaperView","constructor",
-"LibraryView","entity commander boundary","LibraryView","constructor",
-"LibraryView","entity commander boundary","contextMenu_Click","command collaborator",
-"LibraryView","entity commander boundary","GridView_RightTapped","set collaborator",
-"LibraryView","entity commander boundary","MoreButton_Click","void-accessor set collaborator",
-"LibraryView","entity commander boundary","Page_Drop","command collaborator",
-"LibraryView","entity commander boundary","Page_DragOver","collaborator incidental",
-"LibraryView","entity commander boundary","Page_DragLeave","collaborator incidental",
-"PatreonSupportersView","commander boundary lazy-class degenerate","PatreonSupportersView","constructor",
-"PatreonSupportersView","commander boundary lazy-class degenerate","InitializeWebView2Async","set collaborator",
-"PatreonSupportersView","commander boundary lazy-class degenerate","WebView_CoreWebView2Initialized","set collaborator",
-"PatreonSupportersView","commander boundary lazy-class degenerate","CoreWebView2_NewWindowRequested","wrapper stateless",
-"PatreonSupportersView","commander boundary lazy-class degenerate","WebView_NavigationStarting","collaborator incidental",
-"PatreonSupportersView","commander boundary lazy-class degenerate","WebView_NavigationCompleted","collaborator incidental",
-"PatreonSupportersView","commander boundary lazy-class degenerate","OnClose","wrapper stateless",
-"PatreonSupportersView","commander boundary lazy-class degenerate","Page_Unloaded","empty",
-"FindMoreAppsView","empty","FindMoreAppsView","constructor",
+"WndProcMsgWindow","small-class","WndProcMsgWindow","constructor"
+"WndProcMsgWindow","small-class","OnSourceInitialized","command collaborator"
+"WndProcMsgWindow","small-class","WndProc","property non-void-command"
+"RawInputMsgWindow","entity boundary","RawInputMsgWindow","constructor"
+"RawInputMsgWindow","entity boundary","UpdateDesktopHandles","command collaborator"
+"RawInputMsgWindow","entity boundary","Window_SourceInitialized","command collaborator"
+"RawInputMsgWindow","entity boundary","Window_Closing","wrapper"
+"RawInputMsgWindow","entity boundary","Hook","property non-void-command collaborator"
+"RawInputMsgWindow","entity boundary","ForwardMessageKeyboard","command"
+"RawInputMsgWindow","entity boundary","ForwardMessageMouse","command"
+"RawInputMsgWindow","entity boundary","CalculateMousePos","property non-void-command factory collaborator"
+"RawInputMsgWindow","entity boundary","IsDesktop","predicate wrapper"
+"MouseClickRawArgs","empty","MouseClickRawArgs","constructor"
+"WallpaperPreview","entity commander boundary","WallpaperPreview","constructor"
+"WallpaperPreview","entity commander boundary","LoadWallpaperAsync","non-void-command collaborator"
+"WallpaperPreview","entity commander boundary","Window_Loaded","command collaborator"
+"WallpaperPreview","entity commander boundary","Window_SizeChanged","wrapper"
+"WallpaperPreview","entity commander boundary","Window_Closing","void-accessor command collaborator"
+"TransparentWindow","empty","TransparentWindow","constructor"
+"SplashWindow","entity boundary small-class","SplashWindow","constructor"
+"SplashWindow","entity boundary small-class","SplashWindow","constructor"
+"SplashWindow","entity boundary small-class","Window_Closing","void-accessor command collaborator"
+"SplashWindow","entity boundary small-class","Window_Loaded","command collaborator"
+"LibraryPreview","entity commander boundary","LibraryPreview","constructor"
+"LibraryPreview","entity commander boundary","Window_Closing","void-accessor wrapper"
+"LibraryPreview","entity commander boundary","Window_Loaded","command collaborator"
+"LibraryPreview","entity commander boundary","CaptureLoop","set collaborator"
+"LibraryPreview","entity commander boundary","CapturePreview","set collaborator"
+"LibraryPreview","entity commander boundary","Exit","command"
+"LibraryPreview","entity commander boundary","StartCapture","command"
+"LibraryPreview","entity commander boundary","StartThumbnailCaptureLoop","command"
+"LibraryPreview","entity commander boundary","OnSourceInitialized","command collaborator"
+"LibraryPreview","entity commander boundary","WndProc","property wrapper"
+"DwmThumbnailWindow","commander boundary","DwmThumbnailWindow","constructor"
+"DwmThumbnailWindow","commander boundary","Window_Loaded","command collaborator"
+"DwmThumbnailWindow","commander boundary","Window_Closed","set collaborator"
+"DwmThumbnailWindow","commander boundary","Window_PreviewMouseMove","wrapper"
+"DwmThumbnailWindow","commander boundary","Window_PreviewMouseDown","wrapper"
+"DwmThumbnailWindow","commander boundary","Window_PreviewKeyDown","wrapper"
+"DwmThumbnailWindow","commander boundary","Window_PreviewTouchDown","wrapper"
+"DwmThumbnailWindow","commander boundary","Window_PreviewMouseWheel","wrapper"
+"DiagnosticMenu","small-class","DiagnosticMenu","constructor"
+"DiagnosticMenu","small-class","Generate_Report_Click","controller stateless"
+"DiagnosticMenu","small-class","Open_Debug_View_Click","command collaborator"
+"BlankWindow","empty","BlankWindow","constructor"
+"ToolStripRendererLight","degenerate","ToolStripRendererLight","constructor"
+"ToolStripRendererLight","degenerate","OnRenderArrow","controller stateless"
+"ToolStripRendererLight","degenerate","OnRenderItemCheck","controller stateless"
+"ToolStripRendererLight","degenerate","OnRenderMenuItemBackground","command collaborator"
+"ToolStripRendererDark","degenerate","ToolStripRendererDark","constructor"
+"ToolStripRendererDark","degenerate","OnRenderArrow","controller stateless"
+"ToolStripRendererDark","degenerate","OnRenderItemCheck","controller stateless"
+"ToolStripRendererDark","degenerate","OnRenderMenuItemBackground","command collaborator"
+"WallpaperPlaylistService","degenerate small-class","WallpaperPlaylistService","constructor"
+"WallpaperPlaylistService","degenerate small-class","IdleCheckTimer","empty"
+"LivelyInfoModel","empty","LivelyInfoModel","constructor"
+"LivelyInfoModel","empty","LivelyInfoModel","copy-constructor"
+"RestoreWallpaperView","empty","RestoreWallpaperView","copy-constructor"
+"ScalerDropdownModel","empty","ScalerDropdownModel","constructor"
+"SimpleDownloadService","commander boundary small-class","SimpleDownloadService","constructor"
+"SimpleDownloadService","commander boundary small-class","DownloadFile","non-void-command collaborator"
+"ControlModel","empty","ControlModel","constructor"
+"GalleryModel","empty","GalleryModel","constructor"
+"GalleryModel","empty","GalleryModel","constructor"
+"DiskCacheService","commander","DiskCacheService","constructor"
+"DiskCacheService","commander","InitializeInternal","command"
+"DiskCacheService","commander","GetFileFromCacheAsync","property non-void-command collaborator"
+"DiskCacheService","commander","RemoveExpired","command"
+"DiskCacheService","commander","InternalRemoveExpired","controller"
+"StringTruncateConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"StringTruncateConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"DisplaySelector","entity boundary","DisplaySelector","constructor"
+"DisplaySelector","entity boundary","UpdateCanvas","wrapper stateless"
+"DisplaySelector","entity boundary","Displays_CollectionChanged","command collaborator"
+"DisplaySelector","entity boundary","UpdateDisplaySelection","collaborator incidental"
+"DisplaySelector","entity boundary","Grid_PointerPressed","collaborator incidental"
+"DisplaySelector","entity boundary","Grid_PointerEntered","collaborator stateless"
+"DisplaySelector","entity boundary","Grid_PointerExited","collaborator stateless"
+"DisplaySelector","entity boundary","UserControl_SizeChanged","command collaborator"
+"DisplaySelector","entity boundary","UserControl_Loaded","command collaborator"
+"DisplaySelector","entity boundary","UserControl_Unloaded","empty"
+"DisplaySelector","entity boundary","get","property wrapper"
+"DisplaySelector","entity boundary","set","non-void-command collaborator"
+"DisplaySelector","entity boundary","get","property wrapper"
+"DisplaySelector","entity boundary","set","non-void-command collaborator"
+"DisplaySelector","entity boundary","get","predicate wrapper"
+"DisplaySelector","entity boundary","set","wrapper"
+"DisplaySelector","entity boundary","get","property wrapper"
+"DisplaySelector","entity boundary","set","non-void-command collaborator"
+"ReportWallpaperViewModel","empty","ReportWallpaperViewModel","constructor"
+"MultiDownloadService","commander boundary","MultiDownloadService","constructor"
+"MultiDownloadService","commander boundary","DownloadFile","non-void-command collaborator"
+"MultiDownloadService","commander boundary","Downloader_DownloadStarted","collaborator incidental"
+"MultiDownloadService","commander boundary","OnDownloadProgressChanged","set collaborator"
+"MultiDownloadService","commander boundary","OnDownloadFileCompleted","wrapper"
+"MultiDownloadService","commander boundary","Cancel","wrapper"
+"ButtonModel","empty","ButtonModel","constructor"
+"LivelyControlTemplateSelector","data-provider boundary small-class","SelectTemplateCore","property wrapper"
+"AppMusicExclusionRuleModel","empty","AppMusicExclusionRuleModel","constructor"
+"FindMoreAppsViewModel","entity boundary small-class","FindMoreAppsViewModel","constructor"
+"FindMoreAppsViewModel","entity boundary small-class","BrowseApp","non-void-command collaborator"
+"FindMoreAppsViewModel","entity boundary small-class","IsExcluded","predicate non-void-command collaborator"
+"DisplayManagerClient","commander boundary","DisplayManagerClient","constructor"
+"DisplayManagerClient","commander boundary","GetScreens","non-void-command factory collaborator"
+"DisplayManagerClient","commander boundary","GetVirtualScreenBounds","non-void-command factory collaborator"
+"DisplayManagerClient","commander boundary","SubscribeDisplayChangedStream","non-void-command collaborator"
+"DisplayManagerClient","commander boundary","Dispose","set"
+"DisplayManagerClient","commander boundary","Dispose","command"
+"SearchQuery","empty","SearchQuery","constructor"
+"App","boundary degenerate","Application_Startup","command collaborator"
+"App","boundary degenerate","SetupUnhandledExceptionLogging","command"
+"App","boundary degenerate","LogUnhandledException","incidental"
+"App","boundary degenerate","Application_Startup","command collaborator"
+"App","boundary degenerate","SetupUnhandledExceptionLogging","command"
+"App","boundary degenerate","LogUnhandledException","incidental"
+"App","boundary degenerate","App","constructor"
+"App","boundary degenerate","OnLaunched","set collaborator"
+"App","boundary degenerate","ConfigureServices","factory wrapper stateless"
+"App","boundary degenerate","SetAppTheme","collaborator incidental"
+"App","boundary degenerate","SetAppLanguage","wrapper stateless"
+"App","boundary degenerate","SetupUnhandledExceptionLogging","wrapper stateless"
+"App","boundary degenerate","App","constructor"
+"App","boundary degenerate","ConfigureServices","factory wrapper stateless"
+"App","boundary degenerate","ConfigureGrpcServer","factory controller stateless"
+"ApplicationsFactory","factory controller small-class","CreateApp","property factory controller"
+"ApplicationsFactory","factory controller small-class","CreateApp","factory wrapper"
+"WallpaperPlaylistServer","boundary degenerate small-class","WallpaperPlaylistServer","constructor"
+"WallpaperPlaylistServer","boundary degenerate small-class","Start","wrapper stateless"
+"WallpaperPlaylistServer","boundary degenerate small-class","Stop","wrapper stateless"
+"ColorPickerModel","empty","ColorPickerModel","constructor"
+"LibraryModel","boundary","set","wrapper"
+"LibraryModel","boundary","set","wrapper"
+"LibraryModel","boundary","set","wrapper"
+"AppUpdaterClient","commander boundary","AppUpdaterClient","constructor"
+"AppUpdaterClient","commander boundary","CheckUpdate","non-void-command collaborator"
+"AppUpdaterClient","commander boundary","StartUpdate","non-void-command collaborator"
+"AppUpdaterClient","commander boundary","UpdateStatusRefresh","non-void-command collaborator"
+"AppUpdaterClient","commander boundary","SubscribeUpdateCheckedStream","non-void-command collaborator"
+"AppUpdaterClient","commander boundary","Dispose","set"
+"AppUpdaterClient","commander boundary","Dispose","command"
+"AddWallpaperCreateView","empty","AddWallpaperCreateView","copy-constructor"
+"MiDaS","commander","MiDaS","constructor"
+"MiDaS","commander","LoadModel","command"
+"MiDaS","commander","Run","property non-void-command factory collaborator"
+"MiDaS","commander","Dispose","set"
+"MiDaS","commander","Dispose","command"
+"LivelyReloadCmd","empty","LivelyReloadCmd","constructor"
+"AppThemeFactory","factory degenerate small-class","CreateFromFile","factory wrapper stateless"
+"AppThemeFactory","factory degenerate small-class","CreateFromDirectory","factory wrapper stateless"
+"AppUpdateServer","entity boundary","AppUpdateServer","constructor"
+"AppUpdateServer","entity boundary","CheckUpdate","property non-void-command collaborator"
+"AppUpdateServer","entity boundary","StartUpdate","property non-void-command collaborator"
+"AppUpdateServer","entity boundary","GetUpdateStatus","collaborator incidental"
+"AppUpdateServer","entity boundary","SubscribeUpdateChecked","set collaborator"
+"LivelyVolumeCmd","empty","LivelyVolumeCmd","constructor"
+"LivelyTextBox","empty","LivelyTextBox","constructor"
+"LivelyMessageScreenshot","empty","LivelyMessageScreenshot","constructor"
+"GalleryLoginView","empty","GalleryLoginView","constructor"
+"TranslucentTBService","commander boundary","TranslucentTBService","constructor"
+"TranslucentTBService","commander boundary","Start","command collaborator"
+"TranslucentTBService","commander boundary","Stop","command"
+"TranslucentTBService","commander boundary","SetTheme","command collaborator"
+"TranslucentTBService","commander boundary","SetAccentColor","set collaborator"
+"TranslucentTBService","commander boundary","SetTaskbarTransparent","command collaborator"
+"TranslucentTBService","commander boundary","Dispose","set"
+"TranslucentTBService","commander boundary","Dispose","command"
+"TranslucentTBService","commander boundary","GetTaskbars","controller stateless"
+"TranslucentTBService","commander boundary","ResetTaskbar","command collaborator"
+"TranslucentTBService","commander boundary","CheckIncompatiblePrograms","property non-void-command collaborator"
+"TranslucentTBService","commander boundary","GetAverageColor","wrapper stateless"
+"AddWallpaperDataViewModel","commander","AddWallpaperDataViewModel","constructor"
+"AddWallpaperDataViewModel","commander","OperationCancelled","controller"
+"AddWallpaperDataViewModel","commander","OperationProceed","wrapper"
+"AddWallpaperDataViewModel","commander","set","non-void-command"
+"AddWallpaperDataViewModel","commander","set","non-void-command"
+"AddWallpaperDataViewModel","commander","set","non-void-command"
+"AddWallpaperDataViewModel","commander","set","set"
+"WebCefSharpProcess","commander","WebCefSharpProcess","constructor"
+"WebCefSharpProcess","commander","Pause","command"
+"WebCefSharpProcess","commander","Play","command"
+"WebCefSharpProcess","commander","ShowAsync","non-void-command collaborator"
+"WebCefSharpProcess","commander","Proc_Exited","command collaborator"
+"WebCefSharpProcess","commander","Proc_OutputDataReceived","command collaborator"
+"WebCefSharpProcess","commander","Stop","command"
+"WebCefSharpProcess","commander","SendMessage","command"
+"WebCefSharpProcess","commander","SendMessage","command collaborator"
+"WebCefSharpProcess","commander","Terminate","command"
+"WebCefSharpProcess","commander","Close","command"
+"WebCefSharpProcess","commander","SetVolume","incidental"
+"WebCefSharpProcess","commander","SetMute","empty"
+"WebCefSharpProcess","commander","SetPlaybackPos","command collaborator"
+"WebCefSharpProcess","commander","ScreenCapture","set collaborator"
+"WallpaperLayoutView","boundary small-class","WallpaperLayoutView","constructor"
+"WallpaperLayoutView","boundary small-class","OnNavigatedTo","collaborator"
+"Resources","empty","Resources","constructor"
+"Resources","empty","Resources","constructor"
+"SliderModel","empty","SliderModel","constructor"
+"CheckboxModel","empty","CheckboxModel","constructor"
+"AddWallpaperView","commander boundary degenerate","AddWallpaperView","copy-constructor"
+"AddWallpaperView","commander boundary degenerate","Page_Drop","command collaborator"
+"AddWallpaperView","commander boundary degenerate","Page_DragOver","collaborator incidental"
+"AddWallpaperView","commander boundary degenerate","Page_DragLeave","collaborator incidental"
+"GithubUpdaterService","unclassified","GithubUpdaterService","constructor"
+"GithubUpdaterService","unclassified","Start","command"
+"GithubUpdaterService","unclassified","Stop","command"
+"GithubUpdaterService","unclassified","RetryTimer_Elapsed","command collaborator"
+"GithubUpdaterService","unclassified","CheckUpdate","get property non-void-command collaborator"
+"FolderDropdown","entity boundary","FolderDropdown","constructor"
+"FolderDropdown","entity boundary","InitializeControl","command collaborator"
+"FolderDropdown","entity boundary","Delete_Button_Click","command collaborator"
+"FolderDropdown","entity boundary","OpenFile","command collaborator"
+"FolderDropdown","entity boundary","Flyout_Opened","command collaborator"
+"FolderDropdown","entity boundary","CreateModel","property non-void-command factory collaborator"
+"FolderDropdown","entity boundary","GetThumbnailTempCache","property wrapper"
+"FolderDropdown","entity boundary","DeleteThumbnailTempCache","wrapper"
+"FolderDropdown","entity boundary","get","property wrapper"
+"FolderDropdown","entity boundary","set","wrapper"
+"FolderDropdown","entity boundary","get","property wrapper"
+"FolderDropdown","entity boundary","set","wrapper"
+"FolderDropdown","entity boundary","get","property wrapper"
+"FolderDropdown","entity boundary","set","wrapper"
+"FolderDropdown","entity boundary","get","property wrapper"
+"FolderDropdown","entity boundary","set","wrapper"
+"FolderDropdown","entity boundary","get","property wrapper"
+"FolderDropdown","entity boundary","set","wrapper"
+"FolderDropdown","entity boundary","get","property wrapper"
+"FolderDropdown","entity boundary","set","wrapper"
+"FolderDropdown","entity boundary","get","property wrapper"
+"FolderDropdown","entity boundary","set","wrapper"
+"FolderDropdown","entity boundary","get","property wrapper"
+"FolderDropdown","entity boundary","set","wrapper"
+"DropdownModel","empty","DropdownModel","constructor"
+"MicaCustomBackdrop","commander boundary","MicaCustomBackdrop","constructor"
+"MicaCustomBackdrop","commander boundary","OnTargetConnected","command collaborator"
+"MicaCustomBackdrop","commander boundary","OnTargetDisconnected","command collaborator"
+"MicaCustomBackdrop","commander boundary","SetControllerConfig","command collaborator"
+"CounterHardwareUsageService","commander","CounterHardwareUsageService","constructor"
+"CounterHardwareUsageService","commander","Start","set"
+"CounterHardwareUsageService","commander","Stop","wrapper"
+"CounterHardwareUsageService","commander","InitializePerfCounters","command"
+"CounterHardwareUsageService","commander","HWMonitorLoop","command"
+"IpcMessage","empty","IpcMessage","constructor"
+"BooleanToVisibilityConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"BooleanToVisibilityConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"LivelyCheckbox","empty","LivelyCheckbox","constructor"
+"ThemeModel","empty","ThemeModel","constructor"
+"ThemeModel","empty","ThemeModel","copy-constructor"
+"ThemeModel","empty","ThemeModel","constructor"
+"WallpaperLayoutViewModel","commander boundary","WallpaperLayoutViewModel","constructor"
+"WallpaperLayoutViewModel","commander boundary","CloseWallpaper","command"
+"WallpaperLayoutViewModel","commander boundary","CloseWallpaper","void-accessor command collaborator"
+"WallpaperLayoutViewModel","commander boundary","CanCloseWallpaper","predicate wrapper"
+"WallpaperLayoutViewModel","commander boundary","CustomiseWallpaper","command"
+"WallpaperLayoutViewModel","commander boundary","CustomiseWallpaper","command collaborator"
+"WallpaperLayoutViewModel","commander boundary","CustomiseWallpaperPageOnClosed","set"
+"WallpaperLayoutViewModel","commander boundary","OnWindowClosing","set"
+"WallpaperLayoutViewModel","commander boundary","UpdateLayout","command collaborator"
+"WallpaperLayoutViewModel","commander boundary","UpdateSettingsConfigFile","command"
+"WallpaperLayoutViewModel","commander boundary","DesktopCore_WallpaperChanged","command collaborator"
+"WallpaperLayoutViewModel","commander boundary","UpdateWallpaper","non-void-command collaborator"
+"WallpaperLayoutViewModel","commander boundary","set","non-void-command collaborator"
+"WallpaperLayoutViewModel","commander boundary","set","non-void-command collaborator"
+"WallpaperLayoutViewModel","commander boundary","set","non-void-command"
+"SearchQueryBuilder","unclassified","SearchQueryBuilder","constructor"
+"SearchQueryBuilder","unclassified","SortBy","get set collaborator"
+"SearchQueryBuilder","unclassified","WithTags","get non-void-command"
+"SearchQueryBuilder","unclassified","SetPage","get set"
+"SearchQueryBuilder","unclassified","SetLimit","get set"
+"SearchQueryBuilder","unclassified","WithSearchQuery","get set"
+"SearchQueryBuilder","unclassified","Build","factory collaborator"
+"WallpaperLibraryFactory","degenerate","GetMetadata","wrapper stateless"
+"WallpaperLibraryFactory","degenerate","CreateFromDirectory","non-void-command factory collaborator"
+"WallpaperLibraryFactory","degenerate","CreateFromMetadata","factory collaborator incidental"
+"ColorPickerButton","entity boundary","ColorPickerButton","constructor"
+"ColorPickerButton","entity boundary","OpenEyeDropper","command collaborator"
+"ColorPickerButton","entity boundary","Flyout_Opened","command collaborator"
+"ColorPickerButton","entity boundary","get","property wrapper"
+"ColorPickerButton","entity boundary","set","wrapper"
+"ColorPickerButton","entity boundary","get","property wrapper"
+"ColorPickerButton","entity boundary","set","wrapper"
+"ColorPickerButton","entity boundary","get","property wrapper"
+"ColorPickerButton","entity boundary","set","wrapper"
+"FolderDropdownModel","empty","FolderDropdownModel","constructor"
+"AboutViewModel","boundary degenerate","OpenPersonalWebsite","wrapper stateless"
+"AboutViewModel","boundary degenerate","OpenGithub","wrapper stateless"
+"AboutViewModel","boundary degenerate","OpenTwitter","wrapper stateless"
+"AboutViewModel","boundary degenerate","OpenYoutube","wrapper stateless"
+"AboutViewModel","boundary degenerate","OpenReddit","wrapper stateless"
+"AboutViewModel","boundary degenerate","OpenEmail","wrapper stateless"
+"WebClientDownloadService","entity commander boundary","DownloadFile","property non-void-command collaborator"
+"WebClientDownloadService","entity commander boundary","Client_DownloadProgressChanged","set collaborator"
+"WebClientDownloadService","entity commander boundary","Client_DownloadFileCompleted","wrapper"
+"WebClientDownloadService","entity commander boundary","Cancel","command"
+"LivelyDropdownScaler","empty","LivelyDropdownScaler","constructor"
+"GalleryFeaturedView","empty","GalleryFeaturedView","constructor"
+"MouseRawArgs","empty","MouseRawArgs","constructor"
+"RestoreWallpaperViewModel","commander boundary small-class","RestoreWallpaperViewModel","constructor"
+"RestoreWallpaperViewModel","commander boundary small-class","PopulateWallpapers","non-void-command collaborator"
+"LivelySuspendCmd","empty","LivelySuspendCmd","constructor"
+"LivelyMessageHwnd","empty","LivelyMessageHwnd","constructor"
+"NAudioAudioVisualizerService","boundary","NAudioAudioVisualizerService","constructor"
+"NAudioAudioVisualizerService","boundary","CreateWasapiLoopbackCapture","property non-void-command collaborator"
+"NAudioAudioVisualizerService","boundary","ProcessAudioData","command collaborator"
+"NAudioAudioVisualizerService","boundary","BothSmooth","property non-void-command"
+"NAudioAudioVisualizerService","boundary","OnDefaultDeviceChanged","command"
+"NAudioAudioVisualizerService","boundary","OnDeviceStateChanged","collaborator incidental"
+"NAudioAudioVisualizerService","boundary","OnDeviceAdded","incidental"
+"NAudioAudioVisualizerService","boundary","OnDeviceRemoved","incidental"
+"NAudioAudioVisualizerService","boundary","OnPropertyValueChanged","collaborator incidental"
+"NAudioAudioVisualizerService","boundary","Dispose","wrapper"
+"LivelySystemNowPlaying","empty","LivelySystemNowPlaying","constructor"
+"SettingsModel","empty","SettingsModel","constructor"
+"Systray","entity commander boundary","Systray","constructor"
+"Systray","entity commander boundary","Visibility","set"
+"Systray","entity commander boundary","ShowBalloonNotification","command"
+"Systray","entity commander boundary","SetTheme","command collaborator"
+"Systray","entity commander boundary","ContextMenuStrip_Opening","command collaborator"
+"Systray","entity commander boundary","Playback_PlaybackStateChanged","set collaborator"
+"Systray","entity commander boundary","DesktopCore_WallpaperChanged","set collaborator"
+"Systray","entity commander boundary","CustomiseWallpaper","command collaborator"
+"Systray","entity commander boundary","SetUpdateMenu","command collaborator"
+"Systray","entity commander boundary","SetRandomWallpapers","non-void-command collaborator"
+"Systray","entity commander boundary","GetRandomWallpaper","property non-void-command collaborator"
+"Systray","entity commander boundary","Dispose","command"
+"Systray","entity commander boundary","Dispose","command"
+"PictureWinApi","commander lazy-class degenerate","PictureWinApi","constructor"
+"PictureWinApi","commander lazy-class degenerate","Pause","empty"
+"PictureWinApi","commander lazy-class degenerate","Play","empty"
+"PictureWinApi","commander lazy-class degenerate","ScreenCapture","collaborator stateless"
+"PictureWinApi","commander lazy-class degenerate","SetPlaybackPos","empty"
+"PictureWinApi","commander lazy-class degenerate","SetScreen","set collaborator"
+"PictureWinApi","commander lazy-class degenerate","SetVolume","empty"
+"PictureWinApi","commander lazy-class degenerate","SetMute","empty"
+"PictureWinApi","commander lazy-class degenerate","ShowAsync","non-void-command collaborator"
+"PictureWinApi","commander lazy-class degenerate","Stop","empty"
+"PictureWinApi","commander lazy-class degenerate","Close","set"
+"PictureWinApi","commander lazy-class degenerate","Terminate","set"
+"PictureWinApi","commander lazy-class degenerate","RestoreWallpaper","empty"
+"PictureWinApi","commander lazy-class degenerate","SendMessage","empty"
+"LabelModel","empty","LabelModel","constructor"
+"ModelOutput","empty","ModelOutput","constructor"
+"ApiException","data-provider boundary small-class","ApiException","constructor"
+"ApiException","data-provider boundary small-class","ApiException","constructor"
+"ApiException","data-provider boundary small-class","ApiException","constructor"
+"ApiException","data-provider boundary small-class","ApiException","constructor"
+"ApiException","data-provider boundary small-class","ApiException","constructor"
+"ApiException","data-provider boundary small-class","ToString","property wrapper"
+"LivelyMessageWallpaperLoaded","empty","LivelyMessageWallpaperLoaded","constructor"
+"LivelySlider","empty","LivelySlider","constructor"
+"ControlPanelViewModel","commander boundary","ControlPanelViewModel","constructor"
+"ControlPanelViewModel","commander boundary","NavigateBackWallpaper","incidental"
+"ControlPanelViewModel","commander boundary","ScreensaverVm_PropertyChanged","wrapper"
+"ControlPanelViewModel","commander boundary","OnWindowClosing","command collaborator"
+"ControlPanelViewModel","commander boundary","WallpaperVm_NavigatePage","wrapper"
+"TextboxModel","empty","TextboxModel","constructor"
+"JsonUserSettingsService","commander boundary degenerate","JsonUserSettingsService","constructor"
+"JsonUserSettingsService","commander boundary degenerate","Save<T>","wrapper"
+"JsonUserSettingsService","commander boundary degenerate","Load<T>","command"
+"JsonUserSettingsService","commander boundary degenerate","IsVideoPlayerAvailable","wrapper stateless"
+"JsonUserSettingsService","commander boundary degenerate","IsGifPlayerAvailable","wrapper stateless"
+"JsonUserSettingsService","commander boundary degenerate","IsWebPlayerAvailable","wrapper stateless"
+"SettingsGeneralView","empty","SettingsGeneralView","constructor"
+"LivelySystemInformation","empty","LivelySystemInformation","constructor"
+"SettingsSystemViewModel","commander","SettingsSystemViewModel","constructor"
+"SettingsSystemViewModel","commander","ShowDebug","command"
+"SettingsSystemViewModel","commander","ExtractLog","non-void-command collaborator"
+"SettingsSystemViewModel","commander","UpdateSettingsConfigFile","command"
+"SettingsSystemViewModel","commander","set","set"
+"DisplayMonitor","data-provider small-class","DisplayMonitor","constructor"
+"DisplayMonitor","data-provider small-class","DisplayMonitor","constructor"
+"DisplayMonitor","data-provider small-class","Equals","predicate"
+"NpsmNowPlayingService","commander","NpsmNowPlayingService","constructor"
+"NpsmNowPlayingService","commander","Start","set"
+"NpsmNowPlayingService","commander","Stop","set"
+"NpsmNowPlayingService","commander","SessionListChanged","command collaborator"
+"NpsmNowPlayingService","commander","SetupEvents","command"
+"NpsmNowPlayingService","commander","UpdateMedia","command collaborator"
+"ScreenSaverPreview","empty","ScreenSaverPreview","constructor"
+"GalleryClient","boundary","GalleryClient","constructor"
+"GalleryClient","boundary","InitializeAsync","set collaborator"
+"GalleryClient","boundary","GetMeAsync","wrapper stateless"
+"GalleryClient","boundary","DeleteAccountAsync","property set collaborator"
+"GalleryClient","boundary","RequestCodeAsync","get non-void-command collaborator"
+"GalleryClient","boundary","GithubCallback","set collaborator"
+"GalleryClient","boundary","AuthenticateGoogleAsync","property non-void-command collaborator"
+"GalleryClient","boundary","AuthenticateGithubAsync","property non-void-command collaborator"
+"GalleryClient","boundary","RefreshTokensAsync","wrapper stateless"
+"GalleryClient","boundary","LogoutAsync","property set collaborator"
+"GalleryClient","boundary","DownloadWallpaperAsync","non-void-command collaborator"
+"GalleryClient","boundary","UploadWallpaperAsync","controller stateless"
+"GalleryClient","boundary","GetWallpaperInfoAsync","wrapper stateless"
+"GalleryClient","boundary","SearchWallpapers","wrapper stateless"
+"GalleryClient","boundary","GetWallpaperSubscriptions","wrapper stateless"
+"GalleryClient","boundary","SubscribeToWallpaperAsync","property wrapper"
+"GalleryClient","boundary","UnsubscribeFromWallpaperAsync","property wrapper"
+"GalleryClient","boundary","GetBackendHealthAsync","property non-void-command collaborator"
+"GalleryClient","boundary","SendAsync<T>","non-void-command factory collaborator"
+"GalleryClient","boundary","InternalSendAsync","property non-void-command collaborator"
+"GalleryClient","boundary","DownloadFile","property non-void-command factory collaborator"
+"GalleryClient","boundary","GoogleCallback","set collaborator"
+"LivelyDropdown","empty","LivelyDropdown","constructor"
+"ApplicationRulesModel","empty","ApplicationRulesModel","constructor"
+"LivelyFolderDropdown","empty","LivelyFolderDropdown","constructor"
+"LivelyPropertyFactory","pure-controller degenerate small-class","CreateLivelyPropertyFolder","controller stateless"
+"AudioVolumeGlyphConverter","data-provider boundary lazy-class small-class","Convert","get wrapper"
+"AudioVolumeGlyphConverter","data-provider boundary lazy-class small-class","ConvertBack","collaborator stateless"
+"LivelyButton","empty","LivelyButton","constructor"
+"ShareWallpaperViewModel","empty","ShareWallpaperViewModel","constructor"
+"AppUpdateViewModel","entity commander boundary","AppUpdateViewModel","constructor"
+"AppUpdateViewModel","entity commander boundary","CheckUpdate","non-void-command collaborator"
+"AppUpdateViewModel","entity commander boundary","OpenStorePage","wrapper stateless"
+"AppUpdateViewModel","entity commander boundary","DownloadUpdate","non-void-command collaborator"
+"AppUpdateViewModel","entity commander boundary","InstallUpdate","non-void-command collaborator"
+"AppUpdateViewModel","entity commander boundary","InstallWebView2","non-void-command collaborator"
+"AppUpdateViewModel","entity commander boundary","CancelDownload","command"
+"AppUpdateViewModel","entity commander boundary","UpdateDownload_DownloadProgressChanged","wrapper stateless"
+"AppUpdateViewModel","entity commander boundary","UpdateDownload_DownloadFileCompleted","wrapper stateless"
+"AppUpdateViewModel","entity commander boundary","AppUpdater_UpdateChecked","command collaborator"
+"AppUpdateViewModel","entity commander boundary","UpdateState","command collaborator"
+"AppUpdateViewModel","entity commander boundary","get","property collaborator"
+"ModelInput","empty","ModelInput","constructor"
+"WallpaperPlaylistClient","degenerate small-class","Start","stateless"
+"WallpaperPlaylistClient","degenerate small-class","Stop","stateless"
+"JsonTokenStore","commander boundary","Clear","set"
+"JsonTokenStore","commander boundary","Get","get set collaborator"
+"JsonTokenStore","commander boundary","Set","set collaborator"
+"FileData","empty","FileData","constructor"
+"LivelyColorPicker","empty","LivelyColorPicker","constructor"
+"AddWallpaperViewModel","unclassified","AddWallpaperViewModel","constructor"
+"AddWallpaperViewModel","unclassified","UpdateSettingsConfigFile","command"
+"AddWallpaperViewModel","unclassified","WebBrowseAction","set"
+"AddWallpaperViewModel","unclassified","FileBrowseAction","controller stateless"
+"LivelyResumeCmd","empty","LivelyResumeCmd","constructor"
+"LanguagesModel","empty","LanguagesModel","constructor"
+"CommandsClient","commander boundary","CommandsClient","constructor"
+"CommandsClient","commander boundary","ShowUI","non-void-command collaborator"
+"CommandsClient","commander boundary","CloseUI","non-void-command collaborator"
+"CommandsClient","commander boundary","RestartUI","non-void-command collaborator"
+"CommandsClient","commander boundary","RestartUI","collaborator incidental"
+"CommandsClient","commander boundary","ShowDebugger","non-void-command collaborator"
+"CommandsClient","commander boundary","ScreensaverShow","collaborator incidental"
+"CommandsClient","commander boundary","ScreensaverConfigure","collaborator incidental"
+"CommandsClient","commander boundary","ScreensaverPreview","collaborator incidental"
+"CommandsClient","commander boundary","ShutDown","non-void-command collaborator"
+"CommandsClient","commander boundary","AutomationCommandAsync","non-void-command collaborator"
+"CommandsClient","commander boundary","AutomationCommand","command collaborator"
+"CommandsClient","commander boundary","SaveRectUI","command"
+"CommandsClient","commander boundary","SaveRectUIAsync","non-void-command collaborator"
+"LivelyCloseCmd","empty","LivelyCloseCmd","constructor"
+"WinDesktopCore","empty","WinDesktopCore","constructor"
+"VideoMpvPlayer","commander boundary","VideoMpvPlayer","constructor"
+"VideoMpvPlayer","commander boundary","Close","command"
+"VideoMpvPlayer","commander boundary","Play","set"
+"VideoMpvPlayer","commander boundary","Pause","wrapper stateless"
+"VideoMpvPlayer","commander boundary","Stop","set"
+"VideoMpvPlayer","commander boundary","SetVolume","wrapper stateless"
+"VideoMpvPlayer","commander boundary","SetMute","wrapper stateless"
+"VideoMpvPlayer","commander boundary","SetPlaybackPos","wrapper"
+"VideoMpvPlayer","commander boundary","ScreenCapture","controller"
+"VideoMpvPlayer","commander boundary","SetPlaybackProperties","command collaborator"
+"VideoMpvPlayer","commander boundary","ShowAsync","non-void-command collaborator"
+"VideoMpvPlayer","commander boundary","Proc_OutputDataReceived","command collaborator"
+"VideoMpvPlayer","commander boundary","Proc_Exited","command collaborator"
+"VideoMpvPlayer","commander boundary","Terminate","command"
+"VideoMpvPlayer","commander boundary","SendMessage","wrapper"
+"VideoMpvPlayer","commander boundary","SendMessage","command collaborator"
+"VideoMpvPlayer","commander boundary","UpdateScaler","wrapper stateless"
+"VideoMpvPlayer","commander boundary","GetMpvCommand","controller stateless"
+"VideoMpvPlayer","commander boundary","GetMpvCommandStrb","controller stateless"
+"ManageAccountViewModel","commander boundary small-class","ManageAccountViewModel","constructor"
+"ManageAccountViewModel","commander boundary small-class","DeleteAccount","non-void-command collaborator"
+"DepthEstimateWallpaperView","empty","DepthEstimateWallpaperView","copy-constructor"
+"ObservableObject","commander small-class","OnPropertyChanged","command"
+"ObservableObject","commander small-class","VerifyPropertyName","wrapper"
+"StringToInfoBarSeverityConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"StringToInfoBarSeverityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"MainWindow","commander boundary","MainWindow","constructor"
+"MainWindow","commander boundary","HandleParseError","wrapper stateless"
+"MainWindow","commander boundary","OnContentRendered","command collaborator"
+"MainWindow","commander boundary","InitializeWebView","non-void-command collaborator"
+"MainWindow","commander boundary","WebView_NavigationCompleted","command collaborator"
+"MainWindow","commander boundary","StdInListener","set collaborator"
+"MainWindow","commander boundary","MainWindow","constructor"
+"MainWindow","commander boundary","RunOptions","command collaborator"
+"MainWindow","commander boundary","HandleParseError","wrapper stateless"
+"MainWindow","commander boundary","MediaPlayer_Loaded","wrapper"
+"MainWindow","commander boundary","MePlayer_MediaFailed","collaborator incidental"
+"MainWindow","commander boundary","MePlayer_MediaEnded","wrapper stateless"
+"MainWindow","commander boundary","Pause","wrapper stateless"
+"MainWindow","commander boundary","Play","wrapper stateless"
+"MainWindow","commander boundary","Stop","wrapper stateless"
+"MainWindow","commander boundary","SetVolume","incidental"
+"MainWindow","commander boundary","StdInListener","non-void-command collaborator"
+"MainWindow","commander boundary","MainWindow","constructor"
+"MainWindow","commander boundary","CompactLabels","incidental"
+"MainWindow","commander boundary","DesktopCore_WallpaperError","command collaborator"
+"MainWindow","commander boundary","ShowError","wrapper stateless"
+"MainWindow","commander boundary","AppUpdater_UpdateChecked","command collaborator"
+"MainWindow","commander boundary","DesktopCore_WallpaperChanged","command collaborator"
+"MainWindow","commander boundary","NavView_ItemInvoked","command collaborator"
+"MainWindow","commander boundary","NavViewNavigate","command collaborator"
+"MainWindow","commander boundary","NavigatePage","command collaborator"
+"MainWindow","commander boundary","NavView_BackRequested","command collaborator"
+"MainWindow","commander boundary","AddWallpaperButton_Click","command collaborator"
+"MainWindow","commander boundary","CreateWallpaper","non-void-command collaborator"
+"MainWindow","commander boundary","AddWallpaper","property non-void-command collaborator"
+"MainWindow","commander boundary","AddWallpapers","non-void-command collaborator"
+"MainWindow","commander boundary","ControlPanelButton_Click","command collaborator"
+"MainWindow","commander boundary","UpdatedButton_Click","command collaborator"
+"MainWindow","commander boundary","AppBarCoffeeBtn_Click","command collaborator"
+"MainWindow","commander boundary","AppBarThemeButton_Click","command collaborator"
+"MainWindow","commander boundary","AppBarHelpButton_Click","command collaborator"
+"MainWindow","commander boundary","AppBarAboutButton_Click","command collaborator"
+"MainWindow","commander boundary","CreateMainMenu","wrapper stateless"
+"MainWindow","commander boundary","CreateSettingsMenu","wrapper stateless"
+"MainWindow","commander boundary","ShowMainMenu","controller stateless"
+"MainWindow","commander boundary","ShowSettingsMenu","controller stateless"
+"MainWindow","commander boundary","Window_Closed","void-accessor command collaborator"
+"MainWindow","commander boundary","StdInListener","non-void-command collaborator"
+"MainWindow","commander boundary","AppTitleBar_Loaded","command collaborator"
+"MainWindow","commander boundary","AppTitleBar_SizeChanged","command collaborator"
+"MainWindow","commander boundary","MainWindow_Activated","collaborator incidental"
+"MainWindow","commander boundary","GetScaleAdjustment","property wrapper"
+"MainWindow","commander boundary","SetDragRegionForCustomTitleBar","command collaborator"
+"MainWindow","commander boundary","AutoSuggestBox_TextChanged","void-accessor command collaborator"
+"MainWindow","commander boundary","AutoSuggestBox_SuggestionChosen","empty"
+"MainWindow","commander boundary","Search","set"
+"MainWindow","commander boundary","UpdateSuggestBoxState","wrapper stateless"
+"MainWindow","commander boundary","InitializeGallery","command"
+"MainWindow","commander boundary","UpdateAuthState","collaborator"
+"MainWindow","commander boundary","AuthClick","command collaborator"
+"MainWindow","commander boundary","Logout","command collaborator"
+"MainWindow","commander boundary","EditProfile_Click","wrapper stateless"
+"WebWebView2","commander","WebWebView2","constructor"
+"WebWebView2","commander","Close","command"
+"WebWebView2","commander","Pause","command"
+"WebWebView2","commander","Play","command"
+"WebWebView2","commander","SendMessage","command"
+"WebWebView2","commander","SendMessage","command collaborator"
+"WebWebView2","commander","SetVolume","empty"
+"WebWebView2","commander","SetMute","empty"
+"WebWebView2","commander","ShowAsync","non-void-command collaborator"
+"WebWebView2","commander","Proc_Exited","command collaborator"
+"WebWebView2","commander","Proc_OutputDataReceived","command collaborator"
+"WebWebView2","commander","Stop","command"
+"WebWebView2","commander","Terminate","command"
+"WebWebView2","commander","SetPlaybackPos","command collaborator"
+"WebWebView2","commander","ScreenCapture","empty"
+"FloatToBoolConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"FloatToBoolConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"HexStringToColorConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"HexStringToColorConverter","boundary degenerate small-class","ConvertBack","wrapper stateless"
+"GalleryView","small-class","GalleryView","constructor"
+"GalleryView","small-class","navView_ItemInvoked","controller"
+"GalleryView","small-class","NavigatePage","command collaborator"
+"NullVisibilityConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"NullVisibilityConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"UserSettingsServer","boundary","UserSettingsServer","constructor"
+"UserSettingsServer","boundary","GetAppRulesSettings","property wrapper"
+"UserSettingsServer","boundary","SetAppRulesSettings","property non-void-command collaborator"
+"UserSettingsServer","boundary","SetSettings","property non-void-command collaborator"
+"UserSettingsServer","boundary","GetSettings","property controller"
+"StringToInfoBarSeverityIconConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"StringToInfoBarSeverityIconConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"LivelyControlModelConverter","degenerate","CanConvert","collaborator incidental"
+"LivelyControlModelConverter","degenerate","ReadJson","controller stateless"
+"LivelyControlModelConverter","degenerate","WriteJson","collaborator stateless"
+"LivelyScreenshotCmd","empty","LivelyScreenshotCmd","constructor"
+"LibraryAboutView","empty","LibraryAboutView","constructor"
+"AddWallpaperCreateViewModel","empty","AddWallpaperCreateViewModel","constructor"
+"ChooseDisplayViewModel","commander boundary","ChooseDisplayViewModel","constructor"
+"ChooseDisplayViewModel","commander boundary","UpdateLayout","command collaborator"
+"ChooseDisplayViewModel","commander boundary","SetupDesktop_WallpaperChanged","command collaborator"
+"ChooseDisplayViewModel","commander boundary","set","wrapper"
+"WallpaperLayoutModel","empty","WallpaperLayoutModel","constructor"
+"TrayMenuHelp","empty","TrayMenuHelp","constructor"
+"CustomiseWallpaperViewModel","commander boundary","CustomiseWallpaperViewModel","constructor"
+"CustomiseWallpaperViewModel","commander boundary","Load","set collaborator"
+"CustomiseWallpaperViewModel","commander boundary","Button","collaborator incidental"
+"CustomiseWallpaperViewModel","commander boundary","SliderValueChanged","collaborator"
+"CustomiseWallpaperViewModel","commander boundary","ColorPickerValueChanged","collaborator"
+"CustomiseWallpaperViewModel","commander boundary","TextboxValueChanged","collaborator"
+"CustomiseWallpaperViewModel","commander boundary","CheckboxValueChanged","collaborator"
+"CustomiseWallpaperViewModel","commander boundary","DropdownValueChanged","wrapper"
+"CustomiseWallpaperViewModel","commander boundary","RestoreDefault","command"
+"CustomiseWallpaperViewModel","commander boundary","OnClose","command"
+"CustomiseWallpaperViewModel","commander boundary","UpdatePropertyFile","command collaborator"
+"CustomiseWallpaperViewModel","commander boundary","WallpaperSendMsg","command collaborator"
+"SettingsPerformanceView","empty","SettingsPerformanceView","constructor"
+"LivelyMessageConsole","empty","LivelyMessageConsole","constructor"
+"DisplayManager","entity boundary","DisplayManager","constructor"
+"DisplayManager","entity boundary","OnHwndCreated","incidental"
+"DisplayManager","entity boundary","OnWndProc","property non-void-command"
+"DisplayManager","entity boundary","GetDisplayMonitorFromHWnd","property non-void-command collaborator"
+"DisplayManager","entity boundary","GetDisplayMonitorFromPoint","property non-void-command collaborator"
+"DisplayManager","entity boundary","RefreshDisplayMonitorList","command collaborator"
+"DisplayManager","entity boundary","GetDisplayMonitorFromHMonitor","non-void-command factory collaborator"
+"DisplayManager","entity boundary","GetDisplayMonitorByDeviceName","property non-void-command collaborator"
+"DisplayManager","entity boundary","CreateDisplayMonitorFromMonitorInfo","non-void-command factory collaborator"
+"DisplayManager","entity boundary","UpdateDisplayMonitor","void-accessor collaborator"
+"DisplayManager","entity boundary","GetHMonitors","property factory wrapper"
+"DisplayManager","entity boundary","ScreenExists","predicate non-void-command collaborator"
+"DisplayManager","entity boundary","IsMultiScreen","predicate"
+"DepthEstimateWallpaperViewModel","boundary small-class","DepthEstimateWallpaperViewModel","constructor"
+"DepthEstimateWallpaperViewModel","boundary small-class","set","wrapper"
+"GalleryLoginViewModel","commander boundary small-class","GalleryLoginViewModel","constructor"
+"GalleryLoginViewModel","commander boundary small-class","Authenticate","non-void-command collaborator"
+"GalleryLoginViewModel","commander boundary small-class","RestoreSubscribedWallpapers","non-void-command collaborator"
+"GallerySubscriptionViewModel","empty","GallerySubscriptionViewModel","constructor"
+"LibraryPreviewViewModel","commander","LibraryPreviewViewModel","constructor"
+"LibraryPreviewViewModel","commander","OnWindowClosed","wrapper stateless"
+"LibraryPreviewViewModel","commander","WInstance_WallpaperAttached","command collaborator"
+"LibraryPreviewViewModel","commander","WInstance_CaptureProgress","set"
+"LibraryPreviewViewModel","commander","set","non-void-command"
+"LibraryPreviewViewModel","commander","set","non-void-command"
+"LibraryPreviewViewModel","commander","set","non-void-command"
+"LibraryPreviewViewModel","commander","set","set"
+"UserSettingsClient","commander boundary","UserSettingsClient","constructor"
+"UserSettingsClient","commander boundary","SetSettings","command"
+"UserSettingsClient","commander boundary","SetSettingsAsync","non-void-command collaborator"
+"UserSettingsClient","commander boundary","GetSettings","property non-void-command collaborator"
+"UserSettingsClient","commander boundary","GetSettingsAsync","property non-void-command collaborator"
+"UserSettingsClient","commander boundary","GetAppRulesSettings","non-void-command factory collaborator"
+"UserSettingsClient","commander boundary","GetAppRulesSettingsAsync","non-void-command factory collaborator"
+"UserSettingsClient","commander boundary","SetAppRulesSettings","command collaborator"
+"UserSettingsClient","commander boundary","SetAppRulesSettingsAsync","non-void-command collaborator"
+"UserSettingsClient","commander boundary","Save<T>","command"
+"UserSettingsClient","commander boundary","SaveAsync<T>","non-void-command collaborator"
+"UserSettingsClient","commander boundary","Load<T>","command"
+"UserSettingsClient","commander boundary","LoadAsync<T>","non-void-command collaborator"
+"UserSettingsClient","commander boundary","CreateGrpcSettings","property factory controller"
+"UserSettingsClient","commander boundary","CreateSettingsFromGrpc","factory collaborator stateless"
+"TaskbarProgressConverter","boundary degenerate small-class","Convert","collaborator incidental"
+"TaskbarProgressConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"GalleryViewModel","commander boundary small-class","GalleryViewModel","constructor"
+"GalleryViewModel","commander boundary small-class","SetCacheImage","non-void-command collaborator"
+"LibraryViewModel","commander boundary","LibraryViewModel","constructor"
+"LibraryViewModel","commander boundary","LibraryClick","non-void-command collaborator"
+"LibraryViewModel","commander boundary","SelectItem","property set collaborator"
+"LibraryViewModel","commander boundary","SelectItemCancel","wrapper"
+"LibraryViewModel","commander boundary","CancelDownload","command collaborator"
+"LibraryViewModel","commander boundary","DesktopCore_WallpaperChanged","command collaborator"
+"LibraryViewModel","commander boundary","DesktopCore_WallpaperUpdated","wrapper stateless"
+"LibraryViewModel","commander boundary","UpdateSelectedWallpaper","command collaborator"
+"LibraryViewModel","commander boundary","WallpaperDelete","non-void-command collaborator"
+"LibraryViewModel","commander boundary","WallpaperExport","controller stateless"
+"LibraryViewModel","commander boundary","WallpaperShowOnDisk","wrapper stateless"
+"LibraryViewModel","commander boundary","CancelDownload","command collaborator"
+"LibraryViewModel","commander boundary","CancelAllDownloads","wrapper"
+"LibraryViewModel","commander boundary","AddWallpaperGallery","non-void-command collaborator"
+"LibraryViewModel","commander boundary","AddWallpaperFileGallery","property non-void-command collaborator"
+"LibraryViewModel","commander boundary","AddWallpaperFile","property non-void-command collaborator"
+"LibraryViewModel","commander boundary","AddWallpaperLink","property non-void-command collaborator"
+"LibraryViewModel","commander boundary","AddWallpapers","non-void-command collaborator"
+"LibraryViewModel","commander boundary","AddWallpaperFolder","property non-void-command collaborator"
+"LibraryViewModel","commander boundary","UpdateWallpaperDirectory","command collaborator"
+"LibraryViewModel","commander boundary","UpdateAnimationSettings","collaborator incidental"
+"LibraryViewModel","commander boundary","AddWallpaper","property non-void-command collaborator"
+"LibraryViewModel","commander boundary","ScanWallpaperFolders","property non-void-command collaborator"
+"LibraryViewModel","commander boundary","BinarySearch","wrapper stateless"
+"LibraryViewModel","commander boundary","set","non-void-command collaborator"
+"LibraryViewModel","commander boundary","set","non-void-command"
+"DialogService","boundary lazy-class degenerate","DialogService","constructor"
+"DialogService","boundary lazy-class degenerate","ShowDisplayChooseDialogAsync","property controller"
+"DialogService","boundary lazy-class degenerate","ShowApplicationPickerDialogAsync","wrapper stateless"
+"DialogService","boundary lazy-class degenerate","ShowDialogAsync","wrapper stateless"
+"DialogService","boundary lazy-class degenerate","ShowDialogAsync","factory wrapper stateless"
+"DialogService","boundary lazy-class degenerate","ShowTextInputDialogAsync","controller stateless"
+"DialogService","boundary lazy-class degenerate","ShowThemeDialogAsync","wrapper stateless"
+"DialogService","boundary lazy-class degenerate","ShowCustomiseWallpaperDialogAsync","set collaborator"
+"DialogService","boundary lazy-class degenerate","ShowDepthWallpaperDialogAsync","controller stateless"
+"DialogService","boundary lazy-class degenerate","ShowWallpaperCreateDialogAsync","property non-void-command collaborator"
+"DialogService","boundary lazy-class degenerate","ShowWallpaperCreateDialogAsync","property non-void-command collaborator"
+"DialogService","boundary lazy-class degenerate","InnerShowWallpaperCreateDialog","controller stateless"
+"DialogService","boundary lazy-class degenerate","ShowAboutDialogAsync","wrapper stateless"
+"DialogService","boundary lazy-class degenerate","ShowPatreonSupportersDialogAsync","controller stateless"
+"DialogService","boundary lazy-class degenerate","ShowControlPanelDialogAsync","controller stateless"
+"DialogService","boundary lazy-class degenerate","ShowHelpDialogAsync","wrapper stateless"
+"DialogService","boundary lazy-class degenerate","ShowShareWallpaperDialogAsync","wrapper stateless"
+"DialogService","boundary lazy-class degenerate","ShowAboutWallpaperDialogAsync","wrapper stateless"
+"DialogService","boundary lazy-class degenerate","ShowDeleteWallpaperDialogAsync","wrapper stateless"
+"DialogService","boundary lazy-class degenerate","ShowReportWallpaperDialogAsync","wrapper stateless"
+"DialogService","boundary lazy-class degenerate","DialogService","constructor"
+"DialogService","boundary lazy-class degenerate","ShowErrorDialog","wrapper stateless"
+"MainViewModel","commander boundary small-class","MainViewModel","constructor"
+"MainViewModel","commander boundary small-class","UpdateTheme","non-void-command collaborator"
+"ApplicationsRulesFactory","factory degenerate small-class","CreateAppPauseRule","factory wrapper stateless"
+"ApplicationsRulesFactory","factory degenerate small-class","CreateAppMusicExclusionRule","factory wrapper stateless"
+"ControlPanelView","small-class","ControlPanelView","copy-constructor"
+"ControlPanelView","small-class","NavView_ItemInvoked","controller stateless"
+"ControlPanelView","small-class","NavigatePage","command collaborator"
+"DwmThumbnailPlayer","commander degenerate","DwmThumbnailPlayer","constructor"
+"DwmThumbnailPlayer","commander degenerate","ShowAsync","non-void-command collaborator"
+"DwmThumbnailPlayer","commander degenerate","Window_Loaded","command collaborator"
+"DwmThumbnailPlayer","commander degenerate","Window_Closed","set collaborator"
+"DwmThumbnailPlayer","commander degenerate","Play","empty"
+"DwmThumbnailPlayer","commander degenerate","Pause","empty"
+"DwmThumbnailPlayer","commander degenerate","Stop","empty"
+"DwmThumbnailPlayer","commander degenerate","Close","command"
+"DwmThumbnailPlayer","commander degenerate","Terminate","command"
+"DwmThumbnailPlayer","commander degenerate","ScreenCapture","collaborator stateless"
+"DwmThumbnailPlayer","commander degenerate","SendMessage","empty"
+"DwmThumbnailPlayer","commander degenerate","SetMute","empty"
+"DwmThumbnailPlayer","commander degenerate","SetPlaybackPos","empty"
+"DwmThumbnailPlayer","commander degenerate","SetVolume","empty"
+"PatreonSupportersViewModel","commander boundary small-class","PatreonSupportersViewModel","constructor"
+"PatreonSupportersViewModel","commander boundary small-class","InstallWebView2","non-void-command collaborator"
+"DebugLog","empty","DebugLog","constructor"
+"AppThemeViewModel","empty","AppThemeViewModel","constructor"
+"SettingsGeneralViewModel","commander data-class small-class","SettingsGeneralViewModel","constructor"
+"SettingsGeneralViewModel","commander data-class small-class","set","set"
+"SettingsGeneralViewModel","commander data-class small-class","set","set collaborator"
+"SettingsSystemView","empty","SettingsSystemView","constructor"
+"CommandHandler","entity boundary","CommandHandler","constructor"
+"CommandHandler","entity boundary","ParseArgs","command"
+"CommandHandler","entity boundary","RunAppOptions","property non-void-command collaborator"
+"CommandHandler","entity boundary","RunSetWallpaperOptions","property non-void-command collaborator"
+"CommandHandler","entity boundary","RunCloseWallpaperOptions","property non-void-command collaborator"
+"CommandHandler","entity boundary","RunSeekWallpaperOptions","property non-void-command collaborator"
+"CommandHandler","entity boundary","SeekWallpaper","command collaborator"
+"CommandHandler","entity boundary","RunCustomiseWallpaperOptions","property non-void-command collaborator"
+"CommandHandler","entity boundary","RunScreenSaverOptions","property non-void-command collaborator"
+"CommandHandler","entity boundary","RunScreenshotOptions","property non-void-command collaborator"
+"CommandHandler","entity boundary","HandleParseError","property non-void-command collaborator"
+"CommandHandler","entity boundary","GetWallpapers","property non-void-command collaborator"
+"CommandHandler","entity boundary","GetRandomWallpaper","property non-void-command collaborator"
+"VideoVlcPlayer","commander degenerate","VideoVlcPlayer","constructor"
+"VideoVlcPlayer","commander degenerate","Close","command"
+"VideoVlcPlayer","commander degenerate","GetWallpaperType","property collaborator"
+"VideoVlcPlayer","commander degenerate","Pause","empty"
+"VideoVlcPlayer","commander degenerate","Play","empty"
+"VideoVlcPlayer","commander degenerate","SetPlaybackPos","empty"
+"VideoVlcPlayer","commander degenerate","SetVolume","empty"
+"VideoVlcPlayer","commander degenerate","SetMute","empty"
+"VideoVlcPlayer","commander degenerate","ShowAsync","non-void-command collaborator"
+"VideoVlcPlayer","commander degenerate","Proc_Exited","set collaborator"
+"VideoVlcPlayer","commander degenerate","Stop","empty"
+"VideoVlcPlayer","commander degenerate","Terminate","command"
+"VideoVlcPlayer","commander degenerate","ScreenCapture","collaborator stateless"
+"VideoVlcPlayer","commander degenerate","SendMessage","empty"
+"SettingsPerformanceViewModel","commander","SettingsPerformanceViewModel","constructor"
+"SettingsPerformanceViewModel","commander","AddAppRule","non-void-command collaborator"
+"SettingsPerformanceViewModel","commander","RemoveAppRule","command"
+"SettingsPerformanceViewModel","commander","UpdateSettingsConfigFile","command"
+"SettingsPerformanceViewModel","commander","UpdateAppRulesConfigFile","command"
+"SettingsPerformanceViewModel","commander","set","set"
+"SettingsPerformanceViewModel","commander","set","set"
+"SettingsPerformanceViewModel","commander","set","set"
+"SettingsPerformanceViewModel","commander","set","set"
+"SettingsPerformanceViewModel","commander","set","set"
+"SettingsPerformanceViewModel","commander","set","set"
+"SettingsPerformanceViewModel","commander","set","set"
+"SettingsPerformanceViewModel","commander","set","wrapper"
+"SettingsWallpaperViewModel","commander","SettingsWallpaperViewModel","constructor"
+"SettingsWallpaperViewModel","commander","AddAppMusicExclusionRule","non-void-command collaborator"
+"SettingsWallpaperViewModel","commander","RemoveAppMusicExclusionRule","command"
+"SettingsWallpaperViewModel","commander","RestartMusicWallpapers","wrapper stateless"
+"SettingsWallpaperViewModel","commander","UpdateAppMusicExclusionRule","wrapper stateless"
+"SettingsWallpaperViewModel","commander","UpdateSettingsConfigFile","command"
+"SettingsWallpaperViewModel","commander","IsVideoPlayerAvailable","predicate wrapper"
+"SettingsWallpaperViewModel","commander","IsGifPlayerAvailable","predicate wrapper"
+"SettingsWallpaperViewModel","commander","IsWebPlayerAvailable","predicate wrapper"
+"SettingsWallpaperViewModel","commander","WallpaperRestart","non-void-command collaborator"
+"SettingsWallpaperViewModel","commander","set","set"
+"SettingsWallpaperViewModel","commander","set","set"
+"SettingsWallpaperViewModel","commander","set","set collaborator"
+"SettingsWallpaperViewModel","commander","set","set"
+"SettingsWallpaperViewModel","commander","set","non-void-command"
+"SettingsWallpaperViewModel","commander","set","set"
+"SettingsWallpaperViewModel","commander","set","non-void-command"
+"SettingsWallpaperViewModel","commander","set","non-void-command"
+"SettingsWallpaperViewModel","commander","set","set"
+"SettingsWallpaperViewModel","commander","set","set"
+"SettingsWallpaperViewModel","commander","get","predicate wrapper"
+"SettingsWallpaperViewModel","commander","set","non-void-command"
+"SettingsWallpaperViewModel","commander","set","set"
+"SettingsWallpaperViewModel","commander","set","wrapper"
+"EyeDropper","commander small-class","EyeDropper","constructor"
+"EyeDropper","commander small-class","SetPreviewColor","wrapper stateless"
+"EyeDropper","commander small-class","SetPosAndForeground","command"
+"LivelyPropertiesTray","empty","LivelyPropertiesTray","constructor"
+"LivelyPropertiesView","commander boundary data-class small-class","LivelyPropertiesView","constructor"
+"LivelyPropertiesView","commander boundary data-class small-class","LivelyPropertiesView","constructor"
+"LivelyPropertiesView","commander boundary data-class small-class","OnNavigatedTo","set collaborator"
+"ScreenLayoutModel","empty","ScreenLayoutModel","constructor"
+"AddWallpaperDataView","empty","AddWallpaperDataView","copy-constructor"
+"WallpaperTypeEnumToStringConverter","boundary degenerate small-class","Convert","wrapper stateless"
+"WallpaperTypeEnumToStringConverter","boundary degenerate small-class","ConvertBack","collaborator stateless"
+"AppThemeView","empty","AppThemeView","constructor"
+"AboutView","empty","AboutView","constructor"
+"AppUpdateView","commander boundary lazy-class degenerate","AppUpdateView","constructor"
+"AppUpdateView","commander boundary lazy-class degenerate","InitializeWebView2Async","set collaborator"
+"AppUpdateView","commander boundary lazy-class degenerate","WebView_CoreWebView2Initialized","set collaborator"
+"AppUpdateView","commander boundary lazy-class degenerate","CoreWebView2_NewWindowRequested","wrapper stateless"
+"AppUpdateView","commander boundary lazy-class degenerate","WebView_NavigationStarting","collaborator incidental"
+"AppUpdateView","commander boundary lazy-class degenerate","WebView_NavigationCompleted","collaborator incidental"
+"AppUpdateView","commander boundary lazy-class degenerate","Page_Loaded","wrapper stateless"
+"AppUpdateView","commander boundary lazy-class degenerate","Page_Unloaded","wrapper stateless"
+"LibraryAboutViewModel","empty","LibraryAboutViewModel","constructor"
+"ChooseDisplayView","empty","ChooseDisplayView","copy-constructor"
+"ScreensaverLayoutView","boundary small-class","ScreensaverLayoutView","constructor"
+"ScreensaverLayoutView","boundary small-class","OnNavigatedTo","collaborator"
+"WallpaperLayoutCustomiseView","empty","WallpaperLayoutCustomiseView","constructor"
+"GalleryLibraryView","boundary degenerate small-class","GalleryLibraryView","constructor"
+"GalleryLibraryView","boundary degenerate small-class","ScrollViewer_ViewChanged","collaborator incidental"
+"AppUpdaterEventArgs","empty","AppUpdaterEventArgs","constructor"
+"ShareWallpaperView","empty","ShareWallpaperView","constructor"
+"GallerySubscriptionView","empty","GallerySubscriptionView","constructor"
+"ManageAccountView","empty","ManageAccountView","constructor"
+"CommandsServer","entity boundary","CommandsServer","constructor"
+"CommandsServer","entity boundary","ShowUI","property non-void-command collaborator"
+"CommandsServer","entity boundary","CloseUI","property non-void-command collaborator"
+"CommandsServer","entity boundary","RestartUI","property non-void-command collaborator"
+"CommandsServer","entity boundary","RestartUIWithArgs","property non-void-command collaborator"
+"CommandsServer","entity boundary","ShowDebugger","property non-void-command collaborator"
+"CommandsServer","entity boundary","Screensaver","property non-void-command collaborator"
+"CommandsServer","entity boundary","ShutDown","wrapper stateless"
+"CommandsServer","entity boundary","AutomationCommand","property non-void-command collaborator"
+"CommandsServer","entity boundary","SaveRectUI","property non-void-command collaborator"
+"ReportWallpaperView","empty","ReportWallpaperView","constructor"
+"HelpView","empty","HelpView","constructor"
+"LibraryView","commander boundary","LibraryView","constructor"
+"LibraryView","commander boundary","contextMenu_Click","command collaborator"
+"LibraryView","commander boundary","GridView_RightTapped","set collaborator"
+"LibraryView","commander boundary","MoreButton_Click","set collaborator"
+"LibraryView","commander boundary","Page_Drop","command collaborator"
+"LibraryView","commander boundary","Page_DragOver","collaborator incidental"
+"LibraryView","commander boundary","Page_DragLeave","collaborator incidental"
+"WinDesktopCoreServer","boundary","WinDesktopCoreServer","constructor"
+"WinDesktopCoreServer","boundary","GetCoreStats","collaborator incidental"
+"WinDesktopCoreServer","boundary","SetWallpaper","property non-void-command collaborator"
+"WinDesktopCoreServer","boundary","GetWallpapers","controller"
+"WinDesktopCoreServer","boundary","PreviewWallpaper","property non-void-command collaborator"
+"WinDesktopCoreServer","boundary","CloseAllWallpapers","property non-void-command collaborator"
+"WinDesktopCoreServer","boundary","CloseWallpaperMonitor","property non-void-command collaborator"
+"WinDesktopCoreServer","boundary","CloseWallpaperLibrary","property non-void-command collaborator"
+"WinDesktopCoreServer","boundary","CloseWallpaperCategory","property non-void-command collaborator"
+"WinDesktopCoreServer","boundary","SubscribeWallpaperChanged","set collaborator"
+"WinDesktopCoreServer","boundary","SubscribeUpdateWallpaper","set collaborator"
+"WinDesktopCoreServer","boundary","SubscribeWallpaperError","set collaborator"
+"WinDesktopCoreServer","boundary","SendMessageWallpaper","property non-void-command collaborator"
+"WinDesktopCoreServer","boundary","TakeScreenshot","property non-void-command collaborator"
+"PatreonSupportersView","commander boundary lazy-class degenerate","PatreonSupportersView","constructor"
+"PatreonSupportersView","commander boundary lazy-class degenerate","InitializeWebView2Async","set collaborator"
+"PatreonSupportersView","commander boundary lazy-class degenerate","WebView_CoreWebView2Initialized","set collaborator"
+"PatreonSupportersView","commander boundary lazy-class degenerate","CoreWebView2_NewWindowRequested","wrapper stateless"
+"PatreonSupportersView","commander boundary lazy-class degenerate","WebView_NavigationStarting","collaborator incidental"
+"PatreonSupportersView","commander boundary lazy-class degenerate","WebView_NavigationCompleted","collaborator incidental"
+"PatreonSupportersView","commander boundary lazy-class degenerate","OnClose","wrapper stateless"
+"PatreonSupportersView","commander boundary lazy-class degenerate","Page_Unloaded","empty"
+"FindMoreAppsView","empty","FindMoreAppsView","constructor"
+"DwmThumbnailWrapper","commander","DwmThumbnailWrapper","constructor"
+"DwmThumbnailWrapper","commander","Show","wrapper"
+"DwmThumbnailWrapper","commander","TryShow","predicate non-void-command"
+"DwmThumbnailWrapper","commander","Update","wrapper"
+"DwmThumbnailWrapper","commander","Destroy","set"
+"DwmThumbnailWrapper","commander","Dispose","set"
+"DwmThumbnailWrapper","commander","Dispose","command"
+"SettingsWallpaperView","small-class","SettingsWallpaperView","constructor"
+"SettingsWallpaperView","small-class","ViewModel_PropertyChanged","command collaborator"
+"SettingsWallpaperView","small-class","ScrollElementIntoView","controller stateless"
+"Playback","commander boundary","Playback","constructor"
+"Playback","commander boundary","UpdateDesktopHandles","command collaborator"
+"Playback","commander boundary","Initialize","command"
+"Playback","commander boundary","InitializeTimer","command"
+"Playback","commander boundary","SystemEvents_SessionSwitch","command collaborator"
+"Playback","commander boundary","Start","command"
+"Playback","commander boundary","Stop","command"
+"Playback","commander boundary","ProcessMonitor","command collaborator"
+"Playback","commander boundary","GameModeAppMonitor","command"
+"Playback","commander boundary","UIAutomationMonitor","stateless"
+"Playback","commander boundary","ForegroundAppMonitor","command collaborator"
+"Playback","commander boundary","GetClassName","controller stateless"
+"Playback","commander boundary","IsWhitelistedClass","predicate non-void-command collaborator"
+"Playback","commander boundary","PauseWallpapers","controller"
+"Playback","commander boundary","PlayWallpapers","controller"
+"Playback","commander boundary","PauseWallpaper","controller"
+"Playback","commander boundary","PlayWallpaper","controller"
+"Playback","commander boundary","SetWallpaperVolume","controller"
+"Playback","commander boundary","SetWallpaperVolume","controller"
+"Playback","commander boundary","IsLivelyPlugin","predicate non-void-command"
+"Playback","commander boundary","IsZoomedCustom","predicate non-void-command collaborator"
+"Playback","commander boundary","MapWindowToMonitor","property non-void-command collaborator"
+"Playback","commander boundary","IsZoomedSpan","predicate collaborator"
+"Playback","commander boundary","IsSystemLocked","wrapper stateless"
+"Playback","commander boundary","IsDesktop","predicate wrapper"
+"Playback","commander boundary","Dispose","set"
+"Playback","commander boundary","Dispose","command"
+"Playback","commander boundary","set","set collaborator"
+"IpcMessageConverter","boundary degenerate","CanConvert","collaborator incidental"
+"IpcMessageConverter","boundary degenerate","ReadJson","controller stateless"
+"IpcMessageConverter","boundary degenerate","WriteJson","collaborator stateless"
+"IpcMessageConverter","boundary degenerate","get","incidental"
+"Icons","empty","Icons","constructor"
+"ScreensaverLayoutViewModel","commander boundary","ScreensaverLayoutViewModel","constructor"
+"ScreensaverLayoutViewModel","commander boundary","AddScreensaver","non-void-command collaborator"
+"ScreensaverLayoutViewModel","commander boundary","RemoveScreensaver","command collaborator"
+"ScreensaverLayoutViewModel","commander boundary","CanRemoveScreensaver","predicate non-void-command"
+"ScreensaverLayoutViewModel","commander boundary","OnWindowClosing","set"
+"ScreensaverLayoutViewModel","commander boundary","DesktopCore_WallpaperChanged","command collaborator"
+"ScreensaverLayoutViewModel","commander boundary","UpdateLayout","command collaborator"
+"ScreensaverLayoutViewModel","commander boundary","UpdateScreensaverConfigFile","wrapper"
+"ScreensaverLayoutViewModel","commander boundary","UpdateSettingsConfigFile","command"
+"ScreensaverLayoutViewModel","commander boundary","set","wrapper"
+"ScreensaverLayoutViewModel","commander boundary","set","non-void-command"
+"ScreensaverLayoutViewModel","commander boundary","set","non-void-command"
+"ScreensaverLayoutViewModel","commander boundary","get","wrapper stateless"
+"ScreensaverLayoutViewModel","commander boundary","set","set"
+"ExtPrograms","commander","ExtPrograms","constructor"
+"ExtPrograms","commander","Close","command"
+"ExtPrograms","commander","Pause","unclassified"
+"ExtPrograms","commander","Play","unclassified"
+"ExtPrograms","commander","Stop","command"
+"ExtPrograms","commander","ShowAsync","non-void-command collaborator"
+"ExtPrograms","commander","Proc_Exited","set collaborator"
+"ExtPrograms","commander","Terminate","command"
+"ExtPrograms","commander","SetVolume","wrapper"
+"ExtPrograms","commander","SetMute","empty"
+"ExtPrograms","commander","SetPlaybackPos","empty"
+"ExtPrograms","commander","ScreenCapture","collaborator stateless"
+"ExtPrograms","commander","SendMessage","empty"
+"VideoWmfProcess","commander","VideoWmfProcess","constructor"
+"VideoWmfProcess","commander","Pause","command"
+"VideoWmfProcess","commander","Play","command"
+"VideoWmfProcess","commander","ShowAsync","non-void-command collaborator"
+"VideoWmfProcess","commander","Proc_Exited","command collaborator"
+"VideoWmfProcess","commander","Proc_OutputDataReceived","command collaborator"
+"VideoWmfProcess","commander","Stop","command"
+"VideoWmfProcess","commander","SendMessage","command"
+"VideoWmfProcess","commander","SendMessage","command collaborator"
+"VideoWmfProcess","commander","Terminate","command"
+"VideoWmfProcess","commander","Close","command"
+"VideoWmfProcess","commander","SetVolume","incidental"
+"VideoWmfProcess","commander","SetMute","empty"
+"VideoWmfProcess","commander","SetPlaybackPos","empty"
+"VideoWmfProcess","commander","ScreenCapture","wrapper"
+"WatchdogProcess","commander","WatchdogProcess","constructor"
+"WatchdogProcess","commander","Start","command collaborator"
+"WatchdogProcess","commander","Add","command"
+"WatchdogProcess","commander","Remove","command"
+"WatchdogProcess","commander","Clear","command"
+"WatchdogProcess","commander","SendMessage","command"
+"ListViewSelectionModeStringToEnumConverter","degenerate small-class","Convert","controller stateless"
+"ListViewSelectionModeStringToEnumConverter","degenerate small-class","ConvertBack","collaborator stateless"
+"WallpaperPluginFactory","entity factory controller small-class","WallpaperPluginFactory","constructor"
+"WallpaperPluginFactory","entity factory controller small-class","CreateDwmThumbnailWallpaper","factory collaborator stateless"
+"WallpaperPluginFactory","entity factory controller small-class","CreateWallpaper","property non-void-command factory collaborator"
+"DisplayManagerServer","unclassified","DisplayManagerServer","constructor"
+"DisplayManagerServer","unclassified","GetScreens","property controller"
+"DisplayManagerServer","unclassified","GetVirtualScreenBounds","property wrapper"
+"DisplayManagerServer","unclassified","SubscribeDisplayChanged","set collaborator"
+"WinDesktopCoreClient","commander boundary","WinDesktopCoreClient","constructor"
+"WinDesktopCoreClient","commander boundary","SetWallpaper","non-void-command collaborator"
+"WinDesktopCoreClient","commander boundary","SetWallpaper","non-void-command collaborator"
+"WinDesktopCoreClient","commander boundary","GetWallpapers","non-void-command factory collaborator"
+"WinDesktopCoreClient","commander boundary","PreviewWallpaper","collaborator incidental"
+"WinDesktopCoreClient","commander boundary","CloseAllWallpapers","collaborator incidental"
+"WinDesktopCoreClient","commander boundary","CloseWallpaper","collaborator incidental"
+"WinDesktopCoreClient","commander boundary","CloseWallpaper","collaborator incidental"
+"WinDesktopCoreClient","commander boundary","CloseWallpaper","collaborator incidental"
+"WinDesktopCoreClient","commander boundary","SendMessageWallpaper","collaborator incidental"
+"WinDesktopCoreClient","commander boundary","SendMessageWallpaper","collaborator incidental"
+"WinDesktopCoreClient","commander boundary","TakeScreenshot","collaborator incidental"
+"WinDesktopCoreClient","commander boundary","SubscribeWallpaperChangedStream","non-void-command collaborator"
+"WinDesktopCoreClient","commander boundary","SubscribeWallpaperErrorStream","non-void-command collaborator"
+"WinDesktopCoreClient","commander boundary","SubscribeWallpaperUpdatedStream","non-void-command collaborator"
+"WinDesktopCoreClient","commander boundary","Dispose","set"
+"WinDesktopCoreClient","commander boundary","Dispose","command"
+"ScreensaverService","commander boundary","ScreensaverService","constructor"
+"ScreensaverService","commander boundary","StartAsync","non-void-command collaborator"
+"ScreensaverService","commander boundary","Stop","command"
+"ScreensaverService","commander boundary","StartIdleTimer","command"
+"ScreensaverService","commander boundary","StopIdleTimer","command"
+"ScreensaverService","commander boundary","DisplayManager_DisplayUpdated","command collaborator"
+"ScreensaverService","commander boundary","ShowScreensavers","non-void-command collaborator"
+"ScreensaverService","commander boundary","CloseScreensavers","command"
+"ScreensaverService","commander boundary","ShowWindowAsScreensaver","non-void-command collaborator"
+"ScreensaverService","commander boundary","ShowPreviewWindowAsScreensaver","non-void-command collaborator"
+"ScreensaverService","commander boundary","ShowPreviewWindowAsScreensaver","non-void-command collaborator"
+"ScreensaverService","commander boundary","CloseWindowAsScreensaver","command"
+"ScreensaverService","commander boundary","ShowBlankWindowAsScreensaver","command collaborator"
+"ScreensaverService","commander boundary","ShowBlankWindowAsScreensaver","command collaborator"
+"ScreensaverService","commander boundary","CloseBlankWindowAsScreensaver","command"
+"ScreensaverService","commander boundary","ShowRunningWallpaperAsScreensaver","command collaborator"
+"ScreensaverService","commander boundary","CloseRunningWallpaperAsScreensaver","command collaborator"
+"ScreensaverService","commander boundary","ShowDwmThumbnailAsScreensaver","command"
+"ScreensaverService","commander boundary","CloseDwmThumbnailAsScreensaver","command"
+"ScreensaverService","commander boundary","IdleCheckTimer","command collaborator"
+"ScreensaverService","commander boundary","CreatePreview","command collaborator"
+"ScreensaverService","commander boundary","StartInputListener","command"
+"ScreensaverService","commander boundary","StopInputListener","command"
+"RunnerService","commander","RunnerService","constructor"
+"RunnerService","commander","ShowUI","command"
+"RunnerService","commander","ShowAppUpdatePage","command"
+"RunnerService","commander","ShowCustomisWallpaperePanel","command collaborator"
+"RunnerService","commander","RestartUI","command"
+"RunnerService","commander","CloseUI","command"
+"RunnerService","commander","SaveRectUI","wrapper"
+"RunnerService","commander","ShowUI","command"
+"RunnerService","commander","Proc_OutputDataReceived","command collaborator"
+"RunnerService","commander","Proc_UI_Exited","command collaborator"
+"RunnerService","commander","SetWindowRect","command collaborator"
+"RunnerService","commander","IsOnScreen","predicate non-void-command collaborator"
+"RunnerService","commander","Dispose","set"
+"RunnerService","commander","Dispose","command"
